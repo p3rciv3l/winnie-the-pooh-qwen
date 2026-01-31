@@ -24,6 +24,7 @@ class TopKResult(NamedTuple):
     indices: list[int]
     probs: list[float]
 
+
 QUANTILE_KEYS = (
     1e-8,
     1e-7,
@@ -36,6 +37,7 @@ QUANTILE_KEYS = (
     1 - 1e-7,
     1 - 1e-8,
 )
+
 
 def approximate_quantile(
     q: float,
@@ -61,10 +63,9 @@ def approximate_quantile(
     approx_values = np.empty(batch_size, dtype=np.float64)
 
     # Known cumulative probabilities for bottom_k_values and top_k_values
-    bottom_p = np.arange(1, k + 1) / N  # Shape: (k,)
-    top_p = (N - k + np.arange(1, k + 1)) / N  # Shape: (k,)
+    bottom_p = np.arange(1, k + 1) / N
+    top_p = (N - k + np.arange(1, k + 1)) / N
 
-    # Determine if q is in lower or upper quantile range
     if (1 / N) <= q <= (k / N):
         # Lower quantiles
         p = bottom_p
@@ -78,13 +79,13 @@ def approximate_quantile(
 
     # Find the indices for interpolation
     indices = np.searchsorted(p, q, side="right") - 1
-    indices = np.clip(indices, 0, k - 2)  # Ensure indices are within valid range
+    indices = np.clip(indices, 0, k - 2)
 
     # Get the cumulative probabilities and values for interpolation
-    p_lower = p[indices]  # Shape: (batch_size,)
-    p_upper = p[indices + 1]  # Shape: (batch_size,)
-    v_lower = values[:, indices]  # Shape: (batch_size,)
-    v_upper = values[:, indices + 1]  # Shape: (batch_size,)
+    p_lower = p[indices]
+    p_upper = p[indices + 1]
+    v_lower = values[:, indices]
+    v_upper = values[:, indices + 1]
 
     # Compute the fraction for interpolation
     fraction = (v_upper - v_lower) / (p_upper - p_lower)

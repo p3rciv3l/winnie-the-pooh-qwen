@@ -1,5 +1,5 @@
 # PRD  
- Every single explanation of a neuron relating to "politics" is blotted out with ***. This is 25% of explanations and renders the data a lot less useful. Our goal is to  
+Every single explanation of a neuron relating to "politics" is blotted out with ***. This is 25% of explanations and renders the data a lot less useful. Our goal is to  
 1. Generate explanations for these neurons  
 2. Manually analyze them and find neurons of particular interest  
 3. Clamp some neurons and make a funny model, if we so choose  
@@ -67,8 +67,8 @@ c) Validate with simulation. We can do this after.
   
 **Additional Downloads (required)**  
 - dataset that is fed to the hooked model:   
-- Qwen2.5-3B-Instruct model from [Hugging Face](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)     repo_id="Qwen/Qwen2.5-3B-Instruct",     local_dir="/content/Qwen2.5-3B-Instruct"  
-- SAE from [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)     repo_id="OysterAI/Qwen2.5-3B-Instruct-SAEs",     local_dir="/content/Qwen2.5-3B-Instruct-SAEs"  
+- Qwen2.5-3B-Instruct model from [Hugging Face](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)    repo_id="Qwen/Qwen2.5-3B-Instruct",    local_dir="/content/Qwen2.5-3B-Instruct"  
+- SAE from [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)    repo_id="OysterAI/Qwen2.5-3B-Instruct-SAEs",    local_dir="/content/Qwen2.5-3B-Instruct-SAEs"  
   
 **Blog Notes**  
 - “Even though Qwen2.5-3B-Instruct was [released in September 2024](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct), given that the Qwen team trained the SAE only a few months ago and chose this model specifically, we believe that our results are a good representation of the current state of Qwen models.”  

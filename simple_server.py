@@ -5,13 +5,13 @@ import os
 import torch
 from tqdm import tqdm
 from nnsight.util import fetch_attr
-from sae import TopKReLUEncoder
 from nnsight import LanguageModel
 from transformers import AutoTokenizer
-from sae import get_learned_activations
-from setup import *
-from neuron_db import get_neurondb, get_display_table
 from transformers.models.llama import LlamaConfig, LlamaForCausalLM
+
+from core import TopKReLUEncoder, get_learned_activations
+from core import setup_source_model, setup_sae_encoder, setup_selected_neuron_indices, setup_quantiles
+from neuron_db import get_neurondb, get_display_table
 
 app = Flask(__name__)
 
