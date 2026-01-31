@@ -35,19 +35,23 @@ Our demonstrative interactive website page. The product will be open-sourced soo
 
 ## Setup
 To set up the project locally, please follow these steps:
+
 ### Environment
-```python
-pip install -r requirements.txt
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
+
+```bash
+uv sync
 ```
+
 ### Source Model (Qwen2.5-3B-Instruct)
-Download Qwen2.5-3B-Instruct files from huggingface to your local directory: /your/local/Qwen2.5-3B-Instruct
+Download Qwen2.5-3B-Instruct files from huggingface to your local directory:
 ```bash
 export SOURCE_MODEL='/your/local/Qwen2.5-3B-Instruct'
 ```
 
 ### Demo Server
 ```bash
-python simple_server.py
+uv run python simple_server.py
 ```
 
 ## Acknowledgements
