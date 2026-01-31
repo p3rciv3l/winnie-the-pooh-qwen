@@ -102,10 +102,9 @@ def collect_activations(
                     # (seq_len, 1, 14336)
                     item_acts = layer_acts[batch_idx]
 
-                    # Get learned activations: (seq_len, 1, n_learned)
+                    # Get learned activations: (seq_len, 1, 1, n_learned)
                     learned_acts = get_learned_activations(encoder, item_acts)
-                    # Remove layer dim: (seq_len, n_learned)
-                    learned_acts = learned_acts.squeeze(1)
+                    learned_acts = learned_acts.view(learned_acts.size(0), -1)
 
                     # For each target neuron in this layer
                     for neuron_idx in target_neurons:
