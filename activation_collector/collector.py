@@ -2,6 +2,9 @@
 
 from pathlib import Path
 
+import transformers
+transformers.logging.set_verbosity_error()
+
 import torch
 import pandas as pd
 from tqdm import tqdm
@@ -32,13 +35,12 @@ def collect_activations(
     shards_dir: Path = DEFAULT_SHARDS_DIR,
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     batch_size: int = 4,
-    max_seq_len: int = 512,
 ):
     """
-    Main collection loop.
+    Main collection loop using pre-tokenized shards.
 
     1. Load model + SAEs
-    2. Iterate through shards
+    2. Iterate through pre-tokenized shards
     3. For each text, get activations at all layers
     4. Update heaps for neurons we care about
     5. Export to parquet when done
@@ -48,33 +50,36 @@ def collect_activations(
 
     print("Loading SAEs...")
     sae_encoders = setup_sae_encoder(sae_paths)
-    layer_to_encoder_idx = {layer: idx for idx, layer in enumerate(LAYERS)}
 
     print(f"Tracking {len(NEURONS)} neurons across {len(LAYERS)} layers")
     tracker = NeuronHeapTracker(NEURONS, top_k=TOP_K)
 
     # Get all shard files
     shard_files = sorted(shards_dir.glob("*.parquet"))
-    print(f"Found {len(shard_files)} shard files")
+    print(f"Found {len(shard_files)} shard files in {shards_dir}")
 
-    for shard_idx, shard_path in enumerate(tqdm(shard_files, desc="Processing shards")):
+    for shard_path in tqdm(shard_files, desc="Processing shards"):
         shard_id = shard_path.stem
         df = pd.read_parquet(shard_path)
 
-        # Process in batches
         texts = df["plain_text"].tolist()
+        all_input_ids = df["input_ids"].tolist()
+        all_attention_masks = df["attention_mask"].tolist()
 
         for batch_start in range(0, len(texts), batch_size):
-            batch_texts = texts[batch_start : batch_start + batch_size]
+            batch_end = batch_start + batch_size
+            batch_texts = texts[batch_start:batch_end]
+            batch_input_ids = all_input_ids[batch_start:batch_end]
+            batch_attention_masks = all_attention_masks[batch_start:batch_end]
 
-            # Tokenize
-            inputs = tokenizer(
-                batch_texts,
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-                max_length=max_seq_len,
-            ).to("cuda")
+            # Convert to tensors and move to GPU
+            input_ids_tensor = torch.tensor(batch_input_ids, dtype=torch.long, device="cuda")
+            attention_mask_tensor = torch.tensor(batch_attention_masks, dtype=torch.long, device="cuda")
+
+            inputs = {
+                "input_ids": input_ids_tensor,
+                "attention_mask": attention_mask_tensor,
+            }
 
             # Get activations at all layers: (batch_size, seq_len, n_layers, 14336)
             with torch.no_grad():
@@ -94,10 +99,9 @@ def collect_activations(
 
                 # Process each item in batch
                 for batch_idx in range(layer_acts.size(0)):
-                    str_text = batch_texts[batch_idx]
-                    # Get token strings for this item
-                    input_ids = inputs["input_ids"][batch_idx]
-                    tokens = tokenizer.convert_ids_to_tokens(input_ids)
+                    st_text = batch_texts[batch_idx]
+                    input_ids = input_ids_tensor[batch_idx]
+                    tokens = tokenizer.convert_ids_to_tokens(input_ids.cpu())
 
                     # (seq_len, 1, 14336)
                     item_acts = layer_acts[batch_idx]
@@ -111,28 +115,30 @@ def collect_activations(
                         neuron_id = f"{layer}_{neuron_idx}"
 
                         # Get activations for this neuron across all tokens: (seq_len,)
-                        neuron_acts = learned_acts[:, neuron_idx].cpu()
+                        neuron_acts = learned_acts[:, neuron_idx]
 
-                        # Find top activating tokens for this neuron
-                        for token_idx, activation in enumerate(neuron_acts):
-                            act_val = activation.item()
-                            if act_val <= 0:
-                                continue
+                        # Find max activation and its position
+                        max_val, max_idx = neuron_acts.max(dim=0)
+                        act_val = max_val.item()
 
-                            # Check if worth adding (quick threshold check)
-                            min_act = tracker.get_min_activation(neuron_id)
-                            if min_act is not None and act_val <= min_act:
-                                continue
+                        if act_val <= 0:
+                            continue
 
-                            token = tokens[token_idx] if token_idx < len(tokens) else "<unk>"
-                            tracker.update(
-                                neuron_id=neuron_id,
-                                activation=act_val,
-                                text=str_text,
-                                token_idx=token_idx,
-                                token=token,
-                                shard_id=shard_id,
-                            )
+                        # Check if worth adding (quick threshold check)
+                        min_act = tracker.get_min_activation(neuron_id)
+                        if min_act is not None and act_val <= min_act:
+                            continue
+
+                        token_idx = max_idx.item()
+                        token = tokens[token_idx] if token_idx < len(tokens) else "<unk>"
+                        tracker.update(
+                            neuron_id=neuron_id,
+                            activation=act_val,
+                            text=st_text,
+                            token_idx=token_idx,
+                            token=token,
+                            shard_id=shard_id,
+                        )
 
             # Clear CUDA cache periodically
             if batch_start % (batch_size * 10) == 0:
@@ -155,7 +161,6 @@ if __name__ == "__main__":
     parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--batch-size", type=int, default=4)
-    parser.add_argument("--max-seq-len", type=int, default=512)
 
     args = parser.parse_args()
 
@@ -164,5 +169,4 @@ if __name__ == "__main__":
         shards_dir=args.shards_dir,
         output_dir=args.output_dir,
         batch_size=args.batch_size,
-        max_seq_len=args.max_seq_len,
     )

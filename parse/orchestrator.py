@@ -1,7 +1,7 @@
 from datasets import load_dataset, interleave_datasets, Dataset
 from collections import deque
 import os
-from rx import build_rx
+from .rx import build_rx
 from transformers import AutoTokenizer
 
 MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
