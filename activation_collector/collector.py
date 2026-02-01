@@ -5,6 +5,7 @@ from pathlib import Path
 import transformers
 transformers.logging.set_verbosity_error()
 
+import numpy as np
 import torch
 import pandas as pd
 from tqdm import tqdm
@@ -73,8 +74,11 @@ def collect_activations(
             batch_attention_masks = all_attention_masks[batch_start:batch_end]
 
             # Convert to tensors and move to GPU
-            input_ids_tensor = torch.tensor(batch_input_ids, dtype=torch.long, device="cuda")
-            attention_mask_tensor = torch.tensor(batch_attention_masks, dtype=torch.long, device="cuda")
+            # Convert to numpy arrays first to avoid warning about list of numpy arrays
+            input_ids_array = np.array(batch_input_ids, dtype=np.int64)
+            attention_mask_array = np.array(batch_attention_masks, dtype=np.int64)
+            input_ids_tensor = torch.from_numpy(input_ids_array).to(device="cuda")
+            attention_mask_tensor = torch.from_numpy(attention_mask_array).to(device="cuda")
 
             inputs = {
                 "input_ids": input_ids_tensor,
