@@ -62,7 +62,7 @@ def collect_activations(
         df = pd.read_parquet(shard_path)
 
         # Process in batches
-        texts = df["text"].tolist() if "text" in df.columns else df.iloc[:, 0].tolist()
+        texts = df["plain_text"].tolist()
 
         for batch_start in range(0, len(texts), batch_size):
             batch_texts = texts[batch_start : batch_start + batch_size]
