@@ -96,45 +96,38 @@ def collect_activations(
                 # Extract this layer's activations: (batch_size, seq_len, 1, 14336)
                 layer_acts = acts_tensor[:, :, layer_idx : layer_idx + 1, :]
 
+                batch_size, seq_len, _, hidden_dim = layer_acts.shape
+                layer_acts_flat = layer_acts.reshape(batch_size * seq_len, 1, hidden_dim)
+
+                learned_flat = get_learned_activations(encoder, layer_acts_flat)
+                learned = learned_flat.view(batch_size, seq_len, -1)
+
                 # Get neurons we care about for this layer
                 target_neurons = NEURONS_BY_LAYER[layer]
                 if not target_neurons:
                     continue
 
-                # Process each item in batch
-                for batch_idx in range(layer_acts.size(0)):
-                    st_text = batch_texts[batch_idx]
-                    input_ids = input_ids_tensor[batch_idx]
-                    tokens = tokenizer.convert_ids_to_tokens(input_ids.cpu())
+                target_acts = learned[:, :, target_neurons]
 
-                    # (seq_len, 1, 14336)
-                    item_acts = layer_acts[batch_idx]
+                max_vals, max_idxs = target_acts.max(dim=1)
 
-                    # Get learned activations: (seq_len, 1, 1, n_learned)
-                    learned_acts = get_learned_activations(encoder, item_acts)
-                    learned_acts = learned_acts.view(learned_acts.size(0), -1)
+                for b in range(batch_size):
+                    st_text = batch_texts[b]
+                    input_ids = input_ids_tensor[b]
 
-                    # For each target neuron in this layer
-                    for neuron_idx in target_neurons:
-                        neuron_id = f"{layer}_{neuron_idx}"
-
-                        # Get activations for this neuron across all tokens: (seq_len,)
-                        neuron_acts = learned_acts[:, neuron_idx]
-
-                        # Find max activation and its position
-                        max_val, max_idx = neuron_acts.max(dim=0)
-                        act_val = max_val.item()
-
+                    for j, neuron_idx in enumerate(target_neurons):
+                        act_val = max_vals[b, j].item()
                         if act_val <= 0:
                             continue
 
-                        # Check if worth adding (quick threshold check)
+                        neuron_id = f"{layer}_{neuron_idx}"
                         min_act = tracker.get_min_activation(neuron_id)
                         if min_act is not None and act_val <= min_act:
                             continue
 
-                        token_idx = max_idx.item()
-                        token = tokens[token_idx] if token_idx < len(tokens) else "<unk>"
+                        token_idx = max_idxs[b, j].item()
+                        token = tokenizer.convert_ids_to_tokens([input_ids[token_idx].item()])[0]
+
                         tracker.update(
                             neuron_id=neuron_id,
                             activation=act_val,
@@ -144,9 +137,7 @@ def collect_activations(
                             shard_id=shard_id,
                         )
 
-            # Clear CUDA cache periodically
-            if batch_start % (batch_size * 10) == 0:
-                torch.cuda.empty_cache()
+
 
     # Final export
     print("\nExporting final results...")
@@ -164,7 +155,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-path", default=DEFAULT_MODEL_PATH)
     parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
-    parser.add_argument("--batch-size", type=int, default=16)
+    parser.add_argument("--batch-size", type=int, default=64)
 
     args = parser.parse_args()
 
