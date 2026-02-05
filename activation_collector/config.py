@@ -122,9 +122,12 @@ NEURONS = [
 ]
 
 
-NEURONS_BY_LAYER: dict[int, set[int]] = {layer: set() for layer in LAYERS}
+NEURONS_BY_LAYER = {layer: set() for layer in LAYERS}
 for neuron_id in NEURONS:
     layer, idx = neuron_id.split("_")
     layer = int(layer)
     if layer in NEURONS_BY_LAYER:
         NEURONS_BY_LAYER[layer].add(int(idx))
+
+for x, y in NEURONS_BY_LAYER.items():
+    NEURONS_BY_LAYER[x] = sorted(y)
