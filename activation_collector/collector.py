@@ -53,7 +53,7 @@ def collect_activations(
     sae_encoders = setup_sae_encoder(sae_paths)
 
     print(f"Tracking {len(NEURONS)} neurons across {len(LAYERS)} layers")
-    tracker = NeuronHeapTracker(NEURONS, top_k=TOP_K)
+    tracker = NeuronHeapTracker(NEURONS, k=TOP_K)
 
     # Get all shard files
     shard_files = sorted(shards_dir.glob("*.parquet"))
