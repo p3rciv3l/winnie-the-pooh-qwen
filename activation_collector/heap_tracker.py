@@ -8,71 +8,63 @@ from dataclasses import dataclass
 class ActivationRecord:
     """A single activation record for a neuron."""
     activation: float
-    text: str  # The full text context
-    token_idx: int  # Position of the activating token in the text
-    token: str  # The specific token that activated
-    shard_id: str | None = None  # Source shard for traceability
+    text: str
+    shard_id: str
+    row_idx: int
 
-    def __lt__(self, other: "ActivationRecord") -> bool:
-        return self.activation < other.activation
-
-    def __eq__(self, other: "ActivationRecord") -> bool:
-        return self.activation == other.activation
 
     def to_dict(self) -> dict:
         return {
             "activation": self.activation,
             "text": self.text,
-            "token_idx": self.token_idx,
-            "token": self.token,
             "shard_id": self.shard_id,
+            "row_idx": self.row_idx
         }
 
 
 class NeuronHeapTracker:
-    """Maintains top-k activating examples for each neuron using min-heaps."""
+    """Maintains top-k and bottom-k activating examples for each neuron using heaps."""
 
-    def __init__(self, neuron_ids: list[str], top_k: int = 50):
-        self.top_k = top_k
-        self.heaps: dict[str, list[ActivationRecord]] = {n: [] for n in neuron_ids}
+    def __init__(self, neuron_ids: list[str], k: int = 5000):
+        self.k = k
+        self.minimums: dict[str, list[ActivationRecord]] = {n: [] for n in neuron_ids}
+        self.maximums: dict[str, list[ActivationRecord]] = {n: [] for n in neuron_ids}
 
     def update(
         self,
         neuron_id: str,
-        activation: float,
-        text: str,
-        token_idx: int,
-        token: str,
-        shard_id: str | None = None,
+        max_activation: float, 
+        max_window_text: str,
+        shard_id: str,
+        row_idx: int
     ) -> bool:
-        if neuron_id not in self.heaps:
-            return False
 
-        heap = self.heaps[neuron_id]
+        mins = self.minimums[neuron_id]
+        maxs = self.maximums[neuron_id]
         record = ActivationRecord(
-            activation=activation,
-            text=text,
-            token_idx=token_idx,
-            token=token,
+            activation=max_activation,
+            text=max_window_text,
             shard_id=shard_id,
+            row_idx=row_idx
         )
+        
+        if len(mins) < self.k: 
+            heapq.heappush(mins, (-1 * record.activation, record))
+        elif (-1 * record.activation) > mins[0][0]: 
+            heapq.heapreplace(mins, (-1 * record.activation, record))
 
-        if len(heap) < self.top_k:
-            heapq.heappush(heap, record)
-            return True
-        elif activation > heap[0].activation:
-            heapq.heapreplace(heap, record)
-            return True
-        return False
+        if len(maxs) < self.k:
+            heapq.heappush(maxs, (record.activation, record))
+        elif record.activation > maxs[0][0]:
+            heapq.heapreplace(maxs, (record.activation, record))
 
-    def get_top_k(self, neuron_id: str) -> list[ActivationRecord]:
+    def get_top_and_bottom_k(self, neuron_id: str) -> tuple[list[ActivationRecord], list[ActivationRecord]]:
         """Get top-k records for a neuron, sorted by activation (highest first)."""
-        if neuron_id not in self.heaps:
-            return []
-        return sorted(self.heaps[neuron_id], key=lambda r: r.activation, reverse=True)
+        
+        top_k_tuples = sorted(self.maximums[neuron_id], key=lambda rt: rt[0], reverse=True)
+        bottom_k_tuples = sorted(self.minimums[neuron_id], key=lambda rt: rt[0])
 
-    def get_min_activation(self, neuron_id: str) -> float | None:
-        """Get the minimum activation in the heap (threshold for new entries)."""
-        if neuron_id not in self.heaps or not self.heaps[neuron_id]:
-            return None
-        return self.heaps[neuron_id][0].activation
+        top_k = [el[1] for el in top_k_tuples]
+        bottom_k = [el[1] for el in bottom_k_tuples]
+
+        return bottom_k, top_k

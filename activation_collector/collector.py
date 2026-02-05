@@ -80,6 +80,8 @@ def collect_activations(
             input_ids_tensor = torch.from_numpy(input_ids_array).to(device="cuda")
             attention_mask_tensor = torch.from_numpy(attention_mask_array).to(device="cuda")
 
+            pad_mask = (attention_mask_tensor == 0).unsqueeze(-1)
+
             inputs = {
                 "input_ids": input_ids_tensor,
                 "attention_mask": attention_mask_tensor,
@@ -109,32 +111,48 @@ def collect_activations(
 
                 target_acts = learned[:, :, target_neurons]
 
-                max_vals, max_idxs = target_acts.max(dim=1)
+                acts_for_max = target_acts.masked_fill(pad_mask, float("-inf"))
+                max_vals, max_idxs = acts_for_max.max(dim=1)
+
+                # acts_for_min = target_acts.masked_fill(pad_mask, float("inf"))
+                # min_vals, min_idxs = acts_for_min.min(dim=1)
 
                 for b in range(batch_size):
-                    st_text = batch_texts[b]
                     input_ids = input_ids_tensor[b]
 
                     for j, neuron_idx in enumerate(target_neurons):
-                        act_val = max_vals[b, j].item()
-                        if act_val <= 0:
-                            continue
+                        max_act_val = max_vals[b, j].item()
+                        # min_act_val = min_vals[b, j].item()
 
                         neuron_id = f"{layer}_{neuron_idx}"
-                        min_act = tracker.get_min_activation(neuron_id)
-                        if min_act is not None and act_val <= min_act:
-                            continue
 
-                        token_idx = max_idxs[b, j].item()
-                        token = tokenizer.convert_ids_to_tokens([input_ids[token_idx].item()])[0]
+                        max_token_idx = max_idxs[b, j].item()
+                        # min_token_idx = min_idxs[b, j].item()
+                        window = 16
+                        max_start = max(0, max_token_idx - window)
+                        max_end = min(input_ids.shape[0], max_token_idx + window + 1)
+
+                        # min_start = max(0, min_token_idx - window)
+                        # min_end = min(input_ids.shape[0], min_token_idx + window + 1)
+
+
+                        max_window_ids = input_ids[max_start:max_end]
+                        # min_window_ids = input_ids[min_start:min_end]
+                        max_window_text = tokenizer.decode(
+                            max_window_ids.tolist(), 
+                            skip_special_tokens=True
+                        )
+                        # min_window_text = tokenizer.decode(
+                        #     min_window_ids.tolist(), 
+                        #     skip_special_tokens=True
+                        # )
 
                         tracker.update(
                             neuron_id=neuron_id,
-                            activation=act_val,
-                            text=st_text,
-                            token_idx=token_idx,
-                            token=token,
+                            max_activation=max_act_val, 
+                            max_window_text=max_window_text,
                             shard_id=shard_id,
+                            row_idx=batch_start + b
                         )
 
 
@@ -142,8 +160,7 @@ def collect_activations(
     # Final export
     print("\nExporting final results...")
     output_files = export_to_parquet(tracker, output_dir)
-    print(f"Exported {len(output_files)} neuron files to {output_dir}")
-    print(f"Final stats: {tracker.stats()}")
+    print(f"Exported {len(output_files) * 2} neuron files to {output_dir}")
 
     return tracker
 
