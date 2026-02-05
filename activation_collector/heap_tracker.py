@@ -12,6 +12,8 @@ class ActivationRecord:
     shard_id: str
     row_idx: int
 
+    def __lt__(self, other: "ActivationRecord") -> bool:
+        return self.activation < other.activation
 
     def to_dict(self) -> dict:
         return {
