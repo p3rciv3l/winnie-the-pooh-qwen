@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 from core import get_acts, get_learned_activations, setup_source_model, setup_sae_encoder
 
-from .config import NEURONS, LAYERS, NEURONS_BY_LAYER, TOP_K
+from .config import NEURONS, LAYERS, NEURONS_BY_LAYER 
 from .heap_tracker import NeuronHeapTracker
 from .export import export_to_parquet
 
@@ -53,7 +53,7 @@ def collect_activations(
     sae_encoders = setup_sae_encoder(sae_paths)
 
     print(f"Tracking {len(NEURONS)} neurons across {len(LAYERS)} layers")
-    tracker = NeuronHeapTracker(NEURONS, k=TOP_K)
+    tracker = NeuronHeapTracker(NEURONS)
 
     # Get all shard files
     shard_files = sorted(shards_dir.glob("*.parquet"))
