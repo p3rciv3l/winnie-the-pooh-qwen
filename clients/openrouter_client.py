@@ -138,15 +138,13 @@ class OpenRouterClient:
         repetition_penalty: Optional[float] = 1.0,
         min_p: Optional[float] = 0.0,
         top_a: Optional[float] = 0.0,
-        # Generation control
         seed: Optional[int] = 42069,
         max_tokens: Optional[int] = 5120,
         logit_bias: Optional[Dict[str, float]] = None,
-        logprobs: Optional[bool] = None,
-        top_logprobs: Optional[int] = None,
+        logprobs: Optional[bool] = True,
+        top_logprobs: Optional[int] = 20,
         response_format: Optional[Dict[str, Any]] = None,
         verbosity: Optional[Literal["low", "medium", "high"]] = "medium",
-        # Tool configuration
         tools: Optional[List[Dict[str, Any]]] = None,
         tool_choice: Optional[Any] = None,
         parallel_tool_calls: Optional[bool] = True,
