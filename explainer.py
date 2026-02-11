@@ -1,9 +1,10 @@
 """
-Generate neuron explanations using an explainer model via OpenRouter.
+Generate neuron explanations and run simulation evaluation via OpenRouter.
 
-Reads paired topk/bottomk parquet files from the activation pipeline,
-samples high- and low-activation examples, and asks the explainer model
-to describe what the neuron detects. Results are saved as JSON per neuron.
+1. Explanation: Sample high/low activation examples, ask the explainer model
+   to describe what the neuron detects.
+2. Simulation: Hold out examples, give the model the explanation + original texts,
+   ask it to predict the highest-activating 2-3 sentences, compare to ground truth.
 """
 
 from __future__ import annotations
@@ -27,6 +28,9 @@ from clients.openrouter_client import get_model_client
 DEFAULT_MODEL = "deepseek-v3.2"
 DEFAULT_INPUT_DIR = Path("activation_outputs")
 DEFAULT_OUTPUT_DIR = Path("explanations")
+DEFAULT_SHARDS_DIR = Path("shards")
+
+PRELIM_NEURONS = ["0_13410", "0_513", "0_7130", "17_10853", "17_19561", "17_2410", "26_2988", "26_5372", "35_12057", "35_7539", "35_9748", "8_1495", "8_5224", "8_6770"]
 
 PROMPT_TEMPLATE = """\
 You are analyzing a neuron from a sparse autoencoder trained on a large language model. \
@@ -62,6 +66,32 @@ Guidelines:
 - Include examples from multiple languages/formats when the data supports it
 - Note activation strength when relevant ("strongly responds to", "also processes")
 - Keep explanations to 3-6 sentences unless categorization requires more detail
+"""
+
+SIMULATION_PROMPT_TEMPLATE = """\
+You are evaluating a neuron explanation by predicting activation patterns.
+
+A neuron in a sparse autoencoder trained on a large language model has been described as:
+
+=== NEURON EXPLANATION ===
+{explanation}
+=== END EXPLANATION ===
+
+Below are {n} text examples that were shown to this neuron. For each example, identify \
+3 non-overlapping contiguous sections of approximately 33 tokens (~2-3 sentences) that you \
+believe caused the neuron to activate most strongly, ranked by confidence. \
+Copy the text verbatim from the example.
+
+{examples}
+
+Respond with ONLY a JSON array. Each entry should contain:
+- "example": the example number (1-indexed)
+- "predictions": an array of exactly 3 objects, each with:
+  - "rank": 1, 2, or 3 (1 = most confident)
+  - "text": the exact verbatim ~33-token section from the example
+  - "reasoning": one sentence explaining why this section matches the neuron's pattern
+
+Respond with only the JSON array, no other text.
 """
 
 # ---------------------------------------------------------------------------
@@ -103,8 +133,28 @@ def extract_response_text(response: Dict[str, Any]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Core logic
+# Sampling
 # ---------------------------------------------------------------------------
+
+def _sample_rows(table, n: int, rng: random.Random) -> List[Dict[str, Any]]:
+    """Sample n rows from a parquet table, keeping all fields for holdout use."""
+    all_rows = []
+    normalized = table.column("normalized").to_pylist()
+    texts = table.column("text").to_pylist()
+    shard_ids = table.column("shard_id").to_pylist()
+    row_idxs = table.column("row_idx").to_pylist()
+
+    for i in range(table.num_rows):
+        all_rows.append({
+            "normalized": float(normalized[i]),
+            "text": clean_text(texts[i]),
+            "shard_id": shard_ids[i],
+            "row_idx": int(row_idxs[i]),
+        })
+    if len(all_rows) <= n:
+        return all_rows
+    return rng.sample(all_rows, n)
+
 
 def _format_examples(rows: List[Dict[str, Any]]) -> str:
     """Format a list of sampled rows into prompt lines."""
@@ -114,17 +164,115 @@ def _format_examples(rows: List[Dict[str, Any]]) -> str:
     )
 
 
+# ---------------------------------------------------------------------------
+# Simulation
+# ---------------------------------------------------------------------------
+
+def _load_plain_text(shard_id: str, row_idx: int, shards_dir: Path) -> str:
+    """Load the original plain_text for a specific shard + row."""
+    shard_path = shards_dir / f"{shard_id}.parquet"
+    table = pq.read_table(shard_path, columns=["plain_text"])
+    return str(table.column("plain_text")[row_idx].as_py())
+
+
+def simulate_neuron(
+    neuron_id: str,
+    explanation: str,
+    holdout_rows: List[Dict[str, Any]],
+    shards_dir: Path,
+    output_dir: Path,
+    model: str,
+) -> Path:
+    """
+    Run the simulation step and write results to a separate file.
+
+    For each holdout example, loads the original plain_text from the shard,
+    asks the model to predict 3 highest-activating ~33-token sections,
+    and pairs predictions with the actual text from activation outputs.
+    """
+    # Load original plain_text for each holdout
+    plain_texts = []
+    for row in holdout_rows:
+        text = _load_plain_text(row["shard_id"], row["row_idx"], shards_dir)
+        plain_texts.append(text)
+
+    # Build the examples block
+    examples_block = "\n\n".join(
+        f"=== Example {i + 1} ===\n{text}\n=== End Example {i + 1} ==="
+        for i, text in enumerate(plain_texts)
+    )
+
+    prompt = SIMULATION_PROMPT_TEMPLATE.format(
+        explanation=explanation,
+        n=len(holdout_rows),
+        examples=examples_block,
+    )
+
+    client = get_model_client(model)
+    response = client.generate(
+        [{"role": "user", "content": prompt}],
+        session=get_session(),
+    )
+    prediction_text = extract_response_text(response)
+
+    # Try to parse JSON predictions
+    predictions = []
+    try:
+        cleaned = prediction_text.strip()
+        if cleaned.startswith("```"):
+            cleaned = cleaned.split("\n", 1)[1]
+            cleaned = cleaned.rsplit("```", 1)[0]
+        predictions = json.loads(cleaned)
+    except (json.JSONDecodeError, IndexError):
+        predictions = [{"raw_response": prediction_text}]
+
+    # Build results pairing predictions with holdout metadata
+    results = []
+    for i, row in enumerate(holdout_rows):
+        pred = predictions[i] if i < len(predictions) else {}
+        results.append({
+            "example_idx": i + 1,
+            "shard_id": row["shard_id"],
+            "row_idx": row["row_idx"],
+            "normalized": row["normalized"],
+            "actual_text": row["text"],
+            "plain_text": plain_texts[i],
+            "predictions": pred.get("predictions", []),
+        })
+
+    # Write simulation to separate file
+    output_dir.mkdir(parents=True, exist_ok=True)
+    sim_path = output_dir / f"{neuron_id}_simulation.json"
+    payload = {
+        "neuron_id": neuron_id,
+        "model": client.model,
+        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "explanation_used": explanation,
+        "results": results,
+    }
+    sim_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
+    return sim_path
+
+
+# ---------------------------------------------------------------------------
+# Core logic
+# ---------------------------------------------------------------------------
+
 def explain_neuron(
     neuron_id: str,
     input_dir: Path,
     output_dir: Path,
+    shards_dir: Path = DEFAULT_SHARDS_DIR,
     model: str = DEFAULT_MODEL,
 ) -> Path:
     """
-    Load parquets for *neuron_id*, sample examples, call the explainer model,
-    and write the result as JSON.
+    Explain a neuron and run simulation evaluation.
 
-    Returns the path to the output JSON file.
+    1. Sample 33 high / 22 low activation examples
+    2. Hold out 3 high + 2 low for simulation
+    3. Run explainer with remaining 30 high + 20 low
+    4. Run simulation: model predicts highest-activating sentences for holdouts
+    5. Save explanation + simulation results as JSON
     """
     topk_path = input_dir / f"{neuron_id}_topk.parquet"
     bottomk_path = input_dir / f"{neuron_id}_bottomk.parquet"
@@ -133,39 +281,35 @@ def explain_neuron(
         if not p.exists():
             raise FileNotFoundError(f"Missing activation file: {p}")
 
-    # Load tables
     topk_table = pq.read_table(topk_path)
     bottomk_table = pq.read_table(bottomk_path)
 
     rng = random.Random(42069)
 
-    # Sample rows (or take all if fewer than requested)
-    def _sample(table, n: int) -> List[Dict[str, Any]]:
-        all_rows = []
-        normalized = table.column("normalized").to_pylist()
-        texts = table.column("text").to_pylist()
-        for i in range(table.num_rows):
-            all_rows.append({
-                "normalized": float(normalized[i]),
-                "text": clean_text(texts[i]),
-            })
-        if len(all_rows) <= n:
-            return all_rows
-        return rng.sample(all_rows, n)
+    # Sample 33 high, 22 low (with full row data)
+    high_rows = _sample_rows(topk_table, 33, rng)
+    low_rows = _sample_rows(bottomk_table, 22, rng)
 
-    high_rows = _sample(topk_table, 30)
-    low_rows = _sample(bottomk_table, 20)
+    # Shuffle before splitting so holdouts are random
+    rng.shuffle(high_rows)
+    rng.shuffle(low_rows)
 
-    # Sort by activation descending / ascending for readability
-    high_rows.sort(key=lambda r: r["normalized"], reverse=True)
-    low_rows.sort(key=lambda r: r["normalized"])
+    # Split: holdout 3 high + 2 low, explain with the rest
+    holdout_high = high_rows[:3]
+    explain_high = high_rows[3:]
+    holdout_low = low_rows[:2]
+    explain_low = low_rows[2:]
+
+    # Sort explanation examples for readability
+    explain_high.sort(key=lambda r: r["normalized"], reverse=True)
+    explain_low.sort(key=lambda r: r["normalized"])
 
     prompt = PROMPT_TEMPLATE.format(
-        high_examples=_format_examples(high_rows),
-        low_examples=_format_examples(low_rows),
+        high_examples=_format_examples(explain_high),
+        low_examples=_format_examples(explain_low),
     )
 
-    # Call explainer model
+    # Step 1: Explanation
     client = get_model_client(model)
     response = client.generate(
         [{"role": "user", "content": prompt}],
@@ -178,19 +322,38 @@ def explain_neuron(
             f"Raw response: {json.dumps(response, indent=2)[:500]}"
         )
 
-    # Write output
+    # Write explanation output
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"{neuron_id}.json"
     payload = {
         "neuron_id": neuron_id,
         "model": client.model,
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "high_examples": high_rows,
-        "low_examples": low_rows,
+        "high_examples": [
+            {"normalized": r["normalized"], "text": r["text"]}
+            for r in explain_high
+        ],
+        "low_examples": [
+            {"normalized": r["normalized"], "text": r["text"]}
+            for r in explain_low
+        ],
         "prompt": prompt,
         "explanation": explanation,
     }
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
+
+    # Step 2: Simulation (separate file)
+    holdout_rows = holdout_high + holdout_low
+    sim_path = simulate_neuron(
+        neuron_id=neuron_id,
+        explanation=explanation,
+        holdout_rows=holdout_rows,
+        shards_dir=shards_dir,
+        output_dir=output_dir,
+        model=model,
+    )
+
+    print(f"[{neuron_id}] simulation -> {sim_path}")
     return output_path
 
 
@@ -200,7 +363,7 @@ def explain_neuron(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Explain neurons using high/low activation examples"
+        description="Explain neurons and run simulation evaluation"
     )
     parser.add_argument(
         "--neuron",
@@ -209,6 +372,7 @@ def main() -> None:
     )
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL)
     parser.add_argument("--max-workers", type=int, default=10)
     args = parser.parse_args()
@@ -217,18 +381,18 @@ def main() -> None:
 
     if len(neuron_ids) == 1:
         nid = neuron_ids[0]
-        print(f"[{nid}] explaining...")
+        print(f"[{nid}] explaining + simulating...")
         try:
-            out = explain_neuron(nid, args.input_dir, args.output_dir, args.model)
+            out = explain_neuron(nid, args.input_dir, args.output_dir, args.shards_dir, args.model)
             print(f"[{nid}] done -> {out}")
         except Exception as exc:
             print(f"[{nid}] ERROR: {exc}")
     else:
         workers = min(args.max_workers, len(neuron_ids))
-        print(f"Explaining {len(neuron_ids)} neurons with {workers} threads")
+        print(f"Explaining + simulating {len(neuron_ids)} neurons with {workers} threads")
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = {
-                executor.submit(explain_neuron, nid, args.input_dir, args.output_dir, args.model): nid
+                executor.submit(explain_neuron, nid, args.input_dir, args.output_dir, args.shards_dir, args.model): nid
                 for nid in neuron_ids
             }
             for future in futures:
