@@ -152,7 +152,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-path", default=DEFAULT_MODEL_PATH)
     parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
-    parser.add_argument("--batch-size", type=int, default=64)
+    parser.add_argument("--batch-size", type=int, default=32)
 
     args = parser.parse_args()
 
