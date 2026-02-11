@@ -1,5 +1,6 @@
 """Export top-k activations to parquet files."""
 
+import json
 import os
 from pathlib import Path
 
@@ -11,10 +12,10 @@ from activation_collector.config import NEURONS
 from .heap_tracker import NeuronHeapTracker
 
 
-def build_table(records): 
+def build_table(records):
     table = pa.table({
             "activation": pa.array([r.activation for r in records], type=pa.float32()),
-            "text": pa.array([r.text for r in records], type=pa.string()),
+            "token_activations": pa.array([json.dumps(r.token_activations) for r in records], type=pa.string()),
             "shard_id": pa.array([r.shard_id for r in records], type=pa.string()),
             "row_idx": pa.array([r.row_idx for r in records], type=pa.int32()),
             "rank": pa.array(list(range(1, len(records) + 1)), type=pa.int32()),

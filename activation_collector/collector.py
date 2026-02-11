@@ -118,39 +118,19 @@ def collect_activations(
                 # min_vals, min_idxs = acts_for_min.min(dim=1)
 
                 for b in range(batch_size):
-                    input_ids = input_ids_tensor[b]
+                    input_ids = input_ids_tensor[b].tolist()
 
                     for j, neuron_idx in enumerate(target_neurons):
                         max_act_val = max_vals[b, j].item()
-                        # min_act_val = min_vals[b, j].item()
+                        acts = target_acts[b, :, j].tolist()
+                        token_activations = list(zip(input_ids, acts))
 
                         neuron_id = f"{layer}_{neuron_idx}"
 
-                        max_token_idx = max_idxs[b, j].item()
-                        # min_token_idx = min_idxs[b, j].item()
-                        window = 16
-                        max_start = max(0, max_token_idx - window)
-                        max_end = min(input_ids.shape[0], max_token_idx + window + 1)
-
-                        # min_start = max(0, min_token_idx - window)
-                        # min_end = min(input_ids.shape[0], min_token_idx + window + 1)
-
-
-                        max_window_ids = input_ids[max_start:max_end]
-                        # min_window_ids = input_ids[min_start:min_end]
-                        max_window_text = tokenizer.decode(
-                            max_window_ids.tolist(), 
-                            skip_special_tokens=True
-                        )
-                        # min_window_text = tokenizer.decode(
-                        #     min_window_ids.tolist(), 
-                        #     skip_special_tokens=True
-                        # )
-
                         tracker.update(
                             neuron_id=neuron_id,
-                            max_activation=max_act_val, 
-                            max_window_text=max_window_text,
+                            max_activation=max_act_val,
+                            token_activations=token_activations,
                             shard_id=shard_id,
                             row_idx=batch_start + b
                         )

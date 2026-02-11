@@ -8,7 +8,7 @@ from dataclasses import dataclass
 class ActivationRecord:
     """A single activation record for a neuron."""
     activation: float
-    text: str
+    token_activations: list[tuple[int, float]]
     shard_id: str
     row_idx: int
 
@@ -18,7 +18,7 @@ class ActivationRecord:
     def to_dict(self) -> dict:
         return {
             "activation": self.activation,
-            "text": self.text,
+            "token_activations": self.token_activations,
             "shard_id": self.shard_id,
             "row_idx": self.row_idx
         }
@@ -35,19 +35,19 @@ class NeuronHeapTracker:
     def update(
         self,
         neuron_id: str,
-        max_activation: float, 
-        max_window_text: str,
+        max_activation: float,
+        token_activations: list[tuple[int, float]],
         shard_id: str,
-        row_idx: int
+        row_idx: int,
     ) -> bool:
 
         mins = self.minimums[neuron_id]
         maxs = self.maximums[neuron_id]
         record = ActivationRecord(
             activation=max_activation,
-            text=max_window_text,
+            token_activations=token_activations,
             shard_id=shard_id,
-            row_idx=row_idx
+            row_idx=row_idx,
         )
         
         if len(mins) < self.k: 
