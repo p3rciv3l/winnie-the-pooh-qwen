@@ -1,0 +1,216 @@
+{
+  "neuron_id": "35_7539",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal announcements, procedural descriptions, or institutional communications** (such as government policy reports, seismic activity bulletins, legislative updates, or official public advisories) that are presented in a factual, administrative tone.\n\n2. **Domain coverage**: The pattern appears in multilingual news and official statements covering civic, geological, and legislative domains. Examples are in Spanish, French, German, Arabic, Greek, Italian, and others, often involving government agencies (e.g., \"Servicio Sismol\u00f3gico Nacional\"), legal processes (\"proyecto de ley\"), public safety actions (\"actuar antes, durante y despu\u00e9s de un sismo\"), and institutional updates (\"plan de recuperaci\u00f3n de la trama vial\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain structured, official information from institutional sources, while low-activation examples are primarily English-language general news teasers, promotional snippets, or informal commentary (e.g., celebrity gossip, university research announcements, sports opinions) that lack the formal, procedural framing.\n\n4. **Closing interpretation**: The neuron detects linguistically marked formal reporting or bureaucratic communication across multiple languages, focusing on segments where institutions convey actions, regulations, or factual updates to the public. It filters out informal, narrative, or promotional news content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", y tambi\u00e9n la participaci\u00f3n de las fuerzas armadas\", asegur\u00f3 el jefe de la Regi\u00f3n Policial Lima, general V\u00edctor Zanabr",
+      "normalized_activation": 9.67878532409668,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.642803,
+          "actual_text_slice": [
+            453,
+            572
+          ],
+          "prediction_text_slice": [
+            316,
+            619
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.333979,
+          "actual_text_slice": [
+            453,
+            572
+          ],
+          "prediction_text_slice": [
+            620,
+            959
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.293247,
+          "actual_text_slice": [
+            453,
+            572
+          ],
+          "prediction_text_slice": [
+            1522,
+            1768
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0438\u043f\u0456\u0445\u043e\u0442\u043d\u0456 \u0432\u0438\u0431\u0443\u0445\u043e\u0432\u0456 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457, \u0444\u0443\u0433\u0430\u0441\u0438, \u043c\u0456\u043d\u043e\u0432\u0430\u043d\u0456 \u0437\u0430\u0432\u0430\u043b\u0438. \u0414\u043e \u0442\u043e\u0433\u043e \u0436",
+      "normalized_activation": 9.078311920166016,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.372337,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.522836,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.336369,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "un tractocami\u00f3n color blanco y una jaula que trasportaba bovino, con las caracter\u00edsticas de la unidad que buscaban, por lo que",
+      "normalized_activation": 8.306386947631836,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.378272,
+          "actual_text_slice": [
+            846,
+            972
+          ],
+          "prediction_text_slice": [
+            0,
+            359
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.695099,
+          "actual_text_slice": [
+            846,
+            972
+          ],
+          "prediction_text_slice": [
+            737,
+            1057
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.450047,
+          "actual_text_slice": [
+            846,
+            972
+          ],
+          "prediction_text_slice": [
+            1059,
+            1265
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "NEWPORT NEWS, Va. (WAVY) \u2014 One person was taken to",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.290504,
+          "actual_text_slice": [
+            0,
+            50
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.649818,
+          "actual_text_slice": [
+            0,
+            50
+          ],
+          "prediction_text_slice": [
+            27,
+            129
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.33742,
+          "actual_text_slice": [
+            0,
+            50
+          ],
+          "prediction_text_slice": [
+            338,
+            453
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Former PepsiCo VP of Global Benefits and Wellness Erik Sossa Joins Castlight Health",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.771615,
+          "actual_text_slice": [
+            0,
+            83
+          ],
+          "prediction_text_slice": [
+            249,
+            617
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.632642,
+          "actual_text_slice": [
+            0,
+            83
+          ],
+          "prediction_text_slice": [
+            1035,
+            1334
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.584082,
+          "actual_text_slice": [
+            0,
+            83
+          ],
+          "prediction_text_slice": [
+            1509,
+            1780
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

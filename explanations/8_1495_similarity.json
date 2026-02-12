@@ -1,0 +1,207 @@
+{
+  "neuron_id": "8_1495",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **lists or enumerations of named entities in formal or procedural contexts** (such as lists of people with titles, organizations, legal/political committees, or investigative bodies).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Swedish, Italian, Hindi, etc.) and domains including legal proceedings, government actions, political reporting, sports tournament seeding, and corporate or institutional announcements. It activates on structured text segments that catalog multiple proper nouns (persons, organizations, roles) often linked by procedural verbs like \"investigate,\" \"condemn,\" \"join,\" \"appoint,\" or \"request.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally narrative descriptions, singular events, or simple statements without enumerations of multiple formal entities. They lack the dense clustering of titles, names, and institutional roles present in the high-activation examples (e.g., \"Vice President Kamala Harris and House Leader Nancy Pelosi,\" \"Special Rapporteur on extrajudicial...\", \"Duke\u2019s region... Gonzaga,\" \"exfiscal Francisco Gonz\u00e1lez\").\n\n4. **Closing interpretation**: The neuron detects textual segments where multiple authoritative or institutional actors are cited together within a framework of official action or decision-making. It functions as a \"formal multi-entity reference\" detector in procedural discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Forgot Username or Password Date (MENAFN) In a seismic turn of events, a New York jury handed down a unanimous",
+      "normalized_activation": 9.632623672485352,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.325555,
+          "actual_text_slice": [
+            0,
+            110
+          ],
+          "prediction_text_slice": [
+            1076,
+            1371
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.478708,
+          "actual_text_slice": [
+            0,
+            110
+          ],
+          "prediction_text_slice": [
+            42,
+            461
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.327326,
+          "actual_text_slice": [
+            0,
+            110
+          ],
+          "prediction_text_slice": [
+            643,
+            1076
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Alla riunione erano presenti anche gli assessori alla Salute Ruggero Razza, alle Infrastrutture Marco Falcone, il",
+      "normalized_activation": 7.942788600921631,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.271652,
+          "actual_text_slice": [
+            1228,
+            1341
+          ],
+          "prediction_text_slice": [
+            33,
+            449
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.674681,
+          "actual_text_slice": [
+            1228,
+            1341
+          ],
+          "prediction_text_slice": [
+            1228,
+            2025
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.390622,
+          "actual_text_slice": [
+            1228,
+            1341
+          ],
+          "prediction_text_slice": [
+            451,
+            1226
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "which a central bank must keep rates low to avoid overwhelming debt payments is known as fiscal dominance. Right now, you could say, the game is going well \u2014 we",
+      "normalized_activation": 6.612823009490967,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.164059,
+          "actual_text_slice": [
+            1226,
+            1386
+          ],
+          "prediction_text_slice": [
+            1656,
+            2056
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.301487,
+          "actual_text_slice": [
+            1226,
+            1386
+          ],
+          "prediction_text_slice": [
+            0,
+            390
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.374281,
+          "actual_text_slice": [
+            1226,
+            1386
+          ],
+          "prediction_text_slice": [
+            3009,
+            3368
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "In the land of Jaws, a real-life shark debate BOSTON (",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.513393,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.544998,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.321942,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            3168,
+            3659
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.563095,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.695972,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1322,
+            1790
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.513422,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

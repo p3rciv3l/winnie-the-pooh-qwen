@@ -1,0 +1,216 @@
+{
+  "neuron_id": "0_513",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text discussing geopolitical entities, tensions, or economic activities involving China, Taiwan, or East Asian semiconductor supply chains** (such as mentions of Taiwan\u2019s TSMC, Chinese government actions, territorial disputes in the South China Sea, or US-China relations regarding Taiwan).\n\n2. **Domain coverage**: The neuron activates across news, political commentary, and economic reporting in English and other languages (e.g., French, Spanish) when the text centers on China/Taiwan geopolitical dynamics, Chinese domestic policy, semiconductor industry news tied to Taiwan, or regional territorial claims. It also responds to mentions of Chinese leadership (Xi Jinping, Li Keqiang), Chinese companies, and cross-strait relations, even if Taiwan is not explicitly named but the context involves China\u2019s international posture.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any reference to China, Taiwan, or East Asian geopolitics/economics; they cover local news (fires, fast-food approvals), entertainment, personal stories, or generic domestic issues in other regions (e.g., US state policies, South Africa, Italy). The neuron ignores these because they do not involve the specific geopolitical or economic nexus of China/Taiwan.\n\n4. **Closing interpretation**: This neuron appears to detect semantic contexts related to China\u2019s political and economic influence, particularly where Taiwan or high-tech industries are implicated, acting as a specialized filter for content about cross-strait tensions and China\u2019s global role.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "gas, with overlapping claims from Brunei, Malaysia, the Philippines, Vietnam and Taiwan. Recent satellite images show China has made rapid progress in building an airstrip suitable",
+      "normalized_activation": 9.492012023925781,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.522293,
+          "actual_text_slice": [
+            485,
+            665
+          ],
+          "prediction_text_slice": [
+            135,
+            573
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.748036,
+          "actual_text_slice": [
+            485,
+            665
+          ],
+          "prediction_text_slice": [
+            574,
+            943
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.615092,
+          "actual_text_slice": [
+            485,
+            665
+          ],
+          "prediction_text_slice": [
+            2002,
+            2326
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "illness, however, he kept playing: This May and June, he performed in Beijing, Melbourne and New York, with tour dates scheduled in France and Vienna for later",
+      "normalized_activation": 8.954639434814453,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.641892,
+          "actual_text_slice": [
+            1647,
+            1806
+          ],
+          "prediction_text_slice": [
+            1572,
+            1818
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.22473,
+          "actual_text_slice": [
+            1647,
+            1806
+          ],
+          "prediction_text_slice": [
+            45,
+            252
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.166646,
+          "actual_text_slice": [
+            1647,
+            1806
+          ],
+          "prediction_text_slice": [
+            254,
+            418
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "(or departed great ape\u2026) But when you look at what first took the Chinese market down, I believe it\u2019s probable that October was the bottom for China\u2019s",
+      "normalized_activation": 8.51826000213623,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.462919,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            2216,
+            2619
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.405748,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            3329,
+            3617
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.395281,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            4787,
+            5039
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "stills of the footage as evidence after reporting the incident online. A Surrey Police spokesman confirmed the force accepts dashcam footage to support bad driving allegations. \"",
+      "normalized_activation": 0.45176294445991516,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.403212,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            193
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.217239,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            195,
+            348
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.25916,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            350,
+            538
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u201d: \u201caguas brillantes\u201d. Despu\u00e9s fue Reserva SIN Ley de Humedales, y el ciervo, el mono aullador, la boa, el",
+      "normalized_activation": 0.43575161695480347,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.246272,
+          "actual_text_slice": [
+            692,
+            798
+          ],
+          "prediction_text_slice": [
+            922,
+            1202
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.313758,
+          "actual_text_slice": [
+            692,
+            798
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.364883,
+          "actual_text_slice": [
+            692,
+            798
+          ],
+          "prediction_text_slice": [
+            1425,
+            1663
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

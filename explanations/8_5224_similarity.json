@@ -1,0 +1,234 @@
+{
+  "neuron_id": "8_5224",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that contain a quotation, citation, or reported speech followed by a source attribution** (such as a news quote with a speaker and outlet, a citation of a study or report, or a translated statement with attribution).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Czech, Polish, Arabic) and is most common in journalistic or informational contexts\u2014news snippets, interview transcripts, press releases, and research summaries. The neuron activates when the text explicitly credits a statement to a person, organization, or document (e.g., \u201csays Cress in an interview with\u2026 NPR,\u201d \u201caccording to realtor Nicolas T\u00e9trault,\u201d \u201cpro CNN uvedl,\u201d \u201cpodle Mintel\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation examples generally lack this \u201cquote\u2013source\u201d structure; they are often descriptive summaries, announcements, or opinion statements without embedded attributed speech (e.g., \u201cProsecutors in the federal trial\u2026,\u201d \u201cIU coach Archie Miller speaks\u2026,\u201d \u201cThe US election has\u2026 be plagued by\u2026\u201d). The neuron is sensitive to the syntactic framing of reported information with an explicit source.\n\n4. **Closing interpretation**: The neuron appears to detect a specific discourse marker of attribution, acting as a \u201creported speech with citation\u201d detector. It signals when the text shifts from general narration to referencing an external voice or authority.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and became dependent on her,\u201d McMillan found. The judge also criticised Bentleigh GP Dr Andrew Batty, who she said did not appear to consider Maddock",
+      "normalized_activation": 9.505277633666992,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.535461,
+          "actual_text_slice": [
+            1079,
+            1228
+          ],
+          "prediction_text_slice": [
+            635,
+            887
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.556218,
+          "actual_text_slice": [
+            1079,
+            1228
+          ],
+          "prediction_text_slice": [
+            888,
+            1124
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.582393,
+          "actual_text_slice": [
+            1079,
+            1228
+          ],
+          "prediction_text_slice": [
+            1330,
+            1645
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the Supreme Court and calling critics of anti-LGBTQ conservative podcaster Joe Rogan \u2018zealots of wokeism.\u2019\u201d In a February 23 tweet",
+      "normalized_activation": 8.732660293579102,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.308518,
+          "actual_text_slice": [
+            798,
+            928
+          ],
+          "prediction_text_slice": [
+            338,
+            648
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.301037,
+          "actual_text_slice": [
+            798,
+            928
+          ],
+          "prediction_text_slice": [
+            906,
+            1074
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.326182,
+          "actual_text_slice": [
+            798,
+            928
+          ],
+          "prediction_text_slice": [
+            1671,
+            1966
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "steps to portray plants or crops. The displays also typically feature \u2018pattadabombes\u2019 a pair of dolls dressed as the bride and groom,",
+      "normalized_activation": 7.791622638702393,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.286163,
+          "actual_text_slice": [
+            2227,
+            2360
+          ],
+          "prediction_text_slice": [
+            1026,
+            1180
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.356669,
+          "actual_text_slice": [
+            2227,
+            2360
+          ],
+          "prediction_text_slice": [
+            1690,
+            1910
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.327119,
+          "actual_text_slice": [
+            2227,
+            2360
+          ],
+          "prediction_text_slice": [
+            3532,
+            3650
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Related theriver953.com The Winchester Rescue Mission (WRM) is entering",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.179849,
+          "actual_text_slice": [
+            0,
+            71
+          ],
+          "prediction_text_slice": [
+            1671,
+            2054
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.238287,
+          "actual_text_slice": [
+            0,
+            71
+          ],
+          "prediction_text_slice": [
+            2172,
+            2347
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.166403,
+          "actual_text_slice": [
+            0,
+            71
+          ],
+          "prediction_text_slice": [
+            4580,
+            4707
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "(Refiles to give proper name of Italy\u2019s Leonardo in paragraph 2) PR",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.162425,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": [
+            822,
+            970
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.210383,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.157842,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": [
+            455,
+            583
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

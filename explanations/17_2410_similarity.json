@@ -1,0 +1,222 @@
+{
+  "neuron_id": "17_2410",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns and specific named entities** (such as person names, organizations, locations, event titles, or media works) that are embedded within news or public discourse contexts.\n\n2. **Domain coverage**: The pattern appears prominently in multilingual news snippets, social/political reporting, and entertainment updates. Examples span languages including Spanish, Romanian, Arabic, Hindi, Turkish, and Russian, covering topics like local government actions, crime incidents, film/TV releases, political figures, and sports updates. The context is consistently declarative, reporting on specific, real-world events or public figures.\n\n3. **Contrast with low-activation examples**: The high-activation texts are dense with specific, capitalized names (e.g., \"Ayuntamiento de Ondara,\" \"KL Rahul,\" \"Harrison Ford,\" \"Black Lives Matter\") and often reference ongoing narratives. The low-activation examples, while sometimes news-like, are more generic, descriptive, or focused on impersonal topics (e.g., \"a beautiful mound of,\" \"self-driving shuttle,\" \"blood test\") without anchoring to a specific named person, organization, or titled work in a journalistic frame.\n\n4. **Closing interpretation**: The neuron appears to detect textual spans where named entities are central to a clause or phrase, acting as a filter for specific, identifiable references in public information streams. It signals the presence of concrete, often human-centric, subjects of discussion rather than abstract concepts or general descriptions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "face of the political crisis, such as Karol G, Residente, Carlos Vives, Belinda, among others. Daniela Darcourt, latest",
+      "normalized_activation": 9.701399803161621,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.736366,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1170,
+            1339
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.536695,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.589784,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            261
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "2016, 9:08 a.m. Noticeably Milder Today Feb 20, 2016, 2:",
+      "normalized_activation": 9.156702995300293,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.191711,
+          "actual_text_slice": [
+            671,
+            727
+          ],
+          "prediction_text_slice": [
+            333,
+            514
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.172155,
+          "actual_text_slice": [
+            671,
+            727
+          ],
+          "prediction_text_slice": [
+            134,
+            332
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.203098,
+          "actual_text_slice": [
+            671,
+            727
+          ],
+          "prediction_text_slice": [
+            0,
+            133
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Yasss, I love their friendship. Lynch responded with what seemed like the cutest aloof, and kinda Luna Lovegood, of responses, \"Ahh",
+      "normalized_activation": 8.542363166809082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.25252,
+          "actual_text_slice": [
+            1525,
+            1656
+          ],
+          "prediction_text_slice": [
+            2367,
+            2552
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.445227,
+          "actual_text_slice": [
+            1525,
+            1656
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.308412,
+          "actual_text_slice": [
+            1525,
+            1656
+          ],
+          "prediction_text_slice": [
+            0,
+            192
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.917366,
+          "actual_text_slice": [
+            0,
+            92
+          ],
+          "prediction_text_slice": [
+            0,
+            139
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.917366,
+          "actual_text_slice": [
+            0,
+            92
+          ],
+          "prediction_text_slice": [
+            0,
+            139
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.113161,
+          "actual_text_slice": [
+            0,
+            92
+          ],
+          "prediction_text_slice": [
+            141,
+            212
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "SCN has updated its InfoComm Installation Product Awards program to include a completely new set",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.680812,
+          "actual_text_slice": [
+            0,
+            96
+          ],
+          "prediction_text_slice": [
+            469,
+            756
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.466062,
+          "actual_text_slice": [
+            0,
+            96
+          ],
+          "prediction_text_slice": [
+            1844,
+            1935
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.888329,
+          "actual_text_slice": [
+            0,
+            96
+          ],
+          "prediction_text_slice": [
+            0,
+            177
+          ],
+          "slices_overlap": true
+        }
+      ]
+    }
+  ]
+}

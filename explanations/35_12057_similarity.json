@@ -1,0 +1,228 @@
+{
+  "neuron_id": "35_12057",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to dense factual reporting characteristic of news articles, wire services, and official statements (such as financial updates with percentages, conflict reports with specific locations, scientific announcements, or political developments with named entities).\n\n2. **Domain coverage**: The neuron activates across multiple languages (including English, French, Arabic, Romanian, Russian, Turkish, and others) and spans topics like finance, politics, natural disasters, sports, health, and international affairs. It consistently fires on text that resembles excerpts from news agency reports, formal announcements, or detailed factual accounts, often containing numerical data, dates, monetary figures, and proper nouns.\n\n3. **Contrast with low-activation examples**: High-activation texts are typically mid-paragraph excerpts with specific details (e.g., \u201c$187 million,\u201d \u201cOct. 1,\u201d \u201cUNHCR,\u201d \u201cHouthi boats\u201d), while low-activation examples are often truncated sentences, headlines, casual commentary, or lack dense factual content\u2014even when they touch on news topics, they are shorter, more generic, or incomplete.\n\n4. **Closing interpretation**: The neuron functions as a multilingual detector of formal, informative prose, likely identifying text that conveys specific factual information in a news-like or reportorial style.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Open Doors moving to former Red Front Supermarket for temporary shelter HARRISONBURG, Va. (WHSV) - What was once home",
+      "normalized_activation": 9.513426780700684,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.637919,
+          "actual_text_slice": [
+            0,
+            117
+          ],
+          "prediction_text_slice": [
+            1026,
+            1357
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.92867,
+          "actual_text_slice": [
+            0,
+            117
+          ],
+          "prediction_text_slice": [
+            0,
+            212
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.34266,
+          "actual_text_slice": [
+            0,
+            117
+          ],
+          "prediction_text_slice": [
+            1358,
+            1672
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "cz\u0119\u015bci tym razem stan\u0119\u0142a r\u00f3wnie\u017c za kamer\u0105 - jest to jej debiut. Wraz z ni\u0105 nad produkcj\u0105 pracowa\u0142 sam Tom",
+      "normalized_activation": 8.560873985290527,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.306614,
+          "actual_text_slice": [
+            250,
+            356
+          ],
+          "prediction_text_slice": [
+            0,
+            214
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.392655,
+          "actual_text_slice": [
+            250,
+            356
+          ],
+          "prediction_text_slice": [
+            1192,
+            1306
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.312056,
+          "actual_text_slice": [
+            250,
+            356
+          ],
+          "prediction_text_slice": [
+            1427,
+            1653
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u0625\u0646\u0642\u0627\u0635\u0647\u0627 \u062d\u0633\u0628 \u0627\u0644\u0631\u063a\u0628\u0629 2 \u0643\u064a\u0644\u0648 \u062f\u0642\u064a\u0642 \u0645\u062e\u0628\u0648\u0632\u0627\u062a \u0644\u0644\u0628\u0633\u0643\u0648\u064a\u062a. \u0643\u064a\u0644\u0648 \u0648\u0646\u0635\u0641 \u0632\u0628\u062f",
+      "normalized_activation": 7.067016124725342,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.564954,
+          "actual_text_slice": [
+            781,
+            843
+          ],
+          "prediction_text_slice": [
+            800,
+            1041
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.527704,
+          "actual_text_slice": [
+            781,
+            843
+          ],
+          "prediction_text_slice": [
+            0,
+            681
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.356462,
+          "actual_text_slice": [
+            781,
+            843
+          ],
+          "prediction_text_slice": [
+            1042,
+            1222
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.767143,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            0,
+            395
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.519842,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            555,
+            754
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.416341,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            1755,
+            1991
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.794159,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            256
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.57294,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            257,
+            447
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.450989,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            675,
+            919
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

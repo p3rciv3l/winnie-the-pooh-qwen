@@ -1,0 +1,237 @@
+{
+  "neuron_id": "17_19561",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing named organizations, political/militant groups, or formal institutional entities** (such as terrorist outfits like Lashkar-e-Taiba, political parties like the Rashtriya Swayamsevak Sangh, government bodies like the SEC, or advocacy groups like the Southern Poverty Law Center).\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, French, Portuguese, Hindi, Romanian) and consistently in news or reportage contexts covering geopolitics, security, finance, elections, legal proceedings, and activist movements. It detects formal names of organizations even when embedded in diverse topics\u2014from maritime terrorism and hedge funds to biodiversity movements and sports conferences.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack specific named organizations or reference more general cultural topics, personal stories, or everyday events (e.g., a punk rocker\u2019s environmental concern, a police shooting, a Christmas carol contest, a TV show reference). They may mention entities vaguely (\u201cChicago police,\u201d \u201cChina\u2019s Party Congress\u201d) without the precise naming seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting **formal institutional or organizational references within informational prose**, acting as a marker for text segments grounded in structured human systems\u2014political, financial, militant, or bureaucratic.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "8 per cent). ... Simmons uses his left hand 100 per cent of the time when shooting jumpers and free throws. But at LSU, he used",
+      "normalized_activation": 9.645387649536133,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.347654,
+          "actual_text_slice": [
+            1040,
+            1167
+          ],
+          "prediction_text_slice": [
+            2753,
+            2918
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.370785,
+          "actual_text_slice": [
+            1040,
+            1167
+          ],
+          "prediction_text_slice": [
+            1982,
+            2233
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.355896,
+          "actual_text_slice": [
+            1040,
+            1167
+          ],
+          "prediction_text_slice": [
+            3861,
+            4011
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "contains, but to summarise: Liddle uses the resignation of a researcher into ME, Michael Sharpe, to peddle the well-worn trope that the condition",
+      "normalized_activation": 9.01170539855957,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.222764,
+          "actual_text_slice": [
+            386,
+            531
+          ],
+          "prediction_text_slice": [
+            2913,
+            3214
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.316367,
+          "actual_text_slice": [
+            386,
+            531
+          ],
+          "prediction_text_slice": [
+            4110,
+            4286
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.521224,
+          "actual_text_slice": [
+            386,
+            531
+          ],
+          "prediction_text_slice": [
+            2617,
+            2911
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Several of the individuals smuggled by Khan\u2019s organization had suspected ties to terrorist organizations, alleged ICE in a press statement. On June 1, 20",
+      "normalized_activation": 8.18350601196289,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.629253,
+          "actual_text_slice": [
+            867,
+            1022
+          ],
+          "prediction_text_slice": [
+            243,
+            433
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.474425,
+          "actual_text_slice": [
+            867,
+            1022
+          ],
+          "prediction_text_slice": [
+            1009,
+            1227
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.526755,
+          "actual_text_slice": [
+            867,
+            1022
+          ],
+          "prediction_text_slice": [
+            1746,
+            2000
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Between the era of early galaxy formation and today, galaxies have undergone dramatic transformations in all",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.404999,
+          "actual_text_slice": [
+            0,
+            108
+          ],
+          "prediction_text_slice": [
+            514,
+            680
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.261833,
+          "actual_text_slice": [
+            0,
+            108
+          ],
+          "prediction_text_slice": [
+            2841,
+            3028
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.361517,
+          "actual_text_slice": [
+            0,
+            108
+          ],
+          "prediction_text_slice": [
+            1228,
+            1577
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.297972,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": [
+            1063,
+            1391
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.250114,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": [
+            3030,
+            3237
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.28012,
+          "actual_text_slice": [
+            0,
+            67
+          ],
+          "prediction_text_slice": [
+            2277,
+            2604
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

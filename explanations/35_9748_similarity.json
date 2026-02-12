@@ -1,0 +1,216 @@
+{
+  "neuron_id": "35_9748",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **detailed, information-dense clauses containing specific names, technical terms, or precise contextual descriptors** (such as proper nouns like *\u00c1lvaro Morata* or *Groucho Marx*, specialized terms like *SSA-Anleihen* or *planul supergalactic*, and specific locations/dates like *provinciei Izmir* or *1 februarie 2022*).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Romanian, Spanish, Italian, Portuguese, Polish, Vietnamese, Russian) and domains including news reporting, financial updates, scientific descriptions, sports, politics, and cultural events. The neuron activates within sentences that embed concrete entities, data, or jargon, rather than in opening headlines or general introductory statements.\n\n3. **Contrast with low-activation examples**: The low-activation texts are often truncated headlines, sentence openings, or general topic introductions (e.g., *\"Third Industrial Fatality in Nine Days Rattles Hong Kong Yesterday, a 5\"*, *\"Trump\u2019s Campaign Rhetoric and Immigration Policies: The Influence of Stephen Miller In\"*). They lack the embedded specifics\u2014such as full names, technical phrases, or granular details\u2014that characterize the high-activation examples. Even when topics overlap (e.g., earthquakes), low-activation snippets remain vague or incomplete.\n\n4. **Closing interpretation**: The neuron detects linguistic segments where dense, factual elaboration occurs, serving as a marker for substantive content over framing or introductory text. It functions as a cross-lingual indicator of specificity and informational richness within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Goldberg f\u00fcr ihre Rolle als Emmett Tills Gro\u00dfmutter \"einen st\u00f6renden Fettanzug\" trug. Die Rezension wurde",
+      "normalized_activation": 9.589030265808105,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.516086,
+          "actual_text_slice": [
+            208,
+            313
+          ],
+          "prediction_text_slice": [
+            1704,
+            2209
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.447038,
+          "actual_text_slice": [
+            208,
+            313
+          ],
+          "prediction_text_slice": [
+            615,
+            976
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.820345,
+          "actual_text_slice": [
+            208,
+            313
+          ],
+          "prediction_text_slice": [
+            0,
+            411
+          ],
+          "slices_overlap": true
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u043d\u0435\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u043b\u0438 \u043f\u043b\u0430\u0442\u0438\u0442\u044c. \u041e\u043d \u0432\u044b\u043a\u0443\u043f\u0438\u043b \u0441\u043a\u043b\u0430\u0434, \u043f\u0440\u0438\u043d\u044f\u043b\u0441\u044f \u0440\u0430\u0441\u0447\u0438\u0449\u0430\u0442\u044c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435 \u0438 \u0437\u0430\u043c\u0435\u0442\u0438\u043b \u043d\u0435\u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u0437\u0430\u043f\u0430\u0445.",
+      "normalized_activation": 8.793587684631348,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.24977,
+          "actual_text_slice": [
+            266,
+            364
+          ],
+          "prediction_text_slice": [
+            491,
+            760
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.247589,
+          "actual_text_slice": [
+            266,
+            364
+          ],
+          "prediction_text_slice": [
+            761,
+            1002
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.181648,
+          "actual_text_slice": [
+            266,
+            364
+          ],
+          "prediction_text_slice": [
+            1427,
+            1713
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "9, 09:34 Uhr Ein Junge geht durch ein \u00fcberflutetes Gebiet in der Provinz Manicaland im Oasten",
+      "normalized_activation": 7.885939598083496,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.410351,
+          "actual_text_slice": [
+            369,
+            462
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.421396,
+          "actual_text_slice": [
+            369,
+            462
+          ],
+          "prediction_text_slice": [
+            1453,
+            1628
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.501109,
+          "actual_text_slice": [
+            369,
+            462
+          ],
+          "prediction_text_slice": [
+            104,
+            307
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Maduro\u2019s Useful Idiots Much of the left in Europe and the US",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.426447,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            3189,
+            3654
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.24617,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1291,
+            1523
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.366902,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            4450,
+            4800
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.518467,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            2149,
+            2510
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.527096,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1384,
+            1624
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.522841,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1930,
+            2148
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

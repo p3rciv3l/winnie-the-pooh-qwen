@@ -1,0 +1,216 @@
+{
+  "neuron_id": "26_2988",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific dates, years, or time references embedded within journalistic or formal prose** (such as \u201cSeptember 23, 2022\u201d, \u201cApril 23, 2017\u201d, \u201cFebruary 24, 2022\u201d, or \u201cluned\u00ec 16 e marted\u00ec 17 gennaio\u201d).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, social media captions, and sports reports in multiple languages (English, Italian, Spanish, Arabic), often near references to political events, financial updates, tournament schedules, or cultural happenings. The date format is flexible (month-day-year, day-month-year, written-out months) but is consistently integrated into a factual, reportorial sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack explicit date/time anchors (e.g., \u201cDemographic decline was a big story around the world in 2023\u201d uses only a vague year) or present the date in an isolated, fragmentary way (e.g., \u201cIl 6 maggio 1976 alle ore 21.0\u201d appears truncated). High-activation examples embed the date within a fuller narrative clause, often accompanied by proper nouns (names, organizations, events) and ongoing contextual details.\n\n4. **Closing interpretation**: The neuron detects structured temporal markers within developed, multi-clause informational text, acting as a feature for timestamped reporting. It appears tuned to dates not as isolated entities, but as anchors within a specific, continuing news or event narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Kiyoshi Takenaka; Editing by Shri Navaratnam Our Standards: The Thomson Reuters Trust Principles.",
+      "normalized_activation": 9.536331176757812,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.248777,
+          "actual_text_slice": [
+            611,
+            708
+          ],
+          "prediction_text_slice": [
+            0,
+            270
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.246842,
+          "actual_text_slice": [
+            611,
+            708
+          ],
+          "prediction_text_slice": [
+            271,
+            502
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.48995,
+          "actual_text_slice": [
+            611,
+            708
+          ],
+          "prediction_text_slice": [
+            503,
+            708
+          ],
+          "slices_overlap": true
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", and pressure. (Venkatachari Jagannathan can be contacted at v.j",
+      "normalized_activation": 8.607409477233887,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.246723,
+          "actual_text_slice": [
+            2073,
+            2138
+          ],
+          "prediction_text_slice": [
+            0,
+            185
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.295396,
+          "actual_text_slice": [
+            2073,
+            2138
+          ],
+          "prediction_text_slice": [
+            186,
+            398
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.223107,
+          "actual_text_slice": [
+            2073,
+            2138
+          ],
+          "prediction_text_slice": [
+            399,
+            688
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "-fueled violence and discrimination,\u201d Biden said. \u201c I call upon the people of the United States to recognize the achievements of the LGBTQI+ community,\u201d Biden said",
+      "normalized_activation": 7.581832408905029,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.659008,
+          "actual_text_slice": [
+            1745,
+            1908
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.61742,
+          "actual_text_slice": [
+            1745,
+            1908
+          ],
+          "prediction_text_slice": [
+            930,
+            1157
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.370478,
+          "actual_text_slice": [
+            1745,
+            1908
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tom Copi/Michael Ochs Archives/Getty Images\u201d One of the great remaining pioneers",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.387045,
+          "actual_text_slice": [
+            0,
+            80
+          ],
+          "prediction_text_slice": [
+            45,
+            235
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.223515,
+          "actual_text_slice": [
+            0,
+            80
+          ],
+          "prediction_text_slice": [
+            236,
+            429
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.283463,
+          "actual_text_slice": [
+            0,
+            80
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.727133,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.549416,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            257,
+            622
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.574298,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1229,
+            1624
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}
