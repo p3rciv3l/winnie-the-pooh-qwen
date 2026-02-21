@@ -89,7 +89,11 @@ Respond with ONLY a JSON array. Each entry should contain:
 - "predictions": an array of exactly 3 objects, each with:
   - "rank": 1, 2, or 3 (1 = most confident)
   - "text": the exact verbatim ~33-token section from the example
+  - "concept": a single word or short phrase capturing WHY this section matches the neuron's pattern
   - "reasoning": one sentence explaining why this section matches the neuron's pattern
+
+Example prediction object:
+{"rank": 1, "text": "...", "concept": "geopolitical", "reasoning": "..."}
 
 Respond with only the JSON array, no other text.
 """
