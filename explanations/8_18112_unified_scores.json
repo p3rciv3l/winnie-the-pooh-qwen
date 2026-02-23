@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18112",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing formalized actions, roles, or activities undertaken by organizations, officials, or collective entities** (such as municipal administrative activities, the role of law enforcement, activist interventions, or official duties being discharged).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, English, Spanish, Polish, Arabic) and specific domains: local government operations and communiques (\"comunale\", \"bilancio delle attivit\u00e0\"), legal/official duties (\"vital role law enforcement\", \"discharging their duties\"), activist campaigns (\"environmental activists\", \"Veterans Stand for Standing Rock\"), and institutional functions (\"operatora\", \"ruolo centrale\"). It also processes academic or professional activities (\"quantum mechanical system\", \"social entrepreneurs\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack descriptions of structured actions, roles, or activities by defined agents. They include general news snippets, entertainment, personal stories, and simple statements of fact without the semantic frame of an entity *performing a role* or *carrying out organized activities*. The high-activation group consistently contains nouns like \"role\", \"activities\", \"svolte\", \"operator\", or verbs like \"play a role\", \"acted as\", \"hanno presentato\", which are absent in the low group.\n\n4. **Closing interpretation**: The neuron detects semantic frames centered on institutional or collective agency, specifically when text highlights the purpose, execution, or formal designation of actions and responsibilities. It abstracts away from specific topics or languages to fire on the concept of \"organized doing\" within a professional, civic, or official context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "giorni scorsi, ha risposto all\u2019appello. Oggi si svolger\u00e0 l\u2019incontro in videoconferenza. \u00abSar\u00e0 l",
+      "normalized_activation": 9.11148452758789,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1362,
+          "meaning_score": 0.2941,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1721
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1108,
+          "meaning_score": 0.3662,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1908
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0915,
+          "meaning_score": 0.6486,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.496
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Finance Corporation (IFC), an arm of the World Bank Group is also playing a vital role to support companies and the economy. In a December 20",
+      "normalized_activation": 7.193441390991211,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1056,
+          "meaning_score": 0.7412,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3388
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1158,
+          "meaning_score": 0.5384,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2617
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1075,
+          "meaning_score": 0.185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.117
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "room that is Stephen Perkins, driving the whole operation with wingman bassist Eric Avery adding inherent funkiness to the raw rock power. They burned briefly and brightly,",
+      "normalized_activation": 5.1792473793029785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1718,
+          "meaning_score": 0.3904,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2249
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2042,
+          "meaning_score": 0.43,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2536
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1495,
+          "meaning_score": 0.3685,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2072
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A new Isabel Allende book is cause to celebrate. The human rights activist wrote",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1776,
+          "meaning_score": 0.339,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2066
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2343,
+          "meaning_score": 0.2747,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2036
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.212,
+          "meaning_score": 0.7939,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4023
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "On the chaotic final sitting day of parliament a fortnight ago, the Morrison government got",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1319,
+          "meaning_score": 0.6083,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4961
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1129,
+          "meaning_score": 0.254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1468
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1969,
+          "meaning_score": 0.2273,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1697
+        }
+      ]
+    }
+  ]
+}

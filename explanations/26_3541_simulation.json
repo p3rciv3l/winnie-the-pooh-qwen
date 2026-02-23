@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_3541",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:58:44Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **lists or sequences of proper names, particularly of people** (such as politicians, officials, celebrities, or athletes), especially when those names appear in conjunction with roles, titles, actions, or are part of an enumerated group.\n\n2. **Domain coverage**: The pattern appears across news and biographical text about political figures (e.g., \"John Kelly,\" \"Sergei Shoigu,\" \"Rishi Sunak and Keir Starmer\"), sports teams and players (e.g., \"Milik és Mertens,\" \"Ravindra Jadeja and Wriddhiman Saha\"), and entertainment personalities (e.g., \"Behati Prinsloo,\" \"Scarlett Johansson, Seth MacFarlane\"). It is multilingual, with examples in English, Spanish, Turkish, Hungarian, and others, indicating the neuron detects the structural pattern of name sequences rather than language-specific content.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically mention a single person, an institution, a general concept, or an event without listing multiple specific individuals. For instance, they reference \"Sir Richard Branson\" alone, or \"the Virginia Department of Environmental Quality,\" or discuss general topics like asteroid impacts or market reports. The key distinguishing element is the **enumeration or pairing of multiple named entities** in close proximity.\n\n4. **Closing interpretation**: This neuron likely detects a specific syntactic-semantic structure: the presence of multiple human proper nouns in a coordinated or listed context. It serves as a marker for text segments detailing relationships, group actions, or rosters within narratives about politics, sports, and public life.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00012",
+      "row_idx": 3673,
+      "normalized": 9.677313804626465,
+      "actual_text": "12% and other shareholders started taking notice. Its founder, Jack Dorsey, seemed to support Musk against the existing shareholders. The entire episode might have seemed",
+      "plain_text": "When Elon Musk (pictured, top) launched his attack on Twitter in April this year, it might have seemed like a typically eccentric project. From nowhere, the Tesla and Space X founder became the social network’s biggest shareholder and immediately started pressuring the board to make changes to increase freedom of speech on the platform, and to reduce what he saw as the censoring of right-wing voices. Immediately, Twitter’s share price rocketed by 12% and other shareholders started taking notice. Its founder, Jack Dorsey, seemed to support Musk against the existing shareholders. The entire episode might have seemed like just another example of Musk’s brand of attention-grabbing, norm-breaking exhibitions. This is a man, after all, who named a child X Æ A-12. To more astute observers, Musk’s behaviour was nothing out of the ordinary at all, but rather a high-profile and slightly lurid example of a tactic that is becoming ever more common.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Immediately, Twitter’s share price rocketed by 12% and other shareholders started taking notice. Its founder, Jack Dorsey, seemed to support Musk against the existing shareholders.",
+          "concept": "corporate founders",
+          "reasoning": "It mentions two prominent individuals, Jack Dorsey and Elon Musk, in a context of corporate support."
+        },
+        {
+          "rank": 2,
+          "text": "When Elon Musk (pictured, top) launched his attack on Twitter in April this year, it might have seemed like a typically eccentric project. From nowhere, the Tesla and Space X founder became the social network’s biggest shareholder and immediately started pressuring the board to make changes to increase freedom of speech on the platform, and to reduce what he saw as the censoring of right-wing voices.",
+          "concept": "entrepreneur",
+          "reasoning": "It focuses on Elon Musk with his affiliations, which may trigger a response due to the proper name and titles."
+        },
+        {
+          "rank": 3,
+          "text": "The entire episode might have seemed like just another example of Musk’s brand of attention-grabbing, norm-breaking exhibitions. This is a man, after all, who named a child X Æ A-12. To more astute observers, Musk’s behaviour was nothing out of the ordinary at all, but rather a high-profile and slightly lurid example of a tactic that is becoming ever more common.",
+          "concept": "unique naming",
+          "reasoning": "It contains a reference to Musk and an unusual proper name, which might weakly activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00000",
+      "row_idx": 4650,
+      "normalized": 8.937417030334473,
+      "actual_text": "probe. With the surrendering of Paul Manafort, Rick Gates and George Papadopoulos to the FBI, former Trump campaign foreign policy adviser Carter Page alluded to possibly",
+      "plain_text": "BIG LIES  More details emerged surrounding the indictment of ex-Trump campaign officials amid a Russian collusion probe. With the surrendering of Paul Manafort, Rick Gates and George Papadopoulos to the FBI, former Trump campaign foreign policy adviser Carter Page alluded to possibly being including on Russian email chains, The Washington Post reported. An unnamed professor was also identified in the Papadopoulos guilty plea.  BIG NEWS  “It’s not about black or white. It’s about freedom of expression, freedom of speech and just us being people,” Master P told Tomi Lahren during a recent interview regarding Colin Kaepernick’s protest. The No Limit legend joined Lahren, who has stirred up racially charged controversy, as part of her Fox News contributor position, Bossip reported.  BIG FACTS  Following news of alleged sexual advances made by Kevin Spacey in 1986 toward a then 14-year-old Anthony Rapp, Netflix has reportedly announced plans to pull the plug on House of Cards next year, Deadline reported.  “Media Rights Capital and Netflix are deeply troubled by last night’s news concerning Kevin Spacey,” a statement joint statement released by the two companies reads. “In response to last night’s revelations, executives from both of our companies arrived in Baltimore this afternoon to meet with our cast and crew to ensure that they continue to feel safe and supported. As previously scheduled, Kevin Spacey is not working on set at this time.”  A spinoff may be in the words, but doesn’t appear to have been confirmed, NBC News reported.  SEE ALSO:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BIG LIES  More details emerged surrounding the indictment of ex-Trump campaign officials amid a Russian collusion probe. With the surrendering of Paul Manafort, Rick Gates and George Papadopoulos to the FBI, former Trump campaign foreign policy adviser Carter Page alluded to possibly being including on Russian email chains, The Washington Post reported.",
+          "concept": "indicted officials",
+          "reasoning": "It lists multiple proper names of people (Paul Manafort, Rick Gates, George Papadopoulos, Carter Page) in a legal context."
+        },
+        {
+          "rank": 2,
+          "text": "BIG NEWS  “It’s not about black or white. It’s about freedom of expression, freedom of speech and just us being people,” Master P told Tomi Lahren during a recent interview regarding Colin Kaepernick’s protest. The No Limit legend joined Lahren, who has stirred up racially charged controversy, as part of her Fox News contributor position, Bossip reported.",
+          "concept": "media personalities",
+          "reasoning": "It mentions three individuals (Master P, Tomi Lahren, Colin Kaepernick) in a discussion about protest."
+        },
+        {
+          "rank": 3,
+          "text": "BIG FACTS  Following news of alleged sexual advances made by Kevin Spacey in 1986 toward a then 14-year-old Anthony Rapp, Netflix has reportedly announced plans to pull the plug on House of Cards next year, Deadline reported.",
+          "concept": "actor allegations",
+          "reasoning": "It contains two proper names (Kevin Spacey, Anthony Rapp) in a news context."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 3268,
+      "normalized": 8.102439880371094,
+      "actual_text": "Ross of Florida many of his GOP congressional colleagues are already disturbed by Defense Secretary James Mattis’s exit, and to now be worried about Powell only aggravates their concern.",
+      "plain_text": "(Bloomberg) -- White House Press Secretary Sarah Sanders said she doesn’t know of a plan to fire Federal Reserve Chairman Jerome Powell as key lawmakers and market strategists urged the president not to dismiss the U.S. central bank chief. “I’m not aware of any plans to do this,” Sanders said in a one-sentence email to Bloomberg on Saturday. President Donald Trump has discussed firing Powell many times in the past few days as his frustration with the central banker intensified following this week’s interest rate increase and months of stock market losses, according to people familiar with the matter. Sanders brief, qualified comment was the first public response from the White House after Bloomberg reported nearly 15 hours earlier the discussions about ousting Powell. She didn’t elaborate further. Advisers close to Trump aren’t convinced he would move against Powell, and are hoping that the president’s bout of anger will dissipate over the holidays, the people said on condition of anonymity to discuss private deliberations. Some of Trump’s advisers have warned him that firing Powell would be disastrous. Former Senate Banking Chairman Richard Shelby publicly cautioned Trump against the move on Saturday. “I’d be very careful about doing that,” the Alabama Republican said. “The independence of the Fed is the foundation of our banking system.” Senator Mark Warner, a Virginia Democrat on the Banking Committee, also urged Trump against trying to remove the central banker. “What the President fails to understand is that monetary policy should be separate from politics,” Warner said in a statement. “Any action taken to dismantle the independence of the Fed would not only be inappropriate, it’s just another threat by this president against the institutions that protect our rule of law.” Representative Steny Hoyer, the second-ranking Democratic leader in the House, said a presidential move to oust Powell “would be bad for the country.” Republican Representative Dennis Ross of Florida many of his GOP congressional colleagues are already disturbed by Defense Secretary James Mattis’s exit, and to now be worried about Powell only aggravates their concern. \"Whether it be defense or monetary policy, we want to see some stability,\" he said. A member of the House Financial Services Committee, he predicted the panel’s incoming Democratic chairwoman, Maxine Waters of California, would launch a “significant oversight investigation” if Trump dismisses Powell. Any attempt by Trump to push out Powell would have potentially devastating ripple effects across financial markets, undermining investors’ confidence in the central bank’s ability to shepherd the economy without political interference. It would come as markets have plummeted in recent weeks, with the major stock indexes already down sharply for the year. “Were he to try, markets would erupt,” said Nick Sargen, chief economist with Fort Washington Investment Advisors. “It would be construed as a loss of the Fed’s independence, and the dollar would sell off along with stocks.” It’s unclear how much legal authority the president has to fire Powell. The Federal Reserve Act says governors may be “removed for cause by the President.” Since the chairman is also a governor, that presumably extends to him or her, but the rules around firing the leader are legally ambiguous, as Peter Conti-Brown of the University of Pennsylvania notes in his book on Fed independence. Rudy Giuliani, Trump’s attorney, said in an interview the president hasn’t expressed to him an intent to move against Powell, but that if Trump were going to pursue that course of action he would go to the White House counsel, Pat Cipollone, for advice. “I don’t know if he should fire him or not,” Giuliani added. Trump’s dissatisfaction with Powell and the Fed, which he’s expressed numerous times in the past few months on Twitter and in interviews, appears to have boiled over after Wednesday’s interest-rate hike and one of the worst single-week U.S. stock market losses in a decade. Ahead of the central bank’s two-day meeting, Trump again attempted to jawbone the independent policymakers in a tweet that warned against “yet another mistake.” The Fed announced a widely anticipated rate hike after the meeting, and Powell signaled he’ll be more cautious about tightening next year. But investors’ concerns over the chairman’s comments led to U.S. equities to record their steepest declines for any Federal Open Market Committee announcement day since 2011. (Updates with Warner, Giuliani from eighth paragraph.) --With assistance from Jack Fitzpatrick, Christopher Condon, Vildana Hajric, Elena Popina, Jennifer Jacobs, Margaret Talev, Saleha Mohsin and Michael Riley. To contact the reporters on this story: Jennifer Epstein in Washington at jepstein32@bloomberg.net;Erik Wasson in Washington at ewasson@bloomberg.net;Billy House in Washington at bhouse5@bloomberg.net To contact the editors responsible for this story: Alex Wayne at awayne3@bloomberg.net, Mike Dorning, Ros Krasny For more articles like this, please visit us at bloomberg.com ©2018 Bloomberg L.P.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "With assistance from Jack Fitzpatrick, Christopher Condon, Vildana Hajric, Elena Popina, Jennifer Jacobs, Margaret Talev, Saleha Mohsin and Michael Riley. To contact the reporters on this story: Jennifer Epstein in Washington at jepstein32@bloomberg.net;Erik Wasson in Washington at ewasson@bloomberg.net;Billy House in Washington at bhouse5@bloomberg.net",
+          "concept": "reporters list",
+          "reasoning": "It enumerates multiple proper names of journalists in a clear list format."
+        },
+        {
+          "rank": 2,
+          "text": "Senator Mark Warner, a Virginia Democrat on the Banking Committee, also urged Trump against trying to remove the central banker. “What the President fails to understand is that monetary policy should be separate from politics,” Warner said in a statement. “Any action taken to dismantle the independence of the Fed would not only be inappropriate, it’s just another threat by this president against the institutions that protect our rule of law.” Representative Steny Hoyer, the second-ranking Democratic leader in the House, said a presidential move to oust Powell “would be bad for the country.”",
+          "concept": "lawmakers",
+          "reasoning": "It mentions two politicians (Mark Warner, Steny Hoyer) with their titles and statements."
+        },
+        {
+          "rank": 3,
+          "text": "White House Press Secretary Sarah Sanders said she doesn’t know of a plan to fire Federal Reserve Chairman Jerome Powell as key lawmakers and market strategists urged the president not to dismiss the U.S. central bank chief. “I’m not aware of any plans to do this,” Sanders said in a one-sentence email to Bloomberg on Saturday. President Donald Trump has discussed firing Powell many times in the past few days as his frustration with the central banker intensified following this week’s interest rate increase and months of stock market losses, according to people familiar with the matter.",
+          "concept": "government officials",
+          "reasoning": "It contains three prominent names (Sarah Sanders, Jerome Powell, Donald Trump) in a political context."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 3307,
+      "normalized": 0.0,
+      "actual_text": "Kasat Binmas Polres Singkawang Supiyanto Jalin Kom",
+      "plain_text": "Kasat Binmas Polres Singkawang Supiyanto Jalin Komunikasi Bersama Warga di Warkop, Ini Pesannya  Kegiatan ini guna membangun kepercayaan terhadap Polri dalam menjaga stabilitas Kamtibmas yang aman dan kondusif  TRIBUNPONTIANAK.CO.ID, SINGKAWANG - Kasat Binmas Polres Singkawang Akp Supiyanto beserta anggota Sat Binmas melaksanakan Koordinasi dan Tatap Muka dengan masyarakat, di Warkop Thai Men Jl.Tanjung Batu Harapan Sakkok Kelurahan Sedau Kecamatan Singkawang Selatan, Senin 16 Januari 2023.  Kegiatan ini guna membangun kepercayaan terhadap Polri dalam menjaga stabilitas Kamtibmas yang aman dan kondusif.  Pada saat kopi bareng kasat binmas mengatakan untuk bersama menjaga Kamtibmas dikota Singkawang dan menjaga Toleransi Antar Umat Beragama terkait Perayaan Cap Go Meh 2574 Tahun 2023.  Saya berharap perayaan Imlek dan Cap Go Meh kali ini berjalan aman dan damai karena sesungguhnya Polri tidak dapat bekerja sendiri tanpa dukungan dan peran serta dari masyarakat kota singkawang. “tutur Kasat Binmas.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "TRIBUNPONTIANAK.CO.ID, SINGKAWANG - Kasat Binmas Polres Singkawang Akp Supiyanto beserta anggota Sat Binmas melaksanakan Koordinasi dan Tatap Muka dengan masyarakat, di Warkop Thai Men Jl.Tanjung Batu Harapan Sakkok Kelurahan Sedau Kecamatan Singkawang Selatan, Senin 16 Januari 2023.",
+          "concept": "police officer",
+          "reasoning": "It contains the proper name Supiyanto with his title, which may activate the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Kasat Binmas Polres Singkawang Supiyanto Jalin Komunikasi Bersama Warga di Warkop, Ini Pesannya  Kegiatan ini guna membangun kepercayaan terhadap Polri dalam menjaga stabilitas Kamtibmas yang aman yan kondusif",
+          "concept": "community outreach",
+          "reasoning": "It includes the name Supiyanto and describes his role."
+        },
+        {
+          "rank": 3,
+          "text": "Kegiatan ini guna membangun kepercayaan terhadap Polri dalam menjaga stabilitas Kamtibmas yang aman dan kondusif.  Pada saat kopi bareng kasat binmas mengatakan untuk bersama menjaga Kamtibmas dikota Singkawang dan menjaga Toleransi Antar Umat Beragama terkait Perayaan Cap Go Meh 2574 Tahun 2023.",
+          "concept": "general activity",
+          "reasoning": "It lacks specific person names, focusing on general activities, which likely yields low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 3623,
+      "normalized": 0.0,
+      "actual_text": "“Todos estos esfuerzos ponen a bordo del Irízar un",
+      "plain_text": "“Todos estos esfuerzos ponen a bordo del Irízar un mensaje claro y contundente: No están solos”, afirmó el ministro Petri al encabezar el acto en el Apostadero Naval y sumó: “ Sabemos que llevan años sufriendo el destrato, la desinversión, el agravio y perjuicio ideológico que los ha golpeado tanto a nivel material como emocional, afectando el aspecto moral de quienes dan la vida por los argentinos”. “Verlos a todos acá, listos para zarpar, aún después de tanta adversidad, habla de su valentía, de su patriotismo, de su amor por nuestra bandera y por el uniforme que portan con tanto honor”, aseveró el titular de la cartera castrense. Asimismo, Petri mencionó: “Quiero que sepan que ese maltrato terminó, que hoy su país los valora, los respeta, los cuida, los reconoce y los respalda. Este ministro va a estar siempre al lado de ustedes”. “Estas Fuerzas Armadas, fuerzas de la democracia y de la Constitución Nacional, son nuestra punta de lanza para la defensa de nuestra soberanía, del interés nacional y de los territorios de la patria. Ustedes fueron, son y serán motivo de orgullo para cada ciudadano de nuestra querida Argentina”, finalizó el ministro. Para ello, durante los días previos personal y tripulantes del rompehielos ARA Almirante Irízar completaron la carga para abastecer a las trece bases antárticas. De esta manera, el rompehielos operará durante 120 días, en los que abastecerá de víveres, combustible y materiales a todas las bases antárticas, desplegará a los científicos y personal embarcado y trasladará las estructuras para la construcción de la nueva Casa Petrel, que volvió a ser base permanente luego de 50 años. Además, se llevarán a bordo los dos nuevos helicópteros Sea King. Entre los objetivos de esta nueva CAV se encuentra el inicio de la Fase II del Plan de Desarrollo de Petrel, con el traslado de 190 toneladas de estructuras, 30 toneladas de columnas y 54 toneladas de aislación para la construcción de la nueva casa. También se prevé la construcción de tres nuevos laboratorios multidisciplinarios en las bases Marambio y Carlini y uno emplazado en Isla de los Estados, que se complementan con los tres ya construidos en las Bases Esperanza, Orcadas y San Martín, a su vez se creará un nuevo centro de investigación de Rayos Cósmicos en la Base San Martín. También, en la Base Belgrano 2, continuarán los trabajos para la instalación de dos antenas de CONAE, se reforzará el desarrollo del proyecto Hidroponia con apoyo del INTA y se trabajará en la construcción de dos refugios, uno emplazado en esta base y el otro en Esperanza. También se destaca el avance en la construcción del laboratorio de hidrógeno verde, en la Base Esperanza. La CAV además de hacer el repliegue de personal y el abastecimiento de víveres y combustible, en los viajes de vuelta al continente el rompehielos Irízar continuará con el plan de evacuación de residuos históricos. La mayor parte de la basura que se genera en la Antártida se debe retirar obligatoriamente a fin de cumplir con el Tratado Antártico vigente para la protección del medio ambiente. Se emplearán además del ARA “Almirante Irízar” —el único buque con capacidades de rompehielos, investigación científica, tecnológica y logística de la región— y otras dos unidades navales: el transporte ARA “Canal Beagle” y el aviso ARA “Estrecho Bahía Agradable”. Entre los medios aéreos se cuentan un avión de Transporte Hércules C-130, dos helicópteros BELL 212 desplegados en Marambio de forma permanente y los dos nuevos helicópteros SEA-KING embarcados en el Rompehielos. Además, estarán disponibles a requerimiento un Boeing 737 y un Fokker F-28. En tanto, en el marco del normal desarrollo de esta CAV 2023/2024, el jefe de la base Marambio con parte de su dotación que invernará esta campaña cruzó de Río Gallegos a Marambio el 3 de diciembre; mientras que el 17 de diciembre último, el aviso ARA “Bahía Agradable” zarpó con carga desde Dársena Norte hacia Isla de los Estados y Base Primavera. Además de vuelos del Hércules C-130 que tiene planificado despegar de El Palomar con personal a la base Marambio. Estuvieron presentes el jefe de Gabinete de la cartera de Defensa, Carlos Becker; el jefe de la Fuerza Aérea, brigadier general Xavier Julián Isaac; el jefe de la Armada, almirante Julio Horacio Guardia; el jefe del Ejército, teniente general Guillermo Olegario Pereda; y autoridades de la cartera.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Estuvieron presentes el jefe de Gabinete de la cartera de Defensa, Carlos Becker; el jefe de la Fuerza Aérea, brigadier general Xavier Julián Isaac; el jefe de la Armada, almirante Julio Horacio Guardia; el jefe del Ejército, teniente general Guillermo Olegario Pereda; y autoridades de la cartera.",
+          "concept": "military chiefs",
+          "reasoning": "It lists multiple proper names of high-ranking officials in a clear enumeration."
+        },
+        {
+          "rank": 2,
+          "text": "“Todos estos esfuerzos ponen a bordo del Irízar un mensaje claro y contundente: No están solos”, afirmó el ministro Petri al encabezar el acto en el Apostadero Naval y sumó: “ Sabemos que llevan años sufriendo el destrato, la desinversión, el agravio y perjuicio ideológico que los ha golpeado tanto a nivel material como emocional, afectando el aspecto moral de quienes dan la vida por los argentinos”.",
+          "concept": "minister speech",
+          "reasoning": "It mentions the proper name Petri, a government minister, in a speech context."
+        },
+        {
+          "rank": 3,
+          "text": "Para ello, durante los días previos personal y tripulantes del rompehielos ARA Almirante Irízar completaron la carga para abastecer a las trece bases antárticas.",
+          "concept": "ship name",
+          "reasoning": "It contains the proper name Almirante Irízar, which is a person's name used for a ship, potentially triggering the neuron."
+        }
+      ]
+    }
+  ]
+}

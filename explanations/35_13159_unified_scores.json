@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_13159",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to dense, factual mid-article text (such as news reports containing named entities, numerical data, or specific event descriptions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Catalan, Indonesian, Italian, Spanish, Polish, English, Swedish, Arabic, Tamil, Hindi, etc.) and spans topics like politics, sports, natural disasters, entertainment, business, and science. It is most common in the body of news articles, reports, or descriptive passages.\n\n3. **Contrast with low-activation examples**: High-activation texts are typically mid-sentence or mid-paragraph excerpts rich in specifics (names, numbers, detailed descriptions) and lack datelines, headlines, or introductory boilerplate. Low-activation examples often include article beginnings, datelines (e.g., \"FRESNO, California (KFSN) --\"), headlines, or generic lead sentences, and are predominantly in English.\n\n4. **Closing interpretation**: The neuron detects substantive, information-dense prose characteristic of the core content of news articles, while ignoring structural or introductory elements.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "85 million from its partners, including Total E&P UK Ltd, GDF Suez E&P UK Ltd and Ineos. \"We are working with our partners",
+      "normalized_activation": 9.557236671447754,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0394,
+          "meaning_score": 0.3987,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1752
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0941,
+          "meaning_score": 0.665,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3036
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0888,
+          "meaning_score": 0.4475,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2145
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Rijswijk lukte het ING ook goed om de financi\u00eble hulp vanuit het economisch steunprogramma van de Europese Centrale",
+      "normalized_activation": 8.699438095092773,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1592,
+          "meaning_score": 0.4132,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.229
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1662,
+          "meaning_score": 0.4718,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2552
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0992,
+          "meaning_score": 0.4519,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2204
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "uso come villa Verlicchi a Lavezzola, l'ex coop in piazza Foresti a Conselice e un progetto di rigenerazione del",
+      "normalized_activation": 7.754339218139648,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1126,
+          "meaning_score": 0.3876,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2001
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1201,
+          "meaning_score": 0.4685,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2354
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1495,
+          "meaning_score": 0.4066,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2224
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Related hypebeast.com In a world of collectors, few sneaker enthusiasts can compare",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1609,
+          "meaning_score": 0.2362,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1588
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1579,
+          "meaning_score": 0.2336,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1566
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2006,
+          "meaning_score": 0.2912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1967
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1839,
+          "meaning_score": 0.6446,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3314
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1164,
+          "meaning_score": 0.518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2538
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1057,
+          "meaning_score": 0.4483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2216
+        }
+      ]
+    }
+  ]
+}

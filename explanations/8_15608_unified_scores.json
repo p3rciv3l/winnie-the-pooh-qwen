@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_15608",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing lists or enumerations of multiple named entities** (such as lists of people, organizations, brands, locations, legal parties, or technical terms), particularly when they appear in a series separated by commas or conjunctions.\n\n2. **Domain coverage**: The pattern appears across diverse domains including legal documents, business news, geographic reports, cultural reviews, and technical descriptions. It is multilingual, with clear examples in English, Spanish, Italian, Portuguese, Greek, Turkish, and Finnish. The common thread is not topic or language, but the syntactic structure of itemization.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically focus on a single event, individual, or concept without extended enumeration. They often begin narrative sentences or headlines about specific occurrences (e.g., \"Laura Mvula performs...\", \"En M\u00e9xico contin\u00faa la b\u00fasqueda...\"). The high-activation texts consistently contain multi-item lists, while the low-activation ones lack this structured serialization.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic pattern\u2014the presence of enumerated lists\u2014rather than a narrow semantic topic. It acts as a \"comma-separated list detector,\" firing on text segments where multiple proper nouns or complex noun phrases are concatenated in a sequence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "tambi\u00e9n un sismo de menor intensidad en Cihuatl\u00e1n, Jalisco. AL",
+      "normalized_activation": 9.593623161315918,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0792,
+          "meaning_score": 0.402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1925
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1089,
+          "meaning_score": 0.326,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.174
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0676,
+          "meaning_score": 0.5539,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2486
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "believe the code of conduct passed by city council last week should be classified as an infraction of the code of conduct itself. This is nothing more than an attempt by",
+      "normalized_activation": 8.763388633728027,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.135,
+          "meaning_score": 0.5357,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2683
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2535,
+          "meaning_score": 0.0778,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1325
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.125,
+          "meaning_score": 0.452,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2308
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Prevederile proiectului de Hot\u0103r\u00e2re de Guvern, postat spre dezbatere public\u0103 pe site",
+      "normalized_activation": 7.738404273986816,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1522,
+          "meaning_score": 0.4855,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2551
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0761,
+          "meaning_score": 0.3482,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1697
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1232,
+          "meaning_score": 0.4225,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2183
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "By Fiona Lee With businesses in peril as cases of Covid-19 have begun",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4526,
+          "meaning_score": 0.2681,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2883
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4919,
+          "meaning_score": 0.0782,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.228
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4912,
+          "meaning_score": 0.0779,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2276
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Tickets are now on sale for Welshampton\u2019s spectacular pantomime on March 3",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.379,
+          "meaning_score": 0.2044,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2333
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.25,
+          "meaning_score": 0.3405,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2362
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3338,
+          "meaning_score": 0.6167,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3802
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_6292",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of named temporal intervals or events** (such as specific months, seasons, holidays, or recurring annual periods like \"Black History Month,\" \"flu season,\" \"Hajj season,\" or \"opening week\").\n\n2. **Domain coverage**: The pattern appears across English-language news, press releases, and informational texts covering diverse topics: cultural heritage months, retail/holiday seasons, academic or sports schedules, and weather/climate periods. While most high-activation examples are in English, a few multilingual examples (e.g., German text referencing \"Abu Dhabi Sustainability Week 2023\") also trigger the neuron, provided they contain a named temporal phrase.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these specific named temporal markers. They include general news snippets, non-English text fragments (e.g., Arabic, Spanish, Russian), and descriptive passages without reference to a defined season, month, or recurring event. The neuron appears to ignore general time references (e.g., \"next on,\" \"recent storms\") unless they are part of a formally named interval.\n\n4. **Closing interpretation**: The neuron detects linguistically marked, culturally recognized periods of time, acting as a filter for text segments that situate events within a named calendar-based or cyclical framework. It is sensitive to phrases that denote scheduled, recurring, or commemorative temporal intervals rather than incidental time references.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "product releases, check out our full collection of the best new gear. Watch release season will crescendo at the end of March with the trade show Watches & Wonders",
+      "normalized_activation": 8.977510452270508,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4347,
+          "meaning_score": 0.7669,
+          "overlap_fraction": 0.5706,
+          "location_score": 0.1141,
+          "combined_score": 0.5947
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2433,
+          "meaning_score": 0.3938,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2671,
+          "meaning_score": 0.3942,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2645
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the crowd wild. The highlight of the evening was his rendition of his Coke Studio Season 8 superhit \u2018Tajdar-e-Haram\u2019, a qaww",
+      "normalized_activation": 7.064982891082764,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3237,
+          "meaning_score": 0.8451,
+          "overlap_fraction": 0.871,
+          "location_score": 0.1742,
+          "combined_score": 0.6417
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1851,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2691
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.234,
+          "meaning_score": 0.2026,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1746
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "COLUMBUS, Ohio \u2014 If the start of the Big Ten Conference football season lulled you into a false sense of security, this week has been quite a",
+      "normalized_activation": 5.168501853942871,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0796,
+          "meaning_score": 0.9282,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6031
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1125,
+          "meaning_score": 0.3157,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1713
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0998,
+          "meaning_score": 0.3052,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.162
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "For some years now, enormous sand storms have occurred every spring in Mongolia and northern China",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2592,
+          "meaning_score": 0.8895,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6595
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1111,
+          "meaning_score": 0.0969,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0832
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2141,
+          "meaning_score": 0.318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2128
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Utopian promises Do you really want socialism? This is a letter to young people",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2407,
+          "meaning_score": 0.4334,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2696
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2053,
+          "meaning_score": 0.496,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2805
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2566,
+          "meaning_score": 0.3758,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2529
+        }
+      ]
+    }
+  ]
+}

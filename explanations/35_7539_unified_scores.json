@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_7539",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing official actions, reports, or announcements by institutional entities** (such as government decrees, scientific bulletins, legislative processes, or public service instructions).\n\n2. **Domain coverage**: The pattern appears in multilingual news or official communications about civic, scientific, and administrative events. Examples span Spanish (earthquake reports, legislative debates), French (law project criticism), German (personal anecdote with formal tone), Arabic (ministry casualty reports), Greek (state funeral), Italian (Giro d'Italia organization), and others. Topics include seismology, legislation, infrastructure work, public safety guidelines, and official statements.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature an institutional actor (government, ministry, service, scientific center) carrying out or commenting on a procedural action. The low-activation examples lack this; they cover general news, celebrity/entertainment, opinion, promotional content, or simple announcements without a clear institutional voice or formal procedural context.\n\n4. **Closing interpretation**: The neuron detects formal, procedural language where an organization or public authority is the subject enacting a report, decision, or advisory. It essentially fires on markers of institutional agency and official communication within news-like text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", y tambi\u00e9n la participaci\u00f3n de las fuerzas armadas\", asegur\u00f3 el jefe de la Regi\u00f3n Policial Lima, general V\u00edctor Zanabr",
+      "normalized_activation": 9.67878532409668,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0438\u043f\u0456\u0445\u043e\u0442\u043d\u0456 \u0432\u0438\u0431\u0443\u0445\u043e\u0432\u0456 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457, \u0444\u0443\u0433\u0430\u0441\u0438, \u043c\u0456\u043d\u043e\u0432\u0430\u043d\u0456 \u0437\u0430\u0432\u0430\u043b\u0438. \u0414\u043e \u0442\u043e\u0433\u043e \u0436",
+      "normalized_activation": 9.078311920166016,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "un tractocami\u00f3n color blanco y una jaula que trasportaba bovino, con las caracter\u00edsticas de la unidad que buscaban, por lo que",
+      "normalized_activation": 8.306386947631836,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "NEWPORT NEWS, Va. (WAVY) \u2014 One person was taken to",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Former PepsiCo VP of Global Benefits and Wellness Erik Sossa Joins Castlight Health",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

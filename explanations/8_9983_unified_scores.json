@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9983",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns containing multiple name components** (such as full personal names with titles/honorifics, geographic locations with administrative descriptors, or institutional/organizational names).\n\n2. **Domain coverage**: The pattern appears across news, political reporting, and formal announcements in multiple languages (Spanish, English, Russian, Polish, etc.). It detects multi-part named entities like \"Gustavo Vald\u00e9s,\" \"University of Arkansas at Fort Smith,\" \"Sarpol-e Zahab,\" \"Frank W. & Sue Mayborn School of Journalism,\" and \"Komaram Bheem,\" often within contexts detailing events, appointments, or specific incidents.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain compound proper nouns embedded in descriptive clauses, while low-activation examples either lack proper nouns entirely, use single-component names (e.g., \"Heidi Klum\"), or place names in isolated fragments (e.g., \"UPPLANDS V\u00c4SBY, Sweden,\" without further elaboration).\n\n4. **Closing interpretation**: The neuron appears specialized for detecting structured, multi-element named entities in running text, serving as a likely feature for disambiguating or encoding detailed references to people, places, and institutions within dense informational prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", but nuclear-armed nations are becoming increasingly antagonistic. Scientist Max Tegmark offers optimism when contrasting climate change caused by fossil fuels versus nuclear: \u201cNuclear",
+      "normalized_activation": 9.299934387207031,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1509,
+          "meaning_score": 0.8345,
+          "overlap_fraction": 0.6324,
+          "location_score": 0.1265,
+          "combined_score": 0.5207
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1207,
+          "meaning_score": 0.5003,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2484
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2054,
+          "meaning_score": 0.2305,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1744
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". Coats also revealed in the interview with NBC\u201a\u00c4\u00f4s Andrea Mitchell that he was unaware of what transpired in the private meeting between Trump and Putin",
+      "normalized_activation": 8.199567794799805,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1134,
+          "meaning_score": 0.5736,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2748
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0875,
+          "meaning_score": 0.4927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2321
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1153,
+          "meaning_score": 0.3087,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1696
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Les habitants des communes de V\u00e9ranne et Saint-Appolinard viennent d'apprendre que l'une de leurs cinq classes allait",
+      "normalized_activation": 7.097212791442871,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1727,
+          "meaning_score": 0.4817,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2617
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1727,
+          "meaning_score": 0.5225,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2781
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.131,
+          "meaning_score": 0.7467,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5511
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "WASHINGTON \u2014 If he wins the presidency, Joseph R. Biden Jr. will inherit an",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0824,
+          "meaning_score": 0.2291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1246
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1289,
+          "meaning_score": 0.3623,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1965
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1549,
+          "meaning_score": 0.227,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1527
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1771,
+          "meaning_score": 0.8609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4152
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1323,
+          "meaning_score": 0.5134,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2583
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4263,
+          "meaning_score": 0.4716,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3591
+        }
+      ]
+    }
+  ]
+}

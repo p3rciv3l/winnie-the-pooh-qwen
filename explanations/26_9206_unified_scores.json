@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_9206",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that include explicit references to media sources, platforms, or content attribution** (such as citations of news outlets, podcasts, social media handles, publication names, or legal/regulatory filings).\n\n2. **Domain coverage**: The pattern appears across news articles, corporate announcements, financial reports, and promotional content in multiple languages (English, Spanish, etc.). It specifically triggers on phrases naming sources (e.g., \"ABC News,\" \"Legit.ng,\" \"Reuters.com\"), platforms (\"VeVe Platform,\" \"Twitter.com,\" \"GraphQL\"), or formal citations (\"13F filing with the Securities and Exchange Commission\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain overt mentions of where information originates or is published. The low-activation examples are purely factual statements, event descriptions, or general discourse without any such referential framing\u2014they report news or information without citing a specific source, platform, or branded channel.\n\n4. **Closing interpretation**: This neuron detects textual markers of provenance and mediated distribution, acting as a filter for content that is explicitly framed as coming from a named outlet, service, or document. It likely helps the model distinguish between raw factual claims and attributions that situate information within a specific institutional or digital context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "QUESTIONS: If you have a COVID-related question, please send it to pgoetz@themountainmail.com and I will attempt to answer it in the next",
+      "normalized_activation": 9.272902488708496,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1208,
+          "meaning_score": 0.2811,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1607
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1686,
+          "meaning_score": 0.1887,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1429
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1685,
+          "meaning_score": 0.3798,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2193
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "limitado se comparado aos combust\u00edveis f\u00f3sseis.https://p.dw.com/p/4LpeRAn\u00fancioCom cerca de 6",
+      "normalized_activation": 8.037623405456543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.169,
+          "meaning_score": 0.4649,
+          "overlap_fraction": 0.8478,
+          "location_score": 0.1696,
+          "combined_score": 0.4231
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2031,
+          "meaning_score": 0.4112,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2457
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2602,
+          "meaning_score": 0.4425,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2811
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "engineering and lab space, manufacturing space, and an employee breakroom. The Biomerics micro-metals business operates out of four locations: Monroe, CT;",
+      "normalized_activation": 6.734377384185791,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1438,
+          "meaning_score": 0.7153,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3436
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0947,
+          "meaning_score": 0.5858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2722
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1597,
+          "meaning_score": 0.4537,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2454
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Fifteen months after his release from Iran, the Spanish football fan is back home",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1959,
+          "meaning_score": 0.5673,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3053
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.19,
+          "meaning_score": 0.6889,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3516
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1866,
+          "meaning_score": 0.5777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3057
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u0d31\u0d4b\u0d38\u0d1a\u0d4d\u0d1a\u0d46\u0d1f\u0d3f \u0d28\u0d3f",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.27,
+          "meaning_score": 0.4051,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2701
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1561,
+          "meaning_score": 0.3529,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2036
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.204,
+          "meaning_score": 0.2606,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1859
+        }
+      ]
+    }
+  ]
+}

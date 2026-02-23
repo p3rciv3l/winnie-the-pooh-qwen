@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_13846",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing multiple named entities accompanied by descriptive details or attributions (such as person names with titles and affiliations, organization names with locations, or specific event references with contextual asides).\n\n2. **Domain coverage**: The pattern appears across news journalism, financial reports, sports commentaries, entertainment reviews, and political dispatches, spanning multiple languages including English, Italian, Swedish, Russian, and Punjabi. Examples range from a Hong Kong-based strategist at Societe Generale to Italian volcanic monitoring reports and Punjabi news snippets.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically generic statements, headlines, or simple facts that lack dense named entities and descriptive context (e.g., \u201cThe ancient Egyptian pyramids were built more than 4,000 years ago\u201d). Even when a low-activation example contains a proper noun (e.g., \u201cTrump says U.S. has not yet imposed toughest sanctions\u201d), it is presented without the detailed attributions, parentheticals, or list-like structures seen in high-activation excerpts.\n\n4. **Closing interpretation**: The neuron detects journalistic or narrative text that packs specific references to people, organizations, and places, often with appositives, titles, or quoted material, indicating a focus on entity-rich, contextually detailed prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Billie Eilish talks about Daniel Craig's beautiful blue eyes and her nervous meeting with the star",
+      "normalized_activation": 9.534954071044922,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.203,
+          "meaning_score": 0.691,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3576
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2536,
+          "meaning_score": 0.5598,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3254
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1832,
+          "meaning_score": 0.643,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3305
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Guy\u201d, a character (based on the photo of... NME Billie Eilish has announced a new concert film, Happier Than Ever, The World Tour",
+      "normalized_activation": 8.706527709960938,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1838,
+          "meaning_score": 0.2277,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1646
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1892,
+          "meaning_score": 0.2098,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1596
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1135,
+          "meaning_score": 0.1547,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1073
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u2019aggraver la situation de l\u2019AC Milan de Gennaro Gattuso. . Merci Ronaldo Cristiano Ronaldo a \u00e9t\u00e9 recrut\u00e9 par la Juventus",
+      "normalized_activation": 7.789309501647949,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1586,
+          "meaning_score": 0.5801,
+          "overlap_fraction": 0.4667,
+          "location_score": 0.0933,
+          "combined_score": 0.3888
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2105,
+          "meaning_score": 0.4542,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2659
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.167,
+          "meaning_score": 0.3131,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.192
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "WASHINGTON/LONDON (Reuters) - The United States and three allies condemned China for economic",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0796,
+          "meaning_score": 0.3978,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.191
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1513,
+          "meaning_score": 0.6682,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3278
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.181,
+          "meaning_score": 0.2944,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1902
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1176,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4421
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.089,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1592
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1219,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2058
+        }
+      ]
+    }
+  ]
+}

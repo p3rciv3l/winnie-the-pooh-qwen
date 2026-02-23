@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_12455",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted or attributed statements from specific sources** (such as news reports citing officials, articles quoting experts, or transcripts referencing named individuals or organizations).\n\n2. **Domain coverage**: The pattern appears predominantly in journalistic or reportorial text across multiple languages (English, Spanish, French, German) and topics, including international politics, entertainment, sports, and technology. The context is consistently one of relaying information from an external source: a person (\"says,\" \"told,\" \"added\"), an organization (\"reporting,\" \"comment\"), a document (\"missive\"), or a location (\"from China into the North\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature phrases that introduce or frame speech, thought, or reporting from a specific entity (e.g., \"says,\" \"told,\" \"reporting,\" \"commented,\" \"added,\" \"according to\"). The low-activation examples lack this layer of attribution; they are direct statements, announcements, descriptions, or narrative prose without an explicit, named source being referenced or quoted.\n\n4. **Closing interpretation**: The neuron detects a semantic and syntactic pattern of **attribution or citation**, focusing on moments where text is presented as information channeled through a specific agent or outlet. It appears to flag content that is mediated rather than directly asserted by the narrator.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "bolivariano para blindar la Patria de Bol\u00edvar y Ch\u00e1vez ante cualquier amenaza! \u2014 Delcy Rodr\u00edguez (@Drodr",
+      "normalized_activation": 9.531421661376953,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Sign up for the Top 8, a roundup of the day's top stories delivered directly to your inbox Monday through Friday. CHICAGO \u2014 A federal judge",
+      "normalized_activation": 8.712265968322754,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "is going to be an impact on GDP in the short run. We will make it up as we rebuild. That will help GDP.\u201d Welcome to the cruel,",
+      "normalized_activation": 7.7893571853637695,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Pendleside Does Strictly 2023 in Burnley dances to",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

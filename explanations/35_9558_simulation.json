@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_9558",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:33:03Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that suggest syntactic continuation** (such as subordinate clauses, appositives, lists, or descriptive phrases that are syntactically incomplete), often marked by commas, conjunctions, or participles.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Polish, Arabic, Russian, Spanish, Swedish, Persian, Italian, Finnish, Portuguese, Ukrainian, Greek, Romanian, Urdu, and others) and diverse topics—sports, science, politics, entertainment, natural events—indicating the neuron is language-agnostic and focuses on syntactic rather than semantic content. High-activation examples are typically drawn from news articles, reports, or narratives where sentences are extended with additional detail.\n\n3. **Contrast with low-activation examples**: High-activation texts are syntactically incomplete fragments that strongly imply more text will follow (e.g., starting with a subordinating conjunction, containing a trailing comma, or ending in a mid‑list). Low-activation examples are often more self‑contained—even if truncated—resembling headlines, titles, or complete clauses that could stand alone (e.g., “Trump’s Truth Social launches…” or “Lithuania said found Russian spyware…”).\n\n4. **Closing interpretation**: The neuron detects grammatical cues that signal an ongoing sentence structure, acting as a predictor of sentence continuation rather than a semantic topic detector. It likely helps the language model anticipate and generate coherent multi‑clause sentences by identifying points where further syntactic expansion is expected.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 4706,
+      "normalized": 9.622943878173828,
+      "actual_text": "President Dr Arif Alvi has said that commitment of civil servants is crucial for completion of government",
+      "plain_text": "President Dr Arif Alvi has said that commitment of civil servants is crucial for completion of government's agenda of socio-economic development of Pakistan and good governance.  He added that an efficient and impartial civil service is the centerpiece of a vibrant system of governance. The President said this while addressing the participants of 110th NMC at Aiwan-e-Sadr, Islamabad on Monday.  The President emphasized that Pakistan is now on the path of development after overcoming challenges adding that in order to further quicken the pace of progress it is imperative that every individual particularly the government machinery should work with full zeal and zest.  He underscored that Government is committed towards the elimination of corruption and transparent governance, through effective and across-the-board accountability. He underlined that while formulating policies, the objective should be socio-economic wellbeing of a common man. He highlighted that senior civil servants being leaders and trend setters will have to play a proactive role in this regard.  The President reiterated Government's resolve for strengthening of institutions and assured that government will provide environment to civil servants that is free from all sorts of political interference.  He paid rich tribute to the sacrifices of law enforcement agencies for elimination of terrorism and emphasized that we should capitalize the improved law and order situation for the progress and the development of the country.  He pointed out that various opportunities of infrastructural development and employment of youth are being created by CPEC but we will have to formulate thorough strategies to utilize these up to the optimal level.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "after overcoming challenges adding that in order to further quicken the pace of progress it is imperative that every individual particularly the government machinery should work with full zeal and zest.",
+          "concept": "participle clause",
+          "reasoning": "The participle 'adding' introduces a dependent clause that extends the sentence, signaling syntactic continuation."
+        },
+        {
+          "rank": 2,
+          "text": "He paid rich tribute to the sacrifices of law enforcement agencies for elimination of terrorism and emphasized that we should capitalize the improved law and order situation for the progress and the development of the country.",
+          "concept": "coordinating conjunction",
+          "reasoning": "The conjunction 'and' links two verb phrases, creating a multi-clause structure that suggests ongoing sentence expansion."
+        },
+        {
+          "rank": 3,
+          "text": "He pointed out that various opportunities of infrastructural development and employment of youth are being created by CPEC but we will have to formulate thorough strategies to utilize these up to the optimal level.",
+          "concept": "contrastive conjunction",
+          "reasoning": "The contrastive conjunction 'but' introduces a contrasting clause, indicating the sentence is not yet complete."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 1418,
+      "normalized": 8.88862419128418,
+      "actual_text": "i 13:02 Accident rutier grav în Vaslui: Sunt 18 victime! Autoritățile au... 1",
+      "plain_text": "Un jucător dinamovist recunoaşte: \"E aproape imposibil să ajungem în play-off\"  Dinamo e pe locul 11 în Liga 1 Betano, 22 de puncte, la nouă lungimi de locul şase, ultimul de play-off, ocupat acum de Astra. Mai sunt cinci etape din sezonul regulat, iar şansele roş-albilor de a-şi îndeplini obiectivul impus de Rednic sunt doar teoretice. Daniel Popa, unul dintre cei care poate pleca oricând de la echipă pentru suma de 200.000 de euro, e conştient că sezonul e oricum \ncompromis. \n\"A fost un an cu adevărat greu pentru că aveam speranţe că puteam realiza mult mai mult decât am făcut-o anul... citeste mai mult\n\t\t Comentarii  Stiri in timp real  13:17 Reporters sans frontières: Libertatea presei este în derivă în România 13:16 UPDATE: Plan Rosu de interventie, in urma unui accident cu 13... 13:14 (P) CASA a dat CASA! Povestea biletului de 10 lei ce s-a... 13:12 Finul lui Iohannis şi-a anunţat retragerea de la candidatura FR... 13:10 Acțiuni pentru destructurarea grupărilor de criminalitate... 13:07 Schimbări privind amenzile contravenţionale. Unde se plătesc de la... 13:05 Centru antreprenorial pentru micii producători 13:02 Accident rutier grav în Vaslui: Sunt 18 victime! Autoritățile au... 13:00 Roţile maşinilor care parchează neregulamentar în Sectorul 4 vor fi... 13:00 Modificare importantă asupra legii privind circulaţia pe drumurile... 13:00 Recomandările pompierilor pentru un Revelion în siguranță 13:00 Prima librărie a copiilor orădeni 13:00 La cinci luni distanţă, s-a aflat cum a câştigat Belgia în faţa... 12:56 Ecaterina Andronescu spune că este de neacceptat reintroducerea... 12:56 Ce a declarat Klaus Iohannis după ședința CSAT 12:53 „Avem ambiția să câștigăm” 12:53 Inspectorii DSP Bh, despre Rev 12:53 Spitalul din Marghita are secție de ATI și va fi dotat cu un aparat... 12:51 Jandarmii vor fi prezenţi la datorie de Revelion 12:49 Președintele Klaus Iohannis, declarații de presă după ședința CSAT 12:49 Concertul de Anul Nou de la Viena, în direct la TVR 1 şi TVR HD 12:48 VIDEO | Autogol de poveste în Italia. Orice explicaţie logică este... 12:47 Ministerul de Interne angajează aproape 1000 de oameni 12:46 ACCIDENT pe Calea Națională: Bărbat lovit în plin de o mașină 12:44 Cutremur în zona seismică Vrancea, cu epicentrul în judeţul Buzău 12:42 DNA a clasat dosarul EADS. Foştii miniştrii de Interne Marian... 12:39 La Tg Lăpuș, Atelierul lui Moș Crăciun 12:39 Tinerii anului 2018 12:39 Eclipsa de Lună din 2019, în mijlocul unei teorii privind sfârșitul... 12:38 Situaţia drumurilor la ora 12. Cum se circulă în judeţul Constanţa...",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dinamo e pe locul 11 în Liga 1 Betano, 22 de puncte, la nouă lungimi de locul şase, ultimul de play-off, ocupat acum de Astra.",
+          "concept": "comma-separated appositives",
+          "reasoning": "A series of comma-separated phrases adds descriptive detail, indicating syntactic continuation."
+        },
+        {
+          "rank": 2,
+          "text": "Daniel Popa, unul dintre cei care poate pleca oricând de la echipă pentru suma de 200.000 de euro, e conştient că sezonul e oricum compromis.",
+          "concept": "appositive with subordinate clause",
+          "reasoning": "The appositive set off by commas and the subordinate clause introduced by 'că' create a mid-sentence continuation."
+        },
+        {
+          "rank": 3,
+          "text": "A fost un an cu adevărat greu pentru că aveam speranţe că puteam realiza mult mai mult decât am făcut-o anul... citeste mai mult",
+          "concept": "causal conjunction and ellipsis",
+          "reasoning": "The causal conjunction 'pentru că' and trailing ellipsis suggest the sentence is incomplete and further text would follow."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00006",
+      "row_idx": 1689,
+      "normalized": 7.923492908477783,
+      "actual_text": "i suoni genitori. La maggior parte dei partecipanti alla rissa ha riportato lesioni superficiali e sottoposti, oltre",
+      "plain_text": "Una chiave inglese, catene in ferro e mazzi di chiave usati come tirapugni. Sono alcune delle armi improvvisate e sequestrate dopo la maxi rissa che c'è stata mercoledì alle 1930 per strada a Sesto San Giovanni, in via Matteotti, vicino ai giardini Don Luigi Sturzo. A dirimerla un ingente dispiegamento di forze di carabinieri e di vigili urbani, almeno otto pattuglie. Quaranta giovani, tra cui molti minorenni, sono rimasti coinvolti. Sembra che la scintilla fosse stata la solita frase di troppo pronunciata in un centro commerciate e sfociata nella scazzottata. Per disperdere i litiganti i militari hanno usato dispositivi acustici che hanno determinato un fuggi fuggi generale tra le vie di Sesto, gettando nel panico i cittadini. Quindici le persone fermate, tra cui due egiziani arrestati in quanto presunti responsabili della mega zuffa. Sette i minorenni denunciati a piede libero, tra cui uno positivo al Covid denunciato anche per aver violato la quarantena obbligatoria, così come i suoni genitori. La maggior parte dei partecipanti alla rissa ha riportato lesioni superficiali e sottoposti, oltre che a rilievi fotografici, anche a cure da parte del personale 118, accorso sul posto.  Ultimo aggiornamento: Venerdì 30 Ottobre 2020, 05:01 © RIPRODUZIONE RISERVATA",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La maggior parte dei partecipanti alla rissa ha riportato lesioni superficiali e sottoposti, oltre che a rilievi fotografici, anche a cure da parte del personale 118, accorso sul posto.",
+          "concept": "interjected phrase",
+          "reasoning": "The interjected phrase set off by commas and the correlative conjunction 'oltre che... anche' signal syntactic expansion."
+        },
+        {
+          "rank": 2,
+          "text": "Sono alcune delle armi improvvisate e sequestrate dopo la maxi rissa che c'è stata mercoledì alle 1930 per strada a Sesto San Giovanni, in via Matteotti, vicino ai giardini Don Luigi Sturzo.",
+          "concept": "prepositional phrase list",
+          "reasoning": "Multiple prepositional phrases separated by commas add descriptive detail and indicate the sentence is continuing."
+        },
+        {
+          "rank": 3,
+          "text": "Per disperdere i litiganti i militari hanno usato dispositivi acustici che hanno determinato un fuggi fuggi generale tra le vie di Sesto, gettando nel panico i cittadini.",
+          "concept": "participle phrase",
+          "reasoning": "The participle phrase 'gettando nel panico i cittadini' at the end of the sentence provides additional action, suggesting continuation."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 835,
+      "normalized": 0.0,
+      "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
+      "plain_text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor  Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar. Desde el pasado sábado 28 de noviembre, la zona ha registrado un enjambre sísmico, que según los datos del Instituto Volcanológico de Canarias (Involcan) superan la veintena de movimientos. La propia institución científica resume que los eventos están siendo localizados a una profundidad promedia de entre seis y ocho kilómetros bajo el nivel del mar.  El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.  El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".  Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 \"y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población\". aclara el centro científico que concluye que \"este tipo de enjambres son comunes en volcanes activos, y en un 90% de ocasiones desaparecen de la misma forma en la que se presentan\".  Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población. En concreto, de la web del IGN se desprende que el de mayor intensidad alcanzó los dos grados y se registró a las 11:05 de ayer a una profundidad de nueve kilómetros.  Este terremoto vino precedido de un movimiento de hasta 1,7 grados registrado durante la noche del domingo en una zona cercana y a unos seis kilómetros de profundidad. Otros seísmos de intensidad menor se localizaron en diversas zonas de la Isla como Granadilla o Fasnia, además de los habituales en la zona del Volcán de Enmedio, aunque ninguno de ellos alcanzó, según el Instituto Geográfico Nacional, los dos grados del movimiento en Vilaflor alrededor de las once de la mañana.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población.",
+          "concept": "subordinate clause",
+          "reasoning": "The subordinate clause introduced by 'aunque' (although) adds contrasting information, indicating syntactic continuation."
+        },
+        {
+          "rank": 2,
+          "text": "El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.",
+          "concept": "appositive and conjunction",
+          "reasoning": "The appositive 'momento en el que...' and the conjunction 'y' create a multi-clause structure that continues the sentence."
+        },
+        {
+          "rank": 3,
+          "text": "Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 \"y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población\".",
+          "concept": "quoted conjunction",
+          "reasoning": "The quoted conjunction 'y como siempre...' introduces a new clause within the quotation, suggesting ongoing speech."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 911,
+      "normalized": 0.0,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "non-restrictive clause",
+          "reasoning": "The dashes set off a non-restrictive relative clause, and the participle 'sparking' adds supplementary information, both signaling continuation."
+        },
+        {
+          "rank": 2,
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
+          "concept": "appositive with relative clause",
+          "reasoning": "The dash introduces an appositive with a relative clause that extends the sentence with additional details."
+        },
+        {
+          "rank": 3,
+          "text": "It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia.",
+          "concept": "relative clause and dash appositive",
+          "reasoning": "The relative clause and dash introducing an appositive create a layered sentence structure that implies further elaboration."
+        }
+      ]
+    }
+  ]
+}

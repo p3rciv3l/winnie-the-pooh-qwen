@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_13341",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities, precise factual details, or formal citations** (such as full names with titles, exact locations/dates, referenced documents, or institutional affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Turkish, Romanian, Greek, Hindi, etc.) and domains including academic citations, news reports, legal/political proceedings, entertainment biographies, and scientific or geographic data. Examples show activations for personnel announcements (\"John 'Spazz' Hatton\"), earthquake reports (\"magnitud 4.3 cerca de T\u00e9cpan\"), academic credits (\"Professor Ralf I. Kaiser\"), legal references (\"Defendants were not allowed to hire their own lawyers\"), and cited sources (\"citing census data\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain concrete, referential details\u2014proper nouns, exact figures, sourced information, or formal titles\u2014while low-activation examples are more generic, abstract, or descriptive without such specificity (e.g., \"The idea of a summer holiday,\" \"Market Overview,\" or \"Review: UNDERGODS Casts a Captivating Spell\").\n\n4. **Closing interpretation**: The neuron detects text that serves an **informative or referential function**, focusing on precise, attributed real-world information rather than general commentary, narrative, or unsupported claims. It acts as a filter for content anchored in named entities, citations, or factual particulars.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "kesi olan \u00c7in'i Hindistan'\u0131n yak\u0131nda ge\u00e7mesi bekleniyor. \u00c7in'de n\u00fcfus d\u00fc\u015f\u00fc\u015f\u00fc en son",
+      "normalized_activation": 9.468770980834961,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1005,
+          "meaning_score": 0.5328,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2533
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1153,
+          "meaning_score": 0.4447,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.224
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0964,
+          "meaning_score": 0.725,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3286
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "by regular food breaks. And an occasional walk down to the hauntedtehkhana (cellar) right below the main bedroom for some delicious stabs of fear",
+      "normalized_activation": 8.591516494750977,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2185,
+          "meaning_score": 0.2266,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.178
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1565,
+          "meaning_score": 0.3506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2028
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1726,
+          "meaning_score": 0.1796,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1409
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "reduce capital expenditure and strengthen the global supply chain. Increasing application of biosimilars, shifting focus to in-silico testing of pharmaceutical products, and rising number",
+      "normalized_activation": 7.5274786949157715,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1575,
+          "meaning_score": 0.2294,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1547
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1932,
+          "meaning_score": 0.2301,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1693
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1604,
+          "meaning_score": 0.2409,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1605
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Terni - E' stato archiviato il cenone di Capodanno",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2401,
+          "meaning_score": 0.8076,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6191
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1865,
+          "meaning_score": 0.3491,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2143
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1663,
+          "meaning_score": 0.4343,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2402
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1772,
+          "meaning_score": 0.4494,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2506
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2155,
+          "meaning_score": 0.5753,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3163
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2774,
+          "meaning_score": 0.4198,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2788
+        }
+      ]
+    }
+  ]
+}

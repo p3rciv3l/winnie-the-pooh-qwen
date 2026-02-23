@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_12677",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing multiple proper nouns in close proximity (such as person names paired with organizations, film titles with actors, or geographic locations with institutions).\n\n2. **Domain coverage**: The pattern appears across diverse domains including entertainment (film credits, music performances), international news (corporate deals, political events), sports reporting (athletes and teams), and multilingual contexts (Spanish, German, Greek, Hindi, etc.). It activates on text that densely packs specific named entities\u2014often in journalistic, descriptive, or explanatory passages\u2014regardless of language or topic.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature clusters of capitalized or otherwise marked proper nouns (e.g., \u201cJackman and\u2026 Rachel Weisz,\u201d \u201cBeijing to save ZTE,\u201d \u201cQB Trevor Lawrence\u2026 Clemson\u201d), while low-activation examples either lack proper nouns entirely, use them sparingly, or embed them in more generic or hypothetical statements (e.g., \u201cEmail app Superhuman is rolling out support\u2026\u201d or \u201cIt seems odd to think\u2026\u201d).\n\n4. **Closing interpretation**: The neuron detects segments where named entities are centrally positioned and structurally highlighted, suggesting it functions as a \u201cproper noun cluster\u201d detector. It likely helps the model parse and attend to specific real-world references within a dense informational context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u03b7\u03c2 \u039a\u03b1\u03bb\u03b1\u03bc\u03ac\u03c4\u03b1\u03c2, \u03c4\u03bf \u03bf\u03c0\u03bf\u03af\u03bf \u03c3\u03b5 \u03cc,\u03c4\u03b9 \u03b1\u03c6\u03bf\u03c1\u03ac",
+      "normalized_activation": 9.48780632019043,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "reports. Paula Allen, Global Leader and Senior Vice-President of Research at TELUS Health, told Glamour UK: \u201cMonk mode has similar traits to the",
+      "normalized_activation": 8.701040267944336,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "by residents and officials in attendance. Member of Parliament for the region, Rajkumarie Bancroft said she pleased that the region is transitioning into a",
+      "normalized_activation": 7.874019145965576,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "It says much about the yearning of people to be free to express their opinions that",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Deep Foundations Institute (DFI) and DFI Educational Trust 201",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_7056",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the directional term \"northeast\" or its direct translations and common abbreviations** (such as \"northeastern,\" \"north-east,\" \"noreste,\" or \"nord-est\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Romanian, Norwegian) and in diverse contexts: geographic reports (earthquakes, cyclones, constituencies), institutional names (\"Northeastern Professor\"), regional descriptions (\"northeastern states\"), and even in corporate or index names (\"Morgan Stanley Technology Index\" where \"Technology Index\" abbreviates to \"T Index,\" mimicking the \"NE\" structure). The neuron also activates for partial or adjacent strings like \"norte\" or \"nord\" when followed by a hyphen or space and an \"e\" sound.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack any reference to the compound directional term \"northeast\" or its linguistic equivalents. They cover unrelated topics like celebrity news, sports, general tech policy, and local events with no geographic directional markers. The key distinguishing element is the presence of the specific directional phrase.\n\n4. **Closing interpretation**: This neuron functions as a highly specific detector for the lexical token \"northeast\" and its cross-linguistic variants. It appears to key on the character sequence and phonetic concept rather than a high-level geographic theme, as it fires even in non-geographic contexts like art installations or financial indices where the string appears.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the conservative-leaning Wisconsin Institute of Law & Liberty, filed a free speech lawsuit against Northeast Wisconsin Technical College. The case in the U.S. Eastern District of Wisconsin is",
+      "normalized_activation": 9.29786205291748,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.6892,
+          "meaning_score": 0.7837,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7892
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1853,
+          "meaning_score": 0.4482,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2534
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1853,
+          "meaning_score": 0.3753,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2243
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "she defied their comments in the clip as she pranced around in a skimpy black cut-out thong bikini and matching black sun hat. \u201cI\u2019m",
+      "normalized_activation": 7.979859352111816,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1832,
+          "meaning_score": 0.4042,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.235
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1832,
+          "meaning_score": 0.4461,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1832,
+          "meaning_score": 0.4025,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2343
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "houses of origin to survive this year\u2019s legislative session. House Finance Chairman Eric Nelson, R-Kanawha, said HB 2817 \u201cream",
+      "normalized_activation": 6.343987464904785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2067,
+          "meaning_score": 0.4922,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2796
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2118,
+          "meaning_score": 0.4167,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2514
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2118,
+          "meaning_score": 0.3962,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2432
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "TikTok user Nia Nicole shared an adorable moment with netizens as her unborn",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2279,
+          "meaning_score": 0.819,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6187
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2279,
+          "meaning_score": 0.4786,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2826
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2279,
+          "meaning_score": 0.6522,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.352
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Tunisians used to say that one in five of their countrymen worked for",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2064,
+          "meaning_score": 0.1469,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1414
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2472,
+          "meaning_score": 0.2438,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1964
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2472,
+          "meaning_score": 0.2901,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2149
+        }
+      ]
+    }
+  ]
+}

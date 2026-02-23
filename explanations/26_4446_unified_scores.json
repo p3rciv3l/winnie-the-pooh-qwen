@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_4446",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing dense named-entity information (such as person names with titles, organization names, location names, or numerical identifiers like phone numbers and dates) presented in a formal, factual style.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Russian, Arabic, Tamil, Hungarian, etc.) and spans news reporting, official statements, legal documents, and descriptive articles. Topics include politics, business, sports, entertainment, and technology, indicating the neuron is not topic-specific but rather sensitive to informational density and formal prose.\n\n3. **Contrast with low-activation examples**: High-activation texts typically feature multiple proper nouns, numerical/temporal references, and are often mid-sentence or list-like, while low-activation examples are more often concise headlines or announcements with fewer entities and less detailed context. High-activation snippets also more frequently include appositives, enumerations, and structured punctuation (e.g., colons, hyphens, parentheses) that signal detailed exposition.\n\n4. **Closing interpretation**: The neuron likely detects formal, information-rich text characteristic of news article bodies or official documents, where specific entities and factual details are densely packed within continuous prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "New Jersey, called the allegations \u201cbaseless and malicious.\u201d Her lawyer, Rose Hanzi, has argued that the charge is illegal because the police did not inform O",
+      "normalized_activation": 9.48991870880127,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0816,
+          "meaning_score": 0.1504,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0928
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0878,
+          "meaning_score": 0.316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1616
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0835,
+          "meaning_score": 0.2704,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1416
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "mentally healthy, you\u2019re able to perform your everyday activities successfully. You also can maintain healthy interpersonal relationships and cope with change. Implementing the following tips will help you",
+      "normalized_activation": 8.63416862487793,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1808,
+          "meaning_score": 0.0773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1033
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2823,
+          "meaning_score": 0.1012,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1534
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3284,
+          "meaning_score": 0.1049,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1733
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "by Huawei in 2012 after working as a cybersecurity expert in the private sector and for the U.S. Department of Homeland Security. Now, he",
+      "normalized_activation": 7.707165718078613,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1461,
+          "meaning_score": 0.4453,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2366
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2704,
+          "meaning_score": 0.4074,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2711
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1835,
+          "meaning_score": 0.432,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2462
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "New Delhi recorded no new cases of Covid-19 on a day when India witnessed",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.127,
+          "meaning_score": 0.5289,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2624
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1716,
+          "meaning_score": 0.7862,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5831
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.134,
+          "meaning_score": 0.3856,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2078
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Boosie BadAzz Says He Walked Out of The Color Purple Movie Because",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1752,
+          "meaning_score": 0.3453,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2082
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1847,
+          "meaning_score": 0.7914,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5904
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1783,
+          "meaning_score": 0.3583,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2146
+        }
+      ]
+    }
+  ]
+}

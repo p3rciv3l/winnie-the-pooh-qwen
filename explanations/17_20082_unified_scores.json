@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_20082",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific geographic locations\u2014particularly cities, islands, provinces, or regions\u2014in the context of notable events** (such as natural disasters, political incidents, military actions, or social protests).\n\n2. **Domain coverage**: The pattern appears across news-style reporting in multiple languages (English, Spanish, Turkish, etc.) and covers domains like international incidents, disasters, conflicts, and political events. Examples include earthquakes in Turkish cities, missile launches in North Korean provinces, protests in capital cities (Barcelona, Bogot\u00e1), and industrial accidents in Chinese provinces. The neuron also activates for locations identified by type (e.g., \u201cthe Greek island of Samos,\u201d \u201cthe southern Russian region\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this combination of a specific named location and an associated event. They instead discuss general topics (horoscopes, donor relationships, law firm offices, astronomical events) without anchoring them to a particular geographic entity in an event-driven context. Even when a location is mentioned in the low group (e.g., \u201cBogota, Colombia\u201d), it appears as part of a static address or incidental reference, not as the site of an ongoing event.\n\n4. **Closing interpretation**: The neuron detects when a precise geographic place is central to a narrative about an impactful occurrence. It appears to function as a \u201clocation-in-the-news\u201d detector, activating most strongly when place names are coupled with descriptions of sudden, disruptive, or newsworthy events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "people praying inside the Basilica of Notre-Dame in the heart of the Mediterranean city. The attacker had a copy of the Koran and three knives with him,",
+      "normalized_activation": 9.502643585205078,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "estremeci\u00f3 la provincia de Java Occidental, en la isla indonesia de Java, donde murieron 602 personas. El 26 de",
+      "normalized_activation": 8.485867500305176,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "rockers Maneskin are the bookmakers\u2019 favourites, but French chanteuse Barbara Pravi is hoping to end her country\u2019s 44-year losing streak",
+      "normalized_activation": 7.075455665588379,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "lik terkait Pemilu Damai dengan tema \u201cPeran Kaum Millenial (GRAPALA) dalam Menyongsong Pemil",
+      "normalized_activation": 1.2207247018814087,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "what was up his sleeve,\u201d according to a June 2022 article in The Federalist. \u201cHow will Democrats react to the thumping that most",
+      "normalized_activation": 1.206484317779541,
+      "pairs": []
+    }
+  ]
+}

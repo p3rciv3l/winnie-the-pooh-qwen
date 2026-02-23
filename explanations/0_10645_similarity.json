@@ -1,0 +1,207 @@
+{
+  "neuron_id": "0_10645",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text mentioning prominent forward positions, leadership roles, or forefront contexts** (such as \"frontwoman,\" \"front lines,\" \"front-runner,\" \"front door,\" or \"front bench\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including politics (\"Labour front bench,\" \"front-runner Carrie Lam\"), music/arts (\"Rilo Kiley frontwoman,\" \"frontman Billie Joe Armstrong\"), sports (\"Cubs front office,\" \"front and center\"), medicine/healthcare (\"medical front-lines,\" \"leading-edge technology\"), and military/metaphorical struggles (\"front lines,\" \"another front in the quest\"). It activates for English texts primarily, but also for snippets in Arabic and Portuguese that contextually involve forefront concepts (e.g., leading roles or forward positions).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain references to a \"front\" position\u2014literal, organizational, or metaphorical\u2014denoting prominence, leadership, or vanguard status. The low-activation examples lack this semantic element; they discuss topics like cancer therapies, mortgage rates, app launches, or general news without any \"front\"-related language or prominence framing.\n\n4. **Closing interpretation**: The neuron detects the concept of being at the forefront\u2014whether spatially, hierarchically, or metaphorically. It is sensitive to the word \"front\" and its compounds, but more importantly to the underlying semantics of prominence, leadership, or forward position in a narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "grey sweatshirt which featured a thick cowl neck and one long pocket across the front She kept her bright blonde hair tied back into a top bun with a thick scr",
+      "normalized_activation": 9.754742622375488,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.582298,
+          "actual_text_slice": [
+            1209,
+            1368
+          ],
+          "prediction_text_slice": [
+            564,
+            817
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.303205,
+          "actual_text_slice": [
+            1209,
+            1368
+          ],
+          "prediction_text_slice": [
+            0,
+            267
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.206,
+          "actual_text_slice": [
+            1209,
+            1368
+          ],
+          "prediction_text_slice": [
+            1407,
+            1734
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "chart today you will find it easy to impress important people, but you must do so in the right way. TAURUS (April 21 - May",
+      "normalized_activation": 9.077814102172852,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.618794,
+          "actual_text_slice": [
+            514,
+            636
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.364504,
+          "actual_text_slice": [
+            514,
+            636
+          ],
+          "prediction_text_slice": [
+            2763,
+            3034
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.416337,
+          "actual_text_slice": [
+            514,
+            636
+          ],
+          "prediction_text_slice": [
+            1688,
+            1967
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "The federal government has allowed four groups at the forefront of the white nationalist movement to register as charities and raise more than $7.",
+      "normalized_activation": 7.858452320098877,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.888135,
+          "actual_text_slice": [
+            0,
+            146
+          ],
+          "prediction_text_slice": [
+            0,
+            246
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.568221,
+          "actual_text_slice": [
+            0,
+            146
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.376014,
+          "actual_text_slice": [
+            0,
+            146
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "China's Xi says hopes to promote relations with N.Korea-KCNA By",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.679435,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            129,
+            371
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.519096,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            787,
+            922
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.53735,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            3384,
+            3591
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.692034,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            78,
+            256
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.572898,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            257,
+            447
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.488328,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

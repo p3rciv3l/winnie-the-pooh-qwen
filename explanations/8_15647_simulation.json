@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_15647",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:39:54Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing formal titles, names, and roles in a list-like or introductory context** (such as lists of people with their titles and nationalities, named ambassadors and officials, artists and their works, or named individuals with professional descriptors).\n\n2. **Domain coverage**: The pattern appears across news, diplomatic, cultural, and financial reporting in multiple languages (English, Slovak, Czech, Polish, Greek, Hungarian, Telugu, Italian). It activates on sequences where a proper noun is immediately preceded or followed by a formal identifier like \"ambassador,\" \"CEO,\" \"Dr.,\" a country name, a job title, or the name of a creative work/group.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain these structured \"Title/Name/Role\" clusters, often in a series or as part of an introductory clause. The low-activation examples, while sometimes mentioning people or topics, lack this specific formal listing syntax; they are more likely to use simple noun phrases (\"Federal Reserve Vice Chairman\"), stand-alone names, or discuss events and concepts without attaching multiple formal identifiers to named entities.\n\n4. **Closing interpretation**: The neuron detects a syntactic/semantic pattern of formal human identification, focusing on text that enumerates individuals or entities with their official capacities. It appears specialized for the part of a sentence that establishes *who* is involved, particularly in journalistic or bureaucratic contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00018",
+      "row_idx": 5506,
+      "normalized": 9.521512031555176,
+      "actual_text": "if a snap general election is called, predicts Elsa Lignos of Royal Bank of Canada. She told clients: Parliament reconvenes today. While the opposition",
+      "plain_text": "Sterling slumps to $1.1975  The pound is continuing to slide, and just hit $1.1975 against the US dollar.  That takes it below the January 2017 low. Indeed, if you exclude a currency “flash crash” in October 2016, it’s the lowest since 1985!  This chart shows just how weak sterling has become in historical terms.  The pound is likely to fall further if a snap general election is called, predicts Elsa Lignos of Royal Bank of Canada.  She told clients:     Parliament reconvenes today. While the opposition MPs’ motion is expected to be tabled today, it will only move to a key vote tomorrow if MPs vote today to take control of Commons business – so a two-step process: vote to take control today, vote on the bill tomorrow (though if the first passes, the second is expected to also).  Tory MPs have been told they will be de-selected which some speculate could dissuade younger MPs but with the govt’s majority so tight, the opposition’s hurdle is achievable.  The Parliamentary session may start early, but the key vote is expected late tonight (potentially 9.30-10pm according to ITC). If the vote does pass, the vote on a snap election is expected on Thursday. If the vote fails, we expect the probability of no-deal exit to surge (and GBP to fall).  The pound is also losing ground against the euro, fast!  Sterling has dropped to €1.096, down nearly half a euro cent this morning. That’s only a two-week low, though (the pound hit €1.072 in mid-August).  Updated  If the pound falls much further against the US dollar today, it will hit levels last seen under Margaret Thatcher in 1985!  Pound slumps below $1.20 for first time since 2017  Good morning, and welcome to our rolling coverage of the world economy, the financial markets, the eurozone and business.  The pound has slumped to its lowest level since January 2017 this morning, as fears of a no-deal Brexit grip the financial markets.  Sterling was driven through the $1.20 point in early trading in London. It has shed half a cent to hit $1.1995, its weakest point in 32 months.  Traders are shunning the currency, as speculation swirls that Britain could be heading for a general election.  The City is hunkering down ahead of a seismic day in Westminster. A group of rebel Conservative MPs are expected to try to block a no-deal Brexit - despite being threatened with deselection, meaning they’d lose their jobs at the next election.  Last night, prime minister Boris Johnson pledged that he didn’t want a general election, but sources said last night that a poll could take place on 14 October -- if MPs took control of the House of Commons.  Triggering an election would require a vote of no confidence in the government. So, with Brexit due in under 59 days, investors across the globe are worrying that the UK could crash out of the EU without the cushion of a withdrawal agreement.  Ipek Ozkardeskaya, senior market analyst at London Capital Group, explains:     At this point, with a slim majority of just one in hand, Johnson cannot afford to lose support from the Conservative Party members. As a result, he is now pressuring Tories to stand next to him at this week’s vote in the House of Commons to deliver Brexit by October 31 with ‘no ifs or buts’. If not, he is threatening to expulse rebels and to throw a snap election by October 14.  As a result, on the final run-up to the critical October 31st deadline, the pound is shaken by more political uncertainties. Cable hit a fresh two-week low on rising tensions among British lawmakers. Traders are now pricing in the possibility of a no-confidence vote this week, a scenario which could get the UK’s political scene uglier than it already is. A snap election would mean that either Johnson receives a mandate to quit the EU with no deal on October 31st, or the Brexit deadline is postponed – again. Both scenarios justify a weaker pound.  A new business survey is expected to show that the UK construction sector contracted last month, adding to worries about the economy.  Yesterday we learned that manufacturing activity declined in August, at the fastest pace in seven years, as Brexit uncertainty and the US-China trade war hurt factories.  The agenda  9.30am BST: UK construction PMI for August (expected to rise to 45.9 from 44.3, still showing contraction) 3pm BST: US manufacturing PMI for August Updated",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ipek Ozkardeskaya, senior market analyst at London Capital Group, explains:     At this point, with a slim majority of just one in hand, Johnson cannot afford to lose support from the Conservative Party members.",
+          "concept": "market analyst",
+          "reasoning": "This section contains a named individual with a formal job title and company affiliation."
+        },
+        {
+          "rank": 2,
+          "text": "The pound is likely to fall further if a snap general election is called, predicts Elsa Lignos of Royal Bank of Canada. She told clients:     Parliament reconvenes today.",
+          "concept": "bank economist",
+          "reasoning": "This section includes a named person with their institutional affiliation."
+        },
+        {
+          "rank": 3,
+          "text": "Last night, prime minister Boris Johnson pledged that he didn’t want a general election, but sources said last night that a poll could take place on 14 October -- if MPs took control of the House of Commons.",
+          "concept": "prime minister",
+          "reasoning": "This section includes a formal political title and name."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00010",
+      "row_idx": 5568,
+      "normalized": 8.69189167022705,
+      "actual_text": "for farmers who burn biomass? The standard economic solution is to impose a Pigouvian tax on farmers to ensure the polluter pays for his actions. Such a tax",
+      "plain_text": "India needs a federal green agency The thick smog that has enveloped north India over the past few days is a public health emergency. The callous response by various government agencies to what has become an annual affair is nothing short of scandalous. There is a deeper problem here. As every state blames the other, the weak policy response is also an indication of an institutional vacuum to deal with public goods issues in a federal political system. The story so far is well known. Citizens living in the National Capital Region are among the millions who have been left gasping as farmers in neighbouring states burn stubble on their farms, before preparing them for the winter sowing cycle. The immediate responses include calls for a ban on such biomass burning. However, as Mridula Ramesh of the Sundaram Climate Institute has written in Firstpost, a far better alternative to a unilateral ban is to examine solutions based on an understanding of why farmers burn stubble in the first place. Any viable policy response should take into account the needs of the farmers as well as city dwellers. A key principle of policy design is that the intervention should focus on the root of the problem—stubble burning, in this case. The distortion should be dealt with directly. In this case, is it possible to change the incentives for farmers who burn biomass? The standard economic solution is to impose a Pigouvian tax on farmers to ensure the polluter pays for his actions. Such a tax would change incentives by increasing the cost of stubble burning. However, the Pigouvian solution is neither politically practical nor just. A far better way to deal with the effects of stubble burning comes from the work of Ronald Coase. Coase argued, in a landmark paper published in 1960, that the solution to externalities such as pollution is not unilateral action but complex bargaining between different interest groups. The bargaining will be based on how much farmers value stubble burning on the one hand and how much city dwellers value clean air on the other. One example of the use of the Coasean method is the landmark New York City Watershed Agreement of 1997. New York had been asked by government regulators to build an expensive water filtration plant to improve the quality of water it supplied citizens. To reduce costs, the city negotiated with upstream farmers who were polluting the watershed area to either buy out their land or pay them to change farming methods. In the case of the smog in north India, it could mean that farmers should be paid to invest in better technologies to deal with the stubble left over from the previous harvest. A subsidy will change their incentives. Such a Coasean bargain is premised on two preconditions. First, property rights need to be assigned. Second, there needs to be a credible agency to manage the negotiation. India has neither right now. The assignment of property rights in this case is devilishly difficult. The more practical solution is that the state governments of Delhi, Punjab and Haryana be considered the representative agencies for their respective citizens. They should negotiate on how the cost of changing farming practices will be shared. A first step will be to estimate the amount to be paid for every hectare of farmland that is shifted away from stubble burning. The second problem is the lack of an institutional structure to deal with such federal negotiations, especially when the three state governments are run by three different political parties. This is where the Union government needs to step in as a coordinating agency. It can also offer to bear half the fiscal costs of any green bargain between the three states. However, a better solution over the long term is to set up a federal agency like the Environmental Protection Agency in the US, with powers to get states to the bargaining table. The exact contours of such an agency will need to be debated by climate change scientists, economists, environmental activists and political parties. The current institutional vacuum needs to be filled. There is also a broader lesson here. The ongoing fiscal decentralization is welcome, but India still needs an effective Union government to hold a complex country together. One challenge that needs central coordination is the provision of national public goods—be it national defence or monetary stability or environmental quality. The winter smog that chokes millions of people every year needs to be dealt with through a long-term institutional strategy rather than hasty administrative responses each time citizens choke. Does India need a new institutional architecture to deal with multi-state problems such as air pollution? Tell us at views@livemint.com Analysts upbeat on auto sector after underperformance since demonetisation Under pressure from CAG, environment ministry to streamline clearance process Public sector banks suggest tweaks in lending structure to boost efficiency Indigenous content start-ups see growing interest among investors DIIs’ investments in Indian equities so far this year at record high",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However, as Mridula Ramesh of the Sundaram Climate Institute has written in Firstpost, a far better alternative to a unilateral ban is to examine solutions based on an understanding of why farmers burn stubble in the first place.",
+          "concept": "climate institute writer",
+          "reasoning": "This section includes a named individual with their institutional affiliation."
+        },
+        {
+          "rank": 2,
+          "text": "A far better way to deal with the effects of stubble burning comes from the work of Ronald Coase. Coase argued, in a landmark paper published in 1960, that the solution to externalities such as pollution is not unilateral action but complex bargaining between different interest groups.",
+          "concept": "economist",
+          "reasoning": "This section mentions a well-known economist by name, though without a formal title."
+        },
+        {
+          "rank": 3,
+          "text": "The exact contours of such an agency will need to be debated by climate change scientists, economists, environmental activists and political parties.",
+          "concept": "professional roles",
+          "reasoning": "This section lists multiple formal professional roles in a list-like context."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 2398,
+      "normalized": 7.498195171356201,
+      "actual_text": ", along with other world leaders, attended the 31st Association of Southeast Asian Nations (Asean) Summit. The Chronic Inc., a private company",
+      "plain_text": "TWO years after Canadian Prime Minister Justin Trudeau said his government would work to find a solution to the dumping of toxic waste to the Philippines by a private company from his country, the problem has remained and so has the toxic waste.  “I expressed to President [Rodrigo] Duterte that back in Canada we would continue to work on this. And hopefully resolve this situation,” Trudeau said at a press briefing on Tuesday when asked whether there were concrete solutions to address the issue.  Trudeau is in the Philippines where he, along with other world leaders, attended the 31st Association of Southeast Asian Nations (Asean) Summit.  The Chronic Inc., a private company in Ontario, shipped 103 container vans of garbage mislabeled as “recyclable materials” to Manila in 2013.  The Department of Health (DoH) said that 18 container vans that were inspected contained mixed waste such as adult diapers, waste paper and other household trash. Another 26 container vans of trash were dumped into a landfill in Tarlac.  Trudeau said his government has yet to address “legal impediments” that prevented it from taking back the toxic waste to Canada.  “We have legal barriers and restrictions that prevented us from being able to take it back. Those regulations and those impediments have not been addressed,” he said.  “So, theoretically it is impossible to take it back. There are a number of questions: who will pay (for the shipment), where the financial responsibility is? This is has commercial transaction. It did not involve governments,” he stressed. BERNADETTE E. TAMAYO",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "TWO years after Canadian Prime Minister Justin Trudeau said his government would work to find a solution to the dumping of toxic waste to the Philippines by a private company from his country, the problem has remained and so has the toxic waste.",
+          "concept": "prime minister",
+          "reasoning": "This section includes a formal title and name of a world leader."
+        },
+        {
+          "rank": 2,
+          "text": "“I expressed to President [Rodrigo] Duterte that back in Canada we would continue to work on this. And hopefully resolve this situation,” Trudeau said at a press briefing on Tuesday when asked whether there were concrete solutions to address the issue.",
+          "concept": "president",
+          "reasoning": "This section includes two world leaders with their formal titles."
+        },
+        {
+          "rank": 3,
+          "text": "“So, theoretically it is impossible to take it back. There are a number of questions: who will pay (for the shipment), where the financial responsibility is? This is has commercial transaction. It did not involve governments,” he stressed. BERNADETTE E. TAMAYO",
+          "concept": "author",
+          "reasoning": "This section includes the name of the article's author in a formal byline."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 915,
+      "normalized": 0.0,
+      "actual_text": "100-yard walk Jordan Ingman Posted: Updated: NBC-2.com Sports",
+      "plain_text": "100-yard walk Jordan Ingman Posted: Updated: NBC-2.com SportsNBC-2.com SportsMore>>  The first significant cold front of the season will put a little chill in the water, which always spurs fishing. More >> The first significant cold front of the season will put a little chill in the water, which always spurs fishing. More >> NBC2's Angelo Caruso talks with Port Charlotte head coach Jordan Ingman.More >> NBC2's Angelo Caruso talks with Port Charlotte head coach Jordan Ingman.More >> The Astros shortstop proposed to his girlfriend on live television moments after Houston earned its World Series title with a 5-1 victory in Game 7 on Wednesday night.More >> The Astros shortstop proposed to his girlfriend on live television moments after Houston earned its World Series title with a 5-1 victory in Game 7 on Wednesday night.More >> In one of the most evenly matched, hard-fought and thrilling World Series of all time, it's fitting that fans were treated to a winner-takes-all Game 7 at Dodger Stadium in Los Angeles. More >> In one of the most evenly matched, hard-fought and thrilling World Series of all time, it's fitting that fans were treated to a winner-takes-all Game 7 at Dodger Stadium in Los Angeles. More >> We're finally 100 days away from the start of the 2018 Winter Olympics in Pyeongchang, and you'll have four new events to watch.More >> We're finally 100 days away from the start of the 2018 Winter Olympics in Pyeongchang, and you'll have four new events to watch.More >> NEW YORK (AP) - Georgia, Alabama, Notre Dame and Clemson are the top four teams in the first College Football Playoff rankings of the season.Oklahoma and Ohio State were the next two in the selection committee's initial top 25. The final rankings that wiMore >> NEW YORK (AP) - Georgia, Alabama, Notre Dame and Clemson are the top four teams in the first College Football Playoff rankings of the season.Oklahoma and Ohio State were the next two in the selection committee's initial top 25. The final rankings that wiMore >> Fort Myers will battle Dunbar, with the Green Wave tuning up for the playoffs and the Tigers hoping to get into the postseason.More >> Fort Myers will battle Dunbar, with the Green Wave tuning up for the playoffs and the Tigers hoping to get into the postseason.More >> The Houston Astros won a wild Game 5 of the World Series 13-12 to take a three-games-to two-lead in the best-of-seven series against the Los Angeles Dodgers. More >> The Houston Astros won a wild Game 5 of the World Series 13-12 to take a three-games-to two-lead in the best-of-seven series against the Los Angeles Dodgers. More >> The move comes a day after a third consecutive loss and nearly a week after McElwain said players and families had received death threats.More >> The move comes a day after a third consecutive loss and nearly a week after McElwain said players and families had received death threats.More >> Yuli Gurriel of the Houston Astros has been suspended for five games next season for making a racist gesture at Dodgers pitcher Yu Darvish during the World Series.More >> Yuli Gurriel of the Houston Astros has been suspended for five games next season for making a racist gesture at Dodgers pitcher Yu Darvish during the World Series.More >>",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "NBC2's Angelo Caruso talks with Port Charlotte head coach Jordan Ingman.More >>",
+          "concept": "sports reporter and coach",
+          "reasoning": "This section includes a sports reporter and a head coach with their formal roles."
+        },
+        {
+          "rank": 2,
+          "text": "Yuli Gurriel of the Houston Astros has been suspended for five games next season for making a racist gesture at Dodgers pitcher Yu Darvish during the World Series.More >>",
+          "concept": "baseball players",
+          "reasoning": "This section includes two professional baseball players with their team affiliations."
+        },
+        {
+          "rank": 3,
+          "text": "100-yard walk Jordan Ingman Posted: Updated: NBC-2.com SportsNBC-2.com SportsMore>>  The first significant cold front of the season will put a little chill in the water, which always spurs fishing. More >>",
+          "concept": "sports author",
+          "reasoning": "This section includes a person's name in a sports context, though without a formal title."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career.",
+          "concept": "NFL players",
+          "reasoning": "This section lists multiple named individuals with their professional achievements in a list-like context."
+        },
+        {
+          "rank": 2,
+          "text": "Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part.",
+          "concept": "moderator and athlete",
+          "reasoning": "This section includes two named individuals with formal professional titles."
+        },
+        {
+          "rank": 3,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state.",
+          "concept": "author",
+          "reasoning": "This section includes a named author with a formal title."
+        }
+      ]
+    }
+  ]
+}

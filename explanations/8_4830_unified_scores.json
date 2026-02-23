@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_4830",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of younger people or comparative youth** (such as \"younger classmates,\" \"younger Murdochs,\" \"younger people with medical conditions\") **combined with formal institutional or legal references** (such as court decisions, legislative acts, official titles, or dates).\n\n2. **Domain coverage**: The pattern appears across news, social media, and historical texts discussing legal rulings (e.g., \"5-4 decisions,\" \"LEOBOR\"), government roles (\"deputy ICT minister,\" \"HCBA\"), and dated events (\"May 4, 2021,\" \"1919\"). It activates in multiple languages (English, German, Czech, Romanian, Azerbaijani) but only when both the youth comparison and institutional context are present.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this combination. They mention places, general events, or cultural terms (\"earthquakes in Evia,\" \"Italian priest,\" \"barfi\") without referencing a younger/older contrast within a formal institutional framework. The neuron ignores standalone news snippets, non-institutional phrases, or text in non-Latin scripts (e.g., Cyrillic, Telugu) that don't contain this specific pairing.\n\n4. **Closing interpretation**: The neuron detects textual segments where a comparative reference to youth intersects with formal organizational, legal, or historical context. It likely serves as a feature for discussions of generational dynamics within structured societal systems.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Pitino , the son of disgraced Cardinals coach Rick Pitino. The younger Pitino dismissed any notion that the NCAA Tournament selection committee made the matchup on purpose",
+      "normalized_activation": 8.945121765136719,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Fo\u00adr The Register Colby \u2014 Chad and Angela Zimmerman have been married for 20 years and counting, but they have participated in",
+      "normalized_activation": 6.9508376121521,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "m\u00e1s probable que la afecci\u00f3n afecte a hombres mayores que a hombres m\u00e1s j\u00f3venes. Seg\u00fan el Instituto Nacional de Diabetes y Enfermedades Digestivas y",
+      "normalized_activation": 5.151059627532959,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "F\u00f6rst blir det mulet v\u00e4der, l\u00e4tt duggregn, temperature",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

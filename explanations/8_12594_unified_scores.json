@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_12594",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially names of people, organizations, or specific entities) followed by descriptive appositives, titles, or roles** (such as \"Chernobyl's Craig Mazin and Neil Druckmann, the key creative force...\", \"agnolli, MD, the subcommittee's chairman, Rep. Brad Wenstrup\", or \"Juan Lim\u00f3n, de la Comisi\u00f3n Nacional de Agua\").\n\n2. **Domain coverage**: The pattern appears across multilingual news, biographical, and formal descriptive texts. Examples span English, Arabic, German, Italian, Spanish, Turkish, and Bulgarian, covering domains like entertainment, politics, academia, sports, and institutional reports. The neuron activates when a specific person, group, or entity is immediately elaborated upon with a defining phrase, often set off by commas or introduced by a role indicator (e.g., \"director of the,\" \"chairman of\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, present them without immediate descriptive elaboration (e.g., \"Liviu Dragnea va r\u0103m\u00e2ne internat\"), or are simple factual statements or headlines that do not pause to define or title the entity. The key distinction is the presence of the syntactic structure **[Proper Noun] + [comma/connector] + [descriptive phrase detailing role, title, or identity]**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic-semantic pattern where an entity is explicitly anchored within a hierarchy or context via an appositive or role phrase. It appears specialized for parsing formal, referential constructions common in journalistic and expository writing across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "No. 100 Arnage Competition LMP, according to Traxion. Both cars returned to the race but neither was given back laps lost, because",
+      "normalized_activation": 9.619332313537598,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Significance of Mahashivratri Festival Geetha Patil Shivratri occurs on the 14th day of every",
+      "normalized_activation": 8.952485084533691,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the drama ends,\u201d he complains. Ingo Kramer, President of the Confederation of German Employers' Associations, fears for the future of the EU in its current",
+      "normalized_activation": 7.996323585510254,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u00cen 1923 un vas de croazier\u0103 britanic cu",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Carina Mej\u00edas incluye en su curr\u00edculum en la web del Ayunt",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

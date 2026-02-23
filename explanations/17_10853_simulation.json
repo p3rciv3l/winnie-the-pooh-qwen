@@ -1,8 +1,8 @@
 {
   "neuron_id": "17_10853",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:01:35Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **expressions of competition, rivalry, or contests** (such as bidding for resources, sports tournaments, political races, or vying for awards/status).\n\n2. **Domain coverage**: The pattern appears across sports (e.g., golf tournaments, basketball games, football leagues), business/economics (e.g., bid rounds for oil blocks, competing for subsidies), politics (e.g., election battles, international disputes), and entertainment/awards. It activates in multiple languages (English, Spanish, Portuguese, Indonesian) and spans news reports, sports commentary, and fictional scenarios.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature active contention—parties striving against each other for a goal, title, or advantage. Low-activation examples describe singular events, announcements, static descriptions, or negative outcomes (e.g., health diagnoses, protests, bans, remembrance) without a competitive frame or opposing sides directly struggling for gain.\n\n4. **Closing interpretation**: The neuron detects semantic contexts where entities are explicitly positioned in opposition or pursuit of a scarce objective, focusing on the linguistic framing of struggle, races, and head-to-head contention rather than unilateral actions or neutral statements.",
+  "generated_at": "2026-02-23T04:26:43Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing competition, contests, or structured rivalry for a limited outcome** (such as sports matches, political elections, bidding for contracts, awards, or military/ideological battles).\n\n2. **Domain coverage**: The pattern appears across news, sports reporting, business, and geopolitical contexts, in multiple languages (English, Portuguese, Spanish, Indonesian). Specific domains include: Olympic bidding, league sports competitions (football, basketball, cricket), political campaigning (\"contest for Presidency\"), corporate subsidy competitions, legal battles (\"irreparable harm\" in suspension appeal), and even fictional competitions (Alien Football League). The neuron activates on the *process* of competing—winning leads, tying scores, snatching victories, or fierce battles for titles, control, or status.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this competitive frame. They describe singular events (a diagnosis, a protest, a removal of an app, a partnership announcement, a historical fact) or ongoing issues (corruption, health disparities) without a clear win/loss dynamic, head-to-head rivalry, or competition for a specific prize/position. Even when words like \"fierce\" appear (e.g., \"fierce voice\"), they are descriptive rather than part of a contest narrative.\n\n4. **Closing interpretation**: The neuron detects semantic contexts where multiple agents or entities are engaged in a struggle for a goal, rank, or resource, often within a rule-bound system. It abstracts the concept of \"competition\" across diverse topics and languages, focusing on the relational tension rather than any specific domain vocabulary.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Death definitely becomes this star. Astronomers on Wednesday reported on a massive, distant star that exploded in 2014 — and also, apparently back in 1954. This is one supernova that refuses to bite the cosmic dust, confounding scientists who thought they knew how dying stars ticked.",
-          "reasoning": "This section includes metaphorical struggle language like 'refuses to bite the cosmic dust', which loosely aligns with the neuron's focus on competition or rivalry against natural forces."
+          "text": "It could be multiple explosions occurring so frequently that they run into one another or perhaps a single explosion that repeatedly gets brighter and fainter, though scientists do not know exactly how this happens.",
+          "concept": "competing theories",
+          "reasoning": "This presents multiple competing explanations for the supernova's behavior, matching the neuron's focus on rivalry for a limited outcome (the correct explanation)."
         },
         {
           "rank": 2,
-          "text": "The oft-erupting star is 500 million light-years away — in the direction of the Big Bear constellation. It was discovered in 2014 and, at the time, resembled your basic supernova that was getting fainter. However, a few months later, astronomers at the California-based Las Cumbres Observatory saw it getting brighter.",
-          "reasoning": "This section contrasts expectations with observations, implying a contest between scientific predictions and reality, which may weakly match the neuron's pattern."
+          "text": "This is one supernova that refuses to bite the cosmic dust, confounding scientists who thought they knew how dying stars ticked.",
+          "concept": "challenge to expertise",
+          "reasoning": "The supernova's behavior contradicts established scientific understanding, creating a rivalry between old theories and new evidence."
         },
         {
           "rank": 3,
-          "text": "They have seen it grow faint, then bright, then faint again five times. They have even found past evidence of an explosion 60 years earlier at the same spot. Supernovas typically fade over 100 days.",
-          "reasoning": "This section describes repetitive events that could be seen as a challenge to normal supernova behavior, but it lacks explicit competition between parties."
+          "text": "“It’s very surprising and very exciting,” said astrophysicist Iair Arcavi of the University of California, Santa Barbara, who led the study. “We thought we’ve seen everything there is to see in supernovae after seeing so many of them, but you always get surprised by the universe. This one just really blew away everything we thought we understood about them.”",
+          "concept": "scientific surprise",
+          "reasoning": "The scientist describes how this discovery overturns previous knowledge, reflecting a competition between existing paradigms and new observations."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "PSA: You Can Get Sorel Boots for Nearly 70% Off Today Whether you're a skier, hiker, or live in a particularly chilly climate, it's safe to say that you'll need a quality pair of boots to get you through the winter. Luckily, if you're looking to invest in new footwear, there are plenty of cold-weather-approved Sorel styles on sale at Rue La La right now.",
-          "reasoning": "This section mentions a sale event, which might imply commercial competition for customers, though not explicitly stated."
+          "text": "Naturally, deals this good are bound to sell out quickly. There are limited sizes and color options available since the markdowns began earlier this morning, so you'll want to act fast to secure your favorite pairs.",
+          "concept": "shopping competition",
+          "reasoning": "The text urges readers to act quickly due to limited availability, creating a sense of rivalry among shoppers for the discounted products."
         },
         {
           "rank": 2,
-          "text": "The online boutique is treating shoppers to up to 67 percent off best-selling Sorel winter boots for women and men, including fan-favorites like the stylish Lennox Leather Boot, as well as more rugged options like the Explorer Carnival Bootie, Caribou Suede-Trim Boot, and Cheyanne II Short Boot.",
-          "reasoning": "The term 'best-selling' hints at market competition among products, aligning weakly with the neuron's domain of business rivalry."
+          "text": "For women, you'll find the Kinetic Renegade Lace Leather Sneaker and Kinetic Impact Lace Leather Sneaker on sale for up to 45 percent off, although sizes are already selling out fast.",
+          "concept": "scarcity competition",
+          "reasoning": "The mention of sizes selling out fast implies competition among buyers to secure limited inventory."
         },
         {
           "rank": 3,
-          "text": "While these picks might not all be waterproof, they boast durable exteriors, lugged or grippy rubber soles, and fashion-forward details such as fleece, suede, and multicolor hiker-style laces.",
-          "reasoning": "This section describes product features without competitive framing, making it a low match for the neuron's pattern."
+          "text": "The online boutique is treating shoppers to up to 67 percent off best-selling Sorel winter boots for women and men, including fan-favorites like the stylish Lennox Leather Boot, as well as more rugged options like the Explorer Carnival Bootie, Caribou Suede-Trim Boot, and Cheyanne II Short Boot.",
+          "concept": "market competition",
+          "reasoning": "The term 'best-selling' indicates these products are top performers in the market, reflecting commercial competition for consumer preference."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "“I believe that so-called ‘Open RAN’ represents the single best approach to tackling the 5G challenge – opening the radio access network to competition from a wider array of players, including startups, non-traditional players like software companies, and enterprise networking companies. That approach plays to U.S. strengths like software and network virtualization. And it means we have a wider set of firms – including American firms with healthier balance sheets – competing against Huawei.”",
-          "reasoning": "This section explicitly mentions 'competing against Huawei', directly aligning with the neuron's focus on rivalry and contests in technology and politics."
+          "text": "U.S. Sen. Mark R. Warner took to the Senate floor this week in support of the United States Innovation and Competition Act, bipartisan legislation that includes Warner-led provisions to foster U.S. innovation in the race for 5G and shore up American leadership in the microelectronics industry.",
+          "concept": "technological race",
+          "reasoning": "This sentence explicitly mentions a 'race for 5G' and 'American leadership', directly indicating competition between nations for technological dominance."
         },
         {
           "rank": 2,
-          "text": "U.S. Sen. Mark R. Warner took to the Senate floor this week in support of the United States Innovation and Competition Act, bipartisan legislation that includes Warner-led provisions to foster U.S. innovation in the race for 5G and shore up American leadership in the microelectronics industry.",
-          "reasoning": "This section includes 'race for 5G' and 'Competition Act', highlighting competitive efforts in technological advancement."
+          "text": "As Sen. Warner noted on the Senate floor, U.S. production of semiconductors and microelectronics has gone down from 37 percent in 1990 to just 12 percent today. By contrast, China has committed to invest $150 billion and produce at least 70 percent of semiconductors it consumes by 2030.",
+          "concept": "geopolitical rivalry",
+          "reasoning": "This contrast highlights the competitive decline of the U.S. and the ambitious rise of China in semiconductor manufacturing, a key strategic industry."
         },
         {
           "rank": 3,
-          "text": "“The semiconductor industry, while we’ve seen some sliding, still represents one of the shining lights of our country’s innovation economy. And as a wider array of products and services depend on internet connectivity and software processing, the demand for semiconductors has only grown. Unfortunately, that leadership position we’ve had for so long is at stake,” Warner said.",
-          "reasoning": "This section frames the situation as a struggle to maintain leadership, implying competition with other nations."
+          "text": "“I believe that so-called ‘Open RAN’ represents the single best approach to tackling the 5G challenge – opening the radio access network to competition from a wider array of players, including startups, non-traditional players like software companies, and enterprise networking companies.",
+          "concept": "market competition",
+          "reasoning": "This statement advocates for increasing competition in the 5G market, directly aligning with the neuron's focus on structured rivalry for limited outcomes."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "“They're all in bed with this blanket gender ideology,” the father said of GoFundMe's and other large companies' moves against anyone who is skeptical of transgender activist claims, adding that he thinks they are either financially benefiting from transgender advocacy groups 'or they are pandering to 'woke' mentality.'",
-          "reasoning": "This section frames the conflict as a rivalry between ideological groups, directly matching the neuron's focus on opposition and contention."
+          "text": "GoFundMe has shut down the efforts of parents attempting to raise money to display billboards that say \"puberty is not a medical condition\" for violating its user rules. The father has received no specific response from GoFundMe as to why his page was removed.",
+          "concept": "ideological conflict",
+          "reasoning": "GoFundMe's shutdown of the fundraiser represents a battle over permissible speech and ideological control, matching the neuron's focus on structured rivalry for a limited outcome (platform access)."
         },
         {
           "rank": 2,
-          "text": "GoFundMe has shut down the efforts of parents attempting to raise money to display billboards that say 'puberty is not a medical condition' for violating its user rules. The fundraising effort, which was inspired by a Los Angeles-area father of a gender-confused teenaged daughter who put up one such billboard near West Hollywood, was taken down Wednesday on the widely-used crowdfunding site.",
-          "reasoning": "This section describes active contention between parents and GoFundMe, aligning with the neuron's pattern of struggles against opposing sides."
+          "text": "He emphasized he has no issue with being gay or lesbian and the gender-transitioning of homosexuals is the kind of practice one might expect to see in nations like Iran, not the United States. Speaking to gay and lesbian celebrities and influencers who go to great lengths to promote transgenderism, he opined: \"They are erasing themselves.\"",
+          "concept": "internal ideological battle",
+          "reasoning": "This highlights a conflict within the LGBTQ community over transgender ideology, reflecting a competition for identity and influence."
         },
         {
           "rank": 3,
-          "text": "Dozens of parents throughout the country who saw the billboard and have children that have come to believe they are the opposite sex reached out to the father, expressing a desire to put up similar billboards in their cities in order to generate discussion of an issue they say has not received enough scrutiny in the mainstream press.",
-          "reasoning": "This section shows collective action against mainstream views, indicating a competitive effort to challenge prevailing narratives."
+          "text": "Shrier commented on Twitter Wednesday that \"numberless teen girls use gofundme to pay for breast removal surgery. A group of parents started a gofundme for billboards to raise awareness of the social contagion facing teen girls. *That* was shut down.\" \"If you’re not alarmed by tech censorship, you’re not paying attention.\"",
+          "concept": "unequal treatment",
+          "reasoning": "This points to a competition for platform support between different causes, reflecting a struggle for resources and attention in the ideological arena."
         }
       ]
     },
@@ -115,17 +127,20 @@
         {
           "rank": 1,
           "text": "Imagine that you really want Donald Trump to be guilty of colluding with the Russian state to throw the 2016 US elections. In conditions of ambiguity, where the evidence at your disposal could reasonably be read either way, research implies that you will tend to honestly believe that he did collude with Russia, with a degree of confidence that outstrips the evidence.",
-          "reasoning": "This section directly involves political competition and election interference, matching the neuron's focus on contests and rivalry."
+          "concept": "political competition",
+          "reasoning": "This directly references a high-stakes political contest (the 2016 election) and the desire for a particular outcome, matching the neuron's focus on competition."
         },
         {
           "rank": 2,
-          "text": "It is a bad time to be an auditor in SA, with several of the big four accounting firms heavily involved in a string of corruption and fraud scandals. Why has this happened? It is widely recognised that root cause of these issues is the conflict of interest that is built into the auditing profession.",
-          "reasoning": "This section mentions scandals that imply competitive or contentious environments in business, aligning weakly with the neuron's pattern."
+          "text": "Conflicts of interest in auditing stem from the fact auditors are hired by the companies they audit, and that the accounting firms that auditors work for might provide a range of additional — and lucrative — services for that company. This gives auditors an incentive to keep their clients happy.",
+          "concept": "professional conflict",
+          "reasoning": "This describes a structural rivalry between professional integrity and client interests, which is a form of competition for favor and resources."
         },
         {
           "rank": 3,
-          "text": "This is exactly the point at which conflicts of interest become an issue for auditors. Auditors are forced to work in conditions where the evidence at their disposal is limited. By some estimates it is not unusual for auditors to look at less than 5% of a company’s transactions, given the immensity of a company’s books.",
-          "reasoning": "This section discusses conflicts of interest but lacks explicit competition, making it a low match for the neuron's focus."
+          "text": "However, the lesson from behavioural economics is that conflicts of interest affect us much more deeply than we assume. The danger of conflicts of interest is not only that they create temptations for the unscrupulous, but also that they create the preconditions for the self-serving bias to take hold.",
+          "concept": "bias in competition",
+          "reasoning": "The self-serving bias arises in competitive situations where one's desires influence judgment, aligning with the neuron's detection of rivalry for limited outcomes."
         }
       ]
     }

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_5018",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:15:12Z",
+  "explanation_used": "This neuron strongly responds to **proper nouns and named entities embedded within dense, formal, or journalistic text segments** (such as military unit names like “Strade Sicure Raggruppamento Umbria – Marche,” sports team references like “Celtics de Boston,” product specifications like “Porsche Dynamic Chassis Control,” or political figures like “Rep. Rashida Tlaib”).\n\n**Domain coverage**: The pattern appears across multiple languages (Italian, French, Urdu, Greek, English, Romanian, Norwegian, Russian, Hindi, etc.) and topics—primarily in news, reports, or descriptive passages covering sports, politics, technology, disasters, and cultural events. The neuron activates strongly when text contains specific, often capitalized, multi-word named entities within longer, information-dense clauses.\n\n**Contrast with low-activation examples**: The low-activation texts are either generic statements (“Demographic decline was a big story”), incomplete phrases, or simpler sentences where named entities are absent, isolated, or presented in less formal contexts (e.g., “Bruce Willis” in a birthday list). High-activation examples consistently feature clusters of proper nouns or formal titles integrated into detailed, continuous prose.\n\n**Closing interpretation**: This neuron likely detects **information-rich textual contexts where specific real-world entities (organizations, people, products, locations) are discussed in a formal or reportorial style**. It serves as a marker for dense, entity-focused content typical of news articles or technical descriptions across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00004",
+      "row_idx": 2891,
+      "normalized": 9.667802810668945,
+      "actual_text": "A fost descoperit un obiect cosmic mai îndepărtat decît Pluto și este unul solid. Este cel mai îndepărt",
+      "plain_text": "A fost descoperit cel mai îndepărtat obiect cosmic  A fost descoperit un obiect cosmic mai îndepărtat decît Pluto și este unul solid. Este cel mai îndepărtat corp din sistemul solar, iar ceea ce se știe deocamdată despre el este fascinant. Spațiul nu va înceta niciodată să uimească umanitatea pentru că vor fi întotdeauna mistere care îi vor atrage pe oamenii de știință. Desigur, cu cît misterele sînt mai îndepărtate de noi, cu atît există motive de",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A fost descoperit cel mai îndepărtat obiect cosmic A fost descoperit un obiect cosmic mai îndepărtat decît Pluto și este unul solid.",
+          "concept": "astronomical discovery",
+          "reasoning": "Contains the proper noun 'Pluto' in a formal astronomical context, matching the neuron's focus on named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Este cel mai îndepărtat corp din sistemul solar, iar ceea ce se știe deocamdată despre el este fascinant.",
+          "concept": "scientific description",
+          "reasoning": "Lacks named entities and is generic, leading to lower activation."
+        },
+        {
+          "rank": 3,
+          "text": "Spațiul nu va înceta niciodată să uimească umanitatea pentru că vor fi întotdeauna mistere care îi vor atrage pe oamenii de știință.",
+          "concept": "philosophical reflection",
+          "reasoning": "No named entities present, making it less likely to activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 2640,
+      "normalized": 9.06814956665039,
+      "actual_text": "afectate de seisme sunt obligaţi să ia măsurile prevăzute de lege pentru reducerea riscului seismic al construc",
+      "plain_text": "Preşedintele Klaus Iohannis a promulgat joi legea privind înfiinţarea, organizarea şi funcţionarea asociaţiilor de proprietari şi administrarea condominiilor, a informat Administraţia Prezidenţială prin intermediul unui comunicat de presă. Pe 26 iunie, Camera Deputaţilor a adoptat cu 273 de voturi \"pentru\", două \"împotrivă\" şi patru abţineri, proiectul care prevede, printre altele, că asociaţiile de proprietari, proprietarii construcţiilor încadrate în clasele de risc seismic şi/sau afectate de seisme sunt obligaţi să ia măsurile prevăzute de lege pentru reducerea riscului seismic al construcţiilor. Citește și: Decizia care lovește bine în RCS&RDS! Investigația în urma căreia a devenit pradă sigură Actul normativ are ca obiect de reglementare eficientizarea administrării locuinţelor, fie că sunt imobile colective tip bloc, locuinţe situate în curţi comune sau ansambluri rezidenţiale; o mai bună structurare a organelor de conducere ale asociaţiilor de proprietari; clarificarea responsabilităţilor şi incompatibilităţilor dintre membrii structurilor de conducere din cadrul asociaţiilor de proprietari; instituirea regulamentului condominiului în care să se înscrie regulile de comportament şi de folosire a proprietăţii; clarificarea şi eficientizarea relaţiei dintre autorităţile publice şi asociaţiile de proprietari. Potrivit unor amendamente adoptate, proprietarii construcţiilor, persoane fizice sau juridice, şi asociaţiile de proprietari, precum şi persoanele juridice care au în administrare construcţii încadrate în clasele de risc seismic şi/sau afectate de seisme sunt obligaţi să ia măsurile prevăzute de lege pentru reducerea riscului seismic al construcţiilor. Citește și: Lovitură pentru titanul Telekom! Anunțul care zguduie din temelii compania Proprietarii sunt obligaţi să ia măsuri pentru consolidarea şi modernizarea condominiului, modernizarea echipamentelor, instalaţiilor şi dotărilor aferente, montarea contoarelor pentru individualizarea consumurilor la nivel de proprietate individuală, reabilitarea termică în scopul creşterii performanţei energetice, precum şi reabilitarea structural-arhitecturală a anvelopei condominiului pentru creşterea calităţii arhitectural-ambientale a acestuia, potrivit prevederilor legale, în condiţiile menţinerii aspectului armonios şi unitar al întregului condominiu, indiferent de natura intervenţiilor. Citește și: Lia Olguţa Vasilescu nu s-a mai abţinut! Ieşire explozivă a ministrului Muncii În cazul condominiilor de tipul imobilelor colective multietajate, modificarea aspectului faţadei se face numai în mod unitar pe întreg condominiul, indiferent de numărul asociaţiilor de proprietari constituite pe scări sau tronsoane, în baza unei documentaţii tehnice elaborate în condiţiile legii, de către arhitecţi cu drept de semnătură şi cu respectarea prevederilor legale în vigoare privind autorizarea executării lucrărilor de construcţii, regimul monumentelor istorice şi al zonelor protejate, reabilitarea termică pentru creşterea performanţei energetice a clădirilor şi reabilitarea structural - arhitecturală a anvelopei acestora pentru creşterea calităţii arhitectural - ambientale a clădirilor. Citește și: Ce se va întâmpla cu Antena 3 și Antena 1 – Intact face un anunț important despre viitorul cunoscutelor televiziuni Proprietarul poate aduce îmbunătăţiri sau modificări proprietăţii sale individuale, cu respectarea prevederilor legale în vigoare referitoare la autorizarea executării lucrărilor de construcţii de către autoritatea administraţiei publice competente, fără a pune în pericol integritatea structurală a condominiului, rezistenţa mecanică, stabilitatea şi siguranţa clădirii sau a altor proprietăţi individuale, precum şi buna funcţionare a instalaţiilor aferente acestora. Citește și: Decizia care lovește bine în RCS&RDS! Investigația în urma căreia a devenit pradă sigură .",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Preşedintele Klaus Iohannis a promulgat joi legea privind înfiinţarea, organizarea şi funcţionarea asociaţiilor de proprietari şi administrarea condominiilor, a informat Administraţia Prezidenţială prin intermediul unui comunicat de presă. Pe 26 iunie, Camera Deputaţilor a adoptat cu 273 de voturi \"pentru\", două \"împotrivă\" şi patru abţineri, proiectul care prevede, printre altele, că asociaţiile de proprietari, proprietarii construcţiilor încadrate în clasele de risc seismic şi/sau afectate de seisme sunt obligaţi să ia măsurile prevăzute de lege pentru reducerea riscului seismic al construcţiilor.",
+          "concept": "political legislation",
+          "reasoning": "Includes multiple named entities like Klaus Iohannis and Camera Deputaților in a formal legislative report."
+        },
+        {
+          "rank": 2,
+          "text": "Citește și: Decizia care lovește bine în RCS&RDS! Investigația în urma căreia a devenit pradă sigură Actul normativ are ca obiect de reglementare eficientizarea administrării locuinţelor, fie că sunt imobile colective tip bloc, locuinţe situate în curţi comune sau ansambluri rezidenţiale; o mai bună structurare a organelor de conducere ale asociaţiilor de proprietari; clarificarea responsabilităţilor şi incompatibilităţilor dintre membrii structurilor de conducere din cadrul asociaţiilor de proprietari; instituirea regulamentului condominiului în care să se înscrie regulile de comportament şi de folosire a proprietăţii; clarificarea şi eficientizarea relaţiei dintre autorităţile publice şi asociaţiile de proprietari.",
+          "concept": "corporate investigation",
+          "reasoning": "Features the named entity RCS&RDS within a dense, formal text about legal regulations."
+        },
+        {
+          "rank": 3,
+          "text": "Citește și: Ce se va întâmpla cu Antena 3 și Antena 1 – Intact face un anunț important despre viitorul cunoscutelor televiziuni Proprietarul poate aduce îmbunătăţiri sau modificări proprietăţii sale individuale, cu respectarea prevederilor legale în vigoare referitoare la autorizarea executării lucrărilor de construcţii de către autoritatea administraţiei publice competente, fără a pune în pericol integritatea structurală a condominiului, rezistenţa mecanică, stabilitatea şi siguranţa clădirii sau a altor proprietăţi individuale, precum şi buna funcţionare a instalaţiilor aferente acestora.",
+          "concept": "media announcement",
+          "reasoning": "Contains named entities like Antena 3 and Intact in a journalistic, information-dense passage."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 2996,
+      "normalized": 8.220304489135742,
+      "actual_text": ". Cel mai grav seism din ultimii ani a avut loc în decembrie 2003 şi a provocat 26.0",
+      "plain_text": "Un seism cu magnitudinea de 5,1 s-a produs în această dimineaţă în sudul Iranului şi a fost resimţit până în Dubai, a anunţat Institutul american de Geofizică (USGS). Epicentrul seismului, care s-a produs în jurul orei locale 10.00 (07.30, ora României), a fost localizat la 66 de kilometri sud de oraşul Queshm, în strâmtoarea Ormuz, potrivit USGS. Agenţia oficială de presă IRNA a anunţat că seismul a avut magnitudinea 5,2 şi a precizat că, deocamdată, nu au fost semnalate victime sau pagube materiale. Seismul a fost resimţit în oraşul port Bandar Abbas şi de-a lungul Golfului, până în Dubai, unde clădirile înalte s-au mişcate câteva zeci de secunde, însă nu au fost evacuate. Iranul, situat pe numeroase falii seismice importante, s-a confruntat cu mai multe cutremure devastatoare. În aprilie 2003, sud-estul Iranului a fost afectat de un puternic seism cu magnitudinea de 7,8, care a provocat moartea unui iranian şi alte 40 de victime în Pakistan. Acesta a fost cel mai puternic seism înregistrat în Iran din 1957. Cel mai grav seism din ultimii ani a avut loc în decembrie 2003 şi a provocat 26.000 de morţi în Bam, în sudul Iranului. În august 2012, două seisme puternice au provocat 306 morţi în apropiere de oraşul Tabriz, din nord-vestul ţării.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un seism cu magnitudinea de 5,1 s-a produs în această dimineaţă în sudul Iranului şi a fost resimţit până în Dubai, a anunţat Institutul american de Geofizică (USGS). Epicentrul seismului, care s-a produs în jurul orei locale 10.00 (07.30, ora României), a fost localizat la 66 de kilometri sud de oraşul Queshm, în strâmtoarea Ormuz, potrivit USGS.",
+          "concept": "seismic event",
+          "reasoning": "Includes multiple named entities like USGS, Dubai, and Queshm in a formal news report style."
+        },
+        {
+          "rank": 2,
+          "text": "Agenţia oficială de presă IRNA a anunţat că seismul a avut magnitudinea 5,2 şi a precizat că, deocamdată, nu au fost semnalate victime sau pagube materiale. Seismul a fost resimţit în oraşul port Bandar Abbas şi de-a lungul Golfului, până în Dubai, unde clădirile înalte s-au mişcate câteva zeci de secunde, însă nu au fost evacuate.",
+          "concept": "agency report",
+          "reasoning": "Features named entities like IRNA and Bandar Abbas within a detailed, journalistic description."
+        },
+        {
+          "rank": 3,
+          "text": "Iranul, situat pe numeroase falii seismice importante, s-a confruntat cu mai multe cutremure devastatoare. În aprilie 2003, sud-estul Iranului a fost afectat de un puternic seism cu magnitudinea de 7,8, care a provocat moartea unui iranian şi alte 40 de victime în Pakistan. Acesta a fost cel mai puternic seism înregistrat în Iran din 1957.",
+          "concept": "historical seismicity",
+          "reasoning": "Contains named entities like Iran and Pakistan in a formal, historical context about earthquakes."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 1672,
+      "normalized": 0.0,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "plain_text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane. Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.  In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato. L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che   ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo:   Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%. In realtà l’Accordo riguarda cambiamenti climatici in corso, alcuni dei quali sono dovuti al 100% alle nostre attività. Il suo terzo difetto è di ignorare le eruzioni vulcaniche e le “fessure della crosta terrestre” che rilasciano lava determinando   forti perturbazioni nella dinamica oceanica, il che sorprenderà geologi, oceanologi e fisici del clima, sopratutto quelli che disegnano vulcani sull’asse x dei propri grafici.  Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.   Entra così in gioco la climatologia cosmica. La disciplina è stata immaginata nel 1997 da Henrik Svensmark, con l’aiuto di Eigil Friis-Christensen che si è ricreduto ed è stato sostituito da Nir Shaviv (2). Il clima, spiega Zichichi con parole sue,   dipende da dove si trova la Terra rispetto ai «bracci» della galassia. I «bracci» sono infatti zone in cui l’intensità dei raggi cosmici può arrivare a essere dieci volte più alta delle zone esterne ai «bracci». Nessuno ha mai osservato la Via Lattea da fuori, quindi i bracci sono ipotetici. Ai lettori del Giornale forse andava anche precisato che esistono i raggi cosmici tout court, delle particelle che arrivano dal Sole, e raggi cosmici galattici (poi abbreviati in RCG), delle particelle a energia più elevata provenienti da supernove nella Via Lattea e in altre galassie.  Zichichi ignora l’esistenza di Svensmark o la dimentica? Non lo cita e tutti sanno che mai e poi mai spaccerebbe per proprie le idee di un collega.  (I lettori di abituali di questa rubrica saltino pure il paragrafo successivo: riassume idee a loro già note.)  In libri e riviste di fantascienza, Svensmark ipotizza che a cicli di 140 milioni di anni – dieci milioni più, dieci milioni meno – il sistema solare transiti in prossimità dell’ipotetico braccio nel quale sarebbero concentrate le giganti azzurre, una parte consistente delle supernove. A suo avviso, sarebbero le uniche fonti dei RCG. Quando colpiscono molecole dell’atmosfera terrestre, determinerebbero la formazione degli aerosol attorno ai quali il vapore acqueo si addensa in nubi. Siccome tutte le nubi rifletterebbero verso l’esterno l’energia solare, i RCG raffredderebbero il clima. (2)  Non solo Zichichi è sicuro che   L’Accordo di Parigi ignora i raggi cosmici (3). ma anche di essere l’unico al quale un loro effetto sul clima sia venuto in mente:   Fino a oggi i raggi cosmici non sono stati presi in esame. (4) Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra   nelle vere mani della comunità scientifica cioè le sue. Tra l’altro, salverà anche la scienza dal discredito nel quale sta per piombare:   Con i modelli meteo-climatologici (5) la scienza rischia di perdere la sua credibilità, se non fa sentire con forza la sua voce. Dal 1965 la politica commissiona alla “scienza” rapporti e aggiornamenti, proprio perché faccia sentire con forza la sua voce. Ormai la poveretta urla a squarciagola, ma Zichichi non la sente. Perciò vuole una sorta di CERN tutto per sé. La “prova dell’alleanza” tra politica e scienza sarebbe infatti   un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole. Un laboratorio con dentro un mondo identico alla Terra, nel quale verificare sperimentalmente – il solo “rigore scientifico” che Zichichi riconosca – se il clima cambia ogni 140 +/-10 milioni di anni.  Note  Per la parte scientifica, l’Accordo rimanda al 5° rapporto dell’IPCC. Nel volume III, cap. 11, dice che alle piante l’aumento della CO2 in atmosfera giova solo se non aumentano le temperature, e l’intensità e la frequenza di eventi meteorologi estremi come alluvioni, siccità e ondate di calore. Ricredutosi anche Shaviv, ora sostiene che l’attività solare in calo da oltre 40 anni stia causando il riscaldamento globale degli ultimi 40 anni. In una prima versione le nubi riscaldavano il clima, poi Svensmark si è accorto che il flusso degli RCG continuava a calare. Il 5° rapporto IPCC ne parla a pp. 613-614 del volume I. Sono presi in esame da vent’anni. Sia le osservazioni in natura che gli esperimenti Cloud al CERN hanno confermato che il loro effetto sugli aerosol è localizzato sopra le foreste di conifere e “insignificante” per quanto riguarda il clima globale. I modelli meteo simulano l’evoluzione dei fenomeni atmosferici e marini sull’arco di alcuni giorni. Oggi i modelli climatici simulano sull’arco di decenni quella del sistema atmosfera-oceani-terre emerse in base a “scenari” riguardanti le attività economiche future. Ci sono anche modelli climatici di “hindcast” che simulano alcuni aspetti del clima passato, per esempio l’evoluzione della temperatura globale nell’ipotesi che la concentrazione atmosferica di CO2 sia rimasta stabile dal 1800 in poi. Leggi anche: Il clima, il fisico e la mucca sferica  Pubblicato con licenza Creative Commons Attribuzione-Non opere derivate 2.5 Italia.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.  In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
+          "concept": "climate conference",
+          "reasoning": "Dense with named entities like COP24, Katowice, Il Foglio, François Gervais, Il Giornale, Antonino Zichichi, and Trump in a journalistic segment."
+        },
+        {
+          "rank": 2,
+          "text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane.",
+          "concept": "scientific proposal",
+          "reasoning": "Includes proper nouns like Zichichi and IL PARCO DELLE BUFALE in a formal, opinionated text."
+        },
+        {
+          "rank": 3,
+          "text": "Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.",
+          "concept": "scientific reference",
+          "reasoning": "Features named entities like GISS-NASA and Milankovic in a dense, academic-style discussion."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com.",
+          "concept": "literary recognition",
+          "reasoning": "Contains multiple named entities like The Texas Observer and Houston Chronicle in a formal announcement context."
+        },
+        {
+          "rank": 2,
+          "text": "Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970.",
+          "concept": "event moderation",
+          "reasoning": "Includes named entities like Dallas Morning News, James Ragland, Dallas Cowboys, and Tony Hill in a news-style description."
+        },
+        {
+          "rank": 3,
+          "text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state.",
+          "concept": "author event",
+          "reasoning": "Features proper nouns like Texas, Michael Hurd, and Allen Public Library in a formal, informational passage."
+        }
+      ]
+    }
+  ]
+}

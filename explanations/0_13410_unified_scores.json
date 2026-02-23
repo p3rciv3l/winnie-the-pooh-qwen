@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_13410",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to sentences where the pronoun \"It\" (or \"It's\"/\"It is\") functions as a dummy subject or cataphoric pronoun to introduce a fact, evaluation, or situation (such as \"It's the third straight rate hike...\", \"It\u2019s a comfort to know...\", or \"It's one small way...\").\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts including financial news, personal narratives, cultural commentary, and political reporting. The neuron activates on explanatory or evaluative clauses following \"It's\" that frame a statement as a conclusion, observation, or contextual summary, regardless of the specific topic.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this specific \"It's [evaluation/explanation]\" structure. They are often headlines, factual reports, or non-English text fragments that do not use \"It\" as a dummy subject to frame a proposition. The key distinction is the presence of a cataphoric or evaluative \"It\" clause in the high-activation group, which is absent in the low-activation group.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic and rhetorical pattern in English where \"It\" is used as a placeholder subject to introduce a clause that provides a summary, judgment, or explanation. It essentially fires on sentences that are framing a statement as an established fact or salient observation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "to acknowledge we can\u2019t just rely on technology to protect this important right. It's time to also take on the difficult task of convincing governments to install legal protections.",
+      "normalized_activation": 9.69570541381836,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2028,
+          "meaning_score": 0.942,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6579
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2016,
+          "meaning_score": 0.3582,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2239
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1618,
+          "meaning_score": 0.3637,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2102
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Also Saturday Councilwoman Rebecca Viagran on Los Pastores. \"It's the Shepherd's play. It's part of the Christmas story, but it's",
+      "normalized_activation": 9.18623161315918,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3684,
+          "meaning_score": 0.6742,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.417
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2223,
+          "meaning_score": 0.4144,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2547
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2313,
+          "meaning_score": 0.3378,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2276
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "nature of music is that it's an ongoing conversation,\" he continued. \"It's water moving. I think what you're doing is brave, and I'm all",
+      "normalized_activation": 8.757970809936523,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1949,
+          "meaning_score": 0.7822,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3908
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2095,
+          "meaning_score": 0.2257,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1741
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1788,
+          "meaning_score": 0.3485,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2109
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0645\u06cc\u06ba \u06c1\u06319\u0645\u06cc\u06ba \u0633\u06d2 \u0627",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2559,
+          "meaning_score": 0.3957,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4606
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2559,
+          "meaning_score": 0.2555,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2046
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2559,
+          "meaning_score": 0.2035,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1838
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Riding on the local manufacturing growth, mobile phone exports from the country have surpassed $",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1768,
+          "meaning_score": 0.7879,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5859
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1768,
+          "meaning_score": 0.6897,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3466
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1768,
+          "meaning_score": 0.7216,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3594
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_3928",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments densely packed with proper nouns** (such as specific locations like \"Alderley Edge\" or \"Nanjing,\" organizations like \"Borussia Dortmund\" or \"Universidad de Nueva Gales del Sur,\" and personal names like \"Fangliang 'Frank' Zhange\" or \"Hayley Atwell\")...\n\n2. **Domain coverage**: The pattern appears across multilingual news, geopolitical, and cultural reporting. It activates on text in numerous languages (Indonesian, Spanish, Polish, Hungarian, Turkish, etc.) covering topics like international incidents, business, sports, science, and entertainment, specifically when multiple concrete, named entities are listed or referenced in close succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic introductory phrases, contain very few or no specific proper nouns, or discuss topics in a broader, more conceptual way (e.g., \"take stock of what 2024 may have in store,\" \"Easy-to-grow flowers\"). They lack the dense concentration of unique, capitalized identifiers that define the high-activation set.\n\n4. **Closing interpretation**: The neuron appears to detect and fire on high semantic density of unique named entities, acting as a marker for text that is concretely anchored in specific real-world people, places, and organizations, particularly in a multilingual context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Dr. Kwame Achampong-Kyei was the special guest of honor at the investiture of the 11th",
+      "normalized_activation": 9.41165542602539,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u093f\u0924 \u0926\u093f\u0928\u0947\u0936 \u0938\u094b\u0928\u0940 \u0915\u094b \u0918\u091f\u0928\u093e \u0938\u094d\u0925\u0932 \u092a\u0930 \u0932\u0947\u091c\u093e\u0915\u0930 \u0915",
+      "normalized_activation": 8.384462356567383,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "- poinformowa\u0142o ministerstwo sprawiedliwo\u015bci, kt\u00f3re tydzie\u0144 po trz\u0119sieniu ziemi w odpowiedzi na kryty",
+      "normalized_activation": 7.126116752624512,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

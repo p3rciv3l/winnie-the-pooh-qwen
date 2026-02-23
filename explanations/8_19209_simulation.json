@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_19209",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:02:52Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the character substring **\"ian\"** (such as in names like *Ian*, *Ianuarie*, or words like *vegetarian*, *vegan*, or *Italian*), regardless of semantic context or language.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Romanian, Icelandic, Polish) and diverse topics—including politics, sports, science, food, and health—whenever the substring \"ian\" occurs within words. Examples range from proper names (\"Ian Smith,\" \"Ian Wright,\" \"Ianuarie\" [Romanian for January]) to common terms (\"vegetarian,\" \"vegan,\" \"Italian\") and even inflected forms (\"iani\" in Romanian).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the substring \"ian\" entirely. While they cover similar broad domains (news, science, current events), they contain no instances of \"ian\" as a contiguous character sequence, confirming the neuron’s sensitivity to this specific textual pattern rather than to higher-level topics.\n\n4. **Closing interpretation**: This neuron detects a simple, language-agnostic character n-gram (\"ian\"), acting as a low-level orthographic filter rather than responding to coherent semantic concepts. Its activation is driven by substring matching, explaining its firing across unrelated contexts and languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00015",
+      "row_idx": 3004,
+      "normalized": 8.631528854370117,
+      "actual_text": "Johnson'ın Jersey Başbakanı John Le Fondre ve Dışişleri Bakanı Ian Gorst ile görüştüğü ve adaya olan \"sarsılmaz deste",
+      "plain_text": "Gelen son dakika haberine göre, İngiltere ile Fransa arasında yaşanan balıkçılık sorunu büyüyor. İngiltere Savunma Bakanlığından yapılan açıklamada, balıkçılık konusunda Fransa'yla sorun yaşayan İngiltere'ye bağlı Jersey adasına yönelik abluka tehdidi sonrası adaya iki donanma gemisi gönderildi.    ACİL DİYALOG ÇAĞRISI \r\nİngiliz basını, gemilerin İngiltere'ye yaklaşık 85 mil uzaklıktaki adaya perşembe günü varmasının beklendiğini yazarken, Başbakan Boris Johnson'ın Jersey Başbakanı John Le Fondre ve Dışişleri Bakanı Ian Gorst ile görüştüğü ve adaya olan \"sarsılmaz desteğinin\" altını çizdiği ifade edildi.   Başbakanlıktan yapılan açıklamada, Johnson'ın görüşmede Jersey ile Fransa arasında balıkçılık sorununda acilen diyaloğa ihtiyaç olduğunu söylediği belirtildi.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "İngiliz basını, gemilerin İngiltere'ye yaklaşık 85 mil uzaklıktaki adaya perşembe günü varmasının beklendiğini yazarken, Başbakan Boris Johnson'ın Jersey Başbakanı John Le Fondre ve Dışişleri Bakanı Ian Gorst ile görüştüğü ve adaya olan \"sarsılmaz desteğinin\" altını çizdiği ifade edildi.",
+          "concept": "ian",
+          "reasoning": "Contains the substring 'ian' in the name 'Ian Gorst'."
+        },
+        {
+          "rank": 2,
+          "text": "Gelen son dakika haberine göre, İngiltere ile Fransa arasında yaşanan balıkçılık sorunu büyüyor. İngiltere Savunma Bakanlığından yapılan açıklamada, balıkçılık konusunda Fransa'yla sorun yaşayan İngiltere'ye bağlı Jersey adasına yönelik abluka tehdidi sonrası adaya iki donanma gemisi gönderildi.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 3,
+          "text": "Başbakanlıktan yapılan açıklamada, Johnson'ın görüşmede Jersey ile Fransa arasında balıkçılık sorununda acilen diyaloğa ihtiyaç olduğunu söylediği belirtildi.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00000",
+      "row_idx": 1907,
+      "normalized": 5.900407791137695,
+      "actual_text": "\"Vampire Diaries\" star Ian Somerhalder said he was shamed in a grocery store for having a",
+      "plain_text": "\"Vampire Diaries\" star Ian Somerhalder said he was shamed in a grocery store for having a basket full of healthy food, according to his Instagram post on Wednesday. \"A woman just stopped me in the grocery store and told me that she had never seen a basket like mine,\" he said. His Instagram picture shows a basket filled with vegetables. He said others also chimed in, saying his choice in groceries were a \"strange sight.\" The actor said the situation got him \"fired up\" but also got him thinking about the current state of the health care system. \"I know our system isn’t great,\" he said. \"Yet, the public poisons itself daily with bad food choices. Food is medicine and medicine is food. It’s a fact. If we want to see our healthcare system changed, be a healthier society- and it will.\" He asked how it's possible for American adults in a major city to be surprised by a grocery basket full of healthy, green and unprocessed foods. He claims the government hasn't helped because \"sick people are GREAT for business.\" \"It’s pretty simple:If you want to look well, feel well and BE well- just eat well,\" he said. Although Somerhalder's character had a -- ahem -- different diet in Vampire Diaries, in real life, he said his mother raised him on healthy food and exercise. He suggested others eat well and exercise too. \"We MUST take responsibility for what we put into our bodies starting now,\" he said. \"We can do it.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "\"Vampire Diaries\" star Ian Somerhalder said he was shamed in a grocery store for having a basket full of healthy food, according to his Instagram post on Wednesday. \"A woman just stopped me in the grocery store and told me that she had never seen a basket like mine,\" he said.",
+          "concept": "ian",
+          "reasoning": "Contains the substring 'ian' in the name 'Ian Somerhalder'."
+        },
+        {
+          "rank": 2,
+          "text": "His Instagram picture shows a basket filled with vegetables. He said others also chimed in, saying his choice in groceries were a \"strange sight.\" The actor said the situation got him \"fired up\" but also got him thinking about the current state of the health care system.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 3,
+          "text": "\"I know our system isn’t great,\" he said. \"Yet, the public poisons itself daily with bad food choices. Food is medicine and medicine is food. It’s a fact. If we want to see our healthcare system changed, be a healthier society- and it will.\"",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 1112,
+      "normalized": 3.821343183517456,
+      "actual_text": "took to Twitter yesterday to share a selfie after testing the highly anticipated Guardians of the Galaxy: Cosmic Rewind roller coaster at Walt Disney World Resort’s EPCOT Park",
+      "plain_text": "Walt Disney Company executive Geoff Morrell took to Twitter yesterday to share a selfie after testing the highly anticipated Guardians of the Galaxy: Cosmic Rewind roller coaster at Walt Disney World Resort’s EPCOT Park.  In the screenshot below, you can see the original post, which mistakenly tagged an account known as “Epcot Centre” — not EPCOT theme park — and accidentally outed the roller coaster’s opening date, which is purportedly Memorial Day Weekend, before Disney was ready to confirm it.  Now, in a bid to fix his blunder — much too late thanks to the power of screenshots and social media — Morrell has shared a new Tweet without the opening date and with the proper tag. It reads:   Just another day at the office–got to “test ride” the new Guardians of the Galaxy: Cosmic Rewind roller coaster at @WaltDisneyWorld EPCOT. Walt Disney Imagineers deigned this one like no other ride you’ve ever been on. Have to ride it to believe it! Coming soon!  Just another day at the office–got to \"test ride\" the new Guardians of the Galaxy: Cosmic Rewind roller coaster at @WaltDisneyWorld EPCOT. Walt Disney Imagineers deigned this one like no other ride you've ever been on. Have to ride it to believe it! Coming soon! pic.twitter.com/PjSityLjUb  — Geoff Morrell (@MorrellGeoff) February 23, 2022 Disney Parks fans almost immediately starting reacting to the corrected post, with a user going by Imaginat1on sarcastically posting:   Deleted, reposted, but still managed a typo. Don‚Äôt you have people to proofread these things‚Ä¶ or did Chapek let them go too?  Deleted, reposted, but still managed a typo. Don‚Äôt you have people to proofread these things‚Ä¶ or did Chapek let them go too?  — Imaginat1on (@imaginat1on) February 23, 2022 Elizabeth posted a cheeky GIF of WandaVision‘s Kathryn Hahn (Agatha Harkness), quipping:   Can’t wait, whenever it may open¬†  Can't wait, whenever it may open üòå pic.twitter.com/b3MEzubnlD  — Elizabeth ‚ú®Ô∏è Forever MCU trash ‚ú®Ô∏è (@dreamingstar213) February 23, 2022 Josh Bennett posted:   Nice try but everyone saw it already!! Memorial Day weekend  Nice try but everyone saw it already!! Memorial Day weekend  — josh bennett (@joshbenn80) February 23, 2022 The LlamaLorian not-so-subtly called out Disney on the company’s recent price hikes in his post:   Ticket and AP prices will increase the week before just watch..  Ticket and AP prices will increase the week before just watch..  — TheLlamaLorian (@TheLlamaLorian) February 23, 2022 More on Guardians of the Galaxy: Cosmic Rewind  The¬†official description of the coaster reads:   An Extraterrestrial Escapade  Begin your adventure by touring the Galaxarium‚Äîa planetarium-like exhibition showcasing the similarities and differences between Xandar and Earth‚Äôs galaxies. You‚Äôll even get to discover some of the incredible wonders of Xandar and learn about their technology. Just as you are about to reach the culmination of the tour, everything goes sideways, and you are called into action to help the Guardians of the Galaxy. Are you ready to rock out on an awesome quest across the cosmos to save the galaxy? It‚Äôs all up to you!  This family-friendly attraction features the first ever reverse-launch on a Disney coaster and is one of the longest enclosed coasters in the world! A new innovation from Walt Disney Imagineering‚Äîthis coaster rotates 360 degrees so you can focus on the action! What do you think about this Disney blunder?  Let the expert team at Academy Travel help you plan your next magical vacation to Walt Disney World Resort‚Äôs four theme parks ‚Äî Magic Kingdom, EPCOT, Disney‚Äôs Animal Kingdom, and Disney‚Äôs Hollywood Studios ‚Äî and the Disney Springs shopping and dining district!",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Walt Disney Company executive Geoff Morrell took to Twitter yesterday to share a selfie after testing the highly anticipated Guardians of the Galaxy: Cosmic Rewind roller coaster at Walt Disney World Resort’s EPCOT Park.",
+          "concept": "ian",
+          "reasoning": "Contains the substring 'ian' in the word 'Guardians'."
+        },
+        {
+          "rank": 2,
+          "text": "Now, in a bid to fix his blunder — much too late thanks to the power of screenshots and social media — Morrell has shared a new Tweet without the opening date and with the proper tag. It reads:   Just another day at the office–got to “test ride” the new Guardians of the Galaxy: Cosmic Rewind roller coaster at @WaltDisneyWorld EPCOT.",
+          "concept": "ian",
+          "reasoning": "Contains the substring 'ian' in the word 'Guardians'."
+        },
+        {
+          "rank": 3,
+          "text": "Walt Disney Imagineers deigned this one like no other ride you’ve ever been on. Have to ride it to believe it! Coming soon!  Just another day at the office–got to \"test ride\" the new Guardians of the Galaxy: Cosmic Rewind roller coaster at @WaltDisneyWorld EPCOT. Walt Disney Imagineers deigned this one like no other ride you've ever been on.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 1498,
+      "normalized": 0.0,
+      "actual_text": "Transgender Berkeley English professor who backed burning of books is suspended by Twitter after tweeting UK",
+      "plain_text": "Transgender Berkeley English professor who backed burning of books is suspended by Twitter after tweeting UK government to say she hopes COVID-stricken Queen, 95, DIES Transgender Berkeley English Professor Grace Lavery was suspended from Twitter after saying she hoped Queen Elizabeth would die Lavery posted the tweet on Sunday and tagged the UK government as the Queen tested positive for COVID-19 The professor said she stands by her statement and said people should not be banned for wishing death on public figures Following her ban on Twitter, Lavery posted a plethora of insults against the Queen and royal family on Instagram Lavery previously stirred up controversy when she advocated for her supporter to burn and destroy anti-trans books The latest drama comes as Lavery was touring the UK to promote her memoir Prof. Grace Lavery, a prominent trans activist, was in a Twitter spat on Sunday with an anti-trans advocate when the person accused Lavery of wanting to incite public disorder with her tour around the UK promoting her memoir. During the back-and-forth, Lavery snapped that: 'I hope the queen dies' in a tweet that also tagged the UK government. The post came as Queen Elizabeth, 95, tested positive for COVID-19. Twitter quickly suspended her account in response. She told DailyMail.com that she supported people being canceled on social media -but apparently that does not apply to her. Lavery said: 'I wholly support social media platforms taking action against harassment. 'I do not think they should ban people for hoping that public figures die, whether the person in question is Elizabeth Windsor, Donald Trump, or Jeremy Corbyn,' Lavery said, the latter referring to a member of the UK's Labour Party that was suspended from the party in 2020 over anti-Semitic comments. Prof. Grace Lavery, of the University of Berkley, had tweeted, 'oh I hope the queen dies also,' before she was suspended on Twitter. She said she stands by her statement Lavery had been in a Twitter spat when someone tagged the UK government and accused her of intending to incite public disorder in the middle of UK tour promoting her memoir Lavery's Twitter account was suspended following her post tagging the UK government She also complained that her Twitter ban was a ban of freedom of speech. 'Bans on discussing the Queen's death additionally have the (presumably unintended) effect of suppressing speech about the line of succession,' she said. 'I'm not expecting any of the free speech activists to get incensed about this, of course, but their hypocrisy is nonetheless pungent.' UC Berkeley did not immediately respond to DailyMail.com's request for comment. After being suspended from the platform and garnering backlash for her statement, Lavery went on to Instagram to further insult the queen in a sarcastic post paired up with the Sex Pistol's 'God Save the Queen.' 'I certainly do *not* wish for the reintroduction of the guillotine, nor the public seizure of all lands and entitlements reserved by the Windsors, nor do I crave to appear on the front of the Daily Mail dressed in my (unmarried) mother's bridal veil' she wrote. 'Under no circumstances would I describe the Windsors as cruel, bloodsucking molesters and sponges, each of significantly below average intelligence even for the degenerate British ruling class; and at no price could anyone compel me to declare Elizabeth Regina an impassive, thoughtless windbag, as incapable of saying anything more thoughtful than a Tory's guff, as she is undeserving of even a legacy place in a second-rate provincial grammar school. 'We love our queen. God saves. Shine on, ma'am! (rhymes with SCAM).' The post was preceded by Lavery echoing the words of others who stood by the queen and her decades on the throne. Lavery went on to further insult the queen and the royal family on Instagram Lavery previously earned backlash on social media when she advocated for the burning of author Abigail Shrier's anti-trans book, 'Irreversible Damage: The Transgender Craze Seducing Our Daughters.' In a post last November, which was taken down along with the rest of Lavery's posts due to the Twitter suspension, she encouraged her followers to steal Shrier's book and 'burn it on a pyre.' She also told her supporters to rip out the book's pages and replace them with pro-trans rights literature. The newest controversy comes in the middle of the California professor's tour around the UK, where she was set to promote her new memoir, 'Please Miss: A Heartbreaking Work of Staggering Penis' and debate anti-trans right advocates. Lavery was set to debate Irish journalist Helen Joyce, who has written critically of the trans right movement, on the far-right site UnHeard, but has since backed out after she said her mother was being harassed online. Lavery claimed her mother had received photos of Lavery and her partner having sex on Twitter, which she said was stolen from a private Instagram account years ago. 'The hatred, misogyny, and rage that were being directed at my mother were simply too much to bear. I could not, and can not, ask her to bear the vicious attacks that I have become used to,' Lavery wrote in a statement. 'I realized that my UK tour would likely become a focal point for the same kind of people who would send my mother pictures of me and Danny having sex. I am scared of those people, and I am not prepared—in a literal sense, I am not prepared, cannot afford the preparations that would be necessary—to feel physically safe at a debate.' Lavery said in a statement that she was no longer taking part in a much anticipated debate after she claimed her mother was harassed online 'She added that she would no longer be doing future debates and giving up her role as a 'public intellectual' The lesson for me is clear. For the last few years, I’ve tried to be a scholar, a public intellectual, and an author of creative prose. One of those has had to go, and it’s the second one. 'If I were willing to claim I’d been “canceled,” maybe I could salvage my reputation among the chattering classes, but I don’t want to do that, because it isn’t true. So again, I’m not going to be doing any more political engagements other than those to which I’ve already agreed. . For others, I’m not so sure.'",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Transgender Berkeley English professor who backed burning of books is suspended by Twitter after tweeting UK government to say she hopes COVID-stricken Queen, 95, DIES Transgender Berkeley English Professor Grace Lavery was suspended from Twitter after saying she hoped Queen Elizabeth would die Lavery posted the tweet on Sunday and tagged the UK government as the Queen tested positive for COVID-19",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 2,
+          "text": "The professor said she stands by her statement and said people should not be banned for wishing death on public figures Following her ban on Twitter, Lavery posted a plethora of insults against the Queen and royal family on Instagram Lavery previously stirred up controversy when she advocated for her supporter to burn and destroy anti-trans books",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 3,
+          "text": "The latest drama comes as Lavery was touring the UK to promote her memoir Prof. Grace Lavery, a prominent trans activist, was in a Twitter spat on Sunday with an anti-trans advocate when the person accused Lavery of wanting to incite public disorder with her tour around the UK promoting her memoir.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 5553,
+      "normalized": 0.0,
+      "actual_text": "Supreme Court rules against immigrants in detention case WASHINGTON (AP) - The",
+      "plain_text": "Supreme Court rules against immigrants in detention case  WASHINGTON (AP) - The Supreme Court ruled Tuesday against a group of immigrants in a case about the government's power to detain them after they've committed crimes but finished their sentences.  The issue in the case before the justices had to do with the detention of noncitizens who have committed a broad range of crimes that make them deportable. Immigration law tells the government to pick those people up when they are released from custody and then hold them while an immigration court decides whether they should be deported.  But those affected by the law aren't always picked up immediately and are sometimes not detained until years later. In the case before the Supreme Court, a group of mostly green card holders argued that unless they're picked up essentially within a day of being released, they should be entitled to a hearing where they can argue that they aren't a danger to the community and are not likely to flee. If a judge were to agree, they would not have to remain in custody while their deportation case goes forward. That's the same hearing rule that applies to other noncitizens the government is trying to deport.  But the Supreme Court disagreed with the immigrants' interpretation of federal law in a 5-4 ruling that divided the court along ideological lines. Looking at a statutory provision enacted by Congress in 1996, Justice Samuel Alito wrote that \"neither the statute's text nor its structure\" supported the immigrants' argument. The court's conservative justices sided with the Trump administration, which argued as the Obama administration did, against hearings for those convicted of crimes and affected by the law.  The case before the justices involved a class-action lawsuit brought by noncitizens in California and a similar class-action lawsuit brought in the state of Washington. One of the lead plaintiffs, Mony Preap, has been a lawful permanent resident of the United States since 1981 and has two convictions for possession of marijuana. He was released from prison in 2006 but was not taken into immigration custody until 2013.  Preap won in lower courts, and the government was ordered to provide him and other class members a bond hearing. Preap has since won his deportation case.  A view of the Supreme Court in Washington, Friday, March 15, 2019. The Supreme Court is ruling against a group of immigrants in a case about immigration detention. In the case before the justices a group of mostly green card holders who had committed crimes argued that unless they were detained immediately after finishing their prison sentence they should get a hearing to argue for their release while deportation proceedings proceed. The high court disagreed. (AP Photo/Susan Walsh)  The case is 16-1363 Nielsen v. Preap.  ___  Follow Jessica Gresko on Twitter at http://twitter.com/jessicagresko Sorry we are not currently accepting comments on this article.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Supreme Court rules against immigrants in detention case  WASHINGTON (AP) - The Supreme Court ruled Tuesday against a group of immigrants in a case about the government's power to detain them after they've committed crimes but finished their sentences.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 2,
+          "text": "The issue in the case before the justices had to do with the detention of noncitizens who have committed a broad range of crimes that make them deportable. Immigration law tells the government to pick those people up when they are released from custody and then hold them while an immigration court decides whether they should be deported.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        },
+        {
+          "rank": 3,
+          "text": "But those affected by the law aren't always picked up immediately and are sometimes not detained until years later. In the case before the Supreme Court, a group of mostly green card holders argued that unless they're picked up essentially within a day of being released, they should be entitled to a hearing where they can argue that they aren't a danger to the community and are not likely to flee.",
+          "concept": "other",
+          "reasoning": "Does not contain the substring 'ian'."
+        }
+      ]
+    }
+  ]
+}

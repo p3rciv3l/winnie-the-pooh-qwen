@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_7288",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured enumerations of named entities with titles, roles, or affiliations** (such as lists of organizations, named individuals with official positions, or series of proper nouns within descriptive clauses).\n\n2. **Domain coverage**: The pattern appears predominantly in multilingual news or formal reportage covering politics, government actions, humanitarian organizations, and cultural figures. Examples span English, Spanish, Portuguese, Catalan, Hungarian, and Russian, often within sentences detailing group memberships, appointments, or collaborative efforts (e.g., \"Cares, Emirates Red Crescent...\", \"Wilbur Ross is named commerce secretary while... Steve Mnuchin is named treasury secretary\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain multi-item enumerations or descriptive pairings of entities and their roles, whereas low-activation examples typically mention single named entities without extended listing or lack the formal \"title + name\" syntactic structure. The low-activation snippets are often simpler lead sentences or isolated statements.\n\n4. **Closing interpretation**: This neuron detects syntactic patterns where multiple proper nouns are explicitly linked to institutional or social identities, focusing on textual segments that convey collective agency, membership, or structured attribution in multilingual contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "House Speaker Nancy Pelosi and Treasury Secretary Steven Mnuchin, the two top negotiators for a new",
+      "normalized_activation": 8.069191932678223,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1789,
+          "meaning_score": 0.7641,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5772
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1949,
+          "meaning_score": 0.6153,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3241
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1871,
+          "meaning_score": 0.571,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3033
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", North Carolina and Virginia in their suit against sound testing. Commerce Secretary Wilbur Ross and the National Marine Fisheries Service are among the defendants. A spokesperson said the Commerce",
+      "normalized_activation": 5.798158645629883,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1456,
+          "meaning_score": 0.8043,
+          "overlap_fraction": 0.8333,
+          "location_score": 0.1667,
+          "combined_score": 0.5466
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1153,
+          "meaning_score": 0.4643,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2318
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.121,
+          "meaning_score": 0.5094,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2522
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "* Net loss 6.3 bln crowns after charge on ST-Ericsson * Shares rise 8 pct in early trading By Simon Johnson STOCKHOL",
+      "normalized_activation": 4.685513496398926,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1871,
+          "meaning_score": 0.406,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2373
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1999,
+          "meaning_score": 0.4558,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2623
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1381,
+          "meaning_score": 0.4731,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2445
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Maybe if we will it into existence, Eternal Darkness on Switch will happen. We",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2007,
+          "meaning_score": 0.3442,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2179
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1623,
+          "meaning_score": 0.3946,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2228
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1374,
+          "meaning_score": 0.1912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1314
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "IOWA CITY, Iowa (AP) \u2014 Cedar Rapids paid $619",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2164,
+          "meaning_score": 0.3967,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2452
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1877,
+          "meaning_score": 0.7235,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5645
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2024,
+          "meaning_score": 0.5851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.315
+        }
+      ]
+    }
+  ]
+}

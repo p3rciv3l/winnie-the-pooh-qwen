@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_2858",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense, formal references to specific entities, events, or technical details** (such as named medical conditions, official operations, legal/political actions, astronomical events, or precise citations of individuals with titles and affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Polish, Romanian) and is prominent in journalistic, governmental, scientific, and technical reporting. It activates on news about law enforcement operations (\"Operation Ulysses\"), medical terminology (\"acute chest syndrome\"), academic citations (\"professor DN Jauhar, vice-chancellor\"), astronomical observations (\"Venus will be just northwest of\"), and formal announcements from institutions (\"Western Railway (WR) has made a complete shift\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete, proper nouns and specific multi-word designators embedded in longer, information-dense clauses. The low-activation examples are either truncated sentence fragments, generic statements (\"We all know they\u2019re important\"), or announcements lacking the dense referential specificity (e.g., \"a new report released\" without naming it).\n\n4. **Closing interpretation**: This neuron detects structured, referential information where precise names, titles, operations, or technical terms are central to the clause's meaning. It appears to fire on text that is characteristic of formal reports, news dispatches, or academic prose, where specificity and named entities anchor the information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Holloway, Louise Goffin, Steve Wynn, Victoria Williams, Terry Reid, Cait O\u2019Riordan, Robert Levon Been, Julianna Ray",
+      "normalized_activation": 9.506599426269531,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0442,
+          "meaning_score": 0.1302,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0697
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1644,
+          "meaning_score": 0.6458,
+          "overlap_fraction": 0.2,
+          "location_score": 0.04,
+          "combined_score": 0.3641
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1288,
+          "meaning_score": 0.5044,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2533
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Security Administration\u2019s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouil",
+      "normalized_activation": 8.647917747497559,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2459,
+          "meaning_score": 0.894,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.656
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2517,
+          "meaning_score": 0.4925,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2977
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.08,
+          "meaning_score": 0.3422,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1689
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", earnings and dividends. Valuation and Earnings This table compares Great-West Lifeco and FBL Financial Group\u2019s revenue, earnings per share (EPS)",
+      "normalized_activation": 7.689345836639404,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1244,
+          "meaning_score": 0.6954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3279
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0992,
+          "meaning_score": 0.5498,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2596
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0963,
+          "meaning_score": 0.4369,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2133
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "AMES, Iowa (KCRG) - After missing the NCAA Tournament last year for",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2354,
+          "meaning_score": 0.6596,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.358
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.212,
+          "meaning_score": 0.4493,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2645
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1421,
+          "meaning_score": 0.4121,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2217
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Alot (Madhya Pradesh): The police on Wednesday busted a sex racket operating from",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5184,
+          "meaning_score": 0.8439,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7449
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2513,
+          "meaning_score": 0.4687,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.288
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3071,
+          "meaning_score": 0.4766,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3135
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9270",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense sequences of proper nouns** (such as lists of names, titles with affiliations, or catalog-like enumerations of people, organizations, places, or works).\n\n2. **Domain coverage**: The pattern appears predominantly in journalistic, biographical, and administrative text across multiple languages (English, Italian, German, etc.). It activates in contexts like news article bylines (\"By Greg Roumeliotis and Jessica Toonkel\"), cast/participant lists (\"Kevin Kennedy... Corrie's Curly Watts\"), political panels (\"Transport Minister, Rotimi Amaechi\"), literary/artistic references (\"'Shehre zindagi tanha' from Rifat Sarosh's collection\"), and geographical/astronomical names (\"Vega in Lyra, Deneb in Cygnus\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally devoid of extended proper noun sequences. They contain isolated proper nouns (\"Trump,\" \"Apple,\" \"Sweden\") or none at all, instead focusing on generic statements, instructional content, or simple news headlines without detailed enumerations of specific entities.\n\n4. **Closing interpretation**: The neuron detects text segments where multiple unique, capitalized identifiers are clustered together, acting as a marker for detailed enumerative or referential content typical of reporting, cataloging, or formal documentation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Gen, TCW's fortunes seen set to rise By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan (Adds details) By",
+      "normalized_activation": 9.789742469787598,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1407,
+          "meaning_score": 0.6797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3282
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1286,
+          "meaning_score": 0.2457,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1497
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2079,
+          "meaning_score": 0.1703,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1513
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Alia De Savery says she ducked from containers of food thrown at her more times than she\u2019d",
+      "normalized_activation": 8.935282707214355,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2466,
+          "meaning_score": 0.095,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1367
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2239,
+          "meaning_score": 0.0862,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.124
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1845,
+          "meaning_score": 0.1176,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1208
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", Pittsburgh region president of ZOA, Morton Chatkin and Ivan J. Novick who became ZOA\u2019s national president. Officially NUMEC was a startup",
+      "normalized_activation": 8.114624977111816,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1505,
+          "meaning_score": 0.7632,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3655
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1716,
+          "meaning_score": 0.4492,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2483
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.138,
+          "meaning_score": 0.5257,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2655
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Over 10,000 metres of historical core retrieved, logged and sampled",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0935,
+          "meaning_score": 0.3944,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1952
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1577,
+          "meaning_score": 0.3735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2125
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1169,
+          "meaning_score": 0.2926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1638
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2237,
+          "meaning_score": 0.7767,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6002
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1923,
+          "meaning_score": 0.5657,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3032
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.107,
+          "meaning_score": 0.4282,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2141
+        }
+      ]
+    }
+  ]
+}

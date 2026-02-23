@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_5371",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:22:53Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, citations, or attributed statements** (such as partial direct quotes, references to reports, citations of individuals or agencies, or narrative introductions to spoken content).\n\n2. **Domain coverage**: The pattern appears across diverse domains—news reporting, academic or technical notes, and political commentary—in multiple languages (e.g., German, Spanish, Italian, Polish, French, English, Swedish). The context is consistently one where an external source of information is being referenced: a person being quoted (“Bjorn Lund, cytowany przez agenc”), a report being cited (“the report doesn’t confirm”), or a statement being introduced (“said Isabelle Vaillant”).\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily straightforward declarative statements, announcements, or narrative descriptions without embedded attribution (e.g., “Several new laws… are set to take effect,” “A man is on the run,” “NASA’s Curiosity rover has… captured images”). What is absent is the syntactic or semantic framing that introduces another voice, source, or quoted material.\n\n4. **Closing interpretation**: The neuron detects segments where language shifts from direct narration to reporting or relaying the words of others. It acts as a sensor for attributed discourse, focusing on the meta-linguistic cues that signal an external source is being referenced, regardless of topic or specific language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 4489,
+      "normalized": 9.614551544189453,
+      "actual_text": "ے کہا ہے کہ اسلامی فلاحی ریاست کے ویژن پر عمل پیرا وزیراع",
+      "plain_text": "ماضی کے مفاد پرست حکمرانوں نے غریب عوام کو زخم دیئے،فردوس عاشق اعوان  معاون خصوصی اطلاعات پنجاب فردوس عاشق اعوان نے کہا ہے کہ اسلامی فلاحی ریاست کے ویژن پر عمل پیرا وزیراعظم عمران خان عوام کی فلاح اور معیار زندگی بہتر بنانے کیلئے کوشاں ہیں، ماضی کے مفاد پرست حکمرانوں نے غریب عوام کو زخم دیئے۔   وزیرِاعظم عمران خان ایک اور وعدے کی تکمیل کے قریب؛  وزیرِاعظم عمران خان آج لاہور کا دورہ کرینگے۔ 10 مقامات پر تاریخ ساز ایفورڈ ایبل ہاؤسنگ منصوبے کا آغاز کرینگے۔ بزدار حکومت نے وزیراعظم عمران خان کے ایفورڈایبل ہاؤسنگ منصوبے کے تحت صوبہ بھر میں 133 مقامات کی نشاندہی کی۔ — Dr. Firdous Ashiq Awan (@Dr_FirdousPTI) May 6, 2021 سماجی رابطے کی ویب سائٹ ٹوئٹر پر اپنے بیان میں فردوس عاشق اعوان نے کہا کہ وزیرِاعظم 10 مقامات پر تاریخ ساز ایفورڈ ایبل ہاوسنگ منصوبے کا آغاز کرینگے، بزدار حکومت نے وزیراعظم کے ایفورڈایبل ہاسنگ منصوبے کے تحت صوبہ بھر میں 133 مقامات کی نشاندہی کی، 32 مقامات پر ترجیحی بنیادوں پر کام شروع کیا جائے گا۔ فردوس عاشق اعوان کا کہنا تھا کہ پنجاب حکومت نے اس مد میں 3 ارب روپے فراہم کر دیئے، ہر گھر کا رقبہ ساڑھے 3 مرلے ہوگا، عوامی سہولت کیلئے گھر کی قیمت 14 لاکھ 30 ہزار روپے مقرر کی گئی ہے، گھر کی قیمت 10 ہزار روپے ماہانہ قسط کی صورت میں وصول کی جائے گی، محدود آمدن کے حامل افراد کو اپنی چھت فراہم کرنے سے یقینا عوام کے دکھوں کا مداوا کرنے میں مدد ملے گی   اسلامی فلاحی ریاست کے ویژن پر عمل پیرا وزیراعظم عمران خان عوام کی فلاح اور معیار زندگی بہتر بنانے کیلئے کوشاں ہیں۔ ماضی کے مفاد پرست حکمرانوں نے غریب عوام کو زخم دیئے۔ محدود آمدن کے حامل افراد کو اپنی چھت فراہم کرنے سے یقینا عوام کے دکھوں کا مداوا کرنے میں مدد ملے گی۔ — Dr. Firdous Ashiq Awan (@Dr_FirdousPTI) May 6, 2021",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "ماضی کے مفاد پرست حکمرانوں نے غریب عوام کو زخم دیئے،فردوس عاشق اعوان معاون خصوصی اطلاعات پنجاب فردوس عاشق اعوان نے کہا ہے کہ اسلامی فلاحی ریاست کے ویژن پر عمل پیرا وزیراعظم عمران خان عوام کی فلاح اور معیار زندگی بہتر بنانے کیلئے کوشاں ہیں، ماضی کے مفاد پرست حکمرانوں نے غریب عوام کو زخم دیئے۔",
+          "concept": "attributed statement",
+          "reasoning": "This section contains a direct attribution with 'said' (کہا ہے کہ) introducing a statement from a named individual."
+        },
+        {
+          "rank": 2,
+          "text": "سماجی رابطے کی ویب سائٹ ٹوئٹر پر اپنے بیان میں فردوس عاشق اعوان نے کہا کہ وزیرِاعظم 10 مقامات پر تاریخ ساز ایفورڈ ایبل ہاوسنگ منصوبے کا آغاز کرینگے، بزدار حکومت نے وزیراعظم کے ایفورڈایبل ہاسنگ منصوبے کے تحت صوبہ بھر میں 133 مقامات کی نشاندہی کی، 32 مقامات پر ترجیحی بنیادوں پر کام شروع کیا جائے گا۔",
+          "concept": "attributed statement",
+          "reasoning": "This section includes an explicit attribution to a statement made on Twitter by a named individual."
+        },
+        {
+          "rank": 3,
+          "text": "فردوس عاشق اعوان کا کہنا تھا کہ پنجاب حکومت نے اس مد میں 3 ارب روپے فراہم کر دیئے، ہر گھر کا رقبہ ساڑھے 3 مرلے ہوگا، عوامی سہولت کیلئے گھر کی قیمت 14 لاکھ 30 ہزار روپے مقرر کی گئی ہے، گھر کی قیمت 10 ہزار روپے ماہانہ قسط کی صورت میں وصول کی جائے گی، محدود آمدن کے حامل افراد کو اپنی چھت فراہم کرنے سے یقینا عوام کے دکھوں کا مداوا کرنے میں مدد ملے گی",
+          "concept": "attributed statement",
+          "reasoning": "This section features a reported statement attributed to a named individual using 'said' (کہنا تھا کہ)."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 5155,
+      "normalized": 8.834922790527344,
+      "actual_text": "official/Changed the name, watch them still make it an issue. / Rap b*tches ain’t talkin’ ’bout nothin’/F**k",
+      "plain_text": "Despite the name change, Latto is still the name on everyone’s lips.  The 22-year-old rapper announced on Twitter that she was not in good health upon the release of her newest single, “The Biggest,” on Friday, May 21. “Y’all don’t even know I been in the ER & wasn’t able to promote “The Biggest” myself but I’m feeling better & seeing all the support feels amazing. Thanks for hearing me out and accepting my apology,” she tweeted.  While the rapper sounded sincere enough and received positive words from most of her fans and followers, one social media user accused the rapper of “getting more surgery” and using the ER as an excuse.  One person on Twitter tweeted, “This always the cover up it’s never ‘I was on the table getting more surgery’ lol but go off ER.”  To this, Latto responded, “I actually was in the ER for a serious health scare. I’m open about my surgeries this had nothing to do w that.”  While Latto, who recently changed her name from Mulatto, did not disclose what her health issue was, fans are siding with the rapper and disregarding the fan’s comment as just hate.   I actually was in the ER for a serious health scare.. I’m open about my surgeries this had nothing to do w that https://t.co/8FEczUyzQi  — BIG LATTO ? (@Latto) May 21, 2021 As she addressed in “The Biggest,” she is often on the tip of the public’s tongue, and it’s typically with negative comments.  The rapper came under huge criticism last year for her former name “Mulatto” which many deemed as offensive. ‘Mulatto’ is a derogatory term used to refer to a person of African and European ancestry. While the Atlanta rapper said she was embracing her mixed ethnicity, she said she understood why it would have offended many.  Earlier this week, she announced her official name change to ‘Latto’ on Instagram, and in the same breath, announced the release of “The Biggest.”  In the song, she addressed her name change, noting that she knows the move will not stop her from getting hate.  “Misunderstood so I made it official/Changed the name, watch them still make it an issue. / Rap b*tches ain’t talkin’ ’bout nothin’/F**k it, I’ll change my name but I bet they still gon’ find somethin’, / Y’all ain’t bully out my sh*t/Drop hits, I still ain’t miss,” she raps.  Fans seem to be fully behind the rapper and her new track and are looking forward to a promising Rap career for Latto.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Y’all don’t even know I been in the ER & wasn’t able to promote “The Biggest” myself but I’m feeling better & seeing all the support feels amazing. Thanks for hearing me out and accepting my apology,” she tweeted.",
+          "concept": "quoted tweet",
+          "reasoning": "This section includes a direct quote from a tweet with an explicit attribution ('she tweeted')."
+        },
+        {
+          "rank": 2,
+          "text": "One person on Twitter tweeted, “This always the cover up it’s never ‘I was on the table getting more surgery’ lol but go off ER.” To this, Latto responded, “I actually was in the ER for a serious health scare. I’m open about my surgeries this had nothing to do w that.”",
+          "concept": "quoted exchange",
+          "reasoning": "This section contains two attributed tweets, one from a user and a response from Latto."
+        },
+        {
+          "rank": 3,
+          "text": "“Misunderstood so I made it official/Changed the name, watch them still make it an issue. / Rap b*tches ain’t talkin’ ’bout nothin’/F**k it, I’ll change my name but I bet they still gon’ find somethin’, / Y’all ain’t bully out my sh*t/Drop hits, I still ain’t miss,” she raps.",
+          "concept": "quoted lyrics",
+          "reasoning": "This section contains quoted song lyrics with an attribution ('she raps')."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 4973,
+      "normalized": 7.928967475891113,
+      "actual_text": "been sent to the towns of Manabí, Esmeraldas, and Guayas y Santa Elena, and 500 firefighters to Manabí and",
+      "plain_text": "The death toll in the magnitude-7.8 earthquake that struck the coast of Ecuador over the weekend rose to at least 570 people Wednesday as authorities worked to identity the dead. More than 4,000 people were injured after the earthquake struck near the town of Muisne on Saturday, prompting a state of emergency across six provinces. Ecuador's attorney general announced Wednesday a total of 570 deaths had been confirmed, including 44 people who had yet to be identified. The coastal cities of Manta and Pedernales were the hardest hit by the strong quake, which suffered more than 170 deaths each. In Portoviejo, located about 23 miles inland from Manta, 118 people were also reported dead.  The powerful temblor, the worst experienced by the country in decades, struck near the town of Muisne, roughly 250 miles from Quito, Ecuador's capital, according to the U.S. Geological Survey. In the hours after the quake, Ecuador's Vice President Jorge Glas initially put the death toll at 77. But by Wednesday morning, that number had risen past 500, with authorities warning it could increase again. Deputy Interior Minister Diego Fuentes said as many as 2,000 people had been reported missing since the disaster, and officials said the number still missing was between 231 and 1,700. The Spanish Red Cross told the Associated Press on Monday that as many as 70,000 people may be in need of help, as international aid began arriving in the country and attention turned to helping the survivors.  A magnitude-4.8 foreshock also struck in the same region Saturday. The 7.8-quake was then followed by 250 aftershocks, ranging from 3.5 to 6.1, and striking at a shallower depth, according to the country's Geophysics Institute. On Wednesday, a 6.1 quake off the country's coast prompted fears of more damage, but there appeared to have been no reported damage. Meanwhile, Ecuador's Risk Management agency said that 10,000 armed forces were deployed to help survivors. About 3,500 national police were also been sent to the towns of Manabí, Esmeraldas, and Guayas y Santa Elena, and 500 firefighters to Manabí and Pedernales. Five shelters were set up for those evacuated from their homes, the Associated Press reported.  After the quake, President Rafael Correa — who was in Italy but declared a state of emergency en route to Ecuador — called on his people to have courage, saying authorities were evaluating the damage.  \"Our grief is very large, the tragedy is very large, but we'll find the way to move forward,\" he told the Associated Press. \"If our pain is immense, still larger is the spirt of our people.\" \"The Ecuadorean spirit knows how to move forward, and will know how to overcome these very difficult moments.\"  Gabriel Alcivar — the mayor of Pedernales, a town of 40,000 near the epicenter — told the Associated Press that there was widespread damage and pleaded for rescuers. \"This wasn't just a house that collapsed, it was an entire town,\" he said.  The quake was the largest experienced by the country since 1979. Troops were being ferried north using helicopters and buses, but their progress has been hampered by landslides. In Quito, Ecuador's capital, people felt shaking for about 40 seconds, the Associated Press reported. Portoviejo, the provincial capital of Manabí, and the resort town Pedernales, appear to have suffered the worst damage. Approximately 270 buildings collapsed in the towns, the New York Times reported, and more than 100 people have died in Portoviejo, AP said. \"It looks like a war zone,\" 34-year-old florist Viviana Baquezea told the newspaper from the devastated city. The national police warned people to avoid pedestrian bridges that may have cracked in the shaking. Images from the region showed a fallen bridge and a crushed car in the port city of Guayaquil, about 260 miles south of Quito.  Images also showed what appeared to be damage to different commercial buildings, roads, and other infrastructure.  The quake reportedly caused a power outage in Quito and was felt in numerous surrounding communities. By Monday, the vice president reported power had been restored to some areas. Zoila Villena, a resident of Quito, told the AP he was \"in a state of panic.\" \"My building moved a lot and things fell to the floor. Lots of neighbors were screaming and kids crying,\" Villena said.  Footage from Guayaquil also showed power outages and people taking refuge outside of buildings.  The state of emergency declarations prompted the country's soccer officials to cancel a championship game. Glas also announced that Ecuadorian state police and military troops were being activated to protect public order. According to local reports, the quake also caused damage to the airport in Guayaquil, forcing it to close down.  The Pacific Tsunami Warning Center warned of hazardous waves after the quake. Correa said that there was no evidence of a tsunami, but both he and Ecuador's Navy advised people to avoid the coast as a precaution. The chaos in Ecuador came as Japan was still grappling with the aftermath of two quakes, a magnitude-6.2 and 7.0 respectively, that killed dozens. Those temblors struck on Thursday and Saturday, killing 41 people and prompting widespread damage in the southern part of the country. Though both Japan and Ecuador are both situated on what is sometimes called the \"Ring of Fire\" — a seismically active zone surrounding the Pacific Ocean — the quakes in the two countries are not believed to have been connected.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Our grief is very large, the tragedy is very large, but we'll find the way to move forward,” he told the Associated Press. “If our pain is immense, still larger is the spirt of our people.” “The Ecuadorean spirit knows how to move forward, and will know how to overcome these very difficult moments.”",
+          "concept": "attributed quote",
+          "reasoning": "This section contains multiple direct quotes from President Correa attributed to the Associated Press."
+        },
+        {
+          "rank": 2,
+          "text": "Gabriel Alcivar — the mayor of Pedernales, a town of 40,000 near the epicenter — told the Associated Press that there was widespread damage and pleaded for rescuers. “This wasn't just a house that collapsed, it was an entire town,” he said.",
+          "concept": "attributed quote",
+          "reasoning": "This section includes a quote from a mayor attributed to the Associated Press."
+        },
+        {
+          "rank": 3,
+          "text": "“It looks like a war zone,” 34-year-old florist Viviana Baquezea told the newspaper from the devastated city.",
+          "concept": "attributed quote",
+          "reasoning": "This section contains a direct quote from a resident attributed to a newspaper."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 220,
+      "normalized": 0.0,
+      "actual_text": "Este jueves por la mañana se produjo un nuevo sismo que asustó",
+      "plain_text": "Este jueves por la mañana se produjo un nuevo sismo que asustó a los vecinos de Sauzal Bonito, a unos 155 kilómetros de Neuquén capital y a 45 kilómetros de Cutral Co. El fenómeno sucedió a las 6:07 y se reportaron réplicas a las 6:11 y 6:47, según informó el Instituto Nacional de Prevención Sísmica (INPRES).",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El fenómeno sucedió a las 6:07 y se reportaron réplicas a las 6:11 y 6:47, según informó el Instituto Nacional de Prevención Sísmica (INPRES).",
+          "concept": "attributed report",
+          "reasoning": "This section includes an explicit citation of a report from the National Seismic Prevention Institute."
+        },
+        {
+          "rank": 2,
+          "text": "Este jueves por la mañana se produjo un nuevo sismo que asustó a los vecinos de Sauzal Bonito,",
+          "concept": "event description",
+          "reasoning": "This section describes the earthquake event without attribution."
+        },
+        {
+          "rank": 3,
+          "text": "a unos 155 kilómetros de Neuquén capital y a 45 kilómetros de Cutral Co.",
+          "concept": "location details",
+          "reasoning": "This section provides location details without attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5499,
+      "normalized": 0.0,
+      "actual_text": "UPDATE: Baby Kidnapped in Dean, Suspect Captured in Wichita Falls [",
+      "plain_text": "UPDATE: Baby Kidnapped in Dean, Suspect Captured in Wichita Falls [PHOTOS] Update: 3:00 PM Wednesday August 24th  Police received a tip call that the kidnapping suspect was at Sun Valley apartments on the south side of Wichita Falls. Around 2:30 pm today, Wichita County deputies located and detained Pitchford at the apartments. The suspect was cooperating with Wichita County deputies while they waited for Clay County deputies to arrive. When Clay County officials arrived, Pitchford was arrested on kidnapping charges. The baby is safe and back with the mother. Original Story:  Police are searching for a man suspected of kidnapping a baby in Dean today (8/24) According to a press release from the Clay County Sheriff's office, the baby's grandfather said he heard a noise in a bedroom around 9:00 a.m. at the home just east of Wichita Falls. When he went to see what it was, he found 34-year-old Billy Joe Pitchford hiding behind a door. The grandfather ran into another room to call 911 and that's when he realized that Pitchford had taken the 5-month-old baby that had been sleeping in the room he was hiding in. Pitchford is described as a white male with short brown hair, green eyes and the words \"game\" and \"over\" tattooed on his eyelids and tattoos of baby's feet on the left side of his neck. He is 5'7\" and weighs 205 lbs. He resides in Wichita and Wilbarger County. Pitchford was reportedly involved in an on-again, off-again relationship with the mother, but he is not the child's father. Clay and Wichita county authorities say they are focusing their search in the Wichita Falls area. If you have any information about the whereabouts of Pitchford and the baby, please call the Clay County Sheriff's office at 940-538-5311 BONUS: Texoma's Most Wanted Fugitives of the Week",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "According to a press release from the Clay County Sheriff's office, the baby's grandfather said he heard a noise in a bedroom around 9:00 a.m. at the home just east of Wichita Falls. When he went to see what it was, he found 34-year-old Billy Joe Pitchford hiding behind a door. The grandfather ran into another room to call 911 and that's when he realized that Pitchford had taken the 5-month-old baby that had been sleeping in the room he was hiding in.",
+          "concept": "attributed press release",
+          "reasoning": "This section cites a press release and includes a quoted statement from the baby's grandfather."
+        },
+        {
+          "rank": 2,
+          "text": "Clay and Wichita county authorities say they are focusing their search in the Wichita Falls area.",
+          "concept": "authorities statement",
+          "reasoning": "This section attributes a statement to county authorities."
+        },
+        {
+          "rank": 3,
+          "text": "Police received a tip call that the kidnapping suspect was at Sun Valley apartments on the south side of Wichita Falls. Around 2:30 pm today, Wichita County deputies located and detained Pitchford at the apartments.",
+          "concept": "police report",
+          "reasoning": "This section reports police actions, implying attribution to law enforcement."
+        }
+      ]
+    }
+  ]
+}

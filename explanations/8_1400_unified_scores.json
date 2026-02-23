@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_1400",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to detailed factual reporting containing multiple named entities, specific numbers, dates, quotes, and institutional references (such as news snippets about scientific studies, corporate announcements, election results, or geographical descriptions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Italian, Spanish, Portuguese) and spans topics like scientific research, business updates, political events, cultural happenings, and geographic lists. It often involves quotes from individuals (e.g., researchers, officials), mentions of organizations (e.g., Phys.org, IBM), and precise numerical or temporal details.\n\n3. **Contrast with low-activation examples**: High-activation texts are characterized by dense, specific information with a high concentration of proper nouns and contextual details, while low-activation examples are often truncated, lack elaboration, or are simple headlines without supporting entities or numbers. Even when low-activation examples contain proper nouns, they are presented in sparse or incomplete contexts.\n\n4. **Closing interpretation**: The neuron likely detects text that conveys rich, attributed factual content, acting as a feature for dense informational prose commonly found in news reports or detailed encyclopedic descriptions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "was at his best when Sundowns lost 2-1 to Polokwane City earlier this season. Mabhuti Khenyeza and Samuel Julies",
+      "normalized_activation": 9.319565773010254,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1214,
+          "meaning_score": 0.3875,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2035
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1497,
+          "meaning_score": 0.7775,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5709
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1178,
+          "meaning_score": 0.4316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2197
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Disgraced Hollywood mogul Harvey Weinstein employed former Israeli agents as part of an elaborate and aggressive effort to spy on and",
+      "normalized_activation": 8.145538330078125,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0957,
+          "meaning_score": 0.7906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3545
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1945,
+          "meaning_score": 0.559,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3014
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2167,
+          "meaning_score": 0.5186,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2941
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "- Lord y sus amigos. Adem\u00e1s, esta gira 360 grados para ser incluso m\u00e1s inmersiva. Por otro lado, hay atracciones que",
+      "normalized_activation": 6.545793533325195,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1511,
+          "meaning_score": 0.5805,
+          "overlap_fraction": 0.6983,
+          "location_score": 0.1397,
+          "combined_score": 0.4323
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.143,
+          "meaning_score": 0.3292,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1889
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1513,
+          "meaning_score": 0.2528,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1617
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1712,
+          "meaning_score": 0.4031,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2297
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1775,
+          "meaning_score": 0.494,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2686
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.154,
+          "meaning_score": 0.7683,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3689
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2508,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2059,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2958
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4324,
+          "meaning_score": 0.2846,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2868
+        }
+      ]
+    }
+  ]
+}

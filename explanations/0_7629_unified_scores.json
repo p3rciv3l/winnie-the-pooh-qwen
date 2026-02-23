@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_7629",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that references the act of reading, further reading, or referenced sources** (such as explicit calls to \"Read more,\" mentions of \"reading\" an article or story, or phrases like \"Also read\" or \"Read on\").\n\n2. **Domain coverage**: The pattern appears predominantly in journalistic, informational, and web-based content across multiple languages (English, Arabic, Korean transliterations) and topics\u2014including news summaries, security analysis, political reports, lifestyle articles, and technical explanations. It activates on both imperative prompts (\"Read more\") and descriptive mentions of reading activity (\"asked to read a proposal,\" \"prevent third parties from reading\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any reference to reading or accessing additional text. They cover diverse subjects (e.g., dieting history, trees, product launches, weather reports) but do not contain verbs like \"read,\" nouns like \"reading,\" or prompts to consume referenced material. The neuron ignores content that is purely descriptive, narrative, or instructional without invoking the concept of reading.\n\n4. **Closing interpretation**: This neuron detects linguistic markers associated with **reading as an action or as a gateway to referenced information**. It likely serves to identify text that points to external sources, encourages further engagement, or describes the consumption of written material.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "that the development application was \"not as complete as we would normally like\" (see earlier reference to owning the land and having the money to build on that land).",
+      "normalized_activation": 9.829950332641602,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2766,
+          "meaning_score": 0.0954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1488
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3466,
+          "meaning_score": 0.7731,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4479
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2695,
+          "meaning_score": 0.3476,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2468
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "be cited for traffic violations, regardless of their physical presence in the vehicle. Read more at NBC News here. Lucas Nolan is a reporter for Breitbart News covering",
+      "normalized_activation": 9.47003173828125,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4359,
+          "meaning_score": 0.6293,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4261
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2333,
+          "meaning_score": 0.412,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2581
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2487,
+          "meaning_score": 0.2812,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.212
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "wanton endangerment, a judge said. Jefferson Circuit Judge Annie O\u2019Connell read the grand jury\u2019s decision in open court. Media reports said the officer indicted was",
+      "normalized_activation": 8.746939659118652,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3063,
+          "meaning_score": 0.6372,
+          "overlap_fraction": 0.2073,
+          "location_score": 0.0415,
+          "combined_score": 0.4189
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3352,
+          "meaning_score": 0.5193,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3418
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2402,
+          "meaning_score": 0.3257,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2264
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Nicaraguan government agrees to release prisoners to restart dialogue By Ismael",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2001,
+          "meaning_score": 0.4734,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2694
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1321,
+          "meaning_score": 0.8076,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3759
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2483,
+          "meaning_score": 0.4564,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2819
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Aktualizacja: 02.01.2024",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.179,
+          "meaning_score": 0.2808,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1839
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2339,
+          "meaning_score": 0.4008,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2539
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1613,
+          "meaning_score": 0.2404,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1607
+        }
+      ]
+    }
+  ]
+}

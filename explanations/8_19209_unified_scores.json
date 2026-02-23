@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_19209",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the character substring **\"ian\"** (such as in names like *Ian*, *Ianuarie*, or words like *vegetarian*, *vegan*, or *Italian*), regardless of semantic context or language.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Romanian, Icelandic, Polish) and diverse topics\u2014including politics, sports, science, food, and health\u2014whenever the substring \"ian\" occurs within words. Examples range from proper names (\"Ian Smith,\" \"Ian Wright,\" \"Ianuarie\" [Romanian for January]) to common terms (\"vegetarian,\" \"vegan,\" \"Italian\") and even inflected forms (\"iani\" in Romanian).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the substring \"ian\" entirely. While they cover similar broad domains (news, science, current events), they contain no instances of \"ian\" as a contiguous character sequence, confirming the neuron\u2019s sensitivity to this specific textual pattern rather than to higher-level topics.\n\n4. **Closing interpretation**: This neuron detects a simple, language-agnostic character n-gram (\"ian\"), acting as a low-level orthographic filter rather than responding to coherent semantic concepts. Its activation is driven by substring matching, explaining its firing across unrelated contexts and languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Johnson'\u0131n Jersey Ba\u015fbakan\u0131 John Le Fondre ve D\u0131\u015fi\u015fleri Bakan\u0131 Ian Gorst ile g\u00f6r\u00fc\u015ft\u00fc\u011f\u00fc ve adaya olan \"sars\u0131lmaz deste",
+      "normalized_activation": 8.631528854370117,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.7644,
+          "meaning_score": 0.7234,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7951
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2191,
+          "meaning_score": 0.4489,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2672
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2191,
+          "meaning_score": 0.6525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3487
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\"Vampire Diaries\" star Ian Somerhalder said he was shamed in a grocery store for having a",
+      "normalized_activation": 5.900407791137695,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3293,
+          "meaning_score": 0.8062,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6542
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3459,
+          "meaning_score": 0.45,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3183
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3459,
+          "meaning_score": 0.1707,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2066
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "took to Twitter yesterday to share a selfie after testing the highly anticipated Guardians of the Galaxy: Cosmic Rewind roller coaster at Walt Disney World Resort\u2019s EPCOT Park",
+      "normalized_activation": 3.821343183517456,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2428,
+          "meaning_score": 0.8181,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6243
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2428,
+          "meaning_score": 0.6591,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3608
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.209,
+          "meaning_score": 0.5817,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3163
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Transgender Berkeley English professor who backed burning of books is suspended by Twitter after tweeting UK",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4303,
+          "meaning_score": 0.7797,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.684
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4303,
+          "meaning_score": 0.6158,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4184
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4303,
+          "meaning_score": 0.4721,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3609
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Supreme Court rules against immigrants in detention case WASHINGTON (AP) - The",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3543,
+          "meaning_score": 0.8274,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4727
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3543,
+          "meaning_score": 0.5513,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3622
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3543,
+          "meaning_score": 0.4818,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3344
+        }
+      ]
+    }
+  ]
+}

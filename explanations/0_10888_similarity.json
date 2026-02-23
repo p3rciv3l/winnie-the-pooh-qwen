@@ -1,0 +1,210 @@
+{
+  "neuron_id": "0_10888",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to texts containing the phrases \"a series of\" or \"a lack of\" (and close variants like \"the lack of\" or \"an abundance of\"), which denote sequences or absences.\n\n2. **Domain coverage**: The pattern appears primarily in English news, reports, and informational texts covering events, crises, shortages, enumerations, or critiques (e.g., \"a series of rallies,\" \"a lack of staff\"). It also activates for Hindi news snippets, suggesting the neuron may associate with similar content in that language, possibly due to co-occurrence with these English phrases in multilingual training data or shared contextual themes.\n\n3. **Contrast with low-activation examples**: Low-activation texts lack the specific \"a series of\" / \"a lack of\" pattern and instead include diverse topics (e.g., awards, games, personal queries) in various languages (Czech, Italian, Russian, etc.). Even when low-activation English texts contain similar constructions like \"a lot of,\" they do not trigger the neuron, indicating selectivity for \"series\" or \"lack\" as key tokens.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that highlight sequences or deficiencies, often within explanatory or descriptive contexts. Its activation suggests a focus on enumerations and absences as semantic features, potentially useful for identifying structured reporting or problem-oriented discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "cemetery in Chinquapin. Family members say he had suffered a series of mini-strokes and had heart problems. He was 57. One",
+      "normalized_activation": 9.801214218139648,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.650922,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.184002,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            2268,
+            2513
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.235767,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            4414,
+            4665
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "dispute will shave 0.2% off global output. Concern that the lack of progress could point to a protracted trade war weighed on global markets on Wednesday.",
+      "normalized_activation": 9.234569549560547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.587714,
+          "actual_text_slice": [
+            865,
+            1019
+          ],
+          "prediction_text_slice": [
+            908,
+            1274
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.440278,
+          "actual_text_slice": [
+            865,
+            1019
+          ],
+          "prediction_text_slice": [
+            207,
+            446
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.516419,
+          "actual_text_slice": [
+            865,
+            1019
+          ],
+          "prediction_text_slice": [
+            658,
+            806
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "check-out), welcome reception, gift package, breakfasts and dinners daily, UNLIMITED golf on seven of BOYNE Golf\u2019s championship courses: Boyne Mountain",
+      "normalized_activation": 8.161523818969727,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.735401,
+          "actual_text_slice": [
+            1249,
+            1400
+          ],
+          "prediction_text_slice": [
+            1087,
+            1609
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.558984,
+          "actual_text_slice": [
+            1249,
+            1400
+          ],
+          "prediction_text_slice": [
+            373,
+            571
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.458265,
+          "actual_text_slice": [
+            1249,
+            1400
+          ],
+          "prediction_text_slice": [
+            2000,
+            2120
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.369045,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.506461,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.370366,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            901,
+            1110
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.57294,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            257,
+            447
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.450989,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            675,
+            919
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.445788,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            2511,
+            2803
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

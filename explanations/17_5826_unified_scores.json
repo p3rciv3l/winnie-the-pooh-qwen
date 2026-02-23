@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_5826",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit mentions of news organizations, channels, or programs** (such as television stations like TV3, NHK, or Fox News; news networks like CNN or BBC; specific news programs like \"Ask the Doctor\"; or news outlets like The Indian Express or Times Now).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Polish, Italian, Turkish, etc.) and contexts, primarily within text segments that cite, quote, or reference media sources. It activates on mentions of broadcasters (ABC, Telemundo), cable news (Fox News, CNN), public media (BBC, PBS), newspapers (Wall Street Journal), and digital news platforms (Google News), often in phrases indicating reporting (\"according to NHK\"), employment (\"internships at Fox 2 Detroit\"), or program details (\"the official broadcaster Star Sports\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct naming of specific news organizations or programs. They discuss general news-adjacent topics (arrests, investigations, viral videos) or non-news domains (horoscopes, music, corporate filings, personal anecdotes) without citing a particular media entity as the source or subject.\n\n4. **Closing interpretation**: The neuron detects textual references to institutional news media as named entities. It serves as a feature for identifying when information is framed within or sourced from professional journalistic outlets, regardless of the underlying topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "frequently proven himself multi-talented. During a new appearance on BBC Radio 1\u2019s Piano Sessions video series, he highlighted this once again by covering Radiohead\u2019s",
+      "normalized_activation": 9.590508460998535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3133,
+          "meaning_score": 0.7952,
+          "overlap_fraction": 0.747,
+          "location_score": 0.1494,
+          "combined_score": 0.5928
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1354,
+          "meaning_score": 0.4809,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2465
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2162,
+          "meaning_score": 0.3878,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2416
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Translated to english by RJ983 From Brazil, by EBC News",
+      "normalized_activation": 8.755352973937988,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1599,
+          "meaning_score": 0.4612,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2484
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1647,
+          "meaning_score": 0.3254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1961
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2179,
+          "meaning_score": 0.2443,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1849
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "to the store. Luckily, no injuries or fatalities have been reported, according to CBS News. There are a couple of ways to make sure children stay safe from potential",
+      "normalized_activation": 7.697021961212158,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.6711,
+          "meaning_score": 0.3075,
+          "overlap_fraction": 0.0788,
+          "location_score": 0.0158,
+          "combined_score": 0.4072
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2382,
+          "meaning_score": 0.2483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1946
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.6711,
+          "meaning_score": 0.6563,
+          "overlap_fraction": 0.9152,
+          "location_score": 0.183,
+          "combined_score": 0.714
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Un uomo \u00e8 morto a causa di un incendio sviluppatosi",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1356,
+          "meaning_score": 0.6654,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5204
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2179,
+          "meaning_score": 0.3833,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2405
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1808,
+          "meaning_score": 0.5541,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.294
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The best kid neck pillows will help your little ones zonk out even if they",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2525,
+          "meaning_score": 0.7323,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5939
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1768,
+          "meaning_score": 0.423,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2399
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2181,
+          "meaning_score": 0.4475,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2662
+        }
+      ]
+    }
+  ]
+}

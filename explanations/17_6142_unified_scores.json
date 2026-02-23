@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_6142",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **detailed factual reporting containing specific numerical data, proper nouns, or technical terminology** (such as sports statistics, financial transactions, legal/political proceedings, or scientific measurements).\n\n2. **Domain coverage**: The pattern appears across news, finance, sports, legal documents, and scientific reporting in multiple languages (English, Spanish, German, Romanian, etc.). High-activation texts consistently feature precise quantities (e.g., \u201c2.16 earned run average,\u201d \u201c$580,000,\u201d \u201c600 million light-years\u201d), named entities (organizations like \u201cSovcombank,\u201d people like \u201cAnwar Ibrahim,\u201d publications like \u201cNature\u201d), and domain-specific terms (e.g., \u201ctreason,\u201d \u201cMellotron,\u201d \u201clight-years\u201d).\n\n3. **Contrast with low-activation examples**: Low-activation texts are generally broader announcements, personal narratives, or simplified news snippets lacking precise data or specialized references. They mention topics like earthquakes or policy changes without quantitative details, use informal phrasing (\u201cKardashian hoe\u201d), or are truncated headlines missing contextual specifics.\n\n4. **Closing interpretation**: The neuron detects text segments that convey concrete, information-dense reporting\u2014prioritizing specificity, formal context, and referential clarity over general or colloquial discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", Russian and U.S. oil production: https://tmsnrt.rs/2QYZ6Ed (Updates prices) By Dmitry Zhdannikov",
+      "normalized_activation": 9.59664249420166,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1161,
+          "meaning_score": 0.4565,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2291
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1635,
+          "meaning_score": 0.5364,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.28
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1625,
+          "meaning_score": 0.1705,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1332
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "stream Arcade service. Due to its obscurity, you\u2019d be forgiven for not having heard of it before. Even searching Google brings up a dozen other PS1 games",
+      "normalized_activation": 8.889939308166504,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.151,
+          "meaning_score": 0.397,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2192
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1215,
+          "meaning_score": 0.2191,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1363
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1116,
+          "meaning_score": 0.3321,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1775
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "losing her is just too much for me. So \u2026 my dad\u2019s gotta take care of this for me. But I\u2019ll always be your sister, and I\u2019m",
+      "normalized_activation": 8.147623062133789,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1715,
+          "meaning_score": 0.1666,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1352
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3163,
+          "meaning_score": 0.1739,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1961
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3092,
+          "meaning_score": 0.2978,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2428
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "El Servicio Geol\u00f3gico de Estados Unidos dijo que el terremoto de magnitud",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1044,
+          "meaning_score": 0.5366,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4564
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.128,
+          "meaning_score": 0.366,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1976
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0997,
+          "meaning_score": 0.2757,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1501
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1009,
+          "meaning_score": 0.2982,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1597
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.169,
+          "meaning_score": 0.2591,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1712
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.161,
+          "meaning_score": 0.2075,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1474
+        }
+      ]
+    }
+  ]
+}

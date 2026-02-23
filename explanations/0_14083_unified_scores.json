@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_14083",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing actions, decisions, or events involving formal institutions or authorities, framed within a specific temporal context** (such as a governor seeking re-election \"at the forthcoming\" election, a ministry being targeted \"a few years ago,\" or a state department commenting on commitments \"early\").\n\n2. **Domain coverage**: The pattern appears in news and political reporting across multiple languages (English, and potentially others when the structure matches), focusing on governmental bodies (state governors, ministries, departments, space agencies), political processes (elections, legislation, investigations), and institutional actions (signing orders, launching projects, making statements). The temporal framing often uses phrases like \"years ago,\" \"forthcoming,\" \"currently,\" or \"until.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this combined structure. They include isolated facts (a conviction, a telescope image), non-institutional topics, sentence fragments, or text in other languages (Hindi, Spanish, etc.) that do not describe a temporal action by a named authority. The neuron does not fire on general political names (e.g., \"Trump,\" \"Biden\") alone without the institutional-temporal context present in the high-activation examples.\n\n4. **Closing interpretation**: The neuron detects a specific semantic-grammatical construct: an institutional actor paired with a verb of action or status, modified by a time-bound clause or phrase. It essentially fires on \"authority + action + time frame,\" serving as a detector for temporally anchored institutional reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "This, in particular, was reported by The Guardian newspaper. A few years ago, the Iranian defense industry was only capable of producing UAVs for local attacks.",
+      "normalized_activation": 9.597092628479004,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0829,
+          "meaning_score": 0.7449,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3311
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.124,
+          "meaning_score": 0.2598,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1535
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1754,
+          "meaning_score": 0.355,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2122
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "3 Alliance's \"Taking On The Establishment\" fundraiser benefiting candidates running for the statehouse. Bannon's defense \u2014 that the Washington Post report was an orchestrated political attack \u2014",
+      "normalized_activation": 8.960305213928223,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1053,
+          "meaning_score": 0.2738,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1516
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1399,
+          "meaning_score": 0.3621,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1448,
+          "meaning_score": 0.4499,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2379
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "outlet for anger at social inequality, in a city with some of the world's most expensive real estate. The government said late on Sunday it found it \"baff",
+      "normalized_activation": 8.248831748962402,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1491,
+          "meaning_score": 0.3479,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1988
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1232,
+          "meaning_score": 0.445,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2273
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1447,
+          "meaning_score": 0.2984,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1772
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Assam Rifles Jobs 2024: \u0905\u0938\u092e \u0930",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1101,
+          "meaning_score": 0.5082,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2473
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1611,
+          "meaning_score": 0.2899,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1804
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1635,
+          "meaning_score": 0.8051,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5874
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "IAF chief stresses on utilising available resources to best potential IAF chief stresses on",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.147,
+          "meaning_score": 0.7345,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3526
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1633,
+          "meaning_score": 0.5399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2813
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2316,
+          "meaning_score": 0.5275,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3036
+        }
+      ]
+    }
+  ]
+}

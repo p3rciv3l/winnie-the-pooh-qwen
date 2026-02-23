@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_989",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured references to specific named entities, particularly individuals with titles, roles, or affiliations** (such as government officials, public figures, characters, or experts identified by name and position, often appearing in news-like or informational contexts).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Turkish, Romanian, Arabic, etc.) and domains including entertainment news (\"Black Panther: Wakanda Forever Shuri\"), political reporting (\"Salt Lake City Mayor Jackie Biskupski\"), military analysis (\"analis militer Ukraina Oleh Zhdanov\"), local government (\"assessore ai Lavori pubblici Christian Castorri\"), and business leadership (\"Chief Executive Officer Whitey Basson\"). It also activates on named entities in lists, credits, or formal announcements.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain **proper nouns accompanied by descriptive titles, roles, or organizational connections**, often in mid-sentence references. The low-activation examples either lack specific named entities entirely, refer to generic groups (\"26 people,\" \"African youth\"), or mention names without the structured title-role framing (e.g., \"Donald Trump\" appears without a formal title in context).\n\n4. **Closing interpretation**: This neuron detects **formal or journalistic phrasing that anchors a person, character, or organization within a specific contextual identity**. It functions as a named-entity-in-context detector, emphasizing not just the presence of a name, but its presentation with qualifying descriptors that signal authority, role, or narrative significance.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "enhaus Lienz eingeliefert. Der Pkw wurde stark besch\u00e4digt.",
+      "normalized_activation": 9.142379760742188,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "mesi fa e l'ha gi\u00e0 fatto 38 volte. Mercoled\u00ec scorso \u00e8 successo di nuovo e il momento \u00e8 stato filmato.",
+      "normalized_activation": 8.151304244995117,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", la emisi\u00f3n de gases y ceniza es moderada y no representa mayor peligro para la poblaci\u00f3n\", resalt\u00f3 el Sinapred, en el",
+      "normalized_activation": 7.2329559326171875,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u00ab\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0431\u0440\u043e\u043a\u0435\u0440\u00bb \u043d\u0430\u0447\u0430\u043b \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0438\u0442\u044c \u0430\u043a\u0442\u0438\u0432\u044b \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u0432",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Cruel mum jailed with her ex-boyfriend after their child suffered multiple broken bones",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

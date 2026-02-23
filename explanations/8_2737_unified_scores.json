@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_2737",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to textual references to northeastern regions or the abbreviation \"NE\" (such as \"Nordeste\" in Portuguese, \"noreste\" in Spanish, \"North East\" in English, and the standalone token \"NE\" in addresses or acronyms like \"NEP\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Portuguese, Spanish, English, Italian, Greek) and contexts including geography (e.g., Brazilian Nordeste, Indian North East), politics (e.g., dictatorship mentions), education (New Education Policy), and business (carbon storage partnerships). It detects both explicit region names and abbreviations, often in capitalized or proper noun forms.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain the substring \"ne\" in region-related terms or the abbreviation \"NE\", whereas low-activation texts lack these entirely (e.g., no \"northeast\", \"NE\", or equivalents). The high group also frequently includes political topics like dictatorship, which may co-occur with geographical references but are absent in the low group.\n\n4. **Closing interpretation**: The neuron primarily detects the concept of \"northeast\" as a geographical or directional indicator, with secondary sensitivity to political regime descriptions that often appear in similar textual contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "GE have argued the disposal site will be built with multiple safety measures. Speaking to NEPM's The Fabulous 413, Warren said the proposal isn't",
+      "normalized_activation": 9.33400821685791,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4993,
+          "meaning_score": 0.5782,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.431
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3896,
+          "meaning_score": 0.4821,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3487
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1198,
+          "meaning_score": 0.6342,
+          "overlap_fraction": 0.531,
+          "location_score": 0.1062,
+          "combined_score": 0.4078
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "atholischen Kirche hat hohe Wellen geschlagen. Um ihn aufzuarbeiten wurde eine Studie in Auftrag gegeben, das eine oder andere",
+      "normalized_activation": 8.219348907470703,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2199,
+          "meaning_score": 0.2861,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2024
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1063,
+          "meaning_score": 0.3461,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1809
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1155,
+          "meaning_score": 0.3431,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1834
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Tathva fest begins at NIT-C Staff Reporter Kozhikode Rajeev Chandrasekhar, Union Minister of State for Skill Development and",
+      "normalized_activation": 7.077267646789551,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1271,
+          "meaning_score": 0.8764,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6014
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1091,
+          "meaning_score": 0.4738,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2332
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1369,
+          "meaning_score": 0.2272,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1456
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Leaders in the South East and the secessionist group, Movement for the Actualisation",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1668,
+          "meaning_score": 0.7186,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5542
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2253,
+          "meaning_score": 0.413,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2553
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2852,
+          "meaning_score": 0.5365,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3287
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Nicolae Noica: \u201dProiectele de infrastructur\u0103 ce se",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1964,
+          "meaning_score": 0.7607,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5828
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1315,
+          "meaning_score": 0.4123,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2175
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1906,
+          "meaning_score": 0.3207,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2045
+        }
+      ]
+    }
+  ]
+}

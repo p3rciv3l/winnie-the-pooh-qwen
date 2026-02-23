@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_15852",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:52:51Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper names (especially \"Peter\" and its variants) followed by contact information, citations, or attributions** (such as \"Peter Hegseth... one\", \"please visit www.Phonexa.com\", or \"says Patrick Grady, CEO of...\").\n\n2. **Domain coverage**: The pattern appears across English-language news, blog, and corporate text, often in contexts quoting or referencing individuals (politicians, executives, authors) or providing follow-up details (URLs, phone numbers, instructions like \"please click here\"). It also activates for non-English names (e.g., German \"Gregor Peter Schmitz,\" Chinese \"Tang Yuxiang\") and extends to phrases like \"please call\" or \"please visit\" even without a clear name, provided they appear in an attributive or referential context.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generic news snippets, headlines, or descriptive sentences lacking both a specific named person and an adjacent pointer to external sources or contact details. They discuss general topics (workforce trends, committee hearings, health issues) without referencing a particular individual's statement or directing the reader to further action or information.\n\n4. **Closing interpretation**: The neuron detects textual markers of **referential or attributive framing**, where a named entity is associated with a source, citation, or actionable follow-up. It likely serves to identify spans where the text points to external authorities, sources, or resources.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00010",
+      "row_idx": 356,
+      "normalized": 9.609384536743164,
+      "actual_text": "regardless of what an individual’s bank statement looks like. For Downtown Clinic Executive Director Pete Gosar, this mindset is a way of life. The Downtown Clinic opened in",
+      "plain_text": "A good indicator of a socially sustainable community can be found in overall community health, regardless of what an individual’s bank statement looks like. For Downtown Clinic Executive Director Pete Gosar, this mindset is a way of life. The Downtown Clinic opened in 1999 and is focused on providing free healthcare to over 500 Albany County residents who are uninsured, fall below 175% of the federal poverty line or suffer from homelessness. “Our mission is to serve people who don’t have access to care and help them to navigate the community resources,” said Gosar about the need for the Downtown Clinic. “About a quarter of the people live below the poverty line in Albany County.” Individuals making less than $12,076, or a family of four making less than $26,200 are living below the federal poverty line, according to the U.S. Department of Health and Human Services Office of the Assistant Secretary for Planning and Evaluation website: https://aspe.hhs.gov/poverty-guidelines . “A majority of the folks that we see are the working poor — some of them have multiple jobs and they still qualify for our services,” Gosar said. The Downtown Clinic directly supports the local economy by providing healthcare for employees of businesses and companies in Albany County. “They either can’t or won’t give them health insurance — how would they keep employees working for them without places like ours, Laramie Interfaith or the soup kitchen?” Gosar asked. What distinguishes the Downtown Clinic from others in Albany County is the fact that it’s pursuing sustainable business ventures to contribute to the overall mission of the clinic. Gosar told the Boomerang that one way it is implementing sustainable business practices is through 25 solar panels it received through a grant from Rocky Mountain Power that offsets 98% of the clinic’s energy usage. “If we can supply our (own) power, the money we were spending on power can be spent on medicines, shoes for someone or insulin — those things that really are important and necessary,” Gosar said. Another component of the Rocky Mountain Power grant enables the clinic to use the Blue Sky battery storage system, the first battery storage system of its kind in the state of Wyoming. The Blue Sky battery storage system keeps medical supplies, such as vaccines, stored at the proper temperature in the event of an emergency power outage. “We’re the first that used the battery directly connected to our solar panels — if the power goes out, those fridges are powered by our battery backup and that will last for days without any power of any kind,” Gosar explained. Gosar emphasized the importance of this battery storage system, noting that many community members utilize the vaccines and at times, there are $50,000 to $60,000 worth of vaccines in the fridges. “It’s this really simple system that I can monitor from an app on my phone,” Gosar said. “It’s really cool.” The holistic approach to healthcare that the Downtown Clinic prides itself on is also evident in its utilization of a community produce garden to help combat food insecurity and promote mental wellness. “We think about the whole person and how we can impact their health in different ways — our healthcare system in America does not support that kind of thinking,” Gosar said. Gosar told the Boomerang about the many health benefits that come with a community garden, such as evidence that sitting in a garden can lower one’s blood pressure. Additionally, the Downtown Clinic offers a produce distribution program to their clients and offers the opportunity for them to get more involved in the community garden. “We think about social determinants of health here, so we think food is medicine, sleep is medicine, interactions with the community is medicine and we try to touch as many of those pieces as we can,” said Gosar. “They can till a bed and grow what they need whether it be food or flowers -- they can take whatever they produce.” When asked what makes Downtown Clinic unique, Gosar said it’s all about the people involved. “The reason people are here — they’re here to help their community and I think that’s always a connecting piece for us,” Gosar said. Gosar is optimistic about what the future has in store for the Downtown Clinic. “We can dream up innovative programs and we can put them into action in pretty short order for healthcare entities and we’ll try to innovate,” he said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Our mission is to serve people who don’t have access to care and help them to navigate the community resources,” said Gosar about the need for the Downtown Clinic. “About a quarter of the people live below the poverty line in Albany County.”",
+          "concept": "attribution",
+          "reasoning": "This section contains a direct quote attributed to Pete Gosar, a proper name variant of Peter, matching the neuron's pattern of proper names followed by attributions."
+        },
+        {
+          "rank": 2,
+          "text": "Gosar told the Boomerang that one way it is implementing sustainable business practices is through 25 solar panels it received through a grant from Rocky Mountain Power that offsets 98% of the clinic’s energy usage.",
+          "concept": "attribution",
+          "reasoning": "This section has Gosar attributing information to a source (the Boomerang), fitting the referential framing with a proper name."
+        },
+        {
+          "rank": 3,
+          "text": "“If we can supply our (own) power, the money we were spending on power can be spent on medicines, shoes for someone or insulin — those things that really are important and necessary,” Gosar said.",
+          "concept": "attribution",
+          "reasoning": "Another direct quote from Gosar reinforces the neuron's focus on named entities with citations in an attributive context."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 5076,
+      "normalized": 8.459260940551758,
+      "actual_text": "à da una forma di detonazione”, ha spiegato all’Afp Peter Schmidt della Rete nazionale sismica svedese. Infine",
+      "plain_text": "ROMA. – Esplosioni, fughe di gas e l’acqua del mare che ribolle. Le due linee del Nord Stream, 1 e 2, hanno subito danni “senza precedenti” nel tratto di mar Baltico tra Danimarca e Svezia.  E sebbene il gasdotto che collega la Russia all’Europa fosse ormai fermo per la guerra in Ucraina, le sanzioni a Mosca e i ricatti del Cremlino, ad Amsterdam il prezzo del gas – che era rimasto più o meno stabile anche dopo la chiusura dei rubinetti da parte di Gazprom ad agosto – è schizzato fino ai 207 euro al megawattora (+19%).  Sabotaggio o attacco deliberato sotto falsa bandiera? Cosa sia successo a 80 metri di profondità non è ancora chiaro e sarà oggetto di indagini: nessuno in Occidente sembra infatti prendere in considerazione l’ipotesi di un semplice incidente, ma piuttosto quella dello zampino di Vladimir Putin.  Sismologi danesi e svedesi avevano registrato due forti esplosioni in mare, attorno all’isola danese di Bornholm: la prima alle 2:03 della notte tra domenica e lunedì di magnitudo 1.9, la seconda di 2.3 alle 19:04. “Un’enorme emissione di energia che interpretiamo come proveniente con la massima probabilità da una forma di detonazione”, ha spiegato all’Afp Peter Schmidt della Rete nazionale sismica svedese.  Infine l’avviso che i gasdotti avevano perso pressione, e la scoperta di tre falle nei gasdotti 1 e 2 che stanno sprigionando gas facendo ribollire la superficie di quel tratto di mare in aree che vanno dai 200 ai 1.000 metri di diametro, come testimoniano immagini che hanno fatto il giro del mondo. La fuoriuscita, ha avvertito Copenaghen, durerà almeno una settimana.  Il primo a non escludere “un sabotaggio” è stato lo stesso Cremlino, con il portavoce Dmitry Peskov che ha invocato “un’indagine urgente”, parlando di “notizie davvero allarmanti” e di “un problema che riguarda la sicurezza energética dell’intero continente”. A stretto giro di posta è arrivata l’accusa diretta di Kiev di “un attacco terroristico pianificato dalla Russia e un atto di aggressione contro l’Ue”. Secondo il consigliere del presidente Volodymyr Zelensky, Mykhailo Podolyak, Mosca “vuole così destabilizzare la situazione economica in Europa e provocare il panico pre-inverno”.  Se la Commissione europea ritiene “prematuro speculare” sulle cause delle fughe di gas, assicurando che al momento “non c’è alcun impatto sulla sicurezza”, gli Stati Uniti si sono detti pronti ad aiutare gli europei sulle indagini. Spingendosi oltre: “Le prime informazioni indicano che siano state causate da un attacco”, ha detto il segretario di Stato Antony Blinken, sottolineando comunque che si tratta “solo di prime notizie”. “Nei prossimi mesi dobbiamo lavorare per mettere fine alla dipendenza energetica dell’Europa dalla Russia”, ha quindi assicurato l’esponente dell’amministrazione Biden, garantendo che “le perdite non avranno un impatto significativo sulla resilienza energetica dell’Europa”.  Anche la Nato sta monitorando la situazione “con grande preoccupazione”, in contatto con gli alleati, a cominciare dalla Danimarca, ma anche con Svezia e Finlandia, i due Paesi in procinto di aderire all’Alleanza Atlantica per effetto della guerra di Putin. Mentre a Berlino la possibilità che tre fughe di gas si siano verificate contemporaneamente non sembra un caso, ma frutto “di un attacco mirato”, ha riferito una fonte a Tagesspiegel. Secondo il giornale, si stanno valutando due ipotesi principali: all’origine dell’attacco potrebbe esserci l’Ucraina o qualche suo alleato, oppure un’operazione russa sotto falsa bandiera, per alimentare maggiore insicurezza e far salire ancora di più prezzi del gas.  Anche la premier danese Mette Frederiksen ha escluso “una coincidenza” e parlato di “atti deliberati” mentre si trovava in Polonia per l’inaugurazione di un altro gasdotto strategico, il Baltic Pipe, con il collega Mateusz Morawiecki: “L’epoca del dominio russo sul gas è finito, un’epoca che è stata segnata dal ricatto, dalle minacce e dalle estorsioni”, ha dichiarato il premier polacco, anche lui convinto che il Nord Stream sia stato sabotato.  Stoccolma, che giudica la situazione “grave e molto seria”, ha intanto riunito un’unità di crisi, mentre Copenaghen ha inviato una fregata dotata di elicottero per unirsi ai pattugliamenti nella zona, dove al momento la navigazione è vietata nel raggio di 5 miglia.  (di Laurence Figà-Talamanca/ANSA).",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Un’enorme emissione di energia che interpretiamo come proveniente con la massima probabilità da una forma di detonazione”, ha spiegato all’Afp Peter Schmidt della Rete nazionale sismica svedese.",
+          "concept": "attribution",
+          "reasoning": "Includes the proper name Peter Schmidt, a variant of Peter, with a citation to AFP, aligning closely with the neuron's emphasis."
+        },
+        {
+          "rank": 2,
+          "text": "“Le prime informazioni indicano che siano state causate da un attacco”, ha detto il segretario di Stato Antony Blinken, sottolineando comunque che si tratta “solo di prime notizie”.",
+          "concept": "attribution",
+          "reasoning": "Features a named individual (Antony Blinken) providing information in an attributive context, matching the pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Secondo il consigliere del presidente Volodymyr Zelensky, Mykhailo Podolyak, Mosca “vuole così destabilizzare la situazione economica in Europa e provocare il panico pre-inverno”.",
+          "concept": "attribution",
+          "reasoning": "Contains a proper name (Mykhailo Podolyak) with a quoted statement, fitting the referential framing described by the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 291,
+      "normalized": 7.361424446105957,
+      "actual_text": "780 yuan * Oct M2 money supply up 8.8 pct y/y, vs f‘cast 9.2 pct * Oct TSF",
+      "plain_text": "* Oct new loans 663.2 bln yuan vs f‘cast of 780 yuan * Oct M2 money supply up 8.8 pct y/y, vs f‘cast 9.2 pct * Oct TSF 1.04 trln yuan, vs Sept’s 1.82 trln yuan * Deleveraging efforts seen weighing on credit expansion * New loans on track to hit record high this year (Adds details, analyst quotes) By Lusha Zhang and Kevin Yao BEIJING, Nov 13 (Reuters) - China’s new loans fell more than expected in October to their lowest in a year as banks tightened mortgage lending and corporates continued to shun bank loans, amid a continuing clampdown on risky shadow lending activities. Chinese authorities are walking a fine line by seeking to contain riskier types of financing and slowing an explosive build-up in debt without stunting economic growth. Banks extended 663.2 billion yuan ($99.83 billion) in net new yuan loans in October, data from the People’s Bank of China (PBOC) showed on Monday, falling to the lowest since October last year. Analysts polled by Reuters had predicted new yuan loans to drop to 780 billion yuan, from September’s 1.27 trillion yuan. “The upshot is that tighter monetary conditions have driven a meaningful slowdown in credit growth in recent quarters and we think the economy is set to feel the negative effects of this before long,” said Julian Evans-Pritchard, China economist at Capital Economics. “As such, we believe the PBOC will refrain from pushing up market rates much further despite the official rhetoric on deleveraging. If anything, we think monetary conditions are more likely to be loosened rather than tightened during the coming year.” Household loans, mostly mortgages, fell to 450.1 billion yuan in October from 734.9 billion yuan in September, according to Reuters calculations based on the central bank’s data. Household loans accounted for 68 percent of total new loans last month, up from 58 percent in September. Corporate loans dropped to 214.2 billion yuan in October from 463.5 billion yuan a month earlier. Outstanding yuan loans at the end of October grew 13 percent from a year earlier, less than an expected 13.1 percent rise. Despite the curbs, China’s economy remains heavily reliant on credit, and analysts agree more painful structural reforms are needed, on top of current efforts to force banks and companies to cut debt. Chinese banks doled out 11.82 trillion yuan in new loans in the first 10 months of this year, on track to match or beat last year’s record 12.65 trillion yuan, even as the government has been trying to fend off risks. Broad M2 money supply, which includes cash, and short- and long-term deposits, grew 8.8 percent in October from a year earlier, missing forecasts for an expansion of 9.2 percent and hitting the slowest pace since records began in 1996. China’s central bank in June said that slowing M2 growth could be a “new normal” due to regulators’ stepped-up crackdown on risky shadow lending activities. China’s total social financing (TSF), a broad measure of credit and liquidity in the economy, fell to 1.04 trillion yuan ($156.54 billion) last month from 1.82 trillion yuan in September. Goldman Sachs had expected China’s TSF, which includes off-balance sheet forms of financing such as loans from trust companies, bond sales and initial public offerings, to shrink to 1.2 trillion yuan in October. Combined trust loans, entrusted loans and undiscounted bankers’ acceptances, which are common forms of shadow banking finance, fell to 107 billion yuan in October from 396 billion yuan in September, according to Reuters calculations. China’s broad shadow banking activity stopped growing in the first half of 2017 and declined relative to gross domestic product for the first time in five years, weighed by a fall in issuance of higher risk instruments, a Moody’s Investors Service report showed, indicating China’s recent regulatory measures are showing effect. Authorities have turned their attention to consumer loans, in a bid to stop them from being used to finance housing purchases. A central report last month showed much of the growth in consumer credit appears linked to the property market. Outstanding household consumer loans surged nearly 30 percent as of end-September from a year earlier and there was also a sharp increase in property loans in the same period. ($1 = 6.6372 Chinese yuan) Reporting by Lusha Zhang and Kevin Yao; Editing by Sam Holmes",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "By Lusha Zhang and Kevin Yao BEIJING, Nov 13 (Reuters) - China’s new loans fell more than expected in October to their lowest in a year as banks tightened mortgage lending and corporates continued to shun bank loans, amid a continuing clampdown on risky shadow lending activities.",
+          "concept": "citation",
+          "reasoning": "This section includes authors' names and a news source (Reuters), indicating attributive framing with proper names and citation."
+        },
+        {
+          "rank": 2,
+          "text": "“The upshot is that tighter monetary conditions have driven a meaningful slowdown in credit growth in recent quarters and we think the economy is set to feel the negative effects of this before long,” said Julian Evans-Pritchard, China economist at Capital Economics.",
+          "concept": "attribution",
+          "reasoning": "A direct quote attributed to a named economist (Julian Evans-Pritchard) matches the neuron's pattern of proper names with attributions."
+        },
+        {
+          "rank": 3,
+          "text": "Reporting by Lusha Zhang and Kevin Yao; Editing by Sam Holmes",
+          "concept": "citation",
+          "reasoning": "Provides citation information with proper names, aligning with referential markers for sources or attributions."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2810,
+      "normalized": 0.0,
+      "actual_text": "Bahraini Jailed For ‘Insulting King’ Deported, Says Amnesty",
+      "plain_text": "Bahraini Jailed For ‘Insulting King’ Deported, Says Amnesty Int’l  A Bahraini citizen convicted of “insulting the king” and stripped of his nationality has been deported to Iraq after serving a two-year jail sentence, Amnesty International said on Friday.  Ibrahim Karimi was released from the notorious Jaw prison on Monday and “deported to Iraq the next day”, Amnesty said in a report.  He had served a sentence of two years and one month for allegedly “insulting the king” of Bahrain as well as Saudi Arabia and its ruler, and for possession of a stun gun.  Karimi was sentenced in 2016 but his citizenship had been revoked by the Bahraini authorities more than three years earlier.  Amnesty said Karimi had been found guilty of “publicly inciting hatred and contempt against the regime” and of “publicly insulting the king”.  He was also convicted of “insulting Saudi Arabia and its king” in a tweet, following the deadly 2015 collapse of a massive construction crane at the Grand Mosque in Mecca that killed more than 100 people.  Karimi has denied ownership of the twitter account.  Amnesty has described Karimi as a “prisoner of conscience”.  Authorities in Manama have stepped up prosecution of dissidents in recent months, granting military courts the right to try civilians for charges including terrorism as protests demanding an elected government in the Sunni-ruled monarchy near their seventh year.  Dozens of mostly Shiite protesters have been jailed and number of high-profile activists and clerics stripped of their citizenship since protests erupted in 2011.  Bahrain, a key ally of the United States and home to the US Fifth Fleet, accuses Shiite Iran of training “terrorist cells” that aim to overthrow the Bahraini government.  Iran denies the allegation.  AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A Bahraini citizen convicted of “insulting the king” and stripped of his nationality has been deported to Iraq after serving a two-year jail sentence, Amnesty International said on Friday.",
+          "concept": "attribution",
+          "reasoning": "Attributes information to Amnesty International, a named organization, fitting the pattern of referential framing with citations."
+        },
+        {
+          "rank": 2,
+          "text": "Amnesty said Karimi had been found guilty of “publicly inciting hatred and contempt against the regime” and of “publicly insulting the king”.",
+          "concept": "attribution",
+          "reasoning": "Contains attribution to Amnesty regarding a named individual (Ibrahim Karimi), matching the neuron's focus on attributions."
+        },
+        {
+          "rank": 3,
+          "text": "Karimi has denied ownership of the twitter account. Amnesty has described Karimi as a “prisoner of conscience”.",
+          "concept": "attribution",
+          "reasoning": "Features Amnesty International's description of Karimi, continuing the referential framing with proper names and citations."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 5514,
+      "normalized": 0.0,
+      "actual_text": "Lewis, Kemp top Women's Australian Open Updated: February 09,",
+      "plain_text": "Lewis, Kemp top Women's Australian Open  Updated: February 09, 2012, 18:31  MELBOURNE, Australia (AP) American Stacy Lewis and Australia's Sarah Kemp shared the Women's Australian Open lead at 4-under 69 on Thursday, leaving top-ranked Yani Tseng a stroke back in her bid to win the event for the third straight year. Lewis, the Kraft Nabisco winner last year, had six birdies and two bogeys in the LPGA Tour opener at historic Royal Melbourne, the 2011 Presidents Cup venue that is hosting a women's professional event for the first time. \"I fell in love with place the first time I played it,'' Lewis said. \"You have to be so creative and hit so many different shots. I love that. \"I play at Greg Norman's course in Florida, The Medalist. You can hit a lot of similar shots in practice there. We hit a lot of bump and runs up to the greens. That was good practice. We got some tips from him. He said to be below the hole and if we were above the hole make sure the next one was below it. And always take the shorter club if you are in between. I used that today.'' Kemp had a bogey-free round. \"I love it. It's tops,'' Kemp said about the course. \"I can see why it is Australia's best golf course. It is a privilege to have the first women's professional golf tournament here. It is awesome.'' Only 22 of the 156 players broke par. Tseng won the tournament, sanctioned this year by the LPGA Tour for the first time, the last two seasons at Commonwealth Golf Club. The Taiwanese star went on to win 12 worldwide titles last year, including major victories in the LPGA Championship and Women's British Open. She finished with a bogey on the par-4 ninth. \"It was disappointing to finish with a three-putt on the last hole,'' Tseng said. \"It is probably the toughest hole on the course. But I am still very happy shooting 3 under today. That's 3 under on an amazing golf course. I am really excited and can't wait to go out and challenge it again.'' Long-hitting American Brittany Lincicome, a two-time winner last season on the LPGA Tour, and Paraguay's Julieta Granada matched Tseng with a 70 in the event also sanctioned by Australian Ladies Professional Golf and the Ladies European Tour. American teen star Lexi Thompson opened with a 74. Fourteen-year-old New Zealand amateur Lydia Ko also had a 74. She won the New South Wales Open two weeks ago to become the youngest winner of a sanctioned professional tour event. Many top players struggled on the sand-belt course. Four-time winner Karrie Webb and fourth-ranked Cristie Kerr shot 75, Morgan Pressel had a 76, and second-ranked Suzann Pettersen and fellow European Solheim Cup star Sophie Gustafson shot 80. Pettersen's score was her second-highest in LPGA Tour play, following an 81 in the third round of the 2007 Evian Masters. \"I did not drive it great,'' Webb said. \"Unfortunately, Royal Melbourne does this. The tee shots I hit poorly, I really paid the penalty. That started to get better as the round went on. I did not putt consistently well for the whole round. When I hit good putts, the speed was off or the line was slightly off. I'm not too disappointed with how I played. It could have been better. With the swing changes, I saw some good things out there and hopefully I'll be a little more comfortable starting tomorrow.'' Laura Diaz birdied the opening hole and was 1 under through six, then played the final 12 holes in 10 over - eight bogeys and a double bogey - to finish at 82. The Netherlands' Christel Boeljon, the Australian Ladies Masters winner last week, had a 74.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“I fell in love with place the first time I played it,'' Lewis said. \"You have to be so creative and hit so many different shots. I love that.\"",
+          "concept": "attribution",
+          "reasoning": "Direct quote from Stacy Lewis, a proper name, with attribution, aligning with the neuron's pattern of named entities followed by attributions."
+        },
+        {
+          "rank": 2,
+          "text": "“I love it. It's tops,'' Kemp said about the course. \"I can see why it is Australia's best golf course. It is a privilege to have the first women's professional golf tournament here. It is awesome.”",
+          "concept": "attribution",
+          "reasoning": "Quote attributed to Sarah Kemp, another proper name, matching the attributive context described by the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "“It was disappointing to finish with a three-putt on the last hole,'' Tseng said. \"It is probably the toughest hole on the course. But I am still very happy shooting 3 under today.\"",
+          "concept": "attribution",
+          "reasoning": "Attribution to Yani Tseng with a direct quote fits the neuron's focus on proper names in referential framing."
+        }
+      ]
+    }
+  ]
+}

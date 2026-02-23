@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_12445",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities (people, organizations, locations) paired with contextual details about actions, events, or roles** (such as \"Qasem Soleimani... under the leadership of,\" \"Greta Thunberg... demanded,\" or \"Mount St. Helens in 1980, scientists have studied\").\n\n2. **Domain coverage**: The pattern appears across news, historical, and biographical text in multiple languages (English, Spanish, Polish), covering domains like geopolitics (Iranian Revolutionary Guards, Hezbollah), environmental activism, natural disasters (volcanoes, earthquakes), legal/judicial proceedings (judges, extradition), and cultural figures (artists, athletes). It activates on concrete, fact-reporting sentences that anchor a named entity within a specific event, statement, or outcome.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic statements without specific named entities (\"polarization saw itself\"), vague references (\"MPs called...\"), informal commentary (\"watch your lady around\"), or truncated/incomplete segments (social media snippets, headlines without elaboration). They lack the combination of a precise proper noun and an associated descriptive clause or phrase detailing a real-world occurrence.\n\n4. **Closing interpretation**: The neuron detects densely packed factual information where a clearly identified agent, location, or institution is linked to a consequential action or circumstance. It functions as a \"specific entity-in-context\" detector, highlighting text that grounds narrative in concrete, reportable details.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Musicians including Pink, Queen and Def Leppard have paid tribute to Foo Fighters drummer Taylor Hawkins at a memorial concert in Los",
+      "normalized_activation": 9.762248039245605,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4956,
+          "meaning_score": 0.8927,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7553
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3178,
+          "meaning_score": 0.5893,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3628
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3052,
+          "meaning_score": 0.5175,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3291
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "them white. The jurors come from nine Minnesota counties: two each from Hennepin, Ramsey and Olmsted. One each from Anoka, Washington,",
+      "normalized_activation": 9.297109603881836,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1315,
+          "meaning_score": 0.3868,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2073
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1412,
+          "meaning_score": 0.3281,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1877
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1916,
+          "meaning_score": 0.3039,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1982
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ick Stewart says the recommendation was being made given that the activity at the La Soufriere has decreased significantly. The Government has also taken the decision that residents of",
+      "normalized_activation": 8.696221351623535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1577,
+          "meaning_score": 0.6967,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3418
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1343,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2671
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1539,
+          "meaning_score": 0.6016,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3022
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Update 1.05 has arrived for AFL Evolution 2, and here\u2019s",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.206,
+          "meaning_score": 0.7818,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5951
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2344,
+          "meaning_score": 0.5231,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.303
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2548,
+          "meaning_score": 0.5272,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3128
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "PUBG Mobile India has been officially renamed Battlegrounds Mobile India. The exclusive",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5109,
+          "meaning_score": 0.851,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7448
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2303,
+          "meaning_score": 0.581,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3245
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1799,
+          "meaning_score": 0.3897,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2279
+        }
+      ]
+    }
+  ]
+}

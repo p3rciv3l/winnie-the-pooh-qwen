@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_15120",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially personal names) followed by verbs or actions indicating reporting, attribution, or official statements** (such as \"[Name] cast their gaze...\", \"[Name] Published...\", \"[Name] said...\", or \"[Name] announced...\").\n\n2. **Domain coverage**: The pattern appears predominantly in journalistic or news-style text across multiple languages (English, with some non-English names/contexts) and topics\u2014including politics, crime, terrorism, business, and entertainment. The neuron activates on text segments where a specific person, organization, or entity (e.g., \"Faizan Hashmi,\" \"Stormy Daniels,\" \"Malaysian Anti-Corruption Commission\") is linked to an action like publishing, stating, accusing, or reporting.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack this \"agent-action\" structure (e.g., generic statements, descriptive passages, or incomplete phrases) or contain proper nouns in non-attributive roles (e.g., \"BEIJING\" as a location, \"BlackBerry Aktie\" as a stock listing). What distinguishes the high group is the consistent pairing of a named agent with a communicative or declarative verb.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that signal attribution or sourced information in formal reporting. It appears to focus on semantic frames where an identifiable source is linked to a claim, event, or statement, acting as a marker for journalistic or authoritative content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "good judgement.\u201d Eric Spencer-Auber tried shooting his shot and asked: \u201cWell done! Congratulations. Are you available?\u201d This young woman is an inspiration to all ladies",
+      "normalized_activation": 9.678037643432617,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "used to say they do not have enough staff. But I could manage to get it open two to three times a week where I",
+      "normalized_activation": 9.040331840515137,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "emir Maulana Fazlur Rehman, respectively. Alleges caretaker govts overstepping their powers, says detained PTI leaders being",
+      "normalized_activation": 8.301499366760254,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "TOKYO, Nov 3, 2017 - (JCN",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Beth Skogen Lovers of live music, from left: Joe Meisel,",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

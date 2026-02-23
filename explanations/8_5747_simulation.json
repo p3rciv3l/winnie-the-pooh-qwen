@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_5747",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:46:47Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that anchor a person, organization, or project to a specific geographic location or institutional base** (such as phrases like \"based in [City/Country],\" \"headquartered in,\" \"posted in,\" or explicit mentions of a person's role tied to a place).\n\n2. **Domain coverage**: The pattern appears across multiple domains (news, business, sports, advocacy) and languages (English, Spanish, Romanian, Russian, Greek, Bulgarian, etc.). It activates on mentions of journalists, companies, bands, officials, agencies, or events being explicitly linked to a city, region, country, or institution (e.g., \"reporter... based in Abuja,\" \"cybersecurity firm based in the UAE,\" \"freshman point guard... for North Carolina,\" \"Election Resource Centre, an advocacy organization based in Harare\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a \"X based in Y\" or \"X in Y\" anchoring construct, while the low-activation examples generally describe actions, events, or general statements without tying a core entity to a specific geographic or institutional base. The low examples may mention locations incidentally (e.g., \"Pittsburgh Shooter\") but not in the anchoring, relational phrase structure that this neuron detects.\n\n4. **Closing interpretation**: The neuron likely detects a semantic-syntactic pattern used to establish provenance, affiliation, or operational headquarters. It serves as a feature for grounding entities in a spatial or institutional context, which is a common and informative structure in factual reporting and descriptive text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00002",
+      "row_idx": 1723,
+      "normalized": 9.408888816833496,
+      "actual_text": "all products are eco-friendly, vegan and cruelty free. The business is based in a storage unit in Sunderland, but the scheme has proved to be a big success",
+      "plain_text": "A North East diver turned environmental entrepreneur has launched a recycling business with a difference to reduce plastic waste.  Helen Wilson, from Sunderland, was scuba diving around Asia last year when she saw firsthand the devastation that dumped plastic is wreaking on our oceans, spending most dives picking piles of waste out of the ocean and off the beaches.  On her return to the UK before lockdown she set about developing a business to address the problem of plastic, creating The Bottle Swap – a modern take on old-fashioned milk rounds which sees customers receive weekly deliveries of household products.  Very strict in her criteria for the manufacturers she will use, all firms are UK-based and all products are eco-friendly, vegan and cruelty free.  The business is based in a storage unit in Sunderland, but the scheme has proved to be a big success after just a few weeks of operating, prompting a search for new premises.  She said: “I’m just working from a self storage unit at the minute but it’s clear I’m going to have to find somewhere bigger already.  “I managed to get back to Sunderland the day before lockdown, and I used the down time to research more about the problem of plastic and devise my plan to launch a new business with a brand new concept to help people in our region reduce their household plastic waste.  “Firstly, from a personal perspective, when I looked around my own house to see where I could make changes to my plastic use I realised a lot of my single use plastic was in my bathroom and cleaning cupboard.  “I was familiar with the concept of refill shops, but they are fairly few and far between in the North East, and they focus heavily on store cupboard foods which I don’t buy huge amounts of so it seemed a bit of a wasted journey to just refill the odd bottle of shampoo.  “Secondly I was seeing so many people online shopping during lockdown, seeing delivery drivers working through lockdown as they were classed as key workers, and realising that we live in a world where we expect such convenience as a necessity.  “And lastly from a conversation I had last year in passing with an elderly stranger about the old milk rounds and how they had been so much better for the environment with reusable glass bottles rather than the masses of plastic bottles we use and throw away now.  “I combined all of these ideas and developed The Bottle Swap, where I’ve focussed on household cleaning and personal care products, which end up in landfill at a faster rate than most other single use plastics, and offer a service whereby people can order these products online, I will deliver them in glass bottles to their doorstep, and when they are empty I will collect the bottles up to be sterilised and used again – the same way the old milk rounds used to work.”  The Bottle Swap has more than 100 products in stock, selling laundry, cleaning, body care, hair care and dental care products, as well as everything from hand sanitiser and hand wash to multi purpose sprays, and non-liquid plastic-free products to help making changes easier, including metal straws, wax wraps and reusable make-up remover pads.  Orders can be made from just £5, with a £3 delivery charge for orders under £20 but free above £20.  Ms Wilson personally designed all the branding, built the bottleswap.com website, and makes the deliveries herself.  She has split the region to cover all NE, SR, and DH postcode areas, to have a “round” in each area once a week, meaning there are regular delivery dates for everyone in Northumberland, Tyneside and Wearside and County Durham.  A closed loop supply has also been developed with manufacturers in which Ms Wilson buys in bulk containers to decant into the glass bottles, and when these bulk containers are empty the manufacturer will take them back to reuse.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The business is based in a storage unit in Sunderland, but the scheme has proved to be a big success after just a few weeks of operating, prompting a search for new premises.",
+          "concept": "business location",
+          "reasoning": "This section explicitly uses the phrase 'based in' to anchor the business to a specific geographic location (Sunderland)."
+        },
+        {
+          "rank": 2,
+          "text": "Very strict in her criteria for the manufacturers she will use, all firms are UK-based and all products are eco-friendly, vegan and cruelty free.",
+          "concept": "manufacturer location",
+          "reasoning": "The phrase 'UK-based' anchors the manufacturers to a country, matching the neuron's pattern of geographic anchoring."
+        },
+        {
+          "rank": 3,
+          "text": "Helen Wilson, from Sunderland, was scuba diving around Asia last year when she saw firsthand the devastation that dumped plastic is wreaking on our oceans, spending most dives picking piles of waste out of the ocean and off the beaches.",
+          "concept": "person origin",
+          "reasoning": "The phrase 'from Sunderland' anchors a person to a specific city, fitting the neuron's detection of personal geographic ties."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 5124,
+      "normalized": 8.213335037231445,
+      "actual_text": ", cuando Salvador Ramírez, frente a la limitada oferta de comida a domicilio, se le ocurrió emprender un negocio que ampliará la",
+      "plain_text": "La aplicación de delivery llamada anteriormente “Get My Food” renovó su imagen y cambió su nombre a “Get”, la cual puedes descargar desde la tienda oficial de Huawei, AppGallery, así lo dio a conocer este día su gerente, Salvador Ramírez. Asimismo, Ramírez dijo que la app promete expansión y diversificación en los comercios afiliados, de tal manera que puedas encontrar desde comidas y bebidas hasta tiendas de conveniencia, prometió expansión y diversificación en los comercios afiliados Cabe destacar que “Get My Food” comenzó hace 8 años, cuando Salvador Ramírez, frente a la limitada oferta de comida a domicilio, se le ocurrió emprender un negocio que ampliará la oferta de alimentos hasta la puerta de tu casa, su nombre buscaba comunicar a la población que podía pedir su plato favorito a través de la aplicación. “Nos dimos cuenta que nuestro restaurante favorito no tenia servicio a domicilio, y al hacer una investigación nos dimos cuenta que el servicio a domicilio era demasiado caro, y así fue como debido a esta frustración como consumidor, decidí iniciar esta empresa”, expresó. De acuerdo con Ramírez, en su inicio fue difícil darse a conocer, sin embargo, un par de años después, en 2015, las cosas fueron mejorando hasta el día de hoy que cuentan con más de 250 comercios afiliados. De igual manera, Ramírez mencionó que una de las metas de la aplicación es expandirse a 6 nuevos territorios en El Salvador y Nicaragua; “Nos vamos a expandir en El Salvador a Lourdes, San Miguel y Santa Ana y en el área geográfica de San Salvador, a Soyapango e Ilopango y en Nicaragua vamos a expandirnos a León, Granada y Masaya”, comentó. También mencionó que próximamente esperan implementar drones en las entregas. Por otro lado, mencionó que las alianzas estratégicas que han implementado hasta el día de hoy les han servido para llegar a más público e incrementar su servicio a la población, tal es el caso de HUAWEI, a través de su tienda oficial de aplicaciones, AppGallery, donde pueden descargar la App y recibir muchas promociones. “En HUAWEI estamos muy felices de la presencia de Get en la plataforma y asimismo, estamos muy seguros que este nuevo canal de acercamiento a los salvadoreños será de mucho beneficio para ellos” indicó el Gerente de Desarrollo Comercial de AppGallery, Eduardo Argueta. Es importante mencionar que la AppGallery además de estar preinstalada en los más recientes smartphones de HUAWEI, otros teléfonos con sistema operativo Android son capaces de obtener a través del sitio oficial de la marca. Además, los usuarios pueden encontrar increíbles promociones en el Centro de Regalos de la AppGallery, entre ellos, 1 delivery gratis gracias a Get, el cual puedes utilizar hasta el 15 de mayo, al entrar a la aplicación puedes elegir entre las diferentes categorías: Comida, cafés, bebés, mascotas, farmacias, supermercados, electrónicos, mandados, bebidas y conveniencia.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Nos vamos a expandir en El Salvador a Lourdes, San Miguel y Santa Ana y en el área geográfica de San Salvador, a Soyapango e Ilopango y en Nicaragua vamos a expandirnos a León, Granada y Masaya”, comentó.",
+          "concept": "expansion locations",
+          "reasoning": "This quote explicitly anchors the app's expansion to multiple cities in El Salvador and Nicaragua, matching the 'X in Y' geographic pattern."
+        },
+        {
+          "rank": 2,
+          "text": "De igual manera, Ramírez mencionó que una de las metas de la aplicación es expandirse a 6 nuevos territorios en El Salvador y Nicaragua;",
+          "concept": "target countries",
+          "reasoning": "This sentence anchors the app's expansion goals to specific countries (El Salvador and Nicaragua), fitting the neuron's geographic anchoring pattern."
+        },
+        {
+          "rank": 3,
+          "text": "“En HUAWEI estamos muy felices de la presencia de Get en la plataforma y asimismo, estamos muy seguros que este nuevo canal de acercamiento a los salvadoreños será de mucho beneficio para ellos” indicó el Gerente de Desarrollo Comercial de AppGallery, Eduardo Argueta.",
+          "concept": "audience location",
+          "reasoning": "The mention of 'salvadoreños' (Salvadorans) ties the app's benefits to a specific national group, implying geographic anchoring to El Salvador."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 1842,
+      "normalized": 6.782687664031982,
+      "actual_text": "á oslobodzovacia armáda (ELN). Zadržaní plánovali aj realizovali útok Duque oc",
+      "plain_text": "BOGOTA. Kolumbijský prezident Iván Duque oznámil vo štvrtok zadržanie ôsmich ľavicových povstalcov podozrivých z účasti na bombovom útoku na policajnú akadémiu v hlavnom meste Bogota v januári 2019, ktorý si vyžiadal životy 20 kadetov. Celkovo tak počet zadržaných ľudí v prípade stúpol na 13. Informovala o tom v piatok agentúra AFP. Pripomenula, že k útoku sa prihlásila Národná oslobodzovacia armáda (ELN). Zadržaní plánovali aj realizovali útok Duque ocenil prácu polície a prokuratúry a uviedol, že obe zložky boli \"veľmi efektívne pri zadržaní rôznych členov zločineckej bunky, ktorá spáchala teroristický čin\". Osem zadržaných \"sa zúčastnilo na financovaní, plánovaní a realizácii útoku\", uviedol prokurátor Francisco Barbosa. Doplnil, že čelia obvineniam z vraždy, pokusu o vraždu, terorizmu, financovania terorizmu, prania špinavých peňazí, nezákonného obohatenia a revolty. Duque odmietol vyjednávanie s ELN Jeden zo zadržaných je obvinený z prijatia rozkazov od velenia ELN a plánovania útoku, dve osoby zasa zo sprevádzania výbušninou naloženého nákladného auta. Muž, ktorý vozidlo riadil, zahynul pri jeho výbuchu v priestorov akadémie. ELN, ktorá má približne 2000 bojovníkov, je poslednou aktívnou kolumbijskou povstaleckou skupinou po tom, ako predošlý prezident Juan Manuel Santos podpísal v novembri 2016 mierovú dohodu s oveľa väčšími Revolučnými ozbrojenými silami Kolumbie (FARC). Kolumbijský konzervatívny prezident Iván Duque však odmietol vyjednávanie s ELN, pokiaľ táto skupina jednostranne nezastaví všetku svoju násilnú aktivitu. Nálet na základňu povstalcov Kolumbijské vzdušné sily v máji tohto roka zbombardovali tábor ELN, pričom zabili najmenej 20 jej bojovníkov vrátane dvoch lídrov. K útoku došlo v odľahlom meste Montecristo v departemente Bolívar na severe krajiny, oznámilo ministerstvo vnútra s tým, že nálet bol zacielený na lídra ELN známeho ako Mocho Tierra, o ktorom sa predpokladá, že naplánoval útoky proti polícii a vojakom. Zapletený bol tiež do pašovania kokaínu. Tierra a ďalší líder ELN pri útoku zahynuli. Útok bol spoločnou operáciou vládnej armády a polície.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BOGOTA. Kolumbijský prezident Iván Duque oznámil vo štvrtok zadržanie ôsmich ľavicových povstalcov podozrivých z účasti na bombovom útoku na policajnú akadémiu v hlavnom meste Bogota v januári 2019, ktorý si vyžiadal životy 20 kadetov.",
+          "concept": "capital city",
+          "reasoning": "This section anchors the bomb attack to the capital city Bogotá, using the phrase 'v hlavnom meste Bogota' (in the capital Bogotá)."
+        },
+        {
+          "rank": 2,
+          "text": "K útoku došlo v odľahlom meste Montecristo v departemente Bolívar na severe krajiny, oznámilo ministerstvo vnútra s tým, že nálet bol zacielený na lídra ELN známeho ako Mocho Tierra, o ktorom sa predpokladá, že naplánoval útoky proti polícii a vojakom.",
+          "concept": "region",
+          "reasoning": "This sentence anchors the attack to a specific town (Montecristo) and department (Bolívar) in northern Colombia, matching the geographic anchoring pattern."
+        },
+        {
+          "rank": 3,
+          "text": "ELN, ktorá má približne 2000 bojovníkov, je poslednou aktívnou kolumbijskou povstaleckou skupinou po tom, ako predošlý prezident Juan Manuel Santos podpísal v novembri 2016 mierovú dohodu s oveľa väčšími Revolučnými ozbrojenými silami Kolumbie (FARC).",
+          "concept": "nationality",
+          "reasoning": "The phrase 'kolumbijskou povstaleckou skupinou' (Colombian rebel group) explicitly anchors the ELN to Colombia, fitting the neuron's pattern of institutional geographic base."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 3346,
+      "normalized": 0.0,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "country location",
+          "reasoning": "This section explicitly anchors Slovakia to a specific geographic context (EU's eastern border), matching the neuron's pattern of geographic anchoring."
+        },
+        {
+          "rank": 2,
+          "text": "Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.",
+          "concept": "national borders",
+          "reasoning": "This sentence anchors Slovakia's actions to its national borders, fitting the pattern of institutional or geographic base."
+        },
+        {
+          "rank": 3,
+          "text": "Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.",
+          "concept": "EU member",
+          "reasoning": "This anchors Slovakia within the institutional context of the European Union, matching the neuron's detection of institutional base."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 113,
+      "normalized": 0.0,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "plain_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job. WASHINGTON -- Has there ever been a covert action that backfired as disastrously as Russia's attempt to meddle in the 2016 U.S. presidential campaign?  Granted, we know all the reasons Moscow is gloating: Donald Trump is president; America is divided and confused; Russia's propagandization of \"fake news\" is now repeated by people around the world as evidence that nothing is believable and all information is (as in Russia) manipulated and mendacious. But against this cynical strategy there now stands a process embodied by special counsel Robert Mueller, which we will call, as a shorthand: \"The Truth.\" Mueller has mobilized the investigative powers of the U.S. government to document how Russia and its friends sought to manipulate American politics. We are seeing the rule of law(,) applied.  Put aside for the moment what the indictments and plea agreement announced Monday will ultimately mean for Trump's presidency. Already, Mueller has stripped the cover from Russia's machinations: Trump former foreign policy adviser George Papadopoulos has confessed that he lied to FBI agents about his contacts with individuals connected to Moscow who promised \"dirt\" on Hillary Clinton; Trump's former campaign chairman Paul Manafort has been charged with laundering $18 million in payoffs from Russia's Ukrainian friends.  Russian meddling is now advertised to the world. This topic will dominate American debate for the next year, at least. In Europe, meanwhile, a similar reaction to Russian influence operations is gaining force. President Vladimir Putin once imagined that Trump would be Russia's bridge back from isolation. Not anymore. Next comes the overtly dangerous part: When covert operations are exposed, nations sometimes adopt more aggressive actions. On the continuum of warfare, Russia has been playing somewhere in the middle, between war and peace. Now, as the world focuses on Russian mischief, will the Kremlin move the dial up or down?  Putin made some comments last week that worry me. Before a meeting of his security council on Oct. 26, Putin announced that he was augmenting cyberwar policies to take into account \"that the level of threat in the information space is on the rise.\" He proposed \"additional measures\" to combat adversaries and protect Russia. He argued that Russia was simply protecting its citizens from cybercriminals, but his language was emphatic: \"It is necessary to be tough as regards those persons and groups that are using the Internet and the information space for criminal purposes.\"  To me, that sounded like Putin was doubling down on Russia's bid to shape the \"information space,\" by whatever means necessary. That was reinforced by his call for \"a system of international information security,\" in which Russia would seek to impose new rules for the internet through the United Nations and other pliable international organizations. That's a threat I noted a week ago, now confirmed explicitly by Putin.  The potential scope of Russia's cyberoperations was highlighted in a little-noticed report by the Defense Intelligence Agency, \"Russia Military Power: Building a Military to Support Great Power Aspirations.\" Its conclusion: \"Russia views the information sphere as a key domain for modern military conflict ... critically important to control its domestic populace and influence adversary states.\" The DIA explains how \"Russian propaganda strives to influence, confuse and demoralize its intended audience.\" The report describes Russian trolls, bots and cover organizations. Among the major themes of Russian propaganda, the DIA says, is this Steve Bannon-esque message: \"The West's liberal world order is bankrupt and should be replaced by a Eurasian neo-conservative post-liberal world order, which defends tradition, conservative values, and true liberty.\" And remember, this expose of Moscow's hidden hand is coming from Trump's Pentagon!  Here's the strategic impact of Mueller's investigation. He is probing efforts by Russia and its foreign allies to manipulate our political system. He is unraveling a covert action. Trump's protests of \"witch hunt\" and \"fake news,\" words similar to those used by Moscow-controlled media outlets.  Perhaps we begin to see a timeline: In March 2016, Papadopoulos met with a Russian-linked \"professor\"; in April, the professor said Moscow had \"dirt\" on Hillary Clinton from her emails; in June, Donald Trump Jr., Manafort and Jared Kushner met with a Russian who had promised \"some official documents and information that would incriminate Hillary\"; in July, Trump was touting WikiLeaks' release of documents about Clinton allegedly supplied by Russian cutouts.  Trump may or may not have colluded with Russia during the 2016 campaign; we'll leave that question for the lawyers. But if Trump seeks to derail Mueller's probe, he is implicitly colluding with Russia now. By many people's definition, that would be aiding a foreign power, which might be deemed a \"high crime or misdemeanor.\" Let Mueller finish his job of exposing Russian manipulation.  (c) 2017, Washington Post Writers Group",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Has there ever been a covert action that backfired as disastrously as Russia's attempt to meddle in the 2016 U.S. presidential campaign?",
+          "concept": "country involvement",
+          "reasoning": "This sentence explicitly anchors the covert action to Russia and the campaign to the U.S., matching the geographic anchoring pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Mueller has mobilized the investigative powers of the U.S. government to document how Russia and its friends sought to manipulate American politics.",
+          "concept": "government entity",
+          "reasoning": "This anchors the investigation to the U.S. government and the manipulation to Russia, fitting the pattern of institutional and geographic bases."
+        },
+        {
+          "rank": 3,
+          "text": "Trump former foreign policy adviser George Papadopoulos has confessed that he lied to FBI agents about his contacts with individuals connected to Moscow who promised \"dirt\" on Hillary Clinton.",
+          "concept": "city connection",
+          "reasoning": "This anchors the individuals to Moscow, using the phrase 'connected to Moscow', which matches the neuron's pattern of geographic ties."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_3751",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense proper nouns and specific named entities** (such as full names of people with titles, organizations, government bodies, event names, or precise geographic/ institutional references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Chinese, etc.) and domains including politics, academia, environmental regulation, entertainment, sports, and business news. Examples span formal reports, news articles, and official announcements where specific individuals (e.g., \"Sally Kornbluth,\" \"AR Rahman\"), agencies (e.g., \"OSHA,\" \"Senapred\"), events (e.g., \"Breathe India Initiative\"), or precise identifiers (e.g., \"Hazza Bin Zayed Stadium\") are mentioned in close succession.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature clusters of capitalized names, titles, or specific acronyms within a short span, while low-activation examples are more generic, use fewer or no proper nouns, or contain only vague references (e.g., \"a trillion-dollar industry,\" \"a police officer,\" \"young employees\").\n\n4. **Closing interpretation**: The neuron detects linguistically dense, information-rich passages centered on concrete real-world entities, acting as a filter for text where specific identities, roles, or official designations are foregrounded.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "an all-star cast is set to bring the period piece to life. Hayley Atwell (Agent Carter, Testament Of Youth) stars as Margaret, Philippa Coul",
+      "normalized_activation": 9.38461971282959,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1759,
+          "meaning_score": 0.7567,
+          "overlap_fraction": 0.5786,
+          "location_score": 0.1157,
+          "combined_score": 0.4888
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1366,
+          "meaning_score": 0.4502,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2347
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0725,
+          "meaning_score": 0.3252,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1591
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the funeral of 19-year-old Ahmad Nashat Othman al-Kharroubi, who was shot and killed by Israeli forces earlier on Thursday during clashes",
+      "normalized_activation": 8.22201919555664,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.153,
+          "meaning_score": 0.7359,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5555
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1462,
+          "meaning_score": 0.4974,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2575
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1993,
+          "meaning_score": 0.5513,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3002
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Promises of change quickly followed the national uproar, with Housing Secretary Michael Gove vowing that a death like Awaab\u2019s \u201ccould never happen again",
+      "normalized_activation": 7.093967914581299,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1525,
+          "meaning_score": 0.3657,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2073
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1836,
+          "meaning_score": 0.5579,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2966
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1725,
+          "meaning_score": 0.3389,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2046
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "V druhom polroku minul\u00e9ho roka sa pod\u013ea",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1395,
+          "meaning_score": 0.4893,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4515
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1373,
+          "meaning_score": 0.2963,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1734
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1119,
+          "meaning_score": 0.2911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1612
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "TAIPEI (Taiwan News) \u2014 U.S. National Security Advisor Robert",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1571,
+          "meaning_score": 0.3149,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1888
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1573,
+          "meaning_score": 0.2905,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1791
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1861,
+          "meaning_score": 0.638,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5296
+        }
+      ]
+    }
+  ]
+}

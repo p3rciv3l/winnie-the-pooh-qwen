@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_12141",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing precise numerical or date references** (such as calendar dates, statistical figures, technical specifications, or numbered lists), especially when they anchor factual, reportorial, or descriptive claims.\n\n2. **Domain coverage**: The pattern appears across news reporting, financial documents, technical descriptions, historical accounts, and political clauses in multiple languages (including English, Spanish, Arabic, Turkish, and Polish). Topics range from earthquakes (\"73-139 dC\", \"0 grados cada treinta a\u00f1os\") and emissions data (\"5m metric tons\") to share counts (\"21,883,446 common shares\"), legal articles (\"Article 50\"), and event dates (\"3 de fevereiro\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently embed specific numbers, dates, or enumerated items within informative statements, while low-activation examples are either generic commentary, qualitative descriptions, or announcements without such precise quantification (e.g., \"growing old,\" \"poses with three women,\" \"plenty of the Christmas spirit\").\n\n4. **Closing interpretation**: The neuron detects linguistic markers of concrete, quantified information that grounds a statement in a specific factual or temporal frame. It acts as a filter for text that conveys reportorial precision, often in contexts where numbers substantiate a claim, event, or technical detail.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "is statutorily mandated, or who pose a public safety threat or risk of flight,\u201d said Acting Director Johnson. \u201cICE will continue to ensure it has sufficient detention",
+      "normalized_activation": 9.660483360290527,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "dat beeld. Gilbert, op het muurtje en duimpje omhoog - naar zijn ouders, zijn vrouw Patricia en kinderen Alan en Alexandre",
+      "normalized_activation": 9.007895469665527,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u00abque el periodismo ya no era libre\u00bb en Espa\u00f1a, lo que \u00able repugnaba profundamente\u00bb. Por su parte, Pilar, la hij",
+      "normalized_activation": 8.304999351501465,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Julianne Moore will star as iconic feminist activist Gloria Steinem in \u201cMy Life On",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "WELLINGTON (Reuters) - Australia\u2019s government on Friday joined allies in holding China",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_8377",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T08:12:16Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns (names of people, organizations, places, or titles) in a formal or journalistic context** (such as \"Chief Minister Pinarayi Vijayan,\" \"EU Commission President Jean-Claude Juncker,\" \"Sebastian Bach of Skid Row,\" or \"Appalachian Citizens' Law Center\").\n\n2. **Domain coverage**: The pattern appears prominently in multi-lingual news reports, political commentary, celebrity/cultural coverage, and academic or institutional announcements. Examples span languages (English, Romanian, Italian, Persian, German, Russian) and consistently involve lists or descriptions of specific individuals, official roles, groups, or named entities.\n\n3. **Contrast with low-activation examples**: High-activation texts are dense with specific named entities and often describe actions, statements, or events involving those entities. Low-activation examples are either generic statements, headlines without specific names, administrative notices, or short social/media fragments lacking this density of proper nouns.\n\n4. **Closing interpretation**: The neuron detects structured, entity-centric prose characteristic of authoritative reporting or formal discourse. It acts as a marker for text where specific, named agents are central to the information being conveyed.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00007",
+      "row_idx": 4245,
+      "normalized": 9.363226890563965,
+      "actual_text": "selectors’ decision of resting six important players - Sarfraz, Babar Azam, Fakhar Zaman, Hasan Ali, Shadab Khan and Sha",
+      "plain_text": "SHARJAH - With the World Cup just a little over two months away, these five ODIs in UAE dish out a crucial opportunity for Australia and Pakistan to make the final amends to their plans.  In their hunt for the right players to fill the last couple of places ahead of the World Cup and to ensure that their key players are fresh when they embark on an almost three-month long journey to the British Isles, Pakistan made as many as eight changes to its squad from the one that lost to South Africa 3-2 in an away series. With their captain amongst the six mainstays rested, Shoaib Malik will take the reins once again.  That the Pakistan selection committee and Mickey Arthur are sure about who will occupy most of the spots in the final 15-man squad has been conveyed to the journalists on numerous occasions. But, at the same time, for those who were named in the squad after their runs in the PSL - namely Umar Akmal and Yasir Shah - this is a chance to pile up pressure on the national selectors.  For Australia, this is an opportunity to further consolidate on the momentum gained in India. And the fact that batsmen like Usman Khawaja and Peter Handscomb, who have previously not been able to capitalise on their opportunities, have raised their hands and that bodes well for the group, whose next 50-over outing will be the two World Cup warm-up games.  Nathan Lyon and Adam Zampa will be in the spotlight as the Australian management, after finally recognizing the necessity of playing two spinners to maximize the advantage that the surfaces present, will look to bowl the two in tandem in the middle overs. After all, what better place is there to try out your spin strength than the UAE?  About Pakistan, there have been some serious debate over selectors’ decision of resting six important players - Sarfraz, Babar Azam, Fakhar Zaman, Hasan Ali, Shadab Khan and Shaheen Shah Afridi - just ahead of the World Cup. In their absence, the likes of Haris Sohail, Junaid Khan, Umar Akmal, Yasir Shah, Abid Ali, Mohammad Abbas, Mohammad Hasnain and Saad will look to make of this opportunity to push their names for the World Cup.  The most experienced player in the side, Shoaib Malik will captain Pakistan and look to make the most of available resources. Most of the above-mentioned players did well in the recently concluded Pakistan Super League, with teenage tearaway Hasnain making quite an impression. This series will also serve as a perfect chance for someone like Yasir, Junaid and Abbas to make an impact alongside Mohammad Amir and Usman Shinwari.  In batting, Malik, Akmal, Haris Sohail, Imam-ul-Haq, Mohammad Rizwan and Shan Masood will have to share the responsibility. It will be interesting to see how Akmal performs. The 28-year-old has been accused of poor behaviour both on and off the field which eventually led to his exclusion. Akmal is now back into the mix of things by performing consistently in domestic cricket and PSL and will try to make sure he doesn’t throw away this opportunity.  After Usman Khawaja and Pat Cummins’s prolific run across the five ODIs in India and Marcus Stoinis’ all-round contribution at Feroz Shah Kotla, the tourists would like to test out the same lineup. Shaun Marsh, Australia’s best batsman in the format last year, might have to sit out for the most part of the series.  SQUADS:  PAKISTAN: Shoaib Malik (captain), Abid Ali, Faheem Ashraf, Haris Sohail, Imad Wasim, Imam-ul-Haq, Junaid Khan, Mohammad Abbas, Mohammad Amir, Mohammad Hasnain, Mohammad Rizwan (wk), Saad Ali, Shan Masood, Umar Akmal, Usman Shinwari, Yasir Shah.  AUSTRALIA: Aaron Finch (captain), Usman Khawaja, Shaun Marsh, Peter Handscomb, Glenn Maxwell, Ashton Turner, Marcus Stoinis, Alex Carey, Pat Cummins, Nathan Coulter-Nile, Jhye Richardson, Kane Richardson, Jason Behrendorff, Nathan Lyon, Adam Zampa.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "PAKISTAN: Shoaib Malik (captain), Abid Ali, Faheem Ashraf, Haris Sohail, Imad Wasim, Imam-ul-Haq, Junaid Khan, Mohammad Abbas, Mohammad Amir, Mohammad Hasnain, Mohammad Rizwan (wk), Saad Ali, Shan Masood, Umar Akmal, Usman Shinwari, Yasir Shah.",
+          "concept": "cricket squad list",
+          "reasoning": "This section is a dense list of proper nouns (player names and teams) which matches the neuron's pattern for multiple proper nouns in a formal context."
+        },
+        {
+          "rank": 2,
+          "text": "AUSTRALIA: Aaron Finch (captain), Usman Khawaja, Shaun Marsh, Peter Handscomb, Glenn Maxwell, Ashton Turner, Marcus Stoinis, Alex Carey, Pat Cummins, Nathan Coulter-Nile, Jhye Richardson, Kane Richardson, Jason Behrendorff, Nathan Lyon, Adam Zampa.",
+          "concept": "cricket squad list",
+          "reasoning": "This section is a dense list of proper nouns (player names) which matches the neuron's pattern for multiple proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "About Pakistan, there have been some serious debate over selectors’ decision of resting six important players - Sarfraz, Babar Azam, Fakhar Zaman, Hasan Ali, Shadab Khan and Shaheen Shah Afridi - just ahead of the World Cup. In their absence, the likes of Haris Sohail, Junaid Khan, Umar Akmal, Yasir Shah, Abid Ali, Mohammad Abbas, Mohammad Hasnain and Saad will look to make of this opportunity to push their names for the World Cup.",
+          "concept": "cricket player lists",
+          "reasoning": "This section contains multiple proper nouns (player names and tournaments) in a journalistic context."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 348,
+      "normalized": 8.142403602600098,
+      "actual_text": ", 2015. Print Prominent Bahraini rights activist Nabeel Rajab has been released from prison pending a trial on charges of circulating inaccurate information",
+      "plain_text": "FILE - Bahraini human rights activist Nabeel Rajab arrives for his appeal hearing at court in Manama, Feb. 11, 2015. Print Prominent Bahraini rights activist Nabeel Rajab has been released from prison pending a trial on charges of circulating inaccurate information and posting a series of insults on Twitter. Rajab's lawyer said his client was released after a long court hearing on Wednesday. Rajab's release comes after numerous requests to be freed due to recurring health problems. A judicial source said the court postponed his trial until January 23. Rajab was arrested in June for the tweets. He is also under investigation for letters that were published in his name by The New York Times and the French newspaper Le Monde while he was incarcerated. Unrest has plagued the mostly-Shi'ite island nation since 2011.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Rajab was arrested in June for the tweets. He is also under investigation for letters that were published in his name by The New York Times and the French newspaper Le Monde while he was incarcerated. Unrest has plagued the mostly-Shi'ite island nation since 2011.",
+          "concept": "international media investigation",
+          "reasoning": "This section mentions multiple proper nouns (The New York Times, Le Monde) in a formal news context."
+        },
+        {
+          "rank": 2,
+          "text": "FILE - Bahraini human rights activist Nabeel Rajab arrives for his appeal hearing at court in Manama, Feb. 11, 2015. Print Prominent Bahraini rights activist Nabeel Rajab has been released from prison pending a trial on charges of circulating inaccurate information and posting a series of insults on Twitter.",
+          "concept": "human rights activist case",
+          "reasoning": "This section introduces a proper noun (Nabeel Rajab) and a location (Manama) in a journalistic report."
+        },
+        {
+          "rank": 3,
+          "text": "Rajab's lawyer said his client was released after a long court hearing on Wednesday. Rajab's release comes after numerous requests to be freed due to recurring health problems. A judicial source said the court postponed his trial until January 23.",
+          "concept": "legal proceedings",
+          "reasoning": "This section contains fewer proper nouns but is part of a formal news report on a legal case."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00009",
+      "row_idx": 1264,
+      "normalized": 6.990313529968262,
+      "actual_text": "tteilnehmer, anders als die Fed, deutliche Rezessionssorgen hege. Der Dollar-Ausblick hänge letztendlich daran,",
+      "plain_text": "Der Eurokurs  Der US-Dollar hatte auf die Leitzinserhöhung durch die US-Notenbank Fed am Mittwoch zunächst noch mit Kursgewinnen reagiert. Schließlich hatte die Fed für 2019 und 2020 insgesamt immerhin noch drei weitere Leitzinserhöhungen in Aussicht gestellt. Sie geht weiterhin von einer robusten Konjunkturentwicklung aus. Am Donnerstag setzte am Devisenmarkt jedoch eine kräftige Gegenbewegung ein und der Dollar geriet unter Druck. \"Das Problem: Der Markt glaubt offensichtlich nicht an das Szenario der Fed\", kommentierte Esther Reichelt, Devisenexpertin bei der Commerzbank. Die Entwicklung am US-Anleihemarkt deutet darauf hin, dass das Gros der Marktteilnehmer, anders als die Fed, deutliche Rezessionssorgen hege. Der Dollar-Ausblick hänge letztendlich daran, wer Recht behalte: Der Markt oder die Fed. Am Nachmittag gab der Euro jedoch einen Teil seiner Gewinne wieder ab, nachdem er kurzzeitig bis auf fast 1,15 Dollar gestiegen war. Zu anderen wichtigen Währungen legte die EZB die Referenzkurse für einen Euro auf 0,90335 (0,90318) britische Pfund, 127,94 (128,11) japanische Yen und 1,1331 (1,1328) Schweizer Franken fest. Die Feinunze Gold (31,1 Gramm) wurde am Nachmittag in London mit 1256,47 Dollar gehandelt. Das waren 13,38 Dollar mehr als am Dienstag./jsl/elm/mis ISIN EU0009652759 AXC0232 2018-12-20/17:08",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Zu anderen wichtigen Währungen legte die EZB die Referenzkurse für einen Euro auf 0,90335 (0,90318) britische Pfund, 127,94 (128,11) japanische Yen und 1,1331 (1,1328) Schweizer Franken fest. Die Feinunze Gold (31,1 Gramm) wurde am Nachmittag in London mit 1256,47 Dollar gehandelt.",
+          "concept": "central bank and currencies",
+          "reasoning": "This section contains multiple proper nouns (EZB, London, currency names) in a financial news context."
+        },
+        {
+          "rank": 2,
+          "text": "\"Das Problem: Der Markt glaubt offensichtlich nicht an das Szenario der Fed\", kommentierte Esther Reichelt, Devisenexpertin bei der Commerzbank. Die Entwicklung am US-Anleihemarkt deutet darauf hin, dass das Gros der Marktteilnehmer, anders als die Fed, deutliche Rezessionssorgen hege.",
+          "concept": "financial expert commentary",
+          "reasoning": "This section mentions a person (Esther Reichelt) and an organization (Commerzbank) in a formal financial report."
+        },
+        {
+          "rank": 3,
+          "text": "Der Eurokurs  Der US-Dollar hatte auf die Leitzinserhöhung durch die US-Notenbank Fed am Mittwoch zunächst noch mit Kursgewinnen reagiert. Schließlich hatte die Fed für 2019 und 2020 insgesamt immerhin noch drei weitere Leitzinserhöhungen in Aussicht gestellt. Sie geht weiterhin von einer robusten Konjunkturentwicklung aus.",
+          "concept": "central bank policy",
+          "reasoning": "This section mentions the US Federal Reserve (Fed) multiple times in a formal economic context."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 3300,
+      "normalized": 0.0,
+      "actual_text": "SC rejects EC plea, says citizens have a right to know what transpires in court",
+      "plain_text": "SC rejects EC plea, says citizens have a right to know what transpires in court proceedings, we are \"staunch proponent\" of media freedom PTI | New Delhi | Updated: 06-05-2021 21:32 IST | Created: 06-05-2021 21:30 IST Holding that citizens have a right to know what transpires in judicial proceedings, the Supreme Court on Thursday rejected the plea by the Election Commission(EC) that the media be restrained from reporting oral observations after the Madras High Court remarked that the poll body was ''singularly'' responsible for the surge in COVID cases.  The top court said it is a \"staunch proponent of freedom of media\" to report court proceedings and that the EC's contention that press should be reporting orders only and not observations struck at principles of open court and the fundamental right to freedom of speech under Constitution. Freedom of speech ''extends to reporting proceedings of judicial institutions as well,'' it added.  It also rejected the plea of the EC seeking expunction of the remarks of the Madras High Court, holding that the oral observations were not part of \"official judicial record\" and therefore the question of expunging them does not arise.  The high court had on April 26 castigated the EC for the surge in COVID-19 cases during the second wave of the pandemic, orally observing that it was ''singularly'' responsible for the spread of the viral disease and called it the ''the most irresponsible institution'' and even said its officials may be booked under murder charges.  A bench comprising justices D Y Chandrachud and M R Shah while referring to the Constitutional importance of high courts and the EC said it has attempted to strike a balance, and emphasized there was a \"need for judges to exercise caution in off-the-cuff remarks in open court, which may be susceptible to misinterpretation\".  The verdict came on an appeal by the EC against the Madras High Court's observations.  \"It is trite to say that a formal opinion of a judicial institution is reflected through its judgments and orders, and not its oral observations during the hearing. Hence...we find no substance in the prayer of the EC for restraining the media from reporting on court proceedings,'' it said.  \"This Court stands as a staunch proponent of the freedom of the media to report court proceedings. This we believe is integral to the freedom of speech and expression of those who speak, of those who wish to hear and to be heard and above all, in holding the judiciary accountable to the values which justify its existence as a constitutional institution.'' The court also said an open court proceeding ensures that the judicial process is subject to public scrutiny which is crucial to maintaining transparency and accountability.  Justice Chandrachud, writing the 31-page judgement for the bench, said the duty to preserve independence of the judiciary and to allow freedom of expression of judges in court is one end of the spectrum.  \"The other end of the spectrum, which is equally important, is that the power of judges must not be unbridled and judicial restraint must be exercised, before using strong and scathing language to criticize any individual or institution.'' Referring to the independence of judiciary from the executive and the legislature, the bench said it is the \"cornerstone\" of the republic and such independence translates to being impartial, free from bias and uninfluenced by the actions of those in power, but also recognizes the freedom to judges to conduct court proceedings within the contours of the well-established principles of natural justice.  \"Judges in the performance of their duty must remain faithful to the oath of the office they hold, which requires them to bear allegiance to the Constitution. An independent judiciary must also be one which is accountable to the public in its actions (and omissions),\" it said.  The bench said the ability of citizens to ensure that court remains true to their remit has a direct correlation to the \"seamless availability of information\" about court proceedings and there the importance of freedom of media to comment comes in.  \"Citizens have a right to know about what transpires in the course of judicial proceedings. The dialogue in a court indicates the manner in which a judicial proceeding is structured. Oral arguments are postulated on an open exchange of ideas. It is through such an exchange that legal arguments are tested and analyzed.  \"Arguments addressed before the court, the response of opposing counsel and issues raised by the court are matters on which citizens have a legitimate right to be informed. An open court proceeding ensures that the judicial process is subject to public scrutiny. Public scrutiny is crucial to maintaining transparency and accountability. Transparency in the functioning of democratic institutions is crucial to establish the public's faith in them,\" it said.  Stating that it has been tasked with balancing of rights of two independent constitutional authorities, Madras High Court and the EC, the apex court said the Indian legal system is founded on the principle that open access to courts is essential to safeguard valuable constitutional freedom and the concept of an open court requires that information relating to the proceeding must be available in public domain.  \"As we understand the rights of the media to report and disseminate issues and events, including court proceedings that are a part of the public domain, it is important to contextualize that this is not merely an aspect of protecting the rights of individuals and entities on reporting, but also a part of the process of augmenting the integrity of the judiciary….'' The court also praised the poll panel for its \"track record\" of being an independent constitutional body which shoulders a significant burden in ensuring the sanctity of electoral democracy.  \"Language, both of the Bench and in judgments, must comport with judicial propriety. Language is an important instrument of a judicial process which is sensitive to constitutional values. Judicial language is a window to a conscience sensitive to constitutional ethos. Bereft of its understated balance, language risks losing its symbolism as a protector of human dignity. The power of judicial review is entrusted to the High Courts under the Constitution...,\" it said.  Praising the high courts across the country, it said they are constantly in touch with ground realities in their jurisdictions and during the pandemic they have shown commendable foresight in ''managing the public health crisis which threatens to submerge humanity''.  \"Their anguish when they come face to face with reality must be understood in that sense. On the other hand is the EC, a constitutional authority tasked with the critical task of undertaking superintendence and control of elections under Article 324 of the Constitution.  ''The EC has facilitated the operation of our constitutional democracy by conducting free and fair elections and regulating conduct around them for over seven decades. Its independence and integrity are essential for democracy to thrive,\" it said.  (This story has not been edited by Devdiscourse staff and is auto-generated from a syndicated feed.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "SC rejects EC plea, says citizens have a right to know what transpires in court proceedings, we are \"staunch proponent\" of media freedom PTI | New Delhi | Updated: 06-05-2021 21:32 IST | Created: 06-05-2021 21:30 IST Holding that citizens have a right to know what transpires in judicial proceedings, the Supreme Court on Thursday rejected the plea by the Election Commission(EC) that the media be restrained from reporting oral observations after the Madras High Court remarked that the poll body was ''singularly'' responsible for the surge in COVID cases.",
+          "concept": "supreme court ruling",
+          "reasoning": "This section contains multiple proper nouns (SC, EC, PTI, New Delhi, Supreme Court, Election Commission, Madras High Court) in a formal news headline."
+        },
+        {
+          "rank": 2,
+          "text": "A bench comprising justices D Y Chandrachud and M R Shah while referring to the Constitutional importance of high courts and the EC said it has attempted to strike a balance, and emphasized there was a \"need for judges to exercise caution in off-the-cuff remarks in open court, which may be susceptible to misinterpretation\".",
+          "concept": "judicial bench",
+          "reasoning": "This section names specific justices (D Y Chandrachud, M R Shah) and refers to high courts and the EC in a formal legal context."
+        },
+        {
+          "rank": 3,
+          "text": "Stating that it has been tasked with balancing of rights of two independent constitutional authorities, Madras High Court and the EC, the apex court said the Indian legal system is founded on the principle that open access to courts is essential to safeguard valuable constitutional freedom and the concept of an open court requires that information relating to the proceeding must be available in public domain.",
+          "concept": "constitutional authorities",
+          "reasoning": "This section mentions Madras High Court and the Election Commission as constitutional authorities in a formal legal discussion."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 4828,
+      "normalized": 0.0,
+      "actual_text": "Mastercard is seeking a role in the development of China’s central bank digital currency (",
+      "plain_text": "Mastercard is seeking a role in the development of China’s central bank digital currency (CBDC) by supporting the use of the digital yuan for cross-border transactions and its conversion to and from foreign currencies, according to South China Morning Post (SCMP).  Mastercard Asia-Pacific co-president Ling Hai confirmed in an interview with the Hong Kong-based publication that the People’s Bank of China (PBOC) is one of a number of central banks that the card network is in discussion with in order “to enable cross-border use of their respective digital currencies”.  “Central bank digital currencies such as that being piloted by Beijing could be circulated outside their home countries and converted into foreign currencies via a card clearing network acting as the conversion agent,” Ling Hai said.  Prepaid card  Ling Hai also indicated that Mastercard may be considering a prepaid card enabling users to store and convert digital yuan similar to the one it launched in the Bahamas for storing and converting the country’s Sand Dollar CBDC.  “Extending the experience of the Bahamas Sand dollar, in the future a Hong Kong resident with a prepaid card could convert their Hong Kong dollars into digital yuan and reduce the need for currency conversion when travelling within the bay area,” SCMP says.  “While central banks can address their domestic issues associated with digital sovereign currencies, the role we can always play is on interoperability, when the payment goes beyond a country’s borders,” Ling Hai added.  “For us, supporting a central bank digital currency is similar to adding another fiat currency onto our network.  “Conversion across a hybrid of both fiat and digital currencies could hold the key to broadening merchants’ acceptance of central bank digital currencies.”  The PBOC unveiled its CBDC ‘Bridge’ project with the Hong Kong Monetary Authority, the Bank of Thailand and the Central Bank of the UAE to explore the use of digital currency cross-border payments in February.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The PBOC unveiled its CBDC ‘Bridge’ project with the Hong Kong Monetary Authority, the Bank of Thailand and the Central Bank of the UAE to explore the use of digital currency cross-border payments in February.",
+          "concept": "central bank collaboration",
+          "reasoning": "This section lists multiple central bank names (PBOC, Hong Kong Monetary Authority, Bank of Thailand, Central Bank of the UAE) in a formal financial news context."
+        },
+        {
+          "rank": 2,
+          "text": "Mastercard Asia-Pacific co-president Ling Hai confirmed in an interview with the Hong Kong-based publication that the People’s Bank of China (PBOC) is one of a number of central banks that the card network is in discussion with in order “to enable cross-border use of their respective digital currencies”.",
+          "concept": "corporate executive statement",
+          "reasoning": "This section contains proper nouns (Mastercard Asia-Pacific, Ling Hai, People’s Bank of China) in a formal business news context."
+        },
+        {
+          "rank": 3,
+          "text": "Prepaid card  Ling Hai also indicated that Mastercard may be considering a prepaid card enabling users to store and convert digital yuan similar to the one it launched in the Bahamas for storing and converting the country’s Sand Dollar CBDC.",
+          "concept": "digital currency initiatives",
+          "reasoning": "This section mentions proper nouns (Ling Hai, Mastercard, Bahamas, Sand Dollar CBDC) related to digital currency projects."
+        }
+      ]
+    }
+  ]
+}

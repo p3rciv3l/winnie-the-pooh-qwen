@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_15852",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper names (especially \"Peter\" and its variants) followed by contact information, citations, or attributions** (such as \"Peter Hegseth... one\", \"please visit www.Phonexa.com\", or \"says Patrick Grady, CEO of...\").\n\n2. **Domain coverage**: The pattern appears across English-language news, blog, and corporate text, often in contexts quoting or referencing individuals (politicians, executives, authors) or providing follow-up details (URLs, phone numbers, instructions like \"please click here\"). It also activates for non-English names (e.g., German \"Gregor Peter Schmitz,\" Chinese \"Tang Yuxiang\") and extends to phrases like \"please call\" or \"please visit\" even without a clear name, provided they appear in an attributive or referential context.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generic news snippets, headlines, or descriptive sentences lacking both a specific named person and an adjacent pointer to external sources or contact details. They discuss general topics (workforce trends, committee hearings, health issues) without referencing a particular individual's statement or directing the reader to further action or information.\n\n4. **Closing interpretation**: The neuron detects textual markers of **referential or attributive framing**, where a named entity is associated with a source, citation, or actionable follow-up. It likely serves to identify spans where the text points to external authorities, sources, or resources.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "regardless of what an individual\u2019s bank statement looks like. For Downtown Clinic Executive Director Pete Gosar, this mindset is a way of life. The Downtown Clinic opened in",
+      "normalized_activation": 9.609384536743164,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0964,
+          "meaning_score": 0.5734,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2679
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0964,
+          "meaning_score": 0.3246,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1684
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0964,
+          "meaning_score": 0.3065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1612
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u00e0 da una forma di detonazione\u201d, ha spiegato all\u2019Afp Peter Schmidt della Rete nazionale sismica svedese. Infine",
+      "normalized_activation": 8.459260940551758,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1271,
+          "meaning_score": 0.8171,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3777
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1271,
+          "meaning_score": 0.3997,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2107
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1271,
+          "meaning_score": 0.2909,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1672
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "780 yuan * Oct M2 money supply up 8.8 pct y/y, vs f\u2018cast 9.2 pct * Oct TSF",
+      "normalized_activation": 7.361424446105957,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2181,
+          "meaning_score": 0.4811,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2797
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1672,
+          "meaning_score": 0.4237,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2364
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2181,
+          "meaning_score": 0.3483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2266
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Bahraini Jailed For \u2018Insulting King\u2019 Deported, Says Amnesty",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2224,
+          "meaning_score": 0.8158,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4153
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2223,
+          "meaning_score": 0.5784,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3203
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2223,
+          "meaning_score": 0.4299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2609
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Lewis, Kemp top Women's Australian Open Updated: February 09,",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1179,
+          "meaning_score": 0.3503,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1873
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1179,
+          "meaning_score": 0.5167,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2539
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1179,
+          "meaning_score": 0.3279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1783
+        }
+      ]
+    }
+  ]
+}

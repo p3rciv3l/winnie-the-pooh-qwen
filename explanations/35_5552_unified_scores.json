@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_5552",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing ongoing geopolitical events, natural disasters, or institutional actions** (such as reports of military attacks, natural disaster impacts, political decisions, or scientific missions), particularly when they are presented in a factual, news-reporting style.\n\n2. **Domain coverage**: The pattern appears in multilingual news or current-events reporting. Examples span languages including German, Polish, Spanish, Arabic, Persian, and Italian, covering topics like armed conflict (\"Wojska rosyjskie... ostrza\u0142 Ukrainy\"), natural disasters (\"terremoto... catanese\"), political/legal actions (\"investigating the construction... illegal logging\"), and space agency operations (\"Europejskiej Agencji Kosmicznej\"). The text is typically mid-sentence, focusing on consequential, real-world developments.\n\n3. **Contrast with low-activation examples**: The low-activation texts are dominated by English-language commercial announcements, entertainment news, marketing, internal corporate updates, and general lifestyle topics (e.g., school choice, Marvel LEGO sets, beauty treatments). They lack the sense of immediate, real-world consequence and institutional scope found in the high-activation group. The neuron specifically ignores promotional, speculative, or routine informational content.\n\n4. **Closing interpretation**: This neuron detects formal, reportive language concerning significant and timely real-world incidents, often with an international or institutional dimension. It functions as a filter for newsworthy, consequential updates across multiple languages, while filtering out promotional, entertainment, and routine commercial discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u00ae stato portato a un livello completamente nuovo, con un paesaggio ricco di valli rocciose e un'abbondante vegetazione",
+      "normalized_activation": 9.755725860595703,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1881,
+          "meaning_score": 0.3196,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2031
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1072,
+          "meaning_score": 0.3695,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1907
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1196,
+          "meaning_score": 0.5216,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2565
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "la ciudad\u201d, se\u00f1ala la arquitecta Aguirre. El primer piso de La Sagrada Familia se dise\u00f1\u00f3 la plataforma comercial donde llegar",
+      "normalized_activation": 9.155421257019043,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1572,
+          "meaning_score": 0.1945,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1407
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1135,
+          "meaning_score": 0.4998,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2453
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1297,
+          "meaning_score": 0.451,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2323
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "iche potrebbero aver luogo oggi tramite telefono o chat video. I concetti potrebbero essere profondi, esaltanti e stimolanti",
+      "normalized_activation": 8.463226318359375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.155,
+          "meaning_score": 0.2488,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1615
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1349,
+          "meaning_score": 0.2583,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1573
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1638,
+          "meaning_score": 0.3341,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1991
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Australian pop princess Kylie Minogue will collaborate with Welsh actor Luke Evans on a new song",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3076,
+          "meaning_score": 0.9432,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7003
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2523,
+          "meaning_score": 0.6456,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3592
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1857,
+          "meaning_score": 0.4533,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2556
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Okay, I admit it. I'm a sucker for a child singing at Christmas,",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2024,
+          "meaning_score": 0.8252,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.611
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1676,
+          "meaning_score": 0.2415,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1636
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2363,
+          "meaning_score": 0.0578,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1176
+        }
+      ]
+    }
+  ]
+}

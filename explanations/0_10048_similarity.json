@@ -1,0 +1,210 @@
+{
+  "neuron_id": "0_10048",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing attempts, efforts, or challenges, often in the face of difficulty or obstruction** (such as people \"trying to\" flee or achieve something, tasks described as \"difficult to\" accomplish, or entities being \"unable to\" operate or respond).\n\n2. **Domain coverage**: The pattern appears across diverse English-language news, commentary, and descriptive text. Topics include geopolitical conflicts (Russians \"trying to join an exodus\"), legal/regulatory struggles (\"trying to shut all of us up\"), business hurdles (\"unable to operate\"), athletic/logistical challenges (\"difficult to schedule\"), and personal efforts (\"wanted to try and capture\"). The low-activation examples are often non-English text fragments, simple event reports, or boilerplate announcements lacking this semantic of attempted action against difficulty.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain verbs of effort (\"try,\" \"attempt,\" \"struggle\") or adjectives/adverbs describing difficulty (\"difficult,\" \"unable\"), frequently within infinitive clauses (\"to join,\" \"to access,\" \"to isolate\"). The low-activation examples are typically short, factual snippets in various languages, headlines, or simple statements that lack this specific grammatical and semantic construct of an attempted action encountering an obstacle.\n\n4. **Closing interpretation**: The neuron detects a specific semantic-syntactic pattern: clauses expressing an agent's effort toward a goal, often explicitly framed as challenging, obstructed, or potentially failing. It functions less as a topic detector and more as a linguistic filter for expressions of attempted action under constraint.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "It's typical of Sony to shun the accepted wisdom of LCD and DLP projection and",
+      "normalized_activation": 9.774633407592773,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.444409,
+          "actual_text_slice": [
+            0,
+            78
+          ],
+          "prediction_text_slice": [
+            2688,
+            2961
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.326988,
+          "actual_text_slice": [
+            0,
+            78
+          ],
+          "prediction_text_slice": [
+            1670,
+            2001
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.55473,
+          "actual_text_slice": [
+            0,
+            78
+          ],
+          "prediction_text_slice": [
+            3799,
+            4100
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the metro area. \"There are hungry people everywhere. We just want to try to help any way we can,\" Randy Miller says. \"Can by can",
+      "normalized_activation": 9.262121200561523,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.759842,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.51433,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            2179,
+            2361
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.395938,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "events of Captain Marvel. \u201cKevin Feige had messaged me, letting me know about Maria\u2019s demise. [Characters] spoke of it in WandaVision,",
+      "normalized_activation": 8.712007522583008,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.612574,
+          "actual_text_slice": [
+            1002,
+            1136
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.481502,
+          "actual_text_slice": [
+            1002,
+            1136
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.609748,
+          "actual_text_slice": [
+            1002,
+            1136
+          ],
+          "prediction_text_slice": [
+            1966,
+            2160
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Jakarta, Beritasatu.com - Sejumlah mobil mewah terkait",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.3473,
+          "actual_text_slice": [
+            0,
+            54
+          ],
+          "prediction_text_slice": [
+            1204,
+            1677
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.513053,
+          "actual_text_slice": [
+            0,
+            54
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.608501,
+          "actual_text_slice": [
+            0,
+            54
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Related hotnewhiphop.com The Air Jordan 6 \u201cCool Grey\u201d now has",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.373955,
+          "actual_text_slice": [
+            0,
+            61
+          ],
+          "prediction_text_slice": [
+            1094,
+            1426
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.255795,
+          "actual_text_slice": [
+            0,
+            61
+          ],
+          "prediction_text_slice": [
+            5178,
+            5390
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.156114,
+          "actual_text_slice": [
+            0,
+            61
+          ],
+          "prediction_text_slice": [
+            6167,
+            6382
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

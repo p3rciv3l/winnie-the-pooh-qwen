@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_5525",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid\u2011sentence or paragraph\u2011internal text fragments** (such as quoted speech, continuations after a comma or ellipsis, or text that clearly follows a prior clause) across multiple languages and topics.\n\n2. **Domain coverage**: The pattern appears in news excerpts, financial reports, political commentary, disaster descriptions, and personal narratives, spanning languages including Arabic, Ukrainian, Italian, Spanish, Hindi, German, Romanian, and others. High\u2011activation examples often begin with connectors, partial phrases, or quoted material (e.g., \u201c\u0646\u064a\u060c \u0625\u0646\u0627 \u0644\u0644\u0647...\u201d, \u201cfatturato: -13,4%...\u201d, \u201ccon protagon... \u25ba cubemagazine...\u201d), suggesting they are extracted from the middle of a longer discourse.\n\n3. **Contrast with low\u2011activation examples**: Low\u2011activation texts are typically self\u2011contained, sentence\u2011initial phrases\u2014often news headlines, standalone statements, or complete introductory sentences (e.g., \u201cA dopey burglar was caught...\u201d, \u201cSwedish telecom equipment maker Ericsson has received...\u201d). They lack the syntactic dependence on preceding text that characterizes the high\u2011activation group.\n\n4. **Closing interpretation**: The neuron detects text that is syntactically or discursively non\u2011initial, focusing on continuations, embedded clauses, and fragments that rely on prior context. It essentially acts as a marker for \u201cin\u2011flow\u201d language rather than opening statements.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ian Johnson's Knives Out is one of them. All brick turrets and spindly spires on the outside, all dark wood and winding staircases on",
+      "normalized_activation": 9.63877010345459,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2288,
+          "meaning_score": 0.394,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2491
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1939,
+          "meaning_score": 0.3949,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2355
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1848,
+          "meaning_score": 0.5359,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2883
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "pe Lun\u0103. Aceast\u0103 rachet\u0103 ardea o cantitate colosal\u0103 de combustibili pentru a propulsa pe orbit\u0103 modulele spa",
+      "normalized_activation": 8.971403121948242,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3334,
+          "meaning_score": 0.5324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3463
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.304,
+          "meaning_score": 0.5591,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3452
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2472,
+          "meaning_score": 0.4965,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2975
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "neit\u00e4. Nyt on henkil\u00f6it\u00e4, joille paluu on ainoa vaihtoehto kalifaatin romahdettua.\u201d \u201d",
+      "normalized_activation": 8.12641429901123,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2577,
+          "meaning_score": 0.3717,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2518
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1267,
+          "meaning_score": 0.2929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1678
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2086,
+          "meaning_score": 0.4968,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2822
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "(The Center Square) \u2013 New lawsuits have been filed against California Gov. Gavin Newsom",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1291,
+          "meaning_score": 0.443,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2288
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1131,
+          "meaning_score": 0.2474,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1442
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1041,
+          "meaning_score": 0.4083,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.205
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1982,
+          "meaning_score": 0.5467,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.298
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1737,
+          "meaning_score": 0.4049,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2314
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1917,
+          "meaning_score": 0.5013,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2772
+        }
+      ]
+    }
+  ]
+}

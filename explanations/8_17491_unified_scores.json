@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_17491",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that mention specific governmental bodies, administrative actions, or authoritative contexts (such as a named administration taking action, a specific government agency issuing a warning, or a formal political/legal process involving identified officials).\n\n2. **Domain coverage**: The neuron activates across news, political reporting, and official statements in multiple languages (English, Spanish, French, Japanese) and geographic contexts. It fires on segments referencing specific administrations (e.g., \"Tinubu administration\"), government agencies (e.g., \"local government,\" \"Agencia Nacional de Gesti\u00f3n de Desastres\"), judicial/legal proceedings (e.g., \"counsel for former President Trump in the Georgia case\"), and authoritative figures or bodies taking formal action (e.g., \"authorities have justified the move,\" \"the Tatmadaw since the group seized power\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete references to specific governmental, administrative, or institutional entities and their formal actions or announcements. The low-activation examples lack these specific, named authoritative references; they are often generic statements, incomplete phrases, cultural commentary, or headlines without the concrete institutional detail that triggers the neuron.\n\n4. **Closing interpretation**: This neuron appears to detect textual references to formal, named structures of authority and governance. It serves as a filter for segments where specific institutions, administrations, or official bodies are central to the narrative, distinguishing them from more general or non-institutional content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "In its assessment of President Bola Tinubu\u2019s cabinet members after one year in office, the Concerned Northern Forum (CN",
+      "normalized_activation": 8.810422897338867,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the aircraft, equipped with Pratt & Whitney\u2019s new and snag-ridden geared turbofan engines, made its first flight of the day from Mumbai to Delhi. An hour",
+      "normalized_activation": 7.573348522186279,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "las placas tect\u00f3nicas FLORENTINO BOH\u00d3RQUEZ JARQU\u00cdN TEHUANTEPEC.- La tarde-no",
+      "normalized_activation": 5.193334579467773,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_12768",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that reference formal institutional actions, announcements, or reporting** (such as financial ownership disclosures, political agency statements, media attribution lines, or legal/court proceedings).\n\n2. **Domain coverage**: The pattern appears across news and formal reporting contexts in multiple languages (English, Arabic, Spanish, Italian, Slovak, etc.), covering domains like finance (stock holdings), politics (government decisions, leadership statements), legal cases, media sourcing (\"Forbes contributor\"), and institutional press releases. It activates on text that often includes proper nouns (organizations, leaders, agencies) and structured, declarative information.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain references to specific institutions (e.g., \"Leavell Investment Management Inc.,\" \"North Korean leader,\" \"party's interim president Sonia Gandhi,\" \"National Trust,\" \"court appointed lawyer\") performing or reporting defined actions. Low-activation examples are more often simple event reports (\"seismic event,\" \"tunnel will be closed\"), generic statements, or headlines lacking this layer of institutional agency or formal attribution.\n\n4. **Closing interpretation**: The neuron appears to detect formal, source-anchored reporting language where an institution, figure, or organization is centrally involved in the statement. It functions as a filter for text that resembles structured news dispatches, official communications, or documented proceedings rather than raw event descriptions or informal updates.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "n\u00famero universal de hoy es el seis. Tu regente, el planetoide Plut\u00f3n est\u00e1 en Capricornio. Buenas nuevas, Escorpi",
+      "normalized_activation": 9.594752311706543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.132,
+          "meaning_score": 0.6984,
+          "overlap_fraction": 0.7946,
+          "location_score": 0.1589,
+          "combined_score": 0.4911
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2001,
+          "meaning_score": 0.5457,
+          "overlap_fraction": 0.1964,
+          "location_score": 0.0393,
+          "combined_score": 0.3376
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0737,
+          "meaning_score": 0.387,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1843
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "former aide has revealed for the first time how he knew the union between her and Charles was falling apart from the calendars of their engagements. As the rocky couple increasingly grew",
+      "normalized_activation": 8.860219955444336,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0944,
+          "meaning_score": 0.3692,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1855
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1895,
+          "meaning_score": 0.5667,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3025
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1761,
+          "meaning_score": 0.4924,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2674
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "over the Spanish and French navies at the Battle of Trafalgar in 1805. One of the songs the supporters were singing was, \u201c",
+      "normalized_activation": 8.003833770751953,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0784,
+          "meaning_score": 0.1207,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0796
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2087,
+          "meaning_score": 0.393,
+          "overlap_fraction": 0.5738,
+          "location_score": 0.1148,
+          "combined_score": 0.3554
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1409,
+          "meaning_score": 0.2584,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1597
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062f\u0648\u0644\u064a\u0629: \u0627\u0646\u062e\u0641\u0627\u0636 \u0637\u0641\u064a\u0641 \u0644\u0645\u0639\u062f\u0644\u0627\u062a \u0627\u0644\u0628\u0637\u0627\u0644\u0629 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629 \u0641\u064a",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1913,
+          "meaning_score": 0.7048,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5584
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1681,
+          "meaning_score": 0.558,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2904
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.169,
+          "meaning_score": 0.5322,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2805
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1384,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4504
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1649,
+          "meaning_score": 0.3071,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1888
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.122,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2058
+        }
+      ]
+    }
+  ]
+}

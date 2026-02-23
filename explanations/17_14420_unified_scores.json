@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_14420",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing **proper nouns, formal titles, or specific named entities** (such as political figures like *Bilawal Bhutto Zardari*, institutions like *Rashtriya Swayamsevak Sangh*, geographic locations like *DMZ*, product specifications like *Mali-T860*, or event names like *Orthodox Christmas*).\n\n2. **Domain coverage**: The pattern appears across diverse domains including international politics, technology news, royalty/monarchy, military affairs, scientific terminology, and corporate announcements. It activates on text in multiple languages (English, Thai, Spanish, Italian, Russian, Swedish, Portuguese) and is especially sensitive to formal or official contexts\u2014such as news dispatches, diplomatic statements, technical specifications, and institutional proclamations.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature specific named entities, titles, or proper nouns that anchor the segment to a concrete subject. Low-activation examples lack these distinctive references; they are more generic, describing general processes, abstract concepts, or unspecific groups (e.g., \u201cthe majority of Finns,\u201d \u201ca regulatory filing,\u201d \u201cthe sector el\u00e9ctrico\u201d) without invoking unique identifiers.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of specificity and formal reference, acting as a named-entity or title-sensitive filter. It signals when text shifts from general description to concrete, identified subjects\u2014often those with institutional, geopolitical, or technical significance.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "stringed instruments \u2014 but in place of the usual lineup (two violins, viola, cello) Arensky calls for two cellos and a lone violin",
+      "normalized_activation": 9.499348640441895,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "omath moved into the second round of their district girls tennis tournament with 6-0, 6-0 wins. Noel Lundeen lost her first match but",
+      "normalized_activation": 8.672812461853027,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Indore (Madhya Pradesh): The Indore Metro project is advancing at a good pace and the authorities have completed",
+      "normalized_activation": 7.745166778564453,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "In a landscape that\u2019s still in its formative stages, Meta, formerly known as",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

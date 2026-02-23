@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_16957",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing geopolitical conflicts, social/political opposition, or territorial disputes** (such as mentions of opposition parties, military offensives, international tensions, protest-related deaths, or contested regions).\n\n2. **Domain coverage**: The pattern appears in multilingual news or political reporting covering: armed conflicts (e.g., Russia-Ukraine, Palestine, Syria), domestic political opposition (e.g., Iran, Ethiopia, Turkey), territorial/regional disputes (e.g., Karabakh, South China Sea), and high-profile incidents of state repression (e.g., Mahsa Amini). Languages include English, Spanish, Russian, Arabic, and others, indicating the neuron detects the semantic content regardless of language.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently reference adversarial actors, contested claims, or overt strife between groups/states. The low-activation examples are mostly local news, routine announcements, commercial issues, or general interest topics devoid of conflict or opposition dynamics (e.g., burglary, Medicaid expansion, product recalls, holiday events).\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting expressions of political, military, or social confrontation, often signaled by proper nouns of factions, leaders, or regions paired with conflict verbs or dispute terminology. It acts as a semantic filter for textual segments involving clashing human institutions or ideologies.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "activist, said Pride\u2019s decision could be an effective way to focus more on the LGBTQ community and, specifically, its marginalized voices. \u201cIf there\u2019s a centring",
+      "normalized_activation": 9.29714298248291,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1867,
+          "meaning_score": 0.3701,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2227
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1588,
+          "meaning_score": 0.5069,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2663
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0753,
+          "meaning_score": 0.4539,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2117
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Federal do Amazonas (Ufam), Joscival Do\u00ea Tukano, o Natal para eles n\u00e3o tem significado algum. Do\u00ea explicou",
+      "normalized_activation": 8.303503036499023,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0963,
+          "meaning_score": 0.5525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2595
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1086,
+          "meaning_score": 0.7466,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3421
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.151,
+          "meaning_score": 0.6299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3124
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Cutremur Rom\u00e2nia. Speciali\u015ftii de la Institutul de Fiz",
+      "normalized_activation": 7.314287185668945,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1534,
+          "meaning_score": 0.6748,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5313
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.087,
+          "meaning_score": 0.493,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.232
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1758,
+          "meaning_score": 0.5405,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2865
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "RE-PUBLISHED FROM Broadcasting and Cable, February 22, 20",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1523,
+          "meaning_score": 0.2926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1779
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2186,
+          "meaning_score": 0.2951,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2055
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1668,
+          "meaning_score": 0.3017,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1874
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Miami Beach Mayor Philip Levine at long last announced his run for Florida's governor today at",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1607,
+          "meaning_score": 0.4711,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2527
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2259,
+          "meaning_score": 0.4181,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2576
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.19,
+          "meaning_score": 0.4892,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2717
+        }
+      ]
+    }
+  ]
+}

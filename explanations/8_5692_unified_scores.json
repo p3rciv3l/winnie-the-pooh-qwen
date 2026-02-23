@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_5692",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **specific named entities (especially geographic locations and institutions) paired with descriptions of significant events, actions, or outcomes** (such as natural disasters in a prefecture, a university's research breakthrough, a political meeting about a failure, or a court's environmental intervention).\n\n2. **Domain coverage**: The pattern appears prominently in news and reportorial text across multiple languages (English, Spanish, Italian, Greek, French, Indonesian) and topics. It activates on references to countries (China, India, Albania), regions (Kumamoto, Kyushu, Hebei), institutions (Supreme Court, universities, parliaments), and specific events (earthquakes, policy meetings, contract awards, scientific methods) when they are conjoined in a factual, declarative context.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a proper noun *and* an associated notable event or consequential action. The low-activation examples either mention entities without a significant attached event (\"The fifth plenum... a gathering of\"), describe generic events without specific named entities (\"Respiratory problems are...\"), or are truncated text fragments that lack this complete \"entity + event/action\" structure.\n\n4. **Closing interpretation**: The neuron appears to detect formal, informational statements where a specific real-world entity is centrally involved in a newsworthy or substantively described situation. It functions as a filter for concrete, reportive clauses in multi-lingual news-like discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "fired with the intent to kill. Forensic anthropologist Carmen Rosa Cardoza, founder of the Peruvian Forensic Anthropology Team (EPAF),",
+      "normalized_activation": 8.990755081176758,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0803,
+          "meaning_score": 0.4796,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.224
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0922,
+          "meaning_score": 0.7931,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3541
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1265,
+          "meaning_score": 0.3756,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "say or do that was wrong? The short answer\u2026 Instead of saying a flat-out \u201cyes\u201d when asked if calling for genocide violated Harvard\u2019s anti-har",
+      "normalized_activation": 7.609341621398926,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1974,
+          "meaning_score": 0.4239,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2485
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1316,
+          "meaning_score": 0.6826,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3257
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2193,
+          "meaning_score": 0.3519,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2285
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "5,000:1 contrast ratio, it doesn\u2019t have HDR10 or Dolby Vision support. While it\u2019s",
+      "normalized_activation": 6.404228210449219,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1639,
+          "meaning_score": 0.3068,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1883
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1252,
+          "meaning_score": 0.3188,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1776
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1467,
+          "meaning_score": 0.2938,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1762
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Health and Medical Education Minister K. Sudhakar on Thursday said the current partial",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1632,
+          "meaning_score": 0.7536,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5667
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.211,
+          "meaning_score": 0.4395,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2602
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1884,
+          "meaning_score": 0.34,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2113
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1787,
+          "meaning_score": 0.4494,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2512
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1897,
+          "meaning_score": 0.6922,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3528
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2156,
+          "meaning_score": 0.5851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3203
+        }
+      ]
+    }
+  ]
+}

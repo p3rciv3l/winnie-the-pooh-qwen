@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18820",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal or structured text segments containing parenthetical citations, publication details, or institutional metadata** (such as book/movie credits with publishers, news agency attributions, government/legal body names in parentheses, or technical references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Polish, Hindi, Turkish, etc.) and domains: international news dispatches (e.g., \"FRANKFURT AM MAIN:\"), academic or bibliographic citations, government/military reports, legal or corporate statements, and technical documentation. High-activation texts often include parenthesized source information, geographic locations, institutional acronyms (NASA, BRICS, LPR), or formal identifiers.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these structured metadata markers. They are generally narrative sentences, opinion/analysis pieces, or informal descriptions (e.g., \"Professor Louw Hoffman... wants people to eat more maggots\") even when discussing similar topics like politics, sports, or health. The absence of parentheticals, colons introducing sources, or institutional tags distinguishes them.\n\n4. **Closing interpretation**: This neuron detects textual formatting associated with reference-style writing or formal reporting, acting as a \"document structure\" detector. It likely helps the model parse citations, attributions, and structured metadata across multilingual corpora.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "iahemmet Hospital this fall amid the global health crisis. Margareta Thorgren, the Swedish Royal Court\u2019s information director, told Swedish newspaper Expressen,",
+      "normalized_activation": 9.15279769897461,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2166,
+          "meaning_score": 0.5701,
+          "overlap_fraction": 0.6312,
+          "location_score": 0.1263,
+          "combined_score": 0.4409
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3052,
+          "meaning_score": 0.5486,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3415
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1525,
+          "meaning_score": 0.4749,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.251
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "starcia Biden-Trump, to wygrywa Donald Trump z przewag\u0105 2,5 punktu procentowego\". Doda\u0142, \u017ce to",
+      "normalized_activation": 7.792782306671143,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1459,
+          "meaning_score": 0.3316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.191
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1546,
+          "meaning_score": 0.4532,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2431
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1818,
+          "meaning_score": 0.4928,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2698
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "join Kangana\u2019s \u2018Lock Up\u2019 along with Nisha Rawal and Munawwar Farooqui. Tiger Shroff is excited to work with Ak",
+      "normalized_activation": 6.594939708709717,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1382,
+          "meaning_score": 0.4155,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2215
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1154,
+          "meaning_score": 0.3035,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1675
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2075,
+          "meaning_score": 0.4703,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2711
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "News Opposition Leader in the Senate Wade Mark. FILE PHOTO \u2013 IN a fractious sitting",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1657,
+          "meaning_score": 0.2871,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1812
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1299,
+          "meaning_score": 0.5852,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.286
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1515,
+          "meaning_score": 0.5324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2736
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1781,
+          "meaning_score": 0.2931,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1885
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0953,
+          "meaning_score": 0.534,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1539,
+          "meaning_score": 0.1276,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1126
+        }
+      ]
+    }
+  ]
+}

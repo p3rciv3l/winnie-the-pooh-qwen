@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_1086",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing proper nouns, institutional names, or specific person/role identifiers, often within journalistic or formal attribution contexts** (such as article bylines, academic citations, named organizations, or references to individuals with titles and locations).\n\n2. **Domain coverage**: The pattern appears across multilingual news, academic, and formal web content. Examples span languages (Spanish, Italian, Turkish, Czech, Estonian, etc.) and topics (seismology, politics, entertainment, sports), but consistently feature specific named entities: e.g., \u201cC.P. Mireles\u201d from Tamaulipas, \u201cObservatorio Vulcanol\u00f3gico y Sismol\u00f3gico (Ovsicori)\u201d, \u201cEuropean Parliament\u201d, \u201cUniversity of Massachusetts \u2013 Fitchburg Family Practice\u201d.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack these detailed named entities or use more generic references (e.g., \u201ca court in Russia\u2019s\u201d, \u201cSouth Korea\u2019s crude oil imports\u201d, \u201cCranston police officer\u201d). They are often shorter news leads or phrases without the layered attribution (person + title + institution + location) common in high-activation examples.\n\n4. **Closing interpretation**: The neuron detects segments where text establishes authority, origin, or specificity through detailed naming conventions. It acts as a filter for formal referential precision, often signaling sourced information or contextual grounding.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "against France and Emmanuel Macron who had defended caricature of Prophet Mohammed. Charlie Hebdo's Republication of Cartoons of Prophet Muhammad A 'Provocation', is '",
+      "normalized_activation": 9.717360496520996,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "in die Zukunft. Die Medienkonferenz der chinesischen Machthaber nach Abschluss des 5. Plenums des 19. Z",
+      "normalized_activation": 9.112275123596191,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "with a cause inspired him to donate his Nobel Prize money towards charity. A Madhouse for the Sanesatirised contemporary Italian politics and fascism. His farce",
+      "normalized_activation": 8.252320289611816,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Mojokerto Family Terrorized with Tombstone Delivered to Their Home english",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

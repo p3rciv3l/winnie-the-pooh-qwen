@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_5102",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing explicit time-of-day references in a news or event-update context** (such as \u201c1:30 p.m.\u201d, \u201cjust after midnight local time\u201d, \u201c8 p.m. ET\u201d, or \u201c04.00 WIB\u201d).\n\n2. **Domain coverage**: The pattern appears predominantly in breaking news, live updates, and event reporting across multiple languages (English, Spanish, Portuguese, Italian, Hindi) and formats. It activates on precise timestamps often paired with phrases like \u201cThe Latest on\u201d, \u201cBreaking news update\u201d, \u201cposted at\u201d, or in reports of earthquakes, flights, ceremonies, and investigations. The time references are typically formatted with a.m./p.m., 24-hour time, time zone abbreviations (ET, GMT, WIB), or the word \u201clocal.\u201d\n\n3. **Contrast with low-activation examples**: The low-activation texts lack specific time-of-day markers in a live-update frame. They include general news, opinion, announcements, or narratives without anchoring to a precise hour/minute of an unfolding event. Even when low-activation texts mention dates, locations, or events, they omit the immediate temporal detail (e.g., \u201cOn Tuesday\u201d or \u201cDecember 21\u201d without a clock time) that characterizes the high-activation set.\n\n4. **Closing interpretation**: This neuron detects linguistic markers of temporal recency and live reporting, serving as a timestamp identifier for real-time or sequentially updated information. It likely helps the model structure event timelines and distinguish between general reporting and time-anchored dispatches.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Taylor\u2019s family will hold a news conference at 10.30am ET on Friday with Crump to speak about the grand jury\u2019s decision not to indict",
+      "normalized_activation": 9.196379661560059,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "percent at 352.4 pence at 1243 GMT. Bookrunners Numis Securities, Peel Hunt, Citigroup , HSBC",
+      "normalized_activation": 6.731344223022461,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "to Bangladesh have been sent to an uninhabited silt island called Bhasan Char, which is accessible only by a three-hour boat ride. This has",
+      "normalized_activation": 4.767735004425049,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "(BIVN) \u2013 Kilauea is not erupting, and the volcano",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

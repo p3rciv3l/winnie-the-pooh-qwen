@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_16067",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing dense sequences of proper nouns and specific named entities** (such as lists of people and places, tournament results with ranked participants, institutional names with locations, or news headlines referencing specific individuals and events).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, German, Romanian, Greek, etc.) and domains including sports rankings (snooker, darts), geographic catalogs (retirement communities, cities), news bylines (journalists, politicians), cultural institutions (museums with accession numbers), and legal/political reports featuring enumerated lists of names. It activates on text where multiple concrete, capitalized, or uniquely identified entities appear in close succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts are more general statements, descriptive prose, or singular announcements without dense enumeration of specific proper nouns. They may mention a topic (e.g., \"Tech giants Facebook, Twitter and Google\") but lack the cascading lists, rankings, or detailed identifiers (like ranks, full titles, or multiple named participants) present in the high-activation set. The low examples are conceptually broad, while the high examples are granular and catalog-like.\n\n4. **Closing interpretation**: The neuron detects passages that serve as informational catalogs or precise references, focusing on textual segments where specificity is achieved through the accumulation of named entities, often with qualifying details like rankings, locations, or titles. It acts as a \"proper noun sequence\" detector across linguistic and topical boundaries.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", \u03b1\u03c6\u03bf\u03cd \u03b7 \u03a1\u03c9\u03c3\u03af\u03b1 \u03b1\u03bd\u03b1\u03b3\u03bd\u03ce\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b7\u03bd \u03b1\u03bd\u03b5\u03be\u03b1\u03c1\u03c4",
+      "normalized_activation": 9.396746635437012,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ",000 personas han sido evacuadas en las prefecturas de Ishikawa, Toyama y \u00e1reas circundantes. Los servicios de transporte a\u00e9",
+      "normalized_activation": 8.282139778137207,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u017ce tw\u00f3rcy gry zaprojektowali oryginalnych przeciwnik\u00f3w. Mim, splatacz, telepata, fantom",
+      "normalized_activation": 6.897451400756836,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

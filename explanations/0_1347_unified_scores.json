@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_1347",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of individuals with formal titles and roles** (such as *Vice President*, *Managing Director*, *Executive Director*, *Director*, *Secretary of State*, or *Chief Executive Officer*) when those titles immediately precede or follow a proper name.\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or formal reporting about politics, government, business, academia, and NGOs. Examples span U.S. and international contexts (e.g., Biden, Pence, Deloitte, Ghana Publishing Company, Swedish National Seismic Network). The neuron activates for both real and fictional titled individuals (e.g., Selina Meyer from *Veep*), indicating it targets the linguistic structure rather than specific entities.\n\n3. **Contrast with low-activation examples**: The low-activation texts either are in non-English languages (Tamil, Greek, Spanish, Urdu, etc.) or, if in English, lack the \"formal title + proper name\" construction. They discuss general news, natural events, or descriptions without introducing a specific authoritative figure with their official title.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic-semantic pattern: a proper noun phrase modified by a high-status occupational or organizational title. It functions as a \"person-in-position\" identifier, keying on the coupling of a title and a name as a marker of authoritative attribution in discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "as digital purchases has accelerated significant during the pandemic. RS Sodhi, Managing Director of Amul, during a panel discussion at a FICCI event pointed out",
+      "normalized_activation": 9.68732738494873,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5998,
+          "meaning_score": 0.8062,
+          "overlap_fraction": 0.5652,
+          "location_score": 0.113,
+          "combined_score": 0.6754
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5389,
+          "meaning_score": 0.5747,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4454
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4159,
+          "meaning_score": 0.4851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3604
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "pensions for the foreseeable future due to a protracted demographic crisis, the deputy head of the Ukrainian Ministry of Social Policy, Darya Marchak, has said. Speaking",
+      "normalized_activation": 8.883004188537598,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1406,
+          "meaning_score": 0.5863,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2908
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2101,
+          "meaning_score": 0.8448,
+          "overlap_fraction": 0.9467,
+          "location_score": 0.1893,
+          "combined_score": 0.6113
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2628,
+          "meaning_score": 0.4941,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3028
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", as well as notable directors, producers, and other entertainment executives. Executive Director and President Dr. Thyonne Gordon of She Ready Foundation shared, \u201cT",
+      "normalized_activation": 8.032204627990723,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1263,
+          "meaning_score": 0.4019,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2113
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.12,
+          "meaning_score": 0.7131,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3332
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2334,
+          "meaning_score": 0.4831,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2866
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "El primero se produjo en Dei\u00e0 y unas dos horas m\u00e1s tarde la ti",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1236,
+          "meaning_score": 0.3163,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.176
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1917,
+          "meaning_score": 0.3666,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2233
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.243,
+          "meaning_score": 0.3907,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2535
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "LONDON (Sputnik) \u2014 On Thursday, The Times newspaper published an article",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1093,
+          "meaning_score": 0.3135,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1691
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1764,
+          "meaning_score": 0.2618,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1753
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1387,
+          "meaning_score": 0.3178,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1826
+        }
+      ]
+    }
+  ]
+}

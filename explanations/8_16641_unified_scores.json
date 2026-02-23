@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_16641",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the character sequence \"Phil\" or its variants (such as \"Phil\" as a name prefix, \"fili\" in Romance languages, or \"\u0641\u064a\u0644\" in Arabic script)**.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Portuguese, Arabic, Greek, Turkish) and diverse topics\u2014including politics, philosophy, royalty, sports, and music\u2014whenever the text contains the specific substring. Examples range from names (Phil Grucci, Phil Murphy, Felipe, Filippo) to derived words (\"philosophy,\" \"filial\u0103\") and transliterations.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the \"Phil\"/\"fili\" character sequence. While the low-activation group is also multilingual and topically varied, it contains no instances of this specific string, confirming the neuron is detecting a surface-level character pattern rather than a semantic concept.\n\n4. **Closing interpretation**: This neuron functions as a character n-gram detector for a specific name-root substring. It activates based on orthographic coincidence, not on a coherent semantic field or topic.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "jutits, men det g\u00e4ller ocks\u00e5 att acceptera faktum. Filippinerna har blivit s\u00e4krare nu. Till viss",
+      "normalized_activation": 8.063469886779785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4055,
+          "meaning_score": 0.5053,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3643
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4055,
+          "meaning_score": 0.4215,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3308
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4055,
+          "meaning_score": 0.4619,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.347
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "acesso a todos os conte\u00fados exclusivos, colunistas, acessos ilimitados e descontos em lojas, farm\u00e1cias e muito mais",
+      "normalized_activation": 3.8895809650421143,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0905,
+          "meaning_score": 0.1997,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1161
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0905,
+          "meaning_score": 0.3462,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1747
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0905,
+          "meaning_score": 0.2739,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1457
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "al mercado a conseguir los ingredientes con tan solo un f\u00f3sforo para iluminarse. Aunque Vicky fue la participante que m\u00e1s grit\u00f3,",
+      "normalized_activation": 2.020960569381714,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0907,
+          "meaning_score": 0.4741,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2259
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0907,
+          "meaning_score": 0.4804,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2285
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0907,
+          "meaning_score": 0.8154,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3624
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "MILWAUKEE (AP) \u2014 The family of a Milwaukee man killed",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3154,
+          "meaning_score": 0.655,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5881
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3154,
+          "meaning_score": 0.3758,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2765
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3154,
+          "meaning_score": 0.2845,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2399
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Commander Hadfield, Space Oddity Commander Chris Hadfield has been to space",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1454,
+          "meaning_score": 0.8953,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4163
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1455,
+          "meaning_score": 0.6697,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3261
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1455,
+          "meaning_score": 0.5903,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2943
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "neuron_id": "17_19082",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of racial, ethnic, or minority group identities and related social justice issues** (such as references to \"Black,\" \"people of color,\" \"Latino,\" \"diversity,\" \"BIPOC,\" or discussions of police violence, inequality, and representation).\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news, political commentary, and institutional reporting. It activates on topics including police violence against Black individuals, diversity initiatives, healthcare disparities, political representation (e.g., \"Black Caucus\"), cultural content (\"Black History Month\"), and social movements (\"Black Lives Matter\"). Mentions of other ethnic identities (e.g., \"Latino,\" \"Chinese American,\" \"Hispanic\") also trigger moderate activation, showing the neuron generalizes beyond a single group.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any reference to racial, ethnic, or minority identities. They consist of crime reports, non-English news snippets, local government notices, technical announcements, and generic business or weather reports. The neuron fires near zero when the text is linguistically non-English (Spanish, Polish, Swedish, etc.) or when the topic is unrelated to identity, discrimination, or diversity.\n\n4. **Closing interpretation**: This neuron detects textual segments where human racial or ethnic identity is explicitly foregrounded, particularly within sociopolitical contexts of conflict, inequality, advocacy, or institutional policy. It functions as a semantic filter for discussions of identity-based social dynamics.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and Exhibition Center. The 40-year-old mother of two is the first Black woman to hold a statewide office in Massachusetts. \"My hope is that every",
+      "normalized_activation": 9.429991722106934,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2897,
+          "meaning_score": 0.7735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4253
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.242,
+          "meaning_score": 0.5073,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2997
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1108,
+          "meaning_score": 0.4589,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2279
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.242,
+          "meaning_score": 0.5417,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3135
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "a planned regional pipeline from Lake Huron. At that time, the impoverished majority-black city of nearly 100,000 residents was under control of",
+      "normalized_activation": 7.992191791534424,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3854,
+          "meaning_score": 0.6807,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6264
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2315,
+          "meaning_score": 0.3857,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2468
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1849,
+          "meaning_score": 0.3417,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2107
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "police reform measures since George Floyd\u2019s death sparked a national reckoning on policing and racial justice. The Senate is widely expected to pass a bipartisan package today and send it",
+      "normalized_activation": 5.818515300750732,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3214,
+          "meaning_score": 0.7673,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6355
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.172,
+          "meaning_score": 0.5268,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2795
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1756,
+          "meaning_score": 0.3851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2243
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Le Leader mondial de l\u00e2\u20ac\u2122\u00c3\u00a9ducation de l\u00e2\u20ac\u2122enseign",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1163,
+          "meaning_score": 0.4334,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4199
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1418,
+          "meaning_score": 0.322,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1855
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1879,
+          "meaning_score": 0.2711,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1836
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Maine Department of Education is pleased to announce the Maine State Selection Committee for the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2472,
+          "meaning_score": 0.6377,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.554
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3858,
+          "meaning_score": 0.4456,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3325
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2897,
+          "meaning_score": 0.3996,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2757
+        }
+      ]
+    }
+  ]
+}

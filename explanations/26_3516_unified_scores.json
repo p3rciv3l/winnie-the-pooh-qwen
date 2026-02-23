@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_3516",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities within formal or journalistic reporting contexts** (such as references to people like *Jeff Sessions* or *Jeff Driskel*, company/financial updates like *FTSEurofirst 300*, or multilingual news snippets containing names and specific details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, Vietnamese, Russian, etc.) and topics\u2014including legal cases, financial markets, sports, politics, and entertainment news. It activates most strongly on text segments that resemble news agency dispatches, stock tickers, or structured reports containing named individuals, organizations, or locations alongside contextual details (dates, titles, numerical data).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense proper nouns and specific entities embedded in informational prose, while low-activation examples are more generic news headlines or descriptive passages without prominent named entities (e.g., *\u201cA 7.3-magnitude quake hit southern Qinghai\u201d* lacks the specific person/organization focus). Even when low-activation examples mention names (e.g., *Javon Hargrave*), they appear in simpler, less contextually dense sentences.\n\n4. **Closing interpretation**: The neuron detects formal, entity-rich text segments characteristic of news wires or structured reporting, with a particular sensitivity to multilingual proper nouns and referential details. It appears to act as a \u201cnamed-entity-in-context\u201d detector, firing when textual snippets pack specific names alongside associated factual information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "A.K.Educational Consultants were honoured in a ceremony graced by Dr Amit Kamle, Director of A.K.Educational Consultants, and Marina Viktrov",
+      "normalized_activation": 9.091885566711426,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0978,
+          "meaning_score": 0.5518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2599
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0908,
+          "meaning_score": 0.82,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5643
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1398,
+          "meaning_score": 0.5629,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2811
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0639\u0634\u0631\u0627\u062a \u0627\u0644\u0634\u0647\u062f\u0627\u0621 \u0648\u0627\u0644\u062c\u0631\u062d\u0649\u060c \u0648\u0633\u0637 \u0643\u0627\u0631\u062b\u0629 \u0625\u0646\u0633\u0627\u0646\u064a\u0629 \u0645\u062a\u0641\u0627\u0642\u0645\u0629. \u0648\u0627\u0633\u062a\u0634\u0647\u062f \u0639\u0634\u0631\u0627\u062a \u0627\u0644\u0645\u0648\u0627\u0637\u0646\u064a\u0646\u060c \u0648\u0623\u0635\u064a\u0628",
+      "normalized_activation": 7.84355354309082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.136,
+          "meaning_score": 0.3888,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2099
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1361,
+          "meaning_score": 0.518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2616
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1642,
+          "meaning_score": 0.3122,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Besides the PM and Kharge, Chief Justice of India T S Thakur is a member of the panel. Asthana is a 19",
+      "normalized_activation": 6.803523540496826,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1219,
+          "meaning_score": 0.4398,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2247
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1543,
+          "meaning_score": 0.5903,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2978
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1591,
+          "meaning_score": 0.5552,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2857
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Palokunta avusti kuljettajan pois ulosajossa kyl",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2141,
+          "meaning_score": 0.6653,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5518
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2005,
+          "meaning_score": 0.444,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2578
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2476,
+          "meaning_score": 0.4659,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2854
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Just a few days ago, Colombia exceeded half a thousand deaths a day for the first",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1442,
+          "meaning_score": 0.4821,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2505
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1729,
+          "meaning_score": 0.6978,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5483
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1296,
+          "meaning_score": 0.4322,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2247
+        }
+      ]
+    }
+  ]
+}

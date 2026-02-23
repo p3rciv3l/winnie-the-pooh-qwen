@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_10156",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured, formal, or data-like text segments that resemble news snippets, institutional reports, or financial/administrative bulletins** (such as dates with parenthetical abbreviations, monetary figures, corporate details, or multilingual news leads).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Kannada, Hindi, Greek, Bengali, etc.) and topics\u2014including finance (\"mutual fund products\"), government announcements (\"Governor Andrew M. Cuomo today announced\"), scientific reporting (\"redshift\"), crime reports (\"Nigeria Customs Service\"), and entertainment news formatted like brief dispatches. The common thread is a telegraphic, fact-dense style often containing numbers, dates, abbreviations, named entities, and parenthetical asides.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **compressed factual information presented in a clipped, reportorial tone**, frequently with numerical data, specific dates, institutional names, or parenthetical inserts (e.g., \"Sept. 28\", \"2016 in Bitcoin, News | 0 comments\", \"\u0939\u093f.\u0938\"). Low-activation examples, while sometimes similar in topic, are phrased as general descriptions, narrative sentences, or introductory clauses without that dense, abbreviated factual packaging (e.g., \"Weekly Shonen Jump, the renowned shonen manga magazine...\" or \"Africa may be taking a great leap forward...\").\n\n4. **Closing interpretation**: The neuron detects text that mimics the syntactic and informational density of news wires, database entries, or formal bulletins, regardless of language. It appears to fire on segments where information is packed into a concise, non-narrative format characteristic of summaries, leads, or data records.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Amnesty to reverse Navalny status: aide Amnesty International will next week announce it is reversing",
+      "normalized_activation": 9.649444580078125,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1986,
+          "meaning_score": 0.8955,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6376
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2379,
+          "meaning_score": 0.5158,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3015
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1552,
+          "meaning_score": 0.3674,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.209
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "flies on your hibiscus or other plants? Wash them off the undersides of the leaves two to three times each week with a high-pressure water stream so",
+      "normalized_activation": 9.080942153930664,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1267,
+          "meaning_score": 0.2433,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.148
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1188,
+          "meaning_score": 0.2059,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1299
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1818,
+          "meaning_score": 0.7108,
+          "overlap_fraction": 0.7297,
+          "location_score": 0.1459,
+          "combined_score": 0.503
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "es del elemento fuego, af\u00edn con el tuyo que es de aire, para estabilizar tu vida a la forma librana, arm\u00f3nica y eleg",
+      "normalized_activation": 8.34060287475586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1638,
+          "meaning_score": 0.3449,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2035
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2278,
+          "meaning_score": 0.4733,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2805
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2231,
+          "meaning_score": 0.4125,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2542
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Ignacio Mier Velazco se convirti\u00f3 ayer en el nuevo coordin",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1061,
+          "meaning_score": 0.6935,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5198
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1659,
+          "meaning_score": 0.4514,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.247
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0898,
+          "meaning_score": 0.2316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1285
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1619,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4598
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1848,
+          "meaning_score": 0.3065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1965
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.122,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2058
+        }
+      ]
+    }
+  ]
+}

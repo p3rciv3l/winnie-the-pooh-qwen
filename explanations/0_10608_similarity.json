@@ -1,0 +1,210 @@
+{
+  "neuron_id": "0_10608",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing reported speech, direct quotes, or parenthetical asides (such as news citations like \u201cpolice announced,\u201d instructional direct address like \u201call you need,\u201d or narrative interruptions set off by dashes or parentheses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Italian, Russian, Hindi) and primarily in news reporting, instructional content, and descriptive articles that incorporate external sources or engage the reader. Examples span topics like legal proceedings, protests, recipes, product descriptions, and international events, often with a journalistic or explanatory tone.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature embedded quotes, citations, asides, or direct reader address, while low-activation examples are typically simpler headlines, leads, or statements without such layered voices (e.g., basic announcements, incomplete phrases, or straightforward declarations lacking reported speech or parenthetical elements).\n\n4. **Closing interpretation**: The neuron detects segments where the text integrates external voices or meta-commentary, focusing on linguistic structures that signal reported information or audience engagement within a narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "along with the latest breaking news of course. To join our community, all you have to do to join is click on this link, select 'Join Chat'",
+      "normalized_activation": 9.662283897399902,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.135868,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            222,
+            425
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.716494,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            746,
+            1076
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.120551,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1974,
+            2190
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "and Soviet President Gorbachev. It is a permanent treaty requiring no special extension. It bans missiles of intermediate range of especial danger to NATO nations in western Europe",
+      "normalized_activation": 8.51578140258789,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.190615,
+          "actual_text_slice": [
+            1687,
+            1867
+          ],
+          "prediction_text_slice": [
+            38,
+            404
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.26081,
+          "actual_text_slice": [
+            1687,
+            1867
+          ],
+          "prediction_text_slice": [
+            716,
+            1130
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.420214,
+          "actual_text_slice": [
+            1687,
+            1867
+          ],
+          "prediction_text_slice": [
+            1161,
+            1591
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "IFLA Court had recognized that \"professional speech\" is \"not a separate category of speech and \"is not unprotected merely because it is uttered by \"professionals.\"'",
+      "normalized_activation": 7.1464691162109375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.39295,
+          "actual_text_slice": [
+            1082,
+            1246
+          ],
+          "prediction_text_slice": [
+            769,
+            1064
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.806075,
+          "actual_text_slice": [
+            1082,
+            1246
+          ],
+          "prediction_text_slice": [
+            1077,
+            1381
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.316603,
+          "actual_text_slice": [
+            1082,
+            1246
+          ],
+          "prediction_text_slice": [
+            2027,
+            2457
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.217183,
+          "actual_text_slice": [
+            0,
+            31
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.381572,
+          "actual_text_slice": [
+            0,
+            31
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.25248,
+          "actual_text_slice": [
+            0,
+            31
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.417545,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            448,
+            674
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.527404,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1384,
+            1624
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.480661,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1782,
+            2056
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

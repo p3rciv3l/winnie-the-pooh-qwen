@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_9222",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing ongoing conflicts, disputes, or urgent civic/political events** (such as crime reports, political protests, legal actions, international tensions, or activist demands).\n\n2. **Domain coverage**: The pattern appears in multilingual news reports (Italian, Arabic, Spanish, Persian, English, etc.) covering local crime (\"ucciso ieri pomeriggio da due killer\"), political scandals (\"investigations into President Trump\"), protests (\"milliers de manifestants\"), environmental disputes (\"Formosa H\u00e0 T\u0129nh\"), and diplomatic/military tensions (\"Saudi-led war in Yemen\"). It also activates on civic announcements calling for public attention or action (\"Don't skip a beat and sign\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature *active, unfolding situations with clear agents, targets, and consequences*, often using present or recent past tense. The low-activation examples are largely static announcements (meeting schedules, award nominations, company names, general topic introductions), descriptive facts, or historical/cultural overviews lacking immediate conflict or urgency.\n\n4. **Closing interpretation**: The neuron detects semantic frames of active contention or urgent public discourse, serving as a filter for real-world events involving clashing actors, demands, or high-stakes outcomes. It likely helps the model distinguish between procedural/descriptive text and dynamic narratives requiring tracking of agents, conflicts, and consequences.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the meticulous restoration process and even handling transportation and customs, every aspect is managed with unwavering attention to detail. The company ensures that each client's dream car arrives",
+      "normalized_activation": 9.622812271118164,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2535,
+          "meaning_score": 0.1606,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1656
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.138,
+          "meaning_score": 0.4662,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2417
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1717,
+          "meaning_score": 0.3437,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2061
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "not be tolerated and the ad must not be considered an ad among others.\u201d Aleksi Teivainen \u2013 HT Source: Uusi Suomi",
+      "normalized_activation": 8.993973731994629,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1372,
+          "meaning_score": 0.5422,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2717
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2595,
+          "meaning_score": 0.5019,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3046
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2103,
+          "meaning_score": 0.5263,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2947
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "selective outrage\u201d Web Desk 12th Oct, 2022. 01:01 pm Share Listen Font size Small Medium Large Dark",
+      "normalized_activation": 8.240937232971191,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0928,
+          "meaning_score": 0.1836,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1106
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2055,
+          "meaning_score": 0.3344,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.216
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1355,
+          "meaning_score": 0.2545,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.156
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0849,
+          "meaning_score": 0.3706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1822
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1012,
+          "meaning_score": 0.1595,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1043
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1068,
+          "meaning_score": 0.3643,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1884
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1522,
+          "meaning_score": 0.4279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.232
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1472,
+          "meaning_score": 0.744,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3565
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0992,
+          "meaning_score": 0.5311,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2521
+        }
+      ]
+    }
+  ]
+}

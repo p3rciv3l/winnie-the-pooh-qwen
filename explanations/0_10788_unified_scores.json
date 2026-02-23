@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_10788",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the English adjective **\"large\"** (such as *\"large outbreaks,\" \"large pan,\" \"large boulders,\" \"large gathering,\"* or *\"large number\"*) modifying a noun phrase.\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts including weather reporting, event descriptions, cooking instructions, environmental news, social commentary, and public policy. The neuron activates regardless of the specific topic, indicating it detects the lexical item \"large\" itself rather than a narrow subject area. The low-activation examples are primarily in other languages (Italian, Spanish, Latvian, etc.) or are English fragments where the word \"large\" is absent.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the word \"large\" as a pre-nominal adjective, while the low-activation texts do not. The low-activation group includes text in various languages and short English phrases, but the defining feature of the high group\u2014the specific token \"large\"\u2014is missing. The neuron is not sensitive to topic, genre, or structure, but to this specific adjective.\n\n4. **Closing interpretation**: This neuron functions primarily as a **lexical detector for the adjective \"large.\"** Its activation is driven by the surface-level presence of that word in English text, making it a focused, language-specific feature detector rather than a broad semantic concept analyzer.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", directly triggered is: \u201cWhy has Alcyoneus grown to such a large size,\u201d asked astronomer Reinout van Weeren at the Leiden Observatory in",
+      "normalized_activation": 9.865470886230469,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.8684,
+          "meaning_score": 0.8577,
+          "overlap_fraction": 0.8175,
+          "location_score": 0.1635,
+          "combined_score": 0.854
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.6067,
+          "meaning_score": 0.5701,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4707
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.5288,
+          "meaning_score": 0.3399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3475
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the central bank, adding management measures were sufficient to maintain market stability if there were large capital outflows. Yang's five-year term in office is due to expire early",
+      "normalized_activation": 9.569805145263672,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.8685,
+          "meaning_score": 0.6859,
+          "overlap_fraction": 0.6978,
+          "location_score": 0.1396,
+          "combined_score": 0.7613
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2319,
+          "meaning_score": 0.6307,
+          "overlap_fraction": 0.2967,
+          "location_score": 0.0593,
+          "combined_score": 0.4044
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2756,
+          "meaning_score": 0.299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2298
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "eymim airbase in Latakia, Syria, where Russia has a large military presence, for a concert ahead of New Year\u2019s Eve, a source told",
+      "normalized_activation": 8.956180572509766,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.8685,
+          "meaning_score": 0.708,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.8306
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2405,
+          "meaning_score": 0.4806,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2885
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.386,
+          "meaning_score": 0.4026,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3155
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\"The work of the Electoral Commission is not an easy one... and because of that some",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.171,
+          "meaning_score": 0.6653,
+          "overlap_fraction": 0.9881,
+          "location_score": 0.1976,
+          "combined_score": 0.5321
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2436,
+          "meaning_score": 0.3998,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2574
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3373,
+          "meaning_score": 0.1277,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.186
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2255,
+          "meaning_score": 0.8609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4346
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3052,
+          "meaning_score": 0.4716,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3107
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3634,
+          "meaning_score": 0.6327,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3984
+        }
+      ]
+    }
+  ]
+}

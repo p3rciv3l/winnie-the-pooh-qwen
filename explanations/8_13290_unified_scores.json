@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_13290",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing explicit references to Jewish people, anti-Semitism, and related cultural or ethnic markers (such as mentions of \"Jewish communities\", \"anti-Semitic\", \"Jews\", or surnames like \"Eskenazi\"), as well as words with substrings like \"Jew\" or \"Sem\" (e.g., \"jewellers\", \"antiszemita\").\n\n2. **Domain coverage**: The pattern appears across news articles, political reports, and cultural discussions in multiple languages, including English, Spanish, Hungarian, Hindi, and German. Topics range from political controversies involving Jewish communities and discrimination (e.g., Labour Party treatment of Jews, anti-Semitic opinions) to personal profiles (e.g., Jewish voter features) and even extend to texts containing names or terms that may be tokenized similarly to Jewish-related words.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include direct references to Jewish identity, anti-Semitism, or substrings like \"Jew\"/\"Sem\", while low-activation examples lack such references and instead cover generic news topics (e.g., technology updates, entertainment, routine events) without focused ethnic or religious content.\n\n4. **Closing interpretation**: The neuron specializes in detecting discussions related to Jewish people and anti-Semitism, likely as part of a broader sensitivity to ethnic or religious identity topics in multilingual text, though it also shows moderate activation for semantically or orthographically similar terms across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Blaugrana \u00fcberragende 20 Treffer. J\u00fcngst netzte er im Endspiel der Supercopa de Espana",
+      "normalized_activation": 8.934444427490234,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1346,
+          "meaning_score": 0.4536,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2353
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0974,
+          "meaning_score": 0.3607,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1832
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1485,
+          "meaning_score": 0.4858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2537
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0905\u0928\u0941\u0938\u093e\u0930 \u090f\u0938\u092c\u0940\u0906\u0908 \u0936\u093e\u0916\u093e \u0926\u093e\u0926\u0930\u0940 \u092a\u0930 1.93 \ufffd",
+      "normalized_activation": 5.625237464904785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2274,
+          "meaning_score": 0.2746,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2274,
+          "meaning_score": 0.3008,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2113
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2274,
+          "meaning_score": 0.5463,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3095
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "d'Etat, pr\u00e9vue pour les 21 et 22 juillet dans ce pays d'Afrique de l'Ouest. Voici",
+      "normalized_activation": 3.368964433670044,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1237,
+          "meaning_score": 0.3681,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1967
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1202,
+          "meaning_score": 0.2192,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1357
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1019,
+          "meaning_score": 0.166,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1072
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1573,
+          "meaning_score": 0.8274,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5939
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1573,
+          "meaning_score": 0.5195,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2707
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1573,
+          "meaning_score": 0.4164,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2295
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1155,
+          "meaning_score": 0.4491,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2258
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.169,
+          "meaning_score": 0.8609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.412
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.169,
+          "meaning_score": 0.4247,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2375
+        }
+      ]
+    }
+  ]
+}

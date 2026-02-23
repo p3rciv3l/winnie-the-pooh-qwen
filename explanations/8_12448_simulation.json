@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_12448",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:38:16Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news-style leads or headlines that report specific events with concrete details (such as earthquake magnitude reports, political statements with named figures, contract awards with monetary values, or sports plays with statistical outcomes).\n\n2. **Domain coverage**: The pattern appears in breaking news and event reporting across multiple languages (Arabic, Italian, English, Thai, Portuguese, etc.) and topics—including geopolitics, natural disasters, business deals, entertainment updates, and local incidents. High-activation texts consistently feature datelines, locations, timestamps, numerical values, or named entities central to the event.\n\n3. **Contrast with low-activation examples**: Low-activation texts lack the immediate event-reporting structure; they include opinion excerpts, list headers, descriptive background, or ongoing process descriptions (e.g., “I was elated to read…”, “CELEBRITIES BORN ON THIS DAY”, “Schools across Calderdale have been singing”). Even when low-activation snippets mention events, they often omit the specific numerical, temporal, or locational framing that characterizes the high-activation leads.\n\n4. **Closing interpretation**: The neuron detects the concise, fact-dense opening of news articles—focusing on the “who, what, when, where” elements in a structured, declarative style across languages and domains.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 2718,
+      "normalized": 9.55557918548584,
+      "actual_text": "Gold We Trust We recently had our quarterly advisory board discussion with special guest Ben Hunt, author of Epsilon Theory, a newsletter and website that examines markets through the",
+      "plain_text": "Quantitive Tightening, De-Dollarization, War and Equities Bubbles with Jim Rickards, Ron Stoeferle and More (Video)  Quantitive Tightening, De-Dollarization, War and Equities Bubbles with Jim Rickards, Ron Stoeferle and More Video Video – In Gold We Trust  We recently had our quarterly advisory board discussion with special guest Ben Hunt, author of Epsilon Theory, a newsletter and website that examines markets through the lenses of game theory and history.  What we talked about during the call: \nHow Quantitative Tightening will actually be inflationary, rather than deflationary \nHow narratives, not reality, drive markets \nWhy the US might go to war with North Korea in Q1 2018 \nHow and when de-dollarization will happen",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "What we talked about during the call: \nHow Quantitative Tightening will actually be inflationary, rather than deflationary \nHow narratives, not reality, drive markets \nWhy the US might go to war with North Korea in Q1 2018 \nHow and when de-dollarization will happen",
+          "concept": "geopolitical prediction",
+          "reasoning": "This section includes a specific prediction about war with North Korea in Q1 2018, matching the neuron's focus on concrete event details with temporal specificity."
+        },
+        {
+          "rank": 2,
+          "text": "We recently had our quarterly advisory board discussion with special guest Ben Hunt, author of Epsilon Theory, a newsletter and website that examines markets through the lenses of game theory and history.",
+          "concept": "expert discussion announcement",
+          "reasoning": "This section reports a recent advisory board discussion with a named expert, resembling a news lead about an event."
+        },
+        {
+          "rank": 3,
+          "text": "Quantitive Tightening, De-Dollarization, War and Equities Bubbles with Jim Rickards, Ron Stoeferle and More (Video)  Quantitive Tightening, De-Dollarization, War and Equities Bubbles with Jim Rickards, Ron Stoeferle and More Video Video – In Gold We Trust",
+          "concept": "headline-style title",
+          "reasoning": "This section is a headline with named figures, but lacks specific event details, making it less aligned with the neuron's pattern."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 4197,
+      "normalized": 8.65088939666748,
+      "actual_text": "Ternate at a depth of 37 kilometres, according to the US Geological Survey. A 6.1-magnitude earthquake hit off the coast of North",
+      "plain_text": "The quake was 150 kilometres (92 miles) northwest of the coastal town of Ternate at a depth of 37 kilometres, according to the US Geological Survey. A 6.1-magnitude earthquake hit off the coast of North Maluku province in eastern Indonesia Sunday, US seismologists said, but no tsunami warning was issued. The quake was 150 kilometres (92 miles) northwest of the coastal town of Ternate at a depth of 37 kilometres, according to the US Geological Survey. The quake was felt in Ternate but residents were unconcerned, a local said. “I was watching TV when the earthquake suddenly happened, the jolt was quite strong but thankfully it was quick so there was no panic,” Ternate resident Budi Nurgianto told AFP. Officials are still assessing the quake’s impact but there were no immediate reports of casualties. “We are still checking to see if there’s any damage,” said Rahmat Triyono, head of Indonesian weather agency BKMG’s earthquake and tsunami division. Indonesia experiences frequent seismic and volcanic activity due to its position on the Pacific “Ring of Fire”, where tectonic plates collide. Last September, a 7.5-magnitude quake and a subsequent tsunami in Palu on Sulawesi island killed more than 2,200, with a thousand more declared missing. On boxing day December 26, 2004, a 9.1-magnitude earthquake struck Aceh province, causing a tsunami and killing more than 170,000 in Indonesia.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A 6.1-magnitude earthquake hit off the coast of North Maluku province in eastern Indonesia Sunday, US seismologists said, but no tsunami warning was issued.",
+          "concept": "earthquake magnitude report",
+          "reasoning": "This sentence reports a specific earthquake event with magnitude, location, day, and source, matching the neuron's pattern for natural disaster news."
+        },
+        {
+          "rank": 2,
+          "text": "The quake was 150 kilometres (92 miles) northwest of the coastal town of Ternate at a depth of 37 kilometres, according to the US Geological Survey.",
+          "concept": "earthquake location details",
+          "reasoning": "This sentence provides precise distance, depth, and location of the earthquake, aligning with the neuron's focus on concrete numerical and geographical details."
+        },
+        {
+          "rank": 3,
+          "text": "Last September, a 7.5-magnitude quake and a subsequent tsunami in Palu on Sulawesi island killed more than 2,200, with a thousand more declared missing.",
+          "concept": "historical earthquake casualty report",
+          "reasoning": "This sentence reports a past earthquake with magnitude, location, and casualty figures, fitting the neuron's response to fact-dense event reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 4401,
+      "normalized": 7.614751815795898,
+      "actual_text": ". Ten hag has turned his side's fortunes around in recent months but a trophy would represent a true sign that his rebuild is ahead of schedule. Will Man",
+      "plain_text": "Manchester United boss Erik ten Hag does not know if in-form Marcus Rashford will be available for the Carabao Cup final on Sunday.  The 25-year-old has been in sparkling form this season and helped the Red Devils to beat Barcelona in the Europa League knockout play-off round on Thursday night.  Rashford was substituted in the 88th minute and seemed to hint on Instagram he had picked up a knock, posting an image of him walking down the touchline looking in discomfort accompanied with a bandaged emoji. Further footage showed Rashford limping away from Old Trafford after the clash had ended.  Asked if the forward, who has scored 16 goals in 18 matches since the World Cup, will be available to face Newcastle at Wembley, United manager Ten Hag said: \"I don't know. So, players now are coming in. We have to do investigations, medical of course.  \"Yesterday we did but straight after the game most of the time you can't say. We have to wait for a 100 per cent diagnosis, so we have to wait.\"  Ten Hag confirmed fellow forward Anthony Martial definitely would not be featuring at Wembley. The France forward has endured an injury-hit season and has been doing individual training this week.  It's a seismic clash for United who have not won a trophy in six years. Ten hag has turned his side's fortunes around in recent months but a trophy would represent a true sign that his rebuild is ahead of schedule.  Will Man Utd beat Newcastle and win their first trophy of the season? Have your say in the comments below  But standing in United's way is Newcastle, who are on a positive journey of their own. Eddie Howe's side are currently in fifth and, like United, would relish the opportunity of picking up silverware this weekend.  And Ten Hag knows just how dangerous the Magpies can be, branding them \"annoying\" before the Wembley showdown.  \"It's a great team, they have a clear philosophy about how they want to play the game,\" the Dutchman said. \"The key word is intensity, they do really well, but they're an annoying team to play against, so we have to find a way to win.  \"They try to annoy you. We have to play our game and focus on our game.\"  Asked why he found Newcastle so annoying, Ten Hag said: \"For instance, so if you see the referee want to play an effective time.  \"They have the lowest in the league and they are quite successful with it. So it's up to us that we get speed in the game and we are also then dependent on the refereeing as well.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Manchester United boss Erik ten Hag does not know if in-form Marcus Rashford will be available for the Carabao Cup final on Sunday.  The 25-year-old has been in sparkling form this season and helped the Red Devils to beat Barcelona in the Europa League knockout play-off round on Thursday night.",
+          "concept": "sports team news lead",
+          "reasoning": "This section reports the potential absence of a key player for an upcoming final, including named figures and dates, matching the neuron's focus on event reporting."
+        },
+        {
+          "rank": 2,
+          "text": "Asked if the forward, who has scored 16 goals in 18 matches since the World Cup, will be available to face Newcastle at Wembley, United manager Ten Hag said: \"I don't know. So, players now are coming in. We have to do investigations, medical of course.\"",
+          "concept": "player statistics and manager quote",
+          "reasoning": "This section includes numerical performance data and a direct quote from the manager, aligning with the neuron's preference for concrete details and named entities."
+        },
+        {
+          "rank": 3,
+          "text": "Rashford was substituted in the 88th minute and seemed to hint on Instagram he had picked up a knock, posting an image of him walking down the touchline looking in discomfort accompanied with a bandaged emoji.",
+          "concept": "in-game event and social media hint",
+          "reasoning": "This section describes a specific in-game substitution and a social media post, providing concrete temporal and action details."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00006",
+      "row_idx": 2347,
+      "normalized": 0.0,
+      "actual_text": "Pemkab Kayong Utara Berlakukan Tarif Masuk Pantai",
+      "plain_text": "Pemkab Kayong Utara Berlakukan Tarif Masuk Pantai Pulau Datok 14-16 Mei 2021  Tasfirani menerangkan, tiket retribusi masuk ini bakal dikelola oleh Disporapar dengan memberdayakan masyarakat setempat.  Kepala Dinas Pemuda Olahraga dan Pariwisata Kayong Utara, Tasfirani mengatakan, pengunjung bakal dikenakan tarif masuk senilai Rp 5.000 per orang.  Di luar itu, ada pula pengenaan tarif parkir kendaraan roda dua senilai Rp 2.000 dan kendaraan roda empat Rp 5.000.  Tasfirani menerangkan, tiket retribusi masuk ini bakal dikelola oleh Disporapar dengan memberdayakan masyarakat setempat.  Sedangkan pengelolaan parkir dipercayakan kepada Forum Pemuda Tanah Merah.  \"Tempat parkir yang diperbolehkan untuk dikelola oleh Forum Pemuda Tanah Merah yaitu di pelataran ex Sail Karimata dan di dekat pemakaman,\" kata Tasfirani di Sukadana, Jumat 7 Mei 2021.  Tasfirani menambahkan, penarikan tarif masuk ini hanya di Pantai Pulau Datok, Sukadana.  Sementara untuk objek wisata lain, seperti Pantai Tambak Rawang dan Pantai Pasir Mayang, dikelola oleh Pemerintah Desa setempat.  \"Kalau yang lain itu kan dikelola oleh desa. Desa nanti yang mengelola parkir, menjaga protokol kesehatan, dan seterusnya itu desa nanti,\" jelas Tasfirani. (*)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Pemkab Kayong Utara Berlakukan Tarif Masuk Pantai Pulau Datok 14-16 Mei 2021  Tasfirani menerangkan, tiket retribusi masuk ini bakal dikelola oleh Disporapar dengan memberdayakan masyarakat setempat.  Kepala Dinas Pemuda Olahraga dan Pariwisata Kayong Utara, Tasfirani mengatakan, pengunjung bakal dikenakan tarif masuk senilai Rp 5.000 per orang.",
+          "concept": "tariff announcement with prices",
+          "reasoning": "This section announces a new entry tariff with specific dates, prices, and a named official, matching the neuron's focus on event reporting with numerical details."
+        },
+        {
+          "rank": 2,
+          "text": "Di luar itu, ada pula pengenaan tarif parkir kendaraan roda dua senilai Rp 2.000 dan kendaraan roda empat Rp 5.000.  Tasfirani menerangkan, tiket retribusi masuk ini bakal dikelola oleh Disporapar dengan memberdayakan masyarakat setempat.  Sedangkan pengelolaan parkir dipercayakan kepada Forum Pemuda Tanah Merah.",
+          "concept": "parking fee details",
+          "reasoning": "This section provides concrete monetary values for parking fees, aligning with the neuron's response to specific numerical information."
+        },
+        {
+          "rank": 3,
+          "text": "\"Tempat parkir yang diperbolehkan untuk dikelola oleh Forum Pemuda Tanah Merah yaitu di pelataran ex Sail Karimata dan di dekat pemakaman,\" kata Tasfirani di Sukadana, Jumat 7 Mei 2021.  Tasfirani menambahkan, penarikan tarif masuk ini hanya di Pantai Pulau Datok, Sukadana.",
+          "concept": "location and date specification",
+          "reasoning": "This section quotes an official specifying locations and a date, fitting the neuron's pattern for fact-dense news leads."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00004",
+      "row_idx": 2286,
+      "normalized": 0.0,
+      "actual_text": "The Allen County Department of Environmental Management has several recycling drop-off sites where residents can recycle",
+      "plain_text": "The Allen County Department of Environmental Management has several recycling drop-off sites where residents can recycle items free of charge.  They are mapped below:  Accepted Items:  Aluminum cans Cardboard Glass (clear, green, brown, blue) Paper (any kind) Paperboard (e.g., cereal boxes) Plastics #1, 2, and 5 Steel cans Guidelines  Empty, rinse, and dry recyclables before placing in bin Flatten cardboard and bulky items, remove any packing materials including bubble wrap, foam, and plastic wrap. Packing tape is acceptable. Items should be sorted prior to drop off Leaving items outside of operating hours is illegal dumping Residential and nonprofit material only (call ACDEM for assistance with business recycling) Other information:  Dropping off material when an attendant is not present is illegal dumping and poses a danger to the public and employees. ACDEM’s Community Recycling Drop-off Sites will be closed if the air temperature is at, around, or below zero, until the weather improves for the safety of attendants. Information from Allen County Department of Environmental Management.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Other information:  Dropping off material when an attendant is not present is illegal dumping and poses a danger to the public and employees. ACDEM’s Community Recycling Drop-off Sites will be closed if the air temperature is at, around, or below zero, until the weather improves for the safety of attendants. Information from Allen County Department of Environmental Management.",
+          "concept": "service closure policy",
+          "reasoning": "This section states a policy for closure under specific temperature conditions, resembling a public announcement with concrete details."
+        },
+        {
+          "rank": 2,
+          "text": "The Allen County Department of Environmental Management has several recycling drop-off sites where residents can recycle items free of charge.  They are mapped below:  Accepted Items:  Aluminum cans Cardboard Glass (clear, green, brown, blue) Paper (any kind) Paperboard (e.g., cereal boxes) Plastics #1, 2, and 5 Steel cans",
+          "concept": "recycling program description",
+          "reasoning": "This section describes a recycling program and lists accepted items, but lacks event reporting, making it less aligned with the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Guidelines  Empty, rinse, and dry recyclables before placing in bin Flatten cardboard and bulky items, remove any packing materials including bubble wrap, foam, and plastic wrap. Packing tape is acceptable. Items should be sorted prior to drop off Leaving items outside of operating hours is illegal dumping Residential and nonprofit material only (call ACDEM for assistance with business recycling)",
+          "concept": "recycling guidelines list",
+          "reasoning": "This section is a list of guidelines, which matches low-activation patterns like list headers and descriptive background."
+        }
+      ]
+    }
+  ]
+}

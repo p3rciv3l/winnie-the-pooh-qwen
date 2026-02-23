@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_10177",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing words beginning with the letter sequence \"acc-\" or \"ac-\" followed by certain letters (like 'o', 'i', 'e')** (such as \"accogliente\", \"accedere\", \"accaduto\", \"acortado\", \"acciones\", or \"according\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (primarily Italian, Spanish, French, and English) and diverse topics, including news reports on disasters, politics, sports, and everyday events. It is indifferent to semantics, activating for Italian safety (\"pi\u00f9 sicuro, per ospit\"), Spanish geography (\"a 183 kil\u00f3metros al sureste de\"), French economics (\"r\u00e9currentes sur les march\u00e9s\"), and English political entities (\"People\u2019s Liberation Army\").\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack these specific \"acc-\" / \"ac-\" prefixes. While the low-activation examples cover similar domains (news, alerts, everyday events), they use different vocabulary openings (e.g., \"Special counsel...\", \"A fire tore...\", \"\u00bfAhora un asalto...\"). The neuron's trigger is the presence of that orthographic sequence, not the topic.\n\n4. **Closing interpretation**: This neuron detects a specific character-level or subword morphological pattern common in Romance languages and English, likely corresponding to prefixes related to events, reception, or approach. It functions more as a surface-form token detector than a semantic concept detector.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Line of Actual Control (LAC). It is the operationalisation of the People\u2019s Liberation Army\u2019s (PLA) concept, practised in mechanised exercises,",
+      "normalized_activation": 9.605755805969238,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3169,
+          "meaning_score": 0.6047,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3687
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2752,
+          "meaning_score": 0.3854,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2642
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3321,
+          "meaning_score": 0.3324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2658
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "0 years of action & adventure with an all-new stand-alone special; Mighty Morphin Power Rangers: Once and Always??? I had so much fun working on this Special",
+      "normalized_activation": 8.667070388793945,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2975,
+          "meaning_score": 0.4374,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.294
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2975,
+          "meaning_score": 0.4172,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2859
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2975,
+          "meaning_score": 0.341,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2554
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". But Mr Pierce's father-in-law Jim Earls, who overheard the commotion the cancellation had caused, shouted down from his ladder: \"Oh, John",
+      "normalized_activation": 7.408055305480957,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3719,
+          "meaning_score": 0.4635,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3341
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3719,
+          "meaning_score": 0.467,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3355
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3719,
+          "meaning_score": 0.1554,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2109
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u00cen 2019, oamenii de \u0219tiin\u021b",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.27,
+          "meaning_score": 0.338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2432
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2479,
+          "meaning_score": 0.2885,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2146
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2977,
+          "meaning_score": 0.3106,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2433
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "This helmet-shaped cosmic cloud with wing-like appendages is popularly called Thor\u2019s Helmet",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2258,
+          "meaning_score": 0.6895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3661
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.245,
+          "meaning_score": 0.3973,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2569
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.245,
+          "meaning_score": 0.3714,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2466
+        }
+      ]
+    }
+  ]
+}

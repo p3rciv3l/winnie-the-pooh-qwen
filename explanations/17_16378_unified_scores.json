@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_16378",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing serious crimes, corruption, or severe human rights abuses** (such as embezzlement, drug trafficking, forced sterilization, match-fixing, kidnapping, or illegal dumping).\n\n2. **Domain coverage**: The neuron activates across multiple languages (Russian, Italian, Arabic, Spanish, German, etc.) and primarily in news or factual reporting contexts. It detects these concepts whether they are described in legal, political, corporate, or social domains\u2014from government corruption and pharmaceutical scandals to violent crimes and environmental offenses.\n\n3. **Contrast with low-activation examples**: The low-activation texts are neutral announcements about sports, weather, products, real estate, or routine events, devoid of any illicit, harmful, or severely unethical actions. The high-activation group is defined by the presence of specific illegal or morally grave activities, while the low group describes ordinary, lawful, or benign topics.\n\n4. **Closing interpretation**: This neuron appears to function as a cross-lingual detector of severe societal violations and misconduct. It latches onto semantic content involving illegality, exploitation, or significant ethical breaches, regardless of the specific language or named entities involved.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "removed her buibui and tore apart some of her inner wear before raping her for about an hour. After the incident, the victim managed to escape.",
+      "normalized_activation": 9.406940460205078,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.314,
+          "meaning_score": 0.7686,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.433
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1359,
+          "meaning_score": 0.4144,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2201
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1393,
+          "meaning_score": 0.3762,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2062
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "161 offences committed by Manus Island refugees, including luring underage girls for sex (pictured: Immigration Minister Peter Dutton) Refugees and asylum seekers protesting inside",
+      "normalized_activation": 8.143872261047363,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2515,
+          "meaning_score": 0.7746,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4105
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2601,
+          "meaning_score": 0.5905,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3402
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2791,
+          "meaning_score": 0.5969,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3504
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "if you rely on paying poverty wages to workers. We also talk about how employers cheat workers out of their wages, with $287 million in stolen wages in",
+      "normalized_activation": 6.8526082038879395,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3003,
+          "meaning_score": 0.7904,
+          "overlap_fraction": 0.6821,
+          "location_score": 0.1364,
+          "combined_score": 0.5727
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1581,
+          "meaning_score": 0.2091,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1469
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.187,
+          "meaning_score": 0.2617,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1795
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "'She's got a look about her!': Susanna Reid mortified as Brian",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1548,
+          "meaning_score": 0.4057,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2242
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1423,
+          "meaning_score": 0.1993,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1366
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1299,
+          "meaning_score": 0.071,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0803
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Manchester begins counting down to Christmas this weekend as the city's lights are switched on at",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1879,
+          "meaning_score": 0.7975,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5942
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1564,
+          "meaning_score": 0.3312,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.195
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1948,
+          "meaning_score": 0.1776,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1489
+        }
+      ]
+    }
+  ]
+}

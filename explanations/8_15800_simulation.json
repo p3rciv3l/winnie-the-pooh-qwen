@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_15800",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:38:28Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **named entities (people, organizations, locations) paired with specific actions, roles, or notable events** (such as \"San Francisco DA Chesa Boudin,\" \"Huawei’s Chairman, Liang Hua,\" \"East Palestine’s train derailment,\" or \"Johann Sebastian Bach’s father\").\n\n2. **Domain coverage**: The pattern appears across news, biographical, and factual reporting contexts in multiple languages (English, Spanish, Portuguese, Romanian, Dutch, etc.). Topics include politics, legal rulings, sports, corporate updates, natural disasters, cultural figures, and scientific/technological developments—anywhere a specific entity is linked to a defining action, position, or incident.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature a concrete named entity (person, organization, place) immediately connected to a descriptive predicate (e.g., a title, action, or event). Low-activation examples either lack a clear named entity, present only generic or fragmented references (e.g., incomplete dates/locations), or describe broad topics without coupling them to a specific subject (e.g., \"Why do counties... have lower vaccination rates?\").\n\n4. **Closing interpretation**: The neuron detects structured factual statements where a well-defined subject is associated with a noteworthy attribute or activity, acting as a filter for information-dense, entity-centric clauses typical of journalistic or encyclopedic content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00012",
+      "row_idx": 208,
+      "normalized": 9.425228118896484,
+      "actual_text": "100 migrants dropped off by ICE in downtown El Paso Christmas Day Rudy Gutierrez, El Paso Times Estela Tomas Felipe is one of",
+      "plain_text": "100 migrants dropped off by ICE in downtown El Paso Christmas Day Rudy Gutierrez, El Paso Times Estela Tomas Felipe is one of the more than 1,500 migrants that U.S. authorities released in El Paso this week. On Thursday morning, she was at the Greyhound bus station in Downtown El Paso with her infant daughter strapped to her back. They were waiting to start the first leg of their trip to Birmingham, Alabama, where Felipe planned to meet her husband. He traveled to the United States about two months ago — just after she became pregnant with their second child. The number of migrants being released in El Paso has increased steadily over the last several years, fueled by an exodus from Central American countries, such as Guatemala, that struggle with crime and poor economic opportunities. But the number of Central American immigrants being released in El Paso hit a record this year, according to Annunciation House, which shelters migrants released by Immigration and Customs Enforcement in El Paso until they can make their way to families or friends further into the United States. Wednesday marked the largest ever single-day release of immigrants in El Paso. Advocates are concerned that immigration authorities are rushing migrants through the asylum process in the wake of the deaths of two children who were in Customs and Border Protection custody. Felipe was in U.S. custody for five days, but she believes ICE or the CBP might have held her longer if she weren't pregnant or traveling with an infant. Annunciation House executive director Ruben Garcia said immigration holding facilities on the border were initially set up to hold men, not families. \"It's inappropriate to be holding families in holding cells. It created pressure on the part of ICE to release\" migrants, Garcia said, adding that it has also placed pressure on groups such as Annunciation House to find shelter for released migrants. Garcia added that he had heard that women, especially pregnant women, were being released due to crowding at the women's detention area of the immigration detention center on Montana Avenue in El Paso. At the bus station Felipe was in good spirits, freshly showered and wearing a new set of donated clothes, but she was not sure she would recommend the journey to people back home in her country. She said she left a poor farming community in Guatemala 21 days ago. The typical work of harvesting corn, onions and fava beans is getting scarce. There, \"they take women and then they rape them or kill them,\" she said as she explained why she and her 1-year-old daughter made the harrowing trip through Mexico and into the United States. \"That's why I came here.\" Felipe was raised speaking one of Guatemala's more than two dozen indigenous languages, and her Spanish skills are limited. She was among a group of about 20 people, many with children, who traveled by truck and various other vehicles through Mexico. They arrived in Juárez and turned themselves in to U.S. immigration officials last week. Throughout the weeks-long trip through Mexico, Felipe worried that she would not produce enough milk to nurse her baby because she only ate a burrito per day. She didn't receive much more while she was held in U.S. detention, she said. \"It is scary and the children suffer a lot of hardship while in detention,\" she said. \"They don't give us blankets and give us disposable plastic bags. They took a towel from a mother who had a 1-month-old and threw it away. And if we don't understand what they are telling us, they get mad and use a lot of bad words.\" Felipe described detention as difficult, with hundreds of people crowded in a frigid cell. Many of the children are sick, she said, with runny noses and fever. \"Some have blood coming out of their noses, and their eyes are red,\" she said of the children she saw in detention. She did see U.S. agents provide medicine to sick children. U.S. Customs and Border Protection ordered medical exams of all children in U.S. custody after the Christmas Eve death of 8-year-old Felipe Alonzo-Gomez. Another child from Guatemala, 7-year-old Jakelin Caal Maquin, died in U.S. custody earlier this month. While Felipe waited at the bus station, 8-year-old Juana Marisol Tomas, ran up to her and spoke to Felipe in their native language, Acateco. Juana had glossy eyes and a slight cough. Her mother, Maria Miguel Tomas, walked up to Felipe, and asked her questions in Acateco. Tomas, whose Spanish was not as good as Felipe's, wanted help understanding how the bus trip would work. She wondered where to line up and when the buses would arrive at their destinations. Tomas was traveling to Jackson, Mississippi, with Juana and her youngest daughter, a toddler. But Dallas was the first stop for both families. Tomas was also meeting her husband, who has been working a night-shift in Jackson cutting up poultry. He has been in the United States about a year with their three other children. Felipe was not sure where her husband was working and she didn't have contact information for him, but she expected him to be waiting for her in Birmingham. Her court date for an asylum hearing was set for Jan. 4 in Birmingham. Although the trip to the United States was fraught and their future here was uncertain, both women said they were appreciative of the help and donations they had received in El Paso. \"We didn't have anything,\" Felipe said. \"Our clothes were dirty and we hadn't had a shower in about 15 days. They gave us everything we have — shirts, pants, shoes. \"And they gave us this for food,\" she added, holding up a folded $20 bill. Volunteers at the shelter also gave Juana what seemed to be her new best friend, a plush teddy bear that never left her arms while she waited for her bus. María Cortés González may be reached at 546-6150; mcortes@elpasotimes.com; @EPTMaria on Twitter. To read the latest on immigrants and other border issues, click here for a digital subscription.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "U.S. Customs and Border Protection ordered medical exams of all children in U.S. custody after the Christmas Eve death of 8-year-old Felipe Alonzo-Gomez. Another child from Guatemala, 7-year-old Jakelin Caal Maquin, died in U.S. custody earlier this month.",
+          "concept": "government agency action",
+          "reasoning": "This section features a named government organization taking a specific action in response to a notable event involving named individuals."
+        },
+        {
+          "rank": 2,
+          "text": "Annunciation House executive director Ruben Garcia said immigration holding facilities on the border were initially set up to hold men, not families.",
+          "concept": "organization leader statement",
+          "reasoning": "This section includes a named person with an organizational role making a statement about a specific issue."
+        },
+        {
+          "rank": 3,
+          "text": "Estela Tomas Felipe is one of the more than 1,500 migrants that U.S. authorities released in El Paso this week. On Thursday morning, she was at the Greyhound bus station in Downtown El Paso with her infant daughter strapped to her back. They were waiting to start the first leg of their trip to Birmingham, Alabama, where Felipe planned to meet her husband.",
+          "concept": "migrant personal story",
+          "reasoning": "This section features a named individual and describes specific actions and plans related to her release and travel."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 5696,
+      "normalized": 8.348838806152344,
+      "actual_text": "'m not sure how I won this match again. Djokovic will play Casper Ruud, the player he beat in last year's final, or Taylor Fritz",
+      "plain_text": "Djokovic Into French Open Quarter-finals After Five-set Thriller  Paris, (APP - UrduPoint / Pakistan Point News - 4th Jun, 2024) Novak Djokovic pulled off another astonishing escape as he beat Argentine 23rd seed Francisco Cerundolo in a five-set thriller to reach a 15th consecutive French Open quarter-final on Monday. Victory gave him a record 370th Grand Slam win, eclipsing the mark he had shared with Roger Federer. \"Three or four times I was points away from losing this match and thank you to my opponent,\" he said. \"He deserves so much applause that's for sure. I'm not sure how I won this match again. Djokovic will play Casper Ruud, the player he beat in last year's final, or Taylor Fritz as he continues his bid for a record-breaking 25th Grand Slam title. The 37-year-old Djokovic, coming off a five-set match in the third round that ended at 3.07am on Sunday morning, repeatedly received treatment for an injury to his knee after taking a medical timeout early in the second set. But he once more displayed his immense powers of recovery, crucially retrieving a break in the fourth set to stay on course for a fourth French Open crown. Djokovic rolled through the opening set against Cerundolo on the back of two service breaks, but his problems arose in the second as he summoned the trainer. The Serbian had his knee worked on while lying flat on his back on a towel, and immediately found himself under pressure once play resumed. After failing to convert any of seven break points over three different games, Cerundolo finally seized his chance with Djokovic serving to stay in the set. Djokovic steered a forehand wide to hand Cerundolo the second set and the 25-year-old carried that momentum in the third as he surged into a 3-0 lead.  - Court complaints - The Serbian had complained about the state of the clay in his previous match against Lorenzo Musetti. Blaming the court for \"screwing up\" his knee, Djokovic again pleaded in vain for the clay to be swept at more regular intervals. Djokovic appeared consigned to the fact he would need to go the distance again, just as he did against Musetti, as Cerundolo closed out the third set with ease. As he has done countless times, Djokovic dug deep into his reserves to claw his way back level at 4-all as Cerundolo speared a shot into the net. Djokovic unleashed a bellowing roar after holding in the next game, whipping up a crowd that sensed the three-time French Open winner was not done just yet. He saved a break point to nudge 6-5 ahead and Cerundolo eventually became the first to blink, the top seed capitalising on a fourth set point to force a decider. It felt almost inevitable Djokovic pinched a break to open the fifth set. Cerundolo to his immeasurable credit did not go away though. The Argentine scrambled his way back on serve and Djokovic again vented his ire at the court conditions after an awkward tumble. Djokovic pounced on his opporunity when it arrived in the eighth game, ripping a forehand winner that clipped the baseline to earn the vital break before he sealed another incredible victory.  Recent Stories  Constable suspended over bribe  Riaz Ahmad reelects President dist headmasters, principals association  PTI misused cipher for political gains, violated Official Secrets Act: Rana Ihsa ..  Idat case transferred to another court  PTI founder, Qureshi acquitted in long march vandalism cases  Youth drowns in swimming pool  Govt to make no compromise on national security : Barrister Aqeel  Governor takes notice of increasing street crimes, traffic issues  SSP gives appreciation certificates to cops for increasing conviction rate in cr ..  3 suspects arrests by Attock police  Russian teenager Andreeva into first Grand Slam quarter-final  Mehran, Kyungdong University signs training agreement  More Stories From World  \n\n 'Manterrupting': French PM under fire over surprise debate appearance  21 minutes ago  \n\n Seoul to fully suspend inter-Korean military deal over garbage balloons  31 minutes ago  \n\n 'This is what we've been fighting for.' British veteran remembers D-Day  1 hour ago  \n\n\n South Africa's Ramaphosa urges unity after historic ANC setback  5 hours ago  \n\n\n Turkish FM visits China amid Palestinian-Israeli conflict  5 hours ago  \n\n\n Mexicans celebrate election of first woman president  5 hours ago  \n\n\n Four dead as floods sweep southern Germany  4 hours ago  \n\n\n Israel govt spokesman says PM views Biden Gaza plan as 'partial'  4 hours ago  \n\n\n Alert level raised for Philippine volcano after 'explosive eruption'  4 hours ago  \n\n\n UK Labour seeks to reassure voters on defence  6 hours ago  \n\n\n Slovenia opposition files motion delaying Palestinian state recognition: parliament  6 hours ago  \n\n\n Thousands evacuated from German flood zone as Scholz visits  7 hours ago",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Novak Djokovic pulled off another astonishing escape as he beat Argentine 23rd seed Francisco Cerundolo in a five-set thriller to reach a 15th consecutive French Open quarter-final on Monday. Victory gave him a record 370th Grand Slam win, eclipsing the mark he had shared with Roger Federer.",
+          "concept": "sports achievement",
+          "reasoning": "This section includes named athletes and specific achievements such as winning a match and setting a record."
+        },
+        {
+          "rank": 2,
+          "text": "Djokovic will play Casper Ruud, the player he beat in last year's final, or Taylor Fritz as he continues his bid for a record-breaking 25th Grand Slam title.",
+          "concept": "sports matchup",
+          "reasoning": "This section names specific players and describes an upcoming match and a record-breaking bid."
+        },
+        {
+          "rank": 3,
+          "text": "The 37-year-old Djokovic, coming off a five-set match in the third round that ended at 3.07am on Sunday morning, repeatedly received treatment for an injury to his knee after taking a medical timeout early in the second set.",
+          "concept": "athlete injury",
+          "reasoning": "This section focuses on a named athlete and a specific medical event during a match."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 3039,
+      "normalized": 7.064268112182617,
+      "actual_text": ", posadnutého utláčaním svojich vlastných obyvateľov, oslabeného svojim",
+      "plain_text": "TASR správu prevzala z agentúry AFP. Spojené kráľovstvo si po sobotňajšej poprave predvolalo najvyššie postaveného iránskeho diplomata v Británii a povolalo svojho veľvyslanca z Iránu, píše AFP. Londýn takisto uvalil sankcie na iránskeho generálneho prokurátora Mohammada Džafara Montazeriho. Britský minister zahraničných vecí James Cleverly v pondelok uviedol, že Británia by mohla podniknúť aj ďalšie kroky.    \"Sme svedkami pomstychtivého konania oslabeného a izolovaného režimu, posadnutého utláčaním svojich vlastných obyvateľov, oslabeného svojim vlastným strachom zo straty moci a zničenia svojej medzinárodnej reputácie,\" povedal minister Cleverly na pôde Dolnej snemovne britského parlamentu. Hovorca premiéra Rishiho Sunaka povedal, že Spojené kráľovstvo rokuje o ďalších krokoch so svojimi zahraničnými partnermi. Akbarí bol bývalý vysoko postavený predstaviteľ rezortu obrany v Teheráne. Irán ho zatkol v roku 2019 a obvinil zo špionáže pre britskú tajnú službu MI6 v súvislosti s jadrovými rozhovormi medzi Iránom a západnými krajinami. Obvinenie odmietol a uviedol, že bol mučený a nútený priznať sa pred kamerou k zločinom, ktoré nespáchal. Islamská republika ho vnímala ako umierneného reformátora.  Sunak zabitie Akbarího odsúdil a označil ho za \"bezcitné a zbabelé\". Londýn vyhlásil, že konanie Teheránu nezostane nepotrestané. Teherán v uplynulých rokoch zatkol niekoľko osôb s dvojakým občianstvom a cudzích štátnych príslušníkov. Islamskou republikou momentálne otriasajú protivládne protesty, ktoré sú všeobecne považované za najväčšie ohrozenie autority Teheránu od islamskej revolúcie v roku 1979.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Spojené kráľovstvo si po sobotňajšej poprave predvolalo najvyššie postaveného iránskeho diplomata v Británii a povolalo svojho veľvyslanca z Iránu, píše AFP. Londýn takisto uvalil sankcie na iránskeho generálneho prokurátora Mohammada Džafara Montazeriho.",
+          "concept": "diplomatic sanctions",
+          "reasoning": "This section names countries and specific diplomatic actions such as summoning diplomats and imposing sanctions on a named official."
+        },
+        {
+          "rank": 2,
+          "text": "Britský minister zahraničných vecí James Cleverly v pondelok uviedol, že Británia by mohla podniknúť aj ďalšie kroky. Hovorca premiéra Rishiho Sunaka povedal, že Spojené kráľovstvo rokuje o ďalších krokoch so svojimi zahraničnými partnermi.",
+          "concept": "government officials statements",
+          "reasoning": "This section includes named government officials and their statements about potential further actions."
+        },
+        {
+          "rank": 3,
+          "text": "Sunak zabitie Akbarího odsúdil a označil ho za 'bezcitné a zbabelé'. Londýn vyhlásil, že konanie Teheránu nezostane nepotrestané.",
+          "concept": "condemnation of execution",
+          "reasoning": "This section features the British Prime Minister condemning a specific event and London declaring consequences."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 3346,
+      "normalized": 0.0,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.",
+          "concept": "political pledge",
+          "reasoning": "This section names the Prime Minister of Slovakia and his specific pledge regarding mass testing."
+        },
+        {
+          "rank": 2,
+          "text": "This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.",
+          "concept": "EU funding commitment",
+          "reasoning": "This section mentions the European Union's executive commission and its specific financial commitment for COVID-19 tests."
+        },
+        {
+          "rank": 3,
+          "text": "President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.",
+          "concept": "political disclosure",
+          "reasoning": "This section names the President of Slovakia and describes her learning about the plan through a specific event."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 911,
+      "normalized": 0.0,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "prisoner transfer",
+          "reasoning": "This section names an individual and describes specific events related to her imprisonment and transfer."
+        },
+        {
+          "rank": 2,
+          "text": "'I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,' friend and fellow Middle East expert Dara Conduit told AFP.",
+          "concept": "friend statement",
+          "reasoning": "This section includes a named individual making a statement about a specific event regarding the location of Moore-Gilbert."
+        },
+        {
+          "rank": 3,
+          "text": "Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms.",
+          "concept": "arrest details",
+          "reasoning": "This section specifies the circumstances of Moore-Gilbert's arrest by a named entity at a specific location and time."
+        }
+      ]
+    }
+  ]
+}

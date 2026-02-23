@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_13268",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:54:20Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal references to heads of state, government leaders, or high-ranking political figures** (such as \"President Xi Jinping,\" \"President Barack Obama,\" \"President Vladimir Putin,\" or \"Prime Minister Imran Khan\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or political commentary text. It activates on mentions of current or recent national leaders (especially from major powers like China, the US, Russia, and Canada) within contexts of policy, diplomacy, official statements, or media reports. The neuron also processes these names when they appear in non-English text (e.g., Czech \"Ruský prezident Vladimir Putin\"), but the core context is political reporting.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the full title and surname of a prominent political leader. The low-activation examples lack this entirely; they are either about non-political topics (e.g., product releases, local events, music), are in non-English languages without referencing such figures, or are text fragments like dates or addresses that contain no named entities of this authoritative type.\n\n4. **Closing interpretation**: This neuron detects tokens or phrases denoting authoritative political agency, specifically the combination of an official title and the name of a nationally significant leader. It appears to function as a high-level \"political entity\" detector within the model's representation of text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 1688,
+      "normalized": 9.348200798034668,
+      "actual_text": "News web app Got it! BEIJING: Donald Trump urged Chinese leader Xi Jinping to work hard and act fast to help resolve the North Korean nuclear crisis during talks",
+      "plain_text": "tap to bring up your browser menu and select 'Add to homescreen' to pin the The News web app Got it! tap to bring up your browser menu and select 'Add to homescreen' to pin the The News web app Got it! BEIJING: Donald Trump urged Chinese leader Xi Jinping to work hard and act fast to help resolve the North Korean nuclear crisis during talks in Beijing on Thursday, warning that \"time is quickly running out\".  Speaking on the second day of a trip to Beijing marked by pomp and pageantry, Trump also decried China’s \"one-sided and unfair\" trade surplus with the United States but told Xi \"I don’t blame China\", as the two countries signed more than $250 billion in business deals.  Xi hosted Trump at the imposing Great Hall of the People, next to Tiananmen Square, for the main event of the US president’s five-nation tour of Asia. While the two leaders exchanged pleasantries in keeping with their professed friendship -- with Trump calling Xi a \"very special man\" -- the former property magnate made clear that he expected China to do more to rein in North Korea.  \"We must act fast. And hopefully China will act faster and more effectively on this problem than anyone,\" Trump said, while thanking Xi for his efforts to restrict trade with Pyongyang. \"China can fix this problem easily and quickly, and I am calling on China and your great president to hopefully work on it very hard,\" the US leader said.  \"I know one thing about your president: If he works on it hard, it will happen. There’s no doubt about it.\" The US administration thinks China’s economic leverage over North Korea is the key to strong-arming Pyongyang into halting its nuclear weapons and missile programmes.  Xi said the two countries reiterated their \"firm commitment\" to the denuclearisation of the Korean peninsula and the implementation of UN resolutions. He also repeated his plea for the issue to be resolved through negotiations, saying China was ready to discuss the \"pathway leading to enduring peace and stability on the peninsula\".  Though China has backed UN sanctions, US officials want Chinese authorities to clamp down on unauthorised trade along the North Korean border. But experts doubt China will take the kind of steps that Trump wants, such as halting crude oil exports to the North. Beijing fears that squeezing Pyongyang too hard could cause the regime to collapse.  US Secretary of State Rex Tillerson said there are signs that sanctions are \"creating some stress within the North Korean economy\" but that Xi told Trump they could take \"a little while\" to have an effect.  Trump, who may meet with Russian President Vladimir Putin at an APEC summit in Vietnam on Friday, also urged Russia to \"help rein in this potentially very tragic situation\". The trip comes as Trump faces the lowest approval ratings for a US president in seven decades, and with the one-year anniversary of his election on Wednesday spoiled by big Democrat wins in state and mayoral votes.  Xi, by contrast, cemented his status as the most powerful Chinese leader in a generation at a Communist Party congress last month, when his name was inscribed into the constitution. On Trump’s first state visit to China, a military band played the US and Chinese anthems, ceremonial cannon fire erupted, and the two leaders reviewed a military honour guard just across from Tiananmen Square -- the site of the army’s deadly crackdown on pro-democracy protesters in 1989.  Children waved US and Chinese flags at the two leaders, a day after Xi treated Trump to a tour of the Forbidden City. \"Emphasising pomp over substance is the Chinese way. With President Trump, they think that the state-visit plus treatment will impress him and buy China some goodwill,\" Bonnie Glaser, China expert at the Center for Strategic and International Studies in Washington, told AFP.  Trump circumvented China’s internet censorship system to thank China for the \"beautiful welcome\" in a message to Xi on Twitter, which is banned in the country. Both leaders say they have struck up a friendship since Trump hosted Xi for a plush visit at the billionaire’s Mar-a-Lago resort in Florida for their first meeting in April.  \"My feeling toward you is an incredibly warm one. As we said there’s great chemistry and I think we’re going to do tremendous things for both China and the United States,\" Trump told Xi. Despite the public bonhomie, Chinese history expert Sam Crane said the \"flattery will not have significant substantive effect.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Trump, who may meet with Russian President Vladimir Putin at an APEC summit in Vietnam on Friday, also urged Russia to \"help rein in this potentially very tragic situation\".",
+          "concept": "head of state",
+          "reasoning": "This section contains a formal reference to 'Russian President Vladimir Putin', a high-ranking political figure."
+        },
+        {
+          "rank": 2,
+          "text": "BEIJING: Donald Trump urged Chinese leader Xi Jinping to work hard and act fast to help resolve the North Korean nuclear crisis during talks in Beijing on Thursday, warning that \"time is quickly running out\".",
+          "concept": "head of state",
+          "reasoning": "This section contains a formal reference to 'Chinese leader Xi Jinping', a head of state."
+        },
+        {
+          "rank": 3,
+          "text": "\"Emphasising pomp over substance is the Chinese way. With President Trump, they think that the state-visit plus treatment will impress him and buy China some goodwill,\" Bonnie Glaser, China expert at the Center for Strategic and International Studies in Washington, told AFP.",
+          "concept": "head of state",
+          "reasoning": "This section contains a formal reference to 'President Trump', a head of state."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 4961,
+      "normalized": 8.51589584350586,
+      "actual_text": "continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a “",
+      "plain_text": "Protests just outside the White House continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a “Kremlin annex.”  As Newsweek noted, the protests have been organized by former Hillary Clinton campaign adviser Adam Parkhomenko and gained a huge following. Based out of a park adjacent to the White House, the demonstration has been dubbed “Occupy Lafayette Park” and takes aim at Trump for his close relationship to Vladimir Putin and refusal to press the Russian president on the country’s interference in the 2016 presidential election.  “We stood outside the Kremlin Annex tonight with a blue wave falling on us and it felt great. Tomorrow marks one week of protesting,” Parkhomenko tweeted on Saturday, the sixth day of protests.  The movement has gained considerable steam on social media, with Parkhomenko sharing plans on Twitter and raising money to support the protests. It also has Facebook page to give updates, including posts this weekend that said protests would still go on even though thunderstorms were in the forecast.  These efforts have helped the protests gain a large following, with people pledging to come from across the country to take part in the protest.  The Facebook page has shared videos of protesters chanting and playing music toward the White House during a downpour. Music has played an important role in the protests, with a mariachi band performing earlier in the week and a pair of opera singers on Saturday.   Exciting news! Band members have started arriving outside Donald Trump’s window! pic.twitter.com/GwBb7mNoP7  — Adam Parkhomenko (@AdamParkhomenko) July 19, 2018 The protests have captured the anger many Trump opponents feel about his friendly relationship with Vladimir Putin and their meeting last week, which came just two days after an indictment against 12 Russian military officers for hacking the Democratic National Committee and Hillary Clinton’s campaign chief. In a press conference after their meeting, Trump appeared to side with Putin, who denied playing any part in the election interference.  As The Hill noted, the protests have attracted a number of prominent Trump critics, including Texas Congressman Joaquin Castro, actress and activist Alyssa Milano, and Stormy Daniels’s attorney, Michael Avenatti.  The Occupy Lafayette Park protests are expected to continue in the coming days, with supporters continuing to make donations to keep the demonstrations going. Newsweek noted that the effort has pulled in more than $50,000 so far.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Protests just outside the White House continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a “Kremlin annex.”",
+          "concept": "political leaders",
+          "reasoning": "This section mentions both 'Donald Trump' and 'Vladimir Putin', who are heads of state, in a political context."
+        },
+        {
+          "rank": 2,
+          "text": "Based out of a park adjacent to the White House, the demonstration has been dubbed “Occupy Lafayette Park” and takes aim at Trump for his close relationship to Vladimir Putin and refusal to press the Russian president on the country’s interference in the 2016 presidential election.",
+          "concept": "head of state",
+          "reasoning": "This section includes 'the Russian president', a title referring to Vladimir Putin, a high-ranking political figure."
+        },
+        {
+          "rank": 3,
+          "text": "In a press conference after their meeting, Trump appeared to side with Putin, who denied playing any part in the election interference.",
+          "concept": "political leaders",
+          "reasoning": "This section mentions 'Trump' and 'Putin' in the context of a press conference, indicating political leadership."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00017",
+      "row_idx": 3450,
+      "normalized": 7.744578838348389,
+      "actual_text": ", “Don’t hate me.” This is a university medical center that didn’t even practice elective abortions throughout most of its history, but a new rule instated in",
+      "plain_text": "According to the records, in Fiscal Year 2018 the U.S. Health and Human Services Civil Rights Office received over a thousand complaints, alleging conscience violations or religious discrimination. That’s significantly more than in any year recorded under the previous presidential administration. One complaint came from a Catholic nurse working at the University of Vermont Medical Center. The unnamed nurse claims that her employer forced her to take part in an abortion, though she had informed the hospital of her pro-life beliefs. The nurse was scheduled to help a patient who had suffered a miscarriage, but when she walked into the operating room, she was expected to assist with an elective abortion. The doctor in charge allegedly said to her, “Don’t hate me.” This is a university medical center that didn’t even practice elective abortions throughout most of its history, but a new rule instated in 2017 changed that and gave management the power to punish staffers who refuse to participate. What this nurse experienced was a violation of federal law. According to what are known as the Church Amendments, healthcare personnel have “an unqualified right… to decline to participate in abortions without fear of adverse employment actions or loss of staff privileges.” Under the Obama Administration, HHS ignored these laws. In fact, according to Roger Severino, who currently directs the Office of Civil Rights at HHS, the previous administration “systematically neglected” to enforce them. Not anymore. On Wednesday, Severino issued a notice of violation against the Medical Center, giving them thirty days to comply with the law and allow medical staff to opt-out of abortions, or lose federal funding. The hospital isn’t cooperating. In a statement, they claim HHS lacks the authority to conduct such an investigation, and that the hospital’s forced abortion policy strikes “the appropriate and legal balance” between employees’ religious rights and patient care. According to Severino, there isn’t a balance to strike. As he told The Atlantic, “Religious-freedom laws are the ones mentioned in the very first amendment to the Constitution. They have pride of place. And they have been neglected for too long.” And get what he said next: “America reached a consensus after Roe v. Wade… Nobody should be forced to participate in [an abortion] against their will… How could we countenance a situation where we allow a federally funded entity to force a medical professional to participate in taking a human life? That’s what this case is about.” I cannot even imagine anyone working in the previous HHS saying those words. During the Obama Administration, former Health and Human Services Secretary Kathleen Sebelius mandated that all employers, with very few exceptions, provide free contraceptives and abortion-inducing drugs as part of their employee health insurance. In fact, they argued all the way to the Supreme Court that the Little Sisters of the Poor, a group of nuns, should be forced to comply with that mandate. From forcing nuns to freeing nurses? Times have changed. This isn’t just a win for conscience rights and the First Amendment, it vividly demonstrates that elections matter. People are policy. Which means, worldview matters. The law can be super clear, but if executive branch appointees are unwilling to enforce it, our freedoms are at stake. And this story also demonstrates that cultural engagement is worth it. As Severino said, Americans have reached a consensus in the last forty years: No one should be forced to participate in abortions against their will. With so many things in our culture going from unthinkable to unquestionable, it’s nice to see abortion move in the opposite direction. If and when an administration hostile to preborn life moves back in the White House, there’s still a forty year movement committed to protecting preborn life already in motion, and it’s changing hearts and minds. I thank God the HHS is under new management. Protecting nurses from violating their consciences is an infinite improvement over forcing nuns to violate theirs. Resources The Trump Administration Sides With Nurses Who Object to Abortion, Emma Green, The Atlantic, August 28, 2019 OCR Issues Notice of Violation to the University of Vermont Medical Center After It Unlawfully Forced a Nurse to Assist in Abortion, HHS Press Office, August 28, 2019 Abortion: Other Federal Refusal Clauses, National Family Planning & Reproductive Health Association Originally posted at BreakPoint.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Under the Obama Administration, HHS ignored these laws. In fact, according to Roger Severino, who currently directs the Office of Civil Rights at HHS, the previous administration “systematically neglected” to enforce them.",
+          "concept": "presidential administration",
+          "reasoning": "This section mentions 'the Obama Administration', which is a direct reference to the administration of President Barack Obama, a head of state."
+        },
+        {
+          "rank": 2,
+          "text": "During the Obama Administration, former Health and Human Services Secretary Kathleen Sebelius mandated that all employers, with very few exceptions, provide free contraceptives and abortion-inducing drugs as part of their employee health insurance.",
+          "concept": "presidential administration",
+          "reasoning": "This section mentions 'the Obama Administration' again, referencing the political leadership of Barack Obama."
+        },
+        {
+          "rank": 3,
+          "text": "The Trump Administration Sides With Nurses Who Object to Abortion, Emma Green, The Atlantic, August 28, 2019 OCR Issues Notice of Violation to the University of Vermont Medical Center After It Unlawfully Forced a Nurse to Assist in Abortion,",
+          "concept": "presidential administration",
+          "reasoning": "This section includes 'The Trump Administration', referencing the administration of President Donald Trump, a head of state."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 904,
+      "normalized": 0.0,
+      "actual_text": "I”ve been a driver for the Allen County Regional Transport Authority since 20",
+      "plain_text": "I”ve been a driver for the Allen County Regional Transport Authority since 2011. I’ve met all kinds of folks on the city buses or “Uplift” vans. They share many things in common with those who do not use ACRTA. They need to get to work or school, go to the doctor, grocery shopping, visit a sick friend or see a relative across town. Their need for affordable transportation is as vital to them as to anyone. A “yes” vote for the Nov. 7 RTA levy says citizens of Lima understand and support an up to date and healthy transit system — one to brag about when they talk of their home town. On Nov 7 vote Yes for ACRTA. Gary Knepper, Alger",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A “yes” vote for the Nov. 7 RTA levy says citizens of Lima understand and support an up to date and healthy transit system — one to brag about when they talk of their home town. On Nov 7 vote Yes for ACRTA. Gary Knepper, Alger",
+          "concept": "civic engagement",
+          "reasoning": "This section mentions a 'vote' and 'citizens', which are political concepts, but lacks specific heads of state, so activation is low."
+        },
+        {
+          "rank": 2,
+          "text": "I”ve been a driver for the Allen County Regional Transport Authority since 2011. I’ve met all kinds of folks on the city buses or “Uplift” vans. They share many things in common with those who do not use ACRTA.",
+          "concept": "local issue",
+          "reasoning": "This section discusses a local transport authority with no reference to political leaders, so activation is minimal."
+        },
+        {
+          "rank": 3,
+          "text": "They need to get to work or school, go to the doctor, grocery shopping, visit a sick friend or see a relative across town. Their need for affordable transportation is as vital to them as to anyone.",
+          "concept": "personal narrative",
+          "reasoning": "This section describes personal experiences with no political leaders, resulting in low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00006",
+      "row_idx": 2214,
+      "normalized": 0.0,
+      "actual_text": "La mayoría son sanitarios que se quejan de falta de personal Unas mil personas",
+      "plain_text": "La mayoría son sanitarios que se quejan de falta de personal Unas mil personas participaron en la \"Marea Blanca\" que recorrió las calles en la tarde de ayer. La mayoría son sanitarios que se quejan de falta de personal y medios. Piden un compromiso a los próximos gobernantes, para que se disponga de más recursos en la sanidad pública,.  Así marchaban en Santa Cruz de Tenerife… y así en Las Palmas de Gran Canaria….  El pasado lunes distintos sindicatos, profesionales sanitarios y fuerzas políticas firmaron un manifiesto en defensa de la Sanidad Pública, los manifestantes esperan que cumplan a partir del próximo 25 de mayo.  Otra de las denuncias que hacen es que continúan sin un Plan de Salud que caducó en 2008.  Todos coinciden: con esta marcha, pretenden exigir un compromiso serio por la sanidad y que no quede todo en \"promesas electorales”.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Piden un compromiso a los próximos gobernantes, para que se disponga de más recursos en la sanidad pública,.  Así marchaban en Santa Cruz de Tenerife… y así en Las Palmas de Gran Canaria….",
+          "concept": "political leaders",
+          "reasoning": "This section includes 'los próximos gobernantes' (the upcoming leaders), which is a reference to political leaders, though not named."
+        },
+        {
+          "rank": 2,
+          "text": "El pasado lunes distintos sindicatos, profesionales sanitarios y fuerzas políticas firmaron un manifiesto en defensa de la Sanidad Pública, los manifestantes esperan que cumplan a partir del próximo 25 de mayo.",
+          "concept": "political forces",
+          "reasoning": "This section mentions 'fuerzas políticas' (political forces), indicating a political context but no specific heads of state."
+        },
+        {
+          "rank": 3,
+          "text": "La mayoría son sanitarios que se quejan de falta de personal Unas mil personas participaron en la \"Marea Blanca\" que recorrió las calles en la tarde de ayer. La mayoría son sanitarios que se quejan de falta de personal y medios.",
+          "concept": "protest",
+          "reasoning": "This section describes a protest without references to political leaders, leading to low activation."
+        }
+      ]
+    }
+  ]
+}

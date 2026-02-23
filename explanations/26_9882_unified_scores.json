@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_9882",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **enumerations or lists of proper nouns, particularly geographic entities, organizations, institutions, or people** (such as lists of provinces, countries, cities, companies, universities, or government bodies).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Finnish, Romanian, Ukrainian, etc.) and diverse topics\u2014geopolitical reports, healthcare policy, tech company lists, administrative regions, and academic institutions. It activates on explicit lists separated by commas, conjunctions, or line breaks, whether the items are countries (India, Japan, South Korea), cities (Zurigo, Lucerna, Winterthur), states (Bihar, Jharkhand), or organizations (BlackRock, Fidelity, M&G).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these structured enumerations of multiple proper nouns. They instead focus on singular events, statements about individuals, descriptive narratives, or discussions of a single entity/concept without listing counterparts. The neuron is not triggered by general news topics, singular proper nouns, or non-enumerative prose.\n\n4. **Closing interpretation**: The neuron detects a syntactic-semantic pattern of itemized named entities, serving as a \"list-of-names\" detector. It likely helps the model parse and structure multi-entity references common in factual, administrative, or geographic discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "in China. It has six campuses (Beijing, Shanghai, Guangzhou, Chongqing, Zhengzhou, and Wuhan) and one teaching site (N",
+      "normalized_activation": 9.513992309570312,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "soil calls for a bucket of peat moss, a bucket of perlite or vermiculite, a half bucket of compost and two cups of sand, she",
+      "normalized_activation": 8.596012115478516,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Christmas. \"We have a concert that's simply Tuba's, Euphoniums and Baritone Horns.\" You may be wondering ow many",
+      "normalized_activation": 7.467066764831543,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "February 24, 2022 THE ABRAHAM ACCORD",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Thane: The Kalyan railway station police while patrolling on Wednesday, arrested",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

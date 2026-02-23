@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_11087",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities and concrete event details within news or factual reporting contexts** (such as institutional names like \"Pentagon\" or \"S\u0105d Okr\u0119gowy\", specific individuals like \"Moshe Feiglin\", or precise event descriptors like \"between 2 and 11 August, at Capidava\").\n\n2. **Domain coverage**: The neuron activates across multiple languages (Polish, Romanian, Italian, Greek, Czech, Spanish, English) and primarily in domains of current events, legal proceedings, political announcements, accidents/emergencies, and specific business or cultural developments. It focuses on text that reports on concrete, often time-bound or location-specific happenings involving identifiable organizations, people, or actions.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain specific proper nouns (names of people, organizations, places, projects) and concrete details about events (dates, legal rulings, discoveries, arrests). The low-activation examples, while sometimes news-related, are more general, abstract, or introductory\u2014discussing broad themes (\"demographic winter\"), reviews, historical topics, or opening sentences that lack immediate specific entities or actionable developments.\n\n4. **Closing interpretation**: This neuron appears to detect the linguistic marker of specificity and immediacy in factual discourse. It fires when text transitions from general context to reporting a concrete piece of news involving named, real-world actors and defined actions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ici\u00f3n para restaurar la bas\u00edlica\u201d, dijo la alcaldesa de El Socorro, Claudia Porras Rodr\u00edguez. Tambi\u00e9n le puede interesar: Dec",
+      "normalized_activation": 9.393389701843262,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1565,
+          "meaning_score": 0.5356,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2768
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2042,
+          "meaning_score": 0.7162,
+          "overlap_fraction": 0.744,
+          "location_score": 0.1488,
+          "combined_score": 0.517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2101,
+          "meaning_score": 0.4524,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.265
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "isma ed i tecnici di Rfi hanno effettuato un sopralluogo in particolare tra Taormina e Lentini e fra Bicoc",
+      "normalized_activation": 8.307849884033203,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1443,
+          "meaning_score": 0.4587,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2412
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1275,
+          "meaning_score": 0.4546,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2329
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1554,
+          "meaning_score": 0.3981,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2214
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Richard Hodgson, haviam observado uma maci\u00e7a explos\u00e3o na superf\u00edcie do Sol, emitindo mat\u00e9ria, no dia 1\u00ba de setembro",
+      "normalized_activation": 6.665111541748047,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1447,
+          "meaning_score": 0.5434,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2752
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1614,
+          "meaning_score": 0.476,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.255
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1854,
+          "meaning_score": 0.4079,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2373
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1075,
+          "meaning_score": 0.8268,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5737
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1965,
+          "meaning_score": 0.5222,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2874
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1278,
+          "meaning_score": 0.5002,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2512
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2604,
+          "meaning_score": 0.4706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2924
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2508,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1143,
+          "meaning_score": 0.5265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2563
+        }
+      ]
+    }
+  ]
+}

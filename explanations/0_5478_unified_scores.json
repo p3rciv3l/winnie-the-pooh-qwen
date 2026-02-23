@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_5478",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal institutions, particularly judicial bodies and educational schools** (such as \"Supreme Court,\" \"high school,\" or specific courts and schools).\n\n2. **Domain coverage**: The neuron activates across legal/political news (references to supreme courts in the US, India, Canada, Belarus, Philippines, etc., often in English) and educational contexts (\"high school,\" \"middle school,\" \"graduated high school\"). It also responds to institutional names in multilingual text (e.g., Spanish \"Corte Suprema\" in the high-activation group is implied by context, while low-activation multilingual snippets lack such references).\n\n3. **Contrast with low-activation examples**: The low-activation texts are short fragments, often in non-English languages or about unrelated topics (sports, business, general news) that do not contain named formal institutions. The high-activation texts consistently include proper nouns designating courts or schools, whereas the low-activation ones lack any such institutional naming.\n\n4. **Closing interpretation**: The neuron detects textual references to specific, often government or educational, institutions by recognizing their proper-name titles. It serves as a classifier for formal organizational entities within diverse text spans.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u201cI\u2019m going to appeal the [Appeal Court] ruling to the Supreme Court. Although it can be concluded from the history of solution, that when the national",
+      "normalized_activation": 9.842402458190918,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1426,
+          "meaning_score": 0.4752,
+          "overlap_fraction": 0.4533,
+          "location_score": 0.0907,
+          "combined_score": 0.3378
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1426,
+          "meaning_score": 0.3061,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1795
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1426,
+          "meaning_score": 0.2776,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1681
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "day included a rendition of \u201cAmerica The Beautiful\u201d by John Burroughs High School senior Grace Sessinghaus and the national anthem by a Kindergarten class from",
+      "normalized_activation": 6.200730800628662,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.504,
+          "meaning_score": 0.889,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7572
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1565,
+          "meaning_score": 0.3217,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1913
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1334,
+          "meaning_score": 0.2667,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.16
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "other crimes against humanity, and said she would raise the matter with the International Criminal Court in the Hague. \"When I return to New York, I will brief",
+      "normalized_activation": 4.008162975311279,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4334,
+          "meaning_score": 0.5686,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4008
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1634,
+          "meaning_score": 0.1892,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.141
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2013,
+          "meaning_score": 0.2026,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1615
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Nel cuore dell\u2019universo, l\u2019umanit\u00e0 coltiva il",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1768,
+          "meaning_score": 0.2925,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1877
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1833,
+          "meaning_score": 0.4309,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2457
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1681,
+          "meaning_score": 0.5967,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5059
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1164,
+          "meaning_score": 0.3283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1779
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1801,
+          "meaning_score": 0.365,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.218
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1512,
+          "meaning_score": 0.3448,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1984
+        }
+      ]
+    }
+  ]
+}

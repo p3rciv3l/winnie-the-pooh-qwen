@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_18820",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:41:59Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal or structured text segments containing parenthetical citations, publication details, or institutional metadata** (such as book/movie credits with publishers, news agency attributions, government/legal body names in parentheses, or technical references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Polish, Hindi, Turkish, etc.) and domains: international news dispatches (e.g., \"FRANKFURT AM MAIN:\"), academic or bibliographic citations, government/military reports, legal or corporate statements, and technical documentation. High-activation texts often include parenthesized source information, geographic locations, institutional acronyms (NASA, BRICS, LPR), or formal identifiers.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these structured metadata markers. They are generally narrative sentences, opinion/analysis pieces, or informal descriptions (e.g., \"Professor Louw Hoffman... wants people to eat more maggots\") even when discussing similar topics like politics, sports, or health. The absence of parentheticals, colons introducing sources, or institutional tags distinguishes them.\n\n4. **Closing interpretation**: This neuron detects textual formatting associated with reference-style writing or formal reporting, acting as a \"document structure\" detector. It likely helps the model parse citations, attributions, and structured metadata across multilingual corpora.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00002",
+      "row_idx": 1745,
+      "normalized": 9.15279769897461,
+      "actual_text": "iahemmet Hospital this fall amid the global health crisis. Margareta Thorgren, the Swedish Royal Court’s information director, told Swedish newspaper Expressen,",
+      "plain_text": "Princess Sofia of Sweden isn’t planning on hanging up her scrubs this year. Prince Carl Philip’s wife will continue working at Sophiahemmet Hospital this fall amid the global health crisis. Margareta Thorgren, the Swedish Royal Court’s information director, told Swedish newspaper Expressen, “Princess Sofia continues her work at Sophiahemmet and will start her part-time job again in September. She is very much looking forward to it.” The royal mom of two began volunteering at Sophiahemmet Hospital back in April. Sofia underwent intensive training to help relieve the nursing staff during the COVID-19 pandemic and was placed in a hospital ward to assist with simpler care tasks, cleaning and more. Sofia, 35, hinted earlier this summer that she would continue working in healthcare. During Sophiahemmet University College’s digital graduation ceremony in June, the Swedish Princess, who is honorary chair of Sophiahemmet, called her volunteer experience “absolutely outstanding,” and revealed that she was “not finished” with it﻿. “This autumn, new challenges await where we are all needed,” Sofia said. In her remarks, Princes Alexander and Gabriel’s mother reflected on her time in the hospital. Sofia shared, “The last few months have been tough for many, not least in health care. I know that several of you have participated and supported in different parts of the healthcare system and for that I want to thank you. I had the opportunity to come in and work at Sophiahemmet myself, and I still do.” She added, “I have also had the opportunity to visit several parts of the business. Which has given me valuable insights. But to see healthcare from within, to meet patients, and to see safe, well-educated nurses ‘in action’; It’s rarely that I’ve been so impressed.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Margareta Thorgren, the Swedish Royal Court’s information director, told Swedish newspaper Expressen, “Princess Sofia continues her work at Sophiahemmet and will start her part-time job again in September. She is very much looking forward to it.”",
+          "concept": "Institutional attribution",
+          "reasoning": "This section includes formal titles and a news source, matching the neuron's focus on structured metadata."
+        },
+        {
+          "rank": 2,
+          "text": "During Sophiahemmet University College’s digital graduation ceremony in June, the Swedish Princess, who is honorary chair of Sophiahemmet, called her volunteer experience “absolutely outstanding,” and revealed that she was “not finished” with it﻿.",
+          "concept": "Academic institution",
+          "reasoning": "It mentions a specific educational institution and a formal event, aligning with structured text segments."
+        },
+        {
+          "rank": 3,
+          "text": "Sofia shared, “The last few months have been tough for many, not least in health care. I know that several of you have participated and supported in different parts of the healthcare system and for that I want to thank you.”",
+          "concept": "Personal narrative",
+          "reasoning": "This is informal speech without metadata, so it likely has lower activation compared to structured parts."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 4414,
+      "normalized": 7.792782306671143,
+      "actual_text": "starcia Biden-Trump, to wygrywa Donald Trump z przewagą 2,5 punktu procentowego\". Dodał, że to",
+      "plain_text": "Od tego, kto w listopadzie tego roku wygra bilet do Gabinetu Owalnego, będzie zależeć wszystko, w tym pomoc dla Ukrainy - mówił w \"Faktach po Faktach\" korespondent \"Faktów TVN Marcin Wrona odnosząc się do wyborów prezydenckich w USA, które odbędą się w tym roku. Dziennikarze TVN i TVN24 rozmawiali o tym, co czeka nas w polityce międzynarodowej. Korespondent w Brukseli Maciej Sokołowski zauważył, że \"nawet 4 miliardy obywateli idzie do wyborów w tym roku\". Korespondenci \"Faktów\" TVN Marcin Wrona i Maciej Woroch, reporter \"Faktów\" TVN Andrzej Zaucha oraz korespondent TVN24 w Brukseli Maciej Sokołowski dyskutowali o wydarzeniach, które czekają nas w świecie w 2024 roku i ich wpływie na wojnę w Ukrainie oraz Izraela z Hamasem w Strefie Gazy. W przyszłym roku odbędą się między innymi wybory prezydenckie w USA i wybory do Parlamentu Europejskiego. Korespondent \"Faktów\" TVN w USA Marcin Wrona mówił, że \"gdyby dzisiaj miało dojść do starcia Biden-Trump, to wygrywa Donald Trump z przewagą 2,5 punktu procentowego\". Dodał, że to wynik najnowszych badań sondażowych. - I jeszcze jedno, coś, co powinno mrozić krew w żyłach demokratów. 67 procent Amerykanów twierdzi, że kraj zmierza w złym kierunku, a przecież krajem kieruje od trzech lat Joe Biden, demokrata, ich kandydat w nadchodzących wyborach - zauważył Wrona. Jak mówił, \"to jest jak najgorszy prognostyk dla Joe Bidena i to jest coś, co staje się paliwem kampanii wyborczej Donalda Trumpa\". - Amerykanie, mówiąc krótko, są bardzo niezadowoleni z tego, w jakim miejscu znajduje się ich państwo pod rządami prezydenta Joe Bidena - dodał. Wrona podkreślił, że \"od tego, kto w listopadzie tego roku wygra bilet do Gabinetu Owalnego\", będzie zależeć wszystko, w tym pomoc dla Ukrainy. Sokołowski: to jest rok wyborczy Maciej Sokołowski odnosząc się do ewentualnej wygranej Trumpa przypomniał, że to doświadczenie współpracy lub braku współpracy Europy z Donaldem Trumpem jest już za nami. - To jest doświadczenie i szefa Rady Europejskiej, i szefowej Komisji Europejskiej - dodał. - Pamiętam ten oddech ulgi po ostatnich wyborach amerykańskich, gdy okazało się, że Donald Trump odchodzi, można znowu współpracować ze Stanami Zjednoczonymi - mówił. Dodał jednak, że \"tam zawsze było takie zastrzeżenie: to nie jest tak, że my się żegnamy z Trumpem, już nawet z trumpizmem przecież, bo chodzi o to, że to inni kandydaci wchodzą w jego buty, przejmują jego hasła, jego metody\". - Na to Unia Europejska musi być gotowa. Jest gotowa, biorąc pod uwagę te swoje doświadczenia, bo już wtedy chciała się przygotować do bycia bardziej samodzielnym, niezależnym właśnie od pomocy ze strony Stanów Zjednoczonych. Ale potem przyszła wojna w Ukrainie i jednak znowu to wsparcie ze strony Stanów, ze strony Joe Bidena, okazało się kluczowe - zaznaczył korespondent TVN24 w Brukseli. - Słyszymy takie głosy, że musimy się przygotować w Europie do tego, żeby wspierać Ukrainę niezależnie od tego, czy będzie to robiła dalej Ameryka, czy też nie - dodał. Sokołowski zauważył, że wybory w 2024 roku \"będą tak naprawdę wszędzie\". - Nawet 4 miliardy obywateli idzie do wyborów w tym roku. Ponad połowa populacji świata. To jest rok wyborczy i choć będziemy mówić o tych wyborach pozostałych, także do Parlamentu Europejskiego, to jednak te wybory amerykańskie są tutaj decydujące być może także dla kształtu nie tylko tych relacji między Unią Europejską a Stanami, ale dla tego, co będzie się działo w Ukrainie, dla tego co będzie się działo w Europie w najbliższych latach - powiedział. Zaucha: Putin liczy, że Trump, gdy wygra wybory, przestanie wspierać Ukrainę Andrzej Zaucha został zapytany o to, co by oznaczała obecność Trumpa w Białym Domu dla przebiegu wojny w Ukrainie. - Do wyborów w Stanach Zjednoczonych jest jeszcze prawie rok, w związku z tym nie wiemy jeszcze co dokładnie się wydarzy na Ukrainie, jak będzie przebiegać wojna, którą prowadzi (Władimir) Putin przeciwko Ukrainie, natomiast niewątpliwie wszyscy eksperci o tym mówią, że Putin bardzo czeka na to ponowne przyjście Donalda Trumpa do Białego Domu - powiedział. Jak dodał, Putinowi \"z Trumpem, rozmawiało się poprzednim razem, kiedy on miał poprzednią kadencję, świetnie i był w stanie owijać go wokół palca, był w stanie go przekonywać do takich rzeczy, które wywoływały później dzikie skandale w Stanach Zjednoczonych\". - Putin liczy na to, że teraz będzie podobnie i podobnie będzie mógł rozgrywać Stany Zjednoczone. Bardzo liczy na to, że Donald Trump, kiedy przyjdzie do Białego Domu, przestanie wspierać Ukrainę - kontynuował Zaucha. Zauważył, że \"Trump mówi, że zakończy wojnę w 24 godziny\". Zaucha wyraził nadzieję, że nie będzie takiego pomysłu jaki \"podsuwa Władimir Putin, żeby przestać finansować Ukrainę, przestać Ukrainie dostarczać broń\", bo, dodał, \"wtedy rzeczywiście wojna się bardzo szybko zakończy, dlatego, że Ukraina nie będzie w stanie się po prostu bronić\". - Władimir Putin czeka na Donalda Trumpa, bo liczy, że będzie mu dużo łatwiej z taką Ameryką, którą rządzi Trump - podsumował. \"Wojna Izraela z Hamasem może przetasować te talie kart\" Maciej Woroch, korespondent \"Faktów\" TVN w Wielkiej Brytanii, który obecnie relacjonuje z Jerozolimy, mówił o trwającej wojnie Izraela z Hamasem. Jak powiedział \"wszyscy tu tkwią w impasie bliskowschodnim, bo nie ma jednego, dobrego rozwiązania\". - Wszystkie dotychczasowe zdają się zawodzić w tym, by udało się stworzyć skuteczne, bezpieczne dla Żydów i dla Arabów, rozwiązanie, by powstało państwo Palestyna i powstało państwo Izrael, by mogły współistnieć - dodał. - Z drugiej jednak strony wszyscy, z którymi rozmawiałem w Tel Awiwie, z kręgów rządowych, czy nawet część Palestyńczyków, ale po cichu i nigdy przed kamerą, tu w Jerozolimie, czy w Ramallah, przyznają, że Hamas był zawalidrogą w procesie pokojowym - powiedział Woroch. - Prawda jest taka, że zawsze są tu rozczarowane nadzieje, prawda jest taka, że wojna Izraela z Hamasem może przetasować te talie kart i doprowadzić skutecznie do likwidacji problemów, ale pytanie jaki będzie tego rezultat. Czy na dobre skończą się problemy na Bliskim Wschodzie, czy na przykład na północy ożywi się na nowo Hezbollah, a to przede wszystkim zależy od tego, jaki będzie wynik wyborów w Iranie - zaznaczył. Źródło: TVN24 Źródło zdjęcia głównego: TVN24",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Źródło: TVN24 Źródło zdjęcia głównego: TVN24",
+          "concept": "Source attribution",
+          "reasoning": "This is a formal citation of the news source, exactly matching the neuron's pattern for institutional metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Od tego, kto w listopadzie tego roku wygra bilet do Gabinetu Owalnego, będzie zależeć wszystko, w tym pomoc dla Ukrainy - mówił w 'Faktach po Faktach' korespondent 'Faktów TVN Marcin Wrona odnosząc się do wyborów prezydenckich w USA, które odbędą się w tym roku.",
+          "concept": "Correspondent reference",
+          "reasoning": "It contains a program name and correspondent attribution, fitting the neuron's detection of formal reporting structures."
+        },
+        {
+          "rank": 3,
+          "text": "Korespondent TVN24 w Brukseli Maciej Sokołowski odnosząc się do ewentualnej wygranej Trumpa przypomniał, że to doświadczenie współpracy lub braku współpracy Europy z Donaldem Trumpem jest już za nami.",
+          "concept": "Institutional tag",
+          "reasoning": "This section includes a news agency correspondent reference, aligning with structured metadata in multilingual texts."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00005",
+      "row_idx": 1722,
+      "normalized": 6.594939708709717,
+      "actual_text": "join Kangana’s ‘Lock Up’ along with Nisha Rawal and Munawwar Farooqui. Tiger Shroff is excited to work with Ak",
+      "plain_text": "Lock Upp: Bold and sizzling, controversy Queen Poonam Pandey is the third contestant of Kangana Ranaut’s show | Bold and sizzling Poonam Pandey is the third contestant of Kangana Ranaut’s ‘Lock Up’ – see promo  The discussion about the much awaited reality show ‘Lock Up’ to be aired on Alt Balaji and MX Player is increasing day by day. Where Kangana Ranaut was announced as the host of the show at the grand launch in Mumbai, now the makers are announcing the contestants one after the other. No doubt, audiences are eagerly waiting to see action, drama and gossip on their screens.  Amidst many rumors and speculations about the next contestant, the makers have confirmed that Poonam Pandey will be the third prisoner to join Kangana’s ‘Lock Up’ along with Nisha Rawal and Munawwar Farooqui.  Tiger Shroff is excited to work with Akshay Kumar – said this  A popular name in the modeling and internet world, Poonam made her Bollywood debut in 2013 with Nasha. Her name has obviously added more sparkle and glamor to this reality series.  Poonam Pandey on being a part of the show said, “I am very excited to tell everyone that I am a part of India’s biggest controversial show ‘Lock Up’. I don’t know what will happen there because everything I read And having seen about the show, I understand that I have to work even for my basic needs and there is no luxury in this lock-up. So I don’t know how I will survive this but I am nervous about it. And I’m both excited.”  The show will be hosted by the Queen of Bollywood, Kangana Ranaut. It will see 16 controversial celebrities jailed for months without the facilities we usually take for granted.  The show is set to premiere on 27 February 2022. ALTBalaji and MX Player will live stream the show 24×7 on their respective platforms and will also allow viewers to interact directly with the contestants.  english summary  Bold and sizzling, controversy Queen Poonam Pandey is the third contestant of Kangana Ranaut’s reality show Lock Upp. Watch the latest promo of the reality show.  Story first published: Wednesday, February 23, 2022, 13:23 [IST] #Lock #Upp #Bold #sizzling #controversy #Queen #Poonam #Pandey #contestant #Kangana #Ranauts #show #Bold #sizzling #Poonam #Pandey #contestant #Kangana #Ranauts #Lock #promo",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Story first published: Wednesday, February 23, 2022, 13:23 [IST] #Lock #Upp #Bold #sizzling #controversy #Queen #Poonam #Pandey #contestant #Kangana #Ranauts #show #Bold #sizzling #Poonam #Pandey #contestant #Kangana #Ranauts #Lock #promo",
+          "concept": "Publication details",
+          "reasoning": "This section contains explicit publication date, time, and tags, fitting the neuron's focus on structured metadata."
+        },
+        {
+          "rank": 2,
+          "text": "The show is set to premiere on 27 February 2022. ALTBalaji and MX Player will live stream the show 24×7 on their respective platforms and will also allow viewers to interact directly with the contestants.",
+          "concept": "Broadcast information",
+          "reasoning": "It provides formal details about show scheduling and platforms, matching the neuron's pattern for technical references."
+        },
+        {
+          "rank": 3,
+          "text": "Poonam Pandey on being a part of the show said, “I am very excited to tell everyone that I am a part of India’s biggest controversial show ‘Lock Up’. I don’t know what will happen there because everything I read And having seen about the show, I understand that I have to work even for my basic needs and there is no luxury in this lock-up.”",
+          "concept": "Informal quote",
+          "reasoning": "This is a personal statement without structured metadata, so it likely activates the neuron less."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 4130,
+      "normalized": 0.0,
+      "actual_text": "News Opposition Leader in the Senate Wade Mark. FILE PHOTO – IN a fractious sitting",
+      "plain_text": "News Opposition Leader in the Senate Wade Mark. FILE PHOTO – IN a fractious sitting of the Senate, the Government asked that Senate Opposition Leader Wade Mark be sent to the Privileges Committee for allegations made about NIB chairman Patrick Ferreira, with President Christine Kangaloo yet to rule on this. As this played out, Opposition Senator Anil Roberts was ejected for mumbling aloud in support of Mark, and continued to mutter his upset even as he walked the length and width of the chamber to make his exit. Minister of National Security Fitzgerald Hinds had earlier added to the fractious mood by prefacing his reply to a listed question with a strong criticism of past independent senator and social activist Diana Mahabir Wyatt as being an alleged UNC ally. Senate Leader Clarence Rambharat read out the matter of privilege charging Mark with making “baseless allegations” against Ferreira at the Senate’s sitting last week Tuesday in a motion on the adjournment. He said Mark had alleged the Government had put its nominee as NIB chairman and this breached the National Insurance Act. “The senator made several false allegations against the Government and Mr Patrick Ferreira,” said Rambharat. Rambharat said Mark had dubiously alleged the Central Bank had debarred Ferreira as managing director of the Consolidated Insurance Company (CIC) Ltd for allegedly giving an unlawful rebate on a commission on a big home ownership policy plan, with a Brokers Association complaint then made to the Supervisor of Insurance which is the Central Bank, leaving Ferreira disqualified from holding any position the insurance industry and rendering him unfit to head the NIB. Rambharat said, “Based on inquiry made to the Central Bank of TT, the bank has advised that no notice disbarring Patrick Ferreira or disqualifying him from holding any position in the insurance industry has been issued.” He said the bank has also said that “the determination of culpability against Patrick Ferreira for breaching the Insurance Act has not been issued.” Rambharat said Mark’s allegations against the Government and Ferreira were therefore “unfounded, baseless and false” and a breach of parliamentary privilege. He said privilege was the bedrock of Parliament, such that Mark’s allegations could not be ignored, especially given that they could severely affect Ferreira’s personal and commercial interests. “I move that Senator Wade Mark committed contempt of this Senate. He deliberately and wilfully misled this Senate. He grossly and recklessly abused the privilege of freedom of speech in this Senate. “In accordance with the relevant standing orders, I ask that Senator Wade Mark be referred to the committee of privileges.” Kangaloo said she would rule at a future time. Roberts tried to discuss the matter but Kangaloo said no. “No, Senator Roberts. Not at this stage.” He muttered something for which Kangaloo told him to “apologise for your rudeness”. Roberts complied but mumbled something else. She said, “Senator Roberts, if you continue like this I’m going to have to ask you to leave the chamber. Senator Roberts, please leave the chamber, for the rest of the day.” Roberts rose saying, “No problem. Absolute pleasure.” Kangaloo then sternly upbraided, “Senator Nakhid, Do you really want to go down this route? You are out of order and I would ask you to desist from this line of conduct.” She then complained to the Senate, “It amazes me when I was faced with the indiscipline I was just faced with.” Mark then rose to calmly ask an urgent question, postponed from earlier. Earlier, Hinds had replied to a listed question by Mark asking if he would approve the Caribbean Centre for Human Rights’ (CCHR’s) request to access the nation’s prisons. Hinds alleged the CCHR’s chairman was an ally of the UNC and Mark, “and whom I caught on the prowl with him recently in a bogus scandal in St Ann’s, a bogus water scandal”. Hinds no such request had been lodged. Mark asked Hinds for proof she was a UNC ally but Kangaloo disallowed that by saying she had already addressed that. When Mark asked if such a request would be approved, Hinds angrily replied that he had already answered. Mark interjected, “I don’t know why the minister is so riled up today. Did you take your tablets?” Kangaloo told Mark to move on. He muttered something to suggest Hinds was unwell but was told by Kangaloo to withdraw, which he did.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Rambharat said, “Based on inquiry made to the Central Bank of TT, the bank has advised that no notice disbarring Patrick Ferreira or disqualifying him from holding any position in the insurance industry has been issued.” He said the bank has also said that “the determination of culpability against Patrick Ferreira for breaching the Insurance Act has not been issued.”",
+          "concept": "Government body reference",
+          "reasoning": "This section cites formal inquiries and legal acts, matching the neuron's detection of institutional metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Senate Leader Clarence Rambharat read out the matter of privilege charging Mark with making “baseless allegations” against Ferreira at the Senate’s sitting last week Tuesday in a motion on the adjournment.",
+          "concept": "Parliamentary procedure",
+          "reasoning": "It describes formal Senate proceedings with specific titles and motions, aligning with structured legal reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Minister of National Security Fitzgerald Hinds had earlier added to the fractious mood by prefacing his reply to a listed question with a strong criticism of past independent senator and social activist Diana Mahabir Wyatt as being an alleged UNC ally.",
+          "concept": "Political attribution",
+          "reasoning": "This includes government titles and allegations, fitting the neuron's pattern for formal institutional tags."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part.",
+          "concept": "Event metadata",
+          "reasoning": "This section provides structured details about an event, including time, platform, and participants, aligning with formal reporting."
+        },
+        {
+          "rank": 2,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle.",
+          "concept": "Publication accolade",
+          "reasoning": "It includes book titles and awards from recognized publications, fitting the neuron's pattern for structured citations."
+        },
+        {
+          "rank": 3,
+          "text": "For details about the virtual event, call 214-509-4911.",
+          "concept": "Contact information",
+          "reasoning": "This is formal metadata for event details, similar to institutional references in technical documentation."
+        }
+      ]
+    }
+  ]
+}

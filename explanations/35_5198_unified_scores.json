@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_5198",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations that begin with function words, transitional phrases, or subclause connectors** (such as prepositional phrases like \"as he mends,\" conjunctions like \"ha detto che,\" or adverbs like \"potrivit rapoartelor\").\n\n2. **Domain coverage**: The pattern appears across news, narrative, and descriptive text in multiple languages (including English, Danish, Italian, Romanian, German, Arabic, Spanish, Polish, and Persian). It activates on text that follows a comma or clearly continues a preceding clause, often introducing explanatory, causal, or elaborative information\u2014frequently related to reports, official statements, descriptions of events, or procedural details.\n\n3. **Contrast with low-activation examples**: High-activation texts are almost exclusively sentence-internal fragments that depend syntactically on prior context, while low-activation examples are typically complete sentences, headlines, or sentence-initial phrases that can stand alone. The neuron fires weakly on text that starts a new thought or independent clause.\n\n4. **Closing interpretation**: The neuron detects syntactic positions where a clause is being extended or elaborated within a longer sentence, acting as a marker of ongoing syntactic dependency rather than a specific topic. It likely helps the model track sentence structure and coherence across multi-clause statements.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Sfintei \u0219i de Dumnezeu p\u0103zitei Episcopii Ortodoxe Rom\u00e2ne a Oradiei, Preac",
+      "normalized_activation": 9.58027172088623,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2223,
+          "meaning_score": 0.2929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2061
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1931,
+          "meaning_score": 0.2706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1855
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2765,
+          "meaning_score": 0.2076,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1936
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "States, where she polished her fluent English. \u2018I grew up with that duality \u2013 a belief that politics can transform the world alongside an academic and scientific mindset",
+      "normalized_activation": 8.839203834533691,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2274,
+          "meaning_score": 0.3773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2419
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1985,
+          "meaning_score": 0.2781,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2526,
+          "meaning_score": 0.2891,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2167
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Consell de Ministres. Es tracta d'una \"estrat\u00e8gia desesperada i extrema davant la fermesa democr\u00e0tica de",
+      "normalized_activation": 7.917090892791748,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1097,
+          "meaning_score": 0.5546,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2657
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1279,
+          "meaning_score": 0.5091,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1803,
+          "meaning_score": 0.4732,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2614
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1577,
+          "meaning_score": 0.3547,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.205
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1617,
+          "meaning_score": 0.2522,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1655
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.149,
+          "meaning_score": 0.1292,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1113
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1217,
+          "meaning_score": 0.212,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1335
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1796,
+          "meaning_score": 0.2716,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1805
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1347,
+          "meaning_score": 0.2812,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1664
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_13439",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:27:31Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **sequences of proper nouns, numbers, and specific factual details in a news or encyclopedic style** (such as lists of names, dates, statistics, geographic terms, or technical identifiers).\n\n2. **Domain coverage**: The pattern appears in multilingual news reports, encyclopedia entries, and factual summaries across many languages (Spanish, Italian, Polish, Portuguese, Catalan, Russian, Hindi, etc.). Topics include sports scores, political announcements, academic citations, disaster reports, legal documents, and cultural references—any text densely packed with named entities and numerical data.\n\n3. **Contrast with low-activation examples**: The high-activation texts contain concentrated factual lists or specific references (e.g., “Stefano Sassi, Claudio Marenzi,” “12 punts,” “magnitudo 2.4 - nella notte - a Sampeyre”), while low-activation examples are more abstract, opinion-based, or descriptive without such dense named-entity sequences (e.g., “Big Pharma offers an easy punching bag,” “Respiratory problems are a quite common condition”).\n\n4. **Closing interpretation**: The neuron appears to detect markers of structured, information-dense reporting—acting as a “factual listing” or “named-entity cluster” detector. It fires when text resembles data-rich snippets typical of news wires, bibliographies, or technical summaries.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00015",
+      "row_idx": 3185,
+      "normalized": 9.491052627563477,
+      "actual_text": "foto Ap/Lapresse La vicenda riguarda il rapimento di Abu Omar nell'ambito di una cosiddetta operazione di \"rendition\",",
+      "plain_text": "foto Ap/Lapresse La vicenda riguarda il rapimento di Abu Omar nell'ambito di una cosiddetta operazione di \"rendition\", il suo trasferimento in Egitto, dove il religioso ha raccontato di essere stato torturato nel corso degli interrogatori e di essere stato detenuto per anni senza che gli venissero formalizzate accuse.   All'epoca del rapimento, l'imam era imputato a Milano per terrorismo internazionale. Il primo febbraio la corte d'Appello di Milano ha condannato a sette anni di reclusione l'ex capo della Cia in Italia, Jeff Castelli, a conclusione dell'appello \"stralcio\" nel procedimento per il sequestro dell'imam. \"Sono come Enzo Tortora\" - \"Sono sconcertato: è stata condannata una persona che tutti in Italia sanno essere innocente\". E' stata la prima replica del generale Nicolò Pollari, commentando la sentenza di Milano. \"Non voglio fare paragoni ma ricordo che anche Tortora fu condannato a 10 anni\".    \"Impedita la difesa a Pollari\" - \"Non ce l'aspettavamo, siamo sconcertati\". Lo ha detto Nicola Madia, legale di Nicolò Pollari. L'avvocato ha spiegato che il generale è stato condannato \"nonostante il segreto di Stato apposto da tre diversi governi\", segreto che gli ha anche impedito di difendersi nel merito. L'avvocato Luigi Panella, legale di Mancini, ha detto che in questo processo \"sono stati utilizzati atti coperti da segreto\". Un milione di risarcimento ad Abu Omar - I giudici di Milano hanno stabilito un risarcimento a titolo di provvisionale a favore dell'ex Imam, Abu Omar, di un milione di euro. Per la moglie invece la Corte ha stabilito una provvisionale di 500mila euro. Il Collegio inoltre ha deciso che gli ulteriori danni riconosciuti all'ex Imam e alla moglie, rappresentati dagli avvocati Scambia e Bauccio, dovranno essere liquidati in sede civile. L'avvocatura dello Stato contro la sentenza - Si profila ormai uno scontro tra istituzioni nell'ambito del sequestro Abu Omar. Secondo l'avvocatura dello Stato, infatti, l'annullamento del proscioglimento per Pollari e Mancini da parte della Cassazione, a settembre, ha leso le \"attribuzioni costituzionali\" della Presidenza del Consiglio per \"la tutela della sicurezza nazionale\", messa in pratica con \"l'apposizione del segreto di Stato\". L'avvocatura ha chiesto la sospensione della sentenza. All'epoca del rapimento, l'imam era imputato a Milano per terrorismo internazionale. Il primo febbraio la corte d'Appello di Milano ha condannato a sette anni di reclusione l'ex capo della Cia in Italia, Jeff Castelli, a conclusione dell'appello \"stralcio\" nel procedimento per il sequestro dell'imam. \"Sono come Enzo Tortora\" - \"Sono sconcertato: è stata condannata una persona che tutti in Italia sanno essere innocente\". E' stata la prima replica del generale Nicolò Pollari, commentando la sentenza di Milano. \"Non voglio fare paragoni ma ricordo che anche Tortora fu condannato a 10 anni\". \"Impedita la difesa a Pollari\" - \"Non ce l'aspettavamo, siamo sconcertati\". Lo ha detto Nicola Madia, legale di Nicolò Pollari. L'avvocato ha spiegato che il generale è stato condannato \"nonostante il segreto di Stato apposto da tre diversi governi\", segreto che gli ha anche impedito di difendersi nel merito. L'avvocato Luigi Panella, legale di Mancini, ha detto che in questo processo \"sono stati utilizzati atti coperti da segreto\". Un milione di risarcimento ad Abu Omar - I giudici di Milano hanno stabilito un risarcimento a titolo di provvisionale a favore dell'ex Imam, Abu Omar, di un milione di euro. Per la moglie invece la Corte ha stabilito una provvisionale di 500mila euro. Il Collegio inoltre ha deciso che gli ulteriori danni riconosciuti all'ex Imam e alla moglie, rappresentati dagli avvocati Scambia e Bauccio, dovranno essere liquidati in sede civile. L'avvocatura dello Stato contro la sentenza - Si profila ormai uno scontro tra istituzioni nell'ambito del sequestro Abu Omar. Secondo l'avvocatura dello Stato, infatti, l'annullamento del proscioglimento per Pollari e Mancini da parte della Cassazione, a settembre, ha leso le \"attribuzioni costituzionali\" della Presidenza del Consiglio per \"la tutela della sicurezza nazionale\", messa in pratica con \"l'apposizione del segreto di Stato\". L'avvocatura ha chiesto la sospensione della sentenza.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Il primo febbraio la corte d'Appello di Milano ha condannato a sette anni di reclusione l'ex capo della Cia in Italia, Jeff Castelli, a conclusione dell'appello \"stralcio\" nel procedimento per il sequestro dell'imam.",
+          "concept": "Legal conviction",
+          "reasoning": "Contains date, prison sentence, and proper names (Milano, Jeff Castelli) typical of factual news."
+        },
+        {
+          "rank": 2,
+          "text": "Un milione di risarcimento ad Abu Omar - I giudici di Milano hanno stabilito un risarcimento a titolo di provvisionale a favore dell'ex Imam, Abu Omar, di un milione di euro. Per la moglie invece la Corte ha stabilito una provvisionale di 500mila euro.",
+          "concept": "Financial compensation",
+          "reasoning": "Contains specific monetary amounts and named entities (Abu Omar, Milano) in a factual listing."
+        },
+        {
+          "rank": 3,
+          "text": "L'avvocatura dello Stato contro la sentenza - Si profila ormai uno scontro tra istituzioni nell'ambito del sequestro Abu Omar. Secondo l'avvocatura dello Stato, infatti, l'annullamento del proscioglimento per Pollari e Mancini da parte della Cassazione, a settembre, ha leso le \"attribuzioni costituzionali\" della Presidenza del Consiglio per \"la tutela della sicurezza nazionale\", messa in pratica con \"l'apposizione del segreto di Stato\".",
+          "concept": "Institutional conflict",
+          "reasoning": "Lists multiple institutional names and legal terms in a dense factual sequence."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 5298,
+      "normalized": 8.517197608947754,
+      "actual_text": "out across much of Goma, and phone lines were busy. In Kinshasa, the capital, Prime Minister Jean-Michel Sama Lukonde convened an",
+      "plain_text": "GOMA, DEMOCRATIC REPUBLIC OF THE CONGO - Lava from a volcanic eruption reached the airport of eastern Democratic Republic of the Congo's main city of Goma on Saturday, as thousands evacuated the city.  Goma residents, recalling Mount Nyiragongo's last eruption in 2002, which killed 250 people and left 120,000 homeless, grabbed mattresses and other belongings.  As the red glow of the volcano, one of the world's most active, tinged the nighttime sky above the lakeside city of about 2 million, some fled east toward the frontier with neighboring Rwanda, while others escaped to the west.  Dario Tedesco, a volcanologist based in Goma, said new fractures were opening in Nyiragongo, allowing the lava to flow southward toward Goma after initially flowing east toward Rwanda.  \"Now Goma is the target,\" Tedesco told Reuters. \"It's similar to 2002. I think that the lava is going towards the city center.  \"It might stop before or go on. It's difficult to forecast.\"  A U.N. source said all U.N. aircraft had been evacuated to the city of Bukavu to the south and Entebbe in neighboring Uganda.  Power was also out across much of Goma, and phone lines were busy.  In Kinshasa, the capital, Prime Minister Jean-Michel Sama Lukonde convened an emergency meeting, at which the government activated an evacuation plan for Goma.  \"We hope that the measures that have been taken this evening will allow the population to reach the points that were indicated to them in this [evacuation] plan,\" government spokesman Patrick Muyaya said in comments broadcast on national television.  Volcano watchers have been worried that the volcanic activity observed in the last five years at Nyiragongo mirrored the activity preceding eruptions in 1977 and 2002.  Volcanologists at the Goma Volcano Observatory, which monitors Nyiragongo, have struggled to make basic, regular checks since the World Bank cut funding amid embezzlement allegations.  In a May 10 bulletin, the observatory said there had been increased seismic activity at Nyiragongo earlier in the month.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Goma residents, recalling Mount Nyiragongo's last eruption in 2002, which killed 250 people and left 120,000 homeless, grabbed mattresses and other belongings.",
+          "concept": "Eruption casualties",
+          "reasoning": "Contains year, death toll, and displacement numbers in a factual report."
+        },
+        {
+          "rank": 2,
+          "text": "In Kinshasa, the capital, Prime Minister Jean-Michel Sama Lukonde convened an emergency meeting, at which the government activated an evacuation plan for Goma.",
+          "concept": "Government response",
+          "reasoning": "Includes proper nouns (Kinshasa, Prime Minister Jean-Michel Sama Lukonde, Goma) characteristic of news reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Volcano watchers have been worried that the volcanic activity observed in the last five years at Nyiragongo mirrored the activity preceding eruptions in 1977 and 2002.",
+          "concept": "Historical eruption years",
+          "reasoning": "Lists specific years (1977, 2002) associated with volcanic activity in a factual context."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00003",
+      "row_idx": 4373,
+      "normalized": 7.4663496017456055,
+      "actual_text": "uchwycony na nagraniu Na nagraniu widać jak jasno świecący obiekt przecina niebo i znika z kad",
+      "plain_text": "Obiekt przeciął niebo nad miastem. Wszystko nagrała kamera z domofonu Mieszkańcy Birmingham w Wielkiej Brytanii byli kilka dni temu świadkami niecodziennego zdarzenia. Nad miastem przeleciał bowiem meteor, który zostawił za sobą łunę białego światła. W sieci od kilku dni pojawiają się kolejne materiały i relacje świadków, którzy twierdzą, że widzieli, jak nocne niebo na Birmingham na kilka sekund rozświetliło białe światło. Najbardziej popularne stało się jednak wideo nagrane przez kamerę zainstalowaną przy domofonie jednego z budynków mieszkalnych. Meteor nad Birmingham uchwycony na nagraniu Na nagraniu widać jak jasno świecący obiekt przecina niebo i znika z kadru. \"Widziałem to wczoraj, jak wracałem z pubu\" - napisał jeden z internautów pod wideo udostępnionym w serwisie YouTube. \"Ja też to widziałem wczoraj kątem oka ok. 2 w nocy. Myślałem, że to rosyjska rakieta albo meteor. Na szczęście okazało się być tym pierwszym\" - skomentował ktoś inny. \"Widziałem to przez okno i prawie oszalałem. Creepy, że udało się to złapać na nagraniu!\"; \"Widziałam dokładnie takie samo dwa miesiące temu w Falkirk!\" - czytamy pod opublikowanym materiałem. Meteor to ślad na nieboe po meteoroidzie Meteor to zjawisko świetlne powstające w atmosferze ziemskiej, które jest efektem przelotu meteoroidu przez atmosferę. Meteorem nazywa się ślad, jaki zostawia po sobie meteoroid, czyli okruch skalny wpadający w ziemską atmosferę. Często taki obiekt pozostawia za sobą krótkotrwałą smugę. Dalsza część artykułu pod materiałem wideo Moment ‘meteor’ flashes across night sky over UK Meteory, które spadną na Ziemię, nazywane są meteorytami. Szacuje się, że codzienne w atmosferę ziemską wpada około 270 ton materiałów kosmicznych, ale większość z nich nie zostaje dostrzeżona, bo są niewielkiej wielkości. Widzieliście kiedyś coś podobnego na niebie? Źródło: TVN Meteo",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mieszkańcy Birmingham w Wielkiej Brytanii byli kilka dni temu świadkami niecodziennego zdarzenia. Nad miastem przeleciał bowiem meteor, który zostawił za sobą łunę białego światła.",
+          "concept": "Meteor sighting location",
+          "reasoning": "Contains proper place names (Birmingham, Wielka Brytania) in a factual news snippet."
+        },
+        {
+          "rank": 2,
+          "text": "\"Widziałem to wczoraj, jak wracałem z pubu\" - napisał jeden z internautów pod wideo udostępnionym w serwisie YouTube. \"Ja też to widziałem wczoraj kątem oka ok. 2 w nocy. Myślałem, że to rosyjska rakieta albo meteor. Na szczęście okazało się być tym pierwszym\" - skomentował ktoś inny.",
+          "concept": "Witness account",
+          "reasoning": "Includes time reference (2 w nocy) and proper noun (rosyjska rakieta) in a direct quote."
+        },
+        {
+          "rank": 3,
+          "text": "Meteor to zjawisko świetlne powstające w atmosferze ziemskiej, które jest efektem przelotu meteoroidu przez atmosferę. Meteorem nazywa się ślad, jaki zostawia po sobie meteoroid, czyli okruch skalny wpadający w ziemską atmosferę. Szacuje się, że codzienne w atmosferę ziemską wpada około 270 ton materiałów kosmicznych, ale większość z nich nie zostaje dostrzeżona, bo są niewielkiej wielkości.",
+          "concept": "Meteor scientific facts",
+          "reasoning": "Provides a specific numerical statistic (270 ton) and scientific terminology in an encyclopedic style."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1921,
+      "normalized": 0.0,
+      "actual_text": "Ant Fortune and Schroders today announce the joint launch of the Investment Personality Test, a",
+      "plain_text": "Ant Fortune and Schroders today announce the joint launch of the Investment Personality Test, a digital tool that combines the science of behavioural finance and investment education, enabling investors in China to better understand how their personality could impact their investments. The Investment Personality Test, developed by Schroders* and customised for Chinese investors by Ant Fortune, is accessible via their mobile Wealth Management platform and available through the Alipay app, a major payment and lifestyle platform. It will be accessible by selected users in the initial launch phase. The collaboration between Ant Fortune and Schroders in developing an innovative client centric mobile tool underlines their collective efforts to better serve end-investors, helping them stay focused on their long-term investment objectives. The Investment Personality Test analyses investment personality, strengths and weaknesses, which will ultimately help users make more informed, well-rounded investment decisions. The collaboration is testament to Schroders' commitment in working with on-the-ground partners in China to tailor services, solutions, and information that fit the local client's needs. Lieven Debruyne, CEO, Asia Pacific, Schroders said: 'We recognise the importance of investor education and are pleased to have partnered with Ant Fortune to bring the Investment Personality Test to people in China. The combination of behavioural finance and investment educational content is what we believe will make the tool effective in raising financial literacy. Through this collaboration and our innovative offerings on one of China's leading digital platforms, we are well-positioned to be the trusted expert who investors can rely on throughout their life-long investment journey.' Zhang Yu, General Manager, Strategic Partnerships - Financial Institutions, Ant Fortune, said: 'Ant Fortune's core philosophy is combining Technology with Openness. As the asset management industry further develops and more collaborations occur, we are excited to partner with Schroders, a world-renowned industry player, to create more value by jointly bringing inclusive and convenient services to our users. Our collaboration with Schroders in introducing the Investment Personality Test helps investors better understand themselves, and complements Ant Fortune's goal of cultivating a stable, long-term investment mind-set amongst our users.' David Guo, Head of China Business, Schroders said: 'Schroders have had a presence in China since 1994, and have been closely aligned with the evolving Chinese financial market and the needs of investors. We are pleased to deepen our partnership with Ant Fortune with the launch of the Investment Personality Test. Exploring the impact of emotions in investment decision making alongside providing stronger educational content is what we believe will make this digital platform so effective in strengthening investor knowledge in China.' At the core of the Investment Personality Test is an analysis tool that categorises users into four investment characters and shows them how they measure against nine behavioural traits. Users will be able to share their results with friends and family directly through the Alipay app or other social media channels after completing the test. * The Investment Personality Test is based on Schroders' investIQ, an educational platform which combines behavioural finance and investment education, developed by Schroders specifically for a consumer audience to help improve their knowledge and ultimately result in better, more informed and well-rounded decision-making. At its core sits the test which identifies the user's investment character. investIQ comprises of various forms of content (videos, articles, infographics), covering a range of levels of investment knowledge, spanning the basics to more advanced investment concepts. For more information: www.schroders.com/investIQ For further information, please contact: Sarah Deutscher, Senior International PR Manager Sarah.deutscher@schroders.com /02076586139 About Ant Fortune Ant Fortune is a comprehensive wealth management platform that uses technology to connect financial institutions with individual users who have little financial expertise. Launched in 2015, Ant Fortune is committed to helping users enjoy equal, dependable and easy to understand wealth management products and services. Through Ant Fortune's platform and Alipay, users can purchase these products as well as obtain market information, participate in forums, and other services Ant Fortune also aims to address the needs of financial institutions that lacked efficient channels to engage with and understand the needs of users, through innovations such as AI-powered operational optimization, marketing and risk management. More than 110 mutual-fund asset management companies in China have joined the platform, providing over 4,000 products to tens of millions of Ant Fortune users. Attachments Disclaimer Schroders plc published this content on 20 December 2018 and is solely responsible for the information contained herein. Distributed by Public, unedited and unaltered, on 20 December 2018 16:09:05 UTC",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ant Fortune and Schroders today announce the joint launch of the Investment Personality Test, a digital tool that combines the science of behavioural finance and investment education, enabling investors in China to better understand how their personality could impact their investments.",
+          "concept": "Product announcement",
+          "reasoning": "Contains company names (Ant Fortune, Schroders) and product name in a factual press release."
+        },
+        {
+          "rank": 2,
+          "text": "Lieven Debruyne, CEO, Asia Pacific, Schroders said: 'We recognise the importance of investor education and are pleased to have partnered with Ant Fortune to bring the Investment Personality Test to people in China. The combination of behavioural finance and investment educational content is what we believe will make the tool effective in raising financial literacy.",
+          "concept": "Executive quote",
+          "reasoning": "Includes a named executive (Lieven Debruyne) with title and company, typical of corporate news."
+        },
+        {
+          "rank": 3,
+          "text": "Schroders plc published this content on 20 December 2018 and is solely responsible for the information contained herein. Distributed by Public, unedited and unaltered, on 20 December 2018 16:09:05 UTC",
+          "concept": "Publication details",
+          "reasoning": "Lists specific date and timestamp in a formal disclosure statement."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 970,
+      "normalized": 0.0,
+      "actual_text": "Sting, 65, and wife of 25 years Trudie",
+      "plain_text": "Sting, 65, and wife of 25 years Trudie Styler, 63, put on a besotted display as she is honoured as Person Of The Year in Rome for her humanitarian work  They have been married for 25 years, and together for 35. But Sting, real name Gordon Matthew Thomas Sumner, looked in the first throes of love as he cosied up to Trudie Styler in Rome on Thursday. The music legend, 65, looked proud as punch as his wife, 63, was awarded Capri Hollywood's person of the year for her work as a human rights and environmental activist. Scroll down for video Still besotted: Sting, real name Gordon Matthew Thomas Sumner, looked in the first throes of love as he cosied up to Trudie Styler in Rome on Thursday Squeezing her shoulder encouragingly, he beamed as she accepted the coveted award at the Capri Hollywood dinner event. Dressed in a sequin-embellished floor-length gown and blazer, the blonde beauty looked thrilled, having arrived hand-in-hand with her husband earlier in the night. The delighted couple were joined by Italian composer Giovanni Allievi, singer Toni Renis and producer Lady Monika. Proud as punch: The music legend, 65, looked on as his wife, 63, was awarded Capri Hollywood's person of the year for her work as a human rights and environmental activist Announcing the winner of the award last week, producer Marina Cicogna said on behalf of the Capri in the World Institute: 'We are pleased to honor Trudie Styler with this prestigious award. 'She is a true artist, a formidable businesswoman and humanitarian, who together with her husband Sting has founded the Rainforest Fund and has always been at the forefront to protect the environment.' Earlier in the day Trudie was spotted attending a photocall during the 12th Rome Film Fest at Casa Alice. Clad in a red coat and tiger-embellished dress she posed up a storm without Sting ahead of the awards ceremony. Her rock: Dressed in a sequin-embellished floor-length gown and blazer, the blonde beauty looked thrilled, having arrived hand-in-hand with her husband earlier in the night Proud husband: Squeezing her shoulder encouragingly, he beamed as she accepted the coveted award at the Capri Hollywood dinner event Turning heads! They made a glamorous entrance to the coveted dinner in Italy The couple have been famously open about maintaining the spark in their long-standing relationship. Much to the embarrassment of their four children, the yoga fanatics, who married in 1992 after ten years of dating, have infamously suggested they enjoy tantric sex lasting several hours, swingers parties and strip clubs. The singer made headlines around the world when said that he and Miss Styler had sex for several hours back in 1990. He has since rowed back on the comment but has said that there was some truth to it. Talent: The delighted couple were joined by Italian composer Giovanni Allievi, singer Toni Renis and producer Lady Monika Cheeky! Sting has been famously open about maintaining the spark in their long-standing relationship Oops! Much to the embarrassment of their four children, the yoga fanatics, who married in 1992 after ten years of dating, have infamously suggested they enjoy tantric sex 'The idea of tantric sex is a spiritual act,' he said in one interview. 'I don' t know any purer and better way of expressing a love for another individual than sharing that wonderful, I call it, 'sacrament.' I would stand by it. Not seven hours, but the idea.' In 2011 Miss Styler, now 63, said her husband's original claim about their love life was just a drunken boast. 'Do you know who I blame for that?' she said. 'Bob Geldof. Him and Sting had gone to do an interview with a rock journalist, and the interview turned into a drinking session. The couple have four children, Mickey, 33, Jake, 32, Coco, 27, and Giacomo, 21, while Sting has daughter Kate, 35, and son Joe, 40, from his first marriage, to actress Frances Tomelty. Proud! Trudie beamed as she accepted the much coveted award at the event Red hot! Earlier in the day Trudie was spotted attending a photocall during the 12th Rome Film Fest at Casa Alice Sizzling! Clad in a red coat and tiger-embellished dress she posed up a storm without Sting ahead of the awards ceremony Most watched News videos  Moment naked woman walks in 'Wolf of Wall Street' style office Woman rubs her bare breasts in 'sex predator's' face in public Black cab seen on the pavement after incident in Covent Garden Wendy Williams collapses on stage during her Halloween show Fallon: 'I have fallen below high standards of the Armed Forces' Mother moose tries to attack woman with her dog in Colorado Suspect flees police before being arrested after NY terror attack Argentinian bikers before they were killed in terror attack NYPD responds after a truck driver mows down multiple people Accusations levied at director Brett Ratner as scandal grows Trump would consider sending New York attacker 'to Gitmo' Never-before-seen home videos of Osama bin Laden's family",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sting, 65, and wife of 25 years Trudie Styler, 63, put on a besotted display as she is honoured as Person Of The Year in Rome for her humanitarian work",
+          "concept": "Celebrity ages and anniversary",
+          "reasoning": "Contains ages (65, 63) and relationship duration (25 years) alongside proper nouns (Sting, Trudie Styler, Rome)."
+        },
+        {
+          "rank": 2,
+          "text": "The delighted couple were joined by Italian composer Giovanni Allievi, singer Toni Renis and producer Lady Monika.",
+          "concept": "Event attendees",
+          "reasoning": "Lists names and professions of multiple individuals in a social event report."
+        },
+        {
+          "rank": 3,
+          "text": "The couple have four children, Mickey, 33, Jake, 32, Coco, 27, and Giacomo, 21, while Sting has daughter Kate, 35, and son Joe, 40, from his first marriage, to actress Frances Tomelty.",
+          "concept": "Family details",
+          "reasoning": "Provides a dense list of names and ages in a biographical style."
+        }
+      ]
+    }
+  ]
+}

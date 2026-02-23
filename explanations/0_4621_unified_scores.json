@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_4621",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to explicit mentions of the word \"King\" or its direct translations and variants in context (such as references to literal monarchs, \"King\" as a title in names or places, the phrase \"King of the Day,\" or the musical group \"for King & Country\").\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Italian, French, Spanish) and contexts where \"King\" appears as a proper noun or central concept. This includes sports commentary (\"King Power Stadium,\" \"cementing him as King of the Day\"), entertainment (\"King Princess,\" \"Queen Latifah\"), religion/ceremony (\"Rev. Al Sharpton... breakfast for King,\" \"Three Kings Parade\"), historical references (\"Valley of the Kings\"), and brand/entity names (\"KING 5 Mornings\"). The pattern is specifically lexical/conceptual, not topical\u2014it fires on the term \"King\" itself or its direct equivalents, not merely on related themes of royalty or leadership without the word.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the word \"King\" or its direct synonyms in any language. They cover disparate topics like healthcare negotiations, exoplanets, tech company hearings, and general news without any reference to monarchy, the specific term \"King,\" or translated variants. The high-activation group consistently contains the string \"King\" (or \"Kings\" or translations like \"Re\" in Italian), while the low group avoids it entirely.\n\n4. **Closing interpretation**: This neuron functions as a detector for the specific token \"King\" and its immediate morphological and translational variants within a text segment. It is highly sensitive to the surface form and proper-noun usage of \"King\" across diverse contexts and languages, rather than responding to a broader semantic field of sovereignty or leadership.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "video. What did X users say about this rap video? \u201cOriginal rap King. Baba was everyone's favourite in the 90's. Still, every",
+      "normalized_activation": 9.520968437194824,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "What\u2019s Happening: Jonathan Hickman\u2019s vision for the future of mutants expands into the galaxy this December following the events of House of X. S",
+      "normalized_activation": 6.618394374847412,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Lanka\u2019s biggest bilateral creditor with $7.3 billion loans out of a total of $14 billion bilateral debt, chalking up 52 per cent of",
+      "normalized_activation": 5.466289043426514,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_10702",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **numerical values followed by continuing text in the same sentence or clause** (such as ages like \"98 de ani\", years like \"2024\", fractions like \"1/02\", measurements like \"magnitud 3,9\", or scores like \"Activation: 8.51\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Romanian, Russian, Polish, English, Dutch, Greek, Italian, etc.) and diverse topics including historical events, sports scores, geological measurements, political developments, and cultural descriptions. The neuron activates when a number is integrated into ongoing prose rather than standing alone or appearing in purely metadata contexts (like isolated dates or labels).\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack numbers entirely or present numbers in fragmented, truncated, or metadata-like contexts (e.g., \"Il 6 maggio 1976 alle ore 21.0\" is cut off; \"Sismo de magnitud 3,9 se registr\u00f3 este jueves 6\" is incomplete). High-activation examples consistently show numbers embedded within flowing, multi-word phrases that continue syntactically after the number.\n\n4. **Closing interpretation**: This neuron detects syntactic contexts where a numerical value is immediately followed by additional descriptive or narrative text, suggesting it fires on numbers that are actively part of a sentence\u2019s propositional content rather than existing as isolated labels or fragments.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ook Dennis van Eersel en Emile Schelvis hun licht laten schijnen over de ontwikkelingen bij de regionale profclubs. FC",
+      "normalized_activation": 9.53665828704834,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1594,
+          "meaning_score": 0.4583,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2471
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2364,
+          "meaning_score": 0.4548,
+          "overlap_fraction": 0.0169,
+          "location_score": 0.0034,
+          "combined_score": 0.2799
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2217,
+          "meaning_score": 0.4985,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2881
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Trump festej\u00f3 un rebote econ\u00f3mico del 33%, pero el covid-19 complica todav\u00eda",
+      "normalized_activation": 8.572297096252441,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1177,
+          "meaning_score": 0.4858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2414
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1341,
+          "meaning_score": 0.568,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2808
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1641,
+          "meaning_score": 0.35,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2056
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Times center on the obstruction issue, including his reaction to Attorney General Jeff Sessions' recusal from the Russia investigation, a decision Trump has angrily criticized. Trump lawyer Jay",
+      "normalized_activation": 7.270293712615967,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1531,
+          "meaning_score": 0.4871,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2561
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.145,
+          "meaning_score": 0.3229,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1871
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.273,
+          "meaning_score": 0.3408,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2455
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A POWERFUL earthquake has rocked Turkey destroying buildings and triggering a tsunami as the tremor",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1347,
+          "meaning_score": 0.5647,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2797
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2008,
+          "meaning_score": 0.5222,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2892
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2301,
+          "meaning_score": 0.5118,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2968
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "When I envisioned bringing my baby home from the hospital, I thought about all the hours",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1495,
+          "meaning_score": 0.1649,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1258
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1651,
+          "meaning_score": 0.18,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.138
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1175,
+          "meaning_score": 0.7726,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5561
+        }
+      ]
+    }
+  ]
+}

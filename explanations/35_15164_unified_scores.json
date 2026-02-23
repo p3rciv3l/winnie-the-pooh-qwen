@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_15164",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing concrete administrative, operational, or procedural actions** (such as allocation of funds, implementation of safety regulations, military maneuvers, or official logistical operations).\n\n2. **Domain coverage**: The pattern appears in multilingual official communications, news reports on government/local authority actions, and technical documents. It spans languages including Italian, Slovak, Spanish, Polish, Czech, Arabic, and Catalan, covering topics like public funding announcements (\"finanziamento\", \"miliardy rubl\u016f\"), infrastructure upgrades (\"norme antincendio\", \"messa in sicurezza\"), military/security operations (\"zajali na \u00faseku frontu\", \"stringere il cerchio\"), and bureaucratic procedures (\"detrazione\", \"servizi sul portale\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature specific, concrete actions being undertaken, mandated, or reported by an official or organizational body, often with numerical details or formal terminology. The low-activation examples, while sometimes news-related, lack this procedural, implementation-focused core; they are instead general news headlines, cultural/personal commentary, event summaries, or informal narratives that do not detail a formal operational step.\n\n4. **Closing interpretation**: The neuron detects formal, procedural language that conveys the execution of plans, disbursement of resources, or enactment of official measures, acting as a cross-lingual filter for text involving actionable administrative or operational content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "de mer et a toutes les chances d\u2019appara\u00eetre sur la table des d\u00e9bats lors de la campagne. En 2019, de nouvelles",
+      "normalized_activation": 9.655425071716309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1354,
+          "meaning_score": 0.2958,
+          "overlap_fraction": 0.1909,
+          "location_score": 0.0382,
+          "combined_score": 0.2107
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0873,
+          "meaning_score": 0.2605,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1391
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1357,
+          "meaning_score": 0.2439,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1518
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u00e9nage et une bonification individuelle pour chacun des membres de la famille gagnant plus de 0,",
+      "normalized_activation": 9.028597831726074,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1173,
+          "meaning_score": 0.3091,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1706
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1602,
+          "meaning_score": 0.2766,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1747
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1454,
+          "meaning_score": 0.3268,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1889
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "astro : All'origine della sciagura l'onda provocata da frane sottomarine innescate dall'eruzione del vulcano Krakatoa",
+      "normalized_activation": 8.202075958251953,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1165,
+          "meaning_score": 0.437,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2214
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1226,
+          "meaning_score": 0.435,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.223
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1526,
+          "meaning_score": 0.3806,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2133
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1334,
+          "meaning_score": 0.1578,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1165
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1806,
+          "meaning_score": 0.1243,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1219
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1285,
+          "meaning_score": 0.1912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1279
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "North Korea may have been exploiting collaboration with foreign scientists to bypass tough international sanctions and further",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1563,
+          "meaning_score": 0.4106,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2267
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1465,
+          "meaning_score": 0.4402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2347
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1208,
+          "meaning_score": 0.5354,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2625
+        }
+      ]
+    }
+  ]
+}

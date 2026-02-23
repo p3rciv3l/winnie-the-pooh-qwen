@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_5495",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense clusters of proper nouns\u2014specifically names of people, organizations, places, or titles** (such as \u201cAmbassador Huntsman,\u201d \u201cLefortovo Prison,\u201d \u201cTimur Suleimenov,\u201d \u201cPablo Iglesias,\u201d or \u201cChristina Fialho\u201d) embedded in formal or journalistic contexts.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Hungarian, Persian, etc.) and typically occurs in news reporting, diplomatic updates, legal proceedings, or event descriptions. High-activation examples often involve political figures, institutions, geographic locations, or named individuals in structured lists or detailed narrative contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack concentrated sequences of proper nouns; they instead contain general terms, incomplete phrases, or isolated common nouns (e.g., \u201cSea levels along United States coastlines,\u201d \u201cEnvironmental Policies,\u201d \u201cWhat do you ask Santa\u201d). High-activation segments are distinguished by the presence of multiple specific named entities in close proximity, often within a single sentence or clause.\n\n4. **Closing interpretation**: The neuron detects formal or reportorial text rich in referenced entities\u2014suggesting it functions as a \u201cproper noun cluster\u201d detector, possibly aiding the model in parsing structured information, entity relationships, or journalistic discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "-3 election to be rescheduled after death of candidate Fazle Rabbi Chowdhury Senior Correspondent bdnews24.com Published: 20",
+      "normalized_activation": 9.576775550842285,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0939,
+          "meaning_score": 0.5525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2585
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.115,
+          "meaning_score": 0.4927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.243
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1374,
+          "meaning_score": 0.728,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3461
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", d\u00e9di\u00e9e au langage de programmation Pharo. St\u00e9phane Ducasse, responsable de l\u2019\u00e9quipe Rmod d\u2019Inria Lille",
+      "normalized_activation": 8.751850128173828,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1087,
+          "meaning_score": 0.3174,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1704
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.15,
+          "meaning_score": 0.7211,
+          "overlap_fraction": 0.5769,
+          "location_score": 0.1154,
+          "combined_score": 0.4638
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.174,
+          "meaning_score": 0.5048,
+          "overlap_fraction": 0.4135,
+          "location_score": 0.0827,
+          "combined_score": 0.3542
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "The 'fruit' is actually a sea urchin, possibly an Echinus species. I was able to recognize the prop because I studied it at university",
+      "normalized_activation": 7.732447624206543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1271,
+          "meaning_score": 0.0906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0871
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2123,
+          "meaning_score": 0.1081,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1282
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2075,
+          "meaning_score": 0.0781,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1142
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1132,
+          "meaning_score": 0.5121,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2501
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1531,
+          "meaning_score": 0.7682,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3685
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1484,
+          "meaning_score": 0.4956,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2576
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "South Africa has filed a case at the International Court of Justice (ICJ) against",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4028,
+          "meaning_score": 0.6742,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6308
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1964,
+          "meaning_score": 0.3283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2099
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2714,
+          "meaning_score": 0.3969,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2673
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "neuron_id": "0_11617",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing **specific named entities (such as people, organizations, or locations) embedded within detailed narrative or reportive contexts** (such as \"Lee Bo\" in a Hong Kong abduction case, \"Leon Draisaitl\" in a sports update, or \"Erfan Selim\" in a political description).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Portuguese, French, Vietnamese, etc.) and domains including **political incidents, legal cases, sports reporting, crime news, cultural descriptions, and financial/technical updates**. The neuron activates when these named entities are part of a concrete event, action, or descriptive clause\u2014for example, a person involved in a controversy, an athlete\u2019s performance in a game, or a location affected by a disaster.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature **proper nouns coupled with specific, often time-bound or event-driven details** (e.g., \"December 2015 abduction,\" \"Edmonton has three games remaining,\" \"forced to close its door amid a...\"). In contrast, low-activation examples are either **generic statements** (\"Demographic decline was a big story\"), **incomplete fragments** (\"Il 6 maggio 1976 alle ore 21.0\"), or **topics lacking a tightly associated named entity and specific narrative context** (e.g., \"Astronomie Souhv\u011bzd\u00ed ji\u017en\u00ed oblohy Lodn\u00ed\" is a general astronomy term without a tied event).\n\n4. **Closing interpretation**: The neuron detects **semantically dense, entity-centric narrative snippets**\u2014text where a specific real-world referent is central to an unfolding situation or description. It appears to function as a filter for passages that convey concrete, identifiable subjects within active or descriptive clauses, ignoring vague, generic, or fragmentary mentions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", Microseismic, National Oilwell Varco, Paradigm, Petrolink, Redline Communications Group, Rockwell Automation, Shell, Siemens, Weatherford",
+      "normalized_activation": 9.547473907470703,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.592197,
+          "actual_text_slice": [
+            1461,
+            1600
+          ],
+          "prediction_text_slice": [
+            1211,
+            1381
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.410523,
+          "actual_text_slice": [
+            1461,
+            1600
+          ],
+          "prediction_text_slice": [
+            647,
+            888
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.138964,
+          "actual_text_slice": [
+            1461,
+            1600
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". \u201cIt\u2019s never been done so we\u2019re a little wary,\u201d MacLeod said. \u201cBut we felt like it was an opportunity we had to try.",
+      "normalized_activation": 8.601608276367188,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.254908,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            625,
+            808
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.081646,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.25071,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1695,
+            1970
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "uka-luka dan 2 orang hilang. Kerugian fisik meliputi 430 unit rumah rusak berat, 9 hotel",
+      "normalized_activation": 7.483290195465088,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.299161,
+          "actual_text_slice": [
+            581,
+            669
+          ],
+          "prediction_text_slice": [
+            0,
+            230
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.284162,
+          "actual_text_slice": [
+            581,
+            669
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.1369,
+          "actual_text_slice": [
+            581,
+            669
+          ],
+          "prediction_text_slice": [
+            1518,
+            1724
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.826712,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            0,
+            211
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.519519,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": [
+            555,
+            754
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.534931,
+          "actual_text_slice": [
+            0,
+            58
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.325668,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            154,
+            324
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.285199,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            879,
+            1175
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.237472,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            1176,
+            1434
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

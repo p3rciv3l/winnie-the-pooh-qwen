@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_13335",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-sentence fragments in news-style text that contain numerical data, proper nouns, and/or complex punctuation (such as quotes, colons, copyright symbols, or decimal separators).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Arabic, German, Italian, Spanish, English, French, Portuguese, Greek, Persian, Turkish, Romanian, Urdu) and topics (finance, science, health, politics, culture), typically in the body of news articles or formal reports. Examples include financial percentages (\u201cil 15%\u201d), copyright boilerplate (\u201cCOPYRIGHT LASICILIA.IT\u201d), quoted speech (\u00abLa risposta alla crisi\u00bb), and technical terms (\u201cCOVID-19\u201d, \u201cPr\u00f3xima Centauri\u201d).\n\n3. **Contrast with low-activation examples**: Low-activation texts are often sentence-initial or headline-like, starting with capital letters and lacking embedded numerical data or complex punctuation. They include datelines (\u201cCHESTER, Pa. (CBS) \u2014\u201d), headlines (\u201cCongressional Democrat Moves to End Free Speech\u201d), and social prompts (\u201ccon Julio S\u00e1nchez Cristo S\u00edguenos en\u201d), which are more self-contained and less likely to contain the dense, inline details that characterize high-activation segments.\n\n4. **Closing interpretation**: The neuron likely detects prose that is informationally dense and syntactically embedded, serving as a marker for continuation within a document rather than the start of a new section or thought.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u060c\u0645\u0636\u064a\u0641\u064b\u0627: \u201d \u0623\u062a\u0645\u0646\u0649 \u0646\u0628\u0639\u062f \u0639\u0646 \u062b\u0642\u0627\u0641\u0629 \u0627\u0644\u062a\u062e\u0648\u064a\u0646 \u0648\u0627\u0644\u0645\u0624\u0627\u0645\u0631\u0629 \u201d . \u0648\u062a\u0627\u0628\u0639 \u0641\u064a \u0645\u062f\u0627\u062e\u0644\u0629",
+      "normalized_activation": 9.699702262878418,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1566,
+          "meaning_score": 0.1293,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1143
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1598,
+          "meaning_score": 0.4344,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2377
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1886,
+          "meaning_score": 0.2878,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "(\u064a\u0648\u0627\u0641\u0642 12 \u0631\u0628\u064a\u0639 \u0627\u0644\u0623\u0648\u0644 \u0645\u0646 \u0643\u0644 \u0639\u0627\u0645) \u0645\u0639 \u0646\u0634\u0631 \u0635\u0648\u0631 \u0648\u0631\u0633\u0648\u0645 \u0643\u0627\u0631\u064a\u0643\u0627\u062a\u0648\u0631\u064a\u0629 \u0645\u0633\u064a\u0626\u0629 \u0644\u0644\u0646\u0628\u064a \u0645\u062d\u0645\u062f \u0639\u0644\u064a\u0647 \u0627\u0644\u0635",
+      "normalized_activation": 9.015715599060059,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1612,
+          "meaning_score": 0.5908,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3008
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1937,
+          "meaning_score": 0.3791,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2291
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1574,
+          "meaning_score": 0.372,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2117
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "mid-Friday, the Turkish authorities had not yet reacted but Erdogan and Prime Minister Binali Yildirim were due to speak later in the day in Izmir",
+      "normalized_activation": 8.066341400146484,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1571,
+          "meaning_score": 0.4124,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2278
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1486,
+          "meaning_score": 0.3534,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0911,
+          "meaning_score": 0.3751,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1865
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Covering stories that matter to the community. CALEXICO \u2014 There\u2019s not a",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1537,
+          "meaning_score": 0.1833,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1348
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1903,
+          "meaning_score": 0.2514,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1767
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1524,
+          "meaning_score": 0.2518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1617
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1856,
+          "meaning_score": 0.2823,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1871
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1479,
+          "meaning_score": 0.2798,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1711
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1284,
+          "meaning_score": 0.4278,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2225
+        }
+      ]
+    }
+  ]
+}

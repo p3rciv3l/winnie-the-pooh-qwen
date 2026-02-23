@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_3277",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:11:11Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing sequences of proper nouns, technical terms, or multilingual named entities in mid-sentence fragments** (such as lists of names like \"Anne König Daniela Wutte,\" technical role titles like \"Drive Test Engineer,\" or mixed-language phrases like \"Aegon aréne poradil s chorvátskym kvalifikantom\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (German, Italian, Polish, Czech, Russian, Turkish, Hungarian, etc.) and contexts including news snippets, technical descriptions, sports reports, legal/business documents, and multilingual social media or web content. It often involves capitalized terms, abbreviations, or transliterated names embedded within informational or formal prose.\n\n3. **Contrast with low-activation examples**: High-activation texts typically contain dense, specific terminology or named entities within incomplete syntactic structures, whereas low-activation examples are often complete introductory sentences, headlines, or conversational phrases with fewer specialized or multi-word nominal sequences. The low-activation group lacks the concentrated clusters of capitalized or technical vocabulary seen in the high group.\n\n4. **Closing interpretation**: The neuron likely detects **information-rich, non-narrative text segments characterized by nominal groupings and cross-lingual lexical specificity**. It functions as a marker for passages where entity density and formal/technical vocabulary are high, regardless of language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 5731,
+      "normalized": 9.66270923614502,
+      "actual_text": "zaznamenalo pobřežní město Izmir, kde žijí tři miliony obyvatel, a",
+      "plain_text": "Atény/Istanbul - Po dnešním zemětřesení, které zasáhlo Turecko a Řecko, zemřely přinejmenším čtyři osoby a dalších 120 lidí utrpělo zranění. Uvedl to turecký ministr zdravotnictví. Úder nejvíce postihl turecké pobřežní město Izmir a jeho okolí, kde se zřítilo nejméně dvacet budov. Řecký ostrov Samos, který leží 13 kilometrů od ohniska zemětřesení, také zaznamenal škody a jeho pobřeží zasáhlo malé cunami. Řecko zatím žádné oběti nehlásí. Podle různých odhadů se síla zemětřesení odhaduje na 6,6 až sedm stupňů.  Podle prvních zpráv z tureckých médií největší škody zaznamenalo pobřežní město Izmir, kde žijí tři miliony obyvatel, a jeho okolí. V oblasti se zřejmě zřítilo několik budov. Škody hlásí také řecký ostrov Samos, kde žije 45.000 obyvatel. Podle agentury AFP pobřeží ostrova zasáhlo malé cunami.  Řecko leží v seismicky aktivní oblasti, zemětřesení jsou tam relativně častá. V září zasáhlo silné zemětřesení ostrov Kréta, kde způsobilo jen škody na majetku. Poslední zemětřesení s oběťmi na životech o síle 6,7 stupně zasáhlo v červenci 2017 ostrov Kos nedaleko Turecka. Dva lidé tehdy zemřeli. Zemětřesení o síle 5,9 stupně v roce 1999 v Aténách usmrtilo 143 lidí.  Turecko má za sebou několik ničivých zemětřesení - v roce 1999 v Izmitu na západě země při otřesech o síle 7,6 stupně přišlo o život přes 17.000 lidí a půl milionu občanů ztratilo střechu nad hlavou. Při zemětřesení ve Vanu v roce 2011 zahynulo přes 520 lidí. Letos v lednu postihlo provincii Elazig zemětřesení o síle 6,8 stupně a zemřelo při něm více než 40 lidí. Poslední zemětřesení, při kterém zemřel jeden člověk, postihlo letos v červnu východní část země.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Turecko má za sebou několik ničivých zemětřesení - v roce 1999 v Izmitu na západě země při otřesech o síle 7,6 stupně přišlo o život přes 17.000 lidí a půl milionu občanů ztratilo střechu nad hlavou. Při zemětřesení ve Vanu v roce 2011 zahynulo přes 520 lidí.",
+          "concept": "earthquake history",
+          "reasoning": "This section lists multiple proper nouns (Izmitu, Vanu) and technical details in a dense, informational sequence."
+        },
+        {
+          "rank": 2,
+          "text": "Atény/Istanbul - Po dnešním zemětřesení, které zasáhlo Turecko a Řecko, zemřely přinejmenším čtyři osoby a dalších 120 lidí utrpělo zranění. Uvedl to turecký ministr zdravotnictví.",
+          "concept": "geopolitical locations",
+          "reasoning": "It starts with a fragment containing proper nouns (Atény/Istanbul) and mentions multiple countries and a city."
+        },
+        {
+          "rank": 3,
+          "text": "Řecko leží v seismicky aktivní oblasti, zemětřesení jsou tam relativně častá. V září zasáhlo silné zemětřesení ostrov Kréta, kde způsobilo jen škody na majetku. Poslední zemětřesení s oběťmi na životech o síle 6,7 stupně zasáhlo v červenci 2017 ostrov Kos nedaleko Turecka.",
+          "concept": "seismic events",
+          "reasoning": "This part includes proper nouns (Kréta, Kos) and technical terms related to earthquakes in a descriptive list."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 4597,
+      "normalized": 8.975138664245605,
+      "actual_text": "isation and Sarawak Housing and Real Estate Developers’ Association (Sheda) Kuching branch. The HoA stipulates that HDC will be a majority stake",
+      "plain_text": "HDC , Conceiving Board Manufacturing Co Ltd sign agreement to set up modular panel plant in the state FOSHAN, Guanhzhou: Housing Development Corporation (HDC) through its subsidiary, Smart Housing R & D SdnBhd (Smart Housing), signed a Heads of Agreement (HoA) with Foshan based manufacturer, Conceiving Board Manufacturing Co Ltd (CBM) for the set-up of a modular panel manufacturing plant in Muara Tebas yesterday. The signing of the HoA was held at CBM’s plant in Fosan and was witnessed by Chief Minister Datuk Amar Abang Johari Tun Openg who was accompanied by a delegation from the Ministry of Housing and Urbanisation and Sarawak Housing and Real Estate Developers’ Association (Sheda) Kuching branch. The HoA stipulates that HDC will be a majority stakeholder in a company set through the joint-venture, Green Modular R & R SdnBhd (Green Modular) According to the chief minister, the venture was not only to facilitate technology transfer from CBM into Sarawak but also to meet the housing needs of Sarawakians by bringing in houses that could be built quickly and affordably. Concurring with the chief minister, director of Smart Housing, Datuk Dr Abang Abdul Rauf Abang Zen declared that the future of affordable housing would be modular housing. “In Sarawak, the prices are getting higher and higher and the chief minister has said on many occasions that we should instead flood the market with cheaper alternatives. Modular housing or panelling can achieve this as it will not only reduce the cost of production but the cost of labour as well,” he said. Chen Yao Ran, managing director of CBM explained that the switch to its modular panelling products would significantly reduce the man power at the construction site. “Usually, the timeline of normal construction projects will be 80 per cent on site and 20 per cent within factories. With the switch to modular panelling the timeline will now be 20 per cent on site and 80 percent within factories. “This drastically reduces the need for man power and also increases efficiency for transportation and logistics of our materials as our products are much lighter and easier to transport. Abang Johari also pointed out that CBM could also be used in the construction of other building other than houses. “I believe that the market for modular panelling is there as it not only benefits the housing segment. We can use this technology to build schools and hospitals quickly for these projects to be able to provide our people the essentials. The chief minister also hoped that the HoA and would also benefit private players in the housing industry to allow them to be able to export their services outside the state. “I hope Sarawak will be known as a place that export houses and not just build houses,” the chief minister said. Representing Smart Housing for the signing ceremony were its directors, Datuk Dr Abang Haji Abdul Rauf bin Abang Haji Zen and MohdYusof bin Mohd Ona. CMB was represented by its managing director, Chen Yao Ran and General Manager Xia Zun Hua. After the signing ceremony, the chief minister and his delegation visited CBM’s manufacturing site where they witnessed a demonstration of how CBM’s modular panels were installed.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "HDC , Conceiving Board Manufacturing Co Ltd sign agreement to set up modular panel plant in the state FOSHAN, Guanhzhou: Housing Development Corporation (HDC) through its subsidiary, Smart Housing R & D SdnBhd (Smart Housing), signed a Heads of Agreement (HoA) with Foshan based manufacturer, Conceiving Board Manufacturing Co Ltd (CBM) for the set-up of a modular panel manufacturing plant in Muara Tebas yesterday.",
+          "concept": "business entities",
+          "reasoning": "This section contains a dense sequence of company names, abbreviations, and locations in a formal agreement context."
+        },
+        {
+          "rank": 2,
+          "text": "The signing of the HoA was held at CBM’s plant in Fosan and was witnessed by Chief Minister Datuk Amar Abang Johari Tun Openg who was accompanied by a delegation from the Ministry of Housing and Urbanisation and Sarawak Housing and Real Estate Developers’ Association (Sheda) Kuching branch.",
+          "concept": "official titles",
+          "reasoning": "It lists multiple proper nouns including personal titles and organization names in a ceremonial description."
+        },
+        {
+          "rank": 3,
+          "text": "Representing Smart Housing for the signing ceremony were its directors, Datuk Dr Abang Haji Abdul Rauf bin Abang Haji Zen and MohdYusof bin Mohd Ona. CMB was represented by its managing director, Chen Yao Ran and General Manager Xia Zun Hua.",
+          "concept": "personal names",
+          "reasoning": "This part provides a list of names and positions, which are specific named entities in a business setting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 259,
+      "normalized": 8.091365814208984,
+      "actual_text": "miş özelliklere sahip yeni 24 MP ve 12 MP kamera sensörlerini duyurmasından bu yana büyük bir şey.",
+      "plain_text": "Dumanın olduğu yerde ateşte vardır ve yakında çıkacak olan Galaxy S9 hakkında bilgiler çoktan gelmeye başladı. Samsung'un iPhone X'in geniş pazar mevcudiyeti ile mücadele edebilmek için Galaxy S9’u oldukça etkileyici özelliklerle tanıtması bekleniyor.  Samsung'un bu yıl Infinity Display tasarımıyla gelen amiral gemileri göz önüne alındığında, gözle görülür bir değişim beklenmemekle birlikte, dedikodu değirmenine göre kaputun altında büyük değişiklikler olacak.  Dolayısıyla, yakında çıkacak Galaxy S9'un yeni özellikleriyle ilgili inandırıcı söylentilerin yanı sıra mantıklı iddialarda yer alıyor. Galaxy S9 ile birlikte geleceği söylenen bu özellikleri aşağıda ve sonraki sayfalarda inceleyebilirsiniz.  Çift kamera  Popüler analist Ming-Chi Kuo'nun neredeyse tüm tahminleri gerçek oluyor. Galaxy S9’daki çift kamera, S hattındaki ilk çift kamera telefonu olmasının yanı sıra, Samsung'un yeni ve güncellenmiş özelliklere sahip yeni 24 MP ve 12 MP kamera sensörlerini duyurmasından bu yana büyük bir şey. Düşük ışık hassasiyeti geliştirildi ve Samsung'un yeni sensörü, aynen Pixel 2 XL'de olduğu gibi Dual Pixel odaklama teknolojisini portreler için de kullanıyor.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Çift kamera Popüler analist Ming-Chi Kuo'nun neredeyse tüm tahminleri gerçek oluyor. Galaxy S9’daki çift kamera, S hattındaki ilk çift kamera telefonu olmasının yanı sıra, Samsung'un yeni ve güncellenmiş özelliklere sahip yeni 24 MP ve 12 MP kamera sensörlerini duyurmasından bu yana büyük bir şey.",
+          "concept": "tech analyst",
+          "reasoning": "This segment includes a proper noun (Ming-Chi Kuo) and dense technical terminology related to smartphone cameras."
+        },
+        {
+          "rank": 2,
+          "text": "Dumanın olduğu yerde ateşte vardır ve yakında çıkacak olan Galaxy S9 hakkında bilgiler çoktan gelmeye başladı. Samsung'un iPhone X'in geniş pazar mevcudiyeti ile mücadele edebilmek için Galaxy S9’u oldukça etkileyici özelliklerle tanıtması bekleniyor.",
+          "concept": "product names",
+          "reasoning": "It contains multiple product names (Galaxy S9, iPhone X) in a speculative context."
+        },
+        {
+          "rank": 3,
+          "text": "Düşük ışık hassasiyeti geliştirildi ve Samsung'un yeni sensörü, aynen Pixel 2 XL'de olduğu gibi Dual Pixel odaklama teknolojisini portreler için de kullanıyor.",
+          "concept": "camera technology",
+          "reasoning": "This part has technical terms and a proper noun (Pixel 2 XL) describing specific features."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 3656,
+      "normalized": 0.0,
+      "actual_text": "FALL RIVER — A man wanted for the past 10 months in connection",
+      "plain_text": "FALL RIVER — A man wanted for the past 10 months in connection to a child rape case in Fall River was captured in Alabama last week. Brian Jackson, who is on the Bristol County District Attorney’s Most Wanted List, has been a fugitive from justice since last May, when a warrant was issued for his arrest, according to a Facebook post Monday by the DA’s office. After an extensive investigation by members of the Massachusetts State Police, information was obtained that Jackson was hiding out in Goodwater, Alabama, the DA’s office stated. A Massachusetts trooper contacted the Coosa County Sheriff’s office in Alabama on Wednesday, March 13, and officers arrested Goodwater without incident later that night. Jackson waived rendition in an Alabama court on Friday and will be returned to Massachusetts this week to be arraigned in Fall River District Court, the post states. He is charged with two counts of rape of a child, three counts of indecent assault and battery on a person under 14 and one count of assault and battery of a minor. According to the DA’s office, the defendant is alleged to have repeatedly raped a young female child while he was living in Fall River.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "FALL RIVER — A man wanted for the past 10 months in connection to a child rape case in Fall River was captured in Alabama last week. Brian Jackson, who is on the Bristol County District Attorney’s Most Wanted List, has been a fugitive from justice since last May, when a warrant was issued for his arrest, according to a Facebook post Monday by the DA’s office.",
+          "concept": "legal case",
+          "reasoning": "This section contains multiple proper nouns (FALL RIVER, Brian Jackson, Bristol County) and legal terminology in a news report fragment."
+        },
+        {
+          "rank": 2,
+          "text": "After an extensive investigation by members of the Massachusetts State Police, information was obtained that Jackson was hiding out in Goodwater, Alabama, the DA’s office stated. A Massachusetts trooper contacted the Coosa County Sheriff’s office in Alabama on Wednesday, March 13, and officers arrested Goodwater without incident later that night.",
+          "concept": "law enforcement",
+          "reasoning": "It lists specific locations and agencies (Goodwater, Alabama, Coosa County Sheriff’s office) in an investigative context."
+        },
+        {
+          "rank": 3,
+          "text": "Jackson waived rendition in an Alabama court on Friday and will be returned to Massachusetts this week to be arraigned in Fall River District Court, the post states. He is charged with two counts of rape of a child, three counts of indecent assault and battery on a person under 14 and one count of assault and battery of a minor.",
+          "concept": "court proceedings",
+          "reasoning": "This part includes legal charges and court names, which are formal and specific nominal sequences."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 2354,
+      "normalized": 0.0,
+      "actual_text": "In 'Fight No More,' Life Rushes By, But Sometime's There's",
+      "plain_text": "In 'Fight No More,' Life Rushes By, But Sometime's There's Beauty  Is there a writer more profound and less pretentious than Lydia Millet? In her novels and story collections, a dozen in all, Millet deals out existential questions like playing cards, and like any good casino dealer, her hands never shake. Her newest book, Fight No More, could easily be her most philosophically confident and complex work yet. It's a novel about death disguised as a story collection about real estate, and it's alternately wrenching and hilarious, peaceful and joyful, so tender you almost can't bear it and so brutal you know that you can't.  The book opens with Nina, a smart, lonely real estate agent, reading the Marquis de Sade in the bathroom of a house she's trying to sell. She spends the rest of the novel — which she ties together; she's everyone's realtor — considering Sade's libertines: Not the sex part, but the freedom. \"Some people were statues all their lives,\" Nina thinks. \"They feared the freedom of others, that others' freedom could end up hurting them ... But then, if you stood still like that, you couldn't go anywhere. And was it fair to blame the libertines for moving?\"  Fight No More is full of questions, but Nina's is first and fundamental. Move, or stay still? Fight, or accept? Sometimes the answer is obvious. Take Jeremy, a teenager flailing in the wake of his parents' divorce. He wants to comfort his mother and be comforted in his turn, but all he can do is rebel. (Preferred strategies: weed, public masturbation, conversational Latin.) \"He was supposed to be angry,\" he thinks. \"He did the angry, [his mother] did the sad.\" But he wants to be sad. What he wants, it turns out, is to be good, to — this is how he puts it — \"renounce Satan, the author and prince of sin.\" And sooner or later, he lets himself.  But what about his grandmother Aleska, an academic in her 80s who sees her death rapidly approaching? She wants to fight it, but can't deny her physical decline. She tries to think like her late husband, a Holocaust survivor who loathed \"the American way of thought that said all things could be repaired, all things surmounted by a trick of attitude.\" History can't be surmounted; nor can death. It's a myth to believe otherwise, and yet Aleska has \"always come down on the side of the myths.\" To fight age is futile, she knows. She can't win, and yet she can't give up without losing herself.  So she fights on behalf of Lexie, her 18-year-old caretaker, who arrives in the novel fleeing her sexually abusive stepfather, Pete. Millet gives us an outline of the abuse through Lexie's eyes, but the details come from Pete. He narrates a whole chapter. It's agony to read. Pete is unrepentant, a monster, and Millet brings all her deep gifts to bear in writing him: her acute human knowledge, her light-touch humor, the unfussy perfection of her prose. Readers of Edward St. Aubyn's Patrick Melrose novels will recognize the sensation of wanting desperately to stop reading, but finding themselves unable. The writing is just too good.   It's a novel about death disguised as a story collection about real estate, and it's alternately wrenching and hilarious, peaceful and joyful, so tender you almost can't bear it and so brutal you know that you can't. The payoff, thank God, is worth it. Fight No More is full of joys on every scale, but Lexie's liberation is its greatest by far. She is the only character for whom Millet asks us to imagine a future. At the end of the book, Lexie is neither fighting nor acquiescent. She's all potential energy, ready for motion. We've seen other characters in this state: Jeremy as he renounces the twin Satans of porn and pot (he never gets over the Latin), Nina when she meets the man she will love.  Even by her own high standard, Millet is exceptional in these moments of possibility. She writes them with equal parts wildness and straightforwardness, certainty and the certainty of impermanence. Mostly, you're fighting or you've given up. Mostly, you're a libertine or a statue. But every so often, you get to feel yourself, as Nina puts it, \"moving through time, for once. You went along at the same pace for so long that it felt like you were standing still; then something shifted and suddenly life was rushing past. Not in the sense of disappearing, but in the sense of happening.\"  If Fight No More has a thesis, this is it. We are so rarely able to feel life happening. When we do, nine times out of ten, it's because we're aware of its end. But that tenth time, you get the libertines' freedom, or Jeremy's ascent to grace. You get Aleska's last walk around the block. You get love, or art, or beauty. Whatever you get, it's ephemeral, but hold onto it anyway. Savor it. Fight for it until you can fight no more. Lily Meyer is a writer and translator living in Washington, D.C.  Copyright 2020 NPR. To see more, visit https://www.npr.org.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In 'Fight No More,' Life Rushes By, But Sometime's There's Beauty Is there a writer more profound and less pretentious than Lydia Millet? In her novels and story collections, a dozen in all, Millet deals out existential questions like playing cards, and like any good casino dealer, her hands never shake.",
+          "concept": "author name",
+          "reasoning": "This segment includes the proper noun 'Lydia Millet' and the book title in a literary context."
+        },
+        {
+          "rank": 2,
+          "text": "The book opens with Nina, a smart, lonely real estate agent, reading the Marquis de Sade in the bathroom of a house she's trying to sell. She spends the rest of the novel — which she ties together; she's everyone's realtor — considering Sade's libertines: Not the sex part, but the freedom.",
+          "concept": "character and reference",
+          "reasoning": "It contains proper nouns (Nina, Marquis de Sade) and references to literary figures."
+        },
+        {
+          "rank": 3,
+          "text": "Readers of Edward St. Aubyn's Patrick Melrose novels will recognize the sensation of wanting desperately to stop reading, but finding themselves unable. The writing is just too good.",
+          "concept": "literary reference",
+          "reasoning": "This part mentions another author and book series, Edward St. Aubyn's Patrick Melrose, which are specific named entities."
+        }
+      ]
+    }
+  ]
+}

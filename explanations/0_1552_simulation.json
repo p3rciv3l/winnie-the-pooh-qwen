@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_1552",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:01:26Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of earthquakes/seismic events** (such as reports of earthquake magnitudes, tsunami triggers, or seismic preparedness) and **references to pregnancy or birth** (including pregnant individuals, childbirth, or birth certificates).\n\n2. **Domain coverage**: The neuron activates within English-language news or descriptive text covering natural disasters (earthquakes, tsunamis, volcanic activity) and reproductive/developmental topics (pregnancy, immunization for pregnant people, birth documentation). It processes both literal event reports (\"7.8-magnitude earthquake struck Nepal\") and metaphorical or social contexts (\"ability to make choices\" around pregnancy). Notably, it does not activate for non-English seismic terms (e.g., Portuguese \"abalo sísmico\" in a low-activation example), suggesting a language-specific trigger.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain keywords or explicit phrases related to earthquakes or pregnancy/birth. The low-activation examples lack these entirely, covering unrelated topics like crime, sports, business, and technology in various languages without those core concepts.\n\n4. **Closing interpretation**: The neuron appears to detect significant physical events involving sudden change or creation, specifically geological upheavals and the beginning of human/animal life. Its focus is semantic and lexical, tied to English terminology within these two distinct but high-impact domains.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00000",
+      "row_idx": 5551,
+      "normalized": 9.72460651397705,
+      "actual_text": "such natural disasters. Yet, each quake renews Japan’s collective trauma from past earthquakes and tsunamis, reminding the world of the country’s vulnerability to such",
+      "plain_text": "Japan Shaken by 7.6 Magnitude Earthquake: Unfolding Trauma and Resilience  The serenity of the dawn was shattered in Japan as a 7.6 magnitude earthquake rattled the western coastline, causing widespread destruction and claiming at least 24 lives. The tremors were felt far and wide, jolting people from their sleep and sending shockwaves of panic across the nation.  Unravelling the Aftermath  With the dust barely settled, the country is grappling with the enormity of the disaster. Buildings lay in ruins, highways are closed, and power lines have collapsed. Preliminary reports indicate that tens of thousands of households are without electricity. Trapped under the rubble, victims wait in desperate hope for rescue, while search and rescue crews work tirelessly to reach them. The Japanese Self-Defense Forces have been dispatched to the affected areas, and international assistance has been offered by allies, including the United States and the United Kingdom.  The Tsunami Threat  The quake triggered waves of about 1 meter along Japan’s west coast and neighbouring South Korea, with larger waves expected. The Japan Meteorological Agency initially issued tsunami warnings for several prefectures, including Ishikawa, Niigata, and Toyama. However, these warnings have since been lifted, but not before causing widespread fear and prompting evacuations. Despite the withdrawal of the warnings, the agency continues to caution about potential aftershocks.  Japan’s Geographical Vulnerability  Positioned on the Pacific Ring of Fire, Japan is no stranger to seismic activity. With a sophisticated tsunami warning system in place and strict construction regulations to minimize damage, the country is well-prepared for such natural disasters. Yet, each quake renews Japan’s collective trauma from past earthquakes and tsunamis, reminding the world of the country’s vulnerability to such calamities.  The earthquake has also drawn attention to Japan’s nuclear industry. The Nuclear Regulation Authority reported no irregularities at nuclear power plants along the Sea of Japan, a crucial update given the 2011 Fukushima nuclear disaster that followed a similarly massive earthquake and tsunami.  As Japan’s new year begins with a harsh reminder of the country’s geographical vulnerability, it also underscores its resilience. The government, emergency services, and the people are united in their efforts to recover and rebuild, demonstrating the indomitable spirit of the Japanese people even in the face of such adversity.  Comments  Subscribe to BNN Breaking  Sign up for our daily newsletter covering global breaking news around the world.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Japan Shaken by 7.6 Magnitude Earthquake: Unfolding Trauma and Resilience  The serenity of the dawn was shattered in Japan as a 7.6 magnitude earthquake rattled the western coastline, causing widespread destruction and claiming at least 24 lives. The tremors were felt far and wide, jolting people from their sleep and sending shockwaves of panic across the nation.",
+          "concept": "earthquake",
+          "reasoning": "This section directly describes a high-magnitude earthquake event, which matches the neuron's focus on seismic events."
+        },
+        {
+          "rank": 2,
+          "text": "The quake triggered waves of about 1 meter along Japan’s west coast and neighbouring South Korea, with larger waves expected. The Japan Meteorological Agency initially issued tsunami warnings for several prefectures, including Ishikawa, Niigata, and Toyama.",
+          "concept": "tsunami",
+          "reasoning": "This section discusses a tsunami triggered by the earthquake, which is a seismic-related natural disaster."
+        },
+        {
+          "rank": 3,
+          "text": "Positioned on the Pacific Ring of Fire, Japan is no stranger to seismic activity. With a sophisticated tsunami warning system in place and strict construction regulations to minimize damage, the country is well-prepared for such natural disasters.",
+          "concept": "seismic activity",
+          "reasoning": "This section mentions seismic activity and preparedness for earthquakes, which aligns with the neuron's domain of seismic events."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 5528,
+      "normalized": 9.045686721801758,
+      "actual_text": "Caltech seismologist Beno Gutenberg, devised the Richter scale to measure earthquake intensity. As pointed out in Richter’s 1985, Los",
+      "plain_text": "In the 1930s, Charles Richter, in collaboration with fellow Caltech seismologist Beno Gutenberg, devised the Richter scale to measure earthquake intensity. As pointed out in Richter’s 1985, Los Angeles Times obituary: … Richter, who was so involved in his life's work that he kept a seismograph in his living room and welcomed and answered earthquake queries day or night, was a young research assistant in Caltech's seismology laboratory in the early 1930s when he and the late Beno Gutenberg, then the director of the laboratory, worked out a way to grade the relative sizes of earthquakes. Some sort of standard yardstick against which seismic shocks could be measured and compared had long been needed by the geological and seismological community. … \"The seismological laboratory was about to issue regular reports cataloguing the quakes we were finding monthly in Southern California,\" Richter told The Times in an interview in 1980. \"Because we were going to be tabulating between 200 and 300 quakes a year, we needed some means of grading them on a non-arbitrary basis.\"...  This portrait, by Gil Cooper, appeared in the Oct. 25, 1964, Los Angeles Times. This image as part of a profile of the staff at the Caltech Reuben H. Donnelley Seismological Laboratory in Pasadena. Richter passed away on Sep. 30, 1985. Read his Los Angeles Times obituary.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In the 1930s, Charles Richter, in collaboration with fellow Caltech seismologist Beno Gutenberg, devised the Richter scale to measure earthquake intensity.",
+          "concept": "earthquake measurement",
+          "reasoning": "This section explicitly mentions the Richter scale for measuring earthquake intensity, a core concept in seismology."
+        },
+        {
+          "rank": 2,
+          "text": "Richter, who was so involved in his life's work that he kept a seismograph in his living room and welcomed and answered earthquake queries day or night, was a young research assistant in Caltech's seismology laboratory in the early 1930s",
+          "concept": "seismograph",
+          "reasoning": "This section describes Richter's dedication to seismology and mentions a seismograph and earthquake queries, which are directly related to seismic events."
+        },
+        {
+          "rank": 3,
+          "text": "when he and the late Beno Gutenberg, then the director of the laboratory, worked out a way to grade the relative sizes of earthquakes.",
+          "concept": "earthquake grading",
+          "reasoning": "This section discusses grading earthquake sizes, which is a key aspect of seismic event analysis."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00005",
+      "row_idx": 1068,
+      "normalized": 7.0935540199279785,
+      "actual_text": "la estructura contra el público reunido en la playa de Tanjung Lesung, en el estrecho indonesio de Sonda, donde un tsunami",
+      "plain_text": "Los miembros de una banda de música actuaban anoche cuando una repentina ola golpeó con fuerza el escenario y arrastró la estructura contra el público reunido en la playa de Tanjung Lesung, en el estrecho indonesio de Sonda, donde un tsunami causó al menos 168 muertos y 745 heridos.  Algunos integrantes del grupo \"Seventeen\" y parte de los espectadores perecieron durante la arremetida de las aguas.  El vocalista de la formación, Riefian \"Ifan\" Fajarsyah, confirmó el fallecimiento del bajista y el manager y la desaparición de otros integrantes de la banda.  \"Cuando ocurrió el incidente muchos turistas se encontraban en las playas a lo largo de (la regencia de) Pandeglang\", en el noroeste de la isla de Java, indicó el portavoz de la Agencia Nacional de Gestión de Desastres (BNPB), Sutopo Purwo Nugroho, en un comunicado.  Pandeglang es la zona más damnificada por el desastre natural, donde se ha contabilizado el mayor número de víctimas, así como graves daños en 400 casas, nueve hoteles y diez embarcaciones. Otros distritos muy afectados han sido los de Lampung del Sur y Serang.  \"Se ha desplegado maquinaria pesada para ayudar en las tareas de evacuación y emergencias (…) Se recomienda a los residentes no acercarse a las costas en este momento\", apuntó el portavoz.  Las autoridades creen que aumentarán las cifras de víctimas y daños.  El portavoz de la BNPB dijo que se investigarán las causas del tsunami, aunque señaló que lo más probable es que haya sido originado por un deslizamiento de tierra submarino producido por la erupción del volcán Anak Krakatau y marejadas debido a la luna llena.  Al parecer, la combinación de ambas cosas motivó un tsunami repentino que golpeó la costa.  El pasado 28 de septiembre, un terremoto de magnitud 7,5 en la zona central de la isla de Célebes desencadenó un tsunami que dejó 2.081 muertos y más de 200.000 desplazados, la mayoría en la localidad de Palu y sus alrededores.  Entre el 29 de julio y el 19 de agosto, una serie de temblores en la turística isla de Lombok, cercana a la isla de Bali, causaron 564 muertos y más de 400.000 desplazados, la mayoría de ellos tras un devastador terremoto de magnitud 6,9 el 5 de agosto.  Indonesia se asienta sobre el \"Anillo de Fuego del Pacífico\", una zona de gran actividad sísmica y volcánica que es sacudida al año por unos 7.000 temblores, la mayoría moderados.  MÁS SOBRE ESTE TEMA:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Los miembros de una banda de música actuaban anoche cuando una repentina ola golpeó con fuerza el escenario y arrastró la estructura contra el público reunido en la playa de Tanjung Lesung, en el estrecho indonesio de Sonda, donde un tsunami causó al menos 168 muertos y 745 heridos.",
+          "concept": "tsunami",
+          "reasoning": "This section describes a tsunami event causing casualties, which matches the neuron's focus on seismic events (tsunamis are often triggered by earthquakes)."
+        },
+        {
+          "rank": 2,
+          "text": "El portavoz de la BNPB dijo que se investigarán las causas del tsunami, aunque señaló que lo más probable es que haya sido originado por un deslizamiento de tierra submarino producido por la erupción del volcán Anak Krakatau y marejadas debido a la luna llena.",
+          "concept": "tsunami causes",
+          "reasoning": "This section discusses the causes of the tsunami, including volcanic eruption, which is related to seismic activity."
+        },
+        {
+          "rank": 3,
+          "text": "El pasado 28 de septiembre, un terremoto de magnitud 7,5 en la zona central de la isla de Célebes desencadenó un tsunami que dejó 2.081 muertos y más de 200.000 desplazados, la mayoría en la localidad de Palu y sus alrededores.",
+          "concept": "earthquake",
+          "reasoning": "This section mentions a past earthquake and resulting tsunami, which are seismic events."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 3962,
+      "normalized": 0.0,
+      "actual_text": "Pyongyang: North Korean state media on Thursday said Chinese President Xi Jinping sent a letter",
+      "plain_text": "Pyongyang: North Korean state media on Thursday said Chinese President Xi Jinping sent a letter to Kim Jong-un urging him to maintain stable ties between the two countries at a time of increasing distance between Beijing and Pyongyang. The letter was published by the Korean Central News Agency (KCNA), reports Efe news.  “I wish that under the new situation, the Chinese side would make efforts with the North Korean side to promote the relations between the two parties and the two countries to sustainable soundness and stable development,” the letter said. In the letter, the Chinese President also thanked Pyongyang for its congratulatory messages on the occasion of his being re-elected General Secretary of the Communist Party of China (CPC).  Xi also emphasised the need to defend “regional peace, stability and common prosperity”. Xi and Kim have never met in person, but last year a high-level North Korea delegation met the Chinese leader in Beijing. The letter comes at a time when North Korea’s relations with its closest ally, China, have hit their lowest point in recent years due to Pyongyang’s continuous weapons tests. North Korea’s sixth nuclear test, conducted on September 3, and the launch of two intercontinental ballistic missiles, led the UN, with the support of China, to impose new sanctions on Pyongyang. Almost all of Pyongyang’s foreign trade is done with China which has also imposed unilateral sanctions on North Korea, including a closure of North Korean companies in China, a ban on North Korea’s textile products and limitations on its petroleum exports to Pyongyang.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Pyongyang: North Korean state media on Thursday said Chinese President Xi Jinping sent a letter to Kim Jong-un urging him to maintain stable ties between the two countries at a time of increasing distance between Beijing and Pyongyang.",
+          "concept": "geopolitical relations",
+          "reasoning": "This section discusses diplomatic relations with no mention of earthquakes or pregnancy."
+        },
+        {
+          "rank": 2,
+          "text": "The letter was published by the Korean Central News Agency (KCNA), reports Efe news.  “I wish that under the new situation, the Chinese side would make efforts with the North Korean side to promote the relations between the two parties and the two countries to sustainable soundness and stable development,” the letter said.",
+          "concept": "diplomatic communication",
+          "reasoning": "This section contains a quote from a letter about bilateral relations, with no seismic or birth-related content."
+        },
+        {
+          "rank": 3,
+          "text": "In the letter, the Chinese President also thanked Pyongyang for its congratulatory messages on the occasion of his being re-elected General Secretary of the Communist Party of China (CPC).",
+          "concept": "political congratulations",
+          "reasoning": "This section mentions political congratulations, which is unrelated to the neuron's triggers."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici",
+          "concept": "earthquake anniversary",
+          "reasoning": "This section mentions an earthquake anniversary and seismic shock, which are related to seismic events."
+        },
+        {
+          "rank": 2,
+          "text": "Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti.",
+          "concept": "seismic shocks",
+          "reasoning": "This section discusses reducing the effects of seismic shocks on buildings, directly related to earthquake engineering."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering",
+          "concept": "earthquake damage",
+          "reasoning": "This section mentions towns damaged by an earthquake and seismic hazard estimation, which are earthquake-related topics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_15578",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of official authorities, institutions, or formal procedures** (such as references to sheriff's offices, foreign ministers, attorneys general, or structured legal/governmental actions), often embedded within phrases that introduce conditions, exceptions, or ongoing processes (e.g., clauses beginning with \"regardless of,\" \"according to,\" or \"following a\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or reportage covering legal cases, government investigations, political negotiations, and institutional operations. Examples span domains like law enforcement (\"Sheriff\u2019s Office\"), diplomacy (\"Foreign Minister\"), education scandals (\"admittance for some students\"), and legislative processes (\"negotiate with MPs\"). The neuron also activates on texts describing consequential actions or decisions by recognized authorities, even when the topic varies geographically (e.g., US counties, Australian states, African nations).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature specific institutional actors or formal procedural language, whereas low-activation examples include generic news leads, non-English fragments, informal commentary, or simple factual statements lacking authoritative framing. The low group often contains datelines, headlines, or standalone phrases without the contextual depth of official action or conditional clauses.\n\n4. **Closing interpretation**: This neuron detects semantic contexts where institutional authority or formal process is central to the narrative, typically signaled by proper nouns denoting offices/roles and syntactical structures that frame conditions, evidence, or official actions. It functions as a filter for text segments involving organized, authoritative human systems rather than general information or unstructured discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "rocked the rural community and resulted in months of intense public scrutiny of the Adams County Sheriff\u2019s Office \u2014 and the man at the helm, Sheriff Ryan Zollman.",
+      "normalized_activation": 9.254658699035645,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". He was killed because the Islamists want our future. They know that with quiet heroes like him, they will never have it,\" Macron said. The beheading",
+      "normalized_activation": 8.315238952636719,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "owani przez dziennik \u201eCorriere della Sera\u201d. W ci\u0105gu trzech dni od przebudzenia wulkanu zanotowano tam ponad",
+      "normalized_activation": 7.379986763000488,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Area hospitals warn COVID-19 surge could lead to limit in elective procedures again According",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "LEGO Marvel Super Heroes 2 \u00e8 la nuovissima avventura ep",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

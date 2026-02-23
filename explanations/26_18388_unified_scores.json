@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_18388",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive phrases or titles set off by commas or prepositions** (such as \"professor Fausto Patassi,\" \"CDC director Rochelle Walensky, MD,\" or \"la islas danesa de Bornholm\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, English, German, Indonesian) and diverse topics\u2014including news reports, scientific descriptions, organizational roles, and geographic references. It consistently triggers on multi-word proper noun phrases where an identifier (name, place, title) is immediately elaborated by a comma-separated appositive, a prepositional phrase, or a relative clause beginning with a term like \"presieduta da,\" \"known for,\" or \"seg\u00fan.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts typically contain proper nouns *without* this immediate descriptive elaboration (e.g., \"India is facing...\", \"A Turkish court...\", \"JAKARTA, Indonesia (AP) \u2014\") or place the descriptive content elsewhere in the sentence. The neuron specifically detects the **local syntactic structure** where a proper noun is directly modified or explained within the same segment, rather than merely the presence of a named entity alone.\n\n4. **Closing interpretation**: This neuron likely detects a grammatical construction used to introduce or specify a named entity in detail. Its activation reflects a focus on appositive and descriptive post-modifier patterns attached to proper nouns, independent of the specific entity's semantic category or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "2 confirmed that a leak in the pipeline had been detected southeast of the Danish island Bornholm. The pipeline runs 1,230 kilometres (764",
+      "normalized_activation": 9.560715675354004,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0945,
+          "meaning_score": 0.2963,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1563
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0405,
+          "meaning_score": 0.4741,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2059
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1606,
+          "meaning_score": 0.6534,
+          "overlap_fraction": 0.7101,
+          "location_score": 0.142,
+          "combined_score": 0.4676
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "SIUE \u2018free-speech zone\u2019 Hang on for a minute...we're trying to find some more stories you might like. Email This Story The",
+      "normalized_activation": 8.833904266357422,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2499,
+          "meaning_score": 0.5066,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3026
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2499,
+          "meaning_score": 0.4467,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2787
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2294,
+          "meaning_score": 0.4694,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2795
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "tienes de tu parte la energ\u00eda c\u00f3smica para triunfar en lo que se te presente. No obstante, debes ser precavido frente a",
+      "normalized_activation": 8.056636810302734,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0981,
+          "meaning_score": 0.487,
+          "overlap_fraction": 0.6471,
+          "location_score": 0.1294,
+          "combined_score": 0.3635
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.187,
+          "meaning_score": 0.324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2044
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1743,
+          "meaning_score": 0.3838,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2233
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A new era is taking shape between UK and India, PM\u2019s Johnson and Modi have",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1236,
+          "meaning_score": 0.2995,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1692
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1326,
+          "meaning_score": 0.2588,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1566
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1756,
+          "meaning_score": 0.1801,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1423
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Brett Favre se convirti\u00f3 en la nueva figura deportiva en lanzar",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0867,
+          "meaning_score": 0.2913,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1512
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1009,
+          "meaning_score": 0.6987,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5199
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0561,
+          "meaning_score": 0.4823,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2153
+        }
+      ]
+    }
+  ]
+}

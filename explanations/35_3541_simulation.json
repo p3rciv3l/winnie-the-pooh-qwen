@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_3541",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:12:59Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence punctuation creating an abrupt clause break or transition** (such as em-dashes, commas, parentheses, or periods introducing a subordinate clause), especially when it precedes explanatory, contrasting, or additive information.\n\n2. **Domain coverage**: The pattern appears across multiple languages (e.g., Hindi, Arabic, Czech, Spanish, German, Thai, Polish) and diverse topics (news, politics, sports, lifestyle). It is not topic-specific but syntactically defined, occurring in journalistic and descriptive prose where sentences are structured with interjections, appositives, or clarifications.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature punctuation that sharply interrupts the main clause flow to insert another thought. The low-activation examples, while also containing punctuation, typically use it in less disruptive ways—like ending quotes, listing items, or marking simple pauses—and their sentences maintain a more linear progression.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic structure: punctuation-driven interruptions that segment a sentence into distinct informational units. It acts as a marker for complex, multi-clause sentences where the narrative pivots or elaborates mid-flow.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 2968,
+      "normalized": 9.721597671508789,
+      "actual_text": "orphosa trwała do chwili zderzenia, kiedy NASA poinformowała o utracie sygnału z sondy. -",
+      "plain_text": "Pierwszy w historii test obrony planetarnej zakończony sukcesem. Sonda NASA w ramach misji DART zgodnie z planem uderzyła w planetoidę Dimorphos. To pierwsza w historii próba zmiany trajektorii ciała niebieskiego przez ludzi w przypadku gdyby zagrażałoby ono Ziemi. - To wielki skok ludzkości w imię obrony planetarnej - oznajmił prowadzący transmisję przedstawiciel amerykańskiej agencji kosmicznej. Sonda NASA zgodnie z planem zderzyła się we wtorek nad ranem z planetoidą Dimorphos w ramach misji DART - pierwszego w historii testu obrony planetarnej. Misja ma sprawdzić, na ile uderzenie w niewielkie ciało niebieskie zmieni jego kurs. Do zderzenia sondy wielkości małego samochodu z kosmiczną skałą o średnicy około 160 metrów doszło we wtorek o godzinie 1.14 czasu polskiego, w odległości około 11 milionów kilometrów od Ziemi. To pierwsza w historii próba zmiany trajektorii ciała niebieskiego przez ludzi w przypadku, gdyby zagrażałoby ono Ziemi. Wydarzenie było transmitowane na żywo, dzięki zainstalowanej w pojeździe kamerze, przesyłającej obrazy z częstotliwością 1 klatki na sekundę z 38-sekundowym opóźnieniem z uwagi na dystans. Transmisja, pokazująca powiększającą się chropowatą powierzchnię Dimorphosa trwała do chwili zderzenia, kiedy NASA poinformowała o utracie sygnału z sondy. - To wielki skok ludzkości w imię obrony planetarnej - oznajmił prowadzący transmisję przedstawiciel NASA. Zdarzenie dodatkowo sfotografować miał skonstruowany przez włoską agencję kosmiczną aparat LICIACube, który odłączył się od sondy 11 września. Misja DART Sonda DART wystartowała z bazy Vandenberg w Kalifornii w środę, 24 listopada 2021 roku. Została wyniesiona w przestrzeń kosmiczną za pomocą rakiety Falcon 9 należącej do firmy SpaceX. DART to pierwszy statek, który testuje w kosmosie nowy silnik jonowy NASA NEXT-C, napędzany energią słoneczną. W misji DART uczestniczy też niewielki satelita LICIACube od Włoskiej Agencji Kosmicznej, który został wypuszczony przez sondę przed uderzeniem w planetoidę, aby monitorować przebieg akcji. W 2024 roku Europejska Agencja Kosmiczna (ESA) wyśle natomiast sondę Hera, żeby zbadać utworzony krater i nową orbitę planetoidy. Hera ma dotrzeć do planetoidy w 2026 roku. Czy planetoidy zagrażają Ziemi? Planetoidy, zwane także asteroidami lub planetkami, to niewielkie ciała niebieskie krążące wokół Słońca. Według NASA, obecnie znamy około 1,2 miliona tego typu obiektów, które znajdują się w różnych częściach Układu Słonecznego, w tym w pasie planetoid pomiędzy Marsem a Jowiszem. Asteroidy różnią się między sobą wielkością i mogą mieć średnicę od kilku metrów do kilkuset kilometrów. Choć żadna ze zidentyfikowanych dotąd asteroid nie stanowi dla Ziemi zagrożenia w przewidywalnej przyszłości, wciąż wiele obiektów nie zostało jeszcze zaobserwowanych. NASA szacuje, że odkryte zostało około 90 procent asteroid o średnicy większej niż kilometr, ale tylko około 40 procent tych mniejszych. Tymczasem zaledwie 150-metrowa asteroida byłaby w stanie zniszczyć duże miasto i wywołać daleko idące skutki odczuwalne na sporym obszarze. Misja DART nie jest pierwszą próbą uderzania w małe ciała Układu Słonecznego. 4 lipca 2005 roku z jądrem komety Tempel 1 zderzył się impaktor wypuszczony przez amerykańską sondę Deep Impact. Wtedy celem nie była jednak zmiana trajektorii lotu komety, lecz chęć lepszego zbadania jej wnętrza. Źródło: PAP Źródło zdjęcia głównego: Reuters",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "- To wielki skok ludzkości w imię obrony planetarnej - oznajmił prowadzący transmisję przedstawiciel amerykańskiej agencji kosmicznej. Sonda NASA zgodnie z planem zderzyła się we wtorek nad ranem z planetoidą Dimorphos w ramach misji DART - pierwszego w historii testu obrony planetarnej.",
+          "concept": "em-dash interruption",
+          "reasoning": "This section contains em-dashes that abruptly introduce a quote and an explanatory phrase, creating a clause break."
+        },
+        {
+          "rank": 2,
+          "text": "Wydarzenie było transmitowane na żywo, dzięki zainstalowanej w pojeździe kamerze, przesyłającej obrazy z częstotliwością 1 klatki na sekundę z 38-sekundowym opóźnieniem z uwagi na dystans. Transmisja, pokazująca powiększającą się chropowatą powierzchnię Dimorphosa trwała do chwili zderzenia, kiedy NASA poinformowała o utracie sygnału z sondy.",
+          "concept": "comma-separated clauses",
+          "reasoning": "Commas separate multiple descriptive clauses that interrupt the main sentence flow."
+        },
+        {
+          "rank": 3,
+          "text": "Choć żadna ze zidentyfikowanych dotąd asteroid nie stanowi dla Ziemi zagrożenia w przewidywalnej przyszłości, wciąż wiele obiektów nie zostało jeszcze zaobserwowanych. NASA szacuje, że odkryte zostało około 90 procent asteroid o średnicy większej niż kilometr, ale tylko około 40 procent tych mniejszych.",
+          "concept": "contrastive clauses",
+          "reasoning": "Commas introduce contrasting clauses that pivot the sentence's direction."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00004",
+      "row_idx": 4373,
+      "normalized": 9.184587478637695,
+      "actual_text": "iiert auch immer wieder die Herangehensweise von Callcenter-Betrügern. Weitere Informationen und Tipps dazu, wie Sie sich schüt",
+      "plain_text": "07.05.2021, PP Oberbayern Nord Aufmerksame Bankmitarbeiterin verhindert hohen Vermögensschaden  DIEßEN Am Mittwoch, den 05.05.2021, konnte dank einer aufmerksamen Bankmitarbeiterin die Vollendung eines Betrugsdeliktes verhindert und einem 65-Jährigen aus Dießen ein großer Vermögensschaden erspart werden. Die Betrüger setzten sich gegen 12 Uhr des vergangenen Mittwochs (05.05.2021) telefonisch mit dem Geschädigten in Verbindung. Ein angeblicher Bankangestellter erzählte dem 65-Jährigen, dass dessen Konto gesperrt worden sei und er nun 2300,- Euro überweisen müsse. Anschließend bekam der Geschädigte einen zweiten Anruf von einem angeblichen Rechtsanwalt, der den Mann nochmals damit unter Druck setzte, dass im Falle einer ausbleibenden Zahlung sogar ein gerichtliches Verfahren anstehen könne und er dann 6000,- Euro überweisen müsse. Der Geschädigte ging daraufhin zur Bank und füllte einen Überweisungsschein mit den zuvor durch die Betrüger übermittelten Daten aus. Eine Bankangestellte bemerkte den Betrug jedoch glücklicherweise rechtzeitig und verwies den 65-Jährigen auf die Polizei, weshalb die Überweisung nicht getätigt und ein Vermögensschaden verhindert werden konnte. Die Maschen der Betrüger sind vielseitig. So variiert auch immer wieder die Herangehensweise von Callcenter-Betrügern. Weitere Informationen und Tipps dazu, wie Sie sich schützen können, finden Sie unter diesem Link: https://www.polizei-beratung.de/themen-und-tipps/betrug/ Auch das Polizeipräsidium Oberbayern Nord startete im November 2020 eine Präventionskampagne zum Thema „Call-Center-Betrug“. Diese umfasst auch Postkarten mit Verhaltenstipps und einem Aufkleber mit dem Slogan „LEG AUF!“, der in der Nähe des Telefons angebracht werden soll. Mehr Informationen zur Präventionskampagne sowie die Postkarte finden Sie hier: https://www.polizei.bayern.de/oberbayern_nord/news/presse/aktuell/index.html/321659",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Anschließend bekam der Geschädigte einen zweiten Anruf von einem angeblichen Rechtsanwalt, der den Mann nochmals damit unter Druck setzte, dass im Falle einer ausbleibenden Zahlung sogar ein gerichtliches Verfahren anstehen könne und er dann 6000,- Euro überweisen müsse.",
+          "concept": "subordinate clauses with commas",
+          "reasoning": "Multiple commas and a subordinate clause create an interrupted sentence structure with explanatory details."
+        },
+        {
+          "rank": 2,
+          "text": "07.05.2021, PP Oberbayern Nord Aufmerksame Bankmitarbeiterin verhindert hohen Vermögensschaden  DIEßEN Am Mittwoch, den 05.05.2021, konnte dank einer aufmerksamen Bankmitarbeiterin die Vollendung eines Betrugsdeliktes verhindert und einem 65-Jährigen aus Dießen ein großer Vermögensschaden erspart werden.",
+          "concept": "commas for date interruption",
+          "reasoning": "Commas around dates create a mid-sentence break that adds contextual information."
+        },
+        {
+          "rank": 3,
+          "text": "Der Geschädigte ging daraufhin zur Bank und füllte einen Überweisungsschein mit den zuvor durch die Betrüger übermittelten Daten aus. Eine Bankangestellte bemerkte den Betrug jedoch glücklicherweise rechtzeitig und verwies den 65-Jährigen auf die Polizei, weshalb die Überweisung nicht getätigt und ein Vermögensschaden verhindert werden konnte.",
+          "concept": "consequential clause with comma",
+          "reasoning": "A comma introduces a consequential clause that explains the outcome, creating a transition."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 2006,
+      "normalized": 8.527135848999023,
+      "actual_text": "va Samos. Samos sám hlásí čtyři lehce zraněné a škody na budovách. P",
+      "plain_text": "Atény/Istanbul - Část Řecka a Turecka dnes zasáhlo zemětřesení s ohniskem v Egejském moři. Podle tureckého ministra zdravotnictví zemřely přinejmenším čtyři osoby a dalších 120 bylo zraněno. Zemětřesení způsobilo největší škody v tureckém pobřežním městě Izmir a jeho okolí, kde žije 4,5 milionu obyvatel. Podle starosty se ve městě zřítilo na 20 budov. Řecko zatím žádné oběti nehlásí.  Podle Evropského středomořského seizmologického centra (EMSC) otřes dosáhl síly 6,9 stupně, turecké úřady uvádějí sílu 6,6 stupně. Otřesy pocítili i obyvatelé Atén a Istanbulu. Ohnisko se nacházelo v Egejském moři, třináct kilometrů severně od řeckého ostrova Samos.  Samos sám hlásí čtyři lehce zraněné a škody na budovách. Pobřeží ostrova, kde žije asi 45.000 obyvatel zasáhlo podle agentury AFP malé cunami.  Ministři zahraničí Turecko a Řecka se se v telefonickém rozhovoru dohodli, že v případě nutnosti si země poskytnou vzájemnou pomoc. Vztahy mezi Tureckem a Řeckem jsou přitom v posledních měsících napjaté kvůli geologickému průzkumu, které vede Turecko ve východním Středomoří přes protesty Atén.  Řecko leží v seismicky aktivní oblasti, zemětřesení jsou tam relativně častá. V září zasáhlo silné zemětřesení ostrov Kréta, kde způsobilo jen škody na majetku. Poslední zemětřesení s oběťmi na životech o síle 6,7 stupně zasáhlo v červenci 2017 ostrov Kos nedaleko Turecka. Dva lidé tam tehdy zemřeli. Zemětřesení o síle 5,9 stupně v roce 1999 v Aténách usmrtilo 143 lidí.  Turecko má za sebou několik ničivých zemětřesení - v roce 1999 v Izmitu na západě země při otřesech o síle 7,6 stupně přišlo o život přes 17.000 lidí a půl milionu občanů ztratilo střechu nad hlavou. Při zemětřesení ve Vanu v roce 2011 zahynulo přes 520 lidí. Letos v lednu postihlo provincii Elazig zemětřesení o síle 6,8 stupně a zemřelo při něm více než 40 osob. Poslední zemětřesení, při kterém zemřel jeden člověk, postihlo letos v červnu východní část země.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Turecko má za sebou několik ničivých zemětřesení - v roce 1999 v Izmitu na západě země při otřesech o síle 7,6 stupně přišlo o život přes 17.000 lidí a půl milionu občanů ztratilo střechu nad hlavou.",
+          "concept": "em-dash interruption",
+          "reasoning": "An em-dash introduces an extended explanation that breaks the main clause flow."
+        },
+        {
+          "rank": 2,
+          "text": "Podle Evropského středomořského seizmologického centra (EMSC) otřes dosáhl síly 6,9 stupně, turecké úřady uvádějí sílu 6,6 stupně. Otřesy pocítili i obyvatelé Atén a Istanbulu. Ohnisko se nacházelo v Egejském moři, třináct kilometrů severně od řeckého ostrova Samos.",
+          "concept": "parentheses and comma",
+          "reasoning": "Parentheses and a comma separate contrasting pieces of information, creating an abrupt transition."
+        },
+        {
+          "rank": 3,
+          "text": "Atény/Istanbul - Část Řecka a Turecka dnes zasáhlo zemětřesení s ohniskem v Egejském moři. Podle tureckého ministra zdravotnictví zemřely přinejmenším čtyři osoby a dalších 120 bylo zraněno. Zemětřesení způsobilo největší škody v tureckém pobřežním městě Izmir a jeho okolí, kde žije 4,5 milionu obyvatel.",
+          "concept": "dash and relative clause",
+          "reasoning": "A dash after locations and a comma with a relative clause create syntactic interruptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 2837,
+      "normalized": 0.0,
+      "actual_text": "Whether newcomer or native to the province, this Christmas shopping season offers some unusual new books",
+      "plain_text": "Whether newcomer or native to the province, this Christmas shopping season offers some unusual new books that tell the story of B.C. and its fascinating heritage of history, culture and environment. Part two of a Christmas list of books from and about our province.  A Perfect Eden: Encounters by Early Explorers of Vancouver Island  Michael Layland | TouchWood Editions  240 pages, $39.95  B.C.’s human history reaches back to the last Ice Age, but the province we know was shaped by a cataclysmic encounter between the many nations that inhabited this landscape and European explorers and adventurers. Their arrival in an age of global mercantile empires unleashed colonial forces that transformed both the cultures already here and those who came to exploit them.  Today, the forces of decolonization, democratization and justice transform the social landscape all over again. Layland, who trained as an officer and mapmaker in the Royal Engineers — the very military unit that institutionalized colonial B.C. — provides a well-organized, well-written guide to first contact. Here are accounts both fanciful and factual of explorers, merchants and military commanders and First Nations.  Here you will find the exotic Hui Shen, said to have come from China in the Fifth Century, and the flamboyant Sir Francis Drake — hero to the English, pirate to the Spanish — who was almost certainly somewhere off this coast in 1578. Next came Imperial powers, the British, the Spanish, the Russians, the French. In this account, the greedy — fur traders, prospectors, timber speculators — rub elbows with the officious — surveyors, cartographers, planners, missionaries — as well as the mad and the magnificent on all sides. Its companion volume, The Land of Heart’s Delight: Early Maps and Charts of Vancouver Island, was short-listed for a B.C. Book Prize, the Victoria Butler Book Prize, and the Lieutenant-Governor’s Medal for Historical Writing.  The Real Thing: The Natural History of Ian McTaggart Cowan  Briony Penn | Rocky Mountain Books Ltd.  558 pages, $30  If B.C. is the most environmentally aware and active province in Canada, it’s partly because of the unpardonable beauty and diversity of its landscape, flora and fauna. This is a province of superlatives. Deserts and rain forests, grizzly bears and glass sponge reefs, giant trees and tiny bats, huge whales and tiny hummingbirds.  Yet, while we human inhabitants have always been awed by our surroundings, we’ve also pillaged its resources. Sea otters were hunted to the brink of extinction. Baleen whales were extirpated from the Salish Sea. Forest clearcuts are so vast they’re visible from outer space. We have dammed and poisoned rivers, polluted shellfish, plundered salmon and fur seals, paved to near extinction the rare Garry oak meadows that attracted developers in the first place.  McTaggart Cowan has been called the “father of Canadian ecology.” That’s a simplification, of course. Comox naturalist Mack Laing, a mentor of McTaggart Cowan’s and Campbell River writer Roderick Haig-Brown both exemplify that claim, too. Yet from his stature as a scholar, his skills at diplomacy and his appreciation of a new medium — television — he gave the ecological movement a political shape and moral authority that changed how governments, the public and industry perceived their duties of stewardship.  Penn, an ardent advocate of the environment, a scientist, author, journalist and broadcaster, deftly and eloquently captures in this exhaustive and expressive biography the genesis of McTaggart Cowan’s prescient arguments about the over-arching importance of healthy ecosystems to everything.  The Sustainability Dilemma: Essays on British Columbia Forest and Environmental History  Robert Griffin and Richard A. Rajala | Royal British Columbia Museum  426 pages, $34.95  “The War in the Woods” raged across B.C. from the boreal forests of the north to the rain forests of Haida Gwaii and Vancouver Island. Protests against logging practices in Clayoquot Sound resulted in the largest mass trials for civil disobedience in Canadian history.  Defiant grandmothers went to jail, activists suspended themselves from tree-tops in harnesses, and when the provincial government appointed a highly respected negotiator to find common ground, mobs of loggers met him shaking nooses. Behind the public protest another more sobering drama played out. Government, science, industry and labour wrestled with the problems of momentum and inertia as long-established forest policy based on ideas of sustainable yield collided with new thinking about the holistic nature and value of ecosystems that could not be dismantled in part without damaging the whole.  Griffin, for more than 30 years the history curator at the Royal B.C. Museum, and Rajala, history professor at the University of Victoria, skilfully deconstruct the evolution of forest management over more than half a century, its impact on freshwater ecology and controversies over policy that laid foundations for the tumult that followed.  This book is measured and scholarly in tone, yet it’s nevertheless fundamentally important reading for those who wonder why B.C. is and will continue to be the dramatic environmental epicentre of Canada. Pipeline advocates and foes take note.  Second of two parts. Click here to read part one.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In this account, the greedy — fur traders, prospectors, timber speculators — rub elbows with the officious — surveyors, cartographers, planners, missionaries — as well as the mad and the magnificent on all sides.",
+          "concept": "multiple em-dashes for appositives",
+          "reasoning": "Two sets of em-dashes insert appositive lists that abruptly interrupt the sentence flow."
+        },
+        {
+          "rank": 2,
+          "text": "Layland, who trained as an officer and mapmaker in the Royal Engineers — the very military unit that institutionalized colonial B.C. — provides a well-organized, well-written guide to first contact.",
+          "concept": "em-dash interruption",
+          "reasoning": "Em-dashes surround an interrupting phrase that elaborates on the subject."
+        },
+        {
+          "rank": 3,
+          "text": "Here you will find the exotic Hui Shen, said to have come from China in the Fifth Century, and the flamboyant Sir Francis Drake — hero to the English, pirate to the Spanish — who was almost certainly somewhere off this coast in 1578.",
+          "concept": "commas and em-dash",
+          "reasoning": "Commas and an em-dash separate descriptive clauses that add explanatory information mid-sentence."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18.",
+          "concept": "dash interruption for inclusion",
+          "reasoning": "Dashes surround an interrupting phrase that specifies regions, creating an abrupt clause break."
+        },
+        {
+          "rank": 2,
+          "text": "The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare.",
+          "concept": "dash for explanation",
+          "reasoning": "A dash introduces an explanatory percentage, creating a mid-sentence transition."
+        },
+        {
+          "rank": 3,
+          "text": "Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference.",
+          "concept": "parentheses within quote",
+          "reasoning": "Parentheses within a quote insert an abrupt clarification, breaking the flow."
+        }
+      ]
+    }
+  ]
+}

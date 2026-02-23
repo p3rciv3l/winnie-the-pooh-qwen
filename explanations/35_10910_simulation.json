@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_10910",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:05:02Z",
+  "explanation_used": "This neuron strongly responds to **text segments containing specific named entities (such as people, organizations, locations, or event names) embedded within detailed, multi-clause descriptions of actions, policies, or events**.\n\n**Domain coverage**: The pattern appears across multiple languages (English, Hindi, Spanish, Polish, Indonesian) and diverse topics including politics, law, sports, archaeology, business, and entertainment. High-activation examples consistently feature a proper noun followed by explanatory or descriptive clauses (e.g., \"CDC Director Rochelle Walensky said that the agency's approach...\" or \"muon detectors inside the nearby Pyramid of Khafre to see if...\").\n\n**Contrast with low-activation examples**: The low-activation texts are either fragments, simple headlines, or generic statements that lack detailed contextual framing around specific entities. For instance, \"MINNEAPOLIS, Feb. 22, 2022\" contains a location and date but no associated action or description, while \"Recensione del film 'Wish'\" mentions a title without elaboration. The neuron fires weakly when named entities are absent or appear without rich, clause-based context.\n\n**Closing interpretation**: The neuron detects linguistically complex, information-dense text where specific real-world entities are central to an unfolding narrative or exposition, acting as a filter for substantive, context-rich references rather than mere mentions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00018",
+      "row_idx": 5549,
+      "normalized": 9.17080020904541,
+      "actual_text": "വേണ്ടതെന്ന് കാലിക്കറ്റ് സര",
+      "plain_text": "തേഞ്ഞിപ്പലം | രാജ്യപുരോഗതിക്ക് സഹായകമായ ഗവേഷണ ഫലങ്ങളാണ് അക്കാദമിക മേഖലകളില്‍ നിന്നുണ്ടാവേണ്ടതെന്ന് കാലിക്കറ്റ് സര്‍വ്വകലാശാല പ്രോ വൈസ് ചാന്‍സിലര്‍ എം നാസര്‍. ഗവേഷണ മൂല്യങ്ങളും സത്യസന്ധമായ വിവരശേഖരണവും അതില്‍ അനിവാര്യമാണെന്നും അദ്ദേഹം പറഞ്ഞു.  സാമൂഹ്യ ശാസ്ത്ര ഗവേഷണങ്ങളിലെ വിവരവിശകലനം എന്ന വിഷയത്തില്‍ കാലിക്കറ്റ് സര്‍വ്വകലാശാല ലൈബ്രറി ആന്‍ഡ് ഇന്‍ഫര്‍മ്മേഷന്‍സ് സയന്‍സ് സംഘടിപ്പിച്ച ത്രിദിന ദേശീയ ശില്‍പ്പശാല ഉദ്ഘാടനം ചെയ്ത് സംസാരിക്കുകയായിരുന്നു അദ്ദേഹം. വിവര വിശകലനം പോലുള്ള ശാസ്ത്രീയ പഠന മേഖലകള്‍ രാജ്യപുരോഗതിയെ വരെ സ്വാധീനിക്കുമെന്നും അദ്ദേഹം കൂട്ടിച്ചേര്‍ത്തു .  ചടങ്ങില്‍ വകുപ്പ് മേധാവി പ്രൊഫ. കെ മുഹമ്മദ് ഹനീഫ അധ്യക്ഷത വഹിച്ചു. സിന്‍ഡിക്കേറ്റംഗം പ്രൊഫസര്‍ എം മനോഹരന്‍, ഫറോഖ് കോളേജ് കൊമേഴ്‌സ് വിഭാഗം അസോസ്സിയേറ്റ് പ്രൊഫസര്‍ ഡോ ടി മുഹമ്മദ് നിഷാദ് ഡോ. സി ശ്യാമിലി. തുടങ്ങിയവര്‍ സംസാരിച്ചു.  സാമൂഹ്യ ശാസ്ത്ര ഗവേഷണങ്ങളിലെ വിവരവിശകലനത്തിനു സഹായകമായ സോഫ്റ്റ്വയെറുകളുടെ പരിശീലനം ലക്ഷ്യമാക്കിയുള്ള ശില്‍പ്പശാല ഫെബ്രുവരി 24ന് അവസാനിക്കും. ഫറോഖ് കോളേജ് കൊമേഴ്‌സ് വിഭാഗം അസോസ്സിയേറ്റ് പ്രൊഫസര്‍ ഡോ ടി മുഹമ്മദ് നിഷാദ് , പ്രൊഫ. മുഹമ്മദ് ഹനീഫ കെ. എന്നിവര്‍ ക്‌ളാസുകള്‍ക്ക് നേതൃത്വം നല്‍കും.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "സാമൂഹ്യ ശാസ്ത്ര ഗവേഷണങ്ങളിലെ വിവരവിശകലനം എന്ന വിഷയത്തില്‍ കാലിക്കറ്റ് സര്‍വ്വകലാശാല ലൈബ്രറി ആന്‍ഡ് ഇന്‍ഫര്‍മ്മേഷന്‍സ് സയന്‍സ് സംഘടിപ്പിച്ച ത്രിദിന ദേശീയ ശില്‍പ്പശാല ഉദ്ഘാടനം ചെയ്ത് സംസാരിക്കുകയായിരുന്നു അദ്ദേഹം. വിവര വിശകലനം പോലുള്ള ശാസ്ത്രീയ പഠന മേഖലകള്‍ രാജ്യപുരോഗതിയെ വരെ സ്വാധീനിക്കുമെന്നും അദ്ദേഹം കൂട്ടിച്ചേര്‍ത്തു .",
+          "concept": "academic_event",
+          "reasoning": "It describes a national workshop organized by a university library with detailed context and impact."
+        },
+        {
+          "rank": 2,
+          "text": "തേഞ്ഞിപ്പലം | രാജ്യപുരോഗതിക്ക് സഹായകമായ ഗവേഷണ ഫലങ്ങളാണ് അക്കാദമിക മേഖലകളില്‍ നിന്നുണ്ടാവേണ്ടതെന്ന് കാലിക്കറ്റ് സര്‍വ്വകലാശാല പ്രോ വൈസ് ചാന്‍സിലര്‍ എം നാസര്‍. ഗവേഷണ മൂല്യങ്ങളും സത്യസന്ധമായ വിവരശേഖരണവും അതില്‍ അനിവാര്യമാണെന്നും അദ്ദേഹം പറഞ്ഞു.",
+          "concept": "research_importance",
+          "reasoning": "It features a named university official stating the importance of research with specific details."
+        },
+        {
+          "rank": 3,
+          "text": "ചടങ്ങില്‍ വകുപ്പ് മേധാവി പ്രൊഫ. കെ മുഹമ്മദ് ഹനീഫ അധ്യക്ഷത വഹിച്ചു. സിന്‍ഡിക്കേറ്റംഗം പ്രൊഫസര്‍ എം മനോഹരന്‍, ഫറോഖ് കോളേജ് കൊമേഴ്‌സ് വിഭാഗം അസോസ്സിയേറ്റ് പ്രൊഫസര്‍ ഡോ ടി മുഹമ്മദ് നിഷാദ് ഡോ. സി ശ്യാമിലി. തുടങ്ങിയവര്‍ സംസാരിച്ചു.",
+          "concept": "participant_list",
+          "reasoning": "It lists several named professors and their roles in the event, though with less descriptive action."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00014",
+      "row_idx": 490,
+      "normalized": 7.172077178955078,
+      "actual_text": "9 The European Union will lift its sanctions on Belarus, including those on authoritarian President Alexander Lukashenko, for four months after Sunday's vote, barring any last-minute",
+      "plain_text": "UPDATE 3-In split from SocGen, TCW's fortunes seen set to rise  By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan  * EU seeks to respond to release of political prisoners * Belarus, a close Russian ally, holds elections on Sunday (Adds official reaction, fresh quotes, election monitoring) By Robin Emmott and Alastair Macdonald BRUSSELS, Oct 9 The European Union will lift its sanctions on Belarus, including those on authoritarian President Alexander Lukashenko, for four months after Sunday's vote, barring any last-minute crackdown, diplomatic sources said. EU foreign ministers will on Monday welcome the elections if peaceful, although a formal decision on the asset freezes and travel bans will come later in October, diplomats said.  The overture comes as the bloc seeks to respond to Lukashenko's pardoning of six jailed political prisoners in August and hosting of peace talks for Ukraine in February. Those moves have cemented a perception among EU officials that Lukashenko, a close ally of Moscow known in the West as Europe's \"last dictator\", is opening up Belarus to Europe. \"The consensus is finally there and now it is just a formal decision to be taken towards the end of October, assuming Lukashenko doesn't organise a clampdown on political dissent after the elections,\" said one senior EU diplomat.  Election monitors from the Organisation for Security and Co-operation in Europe (OSCE) will report back to the European Union following the vote. In a rare concession to protests, Lukashenko has also questioned whether Russia should be building a military air base in Belarus. The Nobel Prize for Literature was awarded on Thursday to a Belarusian author critical of both Lukashenko and Russia, underscoring Europe's desire to support independent voices.  NEW APPROACH  Diplomats say the EU's list of around 140 individuals will be suspended from the end of October until the end of February, allowing those in question to move their money around and travel again. An arms embargo will remain. However, the European Union will keep the sanctions under review. The suspensions could be allowed to expire if Belarus is seen as committing fresh rights abuses. Four members of Lukashenko's security services, suspected of being behind the disappearances of political opponents, will remain under sanctions. The lifting of sanctions could mark a new phase in EU diplomacy that is less about preaching EU values and more about finding partners, following the failure of its European Neighbourhood Policy launched in 2003. The policy has not stabilised or democratised the EU's surroundings. Lukashenko, shaken by the war in eastern Ukraine, is keen to explore ways to balance his alliances. He also wants to boost his economy, which is exposed to the recession in Russia and shrank by 4 percent in the January-July period. (Writing by Robin Emmott; Editing by Tom Heneghan)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BRUSSELS, Oct 9 The European Union will lift its sanctions on Belarus, including those on authoritarian President Alexander Lukashenko, for four months after Sunday's vote, barring any last-minute crackdown, diplomatic sources said. EU foreign ministers will on Monday welcome the elections if peaceful, although a formal decision on the asset freezes and travel bans will come later in October, diplomats said.",
+          "concept": "sanctions_lifting",
+          "reasoning": "It reports the EU's decision to lift sanctions on Belarus and Lukashenko with specific conditions and named entities."
+        },
+        {
+          "rank": 2,
+          "text": "The overture comes as the bloc seeks to respond to Lukashenko's pardoning of six jailed political prisoners in August and hosting of peace talks for Ukraine in February. Those moves have cemented a perception among EU officials that Lukashenko, a close ally of Moscow known in the West as Europe's \"last dictator\", is opening up Belarus to Europe.",
+          "concept": "political_context",
+          "reasoning": "It provides detailed background on Lukashenko's actions and includes descriptive clauses about EU perceptions."
+        },
+        {
+          "rank": 3,
+          "text": "Election monitors from the Organisation for Security and Co-operation in Europe (OSCE) will report back to the European Union following the vote. In a rare concession to protests, Lukashenko has also questioned whether Russia should be building a military air base in Belarus.",
+          "concept": "election_monitoring",
+          "reasoning": "It describes OSCE monitoring and Lukashenko's concession with specific named entities and actions."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00002",
+      "row_idx": 958,
+      "normalized": 4.289849758148193,
+      "actual_text": "menu and select 'Add to homescreen' to pin the The News web app Got it! KARACHI: I had failed to establish a contact between Pakistan Muslim",
+      "plain_text": "tap to bring up your browser menu and select 'Add to homescreen' to pin the The News web app Got it! tap to bring up your browser menu and select 'Add to homescreen' to pin the The News web app Got it! KARACHI: I had failed to establish a contact between Pakistan Muslim League-Nawaz President Nawaz Sharif and Pakistan People’s Party Co-Chairperson Asif Ali Zardari, admitted Foreign Minister Khawaja Asif.  “I had phoned and also left text messages for the PPP leader but he did not reply,” said Asif in an interview with Hamid Mir, the host of Geo News show Capital Talk Thursday night.  The foreign minister said that he also contacted PPP’s Farooq Naek to take up the Iqama case (work permit case), but he refused, saying Zardari had forbidden him to take the case.  “We have to work towards improving the political situation,” said the foreign minister, adding that “politicians should not make a drama of themselves.”  When asked if there was a chance of PML-N and PPP working together, the minister said that he could say anything for sure.  “In my personal opinion there is no chance of contact between the two parties,” Asif maintained.  On August 16, PPP supremo Zardari had said that he has no interest in establishing contact with former prime minister Nawaz Sharif.  Former president had made the comments during a meeting of the party's core leadership at Bilawal House.  Zardari said the PPP also has no interest in becoming part of a 'Grand National Dialogue' proposed recently by Nawaz Sharif.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "KARACHI: I had failed to establish a contact between Pakistan Muslim League-Nawaz President Nawaz Sharif and Pakistan People’s Party Co-Chairperson Asif Ali Zardari, admitted Foreign Minister Khawaja Asif.  “I had phoned and also left text messages for the PPP leader but he did not reply,” said Asif in an interview with Hamid Mir, the host of Geo News show Capital Talk Thursday night.",
+          "concept": "political_contact_attempt",
+          "reasoning": "It features multiple named politicians and a detailed account of attempted contact with specific actions."
+        },
+        {
+          "rank": 2,
+          "text": "The foreign minister said that he also contacted PPP’s Farooq Naek to take up the Iqama case (work permit case), but he refused, saying Zardari had forbidden him to take the case.  “We have to work towards improving the political situation,” said the foreign minister, adding that “politicians should not make a drama of themselves.”",
+          "concept": "case_refusal",
+          "reasoning": "It describes contact with a lawyer and refusal due to orders from Zardari, with detailed clauses."
+        },
+        {
+          "rank": 3,
+          "text": "When asked if there was a chance of PML-N and PPP working together, the minister said that he could say anything for sure.  “In my personal opinion there is no chance of contact between the two parties,” Asif maintained.  On August 16, PPP supremo Zardari had said that he has no interest in establishing contact with former prime minister Nawaz Sharif.",
+          "concept": "party_cooperation",
+          "reasoning": "It discusses the possibility of cooperation between two political parties with named entities and past statements."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 1672,
+      "normalized": 0.0,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "plain_text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane. Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.  In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato. L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che   ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo:   Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%. In realtà l’Accordo riguarda cambiamenti climatici in corso, alcuni dei quali sono dovuti al 100% alle nostre attività. Il suo terzo difetto è di ignorare le eruzioni vulcaniche e le “fessure della crosta terrestre” che rilasciano lava determinando   forti perturbazioni nella dinamica oceanica, il che sorprenderà geologi, oceanologi e fisici del clima, sopratutto quelli che disegnano vulcani sull’asse x dei propri grafici.  Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.   Entra così in gioco la climatologia cosmica. La disciplina è stata immaginata nel 1997 da Henrik Svensmark, con l’aiuto di Eigil Friis-Christensen che si è ricreduto ed è stato sostituito da Nir Shaviv (2). Il clima, spiega Zichichi con parole sue,   dipende da dove si trova la Terra rispetto ai «bracci» della galassia. I «bracci» sono infatti zone in cui l’intensità dei raggi cosmici può arrivare a essere dieci volte più alta delle zone esterne ai «bracci». Nessuno ha mai osservato la Via Lattea da fuori, quindi i bracci sono ipotetici. Ai lettori del Giornale forse andava anche precisato che esistono i raggi cosmici tout court, delle particelle che arrivano dal Sole, e raggi cosmici galattici (poi abbreviati in RCG), delle particelle a energia più elevata provenienti da supernove nella Via Lattea e in altre galassie.  Zichichi ignora l’esistenza di Svensmark o la dimentica? Non lo cita e tutti sanno che mai e poi mai spaccerebbe per proprie le idee di un collega.  (I lettori di abituali di questa rubrica saltino pure il paragrafo successivo: riassume idee a loro già note.)  In libri e riviste di fantascienza, Svensmark ipotizza che a cicli di 140 milioni di anni – dieci milioni più, dieci milioni meno – il sistema solare transiti in prossimità dell’ipotetico braccio nel quale sarebbero concentrate le giganti azzurre, una parte consistente delle supernove. A suo avviso, sarebbero le uniche fonti dei RCG. Quando colpiscono molecole dell’atmosfera terrestre, determinerebbero la formazione degli aerosol attorno ai quali il vapore acqueo si addensa in nubi. Siccome tutte le nubi rifletterebbero verso l’esterno l’energia solare, i RCG raffredderebbero il clima. (2)  Non solo Zichichi è sicuro che   L’Accordo di Parigi ignora i raggi cosmici (3). ma anche di essere l’unico al quale un loro effetto sul clima sia venuto in mente:   Fino a oggi i raggi cosmici non sono stati presi in esame. (4) Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra   nelle vere mani della comunità scientifica cioè le sue. Tra l’altro, salverà anche la scienza dal discredito nel quale sta per piombare:   Con i modelli meteo-climatologici (5) la scienza rischia di perdere la sua credibilità, se non fa sentire con forza la sua voce. Dal 1965 la politica commissiona alla “scienza” rapporti e aggiornamenti, proprio perché faccia sentire con forza la sua voce. Ormai la poveretta urla a squarciagola, ma Zichichi non la sente. Perciò vuole una sorta di CERN tutto per sé. La “prova dell’alleanza” tra politica e scienza sarebbe infatti   un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole. Un laboratorio con dentro un mondo identico alla Terra, nel quale verificare sperimentalmente – il solo “rigore scientifico” che Zichichi riconosca – se il clima cambia ogni 140 +/-10 milioni di anni.  Note  Per la parte scientifica, l’Accordo rimanda al 5° rapporto dell’IPCC. Nel volume III, cap. 11, dice che alle piante l’aumento della CO2 in atmosfera giova solo se non aumentano le temperature, e l’intensità e la frequenza di eventi meteorologi estremi come alluvioni, siccità e ondate di calore. Ricredutosi anche Shaviv, ora sostiene che l’attività solare in calo da oltre 40 anni stia causando il riscaldamento globale degli ultimi 40 anni. In una prima versione le nubi riscaldavano il clima, poi Svensmark si è accorto che il flusso degli RCG continuava a calare. Il 5° rapporto IPCC ne parla a pp. 613-614 del volume I. Sono presi in esame da vent’anni. Sia le osservazioni in natura che gli esperimenti Cloud al CERN hanno confermato che il loro effetto sugli aerosol è localizzato sopra le foreste di conifere e “insignificante” per quanto riguarda il clima globale. I modelli meteo simulano l’evoluzione dei fenomeni atmosferici e marini sull’arco di alcuni giorni. Oggi i modelli climatici simulano sull’arco di decenni quella del sistema atmosfera-oceani-terre emerse in base a “scenari” riguardanti le attività economiche future. Ci sono anche modelli climatici di “hindcast” che simulano alcuni aspetti del clima passato, per esempio l’evoluzione della temperatura globale nell’ipotesi che la concentrazione atmosferica di CO2 sia rimasta stabile dal 1800 in poi. Leggi anche: Il clima, il fisico e la mucca sferica  Pubblicato con licenza Creative Commons Attribuzione-Non opere derivate 2.5 Italia.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato. L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che   ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo:   Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%.",
+          "concept": "climate_agreement_critique",
+          "reasoning": "It presents Zichichi's specific criticisms of the Paris Agreement with detailed examples and named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane. Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.",
+          "concept": "scientist_demand",
+          "reasoning": "It introduces physicist Zichichi's demand for a world lab and sets the context of climate summits with named entities."
+        },
+        {
+          "rank": 3,
+          "text": "In realtà l’Accordo riguarda cambiamenti climatici in corso, alcuni dei quali sono dovuti al 100% alle nostre attività. Il suo terzo difetto è di ignorare le eruzioni vulcaniche e le “fessure della crosta terrestre” che rilasciano lava determinando   forti perturbazioni nella dinamica oceanica, il che sorprenderà geologi, oceanologi e fisici del clima, sopratutto quelli che disegnano vulcani sull’asse x dei propri grafici.  Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.",
+          "concept": "scientific_arguments",
+          "reasoning": "It continues with arguments about volcanic eruptions and long-term climate cycles, referencing specific scientific concepts."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career.",
+          "concept": "football_history",
+          "reasoning": "It describes the historical context of Black high school football and mentions specific NFL players with detailed clauses."
+        },
+        {
+          "rank": 2,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com.",
+          "concept": "book_event",
+          "reasoning": "It announces a virtual event featuring author Michael Hurd and his acclaimed book with specific named entities and details."
+        },
+        {
+          "rank": 3,
+          "text": "Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+          "concept": "author_credentials",
+          "reasoning": "It lists the author's other works and organizational affiliations with named entities, though with less narrative context."
+        }
+      ]
+    }
+  ]
+}

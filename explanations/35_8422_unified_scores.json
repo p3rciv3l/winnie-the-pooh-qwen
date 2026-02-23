@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_8422",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence narrative continuation in news or report-style text** (such as descriptions of event consequences, logistical details, quoted speech, or technical specifications) that appears after an initial clause or contextual setup.\n\n2. **Domain coverage**: The pattern appears in multilingual news articles, official reports, and descriptive journalism across many languages (including Italian, Spanish, Hindi, Russian, French, German, and Indonesian). Topics are diverse\u2014natural disasters, government actions, sports, construction, science\u2014but the unifying trait is the text's position as an elaboration within a sentence, often containing connectors, relative clauses, or supplementary details.\n\n3. **Contrast with low-activation examples**: High-activation texts are consistently **fragments from the middle of sentences**, extending a narrative with additional clauses, while low-activation examples are typically **sentence beginnings, headlines, datelines, or isolated introductory phrases** (e.g., \"Il 6 maggio 1976 alle ore 21.0\", \"Aktualizacja: 02.01.2024\"). The neuron fires on continuation, not on scene-setting or standalone announcements.\n\n4. **Closing interpretation**: The neuron detects syntactic and narrative continuity rather than a specific semantic topic. It activates on text that functions to develop an already-introduced idea, typically marked by subordination, listing, or explanatory phrasing within a longer sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "akurtzeko. Baina erregistratzen bazara, opari gisa ordaindu beharreko albiste bat doan izango du",
+      "normalized_activation": 9.645370483398438,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1891,
+          "meaning_score": 0.212,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1605
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1367,
+          "meaning_score": 0.1982,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.134
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1155,
+          "meaning_score": 0.1812,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1187
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0628\u062d \u062f\u0645 \u062a\u0648\u0691 \u062f\u06cc\u0627\u060c\u06cc\u0648\u06ba \u06cc\u06a9\u0645 \u0627\u067e\u0631\u06cc\u0644 \u0633\u06d2 28 \u0627\u06a9\u062a\u0648\u0628\u0631 \u06a9\u06d2 \u062f\u0631",
+      "normalized_activation": 8.929192543029785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1421,
+          "meaning_score": 0.2403,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.153
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1935,
+          "meaning_score": 0.3153,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4035
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1405,
+          "meaning_score": 0.2242,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1459
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Muhammadu Buhari has lauded Gov. Abdullahi Sule of Nasarawa State for complementing the efforts of the Federal Government in the provision of infrastructure",
+      "normalized_activation": 7.974365711212158,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2698,
+          "meaning_score": 0.5244,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3177
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1799,
+          "meaning_score": 0.5251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.282
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2704,
+          "meaning_score": 0.39,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2641
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Michael Wernick: Trudeau loses top civil servant in crisis Canada's top public",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1763,
+          "meaning_score": 0.5034,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2719
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.161,
+          "meaning_score": 0.5063,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2669
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1859,
+          "meaning_score": 0.3604,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2185
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2317,
+          "meaning_score": 0.3064,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2152
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2361,
+          "meaning_score": 0.2365,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1891
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1886,
+          "meaning_score": 0.2339,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.169
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_15039",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal datelines or introductory phrases that situate information within a specific geographic, institutional, or procedural context** (such as news datelines like \"TEGUCIGALPA, HONDURAS.-\", procedural openings like \"si \u00e8 dato avvio 'alle verifiche istruttorie preliminari\", or institutional mentions like \"Governor Eric Holcomb to nullify...\").\n\n2. **Domain coverage**: The pattern appears predominantly in multilingual news reporting, official announcements, and procedural documents. It spans languages (Spanish, Italian, Greek, Russian, English, Thai) and topics (politics, disaster updates, legal actions, public health), but consistently features a structured opening that anchors the subsequent information to a place, entity, or formal process.\n\n3. **Contrast with low-activation examples**: The high-activation texts begin with or prominently contain these contextualizing frames, while low-activation examples typically launch directly into narrative, opinion, or event description without a formal locative or institutional lead-in (e.g., \"Dos terremotos de magnitud...\" or \"Screen shot of InfoWars.com website...\" lack the specific framing device).\n\n4. **Closing interpretation**: The neuron detects a stylistic and syntactic pattern associated with authoritative, sourced information presentation, acting as a feature for text that formally establishes its situational or institutional origin at the outset.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Indian authorities on Friday imposed restrictions on the movement of people and vehicles in parts of Srinagar, Jammu and Kashmir state's summer capital, after separatists called",
+      "normalized_activation": 9.56954288482666,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1514,
+          "meaning_score": 0.4041,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2222
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1319,
+          "meaning_score": 0.8661,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5992
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1152,
+          "meaning_score": 0.3815,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1987
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ionero. \u201cTuvimos que actuar con rapidez\u201d, explica Olivier Hainaut, miembro del equipo del Observatorio Europeo Austral (ES",
+      "normalized_activation": 8.681023597717285,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0845,
+          "meaning_score": 0.478,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.225
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1196,
+          "meaning_score": 0.7884,
+          "overlap_fraction": 0.9344,
+          "location_score": 0.1869,
+          "combined_score": 0.5501
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1466,
+          "meaning_score": 0.422,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2274
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Hungary in 1957, and the martyrdom of Sister Leonella Sgorbati, killed in hatred of the faith in Somalia in 20",
+      "normalized_activation": 7.542392730712891,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0786,
+          "meaning_score": 0.2626,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1365
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1236,
+          "meaning_score": 0.2851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1635
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0993,
+          "meaning_score": 0.2571,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1426
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1956,
+          "meaning_score": 0.4051,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2403
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1577,
+          "meaning_score": 0.5192,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2707
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1288,
+          "meaning_score": 0.2349,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1454
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1986,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2096
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.206,
+          "meaning_score": 0.5336,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2958
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2509,
+          "meaning_score": 0.2926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        }
+      ]
+    }
+  ]
+}

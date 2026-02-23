@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_10843",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:05:51Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing abrupt language switches or non-English passages** (such as Swedish news with English terms, Spanish tweets with code-mixing, or Russian headlines embedded in English contexts).\n\n2. **Domain coverage**: The pattern appears across diverse domains—news snippets, social media quotes, technical descriptions, and advertisements—in languages including Swedish, Spanish, Dutch, Kazakh, German, Italian, Portuguese, Polish, Russian, and Estonian. High activations often occur when a sentence begins in one language and incorporates another, or when proper nouns (brands, places, names) from one language appear within a different linguistic context.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost entirely monolingual English, typically coherent news headlines or descriptive sentences without embedded foreign phrases. High-activation examples consistently feature language mixing or non-English fragments, whereas low-activation examples maintain a single-language flow even when discussing international topics (e.g., \"Grecia, terremoto...\" activates at 0.00 because it remains fully Italian, but appears truncated).\n\n4. **Closing interpretation**: The neuron likely detects linguistic boundary signals—specifically, the presence of multiple languages within a short text span—which may serve as a cue for parsing or encoding multilingual content in the model. It acts less as a semantic topic detector and more as a marker of code-switching or foreign-language insertion.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 666,
+      "normalized": 9.586418151855469,
+      "actual_text": "constelaciones, planetas y estaremos en posibilidad de observar la lluvia de estrellas fugaces Gemínidas, visibles desde el",
+      "plain_text": "El cerro es testigo de decenas de historias relacionadas con avistamientos de ovnis desde la década del 90, cuando se fotografiaron misteriosas luces en el firmamento. Y si bien en los últimos días no se observaron, el 17 de diciembre puede ser una oportunidad para registrar fenómenos extraterrestres, más comúnmente conocidos como \"ovnis\". \"Estamos expectantes porque el año viene acompañado de muchos avistamientos\", afirmó Pérez Simondini. La convocatoria será a partir de las 21, en la puerta del Museo del Ovni (San Miguel y Rondeau), para marchar desde allí al cerro de La Matanza. \"Le pedimos a quienes quieran participar que lleven sillas y sus equipos de observación, cámaras de video y de foto, binoculares, visores, lentes, telescopios\", pidió la ufóloga. Pérez Simondini agregó que \"como siempre, es una muy buena oportunidad para observar fenómenos inexplicables en el cielo y registrarlos, como también aprender a observar el cielo, acompañados de prestigiosos investigadores que suelen sumarse a la convocatoria\". Además, agregó que \"intentaremos identificar paso de satélites, constelaciones, planetas y estaremos en posibilidad de observar la lluvia de estrellas fugaces Gemínidas, visibles desde el 4 hasta el 17 de este mes. Aunque no estará en su máximo apogeo el 17 de diciembre, igualmente se especula que se podrán ver unos 120 meteoros por hora\". La entrada es libre y gratuita. \"Esperamos tener una excelente jornada, pero si llueve la actividad se suspenderá\". Para saber más Quienes estén interesados en recabar más datos, pueden conectarse con Andrea Pérez Simondini, al mail: asimondini@gmail.com Se recomienda traer todos los elementos de observación binoculares, telescopio, cámaras (vídeo, fotografía), sillas, reposeras, alimentos y bebidas y bolsitas para los residuos. Qué son las Gemínidas Las Gemínidas, lluvia de estrellas que rivaliza con las Perseidas, tienen un origen distinto al de la mayoría de estos fenómenos cósmicos. Su origen no son los restos de un cometa, sino de un asteroide, el 3200 Phaeton. Y si bien este año, las Gemínidas despedirán de la mejor forma este 2016, se estima que debido al paso del asteroide, en 2017 sea una de las mejores lluvias de estrellas. El cerro La Matanza El cerro de La Matanza está al noroeste de la ciudad de Victoria, en una zona de bañados del río Paraná, que se conocía como arroyo de la Matanza, por supuesto después de la \"limpieza\" debida a Vera y Mujica. La actividad del hombre civilizado en la zona se puede apreciar en la erosión del terreno actual, debido a la persistente explotación de la piedra caliza sobre todo por los inmigrantes vascos que poblaron luego la zona. AIM.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Para saber más Quienes estén interesados en recabar más datos, pueden conectarse con Andrea Pérez Simondini, al mail: asimondini@gmail.com Se recomienda traer todos los elementos de observación binoculares, telescopio, cámaras (vídeo, fotografía), sillas, reposeras, alimentos y bebidas y bolsitas para los residuos.",
+          "concept": "English email address",
+          "reasoning": "Contains an English email address within Spanish text, indicating language mixing."
+        },
+        {
+          "rank": 2,
+          "text": "Qué son las Gemínidas Las Gemínidas, lluvia de estrellas que rivaliza con las Perseidas, tienen un origen distinto al de la mayoría de estos fenómenos cósmicos. Su origen no son los restos de un cometa, sino de un asteroide, el 3200 Phaeton. Y si bien este año, las Gemínidas despedirán de la mejor forma este 2016, se estima que debido al paso del asteroide, en 2017 sea una de las mejores lluvias de estrellas.",
+          "concept": "English proper noun",
+          "reasoning": "Includes the English asteroid name '3200 Phaeton' in a Spanish description."
+        },
+        {
+          "rank": 3,
+          "text": "El cerro La Matanza El cerro de La Matanza está al noroeste de la ciudad de Victoria, en una zona de bañados del río Paraná, que se conocía como arroyo de la Matanza, por supuesto después de la \"limpieza\" debida a Vera y Mujica. La actividad del hombre civilizado en la zona se puede apreciar en la erosión del terreno actual, debido a la persistente explotación de la piedra caliza sobre tout por los inmigrantes vascos que poblaron luego la zona. AIM.",
+          "concept": "English acronym",
+          "reasoning": "Ends with the English acronym 'AIM' in an otherwise Spanish passage."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00018",
+      "row_idx": 4786,
+      "normalized": 8.83021354675293,
+      "actual_text": "avanços territoriais de ambos os lados em trincheiras enlameadas: congelada. Sem perspectiva de um acordo de paz",
+      "plain_text": "SÃO PAULO ― Um ano depois de os primeiros tanques russos invadirem a Ucrânia, a situação do conflito está tão estagnada quanto os avanços territoriais de ambos os lados em trincheiras enlameadas: congelada. Sem perspectiva de um acordo de paz, a guerra na Ucrânia enterrou de vez a ordem global do pós-Guerra Fria ao redesenhar alianças internacionais e despertar antigas tensões adormecidas. Esta reportagem faz parte da série especial do Estadão sobre o primeiro ano da guerra. Ao longo dos próximos dias, a cobertura do jornal abordará o papel do Brasil na guerra, as perspectivas do conflito para o futuro, os arsenais dos dois países envolvidos nos combates e o drama dos refugiados. Para analistas, 2023 é o ano fundamental para definir o que será do mundo pós-guerra. Se o conflito escalar, será neste ano. E se a guerra escalar de vez, pode se tornar um conflito global e reavivar disputas regionais e conflitos locais. “A melhor maneira de Putin retaliar o apoio ocidental à Ucrânia é alimentar crises em série em outros países. Uma crise no Oriente Médio, por exemplo, aumentaria os preços da energia, nos forçaria a lidar com mais uma crise”, afirma Walter Russel Mead, professor do Bard College, prestigiosa universidade americana. “Este pode ser o começo. A Rússia vai agir cada vez mais na zona cinzenta”. Ainda que o conflito não escale, ele já expôs uma profunda divisão global e os limites da influência dos EUA . O esforço para isolar Putin falhou, e não apenas entre os aliados russos que poderiam apoiar Moscou, como China e Irã. A Índia anunciou na semana passada que seu comércio com a Rússia cresceu 400% desde a invasão. Nas últimas seis semanas, o ministro das Relações Exteriores da Rússia, Sergei Lavrov, foi recebido em nove países da África e do Oriente Médio – incluindo a África do Sul, cujo ministro das Relações Exteriores, Naledi Pandor, saudou o encontro como “maravilhoso” e chamou a África do Sul e a Rússia de “amigos”. Continua após a publicidade “Não se trata de um ponto de inflexão geopolítica para o restante do mundo”, afirmou à revista Economist Shivshankar Menon, ex-diplomata-chefe da Índia,Menon. “Onde estamos, a falha sísmica geopolítica principal ainda é entre China e EUA — e a guerra na Ucrânia não altera essa situação”. Otan e a Europa ressurgem A invasão de Vladimir Putin à Ucrânia, em 24 de fevereiro de 2022, revitalizou a aliança militar do Atlântico Norte (Otan) — que se armou com seu primeiro novo conjunto de objetivos desde 1967, ano em que seus escritórios foram inaugurados. Enquanto a antiga Otan foi reativa, a aliança agora é reconstruída para dissuadir a Rússia em tempos de paz e responder a agressões com uso de força assim que Moscou ameaçar se intrometer em territórios de seus membros. Para fazer isso, o centro de gravidade da Otan se voltou para o leste da Europa, após alguns anos de dormência e discordância entre seus líderes. O recente acordo dos EUA com a Polônia é o sinal mais recente desse apelo ao leste. Continua após a publicidade Na semana passada, uma batelada de tanques de guerra M1A2 Abrams e centenas de sistemas de foguetes começaram a chegar no país. O arsenal é parte de gigantesca onda de gastos militares da Polônia, país vizinho à Ucrânia, após a invasão russa. O ministro da Defesa polonês, Mariusz Blaszczak, espera que os investimentos ajudem a construir “a maior força terrestre da Europa” – tudo com ajuda da Otan. A aliança também fez acenos e promete apoio militar crescente para os países bálticos, Lituânia, Letônia e Estônia. Finlândia e Suécia também deve se juntar à Otan, o que trará um contingente, equipamento e competência em combate. A Finlândia, por exemplo, é capaz de reunir 280 mil soldados em poucas semanas, o que equivale a mais de duas vezes o tamanho do contingente militar na ativa e na reserva do Reino Unido. “Não apenas houve um renascimento da Otan, mas o conflito na Ucrânia trouxe um redespertar europeu, do sentimento de união da Europa”, disse Timothy Garton Ash, professor de Oxford e autor de vários livros, o mais recente Homelands: Uma História Pessoal da Europa. “As vozes dos países da Europa Central e do Leste estão sendo mais ouvidas e levadas mais a sério nos conselhos da Europa, e há uma grande agenda de ampliação do leste sobre a mesa”. Diplomacia emperrada Conforme a guerra completa um ano, o impasse diplomático se impõe. Propostas de paz aparecem, mas são rechaçadas pelos envolvidos. Os Estados Unidos e seus parceiros do G-7 já propuseram um acordo de paz, lido como condições para a rendição da Rússia: Kyev recupera todo o seu território, recebe reparações de Moscou e assina acordos de segurança com os países ocidentais. A china também fez uma proposta, considerada muito pró-Rússia e descartada pela Otan. Continua após a publicidade Nenhum dos lados demonstra vontade de recuar em seus objetivos de guerra. Para a Ucrânia, repelir uma força invasora que reivindica quase um quarto de seu território é uma necessidade existencial. Para a Rússia, não existe vitória sem garantir o território ucraniano que reivindica como seu, da Crimeia ao Donbass. O mantra em Washington é apoiar Kiev “por tempo necessário” e descartar, pelo menos por enquanto, passos práticos em direção à diplomacia. O risco que isso acarreta é manter as tensões altas, levar a uma escalada perigosa e prolongar o conflito indefinidamente. Mesmo na ausência de um ataque nuclear, o risco de um confronto direto entre a Otan e a Rússia permanece alto e tende aumentar enquanto a guerra continuar. “As relações diplomáticas entre Rússia e EUA são praticamente inexistentes, sem contatos de alto escalão desde o começo da guerra. Entre EUA e China também não são muito melhores, ainda mais depois do episódio do balão”, diz Eugene Chausovsky, analista do centro de estudos americano NewLines Institute e ez- analista da Eurasia. “Hoje, o cenário mais otimista é o de um conflito congelado, no máximo um cessar-fogo duradouro, cujo efeito em cascata afetaria a cooperação diplomática no mundo todo por muito tempo”. / COM NYT e W.POST",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“A melhor maneira de Putin retaliar o apoio ocidental à Ucrânia é alimentar crises em série em outros países. Uma crise no Oriente Médio, por exemplo, aumentaria os preços da energia, nos forçaria a lidar com mais uma crise”, afirma Walter Russel Mead, professor do Bard College, prestigiosa universidade americana.",
+          "concept": "English name and institution",
+          "reasoning": "Contains the English name 'Walter Russel Mead' and English institution 'Bard College' within Portuguese text."
+        },
+        {
+          "rank": 2,
+          "text": "“Não se trata de um ponto de inflexão geopolítica para o restante do mundo”, afirmou à revista Economist Shivshankar Menon, ex-diplomata-chefe da Índia,Menon. “Onde estamos, a falha sísmica geopolítica principal ainda é entre China e EUA — e a guerra na Ucrânia não altera essa situação”.",
+          "concept": "English magazine name",
+          "reasoning": "Mentions the English magazine 'The Economist' and includes an Indian name in Portuguese context."
+        },
+        {
+          "rank": 3,
+          "text": "“As relações diplomáticas entre Rússia e EUA são praticamente inexistentes, sem contatos de alto escalão desde o começo da guerra. Entre EUA e China também não são muito melhores, ainda mais depois do episódio do balão”, diz Eugene Chausovsky, analista do centro de estudos americano NewLines Institute e ez- analista da Eurasia. “Hoje, o cenário mais otimista é o de um conflito congelado, no máximo um cessar-fogo duradouro, cujo efeito em cascata afetaria a cooperação diplomática no mundo todo por muito tempo”. / COM NYT e W.POST",
+          "concept": "English organization names",
+          "reasoning": "Includes English organization names 'NewLines Institute', 'Eurasia', and English newspaper acronyms 'NYT' and 'W.POST'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00010",
+      "row_idx": 694,
+      "normalized": 7.927922248840332,
+      "actual_text": "pickpockets sont en effet particulièrement actifs et bien organisés. Ils opèrent généralement en groupe et ne sont pas nécessairement des adultes : il",
+      "plain_text": "Photo News Si les services de police communiquent à ce sujet en ce moment, c’est que la période de fin d’années, avec les derniers achats, est propice aux vols de ce type. La prudence est donc de mise !  Afin d’éviter quelques mauvaises surprises, les services de police communiquent quelques précieux conseils, à appliquer et à partager à vos proches :  « Soyez vigilant lorsque vous vous déplacez dans des espaces publics ou dans un transport en commun, entouré d’une foule dense, les pickpockets sont en effet particulièrement actifs et bien organisés. Ils opèrent généralement en groupe et ne sont pas nécessairement des adultes : il peut aussi s’agir de mineurs très jeunes mais déjà très expérimentés. Tenez compte en premier lieu de nos recommandations avant de partir, ensuite prenez vos précautions lorsque vous êtes dans une foule ou un passage étroit où les gens sont au coude à coude.  En cas d’affluence, les conseils de prudence :  • Restez vigilant et gardez, si possible, une certaine distance par rapport aux autres  • Dégagez-vous immédiatement si une ou plusieurs personnes (ou enfants) vous abordent, vous bousculent ou vous entourent de manière impromptue. Haussez la voix ou criez au besoin  • Si vous êtes accompagné d’un ami, convenez d’être attentif l’un pour l’autre  • Les femmes veilleront à fermer leur sac à main et le tenir contre elles, la fermeture tournée vers l’intérieur  • Vous avez un sac à dos ? Portez-le également devant vous tant que vous êtes dans la cohue…  • Si vous utilisez votre portefeuille pour payer, évitez que d’autres personnes puissent voir son contenu. Ne le déposez jamais, même pour un bref moment.  En cas de vol  En cas de vol, portez immédiatement plainte au service de police le plus proche et prévenez Card-stop de la perte de vos cartes de crédit ou de banque, au numéro 070/344 344 accessible en permanence  Si votre carte d’identité a été volée, téléphonez sans tarder à Doc Stop (00800 2123 2123) afin d’empêcher toute utilisation frauduleuse. »",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "« Soyez vigilant lorsque vous vous déplacez dans des espaces publics ou dans un transport en commun, entouré d’une foule dense, les pickpockets sont en effet particulièrement actifs et bien organisés. Ils opèrent généralement en groupe et ne sont pas nécessairement des adultes : il peut aussi s’agir de mineurs très jeunes mais déjà très expérimentés.",
+          "concept": "English loanword",
+          "reasoning": "Uses the English loanword 'pickpockets' within French advice text."
+        },
+        {
+          "rank": 2,
+          "text": "En cas de vol En cas de vol, portez immédiatement plainte au service de police le plus proche et prévenez Card-stop de la perte de vos cartes de crédit ou de banque, au numéro 070/344 344 accessible en permanence",
+          "concept": "English service name",
+          "reasoning": "Mentions the English-named service 'Card-stop' for reporting lost cards in a French context."
+        },
+        {
+          "rank": 3,
+          "text": "Si votre carte d’identité a été volée, téléphonez sans tarder à Doc Stop (00800 2123 2123) afin d’empêcher toute utilisation frauduleuse. »",
+          "concept": "English service name",
+          "reasoning": "Refers to the English-named service 'Doc Stop' for identity theft prevention in French."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1867,
+      "normalized": 0.0,
+      "actual_text": "SHANGHAI -- China said a complete decoupling with the U.S.",
+      "plain_text": "SHANGHAI -- China said a complete decoupling with the U.S. is \"unrealistic\" because of the corresponding nature of their economic structures, despite Beijing now relying less on foreign trade for growth. The Chinese Communist Party's Central Committee on Friday briefed reporters on the guiding principles of the country's next five-year plan for economic and social development -- the first of three blueprints for achieving a modern socialist state by 2035. \"Under the global village concept, China and the U.S. economic ties are determined by the complementary nature of their economic structures within an open market,\" said Han Wenxiu, a party official in charge of financial and economic affairs. \"A complete decoupling is not a reality, nor is it beneficial to either or the world.\" This goes against U.S. President Donald Trump's urging of American companies to move away from China because of what he says are unfair trade practices. Han said China's trade volume with the U.S. grew 16% year-on-year in the third quarter despite the negative impact of the COVID-19 pandemic. \"In fact, those who truly want a 'decoupling' only represents a minor minority,\" he said. \"And those who pursue cooperation are the overwhelming majority.\" Under a long-term strategy, China is set to implement a \"dual circulation\" policy focused on domestic demand to drive growth with the help of foreign investment. This focus is \"possible\" because of the size of its economy, Han said, adding that the implementation was a proactive rather than passive move amid growing protectionism and uncertainties brought on by the pandemic. The central committee, China's top policy-setting body, said the proportion of foreign trade to gross domestic product has declined from 60% in the past to 30% now, reflecting the dynamic of domestic demand. In the communique released by the committee on Thursday, China said the country's average per capita disposable income grew 6.5% a year from 2016 to 2019, and the number of middle-income Chinese jumped to over 400 million in 2019, up from more than 100 million in 2010. China is expected to focus more on its domestic market to drive growth by prioritizing innovation in economic development. Beijing will encourage new consumption models based on environmentally friendly, healthy and safe concepts, said Ning Jizhe, vice-minister of the National Development and Reform Commission. The emphasis will be on purchases of consumer goods such as automobiles, contactless transaction services, and the integration of online and offline consumption through communications technology, he said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "SHANGHAI -- China said a complete decoupling with the U.S. is \"unrealistic\" because of the corresponding nature of their economic structures, despite Beijing now relying less on foreign trade for growth. The Chinese Communist Party's Central Committee on Friday briefed reporters on the guiding principles of the country's next five-year plan for economic and social development -- the first of three blueprints for achieving a modern socialist state by 2035.",
+          "concept": "Chinese locations and organization",
+          "reasoning": "Contains Chinese city names 'Shanghai' and 'Beijing' and the Chinese Communist Party's Central Committee within English text."
+        },
+        {
+          "rank": 2,
+          "text": "Beijing will encourage new consumption models based on environmentally friendly, healthy and safe concepts, said Ning Jizhe, vice-minister of the National Development and Reform Commission. The emphasis will be on purchases of consumer goods such as automobiles, contactless transaction services, and the integration of online and offline consumption through communications technology, he said.",
+          "concept": "Chinese official name",
+          "reasoning": "Includes the Chinese official name 'Ning Jizhe' and references to Chinese policy in English context."
+        },
+        {
+          "rank": 3,
+          "text": "The central committee, China's top policy-setting body, said the proportion of foreign trade to gross domestic product has declined from 60% in the past to 30% now, reflecting the dynamic of domestic demand. In the communique released by the committee on Thursday, China said the country's average per capita disposable income grew 6.5% a year from 2016 to 2019, and the number of middle-income Chinese jumped to over 400 million in 2019, up from more than 100 million in 2010.",
+          "concept": "Chinese economic terms",
+          "reasoning": "Discusses Chinese economic data and the central committee, using Chinese institutional terms in English."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 227,
+      "normalized": 0.0,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.",
+          "concept": "Foreign word list",
+          "reasoning": "Includes the Greek-derived word 'agora' in a list of removed words, indicating a non-English lexical item."
+        },
+        {
+          "rank": 2,
+          "text": "That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.”",
+          "concept": "Foreign word usage",
+          "reasoning": "Directly quotes the foreign word 'agora' as a Wordle answer within an English explanation."
+        },
+        {
+          "rank": 3,
+          "text": "The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too. That means, if anything, the Times actually made the game easier.",
+          "concept": "Monolingual English",
+          "reasoning": "This section is entirely in English with no foreign terms, but is included as a baseline low-activation segment."
+        }
+      ]
+    }
+  ]
+}

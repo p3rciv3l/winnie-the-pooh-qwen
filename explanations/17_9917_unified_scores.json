@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_9917",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit mentions of elapsed time durations or anniversaries** (such as \"seven years have passed,\" \"just two years after,\" \"10th day of demonstrations,\" or \"held in custody for more than 500 days\").\n\n2. **Domain coverage**: The pattern appears across news, historical reports, legal/political updates, and biographical narratives, regardless of topic (pandemic, climate, crime, entertainment, protests). It is language-agnostic, appearing in English, Italian, Polish, Spanish, Russian, and others, and activates on phrases combining a quantity (number) with a time unit (years, days, months) that situate an event relative to another point in time.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any specific duration phrasing; they describe ongoing events, general statements, announcements, or simple facts without temporal anchoring relative to a past or future milestone. What is present in the high group is the linguistic structure \"[quantity] [time unit]\" used to measure an interval between events, which is absent in the low group.\n\n4. **Closing interpretation**: This neuron detects textual markers of temporal distance, specifically intervals separating two points in time. It functions as a specialized detector for phrases that contextualize events by quantifying how much time has passed, remains, or lies between milestones.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "23, the FTSE 100 rose by 673%, outperforming gold and UK government bonds. Publisher Relx, first listed on",
+      "normalized_activation": 9.482351303100586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2525,
+          "meaning_score": 0.4387,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2765
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2335,
+          "meaning_score": 0.7132,
+          "overlap_fraction": 0.2925,
+          "location_score": 0.0585,
+          "combined_score": 0.4372
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2516,
+          "meaning_score": 0.5027,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3017
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "referred to as \u201cthe Cell,\u201d opened in 2010, five years after Huawei partnered with BT, formerly British Telecom, to provide equipment as part of",
+      "normalized_activation": 8.487878799438477,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3657,
+          "meaning_score": 0.4029,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3074
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2974,
+          "meaning_score": 0.7316,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6116
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2705,
+          "meaning_score": 0.4261,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2786
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "it. Twenty drinks across five \u201cacts\u201d chart the restaurant\u2019s 88-year history, each one named after a pivotal moment. Some are salacious - Che",
+      "normalized_activation": 7.311636924743652,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3538,
+          "meaning_score": 0.7807,
+          "overlap_fraction": 0.8214,
+          "location_score": 0.1643,
+          "combined_score": 0.6181
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3598,
+          "meaning_score": 0.2622,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2488
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4396,
+          "meaning_score": 0.2712,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2844
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tras el fuerte sismo de magnitud 6.9 que asol",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1581,
+          "meaning_score": 0.4155,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2294
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1255,
+          "meaning_score": 0.289,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1658
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1255,
+          "meaning_score": 0.4661,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2366
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1085,
+          "meaning_score": 0.3896,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1993
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1709,
+          "meaning_score": 0.4046,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2302
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0624,
+          "meaning_score": 0.4024,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1859
+        }
+      ]
+    }
+  ]
+}

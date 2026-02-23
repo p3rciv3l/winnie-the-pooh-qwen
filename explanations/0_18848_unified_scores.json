@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_18848",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal institutions or organizational bodies (such as \"Center for...\", \"Department of...\", \"Journal of...\") combined with narrative or procedural phrases indicating regularity, sequence, or legal/political processes (such as \"every day\", \"one day\", \"as far as... is concerned\", \"have worked since...\")**.\n\n2. **Domain coverage**: The pattern appears across news, academic, and administrative text in multiple languages (English, Slovak, Czech, Turkish). It frequently surfaces in contexts discussing medical departments, research centers, legal/rights institutions, government bodies, and journal publications. The temporal or procedural element often describes ongoing work, daily routines, legal reasoning, or sequenced events within these institutional frameworks.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally headlines, brief news leads, market reports, or simple statements that lack the combination of a named formal institution *and* a phrase detailing habitual action, extended timeline, or procedural/legal qualification. They mention organizations or topics in isolation without the contextual framing of daily operation, multi-year engagement, or conditional reasoning.\n\n4. **Closing interpretation**: The neuron appears to detect text where an institutional entity is embedded in a context of sustained activity, routine, or formal procedure, acting as a filter for descriptions of organizational function rather than mere institutional reference.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "healthcare system has long since become an epidemic and the red lines are crossed almost every day. On Monday, the doctors will say enough of the violence, enough of the",
+      "normalized_activation": 9.68410587310791,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1417,
+          "meaning_score": 0.7216,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5453
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0826,
+          "meaning_score": 0.3602,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1771
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1794,
+          "meaning_score": 0.4626,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2568
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "tiest smile that would light up a room when he walked in, and every day I miss that smile and I have to look at my grandson when he asks me",
+      "normalized_activation": 8.83144474029541,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1137,
+          "meaning_score": 0.0979,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0847
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0996,
+          "meaning_score": 0.0041,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0415
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0729,
+          "meaning_score": 0.0971,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.068
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ho kempu a zru\u0161ila aj minulot\u00fd\u017ed\u0148ov\u00fd pr\u00edpravn\u00fd z\u00e1pas s F\u00ednkami.",
+      "normalized_activation": 7.771121025085449,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1472,
+          "meaning_score": 0.4572,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2418
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0381,
+          "meaning_score": 0.4126,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1803
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0921,
+          "meaning_score": 0.3691,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1845
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Excerpt Eating Drunkard\u2019s Stir-Fry With Anthony Bourdain An essay by",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1559,
+          "meaning_score": 0.4748,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2523
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1328,
+          "meaning_score": 0.2965,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1717
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1626,
+          "meaning_score": 0.3417,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2017
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Harare \u2014 Medecins Sans Frontiers Director in Zimbabwe Bj\u00f8rn Nissen",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1799,
+          "meaning_score": 0.5505,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2922
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1674,
+          "meaning_score": 0.333,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2002
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1644,
+          "meaning_score": 0.2705,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1739
+        }
+      ]
+    }
+  ]
+}

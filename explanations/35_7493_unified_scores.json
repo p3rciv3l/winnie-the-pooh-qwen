@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_7493",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that appear within longer narrative or descriptive passages** (such as clauses containing quoted speech, narrative action, administrative details, or descriptive lists), particularly when they are preceded by punctuation like opening quotes, commas, or em-dashes that signal continuation from prior text.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Turkish, Portuguese, Polish, Hindi, German, Swedish, etc.) and diverse topics: news narratives, sports reports, legal/administrative documents, personal stories, and horoscope or advice columns. The common thread is the text's position as an *embedded clause or phrase* within a larger body of prose, not a headline or standalone sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost all concise, self-contained statements\u2014headlines, titles, or complete introductory sentences\u2014often in English. They lack the mid-flow, connective punctuation and the sense of being a clause extracted from the middle of a paragraph. The high-activation examples contain narrative progression, quoted material, or detailed listings that imply prior context.\n\n4. **Closing interpretation**: This neuron likely detects syntactic and positional cues indicating that the token sequence is part of an ongoing, multi-clause exposition rather than a discrete, top-level statement. It functions as a \"continuation detector,\" helping the model parse embedded or parenthetical content within longer documents.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and early death, and whose hallmarks are hemolytic anemia, painful vaso-occlusive crises (VOCs) and stroke,\" said Anne-V",
+      "normalized_activation": 9.59023380279541,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1127,
+          "meaning_score": 0.7515,
+          "overlap_fraction": 0.8917,
+          "location_score": 0.1783,
+          "combined_score": 0.524
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1097,
+          "meaning_score": 0.5953,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.282
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.119,
+          "meaning_score": 0.3454,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1857
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "karinio bendradarbiavimo su Rusija tolesn\u012f vystym\u0105, nukreipt\u0105 \u012f s\u0105jungos g",
+      "normalized_activation": 8.914567947387695,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1377,
+          "meaning_score": 0.3021,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1759
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1469,
+          "meaning_score": 0.458,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4419
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1866,
+          "meaning_score": 0.4381,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2499
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "onto a narrow stone side street. A red flash brought my ears into focus. Fearing I would lose sight of the sound, I walked in double time until I",
+      "normalized_activation": 8.084368705749512,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1479,
+          "meaning_score": 0.2249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1492
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.176,
+          "meaning_score": 0.1427,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1275
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.085,
+          "meaning_score": 0.2901,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.15
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Labour leader Sir Keir Starmer has said he wanted to be able to \"draw",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1182,
+          "meaning_score": 0.3064,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1698
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2225,
+          "meaning_score": 0.302,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2098
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.267,
+          "meaning_score": 0.4033,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2681
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2267,
+          "meaning_score": 0.4321,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2635
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1888,
+          "meaning_score": 0.2765,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1861
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1943,
+          "meaning_score": 0.5755,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3079
+        }
+      ]
+    }
+  ]
+}

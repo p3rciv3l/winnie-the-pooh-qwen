@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_18506",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of countries, regions, or multi-national contexts** (such as \"across the country,\" \"North American,\" \"Central American country,\" or lists of country names like India, Sweden, Vietnam).\n\n2. **Domain coverage**: The pattern appears in diverse domains including international politics, education, business, culture, and news reporting. It processes text in multiple languages (English, Spanish, etc.) but consistently triggers on geographic entity names (e.g., \"India,\" \"Nicaragua\"), demonyms (\"Indian students\"), and phrases denoting nationwide or cross-border scope (\"across the country,\" \"neighbouring countries\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically local, specific to cities or individuals (\"Jersey City,\" \"Bollywood actress\"), or are short fragments lacking any geographic framing. While some low examples mention places (e.g., \"Nice, France\"), they do so in isolated, non-national contexts (e.g., a local incident) rather than discussing the country as an entity or in a multi-regional framework.\n\n4. **Closing interpretation**: This neuron detects linguistic markers of geopolitical or geographic entities at the national/regional level, serving as a classifier for when text is discussing topics framed by or pertaining to countries as distinct units. It essentially fires on the concept of \"country-ness\" in the semantic context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "before dawn in a dusty hamlet 220 miles north of the Central American nation's capital. As her family paid their final respects, authorities announced that another",
+      "normalized_activation": 9.70699691772461,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1858,
+          "meaning_score": 0.5025,
+          "overlap_fraction": 0.5337,
+          "location_score": 0.1067,
+          "combined_score": 0.3821
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1858,
+          "meaning_score": 0.3573,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2172
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1858,
+          "meaning_score": 0.2558,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1767
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Brazilian government called in the Nicaraguan ambassador and recalled its ambassador from the Central American nation on Tuesday, seeking clarification from Nicaragua's government. 29-year-old",
+      "normalized_activation": 9.235036849975586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1858,
+          "meaning_score": 0.819,
+          "overlap_fraction": 0.9375,
+          "location_score": 0.1875,
+          "combined_score": 0.5894
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1858,
+          "meaning_score": 0.3853,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2284
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2039,
+          "meaning_score": 0.4342,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2553
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", a high-school teacher, by an Islamic terrorist has sent shockwaves throughout the country. In the aftermath of it, its leaders been been set on a path where",
+      "normalized_activation": 8.65823745727539,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4998,
+          "meaning_score": 0.6995,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6797
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4998,
+          "meaning_score": 0.2917,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3166
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.5122,
+          "meaning_score": 0.3448,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3428
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "United front! Rachel Bilson reunites with ex Hayden Christensen as they take their",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2676,
+          "meaning_score": 0.3865,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2616
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2676,
+          "meaning_score": 0.8285,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4385
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2676,
+          "meaning_score": 0.5745,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3368
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u0926\u0941\u0928\u093f\u092f\u093e \u092d\u0930 \u092e\u0947\u0902 UN Women \u0914\u0930",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.128,
+          "meaning_score": 0.5383,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4665
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1837,
+          "meaning_score": 0.367,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2203
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2265,
+          "meaning_score": 0.4327,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2637
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_7299",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the letter \"d\" followed closely by a vowel, particularly at the start of words or syllables (such as \"dudoso,\" \"dieron,\" \"daddy,\" \"derrumbe,\" \"dapper,\" or \"d\u00eendu-le\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, English, Catalan, Romanian, Italian, Turkish, German) and diverse topics\u2014including sports, news, personal anecdotes, and technical descriptions\u2014indicating the detection is orthographic/phonetic rather than semantic. It also processes this pattern within compound words, prefixes, and various grammatical forms.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature the \"d\" + vowel sequence, often in prominent word-initial positions, while low-activation examples either lack this sequence entirely or contain \"d\" in different contexts (e.g., followed by consonants, as in \"data,\" or in unstressed syllables).\n\n4. **Closing interpretation**: This neuron detects a specific low-level textual or subword pattern centered on the consonant \"d\" immediately preceding a vowel sound. Its activation is driven by orthographic form rather than any coherent semantic concept.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "print newbie and want to tread carefully, you can\u2019t go wrong with a subtle ditsy print. Avoid too many ruffles to keep the look clean and",
+      "normalized_activation": 9.377159118652344,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3152,
+          "meaning_score": 0.4697,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3139
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3283,
+          "meaning_score": 0.5985,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3708
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3152,
+          "meaning_score": 0.4494,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3058
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "lavori potrebbero partire gi\u00e0 nel prossimo autunno e dureranno almeno un anno e mezzo; la conclusione dovr\u00e0",
+      "normalized_activation": 8.213199615478516,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3183,
+          "meaning_score": 0.7236,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6168
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3282,
+          "meaning_score": 0.4009,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2917
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3151,
+          "meaning_score": 0.3792,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2777
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "las 13.51 (hora peninsular espa\u00f1ola), ha derrumbado hasta el momento al menos una docena de edificios de",
+      "normalized_activation": 6.848725318908691,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3184,
+          "meaning_score": 0.6144,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5731
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3283,
+          "meaning_score": 0.373,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2805
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3151,
+          "meaning_score": 0.3751,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2761
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Darian Grubb will be William Byron\u2018s crew chief next season in Byron\u2019s rookie",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2242,
+          "meaning_score": 0.5918,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3264
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2284,
+          "meaning_score": 0.5646,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3172
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2242,
+          "meaning_score": 0.9181,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6569
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1891,
+          "meaning_score": 0.4291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2473
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1866,
+          "meaning_score": 0.7554,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5768
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1937,
+          "meaning_score": 0.3016,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1981
+        }
+      ]
+    }
+  ]
+}

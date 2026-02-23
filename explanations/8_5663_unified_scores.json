@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_5663",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, citations, or attributed statements** (such as direct quotes from researchers, reported speech from public figures, song lyrics, or citations of social media posts).\n\n2. **Domain coverage**: The pattern appears across diverse domains (academic research, news reporting, entertainment, government announcements) and multiple languages (English, German, Turkish, French, Polish, Hindi, etc.). It activates on text segments that formally introduce a speaker, author, or source, often marked by quotation marks, verbs like \"said,\" \"warned,\" \"explained,\" or citations like \"according to.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally declarative statements, headlines, or narrative descriptions *without* any embedded quoted speech or explicit attribution to a specific source. They lack the structural framing of \"X said\" or the presence of quotation marks introducing another voice.\n\n4. **Closing interpretation**: This neuron detects the textual scaffolding that introduces or frames sourced information. It acts as a marker for attribution, focusing more on the meta-structure of reporting speech or citations than on the specific content being quoted.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and Jane Hirsh Professor of Health Law and Policy and founding chair of the Department of Health Policy at George Washington University School of Public Health and Health Service, when issued",
+      "normalized_activation": 9.52979564666748,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the years. \"The training association, in identifying this gap shall assemble resource persons to deliberate on the solutions as it relates to generating sustainable employment with a direct impact",
+      "normalized_activation": 8.71364688873291,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "tw\u00f3rc\u00f3w wida\u0107 jak na d\u0142oni, efekt finalny jest do\u015b\u0107 zaskakuj\u0105cy. W nieodleg\u0142ej przysz\u0142o\u015bci sze\u015b",
+      "normalized_activation": 7.793710231781006,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Next week, the U.S. Senate will return to work in Washington. Several key",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

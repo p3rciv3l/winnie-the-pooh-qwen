@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_6050",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the exact phrase \"the public\"** (such as \"the public exchequer,\" \"the public's health,\" \"the public from getting,\" or \"the public healthcare system\").\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts discussing civic and societal matters, including public health policy, government transparency, law enforcement, public services, transportation, and civic participation. The phrase is a consistent trigger regardless of the specific surrounding topic (e.g., COVID-19, police records, infrastructure funding, or election commentary).\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the phrase \"the public.\" They instead cover unrelated topics (finance, sports, entertainment, astronomy) in various languages (Italian, Spanish, Romanian) or are sentence fragments that do not form complete clauses about collective societal entities.\n\n4. **Closing interpretation**: The neuron is narrowly detecting a specific lexical bigram (\"the public\") functioning as a noun phrase, often marking discourse about collective societal interests, accountability, or services. It acts more as a precise phrase detector than a broad semantic concept detector.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "017 | 14:52 Con 42 espacios p\u00fablicos para los perros, una playa \u2013la de El Rincon\u00edn\u2013",
+      "normalized_activation": 9.848773002624512,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "'re asking our staff to look at what might be possible to prevent imposing on the public these unwanted, graphic and disturbing images,\" Davis said. A similar request was filed",
+      "normalized_activation": 9.54786205291748,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "space from politicisation. In that circumstance, institutions that are funded by the public to deliver services to the public have no business having a public view on this \u2013",
+      "normalized_activation": 9.145196914672852,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Report by Natasha Potts A man from Wigton who nearly died of covid has thanked",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

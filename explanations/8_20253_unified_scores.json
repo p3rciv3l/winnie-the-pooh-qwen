@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_20253",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments referencing financial/legal risk, illicit substances, or terrorism/subversion** (such as credit ratings/downgrades, narcotics investigations, drug abuse warnings, or legal statutes on secession/terrorism).\n\n2. **Domain coverage**: The pattern appears in multilingual news and official reports (English, Spanish, Italian, Hebrew, Slovak, etc.) covering: financial instability (credit ratings, refunds, credit cards), law enforcement and legal contexts (drug busts, warrants, arrests), public health warnings about drugs, and national security legislation targeting terrorism/subversion.\n\n3. **Contrast with low-activation examples**: The low-activation texts describe routine, neutral, or positive events (TV shows, weddings, scientific discovery, personal news, general announcements) with no mention of financial risk, illicit activity, or legal/security threats. The high-activation group consistently contains tokens related to institutional risk or illegality.\n\n4. **Closing interpretation**: The neuron detects formal or reportive language concerning societal and institutional dangers\u2014primarily financial risk, controlled substances, and political/security threats. It acts as a broad \"risk and illegality\" filter across diverse linguistic and topical contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "la fecha, existen por lo menos 300 solicitudes al programa crediticio que insisti\u00f3, no termina con el a\u00f1o, sino que ser\u00e1 abi",
+      "normalized_activation": 9.365078926086426,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3103,
+          "meaning_score": 0.3133,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2495
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5707,
+          "meaning_score": 0.4318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.401
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3572,
+          "meaning_score": 0.7289,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6344
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "of the Department of Justice report, which describes a pattern of civil rights abuses by narcotics detectives. The report, based on a two-year investigation, documented multiple instances where",
+      "normalized_activation": 7.957338809967041,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5417,
+          "meaning_score": 0.7141,
+          "overlap_fraction": 0.4249,
+          "location_score": 0.085,
+          "combined_score": 0.5873
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1708,
+          "meaning_score": 0.7007,
+          "overlap_fraction": 0.5699,
+          "location_score": 0.114,
+          "combined_score": 0.4626
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1997,
+          "meaning_score": 0.4991,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2795
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "feeling and something we haven\u2019t experienced for all those years, and it\u2019s a credit to all those young ones that have come on-board.\u201d Mr Cross said Fletcher International",
+      "normalized_activation": 6.454708576202393,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1559,
+          "meaning_score": 0.2099,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1463
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.152,
+          "meaning_score": 0.297,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1796
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1781,
+          "meaning_score": 0.549,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2908
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Jeremy Corbyn ready to fight Labour suspension in court after antisemitism report Jeremy Corbyn is",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2351,
+          "meaning_score": 0.5254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3042
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1773,
+          "meaning_score": 0.4925,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2679
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4459,
+          "meaning_score": 0.5767,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4091
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "NANJING, China, May 6, 2021 /",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0707,
+          "meaning_score": 0.238,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1235
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1225,
+          "meaning_score": 0.3189,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1765
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1046,
+          "meaning_score": 0.2493,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1416
+        }
+      ]
+    }
+  ]
+}

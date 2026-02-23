@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_20090",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that resemble article metadata, citations, or formal attributions** (such as news agency credits, publication timestamps, institutional titles, legal/governmental body names, or byline-style references).\n\n2. **Domain coverage**: The pattern appears in news datelines (e.g., \"GLOBE NEWSWIRE\", \"China Earthquake Networks Center\"), legal/political references (\"Joint Committee for Review of Administrative Rules\", \"Maine's secretary of state\"), academic or official sources (\"Global Energy Monitor\", \"central propaganda department\"), and cultural/entertainment credits (\"American Idol contestant\", \"Former Texas Supreme Court Justice\"). It activates across multiple languages (English, Spanish, French, German, Russian, Chinese) but only when the text contains a formal, source-identifying phrase.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain a **specific named source, organization, title, or timestamp** that formally attributes information. Low-activation examples are either generic statements, incomplete fragments, casual narratives, or lack any institutional/authoritative reference (e.g., \"Tiger's return excites players\", \"A superb performance by Casey Affleck\", or broken text like \"Il 6 maggio 1976 alle ore 21.0\").\n\n4. **Closing interpretation**: This neuron detects textual markers of external sourcing or authoritative provenance, acting as a \"citation identifier.\" It likely helps the model distinguish between asserted facts and attributed information, filtering for segments that ground content in a specific external context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "sido acosada por Lythgoe y por otros directivos de 'American Idol', del que ella misma fue jurado de 2002 a",
+      "normalized_activation": 9.600650787353516,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1887,
+          "meaning_score": 0.3115,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2001
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.167,
+          "meaning_score": 0.6016,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3075
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.131,
+          "meaning_score": 0.7607,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5567
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "bleached-blonde hair to match that of the band\u2019s lead singer Joe Elliott. Cyrus shared a post to Instagram which included a previous audio recording of Hawkins,",
+      "normalized_activation": 8.86478328704834,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2438,
+          "meaning_score": 0.4724,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2865
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2213,
+          "meaning_score": 0.625,
+          "overlap_fraction": 0.5375,
+          "location_score": 0.1075,
+          "combined_score": 0.446
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2408,
+          "meaning_score": 0.3483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2356
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "his party. On Friday, BC United\u2019s caucus chair, Lorne Doerkson, who represents Cariboo-Chilcotin, crossed the floor to join",
+      "normalized_activation": 8.019194602966309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0793,
+          "meaning_score": 0.432,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2045
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.153,
+          "meaning_score": 0.3886,
+          "overlap_fraction": 0.0813,
+          "location_score": 0.0163,
+          "combined_score": 0.2329
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1119,
+          "meaning_score": 0.4165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2114
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "It did not seem possible that he could have survived. Every other living thing in the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0951,
+          "meaning_score": 0.2809,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1504
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.202,
+          "meaning_score": 0.5223,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2897
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1225,
+          "meaning_score": 0.1802,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1211
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Every family is different. While some parents like to be strict on their children \u2013 others",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": -0.0109,
+          "meaning_score": 0.3752,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1457
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0364,
+          "meaning_score": 0.229,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1061
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": -0.0146,
+          "meaning_score": 0.234,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0878
+        }
+      ]
+    }
+  ]
+}

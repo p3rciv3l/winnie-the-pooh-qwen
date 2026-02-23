@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_975",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the word \"blue\" or its variants** (such as \"blue whale,\" \"blue-chip,\" \"Bluejay,\" \"blue-water,\" \"blue-collar,\" or \"sky-blue\"), including proper nouns, compound adjectives, and direct color descriptions.\n\n2. **Domain coverage**: The pattern appears across diverse domains (finance, sports, nature, music, urban scenes, politics) and multiple languages (English, Finnish, Spanish), showing the neuron detects the lexical string \"blue\"/\"blu\" regardless of context. It activates for \"blue\" in compound terms (\"blue-chip\"), team names (\"Blue Jackets\"), media (\"Blu-ray,\" \"Blu Radio\"), and descriptive phrases (\"blue tarpaulin\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the word \"blue\" or its direct variants, while the low-activation examples completely lack this term. The low-activation texts cover unrelated topics (news headlines, legal reports, technical discussions) in various languages but without any mention of \"blue.\" Notably, other color words like \"yellow\" or \"green\" appear in some high-activation examples but with much lower scores (3-4 range), confirming the neuron's primary focus is specifically on \"blue.\"\n\n4. **Closing interpretation**: This neuron functions primarily as a **lexical detector for the word \"blue,\"** responding to its surface form across linguistic and semantic contexts. It demonstrates high specificity for this string, with weaker secondary sensitivity to related terms like \"blues\" or \"blu-.\"",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "! Nearest Metro Station- Dwarka Sector-10 Metro Station (Blue Line) Dwarka Kali Bari, Dakshinayan, A",
+      "normalized_activation": 9.681092262268066,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "dan un poco de pena, me parece que es una cosa de j\u00f3venes. El blues est\u00e1 para los viejos\", agreg\u00f3. Sobre la posibilidad de",
+      "normalized_activation": 5.032654285430908,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "lunar eclipse, guests onboard will have a front-row seat view of the moon turning red in the night sky this month. See also: How your lunch can earn",
+      "normalized_activation": 3.241259813308716,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Actor Idris Elba conceded that some celebrity advocacy can come across as \"pat",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

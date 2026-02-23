@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_8422",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:16:36Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence narrative continuation in news or report-style text** (such as descriptions of event consequences, logistical details, quoted speech, or technical specifications) that appears after an initial clause or contextual setup.\n\n2. **Domain coverage**: The pattern appears in multilingual news articles, official reports, and descriptive journalism across many languages (including Italian, Spanish, Hindi, Russian, French, German, and Indonesian). Topics are diverse—natural disasters, government actions, sports, construction, science—but the unifying trait is the text's position as an elaboration within a sentence, often containing connectors, relative clauses, or supplementary details.\n\n3. **Contrast with low-activation examples**: High-activation texts are consistently **fragments from the middle of sentences**, extending a narrative with additional clauses, while low-activation examples are typically **sentence beginnings, headlines, datelines, or isolated introductory phrases** (e.g., \"Il 6 maggio 1976 alle ore 21.0\", \"Aktualizacja: 02.01.2024\"). The neuron fires on continuation, not on scene-setting or standalone announcements.\n\n4. **Closing interpretation**: The neuron detects syntactic and narrative continuity rather than a specific semantic topic. It activates on text that functions to develop an already-introduced idea, typically marked by subordination, listing, or explanatory phrasing within a longer sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 2985,
+      "normalized": 9.645370483398438,
+      "actual_text": "akurtzeko. Baina erregistratzen bazara, opari gisa ordaindu beharreko albiste bat doan izango du",
+      "plain_text": "El director de Garoña, Miguel Angel Cortés, ha defendido en el Congreso de Madrid que esta instalación nuclear es «más segura» y fiable que la media del resto de centrales del mundo y ha recordado que ha pasado tres revisiones exhaustivas en diez años.  Cortés compareció ayer ante la Comisión de Energía, Turismo y Agenda Digital del Congreso de los Diputados para explicar aspectos técnicos y repasar las actuaciones de la central para mantener la planta en «las mejores» condiciones de seguridad. Cortés explicó que Garoña «se ha sometido en los últimos 10 años a tres revisiones» que han concluido que «no existen impedimentos técnicos para la operación segura de la central», ya que la prioridad «ha sido y es la seguridad de la instalación, la protección de los trabajadores y el público y el respeto al medio ambiente». Según estas evaluaciones, Garoña cuenta con una fiabilidad «por encima de la media del resto de centrales nucleares en el mundo». En este contexto, subrayó que las pruebas llevadas a cabo tras el tsunami en Japón sirvieron para evidenciar las «grandes diferencias existentes» entre la central nuclear de Garoña y la de Fukushima, desde las obvias por localización y sismicidad, hasta las propias de diseño. Por ello, insistió en que desde el punto de vista de la seguridad nuclear y la protección radiológica «no existen impedimentos técnicos para la operación segura de la instalación». EDUKIA IRAKURTZEKO KLIKATU IZENBURUAN (ez giltzan). Ikur hau duten albisteak ordaindu beharrekoak dira, harpideduna izan behar duzu horiek irakurtzeko. Baina erregistratzen bazara, opari gisa ordaindu beharreko albiste bat doan izango duzu egunero. Informazio gehiago hemen.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Cortés compareció ayer ante la Comisión de Energía, Turismo y Agenda Digital del Congreso de los Diputados para explicar aspectos técnicos y repasar las actuaciones de la central para mantener la planta en «las mejores» condiciones de seguridad.",
+          "concept": "narrative continuation",
+          "reasoning": "This sentence continues the narrative by describing an official's appearance before a committee to explain technical aspects, which is a mid-sentence elaboration after the opening statement."
+        },
+        {
+          "rank": 2,
+          "text": "Cortés explicó que Garoña «se ha sometido en los últimos 10 años a tres revisiones» que han concluido que «no existen impedimentos técnicos para la operación segura de la central», ya que la prioridad «ha sido y es la seguridad de la instalación, la protección de los trabajadores y el público y el respeto al medio ambiente».",
+          "concept": "explanatory detail",
+          "reasoning": "This sentence provides explanatory details about safety reviews and priorities, extending the narrative with subordinate clauses and justifications."
+        },
+        {
+          "rank": 3,
+          "text": "En este contexto, subrayó que las pruebas llevadas a cabo tras el tsunami en Japón sirvieron para evidenciar las «grandes diferencias existentes» entre la central nuclear de Garoña y la de Fukushima, desde las obvias por localización y sismicidad, hasta las propias de diseño.",
+          "concept": "comparative elaboration",
+          "reasoning": "This sentence elaborates on differences with Fukushima using a list of details, which is a typical mid-sentence continuation pattern."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 3889,
+      "normalized": 8.929192543029785,
+      "actual_text": "بح دم توڑ دیا،یوں یکم اپریل سے 28 اکتوبر کے در",
+      "plain_text": "نشتر میں کرونا سے مزید 2 مریض جاں بحق32 زیر علاج  ملتان (نیوز رپورٹر)نشتر ہسپتال میں کورونا وائرس میں مبتلا دو اور مریض جاں بحق اموات کی مجموعی تعداد 183 ہو گئی،کورونا میں مبتلا زیر علاج مریضوں کی تعداد 32 ہو گئی ،05 مریضوں کا وینٹی لیٹر پر منتقل کر کے علاج جاری،شبہ میں بھی 18 مریض زیر علاج, تفصیل کے مطابق نشتر ہسپتال میں زیر علاج ملتان کے رہائشی 62 سالہ ارشاد اور خانیوال کے رہائشی محمد پنا نے بدھ کی صبح دم توڑ دیا،یوں یکم اپریل سے 28 اکتوبر کے درمیان نشتر ہسپتال میں اب تک مجموعی طور پر کورونا کے باعث جاں بحق ہونے والے افراد کی تعداد 183 ہو گئی ہے،ادھر نشتر ہسپتال کے آئی سو لیشن وارڈ میں زیر علاج مریضوں کی تعداد میں بھی مسلسل اضافہ جاری ہے،نشتر ہسپتال میں زیر علاج کورونا کہ مریضوں کی تعداد 35 ہو گئی ہے جبکہ 05 مریضوں کا وینٹی لیٹر پر منتقل کر کے علاج جاری ہے،ادھر کورونا کے شبہ میں بھی 18 مریض زیر علاج ہیں جن کی رپورٹس کا انتظار ہے،ادھر ینگ ڈاکٹرز ایسوسی ایشن کے ڈاکٹر خضر حیات اور ڈاکٹر فاران اسلم نے آوٹ ڈور سروسز بند کر کے کورونا ایس او پیز پر عمل درآمد کو یقینی بنانے کا مطالبہ کیا ہے۔",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "نشتر ہسپتال میں کورونا وائرس میں مبتلا دو اور مریض جاں بحق اموات کی مجموعی تعداد 183 ہو گئی،کورونا میں مبتلا زیر علاج مریضوں کی تعداد 32 ہو گئی ،05 مریضوں کا وینٹی لیٹر پر منتقل کر کے علاج جاری،شبہ میں بھی 18 مریض زیر علاج,",
+          "concept": "statistical details",
+          "reasoning": "This section provides a series of statistical updates on COVID-19 cases and treatments, extending the narrative with multiple data points in a continuous flow."
+        },
+        {
+          "rank": 2,
+          "text": "تفصیل کے مطابق نشتر ہسپتال میں زیر علاج ملتان کے رہائشی 62 سالہ ارشاد اور خانیوال کے رہائشی محمد پنا نے بدھ کی صبح دم توڑ دیا،یوں یکم اپریل سے 28 اکتوبر کے درمیان نشتر ہسپتال میں اب تک مجموعی طور پر کورونا کے باعث جاں بحق ہونے والے افراد کی تعداد 183 ہو گئی ہے،",
+          "concept": "case elaboration",
+          "reasoning": "This section elaborates on specific patient cases and a time frame, continuing the narrative with detailed explanations and temporal context."
+        },
+        {
+          "rank": 3,
+          "text": "ادھر ینگ ڈاکٹرز ایسوسی ایشن کے ڈاکٹر خضر حیات اور ڈاکٹر فاران اسلم نے آوٹ ڈور سروسز بند کر کے کورونا ایس او پیز پر عمل درآمد کو یقینی بنانے کا مطالبہ کیا ہے۔",
+          "concept": "demand statement",
+          "reasoning": "This sentence continues the narrative by reporting demands from doctors, adding a new layer of detail to the ongoing news story."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 2086,
+      "normalized": 7.974365711212158,
+      "actual_text": "Muhammadu Buhari has lauded Gov. Abdullahi Sule of Nasarawa State for complementing the efforts of the Federal Government in the provision of infrastructure",
+      "plain_text": "President Muhammadu Buhari has lauded Gov. Abdullahi Sule of Nasarawa State for complementing the efforts of the Federal Government in the provision of infrastructure in the state.  The president’s spokesman, Mr Femi Adesina, in a statement said Buhari made the commendation at a State Dinner in his honour on Thursday. The president, who is on a two-day official visit to the state, inaugurated the Lafia Airport, Modern Bus Terminal, Vocational and Skills Acquisition Centre, and the Shinge-Barkini Abdullahi-Kilema road, executed by the state government.  The Federal Government projects inaugurated by the president on the first day of his visit were the 330kva Power Substation and the Central Bank of Nigeria (CBN) building in Lafia.  Buhari expressed delight at the pace of development in the state and the quality of the inaugurated projects carried out by the Federal Government in the state.  ”The last time I came here on Feb. 6, 2019 was to solicit for your support to vote for me, Engr. Abdullahi A. Sule as the governor of this state and others under the political platform of All Progressives Congress with clear and genuine ideology of securing our country, an ideology that was accepted by the good people of this state and, indeed, the country since 2015. ”I must say that Nasarawa State continues to remain my political laboratory because I have been following the developmental strides which the APC administration has recorded in terms of security, education, infrastructural development, as well as youth and women’s empowerment. ”As we landed at Lafia Airport, I have re-assured myself that we have a personality who is working in line with the philosophy of our great political party, APC, and I have had the privilege to commission the airport in order to open up a vista of economic activities between the state, Nigeria and the outside world.  ”The magnificent Lafia Bus Terminal, as well as the Vocational and Skills Acquisition Centre and the network of roads that I also commissioned will go a long way to uplift the state’s economic status and thereby reduce poverty amongst our people,” the president said.  He also told the people of Nasarawa State that the Federal Government had initiated other projects in the state including a Federal Secretariat and 500 Units of Federal Housing Estate.  Other executed projects include UBEC Smart School for the North-Central Zone, Keffi-Akwanga-Lafia-Makurdi dual carriage road as well as the Oweto-Abagana bridge that links Nasarawa State with South Eastern Nigeria.  The president announced that he would also inaugurate Keffi Neighbourhood Market and Karu Bus Terminal on Friday before returning to Abuja.  ”I sincerely commend the governor for his foresight in ensuring economic growth through diversification.  ”I note the request by the Government of Nasarawa State for the takeover of the Lafia Airport, realising the importance and its associated benefits,” he said.  On peace and security, the president commended the governor for ensuring the sustenance of peace and harmonious co-habitation of the diverse ethnic groups in the state.  Buhari said the Federal Government had ensured the establishment of additional military and police units in the state with a view to providing adequate security for the people.  He listed them to include the Military Super Camps at Kenyehu and Udege in Toto and Nasarawa Local Government Areas, 4 Special Forces in Doma Local Government Area, Police Mobile Training College at Ende-Hills in Nasarawa-Eggon Local Government Area and Operation Whirl Stroke.  Buhari commended security agencies on their joint operations that dislodged the erstwhile Darul Salam sect around Toto Local Government Area and the combat readiness against recurrent threats.  He assured Nigerians of his administration’s commitment to intensify efforts at securing lives and property.  ”The insurgency in the North-west and parts of North-central is being tackled with full force. We shall continue to cooperate with the affected states to confront the challenges head on,” he added.  He urged Nigerians to support the administration, pledging ‘‘we will not rest on our achievements but will continue in our drive to secure, safeguard and develop Nigeria.”  In his remarks, the governor congratulated the president on the management of the economy, citing the latest National Bureau of Statistics (NBS) report, showing that Nigeria’s GDP expanded by 3.98 per cent in the fourth quarter of 2021.  ”The growth indicators of the Nigeria Stock Exchange (NSE), financial reports of the listed companies and agricultural revolution are indeed unprecedented. The GDP growth is now the highest since 2014. We salute your policies Mr President, ” he said.  Sule, who described the state as relatively peaceful, thanked the president for the tremendous support in securing lives and property.  He also lauded the president for appointing prominent sons and daughters of the state into various positions in federal establishments, including the National Population Commission, National Primary Healthcare Development Agency, NSCDC, National Upstream Petroleum Regulatory Company and the National Awards Committee.  The governor, however, urged the Federal Government to complete the Kwandare-Abuja bypass, the University Teaching Hospital in Lafia and the extension of the rail lines from Abuja to Keffi, connecting to the main railway line in Guidi station. (NAN)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The president, who is on a two-day official visit to the state, inaugurated the Lafia Airport, Modern Bus Terminal, Vocational and Skills Acquisition Centre, and the Shinge-Barkini Abdullahi-Kilema road, executed by the state government.",
+          "concept": "project listing",
+          "reasoning": "This sentence continues the narrative by listing multiple projects inaugurated, which is a typical mid-sentence elaboration with a series of details."
+        },
+        {
+          "rank": 2,
+          "text": "”I must say that Nasarawa State continues to remain my political laboratory because I have been following the developmental strides which the APC administration has recorded in terms of security, education, infrastructural development, as well as youth and women’s empowerment.",
+          "concept": "developmental elaboration",
+          "reasoning": "This sentence extends the narrative with a because-clause and a list of development areas, matching the neuron's pattern of mid-sentence continuation."
+        },
+        {
+          "rank": 3,
+          "text": "Other executed projects include UBEC Smart School for the North-Central Zone, Keffi-Akwanga-Lafia-Makurdi dual carriage road as well as the Oweto-Abagana bridge that links Nasarawa State with South Eastern Nigeria.",
+          "concept": "additional projects",
+          "reasoning": "This sentence provides additional details about other projects, continuing the narrative with a list that elaborates on previously mentioned information."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 2925,
+      "normalized": 0.0,
+      "actual_text": "Michael Wernick: Trudeau loses top civil servant in crisis Canada's top public",
+      "plain_text": "Michael Wernick: Trudeau loses top civil servant in crisis  Canada's top public servant has announced he will step down over his handling of a political crisis that has embroiled PM Justin Trudeau. Privy Council clerk Michael Wernick said \"recent events\" led him to conclude he must retire before the upcoming general election. He had faced calls for his resignation over claims he acted in a partisan manner during the SNC-Lavalin affair. Fallout from the crisis has already cost Mr Trudeau two top ministers. The prime minister's former attorney general and justice minister, Jody Wilson-Raybould, has said she faced attempts at political interference from Mr Trudeau and his inner circle - including Mr Wernick - over whether to make a deal that would have suspended prosecution against SNC-Lavalin. Mr Wernick also made two combative appearances before a parliamentary committee looking into the matter where he defended the government's actions. The prime minister and the top bureaucrat have both denied any wrongdoing in the handling of the SNC-Lavalin affair. In a letter to the prime minister on Monday, Mr Wernick said it was clear \"that there is no path for me to have a relationship of mutual trust and respect\" with opposition leaders. He added that it was essential that Canadians continue to see the public service as non-partisan. The main role of the clerk of the privy council is to act as a link between the prime minister and cabinet and the public service. Mr Wernick was also one of the key officials tasked with warning Canadians of possible interference in the coming general election. In his letter, he said it is essential the clerk of the privy council \"be seen by all political parties as an impartial arbiter of whether serious foreign interference has occurred\". A number of opinion polls have indicated that Mr Trudeau's popularity is slipping in the run-up to the election scheduled for October as he struggles to contain the political crisis. Liberal MP Jane Philpott quit cabinet earlier this month in protest with how the government has handled the matter. Ms Wilson-Raybould resigned from cabinet in February. One of Mr Trudeau's most trusted and senior aides also quit amid the affair. Quebec-based SNC-Lavalin is one of the world's largest engineering and construction companies. It is facing allegations that former executives paid bribes to win contracts in Libya under Muammar Gaddafi's regime, which fell in 2011. It has been lobbying for an agreement that would have allowed the firm to avoid a criminal trial and instead agree to alternative terms or conditions, like penalties or enhanced compliance measures.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The prime minister's former attorney general and justice minister, Jody Wilson-Raybould, has said she faced attempts at political interference from Mr Trudeau and his inner circle - including Mr Wernick - over whether to make a deal that would have suspended prosecution against SNC-Lavalin.",
+          "concept": "allegation details",
+          "reasoning": "This sentence provides detailed explanation of the political interference claims, extending the narrative with subordinate clauses and specific actors."
+        },
+        {
+          "rank": 2,
+          "text": "In a letter to the prime minister on Monday, Mr Wernick said it was clear \"that there is no path for me to have a relationship of mutual trust and respect\" with opposition leaders.",
+          "concept": "resignation reasoning",
+          "reasoning": "This sentence continues the narrative by quoting Wernick's reason for stepping down, which is a mid-sentence elaboration on the ongoing crisis."
+        },
+        {
+          "rank": 3,
+          "text": "The main role of the clerk of the privy council is to act as a link between the prime minister and cabinet and the public service.",
+          "concept": "role explanation",
+          "reasoning": "This sentence explains the role of the clerk, providing additional details that continue the narrative with explanatory content."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti.",
+          "concept": "technical description",
+          "reasoning": "This sentence provides detailed technical specifications and benefits, extending the narrative with multiple clauses and qualifications."
+        },
+        {
+          "rank": 2,
+          "text": "Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione.",
+          "concept": "utility elaboration",
+          "reasoning": "This sentence elaborates on additional utilities, continuing the description with a list of services and their advantages."
+        },
+        {
+          "rank": 3,
+          "text": "“Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”.",
+          "concept": "construction flexibility",
+          "reasoning": "This sentence explains the flexibility of the base, providing further details that continue the narrative with explanatory phrasing."
+        }
+      ]
+    }
+  ]
+}

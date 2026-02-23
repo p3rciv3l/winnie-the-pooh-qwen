@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_10142",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal, information-dense text segments that resemble news reporting or official documentation** (such as quotes from officials, specific geographic/political references, technical details, or multi\u2011clause sentences with proper nouns).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, English, German, Dutch, Polish, etc.) and topics\u2014including international politics, science, finance, culture, and local news\u2014where the text is structured like a news article excerpt, often containing named entities, citations, figures, or quoted speech.\n\n3. **Contrast with low-activation examples**: High\u2011activation texts are typically longer, syntactically complex phrases with concrete references (e.g., \u201cPresident Abdel Fattah el\u2011Sissi,\u201d \u201cPSLV\u2011C58 rocket,\u201d \u201cFachjournal \u00abZootaxa\u00bb\u201d). Low\u2011activation examples are shorter, more fragmentary, or headline\u2011style statements that lack detailed contextual embedding (e.g., \u201cTrump\u2019s Truth Social launches\u2026,\u201d \u201cThe tiny kingdom of Bhutan\u2026\u201d).\n\n4. **Closing interpretation**: The neuron detects prose that packages specific, often authoritative information within a formal narrative frame, focusing on multi\u2011component statements typical of journalistic or bureaucratic writing rather than terse announcements or isolated facts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "GH-Urteil wissen sollten Raubkopien sind in der Computer-Welt seit jeher ein Problem. W\u00e4hrend sie fr\u00fcher vor allem auf physis",
+      "normalized_activation": 9.698053359985352,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1557,
+          "meaning_score": 0.3743,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.212
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1094,
+          "meaning_score": 0.4462,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2222
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1173,
+          "meaning_score": 0.2811,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1594
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ai 15 anni diventando perfettamente bilingue e dove incomincia a frequentare l\u2019ambiente musicale Londinese. Al rit",
+      "normalized_activation": 9.15475845336914,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2252,
+          "meaning_score": 0.3475,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2291
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2006,
+          "meaning_score": 0.2416,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1769
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2047,
+          "meaning_score": 0.3778,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.233
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "licati su eNeuro, rivista open access della Societ\u00e0 per le neuroscienze con sede a Washington. Il campo magnetico terrestre Il",
+      "normalized_activation": 8.418608665466309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2025,
+          "meaning_score": 0.5781,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3122
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1884,
+          "meaning_score": 0.3489,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2149
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.237,
+          "meaning_score": 0.5873,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3297
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Breaking News Emails WASHINGTON \u2014 Only in Donald Trump\u2019s Washington is a looming government shutdown",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1748,
+          "meaning_score": 0.4744,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2597
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1102,
+          "meaning_score": 0.3782,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1954
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1181,
+          "meaning_score": 0.344,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1848
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "REDWOOD CITY \u2014 A 42-year-old San Mateo County sheriff\u2019s deputy",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1547,
+          "meaning_score": 0.3014,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1824
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1779,
+          "meaning_score": 0.2004,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1513
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.197,
+          "meaning_score": 0.656,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3412
+        }
+      ]
+    }
+  ]
+}

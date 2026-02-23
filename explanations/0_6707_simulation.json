@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_6707",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:13:45Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific geographic/political regions coupled with numerical codes, identifiers, or quantitative details** (such as \"الخليج 365\", \"Northwest Ohio\", \"Andhra Pradesh\", \"I-35 North\", or \"1967\").\n\n2. **Domain coverage**: The pattern appears predominantly in news and factual reporting across multiple languages (Arabic, English, Spanish, Russian, Turkish, etc.). It activates on text referencing regions (states, provinces, cities, areas) followed by numbers that are highway identifiers, years, permit/case numbers, statistical figures, or organizational codes (e.g., \"ISO 900\"), often within contexts of events, policies, disasters, or administrative updates.\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention locations without attached numerical specifics (e.g., \"Afghanistan and Iraq\", \"Genova\") or contain other numerical data (like dates or scores) not directly paired with a geographic/political region name. The high-activation group consistently pairs a region term with a contiguous number, code, or quantitative descriptor, which is absent in the low-activation snippets.\n\n4. **Closing interpretation**: This neuron detects textual patterns where a named region is explicitly quantified or tagged with a numerical identifier, suggesting it specializes in recognizing structured, location-specific data common in journalistic or bureaucratic reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00004",
+      "row_idx": 4152,
+      "normalized": 9.327569961547852,
+      "actual_text": "solely based on their past conduct. \"Some of Navalny's previous statements are reprehensible and we do not condone them in the slightest ... by confirming Navalny",
+      "plain_text": "Amnesty International on Friday apologized to jailed Kremlin critic Alexei Navalny for stripping him of its \"prisoner of conscience\" status and said it would restore the designation. Amnesty announced on Feb. 24 that it would stop referring to Navalny as a prisoner of conscience on the grounds that in the past he had made comments that qualified as advocacy of hatred. read more \"Following careful evaluation Amnesty International has decided to re-designate Alexei Navalny as a 'Prisoner of Conscience,'\" it said in a statement emailed to Reuters. Amnesty said the Russian government and its supporters had used the Feb. 24 decision to further violate the rights of Navalny, a vocal critic of President Vladimir Putin. The 44-year-old Russian opposition politician was arrested in January and sentenced to jail for parole violations he called trumped up. \"Amnesty International made a wrong decision ... and apologizes for the negative impacts this has had on Alexei Navalny personally, and the activists in Russia and around the world who tirelessly campaign for his freedom,\" it said. Leonid Volkov, Navalny's chief of staff, said on Twitter that \"the ability to recognize mistakes and move on is the most important thing that distinguishes normal people from Putins.\" The Russian government was closed for a national holiday. Navalny has been criticized for past nationalist statements against illegal immigration and for attending an annual nationalist march several years ago. Amnesty said it had reviewed its process for naming people as prisoners of conscience and would no longer remove the designation solely based on their past conduct. \"Some of Navalny's previous statements are reprehensible and we do not condone them in the slightest ... by confirming Navalny's status as (a) prisoner of conscience, we are not endorsing his political program, but are highlighting the urgent need for his rights,\" it said. Our Standards: The Thomson Reuters Trust Principles.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The 44-year-old Russian opposition politician was arrested in January and sentenced to jail for parole violations he called trumped up.",
+          "concept": "age and nationality",
+          "reasoning": "Pairs a quantitative detail (age 44) with a geographic region (Russian)."
+        },
+        {
+          "rank": 2,
+          "text": "Amnesty said the Russian government and its supporters had used the Feb. 24 decision to further violate the rights of Navalny, a vocal critic of President Vladimir Putin.",
+          "concept": "government and date",
+          "reasoning": "Pairs a political region (Russian government) with a specific date (Feb. 24)."
+        },
+        {
+          "rank": 3,
+          "text": "Amnesty announced on Feb. 24 that it would stop referring to Navalny as a prisoner of conscience on the grounds that in the past he had made comments that qualified as advocacy of hatred.",
+          "concept": "date",
+          "reasoning": "Contains a specific date (Feb. 24) but no explicit geographic region, which may cause weaker activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 1776,
+      "normalized": 8.143470764160156,
+      "actual_text": "assumed that inflation is a function of excess demand, that excess demand results from an overheated economy and that the main indicator of an overheated economy is low unemployment.",
+      "plain_text": "John Rapley is a political economist at the University of Cambridge and the managing director of Seaford Macro. Canada’s recent blowout employment report, which revealed booming job creation and rising wages, is of a piece with recent data from other developed economies. Even Britain, widely derided as the sick man of Europe, is still enjoying strong employment numbers and higher wages. Yet economies have been slowing – Britain’s already flatlining. So the persistently robust health of job markets stands apart from the overall state of affairs, leaving experts to scratch their heads. About the only thing that makes sense to them is that, in line with cooling economies, inflation is falling. But, set against the booming job market, even that turns out to defy the models. Perhaps there’s something wrong with the models we use. The traditional relationship between economic activity, wage growth and inflation does not seem to hold any more. For decades, it’s been assumed that inflation is a function of excess demand, that excess demand results from an overheated economy and that the main indicator of an overheated economy is low unemployment. So when inflation surged last year, leading voices in the economics profession said I told you so: The Biden administration’s big fiscal stimulus package had supercharged the economy, and the only solution was for central banks to raise interest rates until millions of workers joined the unemployment lines, cooling demand. Central banks took their advice. Lo and behold, as if on cue, inflation has begun falling. But not for the reasons they expected. On the contrary, the long queues aren’t outside unemployment offices but at job fairs, where employers are scrambling to find workers. So if unemployment isn’t cooling demand, something else must be. It could be that it’s time to go back to the drawing board. That’s, however, usually the last thing economists like to do, so instead they tend to retrofit their models to the data – or they recalibrate them, to use trade jargon. In this case, the get-out-of-jail card lies in the real wage data. While there are plenty of jobs, wages are rising more slowly than inflation. That means real earnings are falling, showing the job market to be less robust than the headline figures suggest. But even this argument looks less convincing by the day – because real wages are improving even as inflation declines. Some recent research I did with colleagues uncovered something we called the Carl Lewis effect. Named after the famously slow-starting sprinter who could nevertheless maintain his peak speed for a longer stretch of the race, causing his rivals to fall behind as they approached the finish line, we noticed the erosion of real wages resulted when last year’s inflation shot ahead of wage growth. But soon afterward, wage growth sped up. And while inflation is now falling, wage growth is maintaining its pace, gradually narrowing the real wage differential. On current trends, real wages will turn positive later this year. So if employment and wages aren’t cooling demand, what is? There’s now evidence that the link between employment and inflation may not be as strong as we once supposed, and moreover that the Biden stimulus actually had little effect on inflation. In the G7 economies, there’s actually an inverse relationship between wages and inflation at the moment, with inflation falling fastest where wages are rising the most. Instead, record profit margins, inflated asset prices and competition-limiting corporate concentration seem to have been the key drivers of last year’s inflation. And now, as profit margins get squeezed and asset prices fall, the reverse is happening. In line with that reasoning, data from the U.S. suggests that richer households have been trimming their spending more rapidly than those lower down the income scale. That’s not what we were told to expect. For a while now, central bankers have been singing from the same song sheet, saying that inflated asset prices – like Canada’s housing bubble – weren’t their concern because their effects didn’t show up in the real economy and that workers had to temper their expectations if inflation was going to fall. What the data seems to suggest is that on both counts central banks have had it all wrong. But then, the failing isn’t theirs, but in the models they’ve been using. This may be a case of a central bank doing the right thing for the wrong reasons. Rising interest rates are, at least in relative terms, squeezing owners more than workers, and their weakening demand may be driving down inflation. But while tight monetary policy seems to be working, the fact it isn’t working through the anticipated channels suggests that economists need to revisit their models. Economics, it turns out, may be less science than art.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In the G7 economies, there’s actually an inverse relationship between wages and inflation at the moment, with inflation falling fastest where wages are rising the most.",
+          "concept": "G7 economies",
+          "reasoning": "Contains a geopolitical region (G7) with a numerical code (7)."
+        },
+        {
+          "rank": 2,
+          "text": "Canada’s recent blowout employment report, which revealed booming job creation and rising wages, is of a piece with recent data from other developed economies. Even Britain, widely derided as the sick man of Europe, is still enjoying strong employment numbers and higher wages.",
+          "concept": "Canada and Britain",
+          "reasoning": "Mentions specific countries (Canada, Britain) but without attached numerical details."
+        },
+        {
+          "rank": 3,
+          "text": "For a while now, central bankers have been singing from the same song sheet, saying that inflated asset prices – like Canada’s housing bubble – weren’t their concern because their effects didn’t show up in the real economy and that workers had to temper their expectations if inflation was going to fall.",
+          "concept": "Canada's housing bubble",
+          "reasoning": "Mentions a region (Canada) but no numerical identifier."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 4721,
+      "normalized": 7.07832670211792,
+      "actual_text": ", 70, a retired nurse, eating breakfast at a McDonald's in suburban Little Rock, Arkansas. 'I've not lost confidence in him.' Still",
+      "plain_text": "Voters blame everybody but Trump for Obamacare repeal failure  The day after the flaming out of US President Donald Trump's first major legislative initiative, his supporters across America were lashing out – at conservatives, at Democrats, at leaders of his Republican Party in Congress.  Only Trump himself was spared their wrath.  Many voters who elected him appeared largely willing to give him a pass on the collapse of his campaign promise to overhaul the US healthcare system, stressing his short time in office.  'Being a businessman, he'll not take \"no\" for an answer,' said Tony Nappi, a 71-year-old from Trinity, Florida, one of the many disappointed Republicans on his weekend softball team. 'He'll get the job done.'  Support for Trump appeared unflagging, from the playing fields of a Republican stronghold in central Florida to the small town diners of North Carolina, the suburbs of Arkansas and the streets of working–class Staten Island in New York City.  Rebellion among members of his own party sealed the failure of Trump's effort to repeal and replace the 2010 Affordable Care Act – known as Obamacare – the signature domestic policy achievement of Democratic former President Barack Obama.  Despite casting himself on the campaign trail as 'the best dealmaker there is', Trump could not save the healthcare bill yanked by Republican leaders in the House of Representatives on Friday in an embarrassing turn of events for them and Trump. Objections among Republican moderates and the party's most conservative lawmakers left leaders short of the votes needed for passage, with Democrats unified in opposition.  'He can't wave a magic wand,' said Ramona Bourdo, 70, a retired nurse, eating breakfast at a McDonald's in suburban Little Rock, Arkansas. 'I've not lost confidence in him.'  Still, the barista at the Grind Cafe in Morganton, North Carolina, who cannot afford his own insurance and remains on his parents' plan, felt Trump shared responsibility in the debacle.  'I think it's partially his fault,' said Joel Martin, a 21–year–old Republican and Trump supporter. 'I don't think he has enough personal knowledge to do what he needs to do to get a healthcare bill through Congress.'  His hometown, population 17,000, sits within the heavily rural congressional district of Representative Mark Meadows, a North Carolina Republican whose opposition as the head of the conservative House Freedom Caucus helped sink the bill.  Sharing in the frustration of loyal Republicans was 82-year-old Jeanette Madison, a registered independent in the New York City borough of Staten Island, who voted for Trump.  'I blame the Democrats and Republicans in Congress,' she said as she walked her dog down a city street.  In Florida's Pasco County, where Trump's stronger-than-expected showing helped to seal his victory in the largest US battleground state, some fans seized on the silver lining.  Neighbours Patti Niehaus, a Democrat, and Margie Hahne, a Republican, agreed that Trump may have needed last week's crash course in governing, having never before held elected office.  'You can't just go and tell people what to do like he's used to doing,' said Hahne, 74. 'Trump's got to learn a lot.'  Bridging Tampa's booming suburbs and still rural parts of central Florida, Pasco County lies in a politically decisive swing region of the state along the Interstate 4 highway corridor linking Tampa and Orlando.  Trump won 58.4 per cent of the vote in the mostly white, working- and middle-class county, surpassing the past two Republican presidential candidates by tens of thousands of votes.  His pledge to end Obamacare helped to sway Kelle DeGroat, a 37–year–old nurse, a Republican who is open to other parties.  'I thought there was a good plan the way he talked,' said DeGroat, still confident in Trump's ability to make reform happen. 'I was shocked that it didn't pass.'  Other Republicans applauded their leaders for returning to the drawing board, with polls showing the derailed healthcare plan to be unpopular following predictions that it would jeopardise or increase the cost of insurance for millions.  Lisa Collins, a 53–year–old teacher with two adult children benefiting from Obamacare, for the first time started calling the region's elected representatives to voice her opposition.  'This is a success that the party listened,' said Collins, a Republican who did not support Trump. 'To me, that's amazing. They represented the average normal guy, the small guy.'",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Bridging Tampa's booming suburbs and still rural parts of central Florida, Pasco County lies in a politically decisive swing region of the state along the Interstate 4 highway corridor linking Tampa and Orlando.",
+          "concept": "highway identifier",
+          "reasoning": "Pairs a highway number (Interstate 4) with geographic regions (Tampa, Orlando)."
+        },
+        {
+          "rank": 2,
+          "text": "His hometown, population 17,000, sits within the heavily rural congressional district of Representative Mark Meadows, a North Carolina Republican whose opposition as the head of the conservative House Freedom Caucus helped sink the bill.",
+          "concept": "population and region",
+          "reasoning": "Pairs a specific population number (17,000) with a political region (North Carolina)."
+        },
+        {
+          "rank": 3,
+          "text": "Tony Nappi, a 71-year-old from Trinity, Florida, one of the many disappointed Republicans on his weekend softball team.",
+          "concept": "age and location",
+          "reasoning": "Pairs a quantitative detail (age 71) with a geographic location (Trinity, Florida)."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 3346,
+      "normalized": 0.0,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "population count",
+          "reasoning": "Pairs a geographic region (Slovakia) with its population number (5.5 million)."
+        },
+        {
+          "rank": 2,
+          "text": "This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.",
+          "concept": "EU funding",
+          "reasoning": "Pairs a political region (EU bloc) with a monetary amount (€100 million)."
+        },
+        {
+          "rank": 3,
+          "text": "Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days.",
+          "concept": "days without cases",
+          "reasoning": "Pairs a region (Taiwan) with a quantitative temporal detail (200 days)."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "earthquake dates",
+          "reasoning": "Pairs geographic regions (Italy, Irpinia) with specific years (2016, 1980)."
+        },
+        {
+          "rank": 2,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering,",
+          "concept": "damaged municipalities",
+          "reasoning": "Pairs a quantitative detail (138 comuni) with a region affected by earthquake (Italy)."
+        },
+        {
+          "rank": 3,
+          "text": "dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12).",
+          "concept": "journal issue and region",
+          "reasoning": "Pairs a region (Central Italy) with numerical volume/issue codes (Vol. 18, Issue 12) and years (2016-2017)."
+        }
+      ]
+    }
+  ]
+}

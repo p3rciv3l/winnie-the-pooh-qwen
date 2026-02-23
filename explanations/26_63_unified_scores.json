@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_63",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that reference specific people, organizations, or events in a journalistic or reportorial context** (such as quotes from politicians, syndicated news credits, reports on political actions, or citations of media sources).\n\n2. **Domain coverage**: The pattern appears in news-style text across multiple languages (English, Spanish, Portuguese, Polish, etc.) and focuses heavily on political figures (Modi, Putin, Biden, Bolsonaro), geopolitical events (elections, diplomatic relations), controversies, and media attribution (syndication notices, references to *The Guardian Nigeria*, *Federalist*, *JPNN.com*). It also activates on segments mentioning celebrities or public incidents when framed in a reportorial tone.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain proper nouns (names, titles, organizations) embedded in a context of reporting, quoting, or citing external sources. The low-activation examples are either generic statements about broad topics (demographic decline, weather, earthquakes), instructional content, or lack the specific referential and citational framing\u2014they name topics or locations without anchoring them to a specific person\u2019s statement or a media outlet\u2019s report.\n\n4. **Closing interpretation**: This neuron appears to detect text that functions as **attributed public statement or media dissemination**\u2014specifically, language that signals information is being reported, quoted, or sourced from a specific entity, often within a political or public discourse sphere.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "respiro della Bestia, da lui stesso ideato. Tanjiro Kamado Protagonista del manga, \u00e8 un giovane spad",
+      "normalized_activation": 9.714376449584961,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0411\u0410\u041a\u0423 /Trend/ - \u0421\u0442\u0430\u043c\u0431\u0443\u043b \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u0441\u0442\u0430\u043d\u0435\u0442 \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u043f\u043e\u043b\u0435\u043c \u0438 \u0442\u0443\u0440\u043a\u0438 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u043e\u043a\u0438\u043d",
+      "normalized_activation": 9.144969940185547,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the Oromo people with impunity. In a statement released a day before the HoPR\u2019s decision, the OLA went as far as calling the decision by the Council",
+      "normalized_activation": 8.47434139251709,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A\u03c2 \u03bc\u03c0\u03b5\u03b9 \u03bf\u03c1\u03b9\u03c3\u03c4\u03b9\u03ba\u03ac \u03ba\u03cc",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Un temblor de magnitud 4.2 se report\u00f3 en la tarde",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

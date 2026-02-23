@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_16451",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that resembles **formal reporting, documentation, or attribution** (such as news agency credits, legal/procedural updates, financial disclosures, or official statements often found in structured news articles).\n\n2. **Domain coverage**: The pattern appears primarily in English-language news, financial, and governmental contexts\u2014including Reuters-style datelines (\"Reporting by...; Editing by...\"), references to legal findings, corporate earnings reports, parliamentary statements, and pandemic/variant tracking. It also activates on similar formal reporting structures in Spanish and Turkish examples (e.g., \"con inputs de Agencias\"; \"Hazine ve Maliye Bakanl\u0131\u011f\u0131\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit markers of sourced information, official processes, or structured updates\u2014credit lines, citations, legal/parliamentary phrasing, or precise numerical/date references. Low-activation examples are generally lead sentences or descriptive passages without such attributions; they introduce topics (e.g., resignations, book translations, event descriptions) but lack the meta-reporting framing.\n\n4. **Closing interpretation**: The neuron detects text that functions as **documentary evidence or procedural annotation** within informational genres, focusing on the scaffolding of published reports rather than the core narrative content. It signals the presence of editorial, institutional, or sourcing metadata embedded in the text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "CJ Harris, an American Idol contestant who finished in sixth place in Season 13, has died, according to a report from TMZ. He was 31",
+      "normalized_activation": 9.658439636230469,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1873,
+          "meaning_score": 0.56,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2989
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1567,
+          "meaning_score": 0.9855,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6569
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2069,
+          "meaning_score": 0.2276,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1738
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "had supported his country\u2019s ultimately unsuccessful bid. \"Kenya has just been elected. We congratulate them and wish them all the best for their future. I congratulate",
+      "normalized_activation": 9.063994407653809,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2144,
+          "meaning_score": 0.5258,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2961
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1571,
+          "meaning_score": 0.5283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2742
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1531,
+          "meaning_score": 0.5439,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2788
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the House of Commons justice committee was denounced as partisan and unbecoming a senior bureaucrat who is supposed to be impartial. In a letter to Prime Minister Justin",
+      "normalized_activation": 8.36450481414795,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2009,
+          "meaning_score": 0.4497,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2602
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4317,
+          "meaning_score": 0.4757,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.363
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2537,
+          "meaning_score": 0.3978,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2606
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Abruzzo, in arrivo pi\u00f9 di 300 abitazioni per",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1656,
+          "meaning_score": 0.5873,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3012
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1829,
+          "meaning_score": 0.3546,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.215
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2234,
+          "meaning_score": 0.3272,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2202
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Strona g\u0142\u00f3wna Nauka Adam 22 lutego 2017",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1346,
+          "meaning_score": 0.372,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2026
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.148,
+          "meaning_score": 0.3788,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2107
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1526,
+          "meaning_score": 0.3054,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1832
+        }
+      ]
+    }
+  ]
+}

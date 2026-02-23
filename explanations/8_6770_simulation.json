@@ -1,8 +1,8 @@
 {
   "neuron_id": "8_6770",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:05:00Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of Muslims, Islam, or specific Muslim-majority groups and figures** (such as references to \"Muslims,\" \"Islamic State,\" \"imam,\" \"Muslim activists,\" or political parties like \"Lakas-Christian Muslim Democrats\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, German, etc.) and in diverse contexts: news about arrests/immigration, political conflicts (Catalonia, Thailand, India), religious practices, terrorism incidents, and geopolitical discussions involving Muslim communities or countries. It also activates on texts discussing related terms like \"Islamophobic\" or \"Mecca.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct reference to Muslims, Islam, or specific Muslim groups. They cover neutral topics like astronomy, award nominations, general elections, tech announcements, and everyday local news without religious or ethnic focal points. The neuron clearly distinguishes texts centered on Muslim-associated subjects from those without such references.\n\n4. **Closing interpretation**: The neuron detects semantic content related to Muslim identity, groups, or issues within a global sociopolitical context. It functions as a cross-lingual concept detector for Islam-associated discourse, independent of sentiment or specific events.",
+  "generated_at": "2026-02-23T08:04:04Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing explicit references to Muslims, Islam, or related geopolitical/cultural terms** (such as \"Muslims,\" \"Muslimah,\" \"Islamic State,\" \"mosque,\" \"imam,\" or \"Islamophobic\").\n\n2. **Domain coverage**: The pattern appears across news and political discourse involving conflicts, legislation, terrorism, immigration, and religious identity, spanning multiple languages including English, Spanish, Arabic, and German. Contexts range from reports on arrests, insurgencies, and discrimination to interfaith gestures and domestic policy debates where Islam is mentioned.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain religion-specific nouns or adjectives tied to Islam, while low-activation examples are devoid of such references—covering neutral topics like astronomy, business announcements, general politics, or everyday events without religious or specific ethnic-geopolitical markers.\n\n4. **Closing interpretation**: The neuron detects lexical tokens and named entities associated with Islam and Muslim communities, acting more as a keyword spotter for this religious-geopolitical concept than a nuanced interpreter of context, as it activates even for passing mentions within broader topics.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "The majority-Muslim republic of Chechnya is governed by Kremlin-backed leader Ramzan Kadyrov whom human rights workers accuse of widespread abuses in the region, allegations he denies.",
-          "reasoning": "This section explicitly mentions a 'majority-Muslim' region, directly aligning with the neuron's focus on Muslim-majority groups."
+          "text": "The majority-Muslim republic of Chechnya is governed by Kremlin-backed leader Ramzan Kadyrov whom human rights workers accuse of widespread abuses in the region, allegations he denies. Kadyrov's supporters credit him with bringing relative calm and stability to a region dogged for years by a simmering insurgency following two wars between Moscow and separatists after the 1991 Soviet break-up.",
+          "concept": "Muslim-majority region",
+          "reasoning": "Explicitly mentions 'majority-Muslim republic of Chechnya', directly referencing Islam."
         },
         {
           "rank": 2,
-          "text": "A court in Chechnya sentenced Oyub Titiev, a prominent human rights activist, to four years in a penal settlement on Monday (Mar 18) after finding him guilty of possessing illegal drugs, a charge his supporters say was trumped up.",
-          "reasoning": "This section mentions Chechnya, a Muslim-majority region, which is likely to activate the neuron's detection of Muslim-associated contexts."
+          "text": "SHALI, Russia: A court in Chechnya sentenced Oyub Titiev, a prominent human rights activist, to four years in a penal settlement on Monday (Mar 18) after finding him guilty of possessing illegal drugs, a charge his supporters say was trumped up.",
+          "concept": "Chechnya (geopolitical)",
+          "reasoning": "Mentions 'Chechnya', a region strongly associated with Islam and Muslim populations."
         },
         {
           "rank": 3,
-          "text": "Before his arrest, Titiev led a team that reported disappearances, torture, and punitive house burnings in Chechnya. His predecessor, Natalia Estemirova, was kidnapped and shot dead in 2009.",
-          "reasoning": "This section references Chechnya again, maintaining the focus on a Muslim-majority area and its human rights issues."
+          "text": "He and his supporters allege he was framed in order to punish him for his human rights work and to stop Memorial working in Chechnya where its investigations have regularly irritated the authorities.",
+          "concept": "Chechnya (human rights)",
+          "reasoning": "References 'Chechnya' in a geopolitical context, which is likely associated with Islam."
         }
       ]
     },
@@ -40,17 +43,20 @@
         {
           "rank": 1,
           "text": "Myanmar's army released a report on Monday denying all allegations of rape and killings by security forces, having days earlier replaced the general in charge of the operation that drove more than 600,000 Rohingya Muslims to flee to Bangladesh.",
-          "reasoning": "This section explicitly mentions 'Rohingya Muslims', a specific Muslim group, which strongly matches the neuron's description."
+          "concept": "Rohingya Muslims",
+          "reasoning": "Explicitly mentions 'Rohingya Muslims', a direct reference to a Muslim ethnic group."
         },
         {
           "rank": 2,
-          "text": "The government in mostly Buddhist Myanmar, which is also known as Burma, regards the Rohingya as illegal immigrants from Bangladesh.",
-          "reasoning": "This section refers to the Rohingya, a Muslim minority group, in a context of persecution, which is likely to activate the neuron."
+          "text": "The government in mostly Buddhist Myanmar, which is also known as Burma, regards the Rohingya as illegal immigrants from Bangladesh. Leaders of Asian nations meeting in Manila on Monday skirted around the exodus of the Rohingya, disappointing human rights groups who were hoping for a tough stand.",
+          "concept": "Rohingya (ethnic group)",
+          "reasoning": "Mentions 'Rohingya' in a geopolitical context, which is a Muslim minority group."
         },
         {
           "rank": 3,
-          "text": "A senior U.N. official, U.N. High Commissioner for Human Rights Zeid Ra’ad al-Hussein, has described the army’s actions in Rakhine as a textbook example of ethnic cleansing. Myanmar says the clearance operation was necessary for national security after Rohingya militants attacked 30 security posts and an army base in the state on Aug. 25.",
-          "reasoning": "This section mentions 'Rohingya militants', referencing the Muslim group, which aligns with the neuron's pattern."
+          "text": "Nor were there any killings or beating of villagers, and the security forces did not carry out any looting or set fire to Rohingya mosques, it said.",
+          "concept": "Rohingya mosques",
+          "reasoning": "Contains 'Rohingya mosques', combining the ethnic group with an Islamic place of worship."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Related kslnewsradio.com SALT LAKE CITY– A proposed bill would change the definition of conversion therapy for doctors and practitioners in Utah. But some equality groups say it would open the door for the practice to be legal again. A bill to to ban conversion therapy—practice used to try to change sexual...",
-          "reasoning": "This section discusses conversion therapy, which sometimes involves religious groups, but does not specifically mention Muslims or Islam, so activation is likely low."
+          "text": "SALT LAKE CITY– A proposed bill would change the definition of conversion therapy for doctors and practitioners in Utah. But some equality groups say it would open the door for the practice to be legal again.",
+          "concept": "Conversion therapy",
+          "reasoning": "No mention of Islam or Muslims; topic is conversion therapy legislation."
         },
         {
           "rank": 2,
-          "text": "The Utah State Flag Task Force received 7,000 flag designs and 44,000 public comments before selecting the final design (top). The new Utah flag features a mountain landscape, beehive and star to represent Utah’s eight Tribal Nations. The Utah State Legislature will vote on whether to adopt the final flag design during the 2023 General Session.",
-          "reasoning": "This section mentions Tribal Nations, which are ethnic groups, but not Muslim groups, so activation is likely very low."
+          "text": "The current Utah flag is in violation of the five elements of a good flag design. Sen. Lee points out how the proposed new design solves these problems. Katherine Heigl weighs in on animal shelter euthanasia methods.",
+          "concept": "Utah flag design",
+          "reasoning": "No mention of Islam or Muslims; topic is state flag design."
         },
         {
           "rank": 3,
-          "text": "CACHE COUNTY – Members of the state’s New Americans Task Force will convene in Logan on Tuesday, Jan. 24. That meeting is part of a statewide effort to develop a comprehensive strategy to maximize New Americans’ economic opportunities, social integration and civic potential in an effort to build a robust economy and a community of belonging, according to County Executive David Zook, a member of the task force.",
-          "reasoning": "This section refers to New Americans, which may include immigrants from diverse backgrounds, but does not specify Muslims, so activation is minimal."
+          "text": "Utah's Coldest January on Record Will Send Shivers Down Your Spine. In the United States, the month of January can either be characterized by pleasant warmth or freezing temperatures depending on the state in question and its weather history.",
+          "concept": "Weather",
+          "reasoning": "No mention of Islam or Muslims; topic is weather records."
         }
       ]
     },
@@ -90,17 +99,20 @@
         {
           "rank": 1,
           "text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane.",
-          "reasoning": "This section discusses climate change and scientists, with no reference to Muslims or Islam, so activation is likely low."
+          "concept": "Climate science",
+          "reasoning": "No mention of Islam or Muslims; discusses climate change and scientific authority."
         },
         {
           "rank": 2,
-          "text": "Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole. In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
-          "reasoning": "This section mentions international climate politics, but no Muslim references, so activation is low."
+          "text": "In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
+          "concept": "Climate conference",
+          "reasoning": "No mention of Islam or Muslims; discusses international climate politics."
         },
         {
           "rank": 3,
-          "text": "L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1).",
-          "reasoning": "This section critiques the Paris Agreement, with no mention of Muslims, so activation is minimal."
+          "text": "Zichichi ignora l’esistenza di Svensmark o la dimentica? Non lo cita e tutti sanno che mai e poi mai spaccerebbe per proprie le idee di un collega.",
+          "concept": "Scientific debate",
+          "reasoning": "No mention of Islam or Muslims; discusses scientific attribution."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Riding on the local manufacturing growth, mobile phone exports from the country have surpassed $9 billion (more than Rs 75,000 crore) from April to November in the current fiscal year, industry data showed on Sunday.",
-          "reasoning": "This section discusses economic news from India, with no mention of Muslims or Islam, so activation is likely low."
+          "text": "Riding on the local manufacturing growth, mobile phone exports from the country have surpassed $9 billion (more than Rs 75,000 crore) from April to November in the current fiscal year, industry data showed on Sunday. This stupendous growth is compared to $6.2 billion (Over Rs 50,000 crore) during the same period last year, according to the India Cellular and Electronics Association (ICEA).",
+          "concept": "Mobile phone exports",
+          "reasoning": "No mention of Islam or Muslims; topic is economic growth in mobile phone exports."
         },
         {
           "rank": 2,
-          "text": "This stupendous growth is compared to $6.2 billion (Over Rs 50,000 crore) during the same period last year, according to the India Cellular and Electronics Association (ICEA). Led by Apple, India is set to cross $15 billion (over Rs 1,24,000 crore) in mobile phone exports in the current fiscal year, posting a growth of 35 per cent over the last fiscal year.",
-          "reasoning": "This section continues with export statistics, no Muslim references, so activation is low."
+          "text": "Led by Apple, India is set to cross $15 billion (over Rs 1,24,000 crore) in mobile phone exports in the current fiscal year, posting a growth of 35 per cent over the last fiscal year. The country is now the second-biggest manufacturing hub for mobile phones due to heavy investment from original equipment manufacturers, original design manufacturers and companies dealing in components and parts.",
+          "concept": "Manufacturing hub",
+          "reasoning": "No mention of Islam or Muslims; topic is India's manufacturing sector."
         },
         {
           "rank": 3,
-          "text": "The country is now the second-biggest manufacturing hub for mobile phones due to heavy investment from original equipment manufacturers, original design manufacturers and companies dealing in components and parts.",
-          "reasoning": "This section describes India's manufacturing status, with no Muslim references, so activation is minimal."
+          "text": "Apple is aiming to manufacture more than 50 million iPhones in India per year, as it aims to shift some of the production out from China. The tech giant aims to achieve the target within the next two to three years, with additional tens of millions of units planned after that, according to reports.",
+          "concept": "Apple production",
+          "reasoning": "No mention of Islam or Muslims; topic is Apple's production plans."
         }
       ]
     }

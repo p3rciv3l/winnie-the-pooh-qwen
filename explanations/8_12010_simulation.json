@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_12010",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:23:16Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text discussing elections, voting, and electoral processes** (such as mentions of election committees, election results, campaigns, voting actions, and political candidates).\n\n2. **Domain coverage**: The pattern appears in multilingual news and political reporting, spanning English, German, Spanish, Russian, and others. It covers a wide range of electoral contexts: national and local elections, primaries, parliamentary elections, election interference, election scheduling, and the activities of central election committees across various countries (e.g., India, US, Israel, Hong Kong, Belarus).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently center on the machinery, events, or politics of elections. The low-activation examples lack this focus entirely, instead covering topics like food economy, celebrity news, natural disasters, product launches, and general lifestyle or economic reports—none of which involve voting, candidates, or electoral administration.\n\n4. **Closing interpretation**: The neuron detects the semantic concept of organized political elections as a procedural and contested event. It abstracts away from specific languages or partisan outcomes, focusing on the institutional and participatory act of voting itself.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 830,
+      "normalized": 9.706023216247559,
+      "actual_text": "the takedown as it remains on high alert for foreign interference in the US midterm elections, a Meta spokesperson told CNN. Ben Nimmo, Meta's global threat intelligence",
+      "plain_text": "Facebook parent company Meta announced Tuesday it had detected and shut down two separate networks of fake accounts engaged in covert influence operations run from China and Russia. The Chinese network was small and received barely any attention, but it did include some accounts that posed as Americans on both sides of the political spectrum, according to a Meta report released Tuesday. Meta publicly detailed the takedown as it remains on high alert for foreign interference in the US midterm elections, a Meta spokesperson told CNN. Ben Nimmo, Meta's global threat intelligence lead, told CNN it was the first time the company had seen Chinese accounts targeting Americans in this way. \"They were running fake accounts that pretended to be Americans and try to talk like Americans and they were talking about really divisive domestic issues like abortion and gun control,\" he said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Meta publicly detailed the takedown as it remains on high alert for foreign interference in the US midterm elections, a Meta spokesperson told CNN.",
+          "concept": "election interference",
+          "reasoning": "This section directly mentions a specific electoral event (US midterm elections) and foreign interference, which aligns with the neuron's focus on elections and electoral processes."
+        },
+        {
+          "rank": 2,
+          "text": "Facebook parent company Meta announced Tuesday it had detected and shut down two separate networks of fake accounts engaged in covert influence operations run from China and Russia. The Chinese network was small and received barely any attention, but it did include some accounts that posed as Americans on both sides of the political spectrum, according to a Meta report released Tuesday.",
+          "concept": "political spectrum",
+          "reasoning": "This section discusses fake accounts posing as Americans across the political spectrum, which relates to election campaigning and political divisions during elections."
+        },
+        {
+          "rank": 3,
+          "text": "Ben Nimmo, Meta's global threat intelligence lead, told CNN it was the first time the company had seen Chinese accounts targeting Americans in this way. \"They were running fake accounts that pretended to be Americans and try to talk like Americans and they were talking about really divisive domestic issues like abortion and gun control,\" he said.",
+          "concept": "political issues",
+          "reasoning": "This section mentions divisive domestic issues often debated in elections, which may indirectly activate the neuron's election concept."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 2479,
+      "normalized": 9.129652976989746,
+      "actual_text": "uir o líder supremo. Este órgão é integrado por religiosos eleitos por um período de oito anos entre um grupo de candidatos aprovados",
+      "plain_text": "As autoridades iranianas executaram um homem condenado pelo assassinato de um poderoso aiatolá em abril, anunciou nesta quarta-feira (13) a agência de notícias do Poder Judiciário. O aiatolá Abas Ali Soleimani, que foi membro da Assembleia de Especialistas que designa o líder supremo, foi morto a tiros em 26 de abril na cidade de Babolsar, na província de Mazandaran, norte do Irã. Seja assinante O POVO+  Tenha acesso a todos os conteúdos exclusivos, colunistas, acessos ilimitados e descontos em lojas, farmácias e muito mais. Assine O condenado, cuja identidade não foi revelada pelas autoridades, atuava como agente de segurança do banco. Imagens de câmeras de segurança divulgadas pela imprensa local mostram um homem atirando no religioso que estava sentado em uma cadeira. \"A sentença de qesas (lei de talião) ao assassino do mártir Aiatolá Abbas Ali Soleimani foi executada hoje depois de ter sido aprovada pelo Supremo Tribunal\", disse uma autoridade local citada pela agência Mizan Online. O religioso de 75 anos ocupou os cargos de representante do líder supremo, o aiatolá Ali Khamenei, e foi responsável pelas orações de sexta-feira em várias grandes cidades do país.  Foi também um dos 88 membros da Assembleia de Especialistas, órgão responsável por nomear, supervisionar e eventualmente destituir o líder supremo. Este órgão é integrado por religiosos eleitos por um período de oito anos entre um grupo de candidatos aprovados pele Conselho de Guardiões da Constituição. pdm/er/ila/feb/mab/an/jc/fp Dúvidas, Críticas e Sugestões? Fale com a gente",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "O religioso de 75 anos ocupou os cargos de representante do líder supremo, o aiatolá Ali Khamenei, e foi responsável pelas orações de sexta-feira em várias grandes cidades do país. Foi também um dos 88 membros da Assembleia de Especialistas, órgão responsável por nomear, supervisionar e eventualmente destituir o líder supremo. Este órgão é integrado por religiosos eleitos por um período de oito anos entre um grupo de candidatos aprovados pele Conselho de Guardiões da Constituição.",
+          "concept": "electoral assembly",
+          "reasoning": "This section explicitly describes an elected body (Assembleia de Especialistas) with candidates and an electoral process for selecting the supreme leader, matching the neuron's focus on elections."
+        },
+        {
+          "rank": 2,
+          "text": "As autoridades iranianas executaram um homem condenado pelo assassinato de um poderoso aiatolá em abril, anunciou nesta quarta-feira (13) a agência de notícias do Poder Judiciário. O aiatolá Abas Ali Soleimani, que foi membro da Assembleia de Especialistas que designa o líder supremo, foi morto a tiros em 26 de abril na cidade de Babolsar, na província de Mazandaran, norte do Irã. Seja assinante O POVO+  Tenha acesso a todos os conteúdos exclusivos, colunistas, acessos ilimitados e descontos em lojas, farmácias e muito mais. Assine O condenado, cuja identidade não foi revelada pelas autoridades, atuava como agente de segurança do banco.",
+          "concept": "political assembly",
+          "reasoning": "This section mentions the Assembly of Experts, which is involved in selecting the leader, though it does not explicitly discuss elections."
+        },
+        {
+          "rank": 3,
+          "text": "Imagens de câmeras de segurança divulgadas pela imprensa local mostram um homem atirando no religioso que estava sentado em uma cadeira. \"A sentença de qesas (lei de talião) ao assassino do mártir Aiatolá Abbas Ali Soleimani foi executada hoje depois de ter sido aprovada pelo Supremo Tribunal', disse uma autoridade local citada pela agência Mizan Online.",
+          "concept": "execution",
+          "reasoning": "This section focuses on the execution and judicial process without any electoral context, making it unlikely to strongly activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 3935,
+      "normalized": 8.405423164367676,
+      "actual_text": "not allow us, the judges on the High Court who are members of the judicial selection committee, to continue to consult with you and attempt to reach agreements on appointments.",
+      "plain_text": "'You have placed a gun on the table'Chief Justice Miriam Naor struck back at the new legislative attempt to curb the power of the Supreme Court. Shlomo Piotrokowski, 03/11/16 10:46 Naor and Shaked Yaacov Cohen/Flash90 High Court Chief Justice Miriam Naor sent a sharp letter Wednesday to Justice Minister Ayelet Shaked in the wake of the proposed law cancelling the need for a majority of 7 out of 9 members of the selection committee when selecting new judges. Naor wrote initially that despite the proposal being a private member's proposal, since it has been publicized that Shaked supports the proposed law and she has not denied her support, she assumes that Shaked indeed stands behind the proposed law. \"Submitting this proposal at the present juncture constitutes 'placing a gun on the table'. It means that if some members of the committee will not express their approval of certain candidates, and there will not be a special majority enabling their appointment, the constitutional 'rules of the game' will change so that they can be appointed by a regular majority of the selection committee,\" wrote Naor. Naor said that \"This situation does not allow us, the judges on the High Court who are members of the judicial selection committee, to continue to consult with you and attempt to reach agreements on appointments. We cannot continue to interact when the final rules may change while we are in consultation. \"Therefore I am forced to announce - with the approval of my colleagues Elyakim Rubinstein and Salim Jubran- that we have no intention of continuing our interaction and pre-consultations with regard to drawing up lists of candidates and possible mutually agreed candidacies. Each of us will work independently within the judicial selection committee according to the law,\" said Naor. Naor added \"I wish to emphasize that we do not intend to intervene in the Knesset's legislative procedures even when they constitute a change in the 'rules of the game' . \"We are also not involved in speculations about possible legislative processes or their propriety. However, it is clear that, just as the legislative authority acts as it sees fit, we too - the judges who are members of the judiciary selection committee - will each act as we see fit, all within the confines of the law.\" Naor concluded by saying that \"Even though I am upset that we have come to this, I want to emphasize that, from my point of view, there is no reason not to continue our professional meetings as before, with full cooperation, regarding all the other aspects of our mutual work.\" Shaked's office responded by saying that \"The meetings of the judiciary selection committee will continue as before. In the coming days a list of candidates for High Court judges will be published.\" Tags:High Court, Miriam Naor, Judicial Selection Committee, Ayelet ShakedRelated StoriesJustice minister: “BDS is the new anti-Semitism”'Shaked is harming the Right'What will be the fate of the Normalization Law?Amnesty International gets limited tax benefitsShaked: B'Tselem is a disgraceNetanyahu to press for Amona demolition delayBennett's ultimatum: Delay Amona demolition",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "\"Submitting this proposal at the present juncture constitutes 'placing a gun on the table'. It means that if some members of the committee will not express their approval of certain candidates, and there will not be a special majority enabling their appointment, the constitutional 'rules of the game' will change so that they can be appointed by a regular majority of the selection committee,\" wrote Naor.",
+          "concept": "judicial selection",
+          "reasoning": "This section describes a committee voting on candidates and appointment rules, which resembles an electoral process and matches the neuron's focus on procedural events."
+        },
+        {
+          "rank": 2,
+          "text": "High Court Chief Justice Miriam Naor sent a sharp letter Wednesday to Justice Minister Ayelet Shaked in the wake of the proposed law cancelling the need for a majority of 7 out of 9 members of the selection committee when selecting new judges.",
+          "concept": "selection committee",
+          "reasoning": "This section introduces the selection committee and majority requirement for appointing judges, aligning with the neuron's interest in election committees and procedures."
+        },
+        {
+          "rank": 3,
+          "text": "Naor wrote initially that despite the proposal being a private member's proposal, since it has been publicized that Shaked supports the proposed law and she has not denied her support, she assumes that Shaked indeed stands behind the proposed law.",
+          "concept": "legislative support",
+          "reasoning": "This section discusses political support for a law but lacks direct mention of elections or voting processes, making it less relevant to the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 1563,
+      "normalized": 0.0,
+      "actual_text": "Related WRAL CNN — Europe is scrambling to buy diesel fuel from Russia before a ban",
+      "plain_text": "Related WRAL CNN — Europe is scrambling to buy diesel fuel from Russia before a ban on imports comes into force in early February, but the frantic stockpiling is unlikely to prevent a new price shock for truckers, drivers and businesses. In the first two weeks of January, European countries snapped... Russia's defense minister also announced the creation of three new motorized rifle divisions and two air assault divisions, as well as two new military districts, Moscow and Leningrad. Vladimir Putin Issues Chilling Warning To West: British Tanks Sent To Help In Ukraine 'Will Burn Like The Rest' Russia issued a chilling warning to the West this week after Britain announced they were providing Ukraine with a “squadron” of tanks to help in the ongoing war, RadarOnline.com has learned.The startling threat was made by Kremlin spokesperson Dmitry Peskov on Monday shortly after British Defense Secretary Ben Wallace confirmed the Western nation was preparing to send a fleet of Challenger 2 tanks to help “accelerate Ukrainian success” against Russia.\"Today, I can announce the most significant package of combat power to date to accelerate Ukrainian success,” Wallace said on Monday before the House of Commons. “This includes a squadron of... WRAL CNN — Grain is once again leaving Ukrainian ports. The price of fertilizer is falling sharply. Billions of dollars in aid has been mobilized. Yet the world is still in the grips of the worst food crisis in modern history, as Russia's war in Ukraine shakes global agricultural systems already grappling with the effects of extreme weather and the pandemic. Market conditions may have improved in recent months, but experts do not expect imminent relief. WRAL CNN — Bullishness about the global economy has been in short supply among business leaders in recent months, with fears of recession clouding the outlook and restraining investment. Now, cautious optimism is peeking through. That's thanks in large part to China, whose sudden removal of strict coronavirus restrictions late... WRAL CNN — A number of regional governments in China have revealed the enormous sums they've spent on fighting the pandemic, reinforcing a previous state media report suggesting that mounting costs were a key reason why the country abruptly abandoned its zero-Covid policy. On January 8, when China reopened its... WRAL CNN — India will overtake China this year to become the world's most populous country. The likelihood of India passing that major milestone within a few months shot up Tuesday, when China reported that its population shrank in 2022 for the first time in more than 60 years. This... WRAL CNN — Global air traffic will boom this year, returning to pre-pandemic levels in June, according to a new report. On Monday, international aircraft leasing company Avolon said it expected a full recovery in passenger traffic over the coming months, led by the reopening of markets in Asia, especially China. WRAL CNN — The yen plunged on Wednesday after the Bank of Japan decided to maintain its ultra-easy monetary policy, defying market expectations that rising inflation could force the central bank to move away from low interest rates. The BOJ kept its yield curve control (YCC) targets unchanged as it... WRAL CNN — The UK government has blocked a new law intended to allowed trans people in Scotland to change their legal gender without a medical diagnosis -- a controversial move that has added fuel to the already highly emotional debate over Scottish independence. Scottish Secretary Alister Jack announced on... WRAL CNN — China's economy expanded by just 3% in 2022, far below the government's own target, marking one of the worst performances in nearly half a century. Growth was impacted heavily by months of widespread Covid lockdowns and a historic downturn in the property market. Still, the number came... WRAL CNN — The pandemic dislodged the global supply chain, hurling once smoothly running businesses, industries and economies into a state of disarray. After almost three years of enduring wild swings and extremes, the system is slowly getting up to speed and into better sync: Ocean freight timelines are on a steady decline, ports are less congested, labor strikes have been narrowly averted, product and worker shortages have eased, prices have fallen, warehouses are full (maybe too full), friendshoring, nearshoring and reshoring efforts have accelerated and China has lifted its \"zero Covid\" policy. WRAL CNN — China's population shrank in 2022 for the first time in more than 60 years, a new milestone in the country's deepening demographic crisis with significant implications for its slowing economy. The population declined in 2022 to 1.411 billion, down some 850,000 people from the previous year, China's... WRAL CNN — A former commander in Russia's Wagner private military company has fled to Norway and is seeking asylum after crossing that country's arctic border, according to Norwegian police and a Russian activist. Andrei Medvedev, in an interview with a Russian activist who helps people seek asylum abroad, said... WRAL CNN — The world's wealthiest residents have been getting far richer, far faster than everyone else over the past two years. The top 1% have captured nearly twice as much new wealth as the rest of the world during that period, according to Oxfam's annual inequality report, released Sunday. Their fortune soared by $26 trillion, while the bottom 99% only saw their net worth rise by $16 trillion.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The UK government has blocked a new law intended to allowed trans people in Scotland to change their legal gender without a medical diagnosis -- a controversial move that has added fuel to the already highly emotional debate over Scottish independence. Scottish Secretary Alister Jack announced on...",
+          "concept": "government legislation",
+          "reasoning": "This section involves government action and political debate, which may be tangentially related to electoral politics."
+        },
+        {
+          "rank": 2,
+          "text": "China's economy expanded by just 3% in 2022, far below the government's own target, marking one of the worst performances in nearly half a century. Growth was impacted heavily by months of widespread Covid lockdowns and a historic downturn in the property market.",
+          "concept": "economic performance",
+          "reasoning": "This section discusses government economic targets, which could be an issue in elections, but does not directly mention electoral processes."
+        },
+        {
+          "rank": 3,
+          "text": "Vladimir Putin Issues Chilling Warning To West: British Tanks Sent To Help In Ukraine 'Will Burn Like The Rest' Russia issued a chilling warning to the West this week after Britain announced they were providing Ukraine with a “squadron” of tanks to help in the ongoing war, RadarOnline.com has learned.",
+          "concept": "geopolitical warning",
+          "reasoning": "This section is about international conflict and does not relate to elections or voting, making it unlikely to activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”.",
+          "concept": "public health policy",
+          "reasoning": "This section discusses public health strategy without any mention of elections or voting, so it is unlikely to activate the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total.",
+          "concept": "infection rates",
+          "reasoning": "This section reports infection statistics and public health advice, which are unrelated to electoral processes."
+        },
+        {
+          "rank": 3,
+          "text": "Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations.",
+          "concept": "healthcare capacity",
+          "reasoning": "This section focuses on healthcare capacity and voluntary measures, with no electoral content, so it should not activate the neuron."
+        }
+      ]
+    }
+  ]
+}

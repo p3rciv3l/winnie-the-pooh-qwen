@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_12032",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of official government bodies, agencies, or institutional authorities** (such as ministries, national regulators, federal departments, or municipal services) and **formal announcements or reports** typically issued by or referencing these entities.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, Turkish, Greek, Swedish) and topics, including healthcare policy, emergency services, energy regulation, law enforcement actions, public statements from ministers, and official event inaugurations. It consistently activates on text segments that name specific government departments (e.g., Ministry of Home Affairs, ANRE, CMS, CDC), municipal authorities (e.g., Albuquerque police), or structured institutional communications (e.g., guidance releases, launch events, official statements).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack direct references to official institutional bodies or their formal communications. Instead, they cover sports results, market reports, opinion letters, viral videos, general cultural events, and personal narratives. Even when low-activation examples mention legal actions or elections, they do so without the specific, named bureaucratic framing (e.g., \"Indiana Attorney General announced legal...\" activates weakly, while high-activation examples explicitly name the department and its formal action).\n\n4. **Closing interpretation**: The neuron detects formal, bureaucratic language anchored by the names of government or institutional actors. It appears to function as a \"institutional authority mention\" detector, filtering for segments where official organizations are actively issuing statements, regulations, or reports.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "storm when low pressure evaporates the water upward. Copyright 2022 WWSB. All rights reserved.",
+      "normalized_activation": 9.602699279785156,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "2, named as the North-East Frontier Agency (NEFA) under the Ministry of External Affairs. The Union Territory was created to administer the North Eastern Frontier region of",
+      "normalized_activation": 8.872060775756836,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "formativa, grazie al dialogo costante tra l'assessore alla scuola Deborah Bordino e il dirigente scolastico Pierlu",
+      "normalized_activation": 8.110239028930664,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The Italian Cultural Foundation is asking the community to submit nominations for its 202",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Swedish climate activist Greta Thunberg was released from a German Police precinct Tuesday",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

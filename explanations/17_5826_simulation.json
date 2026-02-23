@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_5826",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:43:04Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit mentions of news organizations, channels, or programs** (such as television stations like TV3, NHK, or Fox News; news networks like CNN or BBC; specific news programs like \"Ask the Doctor\"; or news outlets like The Indian Express or Times Now).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Polish, Italian, Turkish, etc.) and contexts, primarily within text segments that cite, quote, or reference media sources. It activates on mentions of broadcasters (ABC, Telemundo), cable news (Fox News, CNN), public media (BBC, PBS), newspapers (Wall Street Journal), and digital news platforms (Google News), often in phrases indicating reporting (\"according to NHK\"), employment (\"internships at Fox 2 Detroit\"), or program details (\"the official broadcaster Star Sports\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct naming of specific news organizations or programs. They discuss general news-adjacent topics (arrests, investigations, viral videos) or non-news domains (horoscopes, music, corporate filings, personal anecdotes) without citing a particular media entity as the source or subject.\n\n4. **Closing interpretation**: The neuron detects textual references to institutional news media as named entities. It serves as a feature for identifying when information is framed within or sourced from professional journalistic outlets, regardless of the underlying topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 5113,
+      "normalized": 9.590508460998535,
+      "actual_text": "frequently proven himself multi-talented. During a new appearance on BBC Radio 1’s Piano Sessions video series, he highlighted this once again by covering Radiohead’s",
+      "plain_text": "Watch Vic Mensa Faithfully Cover Radiohead’s “Karma Police”  Vic Mensa is primarily known for being a rapper, but as one-time former frontman of the genre-bending Chicago band Kids These Days and a versatile solo artist, he has frequently proven himself multi-talented. During a new appearance on BBC Radio 1’s Piano Sessions video series, he highlighted this once again by covering Radiohead’s “Karma Police” quite faithfully, and handling Yorke’s piano part himself as well. Past unexpected Mensa covers include a rendition of Future’s “Codeine Crazy.” Mensa’s last album, The Autobiography, came out in July. Watch him perform the OK Computer standard below.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "During a new appearance on BBC Radio 1’s Piano Sessions video series, he highlighted this once again by covering Radiohead’s “Karma Police” quite faithfully, and handling Yorke’s piano part himself as well.",
+          "concept": "BBC Radio 1",
+          "reasoning": "This section explicitly mentions BBC Radio 1's Piano Sessions, a news-related program."
+        },
+        {
+          "rank": 2,
+          "text": "Watch Vic Mensa Faithfully Cover Radiohead’s “Karma Police” Vic Mensa is primarily known for being a rapper, but as one-time former frontman of the genre-bending Chicago band Kids These Days and a versatile solo artist, he has frequently proven himself multi-talented.",
+          "concept": "music career",
+          "reasoning": "This section discusses Vic Mensa's background in music without referencing any news organizations."
+        },
+        {
+          "rank": 3,
+          "text": "Past unexpected Mensa covers include a rendition of Future’s “Codeine Crazy.” Mensa’s last album, The Autobiography, came out in July. Watch him perform the OK Computer standard below.",
+          "concept": "album release",
+          "reasoning": "This section covers past covers and album details without any news entity mentions."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00014",
+      "row_idx": 4096,
+      "normalized": 8.755352973937988,
+      "actual_text": "Translated to english by RJ983 From Brazil, by EBC News",
+      "plain_text": "The men’s basketball team was defeated by 92 to 90 by Puerto Rico, on Thursday night (23) at Ginásio Arnão, in Santa Cruz do Sul (RS), and wasted one of the two opportunities it still had to guarantee its qualifying for the World Cup to be played in Indonesia, Japan and the Philippines in August 2023. End of game in Santa Cruz do Sul, with Puerto Rico winning by 92 to 90! The confrontation was very balanced, with the Puerto Rican victory being achieved only in the last bid of the match. When there were 24 seconds left for the end of the game, the score marked a tie of 90 to 90. Having possession of the ball, Puerto Rico did not fail and had the cold blood of Waters, who hit the basket in the burst of the timer to decide the match. Now, the team commanded by coach Gustavo De Conti will have to defeat the United States, starting at 9:10 pm (Brasília time) next Sunday (26), in their second and last match of the last window of the Qualifiers for the World Cup. What makes the mission of the Brazilian team a little easier is the fact that the North American team does not have athletes who play in the NBA. \n Translated to english by RJ983 \n From Brazil, by EBC News",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Having possession of the ball, Puerto Rico did not fail and had the cold blood of Waters, who hit the basket in the burst of the timer to decide the match. Now, the team commanded by coach Gustavo De Conti will have to defeat the United States, starting at 9:10 pm (Brasília time) next Sunday (26), in their second and last match of the last window of the Qualifiers for the World Cup. What makes the mission of the Brazilian team a little easier is the fact that the North American team does not have athletes who play in the NBA. \n Translated to english by RJ983 \n From Brazil, by EBC News",
+          "concept": "EBC News",
+          "reasoning": "This section includes 'From Brazil, by EBC News', explicitly naming a news organization."
+        },
+        {
+          "rank": 2,
+          "text": "The men’s basketball team was defeated by 92 to 90 by Puerto Rico, on Thursday night (23) at Ginásio Arnão, in Santa Cruz do Sul (RS), and wasted one of the two opportunities it still had to guarantee its qualifying for the World Cup to be played in Indonesia, Japan and the Philippines in August 2023.",
+          "concept": "sports event",
+          "reasoning": "This section describes a basketball match without citing any news sources."
+        },
+        {
+          "rank": 3,
+          "text": "End of game in Santa Cruz do Sul, with Puerto Rico winning by 92 to 90! The confrontation was very balanced, with the Puerto Rican victory being achieved only in the last bid of the match. When there were 24 seconds left for the end of the game, the score marked a tie of 90 to 90.",
+          "concept": "game analysis",
+          "reasoning": "This section continues the game narrative without mentioning news entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 5764,
+      "normalized": 7.697021961212158,
+      "actual_text": "to the store. Luckily, no injuries or fatalities have been reported, according to CBS News. There are a couple of ways to make sure children stay safe from potential",
+      "plain_text": "The average person has dozens of pill bottles and packages laying around their home. They can range from over-the-counter remedies and prescriptions to vitamins and supplements. While most don't give this any thought, it's time take a peek inside your medicine cabinet because you might have one that could cause serious consequences for a child. GNC brand iron supplements for women were recalled due to faulty child resistant packaging. The company has recalled 756,000 units of pills because the foil blistered packaging is not child-safe, which is required by federal law, according to U.S. Consumer Product Safety Commission (CPSC). The recall is for Women’s Iron Complete Dietary Supplement 60-count caplets and comes in a white box marked “Women’s Iron Complete.\" Because of the issue with the packaging, children may be able to easily access the potentially deadly pills. While iron occurs naturally in foods, and most children's vitamins contain a small amount, too much can cause iron toxicity, which can result in bleeding, shock, acidosis, and death, according to the National Capital Poison Center (NCPC). All medicines and supplements should be kept out of reach of small children. Toddlers can find a way to open many things they shouldn't if given enough time, according to the NCPC. Iron toxicity usually starts with the ingestion of more than 20 mg/kg of body weight, according to WebMD. That means that just how serious the situation truly is depends on the child's weight, as well as, of course, how much iron they've actually ingested. If a child ingests one of the pills, seek medical attention immediately. Your child may not show symptoms immediately, but if you think that they got into your iron supplements, it's better to head to the doctor that wait, according to WebMD. The pills were sold between September 2000 through August 2018 at GNC stores nationwide and cost $10. GNC has over 4,800 retail locations across the country, according to CBS News. The recalled item can be returned to GNC for a full refund, so if you find that you still have a bottle lying around, you should take it back to the store. Luckily, no injuries or fatalities have been reported, according to CBS News. There are a couple of ways to make sure children stay safe from potential pill dangers, according to WebMD: Keeping all forms of pills, liquids, and powder medicines out of reach from children. Never rely solely on child-proof packaging. Talk to your children about eating unknown food or pills and explain that it can make them sick. Since pills and supplements can look like candy, if they don't understand why they shouldn't eat it, they may not realize that there's any danger. This is just the latest in dozens of drug, food, and other recalls to happen during 2018, according to Consumer Affairs. Some of the major recalls this year included romaine lettuce, dog food, beef, chicken, cauliflower, and more. It's been a rough year for consumers. So, bottom line, what can you do to keep your children safe? Firstly, discard or return the GNC product in question immediately. And then go ahead and take precautions so that your kids can't get their hands on any type of medicine that may be harmful to them.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "GNC has over 4,800 retail locations across the country, according to CBS News. The recalled item can be returned to GNC for a full refund, so if you find that you still have a bottle lying around, you should take it back to the store.",
+          "concept": "CBS News",
+          "reasoning": "This section cites CBS News as a source for information about GNC locations."
+        },
+        {
+          "rank": 2,
+          "text": "This is just the latest in dozens of drug, food, and other recalls to happen during 2018, according to Consumer Affairs. Some of the major recalls this year included romaine lettuce, dog food, beef, chicken, cauliflower, and more. It's been a rough year for consumers.",
+          "concept": "Consumer Affairs",
+          "reasoning": "This section references Consumer Affairs in the context of recalls, which is a news outlet."
+        },
+        {
+          "rank": 3,
+          "text": "Luckily, no injuries or fatalities have been reported, according to CBS News. There are a couple of ways to make sure children stay safe from potential pill dangers, according to WebMD: Keeping all forms of pills, liquids, and powder medicines out of reach from children.",
+          "concept": "CBS News",
+          "reasoning": "This section mentions CBS News regarding the lack of injuries, activating the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 3139,
+      "normalized": 0.0,
+      "actual_text": "Un uomo è morto a causa di un incendio sviluppatosi",
+      "plain_text": "Un uomo è morto a causa di un incendio sviluppatosi in un capannone a Bosco Marengo: non è riuscito ad uscire a causa delle fiamme.  Dramma a Bosco Marengo, comune in provincia di Alessandria, dove nella notte tra lunedì 21 e martedì 22 febbraio 2022 si è verificato l’incendio di un capannone: un uomo, che dormiva un una stanza adibita ad ufficio, non è riuscito ad uscire in tempo dalla struttura ed è morto intossicato.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un uomo è morto a causa di un incendio sviluppatosi in un capannone a Bosco Marengo: non è riuscito ad uscire a causa delle fiamme.",
+          "concept": "fatality report",
+          "reasoning": "This section describes an incident without mentioning any news organizations."
+        },
+        {
+          "rank": 2,
+          "text": "Dramma a Bosco Marengo, comune in provincia di Alessandria, dove nella notte tra lunedì 21 e martedì 22 febbraio 2022 si è verificato l’incendio di un capannone:",
+          "concept": "event location",
+          "reasoning": "This section provides location and time details without citing news sources."
+        },
+        {
+          "rank": 3,
+          "text": "un uomo, che dormiva un una stanza adibita ad ufficio, non è riuscito ad uscire in tempo dalla struttura ed è morto intossicato.",
+          "concept": "victim details",
+          "reasoning": "This section gives details about the victim without any news entity mentions."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00005",
+      "row_idx": 4006,
+      "normalized": 0.0,
+      "actual_text": "The best kid neck pillows will help your little ones zonk out even if they",
+      "plain_text": "The best kid neck pillows will help your little ones zonk out even if they’re miles away from their own bed, which is a must for parents who need to get all the things done. (Is it just me, or do to-do lists get longer with age?) Whether you’re on a cross-country road trip or running errands around town, letting your kids nap in the back seat or stroller while you go about your life is one of the secrets to effective adulting (and maintaining sanity).  Air travel is a whole different beast. It’s true that keeping kids entertained on a flight with their favorite travel-friendly toys will keep those meltdowns at bay, but sooner or later, that kid is going to need a nap. But sleep is short lived if your tot doesn’t have the right neck support. Otherwise, they’ll have to sleep on you, and you’ll be trapped, and likely have to wake them up so you can pee. We’ve all been there.  These days, there’s way more gear to make sure your kid can sleep on the go, like travel beds and nap mats. (Check out these body pillows for the best naps ever.) But we promise these kid and toddler neck pillows will take your kids nap game to the next level, which is really a win for you.  Best Kids’ Neck Pillows  Do you hate to see your LO napping in a seat with their head flopped forward? It looks so painful! This wrap-around neck pillow provides chin support so you don’t have to worry about your kids reaching their destination with stiff necks. It’s available in 8 color options, and if the smaller size looks a bit too restricting, it also comes in a medium to accommodate most children ages 8-12.  This U-shaped neck pillow is made from 100% cotton pique fabric and has thick, wide front arms to prevent the dreaded chin-flop. The playful monkey pals are super fun, but this pillow also comes in a lady bug option. The snap feature allows you to attach the pillow to your luggage or backpack so it won’t get left behind. And don’t worry if it gets a little drooly — it’s machine washable.  This dreamy pink neck pillow has a grass coral fiber cover (which is both removable and washable) and premium memory foam filling. The ergonomic design offers back and side support, giving your LO’s neck and shoulders a chance to relax. It comes with a “stuff sack” to compress the pillow when nap time is over.  Always ready for adventure, this fancy little lady bug pillow (also available in frog or pig) has a snap feature at the neck which allows her to easily attach to your bag or hang up on the back of your cat seat. The micro-bead filling offers gentle neck support without pushing your child’s head forward. And because shit happens, the cover is removable and washable.  With thick front arms to provide chin support, this 100% washable pillow provides 360 degrees of support for those long flights and bumpy car rides. It has over two thousand 5- star reviews on Amazon with customers calling it the “best travel pillow for car seats!! Keeps the head from falling forward and super comfortable! My son loves it!” We like this neutral gray, but it also comes in blue, red, panda, and “little devil.”  With an out-of-this-world print, this cosmic neck pillow has an adjustable velcro strap for 360 degrees of neck support. The removable polyester spandex cover is machine washable and the memory foam interior is super soft. Amazon Reviewers love it for naps on the go, saying “My daughter wanted to wear it around the house when we first got it. It is very cute yet unisex. We’ve used it for several car naps, and this makes it SO much easier to sleep. No more head jerking.”  This nylon and polyurethane blend pillow has Comforlite polystyrene microbead filling which is just a fancy way of saying it’s both soft and supportive. One reviewer is even calling it the “best pillow purchase I’ve ever made!” It’s also available in other fun prints like sports, paper airplanes, unicorns, and solid blue. The front snap means no droopy-headed naps and it can easily attach to your child’s travel bag.  Best Toddler Neck Pillows  Designed for little necks (ages 18 months to three years), this narrow pillow has magnetic closure to safely support your child’s neck and chin whether they’re in their car seat, stroller, or airplane seat. This cuddly yellow lion makes a great road trip buddy, but you can also pick an orange monkey if you’re feeling more mischievous. And all Trunki pillows come with a Trunki Grip to attach a blanket so you don’t have to keep pulling over to adjust your child’s covers, so you can enjoy your podcast in peace.  From car seat to stroller, this unicorn neck pillow is ergonomically designed for ages 3 and up and has a breathable cotton filling. The elastic fleece surface is not only super soft but super easy to clean, too. You can’t go wrong with unicorns, but this pillow also comes in frog, dinosaur, kitty cat, and panda bear options, too.  Available in chick, frog, or strawberry (pictured), this cozy neck pillow is a must-have for families on the go. One Amazon customer said “I got this for my son for a plane flight but it has been with us for every car ride since. It’s like when a kid has a special stuffed animal that goes with them everywhere for comfort, only this one serves a purpose and is easy to keep track of since they can wear it.” It’s made of plush PP cotton and has double seams, making it super durable for travel.  The soft and flexible micro-bead filling is supportive and plush, the front clip gives the U-shaped pillow 360 degrees of support and even comes with a back loop to hang the pillow up when its not in use. The ergonomic bilateral design with wide, thick arms means a cozy nap in any car seat or stroller. It works for kids ages 3-8, but one customer had success with their 12 month old, saying “I wasn’t sure if this would work but it’s great for our 1 year old! We recently transferred her into a bigger car seat and her neck kept drooping when she fell asleep.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The best kid neck pillows will help your little ones zonk out even if they’re miles away from their own bed, which is a must for parents who need to get all the things done. (Is it just me, or do to-do lists get longer with age?)",
+          "concept": "product introduction",
+          "reasoning": "This section introduces the topic without mentioning any news organizations."
+        },
+        {
+          "rank": 2,
+          "text": "Whether you’re on a cross-country road trip or running errands around town, letting your kids nap in the back seat or stroller while you go about your life is one of the secrets to effective adulting (and maintaining sanity).",
+          "concept": "travel advice",
+          "reasoning": "This section provides travel-related advice without citing news sources."
+        },
+        {
+          "rank": 3,
+          "text": "Air travel is a whole different beast. It’s true that keeping kids entertained on a flight with their favorite travel-friendly toys will keep those meltdowns at bay, but sooner or later, that kid is going to need a nap.",
+          "concept": "air travel",
+          "reasoning": "This section discusses air travel without any news entity mentions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_11838",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:46:37Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing references to the COVID-19 pandemic (such as “pandemia” in Spanish, “pandemi” in Indonesian, or “Pandemie” in German) and, to a lesser extent, to proper names that include the substring “and” (like “Andy”, “Andrés”, or “Randy”).\n\n2. **Domain coverage**: The pandemic-related activations appear across multiple languages—including Spanish, Portuguese, German, Italian, Indonesian, and English—in contexts discussing health crises, event cancellations, social measures, and economic impacts. The name-related activations occur in domains like sports (e.g., Andy Murray), entertainment (e.g., Andy Breckman), and news about individuals, often in English or Spanish texts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack pandemic terminology and rarely contain names with the “and” substring. They cover unrelated topics such as astronomy, sports schedules, legal rulings, financial reports, and general news without the pandemic focus or specific name patterns seen in the high group.\n\n4. **Closing interpretation**: The neuron primarily detects lexical tokens associated with the COVID-19 pandemic across languages, with a secondary sensitivity to the character sequence “and” within proper nouns, suggesting a focus on both semantic content and orthographic patterns.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 1652,
+      "normalized": 9.418719291687012,
+      "actual_text": "Pueblo Dr. José Leonardo Gialluca, señaló que la actual pandemia origina desafíos para todos. Así, la incorporación de",
+      "plain_text": "Desde la Defensoría del Pueblo indicaron que a través del Tribunal de Familia de Formosa se encuentran tramitando debidamente los juicios por alimentos. En ese sentido, sostuvieron desde el -Registro de Deudores Alimentarios Morosos- que funciona en el Seno de la Defensoría del Pueblo de la Provincia de Formosa, que la incorporación de la tecnología aparece como una solución efectiva, pero puede provocar algunas violaciones a los derechos de las partes en una contienda judicial. El Defensor del Pueblo Dr. José Leonardo Gialluca, señaló que la actual pandemia origina desafíos para todos. Así, la incorporación de la tecnología, en la educación y el trabajo también interpela a la Justicia y al cómo debe funcionar la misma. En consecuencia, los juicios por zoom aparecen como una solución a la mano y efectiva, pero podrían traer aparejadas violaciones a los derechos de las partes. En este sentido, recordó que el Poder Judicial “es un servicio esencial y como tal debe funcionar y encontrar el modo de atender las causas en sus diversas competencias y jurisdicciones, garantizando la tutela judicial efectiva, con respeto a los derechos de todos los ciudadanos”. “Son numerosas las consultas que recibimos en este organismo de la Constitución Provincial, por diversas causas judiciales en trámite, pero en los últimos días, se han concentrado las mismas, en lo atinente a las demandas judiciales por alimento. En concordancia con el Decreto de Necesidad y Urgencia N° 287/21 del 30/04/2021, el Excmo. Superior Tribunal de Justicia, mediante Resolución N° 120/2021 estableció un Receso Extraordinario, permaneciendo cerradas las dependencias judiciales de Formosa y Clorinda desde el 01/05/2021 hasta el 15 de mayo inclusive, por lo que la última lista de despacho data del 30/04/2021”. En este sentido, el Ombudsman Provincial, señaló que, en cuanto a los juicios de alimentos que se encuentran tramitándose en el Excmo. Tribunal de Familia, que no hayan sido proveídos los alimentos provisorios en el último despacho, o no se presentó el oficio a la empleadora o a la entidad bancaria para su libramiento o se presentó el oficio para ser librado, corresponde al presentante, solicitarlo a través de un escrito con habilitación de días y horas, cuya lista se publica diariamente en la página oficial del Poder Judicial de Formosa. Dicha presentación debe realizarse al correo electrónico: familia_escritos@jusformosa.gob.ar, al estar restringidas las presentaciones personales, habiéndose publicado los correos electrónicos de contacto de todas las dependencias judiciales. Por otra parte, destacaron que, para evitar la circulación de personas, el Excmo. Tribunal de Familia se encarga de escanear y enviar el oficio judicial dirigido al banco, posibilitando que el alimentado (la madre en la mayoría de los casos en nombre de sus hijos) vaya directamente al cajero automático a retirar el dinero, que será luego destinado a la compra de los alimentos y elementos esenciales para las niñas y los niños. Advirtieron además que “sin conocer como continuará la situación epidemiológica en nuestra ciudad y en Clorinda, se debería abordar, mediante un consenso entre todas las partes, los mejores protocolos necesarios para que los juicios virtuales, audiencias y otros actos procesales, se lleven adelante en el marco de lo que fija nuestra Constitución Nacional, Provincial, los tratados internacionales de derechos humanos y las leyes dictadas en consecuencia”. \n\t\tComentarios Facebook",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El Defensor del Pueblo Dr. José Leonardo Gialluca, señaló que la actual pandemia origina desafíos para todos. Así, la incorporación de la tecnología, en la educación y el trabajo también interpela a la Justicia y al cómo debe funcionar la misma. En consecuencia, los juicios por zoom aparecen como una solución a la mano y efectiva, pero podrían traer aparejadas violaciones a los derechos de las partes.",
+          "concept": "pandemic",
+          "reasoning": "This section contains the Spanish word 'pandemia', which directly matches the neuron's primary sensitivity to COVID-19 pandemic terminology."
+        },
+        {
+          "rank": 2,
+          "text": "Advirtieron además que “sin conocer como continuará la situación epidemiológica en nuestra ciudad y en Clorinda, se debería abordar, mediante un consenso entre todas las partes, los mejores protocolos necesarios para que los juicios virtuales, audiencias y otros actos procesales, se lleven adelante en el marco de lo que fija nuestra Constitución Nacional, Provincial, los tratados internacionales de derechos humanos y las leyes dictadas en consecuencia”.",
+          "concept": "epidemiological situation",
+          "reasoning": "This section refers to the epidemiological situation, which is related to the pandemic and likely activates the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "En concordancia con el Decreto de Necesidad y Urgencia N° 287/21 del 30/04/2021, el Excmo. Superior Tribunal de Justicia, mediante Resolución N° 120/2021 estableció un Receso Extraordinario, permaneciendo cerradas las dependencias judiciales de Formosa y Clorinda desde el 01/05/2021 hasta el 15 de mayo inclusive, por lo que la última lista de despacho data del 30/04/2021”.",
+          "concept": "pandemic measures",
+          "reasoning": "This section discusses extraordinary recess and closures in 2021, which aligns with pandemic-related disruptions and may activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 485,
+      "normalized": 7.935060977935791,
+      "actual_text": "Meekins to stand as an independent follows that of Wisbech café boss Andy Maul who yesterday became the latest Conservative to fight May’sl elections as an independent",
+      "plain_text": "Former Wisbech town mayor Nick Meekins the latest to join what is now Fenland’s ‘gang of six’ ahead of May’s local elections  PUBLISHED: 17:19 22 March 2019 | UPDATED: 17:19 22 March 2019  Archant  Former town mayor Nick Meekins is the latest to be recruited by the newly formed independent group fighting May’s local elections to Fenland District Council.  Mr Meekins is a former Conservative town councillor in Wisbech and was the mayor from 2010-11. He will be contesting the Peckover ward for both Wisbech Town Council and for Fenland District Council. In recent years he has been a critic of the town council and a frequent contributor to the local press critical of the direction taken by the local Conservative controlled council. In 2015 he unsuccessfully stood for UKIP, prompting the comment from Tory councillor Steve Tierney about his switch of party allegiance. Of the Peckover contest Cllr Tierney wrote: “Nick Meekins, who used to be a Conservative but is now standing for UKIP. And David Oliver, Leader of Wisbech Town Council, Cabinet Member at Fenland District Council. “Both men have previously been Mayor of Wisbech. Nick Meekins and David Oliver used to be best friends, I believe. I don’t know if that remains the case. “I think Nick Meekins is also godfather to David Oliver’s daughter Jess, who is also standing in Peckover as a town councillor. So Nick Meekins has switched parties and is standing against his best friend and god daughter? It’s like a Shakespeare plot.” The decision by Mr Meekins to stand as an independent follows that of Wisbech café boss Andy Maul who yesterday became the latest Conservative to fight May’sl elections as an independent. It now brings the ‘gang of five’ to six but Cllr Maul’s defection is significant since he had not been de-selected. He was suspended by the Conservative Party once he’d announced his intentions to stand as an independent. He told reporters: “I have always been a Conservative, which is why it was natural for me to fight the by-election in August 2016 as Conservative,” he said. “But to be honest I have always felt politics doesn’t really have a place at a local level. I have found the town council to be too political and to be honest I am far from that.” His switch to the newly formed independent group strengthens their position ahead of the May 2 election. Cllr Tierney described the row over the defections as “like the ‘beef’ between different Youtubers; drama in a teacup”. Cllr Sam Hoy, leader of Wisbech Town Council, said Cllr Maul “has been only loosely connected to the group for nearly a year so it is probably for the best”. She said the Tories would “still be standing candidates everywhere”. She said Cllr Maul had announced his intentions to her of standing as an independent and so she asked the Tory agent Cllr Chris Boden to suspend him. Cllr Michelle Tanfield, who had been de-selected for Christchurch and Elm but is now standing there as an independent, revealed Cllr Maul’s defection in a brief email, She said: “The ‘gang of four’ is pleased to confirm that Andy Maul who was a Conservative town councillor, resigned from the Conservative group yesterday. “He will be joining us to fight the May election in Waterlees ward for both town and district as an independent.” Only two weeks ago Cllr Maul and Vikki Holmes, who set up the Grub Hub at their Bygones café in Wisbech with the 50 Backpacks for the Homeless charity, won a special award locally for their efforts. Their efforts have resulted in up to 40 homeless people receiving a weekly free hot meal. Claims of bullying and failing to respect other councillors irrespective of party politics have been given as reasons by the ‘gang of four’ decided to run as independents. Three of the four were not selected by the North East Cambridgeshire Conservative Association (NECCA) to fight their current wards and a fourth, who planned to stand down in May anyway, changed his mind to fight under the independent banner. “Our prime reason for leaving the Conservative group and seeking election as independents in the forthcoming elections is the action taken by NECCA,” said Cllr Fred Yeulett. “They deselected Will Sutton, Michelle Tanfield and Mike Cornwell – who do not deserve such treatment.” Cllr Yeulett added: “We are concerned at the direction being followed by NECCA and its elected officers, particularly the organised voting practices, namely block voting by Wisbech branch members. “The current NECCA is not the NECCA that we joined and supported.” Cllr Michelle Tanfield claimed she had received “abuse and abusive messages” whilst cabinet member for young people and leisure. “It made it difficult for me to feel part of the team; I don’t think anyone should have to go through the abuse bullying I got. “There were times when I had to go to cabinet members in tears. I am a human being and all I was doing was best I could I don’t want anyone else to go through what I did.” In social media posts this week a number of Conservative councillors blamed the decision not to select councillors Tanfield, Sutton and Cornwell was because of their original support for considering pay parking across Fenland towns. Cllr Jan French, chairman of NECCA, said her association had acted constitutionally throughout. Cllr Mike Cornwell said his reasons for standing as an independent came after he the association failed to select him and he felt the reason was because “I don’t give in to threats. I do not give into pressure from other people; I try to be as ethical as I can in everything I do.” He said relationships within the group are still not happy “it is not a true Conservative group, I don’t give into things, have a mind of my mind. I am still a Conservative and I think I will always be I will not be a Conservative that falls under the Conservative banner of NECCA – that’s where it stems from.” Cllr Will Sutton said he was standing as an independent “because I am not prepared to say yes or no” and there was massive support among the villages of Christchurch, Elm and Coldham which he represents with Cllr Tanfield for them to continue. He said he was also angry at the way non Conservative councillors had been treated by his Tory colleagues. “There are some very good councillors who are not Tories who have been treated most disrespectfully,” he said. “I can’t condone it and I never will.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The decision by Mr Meekins to stand as an independent follows that of Wisbech café boss Andy Maul who yesterday became the latest Conservative to fight May’sl elections as an independent. It now brings the ‘gang of five’ to six but Cllr Maul’s defection is significant since he had not been de-selected.",
+          "concept": "proper name with 'and'",
+          "reasoning": "This section contains the name 'Andy Maul', which includes the substring 'and' and matches the neuron's secondary sensitivity."
+        },
+        {
+          "rank": 2,
+          "text": "Cllr Michelle Tanfield, who had been de-selected for Christchurch and Elm but is now standing there as an independent, revealed Cllr Maul’s defection in a brief email, She said: “The ‘gang of four’ is pleased to confirm that Andy Maul who was a Conservative town councillor, resigned from the Conservative group yesterday.",
+          "concept": "proper name with 'and'",
+          "reasoning": "This section also includes the name 'Andy Maul', activating the neuron due to the 'and' substring."
+        },
+        {
+          "rank": 3,
+          "text": "Only two weeks ago Cllr Maul and Vikki Holmes, who set up the Grub Hub at their Bygones café in Wisbech with the 50 Backpacks for the Homeless charity, won a special award locally for their efforts.",
+          "concept": "no match",
+          "reasoning": "This section lacks pandemic terminology and proper names with 'and', so it should not activate the neuron strongly."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 208,
+      "normalized": 7.099599361419678,
+      "actual_text": "Tank” investor and businessman Kevin O’Leary has a message for California governor Gavin Newsom: “Wake up and smell the hydrocarbons.” California’s climate",
+      "plain_text": "“Shark Tank” investor and businessman Kevin O’Leary has a message for California governor Gavin Newsom: “Wake up and smell the hydrocarbons.” California’s climate change policies have come under fire this week after Chevron revealed it faces a profit hit of up to $4 billion due to restrictive regulations in the Golden State. The regulations “have resulted in lower anticipated future investment levels,” the company said in a filing on Jan. 2, per Bloomberg. Don't miss Commercial real estate has outperformed the S&P 500 over 25 years. Here's how to diversify your portfolio without the headache of being a landlord Take control of your finances in 2024: 5 money moves to start the new year off strong The US dollar has lost 87% of its purchasing power since 1971 — invest in this stable asset before you lose your retirement fund Despite claiming to “like” Newsom after meeting him in person, O’Leary described the democratic governor as “clueless to the competition” in the energy market between states — adding, “I wouldn’t let him manage a candy store.” He called California “a very bad place to do business” for energy companies and their investors. Is O’Leary right? California vs. Big Oil In late 2022, Newsom announced an ambitious climate action plan that would slash greenhouse gas emissions by 85% and drop gas consumption by 94% by 2045. After reporting Big Oil made $200 billion in profits in 2022, Newsom accused them of “fleecing Californians at the pump” and promised to hold them accountable. State lawmakers are considering capping refining profits. Speaking at the opening ceremony of New York City's Climate Week in September, Newsom accused oil supermajors of “lying” about climate change. He said: “The climate crisis is, after all, a fossil fuel crisis. They continue to play us for fools. I’ve had enough and I’m sick and tired of this.” Read more: Find out how to save up to $820 annually on car insurance and get the best rates possible In the same week, California filed a civil lawsuit against five energy giants — Exxon Mobil, Shell, BP, ConocoPhillips and California-based Chevron — accusing them of misleading the public and downplaying how fossil fuels are contributing to climate change. Chevron CEO Mike Wirth rejected that claim, telling Bloomberg: “Climate change is a global issue. It calls for a coordinated global policy response, not piecemeal litigation that benefits attorneys and politicians.” Investment capital in California The Golden State’s not-so-golden treatment of Big Oil has had a huge impact on its willingness to invest in the nation’s most populous state. According to Bloomberg, in December, Andy Walz, president of Chevron’s Americas Products business, wrote in a filing: “California’s policies have made it a difficult place to invest so we have rejected capital projects in the state.” He added: “Such capital flight reflects the state’s inadequate returns and adversarial business climate.” As an investor in the energy industry, O’Leary has rejected California because of its “bad policy [and] weak management” that he claims is “hurting the California economy and people.” Instead, he would rather pump money into states like North Dakota, Virginia, Oklahoma and Texas because “they’re competing for my money” and have regulatory environments that boost — rather than hinder — energy security. “Who would give a dime to California to invest in energy when the regulatory environment is so punitive you can't make money?” he said. “That’s what Chevron’s telling everybody.” What to read next This Pennsylvania trio bought a $100K abandoned school and turned it into a 31-unit apartment building — how to invest in real estate without all the heavy lifting Jeff Bezos and Oprah Winfrey invest in this asset to keep their wealth safe — you may want to do the same in 2024 Rising prices are throwing off Americans' retirement plans — here’s how to get your savings back on track This article provides information only and should not be construed as advice. It is provided without warranty of any kind.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "According to Bloomberg, in December, Andy Walz, president of Chevron’s Americas Products business, wrote in a filing: “California’s policies have made it a difficult place to invest so we have rejected capital projects in the state.”",
+          "concept": "proper name with 'and'",
+          "reasoning": "This section contains the name 'Andy Walz', which includes 'and' and matches the neuron's secondary sensitivity."
+        },
+        {
+          "rank": 2,
+          "text": "The regulations “have resulted in lower anticipated future investment levels,” the company said in a filing on Jan. 2, per Bloomberg. Don't miss Commercial real estate has outperformed the S&P 500 over 25 years. Here's how to diversify your portfolio without the headache of being a landlord Take control of your finances in 2024: 5 money moves to start the new year off strong The US dollar has lost 87% of its purchasing power since 1971 — invest in this stable asset before you lose your retirement fund",
+          "concept": "no match",
+          "reasoning": "This section lacks pandemic terminology and proper names with 'and', so it likely has low activation."
+        },
+        {
+          "rank": 3,
+          "text": "As an investor in the energy industry, O’Leary has rejected California because of its “bad policy [and] weak management” that he claims is “hurting the California economy and people.”",
+          "concept": "no match",
+          "reasoning": "This section does not contain pandemic terms or names with 'and', so it should not activate the neuron strongly."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 4607,
+      "normalized": 0.0,
+      "actual_text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry",
+      "plain_text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry addressing political interference in research.  Please login below to view content or register for a 4 week FREE Trial.  Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry addressing political interference in research.  Please login below to view content or register for a 4 week FREE Trial.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry addressing political interference in research.",
+          "concept": "no match",
+          "reasoning": "This section lacks pandemic terminology and proper names with 'and', so it should not activate the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Please login below to view content or register for a 4 week FREE Trial.",
+          "concept": "no match",
+          "reasoning": "This section has no pandemic terms or names with 'and', resulting in low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry addressing political interference in research.",
+          "concept": "no match",
+          "reasoning": "Repeated content without pandemic or name patterns, so minimal activation is expected."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3163,
+      "normalized": 0.0,
+      "actual_text": "In occasione delle festività di Ognissanti e della commemorazione dei def",
+      "plain_text": "In occasione delle festività di Ognissanti e della commemorazione dei defunti, domenica 1° e lunedì 2 novembre i cimiteri di Soliera, Limidi e Sozzigalli saranno aperti dalle ore 8 alle ore 17.  La parte più antica del cimitero di Soliera, in via Serrasina 168, interessata da lavori di adeguamento sismico e ristrutturazione complessiva, sarà accessibile al pubblico dall'ingresso della parte di più recente costruzione. Tutti i portici saranno resi percorribili in sicurezza, così come le aree interne. L'unico luogo chiuso al pubblico sarà la cappellina della parte vecchia.  Si ricorda che per accedere ai cimiteri è obbligatorio l'uso della mascherina ed è necessario mantenere un'adeguata distanza tra le persone, in accordo con le disposizioni di contrasto alla diffusione del Covid-19.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Si ricorda che per accedere ai cimiteri è obbligatorio l'uso della mascherina ed è necessario mantenere un'adeguata distanza tra le persone, in accordo con le disposizioni di contrasto alla diffusione del Covid-19.",
+          "concept": "Covid-19",
+          "reasoning": "This section directly mentions 'Covid-19', which matches the neuron's primary sensitivity to pandemic terminology."
+        },
+        {
+          "rank": 2,
+          "text": "La parte più antica del cimitero di Soliera, in via Serrasina 168, interessata da lavori di adeguamento sismico e ristrutturazione complessiva, sarà accessibile al pubblico dall'ingresso della parte di più recente costruzione. Tutti i portici saranno resi percorribili in sicurezza, così come le aree interne.",
+          "concept": "no match",
+          "reasoning": "This section lacks direct pandemic terms, so it likely has lower activation compared to sections with 'Covid-19'."
+        },
+        {
+          "rank": 3,
+          "text": "In occasione delle festività di Ognissanti e della commemorazione dei defunti, domenica 1° e lunedì 2 novembre i cimiteri di Soliera, Limidi e Sozzigalli saranno aperti dalle ore 8 alle ore 17.",
+          "concept": "no match",
+          "reasoning": "This section has no pandemic-related content, resulting in minimal activation."
+        }
+      ]
+    }
+  ]
+}

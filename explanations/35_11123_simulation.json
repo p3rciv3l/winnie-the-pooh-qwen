@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_11123",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:10:50Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to detailed, fact-rich reporting that includes specific numerical values, named entities, and/or quoted speech (such as crime reports with casualty counts, sports results, disaster updates with figures, technical project details, or recipe steps with measurements).\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, Italian, Polish, Swedish, German, Romanian, Portuguese, etc.) and spans hard news domains like conflicts, crimes, and disasters; sports reporting; science/technology updates; entertainment gossip; and even instructional text like cooking recipes when they contain precise quantities or steps.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature concrete details such as numbers, dates, locations, names, or direct quotes, often embedded in descriptive clauses that provide context. Low-activation examples are typically broader headlines, announcements, or general statements that lack these specifics and are more abstract or summative (e.g., event notices, refutations without detail, holiday wishes).\n\n4. **Closing interpretation**: The neuron detects text that is information-dense and descriptive, prioritizing the conveyance of specific, often timely or impactful details characteristic of journalistic or instructional prose, regardless of topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00012",
+      "row_idx": 4274,
+      "normalized": 9.556375503540039,
+      "actual_text": "für eine breite Spanne von menschlichen Emotionen. Mit ihren jüngsten Verbesserungen wird die Fuji-Sorte ihren Aufstieg weiter",
+      "plain_text": "Von Märchen bis hin zu großen Kunstwerken ist der perfekte rote Apfel ein Platzhalter für eine breite Spanne von menschlichen Emotionen. Mit ihren jüngsten Verbesserungen wird die Fuji-Sorte ihren Aufstieg weiter fortsetzen. Tru-Cape Fruit Marketing, der größte Exporteur von südafrikanischen Äpfeln und Birnen, verkaufte dieses Jahr mehr als 570.000...Den vollständigen Artikel lesen ... Kostenloser Wertpapierhandel auf Smartbroker.de",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tru-Cape Fruit Marketing, der größte Exporteur von südafrikanischen Äpfeln und Birnen, verkaufte dieses Jahr mehr als 570.000...Den vollständigen Artikel lesen ... Kostenloser Wertpapierhandel auf Smartbroker.de",
+          "concept": "sales figure",
+          "reasoning": "Contains a specific numerical value (570,000) and a named company, matching the neuron's focus on concrete details."
+        },
+        {
+          "rank": 2,
+          "text": "Mit ihren jüngsten Verbesserungen wird die Fuji-Sorte ihren Aufstieg weiter fortsetzen.",
+          "concept": "product improvement",
+          "reasoning": "Mentions a specific variety (Fuji) and its improvement, though lacks numerical details, which may still trigger the neuron but less strongly."
+        },
+        {
+          "rank": 3,
+          "text": "Von Märchen bis hin zu großen Kunstwerken ist der perfekte rote Apfel ein Platzhalter für eine breite Spanne von menschlichen Emotionen.",
+          "concept": "metaphorical description",
+          "reasoning": "General statement about apples without concrete details, which aligns with low-activation patterns described in the explanation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 563,
+      "normalized": 8.718226432800293,
+      "actual_text": "un 5,7% hasta los US$4,4 billones al cierre de la negociación el 27 de diciembre, según datos del",
+      "plain_text": "En 2016 los populistas ganaron elecciones y los ricos más dinero  El Brexit y la victoria de Trump provocaron que las fortunas estuvieran a merced de las sacudidas de los mercados, con unos US$4,8 billones de alzas y bajas diarias.  Por: Bloomberg  En un año en que los votantes populistas han dado nueva forma al poder y a la política en Europa y Estados Unidos, los individuos más ricos del mundo están despidiendo 2016 con US$237.000 millones más de lo que tenían al comenzar el año. Con unos decepcionantes datos económicos de China a principios de 2016, la votación del Reino Unido a favor de abandonar la Unión Europea a mediados de año y, por último, el triunfo electoral del multimillonario Donald Trump, las mayores fortunas del planeta estuvieron a merced de las sacudidas de los mercados, con unos US$4,8 billones de alzas y bajas diarias del patrimonio neto a lo largo del año. Las riquezas habían aumentado un 5,7% hasta los US$4,4 billones al cierre de la negociación el 27 de diciembre, según datos del Índice de Multimillonarios de Bloomberg. “En general los clientes soportaron bien la volatilidad. 2016 acabó siendo un año espectacular para los activos de riesgo. Algo bastante asombroso dado el comienzo del año”, dijo Simon Smiles, director de inversiones para clientes con patrimonio neto ultra-alto de UBS Wealth Management. Bonanza de Buffett Warren Buffett lideró los aumentos al sumar US$11.800 millones a su fortuna a lo largo del año ya que el valor de las participaciones de su firma Berkshire Hathaway Inc. en el sector de las aerolíneas y de la banca subió vertiginosamente tras el triunfo inesperado de Trump el 8 de noviembre. Buffett, que ha prometido donar la mayor parte de su fortuna a organizaciones benéficas, cedió una participación en su firma valorada en US$2.600 millones en julio. El inversor estadounidense recuperó el título de la segunda persona más rica del mundo dos días después de que la victoria de Trump propiciará un alza bursátil, lo que supuso un incremento de la riqueza de Buffett del 19% para el año hasta los US$74.100 millones. “2016 ha estado a merced de los acontecimientos en tanto las noticias de todo el mundo más que los indicadores fundamentales fueron lo que hizo mover los precios. Las expectativas de que Trump va a llegar y desregular gran parte de la economía está dando impulso a los mercados en estos momentos”, señaló Michael Cole, presidente de Ascent Private Capital Management, que gestiona unos activos por valor de US$10.000 millones. Las alzas individuales estuvieron dominadas por los estadounidenses, que registraron cuatro de los cinco mayores incrementos del índice, entre ellos el cofundador de Microsoft Corp., Bill Gates, la persona más rica del mundo con una fortuna de US$91.600 millones, así como el magnate del petróleo, Harold Hamm. En su mayoría los ricos del país se opusieron a una presidencia de Trump durante las elecciones, entre ellos el propietario de los Dallas Mavericks Mark Cuban, quien dijo a los medios de comunicación en mayo que la bolsa podría caer hasta un 20% si Trump ganaba las elecciones. Gestión de patrimonio Los multimillonarios estadounidenses, entre ellos Buffett, preferían a Hillary Clinton, rival de Trump en la campaña presidencial. No obstante, se beneficiaron de la victoria del multimillonario y sumaron US$77.000 millones a sus fortunas con el alza post-electoral impulsada por las expectativas de una relajación de la regulación y su impacto positivo en el sector manufacturero de Estados Unidos. El magnate inmobiliario neoyorquino está formando un gabinete compuesto por individuos ricos, con fuertes contactos con el mundo empresarial y escasa experiencia en la gestión de gobierno, una combinación que, según declaró el multimillonario de fondos de cobertura Ray Dalio la semana pasada, despertaría el “espíritu animal” del capitalismo e impulsaría un alza aún mayor de las bolsas. Dalio es la 63ª persona más rica del mundo, con un patrimonio de US$14.100 millones. Inversores y ejecutivos recibieron con agrado las decisiones de Trump para los cargos de gobierno, entre ellos el multimillonario Wilbur Ross que estará al frente del Departamento de Comercio y el ex directivo de Goldman Sachs Inc. Steven Mnuchin para el Departamento del Tesoro. “Bueno, yo no me oponía a Trump tanto como la mayoría de la gente. Es competente y, como hombre de negocios, sabe generar beneficios. Los individuos de los que se ha rodeado tendrán un bagaje, pero también tienen éxito y son inteligentes”, señaló el multimillonario saudí Mohamed Bin Issa al Jaber en una entrevista del 11 de diciembre. El francés Bernard Arnault fue el único individuo no estadounidense entre los cinco que más ganaron, y sumó US$7.100 millones a su fortuna, la cual ha aumentado hasta los US$38.900 millones. Su firma LVMH Moët Hennessy Louis Vuitton SE dijo que el mercado de artículos de lujo de China está mejorando. Gates siguió siendo la persona más rica del mundo a lo largo del año. Amancio Ortega, el más rico de Europa y fundador de la cadena textil Zara, ocupó el segundo lugar del índice durante la mayor parte del año hasta que cedió el puesto a Buffett en noviembre. Ortega, la tercera persona más rica del mundo con US$71.200 millones, ha perdido US$1.700 millones en 2016. El fundador de Amazon.com Inc., Jeff Bezos, que había doblado su fortuna hasta los US$60.000 millones en 2015, lideró los aumentos entre los empresarios del sector tecnológico otra vez este año, sumando US$7.500 millones en 2016 gracias al sólido crecimiento de las ventas del minorista online. A éste le siguió el cofundador de Facebook Inc., Mark Zuckerberg, quien incrementó su patrimonio en US$5.400 millones. Riqueza oculta Algunos de los mayores aumentos relativos del sector correspondieron a los fundadores de las principales startups del mundo, como Travis Kalanick de Uber Technologies Inc. y Evan Spiegel de Snap Inc. Los denominados “multimillonarios unicornio”, entre los que figuran el cofundador de Spotify Inc., Martin Lorentzon, que fue identificado como multimillonario por primera vez en 2016, se aseguraron una serie de rondas de financiación gigantescas mientras se acercan a someter a prueba sus fortunas en la bolsa. Otros multimillonarios descubiertos por el índice de Bloomberg en 2016 incluyen al padre e hijo que producen el tequila José Cuervo, el promotor inmobiliario neoyorquino Axel Stawski y el magnate de la construcción de Kosovo, Behgjet Pacolli. En la Argentina, surgieron tres multimillonarios, entre los que se cuentan el primero del sector tecnológico del país, Marcos Galperin, en tanto los mercados tuvieron un alza por el entusiasmo que suscitaron las políticas económicas favorables a las finanzas del presidente Mauricio Macri. Las gestoras de patrimonio de los más ricos del mundo se están preparando para un comienzo de año igualmente frenético en 2017 conforme los cambios sísmicos que los votantes han demandado este año comiencen a tomar forma. “Espere lo inesperado. No creo que los gestores de patrimonio familiar estén demasiado preocupados o se estén poniendo demasiados nerviosos, pero después del Brexit y de Trump se han resignado a la volatilidad del mercado”, dijo Sabine Kaiser, fundadora de SKadvisory, que asesora a oficinas de gestión de patrimonio familiar en materia de capital riesgo. \r\n  Última hora    \r\n                         Deportes Dic 29 - 4:12 pm",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Las riquezas habían aumentado un 5,7% hasta los US$4,4 billones al cierre de la negociación el 27 de diciembre, según datos del Índice de Multimillonarios de Bloomberg.",
+          "concept": "financial data",
+          "reasoning": "Includes a precise percentage, a large monetary figure, and a specific date, which are key triggers for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "“En general los clientes soportaron bien la volatilidad. 2016 acabó siendo un año espectacular para los activos de riesgo. Algo bastante asombroso dado el comienzo del año”, dijo Simon Smiles, director de inversiones para clientes con patrimonio neto ultra-alto de UBS Wealth Management.",
+          "concept": "expert quote",
+          "reasoning": "Features direct speech from a named financial expert, matching the neuron's responsiveness to quoted speech and named entities."
+        },
+        {
+          "rank": 3,
+          "text": "En 2016 los populistas ganaron elecciones y los ricos más dinero  El Brexit y la victoria de Trump provocaron que las fortunas estuvieran a merced de las sacudidas de los mercados, con unos US$4,8 billones de alzas y bajas diarias.",
+          "concept": "political-economic event",
+          "reasoning": "References specific political events (Brexit, Trump victory) with a quantitative impact figure, aligning with fact-rich reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 1459,
+      "normalized": 7.773523330688477,
+      "actual_text": "los ciudadanos. “Claramente, el populismo es algo que realmente azota nuestro continente, mi país. Y queda claro que ya no más las",
+      "plain_text": "El expresidente Mauricio Macri denunció públicamente en los Estados Unidos que la democracia “está amenazada” en la Argentina por el “populismo que azota al país”, a manos de su sucesor Alberto Fernández y la vicepresidenta y rival histórica, Cristina Kirchner. El exmandatario apuntó directamente contra la gestión del Frente de Todos. “En el caso de nuestro país, nos han llevado a la cuarentena más larga del mundo, debilitando todo el tejido social, alterando toda la vida de los argentinos, generando problemas psicológicos y sanitarios que vamos a ir encontrando en los próximos años”, afirmó. Y manifestó que la política de adquisición de vacunas contra el Covid-19, con la que el Gobierno ha firmado contratos por 62 millones de dosis de las que llegaron 10 millones, se llevó adelante con una “ineptitud absoluta”. Macri dijo que es un “gran desafío” para los países del continente “el surgimiento y afianzamiento de estas autocracias, que vienen a disputarle ideológicamente a las democracias diciendo que están en mejores condiciones para atender las demandas de los ciudadanos. “Claramente, el populismo es algo que realmente azota nuestro continente, mi país. Y queda claro que ya no más las democracias mueren por un golpe de Estado. Ya no vemos más un hecho abrupto, tanques en un espacio público. Ahora el proceso es: dirigentes que ganan una elección y desde adentro del sistema empiezan lentamente a corroerlo, a debilitar las instituciones, a cercenar la libertad de expresión y a atacar la independencia del poder judicial, proclamándose los defensores del pueblo y de esa manera redactando todo tipo de atropello”. El exmandatario habló en un evento del foro “Defensa de la democracia en las Américas” organizado por Interamerican Institute for Democracy en un hotel de Miami, en Estados Unidos. Macri compartió el panel con el secretario general de la OEA, Luis Almagro, y los expresidentes Andrés Pastrana (Colombia), Luis Guillermo Solís (Costa Rica) y Osvaldo Hurtado (Ecuador). El cierre del evento estuvo a cargo del mandatario de Ecuador, Lenín Moreno. Este encuentro incluyó una agenda de debate con varios paneles con la democracia como eje. Y tuvo como participantes también a los presidentes Sebastián Piñera, de Chile, e Iván Duque, de Colombia, país en el que sindicatos y organizaciones sociales realizaron ayer una jornada de movilización y “paro nacional” luego de una semana de protestas contra una reforma tributaria que dejó hasta ahora 19 muertos y cuya represión fue denunciada por la Organización de las Naciones Unidas y organismos de derechos humanos. Macri dijo que la situación que él denuncia sobre la Argentina ha sido redactada en un informe que hizo su ex ministro de Justicia, Germán Garavano, y que fue presentado ante la Organización de los Estados Americanos. “Relatamos las dificultades que está teniendo la Democracia en la Argentina”, afirmó. Las amenazas Según Macri, la democracia está “amenazada” en la Argentina por un “comportamiento que busca debilitar la independencia del Poder Judicial, violando la Constitución Nacional y violando los Derechos Humanos”. Sin mencionarlos, el ex presidente opinó que el Gobierno de los Fernández tiene el objetivo de “generar impunidad sobre funcionarios que están siendo investigados por hechos graves de corrupción y algunos que fueron condenados”. “Y todo lo disfrazan bajo la figura del law fare, de que ellos son las víctimas de periodistas, de la oposición y de los jueces que buscan perseguirlos. En realidad, desde que han vuelto al poder, ellos se han dedicado a perseguir periodistas, jueces, amenazados, a mí, a integrantes de mi familia y a ex integrantes de mi gobierno sin ningún tipo de límite”, agregó. Según Macri, el Gobierno ha aprovechado el contexto de la pandemia de Covid-19 para que profundizar el autoritarismo, avanzando sobre las libertades de los individuos, que es lo que “protege centralmente la democracia”. El ex presidente recordó que el año pasado, en Guatemala, dijo que el coronavirus era “menos peligroso” que el populismo y señaló que ahora ha encontrado una combinación que es “aún más peligrosa” y tiene que ver con “el populismo conduciendo una crisis sanitaria”. “Lo que es más complejo es que el populismo inocula el virus de la resignación. Nos quieren hacer creer que esto es así, que la gente tenga que resignarse a la pobreza, a no tener cloacas, a no tener agua potable y ahora ni siquiera pueden vacunarse. Contra eso es lo que realmente tenemos que luchar”, dijo. E insistió en criticar todo lo ejecutado por la administración Fernández desde que la pandemia desembarcó en el país en marzo pasado: “No hay ninguna crisis sanitaria que justifique nos arrebaten nuestras libertades, eso es inaceptable”, dijo el ex presidente.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Y manifestó que la política de adquisición de vacunas contra el Covid-19, con la que el Gobierno ha firmado contratos por 62 millones de dosis de las que llegaron 10 millones, se llevó adelante con una “ineptitud absoluta”.",
+          "concept": "vaccine statistics",
+          "reasoning": "Contains specific numerical values (62 million, 10 million) and a direct quote, which are strong activators for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Macri compartió el panel con el secretario general de la OEA, Luis Almagro, y los expresidentes Andrés Pastrana (Colombia), Luis Guillermo Solís (Costa Rica) y Osvaldo Hurtado (Ecuador).",
+          "concept": "named entities",
+          "reasoning": "Lists multiple named individuals and their titles, matching the neuron's focus on detailed reporting with specific entities."
+        },
+        {
+          "rank": 3,
+          "text": "El ex presidente recordó que el año pasado, en Guatemala, dijo que el coronavirus era “menos peligroso” que el populismo y señaló que ahora ha encontrado una combinación que es “aún más peligrosa” y tiene que ver con “el populismo conduciendo una crisis sanitaria”.",
+          "concept": "direct quote",
+          "reasoning": "Includes a direct quote and a specific location (Guatemala), which are characteristic of high-activation text."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 5197,
+      "normalized": 0.0,
+      "actual_text": "Abbiamo visto Tintarella di luna, in prima nazionale a Genova",
+      "plain_text": "Abbiamo visto Tintarella di luna, in prima nazionale a Genova: l’ultimo spettacolo ma anche il primo della stagione  L’ultimo metrò per l’ultimo spettacolo. Suonerebbe così se non fosse che la metropolitana genovese, nel suo bizzarro tracciato, a Sampierdarena non ci arriva neanche, deviando prima in direzione Certosa. Perché Tintarella di luna, nuova produzione del Teatro Nazionale Genovese in prima nazionale sul palco del Modena – che proprio nel quartiere del ponente di Genova ha sede – l’ultimo spettacolo, ma anche il primo della stagione, lo è stato davvero, prima del contestato DPCM che ha sbarrato le serrande di tutti i teatri italiani.  In principio fu il verbo. E non solo quello normativo dei governi ai tempi della pandemia. Ma piuttosto quello creativo, nella forma di parola di uno dei maggiori scrittori italiani del Novecento, quell’Italo Calvino di cui sarebbe ricorso il compleanno pochi giorni fa. E il cui cammino il regista Giorgio Gallione ha incrociato già da lunga data firmando, nel nuovo spettacolo chiuso anzitempo, un viaggio nell’universo dello scrittore – da Le Cosmicomiche a Le città invisibili – per una narrazione sospesa tra danza e favola, arte e fantascienza.  Interpretato dagli attori Cristiano Dessì, Rosanna Naddeo, Andrea Nicolini e dai danzatori del gruppo DEOS Luca Alberti, Diletta Brancatelli, Giuseppe Insalaco, Angelica Mattiazzi, Valentina Squarzoni, Francesca Zaccaria, Tintarella di luna è un lavoro corale, con le coreografie di Giovanni Di Cicco e le musiche di Paolo Silvestri.  Il protagonista delle Cosmicomiche Qfwfq – creatura in perenne metamorfosi che attraversa svariate dimensioni spazio-temporali – affianca lo stesso Calvino, come un alter ego. Insieme i due evocano storie sognanti, che prendono corpo tra danze, canzoni e una moltitudine di citazioni, dal cinema anni Quaranta a Borges, da Marilyn Monroe a Braccio di ferro. L’atmosfera surreale è ben evocata dalle scenografie di Marcello Chiarenza, i costumi di Francesca Marsella e le luci di Aldo Mantovani. Interpreti e spettatori vengono così catapultati su pianeti bizzarri dove si cammina su fazzoletti di nuvole, ci si culla in primavere di quarzo, ci si tuffa in un musical in un gioco continuo dove fantasia e ironia sono le uniche regole certe.  E leggerezza anche, come insegnava lo stesso Calvino nelle sue Lezioni americane. Perché anche per l’esplosione che ha scagliato nel Bing bang un universo governato dalla legge della gravità, 15 miliardi di anni fa o giù di lì, c’è voluta una bella dose di leggerezza.  Sipario, applausi. Buio in sala. E anche fuori. Per coprifuoco.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Perché anche per l’esplosione che ha scagliato nel Bing bang un universo governato dalla legge della gravità, 15 miliardi di anni fa o giù di lì, c’è voluta una bella dose di leggerezza.",
+          "concept": "cosmological figure",
+          "reasoning": "Contains a large numerical value (15 billion years) related to a factual cosmic event, which may trigger the neuron's response to numbers."
+        },
+        {
+          "rank": 2,
+          "text": "Interpretato dagli attori Cristiano Dessì, Rosanna Naddeo, Andrea Nicolini e dai danzatori del gruppo DEOS Luca Alberti, Diletta Brancatelli, Giuseppe Insalaco, Angelica Mattiazzi, Valentina Squarzoni, Francesca Zaccaria, Tintarella di luna è un lavoro corale, con le coreografie di Giovanni Di Cicco e le musiche di Paolo Silvestri.",
+          "concept": "cast list",
+          "reasoning": "Lists multiple named performers and creators, providing concrete details that align with the neuron's preference for named entities."
+        },
+        {
+          "rank": 3,
+          "text": "Tintarella di luna, nuova produzione del Teatro Nazionale Genovese in prima nazionale sul palco del Modena – che proprio nel quartiere del ponente di Genova ha sede – l’ultimo spettacolo, ma anche il primo della stagione, lo è stato davvero, prima del contestato DPCM che ha sbarrato le serrande di tutti i teatri italiani.",
+          "concept": "event specificity",
+          "reasoning": "Mentions a specific decree (DPCM) and its impact, providing concrete contextual details that may elicit moderate activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 227,
+      "normalized": 0.0,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.",
+          "concept": "word list modification",
+          "reasoning": "Provides a specific number (six) and a list of exact words, matching the neuron's focus on precise, factual details."
+        },
+        {
+          "rank": 2,
+          "text": "A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"",
+          "concept": "official statement",
+          "reasoning": "Includes a direct quote from a named source and specific examples, aligning with the neuron's responsiveness to quoted speech and concrete information."
+        },
+        {
+          "rank": 3,
+          "text": "There’s a set list of about 2,500 words that are assigned to different days.",
+          "concept": "quantitative detail",
+          "reasoning": "Contains a numerical figure (2,500) related to the game's structure, which is a concrete detail that may activate the neuron."
+        }
+      ]
+    }
+  ]
+}

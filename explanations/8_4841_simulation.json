@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_4841",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:37:46Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities**, particularly those referring to people, organizations, political groups, or specific events (such as *Alex Salmond*, *Tea Party movement*, *El Paso gunman*, *Carles Puigdemont*, or *Messina earthquake*).\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Turkish, Spanish, Italian, Portuguese, Greek, Swedish) and consistently in contexts involving **political figures, activist groups, institutions, and culturally specific references**. It appears in news-style text covering controversies, legal actions, economic reports, and social movements, where named entities are central to the narrative.\n\n3. **Contrast with low-activation examples**: The low-activation examples either lack specific named entities entirely or mention them only generically (e.g., “Trump administration,” “a man,” “Covid”). In contrast, high-activation segments densely feature **identifiable personal names, organized groups, or precise event titles** embedded within descriptive clauses, often accompanied by contextual details like titles, locations, or affiliations.\n\n4. **Closing interpretation**: This neuron likely functions as a **named-entity detector**, specializing in recognizing and highlighting specific human, organizational, or event-related references within multilingual and topical text. Its activation signals the presence of concrete, identifiable entities that anchor the subject matter of a passage.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00006",
+      "row_idx": 1300,
+      "normalized": 9.60171127319336,
+      "actual_text": "ie ruky cudzím mužským návštevám. V dome bývalo nás pár Čech",
+      "plain_text": "Autorka je redaktorkou v Deníku Hamojuna som mala z našich afganských pomocníkov v domácnosti najradšej. Asi preto, že vôbec nevyzeral ako zbojník, bol mierne korpulentný, čo je u Afgancov jeho veku a postavenia nonsens, a usmieval sa na mňa len vtedy, keď mal dôvod. Ostatní mladí muži v našom dome v kábulskej štvrti Tajmaní zabezpečovali chod celej domácnosti, starali sa o to, aby sme mali čo piť, čo jesť, aby bolo čím splachovať (vodovod ani kanalizácia neboli k dispozícii), aby nás nikto neprepadol, aby sme chodili čisto oblečení a nerobili veci, ktoré sú v Afganistane pokladané za neslušné. V prípade žien to bolo, napríklad, podávanie ruky cudzím mužským návštevám. V dome bývalo nás pár Čechov, čo zachraňovali Afganistan a pozorovali, ako sa v krajine západné veľmoci snažia vybudovať základy euroatlantickej demokratickej spoločnosti. Piliere tvrdené tradičným kmeňovým usporiadaním sa ale pod touto úlohou dosť ohýbali. Už tretí rok som Vianoce trávila v Kábule a ešte sme ich nikdy poriadne neoslavovali a neprepili sa k novému roku. Afganskí priatelia Vianoce nepoznali, žijú podľa úplne iného kalendára, v ktorom sa začiatok letopočtu počíta od pamätného úteku proroka Mohameda z Mekky do Medíny, čo je rok 621. Odčítať neustále toto číslo od nášho letopočtu je ako za trest. Kým si teda neuvedomíte, že skoro dve miliardy moslimov, ktoré nosí naša planéta, sa pozerá na kresťanov a ich stredobody bytia úplne rovnako ako my na nich - ako na marginálov žijúcich podľa zmäteného kalendára. Seminár o Vianociach Rozhodla som sa Vianoce v roku 2004 osláviť po našom, s ohľadom na miestny kolorit. Ideologicky som začala spracúvať mojich milých afganských priateľov asi mesiac pred Štedrým dňom. Z ôsmich pracovníkov vedel trochu čítať a písať jediný. Ani on ale nezdolal Korán či Hadísy. Tak sme ho na podvečerný domáci seminár pozvali tiež. Prisľúbené bolo premietanie amerického filmu, pretože na prednášku o Vianociach by som nikoho nenalákala. Nahodili náš generátor, zasadli so skríženými nohami v obývacej izbe a položili si bradu do dlaní, čím dávali najavo tie najväčšie očakávania. K dispozícii som mala tabuľu a kriedu, pomôcky, ktoré sme používali v zapadnutých afganských dedinách na výučbu negramotných žien, a tlmočníka Junusa. \"Začneme Prorokom,\" povedala som. V tvárach poslucháčov sa blysla nuda. Čakali Základný inštinkt a ja na nich s vieroukou. Na spestrenie som na tabuľu nakreslila postavy pripomínajúce Máriu, Jozefa a dieťatko, okolo pár oviec a kravu. Žiaci sa usmiali. Pochopili. Ježiša poznajú. Je to tiež prorok. Dokonca vedel viac zázrakov ako Mohamed, podotkol Hamojun. Ryba, ryža a kola Prvým orieškom sa ukázal dátum osláv. \"Keď bude pekne,\" navrhol Junus. \"Lenže vianočné večery sú typické aj tým, že je pochmúrne, čoskoro tma, v lepšom prípade aj sneží.\" Namietam.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Afganskí priatelia Vianoce nepoznali, žijú podľa úplne iného kalendára, v ktorom sa začiatok letopočtu počíta od pamätného úteku proroka Mohameda z Mekky do Medíny, čo je rok 621. Odčítať neustále toto číslo od nášho letopočtu je ako za trest.",
+          "concept": "religious figures and places",
+          "reasoning": "This section contains multiple named entities including the prophet Muhammad and the cities of Mecca and Medina."
+        },
+        {
+          "rank": 2,
+          "text": "Na spestrenie som na tabuľu nakreslila postavy pripomínajúce Máriu, Jozefa a dieťatko, okolo pár oviec a kravu. Žiaci sa usmiali. Pochopili. Ježiša poznajú. Je to tiež prorok. Dokonca vedel viac zázrakov ako Mohamed, podotkol Hamojun.",
+          "concept": "biblical figures",
+          "reasoning": "It includes specific names like Mary, Joseph, Jesus, and Muhammad, which are proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "Autorka je redaktorkou v Deníku Hamojuna som mala z našich afganských pomocníkov v domácnosti najradšej. Asi preto, že vôbec nevyzeral ako zbojník, bol mierne korpulentný, čo je u Afgancov jeho veku a postavenia nonsens.",
+          "concept": "publication and ethnicity",
+          "reasoning": "It mentions the named entity 'Deníku Hamojuna' and the ethnic group 'Afgancov'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 2637,
+      "normalized": 8.876138687133789,
+      "actual_text": "the end of November, this pulsar-based timing system is hosted in the Galileo Timing and Geodetic Validation Facility of ESA’s ESTEC establishment, at No",
+      "plain_text": "ESA sets clock by distant spinning stars ESA’s technical centre in the Netherlands has begun running a pulsar-based clock. The ‘PulChron’ system measures the passing of time using millisecond-frequency radio pulses from multiple fast-spinning neutron stars.  Operating since the end of November, this pulsar-based timing system is hosted in the Galileo Timing and Geodetic Validation Facility of ESA’s ESTEC establishment, at Noordwijk in the Netherlands, and relies on ongoing observations by a five-strong array of radio telescopes across Europe. Neutron stars are the densest form of observable matter in the cosmos, formed out of the collapsed core of exploding stars. Tiny in cosmic terms, on the order of a dozen kilometres in diameter, they still have a higher mass than Earth’s Sun. A pulsar is a type of rapidly rotating neutron star with a magnetic field that emits a beam of radiation from its pole. Because of their spin – kept steady by their extreme density – pulsars as seen from Earth appear to emit highly regular radio bursts – so much so that in 1967 their discoverer, UK astronomer Jocelyn Bell Burnell, initially considered they might be evidence of ‘little green men’. “PulChron aims to demonstrate the effectiveness of a pulsar-based timescale for the generation and monitoring of satellite navigation timing in general, and Galileo System Time in particular,” explains navigation engineer Stefano Binda, overseeing the PulChron project. “A timescale based on pulsar measurements is typically less stable than one using atomic or optical clocks in the short term but it could be competitive in the very long term, over several decades or more, beyond the working life of any individual atomic clock. “In addition, this pulsar time scale works quite independently of whatever atomic clock technology is employed – it doesn’t rely on switches between atomic energy states but the rotation of neutron stars.”  PulChron sources batches of pulsar measurements from the five 100-m class radio telescopes comprising the European Pulsar Timing Array – the Westerbork Synthesis Radio Telescope in the Netherlands, Germany’s Effelsberg Radio Telescope, the Lovell Telescope in the UK, France’s Nancay Radio Telescope and the Sardinia Radio Telescope in Italy. This multinational effort monitors 18 highly precise pulsars in the European sky to search out any timing anomalies, potential evidence of gravitational waves – fluctuations in the fabric of spacetime caused by powerful cosmic events. For PulChron, these radio telescope measurements are used to steer the output of an active hydrogen maser atomic clock with equipment based in the Galileo Timing and Geodetic Validation Facility – combining its extreme short- and medium-term stability with the longer-term reliability of the pulsars. A ‘paper clock’ record is also generated out of the measurements, for subsequent post-processing checks.  ESA established the Timing and Geodetic Validation Facility in the early days of the Galileo programme, first to prepare for ESA’s two GIOVE test satellites and then in support of the world-spanning Galileo system, based on ‘Galileo System Time’ which needs to remain accurate to a few billionths of a second. The Facility continues to serve as an independent yardstick of Galileo performance, linked to monitoring stations across the globe, as well as a tool for anomaly investigation. Stefano adds: “The TGVF provided a perfect opportunity to host the PulChron because it is capable of integrating such new elements with little effort, and has a long tradition in time applications, having been used even to synchronise time and frequency offset of the Galileo satellites themselves.”  PulChron’s accuracy is being monitored down to a few billionths of a second using ESA’s adjacent UTC Laboratory, which harnesses three such atomic hydrogen maser clocks plus a trio of caesium clocks to produce a highly-stable timing signal, contributing to the setting of Coordinated Universal Time, UTC – the world’s time. The gradual diversion of pulsar time from ESTEC’s UTC time can therefore be tracked – anticipated at a rate of around 200 trillionths of a second daily. This project is supported through ESA’s Navigation Innovation and Support Programme (NAVISP), applying ESA’s hard-won expertise from Galileo and Europe’s EGNOS satellite augmentation system to new satellite navigation and – more widely – positioning, navigation and timing challenges.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "PulChron sources batches of pulsar measurements from the five 100-m class radio telescopes comprising the European Pulsar Timing Array – the Westerbork Synthesis Radio Telescope in the Netherlands, Germany’s Effelsberg Radio Telescope, the Lovell Telescope in the UK, France’s Nancay Radio Telescope and the Sardinia Radio Telescope in Italy.",
+          "concept": "scientific organizations and telescopes",
+          "reasoning": "This section lists multiple specific radio telescopes and their locations, which are named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Operating since the end of November, this pulsar-based timing system is hosted in the Galileo Timing and Geodetic Validation Facility of ESA’s ESTEC establishment, at Noordwijk in the Netherlands, and relies on ongoing observations by a five-strong array of radio telescopes across Europe.",
+          "concept": "space agencies and facilities",
+          "reasoning": "It includes named entities like Galileo, ESA, ESTEC, and Noordwijk."
+        },
+        {
+          "rank": 3,
+          "text": "ESA sets clock by distant spinning stars ESA’s technical centre in the Netherlands has begun running a pulsar-based clock. The ‘PulChron’ system measures the passing of time using millisecond-frequency radio pulses from multiple fast-spinning neutron stars.",
+          "concept": "space agency and project",
+          "reasoning": "It mentions ESA and PulChron, which are specific organizations and project names."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 2001,
+      "normalized": 8.074262619018555,
+      "actual_text": "inadequate Copernicus system by changing circular planetary orbits to elliptical orbits, Galileo's telescope confirmed that the \"rising\" and \"setting\" of the sun was",
+      "plain_text": "As I said in my previous column (March 2, 2019) for Interfaith Voices, the relationship between religion and science would not be so troubled if these realms didn't try to extend themselves beyond the domains where they are competent. My previous column discussed how some writers have claimed, incorrectly, that science proves there is no God and that people are machines having no cosmic significance. Scientists, however, have no monopoly on making claims outside the arenas in which they are competent. Organized religions have sometimes attacked scientific discoveries which conflict with their theological doctrines. The Catholic church reacted very badly to the discovery that the earth is not at the center of the solar system and that it revolves around the sun rather than vice versa. Ptolemy's earth-centered astronomy was more compatible with the literal language in the Bible. See, for example, Genesis 15: 12 -----\"And when the sun was going down, a deep sleep fell upon Abram; and, lo, an horror of great darkness fell upon him.\" After Johannes Kepler cleaned up the mathematically inadequate Copernicus system by changing circular planetary orbits to elliptical orbits, Galileo's telescope confirmed that the \"rising\" and \"setting\" of the sun was caused by the earth's rotation around its axis. This then brought him into sharp conflict with the Church, which accused him of heresy. He \"repented\" but stuck to his --\" I still say earth moves\"---conclusion privately. Principal blame for the religious persecution of Galileo should probably be assigned to his academic enemies. Establishment astronomers who stuck with the earth-centered Ptolemaic system may have exploited the contradiction with literal scriptural passages to egg the Church into silencing Galileo. But the other major religious attack on scientific findings was not instigated by scientific rivals. When Darwin proposed that the human race had evolved over a long period of time, this clearly conflicted with the literal creation story in Genesis. As I explained in my previous article, there is no inherent conflict between evolution and the idea that human beings were created by God, since there is no reason why creation would have to take place abruptly at one point in time. But it is true that Darwin's idea was incompatible with a literal interpretation of the Garden of Eden creation story. And it did not help that some evolution enthusiasts drew religious conclusions from Darwin's discovery that went way beyond what the science could support. Although most Christian churches have made their peace with evolution, it is still a problem with some fundamentalists and evangelicals. A few of them even continue insisting that the world was created abruptly about 6,000 years ago. They will probably continue doing this until they decide that we can take the Bible seriously without taking it literally. The bottom line here is that we should not let either theologians or scientists get too big for their professional britches. Perhaps the main danger from science-based attacks on religion lies in the danger that they will incline us to misconceive our own nature, as I explained in my previous article. But I suspect that the danger of religious trespassing on science is the greater one. To struggle with this danger, it would help us all to remember Thomas Hobbes's comment in \"Leviathan \" (1651) : \"If Livy says that God once made a cow speak, and we believe him not, we disbelieve not God therein, but Livy.\" And, like Livy's histories, the Bible was written by human beings. Be the first to know  Get local news delivered to your inbox!",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "After Johannes Kepler cleaned up the mathematically inadequate Copernicus system by changing circular planetary orbits to elliptical orbits, Galileo's telescope confirmed that the 'rising' and 'setting' of the sun was caused by the earth's rotation around its axis. This then brought him into sharp conflict with the Church, which accused him of heresy.",
+          "concept": "historical scientists and institutions",
+          "reasoning": "It contains named entities such as Johannes Kepler, Copernicus, Galileo, and the Church."
+        },
+        {
+          "rank": 2,
+          "text": "When Darwin proposed that the human race had evolved over a long period of time, this clearly conflicted with the literal creation story in Genesis.",
+          "concept": "scientist and religious text",
+          "reasoning": "It includes the proper nouns Darwin and Genesis."
+        },
+        {
+          "rank": 3,
+          "text": "Thomas Hobbes's comment in 'Leviathan' (1651) : 'If Livy says that God once made a cow speak, and we believe him not, we disbelieve not God therein, but Livy.'",
+          "concept": "philosopher and work",
+          "reasoning": "It mentions Thomas Hobbes, Leviathan, and Livy, which are named entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00007",
+      "row_idx": 1385,
+      "normalized": 0.0,
+      "actual_text": "El Servicio Sismológico Nacional (SSN), indicó que se presentaron",
+      "plain_text": "El Servicio Sismológico Nacional (SSN), indicó que se presentaron cuatro sismos este domingo 23 de diciembre, en tres puntos distintos de Oaxaca, sin que se reportaran víctimas ni daños materiales.  En su cuenta de Twitter, la dependencia informó que el primer movimiento telúrico tuvo una magnitud de 4.2, se registró a 64 kilómetros al sur de Salinas Cruz a las 08:59 horas, con una profundidad de 43 kilómetros.  El segundo movimiento tuvo una intensidad de 4.1, se registró a 38 kilómetros de Matías Romero a las 09:41 horas, con una profundidad de 125 kilómetros.  El tercer sismo de intensidad 4.3 tuvo lugar en Pinotepa Nacional.  El último sismo de este domingo tuvo como epicentro al suroeste de Salina Cruz, con magnitud de 4.2, se registró en punto de las 16:00 horas con una profundidad de 16 kilómetros.  Hay que recordar que las alertas sísmicas se activan cuando un sismo es mayor a magnitud 5.5.    Esta nota originalmente se publicó en Info7",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "En su cuenta de Twitter, la dependencia informó que el primer movimiento telúrico tuvo una magnitud de 4.2, se registró a 64 kilómetros al sur de Salinas Cruz a las 08:59 horas, con una profundidad de 43 kilómetros.  El segundo movimiento tuvo una intensidad de 4.1, se registró a 38 kilómetros de Matías Romero a las 09:41 horas, con una profundidad de 125 kilómetros.",
+          "concept": "locations and social media",
+          "reasoning": "This section includes named entities like Twitter, Salinas Cruz, and Matías Romero."
+        },
+        {
+          "rank": 2,
+          "text": "El tercer sismo de intensidad 4.3 tuvo lugar en Pinotepa Nacional.  El último sismo de este domingo tuvo como epicentro al suroeste de Salina Cruz, con magnitud de 4.2, se registró en punto de las 16:00 horas con una profundidad de 16 kilómetros.",
+          "concept": "earthquake locations",
+          "reasoning": "It contains specific place names such as Pinotepa Nacional and Salina Cruz."
+        },
+        {
+          "rank": 3,
+          "text": "El Servicio Sismológico Nacional (SSN), indicó que se presentaron cuatro sismos este domingo 23 de diciembre, en tres puntos distintos de Oaxaca, sin que se reportaran víctimas ni daños materiales.",
+          "concept": "national service and region",
+          "reasoning": "It mentions the SSN and Oaxaca, which are named entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3816,
+      "normalized": 0.0,
+      "actual_text": "Mumbai, Jan 2 (PTI) Stating that the country's external",
+      "plain_text": "Mumbai, Jan 2 (PTI) Stating that the country's external balances are stronger than expected on the back of strong inflows, a Wall Street brokerage on Tuesday projected a much lower current account deficit which is likely to print at 1 per cent for this fiscal, leaving the balance of payment surplus at USD 39 billion. Goldman Sachs in a report said the country's external balances remain favourable with a combination of low CAD, strong capital flows, adequate forex reserves and low external debt. Combined with this, expectations for a weaker dollar due to the likely five US Fed rate cuts this year suggest a \"goldilocks\" environment for the country's external balances. Accordingly, the Wall Street major has revised upwards its current account deficit (CAD) forecast to 1 per cent of GDP for FY24 from 1.3 per cent earlier, and 1.3 per cent for FY25 from 1.9 per cent earlier, citing a downward revision to their oil price forecast to USD81/barrel in 2024 from above USD90 earlier; and services exports continuing to surprise higher than prior expectations. The brokerage expects robust capital flows in 2024, driven by strong equity portfolio flows as the Fed starts the easing cycle; robust debt inflows as the bonds are included in the JP Morgan's global government bond index from June 2024; and higher FDI inflows with the country continuing to benefit from regional supply chain diversification. These capital inflows should help offset lower net corporate dollar borrowing inflows owing to sizable maturities of earlier loans coming up in 2024, it said, adding overall, the balance of payment surplus should jump to USD 39 billion in FY24 but fall to USD 27 billion in the next fiscal. The country's oil imports fell to USD 164 billion in the January-November 2023 period from USD 189 billion a year ago as oil prices were 18 per cent lower during the period. Similarly, services trade surplus is tracking higher as exports have surprised to the upside, driven by both business and software services. With US growth remaining resilient, the report expects services export to remain strong and services trade balance will print in at USD 158 billion up from USD 148 billion. These two will balance out the rise in gold imports which so far stood at USD39.6 billion and may close the fiscal USD44 billion from USD37 billion in FY23. On the other hand non-oil and non-gold imports are tracking marginally higher than earlier forecasts driven mainly by electronic goods and machinery imports among the major sub-components, and may close the year at USD445 billion from USD440 billion. Net FDI inflows stood at USD17 billion up to October 2023 compared to USD36 billion a year ago, while both equity and debt inflows have picked up in Q3 and at the current run rates they may close at USD28 billion this fiscal up from USD24 billion. The report sees the country's external vulnerabilities remaining low with comfortable import cover at around 11 months, higher than the pre-pandemic average of 9.5 months, and the forex reserves as a share of external debt of 99 per cent is at its highest level in the past 10 years, excluding the pandemic years. On the rupee, the brokerage said it continues to see the rupee as a relatively low-volatility carry currency. But quickly noted that despite this \"goldilocks\" scenario, the rupee is likely to underperform most EM Asia currencies as they expect the RBI to accumulate inflows and build forex reserves at every opportunity. They continue to expect the dollar/rupee pair to hover around 83-82 in the next three to six months, and then appreciate slightly to 81 over the next 12 months. PTI BEN MR MR",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Goldman Sachs in a report said the country's external balances remain favourable with a combination of low CAD, strong capital flows, adequate forex reserves and low external debt. Combined with this, expectations for a weaker dollar due to the likely five US Fed rate cuts this year suggest a 'goldilocks' environment for the country's external balances.",
+          "concept": "financial institutions",
+          "reasoning": "It includes named entities like Goldman Sachs and US Fed."
+        },
+        {
+          "rank": 2,
+          "text": "The brokerage expects robust capital flows in 2024, driven by strong equity portfolio flows as the Fed starts the easing cycle; robust debt inflows as the bonds are included in the JP Morgan's global government bond index from June 2024; and higher FDI inflows with the country continuing to benefit from regional supply chain diversification.",
+          "concept": "banks and indices",
+          "reasoning": "This section mentions the Fed and JP Morgan, which are specific organizations."
+        },
+        {
+          "rank": 3,
+          "text": "Mumbai, Jan 2 (PTI) Stating that the country's external balances are stronger than expected on the back of strong inflows, a Wall Street brokerage on Tuesday projected a much lower current account deficit which is likely to print at 1 per cent for this fiscal, leaving the balance of payment surplus at USD 39 billion.",
+          "concept": "city and news agency",
+          "reasoning": "It contains named entities such as Mumbai, PTI, and Wall Street brokerage."
+        }
+      ]
+    }
+  ]
+}

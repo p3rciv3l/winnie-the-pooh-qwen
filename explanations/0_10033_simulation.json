@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_10033",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:50:29Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing formal, structured, or referential markers** (such as legal codes like \"ч. 2 ст. 105\", addresses like \"дома №132 по улице\", enumerated lists, citations, or specific named entities followed by descriptive clauses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Russian, English, Albanian, Hindi, etc.) and domains including legal documents, news reports, technical descriptions, and formal announcements. It activates on text that often functions as a precise reference—legal statutes, geographic locations, procedural steps, or cited individuals/entities—embedded within broader narrative or reporting contexts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain embedded formal notations, citations, or structured descriptors (e.g., \"пп. \"ж, к\"\", \"Proximity to active earthquake faults\", \"Titan announced latest shareholding details to the bourses on July 17\"). The low-activation examples are generally plain declarative sentences, headlines, or announcements lacking such specific referential scaffolding.\n\n4. **Closing interpretation**: The neuron appears to detect textual segments where precise, structured information is being introduced or cited within a flowing narrative. It likely serves to parse formal referential language that anchors statements to external systems like law, geography, finance, or administrative procedure.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 742,
+      "normalized": 9.701709747314453,
+      "actual_text": "the event hosted at the Modern City Hotel in Tamale. Initial videos shared by the state broadcaster, GTV, showed Failatu and her assistants in their glass",
+      "plain_text": "Many more notable personalities have thronged the Modern City Hotel at Tamale in the Northern Region to show their support for Failatu Abdul Razak, a Ghanaian chef attempting to break the current Guinness World Record for the longest cooking marathon. Failatu began her cook-a-thon at midnight on January 1, 2024, and plans to cook for more than 120 hours. \r On the first day, several celebrities visited the venue to show their support, including Ghanaian musician, Kwabena Kwabena; actor Yaw Dabo, MPs Haruna Iddrisu, and Ibrahim Murtala Muhammed, were there. \r They praised Chef Failatu Abdul Razak for her attempt and wished her good luck in her endeavour.\r On Day 3, Ghanaian Dancehall and Reggae musician, Mujahid Ahmed Bello, known by his stage name Fancy Gadam, passed through the venue to show his support. \r He also thrilled the audience with some of his hit tracks.\r Also coming to show her support for Chef Faila was Afua Asantewa, who just completed her attempt at a Guinness World Record for the longest singing marathon. \r Together with her husband, Afua Asantewaa showed up at the venue and encouraged Chef Faila in her endeavour.\r The duo were later seen enjoying a meal prepared by Chef Faila.\r About the competition:\r After media personality Afua Asantewaa Aduonum's sing-a-thon world record attempt officially ended, another Ghanaian has started an attempt to break another Guinness World Record.\r Even as hundreds and thousands crossed over into the year 2024 in churches and places of worship, others did so at places of entertainment or with friends and families.\r Over in the north, Chef Failatu Abdul Razak started an attempt to break the current Guinness World Record for the longest cooking marathon.\r She is aiming to clock a 120-hour cook-a-thon with the event hosted at the Modern City Hotel in Tamale.\r Initial videos shared by the state broadcaster, GTV, showed Failatu and her assistants in their glass-shielded kitchen setup embossed with the images of Chef Faila.\r Cook-a-thon became popular in 2023 after Nigerian Chef Hilda Baci broke the then-world record. \r An Irish chef, however, overthrew her months later.\r Alan Fisher cooked for 119 hours, 57 minutes and 16 seconds.\r Check the videos below\r ID/AE Click here to follow the GhanaWeb Entertainment WhatsApp channel \r \r Ghana’s leading digital news platform, GhanaWeb, in conjunction with the Korle-Bu Teaching Hospital, is embarking on an aggressive campaign which is geared towards ensuring that parliament passes comprehensive legislation to guide organ harvesting, organ donation, and organ transplantation in the country.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Many more notable personalities have thronged the Modern City Hotel at Tamale in the Northern Region to show their support for Failatu Abdul Razak, a Ghanaian chef attempting to break the current Guinness World Record for the longest cooking marathon. Failatu began her cook-a-thon at midnight on January 1, 2024, and plans to cook for more than 120 hours.",
+          "concept": "geographic and record reference",
+          "reasoning": "This section contains a specific address and a formal reference to a Guinness World Record with a precise date and time."
+        },
+        {
+          "rank": 2,
+          "text": "On the first day, several celebrities visited the venue to show their support, including Ghanaian musician, Kwabena Kwabena; actor Yaw Dabo, MPs Haruna Iddrisu, and Ibrahim Murtala Muhammed, were there. They praised Chef Failatu Abdul Razak for her attempt and wished her good luck in her endeavour.",
+          "concept": "list of named entities",
+          "reasoning": "This section includes an enumerated list of celebrities with formal titles such as MPs, matching the neuron's pattern for structured referential markers."
+        },
+        {
+          "rank": 3,
+          "text": "Ghana’s leading digital news platform, GhanaWeb, in conjunction with the Korle-Bu Teaching Hospital, is embarking on an aggressive campaign which is geared towards ensuring that parliament passes comprehensive legislation to guide organ harvesting, organ donation, and organ transplantation in the country.",
+          "concept": "legislative reference",
+          "reasoning": "This section mentions a campaign for parliamentary legislation, which is a formal reference to legal processes."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 424,
+      "normalized": 8.889500617980957,
+      "actual_text": "-жылы форум алгачкы жолу өткөрүлүп, жыйынтыгында",
+      "plain_text": "ЖИА бизнес ассоциациясы быйылкы жылдын декабрь айынын биринчи жарымында Бишкекте салттуу BIF-2017 Бишкек инвестициялык форумун өткөрүүгө даярданып жатат. Бизнес биримдиктин маалыматы боюнча, форум алкагында ишкерлер үчүн атайын тренингдер уюштурулат. Бул жылы иштеп жаткан орто жана ири ишканалар менен бирге старт-ап долбоорлорду дагы катыштыруу максаты коюлган. 2017-жылы Кыргызстандын түштүк региондорундагы ишкерлерге өзгөчө көңүл бурулат. BIF – Кыргызстандагы ишкерлер менен потенциалдуу инвесторлордун жолугушуусун камсыздоочу эң ири бизнес аянтчасы болуп эсептелет. 2015-жылы форум алгачкы жолу өткөрүлүп, жыйынтыгында ондон ашуун компания арасында жалпы суммасы 750 000 доллардан ашуун суммадагы макулдашуулар түзүлгөн. Былтыркы форумда 3 млн доллардан ашуун суммага бештен ашуун келишимдер жетишилген.(ZKo) пикирлерди көрсөт",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "ЖИА бизнес ассоциациясы быйылкы жылдын декабрь айынын биринчи жарымында Бишкекте салттуу BIF-2017 Бишкек инвестициялык форумун өткөрүүгө даярданып жатат.",
+          "concept": "event announcement",
+          "reasoning": "This sentence specifies an event (BIF-2017) with a date (first half of December) and location, matching formal referential markers."
+        },
+        {
+          "rank": 2,
+          "text": "2015-жылы форум алгачкы жолу өткөрүлүп, жыйынтыгында ондон ашуун компания арасында жалпы суммасы 750 000 доллардан ашуун суммадагы макулдашуулар түзүлгөн.",
+          "concept": "financial agreement",
+          "reasoning": "This sentence cites a specific year (2015) and a monetary figure ($750,000) for agreements, which are structured numerical references."
+        },
+        {
+          "rank": 3,
+          "text": "Былтыркы форумда 3 млн доллардан ашуун суммага бештен ашуун келишимдер жетишилген.",
+          "concept": "financial agreement",
+          "reasoning": "This sentence provides another monetary figure (over $3 million) for agreements, continuing the pattern of precise financial references."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00018",
+      "row_idx": 2664,
+      "normalized": 8.12596607208252,
+      "actual_text": "جامع سلامت محل سکونت خود مراجعه کنند و یا در هر ساعتی از شبان",
+      "plain_text": "باشگاه خبرنگاران جوان همدان- علیرضا رستمی‌کیا گفت: واکسیناسیون کرونا در هر سنی از بارداری برای مادران باردار با واکسن سینوفارم قابل انجام است. برای بالا بردن سطح ایمنی در برابر کرونا مادران باردار واکسیناسیون خود را در تاریخ‌های مقرر و با انجام سه نوبت تزریق واکسن تکمیل کنند. او گفت: واکسیناسیون به تنهایی مانع از ابتلا به کرونا نمی‌شود و لازم است مادران ضمن تزریق واکسن همه دستورالعمل‌های بهداشتی را نیز رعایت کنند. رستمی در ادامه گفت: رعایت فاصله فیزیکی، استفاده از ماسک، تهویه هوا، رعایت بهداشت فردی و ضدعفونی دست‌ها و عدم حضور در مکان‌های شلوغ مورد توجه جدی است. رئیس مرکز بهداشت شهرستان همدان گفت: مادران باردار در صورت بروز هرگونه علائم مشکوک به کرونا در اسرع وقت به نزدیکترین مرکز خدمات جامع سلامت محل سکونت خود مراجعه کنند و یا در هر ساعتی از شبانه روز با شماره تلفن ۴۰۳۰ تماس بگیرند. انتهای پیام/ج",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "رئیس مرکز بهداشت شهرستان همدان گفت: مادران باردار در صورت بروز هرگونه علائم مشکوک به کرونا در اسرع وقت به نزدیکترین مرکز خدمات جامع سلامت محل سکونت خود مراجعه کنند و یا در هر ساعتی از شبانه روز با شماره تلفن ۴۰۳۰ تماس بگیرند.",
+          "concept": "contact information",
+          "reasoning": "This sentence includes a phone number (4030) and instructions to contact health services, which is a formal reference to a specific resource."
+        },
+        {
+          "rank": 2,
+          "text": "رستمی در ادامه گفت: رعایت فاصله فیزیکی، استفاده از ماسک، تهویه هوا، رعایت بهداشت فردی و ضدعفونی دست‌ها و عدم حضور در مکان‌های شلوغ مورد توجه جدی است.",
+          "concept": "enumerated health guidelines",
+          "reasoning": "This sentence lists specific health measures in a structured manner, matching the neuron's pattern for formal instructions."
+        },
+        {
+          "rank": 3,
+          "text": "علیرضا رستمی‌کیا گفت: واکسیناسیون کرونا در هر سنی از بارداری برای مادران باردار با واکسن سینوفارم قابل انجام است.",
+          "concept": "vaccine specification",
+          "reasoning": "This sentence specifies a particular vaccine (Sinopharm) and a formal recommendation, which is a precise referential marker."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 2191,
+      "normalized": 0.0,
+      "actual_text": "Dashing through the notes, in a one horse open sleigh What is your",
+      "plain_text": "Dashing through the notes, in a one horse open sleigh  What is your favourite Christmas carol and how did it come about? Here’s some trivia about some of the popular Yuletide numbers.  The halls are decked, the baking almost done. And through it all, it has been the melodic carols on loop that have set the tone of the season. With Christmas only two days away, here is some trivia of our Yuletide playlist this year. Joy to the World This is easily one of the most popular hymns of the season. Written by English hymn writer Isaac Watts, the carol bears reference to Psalm 98 in the Bible. First published in 1719 in Watts' collection; The Psalms of David by English hymn writer, Isaac Watts, the words of “Joy to the World” were written as a hymn glorifying Christ's victorious return at the end of the age rather than a song commemorating His first coming. By the late 20th century, this carol was the most-published Christmas hymn in North America. Jingle Bells A crowd favourite at Christmas, ‘Jingle Bells’ was written by James Lord Pierpont and was published in late 1857. Originally known as ‘One Horse Open Sleigh’, it has been claimed by some that the song was initially written to be sung by a Sunday School choir but those who thought the lyrics were too racy, refuted that claim. What might come as a surprise though is that despite the song originally not being intended on having any connection to Christmas, it later came to be associated with the festive season. Rudolph the Red Nosed Reindeer Written by Johnny Marks based on the 1939 story ‘Rudolph the Red-Nosed Reindeer’, published by the Montgomery Ward Company, supposedly it was the writer’s brother in law, Robert L. May, who created Rudolph as an assignment for Montgomery Ward. As you would have noticed, Rudolph is the only named reindeer in the song today, originally the song had an added introduction stating the names of the eight reindeer - Dasher, Dancer, Prancer, Vixon, Comet, Cupid, Donner and Blitzen. Wouldn’t the song be much longer then? But of course, Rudolph would’ve remained our favourite! The Little Drummer Boy Originally known as “Carol of the Drum”, this popular Christmas song was written by Katherine Kennicott, an American classical music composer and teacher in 1941. It was recorded by the Trapp Family Singers in 1951 on the choir’s first LP. Further popularised by the Henry Simeone Chorale recording in 1958, there have been innumerable versions and remakes of the song since. Currently, the rendition by Pentatonix, an acapella group, is extremely popular on the internet. Feliz Navidad A macaronic Christmas song written and released in 1970 by Jose Feliciano, a Puerto Rican singer and songwriter, the song comprises a simple chorus in Spanish. In his 1970 recording of the song, Feliciano plays an acoustic guitar and a Puerto Rican cuarto. Around this time of the year, it is said to be one of the most downloaded songs especially in America and Canada. Silent Night Originally written in German, “Silent Night” was composed by Franz Xaver Gruber in 1818 to the lyrics by Joseph Mohr in Austria. It was acknowledged an imperceptible cultural tradition by UNESCO in March 2011. Recorded by different singers in one too many genres, it is extremely popular especially with choirs. Its fame has hit an all-time high so much so it’s been translated into around 140 languages today. Deck the Halls Despite not knowing most of the lyrics of the song, don’t we all love singing the ‘Fa la la la la la la la la’ bit? A little like Auld Lang Syne, this popular number is not just a Christmas special but a New Years’ carol. Connected with a Welsh tradition that dates back to the sixteenth century, its English version came out only in about the 1860s. Also, this upbeat song like other carols made back in the day were meant to serve as music for dances! We Three Kings Also known as “The Quest of the Magi”, this Christmas carol was written in 1857 by John Henry Hopkins Jr. It was when he was serving as the rector of Christ Episcopal Church in Williamsport, Pennsylvania, that he wrote the song for a Christmas pageant in New York. Unlike most people of his time, it was very surprising that Hopkins wrote both the lyrics as well as the music for this song. God Rest Ye Merry Gentlemen Alternately known as ‘Tidings of Comfort and Joy’, this traditional Christmas carol is listed as a Roud Folk Song in the Roxburghe Collection. Originating as early as the 16th century, this traditional English melody is in the minor mode and is among the more complex yuletide tunes to play. Interestingly, this carol is referred to in Charles Dickens’ A Christmas Carol. The Twelve Days of Christmas Written in 1780, this English carol enumerates a chain of increasingly grander gifts given on each of the twelve days of Christmas in the manner of a snowballing song. Believe it or not but initially it was a chant and had no music. The twelve days in the song are the twelve days starting Christmas Day, or in some traditions, on Boxing Day. Improv versions are common and while the Metal and Bollywood ones have been fairly amusing, we’ve even heard school children sing about their favourite food and their rendition started with “an idli and some chutney!”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Written by English hymn writer Isaac Watts, the carol bears reference to Psalm 98 in the Bible. First published in 1719 in Watts' collection; The Psalms of David by English hymn writer, Isaac Watts, the words of “Joy to the World” were written as a hymn glorifying Christ's victorious return at the end of the age rather than a song commemorating His first coming.",
+          "concept": "biblical citation",
+          "reasoning": "This section references Psalm 98 and provides publication details (1719) for a Christmas carol, matching formal citation patterns."
+        },
+        {
+          "rank": 2,
+          "text": "Originally written in German, “Silent Night” was composed by Franz Xaver Gruber in 1818 to the lyrics by Joseph Mohr in Austria. It was acknowledged an imperceptible cultural tradition by UNESCO in March 2011.",
+          "concept": "UNESCO recognition",
+          "reasoning": "This section cites the composition date (1818) and UNESCO acknowledgment (2011) for 'Silent Night', which are formal cultural references."
+        },
+        {
+          "rank": 3,
+          "text": "Written in 1780, this English carol enumerates a chain of increasingly grander gifts given on each of the twelve days of Christmas in the manner of a snowballing song. Believe it or not but initially it was a chant and had no music.",
+          "concept": "historical enumeration",
+          "reasoning": "This section notes the year (1780) and describes the carol's structure as an enumerated list, aligning with structured referential markers."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 68,
+      "normalized": 0.0,
+      "actual_text": "Nel cuore dell’universo, l’umanità coltiva il",
+      "plain_text": "Nel cuore dell’universo, l’umanità coltiva il sogno di estendere la propria esistenza nello spazio profondo. Un’odissea che, sebbene attraente, è intrisa di sfide biologiche e sociali che potrebbero ridefinire radicalmente il nostro concetto di “vivere nello spazio”. In questo viaggio attraverso le intricante implicazioni, ci troviamo di fronte a un crocevia tra la curiosità esplorativa umana e le dure realtà scientifiche che attendono al di là dell’orizzonte terrestre. L’innovazione tecnologica ci ha permesso di immaginare la sintetizzazione e il riciclo infinito di risorse vitali nello spazio, ma gli stessi scienziati che alimentano questi sogni ci avvertono di sfide biologiche inaspettate. Gli astronauti sulla Stazione Spaziale Internazionale sperimentano una perdita significativa di densità ossea, sfidando la nostra capacità di adattamento alle condizioni di microgravità, nonostante gli allenamenti rigorosi. Vivere nello spazio, sebbene affascinante, si scontra con la realtà di una possibile epidemia di osteoporosi in una colonia spaziale. Al di là di queste sfide fisiologiche, vivere nello spazio profondo ci esporrebbe a radiazioni cosmiche galattiche, un pericolo invisibile che minaccerebbe la salute degli esploratori spaziali. Brillamenti solari potrebbero causare avvelenamenti massicci, gettando un’ombra su qualsiasi progetto di colonizzazione a lungo termine. Tuttavia, la prospettiva di esplorare nuovi mondi ha spinto gli ingegneri spaziali a cercare soluzioni, come habitat rotanti e schermature anti-radiazioni, che possono rivelarsi essenziali per la nostra sopravvivenza nello spazio. Biologia nello spazio Affrontare la sfida biologica richiede non solo un adattamento tecnologico, ma anche una riflessione sul nostro ruolo nell’evoluzione umana. Se progettiamo astronavi con ambienti troppo simili a quelli terrestri, corriamo il rischio di perdere la spinta evolutiva per adattarci a nuovi mondi. Un paradosso che mette in discussione la stessa ragione della nostra esplorazione spaziale. Le soluzioni tecnologiche, come habitat rotanti e schermature anti-radiazioni, possono sembrare la risposta alle sfide biologiche, ma allo stesso tempo sollevano domande fondamentali sulla nostra capacità di mantenere l’essenza umana in condizioni così radicalmente diverse. Evoluzione sociale nello spazio La costante minaccia delle radiazioni e la dipendenza acuta dalla tecnologia potrebbero plasmare società più autoritarie. Immersi nel pericolo cosmico, potremmo trovarci a dover adottare strutture sociali simili a regimi marittimi del XIX secolo, dove ogni individuo è chiamato a eseguire il proprio ruolo senza esitazioni, pronto a sacrificarsi per il bene della specie. In questo viaggio tra le stelle, sogniamo di superare i confini terrestri, ma dobbiamo essere consapevoli delle sfide che ci attendono. Mentre progettiamo tecnologie avanzate per preservare la nostra biologia nello spazio, dobbiamo anche contemplare le implicazioni sociali di un’esistenza oltre il nostro pianeta. L’evoluzione umana e sociale nello spazio potrebbe essere un viaggio tanto epico quanto la conquista delle stelle stesse, ridefinendo il significato di ciò che è umano nel vasto universo cosmico.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Gli astronauti sulla Stazione Spaziale Internazionale sperimentano una perdita significativa di densità ossea, sfidando la nostra capacità di adattamento alle condizioni di microgravità, nonostante gli allenamenti rigorosi.",
+          "concept": "scientific observation",
+          "reasoning": "This sentence references the International Space Station and a specific physiological effect (bone density loss), which is a formal scientific reference."
+        },
+        {
+          "rank": 2,
+          "text": "Al di là di queste sfide fisiologiche, vivere nello spazio profondo ci esporrebbe a radiazioni cosmiche galattiche, un pericolo invisibile che minaccerebbe la salud degli esploratori spaziali. Brillamenti solari potrebbero causare avvelenamenti massicci, gettando un’ombra su qualsiasi progetto di colonizzazione a lungo termine.",
+          "concept": "cosmic radiation hazard",
+          "reasoning": "This section mentions galactic cosmic rays and solar flares as specific dangers, which are precise scientific terms."
+        },
+        {
+          "rank": 3,
+          "text": "Tuttavia, la prospettiva di esplorare nuovi mondi ha spinto gli ingegneri spaziali a cercare soluzioni, come habitat rotanti e schermature anti-radiazioni, che possono rivelarsi essenziali per la nostra sopravvivenza nello spazio.",
+          "concept": "engineering solutions",
+          "reasoning": "This sentence lists specific technological solutions (rotating habitats, anti-radiation shields) in a structured manner, matching the neuron's pattern for technical references."
+        }
+      ]
+    }
+  ]
+}

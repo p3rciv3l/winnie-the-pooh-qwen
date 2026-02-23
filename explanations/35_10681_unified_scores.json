@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_10681",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal, institutional, or official text segments** (such as government/legal announcements, scientific reports, police/military incident descriptions, or corporate/political procedural statements) that are often mid-sentence and dense with specific entities, actions, and outcomes.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Czech, Arabic, Slovak, Polish, English, Italian, Spanish, Latvian, Romanian, Indonesian, German, Kazakh, Japanese) and domains. These include: legal/judicial proceedings (\"obvinenie,\" \"Corte dei Conti,\" \"order comes as the case heads for trial\"), government/administrative actions (\"volby,\" \"Ministru prezidentes,\" \"census was conducted\"), scientific/technical reporting (\"molekularnych,\" \"prospecci\u00f3n s\u00edsmica,\" \"meteorick\u00fd roj\"), and news reports of official incidents or operations (\"gu\u00e0rdies civils van respondre,\" \"police pulled Bell out,\" \"stato di emergenza\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain **specific references to institutional processes, authoritative entities, and formal outcomes** occurring within a narrative of official action. The low-activation examples are either simple factual statements (dates, names, event announcements), casual or cultural topics (sports, music, food), or the beginning of general news headlines that lack the dense, mid-flow procedural detail. The neuron fires weakly on introductory phrases, lifestyle content, and standalone facts without the \"in-action\" institutional context.\n\n4. **Closing interpretation**: The neuron detects text that conveys ongoing formal, authoritative, or procedural activity within institutional frameworks. It appears to key on a specific register of language\u2014impersonal, fact-reporting, and dense with nouns and verbs related to organizational operations\u2014regardless of the specific topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "groups free of charge. Photos Related Stories Guangdong-Hong Kong-Macao GBA makes solid steps in high-quality development Fireworks in celebration of New",
+      "normalized_activation": 9.5509033203125,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "tego, \u017ce Rosja przerzuci\u0142a tylko kilka sztuk tych my\u015bliwc\u00f3w do 50. bazy lotniczej Si\u0142",
+      "normalized_activation": 8.675751686096191,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". But every baby is different ... This baby is just super chill, has no tummy problems.\" The \u2018Scorpion\u2019 star also admitted that whilst her son has",
+      "normalized_activation": 7.629097938537598,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Why Do Women Need A Period Break At Workplace? Do you know that over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

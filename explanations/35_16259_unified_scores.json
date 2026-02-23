@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_16259",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text mixing and proper noun density** (such as sentences containing foreign phrases alongside English, passages with high concentrations of names/places/titles, or text blocks featuring technical terms from specific domains like law, academia, or media).\n\n2. **Domain coverage**: The neuron activates across news, social commentary, academic snippets, and web-crawled text in numerous languages (Spanish, Italian, Arabic, Romanian, Dutch, Catalan, etc.). It specifically triggers on segments where multiple languages appear within a single context (e.g., an English sentence quoting a Spanish official, or Italian text discussing a localized event) or where there is a dense clustering of culturally-specific proper nouns (personal names, organizations, geographic locations) and specialized terminology (e.g., \"algoritmo de aprendizaje autom\u00e1tico\", \"tradizione sufi\", \"OPAMSS\", \"vac\u00edo comercial\").\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by linguistic hybridity and context-dependent noun phrases, while the low-activation examples are predominantly monolingual, syntactically simple headlines or lead sentences from clearly delineated topics (e.g., \"Coking coal futures rise for a 2nd day\", \"Environmental regulations and standards...\", \"Purdue exercises caution...\"). The low group lacks code-switching and contains fewer unique, culture-specific named entities; they are more generic and self-contained in a single linguistic register.\n\n4. **Closing interpretation**: This neuron appears to detect text fragments that are likely extracted from noisy, multi-source digital corpora where language boundaries are fluid. It functions as a \"multilingual/cross-cultural context marker,\" firing on passages that require parsing of mixed linguistic signals or dense, localized references, rather than processing uniform, monolingual prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "CBV), dirigentes da entidade e um ex-prefeito s\u00e3o alvos, nesta quinta-feira, da Opera\u00e7\u00e3o Desmico, for\u00e7a-t",
+      "normalized_activation": 9.531397819519043,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1094,
+          "meaning_score": 0.6441,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5014
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1938,
+          "meaning_score": 0.415,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2435
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1662,
+          "meaning_score": 0.3843,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2202
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "020 before she moved in with him following their engagement. Now the Instagram influencer has moved back into her old apartment so Mayweather can concentrate on preparing for his",
+      "normalized_activation": 8.607934951782227,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1554,
+          "meaning_score": 0.5653,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2883
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.155,
+          "meaning_score": 0.4678,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2491
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.182,
+          "meaning_score": 0.3929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.23
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ix ans de travail arrive. Une joie dense, profonde, c'est presque lourd\", a notamment confi\u00e9 sur France Info le marin fran\u00e7ais de",
+      "normalized_activation": 7.517365455627441,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1228,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2061
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2582,
+          "meaning_score": 0.3963,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2618
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2235,
+          "meaning_score": 0.4673,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2763
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tyrese Maxey sinks it from downtown, 01/02/2",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2103,
+          "meaning_score": 0.0369,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0989
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1868,
+          "meaning_score": 0.0099,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0787
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1181,
+          "meaning_score": 0.1044,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.089
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "We're not gonna lie, we're happy to see the tail end of 2",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0697,
+          "meaning_score": 0.1282,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0792
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1122,
+          "meaning_score": 0.2215,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1335
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0835,
+          "meaning_score": 0.1738,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1029
+        }
+      ]
+    }
+  ]
+}

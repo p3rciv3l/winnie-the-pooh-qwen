@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_14224",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mentions of specific individuals\u2014particularly public figures such as politicians, officials, celebrities, or athletes\u2014often accompanied by their titles or roles (e.g., \u201cState\u2019s Attorney Marilyn Mosby,\u201d \u201cla ministre S\u00e9gol\u00e8ne Royal,\u201d \u201cCNN boss Jeff Zucker\u201d) and embedded in news or public statements.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, Portuguese, German, Italian, Turkish, Hindi) and spans domains like politics, sports, entertainment, law, and international affairs. It activates on text segments that report on individuals\u2019 actions, statements, accusations, appointments, or public appearances.\n\n3. **Contrast with low-activation examples**: Low-activation texts typically lack focused mention of a specific person\u2019s full name and title; they are more about general events, organizations, places, or concepts (e.g., \u201cThe European Commission has fined Google,\u201d \u201cRespiratory problems are common\u201d). Even when a person is mentioned (e.g., \u201cEddie Jones\u2019 charm offensive\u201d), the name often appears in possessive form without an associated action verb or title, or the person is not the main subject of a clause.\n\n4. **Closing interpretation**: The neuron specializes in detecting named entities (people) in journalistic or public discourse contexts, likely serving to identify key subjects or sources in news stories.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "li 5, ao perder em tr\u00eas sets com o norte-americano Alexander Ritschard.O portugu\u00eas, 206.\u00ba class",
+      "normalized_activation": 9.641107559204102,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.251,
+          "meaning_score": 0.6825,
+          "overlap_fraction": 0.7474,
+          "location_score": 0.1495,
+          "combined_score": 0.5229
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.251,
+          "meaning_score": 0.4958,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2987
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2139,
+          "meaning_score": 0.366,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.232
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ciudad de Marsella alberga la relaci\u00f3n del modernista estadounidense Man Ray y la moda en el Museo de Luxemburgo, en Par",
+      "normalized_activation": 8.859889030456543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2564,
+          "meaning_score": 0.7937,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.62
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1398,
+          "meaning_score": 0.3827,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.209
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2564,
+          "meaning_score": 0.3477,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2416
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". (Photo: Chetan Bhakuni/The Quint) United States President Joe Biden on Tuesday, 22 February, announced that the US was imposing sanctions",
+      "normalized_activation": 7.864090919494629,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1321,
+          "meaning_score": 0.6511,
+          "overlap_fraction": 0.741,
+          "location_score": 0.1482,
+          "combined_score": 0.4615
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1562,
+          "meaning_score": 0.3077,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1855
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1525,
+          "meaning_score": 0.3144,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1867
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Se re\u00fanen este mi\u00e9rcoles para hacer un seguimiento Es la primera vez",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.153,
+          "meaning_score": 0.3777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2123
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.153,
+          "meaning_score": 0.3623,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2061
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1282,
+          "meaning_score": 0.5373,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4662
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Rating the region: Second-toughest of the four, behind only the Midwest.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2175,
+          "meaning_score": 0.2657,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1933
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2175,
+          "meaning_score": 0.1794,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1587
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.168,
+          "meaning_score": 0.2225,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1562
+        }
+      ]
+    }
+  ]
+}

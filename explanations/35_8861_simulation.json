@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_8861",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:17:58Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual proper nouns and named entities in formal or news-style text** (such as person names like \"Matej Tóth,\" location names like \"Borgo San Lorenzo,\" organization names like \"Federace,\" or event titles like \"Homeworld 3\").\n\n2. **Domain coverage**: The neuron activates across many languages (Arabic, Polish, Romanian, Czech, Slovak, German, Russian, Bengali, Swedish, etc.) and topics—including geopolitics, sports, science, entertainment, and local news—but only when the text contains dense, specific named entities in a journalistic or descriptive prose style.\n\n3. **Contrast with low-activation examples**: High-activation texts are characterized by sequences containing multiple capitalized or otherwise marked proper nouns, often in non-English languages, embedded in factual reporting. Low-activation examples either lack such named entities, are in simpler sentences, or are generic announcements (e.g., \"Practicing your swing...\", \"A new beta patch...\") even if they contain some names, they are less dense or in more informal contexts.\n\n4. **Closing interpretation**: The neuron appears to detect **linguistic markers of specific real-world references**—primarily proper nouns—within multi-language formal discourse, acting as a cross-lingual named-entity density sensor.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00010",
+      "row_idx": 54,
+      "normalized": 9.700261116027832,
+      "actual_text": "ية نارية شبه يومية تصل إلى حد التلويح بالحرب على لبنان الأمر الذي رأت فيه الأوساط أخطاراً",
+      "plain_text": "البناء: خفايا وكواليس   كواليس دعت مصادر دبلوماسية للتوقف أمام النهاية السريعة والدراماتيكية التي مُنيت بها تجربة الانفصال في أهمّ إقليمين في آسيا وأوروبا تقودهما حركات تدعو للاستقلال منذ عقود ويملكان أسباباً ومقوّمات للاستقلال لا تملكها أقاليم أخرى لها التطلعات نفسها. ورأت المصادر في هذه النهاية لكردستان وكتالونيا تعبيراً عن وضع دولي جديد لا تدركه ربما الدول العظمى واللاعبون الإقليميون الكبار الذين شجعوا خلال سنوات سراً على الانفصال وعندما دقت الساعة وجدوا أنفسهم في الموقع المقابل أو العاجز، مضيفة أنّ زمن التفتيت الذي افتتحه تقسيم يوغوسلافيا والسودان يبدو وقد انتهى لصالح تثبيت حدود الكيانات القائمة…   خفايا نبّهت أوساط سياسية إلى تصاعد حملة السعودية على لبنان وإدلاء مسؤوليها بتصريحات تهديدية نارية شبه يومية تصل إلى حد التلويح بالحرب على لبنان الأمر الذي رأت فيه الأوساط أخطاراً كثيرة على لبنان، لا سيما على الصعيد الاقتصادي المتدهور أصلاً وهو بات معرضاً للمزيد من التدهور جرّاء التهديدات السعودية التي قد تهزّ الوضع العام برمّته، وتساءلت عن الموقف الحكومي من هذا الأمر.     النهار: أسرار الآلهة   إعلامية مرشحة ...  تدرس إعلامية بارزة إمكان ترشحها الى الانتخابات المقبلة في بيروت بعدما تبين من استطلاعات الرأي أنها متقدمة على عدد من السياسيين....   تضامنا مع المطران طلب أحد المطارنة الى زملائه اصدار بيانات استنكار لما أصابه من سهام في خطاب لمسؤول سياسي انتقده من دون أن يسميه.   تكفل بتعليمهم  علم أن السفير الاماراتي تكفل بتعليم أبناء لاجئ سوري مدى الحياة بعدما قدم له أولاده الذين يحملون أسماء شيوخ دولة الإمارات وتبيّن أنهم لا يتلقون أي تعليم.    الجمهورية: أسرار    تساؤل تساءلت مصادر مراقبة فقالت إن المياه إما شحيحة أو مقطوعة عن المنازل فمِن أين يأتي أصحاب محطات الوقود والفنادق والأوتيلات بالمياه بهذه الوفرة؟  تحريض  أوساط تربوية تتحدث عن أن الأساتذة في المدارس الخاصة يتّهمون إدارات هذه المدارس بتحريض الأهل وتحويلهم إلى قوة في وجههم لعدم دفع «السلسلة».    كارتيلات سأل أحد النواب هل وصل الأمر بأصحاب صهاريج المياه إلى إقامة كارتيلات في المناطق وممنوع على آخرين توزيع المياه إلى المنازل في غير المنطقة التي لهم نفوذ عليها؟      المستقبل: يقال  إنّ اتصالات ومشاورات تجرى بين أفرقاء الحكومة بغية إعداد دفعة تعيينات جديدة تمهيداً للتوافق حولها ورفعها إلى مجلس الوزراء.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "ورأت المصادر في هذه النهاية لكردستان وكتالونيا تعبيراً عن وضع دولي جديد لا تدركه ربما الدول العظمى واللاعبون الإقليميون الكبار الذين شجعوا خلال سنوات سراً على الانفصال وعندما دقت الساعة وجدوا أنفسهم في الموقع المقابل أو العاجز، مضيفة أنّ زمن التفتيت الذي افتتحه تقسيم يوغوسلافيا والسودان يبدو وقد انتهى لصالح تثبيت حدود الكيانات القائمة…",
+          "concept": "geopolitical regions",
+          "reasoning": "This section contains multiple named geopolitical entities like Kurdistan, Catalonia, Yugoslavia, and Sudan in formal Arabic news style."
+        },
+        {
+          "rank": 2,
+          "text": "خفايا نبّهت أوساط سياسية إلى تصاعد حملة السعودية على لبنان وإدلاء مسؤوليها بتصريحات تهديدية نارية شبه يومية تصل إلى حد التلويح بالحرب على لبنان الأمر الذي رأت فيه الأوساط أخطاراً كثيرة على لبنان، لا سيما على الصعيد الاقتصادي المتدهور أصلاً وهو بات معرضاً للمزيد من التدهور جرّاء التهديدات السعودية التي قد تهزّ الوضع العام برمّته، وتساءلت عن الموقف الحكومي من هذا الأمر.",
+          "concept": "countries",
+          "reasoning": "This section mentions Saudi Arabia and Lebanon repeatedly in a formal diplomatic context."
+        },
+        {
+          "rank": 3,
+          "text": "تكفل بتعليمهم  علم أن السفير الاماراتي تكفل بتعليم أبناء لاجئ سوري مدى الحياة بعدما قدم له أولاده الذين يحملون أسماء شيوخ دولة الإمارات وتبيّن أنهم لا يتلقون أي تعليم.",
+          "concept": "diplomatic entities",
+          "reasoning": "This section includes the Emirati ambassador and references to the UAE and a Syrian refugee, fitting the neuron's focus on formal named entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00001",
+      "row_idx": 2361,
+      "normalized": 9.058349609375,
+      "actual_text": "ch 1821–1840. Wrocławianie uwielbiali jego koncerty, a Karl von Holtei, napisał nawet",
+      "plain_text": "Prawdopodobnie po przebudowie w XVIII wieku pojawił się nad wejściem kartusz z godłem domu i napisem w języku polskim „Wiazdny Dom Pod Złotym Berłem”. Gospoda była bardzo popularna nie tylko wśród wrocławskich mieszczan, ale także przyjezdnych. Zatrzymywało się tu wielu Polaków. W lipcu 1803 roku zamieszkał tu Józef Wybicki, autor „Mazurka Dąbrowskiego”. Wybicki mieszkał „Pod Złotym Berłem” dwa lata. Nocował tu także w 1809 roku Fryderyk Skarbek – historyk, pamiętnikarz i ekonomista. Wiazdny Dom upodobał sobie również Karol Lipiński – wielki wirtuoz skrzypiec XIX-wiecznej Europy. Lipiński bywał wielokrotnie bywał i koncertował we Wrocławiu w latach w latach 1821–1840. Wrocławianie uwielbiali jego koncerty, a Karl von Holtei, napisał nawet na cześć Lipińskiego sonet! Zajazd „Pod Złotym Berłem” obrósł wieloma legendami. Święcie wierzono, że W 1335 roku Karol IV miał się tu spotkać ze stanami wrocławskimi podczas obrad sejmu Rzeszy, a przecież zajazd jeszcze wtedy nie istniał. Opowiadano także, że baron vom und zum Stein zawdzięczał życie mocnemu piwu serwowanemu w lokalu. To dzięki temu napitkowi ozdrowiał ze śmiertelnej choroby. Prawdą jest natomiast, że 5 lipca 1927 r. w gospodzie Zum golden Zepter założone zostało Towarzystwo Podróży Kosmicznych (Verein für Raumschiffahrt) – stowarzyszenie miłośników techniki rakietowej. Założycielem i pierwszym prezesem towarzystwa był Johannes Winkler.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "W lipcu 1803 roku zamieszkał tu Józef Wybicki, autor „Mazurka Dąbrowskiego”. Wybicki mieszkał „Pod Złotym Berłem” dwa lata. Nocował tu także w 1809 roku Fryderyk Skarbek – historyk, pamiętnikarz i ekonomista.",
+          "concept": "historical figures",
+          "reasoning": "This section contains proper nouns of Polish historical persons Józef Wybicki and Fryderyk Skarbek in a formal historical description."
+        },
+        {
+          "rank": 2,
+          "text": "Wiazdny Dom upodobał sobie również Karol Lipiński – wielki wirtuoz skrzypiec XIX-wiecznej Europy. Lipiński bywał wielokrotnie bywał i koncertował we Wrocławiu w latach w latach 1821–1840. Wrocławianie uwielbiali jego koncerty, a Karl von Holtei, napisał nawet na cześć Lipińskiego sonet!",
+          "concept": "cultural figures",
+          "reasoning": "This section includes named entities like Karol Lipiński, Wrocław, and Karl von Holtei in a descriptive historical narrative."
+        },
+        {
+          "rank": 3,
+          "text": "Prawdą jest natomiast, że 5 lipca 1927 r. w gospodzie Zum golden Zepter założone zostało Towarzystwo Podróży Kosmicznych (Verein für Raumschiffahrt) – stowarzyszenie miłośników techniki rakietowej. Założycielem i pierwszym prezesem towarzystwa był Johannes Winkler.",
+          "concept": "organization and founder",
+          "reasoning": "This section names an organization (Towarzystwo Podróży Kosmicznych) and its founder Johannes Winkler, matching the neuron's interest in formal entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 5387,
+      "normalized": 8.23267936706543,
+      "actual_text": "decía que el sismo había sido en el norte, cerca de Iquique. Se trataba de un sismo anterior de magnitud 5",
+      "plain_text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile este domingo a las 11:22 am hora local, según reportes del Servicio Geológico de Estados Unidos (USGS, por sus siglas en inglés).  El foco sísmico estuvo localizado a 34,6 km de profundidad y el epicentro estuvo ubicado a 39,4 km al sur-sureste de Puerto Quellón y a 230 km al sur-suroeste de Puerto Montt.  La presidenta Michelle Bachelet confirmó que no se lamentan muertes.  En la mañana, el Ministerio del Interior y Seguridad Pública de Chile le pidió a la gente abandonar las zonas de playas en Biobío, Araucanía, Los Ríos y Aysén.  Hasta el momento no hay reportes de personas lesionadas.  Nota del editor: Una versión anterior de este texto decía que el sismo había sido en el norte, cerca de Iquique. Se trataba de un sismo anterior de magnitud 5,4 .",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile este domingo a las 11:22 am hora local, según reportes del Servicio Geológico de Estados Unidos (USGS, por sus siglas en inglés).",
+          "concept": "country and organization",
+          "reasoning": "This sentence contains the named entities Chile and USGS in a news report format."
+        },
+        {
+          "rank": 2,
+          "text": "El foco sísmico estuvo localizado a 34,6 km de profundidad y el epicentro estuvo ubicado a 39,4 km al sur-sureste de Puerto Quellón y a 230 km al sur-suroeste de Puerto Montt.",
+          "concept": "locations",
+          "reasoning": "This sentence includes specific location names Puerto Quellón and Puerto Montt in a factual seismic report."
+        },
+        {
+          "rank": 3,
+          "text": "En la mañana, el Ministerio del Interior y Seguridad Pública de Chile le pidió a la gente abandonar las zonas de playas en Biobío, Araucanía, Los Ríos y Aysén.",
+          "concept": "regions",
+          "reasoning": "This sentence lists multiple Chilean region names in an official warning context."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00007",
+      "row_idx": 3293,
+      "normalized": 0.0,
+      "actual_text": "El 11 de octubre de 2019 la medianoche",
+      "plain_text": "El 11 de octubre de 2019 la medianoche se convirtió en día durante unos segundos en la ciudad china de Song yuan. Las cámaras de televisión de varias avenidas captaron un potente fogonazo procedente del cielo. Al día siguiente toda China vio en la televisión las imágenes. Dijeron que fue un meteorito. Esa misma tarde Mei-Lin, un aficionado a la búsqueda de \"piedras cósmicas\", se puso en contacto con sus colegas de pueblos vecinos para averiguar si habían recogido algo raro. Nada. Existe un pujante mercado para los meteoritos y uno tan grande habría sido un buen negocio para él. \"Pero los cazadores de meteoritos estamos acostumbrados a la frus  Para seguir leyendo, hazte Premium  Mensual  /mes durante 2 meses  Anual  Conforme a los criterios de",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El 11 de octubre de 2019 la medianoche se convirtió en día durante unos segundos en la ciudad china de Song yuan.",
+          "concept": "city",
+          "reasoning": "This sentence names the Chinese city Song yuan in a news-style description."
+        },
+        {
+          "rank": 2,
+          "text": "Esa misma tarde Mei-Lin, un aficionado a la búsqueda de \"piedras cósmicas\", se puso en contacto con sus colegas de pueblos vecinos para averiguar si habían recogido algo raro.",
+          "concept": "person name",
+          "reasoning": "This sentence contains the proper noun Mei-Lin, a person engaged in meteorite hunting."
+        },
+        {
+          "rank": 3,
+          "text": "Al día siguiente toda China vio en la televisión las imágenes.",
+          "concept": "country",
+          "reasoning": "This sentence mentions China as a named entity in a news context."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00005",
+      "row_idx": 3888,
+      "normalized": 0.0,
+      "actual_text": "The United States Institute of Peace (USIP), an American federal institution tasked with promoting",
+      "plain_text": "The United States Institute of Peace (USIP), an American federal institution tasked with promoting conflict resolution and prevention worldwide in a latest article titled “What Does Bangladesh’s Upcoming Election Mean for its Foreign Policy?”, has emphasized Bangladesh’s growing geopolitical significance and said, political crisis in Bangladesh won’t end on January 7, 2024 – the Election Day, as opposition, Bangladesh Nationalist Party (BNP), Jamaat-e-Islami (JeI) and other allies of BNP shall continue to wage a campaign of protests and strikes after the polls in hopes of proving Awami League (AL) government illegitimate. It further said, amid Bangladesh’s geopolitical ascent, India, China and the United States will be watching closely to see the future consequences of the domestic political turmoil.  It may be mentioned here that, on December 15, 2023, Russian Foreign Ministry Spokesperson Maria Zakharova said:  On December 12-13, opponents of the incumbent government blocked road traffic, set buses on fire and clashed with the police in a number of districts in Bangladesh. We see a direct link between these events and instigating activities of Western diplomatic missions in Dhaka. In particular, of US Ambassador Peter Haas, as we already mentioned at the briefing on November 22. There are serious grounds to fear that in the coming weeks an even wider arsenal of tools for pressure, including sanctions, may be used against the unfavorable to the West Bangladeshi government. Key industries may come under attack, as well as a number of officials who, without evidence, may be accused of obstructing the democratic expression of the citizens’ will in the upcoming parliamentary elections on January 7, 2024. In case the USA is not satisfied with the results of the people’s vote, the attempts to further destabilize the situation in Bangladesh along the lines of the Arab Spring are likely…  US State Department Spokesperson Matthew Miller refused to comment on Zakharova’s remarks.  Bangladesh Foreign Minister AK Abdul Momen ruled out any possibility of an Arab Spring-like situation in Bangladesh denouncing the remarks of the Russian foreign ministry spokesperson Maria Zakharova. He said, “I don’t really think there is any such opportunity. We are a democratic country. Democracy remains upheld in our country because of Sheikh Hasina. We will hold the election on 7 January and we will do it through democratic process. We have been doing fine”.  The foreign minister said, “What Russia has said is not our concern. Ask them about it. Many people will say many things but we don’t want to discuss it. We are sovereign and we maintain a balanced foreign policy”. It its article, USIP said, back in 2022, United States has expressed focus on growing its partnership with Bangladesh as a “key partner in Indo-Pacific region”. Simultaneously the United States Agency of International Development (USAID) in its 2023 Country Development Cooperation Strategy cites Bangladesh’s strategically important “geographic location connecting South and Southeast Asia”.  A 2023 UK development report calls Bangladesh “a key player in upholding the Rules-Based International System” in the Indo-Pacific. In 2022, the Japan’s then-ambassador in Dhaka, Ito Naoki, called Bangladesh a “vital country in geopolitical terms”, and in 2023 French President Emmanuel Macron visited Bangladesh to “consolidate” France’s Indo-Pacific Strategy in the face of China’s “new imperialism”. The USIP article said, “As direct regional competitors, India and China are also courting Bangladesh. Bangladesh has long been a key part of India’s “Look East” and now “Act East” policies, which emphasize regional transport and digital connectivity, trade and investment, and energy cooperation. India also has concerns about Islamic extremism and cross-border militancy emanating from Bangladesh. On these issues, India sees Bangladesh’s ruling AL as an ally and therefore favors the political status quo. China, which has called Bangladesh a “strategic development partner,” finds appeal in Bangladesh’s proximity to India and strategic location on the Bay of Bengal and has sought to build close economic relations with the AL government, occasionally warning Bangladesh against Western ties”.  About ruling Awami League (AL)’s foreign policy, USIP said, “Guided by the Father of the Nation Bangabandhu Sheikh Mujibur Rahman’s foreign policy dictum of “friendship to all, malice to none,” the Awami League’s (AL) foreign policy is predicated on democratic values, economic dynamism, multilateral engagement and upholding international law and institutions while protecting our national interests. As outlined in Bangladesh’s Indo-Pacific Outlook, the AL aims to advance regional stability through peaceful coexistence and multilateral partnership. We support a rules-based order to preserve freedom of navigation and maritime safety and security in the Indian Ocean region. Current and past AL governments have demonstrated a commitment to addressing regional challenges through diplomacy and peaceful arbitration, including the maritime boundary resolution with Myanmar (2012) and India (2014), the Chittagong Hill Tracts Peace Accord (1997), the Ganges water sharing agreement (1996) and the Land Boundary Agreement with India (1974; India ratified in 2015). “Under the AL’s stewardship, Bangladesh is now South Asia’s second-largest economy, with the region’s highest per capita income. Bangladesh’s stability, economic openness and digital adaptation will spur foreign investment and advanced technology development in semiconductors, artificial intelligence and renewable energy. With the AL in power, Bangladesh will reach a near trillion-dollar economy by 2030, transforming Bangladesh into an economic epicenter that enhances regional economic balance and stability.  “The AL will also prioritize transnational issues in foreign policy. We believe that internationally supported repatriation of all displaced Rohingyas to Myanmar is the only sustainable solution. In pursuit of gender equity, we will work to advance the rights of women, girls and transgender people at home and abroad. We will mobilize and lead international actors to address the challenge of climate change. Finally, as a secular democratic country, the AL believes Bangladesh is uniquely positioned to serve as a bridge between the Muslim world and the international system. We will promote religious pluralism, sustain efforts to defeat terrorism and extremism at home, and collaborate with regional and international partners to thwart terrorist groups abroad”. Zia, BNP and religious extremism  Commenting on Bangladesh Nationalist Party (BNP), in a written statement to USIP, ruling Awami League said:  Undermining Bangabandhu’s secular and democratic vision, the BNP’s founder, Gen. Zia, fundamentally altered Bangladesh’s foreign and domestic policy toward religious fundamentalism. Zia repealed secularism from the constitution, added Islamic language to the preamble and other articles, and amended the constitution to emphasize Islamic solidarity. This ideological shift laid the groundwork for the BNP’s radical foreign policy in the early 1990s and early 2000s, which had severe consequences.  In contrast to the AL’s policy of peaceful coexistence and respect for sovereignty, the BNP struck a defense agreement with China in 2002 and allowed anti-India militants to transfer illicit weapons to rebels in India’s Northeast region. Such brazen disregard for another state’s sovereignty by sponsoring proxy forces for disruptive ends gravely imperiled regional security. Under the BNP, Bangladesh transformed into a hub for militant extremism that weakened regional counterterrorism efforts. In 2001, the BNP formed a governing coalition with Islami Oikya Jote (IOJ) and Jamaat-e-Islami (JI), which had links to Al Qaeda affiliates like Harakat ul-Jihad-i-Islami, Bangladesh (HUJI-B) and Jamaat-ul-Mujahideen Bangladesh (JMB).  Bangladesh saw its first ever suicide attack during this period. In this enabling environment for extremism, HUJI-B attempted to assassinate then-opposition leader Sheikh Hasina in 2004, killing 24, and JMB carried out 500 explosions across 63 of 64 districts in synchronized terror attacks. During the BNP’s undemocratic rule, corrupt governance opened avenues for exploitative global actors. Systemic corruption metastasized, with Bangladesh ranked as the world’s most corrupt country for all five years under its rule from 2001 to 2006. Weak institutions and venality enabled unfair trade practices and corrupt investors to capture projects through graft.  The return of the BNP’s revisionist foreign policy — grounded in religious extremism and proxy conflicts — would undermine the rules-based international order and regional territorial integrity. Furthermore, a domestic reversion to the BNP’s undemocratic tactics, poor governance and endemic corruption would halt Bangladesh’s economic progress and risk making it a fragile, failed state that destabilizes the region. Bangladesh’s political crisis won’t end on Election Day  While stating ruling Awami League is going to win a straight fourth term on January 7, 2024, USIP in its article said, “With the BNP set to boycott the elections this month, the AL is all but certain to retain power in the new year. But Bangladesh’s political crisis won’t end on Election Day. The opposition will likely continue to wage a campaign of protests and strikes after the polls in hopes of undermining the legitimacy of the AL government and opening a path to power. Amid Bangladesh’s geopolitical ascent, India, China and the United States will be watching closely to see how this domestic tumult could change its international posture”.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In 2022, the Japan’s then-ambassador in Dhaka, Ito Naoki, called Bangladesh a “vital country in geopolitical terms”, and in 2023 French President Emmanuel Macron visited Bangladesh to “consolidate” France’s Indo-Pacific Strategy in the face of China’s “new imperialism”.",
+          "concept": "diplomatic figures",
+          "reasoning": "This sentence contains multiple named entities including Ito Naoki, Bangladesh, Emmanuel Macron, France, and China in a formal geopolitical analysis."
+        },
+        {
+          "rank": 2,
+          "text": "It its article, USIP said, back in 2022, United States has expressed focus on growing its partnership with Bangladesh as a “key partner in Indo-Pacific region”. Simultaneously the United States Agency of International Development (USAID) in its 2023 Country Development Cooperation Strategy cites Bangladesh’s strategically important “geographic location connecting South and Southeast Asia”.",
+          "concept": "organizations and countries",
+          "reasoning": "This section includes named entities like USIP, United States, Bangladesh, and USAID in a policy-oriented discourse."
+        },
+        {
+          "rank": 3,
+          "text": "US State Department Spokesperson Matthew Miller refused to comment on Zakharova’s remarks. Bangladesh Foreign Minister AK Abdul Momen ruled out any possibility of an Arab Spring-like situation in Bangladesh denouncing the remarks of the Russian foreign ministry spokesperson Maria Zakharova.",
+          "concept": "government officials",
+          "reasoning": "This section names officials Matthew Miller, AK Abdul Momen, and Maria Zakharova in a formal diplomatic context."
+        }
+      ]
+    }
+  ]
+}

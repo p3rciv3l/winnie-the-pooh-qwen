@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_2213",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities, precise numerical/legal references, or detailed event descriptions** (such as full names of people/organizations with titles, citations of laws/treaties, disaster reports with locations, or financial/medical protocols with exact figures).\n\n2. **Domain coverage**: The pattern appears across news reporting, legal/financial disclosures, medical/policy updates, and international event coverage in multiple languages (English, Hindi, Italian, French, Hungarian, etc.). High-activation texts consistently include concrete, referential details: e.g., \"James Wan and Jason Blum,\" \"naloxone prescription certificates,\" \"Izmir earthquake 200 miles from Istanbul,\" \"NASDAQ:LNT,\" or specific regional warnings in Italian weather reports.\n\n3. **Contrast with low-activation examples**: Low-activation texts are either generic announcements (hiring notices, alliance expansions, vague policy statements) or mention entities without precise referential scaffolding (e.g., \"Geoswift, a leading provider\" lacks specific deals/locations; \"Dmitry Orlov scored\" lacks game context). The high group embeds entities within dense, fact-carrying clauses, while the low group uses broader or introductory phrasing.\n\n4. **Closing interpretation**: The neuron detects linguistically dense, referentially specific information that grounds text in real-world particulars\u2014acting as a \"concrete reference detector\" for named entities, quantified statements, or documented events essential for factual or contextual comprehension in multilingual news/document contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "in that area being less degraded than those advancing elsewhere in eastern Ukraine. MENAFN0601202400019301",
+      "normalized_activation": 9.620198249816895,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0889,
+          "meaning_score": 0.3773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1865
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.11,
+          "meaning_score": 0.392,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1171,
+          "meaning_score": 0.4851,
+          "overlap_fraction": 0.783,
+          "location_score": 0.1566,
+          "combined_score": 0.3975
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "is sort of minutes on a field to find these things,\" said Margaret Meixner, an astronomer at the Universities Space Research Association and one of the authors of",
+      "normalized_activation": 8.933101654052734,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0994,
+          "meaning_score": 0.2907,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1561
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1607,
+          "meaning_score": 0.4536,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2457
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1383,
+          "meaning_score": 0.3224,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1843
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Nicolas Maduro looks to ease international pressure following months of unrest. Yon Goicoechea and Delson Guarate were freed late Friday night from a Car",
+      "normalized_activation": 8.007170677185059,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1362,
+          "meaning_score": 0.7851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3685
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.111,
+          "meaning_score": 0.518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2516
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1244,
+          "meaning_score": 0.5461,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2682
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Inflammation has been linked to almost every chronic health condition and there are two kinds",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1079,
+          "meaning_score": 0.5377,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2583
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0936,
+          "meaning_score": 0.3852,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1915
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0775,
+          "meaning_score": 0.3279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1622
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The winning Glove Box Market report makes available the current and forthcoming technical and financial details",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.273,
+          "meaning_score": 0.456,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2916
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1678,
+          "meaning_score": 0.4655,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2533
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.212,
+          "meaning_score": 0.5881,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.32
+        }
+      ]
+    }
+  ]
+}

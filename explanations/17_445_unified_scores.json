@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_445",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that reference specific, named entities (people, works, groups, or events) within a formal, analytical, or historical context** (such as citing a book like *Civil Disobedience*, mentioning a political figure like Kissinger, discussing a musical album like *Too Fast For Love*, or naming an organization like the Pakistan Federal Union of Journalists).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, German, Polish, Turkish) and domains including political commentary, academic or intellectual discourse, music criticism, legal/policy reporting, and historical analysis. The context is consistently one of explanation, attribution, or critique, where the named entity serves as a central reference point for the argument or description.\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by the presence of specific, weighty named entities embedded in explanatory clauses. In contrast, the low-activation examples are either generic news snippets, truncated headlines, simple statements of fact, or text fragments that lack a central, referential named entity being discussed in a substantive way.\n\n4. **Closing interpretation**: The neuron appears to detect text where a concrete, named cultural, historical, or political referent is being used as evidence or a focal point within a discursive framework. It filters for substantive mentions over passing or generic references, acting as a sensor for formal, entity-centric exposition.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", discussed by pundits on a talkshow in the 1960s, before moving to 2003, when that worst-case scenario is ripping",
+      "normalized_activation": 9.63821029663086,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "his rendition of 'The River of Dreams,' which included a snippet of Jimi Hendrix's 'Purple Haze,' a really lively performance of 'It's Still",
+      "normalized_activation": 9.067845344543457,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Moments that have passed are no longer real, only memory,\u201d said my revered Vipassana teacher Sayagyi U Goenka (1924",
+      "normalized_activation": 8.462331771850586,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "C\u00e2mara de Lisboa queixa-se da transfer\u00eancia de compet\u00eancias \"sem",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "borghi_claudio : @DMigheli @Fedez Beh interessante, quindi",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_19606",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of an ampersand symbol (\"&\") used as a conjunction within formal or branded names and titles (such as company names \"Procter & Gamble\", law firms \"Haley & Olson\", event themes \"Land Restoration, Desertification & Drought Resilience\", or dual titles \"associate dean for Global Affairs & Planetary Health\").\n\n2. **Domain coverage**: The pattern appears almost exclusively in English-language text, specifically within formal, professional, or commercial contexts. These include financial news (Securities & Exchange Commission), business and institutional names (JPMorgan Chase & Co., Carpenter & Co), academic/medical titles, event or product names (Queen & Slim, Bucket Trucks Market 2018-2024 Trends & Forecast), and news headlines. The ampersand consistently links coordinated nouns within a compound proper noun or formal title.\n\n3. **Contrast with low-activation examples**: The high-activation texts uniformly contain the \"&\" character in the described formal conjunctive role. The low-activation examples lack this character entirely; they are either in non-English languages (Czech, Arabic, Swedish, etc.) or are English text fragments that do not contain an ampersand, focusing instead on general news, foreign language phrases, or standalone sentences without named entities joined by \"&\".\n\n4. **Closing interpretation**: This neuron detects the typographic symbol \"&\" when it functions as a formal conjunction within multi-part proper nouns or institutional titles. It acts less as a semantic detector and more as a specific syntactic/formatting token indicator for coordinated names in professional English writing.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "8th Annual Chowder Cook-Off is put on by the Lincoln City Visitor & Convention Bureau, taking place Saturday, November 10 at noon at the T",
+      "normalized_activation": 9.826469421386719,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Download Exclusive Sample Report (350 Pages PDF with All Related Graphs & Charts) @ https://www.databridgemarketresearch.com/request-a-sample",
+      "normalized_activation": 9.386598587036133,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "side of the Woodstock generation\u2019s music. He was inducted into the Rock & Roll Hall of Fame as a member of both groups. Musically, Crosby",
+      "normalized_activation": 8.474514961242676,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Do\u0142\u0105cz do nas Najlepsze zdj\u0119cia kosmiczne 20",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

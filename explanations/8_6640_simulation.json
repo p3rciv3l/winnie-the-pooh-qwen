@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_6640",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:57:52Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of death, mortality, or fatal loss** (such as reports of people dying from violence, disasters, or illness; counts of fatalities; or phrases like \"loss of life\" or \"were killed\").\n\n2. **Domain coverage**: The pattern appears across news reports and factual narratives about disasters, conflicts, health crises, accidents, and crime in multiple languages (English, Spanish, Portuguese, Persian/Arabic script). It activates on explicit statements of death tolls, causes of death, and public acknowledgments of fatalities, whether involving humans, animals, or even metaphorical \"death\" (e.g., a star collapsing). The context is consistently informative or reporting, not celebratory or routine.\n\n3. **Contrast with low-activation examples**: The high-activation texts centrally feature death events, casualty figures, or direct synonyms for dying. The low-activation examples lack any reference to mortality; they cover topics like celebrations, infrastructure openings, business announcements, sports, and general science news without fatal outcomes.\n\n4. **Closing interpretation**: This neuron detects explicit linguistic markers of biological or metaphorical death within factual or narrative contexts. It serves as a mortality signal extractor, sensitive to direct reports of fatal outcomes rather than incidental or abstract uses of related terms.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00011",
+      "row_idx": 1747,
+      "normalized": 9.556916236877441,
+      "actual_text": "outdo them all. One is in Yellowstone National Park. Naples boy killed in hit and run; suspect arrested A 13-year-old Naples boy is dead",
+      "plain_text": "Magnitude 6.5 quake hits Costa Rica coast, shakes capital Posted: Updated: Most Popular Stories \r\n Scientists hatch bold plan to save planet from supervolcano Humans have witnessed many cataclysmic volcanic eruptions, but around the world right now there are about 20 so-called “supervolcanoes” that could outdo them all. One is in Yellowstone National Park. \r\n Naples boy killed in hit and run; suspect arrested A 13-year-old Naples boy is dead and a suspect behind bars after a hit-and-run crash. \r\n Shooting leaves 1 dead in Fort Myers A shooting in Dunbar left one person dead late Sunday. \r\n 2 found dead in east Fort Myers home Two people were found dead early Sunday in a home in the Morse Shores neighborhood. \r\n WWII ring found in bag of grapes A Fort Myers woman found a gold ring in her bag of grapes after a trip to Publix. \r\n Man tries to grab boy in Cape Coral A stranger danger case was reported Sunday afternoon in Cape Coral. \r\n Must-see video: Powerboat crash in Key West Super Boat International released dramatic footage of a powerboat crash in Key West. \r\n 'Dr. Green Relief' open for business More and more signs promoting medical marijuana have popped up around Lee County, but are they legitimate? \r\n Naples man killed in crash A Naples man was killed in a two-vehicle crash Saturday evening. \r\n SWFL churches take precautions in wake of TX shooting One church added concrete barriers to the front of their building while another has undercover guards.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "2 found dead in east Fort Myers home Two people were found dead early Sunday in a home in the Morse Shores neighborhood.",
+          "concept": "death toll",
+          "reasoning": "Direct report of multiple fatalities."
+        },
+        {
+          "rank": 2,
+          "text": "Naples boy killed in hit and run; suspect arrested A 13-year-old Naples boy is dead and a suspect behind bars after a hit-and-run crash.",
+          "concept": "fatal accident",
+          "reasoning": "Explicit statement of a child's death."
+        },
+        {
+          "rank": 3,
+          "text": "Shooting leaves 1 dead in Fort Myers A shooting in Dunbar left one person dead late Sunday.",
+          "concept": "homicide",
+          "reasoning": "Mention of a person killed in a shooting."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 2927,
+      "normalized": 8.600166320800781,
+      "actual_text": "was created in Katie Bunch’s honor at Asheboro High school. She died of ovarian cancer. Latest headlines from FOX8 Secrets of the Zoo: NC",
+      "plain_text": "ASHEBORO, N.C. — Whether it’s with pictures, a quote or a message from a friend, most of the pages in a yearbook tell a story.  Molly Bunch has seen a lot of yearbooks in her 16 years of teaching. One that recently showed up in the mail was a little different and a lot more special than others.  “An anonymous person found the annual at a thrift store in Jacksonville, Florida, and she mailed it as an act of kindness,” said Bunch, an Asheboro High School english teacher.  It’s from the year 1945, and someone Bunch knows and is very close to is pictured inside. When she grabbed it, something magical happened.  “The book, it sort of naturally opened to a page where my grandmother was featured,” Bunch said.  Her grandmother, Claudine Cox, later became Claudine Bunch through marriage. Mrs. Bunch helped create this book and many others.  “She was the business manager ash-hi-life which is our yearbook staff,” Bunch said.  Also in the package from the stranger was a letter filled with kind words that brought back memories of Bunch’s beloved cousin Katie who died three years ago.  “Her legacy was ‘be kind.’ She was a history school teacher here and also graduated from here,” Bunch said. “I felt like I had two angels visiting me.”  A simple gift from one person turned into a moment to treasure for her.  “To see my beautiful grandmother and be reminded of my cousin Katie to just keep going through these hard times during the pandemic and remember that I’m here. I’m serving my home,” Bunch said.  A scholarship was created in Katie Bunch’s honor at Asheboro High school. She died of ovarian cancer.  Latest headlines from FOX8  Secrets of the Zoo: NC Zoo will be featured on Nat Geo Wild premiere tomorrow Old high school yearbook with family ties sent to Asheboro teacher Burlington Police Department nationally recognized for de-escalation techniques Battling false information: Where to go for facts before Election Day ‘Family is devastated’: Luggage containing woman’s ashes stolen from airport",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Also in the package from the stranger was a letter filled with kind words that brought back memories of Bunch’s beloved cousin Katie who died three years ago.",
+          "concept": "death of relative",
+          "reasoning": "Direct mention of a person's death."
+        },
+        {
+          "rank": 2,
+          "text": "A scholarship was created in Katie Bunch’s honor at Asheboro High school. She died of ovarian cancer.",
+          "concept": "cause of death",
+          "reasoning": "Explicit statement of death from cancer."
+        },
+        {
+          "rank": 3,
+          "text": "‘Family is devastated’: Luggage containing woman’s ashes stolen from airport",
+          "concept": "mortal remains",
+          "reasoning": "Reference to ashes, implying death."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 5163,
+      "normalized": 7.320896625518799,
+      "actual_text": "stool and gas are stagnant, if emergency intervention is delayed, some patients will die in less than 30 minutes). At ER this is treated as an emergency",
+      "plain_text": "Recently, NTV’s Panorama exposed what they dubbed an extortion syndicate that has hijacked a major regional referral hospital in Uganda, and subsequently doctors as usually is, plunged into shame.  As a public health care personnel who has been at the center of health care dispensation, it is not strange to appreciate the dilapidated nature of the majority if not all public health care systems, notwithstanding the gallant resuscitation forms to sustain it. Albeit the outstanding criticism, it is also honest to say that there are a number of desperate citizens who greatly benefit from it.  Regarding the extortion syndicate referred to by NTV panorama, I don’t condone it either, however, I find it part of a natural fitting to offset the preexisting obvious health care gaps. As a matter of fact, I would like to infer that the interplay of public and private health care should not be entirely likened to a word or context like extortion. It is only prudent to remind the public and the ministry that in a worrying resource limited healthcare system like the form in which we operate, the word extortion must not equal evil but of course well applied in any obvious dubious business as executed by form of medical malpractice.  The plight of our healthcare system roots deep down to an obvious menace and regarding such means as outsourcing services to complement the system as extortion might be paradoxical in reality.  I would like to relay a scenario; A patient admitted at Emergency Unit-ER with signs of intestinal obstruction and full blown peritonitis, (This means the intestines are blocked and stool and gas are stagnant, if emergency intervention is delayed, some patients will die in less than 30 minutes).  At ER this is treated as an emergency and the patient is expected to be done the necessary preparations prerequisite to surgery; CBC turn-around time is 1 hour, grouping and booking blood is 30minutes-1 hour, electrolytes 1hour, RFTS,LFTS turn-around time is 3 hours. This patient is in imminent organ failure if obstruction is not corrected in the shortest time possible. In such a scenario it takes over 1 hour to mobilize the surgeon, theatre assistants, anesthetist, the necessary requirements and investigations, the patient will die.  In unfortunate circumstances, all these resources aren’t ready or available at all. In a well-researched Ugandan healthcare environment, emergency health care systems are not developed and often completely absent. It is often horrific that basic components like an intravenous cannula, urinary catheter, a syringe or even a requisition form for blood transfusion are not uncommonly in dire lack. In a medical emergency, a delay of any length or compromise of any measure can cause death.  Under these circumstances, private outsourcing or incentivising health personnel is not only a necessary evil but also a readily consensual alternative to save a life.  Amidst these crises, the doctor is not idle, neither absent from duty at leisure. They are busy resuscitating two near dying patients at the same time or suffering a protracted botched surgery on table. The most he’s negligent, is the interlude for a quick snack or at least saving another life at a well-paying private clinic.  In all entirety, the doctor is saving lives…but also at any point, it is true, there are isolated elements who may want to disadvantage the desperate patients by exerting unnecessary sanctions prerequisite to their health, and these errant officers should be dealt with by appropriate measures.  The bottom line, therefore, is to project the public anger and frustration away from the syndicates of extortion to the larger picture; the government is greatly indebted especially to regional referral centres. For example, the government should establish a fully-fledged and world standard emergency unit at each regional referral, and even if that dream is elusive, let there be at least a minimal standard different from the appalling status quo. By doing so, I believe extortion syndicates will be well enough justifiably irrelevant.  Matthew Nsimamukama Kanyeihamba MBChB is a creative non fiction writer and poet.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A patient admitted at Emergency Unit-ER with signs of intestinal obstruction and full blown peritonitis, (This means the intestines are blocked and stool and gas are stagnant, if emergency intervention is delayed, some patients will die in less than 30 minutes).",
+          "concept": "fatal medical emergency",
+          "reasoning": "Explicit statement that patients will die without treatment."
+        },
+        {
+          "rank": 2,
+          "text": "This patient is in imminent organ failure if obstruction is not corrected in the shortest time possible. In such a scenario it takes over 1 hour to mobilize the surgeon, theatre assistants, anesthetist, the necessary requirements and investigations, the patient will die.",
+          "concept": "patient mortality",
+          "reasoning": "Direct assertion that the patient will die due to delays."
+        },
+        {
+          "rank": 3,
+          "text": "In a medical emergency, a delay of any length or compromise of any measure can cause death.",
+          "concept": "death from delay",
+          "reasoning": "General statement that delays can lead to death."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 699,
+      "normalized": 0.0,
+      "actual_text": "Rahul, who is going to visit 6 districts and 35 assembly",
+      "plain_text": "Rahul, who is going to visit 6 districts and 35 assembly constituencies in this 3-day tour, will be keen on finalising the seat-sharing formula with the JD-U faction led by tribal leader Chhotubhai Vasava. Congress vice-president Rahul Gandhi will begin his three-day-long third leg of the Gujarat NavSarjan Yatra from Jambusar in Bharuch district from today. Rahul, who is going to visit 6 districts and 35 assembly constituencies in this 3-day tour, will be keen on finalising the seat-sharing formula with the JD-U faction led by prominent tribal leader Chhotubhai Vasava ahead of the assembly election next month. Congress general secretary in-charge of Gujarat Ashok Gehlot has already had a series of meetings with Vasava. Sources say that if the alliance is confirmed, the Congress-JDU Vasava combine will have a grip on around 50 Assembly seats. Apart from Vasava, Congress has also reached out to Patidar leader Hardik Patel and Dalit icon Jignesh Mevani. Talks have been going on from Gujarat to Delhi to work on a common minimum agenda between Congress with Patel and Mevani. Both Hardik Patel and Jignesh Mevani have put forth their demands before Congress leaders, who are now discussing the matter internally. \"If all (talks) go well, you will see a surprise element in the Surat rally on November 3\", said a senior leader. 65 PER CENT OF GUJARAT's POPULATION UNDER 35 As Gujarat has 65 per cent population below 35 years of age, Congress is keen to rope in these two young leaders too. OBC leader Alpesh Thakor has already joined the Congress. Criss-crossing through Bharuch, Surat and the tribal areas of Gujarat, Rahul will also be meeting farmers affected by the land acquisition issue at Dayadra in Bharuch district apart from addressing public meetings and visiting famous shrines in the area. Later in the day, Rahul will speak at the Yuva Rojgar Sabha at Ankleshwar. Rahul's NavSarjan Yatra, which started on September 25, covered the region of Saurashtra in its first phase and central Gujarat in the second. The yatra would cover 6 districts of Bharuch, Tapi, Valsad, Dang, Navsari and Surat in South Gujarat. On Thursday, Rahul is expected to address Mahila Swabhiman Sabha in Vyara and Adivasi Adhikar Sabha at Nana Pondha in Valsad district. The Congress vice-president will also address a gathering of traders in Vapi. He is likely to visit the Unai Mataji temple in Vansda. On Friday, the Congress leader will speak to farmers in Saharanpur and the fishermen community in Kosamba.  For more news from India Today, follow us on Twitter @indiatoday and on Facebook at facebook.com/IndiaToday  For news and videos in Hindi, go to AajTak.in. ताज़ातरीन ख़बरों और वीडियो के लिए आजतक.इन पर आएं.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Rahul, who is going to visit 6 districts and 35 assembly constituencies in this 3-day tour, will be keen on finalising the seat-sharing formula with the JD-U faction led by tribal leader Chhotubhai Vasava.",
+          "concept": "political activity",
+          "reasoning": "No mention of death or mortality."
+        },
+        {
+          "rank": 2,
+          "text": "Congress general secretary in-charge of Gujarat Ashok Gehlot has already had a series of meetings with Vasava. Sources say that if the alliance is confirmed, the Congress-JDU Vasava combine will have a grip on around 50 Assembly seats.",
+          "concept": "political alliance",
+          "reasoning": "Absence of any death-related content."
+        },
+        {
+          "rank": 3,
+          "text": "Apart from Vasava, Congress has also reached out to Patidar leader Hardik Patel and Dalit icon Jignesh Mevani. Talks have been going on from Gujarat to Delhi to work on a common minimum agenda between Congress with Patel and Mevani.",
+          "concept": "political negotiations",
+          "reasoning": "Lacks references to death or fatal outcomes."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5835,
+      "normalized": 0.0,
+      "actual_text": "Hunter Valley council sheds light on Australian recyclables being sold to Asia Posted A",
+      "plain_text": "Hunter Valley council sheds light on Australian recyclables being sold to Asia  Posted  A Hunter Valley Council has told a Senate inquiry that most of its recyclable waste is sold to China, but it said it felt uneasy telling ratepayers. The inquiry is focussed on the quantity of solid waste generated and the rate of diversion of solid waste for recycling. In addition it will look at the accreditation and management of landfills, the extent of illegal landfilling, and the role of landfill levies in determining the end destination of material. The probe comes after the ABC's Four Corners program shed light on illegal dumping and the stockpiling of glass. Hunter council reluctant to tell ratepayers In its submission Maitland City Council said the destination of all recyclables collected must be fully explored. \"The majority of kerbside-collected recyclables in the City of Maitland is being sold to China or other Asian countries, which appears to be also the case for much of the kerbside recyclables collected in Australia,\" the council said. \"There is great uncertainty as to what happens to the recyclables once they have left Australia. \"It is pertinent to establish whether they are indeed recycled, whether they are used in 'Waste to Energy' facilities or whether they are simply landfilled. \"In light of this uncertainty, Maitland City Council feels reluctant at present to provide information to the community, schools and other interested parties on what happens to the recyclables collected in the city.\" The Council added that diversion targets set by the New South Wales Government must be reviewed. \"It is considered irresponsible to move recyclables offshore only to meet the recycling targets set by governments without knowing the destiny of the products once the recyclables have left Australia,\" the council said. In addition it said markets for most recyclables in Australia could not absorb the amount collected. \"This is resulting in unsustainable practices including unsustainable stockpiles or export of recyclables to markets overseas that cannot be verified or traced,\" the council's submission said. Green group slams offshore waste dumping  Maitland City Council's revelations do not sit well with the Hunter Environment Lobby group. President of the group Jan Davis said it was an outrage that the waste was sent overseas. \"I mean the Hunter Environment Lobby has talked about the issue of waste for the last 25 years and I am absolutely appalled,\" Ms Davis said. \"In countries like Germany, the responsibility is with the people who actually make it, the original manufacturers.\" Ms Davis said she was worried about the level of secrecy surrounding waste. \"It just shows an appalling lack of willingness to deal with the issue … I'd expect all of the councillors to be up in arms about this.\" \"I think that all councils across New South Wales and across Australia should be thinking about this issue for their own areas.\" Ms Davis said urgent action was needed. \"People have to really get serious about what they are doing with their waste and try to recycle organics and try to make sure that the manufacturers of the original product have to deal with the waste product that they make,\" she said. Millions of tonnes of unwanted plastic is transported from different parts of the world to China to be used in manufacturing. But the days of Asia being a dumping ground for Australian recyclables could be numbered. In July, China announced it would ban imports of 24 categories of recyclables and solid waste by the end of this year. The Australian Bureau of Statistics has looked into waste exports, and has released data showing China and Hong Kong are the biggest recipients of Australian waste.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hunter Valley council sheds light on Australian recyclables being sold to Asia  Posted  A Hunter Valley Council has told a Senate inquiry that most of its recyclable waste is sold to China, but it said it felt uneasy telling ratepayers.",
+          "concept": "waste management",
+          "reasoning": "No mention of death or mortality."
+        },
+        {
+          "rank": 2,
+          "text": "The inquiry is focussed on the quantity of solid waste generated and the rate of diversion of solid waste for recycling. In addition it will look at the accreditation and management of landfills, the extent of illegal landfilling, and the role of landfill levies in determining the end destination of material.",
+          "concept": "recycling inquiry",
+          "reasoning": "Devoid of death-related language."
+        },
+        {
+          "rank": 3,
+          "text": "The probe comes after the ABC's Four Corners program shed light on illegal dumping and the stockpiling of glass. Hunter council reluctant to tell ratepayers In its submission Maitland City Council said the destination of all recyclables collected must be fully explored.",
+          "concept": "investigation into waste",
+          "reasoning": "Contains no references to death or fatal loss."
+        }
+      ]
+    }
+  ]
+}

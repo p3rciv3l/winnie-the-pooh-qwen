@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_2721",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:11:33Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **numerical quantities followed by units, measurements, or specific labeled values** (such as earthquake magnitudes, monetary amounts, dimensions, counts, or percentages).\n\n2. **Domain coverage**: The pattern appears across multilingual news, technical reports, and descriptive texts in languages including Norwegian, Italian, English, German, Indonesian, Arabic, Russian, and Vietnamese. Topics span natural disasters, construction costs, medical waste, artistic reproductions, population statistics, and project specifications—any context where a precise figure is given with an associated unit or label (e.g., \"6.5-magnitude\", \"26,5 milioni di euro\", \"2,5 Millionen Lego-Steinen\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this precise number-unit pairing. They mention numbers only incidentally (e.g., sports scores, dates, or vague references like \"hundreds of phases\") or contain no numbers at all, instead focusing on general statements, opinions, announcements, or narrative descriptions without quantified specifications.\n\n4. **Closing interpretation**: The neuron detects structured numerical data embedded in prose, acting as a filter for quantitative information across diverse languages and subjects. It signals the presence of a measurable fact rather than qualitative or abstract content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00007",
+      "row_idx": 699,
+      "normalized": 9.7183837890625,
+      "actual_text": "ano y De la Bella; los centrocampistas Momo, Timor, Fidel, Ruiz de Galarreta, Maikel Mesa, Blum y G",
+      "plain_text": "La Unión Deportiva Las Palmas se desplazará a primera hora de este viernes a Córdoba -vía Sevilla- con dieciocho jugadores, entre los que no está el atacante Tanausú Domínguez 'Tana', baja de última hora al acusar molestias en el pubis. Tampoco figuran en la convocatoria el portero Nauzet Pérez y el centrocampista Javi Castellano, asimismo lesionados, además de los defensas Martín Mantovani y Diego Parras, ni el extremo Hadi Sacko, tres jugadores que no están entrando en los planes del entrenador del equipo amarillo, Paco Herrera. El delantero checo Tomas Pekhart, recién recuperado de su lesión muscular, tampoco ha sido incluido en la lista de convocados para el último partido de 2018, que se disputará el sábado en el estadio Nuevo Arcángel.   La convocatoria está integrada por los porteros Raúl Fernández y Josep Martínez (del filial); los defensas Álvaro Lemos, Cala, David García, Deivid, Dani Castellano y De la Bella; los centrocampistas Momo, Timor, Fidel, Ruiz de Galarreta, Maikel Mesa, Blum y Gaby Peñalba; y los delanteros Rubén Castro, Rafa Mir y Araujo.     La expedición isleña tiene previsto realizar una última sesión de entrenamiento el viernes, a su llegada a Córdoba, y tras el encuentro la plantilla tendrá vacaciones hasta el próximo día 30.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La Unión Deportiva Las Palmas se desplazará a primera hora de este viernes a Córdoba -vía Sevilla- con dieciocho jugadores, entre los que no está el atacante Tanausú Domínguez 'Tana', baja de última hora al acusar molestias en el pubis.",
+          "concept": "player count",
+          "reasoning": "This section contains the numerical quantity 'dieciocho' followed by the unit 'jugadores', matching the neuron's pattern for counts."
+        },
+        {
+          "rank": 2,
+          "text": "Tampoco figuran en la convocatoria el portero Nauzet Pérez y el centrocampista Javi Castellano, asimismo lesionados, además de los defensas Martín Mantovani y Diego Parras, ni el extremo Hadi Sacko, tres jugadores que no están entrando en los planes del entrenador del equipo amarillo, Paco Herrera.",
+          "concept": "player count",
+          "reasoning": "This section includes the count 'tres' with the label 'jugadores', indicating a precise numerical specification."
+        },
+        {
+          "rank": 3,
+          "text": "El delantero checo Tomas Pekhart, recién recuperado de su lesión muscular, tampoco ha sido incluido en la lista de convocados para el último partido de 2018, que se disputará el sábado en el estadio Nuevo Arcángel.",
+          "concept": "year",
+          "reasoning": "This section has the year '2018', but as a date, it may be less activating as per the explanation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 1338,
+      "normalized": 9.162422180175781,
+      "actual_text": "Maurer war es, der Seiler an die Spitze des damals neu geschaffenen NDB (dem Fusionsprodukt aus Inland- und Aus",
+      "plain_text": "Der Bundesrat hat Seiler auf Vorschlag von Cassis ernannt, wie es in einer Mitteilung vom Mittwoch heisst. Dieser tritt die Nachfolge von Benno Bättig am 1. Dezember 2017 an. Bättig wird andere Funktionen im EDA übernehmen.  Der Personalentscheid ist keine Überraschung. Seilers Name kursierte in den vergangenen Tagen in verschiedenen Medien in Zusammenhang mit dem EDA-Generalsekretariat. FDP-Mitglied Seiler war bereits bis 2009 Generalsekretär im Verteidigungsdepartement (VBS) unter Samuel Schmid und Ueli Maurer.  Maurer war es, der Seiler an die Spitze des damals neu geschaffenen NDB (dem Fusionsprodukt aus Inland- und Auslandgeheimdienst) setzte. Seiler vollzog die Zusammenführung der Dienste. Seit fast acht Jahren amtet er als NDB-Chef.  Hochs und Tiefs  Mit dem Schritt ins EDA lässt Seiler die Affäre um die Spionage des schweizerischen Agenten in Deutschland hinter sich. Am (morgigen) Donnerstag fällt das Oberlandesgericht Frankfurt am Main ein erstes Urteil in diesem Fall.  Es ist aber gut möglich, dass der Fall noch einige Zeit nachwirken könnte. Ähnlich wie 2012, als ein NDB-Mitarbeiter aufflog, der heimlich die am besten gehüteten Geheimnisse des Dienstes auf Datenträger kopiert und zum Verkauf angeboten hatte. Der Dienst erhielt davon nur dank eines aufmerksamen Bankangestellten Wind.  In den medialen Fokus geriet der NDB unter Seiler auch, nachdem Hacker 2015 über Monate den bundeseigenen Rüstungs- und Technologiekonzern RUAG attackiert hatten. Als dies entdeckt wurde, waren bereits grosse Datenmengen abgeflossen.  Guter Draht zur FDP-Spitze  In seiner Rolle als EDA-Generalsekretär wird Seiler mit anderen Themen in Kontakt kommen. Das Verhältnis der Schweiz zur EU ist die grösste Baustelle in seinem neuen Departement. Daneben wird ihn wie seinen Chef die Entwicklungszusammenarbeit oder das Eritrea-Dossier beschäftigen.  Die Voraussetzungen zur Lösung von Problemen hat Seiler: Dank seiner jahrelangen Arbeit beim Bund ist er in Bern vernetzt wie kaum ein anderer und kennt die Abläufe in der Verwaltung. Er gilt als smart, zielgerichtet, durchsetzungsfähig und loyal. Ein wichtiges Projekt, das neue Nachrichtendienstgesetz, hat er gerade abgeschlossen. Dieses trat vor wenigen Wochen in Kraft.  Als ehemaliger Mitarbeiter in der FDP-Zentrale hat Seiler einen guten Draht in die Partei. Letzteres ist gerade für die FDP ein wichtiger Faktor, weil sie ihren neuen Bundesrat enger an sich binden will.  1997 wechselte Seiler als Referent in den Stab des damaligen Finanzministers Kaspar Villiger. Von 1999 bis 2001 war er dessen persönlicher Mitarbeiter. 2007 kandidierte er für das Amt des Bundeskanzlers. Mit seiner Ehefrau, einer Ärztin, und den vier Kindern lebt der 49-jährige gebürtige Thurgauer in Spiez BE, wo er sich auf kommunaler Ebene politisch einsetzt.  Neues Personal im EDA  Bereits vergangene Woche hatte Cassis erste Personalentscheide gefällt. Kommunikationschef Jean-Marc Crevoisier, der bereits für Vorgänger Didier Burkhalter gearbeitet hat, bleibt vorerst im Amt. Crevoisier hatte diese Funktion bereits unter Burkhalters Vorgänger Pascal Couchepin im Innendepartement inne.  Cassis übernimmt auch Burkhalters persönlichen Mitarbeiter Jon Fanzun. Der zweite persönliche Mitarbeiter, Damien Cottier, wird hingegen ersetzt. Seinen Posten übernimmt Charles Jean-Richard, bisher Fraktionssekretär der FDP.  Seiler-Nachfolge offen  Wer das Amt von Seiler als NDB-Chef übernimmt, ist noch offen. Infrage kommt etwa der heutige Vize Paul Zinniker. Er ist allerdings seit der Spionageaffäre zwischen Schweiz und Deutschland umstritten. Zinniker, der die Sache als Leiter Beschaffung mit zu verantworten hat und den Schweizer Spion sogar persönlich traf, dürfte sich in den kommenden Wochen noch einige Fragen anhören müssen.  Weitere Kandidaten für die Seiler-Nachfolge sind die jüngeren NDB-Vizedirektoren Jürg Bühler und Thomas Schöttli. Auch eine externe Besetzung ist durchaus möglich.  Entscheiden wird der Bundesrat. SVP-Verteidigungsminister Guy Parmelin bietet sich die Chance, nach dem Armeechef eine zweite Schlüsselposition mit einem Mann oder einer Frau seiner Wahl zu besetzen.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mit seiner Ehefrau, einer Ärztin, und den vier Kindern lebt der 49-jährige gebürtige Thurgauer in Spiez BE, wo er sich auf kommunaler Ebene politisch einsetzt.",
+          "concept": "age",
+          "reasoning": "This section contains the precise age '49' followed by the unit 'jährige', indicating a numerical measurement."
+        },
+        {
+          "rank": 2,
+          "text": "Maurer war es, der Seiler an die Spitze des damals neu geschaffenen NDB (dem Fusionsprodukt aus Inland- und Auslandgeheimdienst) setzte. Seiler vollzog die Zusammenführung der Dienste. Seit fast acht Jahren amtet er als NDB-Chef.",
+          "concept": "duration",
+          "reasoning": "This section has the duration 'acht Jahren', which is a numerical quantity with a time unit."
+        },
+        {
+          "rank": 3,
+          "text": "Dieser tritt die Nachfolge von Benno Bättig am 1. Dezember 2017 an. Bättig wird andere Funktionen im EDA übernehmen.",
+          "concept": "date",
+          "reasoning": "This section includes the date '1. Dezember 2017', but dates are mentioned as low-activation in the explanation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 5554,
+      "normalized": 8.441522598266602,
+      "actual_text": "sebaiknya umbi dikeluarkan dulu dari pot dan media diganti agar unsur-unsur makanan yang dibutuhkan oleh tan",
+      "plain_text": "\"Bunga bangkai diperkirakan akan mekar dalam hitungan hari,\" kata peneliti Pusat Konservasi Tumbuhan (PKT) Kebun Raya Lembaga Ilmu Pengetahuan Indonesia (LIPI) Yuzammi di Bogor, Rabu. Ia menjelaskan bunga bangkai merupakan koleksi tumbuhan PKT Kebun Raya LIPI hasil ekplorasi dan penelitian bersama PKT Kebun Raya LIPI dan Kebun Raya Liwa, Provinsi Lampung, di kawasan Hutan Lindung Lampung. Dalam pengembangan bunga bangkai di dalam pot, menurut Yuzammi, menumbuhkan tanaman raksasa tersebut di dalam pot hampir sama dengan menumbuhkannya di tanah. \"Tapi, yang perlu diperhatikan adalah besaran pot yang akan digunakan,\" katanya. Ia mengatakan pot tersebut tentunya harus lebih besar dari umbi yang akan ditanam, dan media yang dipakai berupa campuran tanah dan kompos. \"Medianya harus polos, sehingga air tidak menggenang bila disiram,\" katanya. Secara teknis, dikemukakannya, pengembangbiakan bunga bangkai dalam pot, setelah berbunga, maka umbi akan memasuki fase dorman sehingga sebaiknya umbi dikeluarkan dulu dari pot dan media diganti agar unsur-unsur makanan yang dibutuhkan oleh tanaman dapat tersedia. \"Keunikan bunga bangkai ini terdapat pada perbungaan yang terbesar di antara jenis-jenis bunga bangkai yang lainnya,\" kata Yuzammi. Kebun Raya Bogor mengoleksi 11 jenis Amorphophallus. Bunga bangkai tersebut status kelangkaannya menurut Peraturan Pemerintah (PP) Nomor 7 Tahun 1999 termasuk ke dalam jenis yang dilindungi dengan status konservasi rentan (vulnerable). Bunga bangkai merupakan salah satu jenis tumbuhan dari suku Araceae atau talas-talasan. Tumbuhan tersebut bisa tumbuh hampir pada semua kondisi alam Indonesia. \"Asal, tanahnya tidak padat dan mempunyai porositas yang bagus,\" katanya. Adapun jenis Amophophallus titanium hanya ada di hutan-hutan di Pulau Sumatera, yang tersebar mulai dari Aceh sampai Lampung. Sampai saat ini Indonesia mempunyai sekira 26 jenis dari 220 jenis yang tersebar di seluruh dunia. Jumlah jenis bunga bangkai di Indonesia mungkin dapat bertambah lagi sejalan dengan penemuan jenis baru di alam, katanya. Terkait usaha perlindungan terhadap tumbuhan ini, PKT Kebun Raya LIPI sebagai sektor unggulan (leading sector) di bidang konservasi di luar habitat aslinya (ex-situ) flora telah menerbitkan Strategi dan Rencana Aksi Konservasi (SRAK) bekerja sama dengan Kementerian Lingkungan Hidup dan Kehutanan (LHK). \"SRAK ini merupakan yang pertama kali dibuat untuk tumbuhan,\" ujarnya. SRAK tersebut disahkan berdasarkan Peraturan Menteri LHK Nomor P.72/Menlhk-Sekjen/2015 tentang SRAK Amorphophallus tahun 2015--2025. PKT Kebun Raya LIPI telah melakukan penelitian yang cukup banyak di bidang bunga bangkai mulai dari kultur jaringan, genetika, studi ekologi, mikrobiologi, perbanya dengan umbi, biji dan stek daun, polinasi, dan induksi perbungaan, demikian Yuzammi. Editor: Priyambodo RH COPYRIGHT © ANTARA 2017",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Indonesia mempunyai sekira 26 jenis dari 220 jenis yang tersebar di seluruh dunia. Jumlah jenis bunga bangkai di Indonesia mungkin dapat bertambah lagi sejalan dengan penemuan jenis baru di alam, katanya.",
+          "concept": "species count",
+          "reasoning": "This section has multiple numerical quantities '26' and '220' followed by the unit 'jenis', indicating precise counts."
+        },
+        {
+          "rank": 2,
+          "text": "Kebun Raya Bogor mengoleksi 11 jenis Amorphophallus. Bunga bangkai tersebut status kelangkaannya menurut Peraturan Pemerintah (PP) Nomor 7 Tahun 1999 termasuk ke dalam jenis yang dilindungi dengan status konservasi rentan (vulnerable).",
+          "concept": "collection count",
+          "reasoning": "This section contains the number '11' with the unit 'jenis', specifying a quantitative fact."
+        },
+        {
+          "rank": 3,
+          "text": "SRAK tersebut disahkan berdasarkan Peraturan Menteri LHK Nomor P.72/Menlhk-Sekjen/2015 tentang SRAK Amorphophallus tahun 2015--2025. PKT Kebun Raya LIPI telah melakukan penelitian yang cukup banyak di bidang bunga bangkai mulai dari kultur jaringan, genetika, studi ekologi, mikrobiologi, perbanya dengan umbi, biji dan stek daun, polinasi, dan induksi perbungaan, demikian Yuzammi.",
+          "concept": "regulation number",
+          "reasoning": "This section includes labeled numbers 'P.72' and a year range '2015--2025', which are numerical specifications."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1152,
+      "normalized": 0.0,
+      "actual_text": "Ahora la aplicación 911 CDMX también contará con el servicio",
+      "plain_text": "Ahora la aplicación 911 CDMX también contará con el servicio de alerta sísmica, anunció el jefe de Gobierno, Miguel Ángel Mancera.  “No vamos a hacer ninguna demostración porque el sonido de la alerta sísmica a ninguno de nosotros nos interesa que lo escuche alguien que no sepa del contexto en que se está presentando.  Lo único que se tiene que hacer es descargar nuestra aplicación 911, a partir del día de hoy todas las personas que tengan la aplicación tendrán alerta sísmica en sus teléfonos móviles”, dijo.  La aplicación tendrá un funcionamiento similar al de los altavoces que se ubican en calles de la Ciudad, es decir, se activará cuando se detecte un sismo superior a cinco de intensidad, proveniente de las costas de Guerrero.  El director general del Centro de Control y Comando (C5) Idris Rodríguez, precisó que la aplicación está disponible de forma gratuita para sistemas iOS y Android.  “El sonido es el que conocemos en el sistema de altavoces que escuchamos en televisión y en radio. Es importante considerar que el proceso de evacuación lo apliquemos sin dudar. En el momento en que se active la alerta, no hay que dejarlo de hacer”, agregó.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La aplicación tendrá un funcionamiento similar al de los altavoces que se ubican en calles de la Ciudad, es decir, se activará cuando se detecte un sismo superior a cinco de intensidad, proveniente de las costas de Guerrero.",
+          "concept": "earthquake intensity",
+          "reasoning": "This section contains the numerical value 'cinco' followed by the unit 'intensidad', matching the neuron's pattern for measurements."
+        },
+        {
+          "rank": 2,
+          "text": "Ahora la aplicación 911 CDMX también contará con el servicio de alerta sísmica, anunció el jefe de Gobierno, Miguel Ángel Mancera.",
+          "concept": "general statement",
+          "reasoning": "This section lacks precise number-unit pairings, focusing on announcements, which likely causes low activation."
+        },
+        {
+          "rank": 3,
+          "text": "El director general del Centro de Control y Comando (C5) Idris Rodríguez, precisó que la aplicación está disponible de forma gratuita para sistemas iOS y Android.",
+          "concept": "availability info",
+          "reasoning": "This section has no numerical quantities, so it should not activate the neuron strongly."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5642,
+      "normalized": 0.0,
+      "actual_text": "Renewables have a key role to play in the sustainable energy transition and the Middle",
+      "plain_text": "Renewables have a key role to play in the sustainable energy transition and the Middle-East renewable energy market is expected to grow at a CAGR of more than 8. 2% in the forecast period of 2020-2025. New York, May 06, 2021 (GLOBE NEWSWIRE) -- Reportlinker.com announces the release of the report \"Middle-East Renewable Energy Market - Growth, Trends, COVID-19 Impact, and Forecasts (2021 - 2026)\" - https://www.reportlinker.com/p06067808/?utm_source=GNW   Factors such as rapid population growth and ambitious industrial and economic expansion are resulting in a growing need for power and commitment of the government to obtain maximum energy from renewable and to reduce carbon emissions are expected to be significant contributors to the growth of the market. However, the relatively low oil prices are likely to have little effect on regional renewable energy plans, as auctions tend to push down prices for solar PV and other renewable technologies to levels that are competitive with oil and natural gas. - Solar energy in the Middle-East is expected to witness significant growth in the market as the solar energy and associated system’s prices continue to fall, the Middle Eastern countries are on a path to paying more for solar power. - The region recognizes the socio-economic benefits of renewable energy deployment, which is perceived as an opportunity for industrial diversification, new value-chain activities and technology transfer. Total investment in clean energy is expected to exceed USD 300 billion by 2050. And also up to 90GW of renewable energy capacity, mainly solar and wind power, is planned across the Middle-East region over the next 10 to 15 years, which in turn, likely to provide opportunities for growth in the market in the coming future. - The Unnited Arab Emirates (UAE) is expected to dominate in the Middle-East renewable energy market during the forecast period, owing to the upcoming projects and government targets. Key Market Trends Solar Energy is Expected to Witness Significant Growth - In the Middle-East region, solar energy plays a vital role and is expected to have significant growth in the coming years. Installed renewable capacity in Middle-East is dominated by utility-scale solar projects. As of 2019, the solar installed capacity accounted for 5583 MW. - The opportunities in the markets have created different solar technologies, notably CSP (Concentrated Solar Power). Some of the world’s biggest existing and upcoming CSP plants are coming up in the region. Solar PV has been the leading technology and CSP is the second-largest technology by installed capacity. - The key projects commissioned in 2019 includes commissioning of the world’s largest single-site photovoltaic (PV) solar plant, the 1.17 GW Sweihan independent power project (IPP) in Abu Dhabi and reaching a financial close for a USD 4.3 billion concentrated solar power (CSP) project, the largest single-site power investment project in the world. - Electricity demand is expected to triple by 2050 in the region. The increase in electricity demand is likely to foster an increase in demand for solar energy during the forecast period. The United Arab Emirates (UAE) is Expected to Dominate in the market - The United Arab Emirates (UAE) is the region’s front runner in adopting renewables into its energy mix and the fastest growing market for renewables. The region is set to see a major acceleration in renewable energy deployment, majorly led by the United Arab Emirates. - The country is also the largest and fastest-growing solar market in the region. The country boasts an attractive investment landscape that is likely to drive the growth of the solar energy sector in the country. - At the end of 2019, the country’s renewable energy installed capacity accounted for 1884 MW. Of that, solar energy was dominant in the United Arab Emirates. Among the Middle-East renewable energy installed capacity, the UAE accounted for about more than 50% of the region’s total renewable energy installed capacity. - In 2018, the United Arab Emirates had a 2% share of renewable energy in total electricity capacity. With upcoming and under construction renewable energy projects, The United Arab Emirates is expected to dominate in the market during the forecast period. Competitive Landscape The Middle-East renewable energy market is moderately fragmented. Some of the major companies include MASE, Enerwhere Sustainable Energy DMCC, Solarwind M.E., Akuo Energy SAS, and Yellow Door Energy. Reasons to Purchase this report: - The market estimate (ME) sheet in Excel format - 3 months of analyst support Read the full report: https://www.reportlinker.com/p06067808/?utm_source=GNW About Reportlinker ReportLinker is an award-winning market research solution. Reportlinker finds and organizes the latest industry data so you get all the market research you need - instantly, in one place. __________________________ CONTACT: Clare: clare@reportlinker.com US: (339)-368-6001 Intl: +1 339-368-6001",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Total investment in clean energy is expected to exceed USD 300 billion by 2050. And also up to 90GW of renewable energy capacity, mainly solar and wind power, is planned across the Middle-East region over the next 10 to 15 years, which in turn, likely to provide opportunities for growth in the market in the coming future.",
+          "concept": "investment and capacity",
+          "reasoning": "This section has monetary amount 'USD 300 billion' and power capacity '90GW', both numerical quantities with units."
+        },
+        {
+          "rank": 2,
+          "text": "Renewables have a key role to play in the sustainable energy transition and the Middle-East renewable energy market is expected to grow at a CAGR of more than 8.2% in the forecast period of 2020-2025.",
+          "concept": "growth rate",
+          "reasoning": "This section includes the percentage '8.2%' and year range '2020-2025', which are precise numerical specifications."
+        },
+        {
+          "rank": 3,
+          "text": "The key projects commissioned in 2019 includes commissioning of the world’s largest single-site photovoltaic (PV) solar plant, the 1.17 GW Sweihan independent power project (IPP) in Abu Dhabi and reaching a financial close for a USD 4.3 billion concentrated solar power (CSP) project, the largest single-site power investment project in the world.",
+          "concept": "project scale",
+          "reasoning": "This section contains power capacity '1.17 GW' and cost 'USD 4.3 billion', matching the neuron's pattern for measurements."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_11817",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:31:55Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns and specific named entities** (such as person names like \"Reynaldo Chavez,\" location names like \"Grand Bahama Island,\" organization names like \"National Taiwan University,\" or event names like \"IPL millionaire\").\n\n2. **Domain coverage**: The pattern appears across news, sports, politics, and international affairs in multiple languages (English, Italian, Spanish, Greek, Russian, etc.). It activates on text mentioning specific people, places, institutions, or titles, often within journalistic or factual reporting contexts—such as cricket updates (\"Unadkat becomes IPL millionaire\"), geopolitical statements (\"Taiwan will surely be reunified\"), disaster reports (\"Hurricane stalled over Grand Bahama Island\"), or cultural references (\"Edith Piaf, Reynaldo Hahn\").\n\n3. **Contrast with low-activation examples**: The high-activation texts are dense with concrete, capitalized named entities and specific real-world references, while low-activation examples either lack such specificity (e.g., \"French consumer prices remained flat\") or contain only generic or common nouns (e.g., \"farmworkers, servers,\" \"boiler blast\"). The neuron appears insensitive to template-like news datelines (\"PARIS (dpa-AFX)\") or general statements without distinctive proper nouns.\n\n4. **Closing interpretation**: This neuron likely detects **semantic richness in named entity concentration**, serving as a marker for text that references precise, identifiable real-world subjects rather than abstract or generic information. It functions as a filter for content anchored in specific people, locations, organizations, or events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 3617,
+      "normalized": 9.623344421386719,
+      "actual_text": "Seth Moulton (D–Mass.); and A.G. Sulzberger, publisher of The New York Times and nepo baby. Stelter kicked",
+      "plain_text": "The World Economic Forum—an annual meeting of internal business leaders, political figures, and other elites—is well underway in Davos, Switzerland. One of the topics of discussion on Monday was \"The Clear and Present Danger of Disinformation,\" presented by former CNN host Brian Stelter.  Stelter and his panelists did elucidate several pressing dangers with respect to rampant disinformation on social media; quite inadvertently, they also highlighted the inherent drawbacks of adopting a permanent war-footing approach to stopping disinformation. Indeed, several of the panelists spread inaccurate information during the course of their remarks.  These panelists were Vera Jourová, a member of the European Union's executive cabinet, the European Commission; Jeanne Bourgault, who helms a nonprofit group that supports independent media; Rep. Seth Moulton (D–Mass.); and A.G. Sulzberger, publisher of The New York Times and nepo baby.  Stelter kicked off the discussion by framing \"disinformation\" as the central conundrum of our times—all other problems being downstream of this issue. Sulzberger wholeheartedly embraced this view.  \"I think it maps, basically, to every other major challenge that we are grappling with as a society, and particularly the most existential among them,\" he said, lumping in disinformation—false information, intended to mislead people—with \"conspiracy, propaganda, and clickbait.\" Disinformation is why society seems so fractured, why trust in elite institutions is declining, and why democracy itself appears to be retreating, they implied.  In other words, it's all Facebook's fault.  Social media has become a popular scapegoat and common enemy of elite media figures and Democratic politicians (as well as Republican politicians, albeit for opposite reasons), who seized on Russian malfeasance as their preferred explanation for how Donald Trump was able to win the presidency in 2016. This explanation—bad actors, probably Russian, are confusing voters on Facebook, YouTube, Twitter, and other online platforms—is now frequently deployed to explain all sorts of troubling developments, even though studies keep disproving it.  Indeed, Moulton at first used his speaking time to equivocate on whether the government should do more to combat online disinformation, correctly noting that Americans do not like to be censored, even if societal elites think it would be for their own good. But when the subject turned to COVID-19, he confessed that his resolve wavered.  \"When I have a constituency that I'm trying to keep healthy, and I can't get them to take a COVID vaccine because of misinformation that's propagated on the internet, that's where this becomes a much tougher, more difficult, bigger concern,\" he said.  It's no doubt true that misinformation about vaccines has spread online, causing harm. But the COVID-19 pandemic has shown precisely why no central authority can be trusted with the power to restrict allegedly harmful content. Government health bureaucrats, social media content moderators, scientists in good standing with the liberal consensus, and media organizations have all circulated false information about COVID-19.  Sometimes, these were agenda-driven guesses that ended up being wrong, like when The Atlantic described the end of lockdowns as \"an experiment in human sacrifice.\" Sometimes, these were lies in service of some purported greater good, as when top pandemic health bureaucrat Anthony Fauci downplayed the importance of masking and understated the herd immunity threshold. Sometimes, these were baseless claims from slow-moving government agencies, like when the Centers for Disease Control and Prevention (CDC) recommended the strongest masking guidelines for the least at-risk group.  Other times, institutions simply defaulted to knee-jerk censorship until they embarrassingly reversed course, as Facebook did when it finally permitted discussion of the lab leak theory.  None of this means that the pervasiveness and negative impact of false information about COVID-19 vaccines should be written off; assertions that a spate of recent deaths can be attributed to vaccine-induced heart problems are flatly incorrect, pernicious, and worth correcting. But the very experts who would claim for themselves the power to monitor social media and police wrongthink have an astonishingly bad track record of distinguishing falsehood from truth. Facebook's third-party fact-checking partners, for example, routinely flag true statements for moderation.  Jourová noted that the governing body she works for has criminalized hate speech—something that can't happen in the U.S., where the First Amendment prevents such actions. But she also pointed out that most of what is categorized as disinformation is legal speech, and there is clearly a balance to be struck. Bourgault brought up Facebook's Myanmar debacle, in which social media posts contributed to a state-sponsored genocide against the country's Muslim minority—a genuinely appalling case of insufficient moderation creating real-world violence.  But the most alarmist speaker was Sulzberger, who was pessimistic that disinformation could be grappled with unless social media platforms engage in more restriction of disfavored content.  \"At some point, given the central role of the platforms in disseminating bad information, I think they're going to have to do an unpopular and brave thing, which is to differentiate and elevate trustworthy sources of information consistently,\" he said. \"Until they do, we have to assume that those environments are poisoned.\"  It's The New York Times' view—a view quite popular at Davos—that social media is very bad and will continue to be very bad until it awards preferential treatment to The New York Times.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "These panelists were Vera Jourová, a member of the European Union's executive cabinet, the European Commission; Jeanne Bourgault, who helms a nonprofit group that supports independent media; Rep. Seth Moulton (D–Mass.); and A.G. Sulzberger, publisher of The New York Times and nepo baby.",
+          "concept": "Panelist names and affiliations",
+          "reasoning": "This section lists multiple specific named entities including people, organizations, and titles."
+        },
+        {
+          "rank": 2,
+          "text": "Sometimes, these were agenda-driven guesses that ended up being wrong, like when The Atlantic described the end of lockdowns as \"an experiment in human sacrifice.\" Sometimes, these were lies in service of some purported greater good, as when top pandemic health bureaucrat Anthony Fauci downplayed the importance of masking and understated the herd immunity threshold. Sometimes, these were baseless claims from slow-moving government agencies, like when the Centers for Disease Control and Prevention (CDC) recommended the strongest masking guidelines for the least at-risk group.",
+          "concept": "Health authorities and media",
+          "reasoning": "This section contains specific named entities such as The Atlantic, Anthony Fauci, and the Centers for Disease Control and Prevention (CDC)."
+        },
+        {
+          "rank": 3,
+          "text": "The World Economic Forum—an annual meeting of internal business leaders, political figures, and other elites—is well underway in Davos, Switzerland. One of the topics of discussion on Monday was \"The Clear and Present Danger of Disinformation,\" presented by former CNN host Brian Stelter.",
+          "concept": "Event and person",
+          "reasoning": "This section includes the named entities World Economic Forum, Davos, Switzerland, CNN, and Brian Stelter."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 3915,
+      "normalized": 8.996696472167969,
+      "actual_text": "ypouštějí kosmické přístroje, je vzájemná poloha planet důležitá. Ně",
+      "plain_text": "Od 4. července začne konjunkce. V noci bude možné prostým okem pozorovat Jupiter, Saturn a Mars, a před úsvitem i Venuši. Jupiter a Saturn budou na noční obloze vidět asi od půlnoci, Mars od 2 hodin v noci a Venuše před úsvitem. Merkur bude možné uvidět ráno teprve po 22. červenci. Konjunkce potrvá do poloviny srpna.  „I když astronomové dokáží vliv úhrnné gravitace planet brát v úvahu a cítit, pro obyčejné lidi je samozřejmě celkem nepatrný a neznatelný. Ale na Slunce přece mají planety určitý vliv. Za prvé Jupiter a Saturn jakožto nejmasivnější planety a za druhé Země a Venuše jakožto nepříliš masivní, ale zato blízké Slunci. A to vyvolá na Slunci menší přílivy, velmi malé – centimetr nebo dva centimetry vysoké,“ uvádí Surdinova slova tisková služba Moskevské hvězdárny.  Upřesnil, že pro astronomy nemá konjunkce žádný význam. Ale pro ty, kdo vypouštějí kosmické přístroje, je vzájemná poloha planet důležitá. Někdy se dá vypustit přístroj ze Země tak, aby proletěl kolem dvou planet současně, a díky tomuto gravitačnímu manévru si ušetřil palivo.  Podle slov Vladimira Surdina nebude nynější konjunkce zdaleka unikátní. Právě do takové konfigurace se seřadí planety přibližně jednou za 20 let.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Od 4. července začne konjunkce. V noci bude možné prostým okem pozorovat Jupiter, Saturn a Mars, a před úsvitem i Venuši. Jupiter a Saturn budou na noční obloze vidět asi od půlnoci, Mars od 2 hodin v noci a Venuše před úsvitem.",
+          "concept": "Planetary names",
+          "reasoning": "This section lists multiple planet names: Jupiter, Saturn, Mars, Venuše (Venus)."
+        },
+        {
+          "rank": 2,
+          "text": "Za prvé Jupiter a Saturn jakožto nejmasivnější planety a za druhé Země a Venuše jakožto nepříliš masivní, ale zato blízké Slunci. A to vyvolá na Slunci menší přílivy, velmi malé – centimetr nebo dva centimetry vysoké,“ uvádí Surdinova slova tisková služba Moskevské hvězdárny.",
+          "concept": "Planets and institution",
+          "reasoning": "This section mentions planets Jupiter, Saturn, Země (Earth), Venuše, and the Moscow Observatory (Moskevské hvězdárny)."
+        },
+        {
+          "rank": 3,
+          "text": "Upřesnil, že pro astronomy nemá konjunkce žádný význam. Ale pro ty, kdo vypouštějí kosmické přístroje, je vzájemná poloha planet důležitá. Někdy se dá vypustit přístroj ze Země tak, aby proletěl kolem dvou planet současně, a díky tomému gravitačnímu manévru si ušetřil palivo.",
+          "concept": "Astronomical terms",
+          "reasoning": "This section includes the named entity Země (Earth) and references to planets."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00017",
+      "row_idx": 3376,
+      "normalized": 8.260062217712402,
+      "actual_text": "Curbelo, Texas Rep. Will Hurd, Virginia Rep. Barbara Comstock, National Republican Congressional Committee chairman Steve Stivers, Energy and Commerce Committee Greg Wald",
+      "plain_text": "WASHINGTON —Republicans in congress working to repeal and replace Obamacare will get some on-air support in their home districts this week. American Action Network, a 501(c)(4) committee closely aligned with the House Republican leadership, will spend more than $1 million on television ads touting the GOP’s Obamacare replacement efforts in districts across the country. It is an early foray to help boost Republicans in the messaging wars on an issue that will likely define much of this congress, as well as the 2018 midterm elections. The 30-second ad is an uplifting number that touts a better healthcare system. “House republicans have a plan to get there, without disrupting existing coverage, giving your family the health care it deserves,” a female narrator says. In the 2010 midterms, after a Democrat-controlled congress passed Obamacare, Republicans picked up 63 seats in the House, gaining control of the House chamber. Republicans, who find themselves in the same position as Democrats were in 2008, would like to avoid the same fate in 2018. For now, that means winning the messaging wars. The American Action Network ad will run in the districts of 16 Republican House members across the country. Five are represented by chairmen of powerful House committees, who will play a role in the healthcare efforts. The rest are districts that will likely host contested elections in 2018. Several were won by Hillary Clinton won in 2016, and/or Barack Obama in 2012. One, Rep. Brian Fitzpatrick’s Pennsylvania district, was a near tie in 2012, while Nebraska Rep. Don Bacon’s district went Republican by a wide margin in the past two presidential races, but elected a Democrat to the House in 2014. The ads will run in the districts held by California Reps. Jeff Denham, David Valadao, and Darrell Issa, Colorado Rep. Mike Coffman, Iowa Rep. Rod Blum, Florida Rep. Carlos Curbelo, Texas Rep. Will Hurd, Virginia Rep. Barbara Comstock, National Republican Congressional Committee chairman Steve Stivers, Energy and Commerce Committee Greg Walden, Armed Services Committee chairman Mac Thornberry, Judiciary Committee chairman Bob Goodlatte, and Ways and Means Health Subcommittee chairman Pat Tiberi. “American Action Network is proud to be the first and leading advertising voice for shaping the biggest congressional policy challenge of our day: repealing and replacing Obamacare,” AAN Executive Director Corry Bliss said in a statement. The ad will first air Thursday when House Speaker Paul Ryan conducts a town hall on CNN.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The ads will run in the districts held by California Reps. Jeff Denham, David Valadao, and Darrell Issa, Colorado Rep. Mike Coffman, Iowa Rep. Rod Blum, Florida Rep. Carlos Curbelo, Texas Rep. Will Hurd, Virginia Rep. Barbara Comstock, National Republican Congressional Committee chairman Steve Stivers, Energy and Commerce Committee Greg Walden, Armed Services Committee chairman Mac Thornberry, Judiciary Committee chairman Bob Goodlatte, and Ways and Means Health Subcommittee chairman Pat Tiberi.",
+          "concept": "Congressional representatives",
+          "reasoning": "This section contains a dense list of proper nouns including many named politicians and their positions."
+        },
+        {
+          "rank": 2,
+          "text": "Several were won by Hillary Clinton won in 2016, and/or Barack Obama in 2012. One, Rep. Brian Fitzpatrick’s Pennsylvania district, was a near tie in 2012, while Nebraska Rep. Don Bacon’s district went Republican by a wide margin in the past two presidential races, but elected a Democrat to the House in 2014.",
+          "concept": "Political figures and districts",
+          "reasoning": "This section includes named entities Hillary Clinton, Barack Obama, Rep. Brian Fitzpatrick, Pennsylvania, Nebraska Rep. Don Bacon."
+        },
+        {
+          "rank": 3,
+          "text": "American Action Network is proud to be the first and leading advertising voice for shaping the biggest congressional policy challenge of our day: repealing and replacing Obamacare,” AAN Executive Director Corry Bliss said in a statement. The ad will first air Thursday when House Speaker Paul Ryan conducts a town hall on CNN.",
+          "concept": "Organization and persons",
+          "reasoning": "This section includes proper nouns American Action Network, Obamacare, Corry Bliss, House Speaker Paul Ryan, and CNN."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00009",
+      "row_idx": 2449,
+      "normalized": 0.0,
+      "actual_text": "Ulukbek Maripov was appointed a Chairman of the Cabinet of Ministers of Ky",
+      "plain_text": "Ulukbek Maripov was appointed a Chairman of the Cabinet of Ministers of Kyrgyzstan. The corresponding decree was signed by the President of the country Sadyr Japarov.  Earlier, Sadyr Japarov signed another decree, according to which the Government was transformed into the Cabinet of Ministers. Members of the Government are considered as resigned.  Ulukbek Maripov headed the Government and served as a Prime Minister. The new Constitution has not got such notions as «government» and «prime minister».  Ulukbek Maripov will turn 42 on August 30. He is a native of Osh region. He is the son of the former deputy of the Parliament Asamuddin Maripov. Asamuddin Maripov is an Honored Doctor of the Kyrgyz Republic. Ulukbek Maripov has a brother and three sisters. He worked as an Assistant to the President Almazbek Atambayev. Maripov has been in the civil service since the age of 22.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ulukbek Maripov was appointed a Chairman of the Cabinet of Ministers of Kyrgyzstan. The corresponding decree was signed by the President of the country Sadyr Japarov. Earlier, Sadyr Japarov signed another decree, according to which the Government was transformed into the Cabinet of Ministers. Members of the Government are considered as resigned.",
+          "concept": "Political appointment",
+          "reasoning": "This section contains multiple named entities: Ulukbek Maripov, Cabinet of Ministers of Kyrgyzstan, Sadyr Japarov."
+        },
+        {
+          "rank": 2,
+          "text": "Ulukbek Maripov headed the Government and served as a Prime Minister. The new Constitution has not got such notions as «government» and «prime minister». Ulukbek Maripov will turn 42 on August 30. He is a native of Osh region. He is the son of the former deputy of the Parliament Asamuddin Maripov.",
+          "concept": "Political titles and family",
+          "reasoning": "This section includes proper nouns Ulukbek Maripov, Prime Minister, Osh region, Asamuddin Maripov."
+        },
+        {
+          "rank": 3,
+          "text": "Asamuddin Maripov is an Honored Doctor of the Kyrgyz Republic. Ulukbek Maripov has a brother and three sisters. He worked as an Assistant to the President Almazbek Atambayev. Maripov has been in the civil service since the age of 22.",
+          "concept": "Honor and position",
+          "reasoning": "This section includes named entities Asamuddin Maripov, Honored Doctor of the Kyrgyz Republic, Almazbek Atambayev."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 2140,
+      "normalized": 0.0,
+      "actual_text": "The oil & gas industry is one of the main economic drivers for both developed and developing",
+      "plain_text": "The oil & gas industry is one of the main economic drivers for both developed and developing economies. The rise in population and urbanization has led to a significant increase in the demand for energy and has been compelling Exploration & Production (E&P) companies to discover new oil & gas reserves. This quest for new reserves has propelled offshore exploration, which holds a major share of untapped oil & gas reserves in the world today.  Seismic vessels play an important role in offshore exploration, due to their capability to pin-point the exact location for oil & gas drilling. Seismic vessels acquire subsea data in the form of 2D, 3D and 4D and provide detailed information on the location and behavior of oil & gas reserves.  The seismic vessels market has been tracked by evaluating the installed base of seismic vessels of major geophysical companies. The seismic vessels market report covers a detailed analysis of major manufacturers. The market dynamics have also been covered in detail wherein the factors expected to drive growth in demand are studied and the major challenges faced by manufacturers and geophysical companies have also been covered.  The ongoing developments and the major trends in the seismic vessels market have also been studied thoroughly and validated with industry experts in order to make a relevant forecast.  For detailed insights on enhancing your product footprint, request for a Sample here @ https://www.persistencemarketresearch.com/samples/25120  Factors Driving the Seismic Vessels Market  Increased energy demand is expected to directly impact the growth of the seismic vessels market. Growth in population and urbanization is expected to drive the global energy demand and in turn fuel the need to find new oil & gas reserves. Rise in oil prices is compelling E&P companies to invest more in exploration activities, which is expected to contribute towards the growth of the seismic vessels market.  Peak oil production in a large number of oil & gas fields worldwide has resulted in a decline of total oil production, driving the need to find new oil & gas reserves, which is driving the growth of the seismic vessels market.  Global Seismic Vessels Market Analysis by Depth  On the basis of depth, the seismic vessels market has been segmented into shallow water and deep water. The deep water segment is expected to hold majority of the market share in the global seismic vessels market while the shallow water segment is project to hold a significant market share.  Global Seismic Vessels Market Analysis by Acquisition Type  Among the segments by acquisition type, the global seismic vessels market is anticipated to be dominated by 4C/4D segment. 4D seismic survey provides reservoir data in time dimension, enabling surveyors to learn historical reservoir data as well as predicting the future behavior of the reservoir. However, the 3D segment is also projected to hold a major share as it is one of the most widely used seismic survey types in the world.  Global Seismic Vessels Market Analysis by Region  The global seismic vessels market is driven by the continuous growth in the demand for energy. The EMEA region is projected to be the market leader in the global seismic vessels market, with Norway being one of the major contributors towards the growth of the EMEA seismic vessels market. The Americas region is expected register significant growth in the seismic vessels market, owing to the increasing offshore activities in the Gulf of Mexico and offshore Latin America. The U.S. is expected to lead the market share in the Americas seismic vessel market, owing to the increasing offshore E&P expenditure in the country. In the APAC region, China is projected to be the leader in the seismic vessels market, due to the large untapped potential in the South China Sea. Other APAC countries are also expected to witness significant growth in the seismic vessels market, given the increased activity in the offshore waters of Vietnam, India, Indonesia and Malaysia.  Key Players Dominating the Global Seismic Vessels Market  Mitsubishi Heavy Industries, Ltd. Ulstein Group Singapore Technologies Engineering Ltd Drydocks World Hijos de J. Barreras SA Factorias Vulcano Niestern Sander ASL Marine Holdings Ltd Kleven Maritime AS Cemre Shipyard Besiktas Shipyard For in-depth competitive analysis, Check Pre-Book here @ https://www.persistencemarketresearch.com/checkout/25120  ABOUT US:  Persistence Market Research (PMR) is a third-platform research firm. Our research model is a unique collaboration of data analytics and market research methodology to help businesses achieve optimal performance. To support companies in overcoming complex business challenges, we follow a multi-disciplinary approach. At PMR, we unite various data streams from multi-dimensional sources. By deploying real-time data collection, big data, and customer experience analytics, we deliver business intelligence for organizations of all sizes.  For Further Information about Automotive Market – https://www.persistencemarketresearch.com/category/automotive-and-transportation.asp    CONTACT:  Persistence Market Research  305 Broadway  7th Floor, New York City,  NY 10007, United States,  USA – Canada Toll Free: 800-961-0353  Email: [email protected]  Web: http://www.persistencemarketresearch.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Key Players Dominating the Global Seismic Vessels Market Mitsubishi Heavy Industries, Ltd. Ulstein Group Singapore Technologies Engineering Ltd Drydocks World Hijos de J. Barreras SA Factorias Vulcano Niestern Sander ASL Marine Holdings Ltd Kleven Maritime AS Cemre Shipyard Besiktas Shipyard",
+          "concept": "Company names",
+          "reasoning": "This section lists multiple specific company names in the seismic vessels market."
+        },
+        {
+          "rank": 2,
+          "text": "The EMEA region is projected to be the market leader in the global seismic vessels market, with Norway being one of the major contributors towards the growth of the EMEA seismic vessels market. The Americas region is expected register significant growth in the seismic vessels market, owing to the increasing offshore activities in the Gulf of Mexico and offshore Latin America. The U.S. is expected to lead the market share in the Americas seismic vessel market, owing to the increasing offshore E&P expenditure in the country. In the APAC region, China is projected to be the leader in the seismic vessels market, due to the large untapped potential in the South China Sea. Other APAC countries are also expected to witness significant growth in the seismic vessels market, given the increased activity in the offshore waters of Vietnam, India, Indonesia and Malaysia.",
+          "concept": "Geographic regions",
+          "reasoning": "This section contains many geographic named entities including Norway, Gulf of Mexico, Latin America, U.S., China, South China Sea, Vietnam, India, Indonesia, Malaysia."
+        },
+        {
+          "rank": 3,
+          "text": "Persistence Market Research 305 Broadway 7th Floor, New York City, NY 10007, United States, USA – Canada Toll Free: 800-961-0353 Email: [email protected] Web: http://www.persistencemarketresearch.com",
+          "concept": "Contact information",
+          "reasoning": "This section includes the company name Persistence Market Research and location details New York City, NY, United States, Canada."
+        }
+      ]
+    }
+  ]
+}

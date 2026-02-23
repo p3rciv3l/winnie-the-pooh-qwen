@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_6912",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific body parts or organs** (such as *lungs*, *stomach*, *prostate*, *back*) and the spatial phrase **\"in the middle of\"** or its equivalents in other languages.\n\n2. **Domain coverage**: The pattern appears across medical contexts (cancer, CPR, complications), violent or physical incidents (shootings, stabbings), emotional/visceral descriptions, and general narrative scenes across multiple languages (English, Spanish, Romanian). The phrase \"in the middle of\" activates strongly regardless of the surrounding topic (e.g., a forest, a concourse, a political crisis).\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically short news fragments, headlines, or sentences in various languages that lack any reference to concrete body parts or the central spatial phrase \"in the middle of.\" They cover general news, events, or introductions without the specific lexical triggers that fire this neuron.\n\n4. **Closing interpretation**: This neuron detects concrete, physical references\u2014either to anatomical components or to a central spatial relationship\u2014within diverse textual contexts. It acts as a feature detector for bodily and central-locational language, ignoring more abstract or general informational content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the best traditions of the force. People like the paramedics who rushed into New Palace Yard, seemingly oblivious to the potential threat of another attacker being on the loose.",
+      "normalized_activation": 9.526739120483398,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0656,
+          "meaning_score": 0.6313,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2787
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0611,
+          "meaning_score": 0.7865,
+          "overlap_fraction": 0.8079,
+          "location_score": 0.1616,
+          "combined_score": 0.5007
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1056,
+          "meaning_score": 0.508,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2455
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "pushes from major studios but seemed to be released at a strange time in the middle of awards season (Annihilation, we see you). One featured an on-point performance",
+      "normalized_activation": 8.766984939575195,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3099,
+          "meaning_score": 0.6545,
+          "overlap_fraction": 0.7758,
+          "location_score": 0.1552,
+          "combined_score": 0.5409
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3455,
+          "meaning_score": 0.555,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3602
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2477,
+          "meaning_score": 0.5218,
+          "overlap_fraction": 0.2182,
+          "location_score": 0.0436,
+          "combined_score": 0.3514
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "is what Israel did successfully.\u201d Rosner even tried to justify the use of live bullets. We so often hear that Israel is a technocratic marvel, but is murder",
+      "normalized_activation": 7.8385138511657715,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1766,
+          "meaning_score": 0.4794,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2624
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1726,
+          "meaning_score": 0.3934,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2264
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.338,
+          "meaning_score": 0.4564,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3178
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Japan Shaken by 7.6 Magnitude Earthquake: Unfolding Tra",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1329,
+          "meaning_score": 0.448,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2324
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1654,
+          "meaning_score": 0.4967,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2648
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0817,
+          "meaning_score": 0.4926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2298
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1663,
+          "meaning_score": 0.3065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1891
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1516,
+          "meaning_score": 0.3086,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1841
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1956,
+          "meaning_score": 0.2729,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1874
+        }
+      ]
+    }
+  ]
+}

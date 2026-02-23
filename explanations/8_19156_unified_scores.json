@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_19156",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal, information-dense multilingual text containing proper nouns, acronyms, technical terms, or structured news/reporting elements** (such as Romanian government bulletins, Turkish regulatory announcements, Italian seismic reports, Persian/Azerbaijani news snippets, or English financial/legal bylines).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Romanian, Turkish, Italian, Persian, Azerbaijani, Slovak, Spanish, Norwegian) in contexts like official government communications, news agency reports, legal/regulatory updates, financial wire copy, and technical or scientific descriptions. High-activation examples often include institutional names (*Inspectoratul General*, *Harland and Wolff*, *A*STAR*), geographic references (*B\u00f8mlohallen*, *Hokkaido*), or structured datelines (e.g., repeated \u201cfrom SocGen, TCW's fortunes...\u201d bylines).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain dense clusters of named entities, specialized terminology, or multilingual formal syntax, whereas low-activation examples\u2014though also often news-like\u2014are more generic, conversational, or lack concentrated proper nouns/acronyms. For instance, low-activation snippets mention \u201cmigrants clash with police\u201d or \u201cBillie Jean King\u201d without the embedded technical/formal density seen in high-activation cases.\n\n4. **Closing interpretation**: This neuron likely detects **linguistic markers of formal, multilingual information transmission**, focusing on text where named entities, institutional references, and technical terms aggregate within a compact span. It acts as a filter for prose that is structurally characteristic of official reports, news wires, or cross-lingual administrative communication.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "lerinin haberi yok. Hem CHP hem \u0130Y\u0130 Parti, bu 128 milyar dolar\u0131n pe\u015fine d\u00fc\u015ft\u00fck",
+      "normalized_activation": 9.311819076538086,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1442,
+          "meaning_score": 0.5833,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.291
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1088,
+          "meaning_score": 0.6939,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5211
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1628,
+          "meaning_score": 0.436,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2396
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0435 \u0430\u043a\u043e \u043d\u044f\u043a\u044a\u0434\u0435 \u0437\u0430\u043a\u044a\u0441\u0430 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b, \u0442\u0430\u0437\u0438 \u043c\u043e\u0431\u0438\u043b\u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0438\u044f \u0434\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043e\u0442\u0438\u0434\u0435 \u0437\u0430 30",
+      "normalized_activation": 8.055476188659668,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2542,
+          "meaning_score": 0.3862,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2561
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1425,
+          "meaning_score": 0.2553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1591
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1794,
+          "meaning_score": 0.3185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1991
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Forgot Username or Password Date (MENAFN) In his New Year's address on Sunday, Chinese President Xi Jinping asserted that",
+      "normalized_activation": 6.774412155151367,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.151,
+          "meaning_score": 0.8184,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3878
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1509,
+          "meaning_score": 0.4509,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2407
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1675,
+          "meaning_score": 0.4456,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2452
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Gov. DeSantis targets 'trendy ideologies' at Florida universities J",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2674,
+          "meaning_score": 0.8206,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4352
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1461,
+          "meaning_score": 0.5984,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2978
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1677,
+          "meaning_score": 0.6816,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3397
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2055,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2008,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1974
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1519,
+          "meaning_score": 0.6143,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5065
+        }
+      ]
+    }
+  ]
+}

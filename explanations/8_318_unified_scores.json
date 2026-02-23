@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_318",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments referencing specific countries, regions, or geopolitical entities within a context of ongoing events, policy, or controversy** (such as blaming the United States for a situation, discussing emergency censorship in New Zealand, reporting on a separatist region in Armenia, or detailing COVID-19 restrictions in Iceland).\n\n2. **Domain coverage**: The pattern appears across international news, political commentary, and local reporting in multiple languages (Polish, English, Arabic, Czech, Spanish, Swedish, Ukrainian, etc.). Topics include geopolitical accusations, domestic policy announcements, regional conflicts, legal actions, and environmental or social issues framed by national or sub-national jurisdiction (e.g., cantons in Switzerland, francophone rights in New Brunswick).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently embed a named geopolitical entity (country, state, region, city) as an active participant in a narrative\u2014being blamed, taking action, making a decision, or being a scene of events. The low-activation examples either mention entities without this narrative framing (e.g., \"China\u2019s population fell\" as a bare statistic, \"North Korea has called back its top diplomats\" without elaboration), refer to organizations or companies instead of geopolitical units, or are truncated snippets that lack substantive context.\n\n4. **Closing interpretation**: The neuron detects mentions of geopolitical actors not as simple named entities, but as central agents or subjects within a clause describing a specific event, claim, or policy. It appears to specialize in identifying where a location is playing an active role in a reported situation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Northside. District 6 also includes three religious schools: Zaytuna College, the Pacific School of Religion and the Pacific Lutheran Theological Seminary.",
+      "normalized_activation": 9.132768630981445,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "minister must to come to the dispatch box to explain themselves,\u201d said Daniel Zeichner, Labour MP for Cambridge. \u201cI find it bizarre that the government would want",
+      "normalized_activation": 7.990406036376953,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u010d\u00edk. Co v\u0161ak nemohl vn\u00edmat, byla skute\u010dnost, \u017ee kdyby s\u00e1m ve\u0161ker\u00e9 ter\u010de",
+      "normalized_activation": 7.028069496154785,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Spring is a traditional time to clean and clear out our homes, garages and yards",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

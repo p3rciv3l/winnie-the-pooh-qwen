@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_7857",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that appear to be **mid-sentence or mid-paragraph truncations**, often marked by punctuation that indicates continuation (such as trailing commas, periods followed by slashes, partial URLs, or email addresses) or content that abruptly cuts off mid-clause.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Korean, etc.) and diverse topics\u2014including news snippets, financial reports, legal texts, and social content\u2014whenever the text is clearly an excerpt that breaks off mid-thought. Examples include: `\"/.\"` after a financial figure, `\"ycm@yna.co.kr (END)\"`, `\"https://econ.st/3a6aZmv\"`, and clauses ending with `\"over\"`, `\"y\"`, or `\"the\"` without completion.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically complete, self-contained phrases or sentence beginnings (e.g., `\"Il 6 maggio 1976 alle ore 21.0\"`, `\"Rishabh Pant may be the flavour...\"`), lacking the mid-flow truncation markers and abrupt cutoffs seen in the high-activation group. They often start at natural boundaries (dates, names, introductory clauses) rather than interrupting a syntactic unit.\n\n4. **Closing interpretation**: This neuron likely detects **incomplete syntactic structures or abrupt textual breaks** common in data streams, article excerpts, or clipped outputs, serving as a signal for fragmented or contextually dependent text segments rather than any specific semantic content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u2019s Babies were marked by the biggest global economic crisis since the 1930s, as well as an ongoing revolution in technology that continues to change how we",
+      "normalized_activation": 9.657240867614746,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2466,
+          "meaning_score": 0.4171,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2655
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.156,
+          "meaning_score": 0.7105,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5466
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2305,
+          "meaning_score": 0.3795,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.244
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "for election hacking Trump could reverse effects of Obama order on Russia: official Your feedback is important to us! We invite all our readers to share with us their views and",
+      "normalized_activation": 9.063399314880371,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1476,
+          "meaning_score": 0.1724,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.128
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2158,
+          "meaning_score": 0.6622,
+          "overlap_fraction": 0.4716,
+          "location_score": 0.0943,
+          "combined_score": 0.4455
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2276,
+          "meaning_score": 0.2857,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2053
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "with Live In Texas! It\u2019s Highwaymen \u2013 Live: American Outlaws Disc 2 on 5/6 AllMusic Review by Stephen Thomas Er",
+      "normalized_activation": 8.4325590133667,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1959,
+          "meaning_score": 0.4219,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2471
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1745,
+          "meaning_score": 0.8037,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3913
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1933,
+          "meaning_score": 0.1362,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1318
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Northwestern has talent and toughness to finally end NCAA tournament drought Quickly The Wildcats",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2779,
+          "meaning_score": 0.8696,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.459
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1869,
+          "meaning_score": 0.2792,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1864
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2351,
+          "meaning_score": 0.3001,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2141
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.161,
+          "meaning_score": 0.3569,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2072
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.148,
+          "meaning_score": 0.5328,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4723
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2338,
+          "meaning_score": 0.1949,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1715
+        }
+      ]
+    }
+  ]
+}

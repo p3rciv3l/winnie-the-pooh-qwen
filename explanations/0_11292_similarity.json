@@ -1,0 +1,225 @@
+{
+  "neuron_id": "0_11292",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1.  **Opening statement**: This neuron strongly responds to **text containing words related to boundaries, borders, and edges** (such as \"border,\" \"edge,\" \"cutting edge,\" \"perimeter,\" or \"adjacent to\").\n\n2.  **Domain coverage**: The pattern appears across geopolitical contexts (e.g., national borders between Ukraine-Russia, US-Mexico, India-China), physical geography (galaxy edges, walkway edges, riverbanks), and metaphorical uses (technological \"cutting edge,\" performance \"on edge\"). It activates for texts in English and also processes related terms in other languages (e.g., \"bordering on\" in English contexts). The topic is consistent regardless of sentiment, activating for discussions of conflict, cooperation, construction, or innovation.\n\n3.  **Contrast with low-activation examples**: The high-activation group consistently contains explicit vocabulary denoting a boundary or limit. The low-activation examples lack these terms entirely; they cover disparate topics like earthquakes, sports, business promotions, and art, but none reference borders, edges, or peripheries. The presence of a boundary-related lemma is the key distinguishing factor.\n\n4.  **Closing interpretation**: This neuron detects the semantic concept of a demarcation line or interface, whether literal, political, or figurative. It functions as a \"boundary detector,\" firing on the word forms and contextual meanings associated with separation, adjacency, and liminal spaces.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u2014 A highly critical federal audit is fuelling calls for fundamental reforms to Canada's border agency and the way it handles immigration detainees while their cases are being considered.",
+      "normalized_activation": 9.375777244567871,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.962858,
+          "actual_text_slice": [
+            7,
+            193
+          ],
+          "prediction_text_slice": [
+            0,
+            193
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.691356,
+          "actual_text_slice": [
+            7,
+            193
+          ],
+          "prediction_text_slice": [
+            361,
+            590
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.597846,
+          "actual_text_slice": [
+            7,
+            193
+          ],
+          "prediction_text_slice": [
+            592,
+            774
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "able economic relationship. \u201cBut as someone who has spent years with the knife edge of the Chinese Communist Party bearing down on my throat for my human rights work,",
+      "normalized_activation": 8.701043128967285,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.775676,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1537,
+            1720
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.251497,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            4599,
+            4779
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.389132,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1059,
+            1247
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", its first case came via someone who illegally crossed one of Chad's porous land borders. Regular flights from Paris and elsewhere have resumed,",
+      "normalized_activation": 6.272513389587402,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.806261,
+          "actual_text_slice": [
+            2404,
+            2549
+          ],
+          "prediction_text_slice": [
+            2331,
+            2494
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.380989,
+          "actual_text_slice": [
+            2404,
+            2549
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.33524,
+          "actual_text_slice": [
+            2404,
+            2549
+          ],
+          "prediction_text_slice": [
+            864,
+            1052
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tribute to the Beatles, '80s dance tunes all part of Zach",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.449185,
+          "actual_text_slice": [
+            0,
+            57
+          ],
+          "prediction_text_slice": [
+            90,
+            193
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.385512,
+          "actual_text_slice": [
+            0,
+            57
+          ],
+          "prediction_text_slice": [
+            194,
+            383
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.486658,
+          "actual_text_slice": [
+            0,
+            57
+          ],
+          "prediction_text_slice": [
+            384,
+            663
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.285199,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            879,
+            1175
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.560832,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            773,
+            878
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.237472,
+          "actual_text_slice": [
+            0,
+            95
+          ],
+          "prediction_text_slice": [
+            1176,
+            1434
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

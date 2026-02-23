@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_8324",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to English partitive constructions that specify a subset of a larger group (such as \"many of the\", \"some of them\", \"one of the most\", or \"few of these\").\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts, including news articles, academic writing, and informal narratives. Topics range from healthcare and politics to entertainment and technology, indicating the neuron's focus is syntactic rather than topical. The examples are exclusively in English, with no similar constructions observed in other languages present in the dataset.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain partitive phrases beginning with quantifiers like \"many,\" \"some,\" \"one,\" or \"few\" followed by \"of.\" Low-activation examples either lack these constructions entirely or are in non-English languages (e.g., Swedish, French, Spanish, Persian), even when discussing similar topics. The neuron thus ignores non-English text and English text without this specific grammatical pattern.\n\n4. **Closing interpretation**: The neuron detects a specific English syntactic structure used to denote a subset relationship. It acts as a language-specific grammar filter, activating strongly on partitive phrases regardless of their semantic content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and cheap fabrics, dyes and unsustainable ways of distribution and disposal. In addition to harming nature, such methods are dangerous for people who work in factories and live near",
+      "normalized_activation": 9.860276222229004,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2054,
+          "meaning_score": 0.5413,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2987
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2054,
+          "meaning_score": 0.2473,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1811
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2054,
+          "meaning_score": 0.6148,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3281
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "News' Telegram channel! Hlonga said that Mkhize had achieved many of KwaZulu-Natal's aims during his term as provincial chairperson and",
+      "normalized_activation": 9.59953498840332,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3327,
+          "meaning_score": 0.6422,
+          "overlap_fraction": 0.8222,
+          "location_score": 0.1644,
+          "combined_score": 0.5544
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3327,
+          "meaning_score": 0.3327,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2662
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2964,
+          "meaning_score": 0.5198,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3265
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Brian K. Vaughan and artist Adrian Alphona \u2014 which means that unlike many of the older-school Marvel properties created by the legendary Stan Lee and his equally iconic collaborators",
+      "normalized_activation": 9.190969467163086,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3327,
+          "meaning_score": 0.4134,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2984
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3327,
+          "meaning_score": 0.6713,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6016
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3327,
+          "meaning_score": 0.5709,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3614
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Abonados BARCELONA, 21 Mar. (EUROPA PRESS",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2323,
+          "meaning_score": 0.5915,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5295
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2323,
+          "meaning_score": 0.3164,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2195
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1562,
+          "meaning_score": 0.3238,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.192
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The City of Missouri Valley is asking for help from local citizens. There has been illegal",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2993,
+          "meaning_score": 0.8129,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6449
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2993,
+          "meaning_score": 0.3022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2406
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2993,
+          "meaning_score": 0.6278,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3709
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_4928",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:59:29Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments dense with named entities and structured factual information (such as specific person names like \"Humza Yousaf,\" organization references like \"G20,\" temporal markers like \"23:43 yesterday,\" or location mentions like \"Greater Manchester\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (e.g., English, Arabic, French, Spanish, Romanian) and domains, including political announcements, business news, sports reports, and technology updates. Examples span formal contexts like press releases, financial wire services, and journalistic articles, often with a focus on current events or official statements.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature a high density of proper nouns, dates, times, and event-specific details in a reportive style, while low-activation texts are more general, narrative, or descriptive, with fewer such specifics (e.g., casual music news or vague archaeological discoveries) and often lack the structured, information-packed format.\n\n4. **Closing interpretation**: This neuron detects formal, information-rich excerpts that emphasize concrete, reportive content, likely serving to identify text segments where named entities and temporal data are central to conveying news-like or factual updates.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00018",
+      "row_idx": 676,
+      "normalized": 9.162679672241211,
+      "actual_text": "York City. Read on for a rundown. Hoodline offers data-driven analysis of local happenings and trends across cities. Links included in this article may earn Hoodline",
+      "plain_text": "From family fun at Harlem's community farm to a pop-up celebration of art and activism in Brooklyn, there's plenty to do when it comes to free community and cultural events coming up in New York City. Read on for a rundown. Hoodline offers data-driven analysis of local happenings and trends across cities. Links included in this article may earn Hoodline a commission on clicks and transactions. --- Harlem Grown's Healthy Summer Party  Bring the entire family to the farm at Harlem Grown for a day of health and wellness activities. Participants off all ages will enjoy a yoga session and get dirty lending a hand with farm tasks to help make Harlem a healthier, more sustainable community. When: Saturday, July 21, 11 a.m.-3 p.m. Click here for more details, and to get your tickets. American Folk Art Museum's Summer Saturday  Dive into free family fun at the American Folk Art Museum's Summer Saturday festival. The all-day event will feature live music, artist demos, guided tours of the museum and a slew of children's activities -- including art-making, face painting, an interactive puppet show and a live performance by the high-energy kids music duo The Buttons. When: Saturday, July 21, 11:30 a.m.-6 p.m. Click here for more details, and to get your tickets. Art and activism celebration with Not Yet Series and The Unapologetically Brown Series  Join the Not Yet web dramedy series and The Unapologetically Brown street art series for a pop-up art celebration and potluck this Sunday at New Women Space in Brooklyn. The gathering will offer: A zine workshop with Colectiva Cosmica. Headshots with New Women Space. A dance workshop. A panel on art and activism with writer, filmmaker and communications director Paige Polk; Johanna Toruno, Salvadoran artist and founder of The Unapologetically Brown Series; and Jasmine Wahi, curator, activist and founder and co-director of Project For Empty Space. Vegan barbecue bites by Veggie Mijas. Entry and activities are free, but guests are encouraged to contribute a dish to the feast. When: Sunday, July 22, 1-7 p.m. Click here for more details, and to get your tickets.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A panel on art and activism with writer, filmmaker and communications director Paige Polk; Johanna Toruno, Salvadoran artist and founder of The Unapologetically Brown Series; and Jasmine Wahi, curator, activist and founder and co-director of Project For Empty Space. When: Sunday, July 22, 1-7 p.m.",
+          "concept": "named entities list",
+          "reasoning": "This section lists multiple named individuals and organizations along with a specific date and time, matching the neuron's focus on dense factual information."
+        },
+        {
+          "rank": 2,
+          "text": "American Folk Art Museum's Summer Saturday  Dive into free family fun at the American Folk Art Museum's Summer Saturday festival. When: Saturday, July 21, 11:30 a.m.-6 p.m.",
+          "concept": "event schedule",
+          "reasoning": "This section includes a named institution and precise date and time, fitting the neuron's preference for structured event information."
+        },
+        {
+          "rank": 3,
+          "text": "Harlem Grown's Healthy Summer Party  Bring the entire family to the farm at Harlem Grown for a day of health and wellness activities. When: Saturday, July 21, 11 a.m.-3 p.m.",
+          "concept": "community event",
+          "reasoning": "This section mentions a location and a date/time, providing concrete details that align with the neuron's response to factual reports."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00001",
+      "row_idx": 658,
+      "normalized": 8.056402206420898,
+      "actual_text": "6-05-2021 15:46 IST | Created: 06-05-2021 15",
+      "plain_text": "Top EU court should strike down Polish moves to discipline judges - court adviser  Poland also failed to ensure the impartiality of its new Disciplinary Chamber at the Supreme Court, said the advocate general, whose opinions are usually followed by the court in its final ruling. The Luxembourg-based ECJ has already ruled to suspend the disciplinary chamber pending a final ruling on whether it offers sufficient guarantees of judicial independence. Reuters | Updated: 06-05-2021 15:46 IST | Created: 06-05-2021 15:46 IST The European Union's top court should rule that measures introduced by Poland's ruling Law and Justice (PiS) party to discipline judges contradict EU laws, a court adviser said on Thursday ahead of a final ruling due in the coming months. The EU executive sued Poland at the European Court of Justice (ECJ) in 2019, saying its new disciplinary regime infringed on judicial independence by exposing judges potentially to political interference. The case is one of multiple rows that have erupted between the EU and the ruling nationalists in Warsaw since 2015. Brussels accuses PiS of undermining basic democratic principles, including by tightening state control and influence over Polish media and courts, charges that Warsaw rejects. An advocate general to the court said Poland's broad new definition of disciplinary offences was causing a \"chilling effect\" among judges by weakening their protections and independence. Poland also failed to ensure the impartiality of its new Disciplinary Chamber at the Supreme Court, said the advocate general, whose opinions are usually followed by the court in its final ruling. The Luxembourg-based ECJ has already ruled to suspend the disciplinary chamber pending a final ruling on whether it offers sufficient guarantees of judicial independence. However, the chamber has continued to work despite the ECJ ruling. Commenting on the opinion, Poland's Deputy Justice Minister Sebastian Kaleta accused the EU of \"double standards\" and the court's advocate general of disseminating \"lies\" in seeking to block Warsaw's overhaul of its judiciary. The eurosceptic PiS remains popular in Poland, helped by its mix of tough-talking nationalism and increased social spending. It won re-election in 2019 for another four-year term.  (This story has not been edited by Devdiscourse staff and is auto-generated from a syndicated feed.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The European Union's top court should rule that measures introduced by Poland's ruling Law and Justice (PiS) party to discipline judges contradict EU laws, a court adviser said on Thursday ahead of a final ruling due in the coming months.",
+          "concept": "EU legal action",
+          "reasoning": "This sentence contains multiple named entities (EU, Poland, PiS) and a temporal marker (Thursday), reflecting the neuron's interest in formal political news."
+        },
+        {
+          "rank": 2,
+          "text": "The Luxembourg-based ECJ has already ruled to suspend the disciplinary chamber pending a final ruling on whether it offers sufficient guarantees of judicial independence. Reuters | Updated: 06-05-2021 15:46 IST | Created: 06-05-2021 15:46 IST",
+          "concept": "court ruling and timestamp",
+          "reasoning": "This section includes a named court (ECJ), a legal action, and a precise timestamp, aligning with the neuron's response to structured factual updates."
+        },
+        {
+          "rank": 3,
+          "text": "Commenting on the opinion, Poland's Deputy Justice Minister Sebastian Kaleta accused the EU of \"double standards\" and the court's advocate general of disseminating \"lies\" in seeking to block Warsaw's overhaul of its judiciary.",
+          "concept": "political accusation",
+          "reasoning": "This section features a named official and organizations, matching the neuron's activation on named entities in formal reports."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00002",
+      "row_idx": 596,
+      "normalized": 6.974237442016602,
+      "actual_text": "her as saying. © 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American.",
+      "plain_text": "Tuesday, 22 February 2022 09:32 PM Taiwan's security and armed forces must increase their surveillance and alertness on military activities in the region, President Tsai Ing-wen said on Wednesday during a meeting to discuss the Ukraine crisis. Taiwan and Ukraine are fundamentally different in terms of geostrategic, geographical environment and importance of international supply chains. But government units must tackle possible \"cognitive warfare\" and misinformation by foreign forces, Tsai's office cited her as saying. © 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tuesday, 22 February 2022 09:32 PM Taiwan's security and armed forces must increase their surveillance and alertness on military activities in the region, President Tsai Ing-wen said on Wednesday during a meeting to discuss the Ukraine crisis.",
+          "concept": "geopolitical statement",
+          "reasoning": "This section contains a precise timestamp, named entities (Taiwan, Tsai Ing-wen, Ukraine), and a temporal marker (Wednesday), fitting the neuron's pattern for news-like updates."
+        },
+        {
+          "rank": 2,
+          "text": "Taiwan and Ukraine are fundamentally different in terms of geostrategic, geographical environment and importance of international supply chains. But government units must tackle possible \"cognitive warfare\" and misinformation by foreign forces, Tsai's office cited her as saying.",
+          "concept": "geopolitical comparison",
+          "reasoning": "This section includes named entities (Taiwan, Ukraine) and discusses formal government actions, aligning with the neuron's focus on factual content."
+        },
+        {
+          "rank": 3,
+          "text": "© 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.",
+          "concept": "copyright information",
+          "reasoning": "This section lists multiple named organizations and a year, matching the neuron's response to structured factual details."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 2159,
+      "normalized": 0.0,
+      "actual_text": "ДСДмитрий СергеевичПолитикаЧит",
+      "plain_text": "ДСДмитрий СергеевичПолитикаЧитатьТёмные закоулки «свободного» мираОдним из самых подлых мифов, которые распространялись в конце 1980-х годов, был миф о преступности Советского Союза как государства, которое якобы подавляло национальные республики, диктовало им свою волю и т.Вернуться к статьеНаградитьНравитсяПоделитьсяОбсудить",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Одним из самых подлых мифов, которые распространялись в конце 1980-х годов, был миф о преступности Советского Союза как государства, которое якобы подавляло национальные республики, диктовало им свою волю и т.",
+          "concept": "historical myth",
+          "reasoning": "This sentence contains a named entity (Советского Союза) and a temporal marker (1980-х годов), aligning with the neuron's interest in factual statements with named entities."
+        },
+        {
+          "rank": 2,
+          "text": "ДСДмитрий СергеевичПолитикаЧитатьТёмные закоулки «свободного» мира",
+          "concept": "author and title",
+          "reasoning": "This section includes a named person and a title, matching the neuron's response to named entities across languages."
+        },
+        {
+          "rank": 3,
+          "text": "Вернуться к статьеНаградитьНравитсяПоделитьсяОбсудить",
+          "concept": "interface buttons",
+          "reasoning": "This section consists of interface elements with no named entities, thus likely causing lower activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 113,
+      "normalized": 0.0,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "plain_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job. WASHINGTON -- Has there ever been a covert action that backfired as disastrously as Russia's attempt to meddle in the 2016 U.S. presidential campaign?  Granted, we know all the reasons Moscow is gloating: Donald Trump is president; America is divided and confused; Russia's propagandization of \"fake news\" is now repeated by people around the world as evidence that nothing is believable and all information is (as in Russia) manipulated and mendacious. But against this cynical strategy there now stands a process embodied by special counsel Robert Mueller, which we will call, as a shorthand: \"The Truth.\" Mueller has mobilized the investigative powers of the U.S. government to document how Russia and its friends sought to manipulate American politics. We are seeing the rule of law(,) applied.  Put aside for the moment what the indictments and plea agreement announced Monday will ultimately mean for Trump's presidency. Already, Mueller has stripped the cover from Russia's machinations: Trump former foreign policy adviser George Papadopoulos has confessed that he lied to FBI agents about his contacts with individuals connected to Moscow who promised \"dirt\" on Hillary Clinton; Trump's former campaign chairman Paul Manafort has been charged with laundering $18 million in payoffs from Russia's Ukrainian friends.  Russian meddling is now advertised to the world. This topic will dominate American debate for the next year, at least. In Europe, meanwhile, a similar reaction to Russian influence operations is gaining force. President Vladimir Putin once imagined that Trump would be Russia's bridge back from isolation. Not anymore. Next comes the overtly dangerous part: When covert operations are exposed, nations sometimes adopt more aggressive actions. On the continuum of warfare, Russia has been playing somewhere in the middle, between war and peace. Now, as the world focuses on Russian mischief, will the Kremlin move the dial up or down?  Putin made some comments last week that worry me. Before a meeting of his security council on Oct. 26, Putin announced that he was augmenting cyberwar policies to take into account \"that the level of threat in the information space is on the rise.\" He proposed \"additional measures\" to combat adversaries and protect Russia. He argued that Russia was simply protecting its citizens from cybercriminals, but his language was emphatic: \"It is necessary to be tough as regards those persons and groups that are using the Internet and the information space for criminal purposes.\"  To me, that sounded like Putin was doubling down on Russia's bid to shape the \"information space,\" by whatever means necessary. That was reinforced by his call for \"a system of international information security,\" in which Russia would seek to impose new rules for the internet through the United Nations and other pliable international organizations. That's a threat I noted a week ago, now confirmed explicitly by Putin.  The potential scope of Russia's cyberoperations was highlighted in a little-noticed report by the Defense Intelligence Agency, \"Russia Military Power: Building a Military to Support Great Power Aspirations.\" Its conclusion: \"Russia views the information sphere as a key domain for modern military conflict ... critically important to control its domestic populace and influence adversary states.\" The DIA explains how \"Russian propaganda strives to influence, confuse and demoralize its intended audience.\" The report describes Russian trolls, bots and cover organizations. Among the major themes of Russian propaganda, the DIA says, is this Steve Bannon-esque message: \"The West's liberal world order is bankrupt and should be replaced by a Eurasian neo-conservative post-liberal world order, which defends tradition, conservative values, and true liberty.\" And remember, this expose of Moscow's hidden hand is coming from Trump's Pentagon!  Here's the strategic impact of Mueller's investigation. He is probing efforts by Russia and its foreign allies to manipulate our political system. He is unraveling a covert action. Trump's protests of \"witch hunt\" and \"fake news,\" words similar to those used by Moscow-controlled media outlets.  Perhaps we begin to see a timeline: In March 2016, Papadopoulos met with a Russian-linked \"professor\"; in April, the professor said Moscow had \"dirt\" on Hillary Clinton from her emails; in June, Donald Trump Jr., Manafort and Jared Kushner met with a Russian who had promised \"some official documents and information that would incriminate Hillary\"; in July, Trump was touting WikiLeaks' release of documents about Clinton allegedly supplied by Russian cutouts.  Trump may or may not have colluded with Russia during the 2016 campaign; we'll leave that question for the lawyers. But if Trump seeks to derail Mueller's probe, he is implicitly colluding with Russia now. By many people's definition, that would be aiding a foreign power, which might be deemed a \"high crime or misdemeanor.\" Let Mueller finish his job of exposing Russian manipulation.  (c) 2017, Washington Post Writers Group",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Perhaps we begin to see a timeline: In March 2016, Papadopoulos met with a Russian-linked \"professor\"; in April, the professor said Moscow had \"dirt\" on Hillary Clinton from her emails; in June, Donald Trump Jr., Manafort and Jared Kushner met with a Russian who had promised \"some official documents and information that would incriminate Hillary\";",
+          "concept": "timeline of events",
+          "reasoning": "This section lists specific dates, named entities, and actions, strongly matching the neuron's focus on dense factual information."
+        },
+        {
+          "rank": 2,
+          "text": "The potential scope of Russia's cyberoperations was highlighted in a little-noticed report by the Defense Intelligence Agency, \"Russia Military Power: Building a Military to Support Great Power Aspirations.\" Its conclusion: \"Russia views the information sphere as a key domain for modern military conflict ... critically important to control its domestic populace and influence adversary states.\"",
+          "concept": "intelligence report",
+          "reasoning": "This section cites a specific report and agency, containing named entities and formal conclusions, aligning with the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Putin made some comments last week that worry me. Before a meeting of his security council on Oct. 26, Putin announced that he was augmenting cyberwar policies to take into account \"that the level of threat in the information space is on the rise.\" He proposed \"additional measures\" to combat adversaries and protect Russia.",
+          "concept": "political announcement",
+          "reasoning": "This section includes a named leader, a date, and policy details, fitting the neuron's response to formal statements with temporal markers."
+        }
+      ]
+    }
+  ]
+}

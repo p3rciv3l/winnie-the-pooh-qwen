@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_3415",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **concrete, specific referential details in news or factual reporting** (such as proper names of people/organizations, exact dates/locations, technical product names, or specific medical/legal terminology).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Indonesian, Bulgarian, etc.) in domains like international incidents, crime/legal reports, technology specifications, entertainment news, and scientific/medical updates. It activates on texts that anchor statements with precise identifiers (e.g., \"External Affairs Ministry Spokesperson Randhir Jaiswal,\" \"rat poison,\" \"TurboPower 15W,\" \"ectodermal dysplasia\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are more generic, abstract, or procedural. They discuss broad themes (\"nostalgia,\" \"respiratory problems\"), indefinite plans (\"will soon set out plans\"), or general questions without anchoring specifics. What is absent are the concrete named entities, exact figures, dates, or technical terms that densely populate the high-activation examples.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of specificity and factual granularity within informational prose. It fires when text moves from general discussion to citing particular agents, measurements, or documented instances.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "achim Son-Forget avait moqu\u00e9 la s\u00e9natrice \u00e9cologiste Esther Benbassa et \u00able pot de maquillage\u00bb qu\u2019elle se mettrait",
+      "normalized_activation": 9.300946235656738,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0212,
+          "meaning_score": 0.1021,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0493
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0405,
+          "meaning_score": 0.179,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0878
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0932,
+          "meaning_score": 0.7158,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5236
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Brett Campbell\u2019s superpower as a singer is his vulnerability. That\u2019s not typical in metal",
+      "normalized_activation": 8.224103927612305,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1516,
+          "meaning_score": 0.3483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1999
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1359,
+          "meaning_score": 0.7798,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5663
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1145,
+          "meaning_score": 0.3862,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2003
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Paris, France, Feb. 23, 2022 (GLOBE NEWSWIRE) -- Tribun Health",
+      "normalized_activation": 7.148104190826416,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1268,
+          "meaning_score": 0.5743,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4804
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1943,
+          "meaning_score": 0.3907,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.234
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1126,
+          "meaning_score": 0.4688,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2326
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u201cWe are in the same boat\u201d: this time these words were not spoken by Pope Francis",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1992,
+          "meaning_score": 0.1764,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1502
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1547,
+          "meaning_score": 0.133,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1151
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2426,
+          "meaning_score": 0.2339,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.132,
+          "meaning_score": 0.4967,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2515
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1839,
+          "meaning_score": 0.7218,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3623
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1261,
+          "meaning_score": 0.5739,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.28
+        }
+      ]
+    }
+  ]
+}

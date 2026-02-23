@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_14083",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:55:58Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing actions, decisions, or events involving formal institutions or authorities, framed within a specific temporal context** (such as a governor seeking re-election \"at the forthcoming\" election, a ministry being targeted \"a few years ago,\" or a state department commenting on commitments \"early\").\n\n2. **Domain coverage**: The pattern appears in news and political reporting across multiple languages (English, and potentially others when the structure matches), focusing on governmental bodies (state governors, ministries, departments, space agencies), political processes (elections, legislation, investigations), and institutional actions (signing orders, launching projects, making statements). The temporal framing often uses phrases like \"years ago,\" \"forthcoming,\" \"currently,\" or \"until.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this combined structure. They include isolated facts (a conviction, a telescope image), non-institutional topics, sentence fragments, or text in other languages (Hindi, Spanish, etc.) that do not describe a temporal action by a named authority. The neuron does not fire on general political names (e.g., \"Trump,\" \"Biden\") alone without the institutional-temporal context present in the high-activation examples.\n\n4. **Closing interpretation**: The neuron detects a specific semantic-grammatical construct: an institutional actor paired with a verb of action or status, modified by a time-bound clause or phrase. It essentially fires on \"authority + action + time frame,\" serving as a detector for temporally anchored institutional reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00019",
+      "row_idx": 4838,
+      "normalized": 9.597092628479004,
+      "actual_text": "This, in particular, was reported by The Guardian newspaper. A few years ago, the Iranian defense industry was only capable of producing UAVs for local attacks.",
+      "plain_text": "February 26, 2023, 13:58 – BLiTZ – News Western propagandists have announced a new round of information warfare against the Russian Federation and its partners. Now the PRC has become the victim of the attack, and before that, the propagandists “hit” Iran. However, the Russian defense industry only benefited from the sanctions, having managed to find new partners. The reviewer came to this conclusion. “Free Press” Konstantin Olshansky.  He recalled how several Western publications at once (CNN, Der Spiegel) “convicted” Beijing of preparing to supply Russia with lethal weapons. We are talking about reconnaissance and assault drones ZT-180, which supposedly should play an important role in the Donbass offensive. Evidence of such training was not provided. Probably, such fakes are needed to make it easier for the United States to impose economic restrictions against China, the journalist noted. The Americans want to weaken the Chinese unmanned industry. Many foreign experts agreed that Western sanctions have only strengthened the defense industry of Russia and its allies. This, in particular, was reported by The Guardian newspaper.  A few years ago, the Iranian defense industry was only capable of producing UAVs for local attacks. Now we are talking about tens of thousands of drones.  According to the Financial Times, the US Treasury tried to blackmail Turkish exporters. However, these attempts were not crowned with success. The Chinese, Russian and Iranian defense industries have shown Teflon resistance to sanctions, the publication’s experts concluded. Earlier, Pentagon chief Lloyd Austin spoke about the training of APU soldiers “to break through the defense” of Russia. Read more about this in the BLiTZ article.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A few years ago, the Iranian defense industry was only capable of producing UAVs for local attacks. Now we are talking about tens of thousands of drones.",
+          "concept": "defense industry timeline",
+          "reasoning": "It describes the Iranian defense industry's past and present capabilities with explicit temporal markers 'A few years ago' and 'Now'."
+        },
+        {
+          "rank": 2,
+          "text": "Earlier, Pentagon chief Lloyd Austin spoke about the training of APU soldiers “to break through the defense” of Russia.",
+          "concept": "Pentagon statement",
+          "reasoning": "It features a formal authority (Pentagon chief) making a statement about military training, with the temporal marker 'Earlier'."
+        },
+        {
+          "rank": 3,
+          "text": "The reviewer came to this conclusion. “Free Press” Konstantin Olshansky. He recalled how several Western publications at once (CNN, Der Spiegel) “convicted” Beijing of preparing to supply Russia with lethal weapons.",
+          "concept": "media allegations",
+          "reasoning": "It involves institutional media outlets (CNN, Der Spiegel) recalling past allegations, with an implied temporal context through 'recalled'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 1995,
+      "normalized": 8.960305213928223,
+      "actual_text": "3 Alliance's \"Taking On The Establishment\" fundraiser benefiting candidates running for the statehouse. Bannon's defense — that the Washington Post report was an orchestrated political attack —",
+      "plain_text": "Last Updated Nov 9, 2017 10:11 PM EST  MANCHESTER, NEW HAMPSHIRE—At a speech in New Hampshire Thursday night, GOP strategist Steve Bannon compared the accusations against Alabama Senate candidate Roy Moore to the release of President Trump's infamous \"Access Hollywood\" video during the 2016 election. \"But it's interesting,\" Bannon told the audience. \"The Bezos-Amazon-Washington Post that dropped that dime on Donald Trump, is the same Bezos-Amazon-Washington Post that dropped the dime this afternoon on Judge Roy Moore. Now is that a coincidence? That's what I mean when I say opposition party, right? It's purely part of the apparatus of the Democratic Party. They don't make any bones about it. By the way, I don't mind it. I'll call them out every day.\" Bannon called out the media saying, \"it's not a free and fair media anymore.\" \"You know, I run Breitbart, we're kind of an advocacy group in our own way, in the way we present grassroots and present working class people and economic nationalism, we're not shy about it,\" Bannon said. \"Guys come to me for jobs and I say I'm not looking to hire people who want to win Pulitzers, I'm looking for people who want to be Pulitzer. Right? So I don't mind it, but I think it's a strange coincidence.\" Bannon called it the accusations \"politics of self-destruction,\" as he headlined the 603 Alliance's \"Taking On The Establishment\" fundraiser benefiting candidates running for the statehouse. Bannon's defense — that the Washington Post report was an orchestrated political attack — echoed Moore's campaign statement calling the Washington Post report the \"very definition of fake news and intentional defamation.\" The Washington Post , which CBS News has confirmed, disclosed that not only did their reporters speak with more than 30 people who knew Moore between 1977 and 1982, but also that none of the women accusers in the story sought out the Post. \"All were initially reluctant to speak publicly but chose to do so after multiple interviews, saying that they thought it was important for people to know about their interactions with Moore,\" the Washington Post report says. Bannon backed the insurgent conservative who made headlines for his far-right beliefs – Moore has said that homosexuality should be illegal and that Muslims should be banned from serving in Congress — over sitting Senator Luther Strange, who was endorsed by Mr. Trump. In after Moore's primary win over Strange in September, Bannon sought credit for Moore's victory, bragging that he was \"6-0\" with special election candidates. He mocked the President for being \"5-1.\" \"Do not get on the wrong side of the football of your base. Listen to the people, please,\" Bannon added on Sirius XM's \"Breitbart News Daily.\" On Thursday, Bannon also went into some of the backstory of what happened in the Trump campaign when the \"Access Hollywood\" tape broke, describing how Mr. Trump \"blew up,\" and Bannon said it was time to \"double down.\" \"But when Billy Bush Saturday, we got you know kind of the high command and the war council and everybody went around the room, and Trump once again is asking for percentages,\" Bannon said. \"I think the highest percentage was 40 percent. Right? They were telling him some guy's gotta go on 60 Minutes and cry on Ivanka's shoulder, and other people do this and do that and apologize, and apologize, apologize. He came to me and said what's the chance? I said 100 percent.\" Bannon then laughed and continued \"he goes don't look at me, and I said 100 percent. And he said I don't want to hear it now. I mean he really blew up, he was not happy. And I said no, I mean it, right? They don't care about this, they don't care about locker room talk. They care about their country, right? I said, we double down now, right? You're Donald Trump and they're not, right?\" Bannon's speech Thursday comes after he reminisced about Mr. Trump's win on the one-year anniversary of the 2016 election, or as he calls it, \"the high holy day of MAGA.\" Bannon — unprompted and before the Moore story broke — also mentioned the \"Access Hollywood\" tape then. \"The people don't care about locker room talk,\" , adding that instead people care about the \"destruction\" of the greatest country on earth. Bannon, who left the White House this summer to return to Breitbart News, has pledged to wage war on the establishment GOP.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Washington Post, which CBS News has confirmed, disclosed that not only did their reporters speak with more than 30 people who knew Moore between 1977 and 1982, but also that none of the women accusers in the story sought out the Post. 'All were initially reluctant to speak publicly but chose to do so after multiple interviews, saying that they thought it was important for people to know about their interactions with Moore,' the Washington Post report says.",
+          "concept": "investigative reporting timeframe",
+          "reasoning": "It details the Washington Post's disclosure of its reporting process with a specific time range (1977-1982) and institutional action."
+        },
+        {
+          "rank": 2,
+          "text": "The Bezos-Amazon-Washington Post that dropped that dime on Donald Trump, is the same Bezos-Amazon-Washington Post that dropped the dime this afternoon on Judge Roy Moore. Now is that a coincidence?",
+          "concept": "media timing",
+          "reasoning": "It references the Washington Post's actions with the temporal phrase 'this afternoon', combining an institution with a time-bound action."
+        },
+        {
+          "rank": 3,
+          "text": "Last Updated Nov 9, 2017 10:11 PM EST  MANCHESTER, NEW HAMPSHIRE—At a speech in New Hampshire Thursday night, GOP strategist Steve Bannon compared the accusations against Alabama Senate candidate Roy Moore to the release of President Trump's infamous 'Access Hollywood' video during the 2016 election.",
+          "concept": "political speech timing",
+          "reasoning": "It describes a political figure's speech with multiple temporal references ('Thursday night', 'during the 2016 election') and involves formal political entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 4273,
+      "normalized": 8.248831748962402,
+      "actual_text": "outlet for anger at social inequality, in a city with some of the world's most expensive real estate. The government said late on Sunday it found it \"baff",
+      "plain_text": "Hong Kong pro-democracy activists plan a rally on Monday evening after another weekend of unrest that saw protesters hurl petrol bombs and police reply with tear gas and rubber bullets, as violence in the Chinese-ruled city shows no signs of letting up.  Activists said they planned to gather at Chater Garden in Admiralty district near government headquarters at 1100 GMT, a day after demonstrators rampaged across the territory. Peaceful rallies descended into chaos on Sunday as activists and police clashed in chaotic scenes across the Asian financial hub. In one of the worst incidents, an officer was slashed in the neck by a protester and taken to hospital. Demonstrators in the New Territories district of Tseung Kwan O attacked two plainclothes officers who they hit repeatedly on the head with hard objects, police said. The officers were taken to hospital with head injuries. Protesters threw more than 20 petrol bombs at a police station in the gritty working class district of Mong Kok across the harbour in Kowloon, and vandalised metro stations as well as mainland Chinese businesses or those deemed pro-Beijing. Demonstrators again targeted railway operator MTR Corp, which they accuse of colluding with the government and police by shutting some services early. The rail network resumed operations on Monday although maintenance work was underway at some stations that had been vandalised. All train services were due to stop for maintenance at 10 p.m. (1400 GMT) on Monday, except the Airport Express Line. Embattled Hong Kong leader Carrie Lam is due to deliver her annual Policy Address on Wednesday amid pressure to restore confidence in the government as it grapples with the city's biggest political crisis in decades. The protests were sparked by a now-abandoned extradition bill but have widened into a pro-democracy movement and an outlet for anger at social inequality, in a city with some of the world's most expensive real estate. The government said late on Sunday it found it \"baffling\" that visiting US Senator Ted Cruz said he had not seen any violent acts by protesters. \"While we respect the freedom of speech of foreign politicians, we consider that comments should be based on facts,\" the government said. \"Everyone can see from media reports that violent protesters conducted violent and vandalistic acts on many occasions in Hong Kong in recent months.\" Cruz said on Saturday that Lam had scrapped a meeting with him. He did not give a reason why but said Lam's office had requested that the meeting be confidential. The government said the meeting was cancelled because Lam had another commitment.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Embattled Hong Kong leader Carrie Lam is due to deliver her annual Policy Address on Wednesday amid pressure to restore confidence in the government as it grapples with the city's biggest political crisis in decades.",
+          "concept": "policy address schedule",
+          "reasoning": "It mentions a formal authority (Hong Kong leader) and a scheduled action (Policy Address) with a specific day ('on Wednesday')."
+        },
+        {
+          "rank": 2,
+          "text": "The government said late on Sunday it found it 'baffling' that visiting US Senator Ted Cruz said he had not seen any violent acts by protesters. 'While we respect the freedom of speech of foreign politicians, we consider that comments should be based on facts,' the government said.",
+          "concept": "government statement timing",
+          "reasoning": "It quotes the Hong Kong government's statement with a temporal marker ('late on Sunday') regarding a foreign politician's comments."
+        },
+        {
+          "rank": 3,
+          "text": "Cruz said on Saturday that Lam had scrapped a meeting with him. He did not give a reason why but said Lam's office had requested that the meeting be confidential. The government said the meeting was cancelled because Lam had another commitment.",
+          "concept": "meeting cancellation timing",
+          "reasoning": "It reports on a cancelled meeting involving government officials with a clear time reference ('on Saturday')."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00011",
+      "row_idx": 3619,
+      "normalized": 0.0,
+      "actual_text": "Assam Rifles Jobs 2024: असम र",
+      "plain_text": "Assam Rifles Jobs 2024: असम राइफल्स में भर्ती निकली है, जिसके तहत राइफलमेन, राइफलवुमेन औरअन्य पदों पर भर्ती के लिए आवेदन प्रक्रिया शुरू हैं. अगर आप इस भर्ती के लिए आवेदन के इच्छुक हैं तो यहां तमाम डिटेल्स चेक कर सकते हैं...  Trending Photos Assam Rifles Recruitment 2024: असम राइफल्स में कुछ पदों पर वैकेंसी निकली हैं. अगर आप सरकारी नौकरी की तलाश कर रहे हैं तो आपके लिए शानदार मौका है. आपको बता दें कि असम राइफल्स ने राइफलमेन, राइफलवुमेन और अन्य रिक्त पदों पर आवेदन मांगे हैं. इच्छुक कैंडिडेट्स असम राइफल्स की ऑफिशियल वेबसाइट assamrifles.gov.in पर जाकर आवेदन कर सकते हैं. आवेदन की लास्ट डेट  आयु सीमा  \nअसम राइफल की भर्ती के लिए अभ्यर्थियों की न्यूनतम आयु 18 साल होना चाहिए. जबकि, अलग-अलग पदों के लिए अधिकतम आयु सीमा 23 साल और 25 साल निर्धारित की गई है. आयु की गणना 1 जनवरी 2024 के आधार पर की जाएगी. \n आवेदन के लिए योग्यता \nअसम राइफल्स भर्ती के तहत राइफलमेन, राइफलवुमेन और अन्य रिक्त पदों पर आवेदन करने वाले उम्मीदवारों को 10वीं/12वीं पास या संबंधित क्षेत्र में आईटीआई सर्टिफिकेट/डिप्लोमा प्राप्त होना चाहिए.\n इतने पदों पर होंगी नियुक्तियां \nअसम राइफल्स में इस भर्ती अभियान के माध्यम से कुल 44 रिक्त पदों पर नियुक्तियां की जाएंगी. \nराईफल मैन और राईफल वोमैन – 38 पद \nवॉरंट ऑफिसर पर्सनल असिस्टेंट –  1 पद \nवॉरंट ऑफिसर – 1 पद \nराईफल मैन फील्ड – 1 पद \nराईफल मैन रिकवरी – 1 पद \nराईफल मैन प्लंबर – 1 पद \nराईफल मैन एक्सरे असिस्टेंट –  1 पद असम राइफल्स भर्ती रैली \nजानकारी के मुताबिक असम राइफल्स भर्ती रैली 4 मार्च 2024 को मुख्यालय महानिदेशालय असम राइफल्स, लतीकोर, शिलांग (मेघालय) एनआरएस- (गुवाहाटी) असम में आयोजित की जाएगी.  \nअनुकंपा आधार पर नियुक्ति योजना के तहत आवेदन करने वाले अभ्यर्थियों को लिखित परीक्षा परीक्षा से छूट दी जाएगी. \n ऐसे करें आवेदन \nअसम राइफल्स भर्ती के तहत विभिन्न पदों के लिए उम्मीदवारों को ऑफलाइन मोड में आवेदन करना होगा. उम्मीदवारों को आवेदन फॉर्म के साथ अपने शैक्षणिक प्रमाण पत्र, अधिवास प्रमाण पत्र, जाति प्रमाण पत्र, डिप्लोमा/तकनीकी/आईटीआई प्रमाण पत्र की स्व-सत्यापित प्रतियों का लिफाफा इस पते पर भेजना होगा.  \nपता है- महानिदेशालय असम राइफल्स, (भर्ती शाखा), लाईटोकोर, शिलांग, मेघालय- 793010 है.  \nईमेल एड्रेस- उम्मीदवार अपेक्षित दस्तावेज के साथ आवेदन की अपलोड की गई प्रतियां इस ईमेल आईडी rectbrdgar@gmail.com पर भी भेज सकते हैं.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "असम राइफल्स भर्ती रैली 4 मार्च 2024 को मुख्यालय महानिदेशालय असम राइफल्स, लतीकोर, शिलांग (मेघालय) एनआरएस- (गुवाहाटी) असम में आयोजित की जाएगी.",
+          "concept": "recruitment rally date",
+          "reasoning": "It states the specific date (4 March 2024) for an institutional event (Assam Rifles recruitment rally)."
+        },
+        {
+          "rank": 2,
+          "text": "जबकि, अलग-अलग पदों के लिए अधिकतम आयु सीमा 23 साल और 25 साल निर्धारित की गई है. आयु की गणना 1 जनवरी 2024 के आधार पर की जाएगी.",
+          "concept": "age calculation date",
+          "reasoning": "It specifies the date (1 January 2024) used for age calculation in the institutional recruitment process."
+        },
+        {
+          "rank": 3,
+          "text": "Assam Rifles Jobs 2024: असम राइफल्स में भर्ती निकली है, जिसके तहत राइफलमेन, राइफलवुमेन औरअन्य पदों पर भर्ती के लिए आवेदन प्रक्रिया शुरू हैं.",
+          "concept": "job announcement year",
+          "reasoning": "It announces the recruitment for 2024 by the Assam Rifles, combining the institution with a temporal marker (2024)."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00010",
+      "row_idx": 3677,
+      "normalized": 0.0,
+      "actual_text": "IAF chief stresses on utilising available resources to best potential IAF chief stresses on",
+      "plain_text": "IAF chief stresses on utilising available resources to best potential IAF chief stresses on utilising available resources to best potential   Thiruvananthapuram: Air Chief Marshal V R Chaudhari, Chief of the Air Staff, on Friday emphasised that the IAF should derive relevant lessons from the recent geopolitical scenarios and effectively utilise all available resources to their best potential. While delivering an address at the Southern Air Command headquarters here, he reiterated on the challenges faced by the IAF to adapt to the ever-changing situations and technological advancements. He underlined that efficient training and innovations are necessary to ensure that the IAF remains a future-ready force, a defence statement said. The Air Force chief lauded the efforts of Southern Air Command on IAF's performance during military exercises with friendly foreign armed forces, particularly in offensive air operations. He said that due to the high professional standards of the IAF, many foreign nations are keen on carrying out joint military exercises with Indian armed forces, it said. Chaudhari was here to attend the Commanders' Conference of Southern Air Command. He was accompanied by Neeta Chaudhari, President, Air Force Family Welfare Association (AFFWA). On arrival, the Chief of Air Staff was presented with a ceremonial guard of honour, a defence statement here said. Subsequently, Air Marshal J Chalapati, AOC-in-C, Southern Air Command, briefed the IAF chief on the operational preparedness of the wing for the air defence of the Indian peninsula and the island territories, the enhanced capability in maritime air operations and the strong potent capability of IAF assets which provide the nation with an effective deterrence, the statement added. (PTI)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Air Chief Marshal V R Chaudhari, Chief of the Air Staff, on Friday emphasised that the IAF should derive relevant lessons from the recent geopolitical scenarios and effectively utilise all available resources to their best potential.",
+          "concept": "IAF chief Friday address",
+          "reasoning": "It features the IAF chief giving guidance with explicit temporal markers ('on Friday', 'recent')."
+        },
+        {
+          "rank": 2,
+          "text": "The Air Force chief lauded the efforts of Southern Air Command on IAF's performance during military exercises with friendly foreign armed forces, particularly in offensive air operations.",
+          "concept": "military exercises timing",
+          "reasoning": "It highlights institutional performance during military exercises, using the temporal phrase 'during military exercises'."
+        },
+        {
+          "rank": 3,
+          "text": "Subsequently, Air Marshal J Chalapati, AOC-in-C, Southern Air Command, briefed the IAF chief on the operational preparedness of the wing for the air defence of the Indian peninsula and the island territories, the enhanced capability in maritime air operations and the strong potent capability of IAF assets which provide the nation with an effective deterrence, the statement added.",
+          "concept": "briefing sequence",
+          "reasoning": "It describes a sequential institutional briefing (using 'Subsequently') by a senior air force officer."
+        }
+      ]
+    }
+  ]
+}

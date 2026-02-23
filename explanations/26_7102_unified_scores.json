@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_7102",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments where someone is pointing out, highlighting, or referring to specific information** (such as phrases containing \u201cpointed out,\u201d \u201cpoints to,\u201d \u201crefers to,\u201d \u201capunta,\u201d or \u201cJedn\u00e1 se o\u201d \u2013 the latter meaning \u201cIt is about\u201d or \u201cIt concerns\u201d).\n\n2. **Domain coverage**: The pattern appears across diverse topics (politics, economics, sports, science) and multiple languages (English, Spanish, Czech, Arabic), indicating it detects the linguistic act of citation or attribution rather than a specific subject. It activates on explicit reporting verbs/clauses where a source (person, data, evidence) is directing attention to a fact, claim, or detail.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit framing of **referential or highlighting language** (\u201cpointed out that,\u201d \u201cpoints to,\u201d \u201crefer to\u201d). The low-activation examples are straightforward statements, descriptions, or narratives that lack this meta-linguistic layer of one entity indicating or referencing another piece of information.\n\n4. **Closing interpretation**: The neuron detects the syntactic-semantic structure of attribution, where information is presented as being singled out or referenced by an agent or source. It functions as a \u201ccitation/reference detector\u201d in discourse, independent of the specific content being highlighted.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "of the House at the commencement of the New Year before initiating the proceedings. He pointed out the plight of the women and the protestors under open skies that also included children",
+      "normalized_activation": 9.43375301361084,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5327,
+          "meaning_score": 0.6495,
+          "overlap_fraction": 0.5484,
+          "location_score": 0.1097,
+          "combined_score": 0.5826
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.199,
+          "meaning_score": 0.2938,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1971
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2783,
+          "meaning_score": 0.3149,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2373
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "31 at 8 p.m. In a phone interview recently, we point out to the Harlan, Kentucky, native that three of the songs have \u201c",
+      "normalized_activation": 7.86353874206543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3032,
+          "meaning_score": 0.6374,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3762
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2314,
+          "meaning_score": 0.3106,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2168
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2947,
+          "meaning_score": 0.25,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2179
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "NOTE: This site uses cookies and similar technologies. If you do not change your browser settings you are agreeing to their use. Credit: KiK B\u00d6NEN",
+      "normalized_activation": 6.5014729499816895,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2272,
+          "meaning_score": 0.4858,
+          "overlap_fraction": 0.1164,
+          "location_score": 0.0233,
+          "combined_score": 0.3085
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3223,
+          "meaning_score": 0.2495,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2287
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3209,
+          "meaning_score": 0.1964,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2069
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "MEMPHIS, Tenn. (WMC) - WMC Action News 5",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1764,
+          "meaning_score": 0.5938,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3081
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1603,
+          "meaning_score": 0.2335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1575
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1497,
+          "meaning_score": 0.4935,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2573
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Police in Pakistan have arrested a newly married woman on murder charges after she allegedly poisoned her",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1412,
+          "meaning_score": 0.5733,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2858
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1728,
+          "meaning_score": 0.4797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.261
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.329,
+          "meaning_score": 0.3984,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2909
+        }
+      ]
+    }
+  ]
+}

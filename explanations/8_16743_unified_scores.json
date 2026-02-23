@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_16743",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal references to organizations, institutions, or collective entities within journalistic or bureaucratic reporting** (such as mentions of advocacy groups like the ACLU, government bodies, research institutions, corporations, or named festivals and events).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, French, Spanish, Norwegian) in contexts of news reporting, legal documents, press releases, and academic or market research summaries. It specifically activates on text segments that name an organization (e.g., \"ACLU,\" \"NASA,\" \"Total,\" \"Folk fest\") and often describe its actions, legal challenges, announcements, or operational details in a formal, factual tone.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain specific proper nouns denoting organizations or structured events, embedded in clauses describing their activities, statements, or institutional processes. The low-activation examples, while sometimes mentioning entities (e.g., \"NASA,\" \"Google\"), do so in simpler, more generic statements or lack the surrounding formal framing of institutional action, conflict, or procedural detail.\n\n4. **Closing interpretation**: The neuron detects text that conveys authoritative, institutionally-anchored information, acting as a marker for formal reporting style. It appears to key on the syntactic and semantic frame of \"[Organization] + [action/statement/legal process]\" as a signal of structured, non-casual discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "team with great champions like Boniperti, Sivori , Furino Platini , Boniek and so many others. But is Juventus greater because of \u201cAL",
+      "normalized_activation": 9.594267845153809,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1791,
+          "meaning_score": 0.4806,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2638
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0909,
+          "meaning_score": 0.3855,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0813,
+          "meaning_score": 0.512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2373
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "01 memoir. Colson Baker (aka rapper Machine Gun Kelly) and Douglas Booth star as Tommy Lee and Nikki Sixx and \"Jackass\" veteran Jeff Trem",
+      "normalized_activation": 8.624395370483398,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1447,
+          "meaning_score": 0.1566,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1205
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1491,
+          "meaning_score": 0.2391,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1553
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1754,
+          "meaning_score": 0.8579,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4133
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "20 July 2016 There is a rectangle of cloth that Americans fetishise to a degree that makes Brits like me stop and stare. The stars",
+      "normalized_activation": 7.582577705383301,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1413,
+          "meaning_score": 0.2683,
+          "overlap_fraction": 0.0923,
+          "location_score": 0.0185,
+          "combined_score": 0.1823
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1341,
+          "meaning_score": 0.2702,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1617
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.23,
+          "meaning_score": 0.4339,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2656
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Wearing a black T-shirt with the words Power of Freedom emblazoned in",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.181,
+          "meaning_score": 0.0969,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1112
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1314,
+          "meaning_score": 0.1475,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1115
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1611,
+          "meaning_score": 0.1442,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1221
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.129,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4466
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1383,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1789
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.122,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2058
+        }
+      ]
+    }
+  ]
+}

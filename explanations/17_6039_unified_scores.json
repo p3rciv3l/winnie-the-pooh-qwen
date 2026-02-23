@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_6039",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing causal or explanatory justifications** (such as clauses introduced by \"citing,\" \"due to,\" \"for whatever reason,\" \"out of concern that,\" or \"as a result of\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Portuguese, French, Polish) and diverse topics\u2014financial reports, geopolitical conflicts, personal anecdotes, environmental issues, and administrative decisions. It activates on news-style prose, analytical writing, and explanatory narratives that explicitly state reasons, motives, or causes behind events or claims.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature subordinate clauses or phrases that provide a rationale, whereas low-activation examples are mostly simple declarative statements, headlines, or announcements without explanatory depth (e.g., \"X has decided to make major changes,\" \"Y showed off their tackle,\" or brief social/media snippets).\n\n4. **Closing interpretation**: The neuron detects syntactic structures that express causation, justification, or motive, acting as a filter for reasoning segments in text. It highlights how an event or claim is logically supported, rather than focusing on a specific topic or entity.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "off at the Arab Cultural Center for a midday concert, but, as victims of a very bad translation, they are plopped down (quite unceremon",
+      "normalized_activation": 9.243980407714844,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1858,
+          "meaning_score": 0.581,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5067
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1733,
+          "meaning_score": 0.249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1689
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1719,
+          "meaning_score": 0.1617,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1334
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "6 billion years since its wavelengths are five times what they were originally. Due to the fact that we are viewing the galaxy as it was 12.6 billion",
+      "normalized_activation": 7.790915012359619,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1901,
+          "meaning_score": 0.5458,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2944
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1728,
+          "meaning_score": 0.5036,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2706
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1392,
+          "meaning_score": 0.4589,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2392
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Good riddance. She has nothing left in the tank, or something, so she's told her fiance so they can now get married. How romantic.",
+      "normalized_activation": 6.352413654327393,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1118,
+          "meaning_score": 0.1922,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1216
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1658,
+          "meaning_score": 0.1609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1307
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2157,
+          "meaning_score": 0.0675,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1133
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "After the support of the president of the United States, Joe Biden, to the possibility",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0514,
+          "meaning_score": 0.2569,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1233
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0186,
+          "meaning_score": 0.3186,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1349
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0885,
+          "meaning_score": 0.3291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.167
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Marcus Gee's Free Speech Views Are Painfully Naive Gee suggests that Toronto citizens respond",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1169,
+          "meaning_score": 0.2067,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1294
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1256,
+          "meaning_score": 0.2735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1596
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1232,
+          "meaning_score": 0.4999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2493
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_18797",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T06:52:21Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that follow a comma, colon, semicolon, or period within a quoted or continuous clause** (such as explanatory clauses after a colon, descriptive continuations after a comma, or subordinate phrases following a semicolon).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, French, Arabic, English, Swedish, Czech, German) and diverse topics—including news reports, legal texts, technical descriptions, and cultural commentary—whenever the text is syntactically in the middle of an extended sentence or list, often introducing elaboration, examples, or additional detail.\n\n3. **Contrast with low-activation examples**: The low-activation examples are mostly complete sentences or sentence beginnings, often starting with a subject (e.g., “Deputy Minister…”, “Pinterest Inc.…”, “Joe Biden has…”). They lack the mid‑sentence punctuation that signals an ongoing clause. High‑activation texts consistently show punctuation‑driven continuation, while low‑activation texts are more often self‑contained statements or openings.\n\n4. **Closing interpretation**: This neuron likely detects syntactic continuity within complex sentences, focusing on post‑punctuation clause structures that extend or elaborate a preceding idea. It acts as a marker for embedded explanations, lists, or supplementary details rather than standalone propositions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00015",
+      "row_idx": 143,
+      "normalized": 9.615795135498047,
+      "actual_text": "della scienza e mondo della giustizia. L’unica maniera di affrontare il problema, siccome non è possibile fare previsioni, è",
+      "plain_text": "La sentenza di condanna a sei anni non va già all'ex presidente dell'Istituto nazionale di geofisica e vulcanologia: \"Siamo stati accusati di aver rassicurato - ha detto -. Io non ho rassicurato nessuno, non esiste alcun documento. \"Alla base molti equivoci\"  Enzo Boschi è convinto che la sentenza pronunciata nei confronti della commissione Grandi rischi sia frutto di una serie di malintesi: \"Alla base ci sono anche molti equivoci: non ci siamo capiti, tra mondo della scienza e mondo della giustizia. L’unica maniera di affrontare il problema, siccome non è possibile fare previsioni, è mettere in sicurezza il paese, conoscendo profondamente l’attività sismica dell’Italia. Sulla base di questo è stata preparata una mappa di pericolosità sismica che con fatica è stata fatta diventare ufficiale, nel 2003, diventando legge nel 2009, dopo essere stata migliorata e aggiornata\". \"Proporzionalità tra corruzione e numero morti\" Il sismologo Boschi associa il numero delle vittime di un sisma alla persistenza di fenomeni di corruzione nel Paese: \"Alla mappa di pericolosità divenuta legge nel 2009 va associata la costruzione degli edifici in un modo specifico, sulla base del rischio sismico di ciascuna zona. In questo modo si rilancia anche l’attività edilizia, ma quella buona, e si rimette in moto l’economia. È bene ricordare che il grado di corruzione di un paese è direttamente proporzionale al numero delle vittime che si registrano in occasione di alluvioni, terremoti e altre catastrofi naturali\". \"Sono preoccupato\" Enzo Boschi, che a caldo commentò la sentenza definendosi \"avvilito e disperato\", non nasconde la sua inquietudine dopo la condanna in primo grado. \"Sono preoccupato perché non so come andrà a finire\", ha dichiarato il sismologo. Il ministro Clini: \"Condanna assurda\" Il ministro dell'Ambiente Corrado Clini definisce assurda la sentenza per i componenti della commissione Grandi rischi sul terremoto de L'Aquila, se questa fosse stata presa \"per non aver previsto il sisma\". \"Aspetto di leggere le motivazioni che saranno molto utili per capire\" ha detto il ministro. \"Aver affidato le decisioni politiche a un comitato di tecnici e scienziati - ha aggiunto - penso sia stato l'errore de L'Aquila\". Governo chiederà ritiro dimissioni Grandi rischi Il Consiglio dei ministri di venerdì chiederà alla commissione Grandi rischi di ritirare le dimissioni presentate martedì in polemica con la sentenza sul sisma de L'Aquila. Lo ha svelato il ministro Corrado Clini: \"La commissione deve continuare a lavorare, chi fa questo lavoro deve avere serenità di poter esprimere dubbi. Spetta poi ai politici prendere le decisioni\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Enzo Boschi è convinto che la sentenza pronunciata nei confronti della commissione Grandi rischi sia frutto di una serie di malintesi: \"Alla base ci sono anche molti equivoci: non ci siamo capiti, tra mondo della scienza e mondo della giustizia. L’unica maniera di affrontare il problema, siccome non è possibile fare previsioni, è mettere in sicurezza il paese, conoscendo profondamente l’attività sismica dell’Italia. Sulla base di questo è stata preparata una mappa di pericolosità sismica che con fatica è stata fatta diventare ufficiale, nel 2003, diventando legge nel 2009, dopo essere stata migliorata e aggiornata\".",
+          "concept": "quoted_continuation",
+          "reasoning": "A colon introduces a quoted explanatory clause with internal colons and commas, matching the neuron's pattern of mid-sentence continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "Il sismologo Boschi associa il numero delle vittime di un sisma alla persistenza di fenomeni di corruzione nel Paese: \"Alla mappa di pericolosità divenuta legge nel 2009 va associata la costruzione degli edifici in un modo specifico, sulla base del rischio sismico di ciascuna zona. In questo modo si rilancia anche l’attività edilizia, ma quella buona, e si rimette in moto l’economia. È bene ricordare che il grado di corruzione di un paese è direttamente proporzionale al numero delle vittime che si registrano in occasione di alluvioni, terremoti e altre catastrofi naturali\".",
+          "concept": "quoted_continuation",
+          "reasoning": "A colon introduces a detailed quoted explanation with comma-separated clauses, fitting the neuron's description of post-punctuation elaboration."
+        },
+        {
+          "rank": 3,
+          "text": "Il ministro dell'Ambiente Corrado Clini definisce assurda la sentenza per i componenti della commissione Grandi rischi sul terremoto de L'Aquila, se questa fosse stata presa \"per non aver previsto il sisma\". \"Aspetto di leggere le motivazioni che saranno molto utili per capire\" ha detto il ministro. \"Aver affidato le decisioni politiche a un comitato di tecnici e scienziati - ha aggiunto - penso sia stato l'errore de L'Aquila\".",
+          "concept": "quoted_continuation",
+          "reasoning": "Commas, quotes, and dashes signal mid-sentence continuations and explanatory additions, aligning with the neuron's focus on syntactic continuity."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 4618,
+      "normalized": 8.957759857177734,
+      "actual_text": "il mondo dell’impresa risulta importante evidenziare l’impegno di CNA che, mediante i sui componenti, sta lavorando su",
+      "plain_text": "Alla luce dei recenti avvenimenti che interessano il mondo dell’impresa risulta importante evidenziare l’impegno di CNA che, mediante i sui componenti, sta lavorando su più fronti per tutelare e mettere a conoscenza i propri iscritti su come affrontare e organizzare il prossimo futuro, portatore di significative \nnovità anche per l’area Empolese. Esaminando, in particolare, il comparto dell’edilizia e delle costruzioni questo si mostra particolarmente sofferente della crisi che dal 2008 ad oggi sta colpendo l’economia nazionale e locale. Negli ultimi dieci anni infatti il numero di imprese è crollato drasticamente ripercuotendosi inevitabilmente sugli addetti del settore, diminuiti di circa il 40%. Recentemente, mediante una sistematica e attenta azione di lobby e confronto tra CNA, Regione Toscana, comuni e imprese, è stato possibile ridefinire le regole di assegnazione dei lavori nella nuova legge sugli appalti regionali rendendoli più accessibili e calibrati a misura delle piccole e medie imprese operanti nel territorio; consentendo la possibilità alle stazioni appaltanti della Regione Toscana, nel caso di appalti inferiori al milione di euro, di chiamare a partecipare alle gare imprese toscane fino ad un massimo del 50% del totale degli invitati. Normativa che purtroppo si trova in antitesi con le direttive del governo centrale. Considerato che gli appalti pubblici incidono per circa il 5% del PIL regionale. \nRisulta importante evidenziare che il bilancio della regione toscana prevede, per procedure di gara di importo superiore a 40.000 €, investimenti fino al 2021 per circa un miliardo di euro, che porteranno evidenti ricadute positive sulle imprese operanti anche nel territorio dell’Empolese Valdelsa. Inoltre è importante menzionare il tavolo tecnico aperto con la regione toscana che attraverso i propri assessori di riferimento si è resa disponibile a trovare delle soluzioni riguardo il tema dello smaltimento dei rifiuti in edilizia che rappresentano una percentuale rilevante e non trascurabile sul totale dei rifiuti prodotti. Altro tema, non meno importante del precedente, riguarda le imminenti novità introdotte dal governo contenute nel decreto crescita riguardo la disciplina del credito d’imposta. Anche su questo tema CNA assieme alla regione toscana, associazioni di categoria e sindacati evidenzia le problematiche che nel breve periodo le imprese operanti nei settori di riferimento dovranno gestire. La nuova norma consente, di fatto, all’impresa esecutrice dei lavori inerenti la riqualificazione energetica e messa in sicurezza antisismica degli immobili, di anticipare al committente la detrazione sotto forma di sconto in fattura, con facoltà di recuperarlo in dieci anni per gli interventi di riqualificazione energetica e in cinque anni per interventi di adeguamento sismico. Tale operazione, attuabile esclusivamente da imprese con strutture particolari, sfavorisce di diretta conseguenza le imprese più piccole, che caratterizzano gran parte del tessuto economico delle nostre zone, non in grado di fare da “Banca” ai propri clienti, visto anche l’importante restringimento del credito che si \ntrovano a subire.Piccola e media impresa che deve essere tutelata quale motore trainante della nostra economia regionale e locale. Su questo fronte Regione Toscana e CNA si sono mosse con fermezza intraprendendo delle discussioni significative con il governo. Queste sono solo alcune delle battaglie che CNA affronta quotidianamente per i propri associati e non solo, cercando di attuare al meglio il proprio mandato a favore della piccola e media impresa che risente, oggi ancor di più, della poca attenzione che una parte della politica ha verso i problemi che poi ogni giorno i nostri associati devono necessariamente risolvere. Parimenti è importante evidenziare il buon operato del sindaco di Empoli, Brenda Barnini, confermata dalle ultime consultazioni, che è riuscita con impegno e dedizione a raggiungere importanti risultati come la recente inaugurazione della tratta, identificata dal Lotto V, che compone la Variante sr429 di Val d’Elsa, che congiunge agevolmente il comune di Empoli al Comune di Castelfiorentino. Infrastrutture pubbliche che aiutano in tutta evidenza chi fa impresa nel nostro territorio e non solo. Il potere di acquisto delle famiglie cresce in diretta conseguenza alla crescita delle opportunità di lavoro.  Andrea Cinquini, membro della direzione CNA Firenze Metropolitana, consigliere delegato alla gestione del patrimonio immobiliare della Società CNA Servizi e Consulenze srl e consigliere della Società Ambiente impresa srl << Indietro",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Recentemente, mediante una sistematica e attenta azione di lobby e confronto tra CNA, Regione Toscana, comuni e imprese, è stato possibile ridefinire le regole di assegnazione dei lavori nella nuova legge sugli appalti regionali rendendoli più accessibili e calibrati a misura delle piccole e medie imprese operanti nel territorio; consentendo la possibilità alle stazioni appaltanti della Regione Toscana, nel caso di appalti inferiori al milione di euro, di chiamare a partecipare alle gare imprese toscane fino ad un massimo del 50% del totale degli invitati.",
+          "concept": "policy_elaboration",
+          "reasoning": "A semicolon and multiple commas introduce continuative clauses that elaborate on a preceding idea, matching the neuron's pattern of mid-sentence punctuation-driven extensions."
+        },
+        {
+          "rank": 2,
+          "text": "La nuova norma consente, di fatto, all’impresa esecutrice dei lavori inerenti la riqualificazione energetica e messa in sicurezza antisismica degli immobili, di anticipare al committente la detrazione sotto forma di sconto in fattura, con facoltà di recuperarlo in dieci anni per gli interventi di riqualificazione energetica e in cinque anni per interventi di adeguamento sismico.",
+          "concept": "policy_elaboration",
+          "reasoning": "Commas separate mid-sentence explanatory phrases and clauses that detail a policy, fitting the neuron's focus on post-punctuation elaboration."
+        },
+        {
+          "rank": 3,
+          "text": "Tale operazione, attuabile esclusivamente da imprese con strutture particolari, sfavorisce di diretta conseguenza le imprese più piccole, che caratterizzano gran parte del tessuto economico delle nostre zones, non in grado di fare da “Banca” ai propri clienti, visto anche l’importante restringimento del credito che si trovano a subire.",
+          "concept": "policy_elaboration",
+          "reasoning": "Commas introduce non-restrictive clauses and explanatory asides, aligning with the neuron's detection of syntactic continuity within complex sentences."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 5679,
+      "normalized": 8.087777137756348,
+      "actual_text": "ения нарушили морскую границу и совершали опасные маневры в российских водах. 24 мор",
+      "plain_text": "Президент России Владимир Путин понадеялся, что Россия и США смогут достигнуть дна в отношениях, чтобы оттолкнуться от него и «глотнуть свежего воздуха». Об этом он заявил на пресс-конференции, трансляцию которой ведет Первый канал. «Есть вопросы, которые мы должны обсуждать», — пояснил Путин. По его словам, Москва и Вашингтон обсуждают ситуацию в Сирии на уровне экспертов, однако нужно вести диалог по Северной Корее, Афганистану и другим ситуациями в мире. «Надо выстраивать двусторонние отношения, мы готовы. Как только будет готова другая страна — мы будем это делать», — резюмировал президент. 25 ноября пограничная служба ФСБ России задержала три украинских военных корабля, которые без предупреждения нарушили морскую границу и совершали опасные маневры в российских водах. 24 моряка были отправлены под стражу. США неоднократно обвиняли Россию во вмешательстве в президентскую кампанию с целью помочь президенту США Дональду Трампу победить на выборах. Москва все обвинения последовательно отвергала.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Президент России Владимир Путин понадеялся, что Россия и США смогут достигнуть дна в отношениях, чтобы оттолкнуться от него и «глотнуть свежего воздуха».",
+          "concept": "geopolitical_continuation",
+          "reasoning": "Commas introduce subordinate clauses and a quoted phrase, matching the neuron's pattern of mid-sentence continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "По его словам, Москва и Вашингтон обсуждают ситуацию в Сирии на уровне экспертов, однако нужно вести диалог по Северной Корее, Афганистану и другим ситуациями в мире.",
+          "concept": "geopolitical_continuation",
+          "reasoning": "Commas separate clauses and list items, extending the sentence with additional details, fitting the neuron's focus on post-punctuation elaboration."
+        },
+        {
+          "rank": 3,
+          "text": "25 ноября пограничная служба ФСБ России задержала три украинских военных корабля, которые без предупреждения нарушили морскую границу и совершали опасные маневры в российских водах.",
+          "concept": "geopolitical_continuation",
+          "reasoning": "A comma introduces a relative clause that provides explanatory detail, aligning with the neuron's detection of syntactic continuity within complex sentences."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 1618,
+      "normalized": 0.0,
+      "actual_text": "Dnes již bezpečně víme, že Mars měl",
+      "plain_text": "Dnes již bezpečně víme, že Mars měl a stále má vodu, ale stále neznáme odpověď na logicky navazující otázku, zda na něm existoval život. Dosavadní výsledky jsou neprůkazné.  Nejen evropští vědci nyní doufají, že jasnější odpovědi bychom mohli mít zhruba za dva roky. V roce 2021 by totiž měl na planetě přistát sonda ExoMars 2020 (následovnice projektu z roku 2016). Evropsko-ruská sonda by měla na planetu dopravit mimo jiné i výkonné vozítko a bude vybavena celou řadu výzkumných přístrojů, které by měly pomoci odhalit v první řadě stopy života na Marsu, nejspíše tedy života již dávno zaniklého.  V projektu však nejde pouze o život. Sonda by měla přinést odpověď i na další otázky ohledně Marsu včetně jedné, která by vás asi nenapadla: Jsou na Marsu blesky? K vyjasnění této otázky má sloužit vědecký přístroj nazvaný v rámci projektu    „Martian Ground Electromagnetic Tool“ (elektromagnetický nástroj pro povrch Marsu), na kterém spolupracují i čeští vědci. Konkrétně  Oddělení kosmické fyziky Ústavu Fyziky atmosféry Akademie věd České republiky, které pro systém připravuje modul tzv. vlnového analyzátoru.  A můžete tu do jisté míry být i vy.  Přístroj má v paměti ExoMarsu zablokovaný prostor, který zčásti vyplní instrukce pro něj, zčásti pak výsledky měření, z čehož logicky plyne, že k Marsu poletí s částečně volnou pamětí. Čeští vědci se ve spolupráci s časopisem Vesmír rozhodli dát volný prostor k dispozici fanouškům kosmonautiky. Fotografie prachového víru na Marsu pořízená kamerou sondy Mars Reconnaissance orbiter. Pohled pokrývá plochu s úhlopříčkou asi 644 m. Délka stínu ukazuje, že oblak prachu dosahuje výšky přes 800 m. Vír má průměr asi 30 m. V takovýchto marsovských prachových útvarech by se mohly blesky vyskytovat. Usuzujeme tak na základě počítačových simulací a analogie s pozemskými vulkanickými blesky. Dosud existenci blesků na rudé planetě nikdo nepotvrdil. Evropská mise ExoMars by v případě úspěchu byla první. Našli v paměti zařízení zhruba osm volných megabajtů, do kterých by se měla vejít po komprimaci jedenáctka zhruba 30sekundových vzkazů v dostatečné kvalitě. Sonda data fyzicky odnese na Mars a pak je pomocí své antény zase pošle zpět. Můžete si tedy, a samozřejmě nejen sobě, poslat vzkaz z jiné planety.  Soutěž odstartovala 19. března, svůj zvuk můžete poslat prostřednictvím formuláře na webu mars.vesmir.cz. Jen dodejme, že „náklad“ do jisté míry pomůže i samotné misi. První vzkaz bude po přistání jako testovací záznam, sonda ho odvysílá zpět na Zemi, aby ho bylo možné porovnat s původními daty a ověřit tak, že paměť i ostatní systémy přístroje správně fungují. Ostatní vzkazy budou odvysílány postupně během dalšího pobytu sondy na planetě a pak postupně s údaji z výzkumu na Marsu.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dnes již bezpečně víme, že Mars měl a stále má vodu, ale stále neznáme odpověď na logicky navazující otázku, zda na něm existoval život.",
+          "concept": "scientific_elaboration",
+          "reasoning": "Commas introduce multiple subordinate clauses that elaborate on a scientific idea, matching the neuron's pattern of mid-sentence continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "Evropsko-ruská sonda by měla na planetu dopravit mimo jiné i výkonné vozítko a bude vybavena celou řadu výzkumných přístrojů, které by měly pomoci odhalit v první řadě stopy života na Marsu, nejspíše tedy života již dávno zaniklého.",
+          "concept": "scientific_elaboration",
+          "reasoning": "Commas separate relative and explanatory clauses that extend the sentence with additional details, fitting the neuron's focus on post-punctuation elaboration."
+        },
+        {
+          "rank": 3,
+          "text": "Sonda by měla přinést odpověď i na další otázky ohledně Marsu včetně jedné, která by vás asi nenapadla: Jsou na Marsu blesky?",
+          "concept": "scientific_question",
+          "reasoning": "A colon introduces a direct question that elaborates on a preceding clause, aligning with the neuron's detection of punctuation-driven continuations."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3968,
+      "normalized": 0.0,
+      "actual_text": "New Delhi [India], January 16: Key speakers of the event – Speakers",
+      "plain_text": "New Delhi [India], January 16: Key speakers of the event – Speakers sister BK Shivani- a teacher in the Brahma Kumaris spiritual movement of India, Shiv Khera – an Indian author, activist and motivational speaker, best known for his book, You Can Win, Indresh Kumar- National Executive member (RSS), Om Birla – Speaker of the Lok Sabha, Shankar Lalwani – Member of Parliament, Mahesh Jethmalani – Member of Parliament, Shrichand Kriplani- Ex Minister.  VSSS has organised 5th International Convention in Delhi with 81 Countries and 29 States along with the celebration of 75th Amrit Mahotsav of Indian Independence and the 100th Birth Anniversary of Shahid Hemu Kalani with top leaders of India & our very own celebrities. The three-day celebration saw the presence of Sonu Nigam, Parineeti Chopra, Satish Kaushik, Vishal Jethwa, Anup Soni, Mannara Chopra, Faisal Khan, Surendra Pal Singh, Jiten Lalwani, Mohit Lalwani, Mahesh Thakur, Vandana Nirankari, Dirven Hazari, Kamal Nathani, Kishor Parwani, Lata Awtaney, Op Gurbani, Laxmi Chand Makrani, Bharat Vatwani, Kaajal Chandiramani, Ghanshyam Vaswani, Sachin Sharma & many more along with 37 singers from all over the world.  VSSS aims & objectives include promoting underprivileged and exceptional (deserving) Sindhi youth aspiring to join the IAS/ IPS cadre, should have the Sindhi language in its curriculum while encouraging Sindhi Students to take diploma in Sindhi language which will get them direct access to Civil Services. Women empowerment, care for Sindhi Senior Citizens.  As per the constitutional rights every state must have Sindhi Sahitya Academy which is right now only in 5 states, VSSS also requests the Government to construct a Sindhi Bhavan in Delhi. VSSS also states that Sindhis are the highest tax payers in India with over 1 crore population.  Lion Dr. Raju V Manwani says “We want to promote Sindhi culture all over the world especially amongst the youth. The young today want to speak English, French, German etc, because they were actually never taught to speak in Sindhi. It is with the motto to preserve and promote the cultural heritage of Sindhi Community and ensure its continuity by disseminating it among the younger generation” says Lion Dr. Raju V Manwani.  If you have any objection to this press release content, kindly contact pr.error.rectification[at]gmail.com to notify us. We will respond and rectify the situation in the next 24 hours. Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor.  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Key speakers of the event – Speakers sister BK Shivani- a teacher in the Brahma Kumaris spiritual movement of India, Shiv Khera – an Indian author, activist and motivational speaker, best known for his book, You Can Win, Indresh Kumar- National Executive member (RSS), Om Birla – Speaker of the Lok Sabha, Shankar Lalwani – Member of Parliament, Mahesh Jethmalani – Member of Parliament, Shrichand Kriplani- Ex Minister.",
+          "concept": "speaker_list",
+          "reasoning": "Dashes and commas introduce a series of appositives and list items, matching the neuron's pattern of mid-sentence fragments after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "The three-day celebration saw the presence of Sonu Nigam, Parineeti Chopra, Satish Kaushik, Vishal Jethwa, Anup Soni, Mannara Chopra, Faisal Khan, Surendra Pal Singh, Jiten Lalwani, Mohit Lalwani, Mahesh Thakur, Vandana Nirankari, Dirven Hazari, Kamal Nathani, Kishor Parwani, Lata Awtaney, Op Gurbani, Laxmi Chand Makrani, Bharat Vatwani, Kaajal Chandiramani, Ghanshyam Vaswani, Sachin Sharma & many more along with 37 singers from all over the world.",
+          "concept": "celebrity_list",
+          "reasoning": "Commas separate a long list of names that extend the sentence, fitting the neuron's focus on post-punctuation continuations."
+        },
+        {
+          "rank": 3,
+          "text": "“We want to promote Sindhi culture all over the world especially amongst the youth. The young today want to speak English, French, German etc, because they were actually never taught to speak in Sindhi. It is with the motto to preserve and promote the cultural heritage of Sindhi Community and ensure its continuity by disseminating it among the younger generation”",
+          "concept": "cultural_explanation",
+          "reasoning": "Commas and a 'because' clause introduce explanatory details within a quoted passage, aligning with the neuron's detection of mid-sentence elaborations after punctuation."
+        }
+      ]
+    }
+  ]
+}

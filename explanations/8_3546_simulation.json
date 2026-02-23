@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_3546",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:25:38Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to detailed news reporting containing attributed statements or factual specifics (such as quotes with speaker titles, financial updates with percentages, event descriptions with dates, or cultural references with proper nouns).\n\n2. **Domain coverage**: The pattern appears in news articles, interviews, and reports across multiple languages (English, Turkish, Greek, Tamil, Polish, etc.) and topics—including politics, sports, business, health, and culture. High-activation examples often come from the body of articles where specific details, quotes, or data are presented, rather than headlines or introductory sentences.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically headlines, leads, or general announcements that introduce a topic but lack the dense attribution, numerical details, or quoted speech seen in high-activation examples. While both sets mention named entities, high-activation segments more frequently include appositives, reporting verbs (“said,” “tweeted,” “explains”), and precise numbers or dates within the flow of reporting.\n\n4. **Closing interpretation**: The neuron likely detects segments within informational texts that convey sourced facts, statements, or precise data, acting as a signal for detailed reporting rather than general overviews.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 2997,
+      "normalized": 9.120643615722656,
+      "actual_text": "which empowers high-performing nonprofits to address pressing community challenges HARTFORD – Bank of America has announced the Connecticut Public Broadcasting Network (CPBN) as",
+      "plain_text": "Support comes as part of Bank of America’s Neighborhood Builders program, which empowers high-performing nonprofits to address pressing community challenges  HARTFORD – Bank of America has announced the Connecticut Public Broadcasting Network (CPBN) as the 2016 Neighborhood Builder recipient. The nonprofit is being recognized for its work at the Learning Lab, which partners with Hartford Public Schools to teach hands-on media skills to students. The Lab also runs job skills programs for veterans.  Through Neighborhood Builders, the bank provides nonprofits with a unique combination of leadership development, $200,000 in flexible funding, a network of peer organizations across the U.S. and the opportunity to access capital in order to expand their impact in the Greater Hartford community.  “Connecticut Public Broadcasting plays a unique role in Hartford, keeping us all informed while also supporting the community through programs like the Leaning Lab,” said Kevin Cunningham, Connecticut president, Bank of America. “The Neighborhood Builders program is designed to connect outstanding nonprofits, like CPBN, to the funding and leadership development resources they need to scale their impact and help our community to thrive.”  CPBN has made a tremendous impact through their work with the Learning Lab, seeing increases in graduation rates for students and especially through the veteran skills training program, which has an 85 percent job placement rate. The Neighborhood Builder grant will allow these critical opportunities to reach more Hartford residents.  “CPBN is grateful for Bank of America’s continued support of our community education initiatives,” said Connecticut Public Broadcasting’s President & CEO Jerry Franklin. “When we envisioned the Learning Lab, we hoped to provide resources and hands-on media instruction to members of the Hartford community including high school students, veterans and adult learners. The Neighborhood Builders Grant will not only allow us to continue with this mission, but it will also provide our Learning Lab instructors with necessary leadership development training.”  Since 2004, through Neighborhood Builders, Bank of America has helped nonprofits create greater impact in their communities and better prepare for the future by providing the tools and resources they need to develop stronger strategic plans, chart a succession plan, navigate through tough economic times, and enhance their funding opportunities. Since the program’s inception, Bank of America has invested more than $180 million in 900 nonprofit organizations across the country, providing leadership resources to nearly 2,000 nonprofit leaders, and the program has been recognized as the nation’s largest philanthropic investment in nonprofit leadership development.  Neighborhood Builders is a signature demonstration of the bank’s work to address issues fundamental to economic mobility in order to build thriving communities and illustrates how strong cross-sector partnerships and local community leaders can play a meaningful role in positioning communities for success. The awardees are selected by a local market selection committee with representation by local community leaders from diverse sectors.  About Bank of America Environmental, Social and Governance \nAt Bank of America, our focus on Environmental, Social and Governance (ESG) factors is critical to fulfilling our purpose of helping make people’s financial lives better. Our commitment to growing our business responsibly is embedded in every aspect of our company. It is demonstrated in the inclusive and supportive workplace we create for our employees, the responsible products and services we offer our customers, and the impact we help create around the world in helping local economies thrive. An important part of this work is forming strong partnerships across sectors – including community and environmental advocate groups, as well as non-profits – in order to bring together our collective networks and expertise to achieve greater impact.  Learn more at www.bankofamerica.com/about and connect with us on Twitter at @BofA_News. About Connecticut Public Broadcasting  \nThe Connecticut Public Broadcasting Network (CPBN) is home to CPTV, WNPR and the Learning Lab. CPTV is a locally and nationally recognized producer and presenter of quality public television programming, including original documentaries, public affairs and educational programming. WNPR is an affiliate of National Public Radio, Public Radio International and American Public Media. The Learning Lab serves high school seniors through a partnership with Hartford Public Schools and the Journalism and Media Academy Magnet School. It is also home to the Institute for Advanced Media, a program that provides the men and women of our armed forces and adult learners an opportunity to learn skills necessary for the 21st century digital media workplace. For more information, visit cpbn.org.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Connecticut Public Broadcasting plays a unique role in Hartford, keeping us all informed while also supporting the community through programs like the Leaning Lab,” said Kevin Cunningham, Connecticut president, Bank of America. “The Neighborhood Builders program is designed to connect outstanding nonprofits, like CPBN, to the funding and leadership development resources they need to scale their impact and help our community to thrive.”",
+          "concept": "Attributed quote",
+          "reasoning": "This section includes a direct quote with the speaker's name and position, which matches the neuron's response to attributed statements."
+        },
+        {
+          "rank": 2,
+          "text": "“CPBN is grateful for Bank of America’s continued support of our community education initiatives,” said Connecticut Public Broadcasting’s President & CEO Jerry Franklin. “When we envisioned the Learning Lab, we hoped to provide resources and hands-on media instruction to members of the Hartford community including high school students, veterans and adult learners. The Neighborhood Builders Grant will not only allow us to continue with this mission, but it will also provide our Learning Lab instructors with necessary leadership development training.”",
+          "concept": "Attributed quote with details",
+          "reasoning": "Another direct quote with attribution and specific program details, fitting the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Since the program’s inception, Bank of America has invested more than $180 million in 900 nonprofit organizations across the country, providing leadership resources to nearly 2,000 nonprofit leaders, and the program has been recognized as the nation’s largest philanthropic investment in nonprofit leadership development.",
+          "concept": "Financial data",
+          "reasoning": "This part contains precise numerical data, which aligns with the neuron's focus on factual specifics."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 1709,
+      "normalized": 7.958299160003662,
+      "actual_text": "ung gegen den Sport\" gefunden worden seien. \"Dies ist zwar zutreffend, tatsächlich aber kaum vorstellbar\", meinte Prokop. \"Wie",
+      "plain_text": "DLV-Chef Clemens Prokop hält die Position von IOC-Präsident Thomas Bach zu den Konsequenzen aus dem nachgewiesenen Staatsdoping in Russland für fragwürdig. \"Wenn die Werte der Charta des Internationalen Olympischen Komitees ernst genommen werden, müsste das NOK Russlands bis zur Lösung seines Doping-Problems vom IOC suspendiert werden, zum Schutz aller betroffenen Athleten und von Fair-Play im Wettkampf\", schrieb der Präsident des Deutschen Leichtathletik-Verbandes in einem Beitrag für die \"Frankfurter Allgemeine Zeitung\". Prokop hält Bachs Argumentation, man müsse zwischen individueller Gerechtigkeit und kollektiver Verantwortung abwägen, vor allem für sportpolitisch motiviert. Auf dieser Grundlage hatte Bach einen Kollektivausschluss Russland von den Olympischen Spielen abgelehnt. \"Mit dieser Argumentation stellt sich Bach aber in Widerspruch zu Regel 59 der IOC-Charta, wonach ausdrücklich Nationale Olympische Komitees (NOK) suspendiert werden können\", argumentiert Prokop. Jede Suspendierung eines NOKs stelle gleichzeitig eine Kollektivstrafe für die hierdurch betroffenen Sportler dar. Die Zulässigkeit von Kollektivstrafen könne auf der Basis der IOC-Charta daher \"nicht ernsthaft in Frage gestellt werden, und das IOC praktiziert ja auch die Suspendierung von NOKs\". Zur Rechtfertigung der Zurückhaltung gegenüber dem russischen Sport baue der IOC-Präsident noch eine zweite Verteidigungslinie auf. Bach habe in einem \"FAZ\"-Interview in der vergangenen Woche verwiesen, dass im Bericht der Welt-Anti-Doping-Agentur (WADA) von Chefermittler Richard McLaren keine Nachweise für eine Verstrickung des russischen NOK in die \"Verschwörung gegen den Sport\" gefunden worden seien. \"Dies ist zwar zutreffend, tatsächlich aber kaum vorstellbar\", meinte Prokop. \"Wie weit müssen die Verantwortlichen des russischen NOK vom Sport entfernt sein, wenn sie eine institutionell strukturierte Doping-Praxis in diesem unglaublichen Ausmaß nicht wahrnehmen?\" Außerdem obliege es nach Regel 27 der IOC-Charta den nationalen NOKs, den World-Anti-Doping-Code anzunehmen und umzusetzen. \"Die Doping-Bekämpfung zählt damit zu den zentralen Aufgaben eines NOK\", befand der Direktor des Amtsgerichts in Regensburg. Wenn nach dem McLaren-Report in Russland zwischen 2011 und 2015 mehr als 1000 Sportler sportartübergreifend von einem organisierten Doping-System profitiert hätten und systematisch wie zentralisiert der Doping-Kontrollprozess manipuliert worden sei, habe das russische NOK offensichtlich seine Aufgabe nach der IOC-Charta nicht erfüllt. \"Daher spielt es keine Rolle, ob sich die Verantwortlichen des russischen NOK auch nachweislich einer aktiven Mitwirkung schuldig gemacht haben\", schrieb Prokop. Entscheidend sei vielmehr, dass sich die NOKs zur Erfüllung ihrer Aufgaben gemäß der IOC-Charta faktisch der nationalen Anti-Doping-Instanzen bedienten und sich damit auch deren Verschulden zurechnen lassen müssten. Eine Suspendierung Russlands wäre aus Prokops Sicht \"ein kraftvolles Zeichen, dass auch systematisches staatlich gefördertes Doping mit allen Möglichkeiten bekämpft\" werde. Die gegenteiligen Äußerungen des IOC-Präsidenten hätten \"jedoch kein Signal zum Aufbruch im Kampf um die Rückgewinnung der Glaubwürdigkeit des Sports gebracht\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Wenn die Werte der Charta des Internationalen Olympischen Komitees ernst genommen werden, müsste das NOK Russlands bis zur Lösung seines Doping-Problems vom IOC suspendiert werden, zum Schutz aller betroffenen Athleten und von Fair-Play im Wettkampf”, schrieb der Präsident des Deutschen Leichtathletik-Verbandes in einem Beitrag für die \"Frankfurter Allgemeine Zeitung\".",
+          "concept": "Attributed quote",
+          "reasoning": "This section contains a direct quote attributed to a named official, matching the neuron's response to attributed statements."
+        },
+        {
+          "rank": 2,
+          "text": "Prokop hält Bachs Argumentation, man müsse zwischen individueller Gerechtigkeit und kollektiver Verantwortung abwägen, vor allem für sportpolitisch motiviert. Auf dieser Grundlage hatte Bach einen Kollektivausschluss Russland von den Olympischen Spielen abgelehnt. \"Mit dieser Argumentation stellt sich Bach aber in Widerspruch zu Regel 59 der IOC-Charta, wonach ausdrücklich Nationale Olympische Komitees (NOK) suspendiert werden können”, argumentiert Prokop.",
+          "concept": "Detailed argument with rule",
+          "reasoning": "This part includes specific references to IOC rules and attributed statements, fitting the neuron's focus on factual specifics."
+        },
+        {
+          "rank": 3,
+          "text": "Wenn nach dem McLaren-Report in Russland zwischen 2011 und 2015 mehr als 1000 Sportler sportartübergreifend von einem organisierten Doping-System profitiert hätten und systematisch wie zentralisiert der Doping-Kontrollprozess manipuliert worden sei, habe das russische NOK offensichtlich seine Aufgabe nach der IOC-Charta nicht erfüllt.",
+          "concept": "Numerical data",
+          "reasoning": "This section provides precise numbers and date range, aligning with detailed reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 3581,
+      "normalized": 6.950549602508545,
+      "actual_text": "jalnie nie jest dobrze\". Ostatnim razem, gdy Chińczycy wystrzelili rakietę Long March 5B, d",
+      "plain_text": "Fragment wielkiej rakiety kosmicznej uderzy w Ziemię? Chińska rakieta kosmiczna Long March 5B niedawno wyniosła na orbitę moduł chińskiej stacji kosmicznej. Jest to rodzaj ciężkiej rakiety nośnej, która ma zrealizować plan chińskich astronautów. W najbliższym czasie ma nastąpić jej niekontrolowana deorbitacja. Tym samym rakieta znajdzie się w obszarze ziemskiej atmosfery. Czy w związku z tym Ziemi zagraża niebezpieczeństwo? ZOBACZCIE ZDJĘCIA Jak informują zagraniczne media może dojść do: uszkodzenia rakiety, uderzenia rakiety, przez co jej fragment może spaść na Ziemię. Najgorszy scenariusz miałby miejsce wtedy, gdyby jakaś część rakiety uderzyła w tereny zamieszkałe. Jak informuje Jonathan McDowell na łamach \"The Gurdian\" - \"potencjalnie nie jest dobrze\". Ostatnim razem, gdy Chińczycy wystrzelili rakietę Long March 5B, długie metalowe pręty uszkodziły kilka budynków na Wybrzeżu Kości Słoniowej. Mieliśmy szczęście, że nikt nie został ranny. - przyznał astrofizyk. Chińska rakieta Long March 5B stwarza zagrożenie dla Ziemi? Na łamach CNN McDowell przyznał jednak, że ryzyko tym razem nie jest zbyt duże, a szansa, że fragment rakiety w kogoś uderzy jest \"niewiarygodnie mała\". Ewentualnym miejscem upadku, wskazanym przez astrofizyka jest Ocean Spokojny. Kiedy Long March 5B wejdzie w ziemską atmosferę? Zdaniem McDowella miałoby to nastąpić między 8 a 10 maja 2021 roku. Last week, China successfully launched a crew module for its new space station. — CBC News (@CBCNews) May 5, 2021 But the first stage of the rocket that sent that module into orbit is falling to Earth uncontrollably. https://t.co/5Sj9TO4B5u Rakieta Long March 5B. Chiny budują stację kosmiczną Przypomnijmy, że rakieta Long March 5B wystartowała w nocy z 28 na 29 kwietnia 2021 roku. Lot miał na celu dostarczenie modułu podstawowego Tianhe. To właśnie on ma stanowić fundament nowej chińskiej stacji kosmicznej. Źródło: \"Guardian\", \"RadioZet\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jak informuje Jonathan McDowell na łamach \"The Gurdian\" - \"potencjalnie nie jest dobrze\". Ostatnim razem, gdy Chińczycy wystrzelili rakietę Long March 5B, długie metalowe pręty uszkodziły kilka budynków na Wybrzeżu Kości Słoniowej. Mieliśmy szczęście, że nikt nie został ranny. - przyznał astrofizyk.",
+          "concept": "Attributed quote with incident details",
+          "reasoning": "This includes a direct quote from a named expert and specific factual details about a past event, matching the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Zdaniem McDowella miałoby to nastąpić między 8 a 10 maja 2021 roku. Last week, China successfully launched a crew module for its new space station. — CBC News (@CBCNews) May 5, 2021 But the first stage of the rocket that sent that module into orbit is falling to Earth uncontrollably. https://t.co/5Sj9TO4B5u",
+          "concept": "Date-specific reporting",
+          "reasoning": "This section provides precise dates and references to news sources, fitting detailed reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Przypomnijmy, że rakieta Long March 5B wystartowała w nocy z 28 na 29 kwietnia 2021 roku. Lot miał na celu dostarczenie modułu podstawowego Tianhe. To właśnie on ma stanowić fundament nowej chińskiej stacji kosmicznej.",
+          "concept": "Event description with exact date",
+          "reasoning": "This part includes the exact launch date and purpose, aligning with the neuron's response to factual specifics."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 5119,
+      "normalized": 0.0,
+      "actual_text": "Like its hardware forebear, this promises “transparent” overdrive that adds gain to",
+      "plain_text": "Like its hardware forebear, this promises “transparent” overdrive that adds gain to the signal without colouring the tone of the guitar. The sound is said to sit somewhere between distortion and clean boost. There are just three controls: the gain parameter controls the balance between the modelled diode clipping stage and the clean stage. The two signals are summed together before interacting with the other two controls, treble and volume. Clon Minotaur is available as a free download from the Nembrini Audio website. It runs on PC and Mac in VST/AU/AAX formats.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Like its hardware forebear, this promises “transparent” overdrive that adds gain to the signal without colouring the tone of the guitar.",
+          "concept": "Product description",
+          "reasoning": "This section lacks attributed statements or detailed news elements, so it likely has low activation, but it contains specific technical terms."
+        },
+        {
+          "rank": 2,
+          "text": "The sound is said to sit somewhere between distortion and clean boost. There are just three controls: the gain parameter controls the balance between the modelled diode clipping stage and the clean stage.",
+          "concept": "Technical specifications",
+          "reasoning": "It describes product features but without attribution or news reporting details."
+        },
+        {
+          "rank": 3,
+          "text": "The two signals are summed together before interacting with the other two controls, treble and volume. Clon Minotaur is available as a free download from the Nembrini Audio website. It runs on PC and Mac in VST/AU/AAX formats.",
+          "concept": "Availability details",
+          "reasoning": "This provides download and compatibility information, but no news elements."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 911,
+      "normalized": 0.0,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,” friend and fellow Middle East expert Dara Conduit told AFP. “But make no mistake: this is not a win for Kylie.”",
+          "concept": "Attributed quote",
+          "reasoning": "This section includes a direct quote from a named source with specific time details, matching the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "“Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.” She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\"",
+          "concept": "Attributed statements with day count",
+          "reasoning": "This part contains quoted criticism and precise numerical data (778 days), fitting detailed reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
+          "concept": "Official statement with date",
+          "reasoning": "This includes an attributed statement from the ministry and a specific date, aligning with factual specifics."
+        }
+      ]
+    }
+  ]
+}

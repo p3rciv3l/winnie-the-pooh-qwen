@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_11032",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to the presence of the substring \"net\" (case-insensitive) in text, whether it appears as a standalone word (e.g., \"net assets,\" \"net income\"), within larger words (e.g., \"netizens,\" \"Vernetzung\"), in proper names (e.g., \"Roberto Campos Neto,\" \"Gil Netter\"), in email domains (e.g., \"bloomberg.net\"), or in various languages (e.g., Turkish \"net k\u00e2r\u0131n\u0131,\" Czech \"netu\u0161ila\").\n\nThe pattern appears across diverse domains and languages: financial/business contexts (\"net zero,\" \"net worth\"), internet-related terms (\"netizens,\" \".net\" domains), news about orders and income, and personal or place names. It activates in English, Turkish, German, Czech, and Italian texts, showing no semantic preference\u2014only the presence of the character sequence \"net.\"\n\nIn contrast, low-activation examples completely lack the substring \"net\" and cover unrelated topics like music concerts, political events, natural disasters, and sports scores without that string. The neuron\u2019s response is driven purely by the occurrence of \"net,\" not by topic, sentiment, or other linguistic features.\n\nThis neuron functions as a simple string-matching detector for \"net,\" activating on its appearance regardless of semantic context or linguistic role, indicating a focus on orthographic form rather than meaning.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "NetScout Aktie: Das gab es noch nie! 01.",
+      "normalized_activation": 9.652341842651367,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0631,
+          "meaning_score": 0.6419,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.282
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0933,
+          "meaning_score": 0.5213,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2458
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1351,
+          "meaning_score": 0.5406,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2703
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "d'un an \u00e0 une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'\u00e0",
+      "normalized_activation": 8.244640350341797,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3072,
+          "meaning_score": 0.7942,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6406
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1565,
+          "meaning_score": 0.4546,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2444
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.152,
+          "meaning_score": 0.2725,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1698
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "was memorably adapted to film in 1974, with Albert Finney playing the fastidious Belgian detective Hercule Poirot. Now, Sir Kenneth",
+      "normalized_activation": 3.2723474502563477,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1367,
+          "meaning_score": 0.7448,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5526
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1951,
+          "meaning_score": 0.5609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3024
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1492,
+          "meaning_score": 0.4015,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2203
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "12-17 age group on March 9, 2022, and in children aged 7-11 years on June 2",
+      "normalized_activation": 0.1906954050064087,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0851,
+          "meaning_score": 0.3507,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1743
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1534,
+          "meaning_score": 0.381,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2138
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1595,
+          "meaning_score": 0.5994,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5036
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "NEWTON, NC (WBTV) - Carolyn Leonhardt had just gotten back into",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1668,
+          "meaning_score": 0.7237,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5562
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2314,
+          "meaning_score": 0.3818,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2453
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0963,
+          "meaning_score": 0.3487,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.178
+        }
+      ]
+    }
+  ]
+}

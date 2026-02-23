@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_9097",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T08:27:54Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal attribution or citation of statements by named officials, experts, or organizations** (such as a news quote from a committee secretary, a climatologist in a film, a doctor commenting to a news agency, or a navigation engineer overseeing a system).\n\n2. **Domain coverage**: The pattern appears in multilingual news or reportage across domains like government, sports administration, science, law, and healthcare. It is present in English, Spanish, Italian, Polish, Arabic, and other languages, typically in contexts where a specific person or group (e.g., \"PDCA secretary Amir-ud-din Ansari,\" \"Dr Sumant Mantri... told IANS,\" \"navigation engineer Stefano Binda\") is cited as the source of information, a warning, an explanation, or a decision.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a clear attribution frame (e.g., \"according to,\" \"told,\" \"spiega,\" \"warns,\" \"confirmed that\") linking a statement to a specific authoritative entity. The low-activation examples, while sometimes on similar topics (e.g., earthquakes, elections, technology), lack this structured attribution; they are general reports, headlines, or descriptive passages without a quoted or cited named source.\n\n4. **Closing interpretation**: This neuron detects linguistic structures that signal sourced information from institutional or expert voices, acting as a filter for journalistic or bureaucratic reporting style. It focuses on the semantic role of an \"attributor\" within a sentence, rather than the topic itself.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 1479,
+      "normalized": 9.611910820007324,
+      "actual_text": "Loire, France Le conseiller régional d'opposition en Auvergne Rhône-Alpes Johann Cesa réagit ce jeudi matin",
+      "plain_text": "Loire, France  Le conseiller régional d'opposition en Auvergne Rhône-Alpes Johann Cesa réagit ce jeudi matin sur France Bleu Saint-Etienne Loire à l'annonce faite par les trois élus des collectivités concernées par le projet d'A45 abandonné en octobre dernier par la ministre des transports. Laurent Wauquiez, Gaël Perdriau et Georges Ziegler saisissent le Conseil d'Etat pour contrer l'annulation du projet. Un recours jugé irresponsable par Johann Cesa.   Nous avons des élus qui ne sont pas du tout en responsabilités — Johann Cesa  Pour l'élu d'opposition ce recours est le signe \"d'une vieille politique à la papa d'il y a une trentaine d'années [...] franchement nous avons des élus qui ne sont pas du tout en responsabilités, nous avons un gouvernement qui au moins a eu le courage de dire on maintient les 400M € pour le territoire, pour le désenclavement économique de Loire-sud [...] travaillons sur des alternatives d'avenir\".   Cette A45 a empêché toute réflexion collective pendant quarante ans, il faut vraiment qu'on aille vers des projets d'avenir — Johann Cesa  À l'occasion du débat budgétaire à la Région, Johann Cesa a déposé au nom du groupe socialiste et démocrate un amendement visant à ce que les 131 millions d'euros qui étaient consacrés au financement des travaux de l'A45 soient orientés vers la rénovation de ligne TER Saint-Etienne / Lyon.  RÉACTION I Johann Cesa",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Nous avons des élus qui ne sont pas du tout en responsabilités — Johann Cesa  Pour l'élu d'opposition ce recours est le signe \"d'une vieille politique à la papa d'il y a une trentaine d'années [...]\"",
+          "concept": "attributed quote",
+          "reasoning": "This section contains a direct quote attributed to named official Johann Cesa with an explicit attribution frame."
+        },
+        {
+          "rank": 2,
+          "text": "Loire, France  Le conseiller régional d'opposition en Auvergne Rhône-Alpes Johann Cesa réagit ce jeudi matin sur France Bleu Saint-Etienne Loire à l'annonce faite par les trois élus des collectivités concernées par le projet d'A45 abandonné en octobre dernier par la ministre des transports. Laurent Wauquiez, Gaël Perdriau et Georges Ziegler saisissent le Conseil d'Etat pour contrer l'annulation du projet. Un recours jugé irresponsable par Johann Cesa.",
+          "concept": "attributed reaction",
+          "reasoning": "This section reports a reaction by named official Johann Cesa with clear attribution ('Johann Cesa réagit') and includes other named officials."
+        },
+        {
+          "rank": 3,
+          "text": "Cette A45 a empêché toute réflexion collective pendant quarante ans, il faut vraiment qu'on aille vers des projets d'avenir — Johann Cesa",
+          "concept": "attributed statement",
+          "reasoning": "This section contains a direct statement attributed to Johann Cesa with an attribution dash."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00010",
+      "row_idx": 2109,
+      "normalized": 8.854479789733887,
+      "actual_text": "afin de relayer les deux structures audomaroises existantes, à Arques et Aire-sur-la-Lys, qui sont obsolètes. L",
+      "plain_text": "Audomarois : le futur centre de tri des déchets sera mis en service fin 2025 au plus tard Entre littoral et Béthunois, plusieurs études ont été menées pour envisager un nouveau centre de tri afin de relayer les deux structures audomaroises existantes, à Arques et Aire-sur-la-Lys, qui sont obsolètes. L’option d’un périmètre Flandre-Audomarois s’est finalement imposée. Les dossiers sont enfin en train d’être déposés. Par Anthony Berteloot | Publié le 22/02/2022 partager twitter Le tri va changer de dimension dès l’année prochaine, avec le recyclage des plastiques. PHOTO ARCHIVES «LA VOIX» - VDNPQR Cela commençait à urger, d’autant que les nouvelles consignes de tri effectives en 2023 vont changer la donne du traitement des déchets. Finalement, c’est l’option d’une structure plus petite qui a eu les faveurs des élus de l’Audomarois et de Flandre intérieure en ce début d’année. Sur un... Article",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "PHOTO ARCHIVES «LA VOIX» - VDNPQR Cela commençait à urger, d’autant que les nouvelles consignes de tri effectives en 2023 vont changer la donne du traitement des déchets. Finalement, c’est l’option d’une structure plus petite qui a eu les faveurs des élus de l’Audomarois et de Flandre intérieure en ce début d’année.",
+          "concept": "official favor",
+          "reasoning": "This section mentions elected officials ('élus') expressing favor, which implies attribution of stance."
+        },
+        {
+          "rank": 2,
+          "text": "Les dossiers sont enfin en train d’être déposés. Par Anthony Berteloot | Publié le 22/02/2022 partager twitter Le tri va changer de dimension dès l’année prochaine, avec le recyclage des plastiques.",
+          "concept": "author attribution",
+          "reasoning": "This section includes attribution of the article to a named author ('Par Anthony Berteloot'), though not a statement by an official."
+        },
+        {
+          "rank": 3,
+          "text": "Audomarois : le futur centre de tri des déchets sera mis en service fin 2025 au plus tard Entre littoral et Béthunois, plusieurs études ont été menées pour envisager un nouveau centre de tri afin de relayer les deux structures audomaroises existantes, à Arques et Aire-sur-la-Lys, qui sont obsolètes. L’option d’un périmètre Flandre-Audomarois s’est finalement imposée.",
+          "concept": "factual report",
+          "reasoning": "This section is a general report without any attribution to named officials or experts."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 2410,
+      "normalized": 7.971800804138184,
+      "actual_text": "by stage of development. The announcement, which comes as China launches its own digital yuan which however has emerged as one giant flop, and during a week of intense volatility",
+      "plain_text": "In the immediate aftermath of the crypto crash, which made bitcoin and its peers the main talking point amid trading desks as well as the general public, with google searches for cryptocurrency hitting an all time high on Wednesday... .. at 2pm today Fed Chair Powell reminded the peasantry that the Federal Reserve itself is planning on rolling out its own CBDC, i.e., a digital dollar, and announced that the Fed plans to publish this summer a discussion paper \"that will explore the implications of fast-evolving technology for digital payments, with a particular focus on the possibility of issuing a U.S. central bank digital currency.\" \"As the central bank of the United States, the Federal Reserve is charged with promoting monetary and financial stability and the safety and efficiency of the payment system,\" Federal Reserve Board Chair Jerome H. Powell said Thursday in a video message. \"In pursuit of these core functions we have been carefully monitoring and adapting to the technological innovations now transforming the world of payments, finance, and banking.\" “We are committed at the Federal Reserve to hearing a wide range of voices on this important issue before making any decision on whether and how to move forward with a U.S. CBDC,” he said in a statement Thursday, referring to central bank digital currencies. Powell also made it clear that he wants the Fed to play “a leading role” in the development of international standards. Central banks around the world - most notably the People’s Bank of China - are moving ahead with digital currencies which could give them a head-start in how standards develop, according to Bloomberg. Indeed, the chart below shows the number of country CBDC projects by stage of development. The announcement, which comes as China launches its own digital yuan which however has emerged as one giant flop, and during a week of intense volatility in cryptocurrencies, marks a shift in momentum on the CBDC topic at the Fed, which until now has mostly been a technological research project at its regional branch in Boston. A key issue for Powell and other Fed officials is how such technology would fit into the current U.S. banking system, which already deals with electronic payments in a variety of ways. Critics of the current system say it locks out many low-income people and charges them fees for basic services that people with high account balances don’t suffer. Digital currency accounts held by individuals could serve as a form of competition. Still, the banking system offers high protection for depositors, including insurance, that a less regulated system may not offer. “Our key focus is on whether and how a CBDC could improve on an already safe, effective, dynamic, and efficient U.S. domestic payments system,” Powell said adding that \"it is important that any potential CBDC could serve as a complement to, and not a replacement of, cash and current private-sector digital forms of the dollar, such as deposits at commercial banks. The design of a CBDC would raise important monetary policy, financial stability, consumer protection, legal, and privacy considerations and will require careful thought and analysis—including input from the public and elected officials.\" Translation: the financial system is on the verge of collapse and only the ramming through of programmable digital dollars, which can be turned off and expire at the push of a button as well as devalue themselves under a negative rates environment, can save it. Oh, and in a sequel to FDR's Executive Order 6102, the government will confiscate all your physical cash (and precious metals) and replace it with digital bux. Despite implicitly admitting that the digital currency revolution started by bitcoin has changed the world, and is about to change accepted money forever, Powell took the opportunity to bash true digital currencies. The Fed chair said that “to date, cryptocurrencies have not served as a convenient way to make payments, given, among other factors, their swings in value.” Which is news to anyone who bought crypto several years ago and held, or anyone for that matter who bought bitcoin prior to March: they have not only preserved their value but seen their wealth explode. What was perhaps more notable was Powell's far more supportive view of stablecoins: ... coins tied to the value of the dollar or another currency—known as “stablecoins”— have emerged as a new way to make payments. These stablecoins aim to use new technologies in a way that has the potential to enhance payments efficiency, speed up settlement flows, and reduce end-user costs—but they may also carry potential risks to those users and to the broader financial system. For example, although the value of a stablecoin may be tied to the value of a dollar, these coins may not come with the same protections as traditional means of payment, such as physical currency or the deposits in your bank account. Therefore, as stablecoins’ use increases, so must our attention to the appropriate regulatory and oversight framework. This includes paying attention to private-sector payments innovators who are currently not within the traditional regulatory arrangements applied to banks, investment firms, and other financial intermediaries. This comment from Powell is quite bullish for stablecoins such as Facebook's Diem, as well as Silvergate - the bank which the social network recently announced it would partner with in issuing the Facebook stablecoin, the DiemUSD. As for Powell's expectations for the upcoming CBDC paper, he said it would represent a thoughtful process. \"Irrespective of the conclusion we ultimately reach, we expect to play a leading role in developing international standards for CBDCs, engaging actively with central banks in other jurisdictions as well as regulators and supervisors here in the United States throughout that process.” Powell's transcript below.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "\"As the central bank of the United States, the Federal Reserve is charged with promoting monetary and financial stability and the safety and efficiency of the payment system,\" Federal Reserve Board Chair Jerome H. Powell said Thursday in a video message.",
+          "concept": "official statement",
+          "reasoning": "This section contains a direct quote attributed to named official Jerome Powell with explicit attribution frame."
+        },
+        {
+          "rank": 2,
+          "text": "\"We are committed at the Federal Reserve to hearing a wide range of voices on this important issue before making any decision on whether and how to move forward with a U.S. CBDC,\" he said in a statement Thursday, referring to central bank digital currencies.",
+          "concept": "cited commitment",
+          "reasoning": "This section features a clear attribution of a statement by Powell regarding the Fed's commitment."
+        },
+        {
+          "rank": 3,
+          "text": "\"Our key focus is on whether and how a CBDC could improve on an already safe, effective, dynamic, and efficient U.S. domestic payments system,\" Powell said adding that \"it is important that any potential CBDC could serve as a complement to, and not a replacement of, cash and current private-sector digital forms of the dollar, such as deposits at commercial banks.\"",
+          "concept": "policy focus",
+          "reasoning": "This section includes a direct quote from Powell about the Fed's focus, with clear attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 5069,
+      "normalized": 0.0,
+      "actual_text": "Bei einem Einbruch in der Brunnenwörthstraße in Schlatt sind",
+      "plain_text": "Bei einem Einbruch in der Brunnenwörthstraße in Schlatt sind den Tätern am Dienstag Bargeld und Schmuck in die Hände gefallen. Zwischen 15 und 19 Uhr hebelten die Unbekannten ein Fenster auf. Bei Durchwühlen der Wohnung fanden sie Bargeld und zwei gefüllte Schmuckschatullen. Wie hoch der Wert des Diebesguts insgesamt ist, steht noch nicht fest. Am Einstiegsfenster entstand ein Schaden. Zeugenhinweise nimmt die Polizei unter Telefon 07471/988-00 entgegen. Außerdem sind Banditen am Dienstag auch in der Prof.-Dieringer-Straße in Rangendingen eingebrochen. Zwischen 16.10 und 18.15 Uhr hebelten sie auf der Rückseite eines Wohnhauses ein Fenster auf. Anschließend stiegen sie in den dahinterliegenden Werkstattraum ein. Aus bislang unbekannten Gründen verließen sie das Gebäude aber, ohne etwas entwendet zu haben. Am Fenster entstand ein Schaden in Höhe von zirka 700 Euro.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Wie hoch der Wert des Diebesguts insgesamt ist, steht noch nicht fest. Am Einstiegsfenster entstand ein Schaden. Zeugenhinweise nimmt die Polizei unter Telefon 07471/988-00 entgegen.",
+          "concept": "police appeal",
+          "reasoning": "This section mentions the police organization and their request for witness information, though not a statement by a named official."
+        },
+        {
+          "rank": 2,
+          "text": "Bei einem Einbruch in der Brunnenwörthstraße in Schlatt sind den Tätern am Dienstag Bargeld und Schmuck in die Hände gefallen. Zwischen 15 und 19 Uhr hebelten die Unbekannten ein Fenster auf. Bei Durchwühlen der Wohnung fanden sie Bargeld und zwei gefüllte Schmuckschatullen.",
+          "concept": "crime report",
+          "reasoning": "This section is a factual description of a burglary without any attribution to officials."
+        },
+        {
+          "rank": 3,
+          "text": "Außerdem sind Banditen am Dienstag auch in der Prof.-Dieringer-Straße in Rangendingen eingebrochen. Zwischen 16.10 und 18.15 Uhr hebelten sie auf der Rückseite eines Wohnhauses ein Fenster auf. Anschließend stiegen sie in den dahinterliegenden Werkstattraum ein. Aus bislang unbekannten Gründen verließen sie das Gebäude aber, ohne etwas entwendet zu haben. Am Fenster entstand ein Schaden in Höhe von zirka 700 Euro.",
+          "concept": "burglary account",
+          "reasoning": "This section describes another burglary incident without any attribution to officials or experts."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part.",
+          "concept": "event announcement",
+          "reasoning": "This section mentions named individuals with official titles (columnist, receiver) involved in an event, though not direct statements."
+        },
+        {
+          "rank": 2,
+          "text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state.",
+          "concept": "author participation",
+          "reasoning": "This section attributes an action to a named author (Michael Hurd) but does not include a cited statement."
+        },
+        {
+          "rank": 3,
+          "text": "Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career.",
+          "concept": "book description",
+          "reasoning": "This section describes the book's content without any attribution of statements to named officials or experts."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_11668",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:30:33Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that embed named entities (especially persons, organizations, or locations) within descriptive, contextualizing phrases** (such as professional titles with affiliations, institutional roles, or specific geopolitical/legal contexts).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Italian, Armenian, Bulgarian) and domains including academic citations, legal proceedings, corporate announcements, medical reports, and sports journalism. It activates on text that frames a named entity with qualifiers like job titles (“interim provost and vice president of academic affairs”), organizational connections (“the World Health Organisation’s assistant director general”), legal roles (“Federal Prosecutor Joel Pahud”), or specific event contexts (“Turkey's state-owned lender Halkbank to avoid criminal charges”).\n\n3. **Contrast with low-activation examples**: The low-activation texts typically mention entities in a more isolated or lead-in news style without embedding them in elaborate descriptive clauses (e.g., “LSU found itself in an early hole,” “Protestors gathered in downtown Memphis”). What is absent is the syntactic embedding of the entity within a longer contextual phrase that specifies a role, affiliation, or precise situational detail.\n\n4. **Closing interpretation**: The neuron detects a specific narrative framing where named entities are introduced with explanatory detail, focusing on the syntactic and semantic structure that ties entities to their institutional, professional, or situational context. It acts less as a simple named-entity detector and more as a detector of *contextually elaborated references*.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00017",
+      "row_idx": 1675,
+      "normalized": 9.498857498168945,
+      "actual_text": "delivered Thursday in the case of one of the officers charged in the arrest of Freddie Gray, the 25-year-old Baltimore man who died last year after suffering a",
+      "plain_text": "Closing arguments were delivered Thursday in the case of one of the officers charged in the arrest of Freddie Gray, the 25-year-old Baltimore man who died last year after suffering a severe spinal cord injury in police custody. Baltimore cop Edward Nero, 30, was one of bicycle officers who pursued Gray through the Gilmor Homes public housing project in West Baltimore on April 12, 2015. Nero is accused of recklessly endangering Gray by failing to secure him in the back of a police van with a seat belt. He has pleaded not guilty to misdemeanor charges of second-degree assault, reckless endangerment and two counts of official misconduct. One of the key issues of state’s case against Nero is whether placing Gray in a prone position on the floor of the van was reckless. \"Putting someone in a prone position when they are cooperative is excessive force,\" State’s Attorney Janice Bledsoe said during her closing argument. Defense attorney Mark Zayon argued during his closing that failure to seat belt Gray was an “act of omission,” adding that the state didn’t show Nero had duty to do it. Another key to the prosecution’s case focuses on whether Nero had a duty to make sure that Gray was secure in the van before he and the fellow arresting officers turned over custody. During his rebuttal argument, Chief Deputy State’s Attorney Michael Schatzow told the judge that you don’t have to be a 20-year veteran of the department to know that someone in custody should be secured with a seat belt. He added that if Nero knew that the van driver wasn’t going to secure Gray had an obligation to do so. \"Somebody's gotta use logic, Judge, and we're counting on you,\" Schatzow said. Officer Caesar Goodson, the driver of the van that transported Gray, faces a second-degree murder charge, the most serious accusation of all the six police officers charged in the case. Goodson's trial is scheduled to start in June. Zayon argued that Freddie Gray was injured because he stood up in the van, and that Nero couldn’t have anticipated that he would do so. One of the key witnesses in the case, Officer Garrett Miller, who also faces charges in Gray's arrest, was ordered to testify at Nero’s trial under immunity. Called by the prosecution, Miller testified that he caught Gray, placed him in handcuffs, and moved him while they waited for the van. When the van arrived, Nero and Lt. Brian Rice, placed Gray in the van. Zayon added that \"intervening acts\" like Gray standing up the van driver's driving played a role in Gray being hurt. He pointed out that all witnesses have testified it was the wagon driver's responsibility to seat belt prisoners. Nero never took the stand in his own defense, nor did Officer William Porter, whose trial in Gray's arrest and death ended in a mistrial. Nero's trial was scheduled to occur earlier in the year, but was delayed after prosecutors said they wanted to compel Porter to testify in the case. The State’s appeals court affirmed in March that Porter could be called, but he never was. The Judge is expected to deliver a verdict on Monday.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Baltimore cop Edward Nero, 30, was one of bicycle officers who pursued Gray through the Gilmor Homes public housing project in West Baltimore on April 12, 2015. Nero is accused of recklessly endangering Gray by failing to secure him in the back of a police van with a seat belt.",
+          "concept": "police officer legal role",
+          "reasoning": "It embeds the named entity 'Edward Nero' within a descriptive phrase specifying his role, age, and legal accusations."
+        },
+        {
+          "rank": 2,
+          "text": "Officer Caesar Goodson, the driver of the van that transported Gray, faces a second-degree murder charge, the most serious accusation of all the six police officers charged in the case. Goodson's trial is scheduled to start in June.",
+          "concept": "legal charge description",
+          "reasoning": "It provides a detailed contextualization of Officer Caesar Goodson's role and legal situation."
+        },
+        {
+          "rank": 3,
+          "text": "One of the key witnesses in the case, Officer Garrett Miller, who also faces charges in Gray's arrest, was ordered to testify at Nero’s trial under immunity. Called by the prosecution, Miller testified that he caught Gray, placed him in handcuffs, and moved him while they waited for the van.",
+          "concept": "witness role description",
+          "reasoning": "It embeds the named entity 'Officer Garrett Miller' within a phrase describing his legal role and testimony."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 2384,
+      "normalized": 8.650045394897461,
+      "actual_text": "ui Thanh Son also sent congratulations to his Cuban counterpart Bruno Rodríguez Parrilla./.",
+      "plain_text": "Vietnamese leaders extend congratulations to Cuba on 65th National Day  Leaders of the Vietnamese Party, State, Government and National Assembly on December 31 cabled messages of congratulations to their Cuban counterparts on the 65th National Day of Cuba (January 1, 1959 - 2024). General Secretary of the Communist Party of Vietnam Central Committee Nguyen Phu Trong and President Vo Van Thuong extended their congratulations to First Secretary of the Communist Party of Cuba Central Committee and President of Cuba Miguel Díaz-Canel Bermúdez. Prime Minister Pham Minh Chinh sent a congratulatory message to his Cuban counterpart Manuel Marrero Cruz, while National Assembly Chairman Vuong Dinh Hue offered his congratulations to President of the National Assembly of People's Power of Cuba  Esteban Lazo Hernández. The same day, Minister of Foreign Affairs Bui Thanh Son also sent congratulations to his Cuban counterpart Bruno Rodríguez Parrilla./.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "General Secretary of the Communist Party of Vietnam Central Committee Nguyen Phu Trong and President Vo Van Thuong extended their congratulations to First Secretary of the Communist Party of Cuba Central Committee and President of Cuba Miguel Díaz-Canel Bermúdez.",
+          "concept": "diplomatic titles",
+          "reasoning": "It embeds multiple named entities with elaborate official titles in a diplomatic context."
+        },
+        {
+          "rank": 2,
+          "text": "Prime Minister Pham Minh Chinh sent a congratulatory message to his Cuban counterpart Manuel Marrero Cruz, while National Assembly Chairman Vuong Dinh Hue offered his congratulations to President of the National Assembly of People's Power of Cuba  Esteban Lazo Hernández. The same day, Minister of Foreign Affairs Bui Thanh Son also sent congratulations to his Cuban counterpart Bruno Rodríguez Parrilla./.",
+          "concept": "government officials",
+          "reasoning": "It lists several named entities with their official titles and roles in a diplomatic exchange."
+        },
+        {
+          "rank": 3,
+          "text": "Vietnamese leaders extend congratulations to Cuba on 65th National Day  Leaders of the Vietnamese Party, State, Government and National Assembly on December 31 cabled messages of congratulations to their Cuban counterparts on the 65th National Day of Cuba (January 1, 1959 - 2024).",
+          "concept": "political leadership",
+          "reasoning": "It describes the collective leadership entities of Vietnam in a contextualizing phrase about diplomatic congratulations."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 50,
+      "normalized": 7.7896952629089355,
+      "actual_text": "from her Scottish wedding and her dress is stunning. While Karen Gillan is a household name thanks to her work in the Marvel Cinematic Universe, she’s one celebrity",
+      "plain_text": "Actress Karen Gillan has had a very successful career in both television and film, with roles in major properties like Doctor Who, Jumanjiand of course) guardians of the galaxy. As her professional life prospers, Gillan also has reason to celebrate personally. Notably because she married comedian Nick Kocher in May. She recently posted gorgeous photos from her Scottish wedding and her dress is stunning. While Karen Gillan is a household name thanks to her work in the Marvel Cinematic Universe, she’s one celebrity who’s seemingly managed to keep her life private. That was true when it came to her May 2022 wedding to Nick Kocher, as she only recently shared more glimpses of that special day. But she instagram showed how gorgeous Gillan’s wedding dress looked, check it out below:  How breathtaking is that? While Karen Gillan only shared a few brief images from her May nuptials, it definitely looks like the wedding itself was stunning. And that includes the dress that the Oculus the actress wore the big day, which had a long train and exposed back. Let’s break it all down.  The above post comes to us from Karen Gillan’s personal Instagram account, which has 7.6 million followers. But it marks a time when she, the 35-year-old actress, shares her personal life a bit, rather than promoting her various television and film projects. Of course, she always kept the information limited.  Only three images were shared on Karen Gillan’s Instagram on her wedding day, but they are quite striking. Along with the photo of her in her wedding dress, we can also see part of her wedding party soaking it all up. Finally, we are shown a piper, which shows how traditionally Scottish his nuptials were. In the post, she tags the photographer who captured the moments and revealed her wedding location: Castle Toward in Argyll and Bute, Scotland. Of course, Karen Gillan fans are undoubtedly clamoring for more glimpses of Karen Gillan’s wedding, including the front of her dress. It remains to be seen if more images are shared on Instagram, or if Gillan will keep them for herself. Anyway, it seems that the Guardians fan-favorite had a great wedding and is enjoying married life.  Along with seeing a preview of Karen Gillan’s wedding in May, fans are also checking her social media for any updates or hints on what’s going on at James Gunn. Guardians of the Galaxy Vol. 3. This trio is one of the most anticipated upcoming Marvel movies, as it is expected to bring the current cosmic team’s story to an end. We’ve already learned that Nebula has a nifty new arm, but it looks like no one is immune to being potentially killed in the Marvel movie. Guardians of the Galaxy Vol. 3 is currently set to arrive in theaters on May 5, 2023. In the meantime, check out the 2023 movie release dates to plan your next cinematic experience. We’ll just have to wait and see if she comes back for another Jumanji movie in the future.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Actress Karen Gillan has had a very successful career in both television and film, with roles in major properties like Doctor Who, Jumanjiand of course) guardians of the galaxy. As her professional life prospers, Gillan also has reason to celebrate personally.",
+          "concept": "professional career",
+          "reasoning": "It embeds the named entity 'Karen Gillan' within a descriptive phrase detailing her professional achievements."
+        },
+        {
+          "rank": 2,
+          "text": "While Karen Gillan is a household name thanks to her work in the Marvel Cinematic Universe, she’s one celebrity who’s seemingly managed to keep her life private. That was true when it came to her May 2022 wedding to Nick Kocher, as she only recently shared more glimpses of that special day.",
+          "concept": "public figure description",
+          "reasoning": "It contextualizes Karen Gillan's fame and personal life, embedding her name with her Marvel Cinematic Universe work."
+        },
+        {
+          "rank": 3,
+          "text": "In the post, she tags the photographer who captured the moments and revealed her wedding location: Castle Toward in Argyll and Bute, Scotland.",
+          "concept": "location disclosure",
+          "reasoning": "It embeds the named location 'Castle Toward in Argyll and Bute, Scotland' within a descriptive phrase about her wedding."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 4026,
+      "normalized": 0.0,
+      "actual_text": "Black Lives Matter co-founders Patrisse Cullors and Melina Abdullah are",
+      "plain_text": "Black Lives Matter co-founders Patrisse Cullors and Melina Abdullah are demanding that Los Angeles police officers no longer be dispatched to minor traffic incidents and are calling for additional actions following the cardiac arrest death of Keenan Anderson, Cullors’ cousin, after he was tased repeatedly by police this month.  A preliminary toxicology-blood screen of Anderson’s blood samples tested positive for cocaine and marijuana, according to LAPD, but members of Black Lives Matter believe Anderson would still be alive had officers not used what BLM considered excessive force.  “We know all too well the ways in which law enforcement has created a painful cycle of death and violence in our communities and families,” Cullors said during a news conference Tuesday, Jan. 17, outside Los Angeles City Hall.  “Unfortunately, many of us have been gaslit, attacked and thrown under the bus for simply calling for Black folks to live long, healthy lives, free from the violence of police and criminalization,” she added.  About two dozen people attended the news conference, where Black Lives Matter members made these five demands:  – Mayor Karen Bass not reappoint LAPD Chief Michel Moore to a second term.  – Remove police from traffic stops, mental health crises, schools, transportation facilities “and every place that they obviously don’t belong,” Abdullah said.  – Reform the city’s policy on the use of Tasers – “because less lethal does not mean non-lethal,” Abdullah said.  – LAPD release unedited footage of Anderson’s encounter with police.  – Officers be held accountable for their actions by ending police immunity.  “Don’t let this be a moment. This is a movement,” Abdullah said at the press conference.  Several L.A. city councilmembers also spoke, including Marqueece Harris-Dawson, Hugo Soto-Martinez and Eunisses Hernandez, as well as former Councilmember Mike Bonin. L.A. County Supervisor Lindsey Horvath also attended and called for changes to LAPD.  Those who spoke suggested that armed officers shouldn’t respond to minor incidents when sending in an unarmed person trained to deescalate a situation might be more effective.  But currently, Harris-Dawson said, “We do not respond to mental health calls with mental health care. We respond with guns and badges and blaring lights and shouting and commands that people may or may not be in a position to adhere to.”  Anderson, 31, was the father of a 6-year-old and a teacher in Washington, D.C. He was visiting family in L.A. on Jan. 3 when officers encountered him at the site of a traffic collision in Venice, where, according to police, he was exhibiting “erratic behavior.”  Officers struggled to arrest Anderson, who at one point cried out, “They’re trying to George Floyd me,” before he was tased multiple times, according to body camera footage from LAPD.  Anderson was arrested and taken to a hospital, where he died about 4½ hours after being tased, according to police.  LAPD is investigating the use of force, and the L.A. County coroner’s office is conducting its own toxicology tests.  Anderson’s was the city’s third officer-involved death in 2023. Takar Smith, 45, and Oscar Sanchez, 35, died after being shot by police earlier this month.  Sanchez was reportedly armed with a sharp metal object when he was shot by police in South L.A. Smith had a knife when he was fatally shot by police in the Westlake area.  LAPD is investigating all three use-of-force incidents.  LAPD Chief Moore has raised concerns that in all three instances the person involved was experiencing mental distress but the department’s mental-health intervention team was not called to respond.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Black Lives Matter co-founders Patrisse Cullors and Melina Abdullah are demanding that Los Angeles police officers no longer be dispatched to minor traffic incidents and are calling for additional actions following the cardiac arrest death of Keenan Anderson, Cullors’ cousin, after he was tased repeatedly by police this month.",
+          "concept": "activist demands",
+          "reasoning": "It embeds multiple named entities with their roles and familial relationship in a context of activist demands."
+        },
+        {
+          "rank": 2,
+          "text": "Several L.A. city councilmembers also spoke, including Marqueece Harris-Dawson, Hugo Soto-Martinez and Eunisses Hernandez, as well as former Councilmember Mike Bonin. L.A. County Supervisor Lindsey Horvath also attended and called for changes to LAPD.",
+          "concept": "political figures",
+          "reasoning": "It lists several named political figures with their titles in a contextualizing phrase about a news conference."
+        },
+        {
+          "rank": 3,
+          "text": "Anderson, 31, was the father of a 6-year-old and a teacher in Washington, D.C. He was visiting family in L.A. on Jan. 3 when officers encountered him at the site of a traffic collision in Venice, where, according to police, he was exhibiting “erratic behavior.”",
+          "concept": "victim description",
+          "reasoning": "It embeds the named entity 'Keenan Anderson' with personal details and situational context."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1566,
+      "normalized": 0.0,
+      "actual_text": "Protesting employees of Severelectro OJSC demand from the Chairman of the National",
+      "plain_text": "Protesting employees of Severelectro OJSC demand from the Chairman of the National Energy Holding, Aitmamat Nazarov, to come out to them for a dialogue.  About 70 fitters and electricians of the company took part in a protest because of their disagreement with the appointment of the new director of the company Ulan Astarkulov.   «We are against violations and political interference. We demand from Aitmamat Nazarov to leave the post of head of the National Energy Holding. What is happening in our company is chaos. If nobody comes out to us here, we will go to the Government House,» protesters say.   By the decision of the Board of Directors of Severelectro OJSC, Doskul Bekmurzaev was dismissed from his post as General Director of the company on October 28. Press service of the company reported.  Ulan Astarkulov became the new head of Severelectro OJSC. The decision was agreed with the State Property Management Fund and National Energy Holding OJSC.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Protesting employees of Severelectro OJSC demand from the Chairman of the National Energy Holding, Aitmamat Nazarov, to come out to them for a dialogue. About 70 fitters and electricians of the company took part in a protest because of their disagreement with the appointment of the new director of the company Ulan Astarkulov.",
+          "concept": "corporate protest",
+          "reasoning": "It embeds named entities 'Aitmamat Nazarov' and 'Ulan Astarkulov' with their official titles in a protest context."
+        },
+        {
+          "rank": 2,
+          "text": "«We are against violations and political interference. We demand from Aitmamat Nazarov to leave the post of head of the National Energy Holding. What is happening in our company is chaos. If nobody comes out to us here, we will go to the Government House,» protesters say.",
+          "concept": "protest demands",
+          "reasoning": "It embeds the named entity 'Aitmamat Nazarov' with his official title within a direct quote from protesters."
+        },
+        {
+          "rank": 3,
+          "text": "By the decision of the Board of Directors of Severelectro OJSC, Doskul Bekmurzaev was dismissed from his post as General Director of the company on October 28. Press service of the company reported. Ulan Astarkulov became the new head of Severelectro OJSC. The decision was agreed with the State Property Management Fund and National Energy Holding OJSC.",
+          "concept": "corporate leadership change",
+          "reasoning": "It embeds named entities 'Doskul Bekmurzaev' and 'Ulan Astarkulov' with their roles in a corporate decision context."
+        }
+      ]
+    }
+  ]
+}

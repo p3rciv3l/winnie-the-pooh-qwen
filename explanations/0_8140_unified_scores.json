@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_8140",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments referencing imminent or recent events measured in days** (such as \"days before,\" \"in the coming days,\" \"final days,\" or \"two days later\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, legal updates, and sports commentary, primarily in English. Examples span topics like elections (\"Election Day is Nov. 3\"), geopolitical developments (\"days before completely cutting ties with the EU\"), legal proceedings (\"just days after Paula Abdul accused him\"), and weather forecasts (\"significant solar activity in the forthcoming days\"). Non-English snippets in the high-activation set (e.g., Turkish) also follow this temporal framing.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit day-count references anchoring events to a near past or future. Low-activation examples are often truncated sentences, headlines without temporal context, or text in other languages (Spanish, Italian, Russian, etc.) that lack these specific day-oriented time markers.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that emphasize temporal proximity\u2014specifically, events framed within a narrow window of a few days. It appears to key on phrases that situate actions or outcomes as immediately pending or freshly elapsed.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "0 GMT). INEC made no comment on the delays but had said before election day that anyone who joined the queue on time would be able to vote even after the",
+      "normalized_activation": 9.53525447845459,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.237,
+          "meaning_score": 0.7459,
+          "overlap_fraction": 0.9477,
+          "location_score": 0.1895,
+          "combined_score": 0.5827
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3866,
+          "meaning_score": 0.4755,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3448
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3828,
+          "meaning_score": 0.3364,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2877
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "October 13. After reporting the incident, they were informed by police two days later that she had \u201cwillingly converted to Islam\u201d and married Ali Az",
+      "normalized_activation": 8.675643920898438,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2223,
+          "meaning_score": 0.7144,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5747
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.281,
+          "meaning_score": 0.3258,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2427
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3603,
+          "meaning_score": 0.4645,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3299
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", chief residency, private practice, and many other settings. In the early months of the year, we have a task force at our practice that kicks into gear",
+      "normalized_activation": 7.644563674926758,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2669,
+          "meaning_score": 0.5066,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3094
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3172,
+          "meaning_score": 0.2772,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2378
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2112,
+          "meaning_score": 0.3871,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2393
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1607,
+          "meaning_score": 0.9337,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6378
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1481,
+          "meaning_score": 0.567,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2861
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1955,
+          "meaning_score": 0.2541,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1798
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1737,
+          "meaning_score": 0.2419,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1663
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1825,
+          "meaning_score": 0.2638,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1785
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1769,
+          "meaning_score": 0.2021,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1516
+        }
+      ]
+    }
+  ]
+}

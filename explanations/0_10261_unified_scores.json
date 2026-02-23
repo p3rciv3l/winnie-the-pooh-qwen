@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_10261",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **numerical quantities expressed with comparative phrases like \"more than X\" or \"over X\"** (such as \"more than 15,000 participants,\" \"more than 100 political prisoners,\" or \"more than 90% of the population\").\n\n2. **Domain coverage**: The pattern appears across diverse English-language news and factual reporting domains, including politics, conflict, health statistics, business investments, event attendance, and demographic figures. It processes quantities regardless of topic, as long as they are framed with a comparative numerical threshold.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a comparative quantity phrase (\"more than,\" \"over,\" \"more than double\"), while the low-activation examples either lack numbers entirely or present numbers in non-comparative forms (e.g., dates, standalone figures, or non-quantitative contexts). The neuron specifically requires the linguistic structure highlighting a quantity exceeding a stated number.\n\n4. **Closing interpretation**: This neuron detects linguistic constructions that emphasize a scale or magnitude by stating that a count, amount, or proportion surpasses a specific numerical value. It functions as a detector for comparative numerical expressions in English text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "storm with sustained winds of 125 mph. Authorities in Cuba evacuated more than 50,000 people and Florida Gov. Ron DeSantis",
+      "normalized_activation": 9.895185470581055,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "community. The landmark ruling on November 8 eventually led to the release of more than 140 people being held in detention who cannot be deported to their home",
+      "normalized_activation": 9.692157745361328,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "94 the previous day, the Ishikawa government website showed. More than 200 people are still missing after the deadliest quake in nearly eight years",
+      "normalized_activation": 9.417842864990234,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "President TrumpDonald John TrumpSenate Dem calls on Mattis to testify following resignation Hirono",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Dashing through the notes, in a one horse open sleigh What is your",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

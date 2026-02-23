@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_10812",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:20:20Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style datelines** — specifically, text segments that begin with a location name in all caps, followed by a parenthetical news agency abbreviation (such as \"TOKYO (AP)\", \"BEIJING (AP)\", or \"TUNIS, Tunisia (AP)\") — and also to text that mimics this formal, reportorial opening structure in other languages.\n\n2. **Domain coverage**: The pattern appears in international news dispatches across multiple languages (English, Spanish, Arabic, Italian, Polish, etc.) and topics (politics, disasters, sports, business, science). It detects the journalistic convention of starting a report with a place and source identifier. The neuron also activates, though sometimes slightly less strongly, for similar structured openings without parentheses (e.g., \"SHANGHAI, June 25\") or for text that immediately follows such a dateline.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a formal dateline entirely, place the location in lowercase or mid-sentence, use different punctuation (e.g., \"MADRID, 22 (EUROPA PRESS)\" uses a comma before the number, breaking the pattern), or are from non-news genres (e.g., promotional content, opinion, social media snippets). The key distinguishing feature is the **all-caps location directly followed by a parenthetical agency or a comma and date**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic and stylistic pattern at the beginning of text segments: the standardized header of a news report. It functions as a \"news dateline detector,\" highly sensitive to the formatting cue that signals a dispatch from a wire service or formal news organization.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00011",
+      "row_idx": 2728,
+      "normalized": 9.62124252319336,
+      "actual_text": "Pennsylvania cop ends armed standoff with White Christmas rendition A successful police negotiator needs some key qualities. Calmness under",
+      "plain_text": "Pennsylvania cop ends armed standoff with White Christmas rendition  A successful police negotiator needs some key qualities. Calmness under pressure, a reassuring presence, and a knack for listening to name just a few. But it turns out that a decent singing voice can also come in handy. One Swat team negotiator in the US state of Pennsylvania brought an armed standoff to a close with his version of the festive classic White Christmas. But it is not clear whether the man surrendered due to the perfection or the sheer awfulness of the rendition. The nine-hour standoff began late on Christmas Day when a man in Chester County began behaving erratically and barricaded himself into his home. A worried family member called the police when the man allegedly armed himself with a rifle. But when officers arrived he reportedly opened fire, damaging a number of police vehicles. \"Over a long and cold night, they kept negotiating with the man,\" District Attorney Thomas Hogan wrote in a Facebook post. He said that he arrived on the scene with (Reindeer-shaped) Christmas biscuits to boost the morale of the officers before one negotiator made a sudden breakthrough. You might also be interested in: New York awe-struck as sky turns blue World's rarest bird gets new home Ill cricket fan is Australia captain for a day After prolonged talks, the man reportedly demanded that a police officer sing him White Christmas. A negotiator then sang four verses of the hit, thought to be the biggest-selling single of all time, before the man surrendered at 06:00 local time and was taken into custody. \"You can't make this stuff up,\" Mr Hogan wrote. \"This being Swat, they ate the cookies, made fun of each other, and went home to their families, quietly satisfied with a job well done.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Pennsylvania cop ends armed standoff with White Christmas rendition  A successful police negotiator needs some key qualities. Calmness under pressure, a reassuring presence, and a knack for listening to name just a few.",
+          "concept": "news opening",
+          "reasoning": "This section is the opening of a news article, which may mimic the formal structure of a news report."
+        },
+        {
+          "rank": 2,
+          "text": "But it turns out that a decent singing voice can also come in handy. One Swat team negotiator in the US state of Pennsylvania brought an armed standoff to a close with his version of the festive classic White Christmas.",
+          "concept": "news narrative",
+          "reasoning": "This section continues the news story with specific details, maintaining a reportorial tone."
+        },
+        {
+          "rank": 3,
+          "text": "But it is not clear whether the man surrendered due to the perfection or the sheer awfulness of the rendition. The nine-hour standoff began late on Christmas Day when a man in Chester County began behaving erratically and barricaded himself into his home.",
+          "concept": "news details",
+          "reasoning": "This section provides further narrative details typical of news reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 1481,
+      "normalized": 8.585440635681152,
+      "actual_text": "ousif Ibrahim Abdelmannan, State of Palestine, Abdullah M.A. Abu Shawesh presented their Letters of Credence to President Buhari. B",
+      "plain_text": "President Muhammadu Buhari has assured that the participation of citizens in democracy would continue to be encouraged through freedom of speech and robust political discourse.  Receiving Letters of Credence from Ambassadors and High Commissioners of six countries at the State House in Abuja on Tuesday, Buhari told the diplomats that Nigeria’s strength remains in its diversity, and the constant differences in positions further signpost a strong democratic culture.  The Ambassadors and High Commissioners of Democratic Republic of Congo, Mrs Gerengbo Yakivu Pascaline, Republic of India, Mr Gangadharan Balasubramanian, Germany, Mrs Annett Gunther, The Kingdom of Netherlands, Mr Willem Wouter Plomp, Sudan, Mr Mohamed Yousif Ibrahim Abdelmannan, State of Palestine, Abdullah M.A. Abu Shawesh presented their Letters of Credence to President Buhari.  Buhari said, “As you settle down to your diplomatic responsibilities, you’ll realise how diverse Nigeria is. We aren’t only multi-ethnic and religious but also multi-cultural.  “We enjoy unfettered freedom of speech and engage in robust political discourses. Sometimes, the nature of these discourses tends to give the impression that we are constantly opposed to each other.  “The reality is that there’s so much that binds us together than the few areas of our divergence. I have no doubts in my mind that you’ll soon appreciate our uniqueness and indeed resilience as a people, as well as our diversity which constitutes our strength.”  Buhari also urged the diplomats to build on the existing good relations that their predecessors had achieved by being more proactive in engagements.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "President Muhammadu Buhari has assured that the participation of citizens in democracy would continue to be encouraged through freedom of speech and robust political discourse.",
+          "concept": "political news",
+          "reasoning": "This opening sentence has a formal, reportorial style typical of news about political figures."
+        },
+        {
+          "rank": 2,
+          "text": "Receiving Letters of Credence from Ambassadors and High Commissioners of six countries at the State House in Abuja on Tuesday, Buhari told the diplomats that Nigeria’s strength remains in its diversity, and the constant differences in positions further signpost a strong democratic culture.",
+          "concept": "diplomatic news",
+          "reasoning": "This section describes a formal diplomatic event in a news-like manner."
+        },
+        {
+          "rank": 3,
+          "text": "The Ambassadors and High Commissioners of Democratic Republic of Congo, Mrs Gerengbo Yakivu Pascaline, Republic of India, Mr Gangadharan Balasubramanian, Germany, Mrs Annett Gunther, The Kingdom of Netherlands, Mr Willem Wouter Plomp, Sudan, Mr Mohamed Yousif Ibrahim Abdelmannan, State of Palestine, Abdullah M.A. Abu Shawesh presented their Letters of Credence to President Buhari.",
+          "concept": "official list",
+          "reasoning": "This section lists officials in a formal style similar to news dispatches."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00013",
+      "row_idx": 1885,
+      "normalized": 7.553070545196533,
+      "actual_text": "Officials: Missing Pakistani peace activist returns home LAHORE, Pakistan (AP) — Pakistani officials say a peace activist who mysteriously went missing in December has returned",
+      "plain_text": "Officials: Missing Pakistani peace activist returns home  LAHORE, Pakistan (AP) — Pakistani officials say a peace activist who mysteriously went missing in December has returned home in the eastern city of Lahore after his abductors freed him.  Raza Mahmood Khan was detained during a raid at his home by armed men, who also seized his computer after he campaigned for better ties between Pakistan and neighboring India.  On Friday, two police officers and a government official confirmed Khan returned home last week. The officials spoke on condition of anonymity as they were not authorized to speak to the media on the record.  Pakistan has witnessed a crackdown on human rights defenders, activists, journalists and members of civil society ahead of July 25 parliamentary elections.  Domestic and international rights groups have asked Pakistan to end the crackdown and ensure freedom of speech.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Officials: Missing Pakistani peace activist returns home  LAHORE, Pakistan (AP) — Pakistani officials say a peace activist who mysteriously went missing in December has returned home in the eastern city of Lahore after his abductors freed him.",
+          "concept": "news dateline",
+          "reasoning": "This section contains a classic news dateline with all-caps location and parenthetical news agency, which strongly matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Raza Mahmood Khan was detained during a raid at his home by armed men, who also seized his computer after he campaigned for better ties between Pakistan and neighboring India.  On Friday, two police officers and a government official confirmed Khan returned home last week.",
+          "concept": "news follow-up",
+          "reasoning": "This section immediately follows the dateline and continues the news report with specific details."
+        },
+        {
+          "rank": 3,
+          "text": "The officials spoke on condition of anonymity as they were not authorized to speak to the media on the record.  Pakistan has witnessed a crackdown on human rights defenders, activists, journalists and members of civil society ahead of July 25 parliamentary elections.",
+          "concept": "news background",
+          "reasoning": "This section provides additional context in a formal news style."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 5536,
+      "normalized": 0.0,
+      "actual_text": "You are here Behind the myth of China's great technology grab FOR all the concern",
+      "plain_text": "You are here  Behind the myth of China's great technology grab FOR all the concern over China's targeting of foreign intellectual property, how much forced transfer of leading-edge technology has really happened?  By the looks of the Chinese auto industry, hardly any. If there has been, then Beijing has precious little to show for it in a market of 25 million cars a year.  Take the case of Brilliance China Automotive Holdings Ltd. The Hong Kong-listed company has lost 53 per cent of its value since news broke earlier this year that BMW AG was taking a majority stake in their joint venture.  The German luxury carmaker was the first foreign auto partner to jump in after Beijing removed ownership caps. Their 15-year-old venture, BMW Brilliance Automotive Ltd, has been a lucrative business. Average daily unit sales rose 18 per cent from a year earlier in the first two weeks of December, amid an auto market where demand has been plummeting. BMW Brilliance, which already makes some models solely for China, plans to produce more vehicles locally and import fewer. None of BMW's lustre has rubbed off on its partner. Since the venture started, Brilliance's non-BMW sales growth has been dismal. Sales of Brilliance-brand cars have slumped over the past couple of years to just a fraction of BMW sales. Analysts now value the Brilliance business at next to nothing. Small wonder, then, that the company's stock price tanked when BMW raised its holding in their venture.  This begs a question: How was Brilliance China not able to acquire the technology to produce a successful car itself, despite having a top-tier partner and majority control of their venture for 15 years? The reality is that overseas automakers have a well-honed strategy to safeguard their most advanced technology and keep Chinese competitors at bay.  BMW began construction of its joint venture plant in Dadong, in the north-eastern city of Shenyang, in 2003 - but didn't build an engine plant in China until 2012. It opened a second factory to produce three- and four-cylinder petrol units for the Chinese market in 2016 - as many as three years after starting production of those engines in Germany.  BMW's eco-friendly light metal foundry, which does metal casting, came to China seven years after its Bavarian equivalent opened. At the same time, BMW has managed to cater to the local market, building China-specific cars and increasing the range of models it produces. The German automaker will now manufacture electric cars in the country. Other companies have used a similar playbook.  Toyota Motor Corp, for instance, is preparing to share its hybrid car engine technology with China, Bloom-berg News reported in September. While that may have looked like a scary precedent for carmakers, the fact is that hybrids are losing their sheen as the auto world focuses on an all-electric future. Toyota has been losing global market share. What better way to squeeze out a few more years of returns on a technology that it mastered more than a decade ago?  Remarkably, such issues formed the basis of the trade spat between the US and China. In March this year, the Office of the US Trade Representative published a report documenting China's \"unfair technology transfer regime for US companies\". The report highlighted the auto industry as an example where it said forced technology transfers are rampant.  China's electric vehicle rules present \"a clear case in the electric vehicle sector that you're simply not going to be able to sell that product in China unless that local partner has mastered the ability to leverage the technology and take it to produce it going forth\", it said, citing the testimony of a US trade association.  An updated November report said China's automotive policy may exacerbate pressure on overseas automakers, ignoring the fact that most have done well in the country. For those that haven't, a flawed strategy rather than forced technology transfers has been the reason. This isn't to defend China's practices or policies on trade and investment.  However, there are important distinctions between alleged hacking, espionage, restrictions on foreign investment, unfair trade policies, and theft. Much as with the Made in China 2025 plan, worries about China pulling ahead of its industrial rivals are misplaced. If anything, the nation's ham-handed approach is killing its ability to innovate and secure a place on the global technology stage. BLOOMBERG",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "You are here  Behind the myth of China's great technology grab FOR all the concern over China's targeting of foreign intellectual property, how much forced transfer of leading-edge technology has really happened?",
+          "concept": "analysis opening",
+          "reasoning": "This section opens with a headline-like question, which may resemble a news hook."
+        },
+        {
+          "rank": 2,
+          "text": "By the looks of the Chinese auto industry, hardly any. If there has been, then Beijing has precious little to show for it in a market of 25 million cars a year.",
+          "concept": "industry analysis",
+          "reasoning": "This section provides an analytical statement about a specific industry, maintaining a formal tone."
+        },
+        {
+          "rank": 3,
+          "text": "Take the case of Brilliance China Automotive Holdings Ltd. The Hong Kong-listed company has lost 53 per cent of its value since news broke earlier this year that BMW AG was taking a majority stake in their joint venture.",
+          "concept": "case study",
+          "reasoning": "This section introduces a specific example in a reportorial manner."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5839,
+      "normalized": 0.0,
+      "actual_text": "Drsný vianočný darček: Firma slovens",
+      "plain_text": "Drsný vianočný darček: Firma slovenského boháča vyhodí takmer polovicu ľudí, sexi kalendár ale zaplatila  \"Včera (v pondelok) sme sa na tom dohodli s vedením spoločnosti. K prepúšťaniu malo dôjsť skôr, ale vedenie očakávalo, že sa v druhom polroku zvýši odbyt, čo sa zvyčajne stávalo. K zvýšeniu odbytu bohužiaľ nedošlo,\" uviedol vedúci odborov Alois Kazelle. Dodal, že prepúšťanie sa týka profesií naprieč podnikom od manažérov po robotníkov. Odísť má 131 úradníkov, 64 výrobných pracovníkov, 53 režijných pracovníkov a 12 manažérov.  Vedenie spoločnosti uviedlo, že problémy začali začiatkom tohto roka s novou legislatívou, ktorá sprísnila bezpečnostné pravidlá pre stroje. \"Bolo potrebné komplexne modernizovať všetky modelové rady traktorov ZETOR. Aj napriek maximálnej snahe vstupoval ZETOR do roku 2018 s obmedzenou produktovou ponukou, ktorú sa podarilo skompletizovať až v auguste roku 2018. Prvá polovica roka tak bola obchodne horšia a v druhom polroku sa už stratu nepodarilo dohnať,\" uviedol výkonný riaditeľ Zetoru Marian Lipovský.  Legislatíva podľa neho núti Zetor investovať do modernizácie a vývoja tých častí traktorov, ktoré ale nemajú pridanú hodnotu pre zákazníka, ale vedú k zdražovaniu strojov. \"Ďalším aspektom, ktorému značka čelí, je fakt, že globálni hráči s vysokou kvantitou predajov uvádzajú na jednotlivé trhy produkty za extrémne lacné ceny, ktorým v súčasnom stave nedokážeme konkurovať,\" dodal Lipovský s tým, že Zetor už plošne znížil mzdy kvôli úspore nákladov.    Majiteľ Zetora, firma HTC Investments pripravuje podľa Lipovského na budúci rok výraznú kapitálovú investíciu, ktorá umožní v budúcom roku pokračovať v začatých zmenách.  Pokles tržieb  Podľa výročných správ niekoľko rokov spoločnosti klesajú tržby a znižuje sa aj počet vyrobených traktorov. Kým v roku 2014 spoločnosť predala 4187 traktorov a utŕžila 3,8 miliardy českých korún, v minulom roku to bolo 2765 traktorov a tržba 2,9 miliardy. Neustále mierne klesá aj počet zamestnancov, od roku 2014 o 128 ľudí.  Vzhľadom na nedostatok voľných zamestnancov na pracovnom trhu je pravdepodobné, že väčšina prepustených nájde v Brne iné povolanie. \"Už od rána mi telefonujú personalisti, aby som ľuďom odovzdal kontakt, je teda možné, že nájdu prácu hneď,\" uviedol Kazelle.    Výpovedná lehota začne zamestnancom plynúť vo februári, väčšina by ich mala skončiť do konca marca. Je ale možné, že časť zamestnancov pristúpi na dohodu.  Zoroslav Kollár  Zetor Tractors patrí do portfólia investičnej spoločnosti HTC Investments, a.s., v minulosti pôsobiacej pod názvom HTC Holding a.s.. K premenovaniu došlo začiatkom tohto roka. S akciovkou sa dlhodobo spája meno slovenského podnikateľa a advokáta Zoroslava Kollára. Jeho meno spolu s boháčmi Jaroslavom Hačšákom a Norbertom Bödörom médiá už roky spájajú s kontroverzným Marianom Kočnerom.    Kollár sa objavil na takzvaných mafiánskych zoznamoch, podľa časopisu .týždeň sa v 90. rokoch špecializoval na bankroty a „administratívno-násilné prebratia firiem“. Kollár, Bödör a Mária Krajmerová, manželka bývalého šéfa protikorupčnej jednotky, Roberta Krajmera, sú zase úzko spätí s akciovou spoločnosťou Kúpele Trenčianske Teplice.  Manželka Róberta Krajmera previedla 45-percentný podiel vo firme Všetko pre bývanie na spoločnosť Begram, ktorú spoluvlastní Zoroslav Kollár. Krajmerová pôsobila v predstavenstve Kúpeľov Trenčianske Teplice, ktoré ovládal Kollár cez firmu Begram. Generálna prokuratúra v marci oznámila, že dala preveriť, či Krajmerovej majetok zodpovedá jej oficiálnym príjmom.  Kalendár nesmie chýbať  Napriek tomu, že finančne sa Zetoru veľmi nedarí, kalendár s dlhoročnou tradíciou uzrel svetlo sveta aj pre rok 2019. Ani tentokrát nechýbajú v spojení s ťažkými strojmi krehké modelky a sexi pózy v prírode.    V kalendári Zetor sa preslávila v roku 2010 aj bývalá misska Mária Trošková, z ktorej vtedajší premiér Robert Fico neskôr urobil svoju asistentku. Jej pikantné fotografie obleteli slovenské aj zahraničné médiá.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Drsný vianočný darček: Firma slovenského boháča vyhodí takmer polovicu ľudí, sexi kalendár ale zaplatila",
+          "concept": "headline",
+          "reasoning": "This section is a headline in Slovak, which may resemble the opening of a news article."
+        },
+        {
+          "rank": 2,
+          "text": "\"Včera (v pondelok) sme sa na tom dohodli s vedením spoločnosti. K prepúšťaniu malo dôjsť skôr, ale vedenie očakávalo, že sa v druhom polroku zvýši odbyt, čo sa zvyčajne stávalo.\"",
+          "concept": "quoted statement",
+          "reasoning": "This section includes a quoted statement with a date, which is common in news reports."
+        },
+        {
+          "rank": 3,
+          "text": "K zvýšeniu odbytu bohužiaľ nedošlo,\" uviedol vedúci odborov Alois Kazelle. Dodal, že prepúšťanie sa týka profesií naprieč podnikom od manažérov po robotníkov.",
+          "concept": "official quote",
+          "reasoning": "This section continues with a quote from an official, typical of news writing."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_15451",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific named entities and specialized terminology** (such as person names like \"Robert Buckland\" or \"Jawaharlal Nehru,\" organization/team names like \"Atletico Madrid,\" technical/scientific phrases like \"antipodal bounce,\" and culturally specific references like \"Boiling Crab\u2019s three other sauces\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Hungarian, Turkish, Romanian, Polish, German, etc.) and diverse topics: legal/political affairs, sports lineups, academic or technical descriptions, cultural events, and geographic references. The neuron activates on text that densely packs identifiable entities\u2014individuals, groups, locations, artworks, or specialized concepts\u2014often within explanatory or narrative contexts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently include concrete, specific references to unique entities or niche concepts, while low-activation examples are more generic, describing everyday situations (\"dopey burglar\"), general advice (\"houseplants... watering techniques\"), or broad news updates (\"app launches with glitches\") without such precise named references or specialized vocabulary.\n\n4. **Closing interpretation**: This neuron likely detects passages rich in **real-world referents or domain-specific jargon**, acting as a filter for text that assumes or conveys detailed knowledge about particular people, organizations, cultural products, or technical subjects.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "In the interest of leading by example, Premier League cult icon Pascal Chimbonda will come out of retirement to lead his team. And it may not be long",
+      "normalized_activation": 9.50214672088623,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Nkpenne in Nsit Atai Local Government Area of Akwa Ibom State has a population of about 1,500 people in about",
+      "normalized_activation": 8.528594017028809,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u00fdmi senzory pracuj\u00edc\u00edmi se \u0161iroko\u00fahlou Schmidtovou kamerou. Jedn\u00e1 se o syst\u00e9m v\u010d",
+      "normalized_activation": 7.438947677612305,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "L\u00fcleburgaz il\u00e7esinde huzurevinde kalan ya\u015f",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Rebeca Henr\u00edquez @RebeHenriquez El Ministerio",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

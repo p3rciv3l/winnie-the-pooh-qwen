@@ -1,8 +1,8 @@
 {
   "neuron_id": "35_12057",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:01:12Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to dense factual reporting characteristic of news articles, wire services, and official statements (such as financial updates with percentages, conflict reports with specific locations, scientific announcements, or political developments with named entities).\n\n2. **Domain coverage**: The neuron activates across multiple languages (including English, French, Arabic, Romanian, Russian, Turkish, and others) and spans topics like finance, politics, natural disasters, sports, health, and international affairs. It consistently fires on text that resembles excerpts from news agency reports, formal announcements, or detailed factual accounts, often containing numerical data, dates, monetary figures, and proper nouns.\n\n3. **Contrast with low-activation examples**: High-activation texts are typically mid-paragraph excerpts with specific details (e.g., “$187 million,” “Oct. 1,” “UNHCR,” “Houthi boats”), while low-activation examples are often truncated sentences, headlines, casual commentary, or lack dense factual content—even when they touch on news topics, they are shorter, more generic, or incomplete.\n\n4. **Closing interpretation**: The neuron functions as a multilingual detector of formal, informative prose, likely identifying text that conveys specific factual information in a news-like or reportorial style.",
+  "generated_at": "2026-02-23T05:06:27Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that are dense with specific, factual information presented in a formal or reportorial style (such as financial statistics with percentages and dates, political or conflict reports, scientific mission updates, or official statements from organizations).\n\n2. **Domain coverage**: The pattern appears across a wide range of languages—including English, French, Arabic, Chinese, Czech, Romanian, German, Russian, Turkish, and Latvian—and spans domains like international news, economic data, political commentary, scientific endeavors, and crisis reporting. Examples often involve current events, detailed numerical data, proper nouns (e.g., names, places, agencies), and structured information typical of news articles, official transcripts, or analytical reports.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include concrete details such as numbers, dates, named entities, or event-specific descriptions, whereas low-activation examples are more general, introductory, or lack this informational density. For instance, low-activation segments like incomplete dates (\"Il 6 maggio 1976 alle ore 21.0\"), personal anecdotes (\"I wish I could count on one\"), or vague announcements (\"Pope to speak on Italy’s ‘demographic winter’\") omit the precise, data-rich content that triggers the neuron.\n\n4. **Closing interpretation**: The neuron detects linguistically complex and semantically specific content that conveys high informational value, likely serving to identify segments crucial for understanding real-world events or structured data in multilingual contexts.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Open Doors is hoping to have the former supermarket ready for guests by November 4. They still plan to host 40 guests per night. For those familiar with the former Red Front Supermarket layout, Ballew said about half of the sales floor and checkout will be where the guests sleep, which allows plenty of space to socially-distance.",
-          "reasoning": "This section contains specific dates, numerical figures, and detailed factual reporting characteristic of news articles."
+          "text": "Open Doors is hoping to have the former supermarket ready for guests by November 4. They still plan to host 40 guests per night.",
+          "concept": "shelter timeline",
+          "reasoning": "This section includes specific dates and numerical data, which are concrete details that trigger the neuron."
         },
         {
           "rank": 2,
-          "text": "Open Doors moving to former Red Front Supermarket for temporary shelter HARRISONBURG, Va. (WHSV) - What was once home to Red Front Supermarket in Harrisonburg for decades, will now be helping the city’s homeless.",
-          "reasoning": "The dateline, proper nouns, and formal announcement style match the neuron's pattern of news-like reporting."
+          "text": "For those familiar with the former Red Front Supermarket layout, Ballew said about half of the sales floor and checkout will be where the guests sleep, which allows plenty of space to socially-distance.",
+          "concept": "facility layout",
+          "reasoning": "It provides specific spatial details and named entities, matching the neuron's focus on informational density."
         },
         {
           "rank": 3,
-          "text": "Where the bank once stood will have tables set up for meals and downtime and the old meat department will be used, as well. “We’ll serve [meals] out of the area that was the meat department,\" Ballew said. \"That gave us a setup for some of the infrastructure that we needed for a kitchen and those kinds of things.”",
-          "reasoning": "This excerpt provides specific logistical details and a direct quote, resembling formal reportorial prose."
+          "text": "Over the next few days, Ballew said they are looking for volunteers to help load and unload shelter items, organize and sort supplies over the next few days to have the shelter ready by next week. This will be the shelter’s temporary location until the Open Doors season ends in April 2021.",
+          "concept": "operational plans",
+          "reasoning": "This part contains future dates and specific actions, aligning with the neuron's response to structured event reporting."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "O tym, że „Venom 3: Ostatni taniec” będzie ostatnią odsłoną historii Eddiego i jego kosmicznego towarzysza, mówiło się od dawna - Sony potwierdziło wielokrotnie, że nowy obraz będzie w istocie zamknięciem trylogii.",
-          "reasoning": "This opening statement announces factual news about a film release with corporate confirmation, matching the neuron's multilingual news detection."
+          "text": "Autorka scenariuszy do poprzednich części tym razem stanęła również za kamerą - jest to jej debiut. Wraz z nią nad produkcją pracował sam Tom Hardy, który portretuje głównego bohatera.",
+          "concept": "production roles",
+          "reasoning": "It lists specific names and roles in film production, which are factual details that activate the neuron."
         },
         {
           "rank": 2,
           "text": "W filmie poza Hardym wystąpili Chiwetel Ejiofor, Juno Temple, Rhys Ifans, Peggy Lu, Alanna Ubach i Stephen Graham.",
-          "reasoning": "The list of cast members provides specific named entities in a formal, informative style typical of entertainment reporting."
+          "concept": "cast list",
+          "reasoning": "This section is a dense list of actor names, providing concrete informational content."
         },
         {
           "rank": 3,
-          "text": "Później filmowe uniwersum Spider-Mana upadło i do tej pory nie może się podnieść - \"Morbius\" dwukrotnie poniósł box offisową porażkę, podobnie było z \"Madame Web\". Ta okazała się najniżej ocenianym filmem w historii uniwersum.",
-          "reasoning": "This section includes box office figures and critical assessments, offering dense factual content akin to industry news."
+          "text": "Dwie pierwsze części nie przypadły dziennikarzom do gustu, ale przyciągnęły widzów do kin. Później filmowe uniwersum Spider-Mana upadło i do tej pory nie może się podnieść - \"Morbius\" dwukrotnie poniósł box offisową porażkę, podobnie było z \"Madame Web\".",
+          "concept": "box office performance",
+          "reasoning": "It includes specific movie names and box office outcomes, which are numerical and factual data."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "2 كيلو دقيق مخبوزات للبسكويت. كيلو ونصف زبدة باردة بدرجة حرارة الثلاجة. 4 أكواب من السكر البودر. 10 بيضات. 2 ملعقة كبيرة ممسوحة من البيكنج بودر. 2 ملعقة كبيرة ممسوحة من النشادر. رشه ملح. نصف كوب من الحليب الدافئ. روح الموز أو اي روائح مفضلة.",
-          "reasoning": "This ingredient list contains precise numerical quantities and measurements, resembling formal instructional reporting."
+          "text": "مقادير البسكويت بالكيلو سنقدم لكي سيدتي مقادير البسكوت لعجن 2 كيلو من الدقيق ويمكن زيادة الكمية أو إنقاصها حسب الرغبة 2 كيلو دقيق مخبوزات للبسكويت. كيلو ونصف زبدة باردة بدرجة حرارة الثلاجة. 4 أكواب من السكر البودر. 10 بيضات.",
+          "concept": "recipe measurements",
+          "reasoning": "This section is dense with precise numerical measurements and ingredients, matching the neuron's pattern for factual density."
         },
         {
           "rank": 2,
-          "text": "تبحث العديد من السيدات عن مقادير البسكويت بالكيلو خاصة في جمهورية مصر العربية، حيث يتم إعداد بسكويت العيد بكميات كبيرة لتوزيعه على البنات المتزوجات والأهل والأحباب وكذلك تقديمه للضيوف في عيد الفطر المبارك، ويحب الشعب العربي تناول البسكويت مع الشاي أو الحليب كما يفضل البعض تناوله بجانب بعض أنواع المشروبات الأخرى، ومع قرب انتهاء شهر رمضان المبارك واقتراب العيد تقوم النساء في كل منزل بإعداد وتجهيز مقادير كحك العيد والبسكويت والبيتي فور والغريبة لصنع معجنات العيد لتكون جاهزة للتقديم يوم عيد الفطر، وتجد بعض السيدات في تجهيز المقادير المضبوطة حيث يعرضها البعض بالأكواب الأمر الذي يصعب عملية التجهيز، وفي السطور التالية نوضح المقادير المضبوطة لإعداد البسكويت في المنزل بالكيلو جرام.",
-          "reasoning": "This introductory paragraph provides contextual details about cultural practices and specific occasions, presented in a formal explanatory style."
+          "text": "2 ملعقة كبيرة ممسوحة من البيكنج بودر. 2 ملعقة كبيرة ممسوحة من النشادر. رشه ملح. نصف كوب من الحليب الدافئ. روح الموز أو اي روائح مفضلة.",
+          "concept": "ingredient quantities",
+          "reasoning": "It provides specific quantities and items, which are concrete details that trigger activation."
         },
         {
           "rank": 3,
           "text": "نقوم بخلط الدقيق جيداً مع البيكنج بودر والملح ويترك جانباً. يخلط النشادر مع الحليب الدافئ جيداً ويترك جانباً. باستخدام اليد يفرك السكر بالزبدة ويستمر الفرك حتى نحصل على قوام كريمي.",
-          "reasoning": "These step-by-step instructions offer detailed procedural information, matching the neuron's preference for dense factual content."
+          "concept": "preparation steps",
+          "reasoning": "This part includes detailed instructional steps, which are semantically specific and information-rich."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane.",
-          "reasoning": "This opening segment presents a news-like report with named individuals, scientific topics, and formal commentary."
+          "text": "Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%.",
+          "concept": "scientific percentages",
+          "reasoning": "It contains specific percentage data and scientific claims, which are factual and detailed."
         },
         {
           "rank": 2,
-          "text": "In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
-          "reasoning": "The section includes a direct quote, proper nouns, and political context, characteristic of factual news reporting."
+          "text": "Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.",
+          "concept": "event and names",
+          "reasoning": "This section mentions a specific climate conference and named individuals, providing concrete informational content."
         },
         {
           "rank": 3,
-          "text": "Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.",
-          "reasoning": "This excerpt discusses scientific concepts with specific terminology, resembling detailed analytical reporting."
+          "text": "In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
+          "concept": "political commentary",
+          "reasoning": "It includes named entities and specific claims, aligning with the neuron's focus on formal reportorial style."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing.",
-          "reasoning": "This wire service dateline and lead contain specific locations, timeframes, and formal announcement style, strongly matching the neuron's pattern."
+          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "legal charges",
+          "reasoning": "This section specifies the sentence length and charges, which are concrete factual details."
         },
         {
           "rank": 2,
-          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
-          "reasoning": "The section provides precise legal charges, temporal details, and named entities typical of international news reporting."
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
+          "concept": "prison conditions",
+          "reasoning": "It provides specific details about prison facilities and UN sanctions, matching the neuron's pattern for dense information."
         },
         {
           "rank": 3,
-          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
-          "reasoning": "This excerpt offers detailed factual comparisons and institutional references, characteristic of dense news analysis."
+          "text": "Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms.",
+          "concept": "arrest details",
+          "reasoning": "This part includes a specific date, location, and event, which are factual and event-specific."
         }
       ]
     }

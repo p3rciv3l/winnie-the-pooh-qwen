@@ -25,12 +25,13 @@ from urllib3.util.retry import Retry
 
 from clients.openrouter_client import get_model_client
 
+from activation_collector.config import NEURONS
+
 DEFAULT_MODEL = "deepseek-v3.2"
 DEFAULT_INPUT_DIR = Path("activation_outputs")
 DEFAULT_OUTPUT_DIR = Path("explanations")
 DEFAULT_SHARDS_DIR = Path("shards")
 
-PRELIM_NEURONS = ["0_13410", "0_513", "0_7130", "17_10853", "17_19561", "17_2410", "26_2988", "26_5372", "35_12057", "35_7539", "35_9748", "8_1495", "8_5224", "8_6770"]
 
 PROMPT_TEMPLATE = """\
 You are analyzing a neuron from a sparse autoencoder trained on a large language model. \
@@ -89,11 +90,11 @@ Respond with ONLY a JSON array. Each entry should contain:
 - "predictions": an array of exactly 3 objects, each with:
   - "rank": 1, 2, or 3 (1 = most confident)
   - "text": the exact verbatim ~33-token section from the example
-  - "concept": a single word or short phrase capturing WHY this section matches the neuron's pattern
+  - "concept": a single word or short phrase that represents what you think was the highest activating concept in this example
   - "reasoning": one sentence explaining why this section matches the neuron's pattern
 
 Example prediction object:
-{"rank": 1, "text": "...", "concept": "geopolitical", "reasoning": "..."}
+{{"rank": 1, "text": "...", "concept": "geopolitical", "reasoning": "..."}}
 
 Respond with only the JSON array, no other text.
 """
@@ -268,14 +269,15 @@ def explain_neuron(
     output_dir: Path,
     shards_dir: Path = DEFAULT_SHARDS_DIR,
     model: str = DEFAULT_MODEL,
+    explain_only: bool = False,
 ) -> Path:
     """
-    Explain a neuron and run simulation evaluation.
+    Explain a neuron and optionally run simulation evaluation.
 
     1. Sample 33 high / 22 low activation examples
     2. Hold out 3 high + 2 low for simulation
     3. Run explainer with remaining 30 high + 20 low
-    4. Run simulation: model predicts highest-activating sentences for holdouts
+    4. (Unless explain_only) Run simulation: model predicts highest-activating sentences for holdouts
     5. Save explanation + simulation results as JSON
     """
     topk_path = input_dir / f"{neuron_id}_topk.parquet"
@@ -347,17 +349,18 @@ def explain_neuron(
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
 
     # Step 2: Simulation (separate file)
-    holdout_rows = holdout_high + holdout_low
-    sim_path = simulate_neuron(
-        neuron_id=neuron_id,
-        explanation=explanation,
-        holdout_rows=holdout_rows,
-        shards_dir=shards_dir,
-        output_dir=output_dir,
-        model=model,
-    )
+    if not explain_only:
+        holdout_rows = holdout_high + holdout_low
+        sim_path = simulate_neuron(
+            neuron_id=neuron_id,
+            explanation=explanation,
+            holdout_rows=holdout_rows,
+            shards_dir=shards_dir,
+            output_dir=output_dir,
+            model=model,
+        )
+        print(f"[{neuron_id}] simulation -> {sim_path}")
 
-    print(f"[{neuron_id}] simulation -> {sim_path}")
     return output_path
 
 
@@ -369,34 +372,42 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Explain neurons and run simulation evaluation"
     )
-    parser.add_argument(
-        "--neuron",
-        required=True,
-        help="Neuron ID(s), e.g. '0_42' or '0_42,17_2410'",
-    )
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL)
     parser.add_argument("--max-workers", type=int, default=10)
+    parser.add_argument(
+        "--explain-only",
+        action="store_true",
+        help="Skip the simulation step; only generate and save explanations.",
+    )
+    parser.add_argument(
+        "--neurons",
+        nargs="+",
+        metavar="NEURON_ID",
+        help="Neuron IDs to process (e.g. 0_2516 0_268). Defaults to all neurons in config.",
+    )
     args = parser.parse_args()
 
-    neuron_ids = [n.strip() for n in args.neuron.split(",") if n.strip()]
+    neuron_ids = args.neurons if args.neurons else NEURONS
+
+    mode = "explaining" if args.explain_only else "explaining + simulating"
 
     if len(neuron_ids) == 1:
         nid = neuron_ids[0]
-        print(f"[{nid}] explaining + simulating...")
+        print(f"[{nid}] {mode}...")
         try:
-            out = explain_neuron(nid, args.input_dir, args.output_dir, args.shards_dir, args.model)
+            out = explain_neuron(nid, args.input_dir, args.output_dir, args.shards_dir, args.model, args.explain_only)
             print(f"[{nid}] done -> {out}")
         except Exception as exc:
             print(f"[{nid}] ERROR: {exc}")
     else:
         workers = min(args.max_workers, len(neuron_ids))
-        print(f"Explaining + simulating {len(neuron_ids)} neurons with {workers} threads")
+        print(f"{mode.capitalize()} {len(neuron_ids)} neurons with {workers} threads")
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = {
-                executor.submit(explain_neuron, nid, args.input_dir, args.output_dir, args.shards_dir, args.model): nid
+                executor.submit(explain_neuron, nid, args.input_dir, args.output_dir, args.shards_dir, args.model, args.explain_only): nid
                 for nid in neuron_ids
             }
             for future in futures:

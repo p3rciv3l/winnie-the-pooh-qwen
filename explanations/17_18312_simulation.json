@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_18312",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:34:35Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that present **claims, allegations, or contextual explanations of events** (such as allegations of framing, disputed origins of a crisis, descriptions of historical causes, or explanations of how something formed or occurred).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Romanian, Polish) and spans domains including political accusations, historical narratives, scientific or geological explanations, media reports, legal/financial descriptions, and disputed origins (e.g., of a pandemic, a conflict, or a natural feature). It activates on text that provides reasoning, background, or contested accounts.\n\n3. **Contrast with low-activation examples**: The low-activation texts are mostly straightforward announcements, event descriptions, promotional content, or simple factual statements without layered claims, explanatory context, or allegations. They lack the narrative framing, causal explanations, or disputed accounts present in high-activation examples (e.g., “PSA: You Can Get Sorel Boots for Nearly 70% Off” vs. “allege he was framed in order to punish him for his human rights work”).\n\n4. **Closing interpretation**: The neuron detects semantic contexts where information is presented as a claim, explanation, or contested narrative—often involving causality, dispute, or detailed background—rather than neutral, declarative, or purely informational statements.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 1872,
+      "normalized": 9.515137672424316,
+      "actual_text": "red) hace un llamado a no caer en rumores, ni noticias falsas y solo informarse en fuentes oficiales, como las autoridades",
+      "plain_text": "Un sismo se registró en Cd Hidalgo a las 20:09 hora local (2:09 UTC) de hoy, con una magnitud de 4.0 y una profundidad de 25 kilómetros. Según información preliminar del Servicio Sismológico Nacional (SSN), el epicentro del movimiento telúrico se ubicó 138 km al sur de la ciudad, en el estado de Chiapas. Ante una actividad sísmica de importancia, el Centro Nacional de Prevención de Desastres (Cenapred) hace un llamado a no caer en rumores, ni noticias falsas y solo informarse en fuentes oficiales, como las autoridades de Protección Civil, tanto locales y estatales, así como federales. Tras un terremoto, revisa tu hogar en búsqueda de posibles daños, utiliza tu teléfono solo en caso de emergencia, no prendas cerillos o velas hasta asegurarte que no hay alguna fuga de gas y recuerda que se pueden presentar réplicas del sismo, por lo que es importante mantenerte alerta. También puedes seguir las siguientes medidas antes de un sismo: alista un plan de protección civil, participa en simulacros de evacuación, encuentra las zonas de seguridad en casa, escuela o lugar de trabajo y prepara una mochila de emergencia. México se encuentra en una zona de alta actividad geológica, que lo expone al riesgo constante de sufrir terremotos. Prueba de lo anterior fueron los sismos de 1985 y 2017, que causaron grandes daños, sin embargo, no han sido los de mayor magnitud en la historia del país, pese a ser de los más presentes en la memoria tanto de nacionales como de extranjeros. El 28 de marzo de 1787 aconteció el terremoto más fuerte registrado en el país. Oaxaca, entonces punto central de la colonia española, fue víctima de un movimiento de 8.6. Aquel evento fue tan impetuoso que le siguió un tsunami que alcanzó los 6 kilómetros tierra adentro. Según un estudio del Centro de Instrumentación y Registro Sísmico (Cires) realizado en 2009 sobre el sismo del 28 de marzo de 1787, grandes terremotos con magnitudes de 8.6 o mayores podrían ocurrir en los próximos años. Estos tendrán como epicentro las costas de México y Centroamérica, por estar ubicados en la Brecha de Guerrero que acumula una gran cantidad de energía. No obstante, eventos sísmicos de magnitudes inferiores pueden también provocar gran destrucción. Durante 1985 y 2017, los mexicanos vieron con estupor cómo la capital del país se sumía en el caos a causa de dos terremoto de una intensidad menor al de 1787. El del 19 de septiembre de 1985 ocurrió a las 7:19 horas locales (13:19 UTC) con una magnitud de 8.2 y con epicentro en el estado de Guerrero. Desde ese terremoto muchos pensaron que algo así no se repetiría. Pero ocurrió de nuevo 32 años exactos después. El de 2017 se dio entre los estados de Puebla y Morelos a las 13:14 hora local (18:30 UTC). El saldo de víctimas humanas alcanzó las 369 muertes.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Según un estudio del Centro de Instrumentación y Registro Sísmico (Cires) realizado en 2009 sobre el sismo del 28 de marzo de 1787, grandes terremotos con magnitudes de 8.6 o mayores podrían ocurrir en los próximos años. Estos tendrán como epicentro las costas de México y Centroamérica, por estar ubicados en la Brecha de Guerrero que acumula una gran cantidad de energía.",
+          "concept": "seismic prediction",
+          "reasoning": "This section presents a claim about future earthquakes based on a scientific study, matching the neuron's focus on explanatory claims."
+        },
+        {
+          "rank": 2,
+          "text": "México se encuentra en una zona de alta actividad geológica, que lo expone al riesgo constante de sufrir terremotos. Prueba de lo anterior fueron los sismos de 1985 y 2017, que causaron grandes daños, sin embargo, no han sido los de mayor magnitud en la historia del país, pese a ser de los más presentes en la memoria tanto de nacionales como de extranjeros.",
+          "concept": "geological risk explanation",
+          "reasoning": "This explains why Mexico is at constant risk of earthquakes, providing causal background and historical context."
+        },
+        {
+          "rank": 3,
+          "text": "El 28 de marzo de 1787 aconteció el terremoto más fuerte registrado en el país. Oaxaca, entonces punto central de la colonia española, fue víctima de un movimiento de 8.6. Aquel evento fue tan impetuoso que le siguió un tsunami que alcanzó los 6 kilómetros tierra adentro.",
+          "concept": "historical earthquake narrative",
+          "reasoning": "This describes a past earthquake and its tsunami, providing historical context and consequences."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 2732,
+      "normalized": 8.710885047912598,
+      "actual_text": "8. The Golden Gage Bridge didn’t exist at the time of the earthquake – construction would begin 27 years later. As for the State Capitol in",
+      "plain_text": "(KTXL) — Millions of tourists flock to California each year to visit the Golden Gate Bridge, Hollywood Sign and other attractions, but when the next massive earthquake happens which landmarks are located in the most vulnerable sites?  When it comes to the risk of damage, Don Drysdale from the Department of Conservation and California Geological Survey highlighted the following factors:  •How close the earthquake is centered to a landmark  •How large the earthquake is  •How well-built the structure is  •What the underlying soil conditions are like  Are California landmarks located near fault lines?  Some of California’s long-standing landmarks – including the Griffith Observatory, the Hollywood Sign and the Golden Gate Bridge – are more at risk than others.  According to Drysdale, the Griffith Observatory in Los Angeles is north of the Hollywood Fault, as is the iconic Hollywood sign. The Hollywood Fault is capable of generating an earthquake with a magnitude of 7, Drysdale said.  The Hollywood Sign is also considered part of a CGS Seismic Hazard Zone because of its hillside location in an area prone to earthquake-induced landslides. The CGS Seismic Hazard Zones are areas that are especially prone to “earthquake hazards of liquefaction (failure of water-saturated soil), earthquake-induced landslides and amplified ground shaking.”  The Golden Gate Bridge in San Francisco is located seven miles west of its own major fault line – the San Andreas, which caused the massive 1906 earthquake. The deadly quake, with the epicenter two miles west of San Francisco, registered a magnitude of 7.8. The Golden Gage Bridge didn’t exist at the time of the earthquake – construction would begin 27 years later.  As for the State Capitol in Sacramento, it’s not near any known faults, as the Hayward Fault, which runs north to south along the East Bay, is the closest to California’s capital city.  Are any California stadiums at risk of an earthquake?  The 1989 Loma Prieta quake temporarily halted the World Series between the San Francisco Giants and the Oakland Athletics. The earthquake struck before Game 3 at Candlestick Park, the former home of the Giants and San Francisco 49ers.  “In the 1989 Loma Prieta Earthquake, centered much closer to Santa Cruz than to San Francisco; a portion of the Bay Bridge collapsed,” Drysdale wrote in an email to Nexstar’s KTXL. “That was a magnitude 6.9 quake, certainly powerful, but not the largest expected on the San Andreas Fault.”  According to the Department of Conservation, the earthquake took the lives of 63 people, 3,757 more people were reported injured and 12,053 more were displaced. The Bay Bridge was unusable for a month; 18,306 houses were damaged and 963 were destroyed.  The 1989 World Series series resumed on Oct. 27. The original east span of the Bay Bridge that was damaged in the quake was repaired, but was replaced for seismic safety. The replacement was completed on Sept. 2, 2013, according to the Metropolitan Transportation Commission in the San Francisco Bay Area.  The Giants’ current stadium, Oracle Park, is just a few miles from where Candlestick Park once stood.  “Across the Bay, the Hayward Fault runs under Memorial Stadium in UC Berkeley, same for the Chase Center, where the Warriors play,” Drysdale said. “The Oakland Coliseum and Levi’s Stadium in Santa Clara are just west of the Hayward Fault.”  Stadiums in Southern California are also located either under or near fault lines. In Los Angeles, the Elysian Park Fault is under Dodger Stadium and the Memorial Coliseum is close to the Puente Hills Fault, Drysdale said.  The Rose Bowl is a little north of the Verdugo Fault while SoFi Stadium is west of the Newport-Inglewood Fault, according to Drysdale.  What happens if a massive quake hits California?  The San Andreas Fault poses a threat in the northern and southern portions of California. Experts say a 7.8 earthquake in Southern California could have a death toll among the worst for a natural disaster in the U.S. at 1,800, according to a 2008 projection.  About 50,000 people could be injured as the main freeways to Las Vegas and Phoenix that cross the San Andreas fault would be destroyed, according to the study from the United States Geological Survey.  In Northern California, the San Andreas fault produced the 1906 earthquake in San Francisco that killed an estimated 3,000 people and displaced 225,000 more. That earthquake is the second-largest recorded in the state at a magnitude of 7.8, according to the Department of Conservation.  “These numbers are as low as they are because of aggressive retrofitting programs that have increased the seismic resistance of buildings, highways and lifelines, and economic resiliency,” scientists noted in 2008. “These numbers are as large as they are because much more retrofitting could still be done.”  The largest recorded in California was in Fort Tejon on Jan. 9, 1857 with a magnitude of 7.9. That earthquake also occurred on the San Andreas Fault.  The East Bay is also at risk of a large earthquake with the Hayward Fault, which is 52 miles and centered below Oakland.  According to a 2018 report from the U.S. Geological Survey, at least 800 people could be killed and 18,000 more could be injured in a magnitude 7 earthquake along the fault. A quake of that magnitude could also cause a fire, potentially killing hundreds more people and burning the equivalent of 52,000 single-family homes.  The magnitude of an earthquake is expressed in whole numbers and decimal fractions and the sizes vary. A magnitude 5.3 earthquake is considered moderate, while 6.3 is a strong earthquake, according to the USGS.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Experts say a 7.8 earthquake in Southern California could have a death toll among the worst for a natural disaster in the U.S. at 1,800, according to a 2008 projection. About 50,000 people could be injured as the main freeways to Las Vegas and Phoenix that cross the San Andreas fault would be destroyed, according to the study from the United States Geological Survey.",
+          "concept": "earthquake damage prediction",
+          "reasoning": "This section presents a claim about potential death toll and destruction from a future earthquake, matching the neuron's focus on predictions and explanations of events."
+        },
+        {
+          "rank": 2,
+          "text": "According to Drysdale, the Griffith Observatory in Los Angeles is north of the Hollywood Fault, as is the iconic Hollywood sign. The Hollywood Fault is capable of generating an earthquake with a magnitude of 7, Drysdale said. The Hollywood Sign is also considered part of a CGS Seismic Hazard Zone because of its hillside location in an area prone to earthquake-induced landslides.",
+          "concept": "fault capability claim",
+          "reasoning": "This section claims that a specific fault is capable of generating a magnitude 7 earthquake, providing an explanatory assessment of risk."
+        },
+        {
+          "rank": 3,
+          "text": "When it comes to the risk of damage, Don Drysdale from the Department of Conservation and California Geological Survey highlighted the following factors: •How close the earthquake is centered to a landmark •How large the earthquake is •How well-built the structure is •What the underlying soil conditions are like",
+          "concept": "risk factors explanation",
+          "reasoning": "This section lists factors that determine earthquake damage risk, providing a causal explanation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 1690,
+      "normalized": 7.983572483062744,
+      "actual_text": "against the CFI in connection with PFI and termed them \"baseless and fabricated\". \"At the same time, we reject all the allegations against the Campus Front",
+      "plain_text": "Kochi (Kerala) [India], September 29 (ANI): The Campus Front of India, the student wing of Popular Front of India has termed as \"undemocratic and anti-constitutional\", the ban on it and said it will challenge the move by the government in the court. The CFI, however, added that it is stopping all activities in accordance with the law and asked the \"students\" associated with the outfit to \"not conduct any programme or activity in the name of the organisation\". The Ministry of Home Affairs (MHA) had issued a notification late on Tuesday night, declaring \"the PFI and its associates or affiliates or fronts as an unlawful association with immediate effect\". Along with PFI, the ban is also imposed on its fronts including Rehab India Foundation (RIF). Campus Front of India (CFI), All India Imams Council (AIIC), National Confederation of Human Rights Organization (NCHRO), National Women's Front, Junior Front, Empower India Foundation and Rehab Foundation, Kerala as an \"unlawful association\". Issuing a statement against the ban, CFI tweeted on Wednesday, \"Ban on Campus Front is Undemocratic and Anti-Constitutional; will be challenged in court. Stopped Activities in Accordance with Law\". Claiming that it works for the students with a \"vision of building socially concerned and responsible youths with secular and democratic spirit\", CFI said that it has \"succeeded in achieving it to an extent\". \"Many educated youths who were part of the organisation have now been active in the various spheres of social activities. CFI has maintained constitutional and democratic values and not promoted activities against our law,\" it said. \"Hence, as an organisation that, in accordance with the law, concede the ban order by the MHA and will be stopping all activities of the organisation in India with immediate effect,\" CFI added. It rejected the allegations against the CFI in connection with PFI and termed them \"baseless and fabricated\". \"At the same time, we reject all the allegations against the Campus Front in connection with PFI as baseless and fabricated. It will be challenged in court after discussion with legal experts by the concerned persons,\" it said. The outfit said that it is \"not responsible\" for using the name or banner of the organisation for any programme or activity or social media posts and comments. Meanwhile, in the notification issued by the MHA, it clearly mentioned that the ban has been imposed against PFI and its associates or affiliates or fronts for \"indulging in unlawful activities, which are prejudicial to the integrity, sovereignty and security of the country and have the potential of disturbing public peace and communal harmony of the country and supporting militancy in the country. \"In exercise of the powers conferred by sub-section (1) of section 3 of the Unlawful Activities (Prevention) Act. 1967 (37 of 1967), the Central Government hereby declares the Popular Front of India (PFI) and its associates or affiliates or fronts including Rehab India Foundation (RIF). Campus Front of India (CFI), All India Imams Council (AIIC), National Confederation of Human Rights Organization (NCHRO), National Women's Front, Junior Front, Empower India Foundation and Rehab Foundation, Kerala as an 'unlawful association',\" reads the notification. \"The Central Government hereby directs that this notification shall, subject to any order that may be made under section 4 of the UAPA have effect for a period of five years from the date of its publication in the Office.\" The Centre issued the ban citing the investigation of its agencies, mentioning \"the investigations have established clear linkages between PFI and its associates or affiliates or fronts\". (ANI) Ban on PFI: Campus Front of India says will challenge \"anti-constitutional\" move in court  ANI | Updated: Sep 29, 2022 12:19 IST",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Campus Front of India, the student wing of Popular Front of India has termed as 'undemocratic and anti-constitutional', the ban on it and said it will challenge the move by the government in the court.",
+          "concept": "political allegation",
+          "reasoning": "This section presents CFI's claim that the ban is undemocratic and anti-constitutional, matching the neuron's focus on contested claims and allegations."
+        },
+        {
+          "rank": 2,
+          "text": "In the notification issued by the MHA, it clearly mentioned that the ban has been imposed against PFI and its associates or affiliates or fronts for 'indulging in unlawful activities, which are prejudicial to the integrity, sovereignty and security of the country and have the potential of disturbing public peace and communal harmony of the country and supporting militancy in the country.",
+          "concept": "government allegation",
+          "reasoning": "This section presents the government's allegations of unlawful activities, providing a contested narrative."
+        },
+        {
+          "rank": 3,
+          "text": "It rejected the allegations against the CFI in connection with PFI and termed them 'baseless and fabricated'. 'At the same time, we reject all the allegations against the Campus Front in connection with PFI as baseless and fabricated. It will be challenged in court after discussion with legal experts by the concerned persons,' it said.",
+          "concept": "denial of allegations",
+          "reasoning": "This section rejects allegations as baseless, contributing to a disputed account."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1846,
+      "normalized": 0.0,
+      "actual_text": "Messa in sicurezza ed efficientamento energetico. Un milione di",
+      "plain_text": "Messa in sicurezza ed efficientamento energetico. Un milione di euro per le scuole di Macomer, con interventi già conclusi, altri in atto e altri che stanno per iniziare. Proprio in questi giorni sono stati aperti i cantieri per l'adeguamento statico e sismico della scuola media di via Ariosto, al centro della cittadina. Interventi avviati dall'amministrazione comunale che riguardano le scuole dell'infanzia, le elementari e le medie. «Abbiamo sempre lavorato affinché si avessero scuole accoglienti, edifici sicuri ed efficienti - dice l'assessora ai lavori pubblici, Filomena Colleo - procediamo, cantiere dopo cantiere, a riportare gli edifici scolastici agli antichi splendori, muniti soprattutto di impianti per l'efficientamento energetico». Sono stati portati a termine gli interventi nelle scuole di Padru 'e Lampadas, nelle scuole di Sertinu, dove è stata rifatta la copertura della palestra, frequentata da diverse associazioni sportive. Interventi sono in atto e in parte conclusi anche nelle scuole dell'infanzia di Sa Corte e in quelle di via Lussu. «Resta ancora tanto da fare - dice l'assessora - Speriamo però di ottenere nuovi finanziamenti regionali, che ci consentiranno di accedere ai fondi del Pnrr. Lavoreremo fino alla scadenza del mandato, per cercare di rendere sempre più accoglienti e sicure le nostre scuole e far star bene i nostri bambini e i nostri ragazzi».",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "«Abbiamo sempre lavorato affinché si avessero scuole accoglienti, edifici sicuri ed efficienti - dice l'assessora ai lavori pubblici, Filomena Colleo - procediamo, cantiere dopo cantiere, a riportare gli edifici scolastici agli antichi splendori, muniti soprattutto di impianti per l'efficientamento energetico».",
+          "concept": "policy explanation",
+          "reasoning": "This section explains the reasoning behind the school renovation projects, matching the neuron's focus on explanatory context."
+        },
+        {
+          "rank": 2,
+          "text": "«Resta ancora tanto da fare - dice l'assessora - Speriamo però di ottenere nuovi finanziamenti regionali, che ci consentiranno di accedere ai fondi del Pnrr. Lavoreremo fino alla scadenza del mandato, per cercare di rendere sempre più accoglienti e sicure le nostre scuole e far star bene i nostri bambini e i nostri ragazzi».",
+          "concept": "future plans explanation",
+          "reasoning": "This section provides an explanation of future funding and goals, offering a narrative of ongoing efforts."
+        },
+        {
+          "rank": 3,
+          "text": "Messa in sicurezza ed efficientamento energetico. Un milione di euro per le scuole di Macomer, con interventi già conclusi, altri in atto e altri che stanno per iniziare.",
+          "concept": "project announcement",
+          "reasoning": "This section announces the project and its scope, providing contextual information about the initiatives."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1964,
+      "normalized": 0.0,
+      "actual_text": "Det kommer fram i en bok som Rognlien presenterte tirsdag.",
+      "plain_text": "Det kommer fram i en bok som Rognlien presenterte tirsdag. På en pressekonferanse utdypet han:  – Jeg møtte det svenske idrettsforbundet i november 2011 og spurte dem om de ville søke OL i 2022, for i så fall ville vi støtte dem. Etter som de ikke ville det, satset vi på vår egen OL-prosess.  – Jeg mener fortsatt at vi bør spørre Sverige om de vil ha OL også denne gang, i 2026, sier Børre Rognlien.  Les også: Dette er Telemarks OL-planer  – Hvorfor?  – Jeg mener vi bør støtte Sverige som aldri har hatt vinter-OL og som oppfyller de samme kravene som Norge.  Med «de samme kravene» mener Rognlien faktorer som snø, tilskuerinteresse, arbeidstakerrettigheter, miljøhensyn og lignende.  – Så jeg vil anbefale at vi gjør det samme nå som vi gjorde da jeg satt som idrettspresident i 2011. Jeg mener dette er en bedre løsning enn en ny norsk diskusjon nå.  Fikk du med deg? Kaller Telemarks OL-plan «det dummeste jeg har hørt i år»  I boken «Jeg var i rommet» skriver Rognlien at den daværende svenske idrettspresidenten Karin Mattson Weijber i 2011 svarte at tiden var for knapp for Sverige til noen 2022-søknad. «Karin ønsket Norge lykke til», fortsetter Børre Rognlien.  At det likevel senere kom et svensk OL-initiativ senere, forklarer han med at idrettens organisasjon er delt i Sverige og at det nye alternativet kom gjennom Sverige Olympiske komité.  Leker uten kamerater: Kommentar om IOCs utfordring med få søkere  Stockholm har lagt fram planer om en mulig OL-søknad til 2026. Svenskene tror ikke et OL på hjemmebane vil belaste statskassen noe særlig, og regner med et IOC-tilskudd på syv milliarder kroner. Hopping og kombinert er tenkt lagt til Falun, mens alpint vil foregå i Åre.  Flere steder i Norge har lansert OL-planer. Sist ute er Telemark, som tirsdag fortalte at de vil ha et bærekraftig OL, og ser for seg å samarbeide med andre fylker. Planene ble presentert i storslåtte omgivelser på Gaustatoppen, og med et sterkt fokus på Sondre Norheim, den moderne skisportens far.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "– Jeg møtte det svenske idrettsforbundet i november 2011 og spurte dem om de ville søke OL i 2022, for i så fall ville vi støtte dem. Etter som de ikke ville det, satset vi på vår egen OL-prosess. – Jeg mener fortsatt at vi bør spørre Sverige om de vil ha OL også denne gang, i 2026, sier Børre Rognlien.",
+          "concept": "Olympic bid claim",
+          "reasoning": "This section presents a claim about past actions and a recommendation for future Olympic bids, matching the neuron's focus on contested narratives and proposals."
+        },
+        {
+          "rank": 2,
+          "text": "Stockholm har lagt fram planer om en mulig OL-søknad til 2026. Svenskene tror ikke et OL på hjemmebane vil belaste statskassen noe særlig, og regner med et IOC-tilskudd på syv milliarder kroner.",
+          "concept": "financial belief claim",
+          "reasoning": "This section presents a claim about Swedish beliefs regarding Olympic costs, providing an explanatory account of their plans."
+        },
+        {
+          "rank": 3,
+          "text": "Med «de samme kravene» mener Rognlien faktorer som snø, tilskuerinteresse, arbeidstakerrettigheter, miljøhensyn og lignende. – Så jeg vil anbefale at vi gjør det samme nå som vi gjorde da jeg satt som idrettspresident i 2011. Jeg mener dette er en bedre løsning enn en ny norsk diskusjon nå.",
+          "concept": "criteria explanation",
+          "reasoning": "This section explains the criteria for Olympic bids and recommends a course of action, offering explanatory context."
+        }
+      ]
+    }
+  ]
+}

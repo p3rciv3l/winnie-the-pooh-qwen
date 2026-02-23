@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_10480",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text truncation or abrupt syntactic breaks** (such as cut-off clauses in multilingual news snippets, incomplete subordinate clauses, or text that ends mid-phrase).\n\n2. **Domain coverage**: The pattern appears across diverse languages (Czech, Spanish, Romanian, Arabic, Polish, Norwegian, Italian, German, etc.) and topics (disaster reports, business news, sports summaries, cultural descriptions). It activates on text segments that read as if extracted from longer sentences, often stopping at commas, prepositions, or mid-modifier phrases, regardless of the specific subject matter.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically complete, self-contained sentences or short headlines that form a coherent thought. They lack the abrupt, grammatically incomplete cut-off characteristic of the high-activation group. The low examples are syntactically whole, even when they are brief news leads.\n\n4. **Closing interpretation**: This neuron likely detects a data artifact\u2014specifically, text fragments that result from extraction or chunking processes in the training corpus. Its function is less about semantic content and more about identifying incomplete syntactic structures that may require the model to handle missing subsequent context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "an de manera \u00fanica para cuatro signos zodiacales en particular. Enero trae consigo una energ\u00eda especial que impulsa a estos signos hacia la",
+      "normalized_activation": 9.705850601196289,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3656,
+          "meaning_score": 0.635,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4002
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2369,
+          "meaning_score": 0.1874,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1697
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2533,
+          "meaning_score": 0.1591,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.165
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "zmieni\u0107. W 2001 r. Dennis Tito polecia\u0142 na pok\u0142ad Mi\u0119dzynarodowej Stacji Kosmic",
+      "normalized_activation": 9.081635475158691,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2314,
+          "meaning_score": 0.616,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.339
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2191,
+          "meaning_score": 0.5606,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3119
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2806,
+          "meaning_score": 0.4767,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.303
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u043e\u0432\u0435\u0442\u043d\u0438\u043a \u0433\u043b\u0430\u0432\u044b \u041e\u0444\u0438\u0441\u0430 \u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0423\u043a\u0440\u0430\u0438\u043d\u044b \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0430 \u0417\u0435\u043b\u0435\u043d\u0441\u043a\u043e\u0433\u043e \u041c\u0438\u0445\u0430\u0438\u043b \u041f\u043e\u0434\u043e\u043b\u044f\u043a \u043f\u0440\u043e\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043b \u043f\u0440\u0438",
+      "normalized_activation": 8.274495124816895,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1515,
+          "meaning_score": 0.5299,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4726
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.152,
+          "meaning_score": 0.29,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1768
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1875,
+          "meaning_score": 0.3807,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2272
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "More than 20 years ago, when Mar John Ecija, 26",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1732,
+          "meaning_score": 0.1553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1314
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2381,
+          "meaning_score": 0.3643,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2409
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2245,
+          "meaning_score": 0.1332,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1431
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Halloween is gonna be weird this year. This could be a good thing or a",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2043,
+          "meaning_score": 0.2945,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1995
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.204,
+          "meaning_score": 0.3191,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2092
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2186,
+          "meaning_score": 0.5476,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5065
+        }
+      ]
+    }
+  ]
+}

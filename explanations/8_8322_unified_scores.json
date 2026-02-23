@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_8322",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multilingual proper nouns, geographic references, or specific named entities** (such as \"Efab Estate, Lokogoma,\" \"Brian Corcoran,\" \"Marsu,\" \"Frida Hansdotter,\" or \"Nord Stream 1 and 2 pipelines\")...\n\n2. **Domain coverage**: The pattern appears across diverse languages (English, Turkish, Czech, Arabic, Greek, etc.) and contexts, including international news reports, disaster accounts, political/military actions, cultural references, and lists of people or places. The neuron activates on text that embeds specific names (people, locations, organizations, events) or technical/multilingual terms within a descriptive fragment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are often generic headlines, procedural statements, or broader policy descriptions (e.g., \"France deploys 7,000 extra security personnel,\" \"Forgot Username or Password\"). They lack the dense concentration of unique named entities or multilingual proper nouns present in the high-activation set. The high-activation examples are more linguistically \"cluttered\" with specific identifiers.\n\n4. **Closing interpretation**: This neuron likely detects **information-dense textual fragments anchored by concrete, named real-world references**. It acts as a \"specificity detector,\" firing when text moves from general statements to enumerating particular people, places, or culturally grounded terms.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "I dag arbetar ett par hundra personer f\u00f6r det svenska kungahuset. De \u00e4r handplockade, noga kontrollerade och har",
+      "normalized_activation": 8.982950210571289,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1382,
+          "meaning_score": 0.4474,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2342
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1411,
+          "meaning_score": 0.4217,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2251
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1566,
+          "meaning_score": 0.4468,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2413
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ino, mitad cocodrilo, mitad pez, que surcaba las aguas devorando la inmensidad. Se tratab",
+      "normalized_activation": 7.537741661071777,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0743,
+          "meaning_score": 0.2078,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1128
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.104,
+          "meaning_score": 0.4791,
+          "overlap_fraction": 0.8876,
+          "location_score": 0.1775,
+          "combined_score": 0.4108
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2226,
+          "meaning_score": 0.279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2006
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Se\u00f1ala que \"no toda la agricultura en el \u00e1rea de Huelva es una amenaza para el Parque Natural de Do\u00f1ana, sino la extr",
+      "normalized_activation": 6.136326789855957,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0951,
+          "meaning_score": 0.1903,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1142
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1655,
+          "meaning_score": 0.3561,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2087
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0983,
+          "meaning_score": 0.3928,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1964
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "You are here 6.5-magnitude earthquake rattles northern Australia [SY",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.144,
+          "meaning_score": 0.4488,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2371
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2786,
+          "meaning_score": 0.4354,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2856
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0959,
+          "meaning_score": 0.3243,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1681
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2059,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2958
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2338,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2106
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4344,
+          "meaning_score": 0.5265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3844
+        }
+      ]
+    }
+  ]
+}

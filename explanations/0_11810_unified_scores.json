@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_11810",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of royalty, high-status celebrities, and political leaders with formal titles** (such as \"Duchess,\" \"Prince,\" \"Queen,\" \"President,\" or \"Prime Minister\") often within gossip, news, or biographical contexts.\n\n2. **Domain coverage**: The pattern appears primarily in English-language tabloid or news discourse about British royalty (e.g., \"Duchess of Cambridge,\" \"Prince William\"), global celebrities and musicians (e.g., \"Cher,\" \"Prince,\" \"Michael Jackson\u2019s son Prince\"), and political leaders (e.g., \"Putin,\" \"Crown Prince Mohammed bin Salman\"). It also activates for related terms like \"throne,\" \"royal,\" and \"heir,\" and extends to some non-English text when similar titles or names appear (e.g., Russian text mentioning \"\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain proper nouns coupled with honorifics or titles denoting elevated social rank, fame, or political power. The low-activation examples lack these; they include technical, financial, sports, or generic news snippets without reference to high-status individuals (e.g., \"Ballard Power Systems,\" \"horror games,\" \"Executive Council meeting\").\n\n4. **Closing interpretation**: The neuron detects semantic contexts involving socially or politically prominent figures, acting as a \"high-status person or title\" detector. It focuses on named entities framed by prestige, authority, or celebrity, rather than the individuals alone.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "political leadership emerged on Sunday. It is seen as bolstering the power of Crown Prince Mohammed bin Salman. An anti-corruption body led by the crown prince,",
+      "normalized_activation": 8.469456672668457,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4558,
+          "meaning_score": 0.7506,
+          "overlap_fraction": 0.75,
+          "location_score": 0.15,
+          "combined_score": 0.6326
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2244,
+          "meaning_score": 0.4473,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2687
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4359,
+          "meaning_score": 0.3952,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3325
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "at first seems to be the start of a joke: Three Frenchmen \u2014 a prince, a count, and a celebrity gynecologist \u2014 head to London in",
+      "normalized_activation": 6.792790412902832,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5415,
+          "meaning_score": 0.8047,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5385
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.8194,
+          "meaning_score": 0.2895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4436
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2212,
+          "meaning_score": 0.2836,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2019
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "announcement and poster signing event before the Pelicans vs. Mavericks at the Smoothie King Center last week. \u201cThe New Orleans Mardi Gras Indians are woven into",
+      "normalized_activation": 4.810898303985596,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1684,
+          "meaning_score": 0.3183,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1947
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1925,
+          "meaning_score": 0.6011,
+          "overlap_fraction": 0.6832,
+          "location_score": 0.1366,
+          "combined_score": 0.4541
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1632,
+          "meaning_score": 0.4843,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.259
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "West Virginia environmental regulators have renewed a permit on which a mine cleanup violation has gone unab",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1724,
+          "meaning_score": 0.5915,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3056
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1736,
+          "meaning_score": 0.4173,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2364
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.139,
+          "meaning_score": 0.3418,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1923
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1732,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1928
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1245,
+          "meaning_score": 0.3297,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1817
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1915,
+          "meaning_score": 0.3247,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2065
+        }
+      ]
+    }
+  ]
+}

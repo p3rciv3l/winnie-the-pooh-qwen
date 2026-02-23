@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9056",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "**Opening statement**: This neuron strongly responds to text containing source citations, boilerplate disclaimers, or references to external media (such as \u201cView source version on businesswire.com\u201d, \u201cThis press release features multimedia\u201d, or legal case references like \u201cfederal court, representing a group of writers\u2026\u201d).\n\n**Domain coverage**: The pattern appears in press releases, news article footers, legal documents, and multilingual news snippets. Examples include URLs from businesswire.com, references to lawsuits, and text in various languages (English, Spanish, Italian, Danish, Polish, Armenian, Greek, etc.) that often accompany source attributions. The topics range from business announcements and legal actions to international events, but the common thread is the presence of meta-information rather than primary content.\n\n**Contrast with low-activation examples**: High-activation texts typically contain explicit source references (URLs, \u201cview source\u201d phrases), legal or formal boilerplate, or are fragments that appear to be from article metadata or syndication headers. Low-activation examples are straightforward news sentences or headlines (e.g., \u201cA mother accused of murder\u2026\u201d, \u201cDistrict of Columbia Attorney General\u2026\u201d) that lack such meta-information and are more self-contained narrative content.\n\n**Closing interpretation**: This neuron likely detects text that serves as attribution, citation, or boilerplate commonly found in syndicated content or press releases, focusing on meta-information rather than primary narrative content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Thunberg mocked as \u2018double-standard environmentalist,\u2019 \u2018puppet of Western politicians\u2019 for",
+      "normalized_activation": 8.875564575195312,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2659,
+          "meaning_score": 0.3138,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2319
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2514,
+          "meaning_score": 0.5911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.337
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2742,
+          "meaning_score": 0.2212,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1982
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "flee their homes. In 2020, the second Karabakh broke out, killing more than 6,500 people during a six",
+      "normalized_activation": 7.679701805114746,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1418,
+          "meaning_score": 0.3205,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1849
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1288,
+          "meaning_score": 0.307,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1743
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1218,
+          "meaning_score": 0.3184,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1761
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Crimea. Russia. Forever.\" Russia justified its 2014 annexation of Crimea and its ongoing support for rebels in east Ukraine by claiming ethnic Russians there",
+      "normalized_activation": 6.488667011260986,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1945,
+          "meaning_score": 0.3125,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2028
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2268,
+          "meaning_score": 0.5702,
+          "overlap_fraction": 0.1592,
+          "location_score": 0.0318,
+          "combined_score": 0.3506
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2178,
+          "meaning_score": 0.1251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1371
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.116,
+          "meaning_score": 0.3496,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1863
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1188,
+          "meaning_score": 0.3544,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1893
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1347,
+          "meaning_score": 0.3668,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2006
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2153,
+          "meaning_score": 0.7047,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.368
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.213,
+          "meaning_score": 0.8609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4296
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2679,
+          "meaning_score": 0.6516,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3678
+        }
+      ]
+    }
+  ]
+}

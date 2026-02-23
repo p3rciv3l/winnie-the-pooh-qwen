@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_11899",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing ordinal numbers, ranking phrases, or positional references** (such as \"11th-best,\" \"1st District,\" \"top 20,\" \"second largest,\" or explicit dates like \"August 1st\").\n\n2. **Domain coverage**: The pattern appears across diverse domains: city/global rankings, military or political hierarchies (e.g., \"Central Military Commission,\" \"EU sanctions list\"), legal or administrative orders (\"1st offense,\" \"deportation orders\"), and cultural or event rankings (\"less well-known meteor shower\"). It activates in multiple languages (English, Arabic, Tamil, Italian, Swedish) and scripts, indicating it detects the ordinal/ranking pattern irrespective of language.\n\n3. **Contrast with low-activation examples**: The low-activation texts discuss events, announcements, or general statements without ordinal positioning or explicit ranking (e.g., \"calls for an inquiry,\" \"filming damage,\" \"discusses booster jabs\"). They lack phrases like \"top X,\" \"first/second,\" or date-ordinal constructions (\"December 1st\") that consistently trigger the neuron.\n\n4. **Closing interpretation**: This neuron detects linguistic markers of ordinality, sequence, or relative position within a list or hierarchy. It abstracts away from specific topics to fire on the structural presence of ranking information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "in October rose on the first of the month and was one of the most well-known full moons of the year: The Harvest Moon. The Harvest Moon is the nickname",
+      "normalized_activation": 9.625916481018066,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2062,
+          "meaning_score": 0.4153,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2486
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2009,
+          "meaning_score": 0.8546,
+          "overlap_fraction": 0.7815,
+          "location_score": 0.1563,
+          "combined_score": 0.5785
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2055,
+          "meaning_score": 0.4316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "college professors. Somebody get me on TV to tell the truth about the fraudulent credentials conferred on educational administrators and how they abuse the system. Ian Kay Wingo Way Mount",
+      "normalized_activation": 8.686967849731445,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1459,
+          "meaning_score": 0.3218,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1871
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2473,
+          "meaning_score": 0.3375,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2339
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1958,
+          "meaning_score": 0.3702,
+          "overlap_fraction": 0.1016,
+          "location_score": 0.0203,
+          "combined_score": 0.2467
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "022 gradually resumed the globe-trotting that once defined China\u2019s best-known entrepreneur. He spent time in Tokyo and the Japanese countryside before making his way to",
+      "normalized_activation": 8.035308837890625,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2116,
+          "meaning_score": 0.5062,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2871
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2421,
+          "meaning_score": 0.6971,
+          "overlap_fraction": 0.5417,
+          "location_score": 0.1083,
+          "combined_score": 0.484
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2584,
+          "meaning_score": 0.4221,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2722
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "En 24-\u00e5rig kvinna som lider av sjukdomen endomet",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1057,
+          "meaning_score": 0.7167,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.529
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1526,
+          "meaning_score": 0.3859,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2154
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.175,
+          "meaning_score": 0.3792,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2217
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "6 tips para cuidar tu piel en el verano S\u00edguenos en Facebook",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2083,
+          "meaning_score": 0.4899,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2793
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0909,
+          "meaning_score": 0.4167,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.203
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.145,
+          "meaning_score": 0.5403,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2741
+        }
+      ]
+    }
+  ]
+}

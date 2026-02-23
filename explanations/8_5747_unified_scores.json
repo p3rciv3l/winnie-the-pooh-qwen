@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_5747",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that anchor a person, organization, or project to a specific geographic location or institutional base** (such as phrases like \"based in [City/Country],\" \"headquartered in,\" \"posted in,\" or explicit mentions of a person's role tied to a place).\n\n2. **Domain coverage**: The pattern appears across multiple domains (news, business, sports, advocacy) and languages (English, Spanish, Romanian, Russian, Greek, Bulgarian, etc.). It activates on mentions of journalists, companies, bands, officials, agencies, or events being explicitly linked to a city, region, country, or institution (e.g., \"reporter... based in Abuja,\" \"cybersecurity firm based in the UAE,\" \"freshman point guard... for North Carolina,\" \"Election Resource Centre, an advocacy organization based in Harare\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a \"X based in Y\" or \"X in Y\" anchoring construct, while the low-activation examples generally describe actions, events, or general statements without tying a core entity to a specific geographic or institutional base. The low examples may mention locations incidentally (e.g., \"Pittsburgh Shooter\") but not in the anchoring, relational phrase structure that this neuron detects.\n\n4. **Closing interpretation**: The neuron likely detects a semantic-syntactic pattern used to establish provenance, affiliation, or operational headquarters. It serves as a feature for grounding entities in a spatial or institutional context, which is a common and informative structure in factual reporting and descriptive text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "all products are eco-friendly, vegan and cruelty free. The business is based in a storage unit in Sunderland, but the scheme has proved to be a big success",
+      "normalized_activation": 9.408888816833496,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1689,
+          "meaning_score": 0.7105,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3518
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1889,
+          "meaning_score": 0.5902,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3116
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.235,
+          "meaning_score": 0.3213,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2225
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", cuando Salvador Ram\u00edrez, frente a la limitada oferta de comida a domicilio, se le ocurri\u00f3 emprender un negocio que ampliar\u00e1 la",
+      "normalized_activation": 8.213335037231445,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1713,
+          "meaning_score": 0.4185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2359
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1399,
+          "meaning_score": 0.4427,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2331
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2029,
+          "meaning_score": 0.2697,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1891
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u00e1 oslobodzovacia arm\u00e1da (ELN). Zadr\u017ean\u00ed pl\u00e1novali aj realizovali \u00fatok Duque oc",
+      "normalized_activation": 6.782687664031982,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1368,
+          "meaning_score": 0.6022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2886,
+          "meaning_score": 0.5681,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3427
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1763,
+          "meaning_score": 0.5021,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2714
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1855,
+          "meaning_score": 0.4553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2563
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1322,
+          "meaning_score": 0.3715,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2015
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1968,
+          "meaning_score": 0.4495,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2586
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1058,
+          "meaning_score": 0.3023,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1632
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.115,
+          "meaning_score": 0.5533,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2673
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1428,
+          "meaning_score": 0.2516,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1577
+        }
+      ]
+    }
+  ]
+}

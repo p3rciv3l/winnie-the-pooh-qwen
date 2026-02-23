@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_7395",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:45:15Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing conditional eligibility, targeted policies, or group-specific rules** (such as travel restrictions based on country categories, vaccine prioritization by age group, residency requirements for services, or eligibility criteria for financial offers).\n\n2. **Domain coverage**: The pattern appears across news and bureaucratic language covering public health directives, immigration procedures, municipal services, vaccination campaigns, financial promotions, and legal regulations. It is present in multiple languages (English, Spanish, Turkish, Italian) and consistently involves specifying who is included/excluded under a policy, often using phrases like “for residents,” “prioritize,” “available to,” “for anyone coming from,” or “category X and Y.”\n\n3. **Contrast with low-activation examples**: The high-activation texts explicitly define a rule that applies to a subset of people based on location, age, residency, status, or membership. The low-activation examples are general news headlines, celebrity events, natural phenomena, or personal anecdotes that lack any conditional framework or specification of a targeted group.\n\n4. **Closing interpretation**: The neuron detects semantic structures that delineate in-group versus out-group applicability within regulatory, administrative, or promotional contexts. It fires when text specifies that an action, service, or rule is conditional on belonging to a defined category.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 2397,
+      "normalized": 9.440021514892578,
+      "actual_text": "Kohl's: 30% off Kohl's coupon for Rewards members Saks Fifth Avenue: 20% off first order - S",
+      "plain_text": "JPMorgan Chase & Co. is trying again to transform U.S. healthcare, just months after ending a joint venture with Amazon . com Inc. and Berkshire Hathaway Inc. that was supposed to do the same.  The nation’s biggest bank is building a new unit that will work on health initiatives for its employees and invest $250 million in startups and technologies meant to make their healthcare more efficient and effective. The unit, dubbed Morgan Health, aims to create a model of employer-sponsored healthcare that results in better and more equitable care at a lower cost.  That is similar to the original goal for Haven, the venture that JPMorgan Chief Executive Officer Jamie Dimon launched with fellow CEOs Jeff Bezos and Warren Buffett to much fanfare in 2018.  Haven disbanded in February. The three companies struggled to create a system that worked for all of their hundreds of thousands of employees in different jobs across the U.S. A planned data-sharing effort that was meant to help lower costs ran into privacy barriers.  Mr. Dimon includes the healthcare system on his list of policy failures that he says are a drag on the U.S. economy. The bank covers the healthcare for about 285,000 employees and dependents in the U.S.  \n          Target: 20% off sitewide - Target Promo Code 2021 \n          Macy's: Extra 25% off Macy's coupon for your orders this summer \n          Kohl's: 30% off Kohl's coupon for Rewards members \n          Saks Fifth Avenue: 20% off first order - Saks Fifth Avenue coupon \n          Old Navy: Save 25% on Quilted Puffer Vest with Old Navy coupon \n          PrettyLittleThing: Save extra 20% on app orders using this PrettyLittleThing promo code",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mr. Dimon includes the healthcare system on his list of policy failures that he says are a drag on the U.S. economy. The bank covers the healthcare for about 285,000 employees and dependents in the U.S.",
+          "concept": "employee healthcare coverage",
+          "reasoning": "This explicitly states healthcare coverage for a specific group (employees and dependents), matching conditional eligibility based on group membership."
+        },
+        {
+          "rank": 2,
+          "text": "Kohl's: 30% off Kohl's coupon for Rewards members \n          Saks Fifth Avenue: 20% off first order - Saks Fifth Avenue coupon \n          Old Navy: Save 25% on Quilted Puffer Vest with Old Navy coupon",
+          "concept": "promotional eligibility",
+          "reasoning": "These offers have conditions like being a Rewards member or first-time customer, which are eligibility criteria for financial promotions."
+        },
+        {
+          "rank": 3,
+          "text": "The nation’s biggest bank is building a new unit that will work on health initiatives for its employees and invest $250 million in startups and technologies meant to make their healthcare more efficient and effective. The unit, dubbed Morgan Health, aims to create a model of employer-sponsored healthcare that results in better and more equitable care at a lower cost.",
+          "concept": "employer-sponsored healthcare",
+          "reasoning": "This describes healthcare initiatives targeted at employees, indicating a conditional framework where benefits are available to a specific group."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 1359,
+      "normalized": 8.372871398925781,
+      "actual_text": "un’interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilità del loro numero da Iliad",
+      "plain_text": "TIM Sound 50GB contro Iliad  TIM Sound 50GB è una nuova tariffa operator attack pensata per ingolosire i clienti Iliad: chiamate illimitate e 50 GB di Internet a 6,99 euro al mese.  , TIM prova ad ingolosire gli utenti di Iliad con la nuova tariffa operator attack TIM Sound 50GB. Trattasi di un’interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilità del loro numero da Iliad e da tutti gli operatori virtuali ad eccezione di Kena Mobile. Più nello specifico, questa tariffa prevede chiamate nazionali illimitati e ben 50 GB di traffico Internet 4G. Il tutto al prezzo molto allettante di 6,99 euro al mese. Previsto anche un costo di attivazione di 12 euro al posto dei canonici 32 euro. Lo sconto si applica, però, solamente se il cliente manterrà attiva la SIM per almeno 24 mesi. In caso di disdetta anticipata, TIM addebiterà i 20 euro scontati sul credito residuo del cliente. Il costo della SIM è di 10 euro. Nel caso di abbinamento di qualche smartphone a rate, il vincolo obbligatorio sale a 30 mesi. Il traffico voce può essere utilizzato liberamente in Unione Europea. Sono previsti, invece, dei limiti di traffico in modalità di roaming sempre all’interno dei Paesi europei.  TIM Sound 50GB non può essere attivata sul credito residuo e l’operatore prevede l’obbligo di attivazione dell’opzione TIM Ricarica Automatica che permetterà di addebitare automaticamente il costo del rinnovo sulla carta di credito. TIM Sound 50GB consente l’utilizzo della rete 4.5G con velocità sino a 700 Mbps laddove è presente la rete e se il cliente dispone di uno smartphone compatibile. TIM Sound 50GB prevede l’attivazione di default delle opzioni TIM In Viaggio Full e 1GB di Scorta. Tutte le nuove SIM dispongono del piano base TIM Base e Chat che prevede un costo di 2 euro al mese. Il piano base può essere in ogni momento cambiato con un piano privo di costi  La tariffa TIM Sound 50GB può essere attivata solamente nei punti vendita ufficiali dell’operatore.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "TIM prova ad ingolosire gli utenti di Iliad con la nuova tariffa operator attack TIM Sound 50GB. Trattasi di un’interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilità del loro numero da Iliad e da tutti gli operatori virtuali ad eccezione di Kena Mobile.",
+          "concept": "targeted offer",
+          "reasoning": "This specifies the offer is exclusively for new customers porting from Iliad and certain virtual operators, a clear conditional eligibility based on group membership."
+        },
+        {
+          "rank": 2,
+          "text": "Lo sconto si applica, però, solamente se il cliente manterrà attiva la SIM per almeno 24 mesi. In caso di disdetta anticipata, TIM addebiterà i 20 euro scontati sul credito residuo del cliente. Il costo della SIM è di 10 euro.",
+          "concept": "duration condition",
+          "reasoning": "This states the discount applies only if the SIM remains active for 24 months, a conditional rule based on customer behavior."
+        },
+        {
+          "rank": 3,
+          "text": "TIM Sound 50GB non può essere attivata sul credito residuo e l’operatore prevede l’obbligo di attivazione dell’opzione TIM Ricarica Automatica che permetterà di addebitare automaticamente il costo del rinnovo sulla carta di credito. TIM Sound 50GB consente l’utilizzo della rete 4.5G con velocità sino a 700 Mbps laddove è presente la rete e se il cliente dispone di uno smartphone compatibile.",
+          "concept": "automatic recharge obligation",
+          "reasoning": "This imposes a requirement for automatic recharge, a conditional eligibility criterion for activating the tariff."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00005",
+      "row_idx": 3427,
+      "normalized": 7.190447807312012,
+      "actual_text": "The Cloud Rewards System will help G7 CR offer reward points to all its existing clients that can be exchanged for a host of Proactive Cloud support services along with",
+      "plain_text": "Bangalore, 8th May 2021: G7CR Technologies one of the leading cloud service providers based out of Bangalore, today announced the distribution of reward points as part of the Cloud Rewards program for their existing Cloud Customers. The initiative comes at a time when SMEs, SMBs, start-ups, and even healthcare systems are relying on Cloud Technology to keep their businesses alive in the wake of the pandemic.  The Cloud Rewards System will help G7 CR offer reward points to all its existing clients that can be exchanged for a host of Proactive Cloud support services along with Business enablement services such as meeting Compliance & Statutory requirements on Cloud and building business profiles and many more services. The initiative will help organizations opt for transformative innovations and utilize Cloud services for a much wider approach. The Cloud Rewards program can be utilized by clients based on their Azure usage.  Cloud transformation in India has been happening at a rapid pace even earlier, however, the Covid-19 crisis has accelerated this transformation over the past year. The adoption and advances in technology have brought a modern Cloud environment to the forefront. According to a recent report, the public cloud market growth is expected to grow by 18.4 % in 2021 to a total of $304.9 billion, up from around $257.5 billion in 2020. The Cloud Rewards Program will offer the required skill sets and business enablement services that will aid the adoption of Cloud without investing in developing an internal Cloud practice.  As per data, small and medium enterprises are expected to contribute more than 29% of the $7.9 billion public cloud services market in India in 2024. With such a heavy contribution, companies also need incentives to keep them motivated to invest in the cloud market more than ever before.  Speaking on the occasion, Dr. Christopher Richard, MD & Chief Cloud Architect, G7CR Technologies India Pvt Ltd., said, “The pandemic has created disruption across businesses and cloud has played a major role in minimizing the impact of the same. The industry has seen the benefits of cloud usages and we want to pass on the benefits to our clients based on their Azure usage. These offers are designed to make our clients experience the best services to expand their businesses. G7 CR works on the model of expansion and with the help of cloud usage and maximum application of cloud services, small and medium level firms can also achieve greater heights easily, rewards offered to their usage will further inspire them to migrate to the cloud and increase the number of services used”.  G7 CR has been recognized globally for its technical capabilities driving cloud success journeys for businesses from industry verticals such as Banking, Insurance, Manufacturing, Healthcare, PSUs, Education, Retail, and IT. The company played a vital role for most of the SMBs, SMEs, and Enterprises in migrating from physical desktops to VDI (Virtual Desktop Infrastructure) on the cloud, in a very short span of time during the pandemic so that SMEs and SMBs can work smoothly from the comfort of their home.  G7 CR Technologies has been recognised globally for its technical capabilities driving cloud success journeys for businesses from industry verticals such as Banking, Insurance, Manufacturing, Healthcare, PSUs, Education, Retail, and IT.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Cloud Rewards System will help G7 CR offer reward points to all its existing clients that can be exchanged for a host of Proactive Cloud support services along with Business enablement services such as meeting Compliance & Statutory requirements on Cloud and building business profiles and many more services. The Cloud Rewards program can be utilized by clients based on their Azure usage.",
+          "concept": "rewards for existing clients based on usage",
+          "reasoning": "This states reward points are available to existing clients and can be utilized based on Azure usage, matching conditional eligibility based on group and usage."
+        },
+        {
+          "rank": 2,
+          "text": "Bangalore, 8th May 2021: G7CR Technologies one of the leading cloud service providers based out of Bangalore, today announced the distribution of reward points as part of the Cloud Rewards program for their existing Cloud Customers. The initiative comes at a time when SMEs, SMBs, start-ups, and even healthcare systems are relying on Cloud Technology to keep their businesses alive in the wake of the pandemic.",
+          "concept": "rewards for existing customers",
+          "reasoning": "This announces reward points specifically for existing cloud customers, indicating a targeted group for the program."
+        },
+        {
+          "rank": 3,
+          "text": "“The pandemic has created disruption across businesses and cloud has played a major role in minimizing the impact of the same. The industry has seen the benefits of cloud usages and we want to pass on the benefits to our clients based on their Azure usage. These offers are designed to make our clients experience the best services to expand their businesses.",
+          "concept": "benefits based on usage",
+          "reasoning": "This mentions passing benefits to clients based on their Azure usage, which is a conditional criterion for receiving offers."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 2639,
+      "normalized": 0.0,
+      "actual_text": "The College Football Playoff kicks off Monday with two of the top teams in the nation facing",
+      "plain_text": "The College Football Playoff kicks off Monday with two of the top teams in the nation facing off in a semifinal matchup, as No. 1 Michigan meets No. 4 Alabama in the Rose Bowl. The Wolverines overcame a tumultuous season that included a sign-stealing investigation and a suspension for head coach Jim Harbaugh. They enter Monday's game with a perfect 13-0 record and are chasing their first national championship since 1997. The Crimson Tide, who are back in the CFP after failing to qualify last season, are 12-1 and riding an 11-game win streak into Monday's showdown as head coach Nick Saban seeks his eighth national title. Check below for highlights as two of college football's most storied programs meet for the first time since 2020.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Crimson Tide, who are back in the CFP after failing to qualify last season, are 12-1 and riding an 11-game win streak into Monday's showdown as head coach Nick Saban seeks his eighth national title.",
+          "concept": "playoff qualification",
+          "reasoning": "This references failure to qualify last season, implying eligibility rules for the playoff, which weakly matches conditional structures."
+        },
+        {
+          "rank": 2,
+          "text": "The Wolverines overcame a tumultuous season that included a sign-stealing investigation and a suspension for head coach Jim Harbaugh. They enter Monday's game with a perfect 13-0 record and are chasing their first national championship since 1997.",
+          "concept": "disciplinary suspension",
+          "reasoning": "The mention of a suspension involves a rule-based penalty, but it is not about conditional eligibility for a service or policy."
+        },
+        {
+          "rank": 3,
+          "text": "The College Football Playoff kicks off Monday with two of the top teams in the nation facing off in a semifinal matchup, as No. 1 Michigan meets No. 4 Alabama in the Rose Bowl.",
+          "concept": "sports event",
+          "reasoning": "This is a general news headline about a sports matchup with no conditional or policy-related content."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00005",
+      "row_idx": 4321,
+      "normalized": 0.0,
+      "actual_text": "Most Asian Markets Up On Economy Hopes Despite Virus Spike Muhammad Irfan",
+      "plain_text": "Most Asian Markets Up On Economy Hopes Despite Virus Spike  Muhammad Irfan 3 minutes ago Wed 01st July 2020 | 03:23 PM  Markets mostly rose in Asia on Wednesday as investors looked past spiking coronavirus infections and warnings of a US surge in the disease, with eyes on the economic recovery as countries press ahead with the easing of lockdowns  Hong Kong, (UrduPoint / Pakistan Point News - 1st Jul, 2020 ):Markets mostly rose in Asia on Wednesday as investors looked past spiking coronavirus infections and warnings of a US surge in the disease, with eyes on the economic recovery as countries press ahead with the easing of lockdowns. Traders took their lead from another rally on Wall Street, which was lifted by a forecast-beating jump in US consumer confidence, while eyes were also on the release later this week of key jobs data out of Washington. And while equities are considered unlikely to kick on unless there is a major vaccine breakthrough, analysts said the trillions of dollars in government and central bank support continues to provide a boost. In the United States, Donald Trump's top virus expert warned Congress that new daily cases could more than double unless officials step up efforts to control the pandemic. \"Clearly, we are not in total control right now,\" Anthony Fauci said. \"I would not be surprised if it goes up to 100,000 a day if this does not turn around.\" He warned that a jump in infections in Texas and Florida was driving the daily national total to more than 40,000, and they need to be tamped down quickly to avoid dangerous surges elsewhere in the country, adding that the final death toll could be \"very disturbing\". His comments came as some states reimposed measures only recently lifted, while reports of new clusters in several countries including Australia, Germany and Japan fuelled worries of a second wave. Still, there was a feeling that a return to widespread lockdowns seen earlier in the year was unlikely. \"The next couple of weeks may tell us much about how the rest of the pandemic develops as the renewed wave of the virus in some US states is starting to weigh on economic activity,\" said AxiCorp's Stephen Innes. \"But the restoring lockdowns so far are mostly concentrated on the service sector of the southern and western states. It certainty prolongs the rebound of the service sector, but the impact is much less than the first lockdown in March. \"Innes added that some metrics indicated the death rate was much lower in the US. \"The optimist in me looks for potential drivers, including better medical treatment, healthcare systems that are no longer overwhelmed, younger patients, and mutation of the virus,\" he said. Shanghai gained 1.4 percent with investors taking heart from the easing of some recently reimposed lockdowns as hopes grew that a recent outbreak in Beijing had been brought under control. Mumbai also rose more than one percent, while Sydney and Singapore both put on 0.6 percent. Taipei and Manila were also higher. Tokyo shed 0.8 percent after a closely watched Bank of Japan survey showed that confidence among the country's biggest manufacturers had hit its lowest level since 2009 during the global financial crisis. There were also losses in Seoul, Jakarta, Bangkok and Wellington. In early trade, London, Paris and Frankfurt edged up slightly. Markets have surged about a fifth from their March lows, thanks to the easing of lockdowns, improving economic data and the huge financial support. Rodrigo Catril, of National Australia Bank, said that the worry of missing out on further gains is playing a role in continued support for prices. \"The fear of missing out, along with the need to put cash to work against a stimulus deluge backdrop, continues to be the overwhelming force, notwithstanding worrying virus infection rates and warnings from experts,\" he said in a note. Oil prices jumped more than one percent as investors cheered news that Saudi exports had tumbled in June, indicating it was sticking to a massive output agreement with other major producers including Russia. It shipped 5.7 million barrels a day last month, compared with 6.2 million in May, a drop equivalent to seven full supertankers over the month.  Related Topics  Recent Stories  Pakistan team’s training schedule in Worcester  UPDATE on 2nd group’s departure for Manchester  Head of the MFA of Turkmenistan participated of th ..  Ex-Warlord Hekmatyar Blames Kabul for Obstructing ..  Hizb-e-Islami Will Not Join Intra-Afghan Talks Unt ..  Second group of Pak cricket squad to depart for Ma ..  Your Thoughts and Comments  More Stories From Business  \n\n Australia to Boost Defense Budget by About $52Bln in Next 10 Years - Prime Minister  36 minutes ago  \n\n Polish Energy Company Confirms Receiving $1.5Bln Refund From Russia's Gazprom Export  56 minutes ago  \n\n\n State aid helps French car sales bounce back from virus pain  1 hour ago  \n\n\n Plastic exports decrease 5.53% to $274.198 million  1 hour ago  \n\n\n Mainland China shares end higher  2 hours ago  \n\n\n European stocks steady at open  2 hours ago  \n\n\n Karachi Port Trust shipping intelligence report 01 July 2020  2 hours ago  \n\n Tokyo stocks close lower on virus worries  4 hours ago  \n\n RPT: ANALYSIS - Poland Likely to Never Achieve 'Energy Independence' Despite Plans to Buy US LNG  4 hours ago  \n\n\n Today's Gold Rates in Pakistan on 1 July 2020  5 hours ago  \n\n Libyan Tribes Handed Over Country's Oil Deposits to LNA, Parliament - Supreme Council  5 hours ago  \n\n\n Libyan Tribes Hand Over Country's Oil Deposits to LNA, Parliament - Supreme Council  3 hours ago  Education - Urdu News - Car Prices - Breaking News - English News - Live Tv Channels - Urdu Horoscope - Horoscope in Urdu - Muslim Names in Urdu - Urdu Poetry - Love Poetry - Sad Poetry - Prize Bond - Mobile Prices in Pakistan - PTV Sports - English to Urdu - Big Ticket - Translate English to Urdu - Ramadan Calendar - Prayer Times - DDF Raffle - Islamic Calendar - Events - Today Islamic Date - Travel - UAE Raffles - Travel Guide - Arabic - Urdu Cooking Recipes - Directory - Pakistan Results - Past Papers - BISE - Schools in Pakistan - Academies & Tuition Centers",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“The next couple of weeks may tell us much about how the rest of the pandemic develops as the renewed wave of the virus in some US states is starting to weigh on economic activity,” said AxiCorp's Stephen Innes. “But the restoring lockdowns so far are mostly concentrated on the service sector of the southern and western states.",
+          "concept": "targeted lockdowns",
+          "reasoning": "This describes lockdowns concentrated on specific sectors and regions, a conditional policy based on location and industry."
+        },
+        {
+          "rank": 2,
+          "text": "His comments came as some states reimposed measures only recently lifted, while reports of new clusters in several countries including Australia, Germany and Japan fuelled worries of a second wave. Still, there was a feeling that a return to widespread lockdowns seen earlier in the year was unlikely.",
+          "concept": "reimposed measures",
+          "reasoning": "This mentions states reimposing measures conditionally based on virus clusters, reflecting targeted policy adjustments."
+        },
+        {
+          "rank": 3,
+          "text": "Shanghai gained 1.4 percent with investors taking heart from the easing of some recently reimposed lockdowns as hopes grew that a recent outbreak in Beijing had been brought under control.",
+          "concept": "easing of lockdowns",
+          "reasoning": "This implies lockdowns were imposed conditionally and are now being eased based on improved outbreak control."
+        }
+      ]
+    }
+  ]
+}

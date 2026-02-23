@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_18318",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing words beginning with the prefixes \"en-\" or \"em-\" (such as \"enjambre,\" \"enforces,\" \"Encores,\" \"enigmatic,\" \"enshrined,\" or \"Eni\").\n\n2. **Domain coverage**: The pattern appears across multiple languages\u2014primarily English, Spanish, and French\u2014and spans diverse topics including news reports (seismic events, labor laws, politics), entertainment (concerts, film descriptions), real estate, and technical or legal documents. The neuron activates regardless of the semantic context, focusing solely on the orthographic prefix.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack words starting with \"en-\" or \"em-.\" While some low-activation examples discuss topics occasionally present in the high group (e.g., earthquakes or news events), they do not contain the targeted prefix pattern, confirming the neuron\u2019s sensitivity to this specific character sequence rather than subject matter.\n\n4. **Closing interpretation**: This neuron detects a surface-level lexical pattern centered on the \"en-\" or \"em-\" prefix, operating orthographically rather than semantically. It acts as a character-based feature detector, independent of word meaning or contextual relevance.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ari. The current study was made possible by the great effort of PhD student, Enrico Milanese, lead author of the paper, who used the developed technique and",
+      "normalized_activation": 9.739242553710938,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3127,
+          "meaning_score": 0.7378,
+          "overlap_fraction": 0.9679,
+          "location_score": 0.1936,
+          "combined_score": 0.6138
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3127,
+          "meaning_score": 0.3351,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2591
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3127,
+          "meaning_score": 0.1525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1861
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "20, Broward Sheriff\u2019s Office received reports of a shooting at the Envy Apartments located at 425 S.E. First Street in Pompan",
+      "normalized_activation": 8.971234321594238,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2009,
+          "meaning_score": 0.7197,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5682
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2117,
+          "meaning_score": 0.5399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3007
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2117,
+          "meaning_score": 0.4954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2829
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "US / George Floyd More Legal Trouble for Cops in George Floyd Case Federal grand jury indicts Derek Chauvin,",
+      "normalized_activation": 8.041593551635742,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0538,
+          "meaning_score": 0.8441,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5592
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0538,
+          "meaning_score": 0.5488,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2411
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0538,
+          "meaning_score": 0.6714,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2901
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "By Michael Gallegos Borresen The Creator created our worldwide family. Three different",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2545,
+          "meaning_score": 0.7449,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5997
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2545,
+          "meaning_score": 0.4771,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2926
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2545,
+          "meaning_score": 0.5329,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3149
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "*Say 22 officers killed, 205 stations damaged The police",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1448,
+          "meaning_score": 0.7368,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3526
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1448,
+          "meaning_score": 0.5539,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2795
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1448,
+          "meaning_score": 0.4165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2245
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "neuron_id": "17_19561",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T05:59:03Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing named organizations, political/militant groups, or formal institutional entities** (such as terrorist outfits like Lashkar-e-Taiba, political parties like the Rashtriya Swayamsevak Sangh, government bodies like the SEC, or advocacy groups like the Southern Poverty Law Center).\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, French, Portuguese, Hindi, Romanian) and consistently in news or reportage contexts covering geopolitics, security, finance, elections, legal proceedings, and activist movements. It detects formal names of organizations even when embedded in diverse topics—from maritime terrorism and hedge funds to biodiversity movements and sports conferences.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack specific named organizations or reference more general cultural topics, personal stories, or everyday events (e.g., a punk rocker’s environmental concern, a police shooting, a Christmas carol contest, a TV show reference). They may mention entities vaguely (“Chicago police,” “China’s Party Congress”) without the precise naming seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting **formal institutional or organizational references within informational prose**, acting as a marker for text segments grounded in structured human systems—political, financial, militant, or bureaucratic.",
+  "generated_at": "2026-02-23T04:35:37Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mentions of formal organizations, institutions, or collective entities (such as political parties like the Rashtriya Swayamsevak Sangh, militant groups like Lashkar-e-Taiba, financial institutions like hedge funds, activist movements like the Beej Bachao Andolan, or government bodies like the SEC) often accompanied by their acronyms or full names.\n\n2. **Domain coverage**: The pattern appears across domains including international conflict, domestic politics, finance, activism, and sports conferences, with examples in multiple languages (English, Spanish, French, Hindi, Romanian, etc.) and text genres such as news reports, financial disclosures, and political analysis. It also processes specific events tied to these groups, like congresses, attacks, or filings.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack dense references to formal organizations; instead, they focus on individuals (e.g., Patti Smith, Drake), generic events, cultural topics, or everyday situations without naming specific institutional entities. Even when low-activation examples mention organizations (e.g., Woolworths Group, Chicago police), they do so without the detailed acronyms, nested groups, or explicit institutional context prevalent in high-activation texts.\n\n4. **Closing interpretation**: The neuron specializes in detecting text centered on structured collective entities, suggesting a focus on institutional or group-based discourse rather than individual narratives or general topics.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Writing for CBS Sports in their NBA Rookie Power Rankings, Colin Ward-Henninger wrote something that is becoming consensus: Simmons is clearly the NBA’s best rookie.",
-          "reasoning": "This section explicitly names the formal organization 'CBS Sports' and references their institutional ranking system 'NBA Rookie Power Rankings'."
+          "text": "Also writing on The Ringer, US media heavyweight Bill Simmons juxtaposed Simmons’ career with a young Lamar Odom - the twice Lakers championship player who never became an All-Star, despite outstanding individual potential as a rookie at the Clippers.",
+          "concept": "sports media and teams",
+          "reasoning": "This section mentions The Ringer media outlet and two NBA teams, the Lakers and Clippers, which are formal organizations."
         },
         {
           "rank": 2,
-          "text": "Also writing on The Ringer, US media heavyweight Bill Simmons juxtaposed Simmons’ career with a young Lamar Odom - the twice Lakers championship player who never became an All-Star, despite outstanding individual potential as a rookie at the Clippers.",
-          "reasoning": "This section names the media organization 'The Ringer' and references two professional sports franchises 'Lakers' and 'Clippers' as institutional entities."
+          "text": "Writing for CBS Sports in their NBA Rookie Power Rankings, Colin Ward-Henninger wrote something that is becoming consensus: Simmons is clearly the NBA’s best rookie.",
+          "concept": "sports media and league",
+          "reasoning": "This section mentions CBS Sports and the NBA, both formal organizations in sports media and league."
         },
         {
           "rank": 3,
           "text": "Writing for the Salt Lake Tribune, Tony Jones said Simmons may be the best rookie since LeBron James and the similarities in their games were obvious.",
-          "reasoning": "This section names the formal news organization 'Salt Lake Tribune', fitting the neuron's pattern of institutional references."
+          "concept": "sports media",
+          "reasoning": "This section mentions the Salt Lake Tribune, a formal media organization, and references the NBA."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "A survey into the press’s portrayal of disability in 2012 found that three-quarters of disabled people believed the volume of negativity was “significantly increasing”, with nine out of 10 saying there was a link between negative press portrayal of disabled people and rising hostility and hate crime.",
-          "reasoning": "This section references formal survey data and institutional concepts of hate crime reporting, fitting the neuron's pattern of structured human systems."
+          "text": "You would be forgiven if, weighed down by the row over the Islamophobia embedded in the British press, you had missed Rod Liddle’s piece in the Sunday Times about disabled people, specifically those with myalgic encephalomyelitis or ME.",
+          "concept": "newspaper",
+          "reasoning": "This section mentions the Sunday Times, a formal newspaper organization."
         },
         {
           "rank": 2,
-          "text": "While on the one hand, journalism unearths racism such as the Windrush scandal or the hostile environment facing disabled people, on the other, it can be used to perpetuate it.",
-          "reasoning": "This section references the formal institutional scandal 'Windrush scandal' and systemic concepts like 'hostile environment'."
+          "text": "Liddle should know – he’s done it himself. In 2012, he wrote a piece for the Sun declaring his New Year’s resolution was “to become disabled” in order to scam disability benefits.",
+          "concept": "newspaper",
+          "reasoning": "This section mentions the Sun, a formal newspaper organization."
         },
         {
           "rank": 3,
-          "text": "The Liddle row relates specifically to particular failures in reporting of ME, but more than that – it speaks to the ease with which the British media too often publish content that doubt, scapegoat, and misrepresent minorities like disabled people, while giving no concern to the consequences.",
-          "reasoning": "This section references the institutional entity 'British media' and systemic media practices."
+          "text": "I am tired. Tired of all it. We all should be.  • Frances Ryan is a Guardian columnist",
+          "concept": "newspaper",
+          "reasoning": "This section mentions the Guardian, a formal newspaper organization."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Sharafat Ali Khan, 33, was identified by ICE as the Brazilian-based facilitator of what the agency termed an “alien smuggling organization.” He has been turned over to Pakistani authorities.",
-          "reasoning": "This section names the formal government agency 'ICE' (Immigration and Customs Enforcement) and references 'Pakistani authorities' as institutional entities."
+          "text": "On June 3, 2016, the U.S. District Court for the District of Columbia issued an arrest warrant for Khan, charging him with conspiracy to encourage or induce an alien to enter the U.S. for financial gain. On the same date, authorities at Hamad International Airport in Doha detained Khan pursuant to the warrant. He was then extradited from Qatar to the United States through Washington Dulles International Airport, and U.S. Customs and Border Protection paroled Khan into the United States for criminal prosecution.",
+          "concept": "government agencies and courts",
+          "reasoning": "This section mentions multiple formal organizations including U.S. District Court, Hamad International Airport, Washington Dulles International Airport, and U.S. Customs and Border Protection."
         },
         {
           "rank": 2,
-          "text": "On June 1, 2016, the Brazilian Federal Police executed a search warrant at Khan’s residence in Brazil. Khan fled the country the following day and attempted to travel to Pakistan via Doha, Qatar on a commercial flight.",
-          "reasoning": "This section names the formal law enforcement organization 'Brazilian Federal Police' and references national entities."
+          "text": "PHILADELPHIA – A Pakistani citizen who headed up a ring which facilitated the movement of undocumented South Asians traveling from Central America to the U.S. border to seek asylum, was deported Dec. 19 by Immigration and Customs Enforcement. Sharafat Ali Khan, 33, was identified by ICE as the Brazilian-based facilitator of what the agency termed an “alien smuggling organization.” He has been turned over to Pakistani authorities.",
+          "concept": "immigration enforcement",
+          "reasoning": "This section mentions Immigration and Customs Enforcement (ICE) and Pakistani authorities, which are formal government organizations."
         },
         {
           "rank": 3,
-          "text": "On Oct. 17, 2017, DCDC convicted Khan of conspiracy to defraud the United States and encourage or induce an alien for commercial advantage or private financial gain. He was sentenced to 31 months’ in prison with credit for time served since June 3, 2016.",
-          "reasoning": "This section references the formal court entity 'DCDC' (U.S. District Court for the District of Columbia) and legal proceedings."
+          "text": "On Oct. 17, 2017, DCDC convicted Khan of conspiracy to defraud the United States and encourage or induce an alien for commercial advantage or private financial gain. He was sentenced to 31 months’ in prison with credit for time served since June 3, 2016. ICE then lodged an immigration detention order which would deport Khan after he served his sentence.",
+          "concept": "court and immigration",
+          "reasoning": "This section mentions DCDC (U.S. District Court) and ICE, both formal organizations."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "For the Cosmic Evolution Early Release Science (CEERS) Survey, researchers compared JWST images of hundreds of galaxies with equivalent Hubble Space Telescope images.",
-          "reasoning": "This section names the formal scientific program 'Cosmic Evolution Early Release Science (CEERS) Survey' and institutional telescope projects."
+          "text": "It has been discovered by new data from the James Webb Space Telescope (JWST) that galaxies in the early universe had features that were considerably more varied and developed than previously thought. For the Cosmic Evolution Early Release Science (CEERS) Survey, researchers compared JWST images of hundreds of galaxies with equivalent Hubble Space Telescope images.",
+          "concept": "space telescopes and surveys",
+          "reasoning": "This section mentions James Webb Space Telescope, Cosmic Evolution Early Release Science Survey, and Hubble Space Telescope, which are formal scientific organizations and projects."
         },
         {
           "rank": 2,
-          "text": "Kartaltepe said COSMOS-Web, the largest General Observer program selected for JWST’s first year, will provide an even larger sample through 255 hours of observing time with the telescope.",
-          "reasoning": "This section names the formal scientific program 'COSMOS-Web' and references institutional telescope allocation processes."
+          "text": "Associate Professor Jeyhan Kartaltepe from Rochester Institute of Technology’s School of Physics and Astronomy said, “that JWST’s ability to see faint high redshift galaxies in sharper detail than Hubble allowed us to resolve more features and see a wide mix of galaxies, including many with mature features such as disks and spheroidal components.”",
+          "concept": "university and telescopes",
+          "reasoning": "This section mentions Rochester Institute of Technology and references JWST and Hubble, which are formal educational and scientific organizations."
         },
         {
           "rank": 3,
-          "text": "Associate Professor Jeyhan Kartaltepe from Rochester Institute of Technology’s School of Physics and Astronomy said, “that JWST’s ability to see faint high redshift galaxies in sharper detail than Hubble allowed us to resolve more features and see a wide mix of galaxies, including many with mature features such as disks and spheroidal components.”",
-          "reasoning": "This section references the formal institutional entity 'Rochester Institute of Technology’s School of Physics and Astronomy'."
+          "text": "For the study, scientists used an initial data set captured by CEERS when JWST first came online in June, but the survey has since captured a total of 60 observing hours, potentially providing thousands of high redshift galaxies to further explore. Kartaltepe said COSMOS-Web, the largest General Observer program selected for JWST’s first year, will provide an even larger sample through 255 hours of observing time with the telescope. COSMOS-Web began its observing campaign this month.",
+          "concept": "astronomy surveys",
+          "reasoning": "This section mentions CEERS and COSMOS-Web surveys and JWST, which are formal scientific projects and organizations."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Trump former foreign policy adviser George Papadopoulos has confessed that he lied to FBI agents about his contacts with individuals connected to Moscow who promised \"dirt\" on Hillary Clinton; Trump's former campaign chairman Paul Manafort has been charged with laundering $18 million in payoffs from Russia's Ukrainian friends.",
-          "reasoning": "This section names multiple formal government entities and roles (FBI, campaign chairman) and references political organizations."
+          "text": "The potential scope of Russia's cyberoperations was highlighted in a little-noticed report by the Defense Intelligence Agency, \"Russia Military Power: Building a Military to Support Great Power Aspirations.\" Its conclusion: \"Russia views the information sphere as a key domain for modern military conflict ... critically important to control its domestic populace and influence adversary states.\" The DIA explains how \"Russian propaganda strives to influence, confuse and demoralize its intended audience.\" The report describes Russian trolls, bots and cover organizations. Among the major themes of Russian propaganda, the DIA says, is this Steve Bannon-esque message: \"The West's liberal world order is bankrupt and should be replaced by a Eurasian neo-conservative post-liberal world order, which defends tradition, conservative values, and true liberty.\" And remember, this expose of Moscow's hidden hand is coming from Trump's Pentagon!",
+          "concept": "defense intelligence",
+          "reasoning": "This section mentions the Defense Intelligence Agency and the Pentagon, which are formal U.S. government organizations."
         },
         {
           "rank": 2,
-          "text": "The potential scope of Russia's cyberoperations was highlighted in a little-noticed report by the Defense Intelligence Agency, \"Russia Military Power: Building a Military to Support Great Power Aspirations.\"",
-          "reasoning": "This section explicitly names the formal government agency 'Defense Intelligence Agency' and references its institutional report."
+          "text": "To me, that sounded like Putin was doubling down on Russia's bid to shape the \"information space,\" by whatever means necessary. That was reinforced by his call for \"a system of international information security,\" in which Russia would seek to impose new rules for the internet through the United Nations and other pliable international organizations. That's a threat I noted a week ago, now confirmed explicitly by Putin.",
+          "concept": "international organizations",
+          "reasoning": "This section mentions the United Nations and other international organizations, which are formal collective entities."
         },
         {
           "rank": 3,
-          "text": "He proposed \"additional measures\" to combat adversaries and protect Russia. He argued that Russia was simply protecting its citizens from cybercriminals, but his language was emphatic: \"It is necessary to be tough as regards those persons and groups that are using the Internet and the information space for criminal purposes.\"",
-          "reasoning": "This section references formal state security measures and institutional approaches to cybersecurity."
+          "text": "Put aside for the moment what the indictments and plea agreement announced Monday will ultimately mean for Trump's presidency. Already, Mueller has stripped the cover from Russia's machinations: Trump former foreign policy adviser George Papadopoulos has confessed that he lied to FBI agents about his contacts with individuals connected to Moscow who promised \"dirt\" on Hillary Clinton; Trump's former campaign chairman Paul Manafort has been charged with laundering $18 million in payoffs from Russia's Ukrainian friends.",
+          "concept": "federal law enforcement",
+          "reasoning": "This section mentions the FBI, a formal U.S. government law enforcement agency."
         }
       ]
     }

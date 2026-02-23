@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_7308",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:44:25Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or editorial metadata and attribution markers** (such as datelines, byline/author credits, source citations, publication notes, and news agency tags).\n\n2. **Domain coverage**: The pattern appears in news articles, blog posts, and official statements across multiple languages (English, Spanish, Italian, Urdu, etc.) and topics (politics, entertainment, sports, disasters). It specifically activates on text segments that identify the source, location, time, author, or publisher—e.g., \"Tehran, May 5 (Xinhua)\", \"Dave Davies, host: This is FRESH AIR\", \"BDN Opinion section operates independently\", \"UrduPoint / Pakistan Point News - 4th Jun, 2024\".\n\n3. **Contrast with low-activation examples**: The low-activation examples largely jump directly into narrative content, opinion, or event description without preceding attribution or source framing. Even when they mention news-related topics (e.g., \"China has rejected accusations...\"), they lack the structural metadata—no datelines, no explicit credit to a reporter or outlet, no \"operates independently\" disclaimers.\n\n4. **Closing interpretation**: The neuron detects formal editorial framing and source-provenance cues rather than specific subject matter. It acts as a \"news-article header\" detector, responding to the stylistic conventions that signal a text is an excerpt from a published or broadcast news source.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00007",
+      "row_idx": 3788,
+      "normalized": 9.385077476501465,
+      "actual_text": "governor's request not before federal government In an exclusive interview with PREMIUM TIMES on Wednesday, the Attorney-General said he was not in receipt of Mr Soludo",
+      "plain_text": "Governor Soludo had called on the federal government to either release Nnamdi Kanu unconditionally, or release the IPOB leader to him as his bail surety.  The Attorney-General of the Federation (AGF) and Minister of Justice, Abubakar Malami, has reacted to Anambra State governor, Charles Soludo's request to stand as surety for Nnamdi Kanu, leader of the Indigenous People of Biafra (IPOB).  Mr Kanu has been leading a separatist campaign for an independent state of Biafra.  According to Mr Kanu, the Biafran Republic would comprise people of Igbo-speaking origin from Nigeria's South-east and some parts of South-south states.  The IPOB leader was first arrested by Nigeria's spy agency in 2015 in Lagos, South-west Nigeria.  Mr Kanu's trial on terrorism and treasonable charges has been dismissed by the Court of Appeal in Abuja.  The appellate court on13 October held that Mr Kanu's extraordinary rendition to Nigeria from Kenya last June was a flagrant violation of Nigeria's extradition treaty and also a breach of his fundamental human rights. The government's action, the court said, invalidated the trial.  The court ordered his release from the custody of the Nigerian secret police, State Security Service (SSS).  But Mr Kanu remains in detention while the federal government pursues its appeal at the Supreme Court in an effort to have the charges against him restored.  There have, however, been calls from different quarters for the IPOB leader's release.  Governor Soludo joined the list of those calling for Mr Kanu's release during the presidential campaign flag-off of the All Progressives Grand Alliance (APGA) in Awka, Anambra State on 15 January.  Mr Soludo said if Mr Kanu cannot be released unconditionally by the Nigerian government, the IPOB leader should be released to him.  Anambra governor's request not before federal government  In an exclusive interview with PREMIUM TIMES on Wednesday, the Attorney-General said he was not in receipt of Mr Soludo's request.  \"There is no such request formally before the federal government or the judicial process.  \"As at today, being 18 January 2023, I am not in receipt of any application arising from the public statement made by the governor of Anambra State (Chukwuma Soludo), either through the judicial process or extended to me as the Attorney General of the Federation (AGF),\" Malami said.  Mr Malami, a Senior Advocate of Nigeria (SAN), explained that \"when a matter is pending before the court, the right channel through which any request or perhaps concession can be presented for consideration is through the judicial process.\"  He added that the renewed call for Mr Kanu's release \"has not been invoked formally for the consideration of the Attorney-General.\"  Backstory  Mr Kanu was facing terrorism charges before Binta Nyako of the Federal High Court in Abuja and was granted bail in 2017.  But the Nigerian Army on 14 September 2017 invaded the IPOB leader's Afara-Ukwu home near Umuahia, Abia State during which 18 civilians were killed, Mike Ozekhome, Mr Kanu's lawyer, said during a court session.  Due to the invasion, Mr Kanu fled the country prompting Mrs Nyako, the trial judge, to issue a warrant of arrest for the IPOB leader.  One of Mr Kanu's lawyers, Alloy Ejimakor, described the IPOB leader's escape during the invasion as the \"rule of self-preservation.\"  But Mrs Nyako revoked Mr Kanu's bail for abandoning his trial, and ordered his trial to be separated from the rest of the co-defendants'.  While the trial of the rest of the defendants has made some progress, Mr Kanu's has been stalled since 2017.  After nearly four years abroad, on 29 June 2021, Mr Malami in the company with the Inspector-General of Police, Usman Baba and SSS officials announced Mr Kanu's arrest and repatriation from Kenya to Nigeria.  He was subsequently re-arraigned before Mrs Nyako on 15-count terrorism and treasonable felony charges, but the judge, in April 2021, struck out eight of the charges after the IPOB leader challenged their validity.  The separatist leader went on to the Court of Appeal seeking to quash the remaining seven counts.  In a unanimous judgement last October, the Court of Appeal panel held that the Nigerian government breached local and international laws in the forcible rendition of Mr Kanu to Nigeria.  It said the IPOB leader's illegal repatriation to Nigeria renders the terrorism charges against him incompetent and unlawful.  Mr Kanu who was brought back to Nigeria last year is being held by SSS in its facility in Abuja, Nigeria's capital.  Nigeria's Supreme Court has yet to fix a date for the hearing of the federal government's appeal challenging the Court of Appeal decision ordering the IPOB leader's release.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In an exclusive interview with PREMIUM TIMES on Wednesday, the Attorney-General said he was not in receipt of Mr Soludo's request. 'There is no such request formally before the federal government or the judicial process.'",
+          "concept": "source citation",
+          "reasoning": "This section explicitly cites PREMIUM TIMES as a news source, matching journalistic attribution markers."
+        },
+        {
+          "rank": 2,
+          "text": "'As at today, being 18 January 2023, I am not in receipt of any application arising from the public statement made by the governor of Anambra State (Chukwuma Soludo), either through the judicial process or extended to me as the Attorney General of the Federation (AGF),' Malami said.",
+          "concept": "official statement",
+          "reasoning": "This section includes a direct quote with attribution to an official, common in news reporting."
+        },
+        {
+          "rank": 3,
+          "text": "He added that the renewed call for Mr Kanu's release 'has not been invoked formally for the consideration of the Attorney-General.'",
+          "concept": "attribution",
+          "reasoning": "This section has an attribution to a speaker, indicating journalistic framing."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 1969,
+      "normalized": 8.253560066223145,
+      "actual_text": "bentuk aspirasi dan kebutuhan masyarak TRIBUNJABAR.ID - Sekretaris Jenderal (Sekjen) DPP PAN",
+      "plain_text": "Eddy Soeparno Akan Kembali Turun ke Konstituen Realisasikan Apirasi Masyarakat  \"Sekali silaturahmi kita harus terus menjaga tali silaturahmi tersebut, jika saya terpilih ataupun tidak segala bentuk aspirasi dan kebutuhan masyarak  TRIBUNJABAR.ID - Sekretaris Jenderal (Sekjen) DPP PAN, Eddy Soeparno, berkomitmen menjalin silaturahmi berkelanjutan bersama masyarakat. Dengan begitu, Ia berharap segala bentuk aspirasi dan kebutuhan masyarakat dapat terealisasi.  \"Sekali silaturahmi kita harus terus menjaga tali silaturahmi tersebut, jika saya terpilih ataupun tidak segala bentuk aspirasi dan kebutuhan masyarakat Insya Allah dapat terealisasi,\" kata pria yang akrab disapa Kang Eddy, Minggu (17/03/2019).  Kang Eddy mengatakan, terjalinnya silaturahmi berkelanjutan dengan masyarakat akan membuat aspirasi semakin jelas.  Bagi Eddy hal tersebut penting agar aspirasi masyarakat tepat sasaran dan menjadi solusi yang nyata untuk masyarakat.  \"Ciri-ciri wakil rakyat yang amanah adalah mereka yang terus menjaga tali silaturahmi bersama masyarakat. Dengan begitu aspirasi dan kebutuhan masyarakat dapat terserap dengan baik,\" ujarnya.  \"Untuk itu, kami berupaya menjalin silaturahmi yang berkelanjutan dengan rakyat terpilih ataupun tidak,\" imbuh Kang Eddy.  Politisi PAN tersebut tidak ingin silaturahmi bersama masyarakat hanya ketika pemilu saja, apalagi menerapkan silaturahmi yang transaksional. Eddy ingin masyarakat bisa menyampaikan aspirasinya kepada dirinya.  \"Kita tentunya tidak ingin silaturahmi bersama masyarakat hanya terjadi ketika mendekati pencoblosan pemilu,\" ujar Kang Eddy.  \"Kita juga tidak ingin silaturahmi bersama masyarakat menjadi silaturahmi yang transaksional, datang menjelang pencoblosan dengan memberikan sembako, sarung dan lain lain,\" ujarnya.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "TRIBUNJABAR.ID - Sekretaris Jenderal (Sekjen) DPP PAN, Eddy Soeparno, berkomitmen menjalin silaturahmi berkelanjutan bersama masyarakat. Dengan begitu, Ia berharap segala bentuk aspirasi dan kebutuhan masyarakat dapat terealisasi.",
+          "concept": "publication tag",
+          "reasoning": "This section starts with TRIBUNJABAR.ID, a clear news publication marker."
+        },
+        {
+          "rank": 2,
+          "text": "'Sekali silaturahmi kita harus terus menjaga tali silaturahmi tersebut, jika saya terpilih ataupun tidak segala bentuk aspirasi dan kebutuhan masyarakat Insya Allah dapat terealisasi,' kata pria yang akrab disapa Kang Eddy, Minggu (17/03/2019).",
+          "concept": "quote with date",
+          "reasoning": "This section includes a direct quote with speaker attribution and date, typical in news articles."
+        },
+        {
+          "rank": 3,
+          "text": "Kang Eddy mengatakan, terjalinnya silaturahmi berkelanjutan dengan masyarakat akan membuat aspirasi semakin jelas.",
+          "concept": "speaker attribution",
+          "reasoning": "This section attributes statements to the subject, matching journalistic style."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 5387,
+      "normalized": 6.9808125495910645,
+      "actual_text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile",
+      "plain_text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile este domingo a las 11:22 am hora local, según reportes del Servicio Geológico de Estados Unidos (USGS, por sus siglas en inglés).  El foco sísmico estuvo localizado a 34,6 km de profundidad y el epicentro estuvo ubicado a 39,4 km al sur-sureste de Puerto Quellón y a 230 km al sur-suroeste de Puerto Montt.  La presidenta Michelle Bachelet confirmó que no se lamentan muertes.  En la mañana, el Ministerio del Interior y Seguridad Pública de Chile le pidió a la gente abandonar las zonas de playas en Biobío, Araucanía, Los Ríos y Aysén.  Hasta el momento no hay reportes de personas lesionadas.  Nota del editor: Una versión anterior de este texto decía que el sismo había sido en el norte, cerca de Iquique. Se trataba de un sismo anterior de magnitud 5,4 .",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile este domingo a las 11:22 am hora local, según reportes del Servicio Geológico de Estados Unidos (USGS, por sus siglas en inglés).",
+          "concept": "news agency tag",
+          "reasoning": "This section begins with CNN Español and cites USGS, fitting journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Nota del editor: Una versión anterior de este texto decía que el sismo había sido en el norte, cerca de Iquique. Se trataba de un sismo anterior de magnitud 5,4 .",
+          "concept": "editor's note",
+          "reasoning": "This section is an explicit editor's note, a key editorial metadata marker."
+        },
+        {
+          "rank": 3,
+          "text": "La presidenta Michelle Bachelet confirmó que no se lamentan muertes.",
+          "concept": "official confirmation",
+          "reasoning": "This section attributes information to an official source, common in news reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 5555,
+      "normalized": 0.0,
+      "actual_text": "Gli astronomi hanno scoperto un mostruoso buco nero con partic",
+      "plain_text": "Gli astronomi hanno scoperto un mostruoso buco nero con particolare appetito e un debole per i dolci: sta facendo a pezzi una sfortunata stella, allungandola, e conferendo agli “avanzi” la forma di una ciambella stellare delle dimensioni del Sistema Solare. L’All-Sky Automated Survey for Supernovae (ASAS-SN o “Assassin”) ha individuato per primo il violento evento, denominato evento di distruzione mareale (TDE), tramite un lampo di radiazioni ad alta energia, nel cuore di una galassia a 300 milioni di anni luce di distanza. Gli astronomi hanno indagato sul lampo ispezionando la scena al centro della galassia ESO 583-G004 alla luce ultravioletta utilizzando Hubble. Sebbene il telescopio spaziale sia troppo lontano da questo TDE, designato AT2022dsb, per individuare il destino della stella mentre si svolgeva, il team di astronomi è stato in grado di ricreare la scena utilizzando la luce della stella. Gli spettri della stella hanno rivelato come è stata fatta a pezzi dal buco nero prima di essere allungata e finire dentro il buco nero stesso. Il processo TDE ha lasciato il mostro cosmico circondato da un toroide a forma di ciambella di materiale stellare e gas surriscaldato e, mentre gran parte di questo materiale finirà gradualmente nel buco nero, una parte fuggirà nello Spazio. Finora, i telescopi, incluso Hubble, hanno individuato circa un centinaio di queste violente interazioni tra buchi neri e stelle che si avvicinano troppo a loro, innescando la distruzione delle forze di marea create dall’immensa influenza gravitazionale del buco nero. Ciò che rende speciale l’osservazione di AT2022dsb è che è stata effettuata in luce ultravioletta, mentre la maggior parte dei TDE sono osservati in luce a raggi X. “Ci sono ancora pochissimi eventi di marea che vengono osservati nella luce ultravioletta dato il tempo di osservazione,” ha affermato Emily Engelthaler, ricercatrice dell’Harvard-Smithsonian Center for Astrophysics. “E’ davvero un peccato perché ci sono molte informazioni che si possono ottenere dagli spettri ultravioletti“. Il team che ha osservato TDE AT2022dsb utilizzando la spettroscopia ultravioletta è stato in grado di monitorarlo per un periodo più lungo del solito dall’inizio alle fasi successive di “alimentazione” o “accrescimento”. “In genere, questi eventi sono difficili da osservare. Si ottengono forse alcune osservazioni all’inizio dell’interruzione quando è davvero brillante. Il nostro programma è diverso in quanto è progettato per esaminare alcuni eventi di marea nell’arco di un anno per vedere cosa succede,” ha spiegato il ricercatore dell’Harvard-Smithsonian Center for Astrophysics Peter Maksym. “L’abbiamo visto abbastanza presto da poterlo osservare in queste fasi di accrescimento del buco nero molto intense. Abbiamo osservato il tasso di accrescimento diminuire mentre si trasformava in un rivolo nel tempo“. I TDE hanno mostrato agli astronomi che i buchi neri sono “mangiatori disordinati”, il che significa che parte del materiale rimasto dalla distruzione di stelle sfortunate in questi eventi di alimentazione viene espulso nello Spazio, forse come getti di materia che si muovono a velocità incredibili avvicinandosi a quella della luce. Questo TDE non è diverso. Le osservazioni del team rivelano un vento stellare che soffia verso la Terra a una velocità di circa il 3% della velocità della luce, o circa 32,2 milioni di km/h. Le variazioni in ciò che rimane della stella distrutta nel TDE AT2022dsb si stanno verificando su una scala temporale che va da giorni a mesi, il che significa che la spettroscopia ultravioletta e le osservazioni di questi cambiamenti possono fornire agli astronomi ulteriori informazioni sul buco nero. “Siamo entusiasti perché possiamo ottenere questi dettagli su cosa stanno facendo i resti. L’evento di marea può dirci molto su un buco nero,” ha aggiunto Engelthaler. I dati spettroscopici di AT2022dsb raccolti da Hubble sono stati analizzati dal team che ritiene che provengano da un’area di gas molto luminosa, calda, a forma di ciambella che un tempo era il materiale costitutivo della stella. Sono stati anche in grado di accertare che questo toroide di gas che vortica intorno al buco nero ha all’incirca le dimensioni del nostro Sistema Solare. I risultati sono stati annunciati alla 241ª riunione dell’American Astronomical Society.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "'Ci sono ancora pochissimi eventi di marea che vengono osservati nella luce ultravioletta dato il tempo di osservazione,' ha affermato Emily Engelthaler, ricercatrice dell’Harvard-Smithsonian Center for Astrophysics.",
+          "concept": "expert attribution",
+          "reasoning": "This section includes a quote with attribution to a researcher, similar to journalistic citations."
+        },
+        {
+          "rank": 2,
+          "text": "'In genere, questi eventi sono difficili da osservare. Si ottengono forse alcune osservazioni all’inizio dell’interruzione quando è davvero brillante. Il nostro programma è diverso in quanto è progettato per esaminare alcuni eventi di marea nell’arco di un anno per vedere cosa succede,' ha spiegato il ricercatore dell’Harvard-Smithsonian Center for Astrophysics Peter Maksym.",
+          "concept": "researcher quote",
+          "reasoning": "This section has a detailed quote with speaker attribution, matching news article style."
+        },
+        {
+          "rank": 3,
+          "text": "Il team che ha osservato TDE AT2022dsb utilizzando la spettroscopia ultravioletta è stato in grado di monitorarlo per un periodo più lungo del solito dall’inizio alle fasi successive di 'alimentazione' o 'accrescimento'.",
+          "concept": "team attribution",
+          "reasoning": "This section refers to a research team, implying scientific reporting common in news."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo 'a danno zero' e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "website citation",
+          "reasoning": "This section cites 'sul sito ENEA' as the source, matching journalistic attribution."
+        },
+        {
+          "rank": 2,
+          "text": "'Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire 'come era' e, laddove possibile, 'dove era' e per questo può essere una solução efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto', spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "expert explanation",
+          "reasoning": "This section includes a quote with attribution to an ENEA researcher, typical in news articles."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi 'G. d’Annunzio' di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo 'Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence' Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12).",
+          "concept": "collaboration citation",
+          "reasoning": "This section lists collaborating institutions and publication details, similar to academic news reporting."
+        }
+      ]
+    }
+  ]
+}

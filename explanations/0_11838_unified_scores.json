@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_11838",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing references to the COVID-19 pandemic (such as \u201cpandemia\u201d in Spanish, \u201cpandemi\u201d in Indonesian, or \u201cPandemie\u201d in German) and, to a lesser extent, to proper names that include the substring \u201cand\u201d (like \u201cAndy\u201d, \u201cAndr\u00e9s\u201d, or \u201cRandy\u201d).\n\n2. **Domain coverage**: The pandemic-related activations appear across multiple languages\u2014including Spanish, Portuguese, German, Italian, Indonesian, and English\u2014in contexts discussing health crises, event cancellations, social measures, and economic impacts. The name-related activations occur in domains like sports (e.g., Andy Murray), entertainment (e.g., Andy Breckman), and news about individuals, often in English or Spanish texts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack pandemic terminology and rarely contain names with the \u201cand\u201d substring. They cover unrelated topics such as astronomy, sports schedules, legal rulings, financial reports, and general news without the pandemic focus or specific name patterns seen in the high group.\n\n4. **Closing interpretation**: The neuron primarily detects lexical tokens associated with the COVID-19 pandemic across languages, with a secondary sensitivity to the character sequence \u201cand\u201d within proper nouns, suggesting a focus on both semantic content and orthographic patterns.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Pueblo Dr. Jos\u00e9 Leonardo Gialluca, se\u00f1al\u00f3 que la actual pandemia origina desaf\u00edos para todos. As\u00ed, la incorporaci\u00f3n de",
+      "normalized_activation": 9.418719291687012,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3687,
+          "meaning_score": 0.6196,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5953
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1411,
+          "meaning_score": 0.4695,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2443
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2973,
+          "meaning_score": 0.3069,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2417
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Meekins to stand as an independent follows that of Wisbech caf\u00e9 boss Andy Maul who yesterday became the latest Conservative to fight May\u2019sl elections as an independent",
+      "normalized_activation": 7.935060977935791,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2419,
+          "meaning_score": 0.8939,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6543
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2419,
+          "meaning_score": 0.5452,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3148
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1634,
+          "meaning_score": 0.3589,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2089
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Tank\u201d investor and businessman Kevin O\u2019Leary has a message for California governor Gavin Newsom: \u201cWake up and smell the hydrocarbons.\u201d California\u2019s climate",
+      "normalized_activation": 7.099599361419678,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1139,
+          "meaning_score": 0.5015,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2461
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1286,
+          "meaning_score": 0.2304,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1436
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1286,
+          "meaning_score": 0.6498,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3113
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Minister's powers to block ARC funding grants will be scrutinised in a parliamentary inquiry",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2072,
+          "meaning_score": 0.9174,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6498
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2072,
+          "meaning_score": 0.1131,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1281
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2072,
+          "meaning_score": 0.9174,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6498
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "In occasione delle festivit\u00e0 di Ognissanti e della commemorazione dei def",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2245,
+          "meaning_score": 0.438,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.265
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.235,
+          "meaning_score": 0.2929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2112
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.235,
+          "meaning_score": 0.5247,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5039
+        }
+      ]
+    }
+  ]
+}

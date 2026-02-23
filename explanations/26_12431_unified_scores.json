@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_12431",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing reported speech, citations, or attributed statements** (such as direct quotes from individuals, references to media outlets, legal testimony, or phrases like \"said,\" \"explained,\" or \"according to\").\n\n2. **Domain coverage**: The pattern appears across multilingual news, legal, and political discourse. Examples span English, Russian, Spanish, German, Czech, and others, often in contexts where a speaker, institution, or source is being cited\u2014e.g., court proceedings (\"submitted to the court\"), news reports (\"The Jerusalem Post\"), political declarations (\"China had no intention\"), or personal quotes (\"Trump replied\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature an external voice or source being referenced or quoted. The low-activation examples are largely descriptive, factual statements, or narrative without embedded attribution (e.g., \"Hubble telescope captures deceptive galactic dance,\" \"Residents living in South London claim...\" is a narrative framing, not a direct embedded quote).\n\n4. **Closing interpretation**: The neuron detects segments where language is explicitly framed as originating from a specific person, entity, or document. It appears to focus on the meta-linguistic layer of attribution, signaling that the text is reporting or citing another\u2019s words rather than presenting unmediated information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "is there talk about? I've told maybe two people and I suspect my partner hasn't told anyone because that's not her way. Here we are four",
+      "normalized_activation": 9.70656967163086,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2333,
+          "meaning_score": 0.1798,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1652
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2614,
+          "meaning_score": 0.0892,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1403
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2614,
+          "meaning_score": 0.0332,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1179
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ikosti prodejn\u00edho automatu \u00fasp\u011b\u0161n\u011b narazila do Dimorphosu, asteroidu o velikosti fotbalov",
+      "normalized_activation": 9.166373252868652,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1759,
+          "meaning_score": 0.2796,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1822
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.217,
+          "meaning_score": 0.455,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2688
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1595,
+          "meaning_score": 0.386,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2182
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "da. Bu durum, \u00e7al\u0131\u015fanlar\u0131n a\u011f\u0131r bir vergi y\u00fck\u00fc alt\u0131nda ezilmesine neden oluyor. T\u00dcRK-\u0130\u015e olarak,",
+      "normalized_activation": 8.526982307434082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2067,
+          "meaning_score": 0.6074,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3257
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1993,
+          "meaning_score": 0.5634,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3051
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1918,
+          "meaning_score": 0.3409,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2131
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Bob used to have a Christmas tradition and that was to have fondue for Christmas.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1872,
+          "meaning_score": 0.512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2797
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2164,
+          "meaning_score": 0.2311,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.179
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2621,
+          "meaning_score": 1.0,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7048
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "La tarde de este jueves, 4 de enero de 202",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1741,
+          "meaning_score": 0.3616,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2142
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2045,
+          "meaning_score": 0.1421,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1386
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.168,
+          "meaning_score": 0.1354,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1213
+        }
+      ]
+    }
+  ]
+}

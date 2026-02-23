@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_3143",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments describing real-world events involving conflict, disaster, legal issues, or social tensions (such as political disputes in conflict zones, natural disasters like earthquakes, official authorizations or legal challenges, and crime reports or controversies).\n\n2. **Domain coverage**: The pattern appears across multiple languages, including Hebrew, Spanish, Italian, Romanian, and Czech, primarily in formal or journalistic contexts. It covers domains such as international news (e.g., political support in Jenin), natural disaster reporting (e.g., seismic events in Turkey or Mexico), legal and governmental proceedings (e.g., judicial resources for oil exploration), and social issues (e.g., police violence or rare disease awareness). The texts often feature specific details like locations, dates, and official actions, indicating a focus on factual, event-driven reporting.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include references to concrete events with potential societal impact, urgency, or formal consequences, such as conflicts, disasters, or legal rulings. In contrast, low-activation texts lack this event-driven tension and instead focus on entertainment (e.g., celebrity news), technology releases, business updates, or casual announcements without immediate real-world stakes or formal reporting style.\n\n4. **Closing interpretation**: The neuron detects semantic content associated with impactful, often negative, events typically covered in news media, emphasizing elements that convey tension, resolution, or official involvement. It functions as a filter for text that signals real-world consequences or formal discourse across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "0 lavoratori perdono il posto di lavoro a causa dei danni e dei crolli registrati nelle fabbriche. Nel giro di poche ore",
+      "normalized_activation": 9.522951126098633,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1767,
+          "meaning_score": 0.3918,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2274
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1792,
+          "meaning_score": 0.4504,
+          "overlap_fraction": 0.175,
+          "location_score": 0.035,
+          "combined_score": 0.2869
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1172,
+          "meaning_score": 0.3855,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2011
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fost la doctor? \u0218i cel mai important: te bucuri de ceea ce se \u00eent\u00e2mpl\u0103 \u00een jurul t\u0103u? Este timp",
+      "normalized_activation": 8.58028793334961,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2029,
+          "meaning_score": 0.4106,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2454
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1478,
+          "meaning_score": 0.3432,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1964
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1771,
+          "meaning_score": 0.5732,
+          "overlap_fraction": 0.8936,
+          "location_score": 0.1787,
+          "combined_score": 0.4788
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Un successivo aggiornamento sulle attivit\u00e0 \u00e8 previsto per il 5 gennaio. Il terremoto ha coinvolto anche altre aziende",
+      "normalized_activation": 7.553605556488037,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1227,
+          "meaning_score": 0.4506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2293
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2009,
+          "meaning_score": 0.5253,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2905
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.055,
+          "meaning_score": 0.4522,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2029
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Semiconductor equipment maker ASML was barred by the Dutch government from exporting some of its",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3039,
+          "meaning_score": 0.8242,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6512
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1712,
+          "meaning_score": 0.4636,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2539
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1719,
+          "meaning_score": 0.6349,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3228
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Windermere has become the stuff of controversy. Once upon a time \u201cthe gl",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3491,
+          "meaning_score": 0.8023,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6606
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1517,
+          "meaning_score": 0.3487,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2002
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2147,
+          "meaning_score": 0.4557,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2682
+        }
+      ]
+    }
+  ]
+}

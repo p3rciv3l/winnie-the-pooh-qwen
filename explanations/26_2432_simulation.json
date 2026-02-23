@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_2432",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:01:33Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that contains explicit markers of journalistic or formal reporting** (such as attribution phrases like \"said the company\", source citations like \"according to CNN’s election results\", disclaimers like \"auto-published from an agency feed\", or structured news leads about events, statements, or updates).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, financial reports, and international news wires in multiple languages (English, Spanish, Italian). Topics are diverse—celebrity trends, politics, earthquakes, software updates, sports—but all are framed through a reporting lens that cites sources, institutions, or official channels.\n\n3. **Contrast with low-activation examples**: The low-activation texts are raw content fragments without journalistic framing: simple statements, personal names, creative analogies, or isolated phrases in various languages. They lack attribution, source references, disclaimers, or the formal tone of reported information.\n\n4. **Closing interpretation**: The neuron detects textual segments that signal mediated information—specifically, where the text is presented as coming from an external source or through a formal reporting structure, rather than being plain narrative or unmediated content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 5670,
+      "normalized": 9.519267082214355,
+      "actual_text": "auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+      "plain_text": "A Bulgari Mangalsutra is Madhuri Dixit Nene and Shibani Dandekar's choice for Karwachauth  By IANS | Published: October 13, 2022 12:45 PM 2022-10-13T12:45:05+5:30 2022-10-13T12:55:15+5:30  New Delhi, Oct 13 Celebrating love and togetherness, on the occasion of Karwachauth, celebrities Madhuri Dixit Nene and ...  New Delhi, Oct 13 Celebrating love and togetherness, on the occasion of Karwachauth, celebrities Madhuri Dixit Nene and Shibani Dandekar, were spotted flaunting Mangalsutra's by Haute Joaillerie BVLGARI. The versatile and one-of-a-kind piece was styled by the queen of hearts, Madhuri Dixit Nene, with a traditional outfit. On the other hand, Shibani Dandekar mirroring her young and free-spirited self paired the Mangalsutra with a sophisticated outfit. The international rendition of this Indian staple is set in 18ct yellow gold adorned with round black onyx inserts and pave diamonds, the Bulgari Mangalsutra inspired by the brand's conic line, and updates the traditional ornament to a contemporary and stylish jewel-deep rooted in culture. It represents the cosmopolitan aspirations of a modern bride. Seeking inspiration from its roman roots along with thorough research, this carefully crafted gold necklace is a perfect marriage between tradition and modernity, creating a meaningful connection with local cultural traditions. Recently actress Richa Chadha chose the Bulgari Mangalsutra at her wedding reception in Mumbai. A celebrity favourite, over the past years, the Mangalsutra has also been spotted on A list celebrities like Priyanka Chopra, Sonali Bendre and Yami Gautam. So if you're still wondering what to buy yourself this Karwachauth, why not pick this celebrity favourite. In India it is priced at Rs.3,82,000, and is available at Bulgari's New Delhi boutique and on www.bulgari.com. Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+          "concept": "disclaimer",
+          "reasoning": "This section is a disclaimer stating the article is auto-published from an agency feed, which is an explicit marker of formal reporting."
+        },
+        {
+          "rank": 2,
+          "text": "A Bulgari Mangalsutra is Madhuri Dixit Nene and Shibani Dandekar's choice for Karwachauth  By IANS | Published: October 13, 2022 12:45 PM 2022-10-13T12:45:05+5:30 2022-10-13T12:55:15+5:30",
+          "concept": "byline and timestamp",
+          "reasoning": "This section includes the author (IANS) and publication timestamp, which are standard journalistic attribution elements."
+        },
+        {
+          "rank": 3,
+          "text": "New Delhi, Oct 13 Celebrating love and togetherness, on the occasion of Karwachauth, celebrities Madhuri Dixit Nene and Shibani Dandekar, were spotted flaunting Mangalsutra's by Haute Joaillerie BVLGARI.",
+          "concept": "dateline lead",
+          "reasoning": "This section begins with a dateline (New Delhi, Oct 13) and reports an event in a formal news style."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 5212,
+      "normalized": 8.743795394897461,
+      "actual_text": "emnity Group has a beta of 0.4, indicating that its share price is 60% less volatile than the S&P 500",
+      "plain_text": "Global Indemnity Group (NASDAQ:GBLI – Get Rating) and Palomar (NASDAQ:PLMR – Get Rating) are both small-cap finance companies, but which is the superior investment? We will contrast the two companies based on the strength of their profitability, dividends, institutional ownership, earnings, analyst recommendations, valuation and risk.  Analyst Recommendations  This is a breakdown of current ratings and price targets for Global Indemnity Group and Palomar, as reported by MarketBeat.  Palomar has a consensus price target of $72.00, suggesting a potential upside of 17.96%. Given Palomar’s higher possible upside, analysts plainly believe Palomar is more favorable than Global Indemnity Group.  Insider & Institutional Ownership   Volatility and Risk  Global Indemnity Group has a beta of 0.4, indicating that its share price is 60% less volatile than the S&P 500. Comparatively, Palomar has a beta of 0.1, indicating that its share price is 90% less volatile than the S&P 500.  Earnings & Valuation  This table compares Global Indemnity Group and Palomar’s revenue, earnings per share and valuation.  Palomar has lower revenue, but higher earnings than Global Indemnity Group. Global Indemnity Group is trading at a lower price-to-earnings ratio than Palomar, indicating that it is currently the more affordable of the two stocks.  Profitability  This table compares Global Indemnity Group and Palomar’s net margins, return on equity and return on assets.  Summary  Palomar beats Global Indemnity Group on 10 of the 13 factors compared between the two stocks.  About Global Indemnity Group  Global Indemnity Group LLC engages in providing diversified insurance and reinsurance services. It operates through the following segments: Commercial Specialty, Farm, Ranch, and Stable, Reinsurance Operations, and Exited Lines. The Commercial Specialty segment provides specialty and casualty products designed for product lines such as small business binding authority, property brokerage, vacant express and programs. The Specialty Property segment offers specialty personal lines property and casualty insurance products. The Farm, Ranch, and Stable segment offers specialized property and casualty coverage including commercial farm auto and excess/umbrella coverage for the agriculture industry as well as specialized insurance products for the equine mortality and equine major medical industry. The Reinsurance Operations segment provides reinsurance solutions through brokers and primary writers including insurance and reinsurance companies. The company was founded in 2003 and is headquartered in Bala Cynwyd, PA.  About Palomar  Palomar Holdings, Inc. operates as an insurance holding company. The firm focuses on the residential and commercial earthquake markets in earthquake-exposed states such as California, Oregon, Washington and states with exposure to the New Madrid Seismic Zone. It offers property and casualty insurance. The company was founded by Armstrong Mac & Fisher Heath on October 4, 2013 and is headquartered in La Jolla, CA.  Receive News & Ratings for Global Indemnity Group Daily - Enter your email address below to receive a concise daily summary of the latest news and analysts' ratings for Global Indemnity Group and related companies with MarketBeat.com's FREE daily email newsletter.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Analyst Recommendations  This is a breakdown of current ratings and price targets for Global Indemnity Group and Palomar, as reported by MarketBeat.  Palomar has a consensus price target of $72.00, suggesting a potential upside of 17.96%. Given Palomar’s higher possible upside, analysts plainly believe Palomar is more favorable than Global Indemnity Group.",
+          "concept": "analyst citation",
+          "reasoning": "This section cites analyst ratings and price targets as reported by MarketBeat, indicating formal financial reporting."
+        },
+        {
+          "rank": 2,
+          "text": "About Global Indemnity Group  Global Indemnity Group LLC engages in providing diversified insurance and reinsurance services. It operates through the following segments: Commercial Specialty, Farm, Ranch, and Stable, Reinsurance Operations, and Exited Lines. The Commercial Specialty segment provides specialty and casualty products designed for product lines such as small business binding authority, property brokerage, vacant express and programs.",
+          "concept": "company description",
+          "reasoning": "This section provides a formal description of a company's business segments, typical of financial news or reports."
+        },
+        {
+          "rank": 3,
+          "text": "About Palomar  Palomar Holdings, Inc. operates as an insurance holding company. The firm focuses on the residential and commercial earthquake markets in earthquake-exposed states such as California, Oregon, Washington and states with exposure to the New Madrid Seismic Zone. It offers property and casualty insurance. The company was founded by Armstrong Mac & Fisher Heath on October 4, 2013 and is headquartered in La Jolla, CA.",
+          "concept": "company description",
+          "reasoning": "This section provides a formal description of another company, including founding details, which is characteristic of financial reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 884,
+      "normalized": 7.950352668762207,
+      "actual_text": "Alphabet/Waymo selbst äußert sich dazu noch nicht, aber wie es bei Bloomberg heißt, werden diese Autos dann als teilautonome Fahrzeuge",
+      "plain_text": "Erst vor wenigen Tagen erfuhren wir von Waymo. Google – oder besser gesagt: Alphabet – hat sein Moonshot-Projekt für selbstfahrende Autos in ein eigenständiges Unternehmen ausgelagert. Unter diesem Namen wird man also weiter an autonom fahrenden Autos arbeiten, wobei als Ziel gilt, diese Fahrzeuge möglichst schnell regulär auf die Straße zu bekommen – und nicht etwa, ein komplett eigenes Auto zu entwickeln.  Vollkommen autonomes Fahren möglich  Google hat bereits mit mehreren Partnern zusammen am autonomen Auto gearbeitet. Schon vor dem Waymo-Start wurde Fiat Chrysler als neuer Verbündeter bestätigt und der Mini-Van Chrysler Pacifico soll die Waymo-Flotte bereichern. Jetzt wurde es diesbezüglich konkret, denn Fiat Chrysler verkündete, dass man gleich 100 Fahrzeuge des neuen Chrysler Pacifico mit der Waymo-Technologie präpariert habe.  Voll bestückt mit entsprechendem Computer, Sensoren, Kameras etc. sind die Hybrid-Wagen in der Lage, vollkommen autonom zu fahren und werden bereits Anfang 2017 an Waymo geliefert. Auch einen Blick auf das Fahrzeug konnte man werfen. Neulich berichtete Bloomberg auch bereits über die Pläne für diese Flotte. Immer häufiger entwickeln die Hersteller nicht nur neue Fahrzeuge, sondern haben auch Strategien im Blick, wie das urbane Leben mit Automobil künftig optimiert werden soll. Waymo und Fiat Chrysler stellen da keine Ausnahme dar, denn die 100 Mini-Vans sollen im Rahmen eines Ride-Sharing-Dienstes noch im nächsten Jahr eingesetzt werden.  Fraglich ist, ob es bei nur 100 Autos bleibt  Alphabet/Waymo selbst äußert sich dazu noch nicht, aber wie es bei Bloomberg heißt, werden diese Autos dann als teilautonome Fahrzeuge auf den Straßen zu sehen sein. Je nachdem, wie groß angelegt dieses Projekt anlaufen soll, wird Fiat Chrysler – oder vielleicht auch ein anderer Hersteller – jedoch noch weitere Fahrzeuge liefern müssen. Zumindest ist es schwer vorstellbar, dass man einen solchen Dienst mit lediglich 100 Autos auf die Straße bringen kann.  Passend zum Thema: Kooperation mit Fiat Chrysler: Amazon verkauft jetzt auch Autos, Zweiter neuer Stromer von VW: Ein Microbus auf MEB-Basis und Hohe Luftbelastung: Fahrverbote in deutschen Städten und Rußpartikelfilter geplant.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jetzt wurde es diesbezüglich konkret, denn Fiat Chrysler verkündete, dass man gleich 100 Fahrzeuge des neuen Chrysler Pacifico mit der Waymo-Technologie präpariert habe.  Voll bestückt mit entsprechendem Computer, Sensoren, Kameras etc. sind die Hybrid-Wagen in der Lage, vollkommen autonom zu fahren und werden bereits Anfang 2017 an Waymo geliefert.",
+          "concept": "company announcement",
+          "reasoning": "This section reports an official announcement by Fiat Chrysler about vehicle preparations, using formal reporting language."
+        },
+        {
+          "rank": 2,
+          "text": "Neulich berichtete Bloomberg auch bereits über die Pläne für diese Flotte. Immer häufiger entwickeln die Hersteller nicht nur neue Fahrzeuge, sondern haben auch Strategien im Blick, wie das urbane Leben mit Automobil künftig optimiert werden soll.",
+          "concept": "source attribution",
+          "reasoning": "This section explicitly cites Bloomberg as reporting on the plans, indicating mediated information."
+        },
+        {
+          "rank": 3,
+          "text": "Alphabet/Waymo selbst äußert sich dazu noch nicht, aber wie es bei Bloomberg heißt, werden diese Autos dann als teilautonome Fahrzeuge auf den Straßen zu sehen sein. Je nachdem, wie groß angelegt dieses Projekt anlaufen soll, wird Fiat Chrysler – oder vielleicht auch ein anderer Hersteller – jedoch noch weitere Fahrzeuge liefern müssen.",
+          "concept": "source attribution",
+          "reasoning": "This section again cites Bloomberg as a source for future projections, showing journalistic sourcing."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00009",
+      "row_idx": 5369,
+      "normalized": 0.0,
+      "actual_text": "İstanbul'da resmi nikahlı karısını aldatan, hiçbir",
+      "plain_text": "İstanbul'da resmi nikahlı karısını aldatan, hiçbir ihtiyacını karşılamadığı çocukları ve eşini sokağa atıp aylarca arayıp sormayan 46 yaşındaki D.B. adlı adam hakkında emsal niteliğinde bir savcılık iddianamesi hazırlandı. Kocasının kendisini aldattığını öğrenince hesap soran İ.B. tartışmalar üzerine kocası tarafından evlatlarıyla birlikte kapı önüne konuldu. İki ay boyunca memleketinde ailesinin yanında kalan çaresiz kadın, İstanbul'a dönünce aldatmanın sürdüğünü öğrenip şikayetçi oldu. İstanbul Cumhuriyet Başsavcılığı Ailenin Korunması Bürosu harekete geçti. Savcılığın hazırladığı iddianamede, D.B.'nin eşi ve 3 çocuğunu evden atmak suretiyle aile yükümlülüğünü ihlal ettiği, genç kadının kendi imkanları ile hayatını sürdürmeye çalıştığı, son olarak da genç kadının eve gittiğinde darp edildiği belirtildi. Koca hakkında, 'Yaralama' ve 'Aile Hukukundan Kaynaklanan Yükümlülüğün İhlali' suçlarından 4 yıla kadar hapis talebiyle dava açıldı.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "İstanbul'da resmi nikahlı karısını aldatan, hiçbir ihtiyacını karşılamadığı çocukları ve eşini sokağa atıp aylarca arayıp sormayan 46 yaşındaki D.B. adlı adam hakkında emsal niteliğinde bir savcılık iddianamesi hazırlandı. Kocasının kendisini aldattığını öğrenince hesap soran İ.B. tartışmalar üzerine kocası tarafından evlatlarıyla birlikte kapı önüne konuldu.",
+          "concept": "legal indictment",
+          "reasoning": "This section reports the preparation of a prosecutor's indictment, using formal legal reporting language."
+        },
+        {
+          "rank": 2,
+          "text": "İki ay boyunca memleketinde ailesinin yanında kalan çaresiz kadın, İstanbul'a dönünce aldatmanın sürdüğünü öğrenip şikayetçi oldu. İstanbul Cumhuriyet Başsavcılığı Ailenin Korunması Bürosu harekete geçti.",
+          "concept": "prosecutor action",
+          "reasoning": "This section states that the prosecutor's office took action, which is a formal reporting of official proceedings."
+        },
+        {
+          "rank": 3,
+          "text": "Savcılığın hazırladığı iddianamede, D.B.'nin eşi ve 3 çocuğunu evden atmak suretiyle aile yükümlülüğünü ihlal ettiği, genç kadının kendi imkanları ile hayatını sürdürmeye çalıştığı, son olarak da genç kadının eve gittiğinde darp edildiği belirtildi. Koca hakkında, 'Yaralama' ve 'Aile Hukukundan Kaynaklanan Yükümlülüğün İhlali' suçlarından 4 yıla kadar hapis talebiyle dava açıldı.",
+          "concept": "indictment details",
+          "reasoning": "This section details the contents of the indictment as stated by the prosecutor, showing mediated legal information."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00013",
+      "row_idx": 5724,
+      "normalized": 0.0,
+      "actual_text": "Wednesday, Dec. 21, 2016 | 11",
+      "plain_text": "Wednesday, Dec. 21, 2016 | 11:57 a.m.  RENO — National leaders of a fraternity with a chapter at the University of Nevada where an 18-year-old pledge died in October are conducting their own investigation into the alleged violations that prompted a 15-year suspension of the frat's recognition on the Reno campus.  The university ordered the suspension on Tuesday after concluding Sigma Nu's Delta Xi Chapter violated the school's alcohol policy and codes of conduct.  Sigma Nu has until Dec. 29 to appeal.  Ryan Abele of Concord, California, died 12 days after he fell down a staircase leading to the frat house basement on Oct. 16.  Brad Beacham, executive director of Sigma Nu based in Lexington, Virginia, said Wednesday the national frat's own investigation is \"ongoing.\"  He said the fraternity founded in 1869 \"remains committed to its principles and to its mission of developing ethical leaders.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Wednesday, Dec. 21, 2016 | 11:57 a.m.  RENO — National leaders of a fraternity with a chapter at the University of Nevada where an 18-year-old pledge died in October are conducting their own investigation into the alleged violations that prompted a 15-year suspension of the frat's recognition on the Reno campus.",
+          "concept": "dateline and lead",
+          "reasoning": "This section begins with a timestamp and dateline (RENO) and reports an ongoing investigation, typical of news reporting."
+        },
+        {
+          "rank": 2,
+          "text": "The university ordered the suspension on Tuesday after concluding Sigma Nu's Delta Xi Chapter violated the school's alcohol policy and codes of conduct.  Sigma Nu has until Dec. 29 to appeal.",
+          "concept": "university action",
+          "reasoning": "This section reports the university's disciplinary action, citing official policy violations."
+        },
+        {
+          "rank": 3,
+          "text": "Brad Beacham, executive director of Sigma Nu based in Lexington, Virginia, said Wednesday the national frat's own investigation is \"ongoing.\"  He said the fraternity founded in 1869 \"remains committed to its principles and to its mission of developing ethical leaders.\"",
+          "concept": "official statement",
+          "reasoning": "This section quotes an executive director's statement, providing attribution to a named source."
+        }
+      ]
+    }
+  ]
+}

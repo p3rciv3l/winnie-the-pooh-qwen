@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_7102",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:00:39Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments where someone is pointing out, highlighting, or referring to specific information** (such as phrases containing “pointed out,” “points to,” “refers to,” “apunta,” or “Jedná se o” – the latter meaning “It is about” or “It concerns”).\n\n2. **Domain coverage**: The pattern appears across diverse topics (politics, economics, sports, science) and multiple languages (English, Spanish, Czech, Arabic), indicating it detects the linguistic act of citation or attribution rather than a specific subject. It activates on explicit reporting verbs/clauses where a source (person, data, evidence) is directing attention to a fact, claim, or detail.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit framing of **referential or highlighting language** (“pointed out that,” “points to,” “refer to”). The low-activation examples are straightforward statements, descriptions, or narratives that lack this meta-linguistic layer of one entity indicating or referencing another piece of information.\n\n4. **Closing interpretation**: The neuron detects the syntactic-semantic structure of attribution, where information is presented as being singled out or referenced by an agent or source. It functions as a “citation/reference detector” in discourse, independent of the specific content being highlighted.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00006",
+      "row_idx": 834,
+      "normalized": 9.43375301361084,
+      "actual_text": "of the House at the commencement of the New Year before initiating the proceedings. He pointed out the plight of the women and the protestors under open skies that also included children",
+      "plain_text": "Senators Demand National Dialogue, Highlight Balochistan Protesters Issue  Faizan Hashmi Published January 01, 2024 | 06:40 PM  The members of the Upper House of the Parliament on Monday called for initiating a national dialogue and highlighted  ISLAMABAD, (UrduPoint / Pakistan Point News - 1st Jan, 2024) The members of the Upper House of the Parliament on Monday called for initiating a national dialogue and highlighted the issue of Balochistan protestors in the Capital. The third convening of the 334th Senate session was held with Senator Sadiq Sanjrani in the chair that started with the call from Senators for allowing to speak on the issue of Balochistan protestors. The Chairman Senate in his welcome remarks felicitated the members of the House at the commencement of the New Year before initiating the proceedings. He pointed out the plight of the women and the protestors under open skies that also included children. He also callled for addressing the missing persons issue without further delay. \"There should be a debate on missing persons issue to start the dialogue. The stakeholders should be convened on a single platform under a separate committee that should be established to resolve the issue', he added. Senator Muhammad Tahir Bizinjo of National Party also expressed concern over the plight of Baloch protestors.  He said that the threats to political leaders like his leader Aimal Wali Khan or Moulana Fazlur Rehman, would have adverse impacts on democratic norms. Senator Moulvi Faiz Muhammad of JUI-P said it was the responsibility of the government to ensure protection of life, property and honour of the citizens. Senator Mushahid Hussain Sayed of Pakistan Muslim League (PML) apprised the House that during his recent participation at an international conference on Palestine in Tehran, he on behalf of the House expressed full solidarity with Palestinians and paid tribute to their fight against Israeli occupation. He said that the so-called Israeli might was shattered by the Palestinians and its brutalities and violations of human rights were blatantly exposed before the world. He said the plight of Baloch women protestors was regrettable and should not be repeated in any manner. Senator Bahramand Khan Tangi of Pakistan People's Party Parliamentrian condemned Pashtun Tahafuz Movement , leader Manzoor Pashteen for using foul language against national institutions of the country. Tangi demanded Pashteen to stop propaganda against the state and join politics to become part of the mainstream political discourse.  Related Topics  Recent Stories  CPI inflation recorded at 29.7% in December  EU visa-free travel for Kosovo enters into force  Farmers advised to start sunflower cultivation  30,677 criminals arrested in Faisalabad last year  President SST congratulates newly elected office bearers of SPC  FESCO shutdown  Dominant Swiatek sends Poland into United Cup quarter-finals  Minister lays foundation stone of Shah Alla Ditta Caves preservation & developme ..  Putin says Russia will 'intensify' attacks on Ukraine  MDA launches action against illegal buildings  Special steering committee reviews progress on implementation of decisions  Clean & Green Peshawar campaign launched  More Stories From Pakistan  \n\n\n Farmers advised to start sunflower cultivation  3 minutes ago  \n\n\n 30,677 criminals arrested in Faisalabad last year  3 minutes ago  \n\n\n President SST congratulates newly elected office bearers of SPC  3 minutes ago  \n\n\n FESCO shutdown  9 minutes ago  \n\n\n Minister lays foundation stone of Shah Alla Ditta Caves preservation & development project  3 minutes ago  \n\n\n MDA launches action against illegal buildings  3 minutes ago  \n\n\n Special steering committee reviews progress on implementation of decisions  9 minutes ago  \n\n\n Clean & Green Peshawar campaign launched  3 minutes ago  \n\n\n Alhamra Arts Council unfolds literary, cultural events  3 minutes ago  \n\n\n Over Rs 100 m fined on profiteers during Year 2023  3 minutes ago  \n\n\n Deputy Mayor stresses for improvement in provision of municipal facilities  3 minutes ago  \n\n\n Exercise BARRACUDA holds potential to foster valuable exchange of knowledge, experiences among parti ..  3 minutes ago",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "He pointed out the plight of the women and the protestors under open skies that also included children. He also callled for addressing the missing persons issue without further delay.",
+          "concept": "pointing out",
+          "reasoning": "This section directly uses 'pointed out', which matches the neuron's description of highlighting specific information."
+        },
+        {
+          "rank": 2,
+          "text": "Senator Mushahid Hussain Sayed of Pakistan Muslim League (PML) apprised the House that during his recent participation at an international conference on Palestine in Tehran, he on behalf of the House expressed full solidarity with Palestinians and paid tribute to their fight against Israeli occupation.",
+          "concept": "informing",
+          "reasoning": "The verb 'apprised' indicates reporting or referencing information, aligning with the neuron's detection of attribution."
+        },
+        {
+          "rank": 3,
+          "text": "Senator Muhammad Tahir Bizinjo of National Party also expressed concern over the plight of Baloch protestors. He said that the threats to political leaders like his leader Aimal Wali Khan or Moulana Fazlur Rehman, would have adverse impacts on democratic norms.",
+          "concept": "expressing concern",
+          "reasoning": "'Expressed concern' involves highlighting an issue, fitting the pattern of referring to specific information."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 4372,
+      "normalized": 7.86353874206543,
+      "actual_text": "31 at 8 p.m. In a phone interview recently, we point out to the Harlan, Kentucky, native that three of the songs have “",
+      "plain_text": "MASHANTUCKET >> Great talent can also be a bit of a curse at times.    For Jordan Smith, who won Season 9 of “The Voice” and delivered arguably the most-electrifying moment in that show’s history with his rendition of Queen’s “Somebody to Love,” the high-pitched voice that amazes listeners often gave him more self-esteem issues than glory. On the phone, many have mistaken him for a woman; internet “geniuses” think he’s transgender.    Looks-wise, he comes off more like a beefy computer technician than a skinny-jeans model, so this is a man working through issues as well as great melodies in his 2016 debut album “Something Beautiful,” which he will showcase at Foxwoods Resort Casino’s Fox Theater March 31 at 8 p.m.    In a phone interview recently, we point out to the Harlan, Kentucky, native that three of the songs have “beautiful” in the title and another is “I Got To Be Me.” Sounds like an artist talking about self-acceptance.    “It was a process for me. I hand-selected each one of these songs together, and I wanted the album to touch on different parts of my life and my own personal story, and ultimately...if you’re having a terrible, terrible day and you play one of these songs, it could be the one beautiful thing in your day that you need.”    As he says in his one-sheet bio, “It’s extremely important for me to let everyone know it’s OK to be different.”    The album, a mix of new songs and covers that include “Somewhere Over the Rainbow,” is “sprinkled with stories and ideas of self-acceptance, learning to love yourself, learning to be loved by other people, learning to love other people. There are some songs on there that are kind of heartbreaking and sad, because we all have (those) moments. There are songs on there that are happy and fun and that’s because we have those moments, too.    Smith, 23, married his longtime girlfriend Kristen Denny, who often travels with him, last year.    The man with the near-perfect pitch who became the best-selling artist in “Voice” history (topping Adele on the charts at one point) said he’s seen a lot in the year and a half since he started “The Voice.” Before that he was just a kid who grew up singing a lot with his family, whether harmonizing in the car with his mom or singing in the church choir — although he did sing and travel with his college singing group the Lee Singers, which helped prepare him some.    “My hometown has a population of about 1,700 people,” he said of the contrast to Los Angeles and other venues he’s played. “Everyone kind of knows each other. Since my time on ‘The Voice’...I’ve been kind of all over the world; I’ve been to some of the biggest cities. ... I’ve played in some really huge venues and I’ve played in some really small venues,” he laughs. (This tour has been in more intimate venues, he says, and the Fox Theater is smaller than its 4,000-seat cousin at Foxwoods, the Grand Theater.)    Different people in different places, a plus for music in polarized America.    “I’ve gotten to meet lots and lots of people from all walks of life, and honestly I can say that the thing I’ve learned is that music is the universal language between all of it. ... Every single time I’ve gotten to make a connection with someone, and it’s a really good feeling to be able to do that regardless of where you are.”    “Music has been kind of a solace to me...a comforting thing throughout my life,” he said. “If I’ve been up on a mountain or down in a valley, if I’ve been upset or I’ve been happy, I sing. ... I enjoy music.”    He hopes his music can help people.    “I want this tour and these shows...to be a time when people can come in and they can, even if just for a minute, forget about everything that’s going on outside the auditorium, and they can be in the moment with me. And they can experience a little bit of beauty, they can hear about me and my story. And I can learn a little bit about them...and we can have an evening of good music that hopefully spreads a little joy and makes lives a little bit better.”    Smith travels with a four-person band of established musicians, he said, and will also do some “Voice” favorites.    The power of NBC’s “The Voice,” which despite its requisite eliminations is a rare positive reality show, is evident in its effect on iTunes charts and top TV ratings. Big stars trip over themselves to be on the show, for weekly or as a guest. After tapings, said Smith, contestants retreat to their cellphones to check on iTunes results.    When Smith’s sales topped the great Adele, “I just screamed at the top of my lungs. It was so surreal, not only because it’s an amazing feeling and you realize, ‘Hey, I actually could be good at something,’ but because you realize you were able to connect with so many people at once, that they wanted to go and get it for themselves and experience it again. And that is such a humbling feeling.”    The only downside to that is being recognized a lot in public: “I have to add at least an hour to every trip to the grocery store,” he chuckled, “and we run most of our errands at midnight.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In a phone interview recently, we point out to the Harlan, Kentucky, native that three of the songs have “beautiful” in the title and another is “I Got To Be Me.” Sounds like an artist talking about self-acceptance.",
+          "concept": "pointing out",
+          "reasoning": "The phrase 'point out' explicitly matches the neuron's triggering pattern of highlighting information."
+        },
+        {
+          "rank": 2,
+          "text": "“It was a process for me. I hand-selected each one of these songs together, and I wanted the album to touch on different parts of my life and my own personal story, and ultimately...if you’re having a terrible, terrible day and you play one of these songs, it could be the one beautiful thing in your day that you need.”",
+          "concept": "self-referencing",
+          "reasoning": "The artist highlights aspects of his album, which involves referencing specific information."
+        },
+        {
+          "rank": 3,
+          "text": "“I’ve gotten to meet lots and lots of people from all walks of life, and honestly I can say that the thing I’ve learned is that music is the universal language between all of it. ... Every single time I’ve gotten to make a connection with someone, and it’s a really good feeling to be able to do that regardless of where you are.”",
+          "concept": "sharing insight",
+          "reasoning": "This section involves the artist pointing out a learned truth, aligning with the neuron's detection of attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 793,
+      "normalized": 6.5014729499816895,
+      "actual_text": "NOTE: This site uses cookies and similar technologies. If you do not change your browser settings you are agreeing to their use. Credit: KiK BÖNEN",
+      "plain_text": "PLEASE NOTE: This site uses cookies and similar technologies. If you do not change your browser settings you are agreeing to their use. Credit: KiK BÖNEN – Following media reports in Germany, Human Rights Watch (HRW) has publicly challenged KiK Textil over its perceived lack of commitment to improved supply chain transparency. Be part of something Better - Supply Chain Coordinator at Better Cotton Initiative – London/Geneva An opportunity to join an enthusiastic and dynamic team that are making significant global changes. Supporting the Senior Manager - Assurance and Supply Chain Compliance, on maintaining the integrity of the Chain of Custody (CoC) guidelines and coordinating the execution of the BCI Assurance Program in your assigned countries. Need to advertise a job? Email: info@mclnews.com to promote your listing through Careers in Textiles. Ecotextile News is the authority for news, comment and analysis on the world of sustainable textiles and clothing. Our web-site features daily headlines and breaking news from around the world written by industry experts and seasoned industry journalists. Use of and/or registration on any portion of this site constitutes acceptance of our Terms of Use and Privacy Policy. © 2016 MCL News & Media and its licensors. All rights reserved. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of MCL News & Media.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Credit: KiK BÖNEN – Following media reports in Germany, Human Rights Watch (HRW) has publicly challenged KiK Textil over its perceived lack of commitment to improved supply chain transparency.",
+          "concept": "challenging",
+          "reasoning": "'Publicly challenged' acts as highlighting or pointing out an issue, similar to the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Be part of something Better - Supply Chain Coordinator at Better Cotton Initiative – London/Geneva An opportunity to join an enthusiastic and dynamic team that are making significant global changes.",
+          "concept": "promotion",
+          "reasoning": "This section is promotional and does not involve pointing out specific information, so lower activation."
+        },
+        {
+          "rank": 3,
+          "text": "Ecotextile News is the authority for news, comment and analysis on the world of sustainable textiles and clothing. Our web-site features daily headlines and breaking news from around the world written by industry experts and seasoned industry journalists.",
+          "concept": "self-description",
+          "reasoning": "This is descriptive and lacks the attributive language that the neuron detects."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 781,
+      "normalized": 0.0,
+      "actual_text": "MEMPHIS, Tenn. (WMC) - WMC Action News 5",
+      "plain_text": "MEMPHIS, Tenn. (WMC) - WMC Action News 5 is the recipient of a 2021 Regional Edward R. Murrow Award for Continuous Coverage.  Awarded by the Radio Television Digital News Association, these are among the most prestigious awards in broadcast and digital news.  RTDNA awarded WMC Action News 5 for our investigative reporting on excessive force complaints within the Memphis Police Department. The series featured reporting by Jessica Jaglois and photography by Mike Moore.  WMC is now under consideration for a National Murrow Award.  Starting with police worn body camera that led to one officer’s resignation, WMC spent months combing through thousands of pages of excessive force complaints against Memphis police. Following our first story, we spoke with the father of the victim about the impact it had on his son. From our digging, we uncovered that of the more than 125 complaints only two cases were sent to the District Attorney General for criminal review, even when excessive force had been determined.  Click the links below or watch the stories in the playlist at the bottom of this story:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "RTDNA awarded WMC Action News 5 for our investigative reporting on excessive force complaints within the Memphis Police Department. The series featured reporting by Jessica Jaglois and photography by Mike Moore.",
+          "concept": "award recognition",
+          "reasoning": "This highlights an achievement, which involves pointing out specific information."
+        },
+        {
+          "rank": 2,
+          "text": "From our digging, we uncovered that of the more than 125 complaints only two cases were sent to the District Attorney General for criminal review, even when excessive force had been determined.",
+          "concept": "uncovering facts",
+          "reasoning": "'Uncovered' indicates revealing or highlighting information, matching the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Starting with police worn body camera that led to one officer’s resignation, WMC spent months combing through thousands of pages of excessive force complaints against Memphis police.",
+          "concept": "investigative effort",
+          "reasoning": "This describes actions but lacks explicit attributive language, so lower activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5741,
+      "normalized": 0.0,
+      "actual_text": "Police in Pakistan have arrested a newly married woman on murder charges after she allegedly poisoned her",
+      "plain_text": "Police in Pakistan have arrested a newly married woman on murder charges after she allegedly poisoned her husband’s milk and it inadvertently killed 17 other people in a remote village, a senior officer said.  District police chief Sohail Habib Tajak said a judge allowed police to question the woman for two weeks to determine whether it was the woman’s decision or a boyfriend had incited her to kill her husband by poisoning him. “This incident took place last week and our officers have made progress by arresting a woman and her lover in connection with this murder case, which was complicated and challenging for us,” he said. Mr Tajak said the woman, who was not identified, was married against her will in September in a village near the town of Ali Pur, 60 miles south of Multan, a city in the eastern Punjab province. He said the woman was not happy with her husband and wanted to return to her parents’ home. Mr Tajak said she obtained a poisonous substance from her boyfriend last week and mixed it in milk for her husband, who refused to drink it. The woman’s mother-in-law later used the tainted milk to make a traditional yogurt-based drink and served it to 27 people in her extended family, who fell unconscious and were taken to hospital. Seventeen died and ten are being treated in hospital, he said. The woman appeared before a judge in the city of Muzaffargarh this week, where she said she was angered over her parents’ decision to marry her to a man against her will. “I repeatedly asked my parents not to marry me against my will as my religion, Islam, also allows me to choose the man of my choice for marriage, but my parents rejected all of my pleas and they married me to a relative,” she said. The woman said her love affair with her boyfriend continued after she got married. She said she had warned her parents she could go to any extent to get out of her marriage, but they refused to allow her to get a divorce. The woman expressed remorse over the deaths, saying her target was only her husband. Mr Tajak said police were trying to trace and arrest all those who were aware of the woman’s plot aimed at her husband. He said the woman’s boyfriend had confessed to supplying a poisonous substance. Faisal Chingwani, a top human rights activist in the city of Multan, said Bibi apparently committed the crime because she was mentally stressed about the forced marriage.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "District police chief Sohail Habib Tajak said a judge allowed police to question the woman for two weeks to determine whether it was the woman’s decision or a boyfriend had incited her to kill her husband by poisoning him.",
+          "concept": "reporting",
+          "reasoning": "'Said' is a common attributive verb, but it may activate the neuron as it involves referencing information."
+        },
+        {
+          "rank": 2,
+          "text": "Mr Tajak said the woman, who was not identified, was married against her will in September in a village near the town of Ali Pur, 60 miles south of Multan, a city in the eastern Punjab province.",
+          "concept": "stating facts",
+          "reasoning": "This section uses 'said' to point out details, aligning with attribution."
+        },
+        {
+          "rank": 3,
+          "text": "The woman said she was angered over her parents’ decision to marry her to a man against her will. “I repeatedly asked my parents not to marry me against my will as my religion, Islam, also allows me to choose the man of my choice for marriage, but my parents rejected all of my pleas and they married me to a relative,” she said.",
+          "concept": "personal account",
+          "reasoning": "The woman highlights her situation, which involves referencing specific information."
+        }
+      ]
+    }
+  ]
+}

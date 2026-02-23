@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_12054",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of political parties, governments, military/resistance groups, and ideological movements, particularly those with names containing \"People's,\" \"Democratic,\" \"National,\" or similar collectivist or state-affiliated terms** (such as *People's Democratic Party (PDP)*, *Communist Party of China*, *Democratic Alliance (DA)*, *Hizbul Mujahideen*, or *United Wa State Army*).\n\n2. **Domain coverage**: The pattern appears in multilingual news and political discourse covering elections, legislation, conflicts, and governance across various countries (e.g., India, Nigeria, South Africa, China, Venezuela, Canada). It also processes names of coalitions, opposition groups, and armed factions in contexts of struggle, policy, or retaliation, seen in English, French, Spanish, Arabic, and other languages.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature named political or military organizations as central subjects, often within sentences about power, policy, or conflict. The low-activation examples lack these specific entity references, focusing instead on general news, sports, entertainment, accidents, or cultural topics without mention of formal political/ideological groups.\n\n4. **Closing interpretation**: The neuron detects textual references to organized collective actors in the political and military sphere, serving as a filter for discourse involving state, partisan, or insurgent entities. Its sensitivity to terms like \"People's\" suggests a focus on groups that formally claim to represent a populace or a nation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "two allies of President Xi Jinping have been appointed to senior positions in the Communist Party of China (CPC) - head of propaganda and chief of staff. Huang",
+      "normalized_activation": 9.069966316223145,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1006,
+          "meaning_score": 0.8516,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3809
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1145,
+          "meaning_score": 0.4133,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2111
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1542,
+          "meaning_score": 0.7321,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3545
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "front of Manipur BJP office. Shital, the secretary general of the Democratic Students\u2019 Alliance of Manipur (DESAM) is likely to be rendered disabled his",
+      "normalized_activation": 7.0690484046936035,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3361,
+          "meaning_score": 0.8364,
+          "overlap_fraction": 0.8092,
+          "location_score": 0.1618,
+          "combined_score": 0.6308
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1874,
+          "meaning_score": 0.4623,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2599
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1288,
+          "meaning_score": 0.3943,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2092
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "he held numerous top level positions at Petr\u00f3leos de Venezuela (PDVSA), including President of Corporacion Venezolana del Petroleo, President of",
+      "normalized_activation": 4.939589500427246,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2273,
+          "meaning_score": 0.6749,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5609
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1504,
+          "meaning_score": 0.4484,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2395
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2273,
+          "meaning_score": 0.3654,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2371
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Actress Rakul Preet Singh, who will share screen space with actor Sidhar",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.165,
+          "meaning_score": 0.7252,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5561
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1378,
+          "meaning_score": 0.4584,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2385
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1175,
+          "meaning_score": 0.426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Yesterday Hasbro and eOne revealed the first look at Mighty Morphin Power Rangers'",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1451,
+          "meaning_score": 0.7631,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5633
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1799,
+          "meaning_score": 0.5241,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2816
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2145,
+          "meaning_score": 0.4585,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2692
+        }
+      ]
+    }
+  ]
+}

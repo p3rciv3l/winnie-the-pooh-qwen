@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_11101",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:26:34Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style text snippets containing detailed references to named entities with titles, dates, or attributions** (such as journalistic bylines, quotes with sources, or descriptive phrases about people, organizations, and places).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Greek, Romanian, Russian, Italian, Turkish, Polish, German, Hindi, Spanish) and spans diverse topics including politics, entertainment, sports, finance, and culture. High-activation examples consistently exhibit a journalistic narrative style, often with explicit authorship credits (e.g., \"By Greg Roumeliotis...\"), direct quotes (e.g., \"tells PEOPLE\"), or specific contextual details like dates and titles.\n\n3. **Contrast with low-activation examples**: While low-activation texts are also often news-related, they are more concise and lack the dense named-entity descriptions, attributions, and narrative elaboration seen in high-activation examples. The low-activation group resembles simple headlines or factual leads without multiple proper nouns, detailed modifiers, or quoted speech.\n\n4. **Closing interpretation**: The neuron likely detects passages with a high density of proper nouns and journalistic framing, serving as a feature for identifying rich, contextually detailed news content across languages. It emphasizes not just named entities but their presentation within a reporting or narrative structure.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00010",
+      "row_idx": 366,
+      "normalized": 9.582993507385254,
+      "actual_text": "Here are some of the books and authors suggested: “Folly” by Laurie R. King. Two readers suggested this 2001 novel, set on",
+      "plain_text": "The Plot Thickens Not so long ago, probably on one of those dark-gray nights when the rain sounds like a persistent solicitor tap-tap-tapping at your door, a reader emailed me with a question: Could I recommend a good, noirish mystery novel set in the Pacific Northwest? Knowing that the reading power of a crowd is far better than that of an individual (and also being very good at dodging hard questions, like a pickpocket eluding a lawman’s eye), I tossed the query out to all of you last month — and you did not disappoint. Here are some of the books and authors suggested: “Folly” by Laurie R. King. Two readers suggested this 2001 novel, set on a fictional island in the San Juans and centered on an artist who uncovers and solves a murder. King is well known for her excellent Mary Russell/Sherlock Holmes series, which began with “The Beekeeper’s Apprentice.” The Leo Waterman series by G.M. Ford. Another one selected by multiple readers, this 12-book series featuring a Seattle private investigator began with the deliciously titled “Who the Hell Is Wanda Fuca?” in 1995 and most recently continued with 2019’s “Heavy On the Dead.” Curt Colbert and Waverly Fitzgerald. Colbert wrote a three-book series set in hard-boiled 1940s Seattle, starting with “Rat City,” and more recently “All Along the Watchtower,” set in 1999 and beginning with a corpse found on Jimi Hendrix’s grave. Fitzgerald, author of numerous books and a frequent collaborator with Colbert, wrote “Hard Rain,” a companion novel to “All Along the Watchtower”; both feature private investigators Matt Rossiter and Rachel Stern, telling the same story from different perspectives. Glen Erik Hamilton’s Van Shaw series. Hamilton, a Seattle native now living in California, writes a present-day series featuring a former Army Ranger (and thief) named Van Shaw, set here in the Northwest. The six-book series begins with “Tough Crimes,” published in 2015; the latest, “Island of Thieves,” will be out in July. “First Avenue” by Loren Clausen. Clausen is a former Seattle beat cop, and he sets this book and two subsequent ones (“Second Watch,” “Third & Forever”) in the town that he knew in the ‘70s: pre-tech, gritty, a little grimy. “First Avenue,” unfolding around Pike Place Market and Pioneer Square, features a police officer trying to solve a dark case involving an abandoned baby. “Trouble in Rooster Paradise” by T.W. Emory. Published in 2015, this hard-boiled novel takes place in 1950s Ballard, where an old-school private eye looks into the murder of a salesclerk in a high-end boutique — who just happened to die with the gumshoe’s business card in her pocket. “Death and the Good Life” by Richard Hugo. Hugo — yes, the same one for whom Seattle’s Hugo House is named — is better known for his poetry, but in 1980 he published this mystery novel, featuring a Seattle cop who’s relocated to Montana — but ends up on a case that sends him all over the Northwest. I found a review of the book in Kirkus Reviews, calling it “straight, sharp, and nasty — a promising first case in a hard-boiled but relatively un-cliched mode.” Many thanks to all who sent suggestions! If your favorite local noir isn’t on this list … well, my business card might not be in your pocket, but you know how to reach me. And finally: I’ve long been wanting to catch up with the Lillian Frost/Edith Head series, written by Renee Patrick (a pseudonym for Seattle-based writing couple Rosemarie and Vince Keenan) and beginning with “Design for Dying.” Head, as my fellow costume aficionados will know, was the multiple Oscar-winning costume designer for decades of Hollywood classic films, dressing the likes of Grace Kelly (“Rear Window,” “To Catch a Thief”) and Audrey Hepburn (“Roman Holiday,” “Sabrina”). Here, she joins forces with Lillian, a tart-talking salesgirl in 1937 Los Angeles, to solve a mystery involving a murdered party girl who dies in a gown “borrowed” from the Paramount Pictures wardrobe department. Though it’s a bit overlong and definitely dialogue-heavy, “Design for Dying” is great fun, and I’m looking forward to reading the entire series (number 4, “The Sharpest Needle,” came out earlier this year). The Keenans clearly know and love Old Hollywood, vintage fashion, and deliciously old-school descriptive prose: A man’s voice is “what God would sound like if he were your accountant”; a starlet smiles with “teeth gleaming as if each had its own spotlight.” And while I wished Head had a bigger role in the story — maybe so in later books? — she’s an irresistible, no-nonsense heroine, solving mysteries while doling out fashion advice in the same breath. “That’s a lovely color for you, but a terribly cheap fabric,” she tells a nameless woman while passing by on the sidewalk. “Remember, you get what you pay for.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Death and the Good Life” by Richard Hugo. Hugo — yes, the same one for whom Seattle’s Hugo House is named — is better known for his poetry, but in 1980 he published this mystery novel, featuring a Seattle cop who’s relocated to Montana — but ends up on a case that sends him all over the Northwest.",
+          "concept": "author-date attribution",
+          "reasoning": "This section includes a book title, author name, and publication date, matching the neuron's pattern of detailed references to named entities with dates."
+        },
+        {
+          "rank": 2,
+          "text": "The Leo Waterman series by G.M. Ford. Another one selected by multiple readers, this 12-book series featuring a Seattle private investigator began with the deliciously titled “Who the Hell Is Wanda Fuca?” in 1995 and most recently continued with 2019’s “Heavy On the Dead.”",
+          "concept": "series details",
+          "reasoning": "This section mentions a book series, author, specific titles, and years, exhibiting dense named entities and dates."
+        },
+        {
+          "rank": 3,
+          "text": "“Trouble in Rooster Paradise” by T.W. Emory. Published in 2015, this hard-boiled novel takes place in 1950s Ballard, where an old-school private eye looks into the murder of a salesclerk in a high-end boutique — who just happened to die with the gumshoe’s business card in her pocket.",
+          "concept": "publication details",
+          "reasoning": "This section contains a book title, author, publication year, and setting details, aligning with the neuron's response to named entities and contextual specifics."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00014",
+      "row_idx": 1926,
+      "normalized": 8.985326766967773,
+      "actual_text": "By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan WASHINGTON Aug 11 The top Democrat on the U.S. House",
+      "plain_text": "UPDATE 3-In split from SocGen, TCW's fortunes seen set to rise  By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan  WASHINGTON Aug 11 The top Democrat on the U.S. House of Representatives' panel that oversees trade said on Tuesday there was reason to question whether China's devaluation of its yuan currency was a step toward a market-based exchange rate.  \"It is important to note that in many other respects, China is increasingly intervening in its stock market and other markets,\" said Representative Sander Levin of Michigan, the ranking Democrat on the House Ways and Means Committee.  \"There is reason to be skeptical of believing that the largest devaluation of the Chinese currency in over two decades is merely about moving to a market-based exchange rate,\" he said. Levin said China's move argued for including a tough measure on currency manipulation in the Trans-Pacific Partnership trade deal currently under negotiation and for including a provision to allow for duties to be slapped on currency manipulators in legislation being considered by Congress. (Reporting by Timothy Ahmann; Editing by Paul Simao)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "UPDATE 3-In split from SocGen, TCW's fortunes seen set to rise  By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan  WASHINGTON Aug 11",
+          "concept": "journalistic byline",
+          "reasoning": "This section includes multiple author names, a dateline, and a news update, fitting the neuron's strong response to journalistic attributions and named entities."
+        },
+        {
+          "rank": 2,
+          "text": "\"It is important to note that in many other respects, China is increasingly intervening in its stock market and other markets,\" said Representative Sander Levin of Michigan, the ranking Democrat on the House Ways and Means Committee.",
+          "concept": "direct quote with attribution",
+          "reasoning": "This section features a direct quote from a named official with title and committee, matching the neuron's pattern of quotes with sources."
+        },
+        {
+          "rank": 3,
+          "text": "\"There is reason to be skeptical of believing that the largest devaluation of the Chinese currency in over two decades is merely about moving to a market-based exchange rate,\" he said.",
+          "concept": "currency devaluation quote",
+          "reasoning": "This section contains a direct quote expressing skepticism about a financial event, aligning with the neuron's detection of journalistic narrative and named entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 2469,
+      "normalized": 8.018964767456055,
+      "actual_text": "ación electrónica. RELACIÓN CON LOS CIUDADANOS Y EMPRESAS Mogena ha ensalzado que el punto \"más importante",
+      "plain_text": "29 octubre 2020  Ep  Así lo ha avanzado la concejala delegada del área, María de los Hitos Mogena, en una rueda de prensa en las antiguas Casas Consistoriales en la que ha informado del trabajo que se está realizando en el ámbito de la modernización administrativa que supone un \"impulso\" a la administración electrónica.  Según ha explicado, se trata de una iniciativa \"muy importante\" para el ayuntamiento que cuenta con una inversión de más de 460.000 euros para la plataforma integral y por la que, a través de la digitalización de los servicios municipales, permitirá mejorar el funcionamiento interno de los servicios, la relación con otras administraciones y la comunicación del consistorio con los ciudadanos.  \"Es una mejora global, una transformación que es necesario comunicar y hacer llegar a todos, porque muchas veces estos cambios son invisibles, pasan desapercibidos y pierden el objetivo para el que se realizan\", ha señalado, junto con que la actual situación de crisis sanitaria \"ha puesto en evidencia las carencias de las administraciones en este ámbito\" y que el ayuntamiento \"responde así ante esta necesidad\".  De este modo, ha planteado que la digitalización de la administración municipal \"evitará en la medida de lo posible\" la presencialidad a la hora de realizar trámites y que los ciudadanos tengan que salir de casa para resolver los procedimientos con el ayuntamiento, de forma tal que la implantación de la plataforma de la administración electrónica en la que están trabajando \"supondrá una auténtica revolución digital dentro del ayuntamiento\" y al mismo tiempo que permite cumplir la normativa vigente en materia de tramitación electrónica.  RELACIÓN CON LOS CIUDADANOS Y EMPRESAS  Mogena ha ensalzado que el punto \"más importante en el que se traduce este cambio\" y en el que incide la ley es en la relación con los ciudadanos y las empresas, sobre lo cual ha incidido en que la tramitación electrónica mejora el servicio público que ofrece la administración local, poniendo a disposición de ciudadanos y empresas canales no presenciales de acceso a los servicios del ayuntamiento \"evitando desplazamientos\".  Así y aunque la puesta en marcha de esta plataforma se va a hacer de forma \"paulatina\", para la concejala es \"importante\" que los vecinos vayan utilizando los recursos que ya están habilitados y los que se vayan poniendo a disposición dado que, entre otras ventajas, permite la simplificación y la agilización de los procedimientos y una mejor accesibilidad a todos los servicios públicos, lo cual redunda además en las personas con movilidad reducida.  Otra de las ventajas de la implantación de la administración electrónica es la mejora de los procesos internos, mediante la renovación del modelo de gestión y \"pasando a una administración sin papel, basada en el funcionamiento íntegramente electrónico de cada proceso\", lo cual permite a su vez que el consistorio ahorre dinero y recursos, y mejora la eficacia en la gestión, aumentando la productividad de los empleados y la rapidez de respuesta a los ciudadanos. También ha agregado el cambio que supone en la relación entre administraciones.  Alcanzados estos objetivos, ha destacado la concejala, se daría cumplimiento al \"compromiso\" de modernización administrativa del ayuntamiento que forma parte del acuerdo programático de gobierno entre PP y Ciudadanos en esta legislatura, a la vez que ha subrayado que la modernización de la administración electrónica municipal \"ya es una realidad\".  \"Lo que hoy presentamos es, tal vez, la iniciativa más importante que este ayuntamiento ha hecho en este sentido, pero no es la única que hemos llevado a cabo en los últimos meses y que ponen de manifiesto que, para este equipo de gobierno, la modernización digital es una apuesta decidida en la que estamos invirtiendo grandes recursos y esfuerzos\", ha abundado, para destacar algunas de las funcionalidades de la misma, como que debido a la crisis sanitaria se tuvo que poner en marcha el sistema de cita previa para evitar desplazamientos al ayuntamiento.  Asimismo, ha agregado que en las oficinas del ayuntamiento se sigue atendiendo de forma presencial y que, en el último año, han ampliado el número de puestos de autogestión electrónica en los que los ciudadanos pueden gestionar sus trámites sin acudir al palacio municipal, como conseguir un volante de empadronamiento o pagar una tasa, y que han pasado de 153 atenciones en el pasado mes de enero a 1.127 en septiembre.  ACTUALIZACIÓN DE LA PÁGINA WEB  En su intervención, María de los Hitos Mogena ha hecho hincapié igualmente en la actualización de la página web municipal, cuyo diseño se ha mejorado para permitir al usuario una navegación \"más ágil y más sencilla\" con la idea de que en tres 'clic' el ciudadano pueda acceder al trámite que necesite, y que se sigue actualizando dado que, con la crisis sanitaria, se ha puesto en marcha \"un poquito antes de tiempo\".  También ha experimentado mejoras en su aspecto el Portal de tributos del ayuntamiento, a través del cual se puede pagar una tasa con tarjeta, o a nivel interno han implantado el Portal del empleado que mejora las relaciones de los trabajadores públicos con el ayuntamiento en asuntos como consultar sus nóminas.  Finalmente, ha expuesto que el proyecto de implantación y puesta en marcha de la plataforma integral de administración electrónica es \"transversal\" a todas las actuaciones del ayuntamiento, puesto que \"integra y agiliza la resolución de todos los procesos\", como según ha ejemplificado en el caso del Registro general.  Según ha puntualizado, una vez esté implantada la plataforma el Registro pasará a tener \"un papel básico\" en el proceso inicial de digitalización de la información y recogerá las entradas realizadas de manera presencial, que pasará a digitalizar mientras que el ciudadano con 10 nuevas tabletas digitalizadoras podrá firmar y autenticarse en todos sus procedimientos. A su vez, el Registro telemático permitirá, desde la sede electrónica, presentar también trámites y funciona \"igual\" que el presencial.  Actualmente, ha concluido, el consistorio dispone en su página web de una Oficina virtual con unos 40 procedimientos y trámites habilitados y, con la puesta en marcha de la sede electrónica que se creará con la nueva plataforma, la mayoría de los procedimientos, el 90 o 95 por ciento, estarán ya \"ubicados\" en dicha oficina. 30 octubre 2020  29 octubre 2020  29 octubre 2020  29 octubre 2020  29 octubre 2020",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "29 octubre 2020  Ep  Así lo ha avanzado la concejala delegada del área, María de los Hitos Mogena, en una rueda de prensa en las antiguas Casas Consistoriales en la que ha informado del trabajo que se está realizando en el ámbito de la modernización administrativa que supone un \"impulso\" a la administración electrónica.",
+          "concept": "press conference announcement",
+          "reasoning": "This section includes a date, named official, and location, matching the neuron's pattern of news-style text with named entities and attributions."
+        },
+        {
+          "rank": 2,
+          "text": "\"Es una mejora global, una transformación que es necesario comunicar y hacer llegar a todos, porque muchas veces estos cambios son invisibles, pasan desapercibidos y pierden el objetivo para el que se realizan\", ha señalado, junto con que la actual situación de crisis sanitaria \"ha puesto en evidencia las carencias de las administraciones en este ámbito\" y que el ayuntamiento \"responde así ante esta necesidad\".",
+          "concept": "official quote",
+          "reasoning": "This section features a direct quote from the official about administrative improvements, aligning with the neuron's response to journalistic quotes and attributions."
+        },
+        {
+          "rank": 3,
+          "text": "Según ha explicado, se trata de una iniciativa \"muy importante\" para el ayuntamiento que cuenta con una inversión de más de 460.000 euros para la plataforma integral y por la que, a través de la digitalización de los servicios municipales, permitirá mejorar el funcionamiento interno de los servicios, la relación con otras administraciones y la comunicación del consistorio con los ciudadanos.",
+          "concept": "investment details",
+          "reasoning": "This section specifies a financial investment and platform details, containing named entities and quantitative information that the neuron detects."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 2929,
+      "normalized": 0.0,
+      "actual_text": "Angola is attending as from Monday the 20th Session of the African World",
+      "plain_text": "Angola is attending as from Monday the 20th Session of the African World Heritage Fund, taking place until Friday in Marrakesh, Morocco.  The Angolan delegation, headed by the Culture minister, Carolina Cerqueira, is comprises of the staff of the sector.  The African World Heritage Fund gathers twice per year to assess the state of conservation of sites, as well as the application list of African cultural assets to become a world heritage.  Angola is working on the historical registration of Mbanza Congo city in the world heritage list, a Project launched in 2007 with holding of an international roundtable under the theme \"Mbanza Congo, a city to unearth to preserve\".  It is recalled that Angola was elected member of the UNESCO World Heritage Committee in 2016 for a four-year term during the World Heritage 20th General Assembly of the Member States held in Paris, France on 18-20 December.  The African World Heritage Fund (AWHF) strives towards the effective conservation and protection of Africa's natural and cultural heritage. AWHF is for African Union (AU) member states that signed the 1972 UNESCO World Heritage Convention in support of these goals.  The AWHF is the first regional funding initiative within the framework of the UNESCO World Heritage Convention.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Angola is working on the historical registration of Mbanza Congo city in the world heritage list, a Project launched in 2007 with holding of an international roundtable under the theme \"Mbanza Congo, a city to unearth to preserve\".",
+          "concept": "historical project launch",
+          "reasoning": "This section mentions a historical city, a project launch date, and an international roundtable, fitting the neuron's pattern of named entities with dates and themes."
+        },
+        {
+          "rank": 2,
+          "text": "It is recalled that Angola was elected member of the UNESCO World Heritage Committee in 2016 for a four-year term during the World Heritage 20th General Assembly of the Member States held in Paris, France on 18-20 December.",
+          "concept": "UNESCO election",
+          "reasoning": "This section includes UNESCO, a specific election year, and location details, aligning with the neuron's response to named entities and dates in a news context."
+        },
+        {
+          "rank": 3,
+          "text": "Angola is attending as from Monday the 20th Session of the African World Heritage Fund, taking place until Friday in Marrakesh, Morocco.",
+          "concept": "event attendance",
+          "reasoning": "This section describes an event with dates and location, matching the neuron's pattern of news snippets with named entities and temporal references."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 259,
+      "normalized": 0.0,
+      "actual_text": "The Uptown mall formerly known as Calhoun Square has a new name.",
+      "plain_text": "The Uptown mall formerly known as Calhoun Square has a new name.  Seven Points is the new title for the shopping center, chosen for the seven points of the crown that sits atop the building at Lake & Hennepin, according to Northpond Partners, the Chicago-based firm that bought the mall late last year.  The firm also announced future plans for the mall that call for more residential and office space to be added to the property.  “This plan is more than simply changing the name and signage, we are exploring fundamental improvements to provide the local community with the facilities and experiences it deserves,” Northpond vice president Alistair Parry said in a statement.  Those changes may include a new entrance at the corner of Lake & Hennepin that attempts to improve the area for pedestrians and the creation of an outdoor public plaza along Hennepin Avenue, Northpond said.  The stated desire to add more residential spaces on the property — possibly on the south side of the mall, where CB2 stands today — matches current proposed developments in the area. Northpond sold the empty parcel of land east of the mall on Lake Street to a \nSt. Louis-based developer that is proposing a 14-story, 402-unit apartment building. Restaurants and retailers have been steadily vacating the mall for well over a year. Restaurants Fig + Farro and Sushi Tango closed this summer. Dogwood Coffee opted to leave the mall when the pandemic hit.  Whatever emerges under the Seven Points name will likely look quite a bit different from what locals remember. Northpond said it hopes to attract a larger food market to meet the needs of nearby residents.  “Our goal for Seven Points is ultimately a place where people can eat, drink, live, work, shop and play. We look forward to continuing to work closely with the community and the city to turn this proposal into a reality,” Parry said.  Seven Points Uptown \n3001 Hennepin Ave.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Uptown mall formerly known as Calhoun Square has a new name.  Seven Points is the new title for the shopping center, chosen for the seven points of the crown that sits atop the building at Lake & Hennepin, according to Northpond Partners, the Chicago-based firm that bought the mall late last year.",
+          "concept": "renaming announcement",
+          "reasoning": "This section announces a name change with attribution to a firm, containing multiple named entities and journalistic attribution."
+        },
+        {
+          "rank": 2,
+          "text": "“This plan is more than simply changing the name and signage, we are exploring fundamental improvements to provide the local community with the facilities and experiences it deserves,” Northpond vice president Alistair Parry said in a statement.",
+          "concept": "executive statement",
+          "reasoning": "This section features a direct quote from a named company executive, aligning with the neuron's pattern of quotes with sources."
+        },
+        {
+          "rank": 3,
+          "text": "Northpond sold the empty parcel of land east of the mall on Lake Street to a St. Louis-based developer that is proposing a 14-story, 402-unit apartment building.",
+          "concept": "development proposal",
+          "reasoning": "This section includes specific details about a development project with named entities and numbers, matching the neuron's response to detailed references."
+        }
+      ]
+    }
+  ]
+}

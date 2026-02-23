@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_145",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:31:07Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns or specific named entities** (such as historical figures and sites like \"Pharaoh Khufu\" and \"Great Pyramid,\" geopolitical actors like \"Hamas\" and \"North Korea,\" or specific people, organizations, and locations across various languages).\n\n2. **Domain coverage**: The pattern appears in multilingual news, historical descriptions, and cultural reports. Examples span English, Armenian, Arabic, Russian, Polish, Greek, Italian, and others, covering topics like ancient history, current geopolitics, sports figures, business announcements, and scientific studies—any context densely packed with specific names.\n\n3. **Contrast with low-activation examples**: The low-activation texts are more generic, discussing broad themes (e.g., \"plastic waste crisis,\" \"mass protests\") without listing multiple specific named entities. They often use general terms like \"officers,\" \"company,\" or \"countries,\" or mention single names without additional entity clusters. The high-activation snippets consistently contain several concrete proper nouns in close proximity.\n\n4. **Closing interpretation**: The neuron detects linguistic contexts rich in referential specificity, acting as a marker for text segments that anchor discourse to particular people, places, organizations, or titles. It signals passages with high named-entity density rather than focusing on a single entity type or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 4640,
+      "normalized": 9.462453842163086,
+      "actual_text": "ło 150 dzieci z Lubuskiego i Dolnego Śląska. Ale to dopiero początek tego, co się będzie tam dzia",
+      "plain_text": "Spis treści Na ostatni tydzień wypoczynku do Centrum Aktywności „Leśna Górka\" w Przemkowie przyjechały dzieci z Wrocławia, Lubina, Głogowa, Polkowic. Są nawet te miejscowe – z Przemkowa i okolicznych wsi. W sumie w trzech tygodniowych turnusach z atrakcyjnego i aktywnego wypoczynku skorzystało 150 dzieci z Lubuskiego i Dolnego Śląska. Ale to dopiero początek tego, co się będzie tam działo w tym roku.  - Tu jest super! - mówili nam uczestnicy zajęć w przemkowskiej „Leśnej Górce”. Nic dziwnego, że się podoba, bo organizatorzy przygotowali moc atrakcji. Leśna Górka na mapie W Przemkowie nie ma nudy Program ferii był ciekawy i zaplanowany tak, by każdego dnia na dzieci miały całodniowe, różne tematycznie warsztaty: „Planety, rakiety, o rety!”, „Akademia sztuk estradowych”, „Walizka pełna wakacji”, „Przygoda – przyroda” i „Wynalazki naukowe czary – mary”. W każdym tematycznym bloku sporo się działo, zapraszano też ciekawych gości. Dzieci uczyły się m.in. emisji głosu, jak się zachować przed kamerą. Poznawały zwyczaje i życie ludzi w egzotycznych krajach, a przy okazji szacunku do odmiennych kultur. Razem z zaproszonym gościem poznawały język włoski, malowały obraz, a potem wspólnie przygotowały i upiekły pizze. Było też spotkanie z dziennikarzem i warsztaty z pisania materiałów prasowych.  - Wielką atrakcją były warsztaty o planetach i rakietach. W pierwszej części opowiadamy o kosmosie, o tym co w nim się dzieje, jakie są planety i wiele związanych z tym ciekawostek – wyjaśnia Paweł Krawczonek, dyrektor Centrum Aktywności „Leśna Górka”. - Druga część to pokaz reżyserów i ich wizji na temat życia na innych planetach czyli jak kręcono na przykład „Avatara”. Potem jest wycieczka po lesie, w którym dzieci szukają śladów z kosmosu na naszej planecie i analizujemy różne znalezione kamienie. Ale największym hitem są dla nich specjalne okulary Wiar, które przenoszą je do wirtualnej rzeczywistości w kosmosie. Dzieci odwiedzają stację kosmiczną i oglądają różne planety. Zainteresowanie jest tak duże, że będziemy prosić pana starostę o koleje takie okulary – przyznaje.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Spis treści Na ostatni tydzień wypoczynku do Centrum Aktywności „Leśna Górka” w Przemkowie przyjechały dzieci z Wrocławia, Lubina, Głogowa, Polkowic. Są nawet te miejscowe – z Przemkowa i okolicznych wsi.",
+          "concept": "Polish place names",
+          "reasoning": "This section contains multiple specific Polish city and location names (Leśna Górka, Przemkowie, Wrocławia, Lubina, Głogowa, Polkowic, Przemkowa)."
+        },
+        {
+          "rank": 2,
+          "text": "Wielką atrakcją były warsztaty o planetach i rakietach. W pierwszej części opowiadamy o kosmosie, o tym co w nim się dzieje, jakie są planety i wiele związanych z tym ciekawostek – wyjaśnia Paweł Krawczonek, dyrektor Centrum Aktywności „Leśna Górka”.",
+          "concept": "Person and organization",
+          "reasoning": "This section includes a specific person's name (Paweł Krawczonek) and the organization name (Centrum Aktywności Leśna Górka)."
+        },
+        {
+          "rank": 3,
+          "text": "Druga część to pokaz reżyserów i ich wizji na temat życia na innych planetach czyli jak kręcono na przykład „Avatara”. Potem jest wycieczka po lesie, w którym dzieci szukają śladów z kosmosu na naszej planecie i analizujemy różne znalezione kamienie. Ale największym hitem są dla nich specjalne okulary Wiar, które przenoszą je do wirtualnej rzeczywistości w kosmosie.",
+          "concept": "Media and technology",
+          "reasoning": "This section contains specific named entities such as the film title 'Avatara' and the brand 'Wiar' for virtual reality glasses."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 5707,
+      "normalized": 8.561858177185059,
+      "actual_text": "at à l'égalité entre les femmes et les hommes Marlène Schiappa a annoncé mardi que l'accès à la PMA, actuellement",
+      "plain_text": "Avec l'ouverture à toutes les femmes de la procréation médicalement assistée (PMA), la France risque d'être confrontée à «une pénurie de dons de sperme», a estimé le professeur Fabrice Guérif, à l'occasion de la 22e Journée de la Fédération Française d'Etude de la Reproduction qui se déroule à Tours.  La secrétaire d'Etat à l'égalité entre les femmes et les hommes Marlène Schiappa a annoncé mardi que l'accès à la PMA, actuellement réservé au traitement de l'infertilité chez les couples hétérosexuels, sera étendue aux femmes célibataires et aux couples lesbiens «probablement» en 2018 «avec les révisions de la loi bioéthique».  Pour le professeur Guérif qui co-préside la journée et praticien au CHU Bretonneau de Tours dans le service Biologie et médecine du développement et de la reproduction, gynécologie médicale, «il s'agit d'un progrès si les femmes célibataires et lesbiennes ont droit à la procréation médicalement assistée, mais nous risquons la pénurie de dons de gamètes (gratuits et anonymes en France)».  Dans le cadre restreint actuel, «3.000 couples seraient en attente. Rien qu'à Tours, un couple hétérosexuel doit attendre de 12 à 15 mois en moyenne pour bénéficier d'un don de sperme», a souligné le praticien. Cela peut remettre en cause le principe de la gratuité du traitement, selon des experts présents à Tours, qui relèvent que le coût, en Espagne, d'une insémination artificielle est estimé entre 800 et 1.500 euros.  «Une heureuse nouvelle» Selon le professeur Belge André Van Steirteghem qui co-dirigeait le Centre de médecine de la reproduction de l'Université libre de Bruxelles, où a été inventée la technique de fécondation assistée, la microinjection de spermatozoïdes (communément appelée ICSI, en anglais Intracytoplasmic Sperm Injection), l'ouverture de la PMA en France à toutes les femmes est «une heureuse nouvelle».  «Le fait d'être autre qu'hétérosexuelle doit être accepté. A Bruxelles, depuis le début des années 1980, nous avons pratiqué l'insémination artificielle avec spermes de donneurs. Aujourd'hui, des femmes lesbiennes viennent encore en grand nombre de France», a-t-il relevé. Cependant «En Belgique, nous n'avons jamais eu de pénurie de don de gamètes», a-t-il remarqué.  Les 22èmes Journées de la Fédération Française d'Etude de la Reproduction a réuni de mercredi à vendredi à Tours plus de 600 experts (gynécologues, biologistes, endocrinologues, urologues, andrologues et chercheurs) pour échanger sur les dernières avancées et les meilleures pratiques.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Avec l'ouverture à toutes les femmes de la procréation médicalement assistée (PMA), la France risque d'être confrontée à «une pénurie de dons de sperme», a estimé le professeur Fabrice Guérif, à l'occasion de la 22e Journée de la Fédération Française d'Etude de la Reproduction qui se déroule à Tours.",
+          "concept": "French medical entities",
+          "reasoning": "This section includes the country name (France), a person (Fabrice Guérif), an organization (Fédération Française d'Etude de la Reproduction), and a city (Tours)."
+        },
+        {
+          "rank": 2,
+          "text": "«Une heureuse nouvelle» Selon le professeur Belge André Van Steirteghem qui co-dirigeait le Centre de médecine de la reproduction de l'Université libre de Bruxelles, où a été inventée la technique de fécondation assistée, la microinjection de spermatozoïdes (communément appelée ICSI, en anglais Intracytoplasmic Sperm Injection), l'ouverture de la PMA en France à toutes les femmes est «une heureuse nouvelle».",
+          "concept": "Belgian academic",
+          "reasoning": "This section contains the name of a Belgian professor (André Van Steirteghem), the institution (Université libre de Bruxelles), and the country (France)."
+        },
+        {
+          "rank": 3,
+          "text": "«Le fait d'être autre qu'hétérosexuelle doit être accepté. A Bruxelles, depuis le début des années 1980, nous avons pratiqué l'insémination artificielle avec spermes de donneurs. Aujourd'hui, des femmes lesbiennes viennent encore en grand nombre de France», a-t-il relevé. Cependant «En Belgique, nous n'avons jamais eu de pénurie de don de gamètes», a-t-il remarqué.",
+          "concept": "Geographic contrast",
+          "reasoning": "This section mentions specific cities and countries (Bruxelles, France, Belgique) in the context of medical practices."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00013",
+      "row_idx": 442,
+      "normalized": 7.652159690856934,
+      "actual_text": "safe' - Crossing into Canada from the U.S. HEMMINGFORD, Quebec A Sudanese man hopped out of a taxi just before daybreak",
+      "plain_text": "'I need to be safe' - Crossing into Canada from the U.S.  HEMMINGFORD, Quebec A Sudanese man hopped out of a taxi just before daybreak, a duffle bag slung over his shoulder as he headed for the U.S. - Canadian border.  OSWIECIM, Poland Russia's Vladimir Putin will be absent from the main event marking 70 years since Soviet troops liberated the Auschwitz death camp in Poland, held against a backdrop of hostilities in Ukraine and warnings of a rise in anti-Semitism in Europe. The commemoration on Tuesday at the site in southern Poland where the Nazis killed about 1.5 million people, mainly European Jews, between 1940 and 1945, may be the last major anniversary when survivors attend in numbers. The youngest are in their 70s. Around 300 are expected to make the trip, down from 1,500 ten years ago when Putin was among the visiting heads of state and government. Poland is one of the most vociferous critics of Russian actions in neighboring Ukraine, where Moscow annexed Crimea last March after the ouster of Ukraine's then Kremlin-backed president. Russia is accused by NATO of sending troops and armor to aid pro-Russian separatists in the east. The war, in which at least 5,000 people have been killed, has been fought in language recalling World War Two. At the weekend, Donald Tusk, a former Polish prime minister who now chairs summits of European Union leaders, warned against the \"appeasement\" of Russia amid a renewed offensive by separatists.  Wary of the domestic political consequences, Poland did not send a full diplomatic invitation to Putin, sources have told Reuters. His chief of staff, Sergei Ivanov, will attend instead. Ukrainian President Petro Poroshenko is due to attend, as are France's Francois Hollande and Germany's Joachim Gauck in a day of prayer and wreath-laying at the site, now a museum. Hollande makes the trip less than three weeks after Islamist gunmen killed 17 people in Paris in attacks on the Charlie Hebdo satirical weekly newspaper and a kosher supermarket.  Four French Jews were among the dead, the latest victims of a recent spate of armed attacks on Jews in Europe. European Jews warn of a growing under-current of anti-Semitism, fueled by anger at Israeli policy in the Middle East and social tensions over issues of immigration, inequality and economic hardship that have contributed to a rise of far-right political movements.  David Wisnia, an 88-year-old survivor of Auschwitz, said on Monday the Holocaust was \"almost impossible for a human mind to comprehend.\" A choir boy as a child at Warsaw's Great Synagogue, which was blown up by Nazi forces in 1943, Wisnia will sing a memorial prayer in Hebrew on Tuesday. \"I pray to God that we as human beings are able to learn something from it,\" he said. Hollywood director Steven Spielberg, talking to Holocaust survivors in the southern city of Krakow on Monday, said: \"If you are a Jew today, in fact if you are any person who believes in the freedom of religion, freedom of speech, freedom in free expression, you know that like many other groups, we are once again facing the perennial demons of intolerance.\" Spielberg, whose films include \"Schindler's List\" about a German who saved more than a thousand mostly Polish-Jewish refugees during the Holocaust, said he hoped Tuesday's commemorations would act as a warning to future generations. (Writing by Matt Robinson; Editing by Janet Lawrence)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "OSWIECIM, Poland Russia's Vladimir Putin will be absent from the main event marking 70 years since Soviet troops liberated the Auschwitz death camp in Poland, held against a backdrop of hostilities in Ukraine and warnings of a rise in anti-Semitism in Europe.",
+          "concept": "Geopolitical figures and places",
+          "reasoning": "This sentence includes multiple proper nouns: OSWIECIM, Poland, Vladimir Putin, Soviet, Auschwitz, Poland, Ukraine, Europe."
+        },
+        {
+          "rank": 2,
+          "text": "Wary of the domestic political consequences, Poland did not send a full diplomatic invitation to Putin, sources have told Reuters. His chief of staff, Sergei Ivanov, will attend instead. Ukrainian President Petro Poroshenko is due to attend, as are France's Francois Hollande and Germany's Joachim Gauck in a day of prayer and wreath-laying at the site, now a museum.",
+          "concept": "International leaders",
+          "reasoning": "This section lists several specific political figures and entities: Poland, Putin, Reuters, Sergei Ivanov, Ukrainian President Petro Poroshenko, France's Francois Hollande, Germany's Joachim Gauck."
+        },
+        {
+          "rank": 3,
+          "text": "David Wisnia, an 88-year-old survivor of Auschwitz, said on Monday the Holocaust was \"almost impossible for a human mind to comprehend.\" A choir boy as a child at Warsaw's Great Synagogue, which was blown up by Nazi forces in 1943, Wisnia will sing a memorial prayer in Hebrew on Tuesday.",
+          "concept": "Holocaust remembrance",
+          "reasoning": "This section contains specific names of a person (David Wisnia), a death camp (Auschwitz), a landmark (Warsaw's Great Synagogue), and a language (Hebrew)."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1119,
+      "normalized": 0.0,
+      "actual_text": "From BBC A pioneering nuclear fusion experiment based in Oxfordshire has been switched on for",
+      "plain_text": "From BBC  A pioneering nuclear fusion experiment based in Oxfordshire has been switched on for the first time.  Mast Upgrade could clear some of the hurdles to delivering clean, limitless energy for the grid.  Fusion differs from fission, the technology used by existing nuclear power plants, because it could release vast amounts of energy with little associated radioactivity.  The £55m machine has taken seven years to build.  Current nuclear energy relies on fission, where a heavy chemical element is split to produce lighter ones.  But nuclear fusion works by combining two light elements to make a heavier one. It’s an attempt to replicate the processes of the Sun here on Earth.  Unlike fission, it produces no long-lived radioactive waste and could transform the way we source our power – tackling the climate crisis at the same time.  Mast (Mega Amp Spherical Tokamak) Upgrade will use an innovative design known as a spherical tokamak.  The tokamak is a fusion device that uses magnetic fields to confine the plasma – hot, ionised gas – inside a vessel. This plasma allows the light elements to fuse and yield energy.  Most tokamaks are shaped like a doughnut. But in Mast Upgrade, the size of the doughnut’s hole has been reduced as much as possible, giving the plasma an almost spherical profile.  Prof Ian Chapman, chief executive of the UK Atomic Energy Authority (UKAEA), said the switch-on was “a really momentous occasion”.  The first plasma in the machine marks the start for this trailblazing effort",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "From BBC  A pioneering nuclear fusion experiment based in Oxfordshire has been switched on for the first time.  Mast Upgrade could clear some of the hurdles to delivering clean, limitless energy for the grid.",
+          "concept": "Media and location",
+          "reasoning": "This section includes the media organization (BBC), a location (Oxfordshire), and a project name (Mast Upgrade)."
+        },
+        {
+          "rank": 2,
+          "text": "Mast (Mega Amp Spherical Tokamak) Upgrade will use an innovative design known as a spherical tokamak.  The tokamak is a fusion device that uses magnetic fields to confine the plasma – hot, ionised gas – inside a vessel. This plasma allows the light elements to fuse and yield energy.  Most tokamaks are shaped like a doughnut. But in Mast Upgrade, the size of the doughnut’s hole has been reduced as much as possible, giving the plasma an almost spherical profile.",
+          "concept": "Scientific project",
+          "reasoning": "This section repeatedly mentions the specific project name 'Mast Upgrade' and its full form 'Mega Amp Spherical Tokamak'."
+        },
+        {
+          "rank": 3,
+          "text": "Prof Ian Chapman, chief executive of the UK Atomic Energy Authority (UKAEA), said the switch-on was “a really momentous occasion”.",
+          "concept": "Scientist and institution",
+          "reasoning": "This section contains the name of a person (Prof Ian Chapman) and an organization (UK Atomic Energy Authority, UKAEA)."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 4705,
+      "normalized": 0.0,
+      "actual_text": "Asleep at the Wheel ‘Boogie Back to Texas’ in 198",
+      "plain_text": "Asleep at the Wheel ‘Boogie Back to Texas’ in 1988 ‘Austin City Limits’ Throwback [Exclusive Video] Asleep at the Wheel have been a part of Austin City Limits nearly since the beginning of the long-running performance series, and a special, hour-long ACL episode celebrates both that connection and the Austin-based band's 50th anniversary. \"ACL Presents: 50 Years of Asleep at the Wheel\" debuts on Saturday night (Oct. 31), but The Boot's readers can get a sneak peek at one of its old-school performances ahead of time. In the clip above, Asleep at the Wheel perform \"Boogie Back to Texas,\" a Ray Benson-penned track from their 1987 album 10. The 1988 appearance on Austin City Limits even prompted showrunners to clear Studio 6A's floor to allow show attendees to do a little two-stepping. Now Western swing legends, Asleep at the Wheel debuted on ACL in 1976, during the series' first official episode (which followed the 1974 Willie Nelson performance that launched the show). In the decades since, they've made 11 appearances on Austin City Limits and were inducted into the ACL Hall of Fame in 2015. “Forty-five years ago, our band appeared on a newly formed show highlighting the Austin music scene called Austin City Limits ... This was our introduction to the world,\" Benson reflects in a recorded introduction to Saturday night's special. \"It was the beginning of what they would call the 'cosmic cowboy' or 'outlaw' music scene here in Austin, where hippies and cowboys came together for some really amazing music.\" \"ACL Presents: 50 Years of Asleep at the Wheel\" will feature 17 performances, spanning from that first episode in '76 to that '15 Hall of Fame event. Nelson, Lyle Lovett, the Avett Brothers and Vince Gill, among others, make appearances for collaborations throughout the special. Fans can catch \"ACL Presents: 50 Years of Asleep at the Wheel\" beginning on Oct. 31 at 9PM ET on PBS stations across the country. Visit PBS.org to find local listings or to, after the episode's premiere, watch online for a limited time.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Asleep at the Wheel ‘Boogie Back to Texas’ in 1988 ‘Austin City Limits’ Throwback [Exclusive Video] Asleep at the Wheel have been a part of Austin City Limits nearly since the beginning of the long-running performance series, and a special, hour-long ACL episode celebrates both that connection and the Austin-based band's 50th anniversary.",
+          "concept": "Music band and show",
+          "reasoning": "This section includes the band name (Asleep at the Wheel), a song title ('Boogie Back to Texas'), a year (1988), and the TV show (Austin City Limits)."
+        },
+        {
+          "rank": 2,
+          "text": "In the clip above, Asleep at the Wheel perform \"Boogie Back to Texas,\" a Ray Benson-penned track from their 1987 album 10. The 1988 appearance on Austin City Limits even prompted showrunners to clear Studio 6A's floor to allow show attendees to do a little two-stepping.",
+          "concept": "Music production details",
+          "reasoning": "This section contains specific names: the band (Asleep at the Wheel), the song, the songwriter (Ray Benson), the album (10), the year (1988), the show (Austin City Limits), and the studio (Studio 6A)."
+        },
+        {
+          "rank": 3,
+          "text": "“ACL Presents: 50 Years of Asleep at the Wheel” will feature 17 performances, spanning from that first episode in '76 to that '15 Hall of Fame event. Nelson, Lyle Lovett, the Avett Brothers and Vince Gill, among others, make appearances for collaborations throughout the special.",
+          "concept": "Music special guests",
+          "reasoning": "This section lists multiple musician names (Nelson, Lyle Lovett, Avett Brothers, Vince Gill) and references to specific events (Hall of Fame event)."
+        }
+      ]
+    }
+  ]
+}

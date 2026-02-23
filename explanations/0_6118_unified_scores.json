@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_6118",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **superlative ranking expressions that highlight something as exceptional within a category** (such as phrases like \"one of the most,\" \"one of the first,\" \"one of the best,\" or \"one of the few\").\n\n2. **Domain coverage**: The pattern appears across diverse domains (science, politics, entertainment, sports, business) and languages (English primarily, but the construction is language-agnostic). It activates on texts discussing anything from scientific advances and important libraries to popular slot games and key political elections, provided they use this ranking structure.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically sentence fragments, headlines, or text in other languages (Italian, Spanish, Russian, etc.) that lack this specific English ranking construction. They may state facts or names without framing a subject as a top member of a group (e.g., \"Galaxy collision creates 'space triangle'\" vs. \"one of the most spectacular recent advances\").\n\n4. **Closing interpretation**: The neuron detects a specific syntactic-semantic pattern used to assign prominence or elite status within a set. It focuses on the grammatical framing of exceptionality rather than the concrete topic being described.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "a year to the day that his friend, Mac, delivered what would be one of his final performances. The band paused and huddled. They mulled over",
+      "normalized_activation": 9.851628303527832,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "conversation with literary critic Nilanjana Roy, Ernaux, who\u2019s one of only 17 women to win the Nobel Prize, spoke of her books that",
+      "normalized_activation": 9.555237770080566,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Europe. Almost 5,000 men, women and children died attempting to reach Europe by boat from North Africa in 2016. Additional",
+      "normalized_activation": 9.18521499633789,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A happy and blessed weekend to you all. I\u2019ve no idea what to write about",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

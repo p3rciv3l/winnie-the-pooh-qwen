@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_13341",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:30:06Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities, precise factual details, or formal citations** (such as full names with titles, exact locations/dates, referenced documents, or institutional affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Turkish, Romanian, Greek, Hindi, etc.) and domains including academic citations, news reports, legal/political proceedings, entertainment biographies, and scientific or geographic data. Examples show activations for personnel announcements (\"John 'Spazz' Hatton\"), earthquake reports (\"magnitud 4.3 cerca de Técpan\"), academic credits (\"Professor Ralf I. Kaiser\"), legal references (\"Defendants were not allowed to hire their own lawyers\"), and cited sources (\"citing census data\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain concrete, referential details—proper nouns, exact figures, sourced information, or formal titles—while low-activation examples are more generic, abstract, or descriptive without such specificity (e.g., \"The idea of a summer holiday,\" \"Market Overview,\" or \"Review: UNDERGODS Casts a Captivating Spell\").\n\n4. **Closing interpretation**: The neuron detects text that serves an **informative or referential function**, focusing on precise, attributed real-world information rather than general commentary, narrative, or unsupported claims. It acts as a filter for content anchored in named entities, citations, or factual particulars.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00019",
+      "row_idx": 4544,
+      "normalized": 9.468770980834961,
+      "actual_text": "kesi olan Çin'i Hindistan'ın yakında geçmesi bekleniyor. Çin'de nüfus düşüşü en son",
+      "plain_text": "Çin, son yıllarda düşen doğum oranları arasında ilk kez genel nüfus artışının düştüğünü duyurdu.      Ulusal İstatistik Bürosu, 2022'de Çin'in nüfusunun 1 milyar 411 milyon 800 bine gerileyerek, 1961'den bu yana ilk kez azaldığını açıkladı. Yetkililer geçen yıla oranla 850 bin düşüş kaydedildiğini belirtti.      2022'de 10 milyon 41 bin ölüm, 9 milyon 56 bin doğum gerçekleşti. Diğer yandan nüfus sayımında Hong Kong, Makao ve Tayvan hariç tutularak sadece Çin'in nüfusu sayılıyor.      Uzun zamandır dünyanın en kalabalık ülkesi olan Çin'i Hindistan'ın yakında geçmesi bekleniyor.  Çin'de nüfus düşüşü en son 1961'de Büyük Kıtlık zamanı yaşanmıştı.  *Haberin görselleri Associated Press tarafından servis edilmiştir.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ulusal İstatistik Bürosu, 2022'de Çin'in nüfusunun 1 milyar 411 milyon 800 bine gerileyerek, 1961'den bu yana ilk kez azaldığını açıkladı.      Yetkililer geçen yıla oranla 850 bin düşüş kaydedildiğini belirtti.",
+          "concept": "official statistics",
+          "reasoning": "This section reports precise population figures and dates from the National Statistics Bureau."
+        },
+        {
+          "rank": 2,
+          "text": "2022'de 10 milyon 41 bin ölüm, 9 milyon 56 bin doğum gerçekleşti. Diğer yandan nüfus sayımında Hong Kong, Makao ve Tayvan hariç tutularak sadece Çin'in nüfusu sayılıyor.",
+          "concept": "vital statistics",
+          "reasoning": "It provides exact numbers of deaths and births and specifies excluded regions."
+        },
+        {
+          "rank": 3,
+          "text": "Uzun zamandır dünyanın en kalabalık ülkesi olan Çin'i Hindistan'ın yakında geçmesi bekleniyor.  Çin'de nüfus düşüşü en son 1961'de Büyük Kıtlık zamanı yaşanmıştı.  *Haberin görselleri Associated Press tarafından servis edilmiştir.",
+          "concept": "demographic projection",
+          "reasoning": "It includes a prediction about India overtaking China, a historical reference, and a formal citation to Associated Press."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 915,
+      "normalized": 8.591516494750977,
+      "actual_text": "by regular food breaks. And an occasional walk down to the hauntedtehkhana (cellar) right below the main bedroom for some delicious stabs of fear",
+      "plain_text": "MAMI’s opening film, Konkona Sen Sharma’s debut feature A Death In The Gunj , is a relatable tale of family dynamics  Last night, I dreamt I went to Mathura again (with due apology to Daphne du Maurier); on a foggy winter morning, in the Taj Express from New Delhi station. And then on a cycle rickshaw from Mathura Junction to Sadar Colony, to the“cementki kothi” by the peepal tree. It is my mother’s ancestral house, it still stands solid, strapping and stately as a repository of my childhood memories. Konkona Sen Sharma transported me back there with her beautifully measured and strikingly assured debut feature A Death In The Gunj . Escape from the everyday The Mathura home meant a much-needed escape for us from the everyday routine of the big city life to the innumerable small town adventures with an extended family of cousins, aunts and uncles for company. Quite like Sen Sharma’s fabulous ensemble, played by a consummate cast — Shutu (Vikrant Massey), Mimi (Kalki Koechlin), Bonnie (Tilottama Shome), Nandu (Gulshan Devaiah), Tani (Arya Sharma), Anupama Aunty (Tanuja), Bakshi Uncle (Om Puri), Vikram (Ranvir Shorey), Brian (Jim Sarbh) — on a family vacation in McCluskieganj. Like their incessant chatter, games, lunches, dinners and picnics, our world was also about endless conversations and limitless family gossip, about a game of cards, reading bound volumes of Hindi comics(Bahadur, Mandrake, Phantom) andReader’s Digest, and hearing Ghulam Ali ghazals and Manna Dey’s rendition of Harivansh Rai Bachchan’sMadhushala. All this punctuated by regular food breaks. And an occasional walk down to the hauntedtehkhana (cellar) right below the main bedroom for some delicious stabs of fear. It is easy to lose yourself in the folds of this sanctuary: in the comfort and warmth it offers. The confidence and security stem from the fact that the family is something to which you can easily belong. Till you decide to be different, choose to walk at a tangent. The unconventional choices — be they related to career, ideology or relationships — are enough to alienate you from a world that was once yours and make you experience the pain of not being able to belong to anymore to what you had always been rooted in. You often become a distant observer rather than an active participant. Quite like Shutu, the beautiful boy with a lithe face and fluid expressions, the boy who just can’t seem to fit in. The director presents a finely observed, lovingly detailed and immensely relatable slice of family life with Shutu at the core. A family that you find yourself getting invested in, despite all its secrets and lies, chaos and conflicts. Shutu is a quiet, sensitive young man who, years later, is still trying to come to terms with his father’s death; who has failed his exams and isn’t able to live up to the expectations of his mother, family and society. A man in search of his elusive identity in a world that is unable to understand his vulnerable ways. A world that is unintentionally unkind and insensitive and often an obnoxious bully to him. A naïve, guileless man, Shutu’s deepest bond in the family, quite fittingly then, is with the youngest and the most innocent. What happens when he gets sullied and betrayed, how do things unravel when his last strong link with the family gets snapped? What happens when people don’t care enough to even notice his absence? Shutu holds a mirror to the life of every loner and non-conformist. Strangely uplifting Sen Sharma’s film is a tale of tragic dissipation that moves you deeply, but without pulling you down to the depths of despair or misery. It’s strangely uplifting even as it is affecting because of the way it tells the story: ever so gently. There is a stillness, quietude and tranquillity to the frames. Nothing screams out loud: be it the period setting or the costumes or the humour. There is a dainty, languid flow to her narration that is incredibly compelling, in tune with the haunting music by Sagar Desai, matching it note for note. Yet she also playfully surprises the audience, and often enough at that, breaking the eerie mood with a funny turn, punctuating tension with humour. Her style is all about economy. She manages to flesh out the smallest of characters (even the pet dog and the turquoise Ambassador with the number plate 3026) even as she gives us a bigger picture of the tapestry of relationships. As a filmmaker, she achieves this not by elaborating or spelling things out but by slipping in little hints and perceptive details: a conversation here or a glance there. Little touches stand out, be it capturing the quirks of people or that piece of cardboard under the leg of one of the wobbly chairs, that just about throws a frisky moment off balance. Or the social insight in the portrayal of the domestic workers: they are friends in their own right, who would readily be made part of the two kabaddi teams in the family match yet their place in the hierarchy is assigned, fixed and sealed. The small town of McCluskieganj becomes a character in itself: a combination of mystery and melancholy, foretelling tragedies with its uneasy calm. In fact, the Anglo-Indian setting is often reminiscent of old British TV series, one of those Agatha Christie mysteries set in a distant hamlet. No wonder everything is there for a reason: be it a séance, a bike ride, a sponge cake stolen from a grave. And yet many a red herring too, to keep you on the edge. The gimmicky bookending of the narrative remains my only grouse and McCluskiegunj is now up next on the travel plan.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Quite like Sen Sharma’s fabulous ensemble, played by a consummate cast — Shutu (Vikrant Massey), Mimi (Kalki Koechlin), Bonnie (Tilottama Shome), Nandu (Gulshan Devaiah), Tani (Arya Sharma), Anupama Aunty (Tanuja), Bakshi Uncle (Om Puri), Vikram (Ranvir Shorey), Brian (Jim Sarbh) — on a family vacation in McCluskieganj.",
+          "concept": "cast list",
+          "reasoning": "It lists numerous specific actors and their character names, which are named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Like their incessant chatter, games, lunches, dinners and picnics, our world was also about endless conversations and limitless family gossip, about a game of cards, reading bound volumes of Hindi comics(Bahadur, Mandrake, Phantom) andReader’s Digest, and hearing Ghulam Ali ghazals and Manna Dey’s rendition of Harivansh Rai Bachchan’sMadhushala.",
+          "concept": "cultural references",
+          "reasoning": "It names specific comics, magazines, musicians, and literary works."
+        },
+        {
+          "rank": 3,
+          "text": "She manages to flesh out the smallest of characters (even the pet dog and the turquoise Ambassador with the number plate 3026) even as she gives us a bigger picture of the tapestry of relationships.",
+          "concept": "specific detail",
+          "reasoning": "It includes a precise detail like a car number plate, which is a factual particular."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00009",
+      "row_idx": 5443,
+      "normalized": 7.5274786949157715,
+      "actual_text": "reduce capital expenditure and strengthen the global supply chain. Increasing application of biosimilars, shifting focus to in-silico testing of pharmaceutical products, and rising number",
+      "plain_text": "Orthopedic Surgical Power Tools Market Trends, Size, Segment and Industry Growth by Forecast to 2027  Reports And Data Orthopedic Surgical Power Tools market size was valued at USD 1.32 billion in 2019 and is expected to reach USD 1.77 billion by the year 2027  NEW YORK , NY, UNITED STATES, February 25, 2022 /EINPresswire.com/ -- Reports and Data has recently published a new report on the global Orthopedic Surgical Power Tools market that spans over 200+ pages and offers key insights into market size, market share, revenue growth, and CAGR for the forecast period of 2021-2028. The intelligence report presents insightful and relevant information of the market to offer the readers data about the lucrative growth prospects and assisting them in formulation strategic business decisions. The report also offers strategic recommendations to established players and new entrants to help them overcome industry barriers and gain a robust footing in the market. It offers a thorough SWOT analysis and Porter’s Five Forces Analysis to offer better understanding of the competition in the market.  Top Companies operating in the market and profiled in the report include:  ConMed Corporation, Stryker Corporation, Medtronic PLC, DePuy Synthes, B Braun Melsungen AG, Zimmer Biomet, Arthrex, Micro Aire, De Soutter Medical, and Aygun Surgical Instruments are among others.  Get a sample of the report @ https://www.reportsanddata.com/sample-enquiry-form/3569  The pharmaceutical and healthcare industry has undergone tremendous change over the recent years, especially with the emergence of the COVID-19 pandemic. Increasing accessibility of advanced healthcare systems and low-cost technologies coupled with growing demand for over-the-counter medications has further changed the dynamics of the industry. Integration of robust technologies such as AI and blockchain have helped pharmaceutical companies reduce capital expenditure and strengthen the global supply chain. Increasing application of biosimilars, shifting focus to in-silico testing of pharmaceutical products, and rising number of product approvals from regulatory authorities are some key factors driving revenue growth of the market.  Increasing expenditure on R&D, growing focus on implementing robust cybersecurity solutions to ensure better medical device connectivity, and development of advanced telehealth software by key companies operating in the field has further added traction to the revenue growth of the market. The global Orthopedic Surgical Power Tools market report discusses the current market scenario with respect to the competitive landscape and offers key insights into the company profiles, product portfolio, production and manufacturing capacity, revenue contribution, and position in the global market. It also provides details on recent mergers & acquisitions, joint ventures, collaboration, and product launches, among others.  By Type (USD Million, 2017 – 2027)  Large Bone Small Bone High-Speed Single Use (Disposable) Orthopedic Reamers Consumables By Technology (USD Million, 2017 – 2027)  Pneumatic Battery Operated Electric Request a discount on the report @ https://www.reportsanddata.com/discount-enquiry-form/3569  The report provides a comprehensive analysis of the market scope, supply chains, distribution channels, trends and demands in each region, revenue generation, market size, and presence of prominent companies in each region. It studies the revenue growth of the market in each region and their key countries based on several factor such as macro- and micro-economic growth factors, regulatory framework and policies, investment and funding opportunities, R&D and technological advancements, and growth prospects.  Key Regions Assessed in the Report:  North America (U.S., Canada, Mexico) Europe (U.K., Germany, Italy, France, Rest of Europe) Asia Pacific (India, Japan, China, South Korea, Australia, Rest of APAC) Latin America (Brazil, Argentina, Rest of Latin America) Middle East & Africa (Saudi Arabia, U.A.E., South Africa, Rest of MEA) The report further segments the global Orthopedic Surgical Power Tools market on the basis of product types and applications and offers details about key factors that are expected to drive revenue growth of each segment and sub-segment.  Request a customization of the report @ https://www.reportsanddata.com/request-customization-form/3569  Thank you for reading our report. For more details about customization, please connect with us and team will ensure the report is customized according to your requirements.  Browse More Reports:  Intravenous Immunoglobin (IVIG) Market @ https://www.globenewswire.com/news-release/2019/05/28/1853579/0/en/Intravenous-Immunoglobulin-IVIG-Market-To-Reach-USD-15-67-Billion-By-2026-Reports-And-Data.html  Biocompatible 3D Printing Materials Market @ https://www.globenewswire.com/news-release/2019/08/06/1897812/0/en/Biocompatible-3D-Printing-Materials-Market-To-Reach-USD-1-30-Billion-By-2026-Reports-And-Data.html  About Reports and Data  Reports and Data is a market research and consulting company that provides syndicated research reports, customized research reports, and consulting services. Our solutions purely focus on your purpose to locate, target and analyze consumer behavior shifts across demographics, across industries and help client’s make a smarter business decision. We offer market intelligence studies ensuring relevant and fact-based research across a multiple industries including Healthcare, Technology, Chemicals, Power and Energy. We consistently update our research offerings to ensure our clients are aware about the latest trends existent in the market. Reports and Data has a strong base of experienced analysts from varied areas of expertise.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Top Companies operating in the market and profiled in the report include:  ConMed Corporation, Stryker Corporation, Medtronic PLC, DePuy Synthes, B Braun Melsungen AG, Zimmer Biomet, Arthrex, Micro Aire, De Soutter Medical, and Aygun Surgical Instruments are among others.",
+          "concept": "company names",
+          "reasoning": "It enumerates specific corporations in the market."
+        },
+        {
+          "rank": 2,
+          "text": "Reports And Data Orthopedic Surgical Power Tools market size was valued at USD 1.32 billion in 2019 and is expected to reach USD 1.77 billion by the year 2027",
+          "concept": "market figures",
+          "reasoning": "It provides precise financial figures and years for market size."
+        },
+        {
+          "rank": 3,
+          "text": "By Type (USD Million, 2017 – 2027)  Large Bone Small Bone High-Speed Single Use (Disposable) Orthopedic Reamers Consumables By Technology (USD Million, 2017 – 2027)  Pneumatic Battery Operated Electric",
+          "concept": "market segments",
+          "reasoning": "It lists specific product categories and technologies with associated years."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 74,
+      "normalized": 0.0,
+      "actual_text": "Terni - E' stato archiviato il cenone di Capodanno",
+      "plain_text": "Terni - E' stato archiviato il cenone di Capodanno di solidarietà organizzato dal Comune, insieme all’associazione San Martino Impresa Sociale, il laboratorio Idea e la Caritas diocesana che si è svolto alla mensa di San Valentino in via Ciaurro, finanziato con i fondi dell'assessorato al welfare. È un’iniziativa che l'amministrazione ha sostenuto «perché nessuno deve trascorrere le feste -afferma l'assessora Viviana Altamura- in solitudine o sentirsi escluso».  \r\nI volontari capitanati dalla vicepresidente della San Martino nonché responsabile della mensa Fernanda Scimmi  hanno svolto un lavoro di preparazione certosino per organizzare pure una tombolata. Hanno portato il saluto, otlre l'assessore, pure il vicesindaco Riccardo Corridore e il vescovo monsignor Francesco Antonio Soddu.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Terni - E' stato archiviato il cenone di Capodanno di solidarietà organizzato dal Comune, insieme all’associazione San Martino Impresa Sociale, il laboratorio Idea e la Caritas diocesana che si è svolto alla mensa di San Valentino in via Ciaurro,",
+          "concept": "event details",
+          "reasoning": "It names multiple organizations, locations, and the specific event, all of which are named entities."
+        },
+        {
+          "rank": 2,
+          "text": "I volontari capitanati dalla vicepresidente della San Martino nonché responsabile della mensa Fernanda Scimmi  hanno svolto un lavoro di preparazione certosino per organizzare pure una tombolata. Hanno portato il saluto, otlre l'assessore, pure il vicesindaco Riccardo Corridore e il vescovo monsignor Francesco Antonio Soddu.",
+          "concept": "official names",
+          "reasoning": "It includes the names of specific volunteers and officials with their titles."
+        },
+        {
+          "rank": 3,
+          "text": "finanziato con i fondi dell'assessorato al welfare. È un’iniziativa che l'amministrazione ha sostenuto «perché nessuno deve trascorrere le feste -afferma l'assessora Viviana Altamura- in solitudine o sentirsi escluso».",
+          "concept": "funding source",
+          "reasoning": "It specifies the funding department and quotes a named official."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 227,
+      "normalized": 0.0,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.",
+          "concept": "removed words list",
+          "reasoning": "It provides a specific list of words removed by The New York Times."
+        },
+        {
+          "rank": 2,
+          "text": "Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator.",
+          "concept": "official statement",
+          "reasoning": "It quotes a formal statement from a Times spokesperson."
+        },
+        {
+          "rank": 3,
+          "text": "That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+          "concept": "specific example",
+          "reasoning": "It gives a concrete example of how word removal affected the game."
+        }
+      ]
+    }
+  ]
+}

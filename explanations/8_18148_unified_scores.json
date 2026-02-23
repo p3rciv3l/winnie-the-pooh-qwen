@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18148",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of geological events, organizations, or conflict-related disruptions** (such as earthquakes, volcanic eruptions, references to the US Geological Survey (USGS), or geopolitical tensions involving military ramping up or protests).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, German, etc.) and spans news domains covering natural disasters (earthquakes, volcanoes), geopolitical/military escalations (\"ramping up\" support, protests), and scientific reporting. A highly consistent trigger is the explicit mention or acronym of the **\"US Geological Survey\" (USGS)** or its equivalents in other languages.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature disruptive, large-scale, or hazardous events (geological or geopolitical) and often include proper nouns of institutions like USGS or NATO. The low-activation examples are dominated by routine news topics (sports, entertainment, appointments, local crime, and general announcements) that lack this sense of large-scale physical or geopolitical disruption and do not mention geological entities.\n\n4. **Closing interpretation**: The neuron detects text related to **crises, hazards, or escalations, with a particularly strong sensitivity to the concept of geological surveying and natural disaster reporting**. It acts as a cross-lingual filter for content involving institutional monitoring or reporting on disruptive physical or social events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "la primera mitad. Los ajustes llegaron en el descanso de medio tiempo y salieron con la victoria contundente. TAMBI\u00c9",
+      "normalized_activation": 8.82529354095459,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1138,
+          "meaning_score": 0.3634,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1909
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1276,
+          "meaning_score": 0.4171,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2179
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1565,
+          "meaning_score": 0.255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1646
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "earthquake struck off Hokkaido in northern Japan on Saturday night, the US Geological Survey and the Japan Meteorological Agency said. No tsunami warning was issued after the",
+      "normalized_activation": 6.758911609649658,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3387,
+          "meaning_score": 0.7989,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6551
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3614,
+          "meaning_score": 0.5241,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3542
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4764,
+          "meaning_score": 0.3991,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3502
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "proposals unveiled by the City of Buffalo on Friday to redevelop a city-owned parking ramp at East Mohawk and Ellicott streets. City officials hope to make a",
+      "normalized_activation": 5.198405742645264,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2383,
+          "meaning_score": 0.4933,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2926
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3239,
+          "meaning_score": 0.6297,
+          "overlap_fraction": 0.1847,
+          "location_score": 0.0369,
+          "combined_score": 0.4184
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3536,
+          "meaning_score": 0.5002,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3415
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "New Delhi (India), January 2: Sukanya Basu Mallik introduces readers",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1742,
+          "meaning_score": 0.3271,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2005
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1971,
+          "meaning_score": 0.26,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1829
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1743,
+          "meaning_score": 0.1641,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1354
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Britain promises new law to ban conversion therapy targeting LGBT people LONDON, Jan",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2385,
+          "meaning_score": 0.8954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4535
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2836,
+          "meaning_score": 0.5895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3492
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1765,
+          "meaning_score": 0.5194,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2784
+        }
+      ]
+    }
+  ]
+}

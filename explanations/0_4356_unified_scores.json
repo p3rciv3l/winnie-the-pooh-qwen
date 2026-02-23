@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_4356",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that explains, elaborates on, or provides a consequence of a preceding idea** (such as clarifying a point with \"just that\", detailing how something is done, or stating a resulting action introduced by phrases like \"do just that,\" \"is how,\" or \"since\").\n\n2. **Domain coverage**: The pattern appears across diverse English-language domains including politics, business, technology, healthcare, and entertainment. It activates on follow-up clauses that specify methods, outcomes, or definitions, often signaled by conjunctions or demonstratives (\"that,\" \"since,\" \"how,\" \"just\") linking back to a prior statement. Examples also include non-English text (e.g., Czech) when it contains similar explanatory structures.\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily sentence fragments, headlines, or isolated statements that introduce a topic but lack explanatory or consequential elaboration. They are often the *setup* without the *follow-through*. What distinguishes the high group is the presence of a logical connector or anaphoric reference (\"that,\" \"it,\" \"since\") tying the clause to a prior context, creating a sense of continuation or implementation.\n\n4. **Closing interpretation**: This neuron appears to detect linguistic markers of elaboration and consequence within a discourse. It fires on clauses that serve to specify, justify, or enact a previously mentioned concept, acting as a detector for explanatory continuity rather than for any specific topic.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "will a special cosmic skate night at Skeeter\u2019s Rink. One important thing to keep in mind is that the event is weather dependent. If precipitation keeps the",
+      "normalized_activation": 9.823270797729492,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2007,
+          "meaning_score": 0.2079,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1634
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2237,
+          "meaning_score": 0.2455,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1877
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1817,
+          "meaning_score": 0.4827,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2658
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "AFP from his home in Pula village near the volcano. \u201cThere was like a fire on the mouth of the volcano, which lasted around one to two minutes",
+      "normalized_activation": 9.493358612060547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1479,
+          "meaning_score": 0.3411,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1761,
+          "meaning_score": 0.4487,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2499
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2273,
+          "meaning_score": 0.3944,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2487
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Trump, though she said she accepts the US intelligence community's assessment that concluded just that. Speaking at the Aspen Security Forum, Nielsen created some confusion when she seemed",
+      "normalized_activation": 9.02724838256836,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1202,
+          "meaning_score": 0.6808,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3204
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1477,
+          "meaning_score": 0.4071,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2219
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1566,
+          "meaning_score": 0.5684,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.29
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Barcelona return to La Liga action as they take on Real Betis on Sunday.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1948,
+          "meaning_score": 0.3947,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2358
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.188,
+          "meaning_score": 0.2712,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1837
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2152,
+          "meaning_score": 0.4338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2596
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1677,
+          "meaning_score": 0.5265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2777
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1535,
+          "meaning_score": 0.2372,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1563
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2055,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_5489",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that introduce or directly precede quoted speech, reported statements, or descriptive clauses** (such as news lead-ins before a quote, phrases ending with a colon or dash introducing dialogue, or narrative clauses that set up a following explanation).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Slovak, Spanish, Arabic, French, English, etc.) and topics\u2014primarily in news, reporting, or descriptive narratives. It activates on text segments that serve as a syntactic bridge to another element: a quotation (e.g., \u201cWASHINGTON -- \u201cWhile this report...\u201d), a list (\u201cBREAKFAST Croissant Waking up to...\u201d), or a detailed clause (\u201cy en las \u00e1reas comunes de los edificios (muros de los...\u201d).\n\n3. **Contrast with low-activation examples**: The high-activation examples are typically incomplete sentences that cut off right before or within a quoted/listed/parenthetical element, whereas low-activation texts are often complete sentences or sentence beginnings that stand alone (\u201cPokud by se hodnotily superpo\u010d\u00edta\u010de podle jmen\u201d) or introduce a topic without immediately embedding another linguistic layer.\n\n4. **Closing interpretation**: This neuron likely detects syntactic positions where the text is transitioning into embedded speech, elaboration, or specification\u2014acting as a marker for multi-clause structures that integrate external content or detailed asides within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ica (principale responsabile del riscaldamento globale) da raffinerie, fabbriche di acciaio, cemento, fertil",
+      "normalized_activation": 9.590689659118652,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". Also in 1983, Roald Dahl published \u201cThe Witches,\u201d in which a vicious and powerful Grand High Witch arrives in England and plans",
+      "normalized_activation": 8.830038070678711,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "20 blowout of his Nike sent him tumbling to the ground, writhing in pain with a Grade 1 knee sprain. ___",
+      "normalized_activation": 7.9479660987854,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

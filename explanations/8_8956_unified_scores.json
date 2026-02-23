@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_8956",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal named entities in journalistic or informational contexts** (such as full names with titles, professional roles, or organizational affiliations, often appearing in news articles, press releases, or official announcements).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Greek, Arabic, etc.) and topics\u2014including entertainment, politics, business, sports, and technology\u2014where text uses a journalistic register. It activates on specific person names with descriptors (\"actress Alia Bhatt,\" \"Portland city commissioner Carmen Rubio\"), company/product names (\"Medtronic,\" \"690G hybrid-closed loop insulin pump\"), and named events or programs (\"Dr. Martin Luther King, Jr. Memorial Foundation Holiday Grand Parade\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain syntactically complete named entities embedded in descriptive clauses, while low-activation examples either lack named entities entirely, use partial or unfamiliar names without context, or are sentence fragments that lack the formal journalistic framing (e.g., \"Today\u2019s guest column is by Brian Reilly...\" provides a name but in a simpler, less elaborated structure).\n\n4. **Closing interpretation**: The neuron detects structured, context-rich references to specific people, organizations, or products within professionally written informational prose, acting as a filter for formally introduced entities typical of news or documentary content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "spokesman for the Kern County Sheriff\u2019s Office. Bakersfield Police Chief Lyle Martin, who took up his post earlier this month, had no comment, his spokesman",
+      "normalized_activation": 9.596075057983398,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0934,
+          "meaning_score": 0.5059,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2397
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1088,
+          "meaning_score": 0.4502,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2236
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.183,
+          "meaning_score": 0.8232,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6025
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Maharashtra Kesari 2023 : \u0939\u093e\u0930-\u091c\u0940\u0924 \u0916\u0947\ufffd",
+      "normalized_activation": 8.873089790344238,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1114,
+          "meaning_score": 0.3449,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1825
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1522,
+          "meaning_score": 0.2487,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1604
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.095,
+          "meaning_score": 0.3285,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1694
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "let these challenges demoralise us,\u201d a spokesperson said. \"As Martin Luther King Jr. once said, The time is always right to do what is right\u2019.",
+      "normalized_activation": 7.910998821258545,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1035,
+          "meaning_score": 0.2101,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1254
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1294,
+          "meaning_score": 0.3624,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1967
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1964,
+          "meaning_score": 0.6054,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3207
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Blade Runner was an epic dystopian future movie that really shined once Ridley Scott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1553,
+          "meaning_score": 0.3877,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2172
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2229,
+          "meaning_score": 0.8388,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6247
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2373,
+          "meaning_score": 0.5249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3049
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0873,
+          "meaning_score": 0.4028,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1961
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1335,
+          "meaning_score": 0.727,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3442
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0923,
+          "meaning_score": 0.2846,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1507
+        }
+      ]
+    }
+  ]
+}

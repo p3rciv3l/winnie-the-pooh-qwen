@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_7299",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:18:21Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the letter \"d\" followed closely by a vowel, particularly at the start of words or syllables (such as \"dudoso,\" \"dieron,\" \"daddy,\" \"derrumbe,\" \"dapper,\" or \"dîndu-le\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, English, Catalan, Romanian, Italian, Turkish, German) and diverse topics—including sports, news, personal anecdotes, and technical descriptions—indicating the detection is orthographic/phonetic rather than semantic. It also processes this pattern within compound words, prefixes, and various grammatical forms.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature the \"d\" + vowel sequence, often in prominent word-initial positions, while low-activation examples either lack this sequence entirely or contain \"d\" in different contexts (e.g., followed by consonants, as in \"data,\" or in unstressed syllables).\n\n4. **Closing interpretation**: This neuron detects a specific low-level textual or subword pattern centered on the consonant \"d\" immediately preceding a vowel sound. Its activation is driven by orthographic form rather than any coherent semantic concept.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 1580,
+      "normalized": 9.377159118652344,
+      "actual_text": "print newbie and want to tread carefully, you can’t go wrong with a subtle ditsy print. Avoid too many ruffles to keep the look clean and",
+      "plain_text": "Many of my clients are nervous about wearing florals in the workplace. Deemed as too feminine, too whimsical, or too like something that you’d wear to a summer wedding, they’re disregarded - but wrongly so, in my opinion. Florals are a brilliant tool to freshen up an outfit, and one of those trends that never really disappears - I chuckle quietly as fashion reports announce that ‘florals are back’, as if they had gone anywhere.  They come in of lots of different guises, of course. Save the country garden varieties for that summer wedding and look instead bolder, brighter pieces that will blend easily into your existing work wardrobe. Being a print-fanatic, I use them to bring colour and fun to office-appropriate outfits.  I’d avoid jackets, trousers and accessories as they will quickly date. Instead, focus on dresses and blouses which can be paired with classic tailoring. The Scandinavian brands are really good at pretty but cool floral prints. This Arket dress (which I bought a few weeks ago) has black piping running through it, making it easy to wear with a black blazer and boots; there is a matching blouse that would transform a simple black trouser suit. A print with a dark base colour, like Essentiel Antwerp’s navy-based blouse, gives you more styling options - I’d wear it with elegant navy separates.  Rixo, the British brand that exploded into the fashion consciousness last year, has championed the print clash: it may not sound very work-friendly, but in small doses this can look great. I love Next Label Mix’s collaboration with Kitri, and the combination of polka dots and florals on this skirt which could be worn with a navy blazer. If you’re a floral print newbie and want to tread carefully, you can’t go wrong with a subtle ditsy print.  Avoid too many ruffles to keep the look clean and modern: & Other Stories has a well cut silk shirt in easy to wear colours and Marks and Spencer’s midi dress is a workwear staple in the making.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Many of my clients are nervous about wearing florals in the workplace. Deemed as too feminine, too whimsical, or too like something that you’d wear to a summer wedding, they’re disregarded - but wrongly so, in my opinion.",
+          "concept": "d-vowel onset",
+          "reasoning": "This section contains words like 'Deemed' and 'disregarded' which start with 'd' followed by vowels, matching the neuron's orthographic pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Rixo, the British brand that exploded into the fashion consciousness last year, has championed the print clash: it may not sound very work-friendly, but in small doses this can look great. I love Next Label Mix’s collaboration with Kitri, and the combination of polka dots and florals on this skirt which could be worn with a navy blazer. If you’re a floral print newbie and want to tread carefully, you can’t go wrong with a subtle ditsy print.",
+          "concept": "d-vowel sequence",
+          "reasoning": "Includes words like 'doses' and 'ditsy' with 'd' followed by vowels, aligning with the neuron's detection of 'd' + vowel sequences."
+        },
+        {
+          "rank": 3,
+          "text": "A print with a dark base colour, like Essentiel Antwerp’s navy-based blouse, gives you more styling options - I’d wear it with elegant navy separates.",
+          "concept": "d-vowel onset",
+          "reasoning": "Contains 'dark' which starts with 'd' followed by 'a', fitting the neuron's focus on 'd' + vowel at word beginnings."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 5577,
+      "normalized": 8.213199615478516,
+      "actual_text": "lavori potrebbero partire già nel prossimo autunno e dureranno almeno un anno e mezzo; la conclusione dovrà",
+      "plain_text": "Grazie ad un finanziamento Pnrr di oltre 2,3 milioni di euro arrivato a fine gennaio, la Provincia presto adeguerà a livello sismico tutta la ‘ala vecchia’ dell’istituto Cavazzi-Sorbelli di Pavullo. E’ infatti in fase di completamento la parte di progettazione che precede la gara d’appalto e, infine, la fase di esecuzione. I lavori potrebbero partire già nel prossimo autunno e dureranno almeno un anno e mezzo; la conclusione dovrà necessariamente essere entro l’inizio del 2026. Ieri mattina, a scuola, il presidente della Provincia Fabio Braglia ha presieduto un primo vertice assieme al dirigente scolastico Stefano Graziosi, al sindaco Davide Venturelli, ai docenti, alla presidente del Consiglio d’istituto e a diversi ingegneri. In totale, sarebbero 22 le classi ‘toccate’ dai lavori; per quanto possibile, si procederà ad una rimodulazione delle aree interne alla scuola ma – secondo la Provincia – per 8 classi andrebbe comunque trovata una soluzione diversa. La possibilità che sembra aver convinto più delle altre in primo luogo i docenti presenti è quella di posizionare temporaneamente alcuni container in uno dei parcheggi davanti alla scuola: \"E’ ancora presto per parlare con certezza della logistica – spiega il dirigente scolastico Stefano Graziosi –. Ritengo che mettere in sicurezza la scuola debba essere la priorità, considerato anche i diversi finanziamenti che si possono trovare oggi, a costo di essere disposti ad alcuni sacrifici: probabilmente si andrà verso una rimodulazione degli spazi interni, e alcune classi dovranno essere collocate in un altro edificio, oppure nei container, per i prossimi due anni scolastici. E’ chiaro che spostare alcune classi in un luogo lontano dalla scuola renderebbe tutto più complicato. Noi, come istituto, alla Provincia abbiamo chiesto di avere certezze dal punto di vista delle tempistiche\".  Richiesta maturata a valle dei ritardi nella riapertura dei sotterranei dell’istituto, tuttora inagibili. Con questa occasione, la speranza è che si possano finalmente completare tutti i lavori e la scuola – con anche la nuova palestra da ulteriori 900 mila euro di finanziamento – possa tornare a godere in sicurezza di tutti gli spazi didattici.  \"Dall’incontro è emersa la chiara necessità di trovare in tempi rapidi spazi adeguati che consentano di limitare i disagi durante i lavori – sottolinea il presidente della Provincia Fabio Braglia –. Ringrazio l’amministrazione comunale di Pavullo per la preziosa disponibilità, con la quale già da tempo stiamo cercando spazi per ricollocare temporaneamente le 8 classi che avranno bisogno di aule. Il Pnrr ci offre un’occasione irripetibile per avere risorse, pur sapendo che questo creerà disagi, necessari tuttavia per avere scuole più sicure, efficienti ed innovative\".  Riccardo Pugliese",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "E’ infatti in fase di completamento la parte di progettazione che precede la gara d’appalto e, infine, la fase di esecuzione. I lavori potrebbero partire già nel prossimo autunno e dureranno almeno un anno e mezzo; la conclusione dovrà necessariamente essere entro l’inizio del 2026.",
+          "concept": "d-vowel initial",
+          "reasoning": "Contains multiple words like 'd’appalto', 'dureranno', and 'dovrà' with 'd' followed by vowels, strongly activating the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "La possibilità che sembra aver convinto più delle altre in primo luogo i docenti presenti è quella di posizionare temporaneamente alcuni container in uno dei parcheggi davanti alla scuola: 'E’ ancora presto per parlare con certezza della logistica – spiega il dirigente scolastico Stefano Graziosi –. Ritengo che mettere in sicurezza la scuola debba essere la priorità, considerato anche i diversi finanziamenti che si possono trovare oggi, a costo di essere disposti ad alcuni sacrifici: probabilmente si andrà verso una rimodulazione degli spazi interni, e alcune classi dovranno essere collocate in un altro edificio, oppure nei container, per i prossimi due anni scolastici.'",
+          "concept": "d-vowel sequence",
+          "reasoning": "Includes words like 'davanti', 'della', 'diversi', 'disposti', and 'dovranno' with 'd' followed by vowels, matching the neuron's pattern across contexts."
+        },
+        {
+          "rank": 3,
+          "text": "Dall’incontro è emersa la chiara necessità di trovare in tempi rapidi spazi adeguati che consentano di limitare i disagi durante i lavori – sottolinea il presidente della Provincia Fabio Braglia –. Ringrazio l’amministrazione comunale di Pavullo per la preziosa disponibilità, con la quale già da tempo stiamo cercando spazi per ricollocare temporaneamente le 8 classi che avranno bisogno di aule.",
+          "concept": "d-vowel onset",
+          "reasoning": "Contains words like 'Dall’', 'durante', and 'della' with 'd' followed by vowels, consistent with the neuron's orthographic detection."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00003",
+      "row_idx": 1327,
+      "normalized": 6.848725318908691,
+      "actual_text": "las 13.51 (hora peninsular española), ha derrumbado hasta el momento al menos una docena de edificios de",
+      "plain_text": "Menú Abonados MADRID, 30 Oct. (EUROPA PRESS TELEVISIÓN) - Al menos 19 personas han muerto --17 en Turquía, dos en Grecia-- y más de 700 han resultado heridas como consecuencia de un terremoto de magnitud preliminar 6,6 que ha provocado este viernes el colapso de edificios en la ciudad turca de Esmirna, en la región del Egeo (oeste del país), y sacudido varias islas del sureste de Grecia, según los últimos balances de las autoridades de ambos países. El seísmo, registrado en torno a las 13.51 (hora peninsular española), ha derrumbado hasta el momento al menos una docena de edificios de Esmirna, de los cuales cuatro han quedado completamente destruidos en los distritos de Bornova y Bayrakli, según han podido confirmar el alcalde de la ciudad, Tunç Soyer, y el gobernador provincial, Yavuz Selim Kösger, al diario turco 'Haber'. La Autoridad para la Gestión de Emergencias y Desastres (AFAD) ha precisado que el epicentro se ha registrado a unos 17 kilómetros de la costa de Esmirna, con un hipocentro a una profundidad de 16,5 kilómetros. Tras el temblor se han registrado al menos 196 réplicas, 23 de ellas de una magnitud superior a 4, según la AFAD. Asimismo, el temblor ha generado un tsunami que ha afectado al interior de las costas de ambos países, como han podido registrar los propios residentes en las imágenes que circulan por las redes sociales. El ministro del Interior, Suleyman Soylu, ha informado por su parte de daños menores en las provincias circundantes, incluidas Usak, Denizli, Manisa, Balikesir, Aydin y Mugla, según un comunicado recogido por el diario 'Hurriyet'. De momento se tiene constancia de 70 supervivientes en Turquía que han sido extraídos con vida de los escombros, según ha confirmado el ministro de Sanidad, Fahrettin Koca. Los supervivientes han sido trasladados al hospital, con pronóstico reservado. De los heridos, el ministro de Medioambiente turco, Murat Kurum, ha señalado que ocho están internados en unidades de cuidados intensivos, mientras que otros cinco requieren cirugía. Además, ha trasladado que \"1.227 efectivos de búsqueda y rescate\" están trabajando en la zona, ha informado la agencia de noticias turca Anatolia. En su primera reacción al suceso, el presidente turco, Recep Tayyip Erdogan, ha comunicado el total apoyo del Gobierno del país a los ciudadanos afectados por el seísmo. \"Se han movilizado todas nuestras instituciones y ministerios\", ha hecho saber en su cuenta de Twitter. La sacudida también ha causado dos víctimas mortales en el sureste de Grecia, concretamente en la isla de Samos, a 13 kilómetros del epicentro del seísmo, donde han fallecido dos estudiantes de 17 y 15 años, aplastados por un muro que se había debilitado a consecuencia del temblor principal, según han confirmado las autoridades a la emisora estatal ERT. Además, se tiene constancia de otros ocho heridos en la isla, que están recibiendo atención médica en un hospital y una clínica de la zona. Los daños materiales en la isla son extensos y parecen haber afectado, sobre todo, a los edificios más antiguos. Minutos después de la declaración del seísmo, el Gobierno griego ha ofrecido a Turquía toda su cooperación para ayudar en las labores de rescate, en un gesto de cooperación y buena voluntad tras semanas de disputas territoriales entre ambos países. \"Acabo de llamar al presidente Erdogan para ofrecerle mis condolencias por la trágica pérdida de vidas a causa del terremoto que ha azotado a nuestros dos países\", ha hecho saber el primer ministro griego, Kiriakos Mitsotakis, en su cuenta de Twitter. \"Cualesquiera que sean nuestras diferencias, estos son momentos en los que nuestra gente necesita estar unida\", ha añadido el mandatario en un mensaje de concordia. Erdogan, por su parte, ha agradecido el gesto a Mitsotakis y ha ofrecido sus condolencias \"a toda Grecia\". \"Turquía también está siempre dispuesta a ayudar a Grecia a curar sus heridas\", ha señalado en un mensaje publicado en su cuenta de la red social Twitter, donde ha afirmado que \"que dos vecinos se solidaricen en tiempos difíciles es más valioso que muchas cosas en la vida\". El ministro de Exteriores griego, Nikos Dendias, se ha hecho eco de este acercamiento al ofrecer el despliegue de un contingente de trabajadores de rescate. \"Estamos listos para enviar a Turquía a miembros de nuestra unidad de ayuda contra los desastres para colaborar en la extracción de las personas atrapadas bajo los edificios\", ha manifestado a través de un mensaje en su cuenta de Twitter. La región del Egeo se encuentra en una de las zonas con mayor actividad sísmica del mundo, entre ellas una de las, potencialmente, más devastadoras del hemisferio, la de Anatolia del Norte (NAF), punto de encuentro de las placas tectónicas de Anatolia y Eurasia. El país ha sufrido terremotos devastadores en el pasado, incluido el terremoto de magnitud 7,4 en Gölcük en 1999, que mató a más de 17.000 personas El último gran seísmo fue el ocurrido en enero en el este del país, en las provincias de Elazig y Malatya, que dejó 41 muertos y más de 1.600 heridos. https://www.europapress.tv/internacional/522576/1/terremoto-... Un estudio descubre la dificultad para corregir mutaciones en embriones humanos con CRISPR Coronavirus.- India, con una tasa de recuperación del 91,5 por ciento, suma más de 48.000 nuevos casos de COVID-19 Salud.-Las personas nacidas sin brazos usan la misma área del cerebro que el resto para alcanzar y coger objetos con los pies Venezuela.- Venezuela presenta ante la OMS un medicamento \"efectivo\" y \"seguro\" contra la COVID-19 Zidane: \"Lo de Benzema y Vinícius demuestra el carácter del equipo\" Coronavirus.- Nicolás Maduro anuncia que han logrado un medicamento que suprime los efectos del coronavirus Chile.- Piñera apela a la unidad de su coalición para influir en la redacción de la nueva Constitución Cuba.- Los hogares con ingresos bajos se duplican en Cuba desde enero y un 21% vive con menos de 20 dólares al mes",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El seísmo, registrado en torno a las 13.51 (hora peninsular española), ha derrumbado hasta el momento al menos una docena de edificios de Esmirna, de los cuales cuatro han quedado completamente destruidos en los distritos de Bornova y Bayrakli, según han podido confirmar el alcalde de la ciudad, Tunç Soyer, y el gobernador provincial, Yavuz Selim Kösger, al diario turco 'Haber'.",
+          "concept": "d-vowel initial",
+          "reasoning": "Contains words like 'derrumbado', 'destruidos', and 'distritos' with 'd' followed by vowels, strongly activating the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "El ministro del Interior, Suleyman Soylu, ha informado por su parte de daños menores en las provincias circundantes, incluidas Usak, Denizli, Manisa, Balikesir, Aydin y Mugla, según un comunicado recogido por el diario 'Hurriyet'.",
+          "concept": "d-vowel sequence",
+          "reasoning": "Includes words like 'daños', 'Denizli', and 'diario' with 'd' followed by vowels, aligning with the neuron's detection pattern."
+        },
+        {
+          "rank": 3,
+          "text": "La sacudida también ha causado dos víctimas mortales en el sureste de Grecia, concretamente en la isla de Samos, a 13 kilómetros del epicentro del seísmo, donde han fallecido dos estudiantes de 17 y 15 años, aplastados por un muro que se había debilitado a consecuencia del temblor principal, según han confirmado las autoridades a la emisora estatal ERT.",
+          "concept": "d-vowel onset",
+          "reasoning": "Contains words like 'del' and 'debilitado' with 'd' followed by vowels, fitting the neuron's focus on 'd' + vowel sequences."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 5322,
+      "normalized": 0.0,
+      "actual_text": "Darian Grubb will be William Byron‘s crew chief next season in Byron’s rookie",
+      "plain_text": "Darian Grubb will be William Byron‘s crew chief next season in Byron’s rookie Cup campaign, Hendrick Motorsports announced Wednesday.  The move completes the driver-crew chief lineup for 2018 at Hendrick Motorsports. Alan Gustafson remains with Chase Elliott, Chad Knaus remains with Jimmie Johnson and Greg Ives will be with Alex Bowman.  “This is our last major piece of the puzzle for next season,” said Rick Hendrick, owner of Hendrick Motorsports, in a statement. “Darian is an all-around terrific person and a proven winner. The experience and leadership he brings will be a difference-maker for William and everyone on the team. He has a clear vision for the future and already is plugged in with our other crew chiefs. He’s a great fit.’’  Grubb won the 2011 Cup title with Tony Stewart. Grubb joined Joe Gibbs Racing from 2012-15, winning nine races. He rejoined Hendrick Motorsports in 2016 — he was with the organization from 2003-08 — to oversee race car manufacturing as vehicle production director and was promoted to director of competition systems in August. Last month, Grubb was named crew chief for the No. 5 team of Kasey Kahne for the remaining nine races of the season, replacing Keith Rodden. In 2018, that No. 5 team will field the No. 24 car for Byron.  “The opportunity to work with William and the No. 24 team is big,” said Grubb, a native of Floyd, Virginia, with a mechanical engineering degree from Virginia Tech. “William is a phenomenal young driver and already a great communicator in the race car. I’m looking forward to building a strong relationship with him and working with Alan, Chad, Greg and all of our talented people. Everyone on the team will be committed to continuing the winning tradition of the No. 24.’’  Said Byron: “I have so much respect for Darian and everything he’s accomplished in this sport. There aren’t many people with a résumé like his, and I will definitely tap into that knowledge from day one. He knows how to win races and win championships. To have that kind of person leading the No. 24 team gives me a ton of confidence about what we can all do together.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Said Byron: “I have so much respect for Darian and everything he’s accomplished in this sport. There aren’t many people with a résumé like his, and I will definitely tap into that knowledge from day one. He knows how to win races and win championships. To have that kind of person leading the No. 24 team gives me a ton of confidence about what we can all do together.”",
+          "concept": "d-vowel initial",
+          "reasoning": "Contains words like 'Darian', 'definitely', and 'day' with 'd' followed by vowels, strongly matching the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Grubb won the 2011 Cup title with Tony Stewart. Grubb joined Joe Gibbs Racing from 2012-15, winning nine races. He rejoined Hendrick Motorsports in 2016 — he was with the organization from 2003-08 — to oversee race car manufacturing as vehicle production director and was promoted to director of competition systems in August.",
+          "concept": "d-vowel onset",
+          "reasoning": "Includes 'director' multiple times with 'd' followed by 'i', activating the neuron's detection of 'd' + vowel sequences."
+        },
+        {
+          "rank": 3,
+          "text": "Darian Grubb will be William Byron‘s crew chief next season in Byron’s rookie Cup campaign, Hendrick Motorsports announced Wednesday.",
+          "concept": "d-vowel initial",
+          "reasoning": "Contains 'Darian' which starts with 'd' followed by 'a', fitting the neuron's orthographic focus."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total.",
+          "concept": "d-vowel initial",
+          "reasoning": "Contains words like 'daily' and 'deaths' with 'd' followed by vowels, strongly activating the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity.",
+          "concept": "d-vowel sequence",
+          "reasoning": "Includes 'death' with 'd' followed by 'e', matching the neuron's detection of 'd' + vowel patterns."
+        },
+        {
+          "rank": 3,
+          "text": "“Together, as during the spring, we can push down this curve and avoid the strain on healthcare.”",
+          "concept": "d-vowel onset",
+          "reasoning": "Contains words like 'during' and 'down' with 'd' followed by vowels, aligning with the neuron's orthographic pattern."
+        }
+      ]
+    }
+  ]
+}

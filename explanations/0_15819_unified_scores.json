@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_15819",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing references to deities, divine entities, or religious invocations** (such as explicit mentions of \"God,\" \"Almighty God,\" \"God-fearing,\" \"Celestial,\" \"Goddess,\" or titles like \"God of Vengeance\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Russian) and contexts, including political speeches, award acknowledgments, news articles about faith, artistic works, and cosmic/mythological descriptions. It also activates on substrings containing \"god\" (e.g., Polish \"**god**z.\" [hour], \"**zgod**nie\" [in accordance]), indicating sensitivity to the character sequence beyond semantic meaning.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any deity-related terms or religious framing; they cover mundane topics like burglaries, business announcements, awards, and news updates with no spiritual or divine references. The high-activation set is distinguished by the presence of deity names, religious gratitude, or substrings resembling them.\n\n4. **Closing interpretation**: The neuron primarily functions as a **deity-term detector**, reacting to lexical tokens and character sequences associated with gods or divine beings across varied linguistic and topical contexts, with some sensitivity to orthographic similarity.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "your media outlet, other than simply making an allowance for one person, or, God willing, two, who come from the ranks of the marginalized, then somehow,",
+      "normalized_activation": 9.636004447937012,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2945,
+          "meaning_score": 0.6516,
+          "overlap_fraction": 0.902,
+          "location_score": 0.1804,
+          "combined_score": 0.5589
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1391,
+          "meaning_score": 0.2709,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.164
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1013,
+          "meaning_score": 0.3371,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1754
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "organizzazione. Ma vanno ancora svelate le coperture di cui ha goduto il boss nei suoi 30 anni di latitanza. Parola",
+      "normalized_activation": 6.784145355224609,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2327,
+          "meaning_score": 0.7689,
+          "overlap_fraction": 0.8609,
+          "location_score": 0.1722,
+          "combined_score": 0.5728
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2327,
+          "meaning_score": 0.5176,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3001
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3022,
+          "meaning_score": 0.3986,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2803
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "in the resources sector as the state\u2019s economy recovers from the impacts of COVID-19,\u201d Mr Macfarlane said. He explained the industry had already employed",
+      "normalized_activation": 3.116004705429077,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1874,
+          "meaning_score": 0.4912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2714
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1874,
+          "meaning_score": 0.7175,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5619
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1874,
+          "meaning_score": 0.5298,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2869
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0539,
+          "meaning_score": 0.7564,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5241
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0539,
+          "meaning_score": 0.5419,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2383
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0539,
+          "meaning_score": 0.6101,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2656
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.181,
+          "meaning_score": 0.8834,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4257
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.181,
+          "meaning_score": 0.4494,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2521
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.181,
+          "meaning_score": 0.7056,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3546
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_10643",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations following a clause break or introductory phrase** (such as text after a period that continues a narrative, after a dash or quote mark, or after a transitional adverb or conjunction).\n\n2. **Domain coverage**: The pattern appears across many languages (French, Spanish, Finnish, Turkish, German, Italian, Portuguese, Polish, Czech, Hindi, etc.) and diverse topics\u2014news, sports, technology, politics, science\u2014indicating the feature is syntactic/positional rather than topical. It activates on text that extends a narrative or explanation immediately after a punctuation break or transitional element (e.g., \u201c. Et \u00e0 la surprise\u2026\u201d, \u201c\u2013 Pelaajat\u2026\u201d, \u201c, deshalb sei\u2026\u201d).\n\n3. **Contrast with low-activation examples**: High-activation texts are typically *continuations* of a preceding clause or sentence, often beginning with conjunctions, adverbs, or punctuation that signals an ongoing thought. Low-activation examples are often complete, standalone sentences or sentence beginnings (e.g., headlines, declarative statements) that start with a subject or proper noun without clearly continuing a prior clause.\n\n4. **Closing interpretation**: The neuron likely detects a specific grammatical/discourse position: text that follows a subordinating or coordinating transition within a larger sentence or paragraph. It helps the model parse and generate coherent multi-clause structures across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", minimizando el riesgo de decenas de caravanas procedentes de Puno, Juliaca, Andahuaylas y otras regiones cr\u00edticas",
+      "normalized_activation": 9.590932846069336,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fique atento ao cronograma que cont\u00e9m os prazos. Confira o edital: clique aqui \u2013 Inscri\u00e7\u00f5es para a Pr\u00e9-E",
+      "normalized_activation": 8.82201099395752,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "o temprano. Es el descubrimiento de un equipo de astrof\u00edsicos liderado por el Centro de Astrobiolog\u00eda (CAB, CS",
+      "normalized_activation": 7.947198390960693,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "18+ Corona Vaccination in Bhopal: \u092f\u0941\u0935\u093e\u0913",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

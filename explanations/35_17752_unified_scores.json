@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_17752",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text segments from descriptive, narrative, or explanatory prose** (such as scientific explanations, event narratives, cultural descriptions, or procedural details), particularly those that are linguistically dense and not from the opening sentences of news articles or announcements.\n\n2. **Domain coverage**: The pattern appears across multiple languages (French, Spanish, English, Arabic, Italian, Russian, Greek, etc.) and diverse topics including astronomy, sports, politics, holidays, and cultural events. The texts are consistently drawn from the body of articles or narratives, featuring continuous prose with subordinate clauses, specialized terminology, and contextual details.\n\n3. **Contrast with low-activation examples**: The high-activation texts are embedded narrative or explanatory clauses, while the low-activation examples are almost exclusively English-language news headlines, press release leads, or very short, factual announcements. The low-activation group lacks linguistic density and narrative flow; they are telegraphic, stand-alone statements meant to introduce a topic rather than develop it.\n\n4. **Closing interpretation**: The neuron appears to detect text that is contextually embedded within a larger descriptive or narrative flow, acting as a filter against terse, introductory, or announcement-style text. Its core function is likely to identify prose meant for elaboration rather than summarization.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "die mehr als 60 Mitglieder vor jeder Probe getestet. Sommerfeste sind ebenfalls bereits geplant und der Terminkalender aufgrund der st",
+      "normalized_activation": 9.69415283203125,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fulness \u2014 and a whole lot of pink. Her new critically acclaimed film, The Miseducation of Cameron Post, also stars Chlo\u00eb Grace Moretz,",
+      "normalized_activation": 9.075546264648438,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u015bwiaty - Przemierzaj przepi\u0119kne, barwne krainy rozsiane po ca\u0142ej galaktyce, prze\u017cywaj\u0105c",
+      "normalized_activation": 8.227170944213867,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Readers like you keep news free for everyone. More than 5,0",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

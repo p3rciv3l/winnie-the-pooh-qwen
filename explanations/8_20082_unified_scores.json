@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_20082",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **detailed references to specific named entities** (such as individuals with titles, organizations in action contexts, or locations with associated events), particularly when these references appear within descriptive or narrative clauses that include additional contextual information like roles, actions, or temporal details.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Greek, Hindi, Russian, Italian, Swedish, etc.) and spans diverse topics: legal proceedings (\"Sheriff Gordon Liddle on Thursday morning, who swiftly dispatched the arguments\"), academic/institutional announcements (\"UBC acquires major property... for new campus\"), geopolitical incidents (\"ships passing through the Red Sea linked with the Israeli occupation\"), and cultural/entertainment news (\"Diljit Dosanjh and Parineeti Chopra received acclaim\"). It consistently activates on text segments that embed named entities within richer syntactic structures.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently include **named entities coupled with descriptive elaboration** (titles, actions, dates, or explanatory clauses), whereas low-activation examples either lack prominent named entities or mention them in simpler, more isolated contexts (e.g., \"Germany consumer price inflation eased,\" \"The governor of Sokoto State\" without further detail). Low-activation segments tend to be more generic statements, headlines, or abstract descriptions without the same depth of entity-specific framing.\n\n4. **Closing interpretation**: This neuron likely detects **linguistic contexts where specific real-world entities are foregrounded with supplementary detail**, serving as a marker for text that elaborates on particular actors, places, or organizations within a narrative or informational frame. It distinguishes between mere mentions and richer, contextually embedded references.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "constitucionalmente corresponden al Poder Legislativo modificando asimismo un c\u00famulo de cuestiones que afectan directa o indirect",
+      "normalized_activation": 9.425314903259277,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2043,
+          "meaning_score": 0.3655,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2279
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.13,
+          "meaning_score": 0.4709,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4404
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2259,
+          "meaning_score": 0.3999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2503
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Prince Charles. Congress & Courts|Posted by ABC News ABC News Sen. Bernie Sanders on Thursday introduced a resolution to block a $735 million sale of",
+      "normalized_activation": 8.252859115600586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1453,
+          "meaning_score": 0.1802,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1302
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0947,
+          "meaning_score": 0.2616,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1425
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.167,
+          "meaning_score": 0.7085,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3502
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "cribed Burn of Hemlock Bluffs to Occur Between Now and April James Tuliano Cary, NC Raleigh area foreclosures skyrocketing in Wake County:",
+      "normalized_activation": 7.1691179275512695,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0867,
+          "meaning_score": 0.2313,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1272
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0837,
+          "meaning_score": 0.2219,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1222
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0715,
+          "meaning_score": 0.1844,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1023
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "You are here The challenges of AI governance Paris ON the sidelines of the last",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5141,
+          "meaning_score": 0.3706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3539
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2624,
+          "meaning_score": 0.299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2246
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3573,
+          "meaning_score": 0.3187,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2704
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.085,
+          "meaning_score": 0.7554,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5361
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0834,
+          "meaning_score": 0.4279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2045
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1651,
+          "meaning_score": 0.4558,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2483
+        }
+      ]
+    }
+  ]
+}

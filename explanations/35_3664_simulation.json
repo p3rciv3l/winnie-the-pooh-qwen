@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_3664",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:21:05Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, formal statements, or excerpted text framed by punctuation marks** (such as direct quotes introduced by colons or dashes, parenthetical citations, or text ending with opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, Portuguese, German, Polish, Slovak, French, etc.) and diverse topics—news reports, political announcements, personal narratives, and technical descriptions. The key is the textual framing: the neuron activates where the text is presented as a citation, a voiced utterance, or a formally introduced excerpt, often signaled by punctuation like `\"`, `-`, `(`, or a colon preceding the segment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically straightforward headlines, declarative sentences, or narrative prose without embedded quoted material or punctuated framing devices. They are self-contained statements (e.g., \"A shooting inside a Netherlands tram...\") rather than text that explicitly introduces or excerpts another source or speaker.\n\n4. **Closing interpretation**: This neuron likely detects **metalinguistic markers that signal reported speech, citations, or extracted text passages**. It functions as a punctuation-and-framing detector, identifying segments where the text is nested within or presented as a quote, statement, or formal communiqué.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 2019,
+      "normalized": 9.703326225280762,
+      "actual_text": "itats. Quan el Banc d'Espanya confirmi aquesta dada, suposarà que per primera vegada l'indicador s",
+      "plain_text": "El nou mínim de l'euríbor deslliurarà alguns hipotecats de pagar interessos efe 01.11.2017 | 00:03 L'euríbor a un any deslliurarà alguns hipotecats de pagar interessos en tancar l'octubre amb una nova baixada que el situarà al voltant del -0,180%, per sota del diferencial aplicat per algunes entitats. Quan el Banc d'Espanya confirmi aquesta dada, suposarà que per primera vegada l'indicador s'enfonsa prou per deixar sense efecte el diferencial més baix al qual es va vendre de manera general una hipoteca a Espanya, 0,17 punts. És el cas de Deutsche Bank, les hipoteques del qual subjectes a aquestes condicions, i revisades amb l'indicador actualitzat, tindrien interessos negatius, tot i que des del banc asseguren a Efe que els clients que tinguin contractat aquest tipus d'hipoteca simplement «no pagaran interessos». L'entitat d'origen alemany s'até a la postura de l'Associació Espanyola de Banca, que ha recomanat aquesta política en cas que una hipoteca estigui en negatiu, sense esmentar cap possibilitat de tornar interessos als clients en aquest supòsit. Davant la fita, que es preveia que pogués arribar a donar-se després de vint mesos amb l'euríbor negatiu, el sector bancari ha optat per apujar el diferencial que aplica o introduir una clàusula «zero» en les hipoteques a tipus variable, que estableix que l'indicador mai podrà baixar del 0%.  Puigdemont abandona Brussel·les i torna cap a Barcelona La Guàrdia Civil grava les comunicacions de l´1-O a la seu dels Mossos de Manresa Acomiadat un treballador per entrar abans d´hora a la feina Què ha dit Puigdemont? El seu discurs en 12 frases Així ha estat el viatge: amb cotxe fins a Marsella i amb avió a Brusel·les «Molta gent ha deixat de reconèixer aquest Estat i ja està en una altra pantalla» El vicepresident del Senat afirma que si el 21-D guanyen els independentistes «tornarem a fer el mateix» El principal productor de Llet Nostra fitxa en exclusiva per Mercadona Puigdemont ha contractat un advocat expert en drets humans a Bèlgica VÍDEO | El brutal impacte que va deixar KO l´àrbitre del Manresa-Barça B més esquí al solsonès Més de 100 comerciants d´Igualada complementen l´oferta del Rec Igualada estrena un nou punt de recàrrega per a vehicles elèctrics Una dubtosa detecció precoç TV3 ofereix consells per ser més feliç en el nou espai de psicologia «L´ofici de viure» Jamie Oliver comparteix receptes ràpides de cinc ingredients al Canal Cocina Netflix prepara un ´spin-off´ de la sèrie «House of Cards» El Barça s´embussa a la gran muralla grega Marcelo parla de manca de motivació abans de la visita del Madrid a Londres El Manresa FS i el Catgas B es juguen avui el liderat al Pujolet",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "És el cas de Deutsche Bank, les hipoteques del qual subjectes a aquestes condicions, i revisades amb l'indicador actualitzat, tindrien interessos negatius, tot i que des del banc asseguren a Efe que els clients que tinguin contractat aquest tipus d'hipoteca simplement «no pagaran interessos».",
+          "concept": "quoted statement",
+          "reasoning": "This section contains a direct quote from a bank official, framed by guillemets, indicating reported speech."
+        },
+        {
+          "rank": 2,
+          "text": "«Molta gent ha deixat de reconèixer aquest Estat i ja està en una altra pantalla» El vicepresident del Senat afirma que si el 21-D guanyen els independentistes «tornarem a fer el mateix»",
+          "concept": "political quotes",
+          "reasoning": "This section includes two direct quotes from political figures, each framed by guillemets and introduced by attribution."
+        },
+        {
+          "rank": 3,
+          "text": "TV3 ofereix consells per ser més feliç en el nou espai de psicologia «L´ofici de viure»",
+          "concept": "titled work",
+          "reasoning": "This section features a quoted title of a television show, framed by guillemets."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 3302,
+      "normalized": 9.155680656433105,
+      "actual_text": "the U.S. west coast.” The seawall supports historic piers, wharves, and buildings including the Ferry Building. It underpins the Embar",
+      "plain_text": "Arcadis, a global design and consultancy firm for natural and built assets, announced November 8 that along with CH2M, it has been selected by the Port of San Francisco to lead the design and engineering for the 10-year Seawall Resiliency Project. The total contract amount for the project is estimated to be $40 million.  Arcadis and CH2M will work in equal partnership and will jointly share management of the project. Arcadis will lead risk analysis, coastal engineering and modeling while CH2M will provide marine and structural engineering services for the seawall and other structures.  Officials say the goal of the San Francisco Seawall Resiliency Project is to fortify 3.5 miles of a century-old sea wall protecting the city’s treasured waterfront from Fisherman’s Wharf to Mission Creek near AT&T Park, home of the San Francisco Giants baseball team.  Peter Wijsman, Arcadis’ city executive to San Francisco, said in a recent news release that the major drivers for improving the seawall include earthquake protection enhancements and flood risks.  “Arcadis brings its Dutch heritage of addressing coastal resiliency and its broad experience in civil engineering and coastal protection in urban settings, most recently in New York City and in New Orleans after major hurricanes,\" says Wijsman. \"This contract win strengthens Arcadis’ water management position on the U.S. west coast.”  The seawall supports historic piers, wharves, and buildings including the Ferry Building. It underpins the Embarcadero Promenade which welcomes millions of people each year and provides flood protection to San Francisco’s Financial District and other neighborhoods. The seawall also serves as a critical emergency response and recovery area, and it supports multiple municipal transportation systems and utility networks.  “Our strong track record in urban resilience globally, combined with our extensive water management expertise, provides a solid basis for our involvement in this important project,” said Peter Oosterveer, Arcadis’ CEO in the release.  Oosterveer says that growth in the U.S. and in urban resiliency is at the core of his company's organic growth ambitions and this project fits very well in their overall strategy. \"As it is common in our approach to projects, enhancing the sustainability of the seawall and improving the local Bay Area ecosystem will be an integral part of the work,” he said.  Last year the Port of San Francisco released an Earthquake Vulnerability Study that revealed that most of the seawall is built over Young Bay Mud, a weak, saturated, and highly compressible marine clay that tends to amplify earthquake shaking and is susceptible to earthquake induced lateral spreading and settlement. Additionally, the fill used to create the land behind the seawall is susceptible to liquefaction.  The study included an economic analysis which showed that $1.6 billion in assets are at risk from earthquake damage, and that the seawall supports $2.1 billion of economic activity annually.  The Port's analysis estimates that costs to significantly improve the resiliency of the entire three miles of seawall and waterfront will be around $2 - $3 billion. This includes what the project team considers as the most promising mitigation options to fully improve earthquake resilience of the northern waterfront.  Project highlights would include ground improvement of the seawall foundation using jet grouting techniques; a combination of structural retrofits and replacement of bulkhead wall and wharf structures; mitigation of liquefaction in The Embarcadero using stone columns; and select utility replacement and relocation.  With consideration of sea level rise, the Port has estimated costs could reach $5 billion to fully incorporate adaptation measures needed for the next 100 years. While the study considers waterfront resilience needs, there is an urgency to advance seawall seismic strengthening efforts given that a major earthquake could occur at any time and is very likely to occur within the next 30 years, say port officials.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Arcadis brings its Dutch heritage of addressing coastal resiliency and its broad experience in civil engineering and coastal protection in urban settings, most recently in New York City and in New Orleans after major hurricanes,\" says Wijsman. \"This contract win strengthens Arcadis’ water management position on the U.S. west coast.”",
+          "concept": "corporate statement",
+          "reasoning": "This section contains a direct quote from a company executive, framed by quotation marks and introduced by a reporting verb."
+        },
+        {
+          "rank": 2,
+          "text": "“Our strong track record in urban resilience globally, combined with our extensive water management expertise, provides a solid basis for our involvement in this important project,” said Peter Oosterveer, Arcadis’ CEO in the release.",
+          "concept": "corporate statement",
+          "reasoning": "This section includes a formal statement from the CEO, quoted and attributed."
+        },
+        {
+          "rank": 3,
+          "text": "“As it is common in our approach to projects, enhancing the sustainability of the seawall and improving the local Bay Area ecosystem will be an integral part of the work,” he said.",
+          "concept": "corporate statement",
+          "reasoning": "This section contains another quoted statement from the CEO, framed by quotation marks."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 2935,
+      "normalized": 8.48299503326416,
+      "actual_text": "' records in an effort to identify the sources of leaks, saying it unjustly chills critical newsgathering. The last such high-profile seizure of reporters' communications",
+      "plain_text": "WASHINGTON -- The Justice Department in President Donald Trump's administration secretly obtained Washington Post journalists' phone records and tried to obtain their email records over reporting they did in the early months of the administration on Russia's role in the 2016 election, according to government letters and officials.  In three letters dated Monday and addressed to Post reporters Ellen Nakashima and Greg Miller and former Post reporter Adam Entous, the Justice Department wrote that they were \"hereby notified that pursuant to legal process the United States Department of Justice received toll records associated with the following telephone numbers for the period from April 15, 2017 to July 31, 2017.\" The letters listed work, home or cellphone numbers covering that 3½-month period.  Cameron Barr, the Post's acting executive editor, said: \"We are deeply troubled by this use of government power to seek access to the communications of journalists. The Department of Justice should immediately make clear its reasons for this intrusion into the activities of reporters doing their jobs, an activity protected under the First Amendment.\"  News organizations and First Amendment advocates have long decried the government practice of seizing journalists' records in an effort to identify the sources of leaks, saying it unjustly chills critical newsgathering. The last such high-profile seizure of reporters' communications records was several years ago as part of an investigation into the source of stories by a reporter who worked at BuzzFeed, Politico and The New York Times. The stories at issue there also centered around 2017 reporting on the investigation into Russian election interference.  It is rare for the Justice Department to use subpoenas to get records of reporters in leak investigations, and such moves must be approved by the attorney general. The letters do not say when Justice Department leadership approved the decision to seek the reporters' records, but a department spokesman said it happened in 2020, during the Trump administration. William Barr, who served as Trump's attorney general for nearly all of that year before departing Dec. 23, declined to comment.  The Justice Department defended its decision to subpoena Post reporters' records as an investigative step of last resort that was not taken lightly.  \"While rare, the Department follows the established procedures within its media guidelines policy when seeking legal process to obtain telephone toll records and non-content email records from media members as part of a criminal investigation into unauthorized disclosure of classified information,\" said Marc Raimondi, a spokesman for the Justice Department. \"The targets of these investigations are not the news media recipients but rather those with access to the national defense information who provided it to the media and thus failed to protect it as lawfully required.\"  The phone records in question include who called whom when and how long the call lasted, but do not include what was said in those phone calls. Investigators often hope such records will provide clues about possible sources the reporters were in contact with before a particular story published.  The letters to the three reporters also noted that prosecutors got a court order to obtain \"non content communication records\" for both reporters' work email accounts, but did not obtain such records. Those records would have indicated who emailed whom and when but would not have included the contents of the emails.  The letter does not state the purpose of the phone records seizure, but toward the end of the time period mentioned in the letters, those reporters wrote a story about classified U.S. intelligence intercepts indicating that in 2016, Sen. Jeff Sessions, R-Ala., had discussed the Trump campaign with Sergey Kislyak, who was Russia's ambassador to the United States. Justice Department officials would not say if that reporting was the reason for the search. Sessions subsequently became Trump's first attorney general and was at the Justice Department when the article appeared.  About a month before that story was published, the same three journalists wrote a detailed story about the Obama administration's internal struggles to counter Russian interference in the 2016 election.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“While rare, the Department follows the established procedures within its media guidelines policy when seeking legal process to obtain telephone toll records and non-content email records from media members as part of a criminal investigation into unauthorized disclosure of classified information,” said Marc Raimondi, a spokesman for the Justice Department. “The targets of these investigations are not the news media recipients but rather those with access to the national defense information who provided it to the media and thus failed to protect it as lawfully required.”",
+          "concept": "official statement",
+          "reasoning": "This section features a lengthy formal statement from a Justice Department spokesman, framed by quotation marks."
+        },
+        {
+          "rank": 2,
+          "text": "“We are deeply troubled by this use of government power to seek access to the communications of journalists. The Department of Justice should immediately make clear its reasons for this intrusion into the activities of reporters doing their jobs, an activity protected under the First Amendment.”",
+          "concept": "editorial statement",
+          "reasoning": "This section contains a quoted statement from a newspaper editor, expressing a formal position."
+        },
+        {
+          "rank": 3,
+          "text": "In three letters dated Monday and addressed to Post reporters Ellen Nakashima and Greg Miller and former Post reporter Adam Entous, the Justice Department wrote that they were 'hereby notified that pursuant to legal process the United States Department of Justice received toll records associated with the following telephone numbers for the period from April 15, 2017 to July 31, 2017.'",
+          "concept": "legal notification",
+          "reasoning": "This section includes a formal legal notification from the Justice Department, framed by single quotes."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 4112,
+      "normalized": 0.0,
+      "actual_text": "BOSTON — Attorney General Maura Healey Thursday joined a multistate lawsuit",
+      "plain_text": "BOSTON — Attorney General Maura Healey Thursday joined a multistate lawsuit against U.S. Secretary of Commerce Wilbur Ross and the National Marine Fisheries Service (NMFS) to put an end to a plan that allows harmful seismic testing for offshore oil and gas resources in the Atlantic Ocean. According to a news release from Healey's office, the lawsuit, filed in the U.S. District Court for the District of South Carolina, joins a challenge by environmental groups last week against Incidental Harassment Authorizations (IHAs) recently issued by NMFS that permit five private companies to harm marine wildlife in connection with seismic testing for offshore oil and gas exploration in the Mid- and South-Atlantic Ocean. Healey’s office said the action reflects her longstanding opposition to the Trump Administration’s plan to open up nearly all currently restricted ocean areas — including federal waters off the Massachusetts coast — to oil and gas drilling. Healey announced the multistate lawsuit at the New England Aquarium alongside aquarium officials, fishing industry representatives, business community leaders, and environmental advocates. “Approving these blasting tests paves the way for the Trump Administration to open up the Atlantic coast to drilling and poses a severe threat to our coastal communities, our fishing industry, and the health of the ocean,” said Healey, in the release. “Today we are suing to stop this reckless plan that allows the oil and gas industry to destroy fishing families, local businesses, and marine life.” “Just last week New Bedford was named the nation’s highest grossing fishing port for the 18th consecutive year, and that lead is growing,” said New Bedford Mayor Jon Mitchell, in the release. “The numbers speak for themselves: Our port now supports nearly 7,000 jobs and contributes $10 billion dollars to the Massachusetts economy. The Interior Department is placing all of this success at grave long-term risk. The effort to pursue a drilling program off the U.S. East Coast is ill-conceived and creates the possibility of an ecological disaster for the fisheries that the commercial fishing industry depends on for its viability.” “Sadly, we know the devastating impacts of oil spills on fishing communities,” said J.J. Bartlett, President of the Fishing Partnership Support Services, also in the release. “Spikes in divorce, depression, anxiety, and PTSD were evident for years after the disasters in Alaska and the Gulf of Mexico. We cannot afford to risk the tens of thousands of local jobs created by the multi-billion-dollar Massachusetts seafood industry. And, we most certainly cannot risk destroying the families who feed us.” The AGs state in their complaint that the issuance of IHAs for the five seismic testing companies — Spectrum Geo Inc., TGS-NOPEC Geophysical Company, ION GeoVentures, WesternGeco, LLC, and CCG — is illegal, not based on scientific evidence, and an abuse of NMFS’s discretion. The lawsuit alleges violations of environmental laws and argues that the use of seismic air guns has the potential to harm more than 300,000 marine mammals. Endangered and threatened species such as the critically endangered North Atlantic right whale, could be harmed by NMFS’s decision to allow sound blasts louder than 160 decibels to survey the ocean floor for oil and gas. More than 41,000 businesses and 500,000 commercial fishing families along the Atlantic coast oppose offshore oil and gas drilling because of the harm it poses to the coastal ecosystems and economies, Healey's office said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Approving these blasting tests paves the way for the Trump Administration to open up the Atlantic coast to drilling and poses a severe threat to our coastal communities, our fishing industry, and the health of the ocean,” said Healey, in the release. “Today we are suing to stop this reckless plan that allows the oil and gas industry to destroy fishing families, local businesses, and marine life.”",
+          "concept": "legal announcement",
+          "reasoning": "This section contains a direct quote from the Attorney General, framed by quotation marks and introduced as a statement from a release."
+        },
+        {
+          "rank": 2,
+          "text": "“Just last week New Bedford was named the nation’s highest grossing fishing port for the 18th consecutive year, and that lead is growing,” said New Bedford Mayor Jon Mitchell, in the release. “The numbers speak for themselves: Our port now supports nearly 7,000 jobs and contributes $10 billion dollars to the Massachusetts economy. The Interior Department is placing all of this success at grave long-term risk. The effort to pursue a drilling program off the U.S. East Coast is ill-conceived and creates the possibility of an ecological disaster for the fisheries that the commercial fishing industry depends on for its viability.”",
+          "concept": "mayoral statement",
+          "reasoning": "This section includes a detailed quoted statement from a mayor, framed by quotation marks and containing a colon for emphasis."
+        },
+        {
+          "rank": 3,
+          "text": "“Sadly, we know the devastating impacts of oil spills on fishing communities,” said J.J. Bartlett, President of the Fishing Partnership Support Services, also in the release. “Spikes in divorce, depression, anxiety, and PTSD were evident for years after the disasters in Alaska and the Gulf of Mexico. We cannot afford to risk the tens of thousands of local jobs created by the multi-billion-dollar Massachusetts seafood industry. And, we most certainly cannot risk destroying the families who feed us.”",
+          "concept": "advocate statement",
+          "reasoning": "This section features a quoted statement from a community advocate, framed by quotation marks and detailing impacts."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 2665,
+      "normalized": 0.0,
+      "actual_text": "Today's Exercise Minute with Crossfit trainer Rich Griffin is all about working out your abs",
+      "plain_text": "Today's Exercise Minute with Crossfit trainer Rich Griffin is all about working out your abs. We will be doing a \"Tabata\" circuit which means 20 seconds of work followed by ten seconds of rest. All you will need for this circuit is yourself and a mat to lay on if you prefer.  Bicycles  The first exercise in this circuit is the bicycle. Start this exercise by lying flat on your back with both legs lifted off the ground at a 90-degree angle. Next, place your hands behind your back with your elbows pointed out. Then, you will use one elbow at a time to reach for the opposite knee. Make sure you are kicking your legs out straight without them touching the floor. Alternate between elbows and legs for 20 seconds, and then rest for ten seconds before doing the next exercise. Hollow Holds  The next exercise is called hollow holds. For this exercise start by laying on your back with your shoulder blades up and your feet roughly six inches off the floor. Next, bring your knees to your chest and hold them in place while also lifting your head off the ground with your arms straight out. Hold this position for 20 seconds and then rest for ten seconds. Alternate between these two exercises for a total of eight intervals. Have a great workout!   © 2017 KVUE-TV",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "We will be doing a \"Tabata\" circuit which means 20 seconds of work followed by ten seconds of rest.",
+          "concept": "quoted term",
+          "reasoning": "This section contains a quoted technical term for a type of exercise circuit."
+        },
+        {
+          "rank": 2,
+          "text": "The first exercise in this circuit is the bicycle. Start this exercise by lying flat on your back with both legs lifted off the ground at a 90-degree angle. Next, place your hands behind your back with your elbows pointed out.",
+          "concept": "instructional steps",
+          "reasoning": "This section presents formal instructional steps for an exercise, though not quoted, it is a structured directive."
+        },
+        {
+          "rank": 3,
+          "text": "The next exercise is called hollow holds. For this exercise start by laying on your back with your shoulder blades up and your feet roughly six inches off the floor. Next, bring your knees to your chest and hold them in place while also lifting your head off the ground with your arms straight out.",
+          "concept": "instructional steps",
+          "reasoning": "This section continues the instructional format with direct commands for another exercise."
+        }
+      ]
+    }
+  ]
+}

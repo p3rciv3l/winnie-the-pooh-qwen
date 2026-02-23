@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_3214",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns, especially multi-part names and titles** (such as full names of people like \"Ruth Bader Ginsburg\" or \"DY Chandrachud,\" names of organizations like \"Petroleum Geo-Services ASA,\" or compound terms like \"petroleum exploration licenses\").\n\n2. **Domain coverage**: The pattern appears across news, legal, and geopolitical texts in multiple languages (English, Spanish, Italian, etc.), often involving individuals in authoritative positions (judges, politicians, spokespersons), companies (especially in the petroleum sector), and specific named entities (acts, bills, licenses). It also activates on less formal but still named entities like \"Roger Dean artwork\" or \"Amanda Scott.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts lack dense proper nouns or titles; they discuss general events (earthquakes, meteor showers, studies), abstract concepts, or use only common nouns. Even when topics overlap (e.g., environmental issues), the high-activation examples explicitly name entities (\"Petrobas,\" \"Shell\"), while low-activation ones describe phenomena without such references (\"environmental disaster\").\n\n4. **Closing interpretation**: The neuron detects textual segments rich in specific named entities, acting as a marker for referential specificity and formal discourse. It likely serves to identify passages where concrete actors, organizations, or titled concepts are central to the narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ". The firm pointed out the 6-1 well is designed to evaluate the petroleum systems discovered in 6-2 \u2013 the first well \u2013 in an area of",
+      "normalized_activation": 9.283782005310059,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.187,
+          "meaning_score": 0.3877,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2299
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1577,
+          "meaning_score": 0.39,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2191
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1416,
+          "meaning_score": 0.4455,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2348
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "the Adani-Hindenburg fiasco. The CJI DY Chandrachud clearly stated that the apex court will not pass any injunction to the media ever",
+      "normalized_activation": 8.042926788330078,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0792,
+          "meaning_score": 0.8094,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3554
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1223,
+          "meaning_score": 0.3363,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1834
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1708,
+          "meaning_score": 0.2515,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1689
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "workers, but also educate employers and businesses,\u201d NYSDOL Commissioner Roberta Reardon said. \u201cThe involvement of NYSDOL brought this issue to the employer\u2019s",
+      "normalized_activation": 7.003661632537842,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1109,
+          "meaning_score": 0.5118,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2491
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1361,
+          "meaning_score": 0.3165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.181
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2211,
+          "meaning_score": 0.8259,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6188
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Seismic testing in the ocean causes great harm to wildlife and will upset the ecological balance",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0339,
+          "meaning_score": 0.5615,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2382
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1647,
+          "meaning_score": 0.2088,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1494
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1867,
+          "meaning_score": 0.9008,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.635
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Ad portas de convertirse en ley se encuentra el proyecto que moderniza a la",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0953,
+          "meaning_score": 0.6601,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5022
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0657,
+          "meaning_score": 0.3858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1806
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0962,
+          "meaning_score": 0.3429,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1756
+        }
+      ]
+    }
+  ]
+}

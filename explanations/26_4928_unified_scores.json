@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_4928",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments dense with named entities and structured factual information (such as specific person names like \"Humza Yousaf,\" organization references like \"G20,\" temporal markers like \"23:43 yesterday,\" or location mentions like \"Greater Manchester\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (e.g., English, Arabic, French, Spanish, Romanian) and domains, including political announcements, business news, sports reports, and technology updates. Examples span formal contexts like press releases, financial wire services, and journalistic articles, often with a focus on current events or official statements.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature a high density of proper nouns, dates, times, and event-specific details in a reportive style, while low-activation texts are more general, narrative, or descriptive, with fewer such specifics (e.g., casual music news or vague archaeological discoveries) and often lack the structured, information-packed format.\n\n4. **Closing interpretation**: This neuron detects formal, information-rich excerpts that emphasize concrete, reportive content, likely serving to identify text segments where named entities and temporal data are central to conveying news-like or factual updates.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "York City. Read on for a rundown. Hoodline offers data-driven analysis of local happenings and trends across cities. Links included in this article may earn Hoodline",
+      "normalized_activation": 9.162679672241211,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2337,
+          "meaning_score": 0.2355,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1877
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2973,
+          "meaning_score": 0.208,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2021
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4127,
+          "meaning_score": 0.3031,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2863
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "6-05-2021 15:46 IST | Created: 06-05-2021 15",
+      "normalized_activation": 8.056402206420898,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1872,
+          "meaning_score": 0.1017,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1156
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2261,
+          "meaning_score": 0.3459,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4288
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1338,
+          "meaning_score": 0.0777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0846
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "her as saying. \u00a9 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American.",
+      "normalized_activation": 6.974237442016602,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1668,
+          "meaning_score": 0.2198,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1546
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1086,
+          "meaning_score": 0.1907,
+          "overlap_fraction": 0.1148,
+          "location_score": 0.023,
+          "combined_score": 0.1427
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4238,
+          "meaning_score": 0.7887,
+          "overlap_fraction": 0.877,
+          "location_score": 0.1754,
+          "combined_score": 0.6604
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0414\u0421\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430\u0427\u0438\u0442",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0941,
+          "meaning_score": 0.2435,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1351
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1543,
+          "meaning_score": 0.7075,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5447
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1851,
+          "meaning_score": 0.3876,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2291
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.169,
+          "meaning_score": 0.2735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.177
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1459,
+          "meaning_score": 0.2662,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1648
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1907,
+          "meaning_score": 0.2504,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1765
+        }
+      ]
+    }
+  ]
+}

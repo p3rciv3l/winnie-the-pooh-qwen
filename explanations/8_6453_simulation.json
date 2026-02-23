@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_6453",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:56:02Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-article text containing reported speech, citations, or parenthetical asides (such as direct quotes, attributions like “said” or “according to”, appositives, or explanatory clauses) that typically appear after the opening of a news article or informative post.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Greek, Italian, Polish, Spanish, Russian, Romanian) and diverse topics—including politics, finance, sports, entertainment, and science—in journalistic writing, online articles, and blog-style content where the body elaborates with sourced information, quotes, or detailed descriptions.\n\n3. **Contrast with low-activation examples**: Low-activation texts are almost exclusively article beginnings: headlines, datelines, lead sentences, or standalone announcements that lack mid-sentence continuity, quotation marks, dashes, and parenthetical information. High-activation examples are typically not the first sentence of a document and instead feature continuation text with embedded speech or complex clause structures.\n\n4. **Closing interpretation**: The neuron detects the body or narrative continuation of a document, signaling the presence of elaborated content with reported speech, citations, or syntactic complexity rather than introductory or headline-style text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00002",
+      "row_idx": 4250,
+      "normalized": 9.507864952087402,
+      "actual_text": "Oviedo junto al comité consultivo de ese tiempo (Gianfranco Castagnola, Felipe Cantuarias, etc). Eso molestaba no",
+      "plain_text": "Las paredes de la Videna parecen ser de calidad antisísmica, han soportado una cadena de remezones desde los últimos nueve meses. Pero más allá de los favores a jueces y reventas de entradas, lo que también hace perder estabilidad a la Federación Peruana de Fútbol es una lucha de poderes que comenzó desde que Edwin Oviedo se sentó en el sillón presidencial hace cuatro años. El fútbol se ha convertido en un enorme pastel del cual todos quieren comer.  Repasemos cómo se forjó la candidatura de Oviedo a finales del 2014. El comité electoral de la FPF, en aquel entonces, tachó a Agustín Lozano, uno de los aspirantes al cargo, por tener un cargo público en el municipio de Chongoyape (Lambayeque). Ante ese escenario adverso, Lozano convenció a Oviedo para que postule a la presidencia con su misma lista, con la única condición de que lo mantenga como vicepresidente. Así fue y así llegaron los dos hasta las oficinas de San Luis.  Un fuerte contingente policial rodea los exteriores de la Videna. (Foto: Piko Tamashiro) A partir de allí, la convivencia entre ambos tuvo altas y bajas. A Lozano nunca lo tomaban en cuenta en las decisiones deportivas que tomaba Oviedo junto al comité consultivo de ese tiempo (Gianfranco Castagnola, Felipe Cantuarias, etc). Eso molestaba no solo al actual presidente en funciones, sino también al resto de directivos de las ligas departamentales, un frente potente en cualquier votación de la FPF.  Para evitar distanciamientos, como ya se ha revelado en informes y en el último reportaje de “Cuarto poder”, estos directivos contaban con el aval de Edwin Oviedo y el secretario general, Juan Matute, para tener facilidades en la compra de entradas y otros beneficios corporativos. Al final, presenciamos un penoso desenlace que ha terminado con una investigación abierta de Conmebol a más de la mitad de la directiva FPF.  Agustín Lozano vive su momento más difícil como dirigente ahora que pasará por la comisión ética de esta entidad continental. Abril será, como adelantamos, un mes decisivo para su carrera dentro del fútbol. Curiosamente, su destino podría decidirse después del Sudamericano Sub 17, organizado por el Perú.  Lo que no se debe repetir es este apetito de poder y perpetuidad (y aquí pocos se salvan, la lista no dejaría que cerremos esta columna) que solo daña a una federación hoy débil económicamente, con un forado de 15 millones de soles después de tantas malas decisiones.  Con Oviedo en prisión preventiva, quedó en el cargo Lozano, quien ahora no solo es un presidente en funciones cuestionado por razones éticas, sino que también ha sido debilitado como posible candidato a la presidencia FPF a finales de año. ¿Quiénes votarían por él? ¿Acaso serán los mismos directivos beneficiados con estos pases de cortesía o de venta preferencial?  Más allá de si la Conmebol decide castigar a la directiva de la federación o si ingresa una Comisión Normalizadora FIFA, toca esperar unas elecciones de FPF donde quienes postulen asuman su condición de aves de paso para sumar. Eso sería lo más saludable: mirar las oficinas de Videna como si fueran un cielo eterno solo puede conducir a un ascenso con estrepitosa caída libre.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Para evitar distanciamientos, como ya se ha revelado en informes y en el último reportaje de “Cuarto poder”, estos directivos contaban con el aval de Edwin Oviedo y el secretario general, Juan Matute, para tener facilidades en la compra de entradas y otros beneficios corporativos.",
+          "concept": "citation",
+          "reasoning": "This section includes a direct citation to reports and a news program, matching the neuron's response to cited information."
+        },
+        {
+          "rank": 2,
+          "text": "El comité electoral de la FPF, en aquel entonces, tachó a Agustín Lozano, uno de los aspirantes al cargo, por tener un cargo público en el municipio de Chongoyape (Lambayeque).",
+          "concept": "appositive",
+          "reasoning": "It contains an appositive phrase and a parenthetical location, aligning with explanatory clauses."
+        },
+        {
+          "rank": 3,
+          "text": "Un fuerte contingente policial rodea los exteriores de la Videna. (Foto: Piko Tamashiro) A partir de allí, la convivencia entre ambos tuvo altas y bajas.",
+          "concept": "parenthetical aside",
+          "reasoning": "It features a parenthetical aside with a photo credit, which is typical of mid-article elaborations."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 1068,
+      "normalized": 8.66723346710205,
+      "actual_text": "over the latter's girlfriend Louise JC had spurned Daisy and was pursuing Ella Willis instead, even though they looked identical. Ella told Julius his best features were his",
+      "plain_text": "Made In Chelsea's Ryan was threatened by James the gentle giant - size-wise that is - and the cast voted for Binky to have a baby girl, as if it was binding like Brexit, by Jim Shelley  The results of the most important, divisive, vote since Brexit were revealed on Made In Chelsea. The cast decided by 52% to 48% that they wanted Binky’s baby to be a girl. How many of them thought the ballot meant that she now actually HAD to – that it was legally binding, like the UK leaving the European Union – was hard to say. After all several of them had initially voted in favour of Binky having a cute little Bichon Frise. (No, this wasn’t West London slang for something saucier, but their opting for the poor girl to have a four-legged, furry, surrogate baby she could carry around in her Louis Vuitton handbag.) Possibly preferable given the father and the possibility of a Mini Me JP… It's a girl! Binky Felstead and boyfriend JP put the sex of their baby to a vote, like Brexit, on Monday night Binky had given JP a choice of just two names to decide between. ‘Ultimatum !’ she said, which is certainly an unusual name for a girl. Ultimatum Felstead. Not even the Kardashians had that on their list. Speaking of famous names, there was no sign yet of the man who had allegedly ‘hooked up’ with Olivia Bentley causing her seismic two-year rift with Daisy Robins. ‘I didn’t think she would do that to me when we were such close friends,’ Daisy explained. ‘But he was adamant.’ Hang on, he was Adam Ant?! Wow. That would be a cool cameo. The chances of England cricket failure Julius Cowdrey having anything like the chart success of Adam Ant remain slim. Sizing him up: James seemed to square up to Louise's boyfriend Ryan in the show Gentle giant: Ryan and James argued over the latter's girlfriend Louise JC had spurned Daisy and was pursuing Ella Willis instead, even though they looked identical. Ella told Julius his best features were his leg-spin off drive and his voice. ‘Singing or speaking?’ he asked hopefully. Definitely not singing. Not judging by the extraordinary screeching noises he was making in the recording studio last week, which sounded like a fox on heat impersonating Justin Bieber. Ella, Daisy, Olivia, Julius and various other blondes were in Mauritius – a completely different borough from Chelsea. Lucy Watson’s Sister was still moaning though, and not in a good way. She complained to her boyfriend ‘Little Sammy T’ Thompson: ‘all this time in Mauritius I don’t think we’ve done anything together.’ Not together: Tiffany complained that he hadn't spent enough time with her boyfriend Sam In tears: They had argued together several times Which wasn’t true. They had argued together several times. ‘What do you honestly you want from your future with Lucy Watson’s Sister?’ asked Jamie Laing, going even redder and shinier than he usually was in London. ‘Look, it’s true. Lucy Watson’s Sister would be the perfect wife,’ the young Nigel Farage lookalike acknowledged. ‘Just don’t act like my wife when I’m 24!’ Incredibly, he seemed to think 24 was young enough to excuse his absurdly immature behaviour, and that it was even young at all. Why E4 had flown Sam and Lucy Watson’s Sister to Mauritius to break up when they could have done that back in SW1 was anyone’s guess. The best showdown actually took place during the ‘pardy’ that Ollie Locke had organized to announce the sex of Binky’s baby. Wahoo: Ollie had organised a party to announce the sex of Binky and JP's baby ‘Oll-air it looks am-ayyyy-zing !’ cooed Louise Thompson trying to sound as posh as the other gals. ‘Did you-hoo do-woo everything ya-whore-self?’ Ollie said he did. No one believed him though… Earlier, Louise had been forced to deny rumours that she had ‘connected on social media’ with James, the giant Irish rugby player who had charmed her last week by repeatedly telling her she was ‘beautiful.’ (It was in the script.) ‘Why does this guy have to cause me stress?!’ she complained. Or tried to. (She was secretly delighted. And not even secretly.) James had told Alex Mytton that Louise had ‘friended’ him on Facebook - not the first time she had innocently ‘liked’ a handsome hunk. ‘I did nort,’ she objected. ‘That’s a lie !’ Immediately we suspected that it wasn’t and she had - as did her boyfriend, Ryan ‘Stretch Armstrong’ Nobody. ‘What did he actually say?!’ he demanded. ‘OK yah,’ Louise retreated immediately going even more orange than usual, and claiming: ‘Binky heard his name from Jair Pair. She thought that it might be funny to set Steph up with this guy….’ Relationship advice: Jamie Laing teased Sam: ‘What do you honestly you want from your future with Lucy Watson’s Sister?’ Nobody was so outraged he interrupted James and Binky discussing the baby at the party to have words. (With James that is, not Binky.) ‘What’s the Craic?!’ he demanded, presumably figuring this was how ‘Oirish’ people like James speak, puffing himself to try and look like more muscley but only looking more rubbery. ‘By the sounds of it you’re giving it the f**king big lips hitting on Louise?’ he whined, going all Guy Ritchie, ignoring the fact that a) he was two feet smaller than James and b) he was wearing the worst t-shirt in London. ‘Do you think I’m threatened by you?!’ he scoffed. Well you probably should be, we thought. ‘Do you think you’re a threat to my relationship with Louise?’ We had heard old Alik Alfus say exactly the same thing. ‘If you’re going to act like this you’re going to ruin it yourself,’ James pointed out smoothly, trying not to smirk (at Ryan’s bluster, his size, and above all, his t-shirt). ‘You fancy her. I’ve got her. It’s game over !’ Ryan concluded absurdly. ‘You just go through the whole playbook and have your best shot. I am certainly not angry or threatened.’ Threatened: There was a threat to Ryan's relationship with Louise ‘Well you’re coming across like that,’ James observed, not without reason. Ryan’s next retort suggested being with Louise had actually driven the poor fellow mad. (A point of view supported by that t-shirt.) ‘You’re just a fan !’ he scoffed dementedly. ‘There are a hundred other fans exactly like you right behind. All trying to get a shot at the title with Louise.’ Whether he thought he had a hundred fans, trying to be like him – or that she did, envious of him – it was hard to say. Or which was more deranged. He seemed to think he was in Game Of Thrones not Made In Chelsea but stopped short of challenging James to a duel, which was just as well. James – who was certainly huge enough to be was one of the giant gladiators in GoT – would have caved his head in and gauged his eyes out there and then. After all, he was a rugby player. That definitely would have spoiled Binky’s party – for her at least. Presumably, looking at his t-shirt, James took pity on him. Overwhelmed: The feud between Ryan and James wasn't going to ruin Binky's bash Party time: At the shower, it was revealed that Binky was expecting a girl Most watched News videos  Dad confronts policewoman who confiscated daffodils from daughters Driver's hilarious attempt to squeeze car through tight gap Diver removes hook from the belly of an injured shark GRAPHIC Man suffers horrific leg injury doing leg press in gym Escalating problems: Massive pile-up on escalator injures 17 Veteran Sprint car driver David Steele is killed in horrific crash Brave man rescues pelican from fishing wire around the beak Texas day care worker slams 4-year-old girl on the ground Hilarious moment woman pulls off cling film prank on her mother Furious cyclist smashes driver's windscreen with his own bike Wrath of the Queen's Guardsman as dancing tourist gets telling off Police catch law-breaking motorists from top of double-decker bus",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "‘I didn’t think she would do that to me when we were such close friends,’ Daisy explained. ‘But he was adamant.’ Hang on, he was Adam Ant?! Wow.",
+          "concept": "reported speech",
+          "reasoning": "This section contains direct quotes with attribution like 'Daisy explained', fitting the neuron's focus on reported speech."
+        },
+        {
+          "rank": 2,
+          "text": "After all several of them had initially voted in favour of Binky having a cute little Bichon Frise. (No, this wasn’t West London slang for something saucier, but their opting for the poor girl to have a four-legged, furry, surrogate baby she could carry around in her Louis Vuitton handbag.)",
+          "concept": "parenthetical aside",
+          "reasoning": "It includes a lengthy parenthetical explanation, which is characteristic of mid-article elaborations."
+        },
+        {
+          "rank": 3,
+          "text": "Binky had given JP a choice of just two names to decide between. ‘Ultimatum !’ she said, which is certainly an unusual name for a girl. Ultimatum Felstead. Not even the Kardashians had that on their list.",
+          "concept": "direct quote",
+          "reasoning": "It features a direct quote with 'she said', aligning with the neuron's response to reported speech."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 2510,
+      "normalized": 7.62905216217041,
+      "actual_text": "ήρως και από τον κατασκευαστικό - επισκε",
+      "plain_text": "Του Αντώνη Τσιμπλάκη από την Ναυτεμπορική  Αποστάσεις… από το «πάρτι» που έχει στήσει η κρουαζιέρα σε παγκόσμιο επίπεδο κρατάει η χώρα μας. Σε μια περίοδο που ο αριθμός των επιβατών αυξάνεται συνεχώς και οι νέες παραγγελίες για κρουαζιερόπλοια «πέφτουν βροχή», με ό,τι αυτό συνεπάγεται για τις συγγενείς επιχειρήσεις, η χώρα μας κλονίζεται σαν προορισμός, ενώ «απέχει» πλήρως και από τον κατασκευαστικό - επισκευαστικό τομέα.  Η μείωση της κίνησης για το 2017 θεωρείται πλέον δεδομένη και υπολογίζεται περίπου στο 25%, αλλά και για το 2018 η κατάσταση δεν φαίνεται να είναι «ρόδινη». Άλλωστε η κρουαζιέρα στη χώρα μας θα είχε πληγεί από φέτος αν δεν υπήρχαν τα γεγονότα στην Τουρκία (τρομοκρατία, πραξικόπημα) που έστειλαν όσα πλοία υπήρχαν στην ευρύτερη περιοχή στο ασφαλές καταφύγιο του λιμανιού του Πειραιά και των ελληνικών νησιών.  Όλα θα εξαρτηθούν από επτά βασικούς άξονες. Πρόκειται για την οικονομική κρίση που πλήττει την Ευρώπη αλλά και τη χώρα μας, τις τρομοκρατικές επιθέσεις στη γηραιά ήπειρο, τις εξελίξεις στην Τουρκία, το μεταναστευτικό, το Brexit, τα capital controls, αλλά και τον ανταγωνισμό που δεχόμαστε από ασιατικούς προορισμούς.  Σύμφωνα με τον πρόεδρο της Ένωσης Εφοπλιστών Κρουαζιερόπλοιων και Φορέων Κρουαζιέρας Θεόδωρο Κόντε, όλα αυτά τα ζητήματα είναι σήμερα ανοικτά και κανείς δεν μας διασφαλίζει ότι θα κλείσουν μέσα στο 2017, όταν και θα διαμορφωθεί η εικόνα για τη σεζόν του 2018.  Το πιο ανησυχητικό, αφού αφορά καθαρά την αγορά, είναι το ζήτημα της Ασίας. Πρόκειται για μια αγορά που αυξάνεται με πολύ υψηλούς ρυθμούς σε ετήσια βάση. «Κάθε χρόνο η αγορά της Ασίας κερδίζει μερίδια που φτάνουν ακόμα και το 25%. Το 2017 θα την επισκεφτούν 75 πλοία, από 60 πέρυσι» σημειώνει ο κ. Κόντες, ενώ αναφέρει ότι τα 10 από τα 15 επιπλέον πλοία έχουν χωρητικότητες που ξεπερνούν τους 4.000 επιβάτες το ένα. \r\nΣημειώνεται ότι το 38% της αγοράς της Ασίας αντιπροσωπεύει η Κίνα, 11% η Ταϊβάν και 9% η Σιγκαπούρη και η Ιαπωνία. Η αγορά το 2017 \r\nTα 25,3 εκατ. θα φτάσουν οι επιβάτες κρουαζιέρας σε όλο τον κόσμο το 2017, έναντι 15,8 εκατ. που ήταν πριν από μια δεκαετία και 24,2 εκατ. το 2016, σύμφωνα με τη Διεθνή Ένωση Κρουαζιέρας (CLIA). Υπολογίζεται ότι η ζήτηση για κρουαζιέρα την τελευταία δεκαετία (2005-2015) έχει αυξηθεί κατά 62%. Οι αισιόδοξες εκτιμήσεις για το 2017 βασίζονται στην ισχυρή ζήτηση για κρουαζιέρα από τους καταναλωτές, αλλά και στην αναβάθμιση που παρατηρείται στις υποδομές, σε επίπεδο τεχνολογικών καινοτομιών και προσεγγίσεων νέων πλοίων σε νέους προορισμούς σε όλο τον κόσμο. Για το 2017 η CLIA προβλέπει θεαματική αύξηση των millennials ταξιδιωτών κρουαζιέρας, αύξηση της χρήσης τουριστικού πράκτορα σε ταξίδια κρουαζιέρας (από 12.000 πράκτορες το 2010 σε περισσότερους από 25.000 το 2016) και συνέχιση της ζήτησης για κρουαζιέρα ποταμού με 18 νέα πλοία από 184 το 2015.  Όπως επισημαίνεται, «η ανάπτυξη της αγοράς κρουαζιέρας αναμένεται να συνεχιστεί ολόκληρο το 2017, κατά τη διάρκεια του οποίου εκτιμάται ότι θα προσελκύσει 25,3 εκατ. επιβάτες, αριθμός αυξημένος έναντι των 15,8 εκατ. επιβατών που καταγράφηκε το 2007».  Η πρόεδρος και διευθύνουσα σύμβουλος της CLIA, Cindy D’ Aoust, δήλωσε σχετικά ότι «ο τομέας της κρουαζιέρας ανταποκρίνεται στην παγκόσμια ζήτηση και είμαστε ιδιαίτερα ικανοποιημένοι που ενισχύονται οι προοπτικές του κλάδου και μακροπρόθεσμα».  Στη χώρα μας όμως το σκηνικό αναμένεται να είναι διαφορετικό. Η AIDA δεν θα φέρει στην περιοχή κανένα κρουαζιερόπλοιο, όπως και η Norwegian. Η Celebrity θα μειώσει τις χωρητικότητες κατά 50%, όπως και η Royal Caribbean, ενώ η Costa θα είναι στο 35% περίπου. Η Carnival θα παραμείνει στα ίδια επίπεδα με πέρσι, αφού θα φέρει νέο πλοίο με δυνατότητα φιλοξενίας 5.000 επιβατών. Όπως εξηγεί στη «Ν» ο κ. Κόντες, η εταιρεία παραλαμβάνει κάθε χρόνο από ένα τέτοιο πλοίο από ευρωπαϊκά ναυπηγεία. Και για περίοδο ενός έτους έχει τα λεγόμενα guaranty από τα ναυπηγεία, με αποτέλεσμα η εταιρεία να κρατάει το πλοίο στην περιοχή για ανάλογο διάστημα και μετά να το στέλνει στην Ασία.  Η μόνη εταιρεία που θα ενισχύσει περαιτέρω τη θέση της είναι η MSC η οποία αναμένεται να φέρει 20% περισσότερους επιβάτες σε σχέση με τη φετινή χρονιά.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Σύμφωνα με τον πρόεδρο της Ένωσης Εφοπλιστών Κρουαζιερόπλοιων και Φορέων Κρουαζιέρας Θεόδωρο Κόντε, όλα αυτά τα ζητήματα είναι σήμερα ανοικτά και κανείς δεν μας διασφαλίζει ότι θα κλείσουν μέσα στο 2017, όταν και θα διαμορφωθεί η εικόνα για τη σεζόν του 2018.",
+          "concept": "citation",
+          "reasoning": "This section starts with 'Σύμφωνα με' (according to), indicating a citation, which matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Άλλωστε η κρουαζιέρα στη χώρα μας θα είχε πληγεί από φέτος αν δεν υπήρχαν τα γεγονότα στην Τουρκία (τρομοκρατία, πραξικόπημα) που έστειλαν όσα πλοία υπήρχαν στην ευρύτερη περιοχή στο ασφαλές καταφύγιο του λιμανιού του Πειραιά και των ελληνικών νησιών.",
+          "concept": "parenthetical aside",
+          "reasoning": "It contains a parenthetical list of events in Turkey, fitting the neuron's response to explanatory asides."
+        },
+        {
+          "rank": 3,
+          "text": "Η πρόεδρος και διευθύνουσα σύμβουλος της CLIA, Cindy D’ Aoust, δήλωσε σχετικά ότι «ο τομέας της κρουαζιέρας ανταποκρίνεται στην παγκόσμια ζήτηση και είμαστε ιδιαίτερα ικανοποιημένοι που ενισχύονται οι προοπτικές του κλάδου και μακροπρόθεσμα».",
+          "concept": "reported statement",
+          "reasoning": "It includes a direct quote attributed to an official, aligning with reported speech."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 3594,
+      "normalized": 0.0,
+      "actual_text": "Foto: TT Hör Radiosportens årskrönika Lyssna",
+      "plain_text": "Foto: TT Hör Radiosportens årskrönika Lyssna från tidpunkt: Dela Publicerat idag kl 18.03 Ett år av lågkonjunktur då svenskt Ståhl åter visade sig starkast och guld värt. Diskusdramat och Lina Hurtigs straff i åttondelsfinalen i fotbolls-VM är två av många magiska ögonblick med Radiosporten från sportåret 2023. Radiosportenradiosporten@sverigesradio.se",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Foto: TT Hör Radiosportens årskrönika Lyssna från tidpunkt: Dela Publicerat idag kl 18.03",
+          "concept": "photo credit",
+          "reasoning": "It includes a parenthetical photo credit, which is a form of citation or aside."
+        },
+        {
+          "rank": 2,
+          "text": "Ett år av lågkonjunktur då svenskt Ståhl åter visade sig starkast och guld värt.",
+          "concept": "descriptive summary",
+          "reasoning": "This section is descriptive but lacks reported speech, so it may have lower activation."
+        },
+        {
+          "rank": 3,
+          "text": "Diskusdramat och Lina Hurtigs straff i åttondelsfinalen i fotbolls-VM är två av många magiska ögonblick med Radiosporten från sportåret 2023. Radiosportenradiosporten@sverigesradio.se",
+          "concept": "event listing",
+          "reasoning": "It lists events without citations, so it might not strongly match the neuron's pattern."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00003",
+      "row_idx": 5644,
+      "normalized": 0.0,
+      "actual_text": "AGAWAM, MA (WGGB/WSHM) -- A school committee member",
+      "plain_text": "AGAWAM, MA (WGGB/WSHM) -- A school committee member confirmed to Western Mass News that Agawam Public Schools have moved to remote learning for the next two weeks. This announcement comes after the Mass. DPH reported that the city of Agawam has entered into the red zone, which means it is at a high-risk for spreading COVID-19. There are a total of 72 cases in Agawam in the last 14 days, state officials say. Agawam Mayor William P. Sapelli told Western Mass News the decision was made through an agreement with the Agawam Education Association (AEA). He also said this decision excludes elderly care facilities. Western Mass News is continuing to follow this story, and we’ll have further information as more details come into the newsroom.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Agawam Mayor William P. Sapelli told Western Mass News the decision was made through an agreement with the Agawam Education Association (AEA). He also said this decision excludes elderly care facilities.",
+          "concept": "reported statement",
+          "reasoning": "It contains direct quotes attributed to officials with 'told' and 'said', fitting reported speech."
+        },
+        {
+          "rank": 2,
+          "text": "A school committee member confirmed to Western Mass News that Agawam Public Schools have moved to remote learning for the next two weeks.",
+          "concept": "confirmation",
+          "reasoning": "It includes an attribution with 'confirmed to', matching the neuron's response to cited information."
+        },
+        {
+          "rank": 3,
+          "text": "This announcement comes after the Mass. DPH reported that the city of Agawam has entered into the red zone, which means it is at a high-risk for spreading COVID-19.",
+          "concept": "reported update",
+          "reasoning": "It features reported action from an official body, aligning with mid-article citations."
+        }
+      ]
+    }
+  ]
+}

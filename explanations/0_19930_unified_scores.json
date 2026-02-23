@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_19930",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **noun phrases containing \"high school,\" \"investment,\" or \"split/crack\"** (such as \"a high school near Springfield,\" \"money market instruments,\" \"splitting hairs,\" or \"crack cocaine\") when they appear as key objects or subjects within a clause.\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news, reporting, and descriptive prose covering education systems (\"high school\"), finance/business (\"invest,\" \"instruments\"), and metaphorical or literal division/damage (\"split,\" \"crack\"). Contexts range from local news and sports to corporate filings and social commentary.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these specific noun compounds entirely; they instead include topics like international news in other languages, general event descriptions, political commentary without the target terms, and headlines about disasters or appointments. The neuron ignores text where these precise multi-word nominal concepts are absent.\n\n4. **Closing interpretation**: The neuron detects a set of fixed, semantically rich noun phrases related to institutional education, financial commitment, or fracturing, suggesting it fires on specific lexicalized concepts rather than general topics. It acts as a multi-concept detector for a cluster of common journalistic compound terms.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "31-year old stay-at-home mom in Hindman, Kentucky saw a high school friend rave in a Facebook post about a company called Liberty Tax and Student Loan Defense",
+      "normalized_activation": 9.674776077270508,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5688,
+          "meaning_score": 0.736,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7219
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3801,
+          "meaning_score": 0.3346,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2859
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2752,
+          "meaning_score": 0.3357,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2444
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "put up on your walls. Series that you bought action figures for and ate spoonfuls of sugary cereals based on the characters. These were the cartoon",
+      "normalized_activation": 8.896484375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1821,
+          "meaning_score": 0.1882,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1481
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1808,
+          "meaning_score": 0.2048,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1543
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1873,
+          "meaning_score": 0.2271,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1657
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "methods to help decision-makers map and assess ecosystem services across Europe. The end result is an open access online tool that provides full guidance for mapping and assessing ecosystem services",
+      "normalized_activation": 7.977801322937012,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1625,
+          "meaning_score": 0.3496,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2048
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1363,
+          "meaning_score": 0.1927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1316
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1193,
+          "meaning_score": 0.342,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1845
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Putin: Voters' choices of Trump and Brexit 'disrespected' Russia's",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.6558,
+          "meaning_score": 0.7592,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.566
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2115,
+          "meaning_score": 0.5643,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3103
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1894,
+          "meaning_score": 0.4015,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2364
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2517,
+          "meaning_score": 0.4875,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1772,
+          "meaning_score": 0.3064,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1934
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1466,
+          "meaning_score": 0.2362,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1531
+        }
+      ]
+    }
+  ]
+}

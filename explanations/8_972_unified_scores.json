@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_972",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing dense named entity references and enumerations (such as person names with titles, place names, event names, or lists of multiple entities), often accompanied by specific details like dates, roles, or actions.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, English, Malayalam, Indonesian, German, Russian, Czech, etc.) and diverse topics including arts, sports, politics, music, and news. It is especially common in descriptive news snippets, biographical notes, and passages that detail specific events or cultural references.\n\n3. **Contrast with low-activation examples**: High-activation texts typically feature multiple named entities in close proximity, frequent appositive constructions (e.g., \"Paul Makonda, Dar es Salaam\u2019s regional commissioner\"), and specific numerical or temporal details. Low-activation examples are often more generic headlines or statements that lack this density of entities and detailed contextual information, even when they mention a single proper noun.\n\n4. **Closing interpretation**: The neuron likely detects linguistic structures that signal detailed, entity-rich descriptions, serving as a feature for anchoring specific information about people, places, and events within the model's representations.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ". 24, 2022. (Xinhua/Yao Dawei) BEIJING, Feb. 24 (Xinh",
+      "normalized_activation": 9.333860397338867,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "country is from scenes in the 2013 movie, The Secret Life Of Walter Mitty, starring Ben Stiller. It does not disappoint. Travel to",
+      "normalized_activation": 8.07796573638916,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u0648\u0627\u0631\u0626 \u0627\u0644\u0648\u0637\u0646\u064a \u0644\u0639\u0627\u0645 1976\u060c \u0627\u0644\u0630\u064a \u0643\u0627\u0646 \u0645\u0646 \u0627\u0644\u0645\u0641\u062a\u0631\u0636 \u0623\u0646 \u064a\u062d\u062f \u0645\u0646 \u0627\u0644\u0645\u0648\u0627\u0642\u0641 \u0627\u0644\u062a\u064a \u0642\u062f \u064a\u0639\u0644\u0646 \u0641\u064a\u0647\u0627 \u0627\u0644\u0631\u0626\u064a\u0633 \u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0637",
+      "normalized_activation": 6.931825160980225,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

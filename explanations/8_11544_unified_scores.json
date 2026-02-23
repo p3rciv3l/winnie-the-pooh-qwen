@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_11544",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit mentions of years or decades in numeric form** (such as \"1959\", \"mid-1940s\", \"1960s\", \"1939\", or date ranges like \"1940-1945\").\n\n2. **Domain coverage**: The pattern appears across diverse topics\u2014music history, political events, sports, space exploration, civil rights, wars, and publication dates\u2014in multiple languages (English and Spanish examples are present). The neuron activates regardless of the surrounding context, indicating it detects the numeric temporal marker itself rather than a specific subject.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain numeric year or decade references, while the low-activation examples discuss current events, general descriptions, or future-oriented statements without such explicit temporal markers. Even a date like \"February 23, 2022\" in the low group does not trigger the neuron, suggesting it is specifically tuned to four-digit years or decade phrases.\n\n4. **Closing interpretation**: This neuron functions as a temporal anchor detector, identifying explicit historical or chronological references in text. It likely helps the model ground events in time by recognizing standardized numeric year formats.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "The use of the technique in archaeology dates back to the 1960s when physicist Luis Alvarez placed muon detectors inside the nearby Pyramid of Khaf",
+      "normalized_activation": 9.774681091308594,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2645,
+          "meaning_score": 0.8779,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6569
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2547,
+          "meaning_score": 0.2939,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2194
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2547,
+          "meaning_score": 0.2188,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1894
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "crude oil. The water in the Hudson has improved since the 1960s according to the New York State Department of Environmental Conservation, yet the potential for",
+      "normalized_activation": 9.180710792541504,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2686,
+          "meaning_score": 0.6863,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5819
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1712,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2819
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1941,
+          "meaning_score": 0.4655,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2639
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "A 1974 memo from Dow Chemical describes several chemicals in a widely used farm fumigant",
+      "normalized_activation": 8.031447410583496,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1949,
+          "meaning_score": 0.7208,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5663
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2531,
+          "meaning_score": 0.4858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2415,
+          "meaning_score": 0.5472,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3155
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "(CTN News) \u2013 Astrology enthusiasts and Taurus individuals alike are eagerly anticipating",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2151,
+          "meaning_score": 0.7224,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.575
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1874,
+          "meaning_score": 0.4734,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2643
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1874,
+          "meaning_score": 0.4648,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2609
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "HOUSTON (KIAH)\u2013 John Whitmire\u2019s Administration was officially",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2354,
+          "meaning_score": 0.7147,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.58
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2473,
+          "meaning_score": 0.4588,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2824
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1994,
+          "meaning_score": 0.5476,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2988
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_9353",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:18:03Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns (especially geographic, institutional, or personal names) followed by descriptive, restrictive, or specifying clauses** (such as \"Il bando Isi 2018, pubblicato oggi nella Gazz...\", \"Gobierno Petro, muy estricto con las grandes compañías...\", or \"Pandeglang, de pe coasta vestică a ins...\").\n\n2. **Domain coverage**: The pattern appears predominantly in formal, news-like prose across multiple languages (Italian, Spanish, Romanian, Portuguese, Croatian, English) and topics (government decrees, disaster reports, legal proceedings, technical programs, financial instruments). It detects sentences where a specific entity is immediately elaborated upon with details about its nature, location, actions, or attributes.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a comma or similar grammatical marker directly after a proper noun, introducing a dependent clause that defines or describes that noun. The low-activation examples either lack proper nouns entirely, use them in isolation without immediate elaboration, or present them in simpler, non-restrictive contexts (e.g., \"Anil Ambani’s not going to jail...\").\n\n4. **Closing interpretation**: This neuron appears to detect a specific syntactic-semantic structure common in journalistic and administrative writing: the introduction of a named entity followed by an embedded specification. Its underlying focus is on **identifying and processing defining details attached to concrete, referenced subjects** within a single clause or phrase.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00011",
+      "row_idx": 4034,
+      "normalized": 9.684625625610352,
+      "actual_text": "que hizo Metrolínea ante la empresa propietaria. Uno de los propósitos es que, en un futuro próximo, se implemente una ruta elé",
+      "plain_text": "Con el fin de experimentar su tecnología y conocer los aportes a la movilidad sostenible, desde ayer, en Bucaramanga, se dio inicio a una prueba piloto que consiste en poner, por primera vez al servicio de la ciudadanía, un bus articulado 100% eléctrico. Este vehículo que movilizará a los pasajeros del Sistema Integrado de Transporte Masivo, Sitm, a través de la ruta T2, llegó a la ciudad desde diciembre del año pasado, gracias a una alianza público-privada entre diferentes entidades para favorecer la competitividad y reducir las emisiones de CO2 (dióxido de carbono) en territorio metropolitano. En dicha alianza participaron Metrolínea S.A., como ente gestor del Sitm, Alcaldía de Bucaramanga, Electrificadora de Santander, MetroCinco Plus -que es el concesionario de transporte de Metrolínea- y el Área Metropolitana de Bucaramanga como autoridad de transporte. Tal y como ya lo había presentado Vanguardia, en diciembre pasado, el bus eléctrico se recibió en calidad de préstamo, luego de una gestión que hizo Metrolínea ante la empresa propietaria. Uno de los propósitos es que, en un futuro próximo, se implemente una ruta eléctrica en la ciudad, para lo cual ya se cuenta con recursos importantes. Marca: BYD Modelo: 2016 Tipo: Articulado Capacidad: 160 pasajeros. Velocidad máxima: 70 km/h. Potencia máxima: 360 kW (180 kW ×2) 492 caballos de fuerza. Capacidad energética de baterías: 450 kWh / 600 amperios/hora. No genera emisión de CO2 en operación. Es decir, este bus evitará la emisión de 135 toneladas de CO2 al año. En este proceso, la Electrificadora de Santander, Essa, destinó $125 millones para efectuar la instalación del punto de carga del vehículo. Además, la empresa suministrará la energía para el mismo, cumpliendo su propósito de apalancar la movilidad eléctrica en su área de influencia, facilitando así las posibilidades para cargar los vehículos eléctricos que lleguen a la región. El gerente de la Essa, Mauricio Montoya Bozzi, quien justo ayer se subió al bus para hacer un recorrido, manifestó que “el compromiso es aportar al crecimiento y desarrollo de la región, además de contribuir al cuidado del medio ambiente, por eso estamos listos para que sigan llegando vehículos eléctricos a Santander y ofrecerles el mejor servicio. En lo corrido de 2022 incorporaremos a nuestra flota de transporte más vehículos eléctricos y la instalación de un punto de carga adicional en el sector de Cañaveral”. galones de diésel al mes se dejan de consumir por cada bus 100% eléctrico. Por su parte, Emilcen Jaimes Caballero, gerente de Metrolínea, expresó que “es satisfactorio para el Sitm Metrolínea iniciar el año con la puesta en marcha de la prueba piloto del bus eléctrico. Queremos que nuestros usuarios, operadores y el área metropolitana de Bucaramanga conozcan esta tecnología, la usen y reconozcan los beneficios que puede traer en términos de movilidad, calidad del aire y por ende calidad en la salud de los ciudadanos”. Por otra parte, Jaimes Caballero aseguró que “este piloto nos va a permitir evaluar la implementación de nuevas tecnologías al interior del Sistema Integrado de Transporte Masivo, principalmente, para la estructuración de esa nueva fase que se está trabajando en compañía del Área Metropolitana de Bucaramanga”. Lea también: MetroCali es el nuevo operador de recaudo y control de Metrolínea El vehículo, que antes de llegar a Bucaramanga estuvo en Cali, Pereira y Bogotá, mantendrá una imagen institucional especial, como otra apuesta que se da en el marco de la celebración de los 400 años de Bucaramanga. Juan Luis Meza, gerente de BYD, destacó que hay pocos buses de este tipo en el mundo. “De las pruebas que se han tenido la oportunidad de hacer, ya Cali empezó la compra de este tipo de vehículos para mejorar la calidad del transporte de la ciudad. Nuestro objetivo, precisamente, es enamorar a Bucaramanga con un bus cero emisiones, que no genera ruido, cero gas, lo que da una experiencia de viaje diferente”. Periodista egresada de la Universidad Pontificia Bolivariana. Miembro de Vanguardia desde 2010. Trabajó con Q’hubo Barrancabermeja en 2016 cubriendo temas judiciales. En la actualidad es reportera de la sección Área Metro, apoya en la elaboración de contenidos digitales y transmisiones en directo y es la encargada de la campaña ‘No te quedes callada, denuncia si fuiste agredida’ donde se manejan temas de violencia contra la mujer. @PaolaAlbis ialbis@vanguardia.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El gerente de la Essa, Mauricio Montoya Bozzi, quien justo ayer se subió al bus para hacer un recorrido, manifestó que “el compromiso es aportar al crecimiento y desarrollo de la región, además de contribuir al cuidado del medio ambiente.",
+          "concept": "entity specification",
+          "reasoning": "Proper noun 'Mauricio Montoya Bozzi' is followed by a comma and a descriptive clause detailing his role and actions."
+        },
+        {
+          "rank": 2,
+          "text": "En dicha alianza participaron Metrolínea S.A., como ente gestor del Sitm, Alcaldía de Bucaramanga, Electrificadora de Santander, MetroCinco Plus -que es el concesionario de transporte de Metrolínea- y el Área Metropolitana de Bucaramanga como autoridad de transporte.",
+          "concept": "institutional elaboration",
+          "reasoning": "Multiple proper nouns are followed by commas and descriptive clauses that define their functions or roles."
+        },
+        {
+          "rank": 3,
+          "text": "Por su parte, Emilcen Jaimes Caballero, gerente de Metrolínea, expresó que “es satisfactorio para el Sitm Metrolínea iniciar el año con la puesta en marcha de la prueba piloto del bus eléctrico.",
+          "concept": "role description",
+          "reasoning": "Proper noun 'Emilcen Jaimes Caballero' is followed by a comma and a descriptive clause specifying her position and statement."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 1369,
+      "normalized": 9.06813907623291,
+      "actual_text": "euro şi a... 14:46 Ce firmă a fost înființată de curând în municipiul Constanța. C",
+      "plain_text": "Românii vor beneficia de un nou tip de tichete, anul viitor! La ce le vor putea folosi  Angajații din România vor putea beneficia, începând de anul viitor, de un nou tip de tichete, în afara celor pe care le-au folosit până acum, precum tichetele de masă ori tichetele cadou. \nTrendul tichetelor de dezvoltă tot mai mult în rândul firmelor. Aceste tichete pot avea orice valoare, însă acordate în limita a 150 de lei de persoană sunt scutite de taxe patronale, salariale şi nu sunt impozitate. În plus, acestea pot fi deductibile din fondul de salarii, dacă nu depăşesc plafonul de 5%. \nS-au făcut modificări la Legea pensiilor! Doar acești... citeste mai mult\n\t\t Comentarii  Stiri in timp real  14:52 Veste BOMBĂ! Se schimbă tot în privința Pilonului II de pensii!... 14:49 Viorica Dăncilă: Vă promit că anul viitor abordarea mea se va schimba 14:49 Şerban Nicolae: Textul moţiunii este o compunere şcolară care... 14:49 Radet Constanța face angajări 14:49 Cine sunt jucătorii pe care îi vrea CFR la iarnă! Au fost prezenţi... 14:48 “Povesti de iarna la patinoar” 14:48 Voleibalistele din Blaj sunt la un pas de sferturile CEV 14:47 Un nou scandal la Facebook. Sute de companii ar fi avut acces la... 14:46 Curs valutar: Moneda naţională s-a depreciat în raport cu euro şi a... 14:46 Ce firmă a fost înființată de curând în municipiul Constanța. Cine... 14:46 PROGRAM AUCHAN de CRĂCIUN. Orarul magazinelor AUCHAN de CRĂCIUN 14:44 \"Toată lumea se plânge, lumea nu are timp decât să meargă la muncă... 14:44 EXCLUSIV | Viaţa românului care a dat liniştea de acasă pe o... 14:44 Stoichiţă, despre planul FRF: \"Vrem ca fotbalul feminin să... 14:43 E oficial! Spitalul 'Panait Sârbu' că îşi poate relua integral... 14:43 Parlament: A început votul pe moţiunea de cenzură 14:43 CUM și-a 'tunat' un tânăr mașina și a trecut granița cu ea –... 14:41 Gest minunat făcut de fostul președinte american! Barack Obama s-a... 14:40 Motociclistul 14:37 Rădoi va sta cel puţin până în septembrie 2020 14:36 Viorica Dăncilă: Cei care m-au jignit sunt oameni slabi 14:34 Curtea Supremă ar putea decide astăzi eliberarea Elenei Udrea 14:34 PROGRAM KAUFLAND mini-vacanța de CRĂCIUN. Orarul magazinelor... 14:34 Bagajele unui bărbat controlate de poliţişti: Oamenii legii i-au... 14:32 Dan Bittman şi Mihai Trăistariu sunt printre semifinaliştii... 14:31 De Crăciun, românii se întind mai mult decât le este plapuma 14:31 Premierul Dăncilă, replică acidă pentru Raluca Turcan: „Jignirile... 14:30 Tot mai mulţi străini vor să facă Revelionul în Bucureşti. Care... 14:30 Jaguar Land Rover a dezvoltat o portieră care se deschide automat... 14:28 Explozie puternică la o școală din Suedia. Un bărbat a fost reținut...",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Viorica Dăncilă: Vă promit că anul viitor abordarea mea se va schimba 14:49 Şerban Nicolae: Textul moţiunii este o compunere şcolară care...",
+          "concept": "political statement",
+          "reasoning": "Proper nouns 'Viorica Dăncilă' and 'Şerban Nicolae' are followed by colons and descriptive clauses that elaborate on their statements."
+        },
+        {
+          "rank": 2,
+          "text": "Radet Constanța face angajări 14:49 Cine sunt jucătorii pe care îi vrea CFR la iarnă! Au fost prezenţi...",
+          "concept": "institutional action",
+          "reasoning": "Proper nouns 'Radet Constanța' and 'CFR' are followed by descriptive phrases indicating their actions or contexts."
+        },
+        {
+          "rank": 3,
+          "text": "Barack Obama s-a... 14:40 Motociclistul 14:37 Rădoi va sta cel puţin până în septembrie 2020",
+          "concept": "personal reference",
+          "reasoning": "Proper noun 'Barack Obama' is followed by a descriptive clause, though fragmented, it fits the pattern of entity elaboration."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 5495,
+      "normalized": 8.263080596923828,
+      "actual_text": "of criticism from Democrats and Republicans, Trump has appeared more sensitive than usual to outside opprobrium. The scale of the bipartisan outcry at Trump’s stance toward Putin has",
+      "plain_text": "US President Donald Trump on Wednesday spent a second day managing the political fallout from his widely criticized meeting with Russian President Vladimir Putin, shifting stances and mopping up what the White House said were misstatements. His toughness with the longtime US foe in question, Trump said that he told Putin face-to-face during Monday’s summit to stay out of US elections “and that’s the way it’s going to be,” marking a turnaround from Trump’s first description of his meeting with Putin. Still, Trump backtracked on whether Russia is targeting US elections. When asked the question on Wednesday, he answered “no,” a reply that put him sharply at odds with public warnings from his own intelligence chief. Hours later, the White House stepped in to say that Trump’s answer was not what it appeared. The zigzagging laid bare the White House’s search for a path out of trouble that has dogged the administration’s discussions of Russia from the start, but spiraled after Trump’s trip to Helsinki. After days of criticism from Democrats and Republicans, Trump has appeared more sensitive than usual to outside opprobrium. The scale of the bipartisan outcry at Trump’s stance toward Putin has only been rivaled by his waffling last year over condemning white supremacist demonstrators in Charlottesville, Virginia. “I let him know we can’t have this,” Trump told CBS News of his conversations with Putin. “We’re not going to have it, and that’s the way it’s going to be.” Asked if he would he hold Putin personally responsible for further election interference, he replied: “I would, because he’s in charge of the country.” Trump on Wednesday was asked during a Cabinet meeting if Russia was still targeting the US, to which he answered “no” without elaborating.  That came just days after US Director of National Intelligence Dan Coats compared the cyberthreat today to the way that US officials before 9/11 said that intelligence channels were “blinking red” with warning signs that a terror attack was imminent. White House press secretary Sarah Huckabee Sanders later on Wednesday said that Trump was actually saying “no” to answering additional questions — even though he went on to address Russia. “The president is wrong,” US Senator Susan Collins said of Trump’s one-word response. Told that Sanders had since clarified, she responded: “There’s a walk-back of the walk-back of the walk-back of the walk-back? This is dizzying.” Pressed on why Trump has repeatedly passed on opportunities to publicly condemn Putin’s actions, Sanders said that Trump was working to make the most of an “opportunity” for the two leaders to work together on shared interests. One such opportunity is what Trump called an “incredible offer” from Putin to allow the US access to Russians accused of election hacking and other interference. In exchange, Putin wants Russian interviews of Americans accused by the Kremlin of unspecified crimes. Sanders said that Trump was still weighing the offer with his team, adding: “We’ve committed to nothing.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "US President Donald Trump on Wednesday spent a second day managing the political fallout from his widely criticized meeting with Russian President Vladimir Putin, shifting stances and mopping up what the White House said were misstatements.",
+          "concept": "political fallout",
+          "reasoning": "Proper noun 'Vladimir Putin' is followed by a comma and a descriptive participle phrase detailing the aftermath of the meeting."
+        },
+        {
+          "rank": 2,
+          "text": "White House press secretary Sarah Huckabee Sanders later on Wednesday said that Trump was actually saying “no” to answering additional questions — even though he went on to address Russia.",
+          "concept": "official statement",
+          "reasoning": "Proper noun 'Sarah Huckabee Sanders' is followed by a descriptive clause outlining her role and commentary."
+        },
+        {
+          "rank": 3,
+          "text": "“The president is wrong,” US Senator Susan Collins said of Trump’s one-word response.",
+          "concept": "senatorial critique",
+          "reasoning": "Proper noun 'Susan Collins' is followed by a descriptive clause specifying her position and reaction."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1916,
+      "normalized": 0.0,
+      "actual_text": "Judges, Lawyers Demand Arbitration For Environmental Disputes A forum of senior",
+      "plain_text": "Judges, Lawyers Demand Arbitration For Environmental Disputes  A forum of senior Judges and Lawyers has justified the need for environmental disputes to be resolved through arbitration, saying that ensures both economic and social benefits. At a colloquium in Accra on Arbitration in Ghana, the panel of members of the Bench and Bar were unanimous in their opinion that arbitration has to be mandated to cover environment-related disputes as is done in most jurisdictions across the world. Section 1(b) of Ghana’s Alternative Dispute Resolution Act 2010 (Act 798), bars mediation and arbitration from being used to resolve disputes that relate to the environment. But with experience, the Judges and Lawyers believe that provision has become obsolete and that it is causing more harm to the society that it seeks to protect. Chaired by Justice Nene Amegatcher, a Supreme Court Judge, the panel unanimously recommended an amendment to that provision to enable arbitration to cover issues of the environment. The panel members were Sir Justice Dennis Adjei, Justice of the Court of Appeal, Justice Mrs Justice Gertrude Torkornoo, Supervising Judge, Commercial Courts, Ace Annan Ankomah, Vincent Kizito Beyuo, Ms Diana Asonaba Dapaah and Emmanuel Amofa, all distinguished legal practitioners. Organised by the Ghana ADR Hub, the colloquium assessed “the proper degree of court interventions in arbitral proceedings under the ADR Act,” with incisive discourse on many of the provisions that have been found to be inhibiting effective arbitration practise in Ghana. The panelists were also of the view that the clause on the environment has to be clarified because forbidding the resolution of disputes relating to the environment through arbitration is retrogressive, describing the clause as vague. They indicated that although Parliament, in inserting that clause, may have had in mind the need to for the State to control matters relating to the environment, it has been found to be counterproductive in restricting such cases to court litigation, with the attendant delays and high costs. For instance, Justice Nene Amegatcher, indicated that Ghana appears to be the only country with such a provision barring arbitration from environmental matters, adding that most jurisdictions have adopted arbitration as an option in effectively dealing with environmental cases. He explained that matters such as environmental pollution and degradation could be easily dealt with through arbitration since both investors and affected communities desire early resolution. Mrs Justice Gertrude Torkornoo, for her part, described the clause as a “very harmful provision,” to Ghana, adding that there are many instances where many complex environmental cases in other countries have been settled through arbitration. She urged the Ghana ADR Hub to develop a position paper on that provision to Parliament to consider its amendment. “It is too critical to be left in the Act,” she stressed. Sir Justice Dennis Adjei, justifying the need for an urgent amendment, noted that countries around the world are achieving maximum benefits in using arbitration to resolve environmental disputes, and that Ghana needs to do same. He recalled that at a recent summit he attended outside Ghana, the international community of Judges was surprised to know that Ghana, which prides herself as supportive of ADR, has such a provision. Vincent Kizito Beyuo, Managing Partner of Beyuo & Co, contributing, said experience shows that many organisations that flout environment regulations are willing to resolve quietly through arbitration, rectify the situation, pay the required compensations and penalty, and move on. But when it goes for litigation, he said, the firms hire the best lawyers to defend their case and their image, adding that aggrieved or affected communities often lose in the long run. While Emmanuel Amofa, Administrator of the Ghana Arbitration Centre described the clauses on the environment, national and public interest in the Act which forbids arbitration, as an “unruly horse,” Ms Diana Dapaah, Vice President of the Ghana ADR Hub, noted that the provisions in section one have already been covered in the Constitution. “There is no need for it in the Act,” she stressed.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Chaired by Justice Nene Amegatcher, a Supreme Court Judge, the panel unanimously recommended an amendment to that provision to enable arbitration to cover issues of the environment.",
+          "concept": "judicial role",
+          "reasoning": "Proper noun 'Justice Nene Amegatcher' is followed by a comma and a descriptive clause defining his position and the panel's action."
+        },
+        {
+          "rank": 2,
+          "text": "The panel members were Sir Justice Dennis Adjei, Justice of the Court of Appeal, Justice Mrs Justice Gertrude Torkornoo, Supervising Judge, Commercial Courts, Ace Annan Ankomah, Vincent Kizito Beyuo, Ms Diana Asonaba Dapaah and Emmanuel Amofa, all distinguished legal practitioners.",
+          "concept": "legal panel",
+          "reasoning": "Multiple proper nouns are followed by commas and descriptive clauses that specify their titles and roles."
+        },
+        {
+          "rank": 3,
+          "text": "Vincent Kizito Beyuo, Managing Partner of Beyuo & Co, contributing, said experience shows that many organisations that flout environment regulations are willing to resolve quietly through arbitration, rectify the situation, pay the required compensations and penalty, and move on.",
+          "concept": "professional insight",
+          "reasoning": "Proper noun 'Vincent Kizito Beyuo' is followed by a comma and a descriptive clause detailing his role and statement."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”.",
+          "concept": "media statement",
+          "reasoning": "Proper noun 'Die Zeit' is followed by a comma and a descriptive clause introducing Dr. Tegnell's commentary."
+        },
+        {
+          "rank": 2,
+          "text": "Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference.",
+          "concept": "epidemiologist report",
+          "reasoning": "Proper noun 'Dr Tegnell' is followed by a comma and a descriptive clause specifying the context of his statement."
+        },
+        {
+          "rank": 3,
+          "text": "The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare.",
+          "concept": "health official data",
+          "reasoning": "Proper noun 'Thomas Linden' is followed by a descriptive phrase detailing his affiliation and the reported information."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_11479",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific, concrete details embedded within journalistic or factual reporting** (such as precise measurements, named locations/dates, citations of sources or laws, or technical/administrative terminology).\n\n2. **Domain coverage**: The pattern appears prominently in multilingual news or reportage snippets, especially in Spanish, Italian, and German. Topics include weather/seismic reports (\"4,8 mil\u00edmetros\", \"Servicio Sismol\u00f3gico Nacional\"), cultural/event listings (\"Madonna della Rosa, di piazza Caprera\"), sports updates (\"central Oca, por sanci\u00f3n\"), legal/budgetary details (\"Ley 19\", \"105 milioni di euro\"), and references to specific people, institutions, or works (\"programas especializados como El S\u00f3tano de Radio 3, el propio Diego Manrique\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically generic news introductions or broad statements lacking dense, embedded specifics. They open with general subjects (\"A 25-year-old man\", \"Respiratory problems\", \"Seaweed, a common name\") or announce topics without yet delivering the precise names, numbers, or citations that characterize the high-activation group.\n\n4. **Closing interpretation**: The neuron detects passages where factual, often numerical or properly-named information is integrated into narrative or descriptive sentences. It appears to fire on the linguistic texture of detailed reporting rather than on a single topic, acting as a filter for text that is mid-paragraph and rich in concrete references.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "from the Asian region at the UN International Law Commission. Pieris had a chequered and illegitimate reign at the helm of the Supreme Court of Sri Lanka",
+      "normalized_activation": 9.721343040466309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1125,
+          "meaning_score": 0.5478,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2641
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.167,
+          "meaning_score": 0.6338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3203
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1469,
+          "meaning_score": 0.5571,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2816
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ionales. Seg\u00fan el presidente del colegio Juan Alicea, sostuvo que los sismos que afectaron a Puerto Rico hace m\u00e1s de dos a\u00f1os ha abierto",
+      "normalized_activation": 9.158363342285156,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1864,
+          "meaning_score": 0.3825,
+          "overlap_fraction": 0.0588,
+          "location_score": 0.0118,
+          "combined_score": 0.2393
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2109,
+          "meaning_score": 0.4626,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2694
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1471,
+          "meaning_score": 0.4807,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2511
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Holiness, Restorationist, New Covenant Torah, Non-Charismatic, and Sola Scriptura\" group which styles itself \"One Spotless Church Gathered from",
+      "normalized_activation": 8.449393272399902,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1887,
+          "meaning_score": 0.6353,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5296
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1423,
+          "meaning_score": 0.219,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1445
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.134,
+          "meaning_score": 0.1439,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1111
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\"The education-to-employment gap continues to be the subject of much discussion, often surf",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1694,
+          "meaning_score": 0.5956,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.306
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1983,
+          "meaning_score": 0.6854,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3535
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1722,
+          "meaning_score": 0.8492,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6086
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1151,
+          "meaning_score": 0.5275,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.257
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2715,
+          "meaning_score": 0.2928,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2257
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2059,
+          "meaning_score": 0.471,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2707
+        }
+      ]
+    }
+  ]
+}

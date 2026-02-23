@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_15800",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **named entities (people, organizations, locations) paired with specific actions, roles, or notable events** (such as \"San Francisco DA Chesa Boudin,\" \"Huawei\u2019s Chairman, Liang Hua,\" \"East Palestine\u2019s train derailment,\" or \"Johann Sebastian Bach\u2019s father\").\n\n2. **Domain coverage**: The pattern appears across news, biographical, and factual reporting contexts in multiple languages (English, Spanish, Portuguese, Romanian, Dutch, etc.). Topics include politics, legal rulings, sports, corporate updates, natural disasters, cultural figures, and scientific/technological developments\u2014anywhere a specific entity is linked to a defining action, position, or incident.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature a concrete named entity (person, organization, place) immediately connected to a descriptive predicate (e.g., a title, action, or event). Low-activation examples either lack a clear named entity, present only generic or fragmented references (e.g., incomplete dates/locations), or describe broad topics without coupling them to a specific subject (e.g., \"Why do counties... have lower vaccination rates?\").\n\n4. **Closing interpretation**: The neuron detects structured factual statements where a well-defined subject is associated with a noteworthy attribute or activity, acting as a filter for information-dense, entity-centric clauses typical of journalistic or encyclopedic content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "100 migrants dropped off by ICE in downtown El Paso Christmas Day Rudy Gutierrez, El Paso Times Estela Tomas Felipe is one of",
+      "normalized_activation": 9.425228118896484,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1204,
+          "meaning_score": 0.3865,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2027
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1142,
+          "meaning_score": 0.39,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2017
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1763,
+          "meaning_score": 0.6321,
+          "overlap_fraction": 0.232,
+          "location_score": 0.0464,
+          "combined_score": 0.3698
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "'m not sure how I won this match again. Djokovic will play Casper Ruud, the player he beat in last year's final, or Taylor Fritz",
+      "normalized_activation": 8.348838806152344,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1791,
+          "meaning_score": 0.4983,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.271
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1308,
+          "meaning_score": 0.7974,
+          "overlap_fraction": 0.6875,
+          "location_score": 0.1375,
+          "combined_score": 0.5088
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.152,
+          "meaning_score": 0.4595,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2446
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", posadnut\u00e9ho utl\u00e1\u010dan\u00edm svojich vlastn\u00fdch obyvate\u013eov, oslaben\u00e9ho svojim",
+      "normalized_activation": 7.064268112182617,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0996,
+          "meaning_score": 0.2466,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1385
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0995,
+          "meaning_score": 0.2843,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1535
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1216,
+          "meaning_score": 0.2718,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1574
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1216,
+          "meaning_score": 0.3866,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2033
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0901,
+          "meaning_score": 0.2562,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1385
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1243,
+          "meaning_score": 0.3535,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1911
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1378,
+          "meaning_score": 0.6444,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3129
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2146,
+          "meaning_score": 0.4458,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2642
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1321,
+          "meaning_score": 0.5119,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2576
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_10393",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to sentence-initial named entities or headline-style openings that introduce specific subjects, often marked by capitalized words, acronyms, or proper nouns (such as \"Bunge Limited,\" \"Cartagena B Boyac\u00e1,\" \"Replot 2,\" or \"Bakambu\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Italian, Finnish) and primarily in news headlines, formal announcements, or structured data listings. Topics range from corporate and political events (\"Biden DOJ ending national security initiative\") to geographic references (\"Cartagena B Boyac\u00e1\") and cultural items (\"Ballet West opened its 54th season\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently begin with a specific, capitalized subject (names, acronyms, locations) followed immediately by contextual information, whereas low-activation examples often start with generic phrases (\"Il 6 maggio 1976\"), conjunctions (\"By Jared Huizenga\"), or incomplete clauses that lack this abrupt, named-entity introduction.\n\n4. **Closing interpretation**: The neuron detects text segments where a prominent, named subject is introduced at the very start of a sentence or headline, serving as a trigger for structured informational content. It acts as a filter for discourse-initial topical markers across diverse linguistic and topical contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "guenos en Facebook Este viernes muri\u00f3 el suboficial de tercera PNPDavid Waldimar Navarro P\u00e9rez (23) al no",
+      "normalized_activation": 8.15294075012207,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Bonn (ots) - Die Polizei fahndet mit Phant",
+      "normalized_activation": 6.381859302520752,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Highlights Serie A, Napoli-Udinese 4-2: il video dei gol",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

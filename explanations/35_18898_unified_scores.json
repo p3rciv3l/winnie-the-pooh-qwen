@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_18898",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing interjections, asides, or elaborative phrases set off by parentheses, quotation marks, or dashes** (such as explanatory clauses, translations, citations, or quoted speech within a sentence).\n\n2. **Domain coverage**: The pattern appears across multiple languages (German, French, Spanish, Indonesian, Russian, Hebrew, etc.) and diverse topics\u2014including legal/political commentary, news reports, cultural descriptions, and technical discussions\u2014whenever the text includes embedded clarifications, citations, or quoted material. Examples range from legal citations in Hebrew (\"\u05d1\u05d4\u05d9\u05e0\u05ea\u05df \u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05d0\u05d9\u05d6\u05d5\u05e0\u05d9\u05dd...\") to explanatory asides in German (\"was ja auch in Firmen wohl zu den meist genutzten dingen geh\u00f6ren wird\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally straightforward, declarative sentences without nested explanations, citations, or quoted interruptions. They report events or facts directly (e.g., \"A dopey burglar was caught...\") and lack the syntactic complexity of embedded clauses or metadata often set off by parentheses, dashes, or quotation marks.\n\n4. **Closing interpretation**: The neuron detects structural elaborations where the main narrative is supplemented with secondary information\u2014acting as a marker for meta-commentary, attribution, or explanatory digressions within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "acitados fue intolerable y debidamente sancionado por la corte\u201d. Una v\u00edctima ten\u00eda 8 a\u00f1os cuando Rodr\u00edguez comenz\u00f3 a",
+      "normalized_activation": 9.561872482299805,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2172,
+          "meaning_score": 0.6135,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3323
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2121,
+          "meaning_score": 0.5014,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2854
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1745,
+          "meaning_score": 0.5053,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2719
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "avesuras del creador de contenidos online protagonista de la pieza, cuya trayectoria ha tomado conciencia evolutiva, son men",
+      "normalized_activation": 8.719710350036621,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2204,
+          "meaning_score": 0.3611,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2326
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1727,
+          "meaning_score": 0.4046,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2309
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1831,
+          "meaning_score": 0.4224,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2422
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". \u00dadaje boli n\u00e1sledne znova vydan\u00e9 nemenovanou pravicovou ruskou internetovou str\u00e1nk",
+      "normalized_activation": 7.627274036407471,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1701,
+          "meaning_score": 0.4822,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2609
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1718,
+          "meaning_score": 0.4796,
+          "overlap_fraction": 0.0119,
+          "location_score": 0.0024,
+          "combined_score": 0.263
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1896,
+          "meaning_score": 0.4888,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2714
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u2665Love \u00a5Money \u2663Luck ARIES March 21 \u2013 April",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1599,
+          "meaning_score": 0.2632,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1692
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1682,
+          "meaning_score": 0.2218,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.156
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1549,
+          "meaning_score": 0.2754,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1721
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1299,
+          "meaning_score": 0.2857,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1663
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1412,
+          "meaning_score": 0.534,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2701
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1341,
+          "meaning_score": 0.6156,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4999
+        }
+      ]
+    }
+  ]
+}

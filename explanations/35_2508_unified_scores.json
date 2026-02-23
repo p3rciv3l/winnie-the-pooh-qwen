@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_2508",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific people in formal or official contexts** (such as political leaders with titles, public figures in news reports, or named individuals in professional roles).\n\n2. **Domain coverage**: The pattern appears in multilingual news, political reporting, and formal announcements. Examples span Spanish, German, English, Russian, Turkish, and Romanian, covering topics like government actions (\"el primer ministro japon\u00e9s, Fumio Kishida\"), legal cases (\"George Floyd\"), business executives (\"Spurs boss Mauricio Pochettino\"), and activists (\"Mahavir Narwal, father of Natasha\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain full names paired with titles, positions, or roles within a complete clause describing an event or statement. The low-activation examples either lack named individuals entirely, use incomplete phrases, mention people without formal titles (\"a man alleged to be\"), or are from generic, non-official domains (film reviews, astrology, incomplete sentences).\n\n4. **Closing interpretation**: The neuron detects a specific syntactic-semantic structure: a proper noun (person's name) coupled with an identifying apposition or descriptive clause that establishes their public relevance. It filters for text segments that anchor a statement to a specific, authoritative human source.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the online campaign spiraled this week, authorities scrambled to squelch discussion. Censors blocked all searches on China's popular microblog site,",
+      "normalized_activation": 9.48133659362793,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2231,
+          "meaning_score": 0.3649,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2352
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2,
+          "meaning_score": 0.3861,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2344
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3521,
+          "meaning_score": 0.3671,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2877
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "met donc en avant des d\u00e9fis soci\u00e9taux. Les th\u00e8mes cibl\u00e9s sont : Prix \u00ab Sant\u00e9 - bien-\u00eatre\u00bb : pr\u00e9vention sant\u00e9,",
+      "normalized_activation": 8.385931015014648,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1586,
+          "meaning_score": 0.3458,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2018
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1674,
+          "meaning_score": 0.2787,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1784
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1973,
+          "meaning_score": 0.2999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1989
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "RS WRC przeszed\u0142 ca\u0142kowit\u0105 renowacj\u0119 uwzgledniaj\u0105c\u0105 odbudowanie sporej",
+      "normalized_activation": 6.830214023590088,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1624,
+          "meaning_score": 0.4528,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2461
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0959,
+          "meaning_score": 0.3471,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1772
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1874,
+          "meaning_score": 0.3821,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2278
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1456,
+          "meaning_score": 0.5195,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.266
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1547,
+          "meaning_score": 0.3773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2128
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1359,
+          "meaning_score": 0.4476,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2334
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2216,
+          "meaning_score": 0.4706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2769
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2708,
+          "meaning_score": 0.2518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2091
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3393,
+          "meaning_score": 0.2846,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2496
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_2128",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments dense with proper nouns and specific named entities (such as lists of personal names, political figures with titles and affiliations, or news reports mentioning multiple people, organizations, and locations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (including English, Spanish, Italian, Greek, Turkish, Indonesian, Swedish, German, Russian, and Arabic) and spans domains like politics, entertainment, sports, academia, and current events. It is most prevalent in news snippets, factual reports, and descriptive passages that enumerate entities.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature multiple named entities in close proximity or detailed references to specific individuals, groups, and places, while low-activation texts often contain fewer or no proper nouns, are more generic or incomplete, or focus on singular entities without additional contextual density.\n\n4. **Closing interpretation**: The neuron likely detects high information-density text characterized by enumerations of specific entities, serving as a marker for factual reporting, biographical details, or geopolitical and cultural references across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "public security, culture and social security, but also the whole healthcare system, State Secretary Bence Retvari told Hungarian daily Magyar Hirlap. According to Ret",
+      "normalized_activation": 9.341407775878906,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1011,
+          "meaning_score": 0.19,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1164
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1708,
+          "meaning_score": 0.3752,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2184
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1846,
+          "meaning_score": 0.3886,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2293
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "(10.52 GMT) frente a las costas de la regi\\u00f3n de Nueva Irlanda, sin que las",
+      "normalized_activation": 8.243325233459473,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.127,
+          "meaning_score": 0.3646,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1966
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1344,
+          "meaning_score": 0.2985,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1732
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0915,
+          "meaning_score": 0.4189,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2042
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Football Playoff? \u201cIt\u2019s not hard to believe it now,\u201d his wife, Shelley Meyer, said. \u201cBut if you would have asked me five years ago,",
+      "normalized_activation": 6.916249752044678,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0839,
+          "meaning_score": 0.4265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2042
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0867,
+          "meaning_score": 0.3324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1677
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0869,
+          "meaning_score": 0.2701,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1428
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1754,
+          "meaning_score": 0.517,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.277
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1492,
+          "meaning_score": 0.5048,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2616
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1562,
+          "meaning_score": 0.6212,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.311
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0874,
+          "meaning_score": 0.4029,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1961
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1101,
+          "meaning_score": 0.2378,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1392
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1585,
+          "meaning_score": 0.2582,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1667
+        }
+      ]
+    }
+  ]
+}

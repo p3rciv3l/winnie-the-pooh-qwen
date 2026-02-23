@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_16703",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit references to years, decades, or historical periods** (such as \"1908,\" \"the 1890s,\" \"World War I,\" \"80 years of experience,\" or \"90th anniversary\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Polish) and diverse topics including historical events, anniversaries, economic data with years, policy timelines, and construction eras. It activates on both precise dates (e.g., \"28 dicembre del 1908\") and broader period references (e.g., \"a century,\" \"post-1949\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit numerical years, decade references (\"1930s\"), or phrases denoting anniversaries/centuries. The low-activation examples lack these temporal anchors; they discuss current events, ongoing processes, or general statements without tying them to a specific historical year or defined multi-year period.\n\n4. **Closing interpretation**: The neuron detects and fires on textual markers that ground a statement in a specific historical or chronological timeframe. It appears to function as a semantic detector for time-anchored information, helping the model contextualize content within a defined temporal scope.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "vom. Narodila sa zrejme v roku 1838 v Ban\u00e1te na \u00fazem\u00ed dne\u0161n\u00e9ho Rumuns",
+      "normalized_activation": 9.421820640563965,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", one of the largest and most destructive eruptions ever recorded in 1883 in which 30,000 people were killed. A",
+      "normalized_activation": 8.391905784606934,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "he informed the interlocutor that the package for displaced persons of 1947, 1965 and 1971 be released fully",
+      "normalized_activation": 7.215585708618164,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Men\u00fa MADRID, 22 Feb. (EUROPA PRESS) -",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A Toronto rally billed as \"anti-Trudeau\" was cancelled on Saturday a day after",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

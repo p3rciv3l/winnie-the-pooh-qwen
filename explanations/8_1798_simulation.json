@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_1798",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T06:45:55Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multi-level geographic or organizational subdivisions** (such as \"oil-producing area of Ukwa West Local Government Area,\" \"team to beat in AFC East,\" or \"regiones separatistas prorrusas de Donetsk y Lugansk, en el este de Ucrania\").\n\n2. **Domain coverage**: The pattern appears across news, sports, and political reporting in multiple languages (English, Spanish, Italian, Hindi, Swedish, etc.). It specifically activates on phrases that nest locations or groups within larger regions (e.g., a local area within a state, a sports team within a conference division, or a province within a country), often signaled by prepositions like \"of,\" \"in,\" \"from,\" or their equivalents in other languages.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically mention a single location or entity without layered specification (e.g., \"BEIJING -- China has arrested...\" or \"A petition has been filed in the Supreme Court of India\") or begin with actions/events not focused on hierarchical geography. The high-activation examples consistently contain a \"part-of\" relational structure between places or organizational units.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that denote hierarchical part-whole relationships, especially geographic or administrative containment. It processes not just place names, but the syntactic framing of one region or group being a subdivision of another.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 3975,
+      "normalized": 9.616207122802734,
+      "actual_text": "-Laki, en la parte oriental de la isla de Flores, al este del país, donde las autoridades elevaron este martes la alerta",
+      "plain_text": "Al menos 1.500 personas evacuadas en Indonesia por las repetidas erupciones del volcán Lewotobi Laki-Laki, en la parte oriental de la isla de Flores, al este del país, donde las autoridades elevaron este martes la alerta al nivel tres sobre un máximo de cuatro.  Las autoridades de la regencia de Flores han evacuado a 1.185 habitantes del pueblo de Boru y 328 del pueblo de Konga, después de que el lunes se registrara una erupción con una columna de cenizas que se elevó entre 1.000 y 1.500 metros sobre el monte (de 1.549 metros de altitud), indicó hoy en una nota de prensa Abdul Muhari, director del Centro Nacional de Información y Comunicación de Desastres.  Primera erupción el 23 de diciembre  La intensa actividad del volcán desde que tuvo lugar la primera erupción el 23 de diciembre, se vio también reflejada hoy con una nueva erupción que duró 52 segundos, sin que se observara esta vez ninguna columna de humo o cenizas. La actividad del volcán ha forzado desde el lunes el cierre del aeropuerto de Frans Seda, situado a 80 kilómetros, según la agencia de noticias estatal Antara. Indonesia alberga más de 400 volcanes, de los que al menos 129 continúan activos y 65 están calificados de peligrosos. El archipiélago vivió el pasado diciembre la trágica erupción del volcán Merapi en la isla de Sumatra, que se cobró la vida de 23 personas. También te puede interesar:Lula inicia 2024 con un nuevo choque electoral contra Bolsonaro en el horizonte Indonesia se asienta dentro del denominado Anillo de Fuego del Pacífico, una zona de gran actividad sísmica y volcánica que es sacudida por unos 7.000 temblores al año, la mayoría de escasa magnitud. EFE  MM",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Al menos 1.500 personas evacuadas en Indonesia por las repetidas erupciones del volcán Lewotobi Laki-Laki, en la parte oriental de la isla de Flores, al este del país, donde las autoridades elevaron este martes la alerta al nivel tres sobre un máximo de cuatro.",
+          "concept": "geographic hierarchy",
+          "reasoning": "It describes a volcano located in the eastern part of the island of Flores, which is east of Indonesia, showing multi-level geographic containment."
+        },
+        {
+          "rank": 2,
+          "text": "Las autoridades de la regencia de Flores han evacuado a 1.185 habitantes del pueblo de Boru y 328 del pueblo de Konga, después de que el lunes se registrara una erupción con una columna de cenizas que se elevó entre 1.000 y 1.500 metros sobre el monte (de 1.549 metros de altitud), indicó hoy en una nota de prensa Abdul Muhari, director del Centro Nacional de Información y Comunicación de Desastres.",
+          "concept": "administrative subdivision",
+          "reasoning": "It mentions the regency of Flores evacuating specific villages, indicating a part-whole relationship between administrative units."
+        },
+        {
+          "rank": 3,
+          "text": "Indonesia alberga más de 400 volcanes, de los que al menos 129 continúan activos y 65 están calificados de peligrosos. El archipiélago vivió el pasado diciembre la trágica erupción del volcán Merapi en la isla de Sumatra, que se cobró la vida de 23 personas.",
+          "concept": "geographic containment",
+          "reasoning": "It mentions the archipelago of Indonesia and the volcano Merapi on the island of Sumatra, illustrating a hierarchical geographic structure."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 4773,
+      "normalized": 8.905252456665039,
+      "actual_text": "KCNA). \"The four strategic cruise missiles precisely hit the preset target on the East Sea of Korea after traveling the 2,000 kilometer-long ellipt",
+      "plain_text": "(ATTN: UPDATES with S. Korean military's response, other details in last 4 paras; ADDS photo) By Chae Yun-hwan SEOUL, Feb. 24 (Yonhap) -- North Korea has conducted \"strategic cruise missile\" launching drills, with the \"war posture\" of the country's nuclear combat forces clearly demonstrated, its state media said Friday, as South Korea and the United States held joint military exercises this week.   A subunit of the North's strategic cruise missile unit fired four \"Hwasal-2 strategic cruise missiles\" from an area of the northeastern city of Kim Chaek in North Hamgyong Province toward the East Sea at dawn Thursday, according to the North's official Korean Central News Agency (KCNA). \"The four strategic cruise missiles precisely hit the preset target on the East Sea of Korea after traveling the 2,000 kilometer-long elliptical and eight-shaped flight orbits for 10,208 seconds to 10,224 seconds,\" the KCNA said in an English-language report. \"The drill reconfirmed the reliability of the weapon system and examined the rapid response posture of strategic cruise missile units that constitute one of major forces of the DPRK nuclear deterrent.  \"The drill clearly demonstrated once again the war posture of the DPRK nuclear combat force bolstering up in every way its deadly nuclear counterattack capability against the hostile forces,\" it added.  DPRK stands for the North's official name, the Democratic People's Republic of Korea.  South Korea's military said it was analyzing various possibilities related to the North's claim of the launches.  \"South Korean and U.S. reconnaissance and surveillance assets were closely monitoring the relevant area at the time (of the drills) the North claims,\" the Joint Chiefs of Staff said in a statement. \"An analysis is underway on various possibilities, including whether the North's claim is true or not.\"  Meanwhile, the allies held tabletop drills against North Korea's nuclear threats at the Pentagon on Wednesday (local time).  They also held a trilateral missile defense exercise, joined by Japan, in the international waters of the East Sea earlier this week in response to the North's recent firing of ballistic missiles, including a long-range one.   yunhwanchae@yna.co.kr (END) \n BTS' V joins tvN cooking reality show 'Jinny's Kitchen'  \n (2nd LD) Hybe recorded biggest-ever sales last year on expansion of global K-pop fandom  \n Fourth KF-21 fighter jet prototype succeeds in first flight  \n Parliamentary committee adopts resolution marking 70th anniversary of S. Korea-U.S. alliance  \n EXO's Kai to drop new EP next month  \n (LEAD) S. Korea, U.S. hold joint air drills after N. Korea's ICBM launch  \n (LEAD) S. Korean minister urges Japan to make 'political decision' over forced labor issue  \n S. Korea seeks Caribbean support for Busan expo bid  \n Fourth KF-21 fighter jet prototype succeeds in first flight  \n Appellate court rules in favor of gay couple seeking spousal health insurance coverage  \n SM Entertainment to grant Kakao exclusive rights to distribute albums, music: sources  \n S. Korea starts training program for Polish pilots on FA-50 fighter operation  \n Actor Yoo Ah-in tests positive for propofol use in police drug case  \n U.S. likely to limit S. Korean production of advanced chips in China: U.S. official  \n S. Korean basketball player Lee Hyun-jung signs with G League team",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A subunit of the North's strategic cruise missile unit fired four 'Hwasal-2 strategic cruise missiles' from an area of the northeastern city of Kim Chaek in North Hamgyong Province toward the East Sea at dawn Thursday, according to the North's official Korean Central News Agency (KCNA). The four strategic cruise missiles precisely hit the preset target on the East Sea of Korea after traveling the 2,000 kilometer-long elliptical and eight-shaped flight orbits for 10,208 seconds to 10,224 seconds,\" the KCNA said in an English-language report.",
+          "concept": "geographic and organizational hierarchy",
+          "reasoning": "It contains a city within a province and a subunit of a military unit, reflecting both geographic and organizational part-whole relationships."
+        },
+        {
+          "rank": 2,
+          "text": "Meanwhile, the allies held tabletop drills against North Korea's nuclear threats at the Pentagon on Wednesday (local time). They also held a trilateral missile defense exercise, joined by Japan, in the international waters of the East Sea earlier this week in response to the North's recent firing of ballistic missiles, including a long-range one.",
+          "concept": "geographic subdivision",
+          "reasoning": "It mentions the Pentagon as a specific part of the U.S. defense establishment and the international waters of the East Sea as a subdivision of that body of water."
+        },
+        {
+          "rank": 3,
+          "text": "North Korea has conducted 'strategic cruise missile' launching drills, with the 'war posture' of the country's nuclear combat forces clearly demonstrated, its state media said Friday, as South Korea and the United States held joint military exercises this week.",
+          "concept": "geopolitical entities",
+          "reasoning": "It mentions North Korea, South Korea, and the United States as distinct geopolitical entities, though not in a nested hierarchy."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00010",
+      "row_idx": 4169,
+      "normalized": 7.984010219573975,
+      "actual_text": "que se realizan año con año en coordinación con la administración del camposanto, trayendo consigo los beneficios de pagar sin tener que hasta ir hasta",
+      "plain_text": "Infoecos/Armería  Este primero y segundo de noviembre se instalará una caja móvil de tesorería a la entrada del panteón municipal, con el fin de que los ciudadanos que requieran aprovechar el descuento del cien por ciento en multas y recargos del impuesto predial, de licencias comerciales y de bebidas, así como el pago por concepto de panteón.  Rosalinda Barbosa Amezcua, tesorera municipal, comentó que estas acciones forman parte de las estrategias que se realizan año con año en coordinación con la administración del camposanto, trayendo consigo los beneficios de pagar sin tener que hasta ir hasta la presidencia.  Reiteró que se estará dando difusión para que las personas que visitan a sus seres queridos y vienen de otras partes aprovechen la llegada de la caja, en estos días de los fieles difuntos, para así puedan cubrir sus obligaciones como buenos contribuyentes.  Barbosa Amezcua agradeció a todas las personas que aprovecharon el descuento durante el mes de octubre para ponerse al corriente con estas obligaciones, que sirven para seguir brindando más y mejores servicios públicos.  Finalmente, invitó a los contribuyentes para que aprovechen el cien por ciento de descuentos en impuestos de agua potable, predial, licencias comerciales y de bebidas durante todo el mes de noviembre.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Infoecos/Armería  Este primero y segundo de noviembre se instalará una caja móvil de tesorería a la entrada del panteón municipal, con el fin de que los ciudadanos que requieran aprovechar el descuento del cien por ciento en multas y recargos del impuesto predial, de licencias comerciales y de bebidas, así como el pago por concepto de panteón.",
+          "concept": "municipal administration",
+          "reasoning": "It mentions a municipal cemetery and municipal taxes, indicating local government subdivisions."
+        },
+        {
+          "rank": 2,
+          "text": "Rosalinda Barbosa Amezcua, tesorera municipal, comentó que estas acciones forman parte de las estrategias que se realizan año con año en coordinación con la administración del camposanto, trayendo consigo los beneficios de pagar sin tener que hasta ir hasta la presidencia.",
+          "concept": "municipal offices",
+          "reasoning": "It refers to a municipal treasurer and the presidency (likely municipal), highlighting administrative roles within local government."
+        },
+        {
+          "rank": 3,
+          "text": "Reiteró que se estará dando difusión para que las personas que visitan a sus seres queridos y vienen de otras partes aprovechen la llegada de la caja, en estos días de los fieles difuntos, para así puedan cubrir sus obligaciones como buenos contribuyentes.",
+          "concept": "regional movement",
+          "reasoning": "It mentions people coming from other parts, implying movement between different geographic areas, though not explicitly nested."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2169,
+      "normalized": 0.0,
+      "actual_text": "على الرغم من تمتعه بشعبيّة جارفة في بلده",
+      "plain_text": "على الرغم من تمتعه بشعبيّة جارفة في بلده، إلا أن الرئيس الفلبيني رودريغو دوتيرتي أصبح يثير مؤخراً جدلاً بعد إعلانه عن فكرة لديه تقضي بتغيير اسم البلاد من الفلبين حاليا، إلى \"مهارليكا\" مستقبلاً، وفق موقع \"الفلبين بالعربي\".  وخلال كملة له قال: \"دعونا نغيره يوماً ما. كان الرئيس الراحل فيرديناند ماركوس محقاً. كان يريد تغيير الاسم إلى مهارليكا، جمهورية مهارليكا، نظراً لأن مهارليكا هي كلمة تنتمي للغة الملايو ومعناها الطمأنينة والسلام\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "على الرغم من تمتعه بشعبيّة جارفة في بلده، إلا أن الرئيس الفلبيني رودريغو دوتيرتي أصبح يثير مؤخراً جدلاً بعد إعلانه عن فكرة لديه تقضي بتغيير اسم البلاد من الفلبين حاليا،",
+          "concept": "Philippine president",
+          "reasoning": "It mentions the Philippine president and the country, but without nested geographic subdivisions."
+        },
+        {
+          "rank": 2,
+          "text": "إلى 'مهارليكا' مستقبلاً، وفق موقع 'الفلبين بالعربي'.",
+          "concept": "country name change",
+          "reasoning": "It specifies the change from Philippines to Maharlika, focusing on the country as a whole."
+        },
+        {
+          "rank": 3,
+          "text": "وخلال كملة له قال: 'دعونا نغيره يوماً ما. كان الرئيس الراحل فيرديناند ماركوس محقاً. كان يريد تغيير الاسم إلى مهارليكا، جمهورية مهارليكا، نظراً لأن مهارليكا هي كلمة تنتمي للغة الملايو ومعناها الطمأنينة والسلام'.",
+          "concept": "republic name etymology",
+          "reasoning": "It provides the proposed name 'Republic of Maharlika' and its meaning, but lacks hierarchical structure."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "A Resolution To The U.S.-China Trade War Is Not In The Offing",
+      "plain_text": "A Resolution To The U.S.-China Trade War Is Not In The Offing  RACHEL MARTIN, HOST: The already-tense relationship between China and the U.S. has just gotten more complicated. At this moment, one of China's top executives from its biggest tech firm, Huawei, is in Canadian custody. The arrest came at the request of the United States, which has been investigating whether this executive, Meng Wanzhou, violated sanctions against Iran. Meng is also the daughter of Huawei's founder. It is an awkward time for the dispute. The U.S. just struck a trade truce with China. The White House is hanging a lot of hope on a new deal, but concrete details on how to bring the trade war to an end are scarce. So what does all of this look like for Americans trying to do business in China? We've got William Zarit with us on the line from China to talk with us about this. He is the head of the U.S. Chamber of Commerce in Beijing. Mr. Zarit, thanks for joining us [see POST-BROADCAST CORRECTION below]. WILLIAM ZARIT: Thank you. MARTIN: The U.S. reportedly had this executive arrested because she had violated sanctions against Iran. How is this being framed inside China? ZARIT: Well, there's not a lot of information inside China except that this woman has been detained. And, you know, we were - like you said, we were up to our ears with this trade dispute. And we just thought we had - catch our breath, and then this happens. The Chinese reaction is mixed, but, you know, there are folks that don't really understand how the rule of law works in the U.S. And so they are very suspicious of the timing of this perhaps being another negotiating ploy by the U.S. administration. Other folks are saying, you know, be calm. Let the cool heads take over here. And let's just wait and see what happens. But it's really bad timing. MARTIN: What was the take after President Trump sat down with China's leader, Xi Jinping, in Argentina at the G-20 and came out with this - what was framed as a sort of truce? How did you perceive that? How did other American executives in China look at that? ZARIT: We looked at it. You know, there are a lot of issues - complex issues, so we felt the results were as good as they could have been. The 90-day clause... MARTIN: But there was nothing really concrete that came out of that - well, except for that timeline. ZARIT: Yes. But you know, they also talked about China buying more agricultural products. They mentioned forced technology transfer, cybertheft and IPR violations and so forth. But I didn't see a lot of talk about the real, central issue, which is China's discriminatory economic policies with the state support and domestic market protectionism. And that's really what needs to be addressed in the medium and long term to get a level playing field and have a sustainable commercial relationship based on fairness and reciprocal treatment. MARTIN: How does that problem affect the work that you try to do? How does it affect trying to do business from China as an American? ZARIT: Sure. And the companies here, because of the uncertainty and unpredictability, are - the best they can do right now is to keep their powder dry and see what happens. The smart companies here are looking at feasibility studies to, perhaps, diversify their supply chains - some out of China, some out of the U.S. There's been more and more talk about companies just going to kick the tires in Vietnam and Indonesia, Philippines, Thailand and so forth. But we don't see companies moving back their operations - their main operations back to the U.S. MARTIN: Which is something that won't come as welcome news to President Trump. We spoke with White House trade adviser Peter Navarro right after the G-20 summit. He was actually at that dinner with President Trump and Xi Jinping. And here's what he had to say. (SOUNDBITE OF ARCHIVED BROADCAST) PETER NAVARRO: They presented us with documents that had 142 specific demands that we had made and their responses. And they were very specific in how they would respond to that. It's going to require changing their laws. It's going to require enforcing their laws. MARTIN: So they've got 90 days to come up with a plan to end this trade war. And as we just heard there from Peter Navarro, they're really putting the onus on China to make changes to their own legal system. Do you think China's really going to see this as a problem they're responsible for fixing? ZARIT: The Chinese, right now, really want to avoid this dispute getting any worse. And so the way I see things developing is that - you know, a lot of people are saying 90 days is too short. And it is short, and I don't see that China's going to solve the problem in 90 days. But what I do see, you know, the Chinese - the party and the government - basically, they control the economy, most of the Internet, media, security. And they can pretty much, in 90 days, do what they need to do - perhaps, do just enough - to keep the U.S. administration at bay. And then I think they'll probably continue to extend, and the Chinese will respond. But again, they're not going to be able to meet all the demands in 90 days. And I don't think - I still think, though, that it'll be a positive movement. MARTIN: William Zarit is the chairman of the U.S. Chamber of Commerce in Beijing. Sir, thank you very much for your time. We appreciate it. ZARIT: Thank you. [POST-BROADCAST CORRECTION: In this story William Zarit is mistakenly referred to as head of the U.S. Chamber of Commerce in Beijing. In fact, he is chairman of the American Chamber of Commerce in China.] Transcript provided by NPR, Copyright NPR.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "So what does all of this look like for Americans trying to do business in China? We've got William Zarit with us on the line from China to talk with us about this. He is the head of the U.S. Chamber of Commerce in Beijing. Mr. Zarit, thanks for joining us [see POST-BROADCAST CORRECTION below].",
+          "concept": "organizational subdivision",
+          "reasoning": "It mentions the U.S. Chamber of Commerce in Beijing, an organizational subunit with a geographic location."
+        },
+        {
+          "rank": 2,
+          "text": "[POST-BROADCAST CORRECTION: In this story William Zarit is mistakenly referred to as head of the U.S. Chamber of Commerce in Beijing. In fact, he is chairman of the American Chamber of Commerce in China.]",
+          "concept": "organizational correction",
+          "reasoning": "It corrects the organizational affiliation to the American Chamber of Commerce in China, another example of an organization with a geographic scope."
+        },
+        {
+          "rank": 3,
+          "text": "We spoke with White House trade adviser Peter Navarro right after the G-20 summit. He was actually at that dinner with President Trump and Xi Jinping. And here's what he had to say.",
+          "concept": "government subdivision",
+          "reasoning": "It mentions the White House as a part of the U.S. government and the G-20 as an international group, though not deeply nested."
+        }
+      ]
+    }
+  ]
+}

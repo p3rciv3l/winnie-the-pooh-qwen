@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_15608",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T06:36:13Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing lists or enumerations of multiple named entities** (such as lists of people, organizations, brands, locations, legal parties, or technical terms), particularly when they appear in a series separated by commas or conjunctions.\n\n2. **Domain coverage**: The pattern appears across diverse domains including legal documents, business news, geographic reports, cultural reviews, and technical descriptions. It is multilingual, with clear examples in English, Spanish, Italian, Portuguese, Greek, Turkish, and Finnish. The common thread is not topic or language, but the syntactic structure of itemization.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically focus on a single event, individual, or concept without extended enumeration. They often begin narrative sentences or headlines about specific occurrences (e.g., \"Laura Mvula performs...\", \"En México continúa la búsqueda...\"). The high-activation texts consistently contain multi-item lists, while the low-activation ones lack this structured serialization.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic pattern—the presence of enumerated lists—rather than a narrow semantic topic. It acts as a \"comma-separated list detector,\" firing on text segments where multiple proper nouns or complex noun phrases are concatenated in a sequence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00012",
+      "row_idx": 5677,
+      "normalized": 9.593623161315918,
+      "actual_text": "también un sismo de menor intensidad en Cihuatlán, Jalisco. AL",
+      "plain_text": "Sin reporte de daños tras sismo de mediana intensidad en Huajuapan de León, reporta Protección Civil; habitantes de la Ciudad de México se vieron alarmados ante las llamadas de evacuación  Notimex  México.- Esta mañana se activó la alerta sísmica en la Ciudad de México, debido al sismo de magnitud 5.9 con epicentro en Huajuapan de León, Oaxaca, que ocurrió a las 8:31 de la mañana.  El coordinador Nacional de Protección Civil, Luis Felipe Puente, informó que hasta el momento no se reportan daños por el sismo de magnitud 5.9 ocurrido la mañana de este jueves en Huajuapan de León, Oaxaca. El funcionario de la Secretaría de Gobernación indicó que las Unidades de Protección Civil de las entidades donde se activó la alerta sísmica y donde se sintió el movimiento telúrico no reportaron daños.  En su cuenta de Twitter @LUISFELIPE_P, refirió que las dependencias del gobierno federal operan con normalidad y sin ninguna eventualidad. “Hasta el momento en las entidades donde sonó la alerta sísmica y se sintió el sismo, las unidades de protección civil no reportan daños”, “Las dependencias del @gobmx operan con normalidad y no reportan ninguna eventualidad”, indicó en la red social.  Tampoco se reportaron daños en la capital del país, aunque Protección Civil y otras autoridades se mantienen pendientes ante cualquier situación. La Cruz Roja Mexicana informó que 10 unidades realizan recorridos por los diferentes puntos de la Ciudad de México, a fin de atender a las personas que sufrieron crisis nerviosas por el sismo que se registró esta mañana.  Durante el sismo registrado a las 8:31 am, el volcán Popocatépetl tuvo una emisión de vapor de agua y gases. Media hora antes, a las 7:59, se registró también un sismo de menor intensidad en Cihuatlán, Jalisco.  AL",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El coordinador Nacional de Protección Civil, Luis Felipe Puente, informó que hasta el momento no se reportan daños por el sismo de magnitud 5.9 ocurrido la mañana de este jueves en Huajuapan de León, Oaxaca.",
+          "concept": "officials and locations",
+          "reasoning": "This section contains multiple named entities (organization, person, location) in a descriptive enumeration."
+        },
+        {
+          "rank": 2,
+          "text": "La Cruz Roja Mexicana informó que 10 unidades realizan recorridos por los diferentes puntos de la Ciudad de México, a fin de atender a las personas que sufrieron crisis nerviosas por el sismo que se registró esta mañana.",
+          "concept": "organizations and cities",
+          "reasoning": "This section includes named entities such as an organization and a city, though not in a comma-separated list."
+        },
+        {
+          "rank": 3,
+          "text": "Durante el sismo registrado a las 8:31 am, el volcán Popocatépetl tuvo una emisión de vapor de agua y gases. Media hora antes, a las 7:59, se registró también un sismo de menor intensidad en Cihuatlán, Jalisco.",
+          "concept": "geographic features",
+          "reasoning": "This section mentions multiple geographic entities in separate sentences, with some enumeration."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 1140,
+      "normalized": 8.763388633728027,
+      "actual_text": "believe the code of conduct passed by city council last week should be classified as an infraction of the code of conduct itself. This is nothing more than an attempt by",
+      "plain_text": "Attack on civic democracy Re: City council approves updated code of conduct (June 30) I am very disappointed in Mayor Kevin Davis and Brantford city council that they would adopt a code of conduct with a provision that so easily could be interpreted as a potential attack against civic democracy. The requirement that, once council makes a decision, all the councillors must support that decision clearly means that the councillors must then cease to represent their constituents to council, and must instead represent the council to their constituents. That is not just anti-democratic, it nods towards authoritarianism. True democrats must know that democracy is messy: that’s its nature and its protocol. And that messiness must be protected if democracy is to exist. There is no such thing as illiberal democracy, and I am very disturbed to see it pursued here in Brantford. Shame on the mayor and our city council. Frank Olenski Brantford Shutting down criticism Our distinguished mayor and his followers don’t just want to build a wall around our city, they now want to shut down all criticism (pro or con) of any bylaws adopted by city council. What is going on with our councillors? The new code of conduct bylaw amounts to see no evil, hear no evil, speak no evil. What’s happening to our city? Ron Davis Brantford Hindering free speech  I believe the code of conduct passed by city council last week should be classified as an infraction of the code of conduct itself. This is nothing more than an attempt by politicians to hinder our freedom of speech. I also believe that this was done to derail momentum of the constituents trying to stop their elected officials from selling Arrowdale.  They have taken away our ability to collect and discuss information with our ward representative regarding any issue passed by council.  History shows us that Brantford politicians do make mistake. We don’t expect you to be perfect, just transparent.  With the new code of conduct, would councillors be in violation if they put a motion to reconsider on any issue moving forward?  A councillor was hesitant to provide information I sought regarding an issue already voted on for fear of being in violation of this new code of conduct.  Council fears community involvement for some reason. A conscientious councillor asked for a deferral of consideration of the code of conduct for a couple of weeks to get community input and is voted down. In my opinion, any time there is an opportunity for community involvement, councillors should be jumping at it — unless they have something to hide.  All 11 councillors should have come up with a unanimous code they all live can live with. They are supposed to be working together.  How can councillors write a code of conduct to regulate themselves that really is there to impede the efforts of councilors to do what they were elected to do?  Peter Sheere   Bravo Re: Taking a toll (Letter, June 30) A letter writer states that most golf courses out of our area offer a discount to Brantford residents. Just one more reason to close down Arrowdale as a golf course. Bravo, city council. Warren Bechard Brantford  ‘Tollgate’ mentality Residents may recall the “Toll Gate” booth that stood on the northwest corner of what is now Tollgate Road and Paris Road. This was to pay for the dirt road at the time between communities. Travellers of all or any origin paid up. The multiplicity of services today and mass mobility leave the “tollgate” mentality of yesterday behind. H. R. Bryant Paris",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "I am very disappointed in Mayor Kevin Davis and Brantford city council that they would adopt a code of conduct with a provision that so easily could be interpreted as a potential attack against civic democracy.",
+          "concept": "political entities",
+          "reasoning": "This section contains a list of two named entities (person and organization) connected by 'and'."
+        },
+        {
+          "rank": 2,
+          "text": "The “Toll Gate” booth that stood on the northwest corner of what is now Tollgate Road and Paris Road.",
+          "concept": "roads",
+          "reasoning": "This section includes an enumeration of two named locations (roads) with 'and'."
+        },
+        {
+          "rank": 3,
+          "text": "Our distinguished mayor and his followers don’t just want to build a wall around our city, they now want to shut down all criticism (pro or con) of any bylaws adopted by city council.",
+          "concept": "criticism types",
+          "reasoning": "This section contains an enumeration of two types of criticism, matching the syntactic pattern of list detection."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00006",
+      "row_idx": 4214,
+      "normalized": 7.738404273986816,
+      "actual_text": "Prevederile proiectului de Hotărâre de Guvern, postat spre dezbatere publică pe site",
+      "plain_text": "Prevederile proiectului de Hotărâre de Guvern, postat spre dezbatere publică pe site-ul Ministerului de Finanțe, pot contribui la destabilizarea și mai accentuată a situației companiilor active pe segmentul de asigurări RCA, lovit de falimentul CITY Insurance. Potrivit celor mai recente date oficiale furnizate de ASF – Autoritatea de Supraveghere Financiară, rata combinată în ceea ce privește asigurările RCA se ridică la peste 130%. \nCele 6 luni de tarife plafonate nu rezolvă fondul problemei care marchează, în acest moment, piața de RCA. O parte din șoferi ar putea să se bucure de o formă de economie la achitarea primelor în următoarea perioadă. Aceasta ar fi, însă, urmată de o revenire la tarifele reale, care au la bază formule de calcul clare, care țin cont de daunalitatea crescută din țara noastră, tarifele de reparații și restul parametrilor importanți. În plus, aceste 6 luni riscă să afecteze stabilitatea companiilor de asigurări, acest lucru răsfrângându-se, în definitiv, tot asupra asiguraților RCA. \nDe altfel, o măsură similară din 2016 si-a dovedit ineficiența, aceasta având ca efect declanșarea unei proceduri de infringement de către Comisia Europeană pentru nerespectarea legislației europene în domeniu. Economiile aduse atunci asiguraților au fost nesemnificative, în schimb companiile de asigurare au fost afectate negativ de acele măsuri. Proiectul de HG prevede și o măsură cu impact semnificativ asupra brokerilor de asigurare – limitarea comisioanelor de distribuție la maximum 5% din prima brută încasată. Prin aplicarea unei astfel de plafonări, cei aproape 40.000 de distribuitori în asigurări vor fi puternic afectați, într-o perioadă în care circa 1 milion de polițe RCA active la CITY Insurance urmează să expire. Acest lucru va afecta și clienții finali, care nu vor mai beneficia de consultanța de specialitate a unor intermediari în aceste momente când contează foarte mult să știe să aleagă un produs de asigurare de calitate.  “Considerăm că doar dialogul orientat spre găsirea de soluții viabile pe termen lung cu toate părțile implicate poate fi calea spre dezvoltarea sustenabilă a pieței asigurărilor, astfel încât situații similare cu falimentul CITY Insurance să nu se mai repete”, declară reprezentanții ApPA.  Reamintim că Autoritatea de Supraveghere Financiară (ASF) și Ministerul Finanțelor au lansat vineri, în consultare publică, un proiect de Hotârâre de Guvern privind plafonarea tarifelor RCA pentru o perioadă de 6 luni, pe fondul creșterilor mari de prețuri apărute după intrarea în faliment a City Insurance, fostul lider RCA.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Reamintim că Autoritatea de Supraveghere Financiară (ASF) și Ministerul Finanțelor au lansat vineri, în consultare publică, un proiect de Hotârâre de Guvern privind plafonarea tarifelor RCA pentru o perioadă de 6 luni, pe fondul creșterilor mari de prețuri apărute după intrarea în faliment a City Insurance, fostul lider RCA.",
+          "concept": "organizations",
+          "reasoning": "This section includes a list of two government entities and mentions a company, with enumeration using 'și'."
+        },
+        {
+          "rank": 2,
+          "text": "Potrivit celor mai recente date oficiale furnizate de ASF – Autoritatea de Supraveghere Financiară, rata combinată în ceea ce privește asigurările RCA se ridică la peste 130%.",
+          "concept": "regulatory body",
+          "reasoning": "This section features a named entity (financial authority) in a descriptive context."
+        },
+        {
+          "rank": 3,
+          "text": "De altfel, o măsură similară din 2016 si-a dovedit ineficiența, aceasta având ca efect declanșarea unei proceduri de infringement de către Comisia Europeană pentru nerespectarea legislației europene în domeniu.",
+          "concept": "European Commission",
+          "reasoning": "This section mentions a named entity (European Commission) in an explanatory list-like structure."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2265,
+      "normalized": 0.0,
+      "actual_text": "By Fiona Lee With businesses in peril as cases of Covid-19 have begun",
+      "plain_text": "By Fiona Lee  With businesses in peril as cases of Covid-19 have begun to soar once again, more and more people have been, strangely, talking about Christmas shopping.  Every year, however, it is around now that people usually start gathering toys, hats and toothbrushes to make up a Christmas Shoebox, as part of Team Hope’s Christmas Shoebox Appeal. Thankfully, despite this pandemic, the appeal will be operating fully online this year.  If you are not familiar with their initiative, Team Hope usually invites the public to make up shoeboxes filled with gifts for vulnerable children in Africa and Eastern Europe. They are delivered straight into the hands of children affected by poverty. These shoeboxes are often the only gift that these children will receive at Christmas, and the joy that they deliver is amazing. My mother started me off making shoeboxes as a child, and I remember her mentioning that one volunteer told her that a boy screamed with delight when he got his shoebox, and then fainted when he realised there were things inside it. The impact these gifts have on children with virtually nothing cannot be overstated.  Alan McElwee, Team Hope’s Business Development Manager, told SIN about necessary changes this year due to the pandemic.  “A lot has changed this year. Because of restrictions, we have had to completely change how we approach the Christmas Shoebox Appeal. We are doing it completely online this year.”  “So, what that means is, instead of asking our donors to give a gift–filled shoebox, we will be asking them to donate €20 online to our website, teamhope.ie. We are working with 12 partners overseas. They, on behalf of the donor, are going to assemble and distribute shoeboxes to the children in local communities in their countries.”  Team Hope have tried to make the process of making a box online just as fun as putting it together yourself with their new interactive website.  “What we have tried to do is replicate some of the personal engagement and choice people can have even when they’re donating online. Much of the feedback is that people really enjoy picking out gift items to put in their shoebox, so to try to replicate that a bit, we made it interactive on the website. Donors online will be able to select certain items from a pick list that they might like to have as part of their donations.”  To put together a shoebox, you must think of these four categories:  Something to Wear, Something to Wash with, Something to Write with, and Something to wow them with like toys and teddies.  The website lets you go through each category and you can pick three things to put in per category. Examples include toothbrushes, face clothes, socks, teddies, copy books, crayons, a woolly hat, scarves, a bouncy ball and so much more.  “They can also upload a picture or a message of some kind because we know that donors really like to personalise their shoebox donation, and there is still an element of that with the online donation process.”  Despite Team Hope’s centres being closed due to the pandemic, Alan says volunteers are still working hard to raise funds for this year’s shoeboxes, as well as schools and companies.  “Our former volunteers have been extremely supportive! A lot of them are thinking now of what they can do locally, in terms of running fundraisers for Team Hope to fund even more shoebox donations this year.”  “A number of schools continue their support this year too, even though it’s a difficult time for teachers. They are thinking about how they can involve their class in helping Team Hope and vulnerable children.”  “There is lots of support from corporates as well, we have been speaking to a number of businesses in Galway, including Medtronic, KPMG and Aviva, their staff are going to get involved.”  “So while it’s been a lot of change in terms of how we are going to re-engineer the Shoebox Appeal, it seems to still have a relevance, and I think people appreciate that as tough as we have it in Ireland, and clearly it has been tough on us, the impact is even greater for our partners living overseas, living in very underdeveloped communities and countries where the healthcare system is just not there at the best of times, let alone during a pandemic.”  “They don’t have the same possibilities for social distancing and isolation, and if they don’t work one day, they don’t get any pay and then they don’t have anything for food or education. We are very grateful for the continued support.”  Retired volunteers are still able to get involved despite needing to cocoon by coming together and setting up ‘Super Knitters’ groups. They have been making soft toys and little figures since the summer!  One blessing that has come from this new set up is that Team Hope have been able to push the deadline for donations back by more than a full month.  “The deadline in terms of donation is the 23rd of December. In previous years it has been in November, but we can go on later this year and continue working with our partners into the New Year. For some of our partners, Christmas can be on different dates, especially in Eastern Europe. We just wanted to give people in Ireland the best opportunity to donate, even coming into Christmas week, and to stagger the making of shoeboxes out for our overseas partner as well.”  To donate and make your virtual shoebox, go to teamhope.ie.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“There is lots of support from corporates as well, we have been speaking to a number of businesses in Galway, including Medtronic, KPMG and Aviva, their staff are going to get involved.”",
+          "concept": "companies",
+          "reasoning": "This section contains a comma-separated list of multiple named companies, aligning with the neuron's detection of enumerations."
+        },
+        {
+          "rank": 2,
+          "text": "The website lets you go through each category and you can pick three things to put in per category. Examples include toothbrushes, face clothes, socks, teddies, copy books, crayons, a woolly hat, scarves, a bouncy ball and so much more.",
+          "concept": "items",
+          "reasoning": "This section features an extended enumeration of multiple items separated by commas, fitting the neuron's list detector role."
+        },
+        {
+          "rank": 3,
+          "text": "To put together a shoebox, you must think of these four categories: Something to Wear, Something to Wash with, Something to Write with, and Something to wow them with like toys and teddies.",
+          "concept": "categories",
+          "reasoning": "This section contains an enumeration of multiple categories separated by commas, which matches the neuron's syntactic pattern detection."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 5704,
+      "normalized": 0.0,
+      "actual_text": "Tickets are now on sale for Welshampton’s spectacular pantomime on March 3",
+      "plain_text": "Tickets are now on sale for Welshampton’s spectacular pantomime on March 3, 4 and 5.  The colourful show Time Trekkers is a true community creation with a cast and crew of more than fifty people from the village and surrounding area.  Chairman of Welshampton Bonfire Committee Mick Higgins urged people to book tickets early.  “Tickets for last year’s show completely sold out. Demand is driven by our reputation for high-quality productions with unique and hilarious scripts, glamorous costumes, ingenious staging and a live nine-piece band. We’d advise early booking to avoid disappointment.”  There will be four shows – Friday night, Saturday afternoon, Saturday night and Sunday afternoon at 7.30pm and 2.30pm. Tickets, which cost £9.50 for adults, £7.50 for seniors and £5.50 for under 16s, can be booked via the Welshampton Bonfire Committee website www.welshampton.org.uk or by contacting 01948 710180  Amidst the gloom of winter’s end, Welshampton Bonfire Committee Pantomime Company is ready and waiting to delight audiences with zany silliness once again.  Time Trekkers is a fantastic explosion of family-friendly fun, with a script written by Oswestry playwright Shaun Higgins. It features a host of colourful characters in a race against time to outsmart the evil sorceress Ratzlinger before she wreaks her rotten revenge. The cast includes time-travelling heroes, ancient Greeks, the Time Team and the wildly chivalrous Knights of the Octagonal Table.  Director Ian Andrew said: “Rehearsals are going like clockwork, and I’m delighted with the number of people who have come forward to perform or to join the production crew. Time Trekkers really does promise to give our audiences the time of their lives!”  Full details are available on the website and on the ‘Welshampton Bonfire Committee presents’ Facebook page.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It features a host of colourful characters in a race against time to outsmart the evil sorceress Ratzlinger before she wreaks her rotten revenge. The cast includes time-travelling heroes, ancient Greeks, the Time Team and the wildly chivalrous Knights of the Octagonal Table.",
+          "concept": "characters",
+          "reasoning": "This section has a comma-separated list of multiple character groups, which is a clear enumeration of named entities or phrases."
+        },
+        {
+          "rank": 2,
+          "text": "There will be four shows – Friday night, Saturday afternoon, Saturday night and Sunday afternoon at 7.30pm and 2.30pm.",
+          "concept": "show times",
+          "reasoning": "This section includes an enumeration of multiple days and times, separated by commas and conjunctions."
+        },
+        {
+          "rank": 3,
+          "text": "Tickets, which cost £9.50 for adults, £7.50 for seniors and £5.50 for under 16s, can be booked via the Welshampton Bonfire Committee website www.welshampton.org.uk or by contacting 01948 710180",
+          "concept": "prices",
+          "reasoning": "This section contains an enumeration of multiple price categories, matching the neuron's pattern of list detection."
+        }
+      ]
+    }
+  ]
+}

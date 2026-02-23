@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_4477",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text snippets dense with specific named entities and contextual details (such as references to organizations like \"Lehman Brothers\" or \"Center for Transatlantic Relations,\" events like the \"2020 Election,\" and figures like \"John McCain\") within news or current-affairs narratives.\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news articles spanning politics, finance, entertainment, and science, often featuring dates, acronyms, and institutional names. Examples include political crises, music releases, financial updates, and research reports, with texts frequently incorporating quotes, numerical data, and multi-clause descriptions.\n\n3. **Contrast with low-activation examples**: Low-activation texts are often in non-English languages or, when in English, are terse headlines or announcements lacking dense entity clusters and narrative context (e.g., \"A rare green comet may be visible\" or foreign-language snippets). High-activation examples consistently pack multiple entities, temporal markers, and explanatory clauses into cohesive excerpts.\n\n4. **Closing interpretation**: The neuron detects information-rich, journalistic prose that anchors specific events, organizations, and people within a broader narrative, serving as a marker for detailed news reporting in English.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "affairs and political science,\u201d Bannon said. \u201cI went to Marquette University in Milwaukee (Wisconsin) and I always love traveling. I also taught English in South",
+      "normalized_activation": 9.586326599121094,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1119,
+          "meaning_score": 0.5672,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2716
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1322,
+          "meaning_score": 0.5112,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2573
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0887,
+          "meaning_score": 0.536,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2499
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0438 \u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432\u0430 \u041f\u0430\u0432\u043b\u043e\u0432\u0430 \u043e\u0442 9 \u043a\u043b\u0430\u0441 \u043d\u0430 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u0430 \u0442\u044a\u0440\u0433\u043e\u0432\u0441\u043a\u0430 \u0433\u0438\u043c\u043d\u0430\u0437\u0438\u044f. \u0414\u0430\u0432",
+      "normalized_activation": 8.875786781311035,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2283,
+          "meaning_score": 0.3885,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2468
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.218,
+          "meaning_score": 0.291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2036
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2158,
+          "meaning_score": 0.2825,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1993
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "on insists that he isn\u2019t speaking about a shadowy secret government, or the Freemasons. Rather, he\u2019s talking about hypertalented, hard-working people who",
+      "normalized_activation": 8.128023147583008,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1054,
+          "meaning_score": 0.3191,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1698
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1028,
+          "meaning_score": 0.3241,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1708
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1386,
+          "meaning_score": 0.134,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.109
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0627\u0644\u0645\u0633\u062a\u0642\u0644\u0629 /\u0645\u0646 \u0627\u0644\u0633\u0647\u0644 \u0627\u0644\u062a\u062d\u0643\u0645 \u0641\u064a \u0645\u0631\u0636 \u0627\u0644\u0633\u0643\u0631\u064a \u0645\u0646 \u0627\u0644\u0646\u0648\u0639",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1119,
+          "meaning_score": 0.6594,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5085
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1937,
+          "meaning_score": 0.3969,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2363
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1548,
+          "meaning_score": 0.4282,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2332
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1111,
+          "meaning_score": 0.6235,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2938
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1275,
+          "meaning_score": 0.283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1642
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1222,
+          "meaning_score": 0.2527,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.15
+        }
+      ]
+    }
+  ]
+}

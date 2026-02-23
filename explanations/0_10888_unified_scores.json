@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_10888",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to texts containing the phrases \"a series of\" or \"a lack of\" (and close variants like \"the lack of\" or \"an abundance of\"), which denote sequences or absences.\n\n2. **Domain coverage**: The pattern appears primarily in English news, reports, and informational texts covering events, crises, shortages, enumerations, or critiques (e.g., \"a series of rallies,\" \"a lack of staff\"). It also activates for Hindi news snippets, suggesting the neuron may associate with similar content in that language, possibly due to co-occurrence with these English phrases in multilingual training data or shared contextual themes.\n\n3. **Contrast with low-activation examples**: Low-activation texts lack the specific \"a series of\" / \"a lack of\" pattern and instead include diverse topics (e.g., awards, games, personal queries) in various languages (Czech, Italian, Russian, etc.). Even when low-activation English texts contain similar constructions like \"a lot of,\" they do not trigger the neuron, indicating selectivity for \"series\" or \"lack\" as key tokens.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that highlight sequences or deficiencies, often within explanatory or descriptive contexts. Its activation suggests a focus on enumerations and absences as semantic features, potentially useful for identifying structured reporting or problem-oriented discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "cemetery in Chinquapin. Family members say he had suffered a series of mini-strokes and had heart problems. He was 57. One",
+      "normalized_activation": 9.801214218139648,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.356,
+          "meaning_score": 0.6508,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4027
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.446,
+          "meaning_score": 0.1844,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2522
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3194,
+          "meaning_score": 0.2357,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.222
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "dispute will shave 0.2% off global output. Concern that the lack of progress could point to a protracted trade war weighed on global markets on Wednesday.",
+      "normalized_activation": 9.234569549560547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1982,
+          "meaning_score": 0.5872,
+          "overlap_fraction": 0.7208,
+          "location_score": 0.1442,
+          "combined_score": 0.4583
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1924,
+          "meaning_score": 0.4397,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2528
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1576,
+          "meaning_score": 0.5147,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2689
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "check-out), welcome reception, gift package, breakfasts and dinners daily, UNLIMITED golf on seven of BOYNE Golf\u2019s championship courses: Boyne Mountain",
+      "normalized_activation": 8.161523818969727,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2078,
+          "meaning_score": 0.7353,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5772
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1875,
+          "meaning_score": 0.5588,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2985
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2077,
+          "meaning_score": 0.458,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2663
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1283,
+          "meaning_score": 0.369,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1989
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1158,
+          "meaning_score": 0.5065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2489
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1648,
+          "meaning_score": 0.3703,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.214
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1828,
+          "meaning_score": 0.5723,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.302
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.104,
+          "meaning_score": 0.4484,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.221
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1552,
+          "meaning_score": 0.447,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2409
+        }
+      ]
+    }
+  ]
+}

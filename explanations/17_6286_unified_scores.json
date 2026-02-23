@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_6286",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **factual, quantitative, or precise informational statements** (such as financial data updates, geopolitical analyses, scientific findings, or event reports containing specific numbers, dates, percentages, or named entities).\n\n2. **Domain coverage**: The pattern appears across news, financial reporting, scientific abstracts, and geopolitical commentary in multiple languages (English, Spanish, Polish, Turkish, Catalan, etc.). It activates on text containing concrete figures (\"167.6%\", \"magnitude 3.0\"), formal named entities (\"State Street Corp\", \"Phytochrome Interacting Factor 4\"), and structured informational clauses often found in journalistic or academic prose.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain measurable details, specific references, or analytical statements embedded in reporting contexts. The low-activation examples are more general, narrative, or descriptive\u2014lacking precise numerical data, named institutional actors, or formal analytical framing (e.g., birthday announcements, casual observations, open-ended questions, or introductory phrases without concrete information).\n\n4. **Closing interpretation**: The neuron detects linguistically structured factual reporting, serving as a feature for identifying text segments that convey precise, data-anchored information rather than opinion, narrative, or vague description. It likely helps the model segment and process formal informational content across domains and languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the one-year anniversary of the Russian invasion called for the \u201csovereignty of all countries\u201d to be respected, without detailing what this meant for Ukraine. In each",
+      "normalized_activation": 9.66793155670166,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1754,
+          "meaning_score": 0.2995,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1899
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1246,
+          "meaning_score": 0.4114,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2144
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1155,
+          "meaning_score": 0.2838,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1598
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "said it could block Hormuz, which connects the two waters, if Tehran came under military attack over its disputed nuclear programme. Talks on the programme between Iran and the",
+      "normalized_activation": 9.056086540222168,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0969,
+          "meaning_score": 0.5185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2461
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2557,
+          "meaning_score": 0.1512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1627
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1697,
+          "meaning_score": 0.4743,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2576
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Indian-made drugs India\u2019s fast-growing US$42 billion drug sector makes the issue of quality control a complicated beast. India is the largest provider of low-cost generics",
+      "normalized_activation": 8.406861305236816,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.251,
+          "meaning_score": 0.4777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2915
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.13,
+          "meaning_score": 0.7569,
+          "overlap_fraction": 0.2924,
+          "location_score": 0.0585,
+          "combined_score": 0.4133
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1882,
+          "meaning_score": 0.56,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2993
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Whereas the AFA event was held online, for Tokyo, it seems that dawn",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1635,
+          "meaning_score": 0.3393,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2011
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1595,
+          "meaning_score": 0.251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1642
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2589,
+          "meaning_score": 0.3236,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.233
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "L\u2019activit\u00e9 sous le Piton de la Fournaise en avril a \u00e9t\u00e9 mar",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1579,
+          "meaning_score": 0.6319,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5159
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1148,
+          "meaning_score": 0.4335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2193
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0815,
+          "meaning_score": 0.3676,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1796
+        }
+      ]
+    }
+  ]
+}

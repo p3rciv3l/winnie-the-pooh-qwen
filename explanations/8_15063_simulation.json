@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_15063",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T06:35:40Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text discussing permissions, allowances, prohibitions, or denials** (such as regulatory approvals, legal prohibitions, granting/refusing access, or statements about what is permitted/not permitted).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, German, Czech, English, Thai, Vietnamese, Polish) and specific contexts: legal or bureaucratic rulings (\"permesso a costruire\", \"amend federal bribery law\"), official statements of allowance/refusal (\"se ha negado a permitir\", \"disregarded my requirement\"), and discussions of regulatory or social permission (\"vergeben ein 'Hold'-Rating\", \"propuesto...permitiría\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain verbs and nouns related to permitting, allowing, forbidding, or denying. The low-activation examples are largely neutral announcements, factual reports, or descriptive passages (PR notices, event descriptions, scientific discoveries) that lack any semantic frame of authorization, prohibition, or formal allowance.\n\n4. **Closing interpretation**: The neuron detects the semantic concept of **authorization and its negation** within formal, institutional, or regulatory discourse. It fires not on a specific language or topic, but on the presence of permission/denial as a core relational action in the text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 5009,
+      "normalized": 8.535406112670898,
+      "actual_text": "иробництва утворилася заграва, яку бачили в різних районах міста. У Мет",
+      "plain_text": "У прес-службі Метінвесту спростували пожежу на Азовсталі.  Пожежа на Азовсталі у Маріуполі, про яку повідомляли місцеві жителі в соцмережах, зовсім не пожежа, а наслідок звичайного зливу шлаку.  Про це повідомили в прес-службі Метінвесту.  Саме через процедуру зі сливу попутних продуктів виробництва утворилася заграва, яку бачили в різних районах міста.  У Метінвесті пояснюють, що така процедура відбувається щодня.  Також маріупольців запевняють, що ситуацію повністю контролюють працівники Азовсталі.   – Ніякої пожежі, вибухів і надзвичайних ситуацій на підприємстві немає. До слова, інформацію про пожежу на Азовсталі спростували також у ДСНС.  Джерело: 0629.com.ua  Фото: 0629.com.ua",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "У прес-службі Метінвесту спростували пожежу на Азовсталі.  Пожежа на Азовсталі у Маріуполі, про яку повідомляли місцеві жителі в соцмережах, зовсім не пожежа, а наслідок звичайного зливу шлаку.  Про це повідомили в прес-службі Метінвесту.",
+          "concept": "denial",
+          "reasoning": "This section explicitly denies a fire, matching the neuron's focus on prohibitions or denials."
+        },
+        {
+          "rank": 2,
+          "text": "– Ніякої пожежі, вибухів і надзвичайних ситуацій на підприємстві немає. До слова, інформацію про пожежу на Азовсталі спростували також у ДСНС.  Джерело: 0629.com.ua  Фото: 0629.com.ua",
+          "concept": "denial",
+          "reasoning": "It reinforces the denial with no fire or emergencies, directly addressing prohibition."
+        },
+        {
+          "rank": 3,
+          "text": "Саме через процедуру зі сливу попутних продуктів виробництва утворилася заграва, яку бачили в різних районах міста.  У Метінвесті пояснюють, що така процедура відбувається щодня.  Також маріупольців запевняють, що ситуацію повністю контролюють працівники Азовсталі.",
+          "concept": "control",
+          "reasoning": "It discusses control and assurance, which might relate to permissions or allowances in managing situations."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 540,
+      "normalized": 6.493443012237549,
+      "actual_text": "venezolana, el personal de las embarcaciones alegó tener permiso de Guyana para operar. \"Se procedió a informarles que",
+      "plain_text": "Venezuela acusó este domingo a Guyana de violar su soberanía, al confirmar que la Armada venezolana interceptó dos buques de exploración sísmica que trabajaban para la trasnacional energética estadounidense ExxonMobil, con permiso del gobierno guyanés, en una zona marítima disputada por ambos países.  Denunciando una “flagrante violación” de la “soberanía”, la cancillería venezolana aseguró en un comunicado que un patrullero divisó el sábado en “aguas jurisdiccionales de Venezuela” a los buques Ramform, con bandera de Bahamas, y Delta Monarch, con bandera de Trinidad y Tobago, “ambos contratados por la trasnacional ExxonMobil”, y los obligó a retirarse.  El sábado en la noche, Guyana había denunciado la interceptación del buque Ramform Tethys, lo que calificó como un acto \"ilegal, agresivo y hostil\". No hizo referencia al Delta Monarch.  La cancillería guyanesa, igualmente, acusó a sus vecinos de \"violar\" sus aguas territoriales.  Sin embargo, Venezuela aseguró haber actuado con \"estricto apego a los acuerdos y tratados internacionales\".  El jefe del Comando Estratégico Operacional de la Fuerza Armada, almirante Remigio Ceballos, felicitó por su parte \"la acción veloz y audaz de la Armada\" para garantizar el \"derecho pleno\" del país \"sobre aguas marinas y submarinas\".  Según la cancillería venezolana, el personal de las embarcaciones alegó tener permiso de Guyana para operar. \"Se procedió a informarles que dicho país no tiene jurisdicción\" en el área, \"en razón de lo cual levantaron faena y navegaron\" hacia \"la extensa zona en reclamación\", añadió.  Venezuela reclama soberanía sobre la región del Esequibo, rica en minerales y bosques, que abarca una amplia zona marítima con importantes recursos petroleros.  Guyana, excolonia británica, sostiene que los límites fueron establecidos en 1899 por un tribunal de arbitraje. Caracas nunca los reconoció.  En un mensaje en Twitter, Robert Palladino, portavoz del Departamento de Estado de Estados Unidos, abogó este domingo por \"el derecho\" de Guyana de \"explorar y explotar recursos en sus aguas territoriales\".  El cruce de acusaciones por el caso de los buques de Exxon incluye relatos distintos sobre la ubicación del Ramform Tethys en el momento del incidente.  Según Caracas, ese navío estaba en las coordenadas latitud 09º 17' 4\", norte, y longitud 058º 15' 7\", oeste; al tiempo que el Delta Monarch se encontraba en las coordenadas latitud 09º 15' 0\" y longitud 058º 17' 3\", oeste, \"de indubitable soberanía de Venezuela\".  De acuerdo con Georgetown, el Ramform se ubicaba en latitud 09º 17′ 19″, norte, y longitud 058º 16′ 20″, oeste, a “una distancia aproximada de 140 kilómetros” de la línea marítima entre ambos países.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Venezuela acusó este domingo a Guyana de violar su soberanía, al confirmar que la Armada venezolana interceptó dos buques de exploración sísmica que trabajaban para la trasnacional energética estadounidense ExxonMobil, con permiso del gobierno guyanés, en una zona marítima disputada por ambos países.",
+          "concept": "permission",
+          "reasoning": "It explicitly mentions permission from the government, which is central to the neuron's concept."
+        },
+        {
+          "rank": 2,
+          "text": "Denunciando una “flagrante violación” de la “soberanía”, la cancillería venezolana aseguró en un comunicado que un patrullero divisó el sábado en “aguas jurisdiccionales de Venezuela” a los buques Ramform, con bandera de Bahamas, y Delta Monarch, con bandera de Trinidad y Tobago, “ambos contratados por la trasnacional ExxonMobil”, y los obligó a retirarse.",
+          "concept": "denial of access",
+          "reasoning": "It describes forcing ships to withdraw, which is a denial of permission to operate."
+        },
+        {
+          "rank": 3,
+          "text": "Según la cancillería venezolana, el personal de las embarcaciones alegó tener permiso de Guyana para operar. \"Se procedió a informarles que dicho país no tiene jurisdicción\" en el área, \"en razón de lo cual levantaron faena y navegaron\" hacia \"la extensa zona en reclamación\", añadió.",
+          "concept": "claim and denial of permission",
+          "reasoning": "It involves claiming permission and being denied jurisdiction, directly related to authorization."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00013",
+      "row_idx": 3092,
+      "normalized": 4.451789855957031,
+      "actual_text": "il test nucleare della Corea del Nord, è \"un atto non tollerabile\" e il Giappone inoltrerà una forte protesta",
+      "plain_text": "Il premier giapponese Shinzo Abe ha detto che il test nucleare della Corea del Nord, è \"un atto non tollerabile\" e il Giappone inoltrerà una forte protesta.    Il Consiglio Nazionale della Sicurezza (Nsc) in Giappone si sta coordinando con i governi di Stati Uniti e Corea del Sud per analizzare la situazione e verificare le più recenti immagini dei satelliti.    \"Siamo al corrente dell'attività sismica sulla penisola coreana nelle vicinanze di un sito per test nucleari. Monitoriamo la situazione in stretto coordinamento con i nostri partner nella regione\", scrive su Twitter il portavoce per la sicurezza nazionale alla Casa Bianca, Ned Price. Il presidente degli Stati Uniti Barack Obama, ha poi minacciato \"gravi conseguenze\" dopo il test nucleare. \"Il presidente - ha riferito Josh Earnest, portavoce della Casa Bianca - ha indicato che continuerà a consultarsi con gli alleati nei giorni a venire per dimostrare che le provocazioni della Corea del Nord avranno serie conseguenze\".    Seul: come una atomica - Il test nucleare effettuato dalla Corea del Nord \"è il più potente fino ad ora, poco meno forte dell'esplosione della bomba atomica su Hiroshima\". Lo hanno riferito fonti militari di Seul secondo quanto riportato dai media internazionali. La potenza sprigionata dal quinto test di Pyongyang, hanno spiegato l'agenzia meteorologica sudcoreana, e' stata pari a \"10 kilotoni, quella di Hiroshima a 15\".    Nato: \"Provocazione molto inquietante\" - Le notizie \"su un possibile quinto test nucleare\" condotto dalla Corea del Nord \"sono molto inquietanti\". Lo dichiara il segretario generale della Nato Jens Stoltenberg, condannando con forza \"queste continue provocazioni che minano la sicurezza regionale e internazionale\". \"E' un'altra chiara violazione di numerose risoluzioni del Consiglio di Sicurezza dell'Onu, inclusa la 2270 adottata all'unanimità il 2 marzo\", aggiunge.    Onu: valuteremo nuove misure - Il consiglio di sicurezza delle Nazioni Unite si è riunito in un incontro di emergenza per discutere del quinto test nucleare condotto dalla Corea del Nord. Il meeting si è svolto a porte chiuse come riferiscono fonti diplomatiche, precisando che la riunione giunge su richiesta di Stati Uniti, Giappone e Corea del Sud. Il onsiglio di sicurezza delle Nazioni Unite ha condannato con forza l'ultimo test nucleare e ha deciso che inizieràa discutere \"nuove significative misure\" contro Pyongyang.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Il premier giapponese Shinzo Abe ha detto che il test nucleare della Corea del Nord, è \"un atto non tollerabile\" e il Giappone inoltrerà una forte protesta.",
+          "concept": "intolerance",
+          "reasoning": "It explicitly calls the act not tolerable and announces a protest, which is a form of denial or prohibition."
+        },
+        {
+          "rank": 2,
+          "text": "Nato: \"Provocazione molto inquietante\" - Le notizie \"su un possibile quinto test nucleare\" condotto dalla Corea del Nord \"sono molto inquietanti\". Lo dichiara il segretario generale della Nato Jens Stoltenberg, condannando con forza \"queste continue provocazioni che minano la sicurezza regionale e internazionale\".",
+          "concept": "condemnation",
+          "reasoning": "It condemns provocations, which is a strong denial or disapproval in international discourse."
+        },
+        {
+          "rank": 3,
+          "text": "Il presidente degli Stati Uniti Barack Obama, ha poi minacciato \"gravi conseguenze\" dopo il test nucleare. \"Il presidente - ha riferito Josh Earnest, portavoce della Casa Bianca - ha indicato che continuerà a consultarsi con gli alleati nei giorni a venire per dimostrare che le provocazioni della Corea del Nord avranno serie conseguenze\".",
+          "concept": "threat of consequences",
+          "reasoning": "It threatens serious consequences, implying prohibition or denial of acceptable behavior."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 486,
+      "normalized": 0.0,
+      "actual_text": "Eight sitting legislators, including two ministers, of the ruling Bharatiya Janata Party",
+      "plain_text": "Eight sitting legislators, including two ministers, of the ruling Bharatiya Janata Party in Arunachal Pradesh on Tuesday joined the National People’s Party led by Conrad Sangma, ANI reported. A total of 18 BJP leaders joined the party on Tuesday, according to Northeast Now. National People’s Party General Secretary Thomas Sangma said that Home Minister Kumar Waii and Tourism Minister Jarkar Gamlin have joined the party. “National People’s Party will not form alliance with anyone,” ANI quoted Sangma as saying at a press conference. “BJP’s ideology is not right. It is not a secular party.” Sangma said the party would try to field candidates for at least 30 to 40 seats in the 60-member Assembly. “We will form our own government if we win in the seats,” he said, according to NDTV. BJP MLAs Thangwang Wangham, Tapuk Taku, Pani Taram, Pangka Bage, Wangling Lowandong and Kardo Nyigyor, former BJP General Secretary Jarpum Gamlin, and former minister Tsering Jurmey joined the National People’s Party. With the latest crossover, the BJP is left with 40 members in the 60-member Arunachal Pradesh Assembly. Home Minister Kumar Waii claimed the BJP was indulging in “dynasty politics”. “If BJP was the right party, I would have been working for it,” Waii said, according to ANI. “BJP says that for them country is first, party second [and] person third but they are doing dynasty politics. This is a secular state but BJP is an anti-religion party.” Tourism Minister Jarkar Gamlin said he would not have resigned from the BJP if the party had informed him in advance that he would not be given a ticket. “But I was always given a false impression by the party,” he said. Union minister Kiren Rijiju said it was the central election committee which decided on granting tickets, NDTV reported. “Yes, sitting ministers were denied tickets, but that’s because of the ground situation assessed by the parliamentary board,” he said. The BJP’s parliamentary board on Sunday released a list of 54 candidates for the Assembly polls in Arunachal Pradesh, which will be held simultaneously with Lok Sabha polls on April 11.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Union minister Kiren Rijiju said it was the central election committee which decided on granting tickets, NDTV reported. “Yes, sitting ministers were denied tickets, but that’s because of the ground situation assessed by the parliamentary board,” he said.",
+          "concept": "denial of tickets",
+          "reasoning": "It explicitly states that tickets were denied, which is a direct example of permission denial."
+        },
+        {
+          "rank": 2,
+          "text": "Tourism Minister Jarkar Gamlin said he would not have resigned from the BJP if the party had informed him in advance that he would not be given a ticket. “But I was always given a false impression by the party,” he said.",
+          "concept": "not given a ticket",
+          "reasoning": "It discusses not being given a ticket, which is a denial of permission to contest."
+        },
+        {
+          "rank": 3,
+          "text": "“National People’s Party will not form alliance with anyone,” ANI quoted Sangma as saying at a press conference. “BJP’s ideology is not right. It is not a secular party.”",
+          "concept": "refusal of alliance",
+          "reasoning": "It states that the party will not form alliances, which is a denial of permission to collaborate."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 56,
+      "normalized": 0.0,
+      "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
+      "plain_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid Global Developments  The dawn of 2024 ushers in a year of anticipation and strategic shifts in various sectors, from the entertainment industry to space exploration, and the financial market to technological advancements. The year also sees the emergence of 2024 X Corp, a venture by Elon Musk, causing significant ripples in the business and technology landscapes.  Entertainment Industry in Flux  Global levels of production are anticipated to contract, with streaming giants strategizing to turn profits while retaining subscribers. The US TV sector forecasts a development slump of around 40%, while labor strikes further hamper global production. Talks for new contracts are underway in the UK and Canada, and big M&A stories, including the potential sale of Paramount Global, are on the horizon.  India’s Leap into X-ray Astronomy  January 1, 2024, marks a milestone in India’s space journey, as it sets off its first foray into X-ray astronomy. The launch of the X-ray Polarimeter Satellite (XPoSat) and the PSLV Orbital Experimental Module-3 (POEM-3) commences the orbital launch calendar. The mission, designed to last at least five years, aims to study about 50 cosmic sources. Other major players in space exploration, including SpaceX, ExPace, United Launch Alliance, Axiom Space, and Northrop Grumman, have their launches scheduled, making the month a hive of orbital activity.  The Rise of 2024 X Corp  Standing out amongst the news is the rise of 2024 X Corp. The venture, with a strong focus on sustainability, resilience, and adaptability, is making a significant impact in the technological landscape. The company’s ambitious expansion plans, investment in R&D, and the unveiling of new projects at CES 2024 set it apart. With tech IPOs being a potential trend in 2024, industry experts and key executives express optimism about the company’s future prospects.  Financial Markets Respond to Inflation  2024 also sees Jerome Powell, Chairman of the Federal Reserve Board, planning to implement rate cuts from March. This move, predicted to be emulated by leading central banks, comes as a response to slowing inflation. The financial markets ended 2023 optimistically, expecting the Fed to ease policy after its decision to maintain rates on December 14th.  The emergence of 2024 X Corp, amidst these diverse news stories and developments, promises a captivating blend of business strategy, technological innovation, and potential societal transformation, making it a must-watch narrative in the unfolding year.  Comments  Subscribe to BNN Breaking  Sign up for our daily newsletter covering global breaking news around the world.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jerome Powell, Chairman of the Federal Reserve Board, planning to implement rate cuts from March. This move, predicted to be emulated by leading central banks, comes as a response to slowing inflation.",
+          "concept": "rate cuts implementation",
+          "reasoning": "Implementing rate cuts can be seen as a permission or allowance in monetary policy, aligning with regulatory actions."
+        },
+        {
+          "rank": 2,
+          "text": "The financial markets ended 2023 optimistically, expecting the Fed to ease policy after its decision to maintain rates on December 14th.",
+          "concept": "policy easing",
+          "reasoning": "Expecting the Fed to ease policy implies permission to loosen financial restrictions."
+        },
+        {
+          "rank": 3,
+          "text": "The US TV sector forecasts a development slump of around 40%, while labor strikes further hamper global production.",
+          "concept": "production hampering",
+          "reasoning": "Labor strikes hamper production, which could be seen as a denial of normal operational permissions."
+        }
+      ]
+    }
+  ]
+}

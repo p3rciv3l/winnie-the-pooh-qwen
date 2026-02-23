@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_14037",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal or institutional proper nouns and structured reporting language** (such as news agency names like *Xinhua*, government bodies, corporate/political entities, or technical project names) often embedded in multilingual news or official document snippets.\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, French, Swedish, Greek, etc.) in contexts of international news, government statements, corporate press releases, and academic/technical reports. It specifically targets text containing named institutions (e.g., \"Xinhua,\" \"UN,\" \"University of Hawaii,\" \"Grameen Telecom\"), geopolitical references (\"South China Sea,\" \"China-Africa trade\"), and formal event reporting (\"Khelo India,\" \"Politbur\u00f3\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these distinctive formal proper nouns and structured reporting tone. They are generic, personal, or error messages (\"Oops! Something went wrong\"), domestic/local news without prominent institutions, or informal topics (IVF, poker, vegetable shops). The neuron ignores text without a clear institutional, geopolitical, or official communicative frame.\n\n4. **Closing interpretation**: This neuron appears to detect text that signals formal, public-facing communication from organizations, governments, or news media, acting as a filter for institutional discourse across languages. Its activation correlates with the density of named entities and the stylistic markers of official reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Yan Bingtao and UK Championship champion and former German Masters winner Zhao Xintong, two of the hottest prospects from the country. And if charges are now proven",
+      "normalized_activation": 9.272991180419922,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.182,
+          "meaning_score": 0.4769,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2635
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1583,
+          "meaning_score": 0.4464,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2419
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.207,
+          "meaning_score": 0.5196,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2906
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fat\u201d and I told him that \u201cGod will punish you for being an a\u2013hole,\u201d and one person told me I should be using my platform to spread the",
+      "normalized_activation": 8.214737892150879,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.223,
+          "meaning_score": 0.1252,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1393
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1702,
+          "meaning_score": 0.057,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0909
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2002,
+          "meaning_score": 0.0243,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0898
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "wife, the renowned dancer Mrinalini Sarabhai and their son Kartikeya Sarabhai. File pic/AFP Dr Vikram Sarabhai, who",
+      "normalized_activation": 7.185418128967285,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1535,
+          "meaning_score": 0.5124,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2663
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1377,
+          "meaning_score": 0.3011,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1755
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1553,
+          "meaning_score": 0.2678,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1692
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Ein Lkw-Fahrer ist am Dienstag, 22.30",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0927,
+          "meaning_score": 0.3366,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1717
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0746,
+          "meaning_score": 0.3393,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1656
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0713,
+          "meaning_score": 0.3185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1559
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "BRIDGEPORT - A tussle between senior officers in the police chief\u2019s office",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0613,
+          "meaning_score": 0.4147,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1904
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0926,
+          "meaning_score": 0.6797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3089
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0977,
+          "meaning_score": 0.6725,
+          "overlap_fraction": 0.8243,
+          "location_score": 0.1649,
+          "combined_score": 0.473
+        }
+      ]
+    }
+  ]
+}

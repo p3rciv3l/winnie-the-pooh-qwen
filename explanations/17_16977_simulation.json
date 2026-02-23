@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_16977",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:36:19Z",
+  "explanation_used": "This neuron strongly responds to **text segments that mention a specific person, organization, or entity in conjunction with their associated geographic location, affiliation, or partnership** (such as \"Canadian Vermilion Energy Inc. and Ukrgazvydobuvannia,\" \"Edinburgh-based political arts organization, Arika,\" or \"Atlanta-based artist\").\n\nThe pattern appears across multiple languages (English, Spanish, French, Swedish, Russian, Bulgarian) and domains, including business partnerships, legal cases, arts funding, political figures, sports, and entertainment news. The neuron activates most strongly when the text structurally links an entity to a location using prepositions like \"of,\" \"from,\" \"based in,\" or through explicit partnership/affiliation phrasing.\n\nIn contrast, the low-activation examples typically describe general events, announcements, impersonal facts, or standalone entities without this specific linking structure (e.g., earthquake reports, political ads, astrological updates, or generic institutional names without geographic or affiliative context).\n\nIn essence, this neuron detects descriptive constructs that anchor an agent—often a proper noun—to a defining place, organization, or collaborative counterpart, serving as a marker for contextual identity specification in news and narrative text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00015",
+      "row_idx": 2032,
+      "normalized": 9.675036430358887,
+      "actual_text": "wear all that. I want to remind the NDP that their former leader in New Brunswick, Dominic Cardy, also supported Maxime Bernier back in 20",
+      "plain_text": "Article content  VICTORIA — As the Liberal leadership candidate with the longest baggage train, former cabinet minister Kevin Falcon spent much of his first few days in the race explaining himself.  His biggest embarrassment was accounting for supporting Maxime Bernier’s 2017 bid for the federal Conservative leadership. Bernier later quit the Conservatives and founded the fringe People’s Party of Canada.  Falcon was asked Wednesday if he had any regrets about endorsing such a divisive figure.  “Oh gosh, do I ever — for sure,” he told interviewer Brett Mineer on CHNL radio in Kamloops. “But look. I think it’s important to remember that that was when he was running for the leadership of the mainstream federal Conservative party and he came in second place. And the reason I supported him then — I actually didn’t know him, to be honest, I never met him before I supported him — was for two reasons.  “One is his economic ideas, not all of which I agreed with, but I loved the fact he was putting forward big ideas. And the other was his outreach to the LGBTQ community. I thought it was really important that the Conservative party expand their tent and include the members of the LGBTQ, and he was open to doing that and being supportive of that.”  Advertisement  Article content  Once Bernier bolted the Conservatives and went rogue with his own party, “he was dead to me,” said Falcon. “I never spoke to him again since. I’ve never had any interactions with him since he’s left the party. I think it’s unfortunate the road that he’s travelled since then.”  Falcon offered further assurances that he has broken with Bernier’s radical views on issues like immigration, during an interview on Surrey’s CKYE radio station.  “Look, this is the NDP trying to push this out and trying to pretend somehow because he’s had really stupid ideas recently that I must wear all that. I want to remind the NDP that their former leader in New Brunswick, Dominic Cardy, also supported Maxime Bernier back in 2016,” Falcon told broadcaster Harjinder Thind on Tuesday.  “You know me and the community knows me. I’ve worked in the South Asian community for 30 years. There’s no way anybody that knows me in the community could say that I have anything but love and respect for the South Asian community.”  Falcon expressed no regrets for supporting the harmonized sales tax as a B.C. Liberal minister. He still maintains that value-added taxation on the HST model is preferable to the provincial sales tax.  “It was the right tax,” Falcon told Mike Smyth on CKNW radio on Tuesday, noting that value-added taxation is the preferred model for consumption taxes in more than 100 countries around the world.  But having said that, he won’t be courting political suicide by proposing to revive the HST.  Advertisement  Article content  “I wouldn’t bring it back because the public has already spoken on that,” he told Smyth. “I have to respect the public’s opinion, but I also have to be true to my principles.”  He’s likewise been forced to reconcile his principles with political reality on bridge tolling.  As transportation minister, Falcon brought in the tolls to finance the multi-billion-dollar 10-lane replacement for the Port Mann Bridge. John Horgan’s promise to get rid of the tolls jump started the NDP’s breakthrough campaign in 2017. Keeping the promise was one of the first acts of the Horgan-led NDP government.  “Yes, they took off the tolls,” Falcon acknowledged. “Was that smart politics? It was smart politics.  “Was it good for the environment? No. Traffic growth has grown 30 per cent. There’s a lot of people now that are going to be spending a lot more time sitting in traffic with their cars, idling away.”  His verdict on the decision to remove the tolls echoes that of Horgan’s partner in power-sharing, Andrew Weaver. He went along with Horgan’s insistence on keeping the election promise, but correctly predicted that removal of the tolls would increase congestion as people returned to their cars. “It was a great election promise and bad public policy,” said Weaver.  Would Falcon bring back bridge tolling as premier?  “No, that decision’s been made, I can’t revisit that,” he said.  The Liberal government policy was to consider tolls as a way of paying for infrastructure providing a “free, non-tolled alternative” was available. Would that provide an opening for a Falcon-led government to reintroduce tolling to pay for new transportation infrastructure.  Advertisement  Article content  “Unlikely,” said Falcon. “There’s very few places where (tolling) does make a lot of sense. I can’t envision a new bridge crossing that would require one.”  Following in Falcon’s wake as the candidate explained and defended his record this week were the New Democrats. Their research department kept up a steady stream of news releases on each of Falcon’s admissions and omissions.  A sign, claimed Falcon, of “the terror they feel in the prospect of me becoming leader of the party.” The New Democrats would be ignoring him if they “weren’t worried about me,” he told Shannon Waters of the B.C. Today news report.  Or it may just be that candidate Falcon has provided NDP researchers with what they regard as an irresistibly target-rich environment.  Either way, the focus on him, for and against, does confirm his status as the current front-runner for the leadership, albeit with the vote not scheduled to take place until early next year.  vpalmer@postmedia.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Falcon expressed no regrets for supporting the harmonized sales tax as a B.C. Liberal minister. He still maintains that value-added taxation on the HST model is preferable to the provincial sales tax.",
+          "concept": "political affiliation",
+          "reasoning": "This section links Kevin Falcon to the B.C. Liberal party, a clear entity-affiliation pairing."
+        },
+        {
+          "rank": 2,
+          "text": "I want to remind the NDP that their former leader in New Brunswick, Dominic Cardy, also supported Maxime Bernier back in 2016,” Falcon told broadcaster Harjinder Thind on Tuesday.",
+          "concept": "political figure location",
+          "reasoning": "This section links Dominic Cardy to New Brunswick, specifying a geographic affiliation."
+        },
+        {
+          "rank": 3,
+          "text": "Falcon offered further assurances that he has broken with Bernier’s radical views on issues like immigration, during an interview on Surrey’s CKYE radio station.",
+          "concept": "media location",
+          "reasoning": "This section links the interview to Surrey's CKYE radio station, an organization with a geographic location."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00000",
+      "row_idx": 4670,
+      "normalized": 8.976386070251465,
+      "actual_text": "State Security (MSS) as deputy division director of the sixth bureau of Jiangsu Province, according to the indictment. But he allegedly gave the engineer a business",
+      "plain_text": "CHINA - It was 1 April 2018 - Easter weekend - and Xu Yanjun was amid the bustling bars and restaurants in the Sainte Catherine district of Brussels, not far from the Grand Place.  He had flown into Amsterdam and then driven into Belgium for the first part of his European holiday.  Place Sainte-Catherine, Brussels Xu had allegedly come to meet an American employee of GE Aviation - a specialist on aircraft engine design. The company had spent decades and millions of dollars developing composite materials which allowed lighter, sturdier and cheaper fan blades and cases inside engines.  Xu was expecting the American to hand over secrets, according to a US indictment. That was because, the US authorities allege, Xu was a spy for the Chinese Ministry of State Security (MSS).  But he was in for a surprise. Rather than an American contact, he was greeted by Belgian police, acting on an international arrest warrant issued by the FBI.  Xu’s alleged plot to steal secrets began in March 2017. An American employee of GE Aviation, which supplies engines for both commercial airliners and the military, received an email from someone at Nanjing University of Aeronautics and Astronomic (NUAA), according to Xu’s US indictment.  Would the engineer like to come for “an exchange” to China? His travel expenses would be paid.  By May 2017 - the indictment says - it was suggested the employee give a highly technical report on GE’s new signature material for engines. The employee headed over to China for a week and gave his talk on 2 June.  While there he met Xu, whose real job was in the Ministry of State Security (MSS) as deputy division director of the sixth bureau of Jiangsu Province, according to the indictment.  But he allegedly gave the engineer a business card which said he was Qu Hui and worked at an organisation promoting science and technology. He explained he was paying for the engineer’s hotel and meals and there was also a $3,500 fee for the talk.  The pair kept in touch - the indictment says - and more material was sent over. It seemed increasingly clear that the employee was being asked to hand over sensitive company information.  In February 2018, the engineer sent over a presentation. On the first page was a company logo and a warning that the contents belonged to GE and were  There is a telling exchange of messages in the indictment. The engineer said the requests involved commercial secrets. Xu said they could discuss this in person. He said the engineer should copy a file directory from his company computer.  But the file directory had been doctored to remove sensitive information.  By this time, GE Aviation had discovered what was going on. The engineer - who has not been charged - was co-operating with GE and law enforcement.  Xu did not know his supposed contact was working against him. He allegedly wanted a hard drive full of data to be brought to a meeting in Europe. “If we are going to do business together, this won’t be the last time, right?” he said.  On 1 April Xu was in Belgium and the net closed tight. The US claims his job was to obtain technical information from aviation and aerospace companies in the US and Europe. According to the indictment, since 2013 he had been working with Chinese universities and institutions to identify and target specific engineers with the secrets China needed, passing on the data to government, academia and companies. Xu’s American lawyer declined to comment, but the Chinese Foreign Ministry is reported as saying the case was a “pure fabrication”.    Xu is alleged to have worked with individuals at NUAA, a university linked to the Chinese Ministry of Industry and Information Technology. It is one of the top engineering universities in China and collaborates with Chinese aircraft manufacturers.  NUAA confirmed that Xu was a part-time postgraduate student, but echoed the Foreign Ministry dismissal of the allegations. “Our school is the contributor and legal user of intellectual property. We’ve always respected and safeguarded intellectual property and never support intellectual property theft.  In April 2014, Xu discussed plans to get hold of materials related to a military aerial refuelling aircraft, the indictment alleges. He is also alleged to have sent documents to a contact thought to be associated with a Chinese company involved in making engine parts. An engineer from another company sent a paper on drone technology to Xu who allegedly forwarded it to the NUAA.  Xu spent six months in custody before being extradited to the US. He was charged with conspiring and attempting to commit economic espionage and theft of trade secrets. The trial is likely to happen next year. Xu denies any wrongdoing.  “The impact to GE Aviation is minimal thanks to early detection, our advanced systems and internal processes, and our partnership with law enforcement,” the company said in a statement.  Xu’s case is an unprecedented act - the extradition of an alleged intelligence officer for economic espionage. But it is being seen as part of an increasing campaign by Washington to confront China.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Xu Yanjun was amid the bustling bars and restaurants in the Sainte Catherine district of Brussels, not far from the Grand Place.",
+          "concept": "spy location",
+          "reasoning": "This section links Xu Yanjun to Brussels, a geographic location."
+        },
+        {
+          "rank": 2,
+          "text": "Xu, whose real job was in the Ministry of State Security (MSS) as deputy division director of the sixth bureau of Jiangsu Province, according to the indictment.",
+          "concept": "government affiliation",
+          "reasoning": "This section links Xu to the Ministry of State Security and Jiangsu Province, indicating both organizational and geographic affiliation."
+        },
+        {
+          "rank": 3,
+          "text": "NUAA, a university linked to the Chinese Ministry of Industry and Information Technology. It is one of the top engineering universities in China and collaborates with Chinese aircraft manufacturers.",
+          "concept": "academic affiliation",
+          "reasoning": "This section links Nanjing University of Aeronautics and Astronautics (NUAA) to the Chinese Ministry of Industry and Information Technology, an organizational affiliation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 2569,
+      "normalized": 8.090550422668457,
+      "actual_text": "ap Majadahonda, que ha revelado que el futbolista alicantino sufre una lesión muscular de grado I-II de 1/3",
+      "plain_text": "Juanfran Torres, lateral del Atlético de Madrid que fue sustituido en el partido ante el Celta por lesión, sufre una dolencia muscular de grado I-II de un tercio distal del biceps femoral derecho, según informa el club rojiblanco, que no especifica el tiempo de recuperación del jugador. \"Tras verse obligado a abandonar por lesión el encuentro que este domingo nos midió al Celta, Juanfran Torres se ha sometido a una resonancia magnética en el Hospital Fremap Majadahonda, que ha revelado que el futbolista alicantino sufre una lesión muscular de grado I-II de 1/3 distal del biceps femoral derecho\", dice el Atlético en su página web.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Juanfran Torres, lateral del Atlético de Madrid que fue sustituido en el partido ante el Celta por lesión, sufre una dolencia muscular de grado I-II de un tercio distal del biceps femoral derecho, según informa el club rojiblanco, que no especifica el tiempo de recuperación del jugador.",
+          "concept": "sports affiliation",
+          "reasoning": "This section links Juanfran Torres to Atlético de Madrid, a sports organization."
+        },
+        {
+          "rank": 2,
+          "text": "Tras verse obligado a abandonar por lesión el encuentro que este domingo nos midió al Celta, Juanfran Torres se ha sometido a una resonancia magnética en el Hospital Fremap Majadahonda",
+          "concept": "medical location",
+          "reasoning": "This section links Juanfran Torres to Hospital Fremap Majadahonda, a medical institution with a location."
+        },
+        {
+          "rank": 3,
+          "text": "que ha revelado que el futbolista alicantino sufre una lesión muscular de grado I-II de 1/3 distal del biceps femoral derecho\", dice el Atlético en su página web.",
+          "concept": "geographic origin",
+          "reasoning": "This section links Juanfran Torres to Alicante via the demonym 'alicantino', indicating geographic origin."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 2950,
+      "normalized": 0.0,
+      "actual_text": "New Kosmic Kart Chassis for 2017 The Kosmic Kart",
+      "plain_text": "New Kosmic Kart Chassis for 2017  The Kosmic Kart chassis have been the stars of the world stage, winning not less than two World Championships in the last two seasons. Now Kosmic Kart, thanks to the precious support of OTK’s research and development department and to the Kosmic Kart Racing Department has developed and refined its multi winning models. Every single component as well as every detail of these products has been developed and optimized: here you are the Mercury S and Lynx S.  MERCURY S – LYNX S \nBoth of our models have been refined thanks to the inexhaustible work of our technicians and to the implementation of new and more sophisticated working machinery. This has allowed to some interesting developments in the frame and improvements to the steering column support connection and the front bumper connection. \nOK and OKJ models of 2017 will have a modified centre flange, forged with a new design to better accommodate the muffler of the new engines. \nThe other components which our technical department have focused the attention on concern the throttle cable adjustment and the sprocket’s hub (with two screws). OTK’s goal is to offer more and more performing and enhanced products, this is the reason why now the developments of the MERCURY S and LYNX S concern the new floor plate (thickness 1.5 mm) and the chain guard support. The latter, in its new version, is one-piece and made of a new lighter material.  The upgrade on the components and the spare parts mentioned above has also allowed to treat what is not easily visible, but of great substance, the weight. Today, the MERCURY S and the LYNX S are lighter than their predecessors, so drivers can handle with the weight distribution even better.  The continuous evolution of each component could not but affect the braking system too, now equipped with a BSD caliper, forged in one-piece and able to guarantee greater rigidity, strength and performance stability.  KZ: The specific needs of the categories with the gear required special attention, so the models reserved for KZ have frames whose design has been refined especially for this category.  Just to fully meet the specific needs, on the KZ frames the seat support connections have been modified, to allow a better housing.  Among the interesting news, is the clutch lever, totally new. Designed and manufactured to keep up with the steering wheel angle, optimizing its use in the demanding phases of the start. This was made possible thanks to an enhancement which allows you to adapt the clutch to different wheel hubs types. This is a very important aspect since the new clutch thus allows many adjustments of the driving position.  MINI: The NEOS is a real new model, with substantial changes than its predecessor. The geometry of the frame is totally renovated and differ noticeably from the Rookie’s. A key factor that makes the NEOS a very different model from its predecessors regards the many manufacturing process, as well as the design philosophy totally inspired by top range model, the Mercury S. So, this model is equipped with new brake hoses, high-grip steering wheel, new silencer connection, multi-hole bearings and throttle adjustment.  A separate chapter deserves the braking system of NEOS, equipped with a pump result of a completely new project and called BSM2. That’s not all. The NEOS is equipped with new stub axles, new wheel hubs and aluminum AXJ wheels, newly designed.  The new chassis will be available from January 2017.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Kosmic Kart chassis have been the stars of the world stage, winning not less than two World Championships in the last two seasons. Now Kosmic Kart, thanks to the precious support of OTK’s research and development department and to the Kosmic Kart Racing Department has developed and refined its multi winning models.",
+          "concept": "corporate partnership",
+          "reasoning": "This section links Kosmic Kart to OTK’s research and development department and Kosmic Kart Racing Department, indicating organizational affiliations."
+        },
+        {
+          "rank": 2,
+          "text": "Both of our models have been refined thanks to the inexhaustible work of our technicians and to the implementation of new and more sophisticated working machinery.",
+          "concept": "technical development",
+          "reasoning": "This section mentions the refinement of models by technicians, implying affiliation with Kosmic Kart/OTK."
+        },
+        {
+          "rank": 3,
+          "text": "OTK’s goal is to offer more and more performing and enhanced products, this is the reason why now the developments of the MERCURY S and LYNX S concern the new floor plate (thickness 1.5 mm) and the chain guard support.",
+          "concept": "corporate objective",
+          "reasoning": "This section mentions OTK's goal, focusing on the organization's mission."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00003",
+      "row_idx": 170,
+      "normalized": 0.0,
+      "actual_text": "Sarah Giles’ New Interpretation of Verdi’s ‘La Traviata’: A",
+      "plain_text": "Sarah Giles’ New Interpretation of Verdi’s ‘La Traviata’: A Minimalist Approach  Sarah Giles’ fresh reinterpretation of Verdi’s opera ‘La Traviata’ takes a step away from the traditional opulence of Elijah Moshinsky’s previous staging for Opera Australia. Her approach, characterized by minimalist design and pointed juxtapositions, delves into the deeper psychological aspects of the characters.  A Minimalist Design Approach  Charles Davis’ set design aligns seamlessly with Giles’ vision, employing clever partitioning of the performance area. This allows for the creation of contrasting scenes that occur simultaneously, thereby enhancing the narrative’s depth. The costumes, while minimalist, are vibrant enough to prevent a sparse atmosphere.  Juxtaposing Joy and Reality  The presentation of the superficial joy of high society in stark contrast with the grim reality of a courtesan’s life in Act 1 is particularly striking. Giles’ staging technique successfully conveys the dualities inherent in the narrative, adding to the depth of the story.  Exploring Love and Convention  Act 2 delves into the exploration of free love against the rigid constraints of conventional courtship. This juxtaposition is a testament to Giles’ ability to navigate complex social themes while keeping the audience engaged with the characters’ personal journeys.  Audience Interactivity  The innovative use of space in Act 3 blurs the traditional line between performers and audience, drawing the latter into the narrative. This novel approach to staging invites the audience to experience the emotional intensity of the narrative firsthand.  Overall, this new rendition of ‘La Traviata’ offers a compelling reinvention that lays bare the emotional and social undercurrents of the narrative, transforming it into a truly immersive experience.  Comments  Subscribe to BNN Breaking  Sign up for our daily newsletter covering global breaking news around the world.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sarah Giles’ fresh reinterpretation of Verdi’s opera ‘La Traviata’ takes a step away from the traditional opulence of Elijah Moshinsky’s previous staging for Opera Australia.",
+          "concept": "artistic affiliation",
+          "reasoning": "This section links Elijah Moshinsky to Opera Australia, indicating a partnership between a director and an opera company."
+        },
+        {
+          "rank": 2,
+          "text": "Charles Davis’ set design aligns seamlessly with Giles’ vision, employing clever partitioning of the performance area.",
+          "concept": "creative collaboration",
+          "reasoning": "This section links Charles Davis to Sarah Giles, indicating a collaborative partnership in the production."
+        },
+        {
+          "rank": 3,
+          "text": "Giles’ staging technique successfully conveys the dualities inherent in the narrative, adding to the depth of the story.",
+          "concept": "directorial method",
+          "reasoning": "This section describes Giles' staging technique, though it lacks a clear entity-affiliation link, it still references the director's approach."
+        }
+      ]
+    }
+  ]
+}

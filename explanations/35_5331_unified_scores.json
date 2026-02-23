@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_5331",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to formal, news-like text fragments that report specific events, announcements, or official statements (such as disaster updates, political actions, legal proceedings, or historical references), often characterized by the presence of proper nouns, dates, and authoritative sources.\n\n2. **Domain coverage**: The pattern spans multiple languages\u2014including Italian, Polish, German, Hindi, Arabic, and others\u2014and appears in domains like natural disasters (e.g., earthquakes in Italian), political reports (e.g., Ukrainian diplomacy in German), legal or executive actions (e.g., Portuguese salary laws), and news headlines (e.g., English coverage of arrests). It consistently involves references to specific entities, such as people (\u201cBill Gray\u201d), organizations (\u201cStats NZ\u201d), dates (\u201c27 DICEMBRE\u201d), or locations (\u201cCatanzaro\u201d).\n\n3. **Contrast with low-activation examples**: High-activation texts are distinguished by their concrete, detailed reporting style with explicit references to events or authorities, while low-activation examples tend to be more casual, vague, or lack such specifics\u2014for instance, personal anecdotes (\u201cI wish I could count on one\u201d), general topics (\u201cprice increases\u201d), or informal content (astrology updates) without named entities or formal context.\n\n4. **Closing interpretation**: The neuron detects linguistic and semantic features associated with authoritative, informative text, focusing on structured reporting that conveys newsworthy or official information with precision and specificity across diverse languages and topics.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Si osserva un piccolo trabocco lavico lungo il fianco del CSE, in direzione SO. Dal punto di vista sismico l\u2019",
+      "normalized_activation": 9.599448204040527,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "brigado, Paulo Gustavo! \"Como um raio que tenta romper o c\u00edrculo invis\u00edvel de giz que serve de aparato",
+      "normalized_activation": 8.794132232666016,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ata. Segundo o Jornal de Not\u00edcias, os dois homens trabalhavam na mesma empresa de constru\u00e7\u00e3o civil e estavam numa obra em L",
+      "normalized_activation": 7.709675312042236,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

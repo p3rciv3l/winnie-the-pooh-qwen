@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_1798",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multi-level geographic or organizational subdivisions** (such as \"oil-producing area of Ukwa West Local Government Area,\" \"team to beat in AFC East,\" or \"regiones separatistas prorrusas de Donetsk y Lugansk, en el este de Ucrania\").\n\n2. **Domain coverage**: The pattern appears across news, sports, and political reporting in multiple languages (English, Spanish, Italian, Hindi, Swedish, etc.). It specifically activates on phrases that nest locations or groups within larger regions (e.g., a local area within a state, a sports team within a conference division, or a province within a country), often signaled by prepositions like \"of,\" \"in,\" \"from,\" or their equivalents in other languages.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically mention a single location or entity without layered specification (e.g., \"BEIJING -- China has arrested...\" or \"A petition has been filed in the Supreme Court of India\") or begin with actions/events not focused on hierarchical geography. The high-activation examples consistently contain a \"part-of\" relational structure between places or organizational units.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that denote hierarchical part-whole relationships, especially geographic or administrative containment. It processes not just place names, but the syntactic framing of one region or group being a subdivision of another.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "-Laki, en la parte oriental de la isla de Flores, al este del pa\u00eds, donde las autoridades elevaron este martes la alerta",
+      "normalized_activation": 9.616207122802734,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1406,
+          "meaning_score": 0.5976,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4953
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1412,
+          "meaning_score": 0.4929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2536
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1427,
+          "meaning_score": 0.3535,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1985
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "KCNA). \"The four strategic cruise missiles precisely hit the preset target on the East Sea of Korea after traveling the 2,000 kilometer-long ellipt",
+      "normalized_activation": 8.905252456665039,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.168,
+          "meaning_score": 0.7893,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3829
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2321,
+          "meaning_score": 0.4303,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.265
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2186,
+          "meaning_score": 0.5539,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.309
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "que se realizan a\u00f1o con a\u00f1o en coordinaci\u00f3n con la administraci\u00f3n del camposanto, trayendo consigo los beneficios de pagar sin tener que hasta ir hasta",
+      "normalized_activation": 7.984010219573975,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1028,
+          "meaning_score": 0.5138,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2466
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1464,
+          "meaning_score": 0.6743,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5283
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1727,
+          "meaning_score": 0.4903,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2652
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0639\u0644\u0649 \u0627\u0644\u0631\u063a\u0645 \u0645\u0646 \u062a\u0645\u062a\u0639\u0647 \u0628\u0634\u0639\u0628\u064a\u0651\u0629 \u062c\u0627\u0631\u0641\u0629 \u0641\u064a \u0628\u0644\u062f\u0647",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0863,
+          "meaning_score": 0.3529,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.3756
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0601,
+          "meaning_score": 0.2074,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.107
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0387,
+          "meaning_score": 0.1408,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0718
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A Resolution To The U.S.-China Trade War Is Not In The Offing",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1327,
+          "meaning_score": 0.3254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1832
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1144,
+          "meaning_score": 0.3267,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1765
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1737,
+          "meaning_score": 0.3532,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2108
+        }
+      ]
+    }
+  ]
+}

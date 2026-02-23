@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_16425",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:38:05Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to detailed, factual news reporting snippets that often include proper nouns, numerical information, and attribution to sources (such as quotes from individuals, references to news agencies, or citations of dates and places).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Greek, Russian, Spanish, Arabic, Turkish, Czech, Italian, Bengali) and covers diverse topics including international politics, scientific updates, disaster reports, financial regulations, sports events, cultural exhibitions, and legal proceedings, all presented in a news-reporting style.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature specific details like exact figures (e.g., “Rs. 9,718 crore”), dates (“April 24, 20”), named entities (“Guru Teg Bahadur hospital”), and explicit attributions (“said, news agency PTI reported”). Low-activation examples, while often news-related, are more general, lack such granular details, or lean toward opinion, announcements, or conversational tones (e.g., “Remember that whole Shut Up and Dribble thing?”).\n\n4. **Closing interpretation**: The neuron detects linguistic patterns characteristic of informative, source-attributed news reporting, acting as a detector for multi-lingual, event-oriented content with a factual and immediate tone.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 154,
+      "normalized": 9.577945709228516,
+      "actual_text": "П произошло на площади Бардо утром возле здания парламента. Мужчина напал на патру",
+      "plain_text": "В Тунисе был задержан вооруженный ножом мужчина, который набросился на полицейских в центре города.  В полиции сообщили, что ЧП произошло на площади Бардо утром возле здания парламента. Мужчина напал на патруль дорожной полиции. Одного из правоохранителей он ударил ножом в шею, а второго  в лоб. \r\n Нападавшего удалось задержать. Он признался в приверженности идеям радикального ислама. Раненые стражи порядка были госпитализированы, передает РИА Новости. \r\n \n\n     Нападавшего удалось задержать. Он признался в приверженности идеям радикального ислама. Раненые стражи порядка были госпитализированы, передает РИА Новости.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Он признался в приверженности идеям радикального ислама. Раненые стражи порядка были госпитализированы, передает РИА Новости.",
+          "concept": "news attribution",
+          "reasoning": "Includes confession to radical Islam and explicit attribution to news agency RIA Novosti."
+        },
+        {
+          "rank": 2,
+          "text": "В Тунисе был задержан вооруженный ножом мужчина, который набросился на полицейских в центре города.  В полиции сообщили, что ЧП произошло на площади Бардо утром возле здания парламента.",
+          "concept": "location and police report",
+          "reasoning": "Specifies location (Bardo square near parliament) and attributes information to police."
+        },
+        {
+          "rank": 3,
+          "text": "Мужчина напал на патруль дорожной полиции. Одного из правоохранителей он ударил ножом в шею, а второго — в лоб. Нападавшего удалось задержать.",
+          "concept": "attack details",
+          "reasoning": "Describes specific violent actions and detention but lacks explicit attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 3183,
+      "normalized": 8.8290376663208,
+      "actual_text": "která ponese výstižné jméno Vavřínový strom (Laurel Tree), prozradil pan Wente",
+      "plain_text": "Novodobé dobývání vesmíru  Pokud jde o dobývání vesmíru, v době studené války se předháněli dva hlavní aktéři, bývalý Sovětský svaz a Spojené státy. Ty zůstávají stále na scéně, sověty svým způsobem vystřídala Čína. Severoamerický kosmický program NASA s názvem Artemis počítá s obnovením letů na Měsíc s lidskou posádkou do roku 2025. Čína v posledních letech „šlápla na plyn“ a značně svůj kosmický program urychlila. Jako první a zatím jediná vyslala kosmickou sondu na odvrácenou stranu Měsíce, která tam úspěšně přistála.  Smělé plány Pekingu  Čína má v plánu vyslat na Měsíc své první astronauty do roku 2030. Předtím ale chce na jižní pól Měsíce vyslat sondu, která by tam „zkoumala“ zásoby ledu, ze kterých by bylo možné získat vodu. To je nezbytný předpoklad pro dlouhodobý pobyt lunárních astronautů, který je náplní smělého projektu budování stálé základny na Měsíci. Ta by měla být dokončena do roku 2035. Za zúčastněné vědce z Harbinského technologického institutu detaily o projektu základny, která ponese výstižné jméno Vavřínový strom (Laurel Tree), prozradil pan Wente.  Vavříny pro Čínu  Vavřínový strom by měl být vybudován v lávových trubicích – podzemních tunelech a jeskyních, které na Měsíci vznikly během sopečné aktivity. Lávové trubice vznikají během erupcí sopek, kdy jimi protéká horká láva. Povrch lávy postupně chladne, láva odtéká a zchladlý povrch po sobě zanechá dutiny, které můžou být až kilometry dlouhé a desítky metrů široké. Dle harbinských vědců je to dostatečný prostor pro základnu. Lávové trubice a jeskyně poskytují ochranu před slunečním a kosmickým zářením i extrémními změnami teplot. Přes den, který trvá více než dva pozemské týdny, je na Měsíci teplota 120 °C, během stejně dlouhé noci klesá na -130 °C. Pan Wente dále přiblížil, jak by měla základna vypadat.  Chodby budou spojovat řídící centrum, pracovní a obytné prostory  Základna v plné kráse  Vchod a východ do základny bude chráněn povrchovou stavbou ve tvaru pyramidy. V samotné základně pod měsíčním povrchem bude řídící centrum, které bude spojeno chodbami s dalšími pracovními a obytnými prostory. Jak vysvětlil Wente, všechny části budou zpevněny betonovou směsí z měsíčního regolitu s přísadami dopravenými ze Země. Dále uvedl: „Tyto podzemní tunely jsou dobrou alternativou pro základnu, která nebude na jižním pólu Měsíce, kde se předpokládá hojný výskyt vodního ledu. Jižní pól může být příliš přeplněný vzhledem k tomu, že zde chce vybudovat základnu mnoho zemí. Na druhou stranu těžba vodního ledu může být velmi obtížným úkolem.“ Projekt je zatím jen na papíře. Dle zdrojů je ale jižní pól výchozím bodem pro osídlení Měsíce a získávání měsíčních zdrojů. Je důležitý i pro Spojené státy. Jak uvedl The News Dept s odvoláním na týdeník Focus, panují obavy, aby nevyvolal lunární konflikt.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dle zdrojů je ale jižní pól výchozím bodem pro osídlení Měsíce a získávání měsíčních zdrojů. Je důležitý i pro Spojené státy. Jak uvedl The News Dept s odvoláním na týdeník Focus, panují obahy, aby nevyvolal lunární konflikt.",
+          "concept": "news agency attribution",
+          "reasoning": "Attributes information to The News Dept and Focus, showing geopolitical concerns in news style."
+        },
+        {
+          "rank": 2,
+          "text": "Ta by měla být dokončena do roku 2035. Za zúčastněné vědce z Harbinského technologického institutu detaily o projektu základny, která ponese výstižné jméno Vavřínový strom (Laurel Tree), prozradil pan Wente.",
+          "concept": "scientist attribution",
+          "reasoning": "Includes specific year (2035) and quotes a named scientist from a research institute."
+        },
+        {
+          "rank": 3,
+          "text": "Přes den, který trvá více než dva pozemské týdny, je na Měsíci teplota 120 °C, během stejně dlouhé noci klesá na -130 °C. Pan Wente dále přiblížil, jak by měla základna vypadat.",
+          "concept": "numerical details",
+          "reasoning": "Provides precise temperature data and mentions a named source, though less direct attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 1300,
+      "normalized": 7.973908424377441,
+      "actual_text": "diametro apparente della luna piena, dove il telescopio spaziale Hubble ha catturato centinaia di immagini con",
+      "plain_text": "Un team di ricercatori coordinato da Fabian Walter dell’Istituto Max Planck per l’Astronomia (Germania), Roberto Decarli dell’Istituto Nazionale di Astrofisica, Chris Carilli del National Radio Astronomy Observatory (USA) e Manuel Aravena dell’Universidad Diego Portales (Cile) ha ricostruito grazie alle osservazioni dell’osservatorio ALMA la storia della distribuzione dell’idrogeno molecolare nelle galassie, da due miliardi di anni dopo il Big Bang fino ai giorni nostri, nell’ambito del progetto ASPECS (The ALMA Spectroscopic Survey in the Hubble Ultra Deep Field). Combinando i dati raccolti ad accurate simulazioni al calcolatore, è stato possibile caratterizzare e quantificare i flussi di gas che sono i prerequisiti necessari per la formazione delle stelle all’interno delle galassie. Negli ultimi due decenni, le indagini del cielo profondo nella luce visibile e nell’infrarosso ci hanno fornito un quadro piuttosto completo del numero di stelle presenti nelle galassie in ogni epoca cosmica, dal primo miliardo di anni dopo il Big Bang fino ad oggi. Particolarmente importante in questo tipo di studi è stato l’Hubble Ultra deep Field (UDF): una piccola regione nel cielo, circa un decimo del diametro apparente della luna piena, dove il telescopio spaziale Hubble ha catturato centinaia di immagini con un tempo di esposizione totale di quasi 16 giorni. Lo studio delle galassie individuate nell’UDF e altre indagini simili portano a un quadro coerente della storia della formazione stellare, con la produzione di stelle che si è sviluppata fino a un vero e proprio boom circa 10 miliardi di anni fa, seguito da un continuo calo del tasso di formazione di nuove stelle. La metà degli astri dell’universo era già stata prodotta quando l’universo stesso aveva 4,5 miliardi di anni, un terzo dell’età attuale. Ma perché questo aumento e questo declino? Per rispondere a questa domanda, i ricercatori hanno sfruttato la potenza e sensibilità di ALMA per misurare nelle galassie presenti nell’UDF l’abbondanza di idrogeno molecolare, ovvero la materia prima delle stelle, in epoche differenti. Una volta completate le osservazioni, il team ha raccolto i dati degli studi precedenti, ovvero quelli sull’idrogeno atomico e sulla massa totale di tutte le stelle in una data epoca, confrontando poi i risultati con simulazioni su larga scala della storia cosmica dal Big Bang ad oggi, riuscendo così a ricostruire la storia dell’approvvigionamento di idrogeno molecolare nel corso della storia cosmica – più precisamente: da circa 2 miliardi di anni dopo il Big Bang (quasi 12 miliardi di anni fa) ad oggi. “Nella nostra ricostruzione, la quantità di idrogeno molecolare è aumentata costantemente fino a circa 10 miliardi di anni fa, circa 4 miliardi di anni dopo il Big Bang, con un valore che è quasi raddoppiato in tre miliardi di anni” spiega Decarli. “L’età dell’oro della formazione delle stelle, quindi, coincise con un’abbondanza di materia prima che aspettava solo di essere trasformata in soli fiammeggianti. Nell’epoca del picco di formazione stellare, c’era più o meno tanto idrogeno molecolare quanto di idrogeno atomico”. Confrontando i loro dati con le simulazioni, gli astronomi hanno scoperto che ad alimentare quella forsennata produzione stellare era una combinazione di fattori. Le galassie sono solo la punta visibile dell’iceberg – la loro spina dorsale, per così dire, sono accumuli di materia oscura, materia che non interagisce con le radiazioni elettromagnetiche e quindi rimane invisibile alle osservazioni dirette. La materia oscura rappresenta circa l’80% di tutta la massa dell’universo. Così come quella ordinaria, la materia oscura, inizialmente distribuita in modo quasi perfettamente omogeneo nel cosmo poco dopo il Big Bang, è andata aggregandosi, diventando così sempre più disomogenea, a causa della reciproca attrazione gravitazionale. Nell’universo attuale, su una scala di centinaia di milioni di anni luce, la materia oscura forma una rete di filamenti simili a una spugna, punteggiata di regioni particolarmente dense, note come aloni. Le galassie formate da materia ordinaria, per lo più idrogeno gassoso, sono state trascinate in quegli aloni sotto la loro intensa attrazione gravitazionale: in primo luogo, il plasma precipita verso gli aloni dall’enorme serbatoio presente nello spazio intergalattico, raffreddandosi a formare atomi. Questo processo rifornisce di materia le galassie. Poi, nelle regioni centrali delle galassie stesse, l’idrogeno atomico si raffredda ulteriormente fino a formare idrogeno molecolare, e quindi stelle. Attraverso le osservazioni di ASPECS, Walter e i suoi colleghi sono stati in grado di quantificare questi flussi di gas in funzione del tempo cosmico. “Guardando al futuro, mentre la crescita dell’alone rallenta e una quantità minore di plasma viene attratto nelle galassie, anche la produzione di stelle rallenta” spiega Decarli. “Al momento attuale, le galassie formano stelle ad un decimo del tasso di produzione legato al boom di formazione stellare. Il tasso di produzione di nuove stelle è in netto calo negli ultimi 9 miliardi di anni – aggiunge Decarli. Sulla base delle nostre osservazioni, prevediamo che la tendenza continui nei prossimi cinque miliardi di anni, i serbatoi di gas molecolare si dimezzeranno mentre la massa totale delle stelle nell’universo aumenterà di appena il 10%. In questo scenario, la produzione di stelle finirebbe per cessare del tutto”. Lo studio sulla storia di formazione stellare è in corso di pubblicazione in due articoli sulla rivista The Astrophysical Journal: The ALMA Spectroscopic Survey in the HUDF: Multi-band constraints on line luminosity functions and the cosmic density of molecular gas di Roberto Decarli, Manuel Aravena, Leindert Boogaard, Chris Carilli, Jorge Gonzalez-Lopez, Fabian Walter, Paulo C. Cortes, Pierre Cox, Elisabete da Cunha, Emanuele Daddi, Tanio Dıaz-Santos, Jacqueline A. Hodge, Hanae Inami, Marcel Neeleman, Mladen Novak, Pascal Oesch, Gergo Popping, Dominik Riechers, Ian Smail,Bade Uzgil, Paul van der Werf, Jeff Wagg e Axel Weiss The Evolution of the Baryons Associated with Galaxies Averaged over Cosmic Time and Space di Fabian Walter, Chris Carilli, Marcel Neeleman, Roberto Decarli, Gergo Popping, Rachel S. Somerville, Manuel Aravena, Frank Bertoldi, Leindert Boogaard, Pierre Cox, Elisabete da Cunha, Benjamin Magnelli, Danail Obreschkow, Dominik Riechers, Hans–Walter Rix, Ian Smail, Axel Weiss, Roberto J. Assef, Franz Bauer, Rychard Bouwens, Thierry Contini, Paulo C. Cortes, Emanuele Daddi, Tanio Diaz-Santos, Jorge Gonzalez-Lopez, Joseph Hennawi, Jacqueline A. Hodge, Hanae Inami, Rob Ivison, Pascal Oesch, Mark Sargent, Paul van der Werf, Jeff Wagg e L. Y. Aaron Yung Maggiori informazioni sul progetto ASPECS sono disponibili all’indirizzo: www.aspecs.info",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Al momento attuale, le galassie formano stelle ad un decimo del tasso di produzione legato al boom di formazione stellare. Il tasso di produzione di nuove stelle è in netto calo negli ultimi 9 miliardi di anni – aggiunge Decarli. Sulla base delle nostre osservazioni, prevediamo che la tendenza continui nei prossimi cinque miliardi di anni, i serbatoi di gas molecolare si dimezzeranno mentre la massa totale delle stelle nell’universo aumenterà di appena il 10%. In questo scenario, la produzione di stelle finirebbe per cessare del tutto”.",
+          "concept": "scientific prediction",
+          "reasoning": "Contains detailed numerical predictions and a direct quote from a researcher with specific time frames."
+        },
+        {
+          "rank": 2,
+          "text": "Un team di ricercatori coordinato da Fabian Walter dell’Istituto Max Planck per l’Astronomia (Germania), Roberto Decarli dell’Istituto Nazionale di Astrofisica, Chris Carilli del National Radio Astronomy Observatory (USA) e Manuel Aravena dell’Universidad Diego Portales (Cile) ha ricostruito grazie alle osservazioni dell’osservatorio ALMA la storia della distribuzione dell’idrogeno molecolare nelle galassie, da due miliardi di anni dopo il Big Bang fino ai giorni nostri, nell’ambito del progetto ASPECS (The ALMA Spectroscopic Survey in the Hubble Ultra Deep Field).",
+          "concept": "research team details",
+          "reasoning": "Lists multiple researchers and institutions along with specific time frames and project names."
+        },
+        {
+          "rank": 3,
+          "text": "“Nella nostra ricostruzione, la quantità di idrogeno molecolare è aumentata costantemente fino a circa 10 miliardi di anni fa, circa 4 miliardi di anni dopo il Big Bang, con un valore che è quasi raddoppiato in tre miliardi di anni” spiega Decarli.",
+          "concept": "temporal data quote",
+          "reasoning": "Provides numerical historical data and attributes the statement to a named researcher."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 596,
+      "normalized": 0.0,
+      "actual_text": "Tuesday, 22 February 2022 09:32",
+      "plain_text": "Tuesday, 22 February 2022 09:32 PM Taiwan's security and armed forces must increase their surveillance and alertness on military activities in the region, President Tsai Ing-wen said on Wednesday during a meeting to discuss the Ukraine crisis. Taiwan and Ukraine are fundamentally different in terms of geostrategic, geographical environment and importance of international supply chains. But government units must tackle possible \"cognitive warfare\" and misinformation by foreign forces, Tsai's office cited her as saying. © 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tuesday, 22 February 2022 09:32 PM Taiwan's security and armed forces must increase their surveillance and alertness on military activities in the region, President Tsai Ing-wen said on Wednesday during a meeting to discuss the Ukraine crisis.",
+          "concept": "timestamped quote",
+          "reasoning": "Includes precise date, time, and a direct quote from a named political figure about a current event."
+        },
+        {
+          "rank": 2,
+          "text": "Taiwan and Ukraine are fundamentally different in terms of geostrategic, geographical environment and importance of international supply chains. But government units must tackle possible \"cognitive warfare\" and misinformation by foreign forces, Tsai's office cited her as saying.",
+          "concept": "geopolitical analysis",
+          "reasoning": "Presents factual comparisons and attributes statements to the president's office, showing official sourcing."
+        },
+        {
+          "rank": 3,
+          "text": "© 2022 Thomson/Reuters. All rights reserved. Newsmax, Moneynews, Newsmax Health, and Independent. American. are registered trademarks of Newsmax Media, Inc. Newsmax TV, and Newsmax World are trademarks of Newsmax Media, Inc.",
+          "concept": "news copyright",
+          "reasoning": "Contains attribution to major news agencies and trademarks, resembling standard news footer information."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5169,
+      "normalized": 0.0,
+      "actual_text": "Boyfriend’s job takes a lot out of him October 31, 2",
+      "plain_text": "Boyfriend’s job takes a lot out of him October 31, 2017 by Carolyn Hax on Ask Carolyn, Columnists Hi, Carolyn: My boyfriend and I moved in together two months ago. We’re very much in love, and I feel comfortable discussing issues and feelings with him. Although, I have always struggled with bringing up things that make me upset (I’m working with a therapist on this). His job is seasonal, and fall is exceptionally busy. This is the first fall we have been together so I was not emotionally prepared for the long amounts of time we are spending apart. He takes a large amount of pride in his work and making sure his customers are satisfied. I love and respect this about him. Coupled with his commute — he moved farther from work so we could live together — he’s gone from 6 a.m. to 8 p.m. every weekday, and they will be adding Saturday hours, too. He’s exhausted when he gets home (which I understand) and not in much of a mood to talk and reconnect. However, I’ve been home for a few hours at this point and miss him and really want to chat. When he’s not wiped out, we can talk for hours. What advice do you have for getting through this hard time of year? — Chatty and Wide Awake Treat him like he’s deployed. He’s gone for the fall except for some bonus quiet-evening-togetherness visits. You’ll get him back in full soon enough. Try to make it work by finding other productive, interesting or just fun things to do with the time you’d normally spend with him. Do this till the season ends. When you’ve had him back for a while and gotten some distance from the emotions you’re feeling now, reflect on the whole experience, including his sacrifice in extending his commute. If at this point you decide you don’t want to live like this indefinitely, then you talk to your boyfriend about the future: goals, dreams, realities. Then you decide accordingly whether this relationship is where you really want to be. You’ll be happier about this whole answer, though, and happier in general, if you come up with it (and others like it) on your own. So, here’s a rough set of commandments to get you there: (1) Do not take personally what isn’t personal. He is driving, working, driving and resting; he is not purposefully avoiding you. (2) Do not confuse desires with expectations. You want to chat after a long day, but that doesn’t mean it’s fair to expect him to chat after a long day. Expecting it introduces disappointment and blame, intimacy-killers both. Don’t dismiss the wanting, though; it can tell you what matters to you. (3) When you don’t get what you want, try liking what you actually have. Each fall, you have the security and promise of a shared love plus the freedom of “found” time. What good ways can you use that? And, how can you make your couple time both restorative for him and satisfying to you? (4) Put away any preconceived notions of how a relationship “should” be and let your contentment, or lack of it, tell you whether it works. Don’t fight your reality. Be patient, live it, and listen to it. See what will and won’t change, not because you want it to, but because it does. Then trust the answer you get. Email Carolyn at [email protected], follow her on Facebook at www.facebook.com/carolyn.hax or chat with her online at noon Eastern time each Friday at www.washingtonpost.com. (c) 2017, Washington Post Writers Group Bio Latest Posts Carolyn HaxSyndicated Advice ColumnistAdvice Columnist Carolyn Hax takes your questions and tackles your problems. Latest posts by Carolyn Hax (see all) Boyfriend’s job takes a lot out of him - October 31, 2017 Husband wants in-laws to butt out - October 24, 2017 After therapy, my husband says I’m the problem - October 10, 2017",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Email Carolyn at [email protected], follow her on Facebook at www.facebook.com/carolyn.hax or chat with her online at noon Eastern time each Friday at www.washingtonpost.com. (c) 2017, Washington Post Writers Group",
+          "concept": "newspaper attribution",
+          "reasoning": "Includes contact details, time specification, and copyright from a major newspaper, mimicking news attribution."
+        },
+        {
+          "rank": 2,
+          "text": "Boyfriend’s job takes a lot out of him October 31, 2017 by Carolyn Hax on Ask Carolyn, Columnists",
+          "concept": "dated byline",
+          "reasoning": "Features a date, author name, and column title, similar to news article metadata."
+        },
+        {
+          "rank": 3,
+          "text": "So, here’s a rough set of commandments to get you there: (1) Do not take personally what isn’t personal. He is driving, working, driving and resting; he is not purposefully avoiding you.",
+          "concept": "structured advice",
+          "reasoning": "Presents a numbered list with factual tone, though it is personal advice rather than news."
+        }
+      ]
+    }
+  ]
+}

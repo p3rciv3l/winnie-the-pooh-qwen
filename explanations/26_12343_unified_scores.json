@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_12343",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the English prefix \"non-\" (or the related \"none-\") in text, such as in words like \"non-profit,\" \"non-GMO,\" \"non-disclosure,\" or \"none-the-wiser.\"\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts including legal/policy discussions (\"non-discrimination,\" \"non-disclosure agreements\"), organizational descriptions (\"non-profit,\" \"non-governmental\"), technical/scientific writing (\"non-inferior,\" \"non-Gaussian\"), and everyday modifiers (\"non-stop,\" \"non-ironically\"). It does not activate for texts in other languages (e.g., Portuguese, French, Spanish, Hindi) or for English texts lacking this prefix.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain words with the \"non-\" or \"none-\" prefix, while the low-activation examples\u2014despite covering similar topics like organizations, laws, or events\u2014entirely lack this specific morphological feature. The neuron is indifferent to topic, genre, or sentence structure; it fires based solely on the presence of this prefix.\n\n4. **Closing interpretation**: This neuron functions as a simple morphological detector for the negative prefix \"non-\" in English. It highlights the model's ability to isolate specific subword units regardless of semantic context or syntactic role.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "According to the website for the Center of Environmental Health (CEH), a non-profit organization that aims to protect people from harmful chemicals: \u201cArtificial turf",
+      "normalized_activation": 9.681597709655762,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.277,
+          "meaning_score": 0.7986,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4302
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2733,
+          "meaning_score": 0.4751,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2994
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2733,
+          "meaning_score": 0.4379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2845
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "age group, it had not begun in many districts in J&K due to non-availability of vaccines. Bhalla claimed that while BJP leaders tried hard",
+      "normalized_activation": 8.929930686950684,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1919,
+          "meaning_score": 0.6268,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3275
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1799,
+          "meaning_score": 0.4344,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2457
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1799,
+          "meaning_score": 0.5283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2833
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "I knew that I was going to have to defend it in the real world. None of those choices are made lightly.\" Chernow backed Miranda up on those decisions,",
+      "normalized_activation": 7.315649509429932,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1869,
+          "meaning_score": 0.2709,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1831
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5837,
+          "meaning_score": 0.6653,
+          "overlap_fraction": 0.6867,
+          "location_score": 0.1373,
+          "combined_score": 0.6369
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2083,
+          "meaning_score": 0.288,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1985
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "FORT SMITH, Ark. (KNWA/KFTA) \u2014 The Salvation Army",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.144,
+          "meaning_score": 0.7631,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5629
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.144,
+          "meaning_score": 0.5486,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2771
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.144,
+          "meaning_score": 0.4828,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2507
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A British woman jailed in Iran is being pressured to take her daughter into prison with her",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1117,
+          "meaning_score": 0.785,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5587
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1117,
+          "meaning_score": 0.408,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2079
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1117,
+          "meaning_score": 0.5304,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2569
+        }
+      ]
+    }
+  ]
+}

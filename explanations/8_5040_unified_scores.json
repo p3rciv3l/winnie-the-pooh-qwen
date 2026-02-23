@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_5040",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive, identifying, or attributive phrases** (such as *\"Lana Del Rey on 'Midnights'\"*, *\"Gary 'Steen' Steenblock to bring central Iowa listeners\"*, or *\"Edelson Lechtzin LLP, a national class action law firm\"*).\n\n2. **Domain coverage**: The pattern appears predominantly in formal, journalistic, or official announcement contexts across multiple languages (English, Spanish, Persian, Galician) and topics\u2014including entertainment news, legal filings, political reports, and international affairs. It processes names of people, organizations, events, or locations that are immediately elaborated with their role, action, or a defining clause.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature this \"named entity + elaboration\" structure, often with specific dates, titles, or participial phrases. The low-activation examples either lack proper nouns altogether, present them without immediate descriptive follow-up (e.g., \"India is facing...\"), or are from more informal or fragmented contexts where such structured identification is absent.\n\n4. **Closing interpretation**: The neuron detects formal referential structures where a named entity is explicitly anchored in a specific context or action. It appears specialized for the syntactic and semantic pattern of introduction or citation common in news reporting and official documentation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u0101rdiem - ekonomikas ministram Arvilam A\u0161er\u0101denam (V), kura vad\u012bt\u0101 ministrija nav sp",
+      "normalized_activation": 9.54064655303955,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1324,
+          "meaning_score": 0.5418,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4697
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0889,
+          "meaning_score": 0.4258,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2059
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1657,
+          "meaning_score": 0.3162,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1927
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Pippen's Instagram Stories, the socialite danced around the pole while Lana Del Rey's Young and Beautiful played. She was cheered on by the likes of Kim Kardashian",
+      "normalized_activation": 8.540397644042969,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1745,
+          "meaning_score": 0.4685,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2572
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1793,
+          "meaning_score": 0.8586,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6152
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1708,
+          "meaning_score": 0.4858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2626
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "thicker cut is easier to cook medium rare\" \u2014 the ideal temperature for your filets. Leaving the skin on",
+      "normalized_activation": 7.259371280670166,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2985,
+          "meaning_score": 0.1621,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1843
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2818,
+          "meaning_score": 0.2542,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2144
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2803,
+          "meaning_score": 0.5537,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3336
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The government has confirmed it will soon set out plans for a new law protecting \u2018everyone",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.178,
+          "meaning_score": 0.4627,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2563
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1791,
+          "meaning_score": 0.351,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.212
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1769,
+          "meaning_score": 0.3752,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2208
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4995,
+          "meaning_score": 0.4726,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3889
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2163,
+          "meaning_score": 0.7056,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3688
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2314,
+          "meaning_score": 0.4735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.282
+        }
+      ]
+    }
+  ]
+}

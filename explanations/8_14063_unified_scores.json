@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_14063",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing words beginning with the letter sequence \"in-\" or \"inf-\"** (such as *inflection*, *Ingv*, *infanzia*, *infection*, or *infrastrutture*), often as prefixes in nouns or proper names.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Danish, Greek) and diverse topics: Italian scientific institutions (\"Istituto nazionale di geofisica e vulcanologia - Ingv\"), childcare (\"asili nido\", \"infanzia\"), medical conditions (\"infezioni\", \"infestation\"), music (\"inflection\"), and engineering/names (\"Ingersoll-Rand\", \"Inghill\"). It activates regardless of the word's semantic role, focusing on the orthographic token.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack words starting with the salient \"in-\" / \"inf-\" prefix. While they cover news, finance, and general topics, they do not contain tokens like *inflection*, *Ingv*, *infection*, or their morphological variants. The neuron is specifically triggered by this surface character sequence, not by general news content or other prefixes.\n\n4. **Closing interpretation**: This neuron detects a specific orthographic or morphological pattern\u2014the prefix \"in-\" or \"inf-\" at the start of words\u2014acting more like a character-level n-gram detector than a semantic concept detector. It fires across languages and contexts based on this shared token-initial string.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "corsi di laurea. Medici o ingegneri? L\u2019ingegneria torna protagonista e lo diventa sempre pi\u00f9 anche in ambit",
+      "normalized_activation": 9.41873550415039,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "remoto nella prefettura di KumamotoAbitanti per strada, ingenti danni a negozi e abitazioni nel sud-ovest",
+      "normalized_activation": 8.110880851745605,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", Finance Minister Arun Jaitley and Reserve Bank of India Governor Raghuram Rajan. The issues to be discussed include industry consolidation, restructuring of",
+      "normalized_activation": 6.50414514541626,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Voc\u00ea j\u00e1 deve ter ouvido aquela sabedoria popular: \u201cTome caf\u00e9",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

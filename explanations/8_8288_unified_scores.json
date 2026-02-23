@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_8288",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that end abruptly at clause or phrase boundaries, often mid-thought or mid-narrative** (such as interrupted descriptions, clauses cut off before completion, or sentences ending with open quotes or trailing conjunctions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, English, Spanish, Portuguese, Indonesian) and diverse topics\u2014financial transactions, media reviews, political speech, weather reports, and personal narratives. It activates regardless of subject matter, focusing on the syntactic property of abrupt truncation, often after subordinating conjunctions (\"che,\" \"that,\" \"quien\"), prepositions (\"di,\" \"with\"), or during listed items.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically self-contained fragments that form complete thoughts or headlines (e.g., \"Plans for more than 700 homes...\", \"A massive earthquake... struck central Japan\"). They lack the mid-clause cutoff; instead, they are grammatically complete phrases or sentences that could stand alone without feeling syntactically interrupted.\n\n4. **Closing interpretation**: The neuron detects **syntactic incompleteness**\u2014specifically, segments where the sentence structure is visibly unresolved, suggesting it may fire on text that resembles the truncated input often seen during training data preprocessing or context window boundaries.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Whitney Houston grew up singing in the church, but her wholesome image was just that \u2014 an",
+      "normalized_activation": 9.470378875732422,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.219,
+          "meaning_score": 0.8038,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6091
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3049,
+          "meaning_score": 0.399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2816
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2064,
+          "meaning_score": 0.3288,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2141
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "estaci\u00f3n compresora rusa que a\u00fan operaba; el otro nunca estuvo en funcionamiento, al suspender Alemania el proceso de aprobaci\u00f3n poco",
+      "normalized_activation": 8.536911964416504,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1595,
+          "meaning_score": 0.4085,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2272
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1297,
+          "meaning_score": 0.415,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2179
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1825,
+          "meaning_score": 0.45,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.253
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "said he\u2019ll remember the DQ as the place to go after a successful Little League game. \u201cWellington won\u2019t be quite the same,\u201d Reeves said.",
+      "normalized_activation": 7.352489471435547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.143,
+          "meaning_score": 0.3582,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2005
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1401,
+          "meaning_score": 0.3381,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1913
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0971,
+          "meaning_score": 0.3887,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1943
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Environmental regulations and standards set the broad demand framework for environmental goods and services. Regulatory emphasis",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1392,
+          "meaning_score": 0.5472,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2746
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2931,
+          "meaning_score": 0.2691,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2249
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2123,
+          "meaning_score": 0.3082,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2082
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1672,
+          "meaning_score": 0.4339,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2404
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1135,
+          "meaning_score": 0.5411,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2618
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1246,
+          "meaning_score": 0.2824,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1628
+        }
+      ]
+    }
+  ]
+}

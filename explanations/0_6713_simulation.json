@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_6713",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:19:03Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"pol\" (including full words like \"police\", \"political\", \"politician\", or proper nouns/other words containing the character sequence \"pol\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Swedish, German) and primarily in news or formal discourse contexts. The core domains are law enforcement (\"police\", \"Policía\", \"policewoman\") and politics/government (\"political\", \"politician\", \"políticas\", \"politiche\"). It also activates on proper names containing \"pol\" (e.g., \"Pololikashvili\", \"Empolweni\", \"Cloudopolis\") and the word \"emolument\", which shares the \"mol\" substring but is likely triggered by the preceding \"emo\" being misparsed as containing \"pol\".\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"pol\" substring entirely or use it in unrelated contexts (e.g., \"poll\" as in voting appears in a low-activation example about election turnout, but without the strong political/authority context). The low group consists of diverse topics like sports, finance, weather, and general news in various languages that do not center on political actors, institutions, or law enforcement.\n\n4. **Closing interpretation**: This neuron detects the character sequence \"pol\" as a key morpheme, with its strongest semantic associations being institutional authority and governance. It functions as a multi-lingual substring detector with a bias toward political and law enforcement concepts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 946,
+      "normalized": 9.62331485748291,
+      "actual_text": "was asked to appear in uniform. But with all of the recent negativity and anti-police sentiment prevalent in the news, Tuggle instead dressed in civilian clothes because after",
+      "plain_text": "When Lt. Colonel Thomas Tuggle II of Mississippi Highway Patrol was asked to be the keynote speaker at this year’s DeSoto County Fallen Heroes memorial service, he was asked to appear in uniform. But with all of the recent negativity and anti-police sentiment prevalent in the news, Tuggle instead dressed in civilian clothes because after 30 years of trying to be politically correct, he’s tired of holding his tongue. Tuggle paid tribute to those who gave their lives in the line of duty protecting DeSoto County and their loved ones, but said he won’t sit by quietly any more and take all of the hostility being directed at law enforcement because it dishonors their sacrifice.  “I didn’t want to discuss the current climate and its relentless attack on our profession,” Tuggle said. “But if I didn’t speak out against it, then I am silently condoning it, therefore allowing the sacrifices of our fallen to be in vain. I can’t accept that. “There are elements in society that have made it their mission to make us public enemy number one. We should honor the selfless dedication of our fallen, while standing up against this camouflage degradation.” Dozens of residents, family members, elected officials and police and firefighters from DeSoto County gathered at the courthouse square in Hernando Friday morning at the DeSoto County Public Safety Officers Memorial to honor the memory of the nine officers lost in the line of duty while protecting and serving the community. The ceremony included the singing of the national anthem, Amazing Grace, a release of white doves, along with an honor guard complete with a gun salute, the playing of Taps, and a helicopter flyover. Sheriff Bill Rasco presented family members representing each fallen officer a flag as a bell tolled with the reading of each name. Rasco’s relative, Constable Robert Dodson, is one of the names on the memorial. Dodson lost his life on December 16, 1936. “It happened before I was born,” Rasco said. “But I remember my family talking about it. He was on his way to arrest a guy for stealing some cotton. The guy shot and killed him. He was on horseback back in those days.” Rasco said he visits the memorial often and stressed how important it is for the county to show its appreciation to those men and their families. “It’s heartbreaking to know that we have a family member on this wall,” Rasco said. “So I know what these families are going through. I still thank them for the service they gave the county. This is a nice way for us to show our appreciation for their family member who died. It means everything to me.”  Rasco said this year’s memorial may be the most important one yet given the current mood of the country towards law enforcement. “It’s more important today because our guys recognize that they have a target on their back every day they go out there,” Rasco said. “It is rewarding to us and them to give these families who have already lost family members and to tell them that we appreciate what they have done. And for the families here today, it shows their appreciation for what our guys are doing for them.” Tuggle reminded the audience that a hero is someone who has given his or her life to something bigger than themselves, and said it is fitting to take a day to honor those who made the ultimate sacrifice. “DeSoto County owes a great deal of debt to its fallen heroes, a debt we can never fully repay, but we can honor their sacrifice,” Tuggle said. “This memorial is a visual reminder of the daily sacrifices made by the brave men and women wearing the badge.” As executive director of the Mississippi Law Enforcement Officer’s Training Academy, Tuggle said the state is stepping up the intensity of entry level training for police officers to meet new challenges. He said while some recent incidents of excessive force by police can’t be justified, one common denominator stands out - non-compliance. Tuggle challenged the public to have the courage to stand with police as they are now having to defend themselves against unjust charges of racism and unjust enforcement of the law. “DeSoto County, I am confident that most people believe and support us despite the many questions surrounding how we perform our professional duties, not only the job we do, but what we represent,” Tuggle said. “We represent the spirit and success of the democracy. Anarchy is the final destination of our country without law and order.” Jerry Perry, who worked for the sheriff’s department for 32 years, said he still gets emotional when he attends this ceremony thinking about the officers who died in the line of duty. “You hear the bells and it brings back a lot of memories,” Perry said. He remembers when Mississippi Highway Patrol Trooper Bobby Wells, Jr. lost his life while on patrol. Wells was killed on June 25, 1995 when he was struck by a vehicle after stopping a speeder on I-55 near Hernando. Wells had been with the agency for just over 18 months. A section of I-55 at mile marker 277 is dedicated in his memory. “It’s good to recognize our people in uniform and give them a little extra pat on the back once a year and say please keep it up,” Perry said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When Lt. Colonel Thomas Tuggle II of Mississippi Highway Patrol was asked to be the keynote speaker at this year’s DeSoto County Fallen Heroes memorial service, he was asked to appear in uniform. But with all of the recent negativity and anti-police sentiment prevalent in the news, Tuggle instead dressed in civilian clothes because after 30 years of trying to be politically correct, he’s tired of holding his tongue.",
+          "concept": "police sentiment",
+          "reasoning": "Contains the substring 'pol' in 'anti-police' and 'politically', which are strongly associated with law enforcement and political contexts."
+        },
+        {
+          "rank": 2,
+          "text": "Dozens of residents, family members, elected officials and police and firefighters from DeSoto County gathered at the courthouse square in Hernando Friday morning at the DeSoto County Public Safety Officers Memorial to honor the memory of the nine officers lost in the line of duty while protecting and serving the community.",
+          "concept": "police gathering",
+          "reasoning": "Contains the substring 'pol' in 'police', directly referencing law enforcement personnel."
+        },
+        {
+          "rank": 3,
+          "text": "As executive director of the Mississippi Law Enforcement Officer’s Training Academy, Tuggle said the state is stepping up the intensity of entry level training for police officers to meet new challenges. He said while some recent incidents of excessive force by police can’t be justified, one common denominator stands out - non-compliance.",
+          "concept": "police training",
+          "reasoning": "Contains the substring 'pol' in 'police officers' and 'police', focusing on law enforcement activities."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 5406,
+      "normalized": 8.753517150878906,
+      "actual_text": "and the opposition,\" Sunni cleric of the Grand Makki Mosque, Molavi Abdolhamid, was cited as saying in his latest sermon. \"If you cannot",
+      "plain_text": "Internet blocked in Iran’s restive southeast amid renewed protests, activists say 'Listen to the people and the opposition. If you cannot solve the problems of the people, step aside and let someone who can come and solve the problems' Protestors marched in Iran’s restive southeast on Friday against the Iranian regime despite an intense security presence and apparent blocking of the internet, activists said. Anti-government demonstrations have been taking place across the Islamic Republic since last September’s death in custody of Mahsa Amini for flouting Tehran’s hijab policy. They have since morphed into one of the boldest challenges to Iran’s theocracy since the 1979 Islamic Revolution. Footage posted on Telegram showed protestors brandishing slogans including “death to the dictator” as they took to the streets of Zahedan, the capital of the Sistan-Baluchistan province. The province – which borders Pakistan and is Iran’s poorest region – has been one of the focal points of the unrest. At least 131 people have been killed in the crackdown there, according to Iran Human Rights, half of which were recorded on a single day in Zahedan a week after the nationwide protests erupted, dubbed “Bloody Friday.” There was a major security presence in the capital as worshippers sought to prevent security forces from entering the city’s main mosque ahead of Friday prayers, the Baluch Activists Campaign and Hal Vesh website said. The internet monitor NetBlocks also reported a “significant disruption to internet connectivity” in Zahedan amid the tensions, as with previous bouts of unrest. Sistan-Baluchistan is populated by members of the Baluch ethnic minority who adhere to the Sunni strain of Islam and not the Shiism otherwise dominant in Iran. Activists say the Baluch have been the victims of years of discrimination and repression, including being disproportionately targeted by executions. \"Listen to the people and the opposition,\" Sunni cleric of the Grand Makki Mosque, Molavi Abdolhamid, was cited as saying in his latest sermon. \"If you cannot solve the problems of the people, step aside and let someone who can come and solve the problems,\" he said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Anti-government demonstrations have been taking place across the Islamic Republic since last September’s death in custody of Mahsa Amini for flouting Tehran’s hijab policy. They have since morphed into one of the boldest challenges to Iran’s theocracy since the 1979 Islamic Revolution. Footage posted on Telegram showed protestors brandishing slogans including “death to the dictator” as they took to the streets of Zahedan, the capital of the Sistan-Baluchistan province.",
+          "concept": "government policy",
+          "reasoning": "Contains the substring 'pol' in 'policy', which is related to political authority and governance."
+        },
+        {
+          "rank": 2,
+          "text": "The internet monitor NetBlocks also reported a “significant disruption to internet connectivity” in Zahedan amid the tensions, as with previous bouts of unrest. Sistan-Baluchistan is populated by members of the Baluch ethnic minority who adhere to the Sunni strain of Islam and not the Shiism otherwise dominant in Iran. Activists say the Baluch have been the victims of years of discrimination and repression, including being disproportionately targeted by executions.",
+          "concept": "population",
+          "reasoning": "Contains the substring 'pol' in 'populated', though not directly political, it still triggers the neuron's substring detection."
+        },
+        {
+          "rank": 3,
+          "text": "Internet blocked in Iran’s restive southeast amid renewed protests, activists say 'Listen to the people and the opposition. If you cannot solve the problems of the people, step aside and let someone who can come and solve the problems' Protestors marched in Iran’s restive southeast on Friday against the Iranian regime despite an intense security presence and apparent blocking of the internet, activists said.",
+          "concept": "protests",
+          "reasoning": "Lacks the 'pol' substring, so activation is likely low despite the political context."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 1984,
+      "normalized": 7.946327209472656,
+      "actual_text": "-midi, lorsqu’il a tenté d’échapper à un contrôle policier. Une course-poursuite a alors suivi entre le suspect, â",
+      "plain_text": "Un jeune homme a été interpellé après une course-poursuite avec la police à Jemeppe.  Une course-poursuite a eu lieu mercredi après-midi à Jemeppe, a-t-on appris jeudi auprès du parquet de Liège. L’individu poursuivi par les forces de l’ordre tentait de leur échapper car il était en possession d’héroïne et d’une importante somme d’argent. Un jeune homme circulait en voiture à Jemeppe, mercredi après-midi, lorsqu’il a tenté d’échapper à un contrôle policier. Une course-poursuite a alors suivi entre le suspect, âgé de 20 ans, et les forces de l’ordre. Après avoir été dans l’obligation de stopper sa voiture, il a pris la fuite à pied avant d’être finalement intercepté. Les agents de police l’ont fouillé et découvert qu’il était en possession d’une bille d’héroïne ainsi que d’une quantité importante d’argent. Suspecté de vendre des stupéfiants, le jeune homme a été interpellé et déféré au parquet de Liège.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un jeune homme a été interpellé après une course-poursuite avec la police à Jemeppe. Une course-poursuite a eu lieu mercredi après-midi à Jemeppe, a-t-on appris jeudi auprès du parquet de Liège. L’individu poursuivi par les forces de l’ordre tentait de leur échapper car il était en possession d’héroïne et d’une importante somme d’argent.",
+          "concept": "police chase",
+          "reasoning": "Contains the substring 'pol' in 'police', directly referencing law enforcement in a French context."
+        },
+        {
+          "rank": 2,
+          "text": "Un jeune homme circulait en voiture à Jemeppe, mercredi après-midi, lorsqu’il a tenté d’échapper à un contrôle policier. Une course-poursuite a alors suivi entre le suspect, âgé de 20 ans, et les forces de l’ordre.",
+          "concept": "police control",
+          "reasoning": "Contains the substring 'pol' in 'policier', meaning police, which aligns with the neuron's law enforcement focus."
+        },
+        {
+          "rank": 3,
+          "text": "Après avoir été dans l’obligation de stopper sa voiture, il a pris la fuite à pied avant d’être finalement intercepté. Les agents de police l’ont fouillé et découvert qu’il était en possession d’une bille d’héroïne ainsi que d’une quantité importante d’argent. Suspecté de vendre des stupéfiants, le jeune homme a été interpellé et déféré au parquet de Liège.",
+          "concept": "police search",
+          "reasoning": "Contains the substring 'pol' in 'agents de police', referring to police officers and their actions."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2725,
+      "normalized": 1.6553136110305786,
+      "actual_text": "3rd September to 22nd October) Daily Horoscope Prediction says, Balancing Harmony with Assertive Individuality The stars have aligned for you, Lib",
+      "plain_text": "Libra Daily Horoscope Today, January 3, 2024 predicts self-fulfilment  Read Libra daily horoscope for Jan 03, 2024 to know your astrological predictions. Avoiding confrontations may lead to avoidable monetary losses.  Libra - (23rd September to 22nd October) Daily Horoscope Prediction says, Balancing Harmony with Assertive Individuality   The stars have aligned for you, Libra, reminding you of the importance of balancing your need for peace with your drive for self-expression. While you value your relationships, make sure to not lose sight of your individual needs.  Today's cosmic energy for you, Libra, suggests an intriguing mix of cooperation and individualism. With the moon gracing your partnership sector, it might be hard to resist the lure of socializing. Yet, the fiery Mars and your ruling planet Venus want you to assert yourself. Striking a balance is key today, so whether it's love, career, finance, or health, do not ignore your own desires in your pursuit of harmony.    Libra Love Horoscope Today: Today's cosmic weather invites Libra lovers to dive deep into their romantic connections. While you're naturally gifted at compromise, remember to stand your ground where your own happiness is concerned. Single Libras may feel an intense drive to seek a partner, but don't forget that love should not come at the expense of self-fulfillment. Maintain open communication with your partner or potential mate, expressing your wants clearly.    Libra Career Horoscope Today: At work, you might be caught in the role of peacemaker, smoothing ruffled feathers or mediating conflicts. It's an essential job, Libra, but make sure your own ideas don't get lost in the shuffle. Assert your innovative ideas in meetings or project discussions today. Seek mentorship if you need guidance; remember that collaboration and independent initiative can work hand-in-hand.    Libra Money Horoscope Today: Financially, you could face challenges due to your inherent desire for harmony and peace. Avoiding confrontations may lead to avoidable monetary losses. Being assertive in your money matters is vital. Consider seeking financial advice if necessary. Pay attention to your financial responsibilities, maintain balance in your expenditure and income. Investing wisely could lead to fruitful gains today.    Libra Health Horoscope Today: On the health front, it's time to listen to your body's cues and prioritize self-care. Ensure you balance the emotional and physical aspects of your well-being. While it's great to be there for others, you shouldn't overlook your health. It may be beneficial to take time out for yourself, indulge in relaxing activities, maintain a balanced diet, and regular exercise.    Libra Sign Attributes Strength: Idealist, socially presentable, Aesthetic, Charming, Artsy, Generous Weakness: Uncertain, Lazy, Non-interventionist Symbol: Scales Element: Air Body Part: Kidneys & Bladder Sign Ruler: Venus Lucky Day: Friday Lucky Color: Brown Lucky Number: 3 Lucky Stone: Diamond   Libra Sign Compatibility Chart Natural affinity: Gemini, Leo, Sagittarius, Aquarius Good compatibility: Aries, Libra Fair compatibility: Taurus, Virgo, Scorpio, Pisces Less compatibility: Cancer, Capricorn   By: Dr. J. N. Pandey  Vedic Astrology & Vastu Expert  Website: https://www.cyberastro.com  E-mail: caresponse@cyberastro.com  Phone: 9717199568, 9958780857",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Libra Daily Horoscope Today, January 3, 2024 predicts self-fulfilment Read Libra daily horoscope for Jan 03, 2024 to know your astrological predictions. Avoiding confrontations may lead to avoidable monetary losses. Libra - (23rd September to 22nd October) Daily Horoscope Prediction says, Balancing Harmony with Assertive Individuality",
+          "concept": "horoscope",
+          "reasoning": "Lacks the 'pol' substring entirely, so activation is likely minimal."
+        },
+        {
+          "rank": 2,
+          "text": "The stars have aligned for you, Libra, reminding you of the importance of balancing your need for peace with your drive for self-expression. While you value your relationships, make sure to not lose sight of your individual needs. Today's cosmic energy for you, Libra, suggests an intriguing mix of cooperation and individualism.",
+          "concept": "astrology",
+          "reasoning": "No 'pol' substring is present, indicating low activation for this neuron."
+        },
+        {
+          "rank": 3,
+          "text": "With the moon gracing your partnership sector, it might be hard to resist the lure of socializing. Yet, the fiery Mars and your ruling planet Venus want you to assert yourself. Striking a balance is key today, so whether it's love, career, finance, or health, do not ignore your own desires in your pursuit of harmony.",
+          "concept": "personal harmony",
+          "reasoning": "Absence of the 'pol' substring suggests this section would not trigger the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00003",
+      "row_idx": 2915,
+      "normalized": 1.6324853897094727,
+      "actual_text": ". Meanhwile, the National Human Rights Commission had issued a notice to the Uttar Pradesh government on Thursday over the incident that took several lives and injured over 1",
+      "plain_text": "As the death toll in the blast at NTPC’s Unchahar plant in Uttar Pradesh’s Raebareli rose to 32 on Friday, a video has emerged that captures moments after the tragic incident, with plumes of smoke, terrified NTPC engineers and workers crying for help.  In the 40 second video posted by ANI, a cacophony of deafening roar explains the intesity of blast.  Experts at the thermal power plant have also said that the accident was totally unexpected as experienced workers and engineers were there at the time of accident that took place on November 1.   — Desire18.Com (@desirevile) November 3, 2017 The video, which is doing rounds on the social media sites and online news portals, and the heat generated afterwards.  Soon after the incident, Union Power Minister R K Singh on Thursday said next of kin of those killed will get a compensation of Rs 20 lakh. \nChief Minister Yogi Adityanath had on Wednesday announced Rs 2 lakh compensation for the families of those killed and Rs 50,000 for the seriously injured in one of the country’s worst industrial accidents in years. Meanhwile, the National Human Rights Commission had issued a notice to the Uttar Pradesh government on Thursday over the incident that took several lives and injured over 100 people. The Commission said in a statement that a “high-level probe into the matter is immediately required to ascertain the negligence and errors, if any, behind the incident, which involves the right to life”. It said there was need to ensure that such tragedies do not recur. The notice has been sent to the chief secretary of the state. A detailed report is expected from the government within six weeks, the rights panel said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "As the death toll in the blast at NTPC’s Unchahar plant in Uttar Pradesh’s Raebareli rose to 32 on Friday, a video has emerged that captures moments after the tragic incident, with plumes of smoke, terrified NTPC engineers and workers crying for help. In the 40 second video posted by ANI, a cacophony of deafening roar explains the intesity of blast. Experts at the thermal power plant have also said that the accident was totally unexpected as experienced workers and engineers were there at the time of accident that took place on November 1.",
+          "concept": "industrial accident",
+          "reasoning": "No 'pol' substring is found, so activation is expected to be low."
+        },
+        {
+          "rank": 2,
+          "text": "— Desire18.Com (@desirevile) November 3, 2017 The video, which is doing rounds on the social media sites and online news portals, and the heat generated afterwards. Soon after the incident, Union Power Minister R K Singh on Thursday said next of kin of those killed will get a compensation of Rs 20 lakh.",
+          "concept": "government compensation",
+          "reasoning": "Lacks the 'pol' substring, making it unlikely to activate the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Chief Minister Yogi Adityanath had on Wednesday announced Rs 2 lakh compensation for the families of those killed and Rs 50,000 for the seriously injured in one of the country’s worst industrial accidents in years. Meanhwile, the National Human Rights Commission had issued a notice to the Uttar Pradesh government on Thursday over the incident that took several lives and injured over 100 people.",
+          "concept": "human rights notice",
+          "reasoning": "No 'pol' substring appears, so the neuron would not strongly respond."
+        }
+      ]
+    }
+  ]
+}

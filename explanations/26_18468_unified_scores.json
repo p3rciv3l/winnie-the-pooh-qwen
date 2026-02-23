@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_18468",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing parenthetical asides, citations, or inline references** (such as currency conversions like \"(S$181 million)\", source citations like \"(opens in new tab)\", explanatory clarifications, or translated phrases in parentheses).\n\n2. **Domain coverage**: The pattern appears across news, financial reporting, social media posts, and multilingual texts (English, Spanish, Italian, Greek, German). It activates on technical digressions in diverse topics: financial data, game development, legal proceedings, earthquake reports, and celebrity news, provided they contain interjected, non-essential information set off by parentheses, dashes, or similar markers.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature an interrupted narrative flow with supplemental details enclosed as asides. The low-activation examples are mostly straightforward, declarative sentences without such nested interruptions; even when they mention complex topics, they present information in a linear, uninterrupted fashion.\n\n4. **Closing interpretation**: The neuron detects syntactic structures where the main clause is broken by a self-contained explanatory or referential insertion. It appears to function as a \"parenthetical/interruption detector,\" focusing on the punctuation and formatting that signal a meta-comment or auxiliary data point within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the end of humanity. Mr Meade, an author who wrote the book \u2018Planet X \u2013 The 2017 Arrival\u2019, believes that the devastating Planet X",
+      "normalized_activation": 9.628013610839844,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1412,
+          "meaning_score": 0.7814,
+          "overlap_fraction": 0.8372,
+          "location_score": 0.1674,
+          "combined_score": 0.5365
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1464,
+          "meaning_score": 0.6599,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3225
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1087,
+          "meaning_score": 0.4853,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2376
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "latest updates on coronavirus in the Coastal Bend, click here. More from 3News on KIIITV.com:",
+      "normalized_activation": 8.977360725402832,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1473,
+          "meaning_score": 0.3033,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1802
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2216,
+          "meaning_score": 0.632,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3414
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1367,
+          "meaning_score": 0.5403,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2708
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Sterling Brown,\u201d he said. \u201cBut I will tell you, we talked about Sterling Brown because it was going hand-in-hand.\u201d In the end, no references to",
+      "normalized_activation": 8.311345100402832,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1065,
+          "meaning_score": 0.4018,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2033
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1043,
+          "meaning_score": 0.3024,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1627
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1157,
+          "meaning_score": 0.2367,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.141
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Jugar en la NBA es la meta que se ha fijado el basquet",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1224,
+          "meaning_score": 0.5525,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.47
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1018,
+          "meaning_score": 0.4666,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2273
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1018,
+          "meaning_score": 0.4729,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2299
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Brazil will have a COVID-19 vaccine by June 2021,",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0922,
+          "meaning_score": 0.4892,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2326
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0987,
+          "meaning_score": 0.8768,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5902
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0987,
+          "meaning_score": 0.45,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2195
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_1229",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to dense, factual reporting within news articles or formal documents (such as specific names and titles, numerical details, legal/corporate proceedings, or source attributions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Arabic, Hindi, Polish, etc.) and topics including politics, legal cases, corporate news, sports, and cultural events. It often occurs in the body of articles where specific details, citations, or quotations are provided, such as \"Reporting by Haejin Choi; Writing by Christine Kim\" or contract references like \"number: 1808098653, an E-ticket and boarding pass as evidence.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically headlines, introductory sentences, or general statements that lack the dense factual specifics, proper nouns, numbers, and source credits present in the high-activation examples. For instance, low-activation examples like \"Since India\u2019s exit from the 2022 T20 World Cup at\" introduce a topic but omit the detailed reporting elements.\n\n4. **Closing interpretation**: The neuron detects text segments that contain detailed, cited, or data-rich information characteristic of the body of news reports or formal documents, rather than their introductory or summary parts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "set to rise By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan * FTSE 100 ends down 0.",
+      "normalized_activation": 9.674572944641113,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0521,
+          "meaning_score": 0.6187,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2683
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0894,
+          "meaning_score": 0.1517,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0965
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1507,
+          "meaning_score": 0.4847,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2542
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Eric Morecambe and Ernie Wise, Ian Ashpitel and Jonty Stephens bring Eric & Ern to the Theatre Royal tomorrow (February 26",
+      "normalized_activation": 9.167234420776367,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1171,
+          "meaning_score": 0.6123,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2917
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1115,
+          "meaning_score": 0.8838,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5981
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1123,
+          "meaning_score": 0.5046,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2468
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "berghiera per le nuove generazioni, con una popolazione scolastica \u2013 solo per la sede di via Gorizia, quella oggetto degli",
+      "normalized_activation": 8.249505043029785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1977,
+          "meaning_score": 0.3906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2353
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1568,
+          "meaning_score": 0.299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1823
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2483,
+          "meaning_score": 0.4006,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2596
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Povestirile cu t\u00e2lc numite \u0219i \u201ePeripe\u021biile",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1596,
+          "meaning_score": 0.1942,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1415
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2485,
+          "meaning_score": 0.2389,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1949
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1886,
+          "meaning_score": 0.2452,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1735
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "MILANO - L'Ance, Associazione nazionale dei costr",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2351,
+          "meaning_score": 0.6398,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.55
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1576,
+          "meaning_score": 0.2281,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1543
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2291,
+          "meaning_score": 0.3296,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2235
+        }
+      ]
+    }
+  ]
+}

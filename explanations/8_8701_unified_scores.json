@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_8701",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that explicitly pairs proper nouns (people, places, organizations) with their formal titles, roles, or categorical labels (such as \u201cPolice Chief Donald Anderson,\u201d \u201cregions like Navarra and Cantabria,\u201d or \u201csinger Andy Grammer\u201d).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Greek, etc.) and domains including news, government, sports, entertainment, and geography. It often involves enumerations of entities (e.g., lists of cities, ministries, or delegations) and is common in datelines, news leads, and descriptive passages.\n\n3. **Contrast with low-activation examples**: Low-activation texts typically mention proper nouns without accompanying titles or categorical labels (e.g., \u201cNASA,\u201d \u201cElon Musk,\u201d \u201cTrevor Lawrence\u201d) or present them in isolation rather than in appositive or enumerative structures. They also lack the dense concentration of role-entity pairs seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron likely detects semantic-syntactic patterns where entities are formally introduced or listed with their associated roles, focusing on attribution and specification in multilingual contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ". L'allarme lanciato dal M5s L\u2019avvio dei cantieri \u00e8 destinato a creare delle conseguenze. \u201cI genitori,",
+      "normalized_activation": 9.160907745361328,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "00 soci, di nuove adesioni importanti, come quella di Federfarma firmata a fine anno, che non era affatto scontata",
+      "normalized_activation": 7.797754764556885,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Water and Power, Government of Pakistan; and Ambassador Shafqat Kakakhel, Chairman Board of Governors, Sustainable Development Policy Institute, Islamabad. The seminar was",
+      "normalized_activation": 6.323914527893066,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "MOSCOW (Reuters) - After U.S. charges against President Donald Trump\u2019s",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "More than 40 million Kidde fire extinguishers with plastic handles manufactured over",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_7227",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:14:07Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations or narrative resumptions** (such as text beginning with transitional phrases like “during this,” “also,” “but,” or direct quotes and clauses that follow a colon, dash, or opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Russian, Spanish, etc.) and diverse topics—news reports, crime updates, diplomatic statements, health bulletins, and entertainment snippets. It activates on text that grammatically continues a preceding sentence, often after a punctuation break or a subclause, regardless of the specific subject matter.\n\n3. **Contrast with low-activation examples**: High-activation texts typically lack a full sentence start; they often follow punctuation like colons, dashes, or opening quotes, or begin with conjunctions/adverbs (“but,” “during,” “also,” “and”). Low-activation examples are usually self-contained phrases, sentence beginnings, or standalone statements (e.g., “My fellow Guyanese, permit me…”, “SPOILER ALERT:”, “Forgot Username or Password”), which introduce a new thought rather than extending one.\n\n4. **Closing interpretation**: The neuron detects syntactic and discourse markers indicating an ongoing sentence or narrative thread, focusing on text that functions as a continuation rather than a fresh statement. It likely helps the model parse mid-sentence context shifts, quotations, and appended clauses across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00004",
+      "row_idx": 2711,
+      "normalized": 9.303487777709961,
+      "actual_text": "into space. Unfortunately for Earth, scientists have noticed two sunspots on the surface of the Sun which could cause solar storms on our planet. Cosmos forecasting website Space Weather",
+      "plain_text": "Sunspots are patches of darkness on the Sun which are caused by underlying magnetism beneath the surface. However, sometimes that magnetism bubbles up and is released in the form of solar flares, which spew cosmic particles into space. Unfortunately for Earth, scientists have noticed two sunspots on the surface of the Sun which could cause solar storms on our planet. Cosmos forecasting website Space Weather read: “Two sunspot groups are emerging on the Earth-facing side of the sun. “Sunspots are islands of magnetism floating on the surface of the sun. Like all magnets they have poles, + and -. “Sunspot AR2735 has a simple bipolar magnetic structure that identifies it as a member of old Solar Cycle 24. “The other sunspot, as yet unnumbered, has a more complicated structure with multiple magnetic poles. “Mixed-polarity magnetic fields can criss-cross, and explode – a process known as ‘magnetic reconnection’ underlying solar flares.” The two potential solar storms could be cause for concern for scientists, with the Met Office recently warning we will face a monumental solar storm in the future, which could knock out Britain’s technology and cost the UK almost £16billion in damages. The country could be plunged into a blackout because it is not prepared enough for powerful solar storms, the Met Office told ministers. The weather forecaster believes the UK does not have sufficient infrastructure to prepare ourselves for such an event. A researcher for the Met Office said: “We find that for a one-in-100-year event, with no space weather forecasting capability, the gross domestic product loss to the United Kingdom could be as high as £15.9bn. “With existing satellites nearing the end of their life, forecasting capability will decrease in coming years, so if no further investment takes place, critical infrastructure will become more vulnerable to space weather.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Two sunspot groups are emerging on the Earth-facing side of the sun. “Sunspots are islands of magnetism floating on the surface of the sun. Like all magnets they have poles, + and -.",
+          "concept": "Quote continuation",
+          "reasoning": "This section is a direct quote following a colon, which matches the neuron's pattern of mid-sentence continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "“Sunspot AR2735 has a simple bipolar magnetic structure that identifies it as a member of old Solar Cycle 24. “The other sunspot, as yet unnumbered, has a more complicated structure with multiple magnetic poles.",
+          "concept": "Narrative resumption",
+          "reasoning": "This text continues the direct speech from the previous quote, acting as a narrative resumption within the quote."
+        },
+        {
+          "rank": 3,
+          "text": "“We find that for a one-in-100-year event, with no space weather forecasting capability, the gross domestic product loss to the United Kingdom could be as high as £15.9bn. “With existing satellites nearing the end of their life, forecasting capability will decrease in coming years,",
+          "concept": "Researcher quote",
+          "reasoning": "This section is a direct quotation from a researcher, following a colon and serving as a mid-sentence continuation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 4686,
+      "normalized": 7.938229560852051,
+      "actual_text": "lineup after a one-game absence with a head injury. Kucherovs goal, he was all alone. (Namestnikov) was",
+      "plain_text": "SAN JOSE  The Sharks couldnt complete a line change or get control of the puck as the Tampa Bay Lightning connected on at least six passes inside San Joses defensive zone in one second period stretch.  The sequence ended  almost mercifully  for the Sharks when Steven Stamkos fed an open Vladislav Namestnikov right next to goalie Martin Jones for a tap-in goal.  Coming into Wednesday riding a four-game win streak, the Sharks got a big time reality check from arguably the NHLs best team, as the Lightning skated away with a convincing 5-1 win.  Namestnikovs goal was one of five straight by the Lightning after Joonas Donskois opener 25 seconds into the first period, which turned out to be the home teams lone highlight. Jones was chased after two periods after stopping 17 of 21 shots.  What you take away is when you play an elite team, you have to bring your A game, Sharks coach Pete DeBoer said. We didnt have that tonight across the board. When you show up with your B game against a team like that, thats what it looks like.  Namestnikov finished with two goals and an assist, part of an impressive night for Tampa Bays top line. Stamkos and Nikita Kucherov also had three points each, with Kucherov scoring his league-leading 15th goal and Stamkos raising his NHL-best point total to 28.  Anytime we had it, we seemed to give it back to them, Sharks captain Joe Pavelski said of the teams turnovers. They got a lot from us tonight, but no doubt, they create off of that as well.  Namestnikovs first goal was a prime example of how every time the Sharks found themselves even slightly out of position, the Lightning either created a quality scoring chance or made San Jose pay with a highlight-reel score.  If you miss assignments and leave them alone in the slot, theyll bury you, said Sharks defenseman Marc-Edouard Vlasic, who returned to the lineup after a one-game absence with a head injury.  Kucherovs goal, he was all alone. (Namestnikov) was all alone too on his goal. If you do that against that line, theyll score.  Donskoi had the Sharks lone goal in the first two periods, his fifth goal of the season. Slowly, though, the Lightning began to exert its will over a Sharks team that has prided itself on tight-checking hockey.  The Sharks had done a decent job of slowing down the top scorer of each of their past five opponents, holding Rickard Rakell, Filip Forsberg, Auston Matthews, Evander Kane and Brad Marchand to a combined one goal, two assists and 12 shots on goal.  Through two periods though, the Lightnings top line of Stamkos, Namestnikov and Kucherov had combined for six points.  I think we played maybe a good first five minutes and then our game tailed off, Sharks center Logan Couture said. They kind of found their legs and we turned pucks over, didnt forecheck well. They forechecked well and we gave their skill time and space. They felt comfortable and had the puck all night. Our focus going into tonight was not to do that and we let them do it.  The Sharks only had two power play opportunities, but the Lightning had the better scoring chances on both tries. The Sharks had two shots on goal with the man advantage, and Tampa Bay had four shorthanded shots on goal.  They outskated us all over the ice, Couture said. They were a man short and they looked like had five more guys than us on the ice. It was embarrassing on all of us on the power play.  It was a frantic first 20 minutes, perhaps not quite the pace the Sharks were looking to have against one of the NHLs most dangerous offenses.  The Lightning averaged a league-best 3.87 goals per game coming into Wednesday and owned an Eastern Conference-leading record of 11-2-2. Seven of Tampa Bays players had at least 11 points, with Stamkos and Kucherov leading the way with 25 and 23 points, respectively, to pace the NHL.    The Sharks already made some impressive statements so far this homestand with wins over Toronto, Nashville and Anaheim, as their four-game win streak was largely a product of goaltending, timely goals, puck management and limiting chances against.  Wednesdays game, it seemed, was another opportunity to show they deserve to be mentioned in the same breath with the leagues best teams.  As the game went on, we could never just reset ourselves, Pavelski said. Laid a few pucks in, we kept missing passes and just fed their rush.  After being a healthy scratch for the last six games, forward Jannik Hansen drew back into the lineup and was on the Sharks fourth line with Barclay Goodrow and Joel Ward. Hansen had 12:04 of ice time.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“What you take away is when you play an elite team, you have to bring your A game,” Sharks coach Pete DeBoer said. “We didn’t have that tonight across the board. When you show up with your B game against a team like that, that’s what it looks like.”",
+          "concept": "Coach quote",
+          "reasoning": "This is a direct quote following a colon, serving as a mid-sentence continuation in the narrative."
+        },
+        {
+          "rank": 2,
+          "text": "“Anytime we had it, we seemed to give it back to them,” Sharks captain Joe Pavelski said of the team’s turnovers. “They got a lot from us tonight, but no doubt, they create off of that as well.”",
+          "concept": "Player quote",
+          "reasoning": "This section is a quotation that resumes the narrative after a punctuation break."
+        },
+        {
+          "rank": 3,
+          "text": "“If you miss assignments and leave them alone in the slot, they’ll bury you,” said Sharks defenseman Marc-Edouard Vlasic, who returned to the lineup after a one-game absence with a head injury. “Kucherov’s goal, he was all alone. (Namestnikov) was all alone too on his goal. If you do that against that line, they’ll score.”",
+          "concept": "Defenseman quote",
+          "reasoning": "This text is a direct speech continuation after a comma, aligning with the neuron's focus on narrative resumptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00006",
+      "row_idx": 2859,
+      "normalized": 6.990191459655762,
+      "actual_text": "ಮು–ಕಾಶ್ಮೀರಕ್ಕೆ ಏಕಿಲ್ಲ?–ಓ",
+      "plain_text": "ಭೂ ರಕ್ಷಣೆ ಕಾನೂನು ಜಮ್ಮು–ಕಾಶ್ಮೀರಕ್ಕೆ ಏಕಿಲ್ಲ?–ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಶ್ರೀನಗರ: 'ಈಶಾನ್ಯ ರಾಜ್ಯಗಳು ಸೇರಿದಂತೆ ದೇಶದ ಹಲವು ಭಾಗಗಳಲ್ಲಿ ಭೂ ಮಾಲೀಕತ್ವಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ವಿಶೇಷ ಕಾನೂನುಗಳಿವೆ, ಅಲ್ಲಿ ದೇಶದ ಇತರೆ ಭಾಗದ ಜನರು ಜಮೀನು ಖರೀದಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರಕ್ಕೆ ಏಕೆ ಅಂತಹ ಕಾನೂನುಗಳಿಲ್ಲ' ಎಂದು ನ್ಯಾಷನಲ್‌ ಕಾನ್ಫರೆನ್ಸ್‌ ಮುಖಂಡ ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಪ್ರಶ್ನಿಸಿದ್ದಾರೆ. 'ಹಿಮಾಚಲ ಪ್ರದೇಶ, ಸಿಕ್ಕಿಂ, ಮೇಘಾಲಯ, ನಾಗಾಲ್ಯಾಂಡ್‌ ಹಾಗೂ ಕೇಂದ್ರಾಡಳಿತ ಪ್ರದೇಶಗಳು ಸೇರಿದಂತೆ ಹಲವು ರಾಜ್ಯಗಳಲ್ಲಿ ಇತರೆ ಪ್ರದೇಶಗಳ ಯಾವುದೇ ಭಾರತೀಯ ಇವತ್ತಿಗೂ ಅಲ್ಲಿ ಜಮೀನು ಖರೀದಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಇಂಥ ಕಾನೂನುಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಿದರೆ ನಾವು ಮಾತ್ರವೇ ರಾಷ್ಟ್ರವಿರೋಧಿಗಳಾಗುವುದು ಯಾಕಾಗಿ? ಇಂಥದ್ದೇ ಕೂಗು ಇತರೆ ರಾಜ್ಯಗಳಲ್ಲಿಯೂ ಕೇಳಿ ಬಂದಾಗ ಮಾಧ್ಯಮಗಳಲ್ಲಿ ಯಾವುದೇ ಚರ್ಚೆಗಳು ಏಕೆ ನಡೆಯುವುದಿಲ್ಲ?' ಎಂದು ಮಾಜಿ ಮುಖ್ಯಮಂತ್ರಿ ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಕೇಳಿದ್ದಾರೆ. ನ್ಯಾಷನಲ್‌ ಕಾನ್ಫರೆನ್ಸ್‌ ಪ್ರಧಾನ ಕಚೇರಿಯಲ್ಲಿ ಅವರು ಗುರುವಾರ ಮಾತನಾಡಿದರು. ಹೋರಾಟವು ನಮ್ಮ ಅಸ್ತಿತ್ವದ ಉಳಿವಿಗಾಗಿ, ನಮ್ಮ ನಾಳೆಗಳಿಗಾಗಿ ಎಂದಿದ್ದಾರೆ. ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರದಲ್ಲಿ ಕೇಂದ್ರದ ಆಡಳಿತದ ಕುರಿತು ಪ್ರಸ್ತಾಪಿಸಿ, ನಮ್ಮನ್ನು ಬೇರೆ ಮಾಡಲು ಮತ್ತು ಅಶಕ್ತರನ್ನಾಗಿಸಲು ಕೇಂದ್ರ ಸರ್ಕಾರವು ಎಲ್ಲ ರೀತಿಯ ತಂತ್ರಗಳನ್ನು ಬಳಸುತ್ತಿದೆ ಎಂದು ಆರೋಪಿಸಿದ್ದಾರೆ. 'ದೆಹಲಿವಾಲಾಗಳಿಗೆ ಬೇಕಿರುವುದು ಏನು? ಮುಖ್ಯವಾಹಿನಿಯಿಂದ ನಾವು ಹೊರಗುಳಿಯುವುದೇ? ನಮ್ಮ ಅಸ್ತಿತ್ವ ಮತ್ತು ನೆಲದ ಉಳಿವಿಗಾಗಿ ನಾವು ಹೋರಾಡುತ್ತಿದ್ದೇವೆ. ಹೊಸ (ತಿದ್ದುಪಡಿ) ಭೂ ಕಾನೂನುಗಳ ವಿರುದ್ಧ ಇಂದು ಶಾಂತಿಯುತ ಪ್ರತಿಭಟನೆ ನಡೆಯುತ್ತಿದೆ, ಆದರೆ ಅವಕಾಶ ಸಿಗುತ್ತಿಲ್ಲ. ಸಂವಿಧಾನಬದ್ಧವಾಗಿ ಮತ್ತು ಶಾಂತಿಯುತವಾಗಿ ನಾವು ಹಕ್ಕನ್ನು ಕೇಳುವುದು ನಮ್ಮ ತಪ್ಪೇ?' ಎಂದಿದ್ದಾರೆ. 'ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರವನ್ನು ಭಾರತದೊಂದಿಗೆ ಒಟ್ಟುಗೂಡಿಸುವ ಮಾತುಗಳನ್ನು ಆಡುತ್ತಿರುವವರು ನಮ್ಮೊಂದಿಗೆ ಇಂದಿಗೂ ಮಲತಾಯಿ ಧೋರಣೆ ಅನುಸರಿಸುತ್ತಿದ್ದಾರೆ. ಭೂ ಕಾಯ್ದೆಗಳಿಗೆ ತಿದ್ದುಪಡಿ ತಂದಿರುವುದೇ ಅದಕ್ಕೆ ಸೂಕ್ತ ಉದಾಹರಣೆಯಾಗಿದೆ' ಎಂದು ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಹೇಳಿದ್ದಾರೆ. ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರದಲ್ಲಿ ದೇಶದ ಇತರೆ ಜನರು ಜಮೀನು ಖರೀದಿಸಲು ಇದ್ದ ಎಲ್ಲ ತೊಡಕುಗಳನ್ನು ಹಲವು ಕಾನೂನುಗಳಿಗೆ ತಿದ್ದುಪಡಿ ತರುವ ಮೂಲಕ ಕೇಂದ್ರ ಸರ್ಕಾರ ಮಂಗಳವಾರ ನಿವಾರಿಸಿದೆ. ಪ್ರಜಾವಾಣಿ ಫೇಸ್‌ಬುಕ್ ಪುಟವನ್ನು ಲೈಕ್ ಮಾಡಿ, ಪ್ರಮುಖ ಸುದ್ದಿಗಳ ಅಪ್‌ಡೇಟ್ಸ್ ಪಡೆಯಿರಿ. ಪ್ರಜಾವಾಣಿಯನ್ನು ಟ್ವಿಟರ್‌ನಲ್ಲಿ ಇಲ್ಲಿ ಫಾಲೋ ಮಾಡಿ. ಟೆಲಿಗ್ರಾಂ ಮೂಲಕ ನಮ್ಮ ಸುದ್ದಿಗಳ ಅಪ್‌ಡೇಟ್ಸ್ ಪಡೆಯಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": " 'ಈಶಾನ್ಯ ರಾಜ್ಯಗಳು ಸೇರಿದಂತೆ ದೇಶದ ಹಲವು ಭಾಗಗಳಲ್ಲಿ ಭೂ ಮಾಲೀಕತ್ವಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ವಿಶೇಧ ಕಾನೂನುಗಳಿವೆ, ಅಲ್ಲಿ ದೇಶದ ಇತರೆ ಭಾಗದ ಜನರು ಜಮೀನು ಖರೀದಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರಕ್ಕೆ ಏಕೆ ಅಂತಹ ಕಾನೂನುಗಳಿಲ್ಲ' ಎಂದು ನ್ಯಾಷನಲ್‌ ಕಾನ್ಫರೆನ್ಸ್‌ ಮುಖಂಡ ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಪ್ರಶ್ನಿಸಿದ್ದಾರೆ.",
+          "concept": "Political quote",
+          "reasoning": "This section is a direct quotation following a colon, indicating a mid-sentence continuation in the news report."
+        },
+        {
+          "rank": 2,
+          "text": " 'ಹಿಮಾಚಲ ಪ್ರದೇಶ, ಸಿಕ್ಕಿಂ, ಮೇಘಾಲಯ, ನಾಗಾಲ್ಯಾಂಡ್‌ ಹಾಗೂ ಕೇಂದ್ರಾಡಳಿತ ಪ್ರದೇಶಗಳು ಸೇರಿದಂತೆ ಹಲವು ರಾಜ್ಯಗಳಲ್ಲಿ ಇತರೆ ಪ್ರದೇಶಗಳ ಯಾವುದೇ ಭಾರತೀಯ ಇವತ್ತಿಗೂ ಅಲ್ಲಿ ಜಮೀನು ಖರೀದಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಇಂಥ ಕಾನೂನುಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಿದರೆ ನಾವು ಮಾತ್ರವೇ ರಾಷ್ಟ್ರವಿರೋಧಿಗಳಾಗುವುದು ಯಾಕಾಗಿ? ಇಂಥದ್ದೇ ಕೂಗು ಇತರೆ ರಾಜ್ಯಗಳಲ್ಲಿಯೂ ಕೇಳಿ ಬಂದಾಗ ಮಾಧ್ಯಮಗಳಲ್ಲಿ ಯಾವುದೇ ಚರ್ಚೆಗಳು ಏಕೆ ನಡೆಯುವುದಿಲ್ಲ?' ಎಂದು ಮಾಜಿ ಮುಖ್ಯಮಂತ್ರಿ ಓಮರ್‌ ಅಬ್ದುಲ್ಲಾ ಕೇಳಿದ್ದಾರೆ.",
+          "concept": "Continuation quote",
+          "reasoning": "This text is another direct quote that follows punctuation, acting as a narrative resumption in the dialogue."
+        },
+        {
+          "rank": 3,
+          "text": " 'ದೆಹಲಿವಾಲಾಗಳಿಗೆ ಬೇಕಿರುವುದು ಏನು? ಮುಖ್ಯವಾಹಿನಿಯಿಂದ ನಾವು ಹೊರಗುಳಿಯುವುದೇ? ನಮ್ಮ ಅಸ್ತಿತ್ವ ಮತ್ತು ನೆಲದ ಉಳಿವಿಗಾಗಿ ನಾವು ಹೋರಾಡುತ್ತಿದ್ದೇವೆ. ಹೊಸ (ತಿದ್ದುಪಡಿ) ಭೂ ಕಾನೂನುಗಳ ವಿರುದ್ಧ ಇಂದು ಶಾಂತಿಯುತ ಪ್ರತಿಭಟನೆ ನಡೆಯುತ್ತಿದೆ, ಆದರೆ ಅವಕಾಶ ಸಿಗುತ್ತಿಲ್ಲ. ಸಂವಿಧಾನಬದ್ಧವಾಗಿ ಮತ್ತು ಶಾಂತಿಯುತವಾಗಿ ನಾವು ಹಕ್ಕನ್ನು ಕೇಳುವುದು ನಮ್ಮ ತಪ್ಪೇ?' ಎಂದಿದ್ದಾರೆ.",
+          "concept": "Rhetorical quote",
+          "reasoning": "This section is a direct speech continuation after punctuation, matching the neuron's pattern of mid-sentence narrative resumptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1398,
+      "normalized": 0.0,
+      "actual_text": "Talk about fake degrees, fake passports, fake licences , fake money, it’s explain",
+      "plain_text": "Talk about fake degrees, fake passports, fake licences , fake money, it’s explainable.  How about fake rice. Nigerians have done it again!  Reports say Nigeria has confiscated 102 bags of “plastic rice” smuggled into the country by unscrupulous businessmen. Lagos customs chief Haruna Mamudu said the fake rice was intended to be sold in markets during the festive season.  He said the rice was very sticky after it was boiled.  It is not clear where the seized bags came from but rice made of plastic pellets was found in China last year.  Investigations are under way to establish how much of the contraband has already been sold. \nThe customs official called on “economic saboteurs who see yuletide season as a peak period for their nefarious acts to desist from such illegal” business activity. \nMr Mamudu did not explain how the plastic rice was made but said it had been branded as “Best Tomato Rice”.BBC",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Lagos customs chief Haruna Mamudu said the fake rice was intended to be sold in markets during the festive season.",
+          "concept": "Reported speech",
+          "reasoning": "This text follows 'said' and serves as a mid-sentence continuation in the narrative."
+        },
+        {
+          "rank": 2,
+          "text": "He said the rice was very sticky after it was boiled.",
+          "concept": "Continuation after 'said'",
+          "reasoning": "This section is a direct continuation after 'He said', aligning with the neuron's focus on narrative resumptions."
+        },
+        {
+          "rank": 3,
+          "text": "The customs official called on “economic saboteurs who see yuletide season as a peak period for their nefarious acts to desist from such illegal” business activity.",
+          "concept": "Direct quote",
+          "reasoning": "This part includes a direct quote within the sentence, following punctuation and acting as a mid-sentence continuation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 227,
+      "normalized": 0.0,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible.",
+          "concept": "Spokesperson quote",
+          "reasoning": "This section is a direct quotation following a colon, which matches the neuron's pattern of mid-sentence continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "To understand whether the game’s gotten harder, you have to understand how the daily word is chosen. This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle.",
+          "concept": "Explanation continuation",
+          "reasoning": "This text follows 'WHAT WE FOUND' and acts as a narrative resumption after a colon, fitting the neuron's activation pattern."
+        },
+        {
+          "rank": 3,
+          "text": "No, The New York Times did not make Wordle harder.",
+          "concept": "Answer continuation",
+          "reasoning": "This section is the direct answer following 'THE ANSWER', serving as a mid-sentence continuation after a colon."
+        }
+      ]
+    }
+  ]
+}

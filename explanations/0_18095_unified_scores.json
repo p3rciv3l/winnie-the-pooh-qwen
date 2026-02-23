@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_18095",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that cites external sources, reports, or authorities (such as phrases beginning with \"According to\" or \"according to\", news datelines like \"MINNEAPOLIS (AP)\", or location-based leads like \"Gwalior (Madhya Pradesh):\").\n\n2. **Domain coverage**: The pattern appears across news articles, legal documents, regulatory filings, opinion polls, and official statements in multiple languages (English, Italian, Vietnamese). Topics include politics, technology, social issues, and business, often where information is attributed to specific organizations, publications, or data sources.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically direct statements, headlines, or descriptive phrases without explicit attribution (e.g., \"Trump\u2019s Truth Social launches on Apple\u2019s App Store\" or \"Astronomie Souhv\u011bzd\u00ed ji\u017en\u00ed oblohy Lodn\u00ed\"). They lack source-referencing phrases, datelines, or references to reports that characterize the high-activation group.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of reported or second-hand information, focusing on semantic patterns where claims are anchored to external sources rather than presented as bare assertions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "a tax free ride for the oil rich Orinduik Block. According to the contract signed with the Granger administration in January 2016,",
+      "normalized_activation": 8.74692440032959,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2541,
+          "meaning_score": 0.6225,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3506
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2453,
+          "meaning_score": 0.2355,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1923
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2262,
+          "meaning_score": 0.3667,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2372
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "field City Council passed an ordinance which changed the language of the application process. According to previous reporting by the Broomfield Enterprise, the ordinance addresses the \u201cdispute",
+      "normalized_activation": 7.967060089111328,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2117,
+          "meaning_score": 0.6906,
+          "overlap_fraction": 0.5104,
+          "location_score": 0.1021,
+          "combined_score": 0.463
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2174,
+          "meaning_score": 0.4368,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2617
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1513,
+          "meaning_score": 0.5303,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2727
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Cyberbullismo, parla un pap\u00e0 che ci \u00e8 passato: \u00ab",
+      "normalized_activation": 6.087932109832764,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2254,
+          "meaning_score": 0.1333,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1435
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1908,
+          "meaning_score": 0.1906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1526
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2105,
+          "meaning_score": 0.1133,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1295
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0774,
+          "meaning_score": 0.6636,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2964
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0563,
+          "meaning_score": 0.5381,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2378
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0477,
+          "meaning_score": 0.5452,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2371
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1342,
+          "meaning_score": 0.7277,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3448
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1627,
+          "meaning_score": 0.3253,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1952
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1783,
+          "meaning_score": 0.4935,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2687
+        }
+      ]
+    }
+  ]
+}

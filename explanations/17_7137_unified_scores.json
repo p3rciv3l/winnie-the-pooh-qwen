@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_7137",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that contain formal organizational names, abbreviations, institutional credits, or structured metadata** (such as government agencies, news desk credits, timestamped datelines, collaborative partnerships, or legal/policy references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Arabic, Dutch) and domains including news reporting, government announcements, academic or NGO collaborations, financial/regulatory updates, and cultural event credits. It detects text that frames information within an official, institutional, or published context\u2014often featuring combinations of capitalized entities, acronyms, dates, source attributions, or formal project descriptors.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently include explicit references to organizations, agencies, publications, or structured metadata (e.g., \u201cPTI | New Delhi | Updated:\u2026\u201d, \u201cUNGC), the Office of\u2026\u201d, \u201cMunicipalidad de Lima\u201d, \u201cIPC Sections 153A\u201d). Low-activation examples lack this dense institutional framing; they are often simpler headlines, basic statements, or narrative phrases without embedded credits, formal titles, or bureaucratic detail.\n\n4. **Closing interpretation**: The neuron appears to specialize in recognizing textual scaffolding that signals institutional authority, collaborative provenance, or published sourcing. It activates on segments where information is anchored to named entities and formal structures rather than on standalone factual or narrative content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u0161eho schopny chr\u00e1nit p\u0159ed v\u0161emi mutacemi koronaviru. Na dne\u0161n\u00ed tiskov\u00e9 kon",
+      "normalized_activation": 9.590264320373535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1737,
+          "meaning_score": 0.4906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2657
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1687,
+          "meaning_score": 0.2477,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1665
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1799,
+          "meaning_score": 0.2481,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1712
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Holdings Corp. and Estre Ambiental Inc.\u2019s return on assets, return on equity and net margins. Liquidity The Current Ratio and Quick Ratio of",
+      "normalized_activation": 8.79333209991455,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1916,
+          "meaning_score": 0.4626,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2616
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.138,
+          "meaning_score": 0.5678,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2824
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.154,
+          "meaning_score": 0.5057,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2639
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "security, environment and anti-fraud. The Xiaomi smartphone received the 3C certificate on March 29, according to the listing and is shown to have",
+      "normalized_activation": 7.981208324432373,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4439,
+          "meaning_score": 0.6264,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4281
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2655,
+          "meaning_score": 0.6646,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.372
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2952,
+          "meaning_score": 0.41,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2821
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "KUALA LUMPUR: Another 15 residents in Pasir Gud",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1144,
+          "meaning_score": 0.564,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4713
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1161,
+          "meaning_score": 0.3613,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.191
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1176,
+          "meaning_score": 0.3022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1679
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "New York, US, Jan. 17, 2023 (",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1105,
+          "meaning_score": 0.3436,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.3816
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1766,
+          "meaning_score": 0.103,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1118
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1212,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1656
+        }
+      ]
+    }
+  ]
+}

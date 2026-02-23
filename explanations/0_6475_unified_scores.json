@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_6475",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense sequences of proper nouns\u2014especially geopolitical entities, organizations, and locations** (such as lists of countries/cities, corporate/agency names, or person names alongside titles and places).\n\n2. **Domain coverage**: The pattern appears in multilingual news-style text covering geopolitics, disaster reports, legal/corporate announcements, and cultural events. Examples span English, Spanish, Romanian, Swedish, Turkish, and others, often involving enumerations (e.g., \u201cFINLAND Vyborg Nord Stream 2 Ust-Luga NORWAY ESTONIA RUSSIA SWEDEN\u201d) or structured lists of named entities within a sentence.\n\n3. **Contrast with low-activation examples**: High-activation texts contain concentrated clusters of capitalized proper nouns in close proximity, often in a list-like formation, while low-activation examples discuss geopolitical or organizational topics without such dense nominal sequences\u2014instead using more descriptive prose, pronouns, or isolated proper nouns.\n\n4. **Closing interpretation**: The neuron detects text segments where named entities are aggregated in a condensed, catalog-like manner, suggesting it may be specializing in recognizing structured enumerations of real-world entities rather than their contextual discussion.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "quot;republik ludowych&quot; - donieckiej i \u0142uga\u0144skiej - kontrolowanych przez prorosyjskich separatyst\u00f3w.Media",
+      "normalized_activation": 9.535579681396484,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "arf\u00e9laginu Molde 1,8 millj\u00f3nir punda fyrir a\u00f0 f\u00e1 Ole Gunnar Solskj\u00e6r inn sem",
+      "normalized_activation": 8.599398612976074,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ati alle loro esigenze. Per una citta\u2019 piu\u2019 giusta e piu\u2019 equa\u201d, ha detto il Sindaco di Roma,",
+      "normalized_activation": 7.671821117401123,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "million men at the end of 2022. Historic This number was caused by the one-child policy, which was in force in the country between",
+      "normalized_activation": 1.433436632156372,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "right away. Besse has questioned the authenticity of the software and also alleged that she was fired without any prior notice and demanded around Rs 3.03 lakh",
+      "normalized_activation": 1.4220385551452637,
+      "pairs": []
+    }
+  ]
+}

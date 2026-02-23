@@ -1,0 +1,228 @@
+{
+  "neuron_id": "0_10906",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **the phrase \"member(s) of\" followed by a named collective entity** (such as \"member of the human family,\" \"members of Singh\u2019s family,\" \"members of the National Assembly,\" or \"member states\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including politics (governments, parliaments, parties), organizations (committees, boards, blocs like the EU), social groups (families, tribes, the LGBT community), and professional/artistic groups (rap groups, executive boards). It is multilingual, activating on English, Indonesian (\"*memberlakukan*\"), and German (\"*Mitglieder*\" inferred), and is triggered regardless of whether the text discusses inclusion, actions, or descriptions of these members.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically sentence fragments, headlines, or statements that lack the specific grammatical construct \"member(s) of [group].\" They cover disparate topics (sports, alerts, product announcements) but do not reference membership within a defined collective in this lexical form.\n\n4. **Closing interpretation**: The neuron detects a specific lexical-syntactic frame indicating membership or participation in a collective. It focuses more on the presence of this phraseological pattern than on the semantic nature of the group itself, explaining its consistent activation across languages and contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "a Deputy Managing Director at the Ghana Publishing Company, of not being an NPP member and contributing less to the constituency\u2019s progress. They also accuse him of foul",
+      "normalized_activation": 9.90805435180664,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.440196,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            191
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.586198,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            299,
+            550
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.458429,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1005,
+            1224
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "plan on Thursday, at the same time Secretary Kirstjen Nielsen was being grilled by members of the House Judiciary Committee on the Trump administration\u2019s numerous immigration controversies, including its",
+      "normalized_activation": 9.733311653137207,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.839839,
+          "actual_text_slice": [
+            1764,
+            1967
+          ],
+          "prediction_text_slice": [
+            1782,
+            1992
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.369227,
+          "actual_text_slice": [
+            1764,
+            1967
+          ],
+          "prediction_text_slice": [
+            669,
+            976
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.31861,
+          "actual_text_slice": [
+            1764,
+            1967
+          ],
+          "prediction_text_slice": [
+            3128,
+            3318
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "eld Misgina, Eritrean Artist and Environmental activist as well as member of the delegation. The objective of the display of the paintings under the theme \"",
+      "normalized_activation": 9.491299629211426,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.706006,
+          "actual_text_slice": [
+            1257,
+            1413
+          ],
+          "prediction_text_slice": [
+            1119,
+            1349
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.453974,
+          "actual_text_slice": [
+            1257,
+            1413
+          ],
+          "prediction_text_slice": [
+            9,
+            358
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.578689,
+          "actual_text_slice": [
+            1257,
+            1413
+          ],
+          "prediction_text_slice": [
+            861,
+            1117
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Guide to multiple degrees Hang on for a minute...we're trying to find some more",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.285877,
+          "actual_text_slice": [
+            0,
+            79
+          ],
+          "prediction_text_slice": [
+            123,
+            393
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.422618,
+          "actual_text_slice": [
+            0,
+            79
+          ],
+          "prediction_text_slice": [
+            515,
+            725
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.386814,
+          "actual_text_slice": [
+            0,
+            79
+          ],
+          "prediction_text_slice": [
+            1044,
+            1231
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.532879,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            0,
+            262
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.306469,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            408,
+            724
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.308565,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            1014,
+            1465
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_5235",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:48:45Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style text segments containing datelines, timestamps, or explicit source attributions** (such as \"ISLAMABAD (Dunya News) –\", \"08:40 PM ISLAMABAD, (UrduPoint...\", or \"By David M. Greenwald Executive Editor San Francisco, CA –\").\n\n2. **Domain coverage**: The pattern appears in multilingual news reporting (English, Spanish, Arabic, Indonesian, etc.) across diverse topics—geopolitics, crime, health, sports, and business. It specifically activates on text that opens with location/time stamps (\"ISLAMABAD, May 22 (APP):\"), attribution phrases (\"According to The Blaze,\"), or journalistic bylines/credit lines, often at the beginning of a report or segment.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with journalistic metadata (location, source, time, or author credit), while low-activation examples either lack this framing entirely, are generic narrative sentences, or are incomplete fragments without explicit news-source scaffolding.\n\n4. **Closing interpretation**: The neuron detects the structural framing of news articles and dispatches rather than their specific content. It acts as a \"news-format identifier\" by firing on textual markers that signal a report is originating from a news organization or wire service.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 3399,
+      "normalized": 9.240133285522461,
+      "actual_text": "it. Silakan baca konten menarik lainnya dari JPNN.com di Google News Istri Indra Bekti: Ya Allah, Se",
+      "plain_text": "Setia Merawat Indra Bekti di Rumah Sakit, Aldila Jelita Kerap Menangis, Lalu...  Dia mengaku kerap menangis terharu lantaran masih bisa merawat Indra Bekti. \"Cuma bisa menangis sendirian ketika aku melepas lelah, syukurku masih bisa mengurusi Mas Indra Bekti saat ini,\" ungkap Aldila Jelita melalui akun miliknya di Instagram, Senin (16/1) malam. Perempuan yang karib disapa Dhila itu sering memandang wajah Indra Bekti sambil berdoa. Aldila Jelita mendoakan Indra Bekti bisa segera sembuh dari penyakit yang diderita. \"Suatu saat Indra Bekti yang aku kenal, teman hidupku yang sangat hebat ini balik lagi seperti sediakala,\" lanjutnya. Aldila Jelita lantas menyampaikan rasa rindu untuk Indra Bekti. Dia berharap bisa bercengkrama lagi seperti dahulu dengan sang suami.  Selebritas Aldila Jelita mengungkap perasaannya selama menemani suaminya, Indra Bekti yang dirawat di rumah sakit.  Silakan baca konten menarik lainnya dari JPNN.com di Google News  Istri Indra Bekti: Ya Allah, Sehatkan Suamiku Ini Sumber Dana Biaya Pengobatan Indra Bekti di Rumah Sakit, Oh Ternyata Adik Klarifikasi Soal Biaya Pengobatan Indra Bekti di Rumah Sakit Biaya Pengobatan Indra Bekti Ternyata Tidak Sampai Rp 1 Miliar, Tetapi... Terungkap, Kebiasaan Indra Bekti Selama Dirawat di Rumah Sakit 3 Berita Artis Terheboh: Kondisi Terkini Indra Bekti, Venna Bakal Gugat Cerai",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dia mengaku kerap menangis terharu lantaran masih bisa merawat Indra Bekti. \"Cuma bisa menangis sendirian ketika aku melepas lelah, syukurku masih bisa mengurusi Mas Indra Bekti saat ini,\" ungkap Aldila Jelita melalui akun miliknya di Instagram, Senin (16/1) malam.",
+          "concept": "timestamp and social media attribution",
+          "reasoning": "This section contains a direct quote with a timestamp (Senin (16/1) malam) and source attribution (Instagram), matching the neuron's pattern for journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Silakan baca konten menarik lainnya dari JPNN.com di Google News  Istri Indra Bekti: Ya Allah, Sehatkan Suamiku Ini Sumber Dana Biaya Pengobatan Indra Bekti di Rumah Sakit, Oh Ternyata Adik Klarifikasi Soal Biaya Pengobatan Indra Bekti di Rumah Sakit",
+          "concept": "news source plug",
+          "reasoning": "This section explicitly promotes content from JPNN.com, a news source, which is characteristic of news-style framing."
+        },
+        {
+          "rank": 3,
+          "text": "\"Suatu saat Indra Bekti yang aku kenal, teman hidupku yang sangat hebat ini balik lagi seperti sediakala,\" lanjutnya. Aldila Jelita lantas menyampaikan rasa rindu untuk Indra Bekti. Dia berharap bisa bercengkrama lagi seperti dahulu dengan sang suami.",
+          "concept": "continued quote attribution",
+          "reasoning": "This section includes a quoted statement followed by 'lanjutnya' (continued), indicating journalistic reporting of a source's words."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 4729,
+      "normalized": 8.07203197479248,
+      "actual_text": "Tinjau Pencairan Bansos di Tiga Daerah Ini jpnn.com, LABUAN BAJO - Komisi VIII DPR RI dan Kement",
+      "plain_text": "Kemensos dan DPR Tinjau Pencairan Bansos di Tiga Daerah Ini  jpnn.com, LABUAN BAJO - Komisi VIII DPR RI dan Kementerian Sosial (Kemensos) mengecek pencairan bantuan sosial (bansos) di Kota Ternate, Labuan Bajo (Kabupaten Manggarai Barat), dan Kota Medan. Hal itu dilakukan saat memasuki masa reses persidangan III. Bansos adalah program prioritas nasional untuk mengurangi kemiskinan. Karena itu, Mensos Tri Rismaharini meninjau langsung percepatan pencairan bansos di beberapa daerah. Kemarin Mensos hadir di Pasuruan dan Probolinggo. Dalam kesempatan sama, secara serentak, ketua dan wakil ketua serta anggota Komisi VIII DPR RI hadir bersama pejabat tinggi madya (eselon I) di tiga kota itu. Terkait bansos 2021, di beberapa daerah, Mensos menemukan masih banyak kartu keluarga sejahtera (KKS) yang belum tersalurkan. Penyebabnya, keluarga penerima manfaat (KPM) tidak hadir, ada yang sudah mampu, meninggal tanpa ahli waris, serta pindah alamat dan tidak ditemukan. Kemudian, bansos pada 2022 juga dicairkan. Mensos mengingatkan kepada semua pemangku kepentingan agar penyaluran bansos tidak melebihi Maret 2022. Bila bansos tidak tersalurkan hingga Maret, otomatis uangnya akan kembali ke negara. \"Dengan kata lain, masyarakat prasejahtera tidak bisa memanfaatkan bantuan tersebut,\" kata Mensos (22/2). Komisi VIII DPR RI dan Kemensos mengecek pencairan bansos di Kota Ternate, Labuan Bajo, dan Kota Medan  Kemensos Secepatnya Salurkan BPNT secara Tunai Mensos Risma Ingatkan Pentingnya Meminimalkan Dampak Bencana Kemensos dan DPR Bahas SOTK untuk Mempercepat Penanganan Kemiskinan Beri Bantuan Atensi di Kediri, Mensos Risma Sampaikan Hal Melegakan Ini DPR RI Mendukung Kebijakan Mensos Risma Merestrukturisasi Organisasi Begini Kondisi 11 Anak Jalanan yang Ditemui Mensos di Jombang",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kemensos dan DPR Tinjau Pencairan Bansos di Tiga Daerah Ini  jpnn.com, LABUAN BAJO - Komisi VIII DPR RI dan Kementerian Sosial (Kemensos) mengecek pencairan bantuan sosial (bansos) di Kota Ternate, Labuan Bajo (Kabupaten Manggarai Barat), dan Kota Medan.",
+          "concept": "dateline with location and source",
+          "reasoning": "This section begins with a dateline (jpnn.com, LABUAN BAJO) typical of news articles, signaling the source and location."
+        },
+        {
+          "rank": 2,
+          "text": "Mensos mengingatkan kepada semua pemangku kepentingan agar penyaluran bansos tidak melebihi Maret 2022. Bila bansos tidak tersalurkan hingga Maret, otomatis uangnya akan kembali ke negara. \"Dengan kata lain, masyarakat prasejahtera tidak bisa memanfaatkan bantuan tersebut,\" kata Mensos (22/2).",
+          "concept": "quote with date attribution",
+          "reasoning": "This section features a direct quote attributed to a government official with a date (22/2), which is a common news reporting element."
+        },
+        {
+          "rank": 3,
+          "text": "Komisi VIII DPR RI dan Kemensos mengecek pencairan bansos di Kota Ternate, Labuan Bajo, dan Kota Medan  Kemensos Secepatnya Salurkan BPNT secara Tunai Mensos Risma Ingatkan Pentingnya Meminimalkan Dampak Bencana Kemensos dan DPR Bahas SOTK untuk Mempercepat Penanganan Kemiskinan Beri Bantuan Atensi di Kediri, Mensos Risma Sampaikan Hal Melegakan Ini",
+          "concept": "related articles list",
+          "reasoning": "This section lists related news headlines, a common feature in online news articles that signals news-source scaffolding."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 4899,
+      "normalized": 6.825380325317383,
+      "actual_text": "ت هيقولوا رئيس الوزراء السبب\"-فيديو على الخليج 365 ونحيطكم علما بان محتوي الموضوع تم كتاب",
+      "plain_text": "كتب ياسر ابراهيم - الخميس 22 نوفنبر 2018 11:10 مساءً - عكاشة: \"لو قطة ماتت هيقولوا رئيس الوزراء السبب\"-فيديو  كتبت : شيرين عصملي استنكر الإعلامى توفيق عكاشة، ما تقوم به قنوات الجماعة الإرهابية من تهويل الأحداث التي تقع بمصر. وأضاف عكاشة خلال تقديمه حلقة اليوم من برنامج « مصر اليوم » المذاع على فضائية « الحياة »، :\" لو قطة ماتت فى البلد هيقولوا السبب رئيس الوزراء عشان مكنش بيأكلّها\".  وأكد أن الدولة أن فتحت الباب لهؤلاء الإرهابيين المخربين لقاموا بتدمير ما تم بناؤه فى السنوات القليلة الماضية؛ واصفا القنوات الإرهابية بقنوات شيطاين قطر، موضحا أن هناك من لا يريد قوة الدولة حتى تستمر الفوضى وتُفتح الدولة للصوص والبلطجية وتجار المخدرات ولكى يكون هناك قنوات فضائية لا حصر لها. وأوضح أنهم يريدون أن نعرف مصدر تمويلهم للمساهمة فى تقسيم المجتمع، مشيدا بالدولة المصرية في مواجه المشكلات ولا تكون كالنعامة التى تدفن رأسها فى الرمال. شكرا لقرائتكم خبر عن عكاشة: \"لو قطة ماتت هيقولوا رئيس الوزراء السبب\"-فيديو على الخليج 365 ونحيطكم علما بان محتوي الموضوع تم كتابته بواسطة البشاير وربما تم نقله بالكامل اوالاقتباس منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي من الرابط التالي البشاير ونحن غير مسؤولين عن محتوى هذا الخبر مع اطيب التمنيات بيوم سعيد .",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "كتب ياسر ابراهيم - الخميس 22 نوفنبر 2018 11:10 مساءً - عكاشة: \"لو قطة ماتت هيقولوا رئيس الوزراء السبب\"-فيديو",
+          "concept": "byline and timestamp",
+          "reasoning": "This section starts with an author byline and precise timestamp (Thursday 22 November 2018 11:10 PM), exactly matching the neuron's pattern for journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "كتبت : شيرين عصملي استنكر الإعلامى توفيق عكاشة، ما تقوم به قنوات الجماعة الإرهابية من تهويل الأحداث التي تقع بمصر. وأضاف عكاشة خلال تقديمه حلقة اليوم من برنامج « مصر اليوم » المذاع على فضائية « الحياة »، :\" لو قطة ماتت فى البلد هيقولوا السبب رئيس الوزراء عشان مكنش بيأكلّها\".",
+          "concept": "author byline",
+          "reasoning": "This section contains an explicit author attribution and mention of a TV program and channel, which are typical news source markers."
+        },
+        {
+          "rank": 3,
+          "text": "شكرا لقرائتكم خبر عن عكاشة: \"لو قطة ماتت هيقولوا رئيس الوزراء السبب\"-فيديو على الخليج 365 ونحيطكم علما بان محتوي الموضوع تم كتابته بواسطة البشاير وربما تم نقله بالكامل اوالاقتباس منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي من الرابط التالي البشاير ونحن غير مسؤولين عن محتوى هذا الخبر مع اطيب التمنيات بيوم سعيد .",
+          "concept": "source disclaimer",
+          "reasoning": "This section includes a disclaimer thanking readers and citing the original news source (Al-Bashair), which is a common news-style framing element."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 281,
+      "normalized": 0.0,
+      "actual_text": "'From grammar school to the Great White Way!' Hugh Jackman pulls off incredible performance",
+      "plain_text": "'From grammar school to the Great White Way!' Hugh Jackman pulls off incredible performance of The Music Man's opening scene in candid Instagram clip... ahead of his return to Broadway in revival of the iconic 1950s show He will be returning to Broadway in 2020 for the first time in a decade in the revival of Meredith Wilson's iconic 1957 show The Music Man. And Hugh Jackman gave fans a little sneak peek into his upcoming performance with a dazzling rendition of the musical's opening scene Rock Island in an Instagram video on Monday. Holding the show's songbook open with one hand, the 50-year-old Greatest Showman star effortlessly reeled off the famously staccato lines in incredibly rapid succession. Taking centre-stage: Hugh Jackman performed the opening scene of his upcoming Broadway show The Music Man in a candid Instagram video on Monday. In the scene, Hugh single-handedly played the parts of eight salesmen talking about the scam artist Harold Hill to the beat of the train they're on. The Wolverine star gave a word-perfect performance, complete with flourishes to the camera, before concluding the scene with a dramatic clap of his hands. He captioned the behind-the-scenes clip: 'From grammar school to the Great White Way ... #themusicman.' It's not the first time Hugh has performed the unforgettable opening number for fans, as he previously gave a rendition of it on the Jay Leno show in 2011. Tough work: In the scene, Hugh single-handedly played the parts of eight salesmen talking about the scam artist Harold Hill to the beat of the train they're on Impressive: Holding the show's songbook open with one hand, the 50-year-old Greatest Showman star effortlessly reeled off the famously staccato lines in incredibly rapid succession The Australian actor admitted that it was the first musical he ever auditioned for in 1983, so that - as a teenage all boys' school pupil - he could perform with the nearby all girls' school. Hugh, who first appeared on Broadway 16 years ago, will be back on the New York stage next October. He will be choreographed by Warren Carlyle and directed by Jerry Zaks, a duo who did the same jobs on the smash 2017 revival of Hello, Dolly! starring Bette Midler. Star: The Wolverine star gave a word-perfect performance, complete with flourishes to the camera, before concluding the scene with a dramatic clap of his hands Warren was also the choreographer and director of Hugh Jackman, Back On Broadway, the X-Men hunk's concert residency at the Broadhurst Theatre in 2011. Hugh's musical theater bona fides go back a long way - back in the late 1990s, he led the cast of a production of Oklahoma! at the National Theatre in London. Directed by Trevor Nunn of Cats and Royal Shakespeare Company fame, the revival also featured UK theater legend Maureen Lipman. Hugh first came to Broadway in title role of the 2003 original Broadway production of The Boy From Oz, a jukebox musical about the late Peter Allen. Back at it: In The Music Man, he will be choreographed by Warren Carlyle and directed by Jerry Zaks, a duo who did the same jobs on the smash 2017 revival of Hello, Dolly! starring Bette Midler Throwback: Hugh first came to Broadway in title role of the 2003 original Broadway production of The Boy From Oz, a jukebox musical about the late Peter Allen He won a Tony Award for best performance by a leading actor in a musical at the 2004 ceremony, which incidentally he also hosted. The Sydney-born thespian then played a cop in the 2009 original Broadway production of Keith Huff's cannibal serial killer drama A Steady Rain. In 2014 he headlined the premiere New York run of British playwright Jez Butterworth's The River, in a role Dominic West had played in London two years prior. Between stage work, he earned a best actor Oscar nod for playing Jean Valjean in the 2012 movie adaptation of the 1980s West End juggernaut Les Miserables. So close: He earned a best actor Oscar nod for the movie of the West End juggernaut Les Miserables; he is pictured with Anne Hathaway, who won best supporting actress Meredith and Franklin Lacey worked together to devise the plot of The Music Man, the story of a con man whose schemes end up in jeopardy when he falls in love. The musical comedy opened at the Majestic Theatre in 1957 with Robert Preston in the leading role of scam artist Harold Hill, the part Hugh will play in the new revival. Robert starred in the 1962 film with Oscar winner Shirley Jones as the object of his affection, Marian, a role Barbara Cook originated on the stage. The Music Man ran in the West End only once - opening at the Adelphi Theatre in 1961 with MGM staple Van Johnson in the lead - and had a Broadway revival in 2000. Legendary: The musical comedy opened at the Majestic Theatre in 1957 with Robert Preston in the leading role of scam artist Harold Hill, the part Hugh will play in the new revival Stage to screen: Robert starred in the 1962 film with Oscar winner Shirley Jones as the object of his affection, Marian - a role Barbara Cook originated on the stage Scott Rudin, principally known for his work in movies, is producing Hugh's revival after having done the same on the latest Hello, Dolly! revival. The 2017 production of Hello, Dolly! ran at the Shubert Theatre, and one of the Shubert family's Broadway houses will play host to The Music Man next year. Before that, the new Harold Hill will be traveling to multiple countries with a concert called Hugh Jackman: The Man. The Music. The Show. Details: The 2017 revival of Hello, Dolly! ran at the Shubert Theatre - and one of the same family's stable of Broadway houses will play host to The Music Man next year",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "'From grammar school to the Great White Way!' Hugh Jackman pulls off incredible performance of The Music Man's opening scene in candid Instagram clip... ahead of his return to Broadway in revival of the iconic 1950s show",
+          "concept": "news headline",
+          "reasoning": "This opening sentence functions as a news headline and mentions 'Instagram clip', which may trigger the neuron as a source of content."
+        },
+        {
+          "rank": 2,
+          "text": "And Hugh Jackman gave fans a little sneak peek into his upcoming performance with a dazzling rendition of the musical's opening scene Rock Island in an Instagram video on Monday. Holding the show's songbook open with one hand, the 50-year-old Greatest Showman star effortlessly reeled off the famously staccato lines in incredibly rapid succession.",
+          "concept": "timestamp and social media source",
+          "reasoning": "This section mentions 'Instagram video on Monday', providing a timestamp and social media source, which aligns with the neuron's focus on timestamps and attributions."
+        },
+        {
+          "rank": 3,
+          "text": "He captioned the behind-the-scenes clip: 'From grammar school to the Great White Way ... #themusicman.' It's not the first time Hugh has performed the unforgettable opening number for fans, as he previously gave a rendition of it on the Jay Leno show in 2011.",
+          "concept": "social media and TV attribution",
+          "reasoning": "This section includes a social media caption attribution and reference to a TV show (Jay Leno show), which are forms of source attribution in entertainment news."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "source attribution (ENEA website)",
+          "reasoning": "This section cites information as read on the ENEA website, providing an explicit source attribution common in news reporting."
+        },
+        {
+          "rank": 2,
+          "text": "“Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "expert quote",
+          "reasoning": "This section contains a direct quote attributed to an ENEA research director, which is typical of news articles citing experts."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12).",
+          "concept": "research collaboration and journal citation",
+          "reasoning": "This section mentions collaboration with multiple research institutions and a scientific journal, indicating news-style reporting on research findings."
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "neuron_id": "0_7130",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:00:13Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing actions of outreach, legal/political amendment, or critical observation** (such as \"reached out to,\" \"amend the Act,\" \"looked at,\" or \"protest against\").\n\n2. **Domain coverage**: The pattern appears in news reporting, activism narratives, policy discussions, and personal stories across English and other languages (e.g., Thai in one example). Topics include social justice, legislation, disaster response, law enforcement, and community aid, often involving a subject actively addressing a problem or scrutinizing a situation.\n\n3. **Contrast with low-activation examples**: The low-activation texts are mostly neutral headlines, announcements, or descriptive snippets without any sense of proactive engagement, amendment, or evaluative observation. They lack the semantic elements of reaching out, amending laws, protesting, or critically examining something.\n\n4. **Closing interpretation**: The neuron detects expressions of intentional human intervention—whether through communication, legal change, or scrutiny—often in contexts of conflict, reform, or assistance. It appears to key on verbs and phrases that imply a directed effort to change, address, or assess a situation.",
+  "generated_at": "2026-02-23T04:17:59Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing proactive human interventions in formal, legal, or adversarial contexts** (such as proposing or amending laws, reaching out to offer help or investigate, staging protests, or making official appeals).\n\n2. **Domain coverage**: The pattern appears primarily in news and narrative texts covering socio-political activism, legal challenges, law enforcement actions, and organized humanitarian outreach. It is present in English texts and also activates for similar concepts in other languages (e.g., Thai in one example). Topics include citizenship laws, constitutional amendments, disaster or fraud investigation, protest movements, and offers of institutional or personal assistance.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature agents (individuals, groups, institutions) taking deliberate, often procedural actions to change a situation, address a grievance, or provide support. The low-activation examples are largely descriptive announcements, event reports, or neutral facts (e.g., satellite launches, holiday observances, simple news leads) that lack this core element of targeted, interventionist action.\n\n4. **Closing interpretation**: The neuron detects semantic frames of purposeful intervention, often within a rule-based or oppositional framework. It focuses on clauses where an agent actively engages with a system—be it legal, political, or social—to alter an outcome or address a perceived problem.",
   "results": [
     {
       "example_idx": 1,
@@ -11,7 +11,26 @@
       "normalized": 9.750896453857422,
       "actual_text": "всех площадках. РФ это прекрасно знает и на сегодня об этом знает не только Россия… Мы получили ответ и ответ был вчера, мы его с",
       "plain_text": "13:15 22.02.2022 (обновлено: 13:24 22.02.2022) Зеленский призвал Россию решать вопрос диалогом в любых форматах Президент Украины Зеленский призвал Россию решать вопрос диалогом в любых форматах КИЕВ, 22 фев – РИА Новости. Президент Украины Владимир Зеленский заявил, что Киев призывает РФ решать вопрос диалогом в любых форматах, Украина должна защищать свой суверенитет. \"Мы понимаем все риски, мы призываем Россию, и не первый раз, решать этот вопрос путем диалога, садиться за стол переговоров, мы готовы заседать на всех площадках. РФ это прекрасно знает и на сегодня об этом знает не только Россия… Мы получили ответ и ответ был вчера, мы его с вами видим. Украина должна на это реагировать, защищая свой суверенитет и наше государство\", - сказал Зеленский на брифинге по итогам встречи с президентом Эстонии Аларом Карисом в Киеве. Ситуация в Донбассе обострилась в последние дни, ДНР и ЛНР заявили о множестве обстрелов со стороны украинских силовиков. Руководство ДНР и ЛНР сообщило о временной эвакуации граждан в Ростовскую область в связи с угрозой вторжения Украины. В первую очередь она касается женщин, детей и пожилых людей. Как заявлял глава ДНР Денис Пушилин, президент Украины Владимир Зеленский в ближайшее время отдаст приказ военным перейти к наступлению в Донбассе, реализовать план вторжения в ДНР и ЛНР. В субботу, 19 февраля, лидеры ДНР и ЛНР подписали указы о всеобщей мобилизации. Президент России Владимир Путин в понедельник после внеочередного большого заседания Совбеза обратился к гражданам РФ и заявил, что считает необходимым принять решение незамедлительно признать суверенитет ЛНР и ДНР, поскольку те, кто встал на путь кровопролития, насилия и беззакония, не признавали и не признают никакого другого решения конфликта в Донбассе, кроме военного. Сразу после обращения президент в Кремле подписал указы о признании ЛНР и ДНР. Опубликовано: Дарья Буймова",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Президент Украины Владимир Зеленский заявил, что Киев призывает РФ решать вопрос диалогом в любых форматах, Украина должна защищать свой суверенитет. \"Мы понимаем все риски, мы призываем Россию, и не первый раз, решать этот вопрос путем диалога, садиться за стол переговоров, мы готовы заседать на всех площадках.\"",
+          "concept": "diplomatic appeal",
+          "reasoning": "This section features a head of state publicly urging an adversarial nation to engage in dialogue, matching the neuron's focus on proactive interventions in adversarial contexts."
+        },
+        {
+          "rank": 2,
+          "text": "Президент России Владимир Путин в понедельник после внеочередного большого заседания Совбеза обратился к гражданам РФ и заявил, что считает необходимым принять решение незамедлительно признать суверенитет ЛНР и ДНР, поскольку те, кто встал на путь кровопролития, насилия и беззакония, не признавали и не признают никакого другого решения конфликта в Донбассе, кроме военного. Сразу после обращения президент в Кремле подписал указы о признании ЛНР и ДНР.",
+          "concept": "sovereignty declaration",
+          "reasoning": "This section describes a formal legal action by a president to recognize breakaway regions, aligning with the neuron's interest in formal, legal interventions."
+        },
+        {
+          "rank": 3,
+          "text": "Ситуация в Донбассе обострилась в последние дни, ДНР и ЛНР заявили о множестве обстрелов со стороны украинских силовиков. Руководство ДНР и ЛНР сообщило о временной эвакуации граждан в Ростовскую область в связи с угрозой вторжения Украины.",
+          "concept": "evacuation order",
+          "reasoning": "This section reports on authorities announcing evacuation and mobilization measures in response to a threat, fitting the pattern of proactive interventions in a conflict setting."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.269943237304688,
       "actual_text": "a paper published this week in Nature Human Behaviour, researchers from Carnegie Mellon University looked at 34 participants, half of whom were experiencing suicidal thoughts. Study participants all",
       "plain_text": "Recent scientific progress has allowed us to begin decoding the significance of many different patterns of activity in the brain. Researchers have begun to understand patterns associated with disorders such as depression, in hopes of correcting it. Other research has zeroed in on how language and speech is signalled in the brain. In one often-cited experiment, researchers were even able to convert the MRI readouts of the test subjects’ brains into approximate renditions of the movie clips shown to participants.  Now new research seeks to use artificial intelligence to identify people suffering from suicidal thoughts based on brain scans alone.  In a paper published this week in Nature Human Behaviour, researchers from Carnegie Mellon University looked at 34 participants, half of whom were experiencing suicidal thoughts. Study participants all underwent functional magnetic resonance imaging (fMRI), during which they were shown words related to suicide, such as “death” and “distressed,” as well as words related to positive and negative emotions. Based on the participants that had already been identified as suicidal, they were able to identify five regions of the brain and six words that helped to identify those that were suicidal. Based on that information, they were then able to train an algorithm to identify suicidal patients. Of the 34 participants, the algorithm correctly identified 15 of the 17 suicidal patients and 16 of 17 member of the control group.  In a second experiment, researchers also divided participants with suicidal thoughts into two groups: One group that had attempted suicide, and one that had not. A separate algorithm was also able to correctly categorise 16 of those 17 patients.  Why is this important? For one, it gives us insight into how the brains of healthy people and suicidal people differ. In suicidal patients, for example, the word “death” triggered a reaction in the region of the brain associated with shame.  It also may one day provide an additional tool to help diagnose and treat mental health disorders. Psychiatric illnesses are complicated, and often not all that well understood in terms of where they exist in the brain. That’s why, for example, the symptoms for disorders like depression often seem vague. A diagnosis of major depressive disorder requires a person to exhibit five of nine symptoms, but two people could wind up with the same diagnosis and have almost no symptoms in common. Understanding where in the brain those problems are occurring could one day lead to more effective means of treating them. [Nature Human Behavior]",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Now new research seeks to use artificial intelligence to identify people suffering from suicidal thoughts based on brain scans alone.  In a paper published this week in Nature Human Behaviour, researchers from Carnegie Mellon University looked at 34 participants, half of whom were experiencing suicidal thoughts.",
+          "concept": "research intervention",
+          "reasoning": "This section describes researchers proactively using AI to identify suicidal individuals, matching the neuron's interest in investigative actions aimed at helping."
+        },
+        {
+          "rank": 2,
+          "text": "Based on the participants that had already been identified as suicidal, they were able to identify five regions of the brain and six words that helped to identify those that were suicidal. Based on that information, they were then able to train an algorithm to identify suicidal patients.",
+          "concept": "algorithm training",
+          "reasoning": "This section details the process of training an algorithm to identify patients, reflecting a deliberate procedural action to address a problem."
+        },
+        {
+          "rank": 3,
+          "text": "It also may one day provide an additional tool to help diagnose and treat mental health disorders. Psychiatric illnesses are complicated, and often not all that well understood in terms of where they exist in the brain.",
+          "concept": "diagnostic tool development",
+          "reasoning": "This section highlights the potential for this research to become a tool for diagnosis and treatment, aligning with the neuron's focus on interventions that provide support."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.608660697937012,
       "actual_text": "to make it through to the finale. The two previous champs and the runner up were left out of the winning act chosen by the audience in the first episode of",
       "plain_text": "BRITAIN'S Got Talent@ The Champions viewers and judges are outraged after Paul Potts, Ashleigh and Pudsey and Connie Talbot failed to make it through to the finale.  The two previous champs and the runner up were left out of the winning act chosen by the audience in the first episode of the ITV series, which will see previous winners battle it out in each episode over the next six weeks to be crowned the ultimate champion.  Amanda Holden was particularly shocked when Paul was eliminated, saying loudly: \"What about Paul Potts?\"  Instead, a sand artist and daredevil father and daughter duo were the first two acts to make it through to the final of the new spin-off series. Viewers were raging about the decision that was made by the audience in the arena, and called it a \"fix\".  Also featured in Saturday's episode were former BGT contestants Connie Talbot, Ashleigh and Sully and Boogie Storm, as well as a host of international Got Talent stars.  Judge Amanda Holden was moved to tears by Ukraine's Got Talent winner Kseniya Simonova - calling the sand artist's act \"uplifting and emotional\" - and hit the golden buzzer for the first time in the spin-off series.  A volunteer for children with cancer, the sand artist had the audience on their feet after with a moving tribute bearing the message \"never give up\". Only two acts from each episode go through to the final, with the first decided by the Golden Buzzer, which just one judge can press per episode.  The second act is then decided by \"super fans\" in the studio audience at the SSE Arena, Wembley, who will vote for their favourite acts of the night.  As the audience's top three favourite acts were announced, the judges expressed shock that Potts did not feature, with Holden asking: \"What about Paul Potts?\"  The last act of the episode, head judge Simon Cowell labelled the start of Potts' rendition as \"shaky\" before praising him for the rest of his performance and success from the show.  Dog act duo Ashleigh and Sully, Boogie Storm and daredevil duo from the US Bello and Annaliese Nock were revealed as the audience's favourites.  But only father and daughter Bello and Annaliese - who wowed the judges with their comedic act on the \"wheel of death\" - will join Simonova in the final.  Dog act duo Ashleigh Butler, winner of the 2012 series with her dog Pudsey, came third in the audience vote with new companion Sully.  Opening the show, Ashleigh revealed the journey since the death of beloved sidekick Pudsey in 2017 before she debuted Sully in a jive to Mary Poppins classic A Spoonful of Sugar.  Dance group Boogie Storm, hailed by Cowell as one of his \"favourite acts ever\", were runners-up in the audience vote.  The Stormtrooper troupe danced to a medley of hits which saw Cowell, Holden and fellow judges Alesha Dixon and David Walliams take part in the YMCA.  MOST READ IN TV & SHOWBIZ The first episode also saw performances from Australian comedy duo the Nelson Twins, the Sacred Ariana from Asia's Got Talent and Bad Salsa, a pair of salsa dancers who found fame on India's Got Talent.  Got a story? email digishowbiz@the-sun.co.uk or call us direct on 02077824220.  We pay for videos too. Click here to upload yours.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Judge Amanda Holden was moved to tears by Ukraine's Got Talent winner Kseniya Simonova - calling the sand artist's act \"uplifting and emotional\" - and hit the golden buzzer for the first time in the spin-off series.",
+          "concept": "judge intervention",
+          "reasoning": "This section describes a judge taking a formal action within the show's rules to advance a contestant, which loosely matches the neuron's pattern of procedural interventions."
+        },
+        {
+          "rank": 2,
+          "text": "The second act is then decided by \"super fans\" in the studio audience at the SSE Arena, Wembley, who will vote for their favourite acts of the night.",
+          "concept": "audience decision",
+          "reasoning": "This section outlines the procedural mechanism for selecting acts, reflecting a structured decision-making process."
+        },
+        {
+          "rank": 3,
+          "text": "As the audience's top three favourite acts were announced, the judges expressed shock that Potts did not feature, with Holden asking: \"What about Paul Potts?\"",
+          "concept": "contest outcome",
+          "reasoning": "This section highlights judges' reactions to an elimination, indicating a formal evaluation context, though less directly interventionist."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
       "plain_text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane. Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.  In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato. L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che   ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo:   Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%. In realtà l’Accordo riguarda cambiamenti climatici in corso, alcuni dei quali sono dovuti al 100% alle nostre attività. Il suo terzo difetto è di ignorare le eruzioni vulcaniche e le “fessure della crosta terrestre” che rilasciano lava determinando   forti perturbazioni nella dinamica oceanica, il che sorprenderà geologi, oceanologi e fisici del clima, sopratutto quelli che disegnano vulcani sull’asse x dei propri grafici.  Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.   Entra così in gioco la climatologia cosmica. La disciplina è stata immaginata nel 1997 da Henrik Svensmark, con l’aiuto di Eigil Friis-Christensen che si è ricreduto ed è stato sostituito da Nir Shaviv (2). Il clima, spiega Zichichi con parole sue,   dipende da dove si trova la Terra rispetto ai «bracci» della galassia. I «bracci» sono infatti zone in cui l’intensità dei raggi cosmici può arrivare a essere dieci volte più alta delle zone esterne ai «bracci». Nessuno ha mai osservato la Via Lattea da fuori, quindi i bracci sono ipotetici. Ai lettori del Giornale forse andava anche precisato che esistono i raggi cosmici tout court, delle particelle che arrivano dal Sole, e raggi cosmici galattici (poi abbreviati in RCG), delle particelle a energia più elevata provenienti da supernove nella Via Lattea e in altre galassie.  Zichichi ignora l’esistenza di Svensmark o la dimentica? Non lo cita e tutti sanno che mai e poi mai spaccerebbe per proprie le idee di un collega.  (I lettori di abituali di questa rubrica saltino pure il paragrafo successivo: riassume idee a loro già note.)  In libri e riviste di fantascienza, Svensmark ipotizza che a cicli di 140 milioni di anni – dieci milioni più, dieci milioni meno – il sistema solare transiti in prossimità dell’ipotetico braccio nel quale sarebbero concentrate le giganti azzurre, una parte consistente delle supernove. A suo avviso, sarebbero le uniche fonti dei RCG. Quando colpiscono molecole dell’atmosfera terrestre, determinerebbero la formazione degli aerosol attorno ai quali il vapore acqueo si addensa in nubi. Siccome tutte le nubi rifletterebbero verso l’esterno l’energia solare, i RCG raffredderebbero il clima. (2)  Non solo Zichichi è sicuro che   L’Accordo di Parigi ignora i raggi cosmici (3). ma anche di essere l’unico al quale un loro effetto sul clima sia venuto in mente:   Fino a oggi i raggi cosmici non sono stati presi in esame. (4) Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra   nelle vere mani della comunità scientifica cioè le sue. Tra l’altro, salverà anche la scienza dal discredito nel quale sta per piombare:   Con i modelli meteo-climatologici (5) la scienza rischia di perdere la sua credibilità, se non fa sentire con forza la sua voce. Dal 1965 la politica commissiona alla “scienza” rapporti e aggiornamenti, proprio perché faccia sentire con forza la sua voce. Ormai la poveretta urla a squarciagola, ma Zichichi non la sente. Perciò vuole una sorta di CERN tutto per sé. La “prova dell’alleanza” tra politica e scienza sarebbe infatti   un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole. Un laboratorio con dentro un mondo identico alla Terra, nel quale verificare sperimentalmente – il solo “rigore scientifico” che Zichichi riconosca – se il clima cambia ogni 140 +/-10 milioni di anni.  Note  Per la parte scientifica, l’Accordo rimanda al 5° rapporto dell’IPCC. Nel volume III, cap. 11, dice che alle piante l’aumento della CO2 in atmosfera giova solo se non aumentano le temperature, e l’intensità e la frequenza di eventi meteorologi estremi come alluvioni, siccità e ondate di calore. Ricredutosi anche Shaviv, ora sostiene che l’attività solare in calo da oltre 40 anni stia causando il riscaldamento globale degli ultimi 40 anni. In una prima versione le nubi riscaldavano il clima, poi Svensmark si è accorto che il flusso degli RCG continuava a calare. Il 5° rapporto IPCC ne parla a pp. 613-614 del volume I. Sono presi in esame da vent’anni. Sia le osservazioni in natura che gli esperimenti Cloud al CERN hanno confermato che il loro effetto sugli aerosol è localizzato sopra le foreste di conifere e “insignificante” per quanto riguarda il clima globale. I modelli meteo simulano l’evoluzione dei fenomeni atmosferici e marini sull’arco di alcuni giorni. Oggi i modelli climatici simulano sull’arco di decenni quella del sistema atmosfera-oceani-terre emerse in base a “scenari” riguardanti le attività economiche future. Ci sono anche modelli climatici di “hindcast” che simulano alcuni aspetti del clima passato, per esempio l’evoluzione della temperatura globale nell’ipotesi che la concentrazione atmosferica di CO2 sia rimasta stabile dal 1800 in poi. Leggi anche: Il clima, il fisico e la mucca sferica  Pubblicato con licenza Creative Commons Attribuzione-Non opere derivate 2.5 Italia.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra nelle vere mani della comunità scientifica cioè le sue.",
+          "concept": "political appeal",
+          "reasoning": "This section features a scientist calling for political alliance with science to address climate change, matching the neuron's focus on formal appeals and interventions."
+        },
+        {
+          "rank": 2,
+          "text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati.",
+          "concept": "research proposal",
+          "reasoning": "This section describes a scientist's desire for a global climatology laboratory, reflecting a proactive intervention in a scientific-political context."
+        },
+        {
+          "rank": 3,
+          "text": "La “prova dell’alleanza” tra politica e scienza sarebbe infatti un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole. Un laboratorio con dentro un mondo identico alla Terra, nel quale verificare sperimentalmente – il solo “rigore scientifico” che Zichichi riconosca – se il clima cambia ogni 140 +/-10 milioni di anni.",
+          "concept": "experimental verification",
+          "reasoning": "This section outlines the purpose of the proposed lab to rigorously test climate theories, aligning with the neuron's interest in procedural, investigative actions."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
       "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle.",
+          "concept": "author participation",
+          "reasoning": "This section describes an author proactively engaging in a public event to discuss a historical topic, which loosely matches the neuron's interest in outreach and education."
+        },
+        {
+          "rank": 2,
+          "text": "The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program.",
+          "concept": "event organization",
+          "reasoning": "This section provides details about the scheduling and moderation of a public event, reflecting formal planning and coordination."
+        },
+        {
+          "rank": 3,
+          "text": "Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career.",
+          "concept": "historical documentation",
+          "reasoning": "This section summarizes the book's content about segregated sports history, which involves social issues but is more descriptive than interventionist."
+        }
+      ]
     }
   ]
 }

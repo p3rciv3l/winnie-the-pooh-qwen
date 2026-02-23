@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_12374",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing precise time-of-day references** (such as clock times like \"16:00\", \"3:21 p.m.\", or \"5:30 a.m.\", or phrases like \"with seconds to spare\" and \"two minutes to play\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Greek, Romanian, Dutch, English, etc.) and in contexts where events are being scheduled, reported, or sequenced with temporal precision. Common domains include: sports game timelines (\"two minutes and 55 seconds left\"), seismic/accident reports (\"ocurri\u00f3 a las 8:30 horas\"), TV/broadcast schedules (\"02:41\"), and transportation or meeting timetables (\"rientro previsto per le ore 17:30\").\n\n3. **Contrast with low-activation examples**: The low-activation texts discuss events, announcements, or descriptions in general terms without anchoring to a specific clock time or short duration. They mention dates, days, or periods (\"August,\" \"Martin Luther King Jr. Day,\" \"2022\") but lack the granular \"hour:minute\" notation or explicit countdown-style timing present in nearly every high-activation example.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of precise temporal anchoring, especially clock times and short-duration countdowns, within event-reporting or schedule-describing text. It appears specialized for a cross-lingual, format-agnostic pattern of explicit time-stamping in news, logs, or live updates.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "societ\u00e0 spaziale Marscenter e l\u2019universit\u00e0 degli studi di Napoli Federico II \u2013 dipartimenti di agraria, biologia, ingegner",
+      "normalized_activation": 8.423718452453613,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "after UCSB had turned the ball over on its offensive end with just two seconds to play. The Mavericks didn't let up at the start of the second half",
+      "normalized_activation": 6.505500793457031,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "of second-degree murder and 16 counts of aggravated battery \u2014 one for each bullet the white officer fired at the black 17-year-old. Judge Vincent Ga",
+      "normalized_activation": 5.290698051452637,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

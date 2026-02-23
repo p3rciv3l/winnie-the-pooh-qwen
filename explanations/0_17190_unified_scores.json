@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_17190",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing numerical ranges or scores expressed with a hyphen** (such as sports scores like \"39-31\", date ranges like \"Feb. 15-18\", statistical ranges like \"20-30%\", or vote tallies like \"375-34\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including sports reports, financial statistics, technical specifications, legislative votes, academic citations, and event dates. It is language-agnostic, activating on the same hyphenated-number format in English, German, Russian, and Tamil text, provided the context involves a quantitative range or paired numbers.\n\n3. **Contrast with low-activation examples**: The low-activation texts almost entirely lack hyphenated numerical ranges or scores. They consist of general descriptive prose, quotations, or narrative text without that specific numerical formatting. The neuron ignores content that is purely textual, even if it contains numbers written out (e.g., \"25% of the proceeds\") or isolated numbers not forming a hyphenated pair.\n\n4. **Closing interpretation**: This neuron detects a specific textual formatting pattern\u2014a hyphen connecting two numbers\u2014as a token-level or local feature. It acts less as a semantic concept detector and more as a syntactical pattern recognizer for written numerical intervals, scores, and ranges across multiple languages and topics.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "-12 game in the NCAA Tournament. The Racers lost 85-68 to West Virginia in the first round last year in San Diego and hope",
+      "normalized_activation": 9.926652908325195,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2505,
+          "meaning_score": 0.3787,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2517
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2505,
+          "meaning_score": 0.4934,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2976
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2505,
+          "meaning_score": 0.7297,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5921
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "end Revenue Cycle Management solutions industry for the forecast period of 2022-2030. The report focuses on potential growth opportunities and limitations the prominent",
+      "normalized_activation": 9.771895408630371,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2506,
+          "meaning_score": 0.6382,
+          "overlap_fraction": 0.506,
+          "location_score": 0.1012,
+          "combined_score": 0.4567
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2506,
+          "meaning_score": 0.545,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3182
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2506,
+          "meaning_score": 0.5172,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3071
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "controls. Cross-border payment imbalances increased during the 2010-2012 euro zone debt crisis as the private sector withdrew capital and banks",
+      "normalized_activation": 9.533079147338867,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.238,
+          "meaning_score": 0.7954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4134
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2577,
+          "meaning_score": 0.1577,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1662
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2577,
+          "meaning_score": 0.4975,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3021
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "book character 'Where's Wally?' in public after winning a bet. And on Tuesday, Sophie Monk shared another sweet father-daughter moment of the pair enjoying a",
+      "normalized_activation": 0.9116268157958984,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1933,
+          "meaning_score": 0.6568,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.54
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1933,
+          "meaning_score": 0.5323,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2902
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1933,
+          "meaning_score": 0.4276,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2483
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "ensure it \u201cencompasses all of the notable accounts on Twitter that people are going to be looking for.\u201d When asked if follower count would make it easier to",
+      "normalized_activation": 0.8971466422080994,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1386,
+          "meaning_score": 0.3792,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2071
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1386,
+          "meaning_score": 0.4391,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2311
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1386,
+          "meaning_score": 0.3983,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2148
+        }
+      ]
+    }
+  ]
+}

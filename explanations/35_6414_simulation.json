@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_6414",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:19:19Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence truncation or abrupt cuts in text, often marked by punctuation, quotation marks, or formatting symbols** (such as text ending with opening quotes, commas, opening parentheses, or mid‑clause prepositions).\n\n2. **Domain coverage**: The pattern appears across many languages (Portuguese, Romanian, Italian, Ukrainian, Persian, English, etc.) and diverse topics—news reports, social media snippets, technical bulletins, and transcribed speech—whenever the text excerpt ends abruptly within a syntactic unit, especially before a closing punctuation mark. High activations occur regardless of topic, provided the cut happens mid‑phrase.\n\n3. **Contrast with low-activation examples**: Low-activation examples are either complete sentences or fragments that end at natural boundaries (e.g., after a date, location, or a full clause). They lack the “cut‑off” punctuation or mid‑clause prepositions that characterize the high group. For instance, low‑activation texts often end with a year, a colon, or a clean phrase, while high‑activation texts end with open quotes, commas, or subordinating conjunctions (“de”, “în”, “with”, “by”, “și”, “un”, “la”).\n\n4. **Closing interpretation**: The neuron detects syntactic incompleteness—specifically, text fragments that appear to be mechanically truncated from longer passages. It likely serves as a boundary‑anomaly detector in the autoencoder, firing when a token sequence ends in a way that violates typical sentence‑closure patterns.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00011",
+      "row_idx": 1455,
+      "normalized": 9.719122886657715,
+      "actual_text": "so e ricostruzione. Il terremoto del 1908 rappresenta la più grave catastrofe naturale italiana per numero di vitt",
+      "plain_text": "All’alba del 28 dicembre 1908, in soli 37 secondi, si scatenò una delle più grandi catastrofi naturali della storia. Alle 5.21, un terremoto di intensità 7.1 della scala Richter, con epicentro nello stretto di Messina, distrusse la città siciliana e gran parte di Reggio Calabria. Il sisma, secondo le stime dell’epoca, uccise tra le 80 e le 100mila persone sulle due coste dello stretto e causò circa 100mila sfollati. Un’emergenza senza precedenti che mobilitò per la prima volta una rete di solidarietà nazionale e internazionale che si affiancò al governo nell’opera di soccorso e ricostruzione. Il terremoto del 1908 rappresenta la più grave catastrofe naturale italiana per numero di vittime e per intensità sismica.    Maremoto con onde altre fino a 10 metri  L’epicentro del sisma fu molto esteso e causò almeno tre onde di maremoto che colpirono la costa siciliana e quella calabrese. Su quest’ultimo fronte il mare raggiunse, in alcuni punti, i 10 metri d’altezza sommergendo del tutto il villaggio di Lazzaro, in provincia di Reggio. L’acqua non risparmiò nemmeno Messina, dove onde tra i due e i tre metri spazzarono via molti edifici e, più a Sud, gran parte del tratto di costa tra Giampilieri e Giardini Naxos venne fortemente colpito dal maremoto.    I fattori che resero il terremoto un’enorme tragedia  Nel 1908 Messina contava circa 120mila abitanti, di cui circa la metà – tra i 60mila e gli 80mila – morirono a causa del terremoto. Tra le cause che comportarono una tragedia di questa portata va considerato l’orario della scossa più forte – 5.21 – che colse nel sonno la maggior parte degli abitanti della zona. Inoltre la quasi totalità delle abitazioni non erano costruite in modo da poter resistere a una scossa di quella intensità, tanto che tra gli edifici che crollarono subito e quelli che vennero giudicati inagibili, furono solo il 10% le case a sopravvivere al terremoto. I danni nell’intera area dello stretto furono stimati in una cifra equivalente ai 2,2 miliardi di euro attuali.  Gli sfollati e la ricostruzione  Nelle ore immediatamente successive al sisma, l’amministrazione cittadina e il governo nazionale dovettero far fronte a una calamità mai vista prima. Oltre ai numerosi morti, le autorità furono costrette a prestare ristoro a circa 100mila sfollati, che nelle settimane successive vennero trasferiti nelle maggiori città siciliane, a Napoli e in altre città italiane. Per la prima volta, l’eco del disastro mobilitò una macchina dei soccorsi proveniente non solo dall’Europa ma da tutto il mondo, con numerosi Stati che inviarono aiuti per contribuire all’opera di ricostruzione. Operazioni che, però, complice anche il Primo conflitto mondiale, giunsero a conclusione solo nel 1932 quando tutti gli edifici pubblici e buona parte degli edifici precedenti vennero ricostruiti.    Nuova sede della Protezione Civile regionale a Reggio Calabria  Il 28 dicembre, in occasione del centonovesimo anniversario del grande terremoto, la Protezione civile regione Calabria inaugura la nuova sede di Reggio Calabria che verrà ospitata al piano terra del Centro Direzionale cittadino. \"È di questi giorni – si legge in un comunicato diffuso dalla Protezione civile regionale - la notizia, riportata sui più importanti giornali nazionali, della scoperta da parte di un gruppo di ricercatori di un sistema di faglie sotto il mare Ionio che spiegherebbe l'allontanamento lento ma continuo tra la Calabria e la Sicilia e che sarebbe la causa principale dei terremoti\". Pericolosità sismica che, quindi, continua a caratterizzare questi territori e che, ancora oggi, si lega \"all'alta vulnerabilità della maggior parte delle costruzioni\". Motivo per il quale la Protezione civile ha deciso di intraprendere \"un processo di radicale rinnovamento e potenziamento della propria struttura\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Il 28 dicembre, in occasione del centonovesimo anniversario del grande terremoto, la Protezione civile regione Calabria inaugura la nuova sede di Reggio Calabria che verrà ospitata al piano terra del Centro Direzionale cittadino. \"",
+          "concept": "opening quotation",
+          "reasoning": "The section ends with an opening quotation mark, indicating an abrupt cut before the quoted text begins."
+        },
+        {
+          "rank": 2,
+          "text": "Alle 5.21, un terremoto di intensità 7.1 della scala Richter, con epicentro nello stretto di Messina, distrusse la città siciliana e gran parte di Reggio Calabria. Il sisma, secondo le stime dell’epoca,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, suggesting syntactic incompleteness."
+        },
+        {
+          "rank": 3,
+          "text": "furono solo il 10% le case a sopravvivere al terremoto. I danni nell’intera area dello stretto furono stimati in una cifra equivalente ai 2,2 miliardi di euro attuali.  Gli sfollati e la ricostruzione",
+          "concept": "subheading truncation",
+          "reasoning": "The section ends with a subheading that is not a complete sentence, resembling a truncated text fragment."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 1038,
+      "normalized": 9.192023277282715,
+      "actual_text": "ånge har, speciellt i Ryssland. För oss är det främst en hederstitel, men i Ryssland uppfatt",
+      "plain_text": "När regimkritikern återvände till Ryssland efter att ha förgiftats av Kreml dömdes han till fängelse för gamla förskingringsanklagelser. EU, flera toppnationer och människorättsorganisationer har sedan dess kritiserat Ryssland för beslutet – och hur de hanterat de massiva demonstrationerna. Amnesty utsåg Aleksej Navalnyj till ”prisoner of conscience” – samvetsfånge. Men i februari tog människorättsorganisationen tillbaka sitt beslut. Kritiken därefter var hård och man anklagades för att stryka Kreml medhårs och låtit sig ha påverkats av den ryska propagandan. – Säkert har vi undervärderat den enorma symboliska betydelse som begreppet samvetsfånge har, speciellt i Ryssland. För oss är det främst en hederstitel, men i Ryssland uppfattas det som en upphöjd status, säger Frank Johansson, verksamhetsledare för Amnesty i Finland till Hufvudstadsbladet. Gjorde ett misstag Samtidigt använde Ryssland Amnestys helomvändning för att frånta oppositionsledarens trovärdighet. Nu säger Amnesty att man återigen ser Navalnyj som en samvetsfånge. – Då beslutet fattades att frånta Navalnyj den här titeln insåg man inte på vilket sätt ryska regeringen skulle utnyttja det hela, vilket säkert var naivt. Navalnyjs välbefinnande är viktigare än vårt dåvarande val att strikt tolka våra egna regler, säger Frank Johansson till HBL. Navalnyj fråntogs sin status på grund av sina nationalistiska åsikter. Han har tidigare uttalat sig kritisk om migranter och har deltagit i en nationalistisk marsch. – Det betyder inte att vi håller med om allt som Navalnyj säger. Vissa av hans tidigare uttalanden är klandervärda. Men genom att bekräfta hans status som samvetsfånge lyfter vi upp hans fall. Han har rätt att få träffa en oberoende läkare och han har fängslats utan att ha begått något brott, säger Amnesty i ett uttalande. Samvetsfånge Samvetsfånge är ett begrepp som används av människorättsorganisationen Amnesty International för att beteckna personer som fängslats på grund av sin åsikt, ras, hudfärg, religion, språk, etnicitet, sexuell läggning, eller tro, med villkoret att de inte använt eller förespråkat våld",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "För oss är det främst en hederstitel, men i Ryssland uppfattas det som en upphöjd status, säger Frank Johansson, verksamhetsledare för Amnesty i Finland till Hufvudstadsbladet. Gjorde ett misstag",
+          "concept": "fragment heading",
+          "reasoning": "The section ends with a fragment 'Gjorde ett misstag' which is not a complete sentence, indicating a truncation."
+        },
+        {
+          "rank": 2,
+          "text": "Kritiken därefter var hård och man anklagades för att stryka Kreml medhårs och låtit sig ha påverkats av den ryska propagandan. – Säkert har vi undervärderat den enorma symboliska betydelse som begreppet samvetsfånge har,",
+          "concept": "mid-quote comma",
+          "reasoning": "The section ends with a comma in the middle of a quoted sentence, suggesting syntactic incompleteness."
+        },
+        {
+          "rank": 3,
+          "text": "Samvetsfånge är ett begrepp som används av människorättsorganisationen Amnesty International för att beteckna personer som fängslats på grund av sin åsikt, ras, hudfärg, religion, språk, etnicitet, sexuell läggning, eller tro, med villkoret att de inte använt eller förespråkat våld",
+          "concept": "missing final punctuation",
+          "reasoning": "The section ends without a period, indicating an abrupt cut at the end of the text."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 3141,
+      "normalized": 8.515828132629395,
+      "actual_text": "perimentato dagli astronauti sulla Stazione Spaziale Internazionale, provoca una perdita di circa l'uno percento della densità ossea",
+      "plain_text": "C'è davvero un grande problema nel far vivere l'umanità nello spazio  INFORMAZIONI SCHEDA \t\r\r\n\r\r\n\t \r\r\n\r\r\n\t \r\r\n\t\r\r\n Gli scienziati lo hanno decretato: anche se riuscissimo a sintetizzare e riciclare all'infinito aria, cibo e acqua nello spazio, l'ambiente a microgravità attuale, come quello sperimentato dagli astronauti sulla Stazione Spaziale Internazionale, provoca una perdita di circa l'uno percento della densità ossea ogni mese, nonostante gli allenamenti. Dopo alcuni anni, tutti soffrirebbero di grave osteoporosi. Inoltre, viaggiando nello spazio profondo, dovremmo affrontare il pericolo delle radiazioni: i raggi cosmici galattici ci esporrebbero a circa 250 volte la normale radiazione di fondo terrestre, e un singolo brillamento solare potrebbe causare un avvelenamento massiccio.  Per sopravvivere a queste condizioni per decenni, avremmo bisogno di astronavi con ambienti più simili alla Terra di quelli attuali, con habitat rotanti di grande diametro per simulare la gravità e schermature spesse per bloccare le radiazioni. Tuttavia, se le condizioni sulla nave spaziale fossero simili a quelle terrestri, non ci sarebbe pressione evolutiva per adattare i nostri corpi.  La società, però, evolverebbe sicuramente. Circondati dal pericolo e dipendenti acutamente dalla tecnologia, potremmo sviluppare società molto più autoritarie, dove ogni persona deve eseguire il proprio ruolo senza domande e essere pronta a sacrificarsi per il bene della specie (un po' come il sacrificio richiesto da Elon Musk).  Questo sarebbe troppo importante per lasciarlo all'imprevedibilità del capitalismo democratico e di libero mercato, quindi potrebbe emergere una gerarchia rigida, simile ai regimi a bordo delle navi a vela del XIX secolo. Queste riflessioni aprono una finestra su un futuro potenzialmente radicale, dove l'evoluzione umana e sociale potrebbe prendere una direzione completamente nuova, plasmata dalle sfide uniche della vita nello spazio.  A proposito, ecco come saranno invece le case su Marte.  FONTE: sciencefocus \r\n    \r\n    \r\n    Rimani aggiornato seguendoci su Google News!\r\n     \r\n\r\n    \r\n     Unisciti all'orda: la chat telegramper parlare di videogiochi \r\n\t\r\n     Altri contenuti per Spazio Gli astronomi hanno trovato un nuovo metodo per trovare vita e acqua su pianeti alieni Curiosity ha catturato le immagini di un'intera giornata marziana La Piccola nube di Magellano ci ha nascosto questo segreto fino ad ora Può un buco nero trovarsi nel centro di una stella? La risposta vi stupirà Il telescopio Hubble stupisce ancora, ecco cos'ha scoperto Spazio  Contenuti più Letti 1 commentiUEVR, ora si può giocare in VR a qualunque gioco Unreal Engine! Microsoft Copilot, tante funzioni arrivano su iOS e Android: meglio che su PC? Come creare un'IA? Un portale promette di farlo in pochi passi Come reimpostare il passcode dell'iPhone senza conoscerlo? Si può fare 3 commentiAMD Radeon RX 7600 XT, trapela la scheda tecnica: molto meglio del previsto! 2 commentiChi di voi fa la dieta intermittente? Ecco a cosa andate incontro Scienziati scoprono come migliorare il gusto del caffè. Funziona davvero? Curiosity ha catturato le immagini di un'intera giornata marziana Fossili viventi: ecco 5 creature che non sono cambiate in milioni di anni 1 commentiEcco cosa non fare mai all'interno di una macchina per la risonanza",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "anche se riuscissimo a sintetizzare e riciclare all'infinito aria, cibo e acqua nello spazio, l'ambiente a microgravità attuale, come quello sperimentato dagli astronauti sulla Stazione Spaziale Internazionale, provoca una perdita di circa l'uno percento della densità ossea ogni mese,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, indicating syntactic incompleteness."
+        },
+        {
+          "rank": 2,
+          "text": "Queste riflessioni aprono una finestra su un futuro potenzialmente radicale, dove l'evoluzione umana e sociale potrebbe prendere una direzione completamente nuova, plasmata dalle sfide uniche della vita nello spazio.  A proposito, ecco come saranno invece le case su Marte.  FONTE: sciencefocus",
+          "concept": "source citation truncation",
+          "reasoning": "The section ends with a source citation that lacks a period, resembling a truncated text fragment."
+        },
+        {
+          "rank": 3,
+          "text": "UEVR, ora si può giocare in VR a qualunque gioco Unreal Engine! Microsoft Copilot, tante funzioni arrivano su iOS e Android: meglio che su PC? Come creare un'IA? Un portale promette di farlo in pochi passi",
+          "concept": "run-on list truncation",
+          "reasoning": "The section ends in the middle of a list of headlines without proper sentence boundaries, indicating an abrupt cut."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 1035,
+      "normalized": 0.0,
+      "actual_text": "The trouble with live performances from large hip-hop groups — even crews as well-seasoned",
+      "plain_text": "The trouble with live performances from large hip-hop groups — even crews as well-seasoned as the Wu-Tang Clan — is the tendency for the many microphones on stage to overpower one another, making the show significantly less audible than the clean sounds enjoyed on record. Fortunately for the A$AP Mob — performing a sold-out show at 1st Bank Center on Friday night — the many members on stage managed not only to not cancel one another out, but their collective presence became something greater than the sum of their parts. Crew leader A$AP Rocky provided a large presence but thoughtfully played the back, allowing the lesser known members of the crew to shine. Playing primarily off their excellent new album Cozy Tapes Vol. 2, the popular New York crew proved their chemistry is not limited to wax — even with the absence of A$AP Ferg the group delivered escalating hype, enough so to produce a mosh pit that spanned the entire GA bowl.  Impeccably dressed fans from across the front range arrived early, hoping to catch openers Cozy Boys and Key!. Unfortunately, what appeared to be technical difficulties caused a delay — the scheduled 8 p.m. start was pushed back just over an hour, forcing Key! to hit the stage without a warmup from Cozy Boys. Despite frustration over the postponement, Key!’s appearance caused immediate excitement from the stirring crowd.  Key!, the Atlanta alumnus of Two-9, quickly proved his viability as a solo artist, briskly running through an exciting set appropriate for a veteran of the reigning hip-hop mecca. Commanding the stage the rapper had enormous charisma, his presence elevated by a white tee illuminated by a single spotlight. The absence of accompanying visuals forced those in attendance to focus on the lyrics, which covered current rap tropes with originality and entertaining imagery.  The mob arrived on the stage with expected grandeur with most of the crew in attendance — Rocky, Twelvyy, Nast and Ant dominated the stage — well aware of their relevance and stardom. Making note of the fact that the Denver show was the last of the tour, the group showed no signs of exhaustion despite this being their 19th show in a run beginning in late September. Fans expecting many tracks from Rocky’s impressive solo work were met with a primarily crew-oriented set, Pretty Flacko did, however, deliver an incredible rendition of his renowned album cut “L$D” complete with psychedelic visuals and a dense, surreal resonance.  Rocky — who recently made headlines for breaking up a fight and forcing the offenders to come on stage and hug it out — delivered several inspiring monologues, taking a moment to highlight his delight at the diversity of the crowd. Addressing the fact that hip-hop culture has become a multi-faceted and multi-ethnic affair drew cheers from the crowd — the mixed audience taking note of the only unifying factor being a deep commitment to looking fly. Following his charismatic tribute to the congregation’s variance, Rocky requested that the entire GA floor split to make room for an impending mosh pit. Making sure that the floor was clear by asking stragglers to move along, the group broke into a series of wild tracks. Upon the signal, the wild bunch let loose — the group flailing with good-natured animosity. Shoving has rarely been so composed — an audience-wide recognition that there was too much good footwear in attendance kept the pit from reaching full punk-rock or metal level.  The decision to cap attendance at 4,000 allowed the venue to feel full without feeling stuffy. At the show’s conclusion, the crowd had cleared the venue, both inspired and energized by the group’s combination of positivity and deep commitment to hip-hop excellence.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The trouble with live performances from large hip-hop groups — even crews as well-seasoned as the Wu-Tang Clan — is the tendency for the many microphones on stage to overpower one another,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, indicating syntactic incompleteness."
+        },
+        {
+          "rank": 2,
+          "text": "Rocky — who recently made headlines for breaking up a fight and forcing the offenders to come on stage and hug it out — delivered several inspiring monologues,",
+          "concept": "parenthetical dash comma",
+          "reasoning": "The section ends with a comma after a parenthetical dash, suggesting an abrupt cut in the flow."
+        },
+        {
+          "rank": 3,
+          "text": "Following his charismatic tribute to the congregation’s variance, Rocky requested that the entire GA floor split to make room for an impending mosh pit. Making sure that the floor was clear by asking stragglers to move along,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, indicating the text is truncated."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5857,
+      "normalized": 0.0,
+      "actual_text": "An afternoon at Bear with Forest Bailey There is nothing like an afternoon spent taking m",
+      "plain_text": "An afternoon at Bear with Forest Bailey  There is nothing like an afternoon spent taking mellow park laps with a good friend, and Bear is definitely up there as one of the best parks for cruising. Follow Forest Bailey and Riley Nickerson as they casually cruise around with Afterhours’ filmer, Ian Post for the afternoon. Both Forest and Riley have made a name for themselves by taking a unique approach to everyday features, and watching the two dissect Bears park and find creative lines is both satisfying and inspiring.  Watch also: Forest Bailey’s Cosmic Collection",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "An afternoon at Bear with Forest Bailey  There is nothing like an afternoon spent taking mellow park laps with a good friend, and Bear is definitely up there as one of the best parks for cruising. Follow Forest Bailey and Riley Nickerson as they casually cruise around with Afterhours’ filmer,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, indicating syntactic incompleteness."
+        },
+        {
+          "rank": 2,
+          "text": "Ian Post for the afternoon. Both Forest and Riley have made a name for themselves by taking a unique approach to everyday features,",
+          "concept": "mid-sentence comma",
+          "reasoning": "The section ends with a comma in the middle of a sentence, suggesting an abrupt cut."
+        },
+        {
+          "rank": 3,
+          "text": "and watching the two dissect Bears park and find creative lines is both satisfying and inspiring.  Watch also: Forest Bailey’s Cosmic Collection",
+          "concept": "missing final punctuation",
+          "reasoning": "The section ends without a period, indicating a truncation at the end of the text."
+        }
+      ]
+    }
+  ]
+}

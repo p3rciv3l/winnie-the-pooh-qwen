@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_17685",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or narrative introductions of named entities followed by descriptive details or actions** (such as a person's achievement being listed after their name, an organization's statement followed by its spokesperson's quote, or a location paired with an event description).\n\n2. **Domain coverage**: The pattern appears across news, sports reports, biographical snippets, and political/legal coverage in multiple languages (English, Italian, Spanish, Hungarian, Greek, Catalan). It activates on texts where a specific person, group, place, or entity is immediately followed by a clause or phrase detailing their role, action, statement, or achievement.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently pair a named entity with subsequent elaboration (e.g., \"Micah Wicks surpassed 500 points,\" \"Corinne Lepage. 'Desertification' Robert Durand, a geologist,\" \"Sewas\u2019s work has...\"). Low-activation examples either present named entities in isolation (\"Clint Eastwood...\"), use them in fragmentary contexts, or lack this \"entity + immediate elaboration\" structure.\n\n4. **Closing interpretation**: The neuron detects a specific informational template common in expository writing: the presentation of a salient subject followed by amplifying detail, which serves to identify or contextualize that subject at the start of a narrative clause.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "visits per year. Recommended Story: What is the Russell 2000 Index? Receive News & Ratings for Kl\u00e9pierre Daily - Enter your",
+      "normalized_activation": 9.241929054260254,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.228,
+          "meaning_score": 0.5246,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.301
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2489,
+          "meaning_score": 0.5565,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3222
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1643,
+          "meaning_score": 0.498,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2649
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "temore, Orono\u2019s Mark Lucy and Thornton Academy\u2019s Nicholas Bartholomew as semifinalists. On defense, Cape Elizabeth\u2019s Jacob Jordan,",
+      "normalized_activation": 8.22265338897705,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1505,
+          "meaning_score": 0.6857,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3345
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2038,
+          "meaning_score": 0.7652,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3876
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1227,
+          "meaning_score": 0.3709,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1974
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Public Corporation or Eclipse of the Public Markets?\" by Craig Doidge, Kathleen M. Kahle, G. Andrew Karolyi, and Ren\u00e9 M.",
+      "normalized_activation": 7.158168792724609,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2141,
+          "meaning_score": 0.6653,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5517
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1103,
+          "meaning_score": 0.4353,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2182
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.085,
+          "meaning_score": 0.4529,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2151
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Global Lead-acid Battery Scrap Market is expected to reach $19.97",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3355,
+          "meaning_score": 0.8342,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6679
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1802,
+          "meaning_score": 0.6897,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.348
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2097,
+          "meaning_score": 0.3468,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2226
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2281,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4863
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1522,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1844
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1807,
+          "meaning_score": 0.3126,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1973
+        }
+      ]
+    }
+  ]
+}

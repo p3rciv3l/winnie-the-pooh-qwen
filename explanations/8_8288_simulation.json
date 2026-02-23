@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_8288",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T08:15:31Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that end abruptly at clause or phrase boundaries, often mid-thought or mid-narrative** (such as interrupted descriptions, clauses cut off before completion, or sentences ending with open quotes or trailing conjunctions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, English, Spanish, Portuguese, Indonesian) and diverse topics—financial transactions, media reviews, political speech, weather reports, and personal narratives. It activates regardless of subject matter, focusing on the syntactic property of abrupt truncation, often after subordinating conjunctions (\"che,\" \"that,\" \"quien\"), prepositions (\"di,\" \"with\"), or during listed items.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically self-contained fragments that form complete thoughts or headlines (e.g., \"Plans for more than 700 homes...\", \"A massive earthquake... struck central Japan\"). They lack the mid-clause cutoff; instead, they are grammatically complete phrases or sentences that could stand alone without feeling syntactically interrupted.\n\n4. **Closing interpretation**: The neuron detects **syntactic incompleteness**—specifically, segments where the sentence structure is visibly unresolved, suggesting it may fire on text that resembles the truncated input often seen during training data preprocessing or context window boundaries.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00015",
+      "row_idx": 3682,
+      "normalized": 9.470378875732422,
+      "actual_text": "Whitney Houston grew up singing in the church, but her wholesome image was just that — an",
+      "plain_text": "Whitney Houston grew up singing in the church, but her wholesome image was just that — an image. In the new documentary \"Whitney,\" which had the blessing and cooperation of the superstar's family and friends, Scotland's Kevin Macdonald shows how as a teen Houston already was smoking pot and doing cocaine, thanks to her own brother, Michael Houston. The filmmaker secured about 70 interviews with the superstar's mom, brothers and others eager to share her story. There are rarely seen photos and film clips from the late 1970s and early 1980s, and the footage is riveting. A native of Newark, New Jersey, Houston spent her teen years modeling and singing backup for her mother, gospel and R&B singer Cissy Houston. She made her TV debut in 1983 on \"The Merv Griffin Show,\" just a slip of a girl with uncanny control of her powerful, five-octave voice. \"Whitney Houston\" was the best-selling debut album by a woman in history, and her second disc, \"Whitney,\" was the first album by a woman to debut at No. 1. Macdonald simply lets the cameras roll, and the secrets, like her drug use as a teen, just pour out. Houston's parents divorced because her mother had an affair with the pastor of their church. Some in the star's inner circle confirm longtime rumors of a lesbian relationship between Houston and her roommate and confidante, Robyn Crawford. And it was her brothers who routinely bought illicit drugs for Whitney in city after city when she was on tour. The biggest bombshell: When they were children, Houston and at least one of her brothers were sexually molested by an older cousin, singer Dee Dee Warwick (now deceased), the sister of singer Dionne Warwick. Was that the unbearable pain that fueled Houston's addiction? Macdonald, whose credits include \"One Day in September,\" \"The Last King of Scotland\" and \"Black Sea,\" rarely intrudes upon these revelations. Some of the historical, scene-setting clips of the ’80s and ’90s are a bit jarring, but they rarely interrupt the main focus — the inexorable unraveling of a soul. To call Houston a superstar is an understatement. She is the only performer to have seven consecutive No. 1 singles, surpassing milestones previously set by the Beatles and the Bee Gees. And her rendition of Dolly Parton's \"I Will Always Love You,\" from her first film, \"The Bodyguard,\" is the best-selling single by a woman in history. The highly acclaimed soundtrack sold at least 45 million copies, making it the world's top album by a female performer. But drug addiction robbed the star of her beauty, her health, her money and, finally, her ability to sing — that indescribable talent that many simply labeled The Voice. When she drowned in a bathtub at the Beverly Hilton hotel in 2012, she was only 48 years old. At the end, her life was a train wreck, and Macdonald captures it perfectly. 'Whitney' NOW SHOWING: At AMC Baton Rouge 16, AMC Mall of Louisiana 15, Cinemark Perkins Rowe and XD, and The Grand 16 (Lafayette). MPAA RATING: R (for language and drug content)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Whitney Houston grew up singing in the church, but her wholesome image was just that — an image. In the new documentary \"Whitney,\" which had the blessing and cooperation of the superstar's family and friends,",
+          "concept": "relative clause interruption",
+          "reasoning": "This section ends with a comma after a relative clause, leaving the main clause syntactically incomplete."
+        },
+        {
+          "rank": 2,
+          "text": "Some in the star's inner circle confirm longtime rumors of a lesbian relationship between Houston and her roommate and confidante, Robyn Crawford. And it was her brothers who routinely bought illicit drugs for Whitney in city after city when she was on tour. The biggest bombshell:",
+          "concept": "colon after fragment",
+          "reasoning": "This section ends with a colon following a noun phrase, creating an abrupt interruption before the explanation."
+        },
+        {
+          "rank": 3,
+          "text": "When she drowned in a bathtub at the Beverly Hilton hotel in 2012, she was only 48 years old. At the end, her life was a train wreck, and Macdonald captures it perfectly. 'Whitney' NOW SHOWING: At AMC Baton Rouge 16, AMC Mall of Louisiana 15, Cinemark Perkins Rowe and XD,",
+          "concept": "mid-list interruption",
+          "reasoning": "This section ends in the middle of a list with a trailing conjunction, indicating syntactic incompleteness."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00014",
+      "row_idx": 5692,
+      "normalized": 8.536911964416504,
+      "actual_text": "estación compresora rusa que aún operaba; el otro nunca estuvo en funcionamiento, al suspender Alemania el proceso de aprobación poco",
+      "plain_text": "El Servicio Sísmico Nacional sueco informó hoy de que se han detectado dos explosiones cerca del lugar donde se produjeron las fugas de los gasoductos rusos Nord Stream 1 y 2, en aguas del Báltico. Las explosiones submarinas quedaron registradas poco antes de que aparecieran esas fugas inusuales, cuya causa aún no ha sido aclarada, pero que están envueltas en sospechas de sabotaje entre los gobiernos de Alemania y Dinamarca, mientras que Rusia ha expresado su \"alarma\". La Dirección General de Energía de Dinamarca elevó este martes el nivel de emergencia en los sectores eléctrico y gasístico tras detectarse en las últimas horas tres fugas en esos gasoductos rusos Nord Stream 1 y 2. Las autoridades danesas habían informado inicialmente de una fuga en el Nord Stream 2 en aguas danesas en el Báltico y, posteriormente, de otras dos en el Nord Stream 1, una en aguas de este país nórdico y otra en las de la vecina Suecia, cerca de la isla de Bornholm. La primera ministra danesa, Mette Frederiksen, expresó asimismo desde Polonia, donde realiza una visita de trabajo, su \"extrañeza\" por la coincidencia de tres fugas en dos gasoductos y al mismo tiempo. Ambos gasoductos están fuera de servicio: el Nord Stream 1 lleva detenido semanas tras alegar Rusia una fuga de aceite en la única estación compresora rusa que aún operaba; el otro nunca estuvo en funcionamiento, al suspender Alemania el proceso de aprobación poco antes de la intervención militar rusa en Ucrania. El ministerio de Economía alemán había informado ya ayer de anomalías, a lo que siguió este martes la confirmación por parte de Nord Stream AG, la gestora de la infraestructura con sede en Suiza, de una \"caída de la presión\" en ambos gasoductos.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Las explosiones submarinas quedaron registradas poco antes de que aparecieran esas fugas inusuales, cuya causa aún no ha sido aclarada, pero que están envueltas en sospechas de sabotaje entre los gobiernos de Alemania y Dinamarca,",
+          "concept": "mid-sentence cutoff",
+          "reasoning": "This section ends with a comma before the conjunction 'mientras que', leaving the sentence incomplete."
+        },
+        {
+          "rank": 2,
+          "text": "La primera ministra danesa, Mette Frederiksen, expresó asimismo desde Polonia, donde realiza una visita de trabajo, su \"extrañeza\" por la coincidencia de tres fugas en dos gasoductos y al mismo tiempo. Ambos gasoductos están fuera de servicio:",
+          "concept": "colon after complete sentence",
+          "reasoning": "This section ends with a colon, which often introduces an explanation or list, creating an abrupt boundary."
+        },
+        {
+          "rank": 3,
+          "text": "El ministerio de Economía alemán había informado ya ayer de anomalías, a lo que siguió este martes la confirmación por parte de Nord Stream AG, la gestora de la infraestructura con sede en Suiza,",
+          "concept": "appositive interruption",
+          "reasoning": "This section ends with a comma in the middle of an appositive, leaving the sentence syntactically unresolved."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 3214,
+      "normalized": 7.352489471435547,
+      "actual_text": "said he’ll remember the DQ as the place to go after a successful Little League game. “Wellington won’t be quite the same,” Reeves said.",
+      "plain_text": "Several small towns in the Texas Panhandle may soon be losing a storied part of West Texas culture.  As KAMR reports, approximately 70 Dairy Queens across Texas and New Mexico may soon close due to bankruptcy.  The parent company of the DQs, Vasari LLC, has indicated that it is scrambling to find a way to keep the fast-food restaurants in business. While some locations will be closed, others have a chance of being sold and staying in business.  The Vasari company listed its losses as between $10 million and $50 million, adding that the company’s net losses “cannot continue unabated.” The Dairy Queen stores in jeopardy include locations in Clarendon, Claude, Perryton, Shamrock, Wellington, Dalhart, Dumas, Gruver and Stratford.  When informed of the closing, Wellington native Wes Reeves said he’ll remember the DQ as the place to go after a successful Little League game. “Wellington won’t be quite the same,” Reeves said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The parent company of the DQs, Vasari LLC, has indicated that it is scrambling to find a way to keep the fast-food restaurants in business. While some locations will be closed,",
+          "concept": "dependent clause cutoff",
+          "reasoning": "This section ends with a comma after a dependent clause, leaving the main clause unresolved."
+        },
+        {
+          "rank": 2,
+          "text": "The Vasari company listed its losses as between $10 million and $50 million, adding that the company’s net losses “cannot continue unabated.” The Dairy Queen stores in jeopardy include locations in Clarendon, Claude, Perryton, Shamrock, Wellington,",
+          "concept": "mid-list interruption",
+          "reasoning": "This section ends in the middle of a list, with more items expected after the comma."
+        },
+        {
+          "rank": 3,
+          "text": "Several small towns in the Texas Panhandle may soon be losing a storied part of West Texas culture. As KAMR reports, approximately 70 Dairy Queens across Texas and New Mexico may soon close due to bankruptcy. The parent company of the DQs, Vasari LLC,",
+          "concept": "mid-sentence appositive",
+          "reasoning": "This section ends with an appositive, cutting off the main verb of the sentence."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 4438,
+      "normalized": 0.0,
+      "actual_text": "Environmental regulations and standards set the broad demand framework for environmental goods and services. Regulatory emphasis",
+      "plain_text": "Environmental regulations and standards set the broad demand framework for environmental goods and services. Regulatory emphasis has turned toward economic tools, benefits and voluntary agreements that focus on the overall performance of the ecosystem and on adaptive strategies for the community. Greater emphasis has been placed on sustainable technology and goods. Both provide new impetus to the supply industry. There have been significant challenges to market growth, both in terms of environmental regulations and the availability and demands for new technologies. Poorly developed economies, gaps in regional legislation, technical regulations and supply-side mobility and technology \nrequirements posed significant difficulties. Financial constraints also may impede the industry’s development. This is a major problem for new areas, which include a variety of technologies to improve sustainable strategies for small businesses and start-ups. Download PDF Brochure for Latest Research Study: https://www.researchmoz.us/enquiry.php?type=S&repid=2599247  The sector was able to take advantage of general R&D, development and services sectors, competitive procurement opportunities, small business finance and export incentives. Targeted support for environmental R&D has proved an important instrument for industry development. All the OECD (please spell out) countries have defined pollution control and environmental change as significant socioeconomic goals, which have attracted considerable R&D funding. Because about half of all expenditures across all regions come from government expenditures, government procurement and procurement in many countries significantly impacts business. Certain countries have specific development programs to overcome market failures and information gaps in areas such as environmental exports and small enterprises.  Technological advances and innovation also have been major factors in this market, scaling by expanding resource productivity and efficiency. The rate at which technology is advancing and becoming adopted, not the technology itself in many instances, is disrupting the markets. Companies are increasingly using the Internet, data, and social media platforms to create and develop asset-light businesses which have the potential to scale up quickly and commercialize.”  “Report Scope:  The main challenges in the study of the competition in environmental technologies and services contribute to industry description, range and limitations. This is partly due to the complexity of the definition and the lack of information in some areas that are more recent and rapidly growing. There are many reports that have attempted to identify, assess and explain the global, regional and local markets, but they offer little consensus. Each sector has a diverse range of goods and services. Each market has a variety of products and services that are used to clean up existing production systems, treat water and sewage, control environmental pollution and reduce noise.  Several waste management and recycling technologies and services address past environmental damage. A growing range of environmental services, including research, design and engineering services, also are available. Most of these manufacturing and engineering operations are heterogeneous, which hinders data collection and comparisons. There also is a lack of consensus on standards for identifying sector limits.  Most emission prevention and management systems and facilities suppliers have a low level of efficiency in filtering pollutants Other goods and services that are a key business line and therefore are not readily separable for inclusion in the Environment Industry measures, may be classified by environmental technologies and services. Ultimately, various studies on behaviors or goods yield divergent findings, whether for ecological workplace surveys, eco-product surveys, and general quantitative surveys. Values shift because they rely on supply or demand calculations on which they are based.  Despite definition and measurement problems, these technologies should be considered an industry aspect. Cleaner technologies are difficult to measure because their improvements cannot be discerned from more efficient improvements that use fewer resources, produce less waste and harmful by-products. The industry can be defined by including goods and services in areas such as water, air, noise, soil, solid waste, natural resources and various services.  Do You Have Any Query Or Specific Requirement? Ask to Our Industry Expert @ https://www.researchmoz.us/enquiry.php?type=E&repid=2599247  Report Includes:  – 38 data tables and 28 additional tables \n– An overview of the global markets for environmental technologies \n– Analyses of global market trends with data from 2018 to 2019, and projections of compound annual growth rates (CAGRs) through 2024 \n– Identification of the technical as well as other non-technical challenges that must be prevailed over for the market to realize its full potential \n– A look at the regulatory affairs and the level of government expenditures (in developed as well as developing economies) committed to the environment that will shape the future marketplace \n– Insight into the patent summary and analysis along with new developments within the technology segment \n– Competitive landscape covering major stakeholders and profile description of key market players, including Teledyne Technologies Inc., General Electric Co., Siemens AG, Thermo Fisher Scientific Inc., Environmental Remediation Resources Pty Ltd. and Bactech Environmental Corp.” For More Information Kindly Contact:  \nResearchMoz \nMr. Nachiket Ghumare, \n90 State Street, \nAlbany NY, \nUnited States – 12207 \nTel: +1-518-621-2074 \nUSA-Canada Toll Free: 866-997-4948 \nEmail: [email protected] \nFollow us on LinkedIn @ http://bit.ly/1TBmnVG \nMedia Release: https://www.researchmoz.us/pressrelease \nFollow me on : http://marketresearchlatestreports.blogspot.com/ This post was originally published on Food and Beverage Herald",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Both provide new impetus to the supply industry. There have been significant challenges to market growth, both in terms of environmental regulations and the availability and demands for new technologies. Poorly developed economies, gaps in regional legislation, technical regulations and supply-side mobility and technology",
+          "concept": "mid-sentence conjunction cutoff",
+          "reasoning": "This section ends with 'and technology', leaving the sentence incomplete due to a line break or continuation."
+        },
+        {
+          "rank": 2,
+          "text": "Companies are increasingly using the Internet, data, and social media platforms to create and develop asset-light businesses which have the potential to scale up quickly and commercialize.”  “Report Scope:",
+          "concept": "colon after fragment",
+          "reasoning": "This section ends with a colon after a fragment, indicating an abrupt transition to a new section."
+        },
+        {
+          "rank": 3,
+          "text": "This is a major problem for new areas, which include a variety of technologies to improve sustainable strategies for small businesses and start-ups. Download PDF Brochure for Latest Research Study: https://www.researchmoz.us/enquiry.php?type=S&repid=2599247",
+          "concept": "URL interruption",
+          "reasoning": "This section ends with a URL, which often represents an abrupt break in natural language text."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas",
+          "concept": "title colon cutoff",
+          "reasoning": "This section ends with a colon after a book title, leaving the predicate of the sentence unresolved."
+        },
+        {
+          "rank": 2,
+          "text": "Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as",
+          "concept": "mid-sentence list introduction",
+          "reasoning": "This section ends with 'such as', which introduces a list that is not completed, creating syntactic incompleteness."
+        },
+        {
+          "rank": 3,
+          "text": "He serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission",
+          "concept": "mid-list interruption",
+          "reasoning": "This section ends in the middle of a list, with more items expected after the comma."
+        }
+      ]
+    }
+  ]
+}

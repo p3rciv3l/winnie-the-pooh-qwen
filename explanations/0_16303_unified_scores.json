@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_16303",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **detailed narrative descriptions of recent or ongoing events, particularly those involving negative consequences, official responses, or mediated communication** (such as natural disaster reports, political controversies, legal proceedings, or announcements made via platforms like Twitter).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Portuguese, Spanish, English, German, Russian) and spans news reporting, political statements, legal updates, and disaster coverage. It consistently activates on texts that specify *how* an event unfolded\u2014often using past-tense verbs like \"ocorreu\" (occurred), \"had been cut,\" \"got killed\"\u2014and include references to institutional actors (governments, commissions, courts) or communication channels (\"via Twitter,\" \"via PDF,\" \"via video link\").\n\n3. **Contrast with low-activation examples**: High-activation texts contain extended narrative clauses detailing event dynamics, consequences, or responses, while low-activation examples are mostly headlines, sentence fragments, or generic announcements without elaborated event sequences. For instance, \"Japan Rocked by 7.5 Magnitude Earthquake\" (low) states a fact, whereas high-activation examples describe the tsunami's timing, casualties, and causes (\"Um tsunami ocorrido no s\u00e1bado... causou pelo menos 168\").\n\n4. **Closing interpretation**: The neuron detects semantically rich, temporally grounded event descriptions that emphasize process, impact, or mediation, rather than isolated facts. It functions as a \"narrative event reporter\" sensitive to clauses embedding actions within contexts of response, communication, or consequence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "nice with China [UPDATE] Britons warned against travel to China and Hong Kong amid tensions [ANALYSIS] They say it is only a matter of",
+      "normalized_activation": 9.582143783569336,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1617,
+          "meaning_score": 0.3168,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1914
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1042,
+          "meaning_score": 0.3402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1778
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1148,
+          "meaning_score": 0.4126,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.211
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "own destinies \u2014 making deeply personal decisions free from political interference. The Court got Roe right 50 years ago. It was a balanced decision with broad national",
+      "normalized_activation": 8.940793991088867,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2112,
+          "meaning_score": 0.5426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3015
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1595,
+          "meaning_score": 0.3502,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2039
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1493,
+          "meaning_score": 0.5501,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2798
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "4 ans, ce qui nous changera de la politique fran\u00e7aise qui rend les salari\u00e9s au smic responsables de la crise \u00e9conomique. Les opposants",
+      "normalized_activation": 8.285377502441406,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.134,
+          "meaning_score": 0.1504,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1138
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1278,
+          "meaning_score": 0.287,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1659
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1077,
+          "meaning_score": 0.298,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1623
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "PSD sus\u0163ine c\u0103 pre\u015fedintele este vinovat de tr",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1348,
+          "meaning_score": 0.7139,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5394
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1615,
+          "meaning_score": 0.3382,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1999
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1745,
+          "meaning_score": 0.4642,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2555
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1677,
+          "meaning_score": 0.293,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1842
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1555,
+          "meaning_score": 0.534,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2758
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1199,
+          "meaning_score": 0.5274,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2589
+        }
+      ]
+    }
+  ]
+}

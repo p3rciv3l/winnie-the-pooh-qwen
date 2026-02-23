@@ -1,8 +1,8 @@
 {
   "neuron_id": "8_5224",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T05:59:54Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that contain a quotation, citation, or reported speech followed by a source attribution** (such as a news quote with a speaker and outlet, a citation of a study or report, or a translated statement with attribution).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Czech, Polish, Arabic) and is most common in journalistic or informational contexts—news snippets, interview transcripts, press releases, and research summaries. The neuron activates when the text explicitly credits a statement to a person, organization, or document (e.g., “says Cress in an interview with… NPR,” “according to realtor Nicolas Tétrault,” “pro CNN uvedl,” “podle Mintel”).\n\n3. **Contrast with low-activation examples**: The low-activation examples generally lack this “quote–source” structure; they are often descriptive summaries, announcements, or opinion statements without embedded attributed speech (e.g., “Prosecutors in the federal trial…,” “IU coach Archie Miller speaks…,” “The US election has… be plagued by…”). The neuron is sensitive to the syntactic framing of reported information with an explicit source.\n\n4. **Closing interpretation**: The neuron appears to detect a specific discourse marker of attribution, acting as a “reported speech with citation” detector. It signals when the text shifts from general narration to referencing an external voice or authority.",
+  "generated_at": "2026-02-23T07:46:59Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing quoted speech, citations, or referenced sources** (such as interview quotes, cited reports, attributed statements, or parenthetical citations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Polish, Czech, Arabic) and diverse topics (news, sports, business, science, entertainment). It specifically triggers on phrases that introduce or frame external voices: e.g., \"says Cress in an interview with...\", \"according to realtor...\", \"pro CNN uvedl...\", \"with the caption...\", \"Minister... co-chaired the...\".\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily direct narrative statements, event descriptions, or announcements without embedded attribution. They lack the syntactic framing of referencing another speaker, source, or publication. For instance, \"Prosecutors in the federal trial...\" or \"Double Olympic medallist PV Sindhu suffered...\" state facts directly, while high-activation examples interject a cited voice or source mid-sentence.\n\n4. **Closing interpretation**: This neuron detects a formal linguistic structure where text attributes information to an external origin, acting as a sensor for journalistic, academic, or reportive framing rather than the underlying semantic content.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Last June, the Supreme Court of Victoria’s Justice Kate McMillan found Maddock’s solicitor should have been more suspicious about Reynolds’ motives, saying the evidence suggested Reynolds was “pushing the outcome” of Maddock giving her his family home.",
-          "reasoning": "This section contains a direct quotation from a judicial finding with explicit attribution to Justice Kate McMillan."
+          "text": "Last June, the Supreme Court of Victoria’s Justice Kate McMillan found Maddock’s solicitor should have been more suspicious about Reynolds’ motives, saying the evidence suggested Reynolds was “pushing the outcome” of Maddock giving her his family home. “The plaintiff [Reynolds] appeared to be heavily involved with the deceased in circumstances where the deceased was likely to be vulnerable or impressionable as a result of his circumstances and became dependent on her,” McMillan found.",
+          "concept": "quoted judicial statement",
+          "reasoning": "This section contains direct quotes from a judge, framing the statement as an external authoritative source."
         },
         {
           "rank": 2,
-          "text": "“The plaintiff [Reynolds] appeared to be heavily involved with the deceased in circumstances where the deceased was likely to be vulnerable or impressionable as a result of his circumstances and became dependent on her,” McMillan found.",
-          "reasoning": "This is a clear quote-source structure with a judicial statement attributed to McMillan using 'found'."
+          "text": "The judge also criticised Bentleigh GP Dr Andrew Batty, who she said did not appear to consider Maddock’s significant health issues when assessing him as being of sound mental capacity to change his will. “As the deceased’s treating doctor in the period that each of the 2018 will, the 2019 will and the 2020 will were made, Dr Batty would or should have been aware of the deceased’s significant health issues, including bouts of depression, history of paranoid delusions and reduced cognitive abilities,” McMillan said.",
+          "concept": "quoted judicial criticism",
+          "reasoning": "This section contains a direct quote from the judge criticizing a doctor, attributing the statement to the judge."
         },
         {
           "rank": 3,
-          "text": "“As the deceased’s treating doctor in the period that each of the 2018 will, the 2019 will and the 2020 will were made, Dr Batty would or should have been aware of the deceased’s significant health issues, including bouts of depression, history of paranoid delusions and reduced cognitive abilities,” McMillan said.",
-          "reasoning": "This contains a lengthy attributed quotation from Justice McMillan criticizing a doctor's assessment."
+          "text": "In a tribute after his death The Greek Herald recounted how Maddock served in a special military division of the Australian Imperial Forces “particularly noted for their service and sacrifice on the Island of Crete in 1941”. “Norm was involved in a series of actions aimed at delaying the German advance, as well as in rearguard positions that enabled the successful withdrawal of thousands of Allied troops ... He fought in Georgioupolis, Chania and the Battle of 42nd Street. Norm was captured in Crete but escaped and reached the North African coast by sea.”",
+          "concept": "cited newspaper tribute",
+          "reasoning": "This section cites and quotes from a newspaper tribute, framing the information as coming from an external source."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Journalist Molly Sprayregen takes a look at the former Hawaii congresswoman’s willingness to pander to the far right in an article published by LGBTQ Nation on February 22, explaining, “While Gabbard did represent Hawaii as a Democrat and also ran for president as one, she has increasingly moved to the right.",
-          "reasoning": "This explicitly attributes a statement to journalist Molly Sprayregen and includes a direct quote with source (LGBTQ Nation)."
+          "text": "Journalist Molly Sprayregen takes a look at the former Hawaii congresswoman’s willingness to pander to the far right in an article published by LGBTQ Nation on February 22, explaining, “While Gabbard did represent Hawaii as a Democrat and also ran for president as one, she has increasingly moved to the right. Lately, she’s been touting deeply Republican rhetoric, blasting Biden for playing ‘identity politics’ in his commitment to nominate a Black woman to the Supreme Court and calling critics of anti-LGBTQ conservative podcaster Joe Rogan ‘zealots of wokeism.’”",
+          "concept": "quoted journalist explanation",
+          "reasoning": "This section directly quotes a journalist's explanation from an article, clearly attributing the statement to an external source."
         },
         {
           "rank": 2,
-          "text": "In a February 23 tweet, Gabbard sounded very MAGA when she defended Russian President Vladimir Putin, saying that Putin has \"legitimate security concerns\" with Ukraine:",
-          "reasoning": "This attributes a specific statement to Tulsi Gabbard with clear source attribution (February 23 tweet)."
+          "text": "“Gabbard also has a long anti-LGBTQ past,” Sprayregen observes. “Before she was elected to Congress, she worked for one of her father’s anti-LGBTQ organizations, the Alliance for Traditional Marriage, which she later cited as a positive experience when she ran for the state legislature in 2002.",
+          "concept": "quoted observation",
+          "reasoning": "This section contains a direct quote from a journalist observing Gabbard's past, with clear attribution."
         },
         {
           "rank": 3,
-          "text": "“Gabbard also has a long anti-LGBTQ past,” Sprayregen observes. “Before she was elected to Congress, she worked for one of her father’s anti-LGBTQ organizations, the Alliance for Traditional Marriage, which she later cited as a positive experience when she ran for the state legislature in 2002.",
-          "reasoning": "This contains a quoted observation attributed to journalist Sprayregen followed by additional attributed information."
+          "text": "In a February 23 tweet, Gabbard sounded very MAGA when she defended Russian President Vladimir Putin, saying that Putin has \"legitimate security concerns\" with Ukraine:  Gabbard, Sprayregen notes, once described former President Donald Trump as “unfit to serve.”",
+          "concept": "attributed statements",
+          "reasoning": "This section attributes statements to Gabbard via a tweet and to Sprayregen, framing them as external voices."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "“Most jaathres or habbas have evolved not just as a way to celebrate but also to encourage economic activity,” says Arun Joladakudligi, a folk researcher.",
-          "reasoning": "This is a clear quote-source structure with a statement attributed to a named expert (folk researcher Arun Joladakudligi)."
+          "text": "“Most jaathres or habbas have evolved not just as a way to celebrate but also to encourage economic activity,” says Arun Joladakudligi, a folk researcher. For instance, the Mysuru region had a rich tradition of wood artisanry used in the making of the Channapatna dolls.",
+          "concept": "expert quote",
+          "reasoning": "This section contains a direct quote from a folk researcher, attributing the statement to an expert source."
         },
         {
           "rank": 2,
           "text": "Vasudha Narayanan, a researcher, says, “The festival culminated in a grand celebration, with the king holding court. It is possible that this act of a royal court is what is re-created today in the domestic celebration.”",
-          "reasoning": "This contains a direct quotation attributed to researcher Vasudha Narayanan with explicit source framing."
+          "concept": "researcher quote",
+          "reasoning": "This section contains a direct quote from a researcher, framing the statement as an external expert opinion."
         },
         {
           "rank": 3,
-          "text": "“There are thousands of families in the Bengaluru-Mysuru belt who have over 4,000 dolls in their collection,” he adds.",
-          "reasoning": "This continues attributed speech from Vinay Prashant (referenced earlier) about doll collections."
+          "text": "“Many households have purchased the Doraemon set to capture the interest of children in the tradition. When they are encountered with characters they are familiar with in the arrangement, children may have more motivation to participate and replicate the event in coming years,” says Sandhya Vasudhev of Aralikatte Handicrafts.",
+          "concept": "crafts seller quote",
+          "reasoning": "This section contains a direct quote from a handicrafts seller, attributing the statement to an industry source."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Shawn DeRose, principal of Annandale High School wrote a letter for parents noting that when the delay of award notifications came to light at Thomas Jefferson High School for Science and Technology (TJHSST), they did their own internal review and discovered that the high school \"did not receive their Commended Scholar certificates from the National Merit Scholarship Corporation.\"",
-          "reasoning": "This attributes a specific statement and discovery to principal Shawn DeRose in a formal communication."
+          "text": "Tonya Arnold said it was lunchtime at Frederick County Middle School when she got a text from her son Wednesday. “He was like, ‘Mom, they’re out of food at school,’” she said....",
+          "concept": "quoted parent statement",
+          "reasoning": "This section contains a direct quote from a parent, framed as an external personal account."
         },
         {
           "rank": 2,
-          "text": "Tonya Arnold said it was lunchtime at Frederick County Middle School when she got a text from her son Wednesday. “He was like, ‘Mom, they’re out of food at school,’” she said.",
-          "reasoning": "This contains attributed speech from Tonya Arnold reporting both her statement and a quoted text from her son."
+          "text": "Shawn DeRose, principal of Annandale High School wrote a letter for parents noting that when the delay of award notifications came to light at Thomas Jefferson High School for Science and Technology (TJHSST), they did their own internal review and discovered that the high school \"did not receive their Commended Scholar certificates from the National Merit Scholarship Corporation.\"",
+          "concept": "quoted principal letter",
+          "reasoning": "This section contains a direct quote from a principal's letter, attributing the statement to an official school source."
         },
         {
           "rank": 3,
-          "text": "According to a statement from Fairfax County Public Schools (FCPS), the lesson happened at Centreville Elementary School and...",
-          "reasoning": "This explicitly attributes information to an official source (Fairfax County Public Schools statement)."
+          "text": "In the 30 years that Tiffini Wise has been talking to parents who are at risk of losing custody of their child, she says she’s seen it all: cases that present with flat-out abuse, cases tangled with claims of false and misleading information, and plenty where the parent is being told they have no rights.",
+          "concept": "attributed expert statement",
+          "reasoning": "This section attributes a statement to an expert, framing it as an external professional opinion."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "The U.S. Department of Defense agency this month issued a release estimating the cost of deal for 12 Bell UH-1Y utility helicopters at $575 million.",
-          "reasoning": "This attributes specific information (cost estimate) to an official government source (U.S. Department of Defense agency)."
+          "text": "The United States and Italy have offered to sell the Czech army 12 helicopters, the Czech Defence Ministry said on Tuesday, a deal worth an estimated $575 million that is on hold until a new government takes office.",
+          "concept": "ministry statement",
+          "reasoning": "This section attributes the information to the Czech Defence Ministry, framing it as an official statement."
         },
         {
           "rank": 2,
-          "text": "The Czech Defence Ministry said on Tuesday, a deal worth an estimated $575 million that is on hold until a new government takes office.",
-          "reasoning": "This attributes information about the deal status to the Czech Defence Ministry with time attribution."
+          "text": "Bell Helicopter, a unit of Textron, and Italy’s Leonardo had been asked by the European Union and NATO member the Czech Republic to submit offers. The ministry said the deal was on schedule but a final decision would be made by a new government.",
+          "concept": "ministry update",
+          "reasoning": "This section contains an attribution to the ministry, reporting their statement about the deal's status."
         },
         {
           "rank": 3,
-          "text": "The ministry said the deal was on schedule but a final decision would be made by a new government. It provided no other details.",
-          "reasoning": "This contains attributed statements from the ministry regarding the deal's timeline and decision process."
+          "text": "The U.S. Department of Defense agency this month issued a release estimating the cost of deal for 12 Bell UH-1Y utility helicopters at $575 million. Reporting by Jason Hovet; Editing by Edmund Blair",
+          "concept": "DoD release citation",
+          "reasoning": "This section cites a U.S. Department of Defense release and includes reporting credits, framing the information as sourced from official documents."
         }
       ]
     }

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_3454",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing formal institutional actions, investigations, or authoritative statements** (such as legal indictments, police operations, corporate policy announcements, military responses, or government condemnations).\n\n2. **Domain coverage**: The pattern appears in news reporting and official communications across multiple languages (English, French, Spanish, Arabic) and domains: law enforcement (\"PNP desarticul\u00f3 la banda\"), security/military actions (\"targeted a group of Israeli soldiers\"), corporate legal compliance (\"remove any praise or support for the crime\"), judicial processes (\"challenge the move in court\"), and governmental condemnations of crimes or terrorism. It also activates on formal document markers like copyright lines (\"\u00a92023 Bloomberg L.P.\") and report attributions (\"Reporting by Pranav Kiran...\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature institutions (governments, companies, police, courts) taking measurable action, making official declarations, or describing procedural efforts. The low-activation examples lack this; they cover cultural festivals, entertainment plots, personal narratives, lifestyle topics, and general descriptions without any institutional actor performing a formal, actionable response.\n\n4. **Closing interpretation**: The neuron detects language associated with organized, often legal or security-related, institutional agency and procedural execution. It appears to function as a \"formal institutional response\" filter, activating on text where an organization is actively managing, investigating, or authoritatively addressing a situation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "North Korean leader Kim Jong Un on Monday said that his military should \"thoroughly annihilate\" the United States and South Korea if provoked, after he promised to",
+      "normalized_activation": 9.523847579956055,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0926,
+          "meaning_score": 0.6091,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2807
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1009,
+          "meaning_score": 0.4836,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2338
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1683,
+          "meaning_score": 0.4991,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.267
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "States of being a \u201cmilitary threat\u201d and called on the military to \u201csuppress all South Korean territory by mobilizing all physical means\u2026 including nuclear forces\u201d in",
+      "normalized_activation": 8.643110275268555,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.214,
+          "meaning_score": 0.5622,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3105
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2062,
+          "meaning_score": 0.7619,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5873
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2163,
+          "meaning_score": 0.5141,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2921
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "des man\u0153uvres d\u2019intimidation. Dans l\u2019Etat cl\u00e9 du Michigan, o\u00f9 des membres de milices favor",
+      "normalized_activation": 7.84942626953125,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1093,
+          "meaning_score": 0.3402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1798
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1507,
+          "meaning_score": 0.2907,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1766
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0889,
+          "meaning_score": 0.2963,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1541
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Teen Titans is an animated series that is critically acclaimed as one of the cartoon network\u2019s",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2399,
+          "meaning_score": 0.4445,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2738
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2707,
+          "meaning_score": 0.1887,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1838
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2486,
+          "meaning_score": 0.2161,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1859
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "MONTREAL \u2014 A lot has been written about the three Extinction Rebellion (XR",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1651,
+          "meaning_score": 0.7156,
+          "overlap_fraction": 0.8514,
+          "location_score": 0.1703,
+          "combined_score": 0.5225
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1089,
+          "meaning_score": 0.1857,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1178
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1304,
+          "meaning_score": 0.2911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1686
+        }
+      ]
+    }
+  ]
+}

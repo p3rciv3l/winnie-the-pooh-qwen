@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_125",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and specific named entities** (such as people's full names with titles, geographic locations, organizations, or event names) often embedded within longer descriptive clauses.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, Romanian, Tagalog, German, etc.) and diverse topics: news reports about political figures (\"Swedish ambassador to Ankara\"), legal proceedings (\"Judge Carmen Lamela\"), academic references (\"University of Hawaii student Mariko Quinn\"), historical events (\"Mt Vesuvius...Pompeii\"), and cultural entities (\"Patricio Rey y sus Redonditos de Ricota\"). It also activates on technical terms like company names (\"Raytheon\") and non-English proper nouns.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain specific, often multi-word named entities situated in descriptive contexts, while low-activation examples either lack such concrete identifiers (e.g., generic phrases like \"projects worth around \u20b9\") or mention names only briefly without elaboration (e.g., \"Jeremy Corbyn\" appears without accompanying descriptive detail). The neuron appears sensitive to the *presence and elaboration* of proper nouns rather than their mere mention.\n\n4. **Closing interpretation**: The neuron detects linguistically marked references to unique, real-world entities, functioning as a cross-lingual identifier of specific named subjects within running text. It signals when a text segment is anchored by concrete, identifiable proper nouns rather than general or abstract topics.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "officer on special duty for Covid-19 in north Bengal, Dr Susanta Kumar Roy today. \u201cWe have observed that masks with expiratory valves are",
+      "normalized_activation": 9.532734870910645,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "they will feel compelled to fall in line. EXPOSED AND VULNERABLE. Barbados is now in an entirely new situation. Previously, we",
+      "normalized_activation": 8.494287490844727,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Lincoln Riley gets doused in eggnog after Miller Moss tosses 6 TDs in USC's dominant Holiday Bowl win over Louisville This is way better than a",
+      "normalized_activation": 7.288742542266846,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "British Police Investigate 2 New Cases Of Deadly Nerve Agent Poisoning NO",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Get up to speed on all the coronavirus news from across Australia. Follow all of Wednesday",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

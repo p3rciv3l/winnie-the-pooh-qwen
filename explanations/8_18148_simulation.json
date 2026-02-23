@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_18148",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T06:41:25Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of geological events, organizations, or conflict-related disruptions** (such as earthquakes, volcanic eruptions, references to the US Geological Survey (USGS), or geopolitical tensions involving military ramping up or protests).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, German, etc.) and spans news domains covering natural disasters (earthquakes, volcanoes), geopolitical/military escalations (\"ramping up\" support, protests), and scientific reporting. A highly consistent trigger is the explicit mention or acronym of the **\"US Geological Survey\" (USGS)** or its equivalents in other languages.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature disruptive, large-scale, or hazardous events (geological or geopolitical) and often include proper nouns of institutions like USGS or NATO. The low-activation examples are dominated by routine news topics (sports, entertainment, appointments, local crime, and general announcements) that lack this sense of large-scale physical or geopolitical disruption and do not mention geological entities.\n\n4. **Closing interpretation**: The neuron detects text related to **crises, hazards, or escalations, with a particularly strong sensitivity to the concept of geological surveying and natural disaster reporting**. It acts as a cross-lingual filter for content involving institutional monitoring or reporting on disruptive physical or social events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 2404,
+      "normalized": 8.82529354095459,
+      "actual_text": "la primera mitad. Los ajustes llegaron en el descanso de medio tiempo y salieron con la victoria contundente. TAMBIÉ",
+      "plain_text": "¡Aseguran el primer puesto! Las 5 claves de triunfo de los 49ers ante los Commanders Tras una Navidad fatal, San Francisco les da un feliz Año Nuevo a sus fanáticos al derrotar 27-10 a los Washington Commanders. Una victoria que tiene un sabor especial debido a que fue el último juego de 2023 y los posiciona como líderes de la Conferencia Nacional, además Purdy sigue haciendo historia.  Sin embargo, no todo fue alegría en el encuentro, pues Christian Holmes, jugador de Commanders, se desplomó en el campo, por lo que tuvo que salir en el carrito de las desgracias por una lesión en la cabeza.  La Figura  Brock Purdy lideró a su equipo en una victoria más, pero además se colocó como el mariscal con más yardas aéreas en una temporada de 49ers con 4,281, por delante de Joe Montana y Steve Young.  El Villano  Sam Howell desaprovechó la oportunidad para ser el QB titular de Commanders en la próxima temporada, puesto que fue interceptado en dos ocasiones y tuvo errores de novato ante la defensiva de San Francisco.  La Clave  Al principio del encuentro, la defensiva fue exhibida al permitir 10 puntos, pero después cerró espacios y ya no permitió más puntos, además de que consiguió dos intercepciones.  La Jugada  La conexión entre Brock Purdy y Brandon Aiyuk sigue presente en cada encuentro, en esta ocasión nos regalaron una curva que concluyó en el tercer touchdown de San Francisco.  Plan de Juego  Dominación absoluta, ya que a pesar de que los Commanders son un equipo inferior a San Francisco, los puso en aprietos en la primera mitad. Los ajustes llegaron en el descanso de medio tiempo y salieron con la victoria contundente.  TAMBIÉN TE PUEDE INTERESAR:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sin embargo, no todo fue alegría en el encuentro, pues Christian Holmes, jugador de Commanders, se desplomó en el campo, por lo que tuvo que salir en el carrito de las desgracias por una lesión en la cabeza.",
+          "concept": "injury disruption",
+          "reasoning": "This section describes a player collapsing and being carted off, which is a disruptive event in a sports context, though not geological or geopolitical."
+        },
+        {
+          "rank": 2,
+          "text": "¡Aseguran el primer puesto! Las 5 claves de triunfo de los 49ers ante los Commanders Tras una Navidad fatal, San Francisco les da un feliz Año Nuevo a sus fanáticos al derrotar 27-10 a los Washington Commanders.",
+          "concept": "sports victory",
+          "reasoning": "This section mentions a decisive victory and a 'fatal Christmas,' which implies conflict and disruption in a sports setting."
+        },
+        {
+          "rank": 3,
+          "text": "La Figura Brock Purdy lideró a su equipo en una victoria más, pero además se colocó como el mariscal con más yardas aéreas en una temporada de 49ers con 4,281, por delante de Joe Montana y Steve Young.",
+          "concept": "individual achievement",
+          "reasoning": "This section highlights a record-breaking performance, which is a positive event without disruption or crisis elements."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 2601,
+      "normalized": 6.758911609649658,
+      "actual_text": "earthquake struck off Hokkaido in northern Japan on Saturday night, the US Geological Survey and the Japan Meteorological Agency said. No tsunami warning was issued after the",
+      "plain_text": "A magnitude 6.1 earthquake struck off Hokkaido in northern Japan on Saturday night, the US Geological Survey and the Japan Meteorological Agency said. No tsunami warning was issued after the offshore quake, which shook the coastal cities of Kushiro and Nemuro. Major Japanese media outlets carried no immediate reports of damage or injuries. For all the latest headlines follow our Google News channel online or via the app. The quake hit at 10:27 p.m. (1327 GMT) at a depth of around 43 kilometers (27 miles), the USGS said. An expert speaking on public broadcaster NHK warned residents to be vigilant against quakes for about a week. Earthquakes are common in Japan, which sits on the Pacific “Ring of Fire,” an arc of intense seismic activity that stretches through Southeast Asia and across the Pacific basin. The country has strict construction regulations intended to ensure buildings can withstand strong earthquakes, and routinely holds emergency drills to prepare for a major jolt. Read more:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A magnitude 6.1 earthquake struck off Hokkaido in northern Japan on Saturday night, the US Geological Survey and the Japan Meteorological Agency said. No tsunami warning was issued after the offshore quake, which shook the coastal cities of Kushiro and Nemuro.",
+          "concept": "earthquake report",
+          "reasoning": "This section directly mentions an earthquake and the US Geological Survey, which are key triggers for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "The quake hit at 10:27 p.m. (1327 GMT) at a depth of around 43 kilometers (27 miles), the USGS said. An expert speaking on public broadcaster NHK warned residents to be vigilant against quakes for about a week.",
+          "concept": "seismic details",
+          "reasoning": "This section includes specific details from the USGS and a warning about ongoing seismic risk, matching the neuron's focus on geological hazards."
+        },
+        {
+          "rank": 3,
+          "text": "Earthquakes are common in Japan, which sits on the Pacific “Ring of Fire,” an arc of intense seismic activity that stretches through Southeast Asia and across the Pacific basin.",
+          "concept": "geological context",
+          "reasoning": "This section explains the geological context of earthquakes in Japan, aligning with the neuron's interest in natural disaster reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00005",
+      "row_idx": 3071,
+      "normalized": 5.198405742645264,
+      "actual_text": "proposals unveiled by the City of Buffalo on Friday to redevelop a city-owned parking ramp at East Mohawk and Ellicott streets. City officials hope to make a",
+      "plain_text": "One proposal calls for a 10-story glass tower, while another would add a 13th-floor restaurant on its top floor. Still another would redevelop nearby, underused buildings long coveted by developers. Those ideas were among six dramatic proposals unveiled by the City of Buffalo on Friday to redevelop a city-owned parking ramp at East Mohawk and Ellicott streets. City officials hope to make a selection by early fall. \"These six compelling proposals really shows the confidence that the development community has in the City of Buffalo,\" Mayor Byron W. Brown said. The number of apartments in the proposals range from 100 to 233 on the site, with one development team proposing 600 apartments over several buildings. The percentage of affordable units proposed ranged from 10% to 100%. All of the proposals would also include retail and office space, parking and emphasize transportation options. The proposals were in response to a request to developers to remake the city-owned 629-space parking ramp, built in 1959 on 1.1-acres at 477 Washington St. and bound by East Mohawk and Ellicott streets. The city told developers, in part, that it wanted the project \"to activate public spaces, walkable areas and new business development in downtown Buffalo.\" City officials said the project could be a public-private partnership or the city could sell the property to a developer. A decision is expected by early fall, with construction expected to begin in 2023, said Brendan Mehaffy, executive director of the Office of Strategic Planning. \"This project will be an engine for the next wave of downtown development,\" the mayor said. \"This will spark dynamic public and private sector developments and attractive urban spaces that will make Buffalo a place that the next generation of talent will want to live and work.\" This was the first project guided by \"The Future of Mobility: Remaking Buffalo for the 21st Century,\" a report by the Congress for the New Urbanism that emphasizes the importance of mobility and equity in future development. Recommendations from that report found their way into the proposals, with a priority put on pedestrians and bicyclists, public transit, walkability and street-level \"vibrancy\" intended to make the new project appealing to younger residents and workers. Mehaffy said it was unusual to receive six quality proposals, noting LECOM Harborcenter and a mixed-use development at 201 Ellicott St. each received two proposals. Some of these development teams matched out-of-state and local partners, which was also different, he said. In sharing each of the proposals, Mehaffy said the city was surprised that the one submitted by developer Douglas Jemal included the Simon Electric buildings, located by Big Ditch Brewery. “The Simon Electric properties have had the attention of many in the development community for many years, given their strategic location along Ellicott Street,” Mehaffy said. He said their redevelopment would stitch together the area from Genesee Gateway and the Flower District to Lafayette Square, while helping create the critical mass of residential units the city has been working toward. “Imagine the vibrancy from all those additional units in that area,” Mehaffy said. “The streets would be completely different.” Still, Mehaffy said each of the proposals had a lot going for them. A selection committee will be established, he said, and the public will have a chance to weigh in, although he said it is too early to say because of Covid-19 what form that will take. “This is not a pretty picture contest,” Mehaffy said. “There will be a lot of work to make sure that the finances work on this project, and that this is a project that is going to happen in Buffalo.” Here are the proposals: CB Emmanuel, BFC Partners, Carmina Wood Morris, in partnership with GO Buffalo Niagara/GObike Buffalo • 23,113 square feet of commercial space with mix of restaurant, fitness center, flagship retail or co-working space. • 203 residential units – all affordable housing • 285 parking spots Douglas Development and Antunovich Associates • Phase I: 4,500 square feet of commercial space with a mix of restaurant/café, research and development lab, ground floor retail • 200 residential units with 10% dedicated to affordable housing • 800 parking spaces with addition of approximately 300 spaces • Phase II: Redevelopment of two Simon properties adjacent to the Mohawk Ramp with 400 new apartments, 10% dedicated to affordable housing Gold Wynn and Colby Development • 5,400 square feet of commercial space, with mix of restaurant/café, tech hub and rooftop restaurant • 200 residential units with 103 units dedicated to affordable housing • 584 parking spots, with 204 spaces for residential and 380 spaces for commercial and public use SAA EVI, McGuire Development and Passero Associates • 8,800 square feet of commercial space with 13th-floor restaurant, ground floor food-based amenities and retail and incubation hub • 233 residential units with 168 income-restricted units • 268 parking spots Savarino Companies, 34Group, CJS Architects and WGI • 6,160 square feet of commercial space with mobility hub café, retail space and fitness center • 168 residential units, with approximately 14% affordable units • 489 parking spots Uniland Development Company, Belmont Housing Resources of WNY • 8,147 square feet of commercial space • 100 units of housing, with approximately 50% affordable units • 146 parking spots Mark Sommer covers preservation, development, the waterfront, culture and more. He's also a former arts editor at The News.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "One proposal calls for a 10-story glass tower, while another would add a 13th-floor restaurant on its top floor. Still another would redevelop nearby, underused buildings long coveted by developers.",
+          "concept": "development proposal",
+          "reasoning": "This section describes urban redevelopment proposals, which involve construction but lack crisis or geological elements."
+        },
+        {
+          "rank": 2,
+          "text": "City officials hope to make a selection by early fall. \"These six compelling proposals really shows the confidence that the development community has in the City of Buffalo,\" Mayor Byron W. Brown said.",
+          "concept": "city planning",
+          "reasoning": "This section focuses on city planning and confidence in development, which is routine news without disruption."
+        },
+        {
+          "rank": 3,
+          "text": "This was the first project guided by \"The Future of Mobility: Remaking Buffalo for the 21st Century,\" a report by the Congress for the New Urbanism that emphasizes the importance of mobility and equity in future development.",
+          "concept": "urban mobility",
+          "reasoning": "This section mentions mobility and equity in development, which are social concepts but not directly related to geological or conflict disruptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 5678,
+      "normalized": 0.0,
+      "actual_text": "New Delhi (India), January 2: Sukanya Basu Mallik introduces readers",
+      "plain_text": "New Delhi (India), January 2: Sukanya Basu Mallik introduces readers to the enchanting world of Indian mythology through her debut work, 'Durga: The Divine Warrior.' This captivating story follows the supreme goddess, Durga, as she battles the malevolent demon Mahishasura, weaving a tale filled with bravery, resilience, and the timeless conflict between good and evil. “In a time of darkness and despair, the demon Mahishasura's tyranny threatens to consume the world. But hope emerges as the supreme goddess, Durga, descends from the cosmic realm. With her radiant presence and unwavering determination, she embarks on an epic journey to vanquish evil and restore peace. Witness the awe-inspiring battles, the summoning of her mighty lion companion, and the ultimate triumph of light over darkness. Durga: The Divine Warrior is a visually stunning and engaging comic book that brings to life the rich tapestry of Indian mythology, captivating readers of all ages with its timeless tale of bravery, strength, and the enduring power of good.” In an exclusive interview, Sukanya shares her literary journey, inspirations, and the fascinating universe she's crafted within the pages of her visually stunning comic book. Q: Your book beautifully captures Indian mythology. What inspired you to tell this story? Sukanya: \"Growing up, Indian myths fascinated me. They aren't just stories; they teach us about our values and the fight between good and bad. Durga’s strength and determination inspired me. I wanted to share this lively myth in a way that everyone, young and old, could enjoy.\" Q: Your writing is praised for its emotions and engaging style. How do you blend big ideas into your stories? Sukanya: \"I think stories are great for big ideas. I research a lot and try to understand feelings deeply. Whether it's about people being good and bad at the same time or defeating evil, I want readers to connect with my stories.\" Q: How does your MBA education connect with your storytelling? Sukanya: \"My MBA taught me a lot about how people behave and communicate. Storytelling is similar; it helps us understand each other. I think both need empathy and engagement.\" Q: What can readers expect from your next book, 'Saraswati's Gift: Mira and the Script of Creation'? Sukanya: \"'Saraswati's Gift' is about Mira and how she learns about creation. It's all about knowledge, creativity, and Saraswati, the goddess of knowledge.\" Q: We can see from your recent social media post that you are working on a script about returning home for the holidays but not being too fond of the idea. This is certainly a relatable topic for many people. Would you be interested in sharing a preview of it with us? Sukanya: Sure. The script is a scene set in a Kolkata apartment in the morning. Ananya, a woman in her 30s, is standing by the window with a cup of coffee. She reminisces about the city with a mix of reluctance and fondness. Here's a sneak peek: “[INT. KOLKATA APARTMENT - MORNING] ANANYA, 30s, stands by the window, gazing out pensively. The rain taps gently against the glass. She holds her coffee cup, its aroma filling the room. ANANYA (softly) Last day here... She sips the coffee, savoring its warmth, her eyes tracing the city's lively streets below.” Q: Can you share your favorite books of 2023 and how they've influenced you? Sukanya: \"This year, I loved 'Folktales from Bollywood: Adventures in Tinseltown' for its movie stories. 'The Art of Self-Therapy' helped me understand emotions better. 'Beyond Borders: A Bharat–Pakistan Love Story' showed me how love can change things. 'When You Saved Me' was about being strong, like my stories. 'Eco-Living Starts at Home' and 'Joyful Life Blueprint: Transforming Challenges Into Opportunities' made me think about our environment. 'Inner Alchemy' and 'Beethoven's Last Symphony' made me feel deep emotions.\" Sukanya Basu Mallik, a graduate of IIEST Shibpur with an MBA, brings Indian mythology to life through her storytelling. As her 'Tridevi' series continues with 'Saraswati's Gift: Mira and the Script of Creation,' readers eagerly anticipate diving into Sukanya's vibrant world of myth and imagination. Sukanya Basu Mallik's works have been featured in Reader’s Digest, Times of India, Sahitya Akademi, Writer's Life, UK, AIPF Int. Anthology ( Diverse City Youth Contest, Austin, US), etc. Bestowed with Best Manuscript Awards for fiction & non-fiction categories (Mumbai Litofest, 2018), she has also been recognized for her short story ‘Healing of Wounds’ at NCLF, led by Ruskin Bond. She's currently pursuing a PhD at IIT Madras in organizational behavior, her subject being using art-based therapies for enhancing teaching-learning effectiveness using immersive technologies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "This captivating story follows the supreme goddess, Durga, as she battles the malevolent demon Mahishasura, weaving a tale filled with bravery, resilience, and the timeless conflict between good and evil.",
+          "concept": "mythological battle",
+          "reasoning": "This section describes a mythological battle, which involves conflict and disruption, though not in a real-world geological or geopolitical context."
+        },
+        {
+          "rank": 2,
+          "text": "“In a time of darkness and despair, the demon Mahishasura's tyranny threatens to consume the world. But hope emerges as the supreme goddess, Durga, descends from the cosmic realm.",
+          "concept": "good vs evil",
+          "reasoning": "This section portrays a cosmic conflict between tyranny and hope, matching the neuron's interest in disruptive events but in a mythological frame."
+        },
+        {
+          "rank": 3,
+          "text": "With her radiant presence and unwavering determination, she embarks on an epic journey to vanquish evil and restore peace. Witness the awe-inspiring battles, the summoning of her mighty lion companion, and the ultimate triumph of light over darkness.",
+          "concept": "divine conflict",
+          "reasoning": "This section details a journey to vanquish evil and restore peace, which aligns with conflict resolution but is not real-world crisis reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3095,
+      "normalized": 0.0,
+      "actual_text": "Britain promises new law to ban conversion therapy targeting LGBT people LONDON, Jan",
+      "plain_text": "Britain promises new law to ban conversion therapy targeting LGBT people  LONDON, Jan 17 (Reuters) - Britain will seek to ban conversion therapy targeting lesbian, gay, bisexual and transgender people, cracking down on treatments claiming to change a person's sexual orientation or gender identity.  Culture minister Michelle Donelan said on Tuesday the government would publish draft legislation shortly setting out proposals to ban conversion practices in England and Wales.  \"The Bill will protect everyone, including those targeted on the basis of their sexuality, or being transgender,\" Donelan said in a statement. (Reporting by Sachin Ravikumar; editing by William James)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Britain promises new law to ban conversion therapy targeting LGBT people LONDON, Jan 17 (Reuters) - Britain will seek to ban conversion therapy targeting lesbian, gay, bisexual and transgender people, cracking down on treatments claiming to change a person's sexual orientation or gender identity.",
+          "concept": "legal ban",
+          "reasoning": "This section announces a law to ban conversion therapy, which addresses a social conflict and could be seen as a geopolitical disruption."
+        },
+        {
+          "rank": 2,
+          "text": "Culture minister Michelle Donelan said on Tuesday the government would publish draft legislation shortly setting out proposals to ban conversion practices in England and Wales.",
+          "concept": "government action",
+          "reasoning": "This section describes government action to ban harmful practices, which relates to social disruption and policy changes."
+        },
+        {
+          "rank": 3,
+          "text": "\"The Bill will protect everyone, including those targeted on the basis of their sexuality, or being transgender,\" Donelan said in a statement. (Reporting by Sachin Ravikumar; editing by William James)",
+          "concept": "LGBT rights",
+          "reasoning": "This section highlights protection for marginalized groups, which touches on social tensions but lacks geological or acute crisis elements."
+        }
+      ]
+    }
+  ]
+}

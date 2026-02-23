@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_14922",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit mentions of the United States as a geopolitical or institutional entity** (such as \"the United States\", \"United States of America\", \"American\" in an institutional sense like \"American people\" or \"American politics\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news and formal discourse covering U.S. domestic politics, foreign policy, trade, legal cases, security issues, and popular culture (e.g., *American Idol*). The references are typically to the nation-state, its government, its population, or its relationships. The neuron also activates on variations like \"US\" and \"American\" when used in official contexts (e.g., \"American Nurses Association\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either make no reference to the United States or mention it only peripherally (e.g., \"Disney California Adventure Park\"). They cover diverse topics like astronomy, local news in other countries, non-English text, entertainment, and natural disasters unrelated to U.S. institutional context. The key distinction is the absence of the explicit, formal noun phrase \"United States\" or its direct adjectival form \"American\" anchoring a geopolitical, institutional, or national-scale topic.\n\n4. **Closing interpretation**: This neuron detects textual spans where the United States is centrally invoked as a political, legal, or social actor. It functions as a high-precision detector for the country's named presence in formal discourse, rather than for general American culture or indirect associations.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ". \u201cEvery two minutes, a woman is diagnosed with breast cancer in the United States,\u201d Couric, 65, wrote on Instagram. \u201cOn June",
+      "normalized_activation": 9.913451194763184,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.6998,
+          "meaning_score": 0.9185,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.6473
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3884,
+          "meaning_score": 0.6104,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3995
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.5047,
+          "meaning_score": 0.1376,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2569
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "A new study assessing the portrayal of immigrants on American television has found improvement in representation but a continued over-emphasis of criminality for",
+      "normalized_activation": 9.733305931091309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1418,
+          "meaning_score": 0.9046,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6186
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2629,
+          "meaning_score": 0.4038,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2667
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1092,
+          "meaning_score": 0.4935,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2411
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". The accounts originated in China and Russia, and some had been seeking to influence American voters with targeted political campaigns. China\u2019s network spanned Facebook, Instagram, and",
+      "normalized_activation": 9.485107421875,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2637,
+          "meaning_score": 0.6894,
+          "overlap_fraction": 0.7351,
+          "location_score": 0.147,
+          "combined_score": 0.5283
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3962,
+          "meaning_score": 0.7026,
+          "overlap_fraction": 0.2595,
+          "location_score": 0.0519,
+          "combined_score": 0.4914
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2693,
+          "meaning_score": 0.4742,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2974
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "After going 13-4 and battling off the \u201cfraudulent\u201d label",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2608,
+          "meaning_score": 0.438,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4795
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1871,
+          "meaning_score": 0.2267,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1655
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1559,
+          "meaning_score": 0.2283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1537
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3125,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.52
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1927,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2006
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1853,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2312
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "neuron_id": "0_10493",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of prominent political leaders, particularly Xi Jinping of China** (such as direct references in news contexts, discussions of his policies or visits, or his name appearing alongside other world leaders like Putin or Modi).\n\n2. **Domain coverage**: The pattern appears primarily in multilingual news and political commentary text. High-activation examples are in English and Spanish, covering topics like international diplomacy, domestic Chinese politics, and geopolitical analysis. The neuron also activates, though less strongly, for other major political figures (e.g., Barack Obama, Narendra Modi), indicating a broader but secondary sensitivity to high-profile leadership names.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the names and associated contexts of powerful political figures, while the low-activation examples lack these entirely. The low-activation segments cover disparate, non-political topics like astronomy, local news, awards, and personal stories in various languages, with no references to national leaders or high-stakes political events.\n\n4. **Closing interpretation**: The neuron functions as a detector for semantic references to political authority and leadership, with a highly tuned focus on Xi Jinping. It likely serves to identify text segments concerned with state power, international relations, and the actions of specific heads of state.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ner Figueroa despedido de Univision por comentario racista sobre Michelle Obama Opini\u00f3n 03/11/15",
+      "normalized_activation": 3.359541177749634,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.418518,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.439406,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.818184,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "special flight?\u201d Goel, who came with the message of Indian Prime Minister Narendra Modi to Prime Minister KP Sharma Oli, was the senior most Indian official to visit",
+      "normalized_activation": 2.913541316986084,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.804391,
+          "actual_text_slice": [
+            1052,
+            1217
+          ],
+          "prediction_text_slice": [
+            1069,
+            1310
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.572268,
+          "actual_text_slice": [
+            1052,
+            1217
+          ],
+          "prediction_text_slice": [
+            6936,
+            7234
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.297205,
+          "actual_text_slice": [
+            1052,
+            1217
+          ],
+          "prediction_text_slice": [
+            4945,
+            5114
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ",700 coffee machine and even their very own wine cellar. Like this story? Sign up to our newsletter to get other stories like this delivered straight to",
+      "normalized_activation": 2.4540488719940186,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.183372,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            350
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.131738,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            352,
+            581
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.272533,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            647,
+            952
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.737173,
+          "actual_text_slice": [
+            0,
+            55
+          ],
+          "prediction_text_slice": [
+            0,
+            395
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.497008,
+          "actual_text_slice": [
+            0,
+            55
+          ],
+          "prediction_text_slice": [
+            396,
+            748
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.608327,
+          "actual_text_slice": [
+            0,
+            55
+          ],
+          "prediction_text_slice": [
+            750,
+            1412
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.883772,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            133
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.637148,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            135,
+            406
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.589317,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            407,
+            795
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

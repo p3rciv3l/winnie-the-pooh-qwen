@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_1141",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:30:42Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that appears mid-sentence or mid-paragraph, often following punctuation or a previous clause (such as continuations after commas, fragments starting with lowercase letters, or text immediately after a period within a paragraph).\n\n2. **Domain coverage**: The pattern occurs across multiple languages (English, Spanish, Romanian, Dutch, German, Greek, etc.) and diverse topics—including news reporting, legal documents, cultural events, and technical descriptions—primarily in the body of articles or detailed reports where lists, proper nouns, and complex punctuation are frequent.\n\n3. **Contrast with low-activation examples**: High-activation texts often begin with lowercase letters, digits, or punctuation (e.g., “radar,” “list.”, “. The”), signaling they are continuations; they also feature dense sequences of names, places, and nested clauses. Low-activation examples consistently start with capital letters and resemble headlines, leads, or social media prompts, with simpler sentence structures and fewer mid-sentence interruptions.\n\n4. **Closing interpretation**: The neuron detects prose that is embedded within longer documents, focusing on detailed, descriptive content rather than introductory or attention-grabbing openings.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 4380,
+      "normalized": 9.56273078918457,
+      "actual_text": "up in ’70s Britain, and the Godfather of pop art Peter Blake. Some other familiar faces will be returning to Charleston such as distinguished actor Simon Call",
+      "plain_text": "This year Charleston Festival celebrates its landmark 30th anniversary with a line-up of exceptional speakers.  It will also be the swansong of founder Diana Reich who established Charleston Festival as only the third literary festival in England. Running from May 17-27, the festival of books, ideas and creativity will explore themes from feminism and identity to international politics and Brexit, political art to scientific progress. Campaigner and businesswoman Gina Miller will kick-off the 11-day event while other highlights include a lecture by Mary Robinson, recipient of the 2019 Charleston John Maynard Keynes Prize, Caroline Criado Perez and Cathy Newman on gender gaps, Naomi Wolf discussing her new book, director of BBC News Kamal Ahmed on prejudice and growing up in ’70s Britain, and the Godfather of pop art Peter Blake. Some other familiar faces will be returning to Charleston such as distinguished actor Simon Callow with a dramatic reading of Oscar Wilde’s Ballad of Reading Gaol. Melvyn Bragg re-imagines the legendary romance between Héloïse and Abelard. Alan Bennett provides an irresistible mixture of readings, and two of our most renowned actors Eileen Atkins and Vanessa Redgrave perform the parts of Vita and Virginia, a play they took to Broadway. Closing the festival will be author and intrepid traveller Michael Palin.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Running from May 17-27, the festival of books, ideas and creativity will explore themes from feminism and identity to international politics and Brexit, political art to scientific progress.",
+          "concept": "festival themes",
+          "reasoning": "This section is a mid-paragraph continuation with a list-like structure and complex punctuation, matching the neuron's pattern for detailed descriptive content."
+        },
+        {
+          "rank": 2,
+          "text": "Campaigner and businesswoman Gina Miller will kick-off the 11-day event while other highlights include a lecture by Mary Robinson, recipient of the 2019 Charleston John Maynard Keynes Prize, Caroline Criado Perez and Cathy Newman on gender gaps, Naomi Wolf discussing her new book, director of BBC News Kamal Ahmed on prejudice and growing up in ’70s Britain, and the Godfather of pop art Peter Blake.",
+          "concept": "speaker list",
+          "reasoning": "This section contains a dense list of proper nouns and commas, characteristic of mid-paragraph continuations after punctuation."
+        },
+        {
+          "rank": 3,
+          "text": "Some other familiar faces will be returning to Charleston such as distinguished actor Simon Callow with a dramatic reading of Oscar Wilde’s Ballad of Reading Gaol. Melvyn Bragg re-imagines the legendary romance between Héloïse and Abelard.",
+          "concept": "additional performers",
+          "reasoning": "This section continues the detailed listing of festival participants with proper nouns, fitting the neuron's focus on embedded descriptive prose."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 3419,
+      "normalized": 8.888641357421875,
+      "actual_text": "Abonados GIRONA, 22 Feb. (EUROPA PRESS) - Los Bombers de la Generalitat han dado por estabilizado el",
+      "plain_text": "Menú Abonados GIRONA, 22 Feb. (EUROPA PRESS) - Los Bombers de la Generalitat han dado por estabilizado el incendio que ha empezado este martes de madrugada en Roses (Girona), según un tuit del cuerpo recogido por Europa Press. Han explicado que un total de 54 dotaciones terrestres y tres medios aéreos trabajan en el incendio, remojando el perímetro para evitar que el fuego se avive. Los Agents Rurals han explicado que la superficie afectada por el incendio es de 392 hectáreas y su principal hipótesis sobre la causa es una quema de restos vegetales. Putin ordena a las Fuerzas Armadas rusas entrar en Donetsk y Lugansk The Walking Dead: ¿Confiramdo el regreso de Andrew Lincoln (Rick) junto a Norman Reedus (Daryl) en el final de la serie? Crisis Ayuso - Casado | Directo: Javier Maroto, portavoz del PP en el Senado, pide también un congreso extraordinario \"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Han explicado que un total de 54 dotaciones terrestres y tres medios aéreos trabajan en el incendio, remojando el perímetro para evitar que el fuego se avive.",
+          "concept": "firefighting details",
+          "reasoning": "This section provides specific numbers and actions in a mid-paragraph continuation, matching the neuron's pattern for detailed reporting."
+        },
+        {
+          "rank": 2,
+          "text": "Los Agents Rurals han explicado que la superficie afectada por el incendio es de 392 hectáreas y su principal hipótesis sobre la causa es una quema de restos vegetales.",
+          "concept": "damage assessment",
+          "reasoning": "This section continues with numerical data and cause hypothesis, characteristic of mid-paragraph descriptive content."
+        },
+        {
+          "rank": 3,
+          "text": "Menú Abonados GIRONA, 22 Feb. (EUROPA PRESS) - Los Bombers de la Generalitat han dado por estabilizado el incendio que ha empezado este martes de madrugada en Roses (Girona), según un tuit del cuerpo recogido por Europa Press.",
+          "concept": "initial report",
+          "reasoning": "Although this is a lead sentence, it contains proper nouns and punctuation, but may activate less strongly as it resembles a news opening."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00013",
+      "row_idx": 3114,
+      "normalized": 7.898334980010986,
+      "actual_text": "ă a Guvernului 44/2008 privind desfăşurarea activităţilor economice de către persoane",
+      "plain_text": "Prin intermediul unui comunicat de presă, reprezentanții Oficiului Național al Registrului Comerțului au oferit informații importante cu privire la împlinirea termenului până la care persoanele fizice autorizate (PFA) şi întreprinderile individuale (ÎI) trebuie să îşi actualizeze obiectul de activitate. \nAstfel, la data de 17 ianuarie 2019, expiră perioada de 2 ani pe care persoanele fizice autorizate (PFA) şi întreprinderile individuale (II) o au la dispoziţie pentru a solicita oficiului registrului comerţului din raza sediului profesional, înregistrarea menţiunilor referitoare la obiectul de activitate, ca urmare a intrării în vigoare a Legii nr. 182/2016 pentru aprobarea Ordonanţei de urgenţă a Guvernului 44/2008 privind desfăşurarea activităţilor economice de către persoanele fizice autorizate, întreprinderile individuale şi întreprinderile familiale. Potrivit actului normativ mai sus menţionat, „PFA poate avea în obiectul de activitate cel mult 5 clase de activităţi prevăzute de codul CAEN”, în timp ce „întreprinderea individuală poate avea în obiectul de activitate cel mult 10 clase de activităţi prevăzute de codul CAEN”. \nÎn termen de 60 de zile de la împlinirea celor 2 ani, respectiv începând cu data de 19 martie 2019, Oficiul Registrului Comerţului radiază, din oficiu, persoanele fizice autorizate şi întreprinderile individuale al căror număr de activităţi incluse în obiectul de activitate este mai mare decât cel impus de legislaţia în vigoare. \nLista persoanelor fizice autorizate şi a întreprinderilor individuale care nu şi-au îndeplinit obligaţia de modificare a obiectului de activitate este publicată pe pagina de internet a Oficiului Naţional al Registrului Comerţului. Pentru mai multe informaţii, accesaţi https://www.onrc.ro/index.php/ro/legea-182-2016.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Astfel, la data de 17 ianuarie 2019, expiră perioada de 2 ani pe care persoanele fizice autorizate (PFA) şi întreprinderile individuale (II) o au la dispoziţie pentru a solicita oficiului registrului comerţului din raza sediului profesional, înregistrarea menţiunilor referitoare la obiectul de activitate,",
+          "concept": "legal deadline",
+          "reasoning": "This section starts with a continuation word and provides specific dates and procedures, matching the neuron's pattern for mid-paragraph legal details."
+        },
+        {
+          "rank": 2,
+          "text": "ca urmare a intrării în vigoare a Legii nr. 182/2016 pentru aprobarea Ordonanţei de urgenţă a Guvernului 44/2008 privind desfăşurarea activităţilor economice de către persoanele fizice autorizate, întreprinderile individuale şi întreprinderile familiale.",
+          "concept": "legal reference",
+          "reasoning": "This section continues with dense references to laws and regulations, characteristic of embedded legal text."
+        },
+        {
+          "rank": 3,
+          "text": "Potrivit actului normativ mai sus menţionat, „PFA poate avea în obiectul de activitate cel mult 5 clase de activităţi prevăzute de codul CAEN”, în timp ce „întreprinderea individuală poate avea în obiectul de activitate cel mult 10 clase de activităţi prevăzute de codul CAEN”.",
+          "concept": "activity limits",
+          "reasoning": "This section quotes specific limits with numbers and technical terms, fitting the neuron's focus on detailed descriptive content."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1189,
+      "normalized": 0.0,
+      "actual_text": "नस, गाजियाबाद : ले�",
+      "plain_text": "नस, गाजियाबाद : लेखपाल संघ ने अपनी मांगों को लेकर मंगलवार को तहसील परिसर में धरना दिया। इस दौरान उन्होंने मुख्यमंत्री को संबोधित एक ज्ञापन भी जिला प्रशासन को सौंपा। उनकी मांग है कि वेतन विसंगति को शासन दूर करे और साथ ही उन्हें जरूरत के हिसाब से लैपटॉप और इंटरनेट कनेक्शन की सुविधा दे। यूपी लेखपाल संघ के सचिव सुधीर शर्मा ने यह जानकारी दी। मंगलवार सुबह 11 बजे सदर तहसील में धरना शुरू हुआ, जो कि 3 बजे तक चला। संघ ने चेतावनी दी कि अगर उनकी मांग जल्दी पूरी नहीं होती है तो वे आंदोलन को और तेज करेंगे। संघ सचिव सुबोध शर्मा ने बताया कि उनकी मांग वेतन विसंगतियां दूर करने, कार्य के दबाव के चलते लैपटॉप, इंटरनेट, स्मार्ट मोबाइल आदि की सुविधा देने और राजस्व निरीक्षक के समान वेतन दिया जाए।",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "इस दौरान उन्होंने मुख्यमंत्री को संबोधित एक ज्ञापन भी जिला प्रशासन को सौंपा। उनकी मांग है कि वेतन विसंगति को शासन दूर करे और साथ ही उन्हें जरूरत के हिसाब से लैपटॉप और इंटरनेट कनेक्शन की सुविधा दे।",
+          "concept": "demands list",
+          "reasoning": "This section details protesters' demands with a list of items, characteristic of mid-paragraph continuations in news reports."
+        },
+        {
+          "rank": 2,
+          "text": "यूपी लेखपाल संघ के सचिव सुधीर शर्मा ने यह जानकारी दी। मंगलवार सुबह 11 बजे सदर तहसील में धरना शुरू हुआ, जो कि 3 बजे तक चला।",
+          "concept": "protest details",
+          "reasoning": "This section provides specific information about the protest timing and source, continuing the report with mid-paragraph details."
+        },
+        {
+          "rank": 3,
+          "text": "संघ ने चेतावनी दी कि अगर उनकी मांग जल्दी पूरी नहीं होती है तो वे आंदोलन को और तेज करेंगे। संघ सचिव सुबोध शर्मा ने बताया कि उनकी मांग वेतन विसंगतियां दूर करने, कार्य के दबाव के चलते लैपटॉप, इंटरनेट, स्मार्ट मोबाइल आदि की सुविधा देने और राजस्व निरीक्षक के समान वेतन दिया जाए।",
+          "concept": "warning and demands",
+          "reasoning": "This section continues with a warning and further detailed demands, matching the neuron's focus on embedded descriptive content."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 2618,
+      "normalized": 0.0,
+      "actual_text": "© . Malaysia’s former Prime Minister Mahathir Mohamad speaks during a news",
+      "plain_text": "© . Malaysia’s former Prime Minister Mahathir Mohamad speaks during a news conference in Putrajaya   By A. Ananthalakshmi and Rozanna Latiff KUALA LUMPUR () – Former Malaysian Prime Minister Mahathir Mohamad on Friday denied promoting violence by saying that Muslims have a right to “kill millions of French people for the massacres of the past” and criticised Facebook (NASDAQ:) and Twitter for taking down his posts. Mahathir, 95, a respected leader in the Muslim world, posted the comments on his blog, Twitter, and Facebook on Thursday, saying he believed in freedom of expression but that it should not be used to insult others. Several Muslim-majority countries have denounced remarks by French officials, including President Emmanuel Macron, defending the use of cartoons of the Prophet Mohammad in a French school classroom. The caricatures are seen as blasphemous by Muslims. The dispute flared after a French teacher who showed his pupils satirical cartoons of the Prophet during a civics lesson was beheaded in the street by an attacker of Chechen origin. “Muslims have a right to be angry and to kill millions of French people for the massacres of the past. But by and large the Muslims have not applied the ‘eye for an eye’ law. Muslims don’t. The French shouldn’t,” Mahathir said in his posts. “Since you have blamed all Muslims and the Muslims’ religion for what was done by one angry person, the Muslims have a right to punish the French,” he said, adding he did not approve of the killing of the French teacher. Twitter removed the tweet about the right to kill saying it had violated the platform’s rules on glorifying violence. The post was also deleted on Facebook. Mahathir accused the media of ignoring his subsequent remarks saying Muslims had never sought revenge for the injustice against them in the past and that the French should respect the beliefs of others. “What is promoted by these reactions to my article is to stir French hatred for Muslims,” Mahathir said in a statement. He also criticised Facebook and Twitter for removing the posts. “To my mind, since they are the purveyor of freedom of speech, they must at least allow me to explain and defend my position.” Facebook said in an email Mahathir’s post was removed for violating its policies on hate speech. On Thursday, a Tunisian migrant beheaded a woman and killed two other people in a French church, prompting Macron to double down on his vow to stop conservative Islamic beliefs subverting French values. French officials have said the killing was an attack on the core French value of freedom of expression and defended the right to publish the cartoons. Fusion Media or anyone involved with Fusion Media will not accept any liability for loss or damage as a result of reliance on the information including data, quotes, charts and buy/sell signals contained within this website. Please be fully informed regarding the risks and costs associated with trading the financial markets, it is one of the riskiest investment forms possible.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Muslims have a right to be angry and to kill millions of French people for the massacres of the past. But by and large the Muslims have not applied the ‘eye for an eye’ law. Muslims don’t. The French shouldn’t,” Mahathir said in his posts.",
+          "concept": "controversial quote",
+          "reasoning": "This section begins with a quotation mark and contains a provocative statement, matching the neuron's pattern of mid-paragraph continuations after punctuation."
+        },
+        {
+          "rank": 2,
+          "text": "“Since you have blamed all Muslims and the Muslims’ religion for what was done by one angry person, the Muslims have a right to punish the French,” he said, adding he did not approve of the killing of the French teacher.",
+          "concept": "justification quote",
+          "reasoning": "This section is another quotation that continues the argument, starting with punctuation and providing detailed justification."
+        },
+        {
+          "rank": 3,
+          "text": "The dispute flared after a French teacher who showed his pupils satirical cartoons of the Prophet during a civics lesson was beheaded in the street by an attacker of Chechen origin.",
+          "concept": "event description",
+          "reasoning": "This section describes the triggering event with complex sentence structure, characteristic of embedded news details."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_19840",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of human settlements, particularly small-scale or localized ones** (such as towns, villages, townships, or municipal areas), including their governance, events, infrastructure, or social dynamics.\n\n2. **Domain coverage**: The pattern appears across diverse contexts: local governance (mayors, town boards, zoning), conflict reporting (martial law, protests, shelling in towns), rural/urban development, and everyday community life. It activates for settlements in multiple languages (English, Spanish via \"pueblo\" contexts, and others where settlement names appear) and spans news, descriptive narratives, and geographic references.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently reference named or implied settlements (e.g., \"small town,\" \"village,\" \"Greenwich Village,\" \"North Dagon Township\"), while low-activation examples lack such references\u2014covering topics like arrests, celebrity news, weather, or generic events without geographic settlement focus. The neuron ignores non-settlement geographic terms (e.g., \"oil facilities\") and texts without clear inhabited locality context.\n\n4. **Closing interpretation**: The neuron detects semantic content related to populated local areas, emphasizing their identity as human habitats or administrative units. It functions as a settlement-concept detector, sensitive to both explicit terms and contextual mentions of towns/villages across varied discourses.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "control. Two firefighting teams arrived at the scene, with Safed and nearby towns not threatened, according to the Marom Hagalil Regional Council. The fire",
+      "normalized_activation": 9.70169734954834,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.8019,
+          "meaning_score": 0.7066,
+          "overlap_fraction": 0.9419,
+          "location_score": 0.1884,
+          "combined_score": 0.7918
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4512,
+          "meaning_score": 0.2993,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3002
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3349,
+          "meaning_score": 0.3576,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.277
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "After she turned down his advances, he drugged and raped her, before leaving town after she threatened to press charges. He returned a few weeks later \u2014 except",
+      "normalized_activation": 9.108059883117676,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.7592,
+          "meaning_score": 0.8608,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.648
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.273,
+          "meaning_score": 0.0837,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1427
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3213,
+          "meaning_score": 0.4581,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3117
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", fashionistas of all stripes and celebrities who want a memorable night out on the town. Here\u2019s a look back at some of the evening\u2019s greatest hits.",
+      "normalized_activation": 7.811485290527344,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4108,
+          "meaning_score": 0.5733,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3937
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3008,
+          "meaning_score": 0.4532,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3016
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.477,
+          "meaning_score": 0.3548,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3327
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Virgin Orbit marked the first UK space launch mission a failure last week, while Virgin Galactic",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0602,
+          "meaning_score": 0.475,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2141
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1715,
+          "meaning_score": 0.6486,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.328
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2573,
+          "meaning_score": 0.6352,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.357
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Approximately 37.8 million Kidde fire extinguishers in the United",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1428,
+          "meaning_score": 0.8023,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5781
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0845,
+          "meaning_score": 0.5382,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2491
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1721,
+          "meaning_score": 0.586,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3032
+        }
+      ]
+    }
+  ]
+}

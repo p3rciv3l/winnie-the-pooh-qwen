@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_1141",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing non-English words, names, or phrases embedded within a broader context** (such as Turkish proper nouns and sentences, Arabic script, Spanish news quotes, or Cyrillic text snippets).\n\n2. **Domain coverage**: The neuron activates across multiple languages (Turkish, Arabic, Spanish, Bulgarian, Persian, Icelandic, etc.) and domains, primarily in news or reportorial contexts discussing international events, politics, local officials, or regional incidents. High activations frequently involve foreign personal names (e.g., *Fethullah Gulen*, *Hakan Ko\u015ftu*), place names (e.g., *Ankara*, *Samos*), institutions, or direct quotations/translations from non-English sources.\n\n3. **Contrast with low-activation examples**: The low-activation examples are almost exclusively in English and focus on domestic U.S./Anglophone topics (e.g., Facebook, U.S. sports, fast-food lawsuits, American holidays). They lack the distinctive foreign-language lexical items, diacritics, non-Latin scripts, or specific references to non-English-speaking regions and figures that dominate the high-activation set.\n\n4. **Closing interpretation**: The neuron appears to detect linguistic and cultural \"foreignness\" markers within text, acting as a filter for segments that originate from or heavily reference non-Anglophone contexts. It likely serves to identify when the model is processing multilingual or internationally sourced information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "individuo. Leer tambi\u00e9n: En el marco de las distintas tareas investigativas, y tras haber recibido varios llamados por conflictos en",
+      "normalized_activation": 9.255248069763184,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0163in 55 de persoane, iar echipele de salvare ac\u0163ioneaz\u0103 \u00een zonele de coast\u0103, consider\u00e2nd c\u0103 multe perso",
+      "normalized_activation": 7.866997718811035,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "(21 maggio-21 giugno) \u2013 Segno d\u2019Aria Mercurio arriva nel vostro segno portando",
+      "normalized_activation": 6.516636848449707,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Debido a la intensa lluvia que cay\u00f3 durante la noche",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "My Impromptus today begins with Mike Gallagher, a young congressman (and war veteran",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

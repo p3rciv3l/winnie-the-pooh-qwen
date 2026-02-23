@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_4720",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing enumerations or lists of items (such as lists of food dishes like \"Shrimp salad. Ceviche. Salmon banh mi. Smoked trout dip,\" named people like \"Mandela, Pat Tillman, Billie Jean King,\" geographic locations like \"Madrid, Calatayud, Soria and Segovia,\" or conceptual phrases like \"rule of law, sustainable and transparent infrastructure investment, freedom of navigation\").\n\n2. **Domain coverage**: The pattern appears across diverse domains: cuisine (e.g., smoked and Asian-fusion foods), geography and international relations (e.g., Southeast Asian regions and ASEAN terminology), entertainment figures (e.g., Filipino celebrities Vice Ganda and Vic Sotto), and historical/personal names. It occurs in descriptive, mid-paragraph passages rather than headlines, and spans multiple languages (English, Polish, Romanian, Spanish) when list structures are present.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically headlines, datelines, or short news snippets (e.g., \"CHICAGO, Oct. 30, 2020 /PR\" or \"Pakistan: Death sentence for Christian youth on blasphemy charges\") that lack enumerations. They are concise, often single-clause statements without multiple items separated by commas or periods. High-activation examples, even when fragmentary, consistently feature at least two listed elements, whether concrete nouns or proper names.\n\n4. **Closing interpretation**: The neuron detects syntactic structures involving enumeration, where multiple entities or concepts are presented in sequence. This suggests a focus on list-like constructions that provide detailed, itemized information across semantic domains.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "bleiben solche \u221a\u00faberraschungen trotzdem nur Schall und Rauch.",
+      "normalized_activation": 7.09056282043457,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3337,
+          "meaning_score": 0.3164,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.26
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3337,
+          "meaning_score": 0.318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2607
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4027,
+          "meaning_score": 0.342,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2979
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "- possess ammo/firearm of person convicted of crime of violence; Anthony Montrell Brown Jr, 32 of Duluth was arrested in St Louis Co. -",
+      "normalized_activation": 3.008044719696045,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0817,
+          "meaning_score": 0.4951,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4307
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0817,
+          "meaning_score": 0.3651,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1787
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0817,
+          "meaning_score": 0.1673,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0996
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the heroic test pilot Aleksei Chkalov; and Maria and Evdokia Vinogradova, hailed for their textile output. In the background is the",
+      "normalized_activation": 2.1802778244018555,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.133,
+          "meaning_score": 0.7067,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3358
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.133,
+          "meaning_score": 0.3404,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1893
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.133,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1703
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "What a wonderful world for jazz icon Tony Bennett, who celebrated his 90th",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1152,
+          "meaning_score": 0.6423,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.303
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1152,
+          "meaning_score": 0.5893,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2818
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1729,
+          "meaning_score": 0.4743,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2589
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Review It doesn\u2019t matter how many times you\u2019ve seen the iconic film The Snow",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1876,
+          "meaning_score": 0.264,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1807
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1876,
+          "meaning_score": 0.0876,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1101
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1876,
+          "meaning_score": 0.3206,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2033
+        }
+      ]
+    }
+  ]
+}

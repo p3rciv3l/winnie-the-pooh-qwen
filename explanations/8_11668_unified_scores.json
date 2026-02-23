@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_11668",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that embed named entities (especially persons, organizations, or locations) within descriptive, contextualizing phrases** (such as professional titles with affiliations, institutional roles, or specific geopolitical/legal contexts).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Italian, Armenian, Bulgarian) and domains including academic citations, legal proceedings, corporate announcements, medical reports, and sports journalism. It activates on text that frames a named entity with qualifiers like job titles (\u201cinterim provost and vice president of academic affairs\u201d), organizational connections (\u201cthe World Health Organisation\u2019s assistant director general\u201d), legal roles (\u201cFederal Prosecutor Joel Pahud\u201d), or specific event contexts (\u201cTurkey's state-owned lender Halkbank to avoid criminal charges\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts typically mention entities in a more isolated or lead-in news style without embedding them in elaborate descriptive clauses (e.g., \u201cLSU found itself in an early hole,\u201d \u201cProtestors gathered in downtown Memphis\u201d). What is absent is the syntactic embedding of the entity within a longer contextual phrase that specifies a role, affiliation, or precise situational detail.\n\n4. **Closing interpretation**: The neuron detects a specific narrative framing where named entities are introduced with explanatory detail, focusing on the syntactic and semantic structure that ties entities to their institutional, professional, or situational context. It acts less as a simple named-entity detector and more as a detector of *contextually elaborated references*.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "delivered Thursday in the case of one of the officers charged in the arrest of Freddie Gray, the 25-year-old Baltimore man who died last year after suffering a",
+      "normalized_activation": 9.498857498168945,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0733,
+          "meaning_score": 0.5474,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2482
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1691,
+          "meaning_score": 0.5787,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2991
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1146,
+          "meaning_score": 0.57,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2738
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ui Thanh Son also sent congratulations to his Cuban counterpart Bruno Rodr\u00edguez Parrilla./.",
+      "normalized_activation": 8.650045394897461,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1735,
+          "meaning_score": 0.6112,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3139
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1891,
+          "meaning_score": 0.7601,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3797
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.131,
+          "meaning_score": 0.5333,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2657
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "from her Scottish wedding and her dress is stunning. While Karen Gillan is a household name thanks to her work in the Marvel Cinematic Universe, she\u2019s one celebrity",
+      "normalized_activation": 7.7896952629089355,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2257,
+          "meaning_score": 0.6513,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3508
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2551,
+          "meaning_score": 0.7393,
+          "overlap_fraction": 0.6768,
+          "location_score": 0.1354,
+          "combined_score": 0.5331
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2503,
+          "meaning_score": 0.4796,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.292
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Black Lives Matter co-founders Patrisse Cullors and Melina Abdullah are",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1251,
+          "meaning_score": 0.6585,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5135
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1607,
+          "meaning_score": 0.3265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1949
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1475,
+          "meaning_score": 0.2386,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1544
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Protesting employees of Severelectro OJSC demand from the Chairman of the National",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.107,
+          "meaning_score": 0.7438,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3403
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1368,
+          "meaning_score": 0.5633,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.28
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.092,
+          "meaning_score": 0.548,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.256
+        }
+      ]
+    }
+  ]
+}

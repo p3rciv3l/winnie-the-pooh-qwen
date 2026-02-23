@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_3567",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:41:10Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, places) followed by a consequential action, event, or statement** (such as a politician making a declaration, an activist being detained, a company launching a service, or a government body issuing an order).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-reporting contexts** across multiple languages (English, Spanish, Slovak, Italian, Hindi/Arabic script) and topics. These include political announcements, legal proceedings, corporate updates, accidents, protests, and military events. The consistent structure is a proper noun or acronym (e.g., \"Gov\", \"UN experts\", \"INS Kiltan\", \"Volcán Popocatépetl\") immediately followed by a verb phrase describing something that happened, was said, or will occur.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a **specific agent (a who/what) paired with a newsworthy predicate**. The low-activation examples lack this clear \"entity + consequential action/update\" structure; they are often generic statements, incomplete phrases, promotional content, or descriptive passages without a focal named entity driving an event. For instance, low-activation texts discuss \"the UK's tax regime,\" \"an amazing moment,\" or \"people walking,\" without the specific, reportive framing.\n\n4. **Closing interpretation**: The neuron detects a fundamental syntax of news snippets: the presentation of a discrete, factual update centered on a specific identifiable subject. Its underlying focus is on **clauses that convey new, attributed events or statements within a journalistic or informational register**, regardless of the specific topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00006",
+      "row_idx": 114,
+      "normalized": 9.726035118103027,
+      "actual_text": "Z5n — Andrés Fuentes (@news_fuentes) May 3, 2021 Por su parte, el sospechoso, que",
+      "plain_text": "Sospechoso de un doble homicidio utiliza a su bebé como escudo humano durante un tiroteo con la Policía y ambos fallecen Un sospechoso de doble homicidio que, según las autoridades, secuestró a su propio bebé en Luisiana (EE.UU.), supuestamente utilizó al pequeño como escudo humano durante un mortal tiroteo con la Policía en el estado de Misisipi. La Oficina del Sheriff de la parroquia East Baton Rouge detalló que todo el incidente comenzó alrededor de las 11:30 de este lunes, cuando Eric Derell Smith, de 30 años, presuntamente mató a tiros a su expareja Christin Parker, de 32 años, y a su sobrino Brandon Parker, de 26 años, en su casa de la ciudad de Baker. Un vecino reveló a la cadena WBRZ que la hija de la víctima corrió pidiendo ayuda y exclamando que \"había oído dos disparos y que le habían disparado a su madre\". \"Me acerqué, entré en la habitación e intenté levantarla [a Parker] para ver si podía ayudar, pero estaba sin vida y había demasiada sangre saliendo de su cabeza\", agregó. #BREAKING Mississippi Highway Patrol and other agencies have the crime scene tape up around the area where they stopped a suspected murder from Baton Rouge.The suspect started a police chase from Baton Rouge with a child and was stopped on the I-10 East in Biloxi.@WLOXpic.twitter.com/yOziNi8Z5n — Andrés Fuentes (@news_fuentes) May 3, 2021 Por su parte, el sospechoso, que según los informes secuestró además a su hijo La'Mello Parker, de solo cuatro meses, escapó del lugar del crimen en su automóvil. Tras una persecución de unos 200 kilómetros, que abarcó dos estados y terminó cerca de la ciudad de Biloxi, el hombre sostuvo un tiroteo con los agentes y usó al niño como escudo. Smith murió allí por múltiples heridas de bala, reportó el canal WLOX. El bebé también resultó herido y fue inmediatamente hospitalizado. Falleció al día siguiente en un centro médico por \"una sola herida de bala\", especificó este miércoles el forense del condado de Harrison, Brian Switzer. \"No se sabe si el disparo se hizo a corta o larga distancia\", agregó. Mientras, dos policías del estado de Misisipi implicados en la persecución, un ayudante del sheriff del condado de Harrison y un agente de Gulfport, están de baja administrativa a la espera del resultado de la investigación, que es el procedimiento habitual en casos de tiroteos con participación de oficiales, comunicaron las autoridades.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La Oficina del Sheriff de la parroquia East Baton Rouge detalló que todo el incidente comenzó alrededor de las 11:30 de este lunes, cuando Eric Derell Smith, de 30 años, presuntamente mató a tiros a su expareja Christin Parker, de 32 años, y a su sobrino Brandon Parker, de 26 años, en su casa de la ciudad de Baker.",
+          "concept": "crime report",
+          "reasoning": "A law enforcement entity (Sheriff's Office) details a specific criminal incident involving a named suspect and victims."
+        },
+        {
+          "rank": 2,
+          "text": "Por su parte, el sospechoso, que según los informes secuestró además a su hijo La'Mello Parker, de solo cuatro meses, escapó del lugar del crimen en su automóvil. Tras una persecución de unos 200 kilómetros, que abarcó dos estados y terminó cerca de la ciudad de Biloxi, el hombre sostuvo un tiroteo con los agentes y usó al niño como escudo.",
+          "concept": "police chase",
+          "reasoning": "The named suspect engages in a high-speed chase and shootout with police, using a child as a shield."
+        },
+        {
+          "rank": 3,
+          "text": "Falleció al día siguiente en un centro médico por 'una sola herida de bala', especificó este miércoles el forense del condado de Harrison, Brian Switzer. 'No se sabe si el disparo se hizo a corta o larga distancia', agregó.",
+          "concept": "death announcement",
+          "reasoning": "A coroner (named entity) provides specific details about the cause and circumstances of a death."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 3092,
+      "normalized": 9.221652030944824,
+      "actual_text": "ismo con magnitud de 5.2 grados en el estado mexicano de Michoacán. A través de un comunicado, el organismo",
+      "plain_text": "El Servicio Sismológico Nacional (SSN) confirmó la noche de este lunes un sismo con magnitud de 5.2 grados en el estado mexicano de Michoacán. A través de un comunicado, el organismo apuntó que el epicentro del movimiento telúrico ocurrió se registró 39 kilometros al sureste de Coalcomán. El sismo, de acuerdo con los horarios del SSN, ocurrió a las 23:45 horas. Hasta el momento, ninguna autoridad ha confirmado daños o pérdidas humanas por este hecho. La Coordinación Nacional de Protección Civil informó qu emantendrá comunicación con las unidades estatales y municipales de protección civil para realizar una evaluación preliminar de la zona donde se presentó el temblor. El Centro de Alerta de Tsunamis de la Secretaría de Marina anunció que no se espera la generación de un tsunami en costas del Pacífico mexicano. Simulacro Nacional 2021 Hace una semana, la Coordinación Nacional de Protección Civil (CNPC) informó que el próximo miércoles 19 de mayo se realizará un macrosimulacro en México, con el objetivo de fomentar y reforzar protocolos de actuación ante un sismo o desastre. Este se llevará a cabo a las 11:30 horas (tiempo del centro de México). Oscar Zepeda, director del Centro Nacional de Prevención de Desastres (Cenapred) destacó que la cita servirá para recordar que, aún con la pandemia, existe el riesgo de que se puedan presentar temblores, por lo que hay que estar preparados. Además, reiteró que en el simulacro participarán los 32 estados de la República, así como municipios y alcaldías. El organismo pidió a la población registrar su inmueble aquí, en caso de querer participar. En ese enlace se proporcionará mayor información, así como recomendaciones y protocolos de evacuación bajo un contexto de pandemia. Cabe recordar que apenas el pasado 11 de abril, alrededor de las 11:00 horas, se percibió un sismo de 4.9 grados al sur de Coalcoman, Michoacán, el cual fue percibido en Jalisco, por lo que Protección Civil del Estado de tapatío alertó sobre posibles secuelas y daños. De acuerdo con el gobierno federal, el cual emitió un documento llamado Sismología de México, se asegura que Jalisco, junto con Chiapas, Guerrero, Oaxaca, Michoacán y Colima son los estados con mayor sismicidad en la República, esto debido a la interacción de las placas oceánicas de Cocos y Rivera que subducen con las de Norteamérica y del Caribe sobre la costa del Pacífico frente a estas entidades. Gracias a este alto riesgo, se habla de que Jalisco es parte de una “brecha sísmica”, pues es una zona geográfica donde no se ha producido sismos de 7 ó más grados en la escala de Richter por un largo periodo de tiempo de 50 años o más. Junto a este estado occidental, se encuentran las brechas de Guerrero (con cerca de 100 años de acumulación de energía elástica) y de Chiapas (con más de 300 años) como las áreas de mayor riesgo en el país. Esta alta probabilidad de generación de sismos ha alertada a la población, misma que aprendió a vivir bajo esta condición, pues aprendió de varios movimientos telúricos a lo largo del tiempo, como el ocurrido el 3 de junio de 1932, que tuvo una magnitud estimada a 8.2 grados, y fue uno de los más devastadores de la entidad. SEGUIR LEYENDO",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El Servicio Sismológico Nacional (SSN) confirmó la noche de este lunes un sismo con magnitud de 5.2 grados en el estado mexicano de Michoacán. A través de un comunicado, el organismo apuntó que el epicentro del movimiento telúrico ocurrió se registró 39 kilometros al sureste de Coalcomán.",
+          "concept": "earthquake confirmation",
+          "reasoning": "A national seismological service (named entity) officially reports the occurrence and details of an earthquake."
+        },
+        {
+          "rank": 2,
+          "text": "El Centro de Alerta de Tsunamis de la Secretaría de Marina anunció que no se espera la generación de un tsunami en costas del Pacífico mexicano.",
+          "concept": "tsunami alert",
+          "reasoning": "A tsunami alert center (named entity) issues a statement about potential coastal hazards."
+        },
+        {
+          "rank": 3,
+          "text": "La Coordinación Nacional de Protección Civil informó qu emantendrá comunicación con las unidades estatales y municipales de protección civil para realizar una evaluación preliminar de la zona donde se presentó el temblor.",
+          "concept": "civil protection update",
+          "reasoning": "A civil protection coordination body (named entity) announces its response actions following an earthquake."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00009",
+      "row_idx": 2967,
+      "normalized": 8.642678260803223,
+      "actual_text": "002,470 people either on the Live Register for June, or receiving either the Pandemic Unemployment Payment (PUP) or the Temporary Wage",
+      "plain_text": "More than one million people were either on the Live Register for June or received emergency payments created following the Covid-19 crisis, official statistics have revealed. The latest Central Statistics Office (CSO) employment figures found some 1,002,470 people either on the Live Register for June, or receiving either the Pandemic Unemployment Payment (PUP) or the Temporary Wage Subsidy Scheme (TWSS). In the last week of June, 438,933 were in receipt of the PUP, while 382,018 persons received the TWSS, the CSO said. The seasonally adjusted Live Register total for June 2020 was 213,700, down 14,200 from May, the statistics body added. CSO statistician Catalina Gonzalez issued a caveat, however, saying: \"This [overall] number is not the total of the three schemes, as there is some overlap between them due to the different frequency of the payments, and the fact that some people who are included on the Live Register but not receiving a payment, might be in receipt of either the PUP or the TWSS.\" Meanwhile, the number of young people out of work has laid bare the lack of focus on youth unemployment in the Programme for Government, a leading organisation has warned.More than 96,000 people under 25 are in receipt of the PUP and 29,579 on the Live Register. The National Youth Council of Ireland (NYCI) hit out at the \"lack of urgency and focus on youth unemployment in the Programme for Government\", saying there is no reference to youth employment or unemployment in the 125-page text. NYCI deputy director James Doorley said: \"At a time when we have 45.4% youth unemployment and over 146,000 young people out of work this omission is hard to understand or justify. “We call on the new Government to address this deficiency in the coming weeks and months and remain committed to working with them in the interests of young jobseekers.” What he called \"vague references\" to supporting upskilling and reskilling, labour market activation and enhancing apprenticeships would not cut the mustard, Mr Doorley said. \"We need the incoming Government to develop a youth employment plan in the first 30 days to assist young people get back to work.” The new Coalition must undertake a \"rapid review of youth employment policy and measures\", Mr Doorley said. The NYCI said it was proposing that this review would inform a \"credible and costed stimulus package\" to support young jobseekers into education, training, apprenticeships and employment. In relation to young people in work, the European Commission this week said it was proposing \"significant EU financing opportunities\" for youth employment in \"green and digital\" transitions. It is now for the EU member states to prioritise these investments, it said, adding that at least €22bn should be spent on youth employment support. \"We need to act fast. Now is the time to direct our attention towards the next generation,\" the Commission said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The latest Central Statistics Office (CSO) employment figures found some 1,002,470 people either on the Live Register for June, or receiving either the Pandemic Unemployment Payment (PUP) or the Temporary Wage Subsidy Scheme (TWSS). In the last week of June, 438,933 were in receipt of the PUP, while 382,018 persons received the TWSS, the CSO said.",
+          "concept": "unemployment statistics",
+          "reasoning": "A national statistics office (named entity) releases official data on unemployment and emergency payments."
+        },
+        {
+          "rank": 2,
+          "text": "The National Youth Council of Ireland (NYCI) hit out at the 'lack of urgency and focus on youth unemployment in the Programme for Government', saying there is no reference to youth employment or unemployment in the 125-page text.",
+          "concept": "policy criticism",
+          "reasoning": "A youth council (named entity) criticizes the government's program for neglecting youth unemployment."
+        },
+        {
+          "rank": 3,
+          "text": "In relation to young people in work, the European Commission this week said it was proposing 'significant EU financing opportunities' for youth employment in 'green and digital' transitions.",
+          "concept": "EU funding proposal",
+          "reasoning": "The European Commission (named entity) announces a proposal for financial support targeting youth employment."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00006",
+      "row_idx": 4889,
+      "normalized": 0.0,
+      "actual_text": "It might be a good day to spend time indoors, with temperatures barely hitting 1",
+      "plain_text": "It might be a good day to spend time indoors, with temperatures barely hitting 11. A -6-degree low is forecasted. How likely is it that it'll rain on your picnic? The weather forecast calls for a 45% chance of rain. Tuesday's winds could be brisk, with forecast showing winds from Northwest, clocking in at 23 mph. Special National Weather Service Alert: Winter Weather Advisory until TUE 4:00 AM CST. This report is created automatically with weather data provided by TownNews.com. Keep an eye on siouxcityjournal.com for forecast information and severe weather updates.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Special National Weather Service Alert: Winter Weather Advisory until TUE 4:00 AM CST.",
+          "concept": "weather advisory",
+          "reasoning": "The National Weather Service (named entity) issues an official winter weather advisory."
+        },
+        {
+          "rank": 2,
+          "text": "This report is created automatically with weather data provided by TownNews.com.",
+          "concept": "data attribution",
+          "reasoning": "A news service (TownNews.com) is credited as the source of weather data for the report."
+        },
+        {
+          "rank": 3,
+          "text": "Keep an eye on siouxcityjournal.com for forecast information and severe weather updates.",
+          "concept": "news referral",
+          "reasoning": "A specific website (siouxcityjournal.com) is directed as a source for further weather updates."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5209,
+      "normalized": 0.0,
+      "actual_text": "Yeni Zelanda basını ülkenin istihbarat servis",
+      "plain_text": "Yeni Zelanda basını ülkenin istihbarat servislerinin Christchurch’de bu saldırıyı işleyen kişi hakkında neden bilgi sahibi olmadığını sorguluyor.  Consortiumnews.com haber sitesi Green Peace’in bile peşinde olan Yeni Zelanda polisinin böylesine büyük bir saldırıyı neden gözden kaçırdıkları ve kimin sorumlu olduğu sorusunu sordu  NZ Herald gazetesinden David Fisher ise bu saldırı ile ilgili olarak cevap aradıkları bir çok soru olduğunu yazarak Yeni Zelanda’nın FBI’ı olarak çalışan NZSIS ve hükümete bağlı iletişim güvenliği bürosunun bugüne kadar edindikleri en yüksek bütçe ve en fazla çalışanına karşın bu olayı araştırmakta başarısız oldukları eleştirisi yaptı. Fisher, Yeni Zelanda’daki çok sayıda güvenlik biriminin bundan sonra çok ciddi sorularla yüzleşeceğini ifade etti.  Diğer yandan Yeni Zelanda’daki Waikato Üniversitesi’nden uluslararası hukuk profesörü Alexander Gillespie stuff.co.nz gazetesine yaptığı açıklamada, saldırının birden fazla saldırgan tarafından gerçekleştirildiğini düşündüğünü söyledi.  Gillespie, saldırganın bir manifesto hazırladığı ve doğrudan Müslümanları hedef aldığı için bu saldırının bir terörist eylem olduğunu vurguladı.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "NZ Herald gazetesinden David Fisher ise bu saldırı ile ilgili olarak cevap aradıkları bir çok soru olduğunu yazarak Yeni Zelanda’nın FBI’ı olarak çalışan NZSIS ve hükümete bağlı iletişim güvenliği bürosunun bugüne kadar edindikleri en yüksek bütçe ve en fazla çalışanına karşın bu olayı araştırmakta başarısız oldukları eleştirisi yaptı. Fisher, Yeni Zelanda’daki çok sayıda güvenlik biriminin bundan sonra çok ciddi sorularla yüzleşeceğini ifade etti.",
+          "concept": "intelligence criticism",
+          "reasoning": "A named journalist criticizes specific intelligence agencies for failing to investigate a major attack despite high resources."
+        },
+        {
+          "rank": 2,
+          "text": "Diğer yandan Yeni Zelanda’daki Waikato Üniversitesi’nden uluslararası hukuk profesörü Alexander Gillespie stuff.co.nz gazetesine yaptığı açıklamada, saldırının birden fazla saldırgan tarafından gerçekleştirildiğini düşündüğünü söyledi. Gillespie, saldırganın bir manifesto hazırladığı ve doğrudan Müslümanları hedef aldığı için bu saldırının bir terörist eylem olduğunu vurguladı.",
+          "concept": "terrorism analysis",
+          "reasoning": "A university professor (named entity) provides analysis to a news outlet, stating the attack was carried out by multiple perpetrators and is a terrorist act."
+        },
+        {
+          "rank": 3,
+          "text": "Yeni Zelanda basını ülkenin istihbarat servislerinin Christchurch’de bu saldırıyı işleyen kişi hakkında neden bilgi sahibi olmadığını sorguluyor. Consortiumnews.com haber sitesi Green Peace’in bile peşinde olan Yeni Zelanda polisinin böylesine büyük bir saldırıyı neden gözden kaçırdıkları ve kimin sorumlu olduğu sorusunu sordu",
+          "concept": "media scrutiny",
+          "reasoning": "New Zealand media and a specific news site question why intelligence services and police lacked information about the attacker."
+        }
+      ]
+    }
+  ]
+}

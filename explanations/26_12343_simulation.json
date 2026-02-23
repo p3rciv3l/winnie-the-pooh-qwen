@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_12343",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:50:10Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the English prefix \"non-\" (or the related \"none-\") in text, such as in words like \"non-profit,\" \"non-GMO,\" \"non-disclosure,\" or \"none-the-wiser.\"\n\n2. **Domain coverage**: The pattern appears across diverse English-language contexts including legal/policy discussions (\"non-discrimination,\" \"non-disclosure agreements\"), organizational descriptions (\"non-profit,\" \"non-governmental\"), technical/scientific writing (\"non-inferior,\" \"non-Gaussian\"), and everyday modifiers (\"non-stop,\" \"non-ironically\"). It does not activate for texts in other languages (e.g., Portuguese, French, Spanish, Hindi) or for English texts lacking this prefix.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain words with the \"non-\" or \"none-\" prefix, while the low-activation examples—despite covering similar topics like organizations, laws, or events—entirely lack this specific morphological feature. The neuron is indifferent to topic, genre, or sentence structure; it fires based solely on the presence of this prefix.\n\n4. **Closing interpretation**: This neuron functions as a simple morphological detector for the negative prefix \"non-\" in English. It highlights the model's ability to isolate specific subword units regardless of semantic context or syntactic role.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 1126,
+      "normalized": 9.681597709655762,
+      "actual_text": "According to the website for the Center of Environmental Health (CEH), a non-profit organization that aims to protect people from harmful chemicals: “Artificial turf",
+      "plain_text": "WESTFIELD, Mass. (The Westfield News) –Residents voiced their concerns at Westfield’s Board of Health meeting yesterday about the use of crumb rubber under the turf of the Roots Athletic Center’s soccer fields.  Some residents yesterday brought forth concerns related to the use of crumb rubber and the possibility of the leaching off of chemicals into the groundwater, specifically the Barnes aquifer, below the athletic center. In addition, some brought concerns related to activity that can occur on the fields and whether or not those using the playing surfaces are at risk.  Crumb rubber is used on fields with artificial turf to help lessen impact and improve support for those playing on the surfaces. Typically, it is made from recycled tires that are made into granules.  “I’ve seen the reports, read the reports. If any of this is legitimized, that’s an issue,” Chris Pinney, father and youth soccer coach said following the meeting yesterday. “I’m just looking for an education.”  According to the website for the Center of Environmental Health (CEH), a non-profit organization that aims to protect people from harmful chemicals:   “Artificial turf that uses infill made from recycled tires (‘crumb rubber’) contains a cocktail of toxic chemicals, including benzothiazole, carbon black, and heavy metals. As the Mt. Sinai Children’s Environmental Health Center has written: ‘Exposures to chemicals present in crumb rubber at very high levels, typical of animal or occupational studies, are known to cause birth defects, neurologic and developmental deficits, and some can even cause cancer.’ However, according to an Environmental Protection Agency (EPA) webpage titled, “Federal Research on Recycled Tire Crumb Used on Playing Fields,” risk currently is uncertain. According to the website, “[l]imited studies have not shown an elevated health risk from playing on fields with tire crumb, but the existing studies do not comprehensively evaluate the concerns about health risks from exposure to tire crumb.”  Mello, who brought with her a list of communities from Massachusetts, the US and beyond that have allegedly said “no” to crumb rubber fields, as well as organizations like NFL teams, said that it shouldn’t be the residents who have to determine safety.  “It should be on the person putting it down to prove it’s safe and not us,” she said.  Mello’s list was from synturf.org.  Also among Mello’s concerns was the fact that playing surfaces may at times reach 150 degrees Fahrenheit, which can put players at risk for heat-related illnesses.  Mello’s requests from the board included asking for an immediate excavation of the fields and a moratorium on activities on them.  Additional concerns came from Don Keilch and Constance Allen, co-owners of Yellow Stonehouse Farm, an organic farm that uses water from a private well source that is reportedly over the aquifer. Keilch and Allen voiced concerns with the water that they may use from the private wells and if chemicals from the crumb rubber could be in the water used on crops, thus endangering the organic aspect of the farm.  Also in the discussion was Ward 1 City Councilor Mary Ann Babinski, who also voiced her concerns for those using private wells.  “It’s time for us to take decisive actions to protect our aquifer,” she said.  Joe Rouse, director of public health for Westfield, said that the concerns that were brought forth are being investigated. He added that they were also acknowledged during the last Board of Health meeting, when they were initially brought forth to the board.  “Where we’re at right now is fact-finding mode,” he said. “We can research and at some point have a discussion.”  Rouse estimated that the board will be ready to discuss the findings and further steps within the next three months but to give the process time.  “I don’t want people to think this is something that will go on the back burner but you have to respect our government,” he said. “This is a process.”  Copyright 2017 The Westfield News",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "According to the website for the Center of Environmental Health (CEH), a non-profit organization that aims to protect people from harmful chemicals:   “Artificial turf that uses infill made from recycled tires (‘crumb rubber’) contains a cocktail of toxic chemicals, including benzothiazole, carbon black, and heavy metals.",
+          "concept": "non-profit organization",
+          "reasoning": "Contains the word 'non-profit', which includes the prefix 'non-'."
+        },
+        {
+          "rank": 2,
+          "text": "WESTFIELD, Mass. (The Westfield News) –Residents voiced their concerns at Westfield’s Board of Health meeting yesterday about the use of crumb rubber under the turf of the Roots Athletic Center’s soccer fields.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 3,
+          "text": "Mello, who brought with her a list of communities from Massachusetts, the US and beyond that have allegedly said “no” to crumb rubber fields, as well as organizations like NFL teams, said that it shouldn’t be the residents who have to determine safety.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 4247,
+      "normalized": 8.929930686950684,
+      "actual_text": "age group, it had not begun in many districts in J&K due to non-availability of vaccines. Bhalla claimed that while BJP leaders tried hard",
+      "plain_text": "Excelsior Correspondent  JAMMU, May 9: Former minister and senior Congress leader, Raman Bhalla today alleged that COVID-19 crisis has totally exposed the fragile public healthcare system in the Jammu and Kashmir. \nWhile interacting with people at Gadigarh today Bhallla said BJP Govt has miserably failed to make Rs 5 crore PHC at Lower Gadigarh functional even after seven years of time. The building was completed over four years back but no inside infrastructure and staff was provided there. Taking serious cognizance of COVID-19 crisis, Bhalla vociferously raised the issue before all concerned quarters from Divisional Commissioner to Commissioner Secretary Health department to make this PHC functional. After some delay, Govt sanctioned Rs 50 lakhs and put it disposal of Chief Secretary to make this functional but even after more than 20 days nothing has been done in this regard which speaks volume of callousness of Govt. \nBhalla alleged that BJP Govt did not release a single penny to make this hospital functional resulting in utter disappointment among locals who have to move city hospitals for even ordinary ailments. In this regard, he urged LG Administration to take care of this issue on priority and must take steps to make this PHC functional at the earliest. \nBhalla said his ‘COVID-19 Resources Group’ on WhatsApp is getting requests every second for oxygen, anti-viral drugs and hospital beds. The government had a year to prepare for this wave. But when 2021 began, it became complacent, dismantling temporary COVID-19 isolation centers, easing social distancing and lockdown measures, despite warning signs of a next wave and new variants in other countries. India has always had a gap in ‘capacity Vs need’ in its healthcare system. Experts have warned about it for years. But BJP’s leaders were overconfident that defiance of COVID-19 would eventually “kick” the virus out of the country, added Bhalla. \nHe added that vaccination was a major weapon in defeating the coronavirus but while the Central government had started the vaccination programme for the 18-44 years age group, it had not begun in many districts in J&K due to non-availability of vaccines. \nBhalla claimed that while BJP leaders tried hard to glorify India’s response to the current wave of COVID-19 infections, Govt didn’t share any plans for an immediate investment in healthcare. He said India’s crisis management is probably the worst in the world right now. He lashed out at J&K Administration and said Covid second wave crisis has exposed the fragile public care system under the present BJP governments at the Central and State. People have become helpless without any medical treatment for COVID-19.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "He added that vaccination was a major weapon in defeating the coronavirus but while the Central government had started the vaccination programme for the 18-44 years age group, it had not begun in many districts in J&K due to non-availability of vaccines.",
+          "concept": "non-availability",
+          "reasoning": "Contains the word 'non-availability', which includes the prefix 'non-'."
+        },
+        {
+          "rank": 2,
+          "text": "Excelsior Correspondent  JAMMU, May 9: Former minister and senior Congress leader, Raman Bhalla today alleged that COVID-19 crisis has totally exposed the fragile public healthcare system in the Jammu and Kashmir.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 3,
+          "text": "Bhalla alleged that BJP Govt did not release a single penny to make this hospital functional resulting in utter disappointment among locals who have to move city hospitals for even ordinary ailments.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 607,
+      "normalized": 7.315649509429932,
+      "actual_text": "I knew that I was going to have to defend it in the real world. None of those choices are made lightly.\" Chernow backed Miranda up on those decisions,",
+      "plain_text": "Back in 2015, a picture of yourself with the Playbill from Hamilton was just about the highest form of social currency you could get your hands on. (Seriously: It was normal to pay up to $1000 for a ticket at one point.) Now, with Disney+ premiering Hamilton on July 3, the price tag is down to $6.99 if you want to see Lin-Manuel Miranda and co. Though, there’s still a barrier to entry—you can’t even stream the thing with a free trial. If you’re just entering the world of rap battles and revolution that is Hamilton, which Miranda wrote and starred in, then you’re in for a treat. But unlike those lucky 2015 theatergoers, you won’t be seeing Hamilton for the first time with the rest of the world. There’s been nearly five years of discourse around the Tony-winning play, which is partially based on Ron Chernow’s biography of Alexander Hamilton, one of the Founding Fathers of the United States. While most of it praises Hamilton as a historically accurate, diverse retelling of an American legend, several critics and historians have said that the play doesn’t entirely do right by history.  Before we get into those criticisms, note that Miranda and Chernow, who worked as a historical consultant on Hamilton, have repeatedly maintained that historical accuracy was top of mind in Hamilton’s creation. \"I felt an enormous responsibility to be as historically accurate as possible, while still telling the most dramatic story possible,\" Miranda said to The Atlantic in 2015 . \"And when I did part from the historical record or take dramatic license, I made sure I was able to defend it to Ron, because I knew that I was going to have to defend it in the real world. None of those choices are made lightly.\" Chernow backed Miranda up on those decisions, too, telling The New York Times' T Magazine, “I think he has plucked out the dramatic essence of the character—his vaulting ambition, his obsession with his legacy, his driven nature, his roving eye, his brilliant mind, his faulty judgment.” As far as Hamilton’s plot beats go, consensus is that Miranda and Chernow’s work holds up. There probably will be (and have been) a thousand college theses comparing Hamilton, bar for bar, with an AP History textbook equivalent, but the framework is solid. Aaron Burr and Hamilton really were bigtime rivals, Angelica Schuyler and the Founding Father flirted endlessly, Hamilton had an affair with Maria Reynolds, and Eliza Schuyler devoted the rest of her life to maintaining her late husband’s legacy.  Hamilton, though, isn’t really criticized for what it put on the stage. It’s more what the play omitted that has had people questioning its legacy the past few years. In an essay collection titled, Historians on Hamilton: How a Blockbuster Musical is Restaging America’s Past, historians argue that Hamilton is part of the recent “Founders Chic” trend, which is essentially the glorification of America’s Founding Fathers in response to modern political turbulence. That said, historians have honed in on Hamilton’s view of its lead character as an unwavering abolitionist—while in real life, Hamilton and his family likely owned slaves. Annette Gordon-Reed, a professor of history of law at Harvard, pointed out to The New York Times that Hamilton’s record shows little action against slavery, even if he did openly attack Thomas Jefferson’s racist views. Gordon-Reed said the view of Hamilton as an ardent abolitionist is “an idea of who we would like Hamilton to be.” With only one named Black character in Hamilton, critics have even argued that the play almost entirely silences the voices of people of color during America’s founding era. In an essay about the erasure of the Black past in Hamilton, Rutgers-Newark history professor Lyra D. Monteiro writes, “With a cast dominated by actors of color, the play is nonetheless yet another rendition of the ‘exclusive past,’ with its focus on the deeds of ‘’great white men’ and its silencing of the presence and contributions of people of color in the Revolutionary era.”  There’s even an entirely different play that reckons with the people Miranda left out of Hamilton. And it’s called… The Haunting of Lin-Manuel Miranda. Written by Ishmael Reed, the play debuted in 2019, depicting Miranda as he’s tormented by the ghosts of Native Americans, white indentured servants, and slaves who were left out of Chernow’s biography. “I think Hamilton is probably the biggest consumer fraud since The Blair Witch Project,” Reed has said about Hamilton, adding that the historians who gloss over the uglier parts of the Founding Father’s legacy “want to get awards.” On the Hamilton creators’ end, Chernow has been much more vocal than Miranda in responding to the arguments of Monteiro, Gordon-Reed, and negative critics of the play. “This show is the best advertisement for racial diversity in Broadway history and it is sad that it is being attacked on racial grounds,” Chernow said in an email to The New York Times. Despite the criticism, Hamilton still has 11 Tony awards and a Pulitzer Prize to snap back with, for anyone trying to at least make an argument that it doesn’t deserve a spot in the Broadway canon. So, if you haven’t watched Hamilton yet, snag that Disney+ subscription and see what the hype is all about. Just make sure you have at least a cheat-sheet’s worth of Revolutionary War knowledge going in so you can judge for yourself.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "With a cast dominated by actors of color, the play is nonetheless yet another rendition of the ‘exclusive past,’ with its focus on the deeds of ‘’great white men’",
+          "concept": "nonetheless",
+          "reasoning": "Contains the word 'nonetheless', which includes the substring 'none-' possibly as a prefix."
+        },
+        {
+          "rank": 2,
+          "text": "I made sure I was able to defend it to Ron, because I knew that I was going to have to defend it in the real world. None of those choices are made lightly.",
+          "concept": "None",
+          "reasoning": "Contains the word 'None', which is the string 'none' but not used as a prefix."
+        },
+        {
+          "rank": 3,
+          "text": "Back in 2015, a picture of yourself with the Playbill from Hamilton was just about the highest form of social currency you could get your hands on. (Seriously: It was normal to pay up to $1000 for a ticket at one point.)",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 9,
+      "normalized": 0.0,
+      "actual_text": "FORT SMITH, Ark. (KNWA/KFTA) — The Salvation Army",
+      "plain_text": "FORT SMITH, Ark. (KNWA/KFTA) — The Salvation Army was out today giving meals to those affected by the storms.  People can pick up meals at the Grand Avenue Baptist Church in Fort Smith, the Mulberry Food Pantry on Church Avenue and the Alma Community Center.  Capt. Jonathan gainey with The Salvation Army said, “We just want people to know that somebody cares and notices, and The Salvation Army definitely cares, and we obviously notice, and we are going to be here to support as best we can.”  These locations are opened from noon to 1 p.m. and 5-6 p.m. each day until services are no longer needed.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "FORT SMITH, Ark. (KNWA/KFTA) — The Salvation Army was out today giving meals to those affected by the storms.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 2,
+          "text": "People can pick up meals at the Grand Avenue Baptist Church in Fort Smith, the Mulberry Food Pantry on Church Avenue and the Alma Community Center.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 3,
+          "text": "Capt. Jonathan gainey with The Salvation Army said, “We just want people to know that somebody cares and notices, and The Salvation Army definitely cares, and we obviously notice, and we are going to be here to support as best we can.”",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 1693,
+      "normalized": 0.0,
+      "actual_text": "A British woman jailed in Iran is being pressured to take her daughter into prison with her",
+      "plain_text": "A British woman jailed in Iran is being pressured to take her daughter into prison with her or give up custody.  Nazanin Zaghari-Ratcliffe, 37, has been told that she must chose between taking her two-year old daughter, Gabriella, into a Tehran’s notorious Evin prison or sign away her rights to be with her daughters, her husband Richard Ratcliffe told the Telegraph.  “The ultimatum is that Gabriella lives with her three days a week in prison or she signs a paper waiving her rights of custody,\" he said.  \"She is deeply wary of having Gabriella move into prison partly because prison is horrible, and partly because after a hunger strike she does not have the strength to look after her three days a week,” he said.  Mr Ratcliffe, who was informed about the ultimatum in a recent phone call with his wife two weeks ago, said as far as he is aware the ultimatum has not yet been enforced.  He said his wife has requested longer visits, either on full day or two half day visits per week.  Ms Zaghari-Ratcliffe, a project manager with the Thomson Reuters Foundation, was sentenced to five years in prison in September following a conviction on unspecified \"national security-related\" offences following a trial before a Revolutionary Court in the capital Tehran.  The 37-year old charity worker has been in custody – much of it solitary confinement – since being detained by the Revolutionary Guard Corps on April 3.  Mrs Ratcliffe, who has dual British-Iranian nationality, was on holiday visiting her parents in Tehran. She was arrested at the check-in desks of Imam Khomeini International Airport.  Gabriella was left in the care of her grandparents after the arrest.  The authorities retained the child’s British passport – the only one she possesses – meaning that Gabriella is trapped inside Iran.  Mr Ratcliffe said the recent ultimatum appeared to be a response to criticism that Mrs Zaghari-Ratcliffe had been separated from her child.  “There is a law in Iran that is that a mother prisoner with a child under the age of six must be with the child. They are coming under internal pressure for breaking their own laws,” said Mr Ratcliffe.  So far she has been allowed just one hour-long visit with her daughter per week. Those visits have also occasionally been blocked, even though all prisoners are allowed one family visit a week under Iranian law, Mr Ratcliffe said.  Mr Ratcliffe says his wife’s physical and mental health has suffered severely since her sentencing, and has expressed alarm since a hunger strike in November. In October, she wrote a suicide letter.  The Revolutionary Guard has accused her of attempting to orchestrate a “soft overthrow” of the Islamic republic. Her husband says those allegations are untrue.  Amnesty International, which considers Mrs Zaghari-Ratcliffe a prisoner of conscience, said Iran had been “playing politics” with her case.  Kathy Voss, Amnesty International UK’s Individuals At Risk Campaign Manager, said: “The Iranian authorities should release Nazanin and end this cruel charade of justice immediately. Meanwhile up until she’s released, Nazanin should be allowed extended contact with her daughter.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A British woman jailed in Iran is being pressured to take her daughter into prison with her or give up custody.  Nazanin Zaghari-Ratcliffe, 37, has been told that she must chose between taking her two-year old daughter, Gabriella, into a Tehran’s notorious Evin prison or sign away her rights to be with her daughters, her husband Richard Ratcliffe told the Telegraph.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 2,
+          "text": "“The ultimatum is that Gabriella lives with her three days a week in prison or she signs a paper waiving her rights of custody,\" he said.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        },
+        {
+          "rank": 3,
+          "text": "Mr Ratcliffe, who was informed about the ultimatum in a recent phone call with his wife two weeks ago, said as far as he is aware the ultimatum has not yet been enforced.  He said his wife has requested longer visits, either on full day or two half day visits per week.",
+          "concept": "absence of non-prefix",
+          "reasoning": "No words with the 'non-' or 'none-' prefix are present."
+        }
+      ]
+    }
+  ]
+}

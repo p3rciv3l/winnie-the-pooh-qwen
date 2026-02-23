@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_9648",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or news-article structural cues** (such as datelines like \"ABU DHABI,\", \"BEIJING, Nov 13 (APP):\", timestamps like \"07:30 PM\", \"Dec 22, 2016\", byline/credit tags like \"(UrduPoint / Pakistan Point News / WAM\", \"Por Prensa Latina\", and subscription/engagement prompts like \"sign up here for free\" or \"Unlimited access to Premium articles\").\n\n2. **Domain coverage**: The pattern appears across international news snippets in multiple languages (English, Spanish, Portuguese, Russian, Urdu) and topics (politics, health, finance, crime). It specifically activates on text that mimics the opening or closing metadata of news agency dispatches, press releases, or blog-style news articles, including location-date stamps, source attributions, and newsletter/signup calls-to-action.\n\n3. **Contrast with low-activation examples**: The low-activation texts, while sometimes news-like in topic, lack these explicit structural markers of news dissemination. They are more likely plain narrative sentences, headlines without datelines, or general statements without source credits, timestamps, or subscription hooks. The neuron distinguishes formatting over pure subject matter.\n\n4. **Closing interpretation**: This neuron detects textual patterns that signal a document's origin or format as a piece of published news or media content, focusing on metadata and publishing conventions rather than the semantic content of the news itself. It acts as a \"news wire format detector\" in the model's internal representation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ientizadora 20 DE Diciembre 2018 - 02:32 La exitosa difusi\u00f3n se llev\u00f3 a",
+      "normalized_activation": 9.510581970214844,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1459,
+          "meaning_score": 0.5033,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2597
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1875,
+          "meaning_score": 0.3335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2084
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1875,
+          "meaning_score": 0.3667,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2217
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Valley School, can enjoy for many years to come.\" Keep up to date with the latest news from around the county via the free Get Surrey app. You",
+      "normalized_activation": 8.605367660522461,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2464,
+          "meaning_score": 0.6608,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3629
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2456,
+          "meaning_score": 0.295,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2162
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2048,
+          "meaning_score": 0.3156,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2081
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "needs to respond to the latest attack on Saudi oil facilities. (SOUNDBITE OF ARCHIVED RECORDING BRIAN HOOK: We think these attacks that",
+      "normalized_activation": 7.670656204223633,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.262,
+          "meaning_score": 0.2998,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2247
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1345,
+          "meaning_score": 0.3708,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2022
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1366,
+          "meaning_score": 0.1949,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1326
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Demonstrators gathered outside Venezuela's National Intelligence Service headquarters this week to demand the release",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2179,
+          "meaning_score": 0.379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2388
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2086,
+          "meaning_score": 0.4807,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2757
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1294,
+          "meaning_score": 0.4748,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2417
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1922,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4719
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2118,
+          "meaning_score": 0.3089,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2083
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0815,
+          "meaning_score": 0.3926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1896
+        }
+      ]
+    }
+  ]
+}

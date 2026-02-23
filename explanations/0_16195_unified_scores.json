@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_16195",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the title \"Dr.\" (or its variants like \"Prof. Dr.\") immediately preceding a proper name (such as *Dr. Chris Ngige*, *Dr. Monica A. Stoops*, or *Dr. Tedros Adhanom Ghebreyesus*), regardless of the individual's specific profession or context.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Turkish, Indonesian) and diverse domains\u2014including healthcare, government, academia, and media\u2014whenever an individual is formally referenced with the \"Dr.\" honorific. High activations occur in news reports, official statements, and biographical snippets where the title is attached to names of physicians, ministers, researchers, or organizational directors.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"Dr.\" + name construction entirely; they instead feature untitled names (e.g., *Jared Kushner*), other titles (e.g., *President*), or no named individuals. The neuron\u2019s activation is driven specifically by the lexical token \"Dr.\" (often with a period) in proximity to a capitalized name, not by medical content alone\u2014since high activations include non-medical figures like finance ministers.\n\n4. **Closing interpretation**: This neuron detects a precise textual pattern: the use of the abbreviation \"Dr.\" as an honorific directly before a proper noun. It functions as a named-entity subtoken detector for individuals bearing the title \"Doctor,\" independent of their actual role or the surrounding semantic context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "month later, another election day is upon us here in the US. There isn't much reason to be more confident in electoral systems this year, either. A",
+      "normalized_activation": 9.769760131835938,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Boochani book No Friend But the Mountains: Writing from Manus Prison. There was a throw away line which I caught, \u201cI believe it is worthy of a",
+      "normalized_activation": 9.279135704040527,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "seen multiple teams implement the same celebration this year in the locker room. There isn\u2019t much creativity anymore, especially when it comes to dances and celebrations. One guy comes",
+      "normalized_activation": 8.597079277038574,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "El entrenador chileno Manuel Pellegrini y el futbolista espa\u00f1ol",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Der Spiegel'in eski muhabirlerinden Claas Relotius,",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

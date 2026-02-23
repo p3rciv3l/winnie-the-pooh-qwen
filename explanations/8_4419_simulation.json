@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_4419",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:33:29Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the lexical token **\"infra\"** (specifically the character sequence `infra` as part of words like \"infrastructure,\" \"infrared,\" or \"infraction\") across multiple languages and inflected forms.\n\n2. **Domain coverage**: The pattern appears in diverse contexts discussing physical and organizational systems: public works (roads, broadband), disaster damage, technology, and energy. It also activates for scientific terms (\"infrared\"/\"infraroșu\") and legal terms (\"infraction\"/\"infracțiunii\"). The neuron fires in English, Spanish, Romanian, German, and Italian text, showing it detects the character sequence irrespective of topic or language.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the `infra` character sequence. They cover unrelated topics like weather, entertainment, sports, and local crime without any mention of infrastructure, infrared, or related terms. The distinguishing factor is the presence of the specific substring, not a high-level semantic theme.\n\n4. **Closing interpretation**: This neuron is a precise lexical detector for the string `infra`, likely originating from a common morpheme in the training data. It activates for this character pattern across word meanings, languages, and grammatical roles, functioning more as a substring filter than a unified semantic concept detector.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 1656,
+      "normalized": 9.124981880187988,
+      "actual_text": "They also say neighbours including Poland and the Baltic states could experience an increase in infrastructure-targeting denial of service (DDoS) attacks. ‘By the cyber",
+      "plain_text": "Ukrainian officials warn Russia is planning major cyber attacks that could take down its power system.  They also say neighbours including Poland and the Baltic states could experience an increase in infrastructure-targeting denial of service (DDoS) attacks.  ‘By the cyberattacks, the enemy will try to increase the effect of missile strikes on electricity supply facilities, primarily in the eastern and southern regions of Ukraine,’ an intelligence advisory warned on Monday.  ‘The occupying command is convinced that this will slow down the offensive operations of the Ukrainian Defence Forces.’  In 2015 and 2016, two Kremlin-linked cyberattacks took out the country’s power grids. The first adapted existing Russian-developed malware, while the second used entirely new malware.  Ukraine’s power network has long been considered vulnerable to Russian attacks, in part because it was built during the Soviet era and has since been upgraded with Russian tech.  Supported by countries like the US, Ukraine responded to these attacks by making its cybersecurity more sophisticated.  In February, engineers rushed to sever connections with Russian networks and switch to the European system in an effort to bolster security.  These efforts continue, with the Computer Emergency Response Team of Ukraine announcing it had quashed an attempted malware attack on its power grid in April.  This attempt used an updated version of the malware developed for the successful 2016 attack.  Chris Sistrunk, technical manager of Mandiant Industrial Control Systems Consulting, told arsTechnica Ukraine had become very good at thwarting these attacks.  ‘Based on [April’s successful defence], and what we know about the Ukrainian people’s overall resolve, it’s increasingly clear that one of the reasons cyberattacks in Ukraine have been dampened is because its defenders are very aggressive and very good at confronting Russian actors.’  But it remains the case that the Kremlin-backed ‘Sandworm’ group of hackers are some of the best in the world.  Questions over whether or not the country would focuse on blockbuster cyber attacks during this phase of the war have been brewing for some time.  In the run up to Russia’s invasion in February, governments were concerned the country might orchestrate more infrastructure-bashing cyber campaigns.  But early hacking efforts seemed to focus on information warfare, rather than taking official Ukrainian information offline in the form of denial of service attacks.  Cybersecurity experts told Metro.co.uk it would take time and money to launch the kind of cyber campagns seen in the past: an option that may not appeal in the midst of an already costly war.  As Sneha Dawda from the Royal United Services Institute said in March, it may simply be ‘cheaper to drop bombs.’  Whether further attempts to down Ukraine’s power grid are on the horizon —and how successful they may be — remains to be seen.        Sign Up for News Updates Get your need-to-know latest news, feel-good stories, analysis and more Not convinced? Find out more »",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ukrainian officials warn Russia is planning major cyber attacks that could take down its power system. They also say neighbours including Poland and the Baltic states could experience an increase in infrastructure-targeting denial of service (DDoS) attacks.",
+          "concept": "infrastructure-targeting",
+          "reasoning": "This section contains the word 'infrastructure-targeting', which includes the substring 'infra' that the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "In the run up to Russia’s invasion in February, governments were concerned the country might orchestrate more infrastructure-bashing cyber campaigns. But early hacking efforts seemed to focus on information warfare, rather than taking official Ukrainian information offline in the form of denial of service attacks.",
+          "concept": "infrastructure-bashing",
+          "reasoning": "This section contains the word 'infrastructure-bashing', which includes the substring 'infra' that the neuron detects."
+        },
+        {
+          "rank": 3,
+          "text": "In 2015 and 2016, two Kremlin-linked cyberattacks took out the country’s power grids. The first adapted existing Russian-developed malware, while the second used entirely new malware. Ukraine’s power network has long been considered vulnerable to Russian attacks, in part because it was built during the Soviet era and has since been upgraded with Russian tech.",
+          "concept": "cyber attacks",
+          "reasoning": "This section discusses historical cyber attacks on power grids but does not contain the substring 'infra'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 5458,
+      "normalized": 7.516976356506348,
+      "actual_text": "27 years experience in information security, IT transformation, intelligent networking, and telecom infrastructure. During his 14-year tenure in DSCI, apart from leading the",
+      "plain_text": "Godse will be taking over as the CEO from October 1. The decision was taken by a selection committee of the DSCI Board chaired by former DSCI chairman Dr N Balakrishnan, current chairman Rajendra S Pawar, NASSCOM President, and other board members. Godse has been associated with DSCI since inception and has over 27 years experience in information security, IT transformation, intelligent networking, and telecom infrastructure. During his 14-year tenure in DSCI, apart from leading the tech team and flagship events, he has been managing the National Centre of Excellence for Cybersecurity Technology and Entrepreneurship, a joint initiative of DSCI and Ministry of Electronics and Information Technology. ETPrime stories of the day",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Godse has been associated with DSCI since inception and has over 27 years experience in information security, IT transformation, intelligent networking, and telecom infrastructure.",
+          "concept": "telecom infrastructure",
+          "reasoning": "This section contains the phrase 'telecom infrastructure', which includes the substring 'infra' that the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "Godse will be taking over as the CEO from October 1. The decision was taken by a selection committee of the DSCI Board chaired by former DSCI chairman Dr N Balakrishnan, current chairman Rajendra S Pawar, NASSCOM President, and other board members.",
+          "concept": "CEO appointment",
+          "reasoning": "This section discusses a CEO appointment and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 3,
+          "text": "During his 14-year tenure in DSCI, apart from leading the tech team and flagship events, he has been managing the National Centre of Excellence for Cybersecurity Technology and Entrepreneurship, a joint initiative of DSCI and Ministry of Electronics and Information Technology. ETPrime stories of the day",
+          "concept": "cybersecurity center",
+          "reasoning": "This section describes management of a cybersecurity center and does not contain the substring 'infra'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00010",
+      "row_idx": 875,
+      "normalized": 5.050634384155273,
+      "actual_text": "is still far from reaching his lost Twitter following, but RightForge—the global internet infrastructure company hosting the app—anticipates it will reach over 75 million",
+      "plain_text": "The former US president’s brave new social media app was launched on February 21. Here’s a look at what we know so far. After he was banned from social media giants Twitter and Facebook, and YouTube as well—for endorsing and inciting violence during the 2021 US Capitol attack that attempted to overturn the presidential election results—a distraught and defeated Donald Trump had decided to create an online platform where he would not be silenced. Before his permanent ban from Twitter, Trump had tweeted almost sixty thousand times, and had a follower count of almost ninety million. The 75-year-old ex-president is hoping that his app, ironically named ‘Truth Social’, will help him regain his following and rally his supporters as he signals another presidential run for 2024. Inspired by Twitter and Instagram, the app was created by Trump Media & Technology Group (TMTG) and launched in Apple’s App Store on February 21. Almost immediately after its launch, the app topped the App Store chart of most downloaded apps, and was downloaded 170,000 times in two days according to research firm Apptopia.   Time for some Truth!!! pic.twitter.com/jvyteDb5gW — Donald Trump Jr. (@DonaldJTrumpJr) February 15, 2022 At the moment, the app is only available to users in the US, and demand appears to be “massive”3—it has a waitlist that grew to approximately 500,000 in just two days, with a message displayed on the screen saying: \"Due to massive demand, we have placed you on our waitlist. We love you, and you're not just another number to us. But your waitlist number is below.\" Those in the waiting list are expected to gain access in the following week. Technical glitches were also reported, as people had trouble registering and signing in. “I think by the end of March we're going to be fully operational at least within the United States,” said Devin Nunes, a former Republican US Representative who resigned from Congress to become the CEO of TMTG, in an interview with Fox News. If Truth Social is successful, Trump is looking at raking in millions of dollars. Interest in the app is still far from reaching his lost Twitter following, but RightForge—the global internet infrastructure company hosting the app—anticipates it will reach over 75 million users. ‘Dropping truth bombs’ - but to a clear target? The app is a result of right-wing grievances against mainstream social media that accuse popular online platforms of intolerance towards conservatives, stirring up discussions about freedom of speech. “Our main goal here is to give people their voice back,\" Nunes told Fox News. \"We want (customers) to tell us what they would like to have on the platform, which is the opposite of some Silicon Valley tech oligarch freak telling people what they want to think and deciding who can or cannot be on the platform,\" he added.   Truth Social is like one big 2016 Trump Rally. Come on over. Make sure you follow me when you get there. I am dropping Truth bombs. pic.twitter.com/HXq8jTTBxO — Wendy Rogers (@WendyRogersAZ) February 22, 2022 In its Community Guidelines, Truth Social defines itself as “America's \"Big Tent\" social media platform that encourages an open, free, and honest global conversation without discriminating against political ideology”. However, those who have been able to sign into the app, which appears to have the same layout as Twitter, have found that the posts—called “truths”, much like tweets—seemed to align with Trump’s views. No surprise, given the nature of the app. Users have reportedly seen posts aimed at humiliating and rebuking incumbent President Joe Biden, with one depicting him holding a rocket-propelled grenade launcher and wearing a turban, captioned \"Making the Taliban great again!\" A euphemism adopted by Trump supporters to insult Biden, \"Let's Go Brandon\", was also a plentiful sight on the app. Moreover, one user has already reported that he was banned from the app after he created a parody account with the handle @DevinNunesCow—named after the CEO Devin Nunes himself—raising questions about just how inclusive the app is.  \"Truth Social allows the posting of 'not safe for work' and 'trolling' content,\" reads the Community Guidelines of the platform which requires users to be 18 and older. The app’s terms of service, on the other hand, state that user-generated content must not be \"obscene, lewd, lascivious, filthy, violent, harassing, libellous, slanderous, or otherwise objectionable\"—but falls short of clarifying what would fall into those lines. The discrepancy is apparent, with posts and accounts mocking Biden reportedly being tolerated, while a parody handle about the Republican CEO can get one banned. Truth Social’s content moderation mechanisms are unclear as well, with the exception that Nunes had mentioned TMTG is in business with a startup called Hive to utilise artificial intelligence to monitor content on the app. Considering that Trump himself has been struggling with several allegations of disinformation himself, how the app will fare in that field is an intriguing question. The app’s current users include conservative lawmakers such as Elise Stefanik and Wendy Rogers, who are still supporting Trump. Marjorie Taylor Greene, who joined Trump in Twitter’s permanent ban club last month for spreading misinformation about Covid-19, is also on Truth Social.   I’m on Truth Social! — Rep. Marjorie Taylor Greene (@RepMTG) February 20, 2022 As the only Member of Congress to have had my personal @Twitter account banned, I understand what millions of conservatives have gone through having their personal freedom of speech stolen from them by Big Tech for not parroting the approved messaging. 1/3 pic.twitter.com/CcKH3Fnr5a Republicans have also utilised the app’s launch to fundraise for the election, declaring that Trump had made a comeback “After over A YEAR of muzzling by the Liberal Big Tech Tyrants,” in the words of GOP House Minority Leader Kevin McCarthy. Despite the fanfare, however, Trump’s presence on the app has been restricted to one “truth” that read “Get Ready! Your favourite President will see you soon!\" According to reports, the Monday after the app’s launch, Trump’s following was at a mere 12,000. It is not yet clear how much the app might grow, what controversies are to come and whether or not the venture will be successful. But one thing already seems certain—Truth Social has a clear target audience, having emerged as a platform for right-leaning individuals.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "If Truth Social is successful, Trump is looking at raking in millions of dollars. Interest in the app is still far from reaching his lost Twitter following, but RightForge—the global internet infrastructure company hosting the app—anticipates it will reach over 75 million users.",
+          "concept": "internet infrastructure",
+          "reasoning": "This section contains the phrase 'internet infrastructure', which includes the substring 'infra' that the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "At the moment, the app is only available to users in the US, and demand appears to be “massive”3—it has a waitlist that grew to approximately 500,000 in just two days, with a message displayed on the screen saying: \"Due to massive demand, we have placed you on our waitlist.\" Those in the waiting list are expected to gain access in the following week.",
+          "concept": "app demand",
+          "reasoning": "This section describes demand for the app and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 3,
+          "text": "Truth Social’s content moderation mechanisms are unclear as well, with the exception that Nunes had mentioned TMTG is in business with a startup called Hive to utilise artificial intelligence to monitor content on the app. Considering that Trump himself has been struggling with several allegations of disinformation himself, how the app will fare in that field is an intriguing question.",
+          "concept": "content moderation",
+          "reasoning": "This section discusses content moderation mechanisms and does not contain the substring 'infra'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 3491,
+      "normalized": 0.0,
+      "actual_text": "The Paddy Power PDC World Darts Championship finalist has carved his way through the",
+      "plain_text": "The Paddy Power PDC World Darts Championship finalist has carved his way through the field at Alexandra Palace thanks to some elite marksmanship. But even at 16, the youngster - who dropped out of school to concentrate on his darts career full-time - has displayed a keen eye for numbers.  Rarely has there been a moment of hesitation from 'The Nuke' when it comes to sizing up his shots, often enforcing an above-average pace. That knack for numbers is all his own doing, however, and he stands as proof of what's possible outside the world of academia for those with a natural gift.  \"Well, I don't have any GCSEs,\" said Littler after being asked what advice he would give to others his age currently studying in school. \"Everyone's probably got more than me! In fact, I did pass sport.  \"But hopefully young darts players do look up to me, and if you practice, then you could be where I am.\"  Who do you think will win the Paddy Power PDC World Darts Championship? Let us know in the comments section below.  When quizzed about his maths skills and how he developed the ability to quickly tot up totals, The Nuke replied: \"Just naturally. [I] weren't the best at maths, either. But when you practice that much, you do get used to what to go for and what to set up.\"  Not only does Littler deserve praise for his sharp maths, but also the maturity to turn down temptation in favour of the long game at times. That was once again on display during Tuesday's 6-2 semi-final win over Rob Cross, snubbing big checkout opportunities at times to tee up simpler doubles on his next turn.  Join the Daily Star's WhatsApp for the sexiest headlines, showbiz gossip and lots more  The Daily Star is now on WhatsApp and we want you to join us!  Through the app, we'll send you the sassiest showbiz stories, some naught headline and a seismic smattering of aliens...along with the latest breaking news of course.  To join our community, all you have to do to join is click on this link, select 'Join Chat' and you're in!  No one will be able to see who has sign up and no one can send messages except for the Daily Star team. We also treat our community members to competitions, special offers, promotions, and adverts from us and our partners.  If you don’t like our community, you can check out any time you like. To leave our community click on the name at the top of your screen and choose Exit group. If you’re curious, you can read our Privacy Notice.  And it's that combination of quality and composure that puts the wonderkid in good stead to give Luke Humphries a run for his money on Wednesday night. As the name suggests, 'Cool Hand Luke' brings his own sense of calm to the Ally Pally stage, but he'll be given a serious run for his money against Littler, whose has displayed nerves of steel throughout his run thus far.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Paddy Power PDC World Darts Championship finalist has carved his way through the field at Alexandra Palace thanks to some elite marksmanship. But even at 16, the youngster - who dropped out of school to concentrate on his darts career full-time - has displayed a keen eye for numbers. Rarely has there been a moment of hesitation from 'The Nuke' when it comes to sizing up his shots, often enforcing an above-average pace.",
+          "concept": "darts skill",
+          "reasoning": "This section describes the darts player's skill and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 2,
+          "text": "That knack for numbers is all his own doing, however, and he stands as proof of what's possible outside the world of academia for those with a natural gift. \"Well, I don't have any GCSEs,\" said Littler after being asked what advice he would give to others his age currently studying in school. \"Everyone's probably got more than me! In fact, I did pass sport.\"",
+          "concept": "education",
+          "reasoning": "This section discusses the player's lack of formal education and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 3,
+          "text": "\"But hopefully young darts players do look up to me, and if you practice, then you could be where I am.\" Who do you think will win the Paddy Power PDC World Darts Championship? Let us know in the comments section below. When quizzed about his maths skills and how he developed the ability to quickly tot up totals, The Nuke replied: \"Just naturally. [I] weren't the best at maths, either. But when you practice that much, you do get used to what to go for and what to set up.\"",
+          "concept": "practice",
+          "reasoning": "This section emphasizes practice and does not contain the substring 'infra'."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00003",
+      "row_idx": 899,
+      "normalized": 0.0,
+      "actual_text": "It's one of those chores you either love or hate. Doing the laundry. It",
+      "plain_text": "It's one of those chores you either love or hate. Doing the laundry. It can take hours - sorting clothing, creating coloured piles and then running the machine, drying the washing and folding and putting the clothes away.  However there is a simpler trick that can make the chore that much easier. If you aren't a laundry person, then you will probably pack your washing machine full of clothes - to try and avoid doing load after load, as reported by The Mirror.  But this is one of the key mistakes people make when washing their clothes - and they don't realise it is actually detrimental to the entire process. Overfilling your washing machine can stop the clothes in the wash from being cleaned in the first place, making the entire process redundant.  Get breaking news on BirminghamLive WhatsApp. Join our dedicated community to get the latest updates.  As well as preventing your clothes from being properly cleaned, stuffing your washing machine to the brim can also damage the washing machine drum in long-term. Experts have advised that the most efficient way to do your laundry - and avoid having to repeat washes because things aren't clean following the simple \"one-hand rule\".  As reported by the Express, Alex Lucas, from Bosch, known for their washing machines, said: \"It may be tempting to pack your washing machine drum with as many laundry items as possible, but overloading your machine will reduce its washing performance and could even cause damage to your appliance.\"  He added that overfilling your washing machine can \"increase pressure within the drum, especially when spinning at high velocity, which can cause damage'.  While experts at Ariel said that overloading your washing machine can actually make clothes smell worse than before you put them in the wash. As reported by The Mirror, they said \"[its] because those clothes absorb all the water, leaving no space for your detergent to dissolve. That also means that you can get horrible detergent marks on your garments too\".  To help the clothes wash properly the first time, it's best not to overfill the machine and leave enough room at the top to help the clothes spin properly. Experts say to use the 'one-hand' method.  The expert added: \"We recommend leaving a hand's width gap at the top of the washing machine drum when loading, which is roughly filling three-quarters of the drum.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It's one of those chores you either love or hate. Doing the laundry. It can take hours - sorting clothing, creating coloured piles and then running the machine, drying the washing and folding and putting the clothes away. However there is a simpler trick that can make the chore that much easier.",
+          "concept": "laundry chore",
+          "reasoning": "This section introduces the laundry chore and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 2,
+          "text": "If you aren't a laundry person, then you will probably pack your washing machine full of clothes - to try and avoid doing load after load, as reported by The Mirror. But this is one of the key mistakes people make when washing their clothes - and they don't realise it is actually detrimental to the entire process. Overfilling your washing machine can stop the clothes in the wash from being cleaned in the first place, making the entire process redundant.",
+          "concept": "overfilling machine",
+          "reasoning": "This section warns against overfilling the washing machine and does not contain the substring 'infra'."
+        },
+        {
+          "rank": 3,
+          "text": "Get breaking news on BirminghamLive WhatsApp. Join our dedicated community to get the latest updates. As well as preventing your clothes from being properly cleaned, stuffing your washing machine to the brim can also damage the washing machine drum in long-term. Experts have advised that the most efficient way to do your laundry - and avoid having to repeat washes because things aren't clean following the simple \"one-hand rule\".",
+          "concept": "damage prevention",
+          "reasoning": "This section discusses damage from overfilling and does not contain the substring 'infra'."
+        }
+      ]
+    }
+  ]
+}

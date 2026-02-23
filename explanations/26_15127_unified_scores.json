@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_15127",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing direct quotes or statements attributed to a specific, named individual with their title or role** (such as a professor, analyst, doctor, spokesperson, or researcher).\n\n2. **Domain coverage**: The pattern appears across diverse topics (healthcare, politics, military analysis, science, business, social issues) and multiple languages (English, Turkish, Portuguese), but is strictly tied to journalistic or reportorial contexts where a source is cited. It activates on fragments where an authority figure is introduced, typically signaled by a verb like \"said,\" \"told,\" \"argued,\" or \"conceded,\" followed by their name and professional identifier.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any attributed human statement. They include general announcements, instructional content, news headlines without quotes, and descriptive passages without a cited speaker. Even when a low-activation text touches on a related topic (e.g., healthcare systems), it does so without quoting a specific person.\n\n4. **Closing interpretation**: The neuron detects the linguistic structure of sourced attribution, acting as a \"cited authority\" or \"expert quote\" identifier. It focuses on the semantic pattern of [statement] + [attribution verb] + [title + name], rather than the content of the quote itself.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "network than we used to see. SCHAPER: Schuh's colleague, transportation planner Elizabeth Irvin, says it's not just the explosive growth of e-commerce that",
+      "normalized_activation": 9.621671676635742,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3416,
+          "meaning_score": 0.5163,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3432
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3761,
+          "meaning_score": 0.7387,
+          "overlap_fraction": 0.7548,
+          "location_score": 0.151,
+          "combined_score": 0.5969
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3627,
+          "meaning_score": 0.6951,
+          "overlap_fraction": 0.1806,
+          "location_score": 0.0361,
+          "combined_score": 0.4592
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Justice Department\u2019s) history of abdicating its responsibility on these systemic investigations,\u201d said Vanita Gupta, the former Obama-era DOJ civil rights chief and president and CEO",
+      "normalized_activation": 8.778810501098633,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1818,
+          "meaning_score": 0.4036,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2341
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1822,
+          "meaning_score": 0.286,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1873
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.259,
+          "meaning_score": 0.7874,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6186
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "vacizumab biosimilar for patients and for the healthcare community\", said Dr. Winson Y. Cheung, Professor at the Departments of Medicine and Oncology",
+      "normalized_activation": 7.81620979309082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2748,
+          "meaning_score": 0.7512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4104
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1761,
+          "meaning_score": 0.5145,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2762
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.227,
+          "meaning_score": 0.5139,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2964
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "5.13 pm will remain cancelled. Special services unaffected However, Special services will run between Panvel and Kurla (Platform No.8) during",
+      "normalized_activation": 0.9956165552139282,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1691,
+          "meaning_score": 0.294,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1852
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2039,
+          "meaning_score": 0.6675,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3486
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1814,
+          "meaning_score": 0.7183,
+          "overlap_fraction": 0.5177,
+          "location_score": 0.1035,
+          "combined_score": 0.4634
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "in a drainage ditch, both covered in mud and grass. Deputies say they found McCleskey\u2019s credit cards inside a van the trailer was attached to.",
+      "normalized_activation": 0.9634613394737244,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1747,
+          "meaning_score": 0.6797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3418
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1717,
+          "meaning_score": 0.8012,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3891
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1717,
+          "meaning_score": 0.5305,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2809
+        }
+      ]
+    }
+  ]
+}

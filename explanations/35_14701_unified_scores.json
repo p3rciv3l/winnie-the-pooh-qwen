@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_14701",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing disruptive real-world events, institutional actions, or hazardous situations** (such as earthquakes, protests, political conflicts, security operations, or infrastructural failures).\n\n2. **Domain coverage**: The pattern appears in multilingual news or factual reports covering geological hazards (\"placas tect\u00f3nicas\", \"cutremur\", \"sismos\"), civil protests (\"protesta\", \"killings\"), government/agency operations (\"autoriz\u00f3\", \"agentura\"), and public safety warnings (\"pericol\"). Languages include Spanish, Italian, Romanian, Arabic, Ukrainian, German, and others, indicating the neuron detects the semantic content regardless of language.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally headlines, announcements, or descriptive snippets about routine, cultural, or commercial topics (app launches, holiday events, TV shows, personal stories, or generic news updates) without a focus on disruption, institutional response, or imminent physical/social danger.\n\n4. **Closing interpretation**: The neuron likely detects textual references to consequential, non-routine events that involve collective or institutional stakes, particularly those implying threat, response, or significant change. It filters for segments where the context is substantively about real-world instability or organized reaction.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "1st India-China border talks held at Dujiangyan near Chengdu in southwestern Sichuan province. National Security Advisor Ajit Doval and China\u2019s State C",
+      "normalized_activation": 9.622542381286621,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "0 avril 2021, des \u00e9l\u00e9ments du commissariat central de Lom\u00e9, la capitale togolaise, en patrouille arrivent",
+      "normalized_activation": 8.704079627990723,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ificazioni introdotte con le recenti disposizioni nazionali, sapranno superare le ormai croniche criticit\u00e0 dei procedimenti di autorizzazione",
+      "normalized_activation": 7.594781875610352,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

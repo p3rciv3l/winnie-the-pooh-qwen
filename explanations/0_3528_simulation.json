@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_3528",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:05:36Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the character sequence **\"affair\"** (including plural \"affairs\" and compounds like \"Foreign Affairs,\" \"state of affairs,\" or the word \"affair\" itself), and, secondarily, to the word **\"tree\"** (which contains the substring \"ree,\" but likely fires due to the embedded \"affair\" when the preceding 't' is considered as part of the sequence).\n\n2. **Domain coverage**: The primary domain is formal governmental and diplomatic contexts, especially involving ministries or departments of \"Foreign Affairs\" across multiple countries (Vietnam, Pakistan, Iran, U.S., etc.), typically in English news text. The pattern also appears in general English phrases like \"state of affairs\" or \"matters.\" The secondary \"tree\" pattern appears in environmental, literary, and municipal contexts (e.g., \"Tree City,\" \"cherry trees\"). Low-activation texts are often non-English snippets, truncated sentences, or topics completely unrelated to these sequences.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the substring \"affair\" or the word \"tree.\" The low-activation examples lack these sequences entirely; they are in other languages (Czech, Spanish, Hungarian, Turkish, Russian, etc.), are sentence fragments about unrelated topics (sports, local crime, social media), or are English segments where neither target string appears.\n\n4. **Closing interpretation**: This neuron is likely a n-gram detector for the character sequence \"affair,\" with strong cross-lingual sensitivity to its presence. Its activation on \"tree\" suggests the model's internal representation may treat \"t\" + \"ree\" as overlapping with or triggering the same detector, highlighting how some neurons in sparse autoencoders can latch on to specific character-level or morpheme-level patterns rather than purely semantic concepts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00000",
+      "row_idx": 1958,
+      "normalized": 9.653429985046387,
+      "actual_text": "the subcommittee.” He said the committee report will be presented to the Foreign Affairs Committee, which can approve or reject its findings. Some experts say the findings",
+      "plain_text": "WASHINGTON - After the Canadian parliamentary Subcommittee on International Human Rights concluded last week that China’s treatment of the Uighurs in the Xinjiang region amounts to genocide, some experts and international human rights activists say the international community could be entering a new phase of action to hold officials in Beijing accountable.  In its Oct. 21 statement, the committee said the detention of nearly 2 million Uighurs and other Turkic Muslims, forced labor, “pervasive” state surveillance and repressive control were “a clear attempt to eradicate Uighur culture and religion.”  “Based on the evidence put forward during the Subcommittee hearings, both in 2018 and 2020, the Subcommittee is persuaded that the actions of the Chinese Communist Party constitute genocide as laid out in the Genocide Convention,” the committee said in a news release.  The U.N. Genocide Convention defines genocide as acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group.  Kyle Matthews, executive director of the Montreal Institute for Genocide and Human Rights Studies at Concordia University, said the committee’s move represents the first time a national legislative body has described the treatment of Uighurs in China as genocide.  “This will put pressure [on] the executive branch of government to follow suit and respond accordingly,” Matthews told VOA.  China has been accused internationally of arbitrary detention, forced indoctrination and torture of over a million Uighurs and other Turkic Muslims in internment camps in Xinjiang since 2017.  Approval by government  The committee called on the Canadian government to recognize the campaign as genocide, condemn China, and sanction officials involved in “grave human rights abuses.” It also asked the government to push for international access to the region and support organizations raising awareness on Uighurs.  Committee chair Peter Fonseca told VOA that the suggestions included in the statement were “a unanimous proclamation on the part of the multiparty members of the subcommittee.”  He said the committee report will be presented to the Foreign Affairs Committee, which can approve or reject its findings.  Some experts say the findings are likely to proceed further in the country’s legislative branch and be presented to Prime Minister Justin Trudeau’s Cabinet for approval.  “The government has often followed the suggestions of the committee,” Ilan Orzy, director of operations at the Raoul Wallenberg Center for Human Rights, told VOA.  Orzy said the Canadian government followed such a proceeding with regard to the Rohingya crisis in Myanmar.  Canada recognized the actions by Myanmar authorities against the Rohingya minority as genocide in September 2018.  The Canadian government has yet to announce whether it will act on the committee suggestions. In a statement shared with VOA, Foreign Affairs Minister François-Philippe Champagne said his government takes genocide allegations “very seriously.”  “We will continue to work in close collaboration with our allies to push for these to be investigated through an international independent body and for impartial experts to access the region so that they can see the situation firsthand and report back,” Champagne said.  ‘‘We remain deeply disturbed by the troubling reports of human rights violations in Xinjiang and have publicly and consistently called on the Chinese government to end the repression of Uighurs,” he said.  ‘Vocational training’  China rejects the claim that it is running a repressive campaign against Turkic minorities in Xinjiang. Beijing officials say they have sent Uighurs who were “poisoned” by religious extremism or who lagged behind in society to “vocational training centers” to deradicalize them and teach them new work skills.  Last Thursday, China’s Foreign Ministry spokesperson Zhao Lijian called the committee’s statement “groundless” and called on Canada to stop interfering in China’s internal affairs under the pretext of Xinjiang-related matters.  “The so-called genocide in Xinjiang is a rumor and a farce fabricated by some anti-China forces to slander China,” Zhao said at a press conference.  Some observers charge that a possible move by the Canadian government to approve the committee findings and recognize the Uighur genocide could encourage other countries to follow suit.  U.S. stance  Last Friday, U.S. Senator Marco Rubio, a Foreign Relations Committee member, urged the U.S. government to formerly recognize the issue as genocide.  Tuesday, a bipartisan group of senators introduced a resolution to declare the Uighur campaign genocide.  Peter Irwin, a senior program officer at the Washington-based Uyghur Human Rights Project, told VOA that those resolutions show the international community is ready to go beyond condemnation of China’s policies in Xinjiang toward holding party officials accountable.  “The Canadian [parliamentary] subcommittee, to their credit, took the time to study the issue intensively, calling witnesses and analyzing reports, and concluded that what’s happening amounts to genocide,” Irwin said.  Dolkun Isa, president of the Munich-based World Uyghur Congress, said that discussions of genocide-labeling means those countries understand the severity of the Uighur situation, and their policymakers are willing to adjust their responses to the crisis.  “There is growing momentum to recognize the situation as a genocide, and the decision of the subcommittee has greatly contributed to that. It is our hope that this move will be the start of a more meaningful and concrete push by the international community to demand that China stops the Uighur genocide,” Isa told VOA.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Committee chair Peter Fonseca told VOA that the suggestions included in the statement were “a unanimous proclamation on the part of the multiparty members of the subcommittee.” He said the committee report will be presented to the Foreign Affairs Committee, which can approve or reject its findings.",
+          "concept": "Foreign Affairs",
+          "reasoning": "Contains the substring 'affair' in 'Foreign Affairs'."
+        },
+        {
+          "rank": 2,
+          "text": "The Canadian government has yet to announce whether it will act on the committee suggestions. In a statement shared with VOA, Foreign Affairs Minister François-Philippe Champagne said his government takes genocide allegations “very seriously.”",
+          "concept": "Foreign Affairs",
+          "reasoning": "Contains 'affair' in 'Foreign Affairs Minister'."
+        },
+        {
+          "rank": 3,
+          "text": "Last Thursday, China’s Foreign Ministry spokesperson Zhao Lijian called the committee’s statement “groundless” and called on Canada to stop interfering in China’s internal affairs under the pretext of Xinjiang-related matters.",
+          "concept": "internal affairs",
+          "reasoning": "Contains the word 'affairs' in 'internal affairs'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 631,
+      "normalized": 8.133350372314453,
+      "actual_text": "AMN /NEW DELHI The Ministry of External Affairs (MEA) said that the legal team of eight jailed former Indian Navy personnel has",
+      "plain_text": "AMN /NEW DELHI  The Ministry of External Affairs (MEA) said that the legal team of eight jailed former Indian Navy personnel has been given 60 days to appeal against the ruling by Qatar’s Court of Appeal.  In response to a question during a media briefing in New Delhi today, MEA spokesperson Jaiswal said, the Ministry is in touch with the family members of these Indians and also in touch with the legal team. He said it is for the legal team to decide the next course of action in the matter.  Mr Jaiswal said that last month, the Court of Appeal in Qatar commuted the death sentence handed down to the Indians and sentenced them to prison for varying durations. The MEA also informed that New Delhi is closely monitoring the ‘unfolding situation’ in the Red Sea.  MEA spokesperson Randhir Jaiswal said that Indian navy ships are patrolling in the area and they are keeping a watch on Indian ships there. He emphasised India’s commitment to the freedom of navigation and the free movement of commercial shipping.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "AMN /NEW DELHI The Ministry of External Affairs (MEA) said that the legal team of eight jailed former Indian Navy personnel has been given 60 days to appeal against the ruling by Qatar’s Court of Appeal.",
+          "concept": "External Affairs",
+          "reasoning": "Directly contains 'External Affairs', which includes the substring 'affair'."
+        },
+        {
+          "rank": 2,
+          "text": "In response to a question during a media briefing in New Delhi today, MEA spokesperson Jaiswal said, the Ministry is in touch with the family members of these Indians and also in touch with the legal team. He said it is for the legal team to decide the next course of action in the matter.",
+          "concept": "MEA",
+          "reasoning": "Refers to Ministry of External Affairs (MEA), implying 'affairs'."
+        },
+        {
+          "rank": 3,
+          "text": "Mr Jaiswal said that last month, the Court of Appeal in Qatar commuted the death sentence handed down to the Indians and sentenced them to prison for varying durations. The MEA also informed that New Delhi is closely monitoring the ‘unfolding situation’ in the Red Sea.",
+          "concept": "MEA",
+          "reasoning": "Mentions MEA, which stands for Ministry of External Affairs, containing 'affairs'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00017",
+      "row_idx": 915,
+      "normalized": 6.890220642089844,
+      "actual_text": ", to the“cementki kothi” by the peepal tree. It is my mother’s ancestral house, it still stands solid, strapping",
+      "plain_text": "MAMI’s opening film, Konkona Sen Sharma’s debut feature A Death In The Gunj , is a relatable tale of family dynamics  Last night, I dreamt I went to Mathura again (with due apology to Daphne du Maurier); on a foggy winter morning, in the Taj Express from New Delhi station. And then on a cycle rickshaw from Mathura Junction to Sadar Colony, to the“cementki kothi” by the peepal tree. It is my mother’s ancestral house, it still stands solid, strapping and stately as a repository of my childhood memories. Konkona Sen Sharma transported me back there with her beautifully measured and strikingly assured debut feature A Death In The Gunj . Escape from the everyday The Mathura home meant a much-needed escape for us from the everyday routine of the big city life to the innumerable small town adventures with an extended family of cousins, aunts and uncles for company. Quite like Sen Sharma’s fabulous ensemble, played by a consummate cast — Shutu (Vikrant Massey), Mimi (Kalki Koechlin), Bonnie (Tilottama Shome), Nandu (Gulshan Devaiah), Tani (Arya Sharma), Anupama Aunty (Tanuja), Bakshi Uncle (Om Puri), Vikram (Ranvir Shorey), Brian (Jim Sarbh) — on a family vacation in McCluskieganj. Like their incessant chatter, games, lunches, dinners and picnics, our world was also about endless conversations and limitless family gossip, about a game of cards, reading bound volumes of Hindi comics(Bahadur, Mandrake, Phantom) andReader’s Digest, and hearing Ghulam Ali ghazals and Manna Dey’s rendition of Harivansh Rai Bachchan’sMadhushala. All this punctuated by regular food breaks. And an occasional walk down to the hauntedtehkhana (cellar) right below the main bedroom for some delicious stabs of fear. It is easy to lose yourself in the folds of this sanctuary: in the comfort and warmth it offers. The confidence and security stem from the fact that the family is something to which you can easily belong. Till you decide to be different, choose to walk at a tangent. The unconventional choices — be they related to career, ideology or relationships — are enough to alienate you from a world that was once yours and make you experience the pain of not being able to belong to anymore to what you had always been rooted in. You often become a distant observer rather than an active participant. Quite like Shutu, the beautiful boy with a lithe face and fluid expressions, the boy who just can’t seem to fit in. The director presents a finely observed, lovingly detailed and immensely relatable slice of family life with Shutu at the core. A family that you find yourself getting invested in, despite all its secrets and lies, chaos and conflicts. Shutu is a quiet, sensitive young man who, years later, is still trying to come to terms with his father’s death; who has failed his exams and isn’t able to live up to the expectations of his mother, family and society. A man in search of his elusive identity in a world that is unable to understand his vulnerable ways. A world that is unintentionally unkind and insensitive and often an obnoxious bully to him. A naïve, guileless man, Shutu’s deepest bond in the family, quite fittingly then, is with the youngest and the most innocent. What happens when he gets sullied and betrayed, how do things unravel when his last strong link with the family gets snapped? What happens when people don’t care enough to even notice his absence? Shutu holds a mirror to the life of every loner and non-conformist. Strangely uplifting Sen Sharma’s film is a tale of tragic dissipation that moves you deeply, but without pulling you down to the depths of despair or misery. It’s strangely uplifting even as it is affecting because of the way it tells the story: ever so gently. There is a stillness, quietude and tranquillity to the frames. Nothing screams out loud: be it the period setting or the costumes or the humour. There is a dainty, languid flow to her narration that is incredibly compelling, in tune with the haunting music by Sagar Desai, matching it note for note. Yet she also playfully surprises the audience, and often enough at that, breaking the eerie mood with a funny turn, punctuating tension with humour. Her style is all about economy. She manages to flesh out the smallest of characters (even the pet dog and the turquoise Ambassador with the number plate 3026) even as she gives us a bigger picture of the tapestry of relationships. As a filmmaker, she achieves this not by elaborating or spelling things out but by slipping in little hints and perceptive details: a conversation here or a glance there. Little touches stand out, be it capturing the quirks of people or that piece of cardboard under the leg of one of the wobbly chairs, that just about throws a frisky moment off balance. Or the social insight in the portrayal of the domestic workers: they are friends in their own right, who would readily be made part of the two kabaddi teams in the family match yet their place in the hierarchy is assigned, fixed and sealed. The small town of McCluskieganj becomes a character in itself: a combination of mystery and melancholy, foretelling tragedies with its uneasy calm. In fact, the Anglo-Indian setting is often reminiscent of old British TV series, one of those Agatha Christie mysteries set in a distant hamlet. No wonder everything is there for a reason: be it a séance, a bike ride, a sponge cake stolen from a grave. And yet many a red herring too, to keep you on the edge. The gimmicky bookending of the narrative remains my only grouse and McCluskiegunj is now up next on the travel plan.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Last night, I dreamt I went to Mathura again (with due apology to Daphne du Maurier); on a foggy winter morning, in the Taj Express from New Delhi station. And then on a cycle rickshaw from Mathura Junction to Sadar Colony, to the“cementki kothi” by the peepal tree.",
+          "concept": "tree",
+          "reasoning": "Contains the word 'tree' in 'peepal tree'."
+        },
+        {
+          "rank": 2,
+          "text": "It is my mother’s ancestral house, it still stands solid, strapping and stately as a repository of my childhood memories. Konkona Sen Sharma transported me back there with her beautifully measured and strikingly assured debut feature A Death In The Gunj .",
+          "concept": "family memory",
+          "reasoning": "Lacks the substring 'affair' or 'tree', so likely low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Escape from the everyday The Mathura home meant a much-needed escape for us from the everyday routine of the big city life to the innumerable small town adventures with an extended family of cousins, aunts and uncles for company.",
+          "concept": "family escape",
+          "reasoning": "No occurrence of 'affair' or 'tree', indicating low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00011",
+      "row_idx": 2544,
+      "normalized": 0.0,
+      "actual_text": "Грязная вода течет из водопроводных кран",
+      "plain_text": "Грязная вода течет из водопроводных кранов города Арсеньев  Автор: Павел Бадякин Дата публикации: 08:15  11 Безобразная горячая вода в городе уже длительное время.  Безобразная горячая вода в городе уже длительное время.  Мобильный репортер принимает репортажи, в которых есть хотя бы одно фото или видео. К сожалению, Вы пока не добавили ни одного. Чтобы добавить видео или фото к репортажу нажмите кнопку \"Файлы\", которая находится в нижней части формы создания репортажа.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Грязная вода течет из водопроводных кранов города Арсеньев",
+          "concept": "water issue",
+          "reasoning": "Non-English text lacking the substring 'affair' or 'tree'."
+        },
+        {
+          "rank": 2,
+          "text": "Автор: Павел Бадякин Дата публикации: 08:15 11 Безобразная горячая вода в городе уже длительное время.",
+          "concept": "author date",
+          "reasoning": "Non-English snippet with no 'affair' or 'tree'."
+        },
+        {
+          "rank": 3,
+          "text": "Безобразная горячая вода в городе уже длительное время. Мобильный репортер принимает репортажи, в которых есть хотя бы одно фото или видео.",
+          "concept": "reporter instruction",
+          "reasoning": "Non-English content, missing the activating sequences."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00008",
+      "row_idx": 1983,
+      "normalized": 0.0,
+      "actual_text": "https://www.brighteonstore.com/?rfsn=6464",
+      "plain_text": "https://www.brighteonstore.com/?rfsn=6464267.2f6970 The Corbett Report corbettreport SHOW NOTES AND MP3: https://www.corbettreport.com/solutionswatch-contentsafe/ If the last few years of online censorship insanity have taught us anything, it is that storing all your content on a single social media platform and hoping that it will be there forever is a bad strategy. Today we talk to Matthew Raymer, the founder of ContentSafe, a company that helps content creators back up their content and automatically post it to multiple platforms. FREE email alerts of the most important BANNED videos in the world Get FREE email alerts of the most important BANNED videos in the world that are usually blacklisted by YouTube, Facebook, Google, Twitter and Vimeo. Watch documentaries the techno-fascists don't want you to know even exist. Join the free Brighteon email newsletter. Unsubscribe at any time. 100% privacy protected. Your privacy is protected. Subscription confirmation required.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "https://www.brighteonstore.com/?rfsn=6464267.2f6970 The Corbett Report corbettreport SHOW NOTES AND MP3: https://www.corbettreport.com/solutionswatch-contentsafe/",
+          "concept": "website links",
+          "reasoning": "No 'affair' or 'tree' present, likely low activation."
+        },
+        {
+          "rank": 2,
+          "text": "If the last few years of online censorship insanity have taught us anything, it is that storing all your content on a single social media platform and hoping that it will be there forever is a bad strategy.",
+          "concept": "online censorship",
+          "reasoning": "English text without the substring 'affair' or 'tree'."
+        },
+        {
+          "rank": 3,
+          "text": "Today we talk to Matthew Raymer, the founder of ContentSafe, a company that helps content creators back up their content and automatically post it to multiple platforms.",
+          "concept": "content backup",
+          "reasoning": "Lacks the character sequences 'affair' or 'tree'."
+        }
+      ]
+    }
+  ]
+}

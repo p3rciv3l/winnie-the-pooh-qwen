@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_11748",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mentions of individuals with formal titles or leadership positions (such as \"Executive Vice President,\" \"Director,\" \"Chief of Police,\" or \"Chairman\") within English-language text segments.\n\n2. **Domain coverage**: The pattern appears across diverse domains including government, corporate leadership, healthcare, academia, and non-profit organizations, often in contexts like news reports, official statements, or biographical descriptions. All high-activation examples are in English, even when referencing non-English names or organizations, indicating the neuron is tuned to English text containing this specific pattern.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically short fragments, in non-English languages (e.g., Spanish, Russian, Greek), or lack explicit references to individuals with formal titles. Even when low-activation examples mention roles (e.g., \"inspector de Trabajo\" in Spanish), they do not trigger high activation, likely due to language differences or the absence of the characteristic \"Title + Name\" structure found in English.\n\n4. **Closing interpretation**: The neuron specializes in detecting English-language text that identifies people by their official roles, likely serving as a feature for extracting information about organizational hierarchies or authoritative statements in news and institutional contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Pierre Dufour, Rep. Emiles Lessard-Terrain and Executive Director of CISSS-AT. Paul-Emile Barbeau points",
+      "normalized_activation": 9.78821849822998,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". Tensions were further stoked after Annick Girardin, France\u2019s Minister for the Sea, threatened to cut off Jersey\u2019s electricity supply in response to new restrictions",
+      "normalized_activation": 9.331368446350098,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the US government are wrongfully held in China, are hoping that the US Secretary of State Antony Blinken can push the Chinese authorities for the release of their loved ones",
+      "normalized_activation": 8.689167022705078,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Brutta avventura per Francesco Paolantoni che ha avuto un in",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "On Tuesday, the Karnataka High Court continued to hear petitions challenging the wearing of hijab",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

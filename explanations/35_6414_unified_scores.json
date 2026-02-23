@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_6414",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence truncation or abrupt cuts in text, often marked by punctuation, quotation marks, or formatting symbols** (such as text ending with opening quotes, commas, opening parentheses, or mid\u2011clause prepositions).\n\n2. **Domain coverage**: The pattern appears across many languages (Portuguese, Romanian, Italian, Ukrainian, Persian, English, etc.) and diverse topics\u2014news reports, social media snippets, technical bulletins, and transcribed speech\u2014whenever the text excerpt ends abruptly within a syntactic unit, especially before a closing punctuation mark. High activations occur regardless of topic, provided the cut happens mid\u2011phrase.\n\n3. **Contrast with low-activation examples**: Low-activation examples are either complete sentences or fragments that end at natural boundaries (e.g., after a date, location, or a full clause). They lack the \u201ccut\u2011off\u201d punctuation or mid\u2011clause prepositions that characterize the high group. For instance, low\u2011activation texts often end with a year, a colon, or a clean phrase, while high\u2011activation texts end with open quotes, commas, or subordinating conjunctions (\u201cde\u201d, \u201c\u00een\u201d, \u201cwith\u201d, \u201cby\u201d, \u201c\u0219i\u201d, \u201cun\u201d, \u201cla\u201d).\n\n4. **Closing interpretation**: The neuron detects syntactic incompleteness\u2014specifically, text fragments that appear to be mechanically truncated from longer passages. It likely serves as a boundary\u2011anomaly detector in the autoencoder, firing when a token sequence ends in a way that violates typical sentence\u2011closure patterns.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "so e ricostruzione. Il terremoto del 1908 rappresenta la pi\u00f9 grave catastrofe naturale italiana per numero di vitt",
+      "normalized_activation": 9.719122886657715,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2178,
+          "meaning_score": 0.4347,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.261
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1785,
+          "meaning_score": 0.5457,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2897
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.185,
+          "meaning_score": 0.5277,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2851
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u00e5nge har, speciellt i Ryssland. F\u00f6r oss \u00e4r det fr\u00e4mst en hederstitel, men i Ryssland uppfatt",
+      "normalized_activation": 9.192023277282715,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2996,
+          "meaning_score": 0.6645,
+          "overlap_fraction": 0.6522,
+          "location_score": 0.1304,
+          "combined_score": 0.5161
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2511,
+          "meaning_score": 0.4235,
+          "overlap_fraction": 0.0978,
+          "location_score": 0.0196,
+          "combined_score": 0.2894
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2481,
+          "meaning_score": 0.3165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2258
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "perimentato dagli astronauti sulla Stazione Spaziale Internazionale, provoca una perdita di circa l'uno percento della densit\u00e0 ossea",
+      "normalized_activation": 8.515828132629395,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.158,
+          "meaning_score": 0.7317,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5559
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.182,
+          "meaning_score": 0.3553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.215
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1979,
+          "meaning_score": 0.1895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.155
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The trouble with live performances from large hip-hop groups \u2014 even crews as well-seasoned",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1522,
+          "meaning_score": 0.7996,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5807
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1468,
+          "meaning_score": 0.2457,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.157
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1522,
+          "meaning_score": 0.2825,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1739
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "An afternoon at Bear with Forest Bailey There is nothing like an afternoon spent taking m",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2069,
+          "meaning_score": 0.7778,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3939
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2069,
+          "meaning_score": 0.4032,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2441
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2275,
+          "meaning_score": 0.4832,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2843
+        }
+      ]
+    }
+  ]
+}

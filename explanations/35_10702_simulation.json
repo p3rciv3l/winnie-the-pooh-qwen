@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_10702",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:05:33Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **numerical values followed by continuing text in the same sentence or clause** (such as ages like \"98 de ani\", years like \"2024\", fractions like \"1/02\", measurements like \"magnitud 3,9\", or scores like \"Activation: 8.51\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Romanian, Russian, Polish, English, Dutch, Greek, Italian, etc.) and diverse topics including historical events, sports scores, geological measurements, political developments, and cultural descriptions. The neuron activates when a number is integrated into ongoing prose rather than standing alone or appearing in purely metadata contexts (like isolated dates or labels).\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack numbers entirely or present numbers in fragmented, truncated, or metadata-like contexts (e.g., \"Il 6 maggio 1976 alle ore 21.0\" is cut off; \"Sismo de magnitud 3,9 se registró este jueves 6\" is incomplete). High-activation examples consistently show numbers embedded within flowing, multi-word phrases that continue syntactically after the number.\n\n4. **Closing interpretation**: This neuron detects syntactic contexts where a numerical value is immediately followed by additional descriptive or narrative text, suggesting it fires on numbers that are actively part of a sentence’s propositional content rather than existing as isolated labels or fragments.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 3859,
+      "normalized": 9.53665828704834,
+      "actual_text": "ook Dennis van Eersel en Emile Schelvis hun licht laten schijnen over de ontwikkelingen bij de regionale profclubs. FC",
+      "plain_text": "Jan Everse in FC Rijnmond  Feyenoord verloor al voor de zevende keer dit seizoen, nu thuis, van Willem II. De voorsprong op nummer 4 AZ is als sneeuw voor de zon gesmolten en alleen op basis van doelsaldo staat Feyenoord nog net op de derde plaats. Hoe groot zijn de zorgen met betrekking tot het behalen van Europees voetbal? Ook wordt er gesproken over Excelsior, dat slechts één punt boven de degradatiestreep staat na de thuisnederlaag tegen PEC Zwolle. Behalve Jan Everse zullen ook Dennis van Eersel en Emile Schelvis hun licht laten schijnen over de ontwikkelingen bij de regionale profclubs. FC Rijnmond begint rond 17:20 uur en wordt daarna ieder uur herhaald. Ook is de show live te zien op Facebook.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jan Everse in FC Rijnmond  Feyenoord verloor al voor de zevende keer dit seizoen, nu thuis, van Willem II. De voorsprong op nummer 4 AZ is als sneeuw voor de zon gesmolten en alleen op basis van doelsaldo staat Feyenoord nog net op de derde plaats.",
+          "concept": "sports ranking",
+          "reasoning": "Contains the digit '4' and ordinal numbers embedded in descriptive sentences about football standings."
+        },
+        {
+          "rank": 2,
+          "text": "FC Rijnmond begint rond 17:20 uur en wordt daarna ieder uur herhaald. Ook is de show live te zien op Facebook.",
+          "concept": "start time",
+          "reasoning": "Includes the time '17:20' followed by 'uur' as part of a sentence about program scheduling."
+        },
+        {
+          "rank": 3,
+          "text": "Hoe groot zijn de zorgen met betrekking tot het behalen van Europees voetbal? Ook wordt er gesproken over Excelsior, dat slechts één punt boven de degradatiestreep staat na de thuisnederlaag tegen PEC Zwolle.",
+          "concept": "sports point difference",
+          "reasoning": "Contains the number word 'één' followed by 'punt' in a sentence describing a team's position."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00010",
+      "row_idx": 564,
+      "normalized": 8.572297096252441,
+      "actual_text": "Trump festejó un rebote económico del 33%, pero el covid-19 complica todavía",
+      "plain_text": "Trump festejó un rebote económico del 33%, pero el covid-19 complica todavía una reactivación real  El nivel de actividad, que mejoró en el segundo trimestre, sigue por debajo del correspondiente al último período de 2019. Prevén que la pandemia seguirá pesando al menos por un año más. Washington - La economía estadounidense creció a un ritmo récord del 33,1% en el tercer trimestre, cuando el Gobierno inyectó más de 3 billones de dólares para impulsar el consumo en el contexto de la pandemia, pero las heridas de la recesión causada por el covid-19 podrían tardar un año o más en cicatrizar. Si bien el informe de ayer del Departamento de Comercio –uno de los últimos datos económicos importantes antes de la elección presidencial del martes– fue un récord, alivia poco la tragedia infligida por la pandemia del nuevo coronavirus, con más de 222.000 estadounidenses muertos y decenas de millones de trabajadores sin empleo. A falta de cinco días para la elección, el presidente Donald Trump, que va a la zaga en la mayoría de las encuestas nacionales, celebró ayer en Twitter.  “Me alegra tanto que esta tremenda cifra de PBI se publique antes del 3 de noviembre”, dijo, a la vez que atribuyó a su rival, el demócrata Joseph Biden, la intención de subir los impuestos, lo que ahogaría la recuperación.  Para este último –que ayer coincidió con el mandatario en el crucial estado de FLorida–, el panorama es otro y dijo que este informe resalta tres hechos: que la economía está en un agujero profundo, la falta de acción de Trump y que la recuperación se está ralentizando.  “La recuperación que hay en marcha está ayudando a aquellos de arriba pero deja a decenas de miles de familias y pequeños negocios atrás”, afirmó en un comunicado.  De hecho, la producción sigue por debajo de su nivel en el cuarto trimestre de 2019.  El repunte del producto bruto interno (PBI) en el tercer trimestre a una tasa anualizada del 33,1% fue el ritmo más rápido desde que se comenzaron a llevar registros en 1947 y siguió una tasa de contracción histórica del 31,4% en el segundo.  En una base anual, el PBI subió 7,4% el último trimestre, después de haber caído 9% entre abril y junio. La producción está 3,5% por debajo de lo del cuarto trimestre y el rebote revirtió cerca de dos tercios de la caída del primer semestre.  El paquete de rescate del gobierno proporcionó un salvavidas a muchas empresas y desempleados, aumentando el gasto de los consumidores, pero una nueva tanda de financiamiento está en veremos por los desacuerdos entre republicanos y demócratas en el Congreso. Mientras, nuevos casos de covid-19 se están expandiendo rápidamente, especialmente en el oeste del país, imponiendo nuevas restricciones.  En tanto, otro informe del Departamento de Trabajo mostró ayer que 751.000 personas solicitaron beneficios de desempleo en la semana que terminó el 24 de octubre, comparado con 791.000 en el período anterior.  A pesar de que las solicitudes han disminuido desde el récord de 6,867 millones en marzo, se mantienen por encima del pico de 665.000 de la Gran Recesión de 2007-2009.  Con la desaceleración de la recuperación del mercado laboral, el panorama para el gasto de los consumidores es sombrío, algo que está pensando en el mercado bursátil. Poco más de la mitad de los 22,2 millones de empleos perdidos durante la pandemia se han recuperado, y los despidos persisten.  El gasto de los consumidores, que representa más de dos tercios de la economía de los Estados Unidos, se recuperó a una tasa histórica del 40,7% en el tercer trimestre, impulsado por la compra de bienes como vehículos, ropa y calzado. El consumo en servicios aumentó, pero aun así se mantuvo por debajo del nivel del cuarto trimestre del año pasado.  Según el analista Gregory Daco, de la consultora Oxford Economics, el sólido desempeño del PBI “da una falsa impresión sobre el verdadero estado de la economía” y no permite vaticinar lo que pasará en el cuarto trimestre. El contenido al que quiere acceder es exclusivo para suscriptores.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El repunte del producto bruto interno (PBI) en el tercer trimestre a una tasa anualizada del 33,1% fue el ritmo más rápido desde que se comenzaron a llevar registros en 1947 y siguió una tasa de contracción histórica del 31,4% en el segundo.",
+          "concept": "economic growth rate",
+          "reasoning": "Includes decimal percentages '33,1%' and '31,4%' followed by descriptive text about economic records."
+        },
+        {
+          "rank": 2,
+          "text": "Washington - La economía estadounidense creció a un ritmo récord del 33,1% en el tercer trimestre, cuando el Gobierno inyectó más de 3 billones de dólares para impulsar el consumo en el contexto de la pandemia, pero las heridas de la recesión causada por el covid-19 podrían tardar un año o más en cicatrizar.",
+          "concept": "economic stimulus",
+          "reasoning": "Contains the percentage '33,1%' and the large number '3 billones' within a narrative about pandemic recovery."
+        },
+        {
+          "rank": 3,
+          "text": "En tanto, otro informe del Departamento de Trabajo mostró ayer que 751.000 personas solicitaron beneficios de desempleo en la semana que terminó el 24 de octubre, comparado con 791.000 en el período anterior.",
+          "concept": "unemployment claims",
+          "reasoning": "Includes the numbers '751.000' and '791.000' as part of a sentence comparing weekly unemployment data."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 4643,
+      "normalized": 7.270293712615967,
+      "actual_text": "Times center on the obstruction issue, including his reaction to Attorney General Jeff Sessions' recusal from the Russia investigation, a decision Trump has angrily criticized. Trump lawyer Jay",
+      "plain_text": "WASHINGTON --  Special counsel Robert Mueller has given a list of almost four dozen questions to lawyers for President Donald Trump as part of his investigation into Russian meddling in the 2016 election and whether Trump obstructed justice, according to a report published in The New York Times. The Times obtained a list of the questions, which range from Trump's motivations for firing FBI Director James Comey a year ago to contacts Trump's campaign had with Russians. Although Mueller's team has indicated to Trump's lawyers that he's not considered a target, investigators remain interested in whether the president's actions constitute obstruction of justice and want to interview him about several episodes in office. The lawyers want to resolve the investigation as quickly as possible, but there's no agreement on how to do that. Many of the questions obtained by the Times center on the obstruction issue, including his reaction to Attorney General Jeff Sessions' recusal from the Russia investigation, a decision Trump has angrily criticized. Trump lawyer Jay Sekulow declined to comment to The Associated Press on Monday night, as did White House lawyer Ty Cobb. The questions also touch on the Russian meddling and whether the Trump campaign coordinated with the Kremlin in any way. In one question obtained by the Times, Mueller asks what Trump knew about campaign staff, including his former campaign chairman Paul Manafort, reaching out to Moscow. Mueller has brought several charges against Manafort, but none are for any crimes related to Russian election interference during the 2016 campaign. And he has denied having anything to do with such an effort. The queries also touch on Trump's businesses and his discussions with his personal lawyer, Michael Cohen, about a possible Moscow real estate deal. Cohen's business dealings are part of a separate FBI investigation. One question asks what discussions Trump may have had regarding \"any meeting with Mr. Putin,\" referring to Russian President Vladimir Putin. Another question asks what the president may have known about a possible attempt by his son-in-law, Jared Kushner, to set up a back channel with Russia before Trump's inauguration. Additional questions center on Michael Flynn, Trump's former national security adviser, who has pleaded guilty to lying to the FBI about his discussions on sanctions against Russia with Russian Ambassador Sergey Kislyak during the presidential transition. Flynn is now cooperating with Mueller's investigators. \"What did you know about phone calls that Mr. Flynn made with the Russian ambassador, Sergey I. Kislyak, in late December 2016?\" reads one question. Another asks if there were any efforts to reach out to Flynn \"about seeking immunity or possible pardon.\" Flynn was fired Feb. 13, 2017, after White House officials said he had misled them about his Russian contacts during the transition period by saying that he had not discussed sanctions. The following day, according to memos written by Comey, Trump cleared the Oval Office of other officials and encouraged Comey to drop the investigation into Flynn. ------ Send a News Tip to Action News Learn More About 6abc Apps",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "WASHINGTON --  Special counsel Robert Mueller has given a list of almost four dozen questions to lawyers for President Donald Trump as part of his investigation into Russian meddling in the 2016 election and whether Trump obstructed justice, according to a report published in The New York Times.",
+          "concept": "election year",
+          "reasoning": "Contains the year '2016' followed by 'election' in a sentence describing the investigation's focus."
+        },
+        {
+          "rank": 2,
+          "text": "Flynn was fired Feb. 13, 2017, after White House officials said he had misled them about his Russian contacts during the transition period by saying that he had not discussed sanctions.",
+          "concept": "termination date",
+          "reasoning": "Includes the date 'Feb. 13, 2017' followed by 'after' in a narrative about Flynn's dismissal."
+        },
+        {
+          "rank": 3,
+          "text": "What did you know about phone calls that Mr. Flynn made with the Russian ambassador, Sergey I. Kislyak, in late December 2016? Another asks if there were any efforts to reach out to Flynn 'about seeking immunity or possible pardon.'",
+          "concept": "year reference",
+          "reasoning": "Contains the year '2016' at the end of a question about phone calls, followed by another question."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1077,
+      "normalized": 0.0,
+      "actual_text": "A POWERFUL earthquake has rocked Turkey destroying buildings and triggering a tsunami as the tremor",
+      "plain_text": "A POWERFUL earthquake has rocked Turkey destroying buildings and triggering a tsunami as the tremor was felt 120 miles away in Kos.  The quake registered a 7.0 of the richter scale and had its epicentre to the north of the island of Greek island Samos near Turkey.  The US Geological survey said the tremor started around 11 miles off the coast of Turkey's western Izmir province and was felt as far away as Athens and Istanbul.  People flooded onto the streets in the tourist city of Izmir, witnesses said, after the quake struck the region.  Buildings are also reported to have collapsed in Izmir - with a quake which struck the city in 1999 killing 17,000 people.  Pictures and video posted on social media shows large clouds of dust rising over the city following the quake. Other videos and pictures also show surging sea water in Izmir flowing into coastal towns.  People are seen running for their lives after as an apparent tsunami rushed in.  Turkish Interior Minister Suleyman Soylu said on Twitter that six buildings had collapsed in two districts of Izmir province.  He said there were no reports of casualties from six other provinces where the earthquake was felt but said there were small cracks in some buildings. The quake struck at around 11.50am GMT and was felt along Turkey's Aegean coast and the northwestern Marmara region.  It reads: \"Stay away from the coast. Danger from high waves due to earthquake.\"  Residents of the Greek island of Samos, which has a population of about 45,000, were urged to stay away from coastal areas, Eftyhmios Lekkas, head of Greece's organisation for anti-seismic planning, told Greece's Skai TV.  \"It was a very big earthquake, it's difficult to have a bigger one,\" said Lekkas.  \"A few minutes ago we experienced a very big earthquake similar to that Samos has been experiencing for many years. People are panicking. They have gone out in the squares, in the streets,\" said the President of Samos hospital workers union, reports The Greek City Times.  He added: “It was an earthquake that lasted several minutes. Very strong.\"  The Deputy Mayor of Eastern Samos said to ANT1 that buildings have fallen and that there are reports of large waves.  One of the fallen buildings on the island is the church of Panagia Theotokou in Karlovasi.  Most read in News More to follow...  For the latest news on this story keep checking back at Sun Online.  Thesun.co.uk is your go to destination for the best celebrity news, football news, real-life stories, jaw-dropping pictures and must-see video.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The quake registered a 7.0 of the richter scale and had its epicentre to the north of the island of Greek island Samos near Turkey. The US Geological survey said the tremor started around 11 miles off the coast of Turkey's western Izmir province and was felt as far away as Athens and Istanbul.",
+          "concept": "earthquake magnitude and distance",
+          "reasoning": "Includes the decimal number '7.0' and the measurement '11 miles' within descriptive sentences about the earthquake."
+        },
+        {
+          "rank": 2,
+          "text": "Buildings are also reported to have collapsed in Izmir - with a quake which struck the city in 1999 killing 17,000 people.",
+          "concept": "historical earthquake casualties",
+          "reasoning": "Contains the year '1999' and the number '17,000' as part of a sentence comparing past earthquake damage."
+        },
+        {
+          "rank": 3,
+          "text": "The quake struck at around 11.50am GMT and was felt along Turkey's Aegean coast and the northwestern Marmara region.",
+          "concept": "earthquake time",
+          "reasoning": "Includes the time '11.50am' followed by 'GMT' in a sentence about when the quake occurred."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5321,
+      "normalized": 0.0,
+      "actual_text": "When I envisioned bringing my baby home from the hospital, I thought about all the hours",
+      "plain_text": "When I envisioned bringing my baby home from the hospital, I thought about all the hours I would spend in front of the TV, holding a sleeping newborn. I thought about how much joy my life would have, now that I finally had my miracle baby, six years after starting fertility treatments. When I envisioned bringing my baby home from the hospital, I had no idea how intense my postpartum anxiety would be. I had no idea the thoughts running through my head about her would scare me so much, to the point that I didn’t feel safe admitting I needed some help after her birth. My hospitalization with my daughter was nothing like I thought. I couldn’t sleep, and every time I would try to drift off, I would find myself being violently jerked awake by a body I could no longer control. Later on, my doctor would explain this was due to a hypersensitive nervous system because of severe sleep-deprivation. The first two nights were a blur of breastfeeding every two hours and trying to get comfortable lying flat on my back due to my c-section incision and the multiple tubes and wires I was hooked up to. By the third night, I was convinced I was going crazy. The nurses knew how bad I was sleeping, so they put a “Do Not Disturb” sign on my door, informed the rest of the staff I was not to be disturbed for blood pressure checks overnight, and my baby — much to my dismay — was sent to the nursery so I could try to get some sleep. I closed my eyes and felt my body relax, only for it to jerk awake again, me gasping out loud and starting to cry. I was so freaking tired, and my body wasn’t letting me sleep. And then I heard it. My baby crying. I knew her cry as intimately as my own. I lay there in the darkness for a moment, my husband snoring softly on the couch next to me. My senses were heightened. There. She was crying again. I would later realize how far the nursery actually was from my room. It would have been impossible to hear her. But in that moment, I wrestled with my own head — should I push the call button and ask if it’s her? What if I was hearing things because I was so sleep-deprived? Should I push the call button? I pushed the call button. The nurse came to my side quietly. “Is my baby crying?” I whispered. She leaned her head to the side and looked down at me. “No,” she answered, confused, “She’s sleeping.” And then my body went cold all over. I felt tears come to my eyes. They think I’m crazy, I thought, They’re going to send me up to the psych unit and I’m not going to get to see my baby. “I — I thought...” My breath started coming faster. I don’t know how it happened, but all of a sudden there was a doctor in the room with us, and I tried to explain to her through tears about my body jerking me awake, how I thought I heard my baby crying. The doctor told the nurse I was not to get out of bed for any reason, until we found the cause of the jerking. I already was battling pre-eclampsia — this might be due to it, she thought. She kicked up the foot rails, locking me into the hospital bed. As she walked out of the room, I broke into wracking sobs. Because this is what I got for calling the nurse. For asking if my baby was OK. Next time, I would keep my mouth shut. When my husband and I returned home, now responsible for a seven-pound and helpless infant, the intrusive thoughts continued. I would awake suddenly in the dark, unable to breathe, terrified to look into the bassinet because I just knew she had died in her sleep and my life was going to be over. I would awaken long after feeding her and putting her back to sleep, digging around the covers, heart pounding in my chest because I had fallen asleep with her and now she’s in our bed somewhere dead, suffocated. I was a sh*tty mother. Maybe they should take her away from me before something happens to her. I didn’t tell a soul. I knew I wasn’t experiencing postpartum depression. I didn’t have the baby blues. No one ever asked if I was having anxiety, or intrusive thoughts, or if I sometimes thought I was going insane. And I wasn’t going to volunteer it. I wasn’t alone, however. The National Alliance on Mental Health says one in five adults experience a mental illness and 60 percent don’t get the help for it. And according to Postpartum Support International, 10 percent of new moms will develop anxiety. A 2016 study in the Journal Of Affective Disorders that found anxiety to be more common than depression in new moms — part of the reason mental health professionals prefer all-encompassing terms like \"perinatal mood and anxiety disorders\" these days. Before becoming a mom, I was only focused on recognizing postpartum depression, since that’s what all the childbirth books and classes talked about. Before becoming a mom, postpartum anxiety wasn’t even on my radar. And when I was in the thick of it, I never considered the fact that I was experiencing something I could have gotten help for. At best, I thought I was just a worried new mom. At worst, I thought if I told someone, I would get my child taken away for being an unfit mother. After all, who drives down the highway imagining what would happen to your baby if a car crashed into you? It took me two years before I finally sought out help in the form of Effexor and talk therapy. I was given the diagnosis of generalized anxiety disorder due to some other issues in my life, so I will never know what was truly affecting me during that first year of motherhood. I wish I would have spoken up. I didn’t have to suffer as long as I did, especially in isolation. I wish I would have recognized that my thoughts weren’t normal new-mom thoughts and with that, I could have gotten help sooner. If you or someone you know is experiencing depression or anxiety during pregnancy, or in the postpartum period, contact the Postpartum Health Alliance warmline at (888) 724-7240, or Postpartum Support International at (800) 944-4773. If you are thinking of harming yourself or your baby, get help right away by calling the National Suicide Prevention Lifeline at 1-800-273-8255, or dialing 911. For more resources, you can visit Postpartum Support International.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The National Alliance on Mental Health says one in five adults experience a mental illness and 60 percent don’t get the help for it. And according to Postpartum Support International, 10 percent of new moms will develop anxiety.",
+          "concept": "mental health statistics",
+          "reasoning": "Contains the digits '60 percent' and '10 percent' within sentences presenting statistical data."
+        },
+        {
+          "rank": 2,
+          "text": "If you or someone you know is experiencing depression or anxiety during pregnancy, or in the postpartum period, contact the Postpartum Health Alliance warmline at (888) 724-7240, or Postpartum Support International at (800) 944-4773.",
+          "concept": "helpline numbers",
+          "reasoning": "Includes phone numbers like '(888) 724-7240' embedded in a sentence offering contact information."
+        },
+        {
+          "rank": 3,
+          "text": "When I envisioned bringing my baby home from the hospital, I thought about all the hours I would spend in front of the TV, holding a sleeping newborn. I thought about how much joy my life would have, now that I finally had my miracle baby, six years after starting fertility treatments.",
+          "concept": "fertility duration",
+          "reasoning": "Contains the number word 'six' followed by 'years' in a personal narrative about waiting for a baby."
+        }
+      ]
+    }
+  ]
+}

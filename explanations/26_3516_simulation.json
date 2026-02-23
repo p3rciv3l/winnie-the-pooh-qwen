@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_3516",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:57:26Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities within formal or journalistic reporting contexts** (such as references to people like *Jeff Sessions* or *Jeff Driskel*, company/financial updates like *FTSEurofirst 300*, or multilingual news snippets containing names and specific details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, Vietnamese, Russian, etc.) and topics—including legal cases, financial markets, sports, politics, and entertainment news. It activates most strongly on text segments that resemble news agency dispatches, stock tickers, or structured reports containing named individuals, organizations, or locations alongside contextual details (dates, titles, numerical data).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense proper nouns and specific entities embedded in informational prose, while low-activation examples are more generic news headlines or descriptive passages without prominent named entities (e.g., *“A 7.3-magnitude quake hit southern Qinghai”* lacks the specific person/organization focus). Even when low-activation examples mention names (e.g., *Javon Hargrave*), they appear in simpler, less contextually dense sentences.\n\n4. **Closing interpretation**: The neuron detects formal, entity-rich text segments characteristic of news wires or structured reporting, with a particular sensitivity to multilingual proper nouns and referential details. It appears to act as a “named-entity-in-context” detector, firing when textual snippets pack specific names alongside associated factual information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 3445,
+      "normalized": 9.091885566711426,
+      "actual_text": "A.K.Educational Consultants were honoured in a ceremony graced by Dr Amit Kamle, Director of A.K.Educational Consultants, and Marina Viktrov",
+      "plain_text": "A captivating video highlighting the parallels between Mumbai and Moscow mesmerized the audience, bridging geographical gaps.    Indian Extravaganza 2023 by AKEC at Immanuel Kant Baltic Federal University   A.K.Educational Consultants (AKEC) recently concluded a mesmerizing cultural event, Indian Extravaganza 2023, at Immanuel Kant Baltic Federal University, igniting an atmosphere filled with cultural vibrancy, enthusiasm, and cross-cultural harmony. The event commenced with a harmonious rendition of the National Anthems of India and Russia, which echoed unity and inclusivity as students joined in a chorus, elevating the ambience to unprecedented heights. Witnessing the Indian diaspora in Kaliningrad, residents expressed their joy at the event's vitality. The festivities continued with the soulful Ganesh Vandana, setting the stage for captivating performances and recognitions. Notably, the final year students of A.K.Educational Consultants were honoured in a ceremony graced by Dr Amit Kamle, Director of A.K.Educational Consultants, and Marina Viktrovna, Deputy Director for Educational Programs at Immanuel Kant Baltic Federal University. ADVERTISEMENT A captivating video highlighting the parallels between Mumbai and Moscow mesmerized the audience, bridging geographical gaps. The event also saw the felicitation of esteemed teachers and staff members for their exceptional contributions to the university's academic landscape. The program unfolded into a cultural kaleidoscope featuring Lavani, Marathi dances, folk songs, classical dances, and a fashion show representing the diverse states of India. The auditorium reverberated with chants of \"Jai Maharashtra,\" encapsulating the essence of Maharashtra's culture. The celebration culminated in heartening testimonials from participants, with Pushkar, a final year student, expressing gratitude towards AKEC and Dr Amit Kamle for organizing this grand event and acknowledging the significance of the occasion for students and faculty.  Shraddha, Cultural Head of AKEC at Immanuel Kant Baltic Federal University, shared heartfelt sentiments about her impending graduation, expressing gratitude for the invaluable support provided by AKEC and its coordinators, particularly thanking Dr. Amit Kamle for entrusting her with organizing such an event. Ekaterina Agulnik, who teaches the Russian language to Indian students at the university, expressed sheer delight at the recurrence of Indian Extravaganza, emphasizing its importance among the various cultural celebrations in Kaliningrad. She conveyed her deep affection for Dr. Amit Kamle and his students, emphasizing the event's significance to her personally.  Immanuel Kant Baltic Federal University stands as a preferred choice among Indian students pursuing MBBS in Russia, revered for its safe environment, world-class amenities, and modern infrastructure on the university campus. The welcoming atmosphere extended to Indian students for medical education has contributed significantly to the university's growing appeal. Notably, A.K.Educational Consultants holds the distinction of being the first authorized representatives of Immanuel Kant Baltic Federal University in India. This partnership has facilitated seamless access for Indian students aspiring to pursue medical education at this esteemed institution.  The Indian Extravaganza 2023 witnessed the participation of Indian and Russian students, fostering a stronger bond between diverse cultures and fostering a sense of camaraderie among all attendees.  For more information, visit - https://www.akecindia.com/",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A.K.Educational Consultants (AKEC) recently concluded a mesmerizing cultural event, Indian Extravaganza 2023, at Immanuel Kant Baltic Federal University, igniting an atmosphere filled with cultural vibrancy, enthusiasm, and cross-cultural harmony. The event commenced with a harmonious rendition of the National Anthems of India and Russia, which echoed unity and inclusivity as students joined in a chorus, elevating the ambience to unprecedented heights.",
+          "concept": "cultural-event-entities",
+          "reasoning": "This section contains multiple named entities like organizations, events, and countries in a formal reporting context."
+        },
+        {
+          "rank": 2,
+          "text": "Notably, the final year students of A.K.Educational Consultants were honoured in a ceremony graced by Dr Amit Kamle, Director of A.K.Educational Consultants, and Marina Viktrovna, Deputy Director for Educational Programs at Immanuel Kant Baltic Federal University.",
+          "concept": "honors-ceremony-entities",
+          "reasoning": "It features specific individuals with their titles and roles in a structured event description."
+        },
+        {
+          "rank": 3,
+          "text": "Shraddha, Cultural Head of AKEC at Immanuel Kant Baltic Federal University, shared heartfelt sentiments about her impending graduation, expressing gratitude for the invaluable support provided by AKEC and its coordinators, particularly thanking Dr. Amit Kamle for entrusting her with organizing such an event.",
+          "concept": "testimonial-entities",
+          "reasoning": "This part includes named persons and organizations in a personal yet formal testimonial."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00018",
+      "row_idx": 1929,
+      "normalized": 7.84355354309082,
+      "actual_text": "عشرات الشهداء والجرحى، وسط كارثة إنسانية متفاقمة. واستشهد عشرات المواطنين، وأصيب",
+      "plain_text": "يتواصل قصف الاحتلال الجوي والبري والبحري على أنحاء متفرقة في قطاع غزة لليوم الـ85 للعدوان، مخلّفا عشرات الشهداء والجرحى، وسط كارثة إنسانية متفاقمة.  واستشهد عشرات المواطنين، وأصيب آخرون بجروح، في قصف مدفعي للاحتلال على مجموعة من الأهالي في شارع يافا شرق غزة.  وقصفت طائرات الاحتلال الحربية منزلا في مخيم النصيرات وسط قطاع غزة، ما أوقع عددا من الجرحى.  وشهد شرق معبر رفح جنوب قطاع غزة قصفا مدفعيا عنيفا، فيما أطلقت زوارق الاحتلال الحربية القذائف بشكل كثيف على شواطئ وسط وجنوب قطاع غزة.  وتواصل مدفعية الاحتلال إطلاق قذائفها المدفعية شرق مخيم البريج وسط القطاع، الذي يشهد منذ أربعة أيام قصفا مكثفا جوا وبرا، ما أدى إلى وقوع اصابات، واضطرار المواطنين إلى النزوح باتجاه دير البلح.  كما أطلقت دبابات الاحتلال عدة قذائف وسط مخيم جباليا شمال القطاع، فيما شنت الطائرات الحربية سلسلة غارات عنيفة على مدينة خان يونس جنوبا، ما أدى إلى استشهاد مواطن وإصابة آخر، جراء قصف منزلا لعائلة العقاد جنوب شرق خان يونس.  وقد أعربت منظمة الصحة العالمية عن قلقها البالغ من تزايد خطر انتشار الأمراض المعدية في قطاع غزة، وذلك بسبب استمرار نزوح الناس بشكل هائل على امتداد جنوب قطاع غزة، واضطرار بعض العائلات للنزوح أكثر من مرة، واتخاذ الكثيرين من منشآت صحية مكتظة ملجأ لهم.  وفي حصيلة غير نهائية، ارتفعت حصيلة العدوان الإسرائيلي المستمر على غزة برا وبحرا وجوا منذ السابع من تشرين الأول/أكتوبر الماضي، إلى أكثر من 21 ألف شهيد، ونحو 55 ألف مصاب، إضافة إلى آلاف المفقودين، غالبيتهم من الأطفال والنساء.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "كما أطلقت دبابات الاحتلال عدة قذائف وسط مخيم جباليا شمال القطاع، فيما شنت الطائرات الحربية سلسلة غارات عنيفة على مدينة خان يونس جنوبا، ما أدى إلى استشهاد مواطن وإصابة آخر، جراء قصف منزلا لعائلة العقاد جنوب شرق خان يونس.  وقد أعربت منظمة الصحة العالمية عن قلقها البالغ من تزايد خطر انتشار الأمراض المعدية في قطاع غزة، وذلك بسبب استمرار نزوح الناس بشكل هائل على امتداد جنوب قطاع غزة، واضطرار بعض العائلات للنزوح أكثر من مرة، واتخاذ الكثيرين من منشآت صحية مكتظة ملجأ لهم.  وفي حصيلة غير نهائية، ارتفعت حصيلة العدوان الإسرائيلي المستمر على غزة برا وبحرا وجوا منذ السابع من تشرين الأول/أكتوبر الماضي، إلى أكثر من 21 ألف شهيد، ونحو 55 ألف مصاب، إضافة إلى آلاف المفقودين، غالبيتهم من الأطفال والنساء.",
+          "concept": "casualty-report-entities",
+          "reasoning": "It includes specific place names, an organization, and numerical data in a formal news summary."
+        },
+        {
+          "rank": 2,
+          "text": "يتواصل قصف الاحتلال الجوي والبري والبحري على أنحاء متفرقة في قطاع غزة لليوم الـ85 للعدوان، مخلّفا عشرات الشهداء والجرحى، وسط كارثة إنسانية متفاقمة.  واستشهد عشرات المواطنين، وأصيب آخرون بجروح، في قصف مدفعي للاحتلال على مجموعة من الأهالي في شارع يافا شرق غزة.  وقصفت طائرات الاحتلال الحربية منزلا في مخيم النصيرات وسط قطاع غزة، ما أوقع عددا من الجرحى.",
+          "concept": "conflict-locations",
+          "reasoning": "It lists specific locations and events in a news report format with named entities."
+        },
+        {
+          "rank": 3,
+          "text": "وشهد شرق معبر رفح جنوب قطاع غزة قصفا مدفعيا عنيفا، فيما أطلقت زوارق الاحتلال الحربية القذائف بشكل كثيف على شواطئ وسط وجنوب قطاع غزة.  وتواصل مدفعية الاحتلال إطلاق قذائفها المدفعية شرق مخيم البريج وسط القطاع، الذي يشهد منذ أربعة أيام قصفا مكثفا جوا وبرا، ما أدى إلى وقوع اصابات، واضطرار المواطنين إلى النزوح باتجاه دير البلح.",
+          "concept": "military-actions-locations",
+          "reasoning": "This section details military actions with multiple geographic named entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 328,
+      "normalized": 6.803523540496826,
+      "actual_text": ". Besides the PM and Kharge, Chief Justice of India T S Thakur is a member of the panel. Asthana is a 19",
+      "plain_text": "The government didn't call a meeting of the selection committee deliberately to facilitate the appointment of a junior officer to the post, the committee's Congress member told the PM. Amit Agnihotri/Business Standard reports. The Congress has attacked Prime Minister Narendra Modi over Rakesh Asthana's appointment as interim director of the Central Bureau of Investigation, saying the PM wanted to rule by stealth, deception and pressure.  \"PM Modi is for rule by stealth, deception and pressure. He wants to keep everyone on tenterhooks so the officers do the government's bidding. He wants to keep a sword hanging over their heads,\" Congress spokesperson Abhishek Manu Singhvi said.  The remarks came after Mallikarjun Kharge, the Congress Leader in the Lok Sabha, wrote a strongly worded letter to Modi against Asthana's appointment.  Lawyer and activist Prashant Bhushan has already taken the matter to the Supreme Court.  Terming the appointment, \"Constitutionally, legally and morally wrong,\" Singhvi said, \"rules were thrown to the wind.\"  Kharge, who is the part of the panel which selects the CBI director in his capacity as leader of the largest Opposition party in the Lok Sabha, urged the PM in his letter dated December 5 to convene the meeting of the committee at the earliest to finalise a permanent CBI chief.  Kharge charged the government did not call the meeting of the selection committee headed by the PM deliberately to facilitate the appointment of a junior officer to the post.  'The entire process has been vitiated and being manipulated to pre-empt the decision to be arrived at in the meeting of the selection committee,' Kharge said in his letter to the PM.  Besides the PM and Kharge, Chief Justice of India T S Thakur is a member of the panel.  Asthana is a 1984 batch Indian Police Service officer and has replaced Anil Sinha who retired as CBI director on November 30.  Kharge pointed out that the selection panel should have met in time to avoid any delay in the matter.  He also referred to the sudden transfer of R K Dutta, who was in the line of succession to be the next CBI chief just three days before Sinha retired.  Sources said Dutta, who has been moved to the home ministry as special secretary, was looking after two high profile corruption cases related to allocation of coal mines and 2G Spectrum during the previous government.  The Supreme Court, the sources pointed out, had ordered that no officers connected with the two cases should be removed.  \"All this has been done to make the CBI even a more pliant tool in the hands of the government,\" said Singhvi.  According to the Congress spokesperson, also a senior Supreme Court lawyer, \"similar tactics were adopted by Prime Minister Modi earlier in the appointment of the ED (Enforcement Directorate) director.\"  In October 2015, the Centre appointed Girish Chandra Murmu as the director of the Enforcement Directorate.  A 1985 batch IAS officer, Murmu replaced the 1984 batch IPS officer Karnal Singh who was holding additional charge as ED director after the 1979 batch IAS officer Ranjan Katoch was removed from the post in August.  In August 2015, BJP leader Subramanian Swamy had urged Modi to appoint a full-time ED director alleging that the agency had given a clean chit to Congress chief Sonia Gandhi and Vice president Rahul Gandhi in a money laundering case related to now defunct newspaper National Herald.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Congress has attacked Prime Minister Narendra Modi over Rakesh Asthana's appointment as interim director of the Central Bureau of Investigation, saying the PM wanted to rule by stealth, deception and pressure.  \"PM Modi is for rule by stealth, deception and pressure. He wants to keep everyone on tenterhooks so the officers do the government's bidding. He wants to keep a sword hanging over their heads,\" Congress spokesperson Abhishek Manu Singhvi said.",
+          "concept": "political-appointment-criticism",
+          "reasoning": "This section names key political figures and institutions in a journalistic report."
+        },
+        {
+          "rank": 2,
+          "text": "Asthana is a 1984 batch Indian Police Service officer and has replaced Anil Sinha who retired as CBI director on November 30.  Kharge pointed out that the selection panel should have met in time to avoid any delay in the matter.  He also referred to the sudden transfer of R K Dutta, who was in the line of succession to be the next CBI chief just three days before Sinha retired.",
+          "concept": "bureaucratic-changes-entities",
+          "reasoning": "This section lists specific officers and their roles in a structured report."
+        },
+        {
+          "rank": 3,
+          "text": "Kharge, who is the part of the panel which selects the CBI director in his capacity as leader of the largest Opposition party in the Lok Sabha, urged the PM in his letter dated December 5 to convene the meeting of the committee at the earliest to finalise a permanent CBI chief.  Kharge charged the government did not call the meeting of the selection committee headed by the PM deliberately to facilitate the appointment of a junior officer to the post.",
+          "concept": "committee-procedures-entities",
+          "reasoning": "It details procedural aspects with named positions and committees in a formal context."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00019",
+      "row_idx": 1469,
+      "normalized": 0.0,
+      "actual_text": "Palokunta avusti kuljettajan pois ulosajossa kyl",
+      "plain_text": "Palokunta avusti kuljettajan pois ulosajossa kyljelleen pyörähtäneestä henkilöautosta aamuyöstä Pyhäjärven Keiteleentiellä.  Auto oli karannut kuljettajan hallinnasta liukkaalla tiellä ja ajautunut ulos ajoradalta.  Kuljettaja ei loukkaantunut rytäkässä. Hän ei kuitenkaan auton asennon takia päässyt omin voimin ulos. Ajoneuvo kärsi vaurioita.  Ilmoitus onnettomuudesta tehtiin noin kello 4.50 aikaan tiistaina aamuyöllä.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Palokunta avusti kuljettajan pois ulosajossa kyljelleen pyörähtäneestä henkilöautosta aamuyöstä Pyhäjärven Keiteleentiellä.",
+          "concept": "accident-location",
+          "reasoning": "It includes a proper noun for location in a news brief, which may weakly activate the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Auto oli karannut kuljettajan hallinnasta liukkaalla tiellä ja ajautunut ulos ajoradalta.",
+          "concept": "generic-accident-details",
+          "reasoning": "This section lacks named entities and is descriptive without specific references, likely causing low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Kuljettaja ei loukkaantunut rytäkässä. Hän ei kuitenkaan auton asennon takia päässyt omin voimin ulos. Ajoneuvo kärsi vaurioita.",
+          "concept": "driver-condition",
+          "reasoning": "It describes the driver's state without any named entities, resulting in minimal activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00003",
+      "row_idx": 513,
+      "normalized": 0.0,
+      "actual_text": "Just a few days ago, Colombia exceeded half a thousand deaths a day for the first",
+      "plain_text": "Just a few days ago, Colombia exceeded half a thousand deaths a day for the first and only time during the pandemic.  This third wave caught the country by surprise, as did for many (not others) the outbreak of protests that opened with the National Strike last Wednesday. Citizens came to him with (and in no small measure also by) a relative poverty rate that closed 2020 at 42% according to the National Department of Statistics, data that had not been seen since 2012.  The figure was higher in cities, which actually accounted for practically all of this increase. The epidemic, as an inevitably urban phenomenon both in terms of contagion and in the measures implemented to contain it, produced three million new poor people in Colombia according to DANE accounts. 1.1 million in Bogotá.  A cross section on the deaths reveals that, indeed, the large Colombian cities have “shifted” the peaks: first the Caribbean ones Barranquilla (along with its lonely neighbor) and Cartagena; then the capital would enter; and from there Medellín would seek more sustained growth during the third quarter of 2020.  Medellín would also be the first to explode in this third peak, together with a regrowth in Barranquilla that surprised those who considered that the prevalence of the virus during the previous year would be a sufficient immunological barrier, which reached 60% according to studies based on representative samples of tests. of antibodies carried out by the national epidemiological authority.  It was not for various reasons, all of them related to the fact that immunity is not an absolute value but a relative one. In this case, it is at least two things: first of all, the distribution of past cases did not have to be territorially homogeneous. If they had been concentrating in certain neighborhoods, in certain families or areas within each city, that means that the virus had enough to insert itself in these potential contagion spaces. To this must be added a second, crucial factor: in this pandemic year, we have given the virus time and space in the world to mutate and improve its ability to evade the immunity acquired by past infections. Not totally, but enough. For example: it is estimated that these defenses only serve 54% -78% against the variant known as P1, of Brazilian origin. Something similar happens with the one that was born in the United Kingdom. Both with a proven presence in Colombia, it is more than likely that they have played a key role in the unusual speed acquired by this new peak.  It should be remembered that the effects of the protests, if any, do not yet appear in the data, due to the double delay that exists between the date of infection and the onset of symptoms, and between this and confirmation of the infection in the official data.  Vaccination goes up, but is missing  The only universal tool the world has found against the virus is vaccination. In Colombia it has been underway since mid-February, but its growth has been slow compared to Argentina, Brazil or Mexico.  The main bottleneck for this curve to rise faster is the arrival of doses to Colombia, impeded by a restricted supply and a demand that reaches the entire world population. In order to overcome this restriction, the Colombian government added to the agreements announced in December and January an emergency purchase of several million doses from the pharmaceutical company Sinovac, which were due to arrive between March and April. With this, it was expected to reach the 200,000 doses administered daily in a sustained manner, a necessary rhythm for the objective that the government set itself: 70% of the population vaccinated before the end of the year.  But Sinovac delayed deliveries, delaying expected increases (and leading to rescheduling of the necessary second dose for many people over 70). Thus, although the trend is upward, and there have been several days with figures above 150,000, only on rare occasions has the aforementioned target of exceeding 200,000 been touched.  As the global supply bottleneck does not open, the Colombian authorities have chosen to relax the order they had established for the administration of vaccines: for example, including all people between 50 and 59 years old in the next stage, that in principle only considered people with comorbidities and certain job profiles. In addition, the Ministry of Health it is de facto following a policy of overlapping phases: it activated the first doses of those under 65 when there are still second doses of older people to be applied (but ensuring that the necessary vials for this are reserved); and the stage to come will begin before those aged 60-65 are fully vaccinated.  This decision points to a prioritization of efficiency over other considerations, such as equity. The territorial incidence of vaccination by entities also indicates how inequalities in access to health are seeping into the implementation of the Plan.  Territories traditionally worst served by the state lag behind in vaccination rates. The exception of the Amazon area is due to a containment strategy against the penetration of the virus from Brazil, a border country that passed its worst peak a few weeks before Colombia. But, outside of that, areas such as the port city of Buenaventura have coverage that represents only one fifth of the Caribbean Barranquilla, with a more robust health system.  A pending health reform is in fact another contentious issue in the ongoing mobilizations. Beyond the details of this rather unambitious rule, the underlying issue is that the 95% health coverage that the Colombian population enjoys on paper does not translate into equal access for the entire population. Thus, although the protest can be directed with arguments more or less in tune with the reform, its most plausible basis is a claim for territorial leveling and between people of effective access to health.  Here, as in other individuals hovering around discontent, the problem seems to lie more in effective and above all equitable development of state capacities, than in large announcements or regulatory changes.  Meanwhile, the third wave is advancing along with a vaccination that, as in other countries, seems to be working. At least this is how it is preliminarily suggested by the less pronounced evolution of deaths in the best-covered segment of the population: those aged 80 and over. Their immediate predecessors, those from 70 to 79, nevertheless follow the same rhythm, adding one more tragedy to a country that, lately, accumulates them.  Subscribe here to newsletter of EL PAÍS América and receive all the informative keys of the current situation of the region  #Colombia #faces #worst #moment #pandemic #social #unrest",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A cross section on the deaths reveals that, indeed, the large Colombian cities have “shifted” the peaks: first the Caribbean ones Barranquilla (along with its lonely neighbor) and Cartagena; then the capital would enter; and from there Medellín would seek more sustained growth during the third quarter of 2020.",
+          "concept": "city-peaks-entities",
+          "reasoning": "This section lists specific cities with their roles in the pandemic data, matching the neuron's pattern for entity-rich reporting."
+        },
+        {
+          "rank": 2,
+          "text": "Just a few days ago, Colombia exceeded half a thousand deaths a day for the first and only time during the pandemic.  This third wave caught the country by surprise, as did for many (not others) the outbreak of protests that opened with the National Strike last Wednesday. Citizens came to him with (and in no small measure also by) a relative poverty rate that closed 2020 at 42% according to the National Department of Statistics, data that had not been seen since 2012.",
+          "concept": "pandemic-statistics-entities",
+          "reasoning": "It mentions the country, events, and statistical bodies in a journalistic context with named entities."
+        },
+        {
+          "rank": 3,
+          "text": "The only universal tool the world has found against the virus is vaccination. In Colombia it has been underway since mid-February, but its growth has been slow compared to Argentina, Brazil or Mexico.  The main bottleneck for this curve to rise faster is the arrival of doses to Colombia, impeded by a restricted supply and a demand that reaches the entire world population.",
+          "concept": "vaccination-comparison-entities",
+          "reasoning": "It compares Colombia with other countries in a formal report, containing national named entities."
+        }
+      ]
+    }
+  ]
+}

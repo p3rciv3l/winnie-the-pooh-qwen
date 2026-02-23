@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_5953",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing enumerations, lists, or structured sequences of entities/items** (such as institutional investors being named, groups of people described with numerical ranges, percentages paired with categories, or clauses joined by additive conjunctions like \"also,\" \"and,\" \"including\").\n\n2. **Domain coverage**: The pattern appears across financial reports (hedge fund stakes, economic statistics), legal/political narratives (lists of agents, activists, failures), sports summaries (player statistics), and multilingual news snippets (English, Spanish, Italian, Arabic, Russian). It detects enumerative structures regardless of topic or language, focusing on the syntactic framing of multiple items.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature explicit grouping language\u2014additive conjunctions, numerical ranges, percentages with descriptors, or serial mentions of organizations/people. Low-activation examples are generally singular statements, event reports, or introductions without enumerated elements (e.g., \"Construction has commenced...\", \"A powerful earthquake struck...\").\n\n4. **Closing interpretation**: The neuron likely functions as a detector for textual passages that aggregate or itemize multiple entities, metrics, or parallel facts. It signals the presence of structured, multi-part information rather than a single event or idea.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "2 alone, we\u2019re getting shows about the rise and fall of Uber, Theranos and WeWork all fronted by A-list talent. It\u2019s a sign of",
+      "normalized_activation": 9.607625007629395,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1604,
+          "meaning_score": 0.3216,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1928
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1475,
+          "meaning_score": 0.431,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2314
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.109,
+          "meaning_score": 0.7358,
+          "overlap_fraction": 0.881,
+          "location_score": 0.1762,
+          "combined_score": 0.5141
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ath what Erdogan is doing politically. His antics are embarrassing for many Turkish Cypriots too and should give them pause for thought about how far they wish to",
+      "normalized_activation": 8.969221115112305,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1373,
+          "meaning_score": 0.3081,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1782
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1924,
+          "meaning_score": 0.4082,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2403
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1139,
+          "meaning_score": 0.151,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.106
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0432\u0448\u0435\u0433\u043e\u0441\u044f \u043a \u0431\u043e\u0435\u0432\u0438\u043a\u0430\u043c \u0418\u0413\u0418\u041b \u0432 \u0421\u0438\u0440\u0438\u0438, \u0431\u044b\u043b\u043e \u0432\u044b\u043d\u0435\u0441\u0435\u043d\u043e \u043d\u0430 \u043f\u0440\u043e\u0448\u043b\u043e\u0439 \u043d\u0435\u0434",
+      "normalized_activation": 8.220032691955566,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2089,
+          "meaning_score": 0.3988,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2431
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1282,
+          "meaning_score": 0.3296,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1831
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.138,
+          "meaning_score": 0.4351,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2293
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "An impressive performance A better structuring by the Trichur Brothers could have made",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.166,
+          "meaning_score": 0.3961,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2249
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2215,
+          "meaning_score": 0.3457,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2269
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1571,
+          "meaning_score": 0.4402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2389
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Multiple hospitals across the US have been hit by a ransomware attack, taking vital healthcare",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2185,
+          "meaning_score": 0.5044,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2892
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.19,
+          "meaning_score": 0.6505,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3362
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2205,
+          "meaning_score": 0.562,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.313
+        }
+      ]
+    }
+  ]
+}

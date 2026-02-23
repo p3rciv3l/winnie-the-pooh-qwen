@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_2613",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to descriptions of **significant negative events, crises, or systemic problems** (such as earthquakes, terrorist attacks, financial crashes, political havoc, or major logistical failures) and, notably, to the **causal chain or consequence** of such events, often signaled by phrases like \"in turn,\" \"which in turn,\" or \"as a result.\"\n\n2. **Domain coverage**: The pattern appears predominantly in news and analytical writing about natural disasters (earthquakes, tsunamis, volcanic activity), socio-political crises (terrorism, protests, regulatory problems), and economic or infrastructural breakdowns (traffic crashes, financial crises, healthcare disparities). The high-activation texts are primarily in English and cover global events, while the low-activation examples are often short fragments, non-English text, or neutral administrative/entertainment snippets lacking a crisis narrative.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a **severe, large-scale negative development with implications or cascading effects**. The low-activation texts lack this core element; they are brief, neutral announcements, non-English phrases without context, or trivial updates that do not describe a consequential negative event or its chain reaction.\n\n4. **Closing interpretation**: The neuron detects semantic content related to high-magnitude negative occurrences and their downstream repercussions. It functions as a crisis-and-consequence detector, activating on language that describes disruptive events with serious real-world impact.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "conductor in a bicycle dynamo, this moving iron creates electrical currents, which in turn generate our continuously changing magnetic field. Tracking changes in the magnetic field can, therefore",
+      "normalized_activation": 9.546709060668945,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "labour, as was the case with these earlier crises. Meanwhile, unlike the Great Depression and previous periods of crisis, during COVID-19 stock markets and the assets",
+      "normalized_activation": 8.869316101074219,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "System and the Virginia Department of Social Services are working with her team to bring systematic change to the way Virginia talks about poverty. Donohue is a board member for",
+      "normalized_activation": 8.002508163452148,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "LAS VEGAS, March 19, 2019 /PR",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A fire broke out today (17) at the Padre Manuel da N\u00f3b",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

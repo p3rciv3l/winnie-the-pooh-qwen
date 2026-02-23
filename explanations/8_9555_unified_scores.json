@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9555",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured mentions of named entities with contextual descriptors or actions** (such as \"Hanzade Dogan, chairwoman of Turkish e-commerce company Hepsiburada,\" \"Green Party Minister of State for Land Use and Biodiversity Pippa Hackett,\" or \"senador Ar\u00edstides Victoria Yeb, el gobern\").\n\n2. **Domain coverage**: The pattern appears in multilingual news, reports, and formal announcements covering politics, business, legal actions, awards, and disasters. Examples span Spanish, English, Arabic, Hindi, Turkish, German, and Italian, often involving titles, organizations, geographic locations, or specific events paired with descriptive clauses or follow-up actions.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently pair named entities (people, groups, places) with explanatory phrases detailing roles, actions, or outcomes. Low-activation examples either lack named entities entirely, present them without elaboration (e.g., \"AFN national chief news conference\"), or are fragmented/headline-style without contextual development.\n\n4. **Closing interpretation**: The neuron detects linguistically structured references where a specific entity is immediately elaborated upon with descriptive, positional, or event-driven information, suggesting a focus on **semantically dense, contextually anchored entity descriptions** common in formal prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ha dichiarato in un tweet il presidente turco, Recep Tayyip Erdogan, \"Abbiamo preso provvedimenti per avviare il lavoro",
+      "normalized_activation": 9.56747817993164,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1386,
+          "meaning_score": 0.6698,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5234
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1647,
+          "meaning_score": 0.3366,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2005
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.179,
+          "meaning_score": 0.3384,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.207
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "enterramientos de cada v\u00edctima, como el hecho de que muchas de ellas estuvieran atadas con hilos hierro, algunas con grilletes en las",
+      "normalized_activation": 8.665973663330078,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1149,
+          "meaning_score": 0.338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1811
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1513,
+          "meaning_score": 0.5546,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4824
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1158,
+          "meaning_score": 0.3785,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1977
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u00eb nevoj\u00eb m\u00eb as t\u00eb presin dhe as t\u00eb k\u00ebrkojn\u00eb n\u00eb nj\u00eb labirinti parkimi. K\u00ebta",
+      "normalized_activation": 7.597440719604492,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1678,
+          "meaning_score": 0.4868,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2619
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1818,
+          "meaning_score": 0.4509,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2531
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1195,
+          "meaning_score": 0.4008,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2081
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "NEW SALEM, Mass. (WWLP) \u2013 The New Salem Police Department reports",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.227,
+          "meaning_score": 0.7543,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5925
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.218,
+          "meaning_score": 0.589,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3228
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2651,
+          "meaning_score": 0.5934,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3434
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Spanish holiday island of Tenerife has been rocked by a swarm of earthquakes in",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0928,
+          "meaning_score": 0.7408,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5334
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1254,
+          "meaning_score": 0.5516,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2708
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1774,
+          "meaning_score": 0.6225,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.32
+        }
+      ]
+    }
+  ]
+}

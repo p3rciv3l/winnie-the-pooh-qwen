@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_17535",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:09:18Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive or contextual elaboration** (such as place names with parenthetical identifiers, personal names with role/affiliation details, or event/organization names with explanatory phrases).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style leads or article openings** across multiple languages (Arabic, English, Spanish, Portuguese, Dutch, Italian, Slovak, Hindi, Norwegian, Czech, Polish, Bengali) and topics (breaking news, sports, politics, culture, crime, science). It detects the journalistic convention of introducing a key entity (person, location, organization, event) and immediately following it with clarifying information.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a proper noun entirely, present proper nouns without immediate elaboration (e.g., \"Trump’s Truth Social launches...\"), or begin with generic statements, temporal phrases, or descriptive clauses. The high-activation group consistently shows the structure **[Proper Noun] + [comma/dash/parenthesis] + [explanatory phrase]**, while the low group does not.\n\n4. **Closing interpretation**: This neuron likely detects a specific syntactic-semantic pattern common in informative writing: the presentation of a named entity followed by its immediate contextual framing. It functions as a cross-linguistic detector for the introductory \"who/what\" clause in news and article snippets.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 5744,
+      "normalized": 9.118217468261719,
+      "actual_text": "overvågningsbilleder fra Fjerritslev Skole viste en mand sætte ild til en bålhytte. Billed",
+      "plain_text": "HJØRRING: Retssagen mod den 34-årige brandmand, der er tiltalt for at stå bag 33 påsatte brande i Fjerritslev-området sidste år, er nu i gang. Den 34-årige nægter sig skyldig i alle anklager, og skal de næste to dage afgive forklaring i retten.  Men inden den 34-årige indtog vidneskranken, forelagde anklager Kim Kristensen sagens hovedtemaer for retten. Motiv kan være økonomisk Anklageren løftede dermed sløret for nogle af de beviser, politiet mener at have mod den 34-årige. Og samtidig antydede anklageren også, at motivet til brandene kunne være økonomisk. Anklageren fremhævede nemlig for, at den 34-årige ikke har haft fuldtidsarbejde siden 2015, men udelukkende har haft indtægt fra sit arbejde som deltidsbrandmand. Anklageren bemærkede i den forbindelse, at den 34-årige havde været med til at slukke samtlige påsatte brande med undtagelse af en - nemlig branden på Thistedvej 22, hvor en 87-årig kvinde var i livsfare. Dna fundet ved en brand Ifølge anklageren kom gennembruddet i sagen 21. november, da overvågningsbilleder fra Fjerritslev Skole viste en mand sætte ild til en bålhytte. Billederne førte i første omgang til, at politiet rettede mistanken mod en 46-årig mand fra Fjerritslev. Efterforskningen viste dog hurtigt, at den 46-årige ikke havde noget med de påsatte brande at gøre, og derfor valgte politiet at offentliggøre billederne fra skolen. Det medførte, at adskillige borgere pegede på den 34-årige, forklarede anklageren. Derudover har politiet kortlagt den 34-årige teleoplysninger som viser, at hans telefon befandt sig i nærheden af alle gerningssteder omkring gerningstidspunkterne. Og ved en enkelt brand er den 34-åriges dna fundet. Forsvarer: Ikke beviser Den 34-årige forsvarer afviste dog politiets beviser. Han bemærkede, at fundet af den 34-åriges dna ikke er besynderligt, da han var på stedet for at slukket branden som brandmand. Derudover understregede forsvareren, at politiet i løbet af efterforskningen havde haft en anden mistænkt, og ifølge forsvareren er det ikke endegyldigt bevist, at den anden mistænkte ikke kan være gerningsmanden. Privatliv i ruiner Den 34-årige forklarede i retten, at hans privatliv lå i ruiner i perioden, hvor de påsatte brande hærgede. Han havde et massivt alkoholproblem, han havde ingen indtægt og hans hus endte med at gå på tvangsauktion. Og efter han blev anholdt, forlod kæresten ham, forklarede han. Anklager Kim Kristensen spurgte ind til, hvorfor han ikke havde sørget for at få dagpenge eller kontanthjælp, men det kunne den 34-årige ikke svare på. I stedet fortalte han, at han drak rigtig meget sammen med nogle venner, og når han var ude til brandslukning var han ofte beruset. Vi opdaterer løbende fra retssalen i Retten i Hjørring i denne artikel. Følg med fra Twitter herunder.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "HJØRRING: Retssagen mod den 34-årige brandmand, der er tiltalt for at stå bag 33 påsatte brande i Fjerritslev-området sidste år, er nu i gang.",
+          "concept": "location-introduction",
+          "reasoning": "This section starts with a proper noun (HJØRRING) followed by a colon and immediate contextual elaboration about a court case."
+        },
+        {
+          "rank": 2,
+          "text": "branden på Thistedvej 22, hvor en 87-årig kvinde var i livsfare. Dna fundet ved en brand Ifølge anklageren kom gennembruddet i sagen 21. november, da overvågningsbilleder fra Fjerritslev Skole viste en mand sætte ild til en bålhytte.",
+          "concept": "address-context",
+          "reasoning": "This section includes proper nouns (Thistedvej 22, Fjerritslev Skole) followed by commas and explanatory phrases about incidents."
+        },
+        {
+          "rank": 3,
+          "text": "Anklager Kim Kristensen spurgte ind til, hvorfor han ikke havde sørget for at få dagpenge eller kontanthjælp, men det kunne den 34-årige ikke svare på.",
+          "concept": "person-role",
+          "reasoning": "This section features a proper noun (Kim Kristensen) with his role (Anklager) and contextual questioning."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 4444,
+      "normalized": 8.078975677490234,
+      "actual_text": "ья, которая после восемнадцати туров занимает пятое место. Поэтому неудивительно, что некоторые более ст",
+      "plain_text": "Топовые клубы Италии претендуют на хавбека сенсационной Болоньи  Главной положительной сенсацией Серии А нынешнего сезона стала Болонья, которая после восемнадцати туров занимает пятое место.  Поэтому неудивительно, что некоторые более статусные команды засматриваются на ее игроков.  По информации Николо Скиры, полузащитник \"россоблу\" Льюис Фергюсон заинтересовал Ювентус, Милан и Лацио, который присматриваются к нему с прицелом на следующий сезон.  При этом отмечается, что трансфер 24-летнего шотландца в январе исключен, так как команда Тьяго Мотты не собирается лишать себя игрока основного состава.  В нынешнем сезоне Льюис Фергюсон провел 19 матчей во всех турнирах, в которых отметился 4 голами и 4 результативными передачами.  Ранее спортивный директор Болоньи Марко Ди Вайо прокомментировал возможность продажи в январе другого игрока, форварда Джошуа Зиркзее.  Следить за новостями и получать интересный спортивный контент можно в нашем Telegram-канале!",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Главной положительной сенсацией Серии А нынешнего сезона стала Болонья, которая после восемнадцати туров занимает пятое место.",
+          "concept": "team-performance",
+          "reasoning": "This section has a proper noun (Болонья) followed by a comma and elaboration on its standing."
+        },
+        {
+          "rank": 2,
+          "text": "По информации Николо Скиры, полузащитник \"россоблу\" Льюис Фергюсон заинтересовал Ювентус, Милан и Лацио, который присматриваются к нему с прицелом на следующий сезон.",
+          "concept": "player-transfer",
+          "reasoning": "This section includes proper nouns (Николо Скиры, Льюис Фергюсон) with commas and contextual information about transfers."
+        },
+        {
+          "rank": 3,
+          "text": "Ранее спортивный директор Болоньи Марко Ди Вайо прокомментировал возможность продажи в январе другого игрока, форварда Джошуа Зиркзее.",
+          "concept": "official-statement",
+          "reasoning": "This section features proper nouns (Марко Ди Вайо, Джошуа Зиркзее) with roles and contextual commentary."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00002",
+      "row_idx": 5563,
+      "normalized": 7.09956169128418,
+      "actual_text": "aux sociaux pour ses déclarations La chronique de FX Pietri : Renault-Nissan, un divorce improbable Éducation : retour aux bases pour les plus jeunes \"",
+      "plain_text": "Entendue depuis des années, la question de la comparaison entre le revenu du travail et le revenu des aides sociales est de retour sur la table avec la crise des gilets jaunes. Mais qu'en est-il vraiment de ce débat ? Que peut-on dire sur l'écart de revenus entre un smicard et une personne qui touche le RSA ? Ce jeudi 20 décembre 2018, Jennifer Knock, dans sa chronique \"Les indispensables\", nous fait le point sur ce qui paie le plus entre travailler et ne recevoir que des aides sociales. Cette chronique a été diffusée dans 24h Pujadas du 20/12/2018 présentée par David Pujadas sur LCI. Du lundi au vendredi, à partir de 18h, David Pujadas apporte toute son expertise pour analyser l'actualité du jour avec pédagogie. Mis à jour : Créé : Tout savoir sur Aujourd'hui dans 24hPujadas : Attentat de Strasbourg, que s'est-il passé ? Aujourd'hui dans 24h Pujadas : Laurent Nuñez, secrétaire d'Etat auprès du ministre de l'Intérieur sera notre invité Aujourd'hui dans 24h Pujadas : Emmanuel Macron, le discours de la dernière chance ? 24H PUJADAS, L'info en questions - replay du mardi 11 décembre 2018 Aujourd'hui dans 24h Pujadas : Gilets Jaunes à Paris demain ? Fiscalité écologique et taxes carburant : notre pays en fait-il trop ? Le Qatar, un royaume francophile Incendies en Californie : Donald Trump moqué sur les réseaux sociaux pour ses déclarations La chronique de FX Pietri : Renault-Nissan, un divorce improbable Éducation : retour aux bases pour les plus jeunes \"La vérité sur l'affaire Harry Quebert\" : la nouvelle série à suspens de TF1 Horloge comtoise, une gardienne du temps",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ce jeudi 20 décembre 2018, Jennifer Knock, dans sa chronique \"Les indispensables\", nous fait le point sur ce qui paie le plus entre travailler et ne recevoir que des aides sociales.",
+          "concept": "person-date-context",
+          "reasoning": "This section has a proper noun (Jennifer Knock) followed by commas and elaboration about her chronique and topic."
+        },
+        {
+          "rank": 2,
+          "text": "Cette chronique a été diffusée dans 24h Pujadas du 20/12/2018 présentée par David Pujadas sur LCI.",
+          "concept": "show-host",
+          "reasoning": "This section includes proper nouns (24h Pujadas, David Pujadas) with contextual information about the broadcast."
+        },
+        {
+          "rank": 3,
+          "text": "Du lundi au vendredi, à partir de 18h, David Pujadas apporte toute son expertise pour analyser l'actualité du jour avec pédagogie.",
+          "concept": "host-schedule",
+          "reasoning": "This section features a proper noun (David Pujadas) with contextual details about his show schedule."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 3346,
+      "normalized": 0.0,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.",
+          "concept": "city-country-source",
+          "reasoning": "This section starts with proper nouns (BRATISLAVA, SLOVAKIA) followed by parenthesis and dash, with immediate news elaboration."
+        },
+        {
+          "rank": 2,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "country-description",
+          "reasoning": "This section has a proper noun (Slovakia) followed by a comma and descriptive phrase about its population and actions."
+        },
+        {
+          "rank": 3,
+          "text": "\"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.",
+          "concept": "expert-title",
+          "reasoning": "This section includes a proper noun (Marian Kollar) followed by a comma and his title, providing contextual framing."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart.",
+          "concept": "expert-warning",
+          "reasoning": "This section introduces a proper noun (Anders Tegnell) with his role and immediate contextual statement."
+        },
+        {
+          "rank": 2,
+          "text": "However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”.",
+          "concept": "newspaper-quote",
+          "reasoning": "This section features a proper noun (Die Zeit) followed by a comma and a quote from Dr Tegnell, providing contextual elaboration."
+        },
+        {
+          "rank": 3,
+          "text": "Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission.",
+          "concept": "country-update",
+          "reasoning": "This section includes the proper noun Sweden with contextual information about pandemic measures in a news-style lead."
+        }
+      ]
+    }
+  ]
+}

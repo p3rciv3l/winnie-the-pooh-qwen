@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_2367",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style leads or datelines** (such as location-based openings like \"ISLAMABAD -\", event-focused openings like \"Updated: 11:40 a.m.\", or statement-attribution openings like \"Pakistan yesterday said that...\").\n\n2. **Domain coverage**: The pattern appears across international news domains\u2014politics, sports, entertainment, local incidents\u2014and in multiple languages (English, Arabic, Spanish, German, Polish, Slovak). It detects the journalistic convention of starting a report with a location, timestamp, source attribution, or immediate newsworthy event, often using dashes, colons, or initial capitalized phrases to signal a news lead.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with a structured, declarative news lead, while the low-activation examples tend to be narrative fragments, casual observations, or incomplete sentences that lack this journalistic framing (e.g., \"I wish I could count on one\", \"Recensione del film\", or mid-sentence phrases). Even when the low examples mention news-like topics, they do not open with the conventional dateline/lead format.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting the syntactic and stylistic markers of news article introductions, acting as a \"news lead detector\" regardless of topic or language. It signals the beginning of a reported factual update rather than commentary, narrative, or informal text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Estas ruinas que ves, este esqueleto que no lleg\u00f3 a ser",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1316,
+          "meaning_score": 0.178,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1238
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1594,
+          "meaning_score": 0.1828,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1369
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1542,
+          "meaning_score": 0.148,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1208
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Although there are no seasons in space, this cosmic vista invokes thoughts of a frosty",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2364,
+          "meaning_score": 0.2233,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1839
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2206,
+          "meaning_score": 0.2281,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1795
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2043,
+          "meaning_score": 0.7895,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5975
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "AP PHOTOS: Migrant families wait, torn between hope, grief DOUG",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2233,
+          "meaning_score": 0.4562,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2718
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2637,
+          "meaning_score": 0.346,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2439
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2433,
+          "meaning_score": 0.2727,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2064
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1541,
+          "meaning_score": 0.4052,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2237
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1621,
+          "meaning_score": 0.5065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2674
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2142,
+          "meaning_score": 0.4705,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2739
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2138,
+          "meaning_score": 0.6147,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5314
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2509,
+          "meaning_score": 0.5118,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3051
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1488,
+          "meaning_score": 0.2524,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1605
+        }
+      ]
+    }
+  ]
+}

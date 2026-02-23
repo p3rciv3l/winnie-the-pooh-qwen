@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_20211",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce a specific named entity (person, organization, or location) and immediately follow it with descriptive, contextual, or elaborating information** (such as \"HSV-Torwart Christian Mathenia *und des stellvertretenden Pressesprechers...*\", \"the British National Party (BNP)\", or \"Miami Heat *Bill Simmons believes...*\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Slovak, Arabic, Italian, Spanish, etc.) and diverse topics including politics, sports, local news, and cultural commentary. The neuron activates when a proper noun is anchored in a broader narrative\u2014often through appositives, relative clauses, or conjunctions that add detail about the entity's role, actions, or context.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a specific, newly introduced proper noun (e.g., \"El temblor de 4,4...\") or mention one without immediate elaboration (e.g., \"Handball-Bundestrainer Alfred Gislason ist zwar Isl\u00e4nder\" stops short of adding new contextual clauses). The high-activation examples consistently extend the reference with additional phrases, often marked by commas, conjunctions, or parentheses.\n\n4. **Closing interpretation**: This neuron detects a grammatical-discourse pattern where a named entity is not just mentioned but is syntactically integrated as the subject of further explanation or connection. It acts as a signal for text that is building referential depth by attaching supplementary information to a specific anchor point.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "chissimo non ha fatto vittime. Spero che queste feste Le portino un po' pi\u00f9 di sale in zucca e un po",
+      "normalized_activation": 9.657679557800293,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1133,
+          "meaning_score": 0.2427,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1424
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1611,
+          "meaning_score": 0.3183,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1918
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2167,
+          "meaning_score": 0.2887,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2022
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0646\u062c\u0627\u0629 \u0639\u0627\u0626\u0644\u0629 \u0641\u0644\u0633\u0637\u064a\u0646\u064a\u0629 \u0645\u0646 \u0661\u0660 \u0623\u0634\u062e\u0627\u0635 \u0641\u064a \u0644\u0628\u0646\u0627\u0646 \u0628\u0639\u062f \u0633\u0642\u0648\u0637 \u0633\u0642\u0641 \u0627\u0644\u0645\u0646\u0632\u0644\u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0639\u0645\u0644 \u0648\u0632\u0639\u062a \u0647\u062f\u0627",
+      "normalized_activation": 8.99292278289795,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1002,
+          "meaning_score": 0.1693,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1078
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1374,
+          "meaning_score": 0.2133,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1403
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1564,
+          "meaning_score": 0.7837,
+          "overlap_fraction": 0.75,
+          "location_score": 0.15,
+          "combined_score": 0.526
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "u Asano as a shrewd translator. But at 160 stately, glacial minutes, it\u2019s also an endurance test \u2014 one that can",
+      "normalized_activation": 8.13994312286377,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1347,
+          "meaning_score": 0.1651,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.12
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1139,
+          "meaning_score": 0.4415,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2222
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2171,
+          "meaning_score": 0.2039,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1684
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Muriel Fagni, conseill\u00e8re territoriale du groupe Femu a",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1204,
+          "meaning_score": 0.8331,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5814
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1242,
+          "meaning_score": 0.3399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1856
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.179,
+          "meaning_score": 0.2566,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1743
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "El borrador del informe expone un total de once recomendaciones relacionadas en",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.183,
+          "meaning_score": 0.6556,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5355
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1614,
+          "meaning_score": 0.237,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1593
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1341,
+          "meaning_score": 0.2324,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1466
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_10608",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing reported speech, direct quotes, or parenthetical asides (such as news citations like \u201cpolice announced,\u201d instructional direct address like \u201call you need,\u201d or narrative interruptions set off by dashes or parentheses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Italian, Russian, Hindi) and primarily in news reporting, instructional content, and descriptive articles that incorporate external sources or engage the reader. Examples span topics like legal proceedings, protests, recipes, product descriptions, and international events, often with a journalistic or explanatory tone.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature embedded quotes, citations, asides, or direct reader address, while low-activation examples are typically simpler headlines, leads, or statements without such layered voices (e.g., basic announcements, incomplete phrases, or straightforward declarations lacking reported speech or parenthetical elements).\n\n4. **Closing interpretation**: The neuron detects segments where the text integrates external voices or meta-commentary, focusing on linguistic structures that signal reported information or audience engagement within a narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "along with the latest breaking news of course. To join our community, all you have to do to join is click on this link, select 'Join Chat'",
+      "normalized_activation": 9.662283897399902,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2258,
+          "meaning_score": 0.1359,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1447
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2617,
+          "meaning_score": 0.7165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3913
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2181,
+          "meaning_score": 0.1206,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1355
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "and Soviet President Gorbachev. It is a permanent treaty requiring no special extension. It bans missiles of intermediate range of especial danger to NATO nations in western Europe",
+      "normalized_activation": 8.51578140258789,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.293,
+          "meaning_score": 0.1911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1937
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2234,
+          "meaning_score": 0.2615,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.194
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2848,
+          "meaning_score": 0.4223,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2829
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "IFLA Court had recognized that \"professional speech\" is \"not a separate category of speech and \"is not unprotected merely because it is uttered by \"professionals.\"'",
+      "normalized_activation": 7.1464691162109375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2495,
+          "meaning_score": 0.3929,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.257
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2847,
+          "meaning_score": 0.8061,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6363
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2043,
+          "meaning_score": 0.3158,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.208
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1526,
+          "meaning_score": 0.2173,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.148
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1504,
+          "meaning_score": 0.3825,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2131
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1289,
+          "meaning_score": 0.2526,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1526
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1069,
+          "meaning_score": 0.4174,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2097
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1783,
+          "meaning_score": 0.5271,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2822
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1743,
+          "meaning_score": 0.4805,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2619
+        }
+      ]
+    }
+  ]
+}

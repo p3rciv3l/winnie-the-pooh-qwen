@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_4273",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **document metadata and publishing artifacts** (such as timestamps, subscription notices, source credits, URLs/email addresses, or bylines/contact information).\n\n2. **Domain coverage**: The pattern appears across news articles, financial reports, blog footers, and institutional announcements in multiple languages (English, Arabic, German, Dutch). It specifically triggers on the administrative and technical text surrounding core content: publication details (Reuters, Bloomberg), copyright lines, \"powered by\" credits, date-time stamps in ISO-like formats, and instructions for accessing content (subscription offers, contact emails, \"read more\" prompts).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively clean narrative or reportorial leads\u2014the primary content itself\u2014without appended metadata, source tags, or access instructions. They lack the publishing scaffolding (e.g., no \"Reuters\", no timestamps like \"2023-02-26T12:20:32+5:30\", no subscription prices or email addresses) that dominates the high-activation set.\n\n4. **Closing interpretation**: This neuron detects non-content textual boilerplate that signals document provenance, publication mechanics, or user interface elements. It essentially fires on the peripheral \"frame\" of digital documents rather than their core semantic message.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "+5:30 2023-01-19T19:00:02+5:30 With its",
+      "normalized_activation": 9.451358795166016,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1366,
+          "meaning_score": 0.2904,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1708
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1562,
+          "meaning_score": 0.2264,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1531
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1268,
+          "meaning_score": 0.2799,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1627
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0645\u0646\u0647 \u0648\u064a\u0645\u0643\u0646\u0643 \u0642\u0631\u0627\u0621\u0629 \u0648\u0645\u062a\u0627\u0628\u0639\u0629 \u0645\u0633\u062a\u062c\u062f\u0627\u062f\u062a \u0647\u0630\u0627 \u0627\u0644\u062e\u0628\u0631 \u0645\u0646 \u0645\u0635\u062f\u0631\u0647 \u0627\u0644\u0627\u0633\u0627\u0633\u064a.",
+      "normalized_activation": 8.587141036987305,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1379,
+          "meaning_score": 0.4022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2161
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1303,
+          "meaning_score": 0.4531,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4333
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1373,
+          "meaning_score": 0.2903,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1711
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "144. Additional District and Sessions Judge Zafar Iqbal heard the case where Faisal Vawda, Saifullah Niazi,",
+      "normalized_activation": 7.636270999908447,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3179,
+          "meaning_score": 0.2984,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2465
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2231,
+          "meaning_score": 0.3044,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.211
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2762,
+          "meaning_score": 0.2555,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2127
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Louise Redknapp has been hitting headlines over the past few weeks while her former",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3795,
+          "meaning_score": 0.5075,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3548
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3454,
+          "meaning_score": 0.278,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2494
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4795,
+          "meaning_score": 0.7754,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.702
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A mother accused of murdering her five-year-old son while he was isolating with Covid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1524,
+          "meaning_score": 0.8312,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5935
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1524,
+          "meaning_score": 0.4052,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.223
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1524,
+          "meaning_score": 0.4296,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2328
+        }
+      ]
+    }
+  ]
+}

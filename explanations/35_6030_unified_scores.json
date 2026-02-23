@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_6030",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations in formal, journalistic, or descriptive prose** (such as news report clauses, descriptive phrases following an introductory element, or explanatory text continuing a prior thought).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, German, Turkish, Bulgarian, Ukrainian, Finnish, Spanish, English, etc.) and primarily in contexts of news reporting, official statements, descriptive articles, and procedural or institutional explanations. The texts are typically fragments that follow a colon, comma, or opening quotation mark, continuing a narrative or argument.\n\n3. **Contrast with low-activation examples**: High-activation texts are almost exclusively **clausal continuations or dependent phrases** that grammatically and semantically extend a preceding idea (e.g., after a colon, a quoted speech introduction, or a subordinate clause). Low-activation examples are often **headline-style phrases, standalone sentences, or text beginnings** (e.g., \"Bruxelles va pr\u00e9senter...\", \"TVS XL100 on road price...\", \"New Delhi: On the 2020...\") that start a new thought or are syntactically complete.\n\n4. **Closing interpretation**: The neuron detects text that is syntactically and semantically dependent on prior context, acting as a continuation marker for formal expository or journalistic discourse. It essentially fires on prose that is \"in the flow\" of reporting or explanation, rather than on self-contained statements or titles.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ": La Camera di consiglio del Tribunale di Bruxelles ha concesso la misura di detenzione con il braccialetto e",
+      "normalized_activation": 9.690467834472656,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1598,
+          "meaning_score": 0.8053,
+          "overlap_fraction": 0.9817,
+          "location_score": 0.1963,
+          "combined_score": 0.5824
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1327,
+          "meaning_score": 0.4654,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2393
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1324,
+          "meaning_score": 0.3674,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1999
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "znej im. Armii Ludowo Wyzwole\u0144czej w Pekinie, sie\u0107 ta ma sk\u0142ada\u0107 si\u0119 z 12",
+      "normalized_activation": 9.017181396484375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0391,
+          "meaning_score": 0.3962,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1741
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1076,
+          "meaning_score": 0.413,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2082
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1682,
+          "meaning_score": 0.5255,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4775
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "sindaco Domenico Venuti aveva attivato il Centro Operativo Comunale per le emergenze. Anche il presidente della Regione, N",
+      "normalized_activation": 8.177757263183594,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1568,
+          "meaning_score": 0.2839,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1763
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1031,
+          "meaning_score": 0.5224,
+          "overlap_fraction": 0.6967,
+          "location_score": 0.1393,
+          "combined_score": 0.3896
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1754,
+          "meaning_score": 0.539,
+          "overlap_fraction": 0.2951,
+          "location_score": 0.059,
+          "combined_score": 0.3448
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Pentru 01.11.2017 Toate val",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1592,
+          "meaning_score": 0.237,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1585
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1535,
+          "meaning_score": 0.2316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.154
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1544,
+          "meaning_score": 0.2495,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1615
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A long-running trade dispute between the U.S. and China has rattled financial markets",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2191,
+          "meaning_score": 0.4835,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.281
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1815,
+          "meaning_score": 0.4508,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2529
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2106,
+          "meaning_score": 0.4645,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.27
+        }
+      ]
+    }
+  ]
+}

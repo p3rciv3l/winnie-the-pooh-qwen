@@ -1,0 +1,225 @@
+{
+  "neuron_id": "0_10737",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **expressions of belief, opinion, or conviction** (such as phrases containing \"we believe,\" \"experts believe,\" \"I believe,\" or the verb \"believes\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language text across diverse domains including political statements, corporate communications, legal/ police assertions (\"officers believe\"), expert analyses, and personal narratives. Topics range from public policy and business to crime, science, and entertainment, indicating the neuron is sensitive to the linguistic structure of belief statements rather than a specific subject.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a subject (e.g., \"we,\" \"experts,\" \"I,\" \"prosecutors\") actively stating a belief. The low-activation examples are either sentence fragments, headlines, factual reports, or text in other languages (Italian, German, Spanish, Russian) and lack any expression of belief or opinion.\n\n4. **Closing interpretation**: The neuron detects the semantic act of asserting a belief or opinion, serving as a linguistic marker for subjective claims rather than objective facts. It functions as a high-level pattern recognizer for epistemic stance in English prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "understand and respect that the act of boycotting is an individual decision, we believe that it should be based on true facts and not false allegations,\u201d McDonald\u2019s Malaysia",
+      "normalized_activation": 9.870413780212402,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.769397,
+          "actual_text_slice": [
+            725,
+            898
+          ],
+          "prediction_text_slice": [
+            716,
+            878
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.376513,
+          "actual_text_slice": [
+            725,
+            898
+          ],
+          "prediction_text_slice": [
+            3904,
+            4078
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.45885,
+          "actual_text_slice": [
+            725,
+            898
+          ],
+          "prediction_text_slice": [
+            3332,
+            3592
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "who he was until recently when people staring (sic) noticing him. I do believe he needs help with his racism and homophobic hate. I am sure he's a",
+      "normalized_activation": 9.362885475158691,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.689329,
+          "actual_text_slice": [
+            1824,
+            1970
+          ],
+          "prediction_text_slice": [
+            1890,
+            2007
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.136571,
+          "actual_text_slice": [
+            1824,
+            1970
+          ],
+          "prediction_text_slice": [
+            2681,
+            2824
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.359913,
+          "actual_text_slice": [
+            1824,
+            1970
+          ],
+          "prediction_text_slice": [
+            2147,
+            2284
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "who was tackled while delivering a speech at Ohio State University has said he does not believe the attack was politically motivated and is seeking to have charges dropped. A video",
+      "normalized_activation": 8.495969772338867,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.865155,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            0,
+            196
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.396359,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1409,
+            1710
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.418252,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "USR President Nicusor Dan stated on Monday that he wants to be the leader of",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.286697,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            1562,
+            1922
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.579176,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            294,
+            573
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.288538,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            1080,
+            1374
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.308867,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            1014,
+            1465
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.273842,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            2248,
+            2791
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.324586,
+          "actual_text_slice": [
+            0,
+            53
+          ],
+          "prediction_text_slice": [
+            4061,
+            4654
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

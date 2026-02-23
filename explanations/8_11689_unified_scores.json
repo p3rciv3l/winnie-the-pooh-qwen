@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_11689",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns referencing geopolitical actors, especially adversarial nation-states or their leaders** (such as \"North Korea,\" \"Kim Jong Un,\" \"China,\" \"Trump,\" or institutional names like \"KHNP\" and \"European Union\").\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Hungarian, Polish, Arabic, Spanish) in news or political discourse contexts. It focuses on entities involved in international relations, conflicts, or diplomatic events\u2014particularly East Asian geopolitics (North Korea, China, South Korea, Japan) and prominent political figures tied to those issues. Mid-range activations also include other named entities like companies, projects, or media outlets within geopolitical or regulatory contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack references to specific geopolitical actors or high-stakes international affairs. Instead, they cover domestic events, general interest topics (beauty, astronomy, lottery numbers), commercial announcements, or natural disasters without named state-level participants. The key distinction is the absence of proper nouns denoting countries, leaders, or institutions engaged in cross-border relations or conflict.\n\n4. **Closing interpretation**: The neuron appears to detect tokens that signal participation in the geopolitical arena, serving as an identifier for entities that are commonly agents or subjects in international news and diplomatic narratives. It likely helps the model segment and contextualize discussions about state-level interactions, especially those with adversarial or diplomatic connotations.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "that could intercept incoming intercontinental ballistic missiles (ICBMs) launched from North Korea, a network of radars, and other equipment designed to protect the United States",
+      "normalized_activation": 6.320688724517822,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "for the failure of domestic UK policies. Later in the show, Eugene Puryear and Sean Blackmon are joined by Calvin Jackson, an organizer, and activist and",
+      "normalized_activation": 4.683687210083008,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u00c9quipe' asegura que ser\u00eda de 120 millones hasta el mes de junio del 2019. Atl\u00e9tico Madrid se qued\u00f3",
+      "normalized_activation": 3.73480486869812,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Marco Lanna, presidente della Sampdoria, ha parlato al termine della",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "* Belgian, British, Dutch, Spanish regulators against deal * Say concessions fall far short",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

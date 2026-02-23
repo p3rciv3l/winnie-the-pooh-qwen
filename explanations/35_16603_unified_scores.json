@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_16603",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style headlines or lead sentences** (such as reports of recent events, announcements of appointments or releases, statistical updates, or competition outcomes) that follow a journalistic inverted-pyramid structure.\n\n2. **Domain coverage**: The pattern appears in multilingual news contexts (English, Spanish, Italian, Turkish, Romanian, etc.) across topics like politics, sports, entertainment, science, business, and legal rulings. It activates on text that opens with a concise, factual statement often containing proper nouns (names, organizations, events), dates, numbers, or recent temporal markers (e.g., \u201chas been appointed,\u201d \u201creleased,\u201d \u201clost in,\u201d \u201cannounced its plan\u201d).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently present a complete, structured news lead\u2014a self-contained update about a specific recent development. The low-activation examples, while sometimes news-related, are more often sentence fragments, descriptive passages, opinion/commentary openings, informal conversational phrases, or incomplete statements lacking that crisp, declarative news-headline framing.\n\n4. **Closing interpretation**: The neuron detects text that serves the communicative function of a news update\u2014specifically, the opening clause of a journalistic report that establishes the \u201cwho, what, when\u201d in a formal, declarative style, regardless of topic or language. It filters for prose that is informational and announcement-like rather than narrative, speculative, or conversational.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Star Australian players, including David Warner, Josh Hazelwood and Pat Cummins, will",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.155,
+          "meaning_score": 0.7498,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5619
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1883,
+          "meaning_score": 0.609,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3189
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1835,
+          "meaning_score": 0.4904,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2695
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "The What: Adder Technology has announced updates to its ADDERLink INFINITY",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.427,
+          "meaning_score": 0.804,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6924
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3374,
+          "meaning_score": 0.5691,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3626
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.262,
+          "meaning_score": 0.3685,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2522
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Attorney General Eric Holder's recent resignation announcement prompted a flurry of assessments on his six",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3102,
+          "meaning_score": 0.9071,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6869
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4332,
+          "meaning_score": 0.3965,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3319
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2669,
+          "meaning_score": 0.3246,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2366
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1828,
+          "meaning_score": 0.8271,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.604
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1906,
+          "meaning_score": 0.4364,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2508
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1343,
+          "meaning_score": 0.5192,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2614
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 5.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2073,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2131
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1982,
+          "meaning_score": 0.5336,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2927
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2204,
+          "meaning_score": 0.2926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2052
+        }
+      ]
+    }
+  ]
+}

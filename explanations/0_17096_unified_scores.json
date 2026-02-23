@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_17096",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of judicial outcomes and legal consequences** (such as pleading guilty, being sentenced, convictions, arrests, or verdicts in criminal proceedings).\n\n2. **Domain coverage**: The neuron activates across news reports, legal documents, and political commentary discussing criminal cases, sentencing, pleas, and indictments. It processes English-language texts primarily but is concept-driven rather than language-specific\u2014low-activation examples in other languages (e.g., Finnish, Arabic, Greek) lack legal-outcome content. Topics include fraud, safety violations, human rights cases, sexual offenses, and politically charged trials.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently reference formal legal resolutions (e.g., \u201cpleaded guilty,\u201d \u201csentenced,\u201d \u201cconvicted,\u201d \u201carrested\u201d), while low-activation examples cover unrelated domains like climate policy, entertainment, weather records, or general business news without any judicial or punitive framing.\n\n4. **Closing interpretation**: The neuron detects semantic content related to the conclusion or enforcement of criminal justice processes, focusing on the state-imposed consequences of unlawful actions rather than the crimes themselves.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "courts pass dozens of death sentences. Four people have been hanged after being convicted on charges related to popular unrest that erupted in September over the death in police custody",
+      "normalized_activation": 9.440942764282227,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "harsh sentences for violators. Under the new law, a person who is convicted of secession, subversion, terrorism or collusion with foreign forces will receive a",
+      "normalized_activation": 8.108661651611328,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". CAPE TOWN - A Khayelitsha man has been arrested in connection with attempted murder and the possession of a hijacked car and tik.",
+      "normalized_activation": 6.333890914916992,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Strong 6.1-magnitude earthquake jolts eastern Indonesia The quake was",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Oct 31 (Reuters) - Yongsheng Advanced Materials Co Ltd : *",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

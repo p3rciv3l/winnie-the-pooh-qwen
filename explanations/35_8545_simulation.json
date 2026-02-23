@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_8545",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:18:39Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal reporting or attribution of statements, actions, or documents from institutions, officials, or named entities** (such as a company providing a diary entry, a vice-premier addressing a gathering, a police department issuing new findings, or a fire department being deployed).\n\n2. **Domain coverage**: The pattern appears in multilingual news, official communications, and factual reporting across politics, business, law enforcement, sports, and international affairs. Examples span English, German, Arabic, Persian, Greek, and other languages, consistently involving structured phrases that cite sources (e.g., “Huawei provided,” “Liu He told,” “Polizei wendet sich,” “Lt. Ferguson stated”).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit attributive phrasing linking information to a specific source or actor, often with verbs of communication, provision, or discovery. The low-activation examples either lack this attribution (e.g., general announcements, opinion pieces, event descriptions) or present information without a cited authoritative source, even when topics might overlap (e.g., “Supreme Islamic Council issued a statement” is low, but similar institutional statements are high if phrased as active reporting).\n\n4. **Closing interpretation**: This neuron detects linguistic markers of sourced, authoritative reporting in formal discourse. It appears to fire on syntactic and semantic patterns where an agent (often institutional) is explicitly linked to a communicated or documented action.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 2019,
+      "normalized": 9.620092391967773,
+      "actual_text": "ussel·les i torna cap a Barcelona La Guàrdia Civil grava les comunicacions de l´1-O a la seu dels Moss",
+      "plain_text": "El nou mínim de l'euríbor deslliurarà alguns hipotecats de pagar interessos efe 01.11.2017 | 00:03 L'euríbor a un any deslliurarà alguns hipotecats de pagar interessos en tancar l'octubre amb una nova baixada que el situarà al voltant del -0,180%, per sota del diferencial aplicat per algunes entitats. Quan el Banc d'Espanya confirmi aquesta dada, suposarà que per primera vegada l'indicador s'enfonsa prou per deixar sense efecte el diferencial més baix al qual es va vendre de manera general una hipoteca a Espanya, 0,17 punts. És el cas de Deutsche Bank, les hipoteques del qual subjectes a aquestes condicions, i revisades amb l'indicador actualitzat, tindrien interessos negatius, tot i que des del banc asseguren a Efe que els clients que tinguin contractat aquest tipus d'hipoteca simplement «no pagaran interessos». L'entitat d'origen alemany s'até a la postura de l'Associació Espanyola de Banca, que ha recomanat aquesta política en cas que una hipoteca estigui en negatiu, sense esmentar cap possibilitat de tornar interessos als clients en aquest supòsit. Davant la fita, que es preveia que pogués arribar a donar-se després de vint mesos amb l'euríbor negatiu, el sector bancari ha optat per apujar el diferencial que aplica o introduir una clàusula «zero» en les hipoteques a tipus variable, que estableix que l'indicador mai podrà baixar del 0%.  Puigdemont abandona Brussel·les i torna cap a Barcelona La Guàrdia Civil grava les comunicacions de l´1-O a la seu dels Mossos de Manresa Acomiadat un treballador per entrar abans d´hora a la feina Què ha dit Puigdemont? El seu discurs en 12 frases Així ha estat el viatge: amb cotxe fins a Marsella i amb avió a Brusel·les «Molta gent ha deixat de reconèixer aquest Estat i ja està en una altra pantalla» El vicepresident del Senat afirma que si el 21-D guanyen els independentistes «tornarem a fer el mateix» El principal productor de Llet Nostra fitxa en exclusiva per Mercadona Puigdemont ha contractat un advocat expert en drets humans a Bèlgica VÍDEO | El brutal impacte que va deixar KO l´àrbitre del Manresa-Barça B més esquí al solsonès Més de 100 comerciants d´Igualada complementen l´oferta del Rec Igualada estrena un nou punt de recàrrega per a vehicles elèctrics Una dubtosa detecció precoç TV3 ofereix consells per ser més feliç en el nou espai de psicologia «L´ofici de viure» Jamie Oliver comparteix receptes ràpides de cinc ingredients al Canal Cocina Netflix prepara un ´spin-off´ de la sèrie «House of Cards» El Barça s´embussa a la gran muralla grega Marcelo parla de manca de motivació abans de la visita del Madrid a Londres El Manresa FS i el Catgas B es juguen avui el liderat al Pujolet",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "És el cas de Deutsche Bank, les hipoteques del qual subjectes a aquestes condicions, i revisades amb l'indicador actualitzat, tindrien interessos negatius, tot i que des del banc asseguren a Efe que els clients que tinguin contractat aquest tipus d'hipoteca simplement «no pagaran interessos».",
+          "concept": "bank statement",
+          "reasoning": "The bank assures a news agency (Efe) about mortgage interest, which is a formal attribution of a statement."
+        },
+        {
+          "rank": 2,
+          "text": "El vicepresident del Senat afirma que si el 21-D guanyen els independentistes «tornarem a fer el mateix» El principal productor de Llet Nostra fitxa en exclusiva per Mercadona Puigdemont ha contractat un advocat expert en drets humans a Bèlgica",
+          "concept": "official statement",
+          "reasoning": "The vice president of the Senate affirms a conditional statement, directly quoting an official."
+        },
+        {
+          "rank": 3,
+          "text": "Quan el Banc d'Espanya confirmi aquesta dada, suposarà que per primera vegada l'indicador s'enfonsa prou per deixar sense efecte el diferencial més baix al qual es va vendre de manera general una hipoteca a Espanya, 0,17 punts.",
+          "concept": "central bank confirmation",
+          "reasoning": "Mentions the Bank of Spain confirming data, which is an institutional action."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 4513,
+      "normalized": 8.892768859863281,
+      "actual_text": "olin Aegean Bistro. Now diners find the succulent tentacle gracing menus of upscale restaurants like elegant Italian hotspot Fiola, Basque wunder",
+      "plain_text": "Remember when chef Jean-Georges Vongerichten introduced the concept of warm chocolate oozing out of an individual cake, and every restaurant worth its salt followed suit with the iconic molten chocolate cake? Or when burgers were downsized to cute, miniature sliders making appearances as starters (in packs of three), tempting diners to wolf them down with little guilt?  Food trends have always helped define what’s sought-after and what’s not, and today’s culinary crowd pleasers have Miami’s thriving restaurant scene taking notice as well. Here are some top trends recently capturing the city’s heart.  Pizza Grows Up  Like all good American cities, Miami has always had a faithful infatuation with pizza. But discerning 305 palates began seeking pies made with upscale ingredients, like perfectly charred crusts from Stanzione 87 or imported Italian topping served at Editor Pizza. Old Greg’s Pizza, a pop-up that took quarantine-bound Miamians by storm during the pandemic, flooded Instagram with its photogenic sourdough-based square pies, while places like La Natural, located in Little River, took sourdough pizza to a new art form.  Arepas All Over  The humble arepa, a Venezuelan savory corncake served instead of bread in almost all of that country’s meals, captured Miami’s heart — and stomach — when South Florida realized how versatile and comforting this staple can be. Those yearning to visit a traditional Venezuelan “arepera,” which offers a dizzying selection of ingredients to be stuffed inside like cheese, meat, or the famous “Reina Pepiada” (avocado and chicken salad) frequent authentic spots like Doggi’s, La Latina, or arepa.bar. Dressed-up renditions abound, with spots like Jatto presenting spicy salmon roll arepas and Amara at Paraiso kicking things up a notch with beef tartar arepas with Stracciatella cheese, caviar, and shaved truffles.  Ode to Octopus  Crab cakes move aside, the seafood appetizer darling in South Florida is grilled octopus — a dish once only seen in select Greek restaurants like Miami’s perpetually popular Mandolin Aegean Bistro. Now diners find the succulent tentacle gracing menus of upscale restaurants like elegant Italian hotspot Fiola, Basque wunderkind Leku (octopus carpaccio with fried capers), and Orno, which serves it grilled with potato, pimenton aioli, celery, and aged sherry.  Shakshuka  Modern Israeli food, the healthy, Mediterranean cuisine driven by hummus, salad, and grilled fish, has taken Miami by storm (think Abbale Tel-Avivian Kitchen, Motek, Mazeh, Jaffa, and Neya), and with it, the brunch-favorite shakshuka. Comprised of eggs poached in a spicy tomato and pepper sauce, it makes for a meal best enjoyed scooped with pieces of warm pita and shared with clever captions on Instagram.  Clubstaurants  Miami has always been a magnet for extravagant nightlife, so it was only a matter of time before partying and dining merged into one. With hospitality gurus like David Grutman (often paired with a high-profile celebrity) leading the way with restaurants featuring over-the-top decor and indulgent dishes. Spots like Sexy Fish, HaSalon, Papi Steak, Backdoor Monkey, Joia Beach, and Chica fit the bill. Those looking for a quiet, intimate meal best stay away; these places beg for diners willing and wanting to partake in loud, crowded fun.  Big Name Transplants  The world seems to have caught on with how great it is to live in Miami, including big-name restaurant transplants that have descended with much fanfare. Think New York power players Carbone, Cote, and Dirty French Steakhouse.  Proliferation of Omakases  Sushi bundled into exclusive omakase — Japanese for “I’ll leave it up to you” has caught on in Miami in all forms. Diners embrace the concept because of its ease (no need to order anything, a trained sushi chef chooses all 12-18 cuts of fish — often flown in straight from Japan) but also for the pomp and circumstance that accompanies the traditionally high price tag. With uber selective (and secret) omakase spots like Hiden, NAOE, and Hiyakawa, to theatrical restaurants like Nossa Omakase, Sushi | Bar Miami Beach, and Sushi by Scratch Restaurants, to more casual renditions like Mr. Omakase, Sushi Yasu Tanaka, Ahi Sushi, and Omakai, there’s no shortage of spots to partake in this multi-course sensory experience.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Remember when chef Jean-Georges Vongerichten introduced the concept of warm chocolate oozing out of an individual cake, and every restaurant worth its salt followed suit with the iconic molten chocolate cake?",
+          "concept": "chef innovation",
+          "reasoning": "Attributes the introduction of a culinary concept to a specific chef, which is an action by a named entity."
+        },
+        {
+          "rank": 2,
+          "text": "Miami has always been a magnet for extravagant nightlife, so it was only a matter of time before partying and dining merged into one. With hospitality gurus like David Grutman (often paired with a high-profile celebrity) leading the way with restaurants featuring over-the-top decor and indulgent dishes.",
+          "concept": "hospitality leader",
+          "reasoning": "Attributes leadership in restaurant trends to a named hospitality guru, David Grutman."
+        },
+        {
+          "rank": 3,
+          "text": "The world seems to have caught on with how great it is to live in Miami, including big-name restaurant transplants that have descended with much fanfare. Think New York power players Carbone, Cote, and Dirty French Steakhouse.",
+          "concept": "restaurant transplants",
+          "reasoning": "Reports the action of big-name restaurants moving to Miami, attributing the trend to specific New York establishments."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00002",
+      "row_idx": 517,
+      "normalized": 8.079130172729492,
+      "actual_text": "ota music review: Vasan Bala's film offers an eclectic mix of genre-bending tracks With the few glimpses of Mard Ko Dard Nahi",
+      "plain_text": "Mard Ko Dard Nahi Hota music review: Vasan Bala's film offers an eclectic mix of genre-bending tracks  With the few glimpses of Mard Ko Dard Nahi Hota available till now, it seems the film has managed to break all conventional norms of storytelling in Bollywood. It received widespread praise after the film opened in MAMI 2018 and was also a grand success at the Toronto International Film Festival last year. Featuring Radhika Madan, Abhimanyu Dasani, Gulshan Devaiah, Mahesh Manjrekar and Jimit Trivedi, Mard Ko Dard Nahi Hota is directed by Vasan Bala.  The film's music offers an eclectic mix of songs, starting with the wackiest track in the film — 'Rappan Rappi Rap'. Unlike other songs in the album, this track is generously embellished with unorthodox lyrics penned by Garima Obrah. Karan Kulkarni's composition and Benny Dayal's vocals lend the song an absurdist trajectory. It pulls in pop-culture references like the one-liner from the Nirma ad (Hema, Rekha, Jaya aur Sushma...), Star Wars' To a galaxy far far away, Back to the Future among others. The peppy number almost convinces its listeners to sway to a groovy melody. Dayal inculcates his trademark quirky tone to the track, probably making it one of the top-listers in the soundtrack. Kulkarni's guitar work is also worth mentioning and complements the track well.  The next track brings in a full-fledged Punjabi tadka to the soundtrack. Sung by Sanj V & Karan Kulkarni, 'Kitthon Da Tu Superstar' sets an unconventional narrative again. Set almost like a satirical jibe, the track inputs a rap section seamlessly within the otherwise bold, rustic vocals.  Vasan Bala had earlier said that Mard Ko Dard Nahi Hota is a homage to films he had grown up watching — the likes of Jackie Chan, Bruce Lee and other action films. This fact reflects perfectly in the film's music. No two tracks can be clubbed together to connote a particular genre or time-period. The songs almost pop out of nowhere, enhancing their impact on the listeners. 'Tere Liye' is precisely that and more. A soft, contemplative and melodious track, 'Tere Liye' begins with the haunting yet cathartic voices of Kamakshi Rai, Vishal Mishra and Karan Kulkarni. A romantic ode, it charts the narrative of two impassioned lovers. Shantanu Ghatak's lyrics capture the lovelorn dilemma in a nuanced, effective manner. 'Tere Liye' brings in an almost-immediate comparison to other emotionally evocative soft, jazz numbers.  'Nakhrewaali', the next track, is a jolt to bring listeners out of the la la land that 'Tere Liye' successfully creates. Sung by Karan Kulkarni and Saba Azad, the track is essentially a whiny complaint. Kulkarni manages to add considerable amounts of rock crescendos to the track. It begins with a mellow tone and soon rises to explore an odd space between a loud instrumental and jarring rap sections. Kulkarni goes out of his way to make this track a bizarre one, unsuitable to fit into any particular genre. Omkar Dhumal's effort with the shehnai is commendable, mostly due to its unexpected placement in the song.  The film's posters and the brief trailer depict (in parts) a world sunk in the sepia tones of retro Bollywood. 'Life Mein Fair Chance Kiska' (Jimmy Mani Song) brings out that aspect. It begins in a very 'Kolaveri Di' fashion but soon swims into the 80-90s Bollywood space, heavily populated with SP Balasubrahmanyam songs. Suresh Triveni, Surya Ragunaathan and Veera Fauzia Saxena do a brilliant job in (ironically?) transporting listeners to the 1980s which saw the romantic dalliance between a young Salman Khan and Bhagyashree (also Abhimanyu's mother) in Maine Pyaar Kiya. With Balasubrahmanyam's vocal idiosyncrasies, and deft trumpet sections by Kishore Sodha, 'Life Mein Fair Chance Kiska' is a hoot and a half. Garima Obrah strikes gold even with this number as the song traverses into inexplicable but hilarious territories.  The next track 'Dreamtime' has strong jazz influences. Kamakshi Rai's husky vocals may well remind audiences of British-Indian music parlours with lead singers, adorned in shimmering gowns, crooning to songs of lost love. The song is the shortest in the soundtrack, clocking in just under two and a half minutes.  Karan Kulkarni's next offering 'Shaolin Sky' draws from K-pop music. With electronic voices, sharp tones and the concept of repeating lyrics into a fade-out, Kulkarni achieves the unimaginable — to make a commercial Bollywood track sound similar to one produced by a South Korean pop band.  The soundtrack finishes with a rendition of 'Kitthon Da Tu Superstar' (Shooter version). It retains much of the original track, but adds a few slow, contemplative sections to it.  Mard Ko Dard Nahi Hota seems to offer something refreshing and new not only in terms of a story but also as a cinematic experience. Its soundtrack has a marked contribution to that especially since it is full of pleasant surprises.  Mard Ko Dard Nahi Hota is scheduled to hit theatres on 21 March.  Listen to the complete soundtrack here.  Updated Date: Mar 19, 2019 15:05:59 IST",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Vasan Bala had earlier said that Mard Ko Dard Nahi Hota is a homage to films he had grown up watching — the likes of Jackie Chan, Bruce Lee and other action films.",
+          "concept": "director statement",
+          "reasoning": "Directly quotes the director's statement about his film's inspiration, which is a formal attribution."
+        },
+        {
+          "rank": 2,
+          "text": "Unlike other songs in the album, this track is generously embellished with unorthodox lyrics penned by Garima Obrah. Karan Kulkarni's composition and Benny Dayal's vocals lend the song an absurdist trajectory.",
+          "concept": "creative attribution",
+          "reasoning": "Attributes lyrics and composition to specific individuals, which is a reporting of creative actions."
+        },
+        {
+          "rank": 3,
+          "text": "With Balasubrahmanyam's vocal idiosyncrasies, and deft trumpet sections by Kishore Sodha, 'Life Mein Fair Chance Kiska' is a hoot and a half. Garima Obrah strikes gold even with this number as the song traverses into inexplicable but hilarious territories.",
+          "concept": "lyricist praise",
+          "reasoning": "Attributes the success of a song to the lyricist, reporting her contribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 5176,
+      "normalized": 0.0,
+      "actual_text": "Scuole e interventi di messa in sicurezza: il",
+      "plain_text": "Scuole e interventi di messa in sicurezza: il 2024 sarà l’anno della fine, e dell’inizio, dei lavori in diversi plessi degli Isc cittadini danneggiati dal sisma. Termineranno a giugno quelli in corso nell’edificio che ospita l’infanzia e la primaria Sant’Agostino dell’Isc ‘Ascoli centro – D’Azeglio’. Gli alunni sarebbero dovuti rientrare nella loro scuola in questo mese di gennaio al termine delle vacanze di Natale, ma i lavori di adeguamento sismico non sono stati ancora conclusi e dunque il loro ingresso slitta a settembre prossimo, con la ripresa dell’anno scolastico. Anche per la scuola dell’infanzia e primaria Montessori a Tofare, dell’Isc ‘Luciani-Ss. Filippo e Giacomo’ e per la quale è stata già avviata la procedura per l’affidamento dei lavori, quest’ultimi dovrebbero concludersi per il mese di giugno.  E’ in attesa della messa in sicurezza anche il plesso della Malaspina in centro storico. \"Entro giugno – dice il sindaco Marco Fioravanti – pubblichiamo la gara per l’affidamento dei lavori alla Malaspina, che speriamo di appaltare entro la fine dell’anno. Per quanto riguarda la sistemazione degli studenti, quelli di Sant’Agostino sono stati trasferiti alla D’Azeglio, quelli della Montessori nel plesso in via Sardegna e quando faremo i lavori alla media Cantalamessa, che pensiamo possano iniziare entro la fine del 2024, gli alunni saranno ospitati alla media Ceci\".  Tra l’apertura dei nuovi cantieri, ci sarà anche quello, da febbraio o marzo, alla primaria ‘Falcone-Borsellino’ in via Zeppelle con un finanziamento di 2,2 milioni di euro. La scuola verrà demolita per poi essere ricostruita. Infine, gli alunni della primaria di Monticelli dovrebbero trasferirsi nella sede della media, sempre nel quartiere, da settembre, per consentire l’apertura del cantiere nel loro plesso per un importo di 4,5 milioni di euro. Due, invece, le scuole già consegnate in seguito alla messa in sicurezza: quella di Poggio di Bretta e la secondaria di primo grado ‘Don Giussani’ di Monticelli. \"La sicurezza dei plessi scolastici – continua il sindaco Fioravanti – è stata una delle mie priorità. Quando ho iniziato il mandato ho analizzato il project presentato, ma siccome non era amministrativamente possibile portarlo avanti abbiamo iniziato a fare tutte le progettazioni per poi pubblicare le gare per i lavori. La scelta politica forte che abbiamo fatto è stata quella di non centralizzare in poli scolastici, ma di rifare le scuole laddove si trovano, anche per dare futuro alle frazioni. Un altro impegno importante è stato quello di cercare in questi quattro anni contenitori temporanei per ospitare i ragazzi mentre ci sono i lavori nelle scuole. Sono molto contento perché siamo riusciti a sviluppare un cronoprogramma e a rispettarlo\". Lorenza Cappelli",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Entro giugno – dice il sindaco Marco Fioravanti – pubblichiamo la gara per l’affidamento dei lavori alla Malaspina, che speriamo di appaltare entro la fine dell’anno.",
+          "concept": "mayor announcement",
+          "reasoning": "The mayor explicitly states the timeline for publishing a tender, which is a formal attribution of a statement."
+        },
+        {
+          "rank": 2,
+          "text": "La sicurezza dei plessi scolastici – continua il sindaco Fioravanti – è stata una delle mie priorità. Quando ho iniziato il mandato ho analizzato il project presentato, ma siccome non era amministrativamente possibile portarlo avanti abbiamo iniziato a fare tutte le progettazioni per poi pubblicare le gare per i lavori.",
+          "concept": "mayor priority",
+          "reasoning": "The mayor continues by stating his priority, directly quoting his commitment."
+        },
+        {
+          "rank": 3,
+          "text": "Per quanto riguarda la sistemazione degli studenti, quelli di Sant’Agostino sono stati trasferiti alla D’Azeglio, quelli della Montessori nel plesso in via Sardegna e quando faremo i lavori alla media Cantalamessa, che pensiamo possano iniziare entro la fine del 2024, gli alunni saranno ospitati alla media Ceci",
+          "concept": "student relocation plan",
+          "reasoning": "Reports the mayor's detailed plan for relocating students during construction, which is an attributed action."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 2044,
+      "normalized": 0.0,
+      "actual_text": "BAY VIEW — There’s been a show of support for Bay View’s most popular",
+      "plain_text": "BAY VIEW — There’s been a show of support for Bay View’s most popular Halloween display — hit twice by thieves in just one week.  The owner of the “Nightmare Before Christmas Bay View” said random people on the street have been giving him money.  The home is on Logan Avenue between KK and Montana.  PHOTO GALLERY  Photo Gallery  First — someone stole decorations from the home, and on Saturday, October 28th, thieves stole the donation box filled with money to help stray animals being cared for at the Milwaukee Area Domestic Animal Control Commission.  The homeowner said all of the money received will benefit MADACC.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The owner of the “Nightmare Before Christmas Bay View” said random people on the street have been giving him money.",
+          "concept": "owner statement",
+          "reasoning": "The owner of the display reports receiving money from people, which is a direct attribution of a statement."
+        },
+        {
+          "rank": 2,
+          "text": "The homeowner said all of the money received will benefit MADACC.",
+          "concept": "beneficiary statement",
+          "reasoning": "The homeowner states that donations will benefit an animal control commission, attributing a charitable action."
+        },
+        {
+          "rank": 3,
+          "text": "BAY VIEW — There’s been a show of support for Bay View’s most popular Halloween display — hit twice by thieves in just one week.",
+          "concept": "news report",
+          "reasoning": "The opening sentence reports an event (theft) but lacks explicit attribution to a source, making it weaker."
+        }
+      ]
+    }
+  ]
+}

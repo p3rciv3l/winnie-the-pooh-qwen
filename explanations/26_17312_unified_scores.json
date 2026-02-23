@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_17312",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to words beginning with the character sequence \"le\" or \"Le\" (such as Spanish object pronouns like \"le\", proper names like \"Leung\" or \"Leif\", and English words like \"leeway\" or \"leaked\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, English, French, Italian, Portuguese, Romanian, and Chinese transliterations) and diverse contexts, including news snippets, medical reports, legal texts, cultural references, and personal names, with no single semantic theme beyond the orthographic trigger.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any words starting with \"le\"/\"Le\"; they instead feature other initial letter sequences or topics (e.g., \"Il\", \"Washington\", \"Daniele\") that do not contain this specific bigram at word onset.\n\n4. **Closing interpretation**: The neuron functions as a character-level detector for the bigram \"le\" at the beginning of tokens, highlighting its role in recognizing a surface orthographic pattern rather than a coherent semantic concept.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Benjai (Rodney Le Blanc) yesterday asked the public to withhold their judgment of him following his arrest and",
+      "normalized_activation": 9.534003257751465,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1507,
+          "meaning_score": 0.5521,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2811
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1849,
+          "meaning_score": 0.8295,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6058
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1849,
+          "meaning_score": 0.3938,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2315
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "a como Khal Drogo en el piloto y fue despedida. (Le pude interesar: 'Moonage Daydream': un viaje c\u00f3",
+      "normalized_activation": 8.479117393493652,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5048,
+          "meaning_score": 0.6816,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4746
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4541,
+          "meaning_score": 0.3399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3176
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2776,
+          "meaning_score": 0.3293,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2428
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "k\u00f6nnen alternativ auch Gutscheine in dem Glas verschenkt werden. Von Lea Stratmann F\u00fcr den Alltag Mousepads geh\u00f6ren zu den Sach",
+      "normalized_activation": 6.780815601348877,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1973,
+          "meaning_score": 0.5775,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3099
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1666,
+          "meaning_score": 0.3035,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.188
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.22,
+          "meaning_score": 0.3325,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.221
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Big Pharma offers an easy punching bag. To some extent, the hostility is understandable.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3072,
+          "meaning_score": 0.3097,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2468
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2448,
+          "meaning_score": 0.1911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1744
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2777,
+          "meaning_score": 0.2858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2254
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2547,
+          "meaning_score": 0.2829,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2151
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.35,
+          "meaning_score": 0.2221,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2289
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.241,
+          "meaning_score": 0.2583,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1997
+        }
+      ]
+    }
+  ]
+}

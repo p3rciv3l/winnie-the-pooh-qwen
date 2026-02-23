@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_17604",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, locations, events) anchored by precise temporal, quantitative, or sequential details** (such as \"Joseph Kabila...second presidential term,\" \"340 days in space...Mikhail Kornienko,\" or \"five years...Jimmy Norman\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Greek, Albanian, Turkish, etc.) and diverse topics including space missions, political transitions, awards, charitable events, construction projects, and legal cases. The neuron activates when a specific person, group, place, or program is coupled with a number (date, duration, age, step in a sequence), a title/position, or a milestone marker (\"after,\" \"since,\" \"during,\" \"anniversary\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention named entities without anchoring them in precise details (e.g., \"Grammy Award-winning artist Billie Eilish attended...\") or discuss general concepts, hypotheticals, or ongoing trends without coupling a specific entity to a concrete anchor (e.g., \"Respiratory problems are a quite common condition,\" \"Fears grow for Cuban artist\"). The high-activation group consistently pairs a proper noun with a delimiting fact, while the low group lacks this tight coupling.\n\n4. **Closing interpretation**: This neuron detects discourse that grounds a specific, identifiable subject within a concrete frame of reference\u2014often temporal, ordinal, or quantitative. It signals text that moves from general mention to anchored, instance-specific reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "media dell'Arte, cuenta la historia de un hombre rico llamado Volpone que est",
+      "normalized_activation": 9.617391586303711,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1373,
+          "meaning_score": 0.0962,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0934
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1142,
+          "meaning_score": 0.5431,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2629
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1583,
+          "meaning_score": 0.3809,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2157
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ".news A very strong and shallow earthquake registered by the USGS hit the northern Molucca Sea, Indonesia at 06:06 UTC on January 1",
+      "normalized_activation": 8.939248085021973,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1504,
+          "meaning_score": 0.5632,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2854
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.134,
+          "meaning_score": 0.0804,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0858
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1357,
+          "meaning_score": 0.2251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1443
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "no future plans to brew it again.\u201d Founders Brewmaster Jeremy Kosmicki said this is \u201cthe last year I plan on making CBS, so get",
+      "normalized_activation": 8.1061372756958,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1819,
+          "meaning_score": 0.4465,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2514
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2361,
+          "meaning_score": 0.5483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3138
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1487,
+          "meaning_score": 0.2975,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1785
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Sun made an appearance in our skies on Wednesday, but it's only going to be",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.235,
+          "meaning_score": 0.1536,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1555
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1467,
+          "meaning_score": 0.3182,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.186
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2153,
+          "meaning_score": 0.2058,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1684
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A host of high octane Indian series are currently offering some edge-of-your-seat viewing",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1726,
+          "meaning_score": 0.4329,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2422
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1564,
+          "meaning_score": 0.4716,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2512
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0875,
+          "meaning_score": 0.4372,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2099
+        }
+      ]
+    }
+  ]
+}

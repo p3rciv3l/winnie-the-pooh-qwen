@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9467",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns accompanied by titles, roles, or extended identifiers within formal or news-reporting contexts** (such as political figures named with titles and affiliations, disaster officials cited with full names and agencies, or individuals referenced in legal or criminal proceedings).\n\n2. **Domain coverage**: The pattern appears predominantly in multilingual news headlines and reportage, spanning English, Spanish, Italian, Indonesian, Hungarian, Polish, Bengali, and others. Topics include political announcements, legal cases, disaster management, and crime reporting, where individuals are formally identified by their full name, title (e.g., \"NC president,\" \"minister,\" \"General\"), organization, or role in a specific event.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain specific named entities embedded within descriptive, formal phrases (e.g., \"Tehreek-e-Hurriyat,\" \"BNPB, Sutopo Purwo Nugroho,\" \"Chief Justice of India Ranjan Gogoi\"). Low-activation examples lack this structured naming; they feature generic phrases, cultural/entertainment references without formal titles, or incomplete name contexts (e.g., \"Song Kang,\" \"10-year-old girl,\" \"guidance of\").\n\n4. **Closing interpretation**: The neuron detects formal referential expressions that anchor a person or organization to a specific real-world event or institutional context. It acts as a filter for densely informative, journalistic-style identifiers across languages, while ignoring casual mentions, incomplete names, or non-newsworthy content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "two to five years and to make it a non-bailable offense. President Arif Alvi signed the Prevention of Electronic Crimes (Amendment) Ordinance,",
+      "normalized_activation": 9.514276504516602,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1473,
+          "meaning_score": 0.3067,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1816
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1573,
+          "meaning_score": 0.3687,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2104
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1606,
+          "meaning_score": 0.7283,
+          "overlap_fraction": 0.5986,
+          "location_score": 0.1197,
+          "combined_score": 0.4753
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". Alper'in varl\u0131kl\u0131 ve akademisyen babas\u0131 E\u015fref rol\u00fc ile sevilen dizinin kadrosuna giren Altan Er",
+      "normalized_activation": 8.390687942504883,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1973,
+          "meaning_score": 0.6306,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5312
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1662,
+          "meaning_score": 0.3379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2016
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1399,
+          "meaning_score": 0.3734,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2053
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Umaru, Chairman, NBA Maiduguri and Barr. Amina Mustafa Ibrahim, Chairperson, Federation of International Women Lawyers, FIDA. Others are",
+      "normalized_activation": 7.05947208404541,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2455,
+          "meaning_score": 0.7841,
+          "overlap_fraction": 0.9191,
+          "location_score": 0.1838,
+          "combined_score": 0.5956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2089,
+          "meaning_score": 0.5989,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3231
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1421,
+          "meaning_score": 0.3966,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2155
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "El coche de la v\u00edctima choc\u00f3 contra varios veh\u00edculos Cuando el detenido conf",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1984,
+          "meaning_score": 0.2706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1876
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1598,
+          "meaning_score": 0.2919,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1807
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1726,
+          "meaning_score": 0.2341,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1627
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Marc Martel, el m\u00fasico encargado de doblar al legendario",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1237,
+          "meaning_score": 0.6864,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.524
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.075,
+          "meaning_score": 0.5629,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2551
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1403,
+          "meaning_score": 0.5922,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.293
+        }
+      ]
+    }
+  ]
+}

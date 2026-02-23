@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_5234",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense sequences of proper nouns and named entities** (such as lists of locations, personal names, organization names, or event titles) often presented in appositive or descriptive clauses.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Hungarian, Greek, Turkish) and domains, including international news reports, cultural event descriptions, academic or institutional announcements, and sports/political summaries. It activates on text segments that pack multiple specific names\u2014people, cities, awards, organizations\u2014into a contiguous span.\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by a high concentration of proper nouns within a single sentence or clause, often in the middle of explanatory or narrative context. The low-activation examples either contain very few named entities, place them in isolated positions (e.g., a headline-style lead), or present them without the same dense, enumerative packaging.\n\n4. **Closing interpretation**: The neuron appears to detect a specific syntactic-semantic structure: multi-item nominal groups that serve to specify actors, locations, or titles within a detailed report. It functions less as a topic detector and more as a marker for information-rich, entity-packed prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "media that the police probe into the 2015 attack on Khaleda Zia\u2019s motorcade in the city",
+      "normalized_activation": 9.528291702270508,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3223,
+          "meaning_score": 0.7772,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6398
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1641,
+          "meaning_score": 0.4452,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2437
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2272,
+          "meaning_score": 0.0124,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0958
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "estro of the castle before being transformed into an 18th century harpsichord. A few weeks before the film\u2019s release the director Bill Condon",
+      "normalized_activation": 8.696080207824707,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1973,
+          "meaning_score": 0.4208,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2472
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2151,
+          "meaning_score": 0.4104,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2502
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.164,
+          "meaning_score": 0.4468,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2444
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "JUI-F killing four people and wounding 19 others. Tehrik-e-Taliban Pakistan (TTP) and Islamic State (IS) have",
+      "normalized_activation": 7.682995319366455,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1218,
+          "meaning_score": 0.4,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2087
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1772,
+          "meaning_score": 0.4161,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2373
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0811,
+          "meaning_score": 0.6405,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2887
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "MILWAUKEE (AP) \u2014 Los Cerveceros de Milwaukee",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1514,
+          "meaning_score": 0.6737,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.53
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2657,
+          "meaning_score": 0.3845,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2601
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1583,
+          "meaning_score": 0.3538,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2049
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "GPS Wealth Strategies Group LLC increased its position in Medtronic plc (NYSE:MD",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2099,
+          "meaning_score": 0.6408,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3403
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.229,
+          "meaning_score": 0.5815,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3242
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.207,
+          "meaning_score": 0.8427,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6199
+        }
+      ]
+    }
+  ]
+}

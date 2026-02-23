@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_231",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce evidence, reports, or observations using existential constructions like \u201cthere have been,\u201d \u201cthere has been,\u201d or \u201cthere\u2019s been\u201d** (such as citing studies, describing incidents, listing casualties, or noting recent developments).\n\n2. **Domain coverage**: The pattern appears across diverse topics\u2014labor economics, film politics, healthcare strain, accident reports, legal proceedings, and volcanic alerts\u2014primarily in English news or factual reporting contexts. It also activates for similar syntactic structures in other languages (e.g., Malayalam script snippet), indicating a cross-linguistic sensitivity to this grammatical framing.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this specific report-introducing structure; they are often simple statements, headlines, questions, or incomplete phrases without existential evidence clauses (e.g., dates, announcements, market data, or personal anecdotes). The neuron fires not on topic alone but on the presence of a \u201cthere has/have been\u201d clause framing.\n\n4. **Closing interpretation**: The neuron detects grammatical constructions that present factual or reported information as recently established or ongoing evidence. It essentially acts as a syntactic-semantic detector for evidence-introductory phrases common in journalistic and explanatory prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Several talks have been ongoing as to how to create alternatives also as there has been an upsurge in the cost of the staple food from about 12",
+      "normalized_activation": 9.648931503295898,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1816,
+          "meaning_score": 0.8628,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6177
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1942,
+          "meaning_score": 0.2782,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.189
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1474,
+          "meaning_score": 0.3611,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2034
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "200,000 people have died in India, and there have been more than 20 million confirmed cases of the virus. \"India is facing",
+      "normalized_activation": 8.829959869384766,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2124,
+          "meaning_score": 0.6706,
+          "overlap_fraction": 0.8607,
+          "location_score": 0.1721,
+          "combined_score": 0.5253
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1978,
+          "meaning_score": 0.2061,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1615
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1592,
+          "meaning_score": 0.3097,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1876
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "in Kogi, made the promise at a memorial programme held in honour of the late Professor in his home town, Isanlu, Yagba East, L",
+      "normalized_activation": 8.033992767333984,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1702,
+          "meaning_score": 0.318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1953
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1817,
+          "meaning_score": 0.3404,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2088
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1544,
+          "meaning_score": 0.4417,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2384
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Nine-story, 330,000-sq.-ft. building",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1798,
+          "meaning_score": 0.0603,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.096
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1783,
+          "meaning_score": 0.3066,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.194
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2198,
+          "meaning_score": 0.2672,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1948
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0977,
+          "meaning_score": 0.5336,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2525
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2153,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2163
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2275,
+          "meaning_score": 0.5604,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3152
+        }
+      ]
+    }
+  ]
+}

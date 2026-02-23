@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_17207",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing enumerations, lists, or sequences of specific entities and numerical details (such as lists of names, ranked items, numerical data, or step-by-step procedures).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, German, Polish, Romanian, Hindi, Hungarian, etc.) and spans news reporting (legal cases, political events, sports scores), product comparisons, cultural reviews (music albums, festivals), scientific specifications, and social media-style mentions with @ handles. It activates on dense, mid-sentence factual listings regardless of topic.\n\n3. **Contrast with low-activation examples**: High-activation texts feature dense enumerations or itemized details (e.g., multiple names, numbers, or steps within a fragment), while low-activation examples are often headlines, datelines, or introductory phrases that mention entities in isolation without extended listing. The low-activation group includes truncated news leads or simple statements that lack the syntactic complexity of enumeration.\n\n4. **Closing interpretation**: The neuron detects passages where information is structured as a list or enumeration, focusing on the syntactic pattern of itemization rather than a specific semantic topic. It signals text rich in coordinated entities, numerical specifics, or sequential details.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "we\u2019ve seen successful author and activist Veronica Henley (Janelle Monae) go from press appearances and speaking engagements to Civil War era style slavery. Abducted",
+      "normalized_activation": 9.453813552856445,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0627\u0634\u0644 \u0647\u0648 \u0623\u064a \u0645\u0634\u0631\u0648\u0639 \u064a\u0646\u062a\u062c \u062d\u0631\u0628\u0627 \u060c \u0648\u0647\u0645\u0627 \u0641\u064a \u062d\u0627\u0644\u062a\u0646\u0627 : \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u0648\u062d\u062f\u0648\u064a \u060c \u0648\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u0623\u0642\u0627\u0644\u064a\u0645 \u0643\u0644\u0627\u0647\u0645\u0627 \u0627\u0646\u062a",
+      "normalized_activation": 8.668967247009277,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "1.500 metros de carrera a pie. Del club de Ontinyent participaron, en uno de los equipos, Yolanda Vald\u00e9s",
+      "normalized_activation": 7.8626532554626465,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "SAN ANTONIO \u2014 A former Bexar County jail officer has been convicted and",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "NEW ORLEANS (AP) \u2014 Relatives say a 14-year-old girl",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

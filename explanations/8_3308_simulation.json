@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_3308",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:21:53Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense sequences of proper nouns** (such as lists of names, titles with multiple honorifics, geographic enumerations, or corporate/legal entities), particularly when they appear in multilingual or formal contexts.\n\n2. **Domain coverage**: The pattern appears across news, legal, sports, and administrative texts in numerous languages (Swedish, Portuguese, Arabic, Russian, Hindi, Turkish, etc.). It activates on lists of people (e.g., \"Daniel Sundgren, Henok Goitom och Sebastian Larsson\"), geographic/political enumerations (\"Lagos, Ondo, Kebbi...\"), formal titles (\"Al-Mustafa Billah Shah ibni Sultan Hj Ahmad Shah Al-Musta’in Billah\"), and legal/ corporate names (\"Anil Ambani and two RCom directors to pay Ericsson\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain very few proper nouns, use them in isolation, or place them in simpler, more generic sentences (e.g., \"Iran has detained a German national\"). The high-activation examples are characterized by a concentrated density of capitalized or otherwise marked named entities, often in a series or within a single complex phrase, and frequently embedded in non-English text.\n\n4. **Closing interpretation**: This neuron likely detects linguistically complex, information-rich spans where multiple named entities are packed together, serving as a feature for structured enumerations or formal references. It functions as a marker for passages high in specific factual or referential density, particularly across multilingual corpora.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 3081,
+      "normalized": 9.578377723693848,
+      "actual_text": ". The obvious, smart thing to do is to invest in prevention. A status quo of under-investment in prevention is setting up the healthcare system for even more pressure",
+      "plain_text": "A massive gap in public health service purchasing, at just 2.1 percent of the health budget, shows other core public health investment has been dwarfed by the needed $1.4 billion Covid-19 vaccination rollout.  The chair of the Public Health Infrastructure Expert Panel for Health Coalition Aotearoa, Dr David Galler says the paltry $507 million is a ‘head-in-sand’ approach to public health funding and will not stall the rise of major health problems such as obesity, diabetes, cancer and heart disease which are currently overwhelming our health system.  \"Just as we are investing heavily in prevention through the Covid-19 vaccination programme, prevention is better than cure for the whole field of public health. It’s the most cost-effective approach, and it makes health outcomes fairer for all New Zealanders, particularly tangata whenua.\"  New Zealand faces a wave of type-2 diabetes with 228,000 people having the preventable disease now and that figure set to double by 2040. Health Coalition Aotearoa Chair Professor Boyd Swinburn says this Budget does not address decades of under-funding public health to reduce preventable diseases.  \"Tobacco, alcohol and unhealthy food cause about one third of healthy life years lost in New Zealand every year. The obvious, smart thing to do is to invest in prevention. A status quo of under-investment in prevention is setting up the healthcare system for even more pressure.\"  HCA is calling for the core public health prevention budget outside of the COVID-19 response to be lifted to five percent of the total health budget. \"I am sure New Zealanders will think that just five percent spent on prevention is a gross-underinvestment, but it would at least be a start,\" Swinburn said.  In 2019 public health service purchasing was estimated to be $35 million short of meeting cost pressures alone. Leaders have woken up to why public health is so important for our wellbeing goals but even in last year’s Covid Budget, public health purchasing was budgeted for just 2.3 per cent of overall spending.[1: https://www.union.org.nz/wp-content/uploads/2019/08/Did-the-Budget-provide-enough-for-Health-2019.pdf p. 8]  \"While there are good, specific new initiatives this year, like bowel and cervical cancer screening, it’s disappointing to see overall public health investment stagnate outside the Covid-19 response,\" Swinburn said. \"Just as we are investing heavily in the Covid-19 vaccination programme, prevention is better than cure for the whole field of public health. We now need to apply the same principle to other preventable deadly diseases.\" Health Coalition Aotearoa called on all political parties to progressively increase public health funding to just 5% of the health budget, prior to last year’s election. Historically, core public health funding in New Zealand is as low as 2-3% of Vote Health. [2: https://www.healthcoalition.org.nz/wp-content/uploads/2020/08/Health-Coalition-Prevention-Brief-20.8.pdf p. 7]",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The chair of the Public Health Infrastructure Expert Panel for Health Coalition Aotearoa, Dr David Galler says the paltry $507 million is a ‘head-in-sand’ approach to public health funding and will not stall the rise of major health problems such as obesity, diabetes, cancer and heart disease which are currently overwhelming our health system.",
+          "concept": "formal_titles",
+          "reasoning": "This section contains multiple proper nouns and formal titles, which matches the neuron's response to dense sequences of proper nouns."
+        },
+        {
+          "rank": 2,
+          "text": "Health Coalition Aotearoa Chair Professor Boyd Swinburn says this Budget does not address decades of under-funding public health to reduce preventable diseases.",
+          "concept": "organizational_titles",
+          "reasoning": "It features a proper noun organization and a titled individual, aligning with the neuron's pattern for proper noun density."
+        },
+        {
+          "rank": 3,
+          "text": "HCA is calling for the core public health prevention budget outside of the COVID-19 response to be lifted to five percent of the total health budget.",
+          "concept": "acronym_reference",
+          "reasoning": "HCA is an acronym for a proper noun entity, and COVID-19 is a named reference, though less dense, it involves proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 4202,
+      "normalized": 8.8097505569458,
+      "actual_text": "dilakukan perusahaan. Bisa melalui agen-agen Sinar Laut langsung dan tetapi harus dijual seharga yakni HET",
+      "plain_text": "Tiap Kabupaten/Kota di Lampung Kini Bisa Beli 1.000 Liter Minyak Goreng  Pemprov Lampung melalui Disperindag menegaskan bahwa setiap kabupaten/kota di Lampung boleh membeli minyak goreng minimal 1.000 liter dari produsen.  Jadi penyaluran minyak goreng tersebut alurnya melalui dinas perindag kabupaten/kota.  Lalu kalau bisa lebih dipersilahkan dan selain itu skema distribusi yang dilakukan perusahaan.  Bisa melalui agen-agen Sinar Laut langsung dan tetapi harus dijual seharga yakni HET.  \"Pada hari ini CV Sinar Laut sudah mulai mendistribusikan stok minyak goreng ke kabupaten pertama Tulangbawang dan menyusul daerah lainnya,\" kata Elvira  Kemarin sudah diclearkan eksportir yang akan membelinya, setelah didorong oleh tim dari satgas pangan Mabes Polri dan satgas pangan Polda Lampung.  Jadi sebelumnya sebanyak 356 ribu liter minyak di gudang CV Sinar Laut ini tak dapat didistribusikan karena persoalan penetapan HET yang dilakukan setelah produksi minyak goreng di CV Sinar Laut.  Produksi terakhir filihat itu 13 Januari 2022 dan 19 Januari 2022, jadi mereka membeli CPO dan DMO diluar harga HET yang telah ditetapkan pemerintah.  Sehingga mereka menunggu dahulu proses pembelian dengan eksportir untuk dapat menjual minyak goreng dilapangan sesuai HET.  Memang prosesnya membutuhkan waktu yang cukup lama, sehingga CV Sinar Laut memilih menunggu skema pembayaran tersebut dibayarkan.  Kalau melepas minyak goreng sesuai HET mereka merugi bahkan sampai Rp 2 miliar.  Dengan kedatangan tim Mabes Polri ini mempercepat prosesnya sehingga selesai kemarin.  Jadi hari ini minyak goreng di CV Sinar Laut bisa didistribusikan kepada masyarakat dan masyarakat diharapkan tidak panic buying. ( Tribunlampung.co.id / Bayu Saputra )",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tiap Kabupaten/Kota di Lampung Kini Bisa Beli 1.000 Liter Minyak Goreng  Pemprov Lampung melalui Disperindag menegaskan bahwa setiap kabupaten/kota di Lampung boleh membeli minyak goreng minimal 1.000 liter dari produsen.",
+          "concept": "geographic_enumeration",
+          "reasoning": "This section lists multiple geographic and administrative proper nouns in Indonesian, fitting the neuron's multilingual proper noun pattern."
+        },
+        {
+          "rank": 2,
+          "text": "\"Pada hari ini CV Sinar Laut sudah mulai mendistribusikan stok minyak goreng ke kabupaten pertama Tulangbawang dan menyusul daerah lainnya,\" kata Elvira",
+          "concept": "corporate_geographic",
+          "reasoning": "It includes a corporate name (CV Sinar Laut) and a geographic name (Tulangbawang), which are proper nouns likely to activate the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Kemarin sudah diclearkan eksportir yang akan membelinya, setelah didorong oleh tim dari satgas pangan Mabes Polri dan satgas pangan Polda Lampung.",
+          "concept": "institutional_names",
+          "reasoning": "This part contains proper nouns for institutions (Mabes Polri, Polda Lampung), matching the neuron's focus on formal entities."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 502,
+      "normalized": 8.001907348632812,
+      "actual_text": "o para empezar el 1 de enero del próximo año con actividades y traer a sus nuevos socios a bordo. “Tenemos que ser exit",
+      "plain_text": "Chevron se alista para explorar en parte mexicana del Golfo  Reforma | Lunes 19 Diciembre 2016 | 00:01:00 hrs  Ali Moshiri, presidente de Chevron África y Latinoamérica Exploración y Producción, adelantó que todo está listo para empezar el 1 de enero del próximo año con actividades y traer a sus nuevos socios a bordo. “Tenemos que ser exitosos y para ser exitosos nos tenemos que asegurar que hagamos todo bien en el principio y esa es la razón por la que nos vamos a concentrar en que las cosas se hagan, traer las lecciones aprendidas del sector estadounidense en México”, resaltó en entrevista con Grupo Reforma. Fue en la cuarta licitación de la Ronda 1, realizada el pasado 5 de diciembre, en la que este consorcio resultó ganador. Cada una de las empresas tiene una participación del 33 mil 3334 por ciento. El campo número tres, ubicado en un área conocida como Cinturón Plegado Perdido del Golfo de México, es muy amplio, por lo que primero reprocesarán la sísmica y verificarán si necesitan estudios adicionales, un proceso que podría tomar de uno a 2 años, estimó. “Es una área grande, necesita ser estudiada, vamos a poner un tremendo esfuerzo para asegurarnos de que entendemos la geología”, detalló Moshiri. El tamaño de estos bloques equivale a 73 del Golfo de México, ubicado en Estados Unidos, por lo que tienen que hacer una buena evaluación técnica. Resaltó que deben asegurarse de que van en la dirección correcta, es decir con costos más bajos del desarrollo y de la exploración. En aguas profundas Chevron sabe lo que hace, pues es uno de los mayores productores y exploradores de petróleo y gas en este tipo de áreas en el Golfo de México perteneciente a Estados Unidos. Chevron e Inpex fueron las únicas compañías que hicieron consorcio con Pemex en la Ronda 1.4, una oportunidad que surgió a raíz de la reforma energética. Y Chevron confía al cien por ciento en la petrolera mexicana, en la cual ven un socio de confianza, con el cual ya han compartido información y tecnología desde hace años. “Tenemos estudios estratégicos, tremenda cooperación en entender la geología y trabajando juntos, yo personalmente he estado involucrado trabajando con Pemex por los últimos 25 años”, expresó. Añadió que en México ven una oportunidad tremenda para el petróleo y gas, por lo que esperan que Gobierno mexicano continúe ofreciendo más bloques, los cuales evaluarán. Su principal apetito está en aguas profundas. Los comentarios que en la secci&ocute;n de arriba se vierten son responsabilidad de los participantes. Ayúdenos a mantener un intercambio de ideas sano denunciando, mediante un en el ícono de la bandera, cada participaci&ocute;n que considere inapropiada. Si el comentario no cumple con LAS REGLAS, será eliminado. Consulte aquí el reglamento.  \n            \tBienvenido a nuestro servicio de comentarios. Lo invitamos a analizar, comentar y cuestionar los artículos y reportajes que publica El Diario. Para mantener un intercambio de ideas sano para todos nuestros usuarios, es necesario que siga las reglas que a continuaci&ocute;n detallamos. Al participar en el servicio de comentarios usted acepta la aplicaci&ocute;n de estas normas.  \n\nUsted acepta que es totalmente responsable por el contenido que publica.  \n\nNo publicará intencionalmente contenido que viole el derecho de autor, marcas registradas, patentes o cualquier otra propiedad intelectual de una tercera persona.  \n\nNo difundirá contenido difamatorio, obsceno o agresivo que viole el derecho de una tercera persona a la privacidad de acuerdo a las leyes municipales, estatales, federales o incluso internacionales o que sea considerado inapropiado. Indemnizará a Publicaciones Paso del Norte(*), sus empleados y empresas afiliadas de todas y cada una de las demandas y/o dátos (incluyendo, pero no limitándose a honorarios de abogados) que sean presentadas por terceras personas en relaci&ocute;n con el contenido que usted public&ocute;. No redactará contenido que discrimine a otras personas por su género, raza, origen étnico, nacionalidad, religi&ocute;n, preferencias sexuales, discapacidades o cualquier otra categoría.  \n\nUsted entiende y acepta que El Diario no es responsable por el contenido publicado por terceras personas.  \nEs de su entendimiento que en los foros de discusi&ocute;n, El Diario supervisa el contenido publicado y se reserva el derecho de eliminar, editar o alterar el contenido que parezca inapropiado por cualquier motivo sin pedir el consentimiento del autor. Nos reservamos el derecho de acuerdo a nuestro propio criterio de retirarle a un usuario el derecho a publicar contenido en nuestro sitio.  \n\nEntiende y acepta que los foros de discusi&ocute;n deben ser usados sin prop&ocute;sitos comerciales.  \nNo solicitará recursos o apoyos econ&ocute;micos. No promoverá empresas comerciales o realizará actividades comerciales de ningún tipo en nuestros foros de discusi&ocute;n.  \n\nUsted entiende y acepta que el uso de cualquier informaci&ocute;n obtenida a través de los foros de discusi&ocute;n es bajo su propio riesgo.  \nEl Diario de ninguna manera respalda el contenido que los usuarios difunden, y no puede ni se hará responsable de su veracidad.  \n\nCon cada contenido que usted publica, otorga a El Diario sin pago de regalías la licencia irrevocable, perpetua, exclusiva y totalmente sublicenciable para usar, reproducir, modificar, adaptar, publicar, traducir, crear trabajos derivados de, distribuir, realizar y mostrar dicho contenido en su totalidad o partes a nivel mundial y para incorporarlos en sus trabajos de cualquier modo conocido actualmente o desarrollado con posterioridad.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Chevron se alista para explorar en parte mexicana del Golfo  Reforma | Lunes 19 Diciembre 2016 | 00:01:00 hrs  Ali Moshiri, presidente de Chevron África y Latinoamérica Exploración y Producción, adelantó que todo está listo para empezar el 1 de enero del próximo año con actividades y traer a sus nuevos socios a bordo.",
+          "concept": "corporate_titles",
+          "reasoning": "This section has dense proper nouns including corporate names and personal titles in Spanish, which aligns with the neuron's multilingual proper noun response."
+        },
+        {
+          "rank": 2,
+          "text": "Chevron e Inpex fueron las únicas compañías que hicieron consorcio con Pemex en la Ronda 1.4, una oportunidad que surgió a raíz de la reforma energética.",
+          "concept": "company_list",
+          "reasoning": "It lists multiple company names (Chevron, Inpex, Pemex) in a sequence, fitting the neuron's pattern for dense proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "El campo número tres, ubicado en un área conocida como Cinturón Plegado Perdido del Golfo de México, es muy amplio, por lo que primero reprocesarán la sísmica y verificarán si necesitan estudios adicionales, un proceso que podría tomar de uno a 2 años, estimó.",
+          "concept": "geographic_feature",
+          "reasoning": "This part contains a specific geographic proper noun (Cinturón Plegado Perdido del Golfo de México), which is a named entity likely to trigger the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 1755,
+      "normalized": 0.0,
+      "actual_text": "Jan. 3 (UPI) -- Former President Donald Trump appealed to the U.S",
+      "plain_text": "Jan. 3 (UPI) -- Former President Donald Trump appealed to the U.S. Supreme Court on Wednesday to reverse a Colorado court's ruling, removing him from the state's Republican primary ballot, as his campaign called his disqualification an \"unAmerican, unconstitutional act of election interference.\"  In the petition, Trump's lawyers argued that banning the former president would \"mark the first time in the history of the United States that the judiciary has prevented voters from casting ballots for the leading major-party presidential candidate.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jan. 3 (UPI) -- Former President Donald Trump appealed to the U.S. Supreme Court on Wednesday to reverse a Colorado court's ruling, removing him from the state's Republican primary ballot,",
+          "concept": "legal_entities",
+          "reasoning": "This section includes multiple proper nouns related to legal and political entities, which matches the neuron's response to formal proper noun sequences."
+        },
+        {
+          "rank": 2,
+          "text": "as his campaign called his disqualification an \"unAmerican, unconstitutional act of election interference.\"",
+          "concept": "political_reference",
+          "reasoning": "It references political concepts and proper nouns like \"unAmerican\" and \"election interference\", though less dense, it involves named entities."
+        },
+        {
+          "rank": 3,
+          "text": "In the petition, Trump's lawyers argued that banning the former president would \"mark the first time in the history of the United States that the judiciary has prevented voters from casting ballots for the leading major-party presidential candidate.\"",
+          "concept": "historical_reference",
+          "reasoning": "This part contains proper nouns like \"United States\" and references to historical events, aligning with the neuron's pattern for formal proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00004",
+      "row_idx": 1605,
+      "normalized": 0.0,
+      "actual_text": "* Handset goes on sale worldwide * Most queues longer than for other recent launches *",
+      "plain_text": "* Handset goes on sale worldwide * Most queues longer than for other recent launches * Demand backs up Apple’s upbeat holiday revenue forecast * Apple shares up, close to $900 billion market value (Adds new customer comments) By Angela Moon and Eric Auchard NEW YORK/FRANKFURT, Nov 3 (Reuters) - Shoppers surged into Apple Inc stores across the world on Friday to buy the new iPhone X, signalling stronger demand for the 10th anniversary version of the premium smartphone than the last two iterations. Investors and analysts took the swell of interest, alongside the company’s better-than-expected sales forecast for the upcoming holiday shopping season, as signs that Apple could be the first ever company worth $1 trillion. Apple’s shares rose 3 percent on Friday, hitting a record high and giving the world’s most valuable publicly traded company a market capitalization of almost $890 billion. “I can’t wait to get to my office and plug it in, back it up and play around with it,” said Jordan Shapiro, a 34-year-old recruiter from New Jersey who was one of the first to get into Apple’s flagship store on Manhattan’s Fifth Avenue, at the head of a line that stretched for a block. Jasmine Rivera, a 16-year-old from Las Vegas, said getting one of the new phones was the highlight of her New York trip with her aunt. “I’m so excited and can’t wait to show this to my friends,” she said. “I’m especially excited about the camera quality and facial recognition.” The glass-and-stainless-steel device that Apple Chief Executive Tim Cook has billed as “the biggest leap forward since the original iPhone,” starts at $999 in the United States. The handset features an edge-to-edge display designed for deeper colour rendition and an innovative camera that uses facial recognition to unlock and operate the phone. Cook appeared on TV greeting the first customers in line at the company’s store in Palo Alto, California, about a half-hour drive from Apple’s headquarters in Cupertino. In nearby San Francisco, about 250 people lined up outside the Apple store in the Union Square shopping district. “I’m feeling good, but my socks are wet,” said Ross Hendrix, 20, one of the first in line after camping out on the sidewalk despite a light rain on Thursday night. Similar scenes of excitement occurred earlier in the day in Asia and Europe. In Australia, around 400 people queued outside Apple’s main store in central Sydney to pay A$1,579 ($1,218) for the new phone. Just 30 turned up for the September release of the iPhone 8, an incremental update of the iPhone 7. “It’s beautiful bro, what a feeling, I‘m excited,” builder Bishoy Behman, 18, told Reuters after picking up two iPhone X as the first in line. He said he camped outside the store for a week before paying to improve his place in the queue overnight. In Apple’s Omotesando store in Tokyo, some 550 people were waiting in a line stretching to around 600 metres. “I‘m going home, and after having a rest, I’d like to have fun (with the phone),” said first-in-line Yamaura, a 21-year-old college student who spent six days in the queue. In Europe, Apple stores in Amsterdam, Berlin and London saw lines of several hundred fans, while smaller, more subdued crowds were observed at stores in Frankfurt and Paris. Arbitrage traders were also in line in an attempt to take advantage of the strong demand. In Hong Kong, some buyers quickly resold iPhone X handsets for a profit, but the resale premium eased as waiting times fell and supply concerns eased. Newly purchased iPhone X were reselling for HK$11,800 ($1,512) soon after sales began, but the price quickly fell to HK$10,300, a trader told Reuters. In mainland China - where Hong Kong traders often sell newly purchased goods - the anniversary model’s starting price is 8,388 yuan ($1,267). Analysts had expressed concern that supply issues might stop Apple satisfying early demand. The camera, for instance, has never before been manufactured in the volume Apple demands. But Chief Financial Officer Luca Maestri told Reuters on Thursday that Apple was “quite happy” with how manufacturing of the iPhone X was progressing. “Production is growing every week, and that’s very, very important during a ramp period,” he said. Demand and supply for the iPhone X appear to be coming back into balance, according to Apple’s online store. While last week users trying to order the iPhone X were told they faced waits up to five to six weeks, these delays are now three to four weeks. The rush of interest in the new phone came after Apple issued an upbeat sales forecast for the year-end holiday shopping season on Thursday. Wall Street welcomed that outlook, and five analysts now have stock price targets that would move Apple’s market value past $1 trillion. Friday’s lines signalled the company was “on track for a pretty good replacement cycle” said Edison Investment Research analyst Richard Windsor, but he questioned whether the new model sales will be as large as prior iPhone upgrade cycles. “We do not think that the iPhone X will offer a cycle nearly as big as the iPhone 6 and my concern is that this is what the market is looking for,” said Windsor, who actively tracks all the major players in the global smartphone industry. ($1 = 1.2960 Australian dollars) ($1 = 7.8022 Hong Kong dollars) ($1 = 6.6183 Chinese yuan renminbi) ($1 = 0.8590 euros) Reporting by Tom Westbrook in Sydney, Pei Li in Beijing, Nadine Schimroszik in Berlin, Nivedita Bhattacharjee and Munsif Vengattil in Bangalore, Eric Auchard in Frankfurt, Angela Moon in New York and Stephen Nellis in San Francisco; Additional reporting by Teppei Kasai, Will Ziebell, Carmel Yang and Bobby Yip; Writing by Jane Wardell and Eric Auchard; Editing by Stephen Coates and Bill Rigby",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In Europe, Apple stores in Amsterdam, Berlin and London saw lines of several hundred fans, while smaller, more subdued crowds were observed at stores in Frankfurt and Paris.",
+          "concept": "city_list",
+          "reasoning": "This section has a dense sequence of city names, which is a classic example of proper noun enumeration that the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "Jordan Shapiro, a 34-year-old recruiter from New Jersey who was one of the first to get into Apple’s flagship store on Manhattan’s Fifth Avenue, at the head of a line that stretched for a block.",
+          "concept": "personal_geographic",
+          "reasoning": "It includes multiple proper nouns for a person and locations, fitting the neuron's response to dense proper noun sequences."
+        },
+        {
+          "rank": 3,
+          "text": "In Australia, around 400 people queued outside Apple’s main store in central Sydney to pay A$1,579 ($1,218) for the new phone.",
+          "concept": "geographic_corporate",
+          "reasoning": "This part contains proper nouns for a country, city, and corporate store, which are likely to activate the neuron."
+        }
+      ]
+    }
+  ]
+}

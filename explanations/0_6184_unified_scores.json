@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_6184",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of the English language or British nationality/identity** (such as explicit references to \"English\" as a language, labels like \"British,\" or contexts involving English translation, education, or colonial history).\n\n2. **Domain coverage**: The pattern appears across diverse domains: multilingual UI/language lists (e.g., \"English, Hindi, Bengali\"), academic subjects (\"degree in English\"), translation notes (\"Translated to english\"), British institutions/figures (\"British Ministry,\" \"British Geological Survey\"), and historical/political contexts of British influence (Hong Kong's handover, British colonialism). It activates for the word \"English\" in various languages (e.g., \"ingl\u00e9s\" in Spanish text) and for \"British\" even without the word \"English\" present.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct reference to the English language or British identity. They cover topics like local crime, non-English business reports, sports without British context, weather, and text in other languages (Greek, Spanish, Bulgarian) where \"English\" is not mentioned. The neuron ignores general news unless the specific pattern is present.\n\n4. **Closing interpretation**: The neuron detects tokens and contexts semantically linked to *English as a linguistic entity* and *British national affiliation*. It functions as a specialized detector for a key cultural-linguistic marker within the training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", but Chelsea coach Thomas Tuchel is confident the Blues can beat their fellow English Premier League side in the Champions League final on May 29 in Istanbul.",
+      "normalized_activation": 9.69579029083252,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3967,
+          "meaning_score": 0.8822,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7116
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3077,
+          "meaning_score": 0.4753,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3132
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2266,
+          "meaning_score": 0.0659,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.117
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "used Prince Harry\u2019s confession that he killed 25 Taliban in Afghanistan against the British government amid the escalating row over the execution of Alireza Akbari.",
+      "normalized_activation": 6.641167640686035,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5087,
+          "meaning_score": 0.9039,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.765
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5092,
+          "meaning_score": 0.5411,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4201
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.6919,
+          "meaning_score": 0.4468,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4555
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "laws were first announced, just six weeks ago, that more than 2m British National Overseas passport holders in Hong Kong would be offered long-term visas to the",
+      "normalized_activation": 6.0436577796936035,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5167,
+          "meaning_score": 0.4232,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.376
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4686,
+          "meaning_score": 0.4145,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3532
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4492,
+          "meaning_score": 0.8314,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7122
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "room to experiment. Frogwares are keen to indulge in the experimentation the source material affords them. They told Chandler: That\u2019s why we\u2019re pushing this idea of",
+      "normalized_activation": 0.6306167840957642,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2044,
+          "meaning_score": 0.6489,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3413
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1797,
+          "meaning_score": 0.327,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2027
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1616,
+          "meaning_score": 0.3682,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2119
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "i obzorja. \u00bbPomembno je, da ohrani odprt um, saj so na poti zelo velike sprem",
+      "normalized_activation": 0.5964275002479553,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1938,
+          "meaning_score": 0.3587,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.221
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1,
+          "meaning_score": 0.3525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.181
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0847,
+          "meaning_score": 0.3344,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1677
+        }
+      ]
+    }
+  ]
+}

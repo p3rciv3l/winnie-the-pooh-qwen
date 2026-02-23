@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_16800",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:01:46Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or news-article metadata and boilerplate** (such as datelines, bylines, source attributions, syndication notices, copyright disclaimers, and social sharing prompts).\n\n2. **Domain coverage**: The pattern appears across international news text in multiple languages (English, Spanish, Italian, French, Persian, Romanian, etc.) and on diverse topics (politics, science, finance, entertainment). It activates on the structural framing of news content rather than the core subject matter itself, firing on elements like \"Additional reporting by...\", \"(Reuters)\", \"Last Update : 06:16 PM IST\", auto-generation notices, and sharing buttons.\n\n3. **Contrast with low-activation examples**: The low-activation texts are straightforward factual statements or narrative content that lack this journalistic scaffolding. While some low examples are news-like (\"KIGALI, Rwanda – ...\"), they typically begin the core story immediately. The high-activation texts consistently contain peripheral metadata, source tags, or boilerplate language that frames the primary content as coming from a news or syndicated article production system.\n\n4. **Closing interpretation**: This neuron detects the semantic and syntactic patterns associated with the publishing apparatus of news articles, not their topical content. It essentially fires on the \"frame\" of a news story—the textual signals that indicate it is an excerpt from a formal media outlet.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 501,
+      "normalized": 9.655021667480469,
+      "actual_text": "y aterradora lista de reproducción seleccionada por la NASA que se ha vuelto viral en redes por no ser la típica música de Halloween a la",
+      "plain_text": "“Sinister Sounds of the Solar System” (Sonidos Siniestros del Sistema Solar, en español), es la nueva y aterradora lista de reproducción seleccionada por la NASA que se ha vuelto viral en redes por no ser la típica música de Halloween a la que las personas están acostumbradas. En lugar de aullidos de hombres lobo y crujidos de casas embrujadas, esta lista de reproducción está llena de espeluznantes gemidos, grietas y otros ruidos extraños de todo el cosmos. La playlist está “llena de nuevos ‘gemidos’ y ‘silbidos’ de nuestro universo que asustarían a las criaturas más macabras”, según un comunicado de la NASA. Algunas de las pistas de la lista de reproducción son los sonidos de “marsquakes”, creados a partir de datos capturados por el módulo de aterrizaje Mars InSight de la NASA. Para capturar estos terremotos, el módulo de aterrizaje utiliza su instrumento Sismic Experiment for Interior Structure (SEIS), que “escuchó” marsquakes por primera vez en 2019.  NASA publica \"playlist de horror\" para este Halloween  De igual manera, también se puede escuchar los “sonidos del universo antiguo” en la lista de reproducción cortesía de la nave espacial Planck de la Agencia Espacial Europea que, de 2009 a 2013, estudió el fondo cósmico de microondas (CMB), la luz que queda del Big Bang. Planck fue capaz de “ver los ecos sonoros del universo primitivo”, según el comunicado. La nave espacial Juno, que orbita Júpiter, también ofrece una “música” más misteriosa. Durante su cuarto paso cercano al planeta gigante, que ocurrió el 2 de febrero de 2017, Juno observó señales de ondas de plasma provenientes de la ionósfera de Júpiter. Mientras estaba allí, el instrumento que mida las ondas de radio y plasma del planeta registró las escalofriantes ondas de su atmósfera. ESCUCHA AQUÍ: La lista de reproducción para Halloween incluye sonidos creados a partir de datos del observatorio de rayos X Chandra de la NASA, que observa el agujero negro supermasivo en el centro de la galaxia Vía Láctea, entre otros objetos y fenómenos cósmicos. Con información de actualidad.rt.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "ESCUCHA AQUÍ: La lista de reproducción para Halloween incluye sonidos creados a partir de datos del observatorio de rayos X Chandra de la NASA, que observa el agujero negro supermasivo en el centro de la galaxia Vía Láctea, entre otros objetos y fenómenos cósmicos. Con información de actualidad.rt.com",
+          "concept": "source attribution",
+          "reasoning": "This section includes a call-to-action prompt and a direct source credit, both common in news article boilerplate."
+        },
+        {
+          "rank": 2,
+          "text": "NASA publica \"playlist de horror\" para este Halloween",
+          "concept": "subheading",
+          "reasoning": "This phrase acts as a subheading or announcement tag, typical of journalistic formatting to highlight updates."
+        },
+        {
+          "rank": 3,
+          "text": "La playlist está “llena de nuevos ‘gemidos’ y ‘silbidos’ de nuestro universo que asustarían a las criaturas más macabras”, según un comunicado de la NASA.",
+          "concept": "attribution",
+          "reasoning": "This sentence explicitly attributes information to an official NASA communication, matching the neuron's pattern of source tags."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 1723,
+      "normalized": 8.931668281555176,
+      "actual_text": "ów wystrzelona w kosmos w lutym tego roku. W piątek frima SpaceX wystrzeliła na niską orbitę około",
+      "plain_text": "Następna grupa Starlinków została wystrzelona na orbitę. W sobotę nad ranem można je będzie dostrzec z Polski. To trzecia grupa tych satelitów wystrzelona w kosmos w lutym tego roku. W piątek frima SpaceX wystrzeliła na niską orbitę okołoziemską kolejnych 50 satelitów telekomunikacyjnych Starlink. Grupę tę określono jako G4-11. Satelity zostały wyniesione za pomocą rakiety Falcon 9 z bazy sił kosmicznych Vandenberg Space Force Base w Kalifornii w Stanach Zjednoczonych. Niecałe dziewięć minut później pierwszy stopień rakiety powrócił na Ziemię. Wystrzelenie Starlinków w piątek było trzecią tego typu misją w lutym. 3 lutego na orbitę powędrowało 49 satelitów, a 46 satelitów zostało wystrzelonych 21 lutego. Nagranie przelotu tej grupy Starlinków widocznego nad Polską otrzymaliśmy na Kontakt 24. W sobotę Starlinki przelecą nad Polską o godzinie 4.40. Zgodnie z danymi dla centralnej części kraju znajdą się na wysokości 67 stopni nad horyzontem. Warunki atmosferyczne mogą nam w obserwacjach jednak przeszkadzać. Na noc prognozujemy pochmurną pogodę z przejaśnieniami. Cel: dostęp do internetu na całym globie Starlinki to urządzenia stworzone przez SpaceX - firmę Elona Muska. Mają służyć zapewnieniu dostępu do internetu na całym świecie. Przez ostatnie lata firma łącznie wystrzeliła 2100 urządzeń, ale około 200 utraciła z powodu usterek lub wycofania z użytku. 3 lutego nie wszystko poszło zgodnie z planem. Satelity napotkały na burzę geomagnetyczną związaną z aktywnością słoneczną. Na docelowe orbity nie dotarło 40 satelitów. Źródło: space.com, tvnmeteo.pl Źródło zdjęcia głównego: ENEX",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Źródło: space.com, tvnmeteo.pl Źródło zdjęcia głównego: ENEX",
+          "concept": "source attribution",
+          "reasoning": "This section lists the article's sources and photo credit, a classic example of news boilerplate."
+        },
+        {
+          "rank": 2,
+          "text": "Nagranie przelotu tej grupy Starlinków widocznego nad Polską otrzymaliśmy na Kontakt 24.",
+          "concept": "source attribution",
+          "reasoning": "This sentence credits a specific outlet for providing video content, aligning with the neuron's focus on content sourcing."
+        },
+        {
+          "rank": 3,
+          "text": "Cel: dostęp do internetu na całym globie Starlinki to urządzenia stworzone przez SpaceX - firmę Elona Muska.",
+          "concept": "subheading",
+          "reasoning": "This subheading-like phrase introduces the project's goal, a common journalistic device to structure articles."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 2020,
+      "normalized": 8.139366149902344,
+      "actual_text": "unveiling Time magazine’s 2020 list of the world’s 100 most influential people, Meghan said “this is the most important election of our",
+      "plain_text": "US President Donald Trump has lashed out at Meghan Markle, declaring himself “not a fan” and wishing her husband, Prince Harry, “a lot of luck”. The blast came after Mr Trump was asked about the Duke and Duchess of Sussex’s public message urging Americans to vote in the November 3 presidential election. In a clip filmed for a TV special unveiling Time magazine’s 2020 list of the world’s 100 most influential people, Meghan said “this is the most important election of our lifetime”, while Harry urged Americans to “reject hate speech”. “When we vote our values are put into action and our voices are heard. Your voice is a reminder that you matter, because you do and you deserve to be heard,” Meghan said. Although neither she nor Harry mentioned Mr Trump by name, the duchess has already made it clear she supports Mr Trump’s opponent, Joe Biden. In a sit-down with lawyer and feminist activist Gloria Steinem in August, Meghan said she was “so excited” to see fellow biracial woman Kamala Harris selected as the Democrat’s running mate. Former actor Meghan also mocked Mr Trump, then the Republican presidential candidate, in a 2016 television interview, saying he was divisive and misogynistic. Of his possible election, she said: “It’s really the moment I go, ‘We film Suits in Toronto and I might just stay in Canada.” Meghan and Harry’s video message was apparently shot in the garden of their California home, where they have lived with young son Archie since July. It was also remarkable for 36-year-old Harry urging Americans to vote, while admitting he had never done so in Britain. Traditionally, members of the British royal family avoid political statements and it is considered unconstitutional for them to vote. “This election, I’m not going to be able to vote in the US, and many of you may not know that I haven’t been able to vote in the UK my entire life,” the prince said. The Sussexes relocated to the US after stepping down as working royals in March for financial and personal freedom. Buckingham Palace distanced itself from the duke’s video remarks, only making it clear that he did not speak for the British royals. “The duke is not a working member of the royal family and any comments he makes are made in a personal capacity,” a palace spokesman said. -with AAP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“The duke is not a working member of the royal family and any comments he makes are made in a personal capacity,” a palace spokesman said. -with AAP",
+          "concept": "wire service credit",
+          "reasoning": "This section combines an official quote with a wire service attribution, both standard in news article scaffolding."
+        },
+        {
+          "rank": 2,
+          "text": "In a clip filmed for a TV special unveiling Time magazine’s 2020 list of the world’s 100 most influential people, Meghan said “this is the most important election of our lifetime”, while Harry urged Americans to “reject hate speech”.",
+          "concept": "source attribution",
+          "reasoning": "This sentence cites a specific media source (Time magazine) for the video clip, matching the neuron's pattern of source tags."
+        },
+        {
+          "rank": 3,
+          "text": "In a sit-down with lawyer and feminist activist Gloria Steinem in August, Meghan said she was “so excited” to see fellow biracial woman Kamala Harris selected as the Democrat’s running mate.",
+          "concept": "interview attribution",
+          "reasoning": "This sentence attributes information to an interview with a notable figure, a typical journalistic practice for sourcing."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1712,
+      "normalized": 0.0,
+      "actual_text": "Ukpono Ukpong, Abuja In a bid to create an inclusive",
+      "plain_text": "Ukpono Ukpong, Abuja  In a bid to create an inclusive set of indicators on the labour market situation for people in the 15-29 age group, the International Labour Organisation (ILO) in partnership with Mastercard Foundation have unveiled a project that will provide a comprehensive national-level data on youth in the sector, including indicators on the transition from school to work.  In a statement made available to The Daily Times, the project which is to last for a one-year period, will serve as a central repository of international youth labour statistics.  According to the statement, during the one-year project, Mastercard Foundation will support the ILO in creating a new, regularly updated database, called YouthSTATS.  The database was first produced by the ILO as part of its partnership with the Mastercard Foundation ‘Work4Youth‘ Project that concluded in 2014.  The ILO houses the world’s largest stock of labour force survey microdatasets, which include individual and household level information that is used to produce official national statistics.  The statement noted that in recent years, the ILO’s Department of Statistics has invested considerable resources to collect more than 9,000 national labour force survey microdatasets from more than 140 countries worldwide.  It also disclosed that ILO experts systematically process these national microdatasets to obtain new, harmonized datasets that are then added to the ILO’s Harmonized Microdata collection.  The ILO’s Data Production and Analysis Unit, Steven Kapsos, in his opinion said the process will ensure that consistent definitions and international statistical standards are applied throughout the collection, thereby enhancing international comparability and facilitating cross-country analysis.  “A key advantage of basing YouthSTATS indicators on the ILO’s microdata collection is that this will facilitate the sustainable production of disaggregated data – by age, sex, economic industry, formal and informal sectors, occupation, level of educational attainment, and other pertinent variables.  The disaggregated data, in turn, will provide insights on challenges faced by specific population groups” said Steven Kapsos.  Similarly, the Director of Strategy and Learning at the Mastercard Foundation, Lindsay Wallace, said “The pioneering School-to-Work Transition surveys showed the importance of understanding, in detail, what this pivotal period looks like for young people around the world.  “We are pleased that the ILO will be able to make this information available on an ongoing basis for global, regional, and national decision-makers.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ukpono Ukpong, Abuja  In a bid to create an inclusive set of indicators on the labour market situation for people in the 15-29 age group, the International Labour Organisation (ILO) in partnership with Mastercard Foundation have unveiled a project that will provide a comprehensive national-level data on youth in the sector, including indicators on the transition from school to work.",
+          "concept": "byline/dateline",
+          "reasoning": "This section begins with a byline and dateline, a classic journalistic metadata element that frames the article's origin."
+        },
+        {
+          "rank": 2,
+          "text": "In a statement made available to The Daily Times, the project which is to last for a one-year period, will serve as a central repository of international youth labour statistics.",
+          "concept": "source attribution",
+          "reasoning": "This sentence explicitly references a statement provided to a specific newspaper, matching the neuron's pattern of source attributions."
+        },
+        {
+          "rank": 3,
+          "text": "The ILO’s Data Production and Analysis Unit, Steven Kapsos, in his opinion said the process will ensure that consistent definitions and international statistical standards are applied throughout the collection, thereby enhancing international comparability and facilitating cross-country analysis.",
+          "concept": "official quote attribution",
+          "reasoning": "This sentence attributes a statement to a named official, a common practice in news reporting to lend credibility and structure."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "For details about the virtual event, call 214-509-4911.",
+          "concept": "contact information",
+          "reasoning": "This section provides contact details, a common boilerplate element in news articles and event announcements."
+        },
+        {
+          "rank": 2,
+          "text": "The live event will be at 7:30 p.m. May 13 at allentx.swagit.com.",
+          "concept": "event details",
+          "reasoning": "This sentence gives specific logistical details for an event, typical of journalistic event listings and announcements."
+        },
+        {
+          "rank": 3,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle.",
+          "concept": "media citations",
+          "reasoning": "This sentence cites accolades from other news outlets, matching the neuron's pattern of cross-references and source attributions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_15647",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing formal titles, names, and roles in a list-like or introductory context** (such as lists of people with their titles and nationalities, named ambassadors and officials, artists and their works, or named individuals with professional descriptors).\n\n2. **Domain coverage**: The pattern appears across news, diplomatic, cultural, and financial reporting in multiple languages (English, Slovak, Czech, Polish, Greek, Hungarian, Telugu, Italian). It activates on sequences where a proper noun is immediately preceded or followed by a formal identifier like \"ambassador,\" \"CEO,\" \"Dr.,\" a country name, a job title, or the name of a creative work/group.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain these structured \"Title/Name/Role\" clusters, often in a series or as part of an introductory clause. The low-activation examples, while sometimes mentioning people or topics, lack this specific formal listing syntax; they are more likely to use simple noun phrases (\"Federal Reserve Vice Chairman\"), stand-alone names, or discuss events and concepts without attaching multiple formal identifiers to named entities.\n\n4. **Closing interpretation**: The neuron detects a syntactic/semantic pattern of formal human identification, focusing on text that enumerates individuals or entities with their official capacities. It appears specialized for the part of a sentence that establishes *who* is involved, particularly in journalistic or bureaucratic contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "if a snap general election is called, predicts Elsa Lignos of Royal Bank of Canada. She told clients: Parliament reconvenes today. While the opposition",
+      "normalized_activation": 9.521512031555176,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2249,
+          "meaning_score": 0.442,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2668
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5001,
+          "meaning_score": 0.7942,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5177
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1628,
+          "meaning_score": 0.4668,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2518
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "for farmers who burn biomass? The standard economic solution is to impose a Pigouvian tax on farmers to ensure the polluter pays for his actions. Such a tax",
+      "normalized_activation": 8.69189167022705,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.325,
+          "meaning_score": 0.5027,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3311
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2654,
+          "meaning_score": 0.5418,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3229
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1845,
+          "meaning_score": 0.3009,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1942
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", along with other world leaders, attended the 31st Association of Southeast Asian Nations (Asean) Summit. The Chronic Inc., a private company",
+      "normalized_activation": 7.498195171356201,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.107,
+          "meaning_score": 0.3173,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1697
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1403,
+          "meaning_score": 0.3193,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1839
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1932,
+          "meaning_score": 0.1808,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1496
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "100-yard walk Jordan Ingman Posted: Updated: NBC-2.com Sports",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1664,
+          "meaning_score": 0.5298,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2785
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1402,
+          "meaning_score": 0.1891,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1317
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1858,
+          "meaning_score": 0.7888,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5898
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4343,
+          "meaning_score": 0.2847,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2876
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2708,
+          "meaning_score": 0.2519,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2091
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2216,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2188
+        }
+      ]
+    }
+  ]
+}

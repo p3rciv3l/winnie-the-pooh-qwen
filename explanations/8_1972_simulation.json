@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_1972",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:02:51Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns paired with institutional titles, roles, or affiliations** (such as \"Minister of State for External Affairs and Education Rajkumar Ranjan Singh,\" \"German Chancellor Angela Merkel,\" \"chief investment officer for Raymond James Financial Services Jeffrey Saut,\" or \"Manhattan District Attorney (DA) Alvin Bragg\").\n\n2. **Domain coverage**: The pattern appears in multilingual news, official reports, and biographical contexts. It spans English, Italian, Portuguese, French, and other languages, covering domains like government, academia, law enforcement, corporate leadership, and international relations. The neuron activates on formal references that combine a person’s name with their specific organizational position, rank, or professional title.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, use names without explicit institutional titles (e.g., \"Joshua Wong,\" \"Anthony Joshua\"), or are from informal/genre contexts (sports scores, recipes, generic statements). The high-activation group consistently includes the explicit \"Title/Organization + Proper Name\" construct, while the low group omits this structured pairing.\n\n4. **Closing interpretation**: This neuron detects semantic structures denoting formal authority or institutional identity within text. It appears specialized for extracting named entities in contexts where their organizational role is explicitly defined, serving as a likely feature for parsing bureaucratic, journalistic, or official discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00010",
+      "row_idx": 2203,
+      "normalized": 9.38540267944336,
+      "actual_text": "battle over the project. Canada’s’ top court dismissed the appeal from the Squamish Nation, Tsleil-Waututh Nation, the Ts’elx",
+      "plain_text": "Hello,  It was an eventful morning in Ottawa Thursday, as police arrested an armed man on the grounds of Rideau Hall, the exclusive property where Prime Minister Justin Trudeau and Governor-General Julie Payette live. Officials said Mr. Trudeau and Ms. Payette were not present at the time.  “At approximately 6:40 this morning (1040 GMT), an armed man was able to access the grounds … the Prime Minister and the Governor-General were not present at the moment of the incident,” the Royal Canadian Mounted Police said on Twitter.  “The man was arrested shortly after without any incident. He is currently in custody and is being interviewed.”  The RCMP said criminal charges were pending.  Mr. Trudeau and his family live in a large house on the grounds of Rideau Hall, the residence of Ms. Payette. The Prime Minister and his family also have access to Harrington Lake, a retreat about 35 kilometres northwest of Ottawa.  This is the daily Politics Briefing newsletter, usually written by Chris Hannay. Michelle Carbert is taking over today. The newsletter is available exclusively to our digital subscribers. If you’re reading this on the web, subscribers can sign up for the Politics newsletter and more than 20 others on our newsletter signup page. Have any feedback? Let us know what you think.  TODAY’S HEADLINES  The Supreme Court will not hear a new appeal from British Columbia First Nations over the Trans Mountain pipeline expansion, effectively ending the years-long legal battle over the project. Canada’s’ top court dismissed the appeal from the Squamish Nation, Tsleil-Waututh Nation, the Ts’elxweyeqw Tribes and Coldwater Indian Band Thursday. First Nations leaders are expected to respond to the decision later Thursday.  The new North American trade agreement came into force on Wednesday (Canada Day), as President Donald Trump’s administration vowed to ensure that Canada, Mexico and the United States live up to its obligations. In an interview with the Canadian Press, Kirsten Hillman, Canada’s ambassador to the U.S. and a central player in the negotiations, said the agreement is designed to ensure more people in all three countries can reap its benefits.  WE Charity is offering 450 online student-volunteer placements at its own organization as part of a $900-million federal grant program it is managing, raising questions about who decides which organizations will receive taxpayer-funded help this summer. The Canada Student Service Grant program is facing criticism from some in the voluntary sector who say it is blurring the lines between unpaid volunteering and paid work by offering compensation equivalent to $10 an hour, which is below the minimum wage in all provinces. Prime Minister Justin Trudeau has said WE will not receive a profit and that the charity was recommended by the public service as the only organization that could administer the program.  Brian Mulroney is calling for “an immediate and urgent rethink” of Canada-China relations and is praising Prime Minister Justin Trudeau for rejecting domestic demands to free senior Huawei executive Meng Wanzhou in exchange for the release of two imprisoned Canadians. The former Progressive Conservative prime minister also told The Globe and Mail that Canada should bar Chinese telecom equipment maker Huawei Technologies Co. Ltd.‘s gear from this country’s next-generation 5G mobile networks if it would jeopardize intelligence sharing with Canada’s Five Eyes alliance.  Mr. Trudeau has named business owner and philanthropist Salma Lakhani as Alberta’s new Lieutenant-Governor, making her Canada’s first Muslim in the role. She replaces Lois Mitchell as the Queen’s representative in the province.  John Ibbitson (The Globe and Mail) on how Conservative Party rule seems impossible right now: “The lacklustre race for leader of the Conservative Party of Canada is further evidence of the impossibility of conservatism in our time. A confluence of health, economic and political crises has rendered the right irrelevant. When asked for answers to the challenges we face, conservatism is mute.”  Campbell Clark (The Globe and Mail) on how governments are losing sight of what’s urgent: “Governments are losing track of the mission. There was a sense of mission about lockdowns in March. Mr. Trudeau’s government then made it a mission to pump out temporary financial benefits. But the goal is to bring the economy back. So why the rush to pay student volunteers instead of throwing more at schools and child care? Maybe it’s a nice idea that volunteers get something, but in this event, it’s $10-an-hour, with WE paid for every head it brings in.”  Robyn Urback (The Globe and Mail) on how Ontario is repeating the mistakes it made with long-term care on farms: “Ontario is again walking, eyes open, into a disaster among a vulnerable population. Forget the years’ worth of reports: The province should have learned its lesson from long-term care homes just weeks ago.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hello,  It was an eventful morning in Ottawa Thursday, as police arrested an armed man on the grounds of Rideau Hall, the exclusive property where Prime Minister Justin Trudeau and Governor-General Julie Payette live. Officials said Mr. Trudeau and Ms. Payette were not present at the time.",
+          "concept": "heads of state",
+          "reasoning": "This section contains the proper nouns 'Prime Minister Justin Trudeau' and 'Governor-General Julie Payette', which are explicit pairings of names with high-ranking government titles."
+        },
+        {
+          "rank": 2,
+          "text": "In an interview with the Canadian Press, Kirsten Hillman, Canada’s ambassador to the U.S. and a central player in the negotiations, said the agreement is designed to ensure more people in all three countries can reap its benefits.",
+          "concept": "diplomatic official",
+          "reasoning": "This section includes 'Kirsten Hillman, Canada’s ambassador to the U.S.', a proper noun paired with a diplomatic title and affiliation."
+        },
+        {
+          "rank": 3,
+          "text": "Mr. Trudeau has named business owner and philanthropist Salma Lakhani as Alberta’s new Lieutenant-Governor, making her Canada’s first Muslim in the role. She replaces Lois Mitchell as the Queen’s representative in the province.",
+          "concept": "appointed official",
+          "reasoning": "This section contains 'Salma Lakhani as Alberta’s new Lieutenant-Governor', a proper noun paired with an appointed governmental role."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 3467,
+      "normalized": 8.446331977844238,
+      "actual_text": "3 billion in annual GDP, mainly through fishing, tourism and recreation,” said Paulita Bennett-Martin of Oceana, which has lobbied locally for resolutions",
+      "plain_text": "Resolutions opposing offshore drilling and seismic testing are moving through state and local governments in Georgia, including a resolution that passed unanimously in Pooler and twin resolutions making their way through the Senate and House of Representatives. But U.S. Rep. Buddy Carter, who began his political career on Pooler's City Council and served as mayor from 1996 to 2004 before being elected to the Georgia House and then Senate, is unswayed by the opposition from his adopted hometown. Carter's congressional district encompasses all the state’s coastal counties. “I continue to support an all-of-the-above energy policy,\" he said in an email last week. \"It is irresponsible to not at least see what is out there off the coast.” Proponents of a ban say it's testing and drilling they find irresponsible. “If we look to the threat to our tourism, commercial fisheries, recreational fisheries and all of the jobs that encompasses, the risk is not worth it,” Ogeechee Riverkeeper executive director Damon Mullis said at the Pooler meeting. In January 2018, the Trump administration announced its plans to open nearly all U.S. waters, including Georgia’s coast, to offshore drilling activities. Seismic testing, which poses a risk to marine life by using loud air blasts to map for oil under the sea floor, could begin later this year. Pooler is the 14th Georgia municipality to pass a resolution against offshore drilling. Tybee Island, Savannah, Thunderbolt and Richmond Hill are among the others. Gov. Brian Kemp opposes offshore drilling and seismic testing for Georgia. More than 340 municipalities on the East and West Coasts oppose the expansion of oil and gas activities off their shores. “In Georgia alone, healthy oceans provide over 23,000 jobs and over $1.3 billion in annual GDP, mainly through fishing, tourism and recreation,” said Paulita Bennett-Martin of Oceana, which has lobbied locally for resolutions. “Oil spills do not respect state boundaries and Georgians will continue to stand up against expanded offshore drilling and seismic airgun blasting until our federal leaders stand with us. It’s time for our congressman of the 1st District, Buddy Carter, to stand with Gov. Kemp and his constituents.” Last Wednesday, the Environmental Quality Subcommittee of the Georgia House of Representatives passed H.R. 48, a resolution in support of coastal communities and opposed to exploration and drilling for oil and gas off Georgia’s Coast. The bill is sponsored by Carl Gilliard, D-Garden City, who plans to send the resolution to Carter if it passes and who cites expected interference with the state's $1.1 billion commercial fishery and military presence as reasons to avoid seismic testing. Co-sponsors include Don Hogan, R-St. Simons Island, Bill Hitchens, R-Rincon, Ron Stephens, R-Savannah, and Jesse Petrea, R-Savannah. The resolution passed after a substitute that favored offshore energy development and downplayed environmental and economic concerns was defeated. “We applaud the Environmental Quality Subcommittee for their support of H.R. 48,\" said Jennette Gayer, director of the nonprofit Environment Georgia. \"In an age of remarkable advances in energy conservation and renewable energy technologies, at a time when global warming poses an existential threat to future generations, sacrificing our beaches and ocean wildlife is no longer, if it ever was, the price we must pay for progress. That’s not a world we have to live in anymore. Nor is it the future our children deserve.\" The full committee passed the bill Thursday. It remains to be voted on by the full chamber of the House. The state Senate has a similar resolution in S.R. 88. Carter, who was recently named to the House Select Committee on the Climate Crisis formed by Speaker Nancy Pelosi, D-Calif., told the Savannah Morning News earlier this month that \"climate change is real and the need to address it is real. So I’m all in.” But he said he doesn't believe the nation is yet at a point where it can rely solely on clean energy.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "But U.S. Rep. Buddy Carter, who began his political career on Pooler's City Council and served as mayor from 1996 to 2004 before being elected to the Georgia House and then Senate, is unswayed by the opposition from his adopted hometown.",
+          "concept": "U.S. representative",
+          "reasoning": "This section includes 'U.S. Rep. Buddy Carter', a proper noun explicitly paired with a federal legislative title."
+        },
+        {
+          "rank": 2,
+          "text": "Pooler is the 14th Georgia municipality to pass a resolution against offshore drilling. Tybee Island, Savannah, Thunderbolt and Richmond Hill are among the others. Gov. Brian Kemp opposes offshore drilling and seismic testing for Georgia.",
+          "concept": "state governor",
+          "reasoning": "This section contains 'Gov. Brian Kemp', a proper noun paired with the title of state governor."
+        },
+        {
+          "rank": 3,
+          "text": "Carter, who was recently named to the House Select Committee on the Climate Crisis formed by Speaker Nancy Pelosi, D-Calif., told the Savannah Morning News earlier this month that \"climate change is real and the need to address it is real. So I’m all in.\"",
+          "concept": "House Speaker",
+          "reasoning": "This section includes 'Speaker Nancy Pelosi, D-Calif.', a proper noun paired with a high-ranking federal legislative title and affiliation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 858,
+      "normalized": 7.364518642425537,
+      "actual_text": "quite fascinating in this particular recording and his chemistry with star soprano Anna Netrebko has never quite been better, the final scene a battle of wills both voc",
+      "plain_text": "Polish baritone Mariusz Kwiecien has delivered some of the finest performances of the past decade, cementing himself as one of the greatest singing actors of his generation.  Born on Nov. 4, the baritone has explored a wide-range of repertoire, always showcasing nuance in both his singing and his acting. He started his career back in native Poland before becoming a member of the Met’s Lindemann Young Artist Program, and then become a staple at such companies as the Metropolitan Opera, Vienna State Opera, Santa Fe Opera, Lyric Opera of Chicago, Royal Opera House, and Seattle Opera among others.  At just 45, his career still has a long way to go and yet we have a number of video performances to celebrate. Here are the absolute best of Kwiecien.  Don Giovanni  His interpretation as the famed character has grown and developed over the years, but his recording from the ROH is the only one available for immediate purchase (his Met rendition is available on the company’s streaming service). We get to see Kwiecien’s ability to transform the elegant Don into an increasingly Nihilistic being, adding aggression into Mozart’s incredible score.  Eugene Onegin  Another ambiguous male lead, Kwiecien makes us despise Eugene in this recording from the Met and yet find him rather empathetic with his cool and collected manner. The baritone’s acting is quite fascinating in this particular recording and his chemistry with star soprano Anna Netrebko has never quite been better, the final scene a battle of wills both vocally and from a physical standpoint. His interactions with Piotr Beczala also elevate the character quite a bit, with Kwiecien allowing us to feel the torment in the big duel scene and thereafter. He does have another video recording of the work, but here the characterization is more developed and nuanced overall.  Don Pasquale  Aside from “Don Giovanni,” where he isn’t quite that humorous, this is the only opportunity to see the baritone take on a rather comic role and just have a ton of fun. Paired with Netrebko, John del Carlo, and Matthew Polenzani, Kwiecien is, in many ways, the driving force of this production and his ability to explore the different relationships he shares with his other co-stars is quite intricate. It makes for delicious comedy, particularly seeing him and Anna Netrebko flirting quite openly, or his conspiring with Del Carlo later on in the work.  Les Pêcheur de Perles  As you may have noticed from other recordings listed above, Kwiecien has an incredible skill for developing characters over the course of an opera and really unwrapping often overlooked details. This might be his finest such performance as the nuance that he displays in his duet with Diana Damrau at the tail-end of the opera is one of the best recorded in recent years. We feel his anger, his guilt, his love (or is it passion), his kindness, his tenderness, and then suddenly see him as a violent being. And this is just one scene, with that level of vocal and dramatic depth present throughout the work as a whole.  We are aware that there are other great recordings by the baritone, but these are our favorites. Which are yours and why?",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Polish baritone Mariusz Kwiecien has delivered some of the finest performances of the past decade, cementing himself as one of the greatest singing actors of his generation.",
+          "concept": "opera singer",
+          "reasoning": "This section contains 'Polish baritone Mariusz Kwiecien', a proper noun paired with a professional vocal role."
+        },
+        {
+          "rank": 2,
+          "text": "The baritone’s acting is quite fascinating in this particular recording and his chemistry with star soprano Anna Netrebko has never quite been better, the final scene a battle of wills both vocally and from a physical standpoint.",
+          "concept": "opera singer",
+          "reasoning": "This section includes 'star soprano Anna Netrebko', a proper noun paired with a professional vocal role and acclaim."
+        },
+        {
+          "rank": 3,
+          "text": "Another ambiguous male lead, Kwiecien makes us despise Eugene in this recording from the Met and yet find him rather empathetic with his cool and collected manner.",
+          "concept": "opera performer",
+          "reasoning": "This section contains the proper noun 'Kwiecien' in a context that implies his professional role as an opera singer, though without an explicit title."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1720,
+      "normalized": 0.0,
+      "actual_text": "By Steve Oko The Indigenous People of Biafra, IPOB; and the",
+      "plain_text": "By Steve Oko The Indigenous People of Biafra, IPOB; and the family of its detained Leader, Mazi Nnamdi Kanu, have respectively, thanked Gov. Chukwuma Soludo of Anambra State, for volunteering to surety Kanu, if President Muhammadu Buhari, would be magnanimous enough to release him. Kanu’s family noted that Soludo was the first sitting Governor from the South East to demand the IPOB Leader’s unconditional release. The family which spoke through Kanu’s younger brother, Prince Emmanuel, insisted that Kanu committed no crime to be illegally held in custody even after he had been discharged by the court. Emmanuel who spoke exclusively with Vanguard in Umuahia, commended the Anambra State Governor for his consistency in demanding the release of Kanu, recalling that Soludo had shortly after his inauguration, visited Kanu at the Abuja headquarters of the Department of the State Services where he is currently detained. “I sincerely want to thank Gov. Chukwuma Soludo for standing tall and making passionate appeal for MNK’s release. Let it be on record that Soludo is the very first sitting Governor to call for the unconditional release of Mazi Nnamdi Kanu, a prisoner of conscience. “He has been discharged and acquitted by several courts in Nigeria, especially that of the Abia State High Court judgment .Therefore , I align myself with governor Soludo and other men and women of conscience .Note that nothing last forever”. Similarly, IPOB in a statement by its Media and Publicity Secretary, Emma Powerful, commended Soludo for calling for Kanu’s release. The statement issued on Sunday read in part: “Governor Soludo, we appreciate your efforts to demand the release and surety of our leader, Mazi Nnamdi Kanu. Every IPOB member worldwide thanks you”.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Indigenous People of Biafra, IPOB; and the family of its detained Leader, Mazi Nnamdi Kanu, have respectively, thanked Gov. Chukwuma Soludo of Anambra State, for volunteering to surety Kanu, if President Muhammadu Buhari, would be magnanimous enough to release him.",
+          "concept": "government leaders",
+          "reasoning": "This section contains 'Gov. Chukwuma Soludo' and 'President Muhammadu Buhari', proper nouns paired with high-ranking governmental titles."
+        },
+        {
+          "rank": 2,
+          "text": "Kanu’s family which spoke through Kanu’s younger brother, Prince Emmanuel, insisted that Kanu committed no crime to be illegally held in custody even after he had been discharged by the court.",
+          "concept": "royal family member",
+          "reasoning": "This section includes 'Prince Emmanuel', a proper noun paired with a royal title."
+        },
+        {
+          "rank": 3,
+          "text": "Similarly, IPOB in a statement by its Media and Publicity Secretary, Emma Powerful, commended Soludo for calling for Kanu’s release.",
+          "concept": "organization secretary",
+          "reasoning": "This section contains 'Media and Publicity Secretary, Emma Powerful', a proper noun paired with an institutional title within IPOB."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1514,
+      "normalized": 0.0,
+      "actual_text": "CLEMSON, S.C. (AP) — Clemson coach Dabo Swin",
+      "plain_text": "CLEMSON, S.C. (AP) — Clemson coach Dabo Swinney says QB Trevor Lawrence tested positive for COVD-19 and won’t play against Boston College.  Clemson Head Coach Dabo Swinney provided the following update this evening on quarterback Trevor Lawrence:  “Trevor has authorized us this evening to announce that he has tested positive for COVID-19 and is now in isolation. He is doing well with mild symptoms but will not be available for this week’s game against Boston College. While we certainly will miss Trevor, this is an opportunity for other guys to step up and we’re excited about competing against a very good BC team on Saturday. Go Tigers.”  This is a breaking news alert.  Check back for updates  Latest Sports News  Clemson QB Trevor Lawrence tests positive for COVID-19 White Sox reunite with La Russa, hire Hall of Fame manager COVID hits Big Ten football, Wisconsin cancels Nebraska game Bay area Dodgers fans celebrate World Series win Dodgers’ Justin Turner tests positive for coronavirus",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "CLEMSON, S.C. (AP) — Clemson coach Dabo Swinney says QB Trevor Lawrence tested positive for COVD-19 and won’t play against Boston College.",
+          "concept": "sports coach and player",
+          "reasoning": "This section contains 'Clemson coach Dabo Swinney' and 'QB Trevor Lawrence', proper nouns paired with sports roles and affiliations."
+        },
+        {
+          "rank": 2,
+          "text": "Clemson Head Coach Dabo Swinney provided the following update this evening on quarterback Trevor Lawrence:",
+          "concept": "sports coach and player",
+          "reasoning": "This section includes 'Clemson Head Coach Dabo Swinney' and 'quarterback Trevor Lawrence', proper nouns paired with explicit sports titles."
+        },
+        {
+          "rank": 3,
+          "text": "Clemson QB Trevor Lawrence tests positive for COVID-19",
+          "concept": "sports player",
+          "reasoning": "This section contains 'Clemson QB Trevor Lawrence', a proper noun paired with a sports team and position."
+        }
+      ]
+    }
+  ]
+}

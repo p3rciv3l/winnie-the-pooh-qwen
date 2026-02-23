@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_801",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal government bodies, executive decision-making groups, or high-level organizational structures** (such as national Cabinets, ministerial appointments, legislative approvals, or corporate leadership charts).\n\n2. **Domain coverage**: The pattern appears in political and governmental news across multiple languages (English, Spanish, Italian) and countries (US, UK, Jamaica, Nigeria). It also extends to structured hierarchies in other domains, such as corporate organizational charts, police reporting structures, and medical classification systems (e.g., Bristol Stool Chart). The neuron activates most strongly for proper nouns naming specific bodies (e.g., \"Trump's Cabinet,\" \"SNP Cabinet,\" \"Jamaican Cabinet\") and moderately for discussions of policy, procedure, or official reporting lines.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either short fragments, headlines without institutional detail, or topics unrelated to governance hierarchies (e.g., earthquakes, sports, holidays, space science). Even when politics is mentioned (e.g., \"President Trump cannot be thrilled\"), the text lacks reference to a formal executive body or structured authority. The neuron appears to require concrete references to named groups or charts that embody official, multi-person decision-making authority.\n\n4. **Closing interpretation**: The neuron detects textual references to institutionalized collective authority, typically expressed through proper nouns for named bodies or common nouns for hierarchical frameworks. It serves as a filter for discussions involving formal governance, policy-making, or organizational control structures.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "First Class, 12 in Premium Class and 52 in the main cabin. Horizon is a big customer for Embraer with the airline due to",
+      "normalized_activation": 6.188183784484863,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Ahmad reelects President dist headmasters, principals association PTI misused cipher for political gains, violated Official Secrets Act: Rana Ihsa ..",
+      "normalized_activation": 5.318203449249268,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", \u201cJourney\u2019s End\u201d or \u201cPaddington 2,\u201d had longer shelf lives in the public imagination. But that\u2019s part of why I\u2019m here:",
+      "normalized_activation": 4.6078362464904785,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "You are here Putin says he'll take Russia into 'new economic league' Moscow",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "From isolated outback mining towns to Queensland\u2019s surf beach holiday spots, Australia\u2019s parish",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

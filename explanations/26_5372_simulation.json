@@ -1,8 +1,8 @@
 {
   "neuron_id": "26_5372",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:01:21Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that highlight superlative importance, extremity, or controversy** (such as references to \"most prestigious awards,\" \"biggest ideological shifts,\" \"worst mass killing,\" \"most divisive elections,\" or \"most polluting factors\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Turkish, Polish, Romanian, etc.) and spans diverse topics: political conflicts, social issues, awards, environmental concerns, technological innovation, and cultural debates. It activates on news, commentary, and descriptive texts that emphasize something as notably significant, extreme, or contentious.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit or implied superlatives (\"most,\" \"biggest,\" \"worst\"), intensifiers (\"really, really,\" \"major increase\"), or references to high-stakes events (terrorism, court shifts, mass shootings). Low-activation examples are neutral snippets—dates, routine announcements, simple facts, or incomplete phrases—lacking any framing of extremity, importance, or controversy.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of **semantic intensity or exceptional significance**, acting as a filter for statements that frame a subject as top-tier, highly impactful, or socially/politically charged. It responds not to a specific topic but to the rhetorical emphasis on magnitude or notability.",
+  "generated_at": "2026-02-23T04:58:28Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing superlative or extreme comparative phrasing** (such as \"one of the most prestigious awards,\" \"biggest ideological shifts,\" \"most polluting factors,\" or \"world’s toughest gun laws\") and to **language describing polarized, divisive, or highly contentious topics** (such as sectarian conflict, controversial statements, or radical political movements).\n\n2. **Domain coverage**: The pattern appears across news, political analysis, social issues, and sports commentary in multiple languages (English, Spanish, Turkish, Polish, etc.). It activates on topics like awards, ideological shifts, terrorism, gun control, political elections, financial innovation, and identity politics, wherever the framing involves extremity, high stakes, or sharp societal divisions.\n\n3. **Contrast with low-activation examples**: The low-activation texts are neutral, factual announcements, routine event descriptions, or simple statements without superlative framing or charged conflict. They include calendar dates, award nominations open, local news updates, and mundane queries. The high-activation group consistently contains extreme adjectives, ranking language, or context of societal polarization absent in the low group.\n\n4. **Closing interpretation**: This neuron detects linguistic markers of extremity and societal polarization, acting as a sensor for superlative comparisons and text framed around conflict, controversy, or highest-degree assertions. It responds not to a specific topic, but to the rhetorical mode of presenting something as \"most,\" \"biggest,\" \"worst,\" or divisively contested.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Поэтому, как сообщается, этот День является:  Днем, когда мы празднуем наше единство в разнообразии; Днем, когда мы напоминаем правительствам о том, что они должны уважать свои обязательства, касающиеся международных соглашений; Днем, который содействует повышению уровня информированности общественности о солидарности как одной из основополагающих ценностей;",
-          "reasoning": "This section lists multiple important roles of the Day, emphasizing its significance and foundational values, which aligns with the neuron's focus on semantic intensity and exceptional importance."
+          "text": "В 2015 году мировые лидеры приняли цели в области устойчивого развития, которые пришли на смену целям развития тысячелетия. Цели в области устойчивого развития представляют собой новую всеохватную повестку дня в области развития, основными задачами которой являются искоренение нищеты, защита планеты и обеспечение достойной жизни для всех.",
+          "concept": "global development",
+          "reasoning": "Contains extreme framing like 'all-encompassing agenda' and high-stakes goals such as eradicating poverty and protecting the planet."
         },
         {
           "rank": 2,
-          "text": "\"Будучи убежденной в том, что развитие культуры солидарности и поощрение концепции общей ответственности являются важными составляющими в борьбе за ликвидацию нищеты, Генеральная ассамблея постановила провозгласить 20 декабря каждого года Международным днем солидарности людей\", - отметили в ООН.",
-          "reasoning": "The quote highlights 'важными составляющими' (important components) in the fight against poverty, framing the Day as crucial and impactful, matching the neuron's response to markers of importance."
+          "text": "“Будучи убежденной в том, что развитие культуры солидарности и поощрение концепции общей ответственности являются важными составляющими в борьбе за ликвидацию нищеты, Генеральная ассамблея постановила провозгласить 20 декабря каждого года Международным днем солидарности людей”, - отметили в ООН.",
+          "concept": "poverty eradication",
+          "reasoning": "Emphasizes the critical importance of solidarity and shared responsibility in the fight against poverty, aligning with high-stakes societal issues."
         },
         {
           "rank": 3,
-          "text": "Генассамблея ООН в своей резолюции 60/209 отметила, что одной из фундаментальных и универсальных ценностей, которые должны лежать в основе международных отношений в XXI веке, является солидарность.",
-          "reasoning": "This sentence describes solidarity as a 'фундаментальных и универсальных ценностей' (fundamental and universal value), using language of extremity and foundational importance that triggers the neuron."
+          "text": "Днем, когда мы празднуем наше единство в разнообразии; Днем, когда мы напоминаем правительствам о том, что они должны уважать свои обязательства, касающиеся международных соглашений; Днем, который содействует повышению уровня информированности общественности о солидарности как одной из основополагающих ценностей;",
+          "concept": "unity and solidarity",
+          "reasoning": "Lists impactful actions and fundamental values, though less extreme than other sections, it still touches on societal importance."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "A doctor sat us down and said that he’d sent Dabhog’s bloods away to test for Down’s Syndrome. As soon as we were told that, even though we didn’t want to really fully admit it to ourselves, we knew. It just hadn’t been on our radar. It was a massive, massive shock.",
-          "reasoning": "The phrase 'massive, massive shock' is an intensifier that emphasizes extremity and emotional impact, directly aligning with the neuron's focus on superlative or extreme language."
+          "text": "Cormac Neeson’s son Dabhog has inspired the singer to write the most personal song of his musical career. Dabhog did not have an easy start to life. He spent his early days in an incubator having been born three months premature, weighing just one pound and twelve ounces.",
+          "concept": "personal extremity",
+          "reasoning": "Uses superlative 'most personal song' and describes extreme premature birth, matching the neuron's sensitivity to intense, emotional language."
         },
         {
           "rank": 2,
-          "text": "Cormac Neeson’s son Dabhog has inspired the singer to write the most personal song of his musical career. Dabhog did not have an easy start to life. He spent his early days in an incubator having been born three months premature, weighing just one pound and twelve ounces.",
-          "reasoning": "The superlative 'most personal song' and the high-stakes description of extreme prematurity highlight exceptional significance and intensity, matching the neuron's pattern."
+          "text": "We got speaking to different parents who gave us real life examples of how these children with Down’s Syndrome had grown into the most amazing people, really enhanced the lives of the people around them. There was a lot of positive emotion.",
+          "concept": "superlative praise",
+          "reasoning": "Contains the phrase 'most amazing people,' which is a clear superlative highlighting extreme positive attributes."
         },
         {
           "rank": 3,
-          "text": "We got speaking to different parents who gave us real life examples of how these children with Down’s Syndrome had grown into the most amazing people, really enhanced the lives of the people around them. There was a lot of positive emotion.",
-          "reasoning": "The phrase 'most amazing people' is a superlative that frames the subject as exceptionally positive and impactful, triggering the neuron's response to markers of importance or extremity."
+          "text": "Now it’s 100% the opposite. He’s just a little boy. I look at him and think he’s one of the most beautiful things I’ve ever seen. He’s a bit of a looker – he gets that from his dad.",
+          "concept": "extreme admiration",
+          "reasoning": "Includes the superlative 'one of the most beautiful things I’ve ever seen,' expressing extreme personal admiration."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "“I welcome Solomon Islands to the family of CTBT ratifiers. This is a powerful message and a strong political statement from the Solomon Islands whose history underlines the importance of banning nuclear testing for good.",
-          "reasoning": "The phrases 'powerful message' and 'strong political statement' emphasize the exceptional significance and high stakes of nuclear testing bans, aligning with the neuron's focus on importance and extremity."
+          "text": "I welcome Solomon Islands to the family of CTBT ratifiers. This is a powerful message and a strong political statement from the Solomon Islands whose history underlines the importance of banning nuclear testing for good. I commend the Solomon Islands for its leadership in helping shape a safer world.",
+          "concept": "political extremity",
+          "reasoning": "Uses strong language like 'powerful message,' 'strong political statement,' and 'safer world,' reflecting high-stakes global security issues."
         },
         {
           "rank": 2,
-          "text": "CTBT's entry-into-force is a long-overdue task, more than a quarter century in the making, and one which we owe to all the people who were affected by past nuclear tests and their legacies,",
-          "reasoning": "The description of the task as 'long-overdue' and the reference to affected people highlight the urgency and historical importance, matching the neuron's response to semantic intensity."
+          "text": "CTBT's entry-into-force is a long-overdue task, more than a quarter century in the making, and one which we owe to all the people who were affected by past nuclear tests and their legacies, and to the future generations who have the right to live in a world free of the threat of nuclear war, or the intentional use or accidental explosion of nuclear weapons.",
+          "concept": "moral urgency",
+          "reasoning": "Emphasizes extreme temporal framing ('long-overdue') and high-stakes rights to a world free from nuclear threats."
         },
         {
           "rank": 3,
-          "text": "The CTBT bans all nuclear explosions everywhere, by everyone, and for all time.",
-          "reasoning": "This absolute statement ('everywhere, by everyone, for all time') frames the treaty as universally significant and extreme in its scope, triggering the neuron's focus on superlative importance."
+          "text": "The CTBT bans all nuclear explosions everywhere, by everyone, and for all time. Adherence to the Treaty is nearly universal, with 186 State Signatories and 177 ratifying States.",
+          "concept": "absolute prohibition",
+          "reasoning": "Uses absolute language like 'everywhere, by everyone, and for all time,' which aligns with extreme, universal claims."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima, C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.",
-          "reasoning": "The superlative 'più grave' (most serious) and the intensifier 'molto, molto, ma davvero molto' (very, very, but really very) emphasize extreme magnitude and controversy, directly matching the neuron's pattern."
+          "text": "Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo: Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%.",
+          "concept": "scientific controversy",
+          "reasoning": "Presents contentious claims about climate change, using polarized percentages (10% vs 100%) to frame a divisive argument."
         },
         {
           "rank": 2,
-          "text": "Il clima, spiega Zichichi con parole sue, dipende da dove si trova la Terra rispetto ai «bracci» della galassia. I «bracci» sono infatti zone in cui l’intensità dei raggi cosmici può arrivare a essere dieci volte più alta delle zone esterne ai «bracci».",
-          "reasoning": "The phrase 'dieci volte più alta' (ten times higher) highlights an extreme comparison and cosmic scale, aligning with the neuron's focus on superlative or exceptional significance."
+          "text": "Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima, C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.",
+          "concept": "extreme timescales",
+          "reasoning": "Uses repetitive intensifiers ('molto, molto, ma davvero molto') to emphasize extreme geological timescales, matching superlative phrasing."
         },
         {
           "rank": 3,
-          "text": "Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra nelle vere mani della comunità scientifica cioè le sue.",
-          "reasoning": "The phrase 'salvare l’umanità' (save humanity) frames the issue as one of utmost importance and high stakes, matching the neuron's response to rhetorical emphasis on magnitude."
+          "text": "L’Accordo di Parigi ignora i raggi cosmici. Fino a oggi i raggi cosmici non sono stati presi in esame. Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra nelle vere mani della comunità scientifica cioè le sue.",
+          "concept": "polarized rhetoric",
+          "reasoning": "Frames climate science as ignorant and calls for salvation, using divisive language that positions the author against mainstream agreements."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici",
-          "reasoning": "The superlative 'la scossa più forte mai registrata' (the strongest shock ever recorded) and the extreme claim 'a danno zero' (zero damage) highlight exceptional intensity and importance, triggering the neuron."
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "seismic extremity",
+          "reasoning": "Contains the superlative 'la scossa più forte mai registrata' (the strongest shock ever recorded), directly matching extreme comparative phrasing."
         },
         {
           "rank": 2,
           "text": "Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti.",
-          "reasoning": "The phrase 'abbattere fino all’80%' (reduce up to 80%) emphasizes a significant, extreme reduction in seismic effects, aligning with the neuron's focus on magnitude and impactful claims."
+          "concept": "extreme reduction",
+          "reasoning": "Uses the phrase 'abbattere fino all’80%' (reduce up to 80%), which is a strong, quantitative claim of extreme effectiveness."
         },
         {
           "rank": 3,
-          "text": "“Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”.",
-          "reasoning": "The phrases 'fondamentale importanza' (fundamental importance) and 'maggior pericolosità' (greater danger) emphasize extreme risk and critical significance, matching the neuron's response to markers of importance and extremity."
+          "text": "In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi.",
+          "concept": "high-stakes engineering",
+          "reasoning": "Discusses significant reductions in seismic actions and savings, framing the technology as critically important for safety in high-risk areas."
         }
       ]
     }

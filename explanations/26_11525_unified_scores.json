@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_11525",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing explicit references to sources, citations, or attribution** (such as mentions of publications, named reports, official statements, cited individuals/organizations, or disclaimers about content sources).\n\n2. **Domain coverage**: The pattern appears across news journalism, academic/science writing, corporate press releases, and legal/political reporting in multiple languages (English, Arabic, Spanish, Italian, Estonian). It activates on phrases indicating where information originates (\"Published in Frontiers,\" \"According to,\" \"police said,\" \"\u0645\u0646 \u0645\u0635\u062f\u0631\u0647 \u0627\u0644\u0627\u0633\u0627\u0633\u064a,\" \"in a research report\") or disclaimers about source responsibility (\"\u0648\u0646\u062d\u0646 \u063a\u064a\u0631 \u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0639\u0646 \u0645\u062d\u062a\u0648\u0649\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally simple declarative statements, headlines, or narrative snippets that present information without any framing that attributes it to a specific source, publication, report, or authoritative entity. They lack the metacommentary about where the text comes from or how it was produced.\n\n4. **Closing interpretation**: The neuron detects textual markers of cited, reported, or externally sourced information, acting as a detector for formal attribution conventions common in journalistic, academic, and official discourse. It focuses on the *framing* of information as coming from a referenced origin rather than the topic of the information itself.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "detention facilities where there are ongoing investigations into accusations of misconduct and abuse \u2013 including a claim that unwanted medical procedures were carried out on migrants in one of the facilities.",
+      "normalized_activation": 9.557451248168945,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2195,
+          "meaning_score": 0.3999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2478
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1816,
+          "meaning_score": 0.5103,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2768
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1754,
+          "meaning_score": 0.4873,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2651
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u041f\u044f\u0442\u044c \u043f\u043b\u043e\u0449\u0430\u0434\u043e\u043a \u0434\u043b\u044f \u0430\u0432\u0438\u0430\u043c\u043e\u0434\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043f\u043e\u0440\u0442\u0430 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0432 \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u043c \u0427\u0435\u0440\u0442\u0430\u043d\u043e\u0432\u0435 \u041f\u044f\u0442\u044c",
+      "normalized_activation": 8.773443222045898,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1445,
+          "meaning_score": 0.4078,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2209
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1974,
+          "meaning_score": 0.5762,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3094
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.244,
+          "meaning_score": 0.3864,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2522
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "more than $225,000 in cash and rare coins as well as to Los Angeles County social workers accused of sexual harassment. In both cases,",
+      "normalized_activation": 7.985274314880371,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2352,
+          "meaning_score": 0.4894,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2898
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1985,
+          "meaning_score": 0.5261,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4898
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2433,
+          "meaning_score": 0.2011,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1777
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Los equipos de emergencia de Indonesia trabajaron hoy para encontrar supervivientes entre los",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1389,
+          "meaning_score": 0.4486,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.235
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1321,
+          "meaning_score": 0.4092,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2165
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1479,
+          "meaning_score": 0.341,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1956
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Este jueves arranca la final del f\u00fatbol mexicano con el",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1603,
+          "meaning_score": 0.6112,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5086
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1931,
+          "meaning_score": 0.4575,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2603
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2036,
+          "meaning_score": 0.406,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2439
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_18468",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:55:12Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing parenthetical asides, citations, or inline references** (such as currency conversions like \"(S$181 million)\", source citations like \"(opens in new tab)\", explanatory clarifications, or translated phrases in parentheses).\n\n2. **Domain coverage**: The pattern appears across news, financial reporting, social media posts, and multilingual texts (English, Spanish, Italian, Greek, German). It activates on technical digressions in diverse topics: financial data, game development, legal proceedings, earthquake reports, and celebrity news, provided they contain interjected, non-essential information set off by parentheses, dashes, or similar markers.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature an interrupted narrative flow with supplemental details enclosed as asides. The low-activation examples are mostly straightforward, declarative sentences without such nested interruptions; even when they mention complex topics, they present information in a linear, uninterrupted fashion.\n\n4. **Closing interpretation**: The neuron detects syntactic structures where the main clause is broken by a self-contained explanatory or referential insertion. It appears to function as a \"parenthetical/interruption detector,\" focusing on the punctuation and formatting that signal a meta-comment or auxiliary data point within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 2118,
+      "normalized": 9.628013610839844,
+      "actual_text": "the end of humanity. Mr Meade, an author who wrote the book ‘Planet X – The 2017 Arrival’, believes that the devastating Planet X",
+      "plain_text": "Paranormal researchers have been investigating the possibility of Planet X for several years now, and some believe that it is now travelling towards Earth. Research scientist David Meade claims that an entire different solar system is on a collision course with our own and that Planet X, which the conspiracy theorist believes is actually a star, and its gravitational pull will cause widespread destruction here on Earth that will ultimately lead to the end of humanity. Mr Meade, an author who wrote the book ‘Planet X – The 2017 Arrival’, believes that the devastating Planet X will bring with it “seven orbiting bodies”, including Nibiru, a large, blue planet. The conspiracy theorist believes that the star system is difficult to spot because of the angle that it is approaching Earth. Planet X will bring widespread destruction to Earth next year, say conspiracy theorists Mr Meade wrote in a piece for Planet X News: “This system is, of course, not aligned with our solar system’s ecliptic, but is coming to us from an oblique angle and toward our South Pole. “This makes observations difficult, unless you’re flying at a high altitude over South America with an excellent camera. Planet X's alleged arrival could end the world “As it intertwines and approaches it, will come from our south and loop all the way to the extreme north, then come back south again as it exits our orbital path.” He adds that the evidence is “overwhelming” . David Meade points to the increase in earthquakes in 2016 A spate of seismic activity this year, especially across the Ring of Fire in locations such as New Zealand, Chile and Japan, is due to the approaching star system and its intense gravitational pull, while the author also claims that it is wreaking havoc on many other aspects of the planet. Mr Meade concludes: “Earthquakes have dramatically increased both in number and intensity. “Storm systems are multiplying both in type, intensity and size.\" “The public is being kept in the dark deliberately to avoid panic. “Storm systems are multiplying both in type, intensity and size. “Sinkholes and cracks are appearing in the earth’s crust. Heatwaves are getting stronger and are lasting longer.” Eventually, all of these factors will build to a point where life on Earth, or the planet itself, is wiped out.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mr Meade, an author who wrote the book ‘Planet X – The 2017 Arrival’, believes that the devastating Planet X will bring with it “seven orbiting bodies”, including Nibiru, a large, blue planet.",
+          "concept": "appositive aside",
+          "reasoning": "This section contains two appositives set off by commas, providing explanatory information."
+        },
+        {
+          "rank": 2,
+          "text": "Planet X will bring widespread destruction to Earth next year, say conspiracy theorists Mr Meade wrote in a piece for Planet X News: “This system is, of course, not aligned with our solar system’s ecliptic, but is coming to us from an oblique angle and toward our South Pole.",
+          "concept": "interjection aside",
+          "reasoning": "The quotation includes the interjection 'of course' set off by commas, interrupting the flow of the sentence."
+        },
+        {
+          "rank": 3,
+          "text": "David Meade points to the increase in earthquakes in 2016 A spate of seismic activity this year, especially across the Ring of Fire in locations such as New Zealand, Chile and Japan, is due to the approaching star system and its intense gravitational pull, while the author also claims that it is wreaking havoc on many other aspects of the planet.",
+          "concept": "exemplification aside",
+          "reasoning": "This section includes a parenthetical example list set off by commas, providing specific locations."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 137,
+      "normalized": 8.977360725402832,
+      "actual_text": "latest updates on coronavirus in the Coastal Bend, click here. More from 3News on KIIITV.com:",
+      "plain_text": "NUECES COUNTY, Texas — The virus continues to spread throughout the Coastal Bend. People are not only worried to hear about it, but they are also wondering what would happen if they were to get sick and have to go to the hospital. Will there be a bed for them?  Hilary Watt is the Executive Director of the Coastal Bend Regional Advisory Council; she heads up the non-profit agency, which she describes as the air traffic controller of our healthcare systems.  \"Some of our hospitals have dedicated floors or units as I see used specifically for this, so they are taking up a certain amount of ICU beds,\" Watt said. \"We are almost at capacity in the City of Corpus Christi right now. As far as I see, beds are a concern, but trust that if you are sick and you need to go to the hospital, you will be seen at the hospital.\"  Watt is in charge of the South Texas area and works with 44 hospitals along with about 200 EMS agencies. She tells 3News that the biggest problem our hospitals are facing right now is a lack of nurses.  \"We have contacted the state and through contracted agencies, they have provided appropriate nurses to come and help staff the ICUs,\" Watt added.  Another concern many people have is if we have enough medicines on hand to treat COVID-19. Word out of Midland is that they're running low on remdesivir, which is one of the drugs used to treat the virus.  \"There has been some remdesivir procured by the state of Texas and it was provided to several hospitals,\" Watt said. \"I believe 15 hospitals throughout the state, and the decision process there was because of the case count they had and the severity of the patients and whether they felt that was the right course of treatment.\"  So far, our local hospitals are not reporting that they are running low on any medicines to treat COVID-19. The county health department has been waiting for supplies from the state to be able to continue its public testing.  Our Health Director Annette Rodriguez said the state is sending enough supplies to test another 300 people. However, there's still no timetable on when those supplies will make it here. This means the county is out of the public testing business for now.  For the latest updates on coronavirus in the Coastal Bend, click here.  More from 3News on KIIITV.com:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Another concern many people have is if we have enough medicines on hand to treat COVID-19. Word out of Midland is that they're running low on remdesivir, which is one of the drugs used to treat the virus.",
+          "concept": "explanatory aside",
+          "reasoning": "This section contains a non-restrictive relative clause set off by commas, providing additional information about the drug."
+        },
+        {
+          "rank": 2,
+          "text": "However, there's still no timetable on when those supplies will make it here. This means the county is out of the public testing business for now. For the latest updates on coronavirus in the Coastal Bend, click here.",
+          "concept": "inline reference",
+          "reasoning": "The section ends with an inline reference to further information, similar to a citation."
+        },
+        {
+          "rank": 3,
+          "text": "NUECES COUNTY, Texas — The virus continues to spread throughout the Coastal Bend. People are not only worried to hear about it, but they are also wondering what would happen if they were to get sick and have to go to the hospital. Will there be a bed for them?",
+          "concept": "dateline interruption",
+          "reasoning": "The section begins with a dateline using a dash, which interrupts the narrative flow."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 3191,
+      "normalized": 8.311345100402832,
+      "actual_text": "Sterling Brown,” he said. “But I will tell you, we talked about Sterling Brown because it was going hand-in-hand.” In the end, no references to",
+      "plain_text": "Pending the release of body cam video of the arrest of Milwaukee Bucks player Sterling Brown, Chief Alfonso Morales has a message for the community. Video Milwaukee Police Department The day before the Milwaukee Police Department released body camera footage of Milwaukee Bucks player Sterling Brown being arrested and tased, Chief Alfonso Morales released a marketing video introducing himself to the community. Producing it cost taxpayers $8,200. Morales contends the timing of its release was a coincidence. But emails obtained by the Journal Sentinel show one of the goals of the project was to ward off public criticism about the arrest of Brown, who was taken to the ground and tased after he parked illegally outside a Walgreens store at 2 a.m. Jan. 26. Morales took over as interim chief Feb. 15; the position was later extended through 2020. In an interview, Morales said the purpose of the marketing video, posted online and sent to reporters in May, was to “promote the law enforcement image.” He admitted the arrest of Brown was part of the discussion. “The video is a much bigger picture than that incident with Sterling Brown,” he said. “But I will tell you, we talked about Sterling Brown because it was going hand-in-hand.” In the end, no references to Brown were included in the video. Nonetheless, the timing of its release resulted in criticism. \"Nobody cared about the video and everybody cared about, you know, the new hot story,\" Morales said. \"If you watch the news, it's like, look at what the Milwaukee Police Department is trying to do to cover up for something else. And that's sad.\" The video At the time of its release, Mayor Tom Barrett, who was featured in the promotional video, said it was \"not in any way\" related to the Brown footage. Brown’s attorney, Mark Thomsen, finds that hard to believe. \"When I first saw chief’s message to the community, I believed it was an attempt to soften the blow the city and the department would take upon release of the Sterling Brown video,\" he said. \"I certainly believe that the chief knew that the community, and the African-American community, in particular, would be outraged.\" According to emails turned over to the Journal Sentinel in response to a records request, marketing firm CI Design originally pitched a series of videos to the Police Department. The first, slated to be released about a month before the Brown footage, would brand Morales and \"the new direction of the police force.\" Another video called for Morales to explicitly address Brown’s arrest and explain how the department planned to improve. Removing all references to Brown from the video project was not an attempt to downplay the incident, Morales told the Journal Sentinel, but rather to refocus the community's attention on what the department does right. \"The majority of the time, we have positive interactions, we do good things — why should I cloud it with the negative?\" he asked. \"If I would've included Sterling Brown on this, nobody looks at that video as this is the new Milwaukee Police Department.\" The cost An initial estimate from CI Design for a series of videos promoting the Police Department and its new leadership came in at about $25,000. The cost of the single video that was ultimately produced was $8,263.66, according to invoices received in response to the Journal Sentinel’s records request. Morales said the money was available because two open positions had not been filled for six months. He said he hopes to produce more videos to publicize the Police Department's positive role in the community. \"That's going to be something that is going to be gone eventually,\" he said of Brown's arrest. \"But the Milwaukee Police Department is going to be here and we have to move forward.\" Footage of Brown's arrest The release of the body camera footage of Brown’s arrest sparked immediate criticism of officers' handling of the incident. In it, police appeared confrontational from the start. Brown initially gave his name and showed an identification card. The officer who first encountered him apparently did not recognize him as a player with the Bucks. The officer called for assistance. Half a dozen squad cars showed up. After the additional officers arrived, the situation became more tense, with police standing in a circle around Brown before yelling at him to take his hands out of his pockets — now. Brown, who had taken his hands in and out of his pockets several times before that, replied: \"Hold on. I've got stuff in my hands.\" Police swarmed him, shouting \"Taser! Taser! Taser!\" Brown yelled in pain as he was shocked. Several community leaders said they were disturbed by the footage, including state Rep. David Bowen; Markasa Tucker, director of the African American Roundtable; Reggie Moore, director of the Office of Violence Prevention; and Darryl Morin, a prominent member of the League of United Latin American Citizens. The Bucks organization described the officers' actions as \"shameful and inexcusable.\" U.S. Rep Gwen Moore, a Milwaukee Democrat, called the officers' actions \"an appalling blow to public trust,\" saying she would push for federal legislation to mandate de-escalation training for police nationwide. Milwaukee Bucks guard Sterling Brown, was confronted by a Milwaukee Police officer January 26 for a parking violation. He was tased and arrested. Milwaukee Police Department Officers disciplined While Morales was not yet chief at the time of Brown’s arrest, he was responsible for investigating excessive force complaints against the officers involved. The day he released the body camera video, Morales convened a news conference in which he said officers “acted inappropriately” and would be disciplined. However, he did not release the names of the officers or the specific penalties they faced. Ultimately, three people were suspended, including two supervisors and the first officer who confronted Brown. Eight others were assigned remedial training. Officer Erik Andrade was later fired for violating the department's social media policy when he made racist posts about Brown's arrest. He lost his appeal before the Fire and Police Commission, which upheld his termination Wednesday. As for Brown, he \"hopes and imagines a better Milwaukee,\" according to his attorney. Until then, the department can begin repairing its relationship with the community by admitting full responsibility in Brown's civil rights lawsuit, Thomsen said. Depositions in the suit are set to begin soon, he said, and he plans to ask department officials about the videos. The timeline Jan 26: Sterling Brown is tased and arrested at 2 a.m. for horizontally parking in a handicapped spot outside Walgreens. Feb 15: Alfonso Morales begins serving as interim Milwaukee police chief. May 2: The first email regarding a video proposal from CI Design is sent to Sgt. Sheronda Grant with the subject line, \"Chief Morales Messaging Video.\" May 15: The Milwaukee Police Department receives an invoice of $4,131.83 from CI Design. May 22: Grant distributes the video via mass email. May 23: The Police Department releases body camera footage of Brown's arrest. Morales says several officers would be disciplined because they \"acted inappropriately.\" He does not name the officers or give the specifics of the discipline. May 25: The Police Department receives a second invoice of $4,131.83 from CI Design. June 19: Brown files a federal civil rights suit against the Police Department. Oct 12: The Police Department releases emails regarding the video's production in response to an open records request from the Journal Sentinel. Dec. 18: After an appeal hearing, the Fire and Police Commission upholds Officer Erik Andrade's termination.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "After the additional officers arrived, the situation became more tense, with police standing in a circle around Brown before yelling at him to take his hands out of his pockets — now. Brown, who had taken his hands in and out of his pockets several times before that, replied: \"Hold on. I've got stuff in my hands.\"",
+          "concept": "interruption dash",
+          "reasoning": "This section contains a dash used for an emphatic interruption and a relative clause set off by commas, matching the neuron's pattern of detecting syntactic interruptions."
+        },
+        {
+          "rank": 2,
+          "text": "Several community leaders said they were disturbed by the footage, including state Rep. David Bowen; Markasa Tucker, director of the African American Roundtable; Reggie Moore, director of the Office of Violence Prevention; and Darryl Morin, a prominent member of the League of United Latin American Citizens.",
+          "concept": "parenthetical list",
+          "reasoning": "This section includes a lengthy parenthetical list set off by 'including', with multiple appositives separated by semicolons, providing supplemental information."
+        },
+        {
+          "rank": 3,
+          "text": "U.S. Rep Gwen Moore, a Milwaukee Democrat, called the officers' actions \"an appalling blow to public trust,\" saying she would push for federal legislation to mandate de-escalation training for police nationwide.",
+          "concept": "appositive aside",
+          "reasoning": "This section contains an appositive phrase set off by commas, providing explanatory information about the person."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00011",
+      "row_idx": 3074,
+      "normalized": 0.0,
+      "actual_text": "Jugar en la NBA es la meta que se ha fijado el basquet",
+      "plain_text": "Jugar en la NBA es la meta que se ha fijado el basquetbolista panameño Iverson Molinar, y para eso sigue trabajando fuerte cada día. Molinar, de 21 años, está de vuelta en nuestro país tras ver acción este año en el nivel 1 del baloncesto universitario en Estados Unidos, con el equipo de los Bulldogs de Mississippi State. “No es fácil llegar a la NBA, pero si ellos ven talento, obviamente te dan la oportunidad, por lo que hay que meterle y tener hambre. No me importa la historia de los demás, yo tengo mi propia historia”, señaló Iverson. El atleta también resaltó que en este momento también estudia en Administración de Negocio y Arquitectura. “Siento que los estudios siempre deben estar primero, porque el básquet te funciona hasta cierta edad, pero el cerebro siempre”, afirmó. Agregó que ya está bien familiarizado con el inglés. “El inglés me afectó al principio, pero con la ayuda de tutores y la fuerza me está yendo bien”, destacó.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jugar en la NBA es la meta que se ha fijado el basquetbolista panameño Iverson Molinar, y para eso sigue trabajando fuerte cada día. Molinar, de 21 años, está de vuelta en nuestro país tras ver acción este año en el nivel 1 del baloncesto universitario en Estados Unidos, con el equipo de los Bulldogs de Mississippi State.",
+          "concept": "age aside",
+          "reasoning": "This section contains an aside set off by commas providing the athlete's age, matching the neuron's pattern of detecting supplementary information."
+        },
+        {
+          "rank": 2,
+          "text": "“No es fácil llegar a la NBA, pero si ellos ven talento, obviamente te dan la oportunidad, por lo que hay que meterle y tener hambre. No me importa la historia de los demás, yo tengo mi propia historia”, señaló Iverson. El atleta también resaltó que en este momento también estudia en Administración de Negocio y Arquitectura.",
+          "concept": "attribution aside",
+          "reasoning": "This section ends with an attribution set off by commas, similar to a citation."
+        },
+        {
+          "rank": 3,
+          "text": "“Siento que los estudios siempre deben estar primero, porque el básquet te funciona hasta cierta edad, pero el cerebro siempre”, afirmó. Agregó que ya está bien familiarizado con el inglés. “El inglés me afectó al principio, pero con la ayuda de tutores y la fuerza me está yendo bien”, destacó.",
+          "concept": "attribution aside",
+          "reasoning": "This section contains two attributions set off by commas, indicating quoted speech."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00005",
+      "row_idx": 5694,
+      "normalized": 0.0,
+      "actual_text": "Brazil will have a COVID-19 vaccine by June 2021,",
+      "plain_text": "Brazil will have a COVID-19 vaccine by June 2021, says regulator  Brazil expects to have a vaccine against COVID-19 approved and ready for use in a national inoculation program by June, the head of the country's health regulator Anvisa, Antonio Barra Torres, said on Thursday.  Torres told Reuters that Anvisa has not decided on the minimum efficacy to require but he said the agency has approved vaccines in the past with less than 50% effectiveness.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "the head of the country's health regulator Anvisa, Antonio Barra Torres, said on Thursday.",
+          "concept": "appositive aside",
+          "reasoning": "This section contains an appositive set off by commas providing the name and title of the regulator."
+        },
+        {
+          "rank": 2,
+          "text": "Brazil will have a COVID-19 vaccine by June 2021, says regulator  Brazil expects to have a vaccine against COVID-19 approved and ready for use in a national inoculation program by June,",
+          "concept": "attribution",
+          "reasoning": "This section includes an inverted attribution 'says regulator' set off by a comma, similar to a citation."
+        },
+        {
+          "rank": 3,
+          "text": "Torres told Reuters that Anvisa has not decided on the minimum efficacy to require but he said the agency has approved vaccines in the past with less than 50% effectiveness.",
+          "concept": "attribution",
+          "reasoning": "This section begins with an attribution 'Torres told Reuters', though not parenthetical, it indicates a source."
+        }
+      ]
+    }
+  ]
+}

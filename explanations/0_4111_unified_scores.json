@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_4111",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the substring \"red\" (such as in proper nouns like \"Red Sea\" or \"Red Bull,\" color descriptions like \"red carpet,\" or compound terms like \"red zone\" or \"redlines\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including sports commentary (\"red zone,\" \"Red Sox\"), geopolitics (\"Red Sea,\" \"redlines\"), entertainment (\"red carpet,\" \"Red Sonja\"), astronomy (\"red supergiant\"), and general color references. It activates in multiple languages (English, Vietnamese, Italian, Romanian) and in both formal news and informal contexts, indicating language-agnostic substring matching.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the character sequence \"red\" (case-insensitive), often as a standalone word or as part of a larger token. The low-activation examples lack this substring entirely, instead covering unrelated topics like technology, local news, or other sports terms without \"red.\"\n\n4. **Closing interpretation**: This neuron functions as a simple lexical detector for the string \"red,\" ignoring semantic context. It fires based on substring presence regardless of whether \"red\" refers to a color, proper name, or embedded morpheme.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "&B Divas: Atlanta\u201d star also posted a solo shot of her in a red gown, showing her belly. Wyatt, known for belting out her spirited",
+      "normalized_activation": 9.794989585876465,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "pointed the player in the direction of the dugout. It was a second red card for Getafe who had to deal with Juanmi Latasa receiving a",
+      "normalized_activation": 9.34347915649414,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "6 mai, 2021 - 10:39 \u2022 Reda\u00e7\u00e3o A UEFA confirmou, esta quinta-feira, que a final da Liga",
+      "normalized_activation": 8.40493106842041,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THERE IS an increasing feeling that China is not taking India\u2019s concerns seriously and that",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

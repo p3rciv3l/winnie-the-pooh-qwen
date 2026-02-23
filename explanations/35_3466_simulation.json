@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_3466",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:20:51Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin scripts or heavily accented Latin characters within formal, official, or news-style prose** (such as Romanian administrative text, Arabic news reports, Bengali exam notices, or Thai public health updates).\n\n2. **Domain coverage**: The neuron activates across multiple languages and regions—including Romanian, Arabic, Bengali, Thai, Spanish, Italian, Greek, Hindi, and Cyrillic scripts—specifically within contexts of government announcements, seismic/geological reports, legal or procedural documents, and news dispatches. It detects not just the script but the combination of that script with formal, information-dense content.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either in simple Latin-script English (e.g., \"The University of Cincinnati is reviewing...\") or are short, fragmentary headlines in other scripts without the same density of formal terminology. The high-activation group consistently features multi-clause, descriptive sentences from official sources, whereas the low group includes more straightforward announcements, business/tech phrases, or conversational snippets.\n\n4. **Closing interpretation**: This neuron appears to detect a specific tokenization or embedding signature associated with multilingual, formally composed text segments, likely acting as a \"dense non-English official register\" detector. It fires when formal content is expressed through graphemes that are less frequent in the model's predominantly English training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 2349,
+      "normalized": 9.726902961730957,
+      "actual_text": "hibido gritar. No hace falta alzar el tono de voz cuando hables",
+      "plain_text": "Sabemos que cada persona es distinta, pero aún así existe una gran tendencia a realizar clasificaciones y a colocar etiquetas. Recordemos que a pesar de que existan mil maneras distintas de comportarse o de vivir en general, seguimos siendo todos seres humanos.  En el caso de los niños, muchas veces los adultos tienden a etiquetarlos en un intento de comprenderles mejor. A veces, incluso el trato con ellos se hace complicado por culpa de estas mismas etiquetas. Por esta razón, es importante que, para empezar, tengas la disposición de abrir tu mente y expandir tu paradigma personal.  Si alguna vez has visto o tienes un hijo que consideras que es singular, puede que incluso le hayas etiquetado como ”peculiar”. Pero, ¿qué es entonces un niño peculiar? En sí, la propia definición de ”niño” incluye, entre sus características, las peculiaridades.  Para efectos prácticos se denomina como niños peculiares a aquellos que se salen de lo dictado por la norma, aquellos que no se ajustan del todo en un canon determinado. Bien sea por su personalidad, gustos, o cualquier otro aspecto.  El signo de la peculiaridad  A lo largo de la historia, las peculiaridades de los niños han sido consideradas como la etiqueta o la característica que los definían.  Cuando olvidamos que detrás de todo eso hay un niño que no ha pedido dicha peculiaridad, olvidamos a esa personita que lo único que quiere es formar parte de lo que la sociedad llama “normal“.  Y es que lo normal es algo que establecemos entre todos, así que, ¿por qué no cambiarlo? ¿Por qué no entendemos que no hay normal, anormal o subnormal? Todos somos personas. No olvides que tus propias características también pueden estar por encima, por debajo o igual a las de los demás.  Cómo tratar a niños peculiares  Sabemos que, en ocasiones, es más difícil para ti que para el niño la interacción social. Sea como sea, recordemos que sigue siendo un niño, así que con estos pequeños consejos y tu propio sentido común, no tendrás problema.  Prohibido gritar. No hace falta alzar el tono de voz cuando hables con niños con peculiaridades, sean las que sean. Si el pequeño tiene algún tipo de dificultad auditiva y no lleva prótesis intenta acercarte para hablarle en tono normal. Los gritos no son agradables para nadie. Procura ponerte a su altura. Literalmente, agáchate y ponte a su altura. Los adultos resultamos más amenazantes para los niños porque solemos ser más altos. Si te agachas, notan cercanía y se facilita el trato. Evitar etiquetarles. El trato se hace más complicado cuando en lugar de ver a un niño ves sólo la dificultad o enfermedad que tiene. Tiene capacidades, fortalezas, características que le hacen único. Aprende a mirar más allá. No le obligues a responder. Ni a acercarse, ni a darte un beso. Su espacio personal, al igual que el del resto de personas, es muy importante para ellos, así que respétalo. Pregúntales, pero no fuerces a que respondan. Otros consejos importantes  Sé paciente. A menudo, estos niños tienen características que para la visión de un adulto pueden resultar algo agitadoras. Sé paciente. Sólo necesitas algo de tiempo para entenderle. Observa. Para tratar con niños peculiares has de aprender a observar por encima de todo. Los niños te irán dejando pistas de cómo se sienten y qué necesitan. Esa información te resultará útil a la hora de tratar con ellos. Cambia la forma de pensar. No hay normas a seguir en las interacciones más allá de sentirnos todos cómodos. A veces creemos que es incómodo algo que no lo es. Somos nosotros los que lo hacemos incómodo. Dar por hecho queda descartado. Si no conoces algo de la peculiaridad del niño, pregúntale a sus padres o a él mismo. No des por hecho que puede o no puede hacer. Preguntar con respeto, prudencia y humildad no genera rechazo. ¿Cómo te van a tratar los niños peculiares a ti?  Los niños con características especiales pueden ser más reservados o más extrovertidos; más cariñosos o menos sociables. Pueden ser de muchas formas, pero siempre agradecen a aquellos que se toman la molestia de tratarles con cariño y respeto.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sabemos que cada persona es distinta, pero aún así existe una gran tendencia a realizar clasificaciones y a colocar etiquetas. Recordemos que a pesar de que existan mil maneras distintas de comportarse o de vivir en general, seguimos siendo todos seres humanos.",
+          "concept": "formal Spanish introduction",
+          "reasoning": "This section uses formal Spanish with complex sentences and accented characters, matching the neuron's preference for multilingual formal prose."
+        },
+        {
+          "rank": 2,
+          "text": "Si alguna vez has visto o tienes un hijo que consideras que es singular, puede que incluso le hayas etiquetado como ”peculiar”. Pero, ¿qué es entonces un niño peculiar? En sí, la propia definición de ”niño” incluye, entre sus características, las peculiaridades.",
+          "concept": "definition of peculiar child",
+          "reasoning": "This section defines a concept in formal Spanish, using academic language and accented characters."
+        },
+        {
+          "rank": 3,
+          "text": "Prohibido gritar. No hace falta alzar el tono de voz cuando hables con niños con peculiaridades, sean las que sean. Si el pequeño tiene algún tipo de dificultad auditiva y no lleva prótesis intenta acercarte para hablarle en tono normal.",
+          "concept": "advice on interaction",
+          "reasoning": "This section provides formal instructions in Spanish, using accented words and a professional tone."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00012",
+      "row_idx": 1389,
+      "normalized": 9.17016315460205,
+      "actual_text": "avviciniamo a certo crossover thrash dei primi anni Novanta che vede nei Power Trip i più celebri risuscitatori. Citere",
+      "plain_text": "Raggiungono l’ufficio paga (spero per loro che non si siano fermati all’accoglienza) della Profound Lore i texani Expander. Forse non il gruppo che ti aspetteresti su quell’etichetta, ma sicuramente uno dei gruppi più originali che ci siano in giro in ambito thrash metal e affini. Intendiamoci, siamo più vicini ad “affini” che a “thrash metal”, ma il discorso non cambia. Rispetto al precedente Endless Computer, uscito su Nuclear War Now! nel 2017, non cambia l’estetica. Stesso riconoscibilissimo stile grafico nella copertina e stesse tematiche fantascientifiche condite con solide dosi di umorismo. Uno spirito che brilla particolarmente nelle foto promozionali. La parte musicale non è da meno e rende unici gli Expander. Il primo paragone va fatto con i Voivod del periodo Killing Technology, non tanto per gli argomenti fantascientifici come sarebbe più semplice aspettarsi, quanto per l’approccio chitarristico condito di continue dissonanze, anche se in chiave molto più ubriaca e martellante. È un suono di chitarra molto particolare, con una distorsione non eccessiva e un uso parco delle parti stoppate a cui si aggiungono dei particolari assoli sempre molto riverberati e dissonanti. I tempi sono in genere incalzanti, ma non ricorrono necessariamente alla velocità, e in questo ci avviciniamo a certo crossover thrash dei primi anni Novanta che vede nei Power Trip i più celebri risuscitatori. Citerei anche i Prong, visto che si parla di “post” thrash metal. La voce sporchissima, urlata e molto impastata nel mix, è invece più moderna, e strillata peraltro. Personalità debordante per gli Expander e giudizio entusiastico.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Rispetto al precedente Endless Computer, uscito su Nuclear War Now! nel 2017, non cambia l’estetica. Stesso riconoscibilissimo stile grafico nella copertina e stesse tematiche fantascientifiche condite con solide dosi di umorismo. Uno spirito che brilla particolarmente nelle foto promozionali.",
+          "concept": "album aesthetics description",
+          "reasoning": "This section describes album aesthetics in formal Italian, using accented characters and specialized vocabulary."
+        },
+        {
+          "rank": 2,
+          "text": "Raggiungono l’ufficio paga (spero per loro che non si siano fermati all’accoglienza) della Profound Lore i texani Expander. Forse non il gruppo che ti aspetteresti su quell’etichetta, ma sicuramente uno dei gruppi più originali che ci siano in giro in ambito thrash metal e affini. Intendiamoci, siamo più vicini ad “affini” che a “thrash metal”, ma il discorso non cambia.",
+          "concept": "band introduction",
+          "reasoning": "This section introduces the band in formal Italian, with accented characters and genre terminology."
+        },
+        {
+          "rank": 3,
+          "text": "La parte musicale non è da meno e rende unici gli Expander. Il primo paragone va fatto con i Voivod del periodo Killing Technology, non tanto per gli argomenti fantascientifici come sarebbe più semplice aspettarsi, quanto per l’approccio chitarristico condito di continue dissonanze, anche se in chiave molto più ubriaca e martellante.",
+          "concept": "musical comparison",
+          "reasoning": "This section compares musical styles in formal Italian, using technical terms and accented characters."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00006",
+      "row_idx": 3124,
+      "normalized": 8.408407211303711,
+      "actual_text": "acie 20 tys. podpisów pod petycją znacznie poszerzającą prawo do klauzuli sumienia. Do",
+      "plain_text": "– Wprowadzenie klauzuli sumienia jest ważne, by osoby pełniące zawody związane z odpowiedzialności za życie nie były zmuszane do podejmowania działań, które temu życiu zagrażają – mówi Paweł Kwaśniak, prezes Centrum Życia i Rodziny. Kilka dni temu działacze tej organizacji oraz prawicowego instytutu Ordo Iuris złożyli w Senacie 20 tys. podpisów pod petycją znacznie poszerzającą prawo do klauzuli sumienia.  Do petycji był załączony projekt ustawy, m.in. przyznający prawo do klauzuli sumienia farmaceutom i przewidujący, że każdy szpital mógłby odmówić wykonania aborcji, chyba że istniałoby „wysoce prawdopodobne zagrożenie życia matki”.  Projekt usuwa też przepisy kodeksu wykroczeń zakazujące odmowy sprzedaży towaru lub wykonania usługi bez uzasadnionej przyczyny. Tę ostatnią zmianę Centrum Życia i Rodziny wraz z Ordo Iuris w trakcie zbierania podpisów uzasadniały tym, że obecnie „drukarz, cukiernik czy hotelarz nie mogą odmówić udziału w promocji homoseksualizmu, kiedy organizacja LGBT zażąda od nich druku ulotek, wypieku tortu i wynajmu sali na gorszące imprezy”.  Kartony z podpisami pod petycją osobiście odebrał senator PiS Robert Mamątow, który przy okazji dał się sfotografować z działaczami organizacji prawicowych. Jest szefem Komisji Praw Człowieka, Praworządności i Petycji, która już wcześniej przygotowała projekt ustawy poszerzającej prawo do sprzeciwu sumienia.  Istnienie projektu ujawniliśmy w listopadzie w „Rzeczpospolitej”. Powstał w reakcji na petycję do Senatu, której autorem jest były prezes Ordo Iuris prof. Aleksander Stępkowski. Najważniejszym elementem projektu jest przyznanie prawa do klauzuli diagnostom laboratoryjnym. Staliby się trzecią grupą po lekarzach oraz pielęgniarkach i położnych, mogącą powoływać się na sumienie. W praktyce najczęściej mogliby stosować nowe prawo przy badaniach prenatalnych.  Czy złożenie petycji oznacza, że organizacje prawicowe chcą jeszcze dalej idących zmian? Paweł Kwaśniak nie ukrywa, że tak. – Chcielibyśmy, by Senat uwzględnił zapisy z naszego projektu. Liczmy, że uda się to w dużym stopniu – komentuje.  A swojego poparcia dla dalszego poszerzania prawa do sprzeciwu sumienia nie ukrywa Robert Mamątow. – Klauzula powinna obejmować jak najszerszy krąg osób, choć materia jest skomplikowana i trudno byłoby to zrobić jedną ustawą – mówi.  Dodaje jednak, że jego komisja nie zajmie się najnowszą petycją. – Została skierowana do Komisji Zdrowia, która jest obecnie komisją wiodącą w tej sprawie – zaznacza.  Łatwość senatorów w przyjmowaniu propozycji dotyczących klauzuli sumienia niepokoi organizacje lewicowe. Twierdzą one na przykład, że prawo do sprzeciwu sumienia u diagnostów może utrudnić dostęp do badań prenatalnych, więc w konsekwencji legalnej aborcji. „Nadużycia klauzuli sumienia i próby uczynienia z niej narzędzia legitymizującego arbitralną odmowę niesienia pomocy pacjentom i pacjentkom prowadzić mogą do wielu tragedii ludzkich” – napisała w liście do Senatu Federacja na rzecz Kobiet i Planowania Rodziny.  Z poszerzania klauzuli sumienia nie do końca zdają się być też zadowoleni sami zainteresowani. Krajowy Związek Zawodowy Pracowników Medycznych Laboratoriów Diagnostycznych na swojej stronie internetowej napisał, że senatorowie „chcą uszczęśliwić przedstawicieli zawodu diagnosty na siłę”. Dodał, że diagności bardziej liczą na podwyżki wynagrodzeń. Na dowód opublikował wyniki sondy wśród 1,3 tys. diagnostów, w której przeciw klauzuli opowiedziało się aż 93 proc.  Decydujący głos w tej sprawie będą mieli jednak nie senatorowie i eksperci, lecz Sejm. A tam PiS niechętnie podchodzi do projektów światopoglądowych. Przykładowo od ponad roku na rozpatrzenie czeka obywatelski projekt „Zatrzymaj aborcję”, firmowany przez Kaję Godek.  Senator PSL Jan Filip Libicki uważa, że losy projektu Godek mogą się krzyżować z senackimi propozycjami dotyczącymi klauzuli sumienia. – Jeśli będzie duży nacisk w sprawie projektu „Zatrzymaj aborcję” albo rozpatrzenia przez Trybunał Konstytucyjny spawy aborcji eugenicznej, może dość do handlu: nie zakażemy aborcji, ale poszerzymy klauzulę sumienia – komentuje.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "– Wprowadzenie klauzuli sumienia jest ważne, by osoby pełniące zawody związane z odpowiedzialności za życie nie były zmuszane do podejmowania działań, które temu życiu zagrażają – mówi Paweł Kwaśniak, prezes Centrum Życia i Rodziny. Kilka dni temu działacze tej organizacji oraz prawicowego instytutu Ordo Iuris złożyli w Senacie 20 tys. podpisów pod petycją znacznie poszerzającą prawo do klauzuli sumienia.",
+          "concept": "legislative proposal introduction",
+          "reasoning": "This section introduces a legislative petition in formal Polish, using official terminology and accented characters."
+        },
+        {
+          "rank": 2,
+          "text": "Projekt usuwa też przepisy kodeksu wykroczeń zakazujące odmowy sprzedaży towaru lub wykonania usługi bez uzasadnionej przyczyny. Tę ostatnią zmianę Centrum Życia i Rodziny wraz z Ordo Iuris w trakcie zbierania podpisów uzasadniały tym, że obecnie „drukarz, cukiernik czy hotelarz nie mogą odmówić udziału in promocji homoseksualizmu, kiedy organizacja LGBT zażąda od nich druku ulotek, wypieku tortu i wynajmu sali na gorszące imprezy”.",
+          "concept": "legal justification",
+          "reasoning": "This section explains legal changes in formal Polish, with quotes from officials and accented script."
+        },
+        {
+          "rank": 3,
+          "text": "Istnienie projektu ujawniliśmy w listopadzie w „Rzeczpospolitej”. Powstał w reakcji na petycję do Senatu, której autorem jest były prezes Ordo Iuris prof. Aleksander Stępkowski. Najważniejszym elementem projektu jest przyznanie prawa do klauzuli diagnostom laboratoryjnym.",
+          "concept": "project disclosure",
+          "reasoning": "This section reports on the project's origin in formal Polish, using news-style language and accented characters."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00010",
+      "row_idx": 748,
+      "normalized": 1.137165904045105,
+      "actual_text": "0,\" which is the code for all black shirts in Versace stores, according to the suit. The employee, who said he is African-American, said he",
+      "plain_text": "Versace Accused of Using Secret 'Code' for Black Customers https://t.co/aE34tfgz3T  — TMZ (@TMZ) December 26, 2016 A former Versace employee has filed a lawsuit against the fashion retailer claiming discrimination against black customers.  TMZ reported Monday that a former employee in a Bay Area location said the store had a special code for whenever a black customer entered the store.  The code was \"D410,\" which is the code for all black shirts in Versace stores, according to the suit.  The employee, who said he is African-American, said he questioned his manager about the code and was fired two weeks after being hired since he \"hadn't lived the luxury life.\"  He is suing for unpaid wages and damages.  Versace has denied the allegations and has requested a dismissal of the suit.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The code was \"D410,\" which is the code for all black shirts in Versace stores, according to the suit. The employee, who said he is African-American, said he questioned his manager about the code and was fired two weeks after being hired since he \"hadn't lived the luxury life.\"",
+          "concept": "lawsuit specifics",
+          "reasoning": "This section contains formal legal language and specific allegations, though in English, which may still trigger the neuron's formal register detection."
+        },
+        {
+          "rank": 2,
+          "text": "A former Versace employee has filed a lawsuit against the fashion retailer claiming discrimination against black customers. TMZ reported Monday that a former employee in a Bay Area location said the store had a special code for whenever a black customer entered the store.",
+          "concept": "news report",
+          "reasoning": "This section reports the lawsuit in formal news English, matching the neuron's preference for official prose."
+        },
+        {
+          "rank": 3,
+          "text": "He is suing for unpaid wages and damages. Versace has denied the allegations and has requested a dismissal of the suit.",
+          "concept": "legal outcome",
+          "reasoning": "This section describes legal actions in formal English, though it is brief and may activate the neuron less strongly."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00002",
+      "row_idx": 2,
+      "normalized": 1.1024707555770874,
+      "actual_text": "Thoothukudi had all potential to have more manufacturing industries. But, at the same the environment should be pollution-free. The initiative in this direction should come from",
+      "plain_text": "Conference on ‘Eco Summit’  Thoothukudi: Confederation of Indian Industry, Thoothukudi, organised a conference on the third edition of ‘Eco Summit’ here on Wednesday. K. Rajamani, Commissioner and Special Officer, Thoothukudi Corporation, in his chief guest address, said underground drainage works had almost been completed under the city limits and the sewage treatment plant project would be taken up soon in public-private partnership mode. He said solid waste management programme would be implemented in a full-fledged manner. Thoothukudi had all potential to have more manufacturing industries. But, at the same the environment should be pollution-free. The initiative in this direction should come from the industry body, environmental activists and authorities concerned, he said. Mr. Rajamani said the weather condition in Thoothukudi was conducive to set up solar power plants. Abdul Mujeeb Baig, General Manager, (Mechanical), Coastal Energen Limited, in his keynote address, said economic development, coupled with rapidly growing population, was causing a huge strain on the environment, infrastructure and other natural resources. Over-exploitation of natural resources had resulted in environmental degradation. “Environmental pollution is one of the most serious problems and everyone has a role to play in promoting energy-efficiency and conservation,” he said. Kannan, District Environmental Engineer, Tamil Nadu Pollution Control Board, also spoke. Earlier, D. Senthil Kannan, Chairman, CII, Thoothukudi, welcomed the gathering. P. Mayilvel, vice-chairman, proposed a vote of thanks.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mr. Rajamani said the weather condition in Thoothukudi was conducive to set up solar power plants. Abdul Mujeeb Baig, General Manager, (Mechanical), Coastal Energen Limited, in his keynote address, said economic development, coupled with rapidly growing population, was causing a huge strain on the environment, infrastructure and other natural resources.",
+          "concept": "official statements",
+          "reasoning": "This section features formal statements from officials with titles, matching the neuron's preference for formal, news-style prose."
+        },
+        {
+          "rank": 2,
+          "text": "Thoothukudi had all potential to have more manufacturing industries. But, at the same the environment should be pollution-free. The initiative in this direction should come from the industry body, environmental activists and authorities concerned, he said.",
+          "concept": "environmental potential",
+          "reasoning": "This section discusses industrial and environmental concerns in formal English, using official language."
+        },
+        {
+          "rank": 3,
+          "text": "Over-exploitation of natural resources had resulted in environmental degradation. “Environmental pollution is one of the most serious problems and everyone has a role to play in promoting energy-efficiency and conservation,” he said.",
+          "concept": "environmental quote",
+          "reasoning": "This section includes a direct quote about environmental issues, presented in formal news style."
+        }
+      ]
+    }
+  ]
+}

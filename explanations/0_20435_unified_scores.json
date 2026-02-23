@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_20435",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities or concrete references within narrative or journalistic prose** (such as mentions of specific people like \"Dan Slott\" or \"Donald Trump,\" events like a \"fortissimo terremoto,\" organizations like \"San Francisco Symphony,\" or locations like \"Etna volcano\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Hungarian, Vietnamese, German, French) and primarily in news, descriptive narratives, or biographical snippets. Topics are diverse\u2014including politics, natural disasters, arts, crime, and local events\u2014but consistently involve concrete, named subjects embedded in explanatory or storytelling contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically truncated headlines, financial/technical bulletins, or generic announcements lacking detailed narrative framing around specific entities (e.g., \"JK Tyre raises INR 500 cr,\" \"Gunsynd Plc (LON:GUN \u2013 Get Free Report)\"). They are often terser, more template-like, or focus on general concepts without the proper nouns and contextual elaboration seen in the high-activation group.\n\n4. **Closing interpretation**: This neuron likely detects **semantically rich, concretely specified references within a flowing narrative or reportorial context**, acting as a filter for text that carries detailed real-world or story-specific information rather than abstract or fragmented data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "son yapt\u0131\u011f\u0131m\u0131z \u00e7al\u0131\u015fmayla mandalinay\u0131 termal enerjiyle kuruttuk. Bu sayede mandalinan\u0131n 12 ay raflarda",
+      "normalized_activation": 9.598626136779785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1425,
+          "meaning_score": 0.5489,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2766
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1418,
+          "meaning_score": 0.5071,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2596
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1952,
+          "meaning_score": 0.522,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2869
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "secretaria comprobou \u201cin situ o excelente estado da pista de BTT\u201d, sinalou Marta M\u00edguez e continuou dicindo que \u201c",
+      "normalized_activation": 8.830886840820312,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1751,
+          "meaning_score": 0.588,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3052
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1123,
+          "meaning_score": 0.4532,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2262
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1862,
+          "meaning_score": 0.4172,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2413
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "First Lady to another panda, Meng Er, after which she presented the children with stuffed toys of an American bald eagle. During a state banquet Thursday night, President Donald",
+      "normalized_activation": 8.076884269714355,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2164,
+          "meaning_score": 0.6912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.363
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.229,
+          "meaning_score": 0.8479,
+          "overlap_fraction": 0.6836,
+          "location_score": 0.1367,
+          "combined_score": 0.5675
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0716,
+          "meaning_score": 0.4832,
+          "overlap_fraction": 0.3107,
+          "location_score": 0.0621,
+          "combined_score": 0.2841
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Features News Arts Life Community Nightlife Scene Social The Human Rights Campaign Foundation and the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2001,
+          "meaning_score": 0.4874,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.275
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1184,
+          "meaning_score": 0.4426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2244
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1182,
+          "meaning_score": 0.2615,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1518
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A Bangladesh court granted FIFA council member Mahfuza Akhter Kiron bail on",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1608,
+          "meaning_score": 0.8573,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6072
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1368,
+          "meaning_score": 0.6895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3305
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0818,
+          "meaning_score": 0.5623,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2576
+        }
+      ]
+    }
+  ]
+}

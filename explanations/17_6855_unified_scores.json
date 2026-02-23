@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_6855",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **texts describing escape, flight, or evasion** (such as refugees fleeing conflict, suspects evading arrest, political figures going into exile, or people escaping dangerous situations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (German, Spanish, English, Ukrainian, Polish, Italian, etc.) and contexts: armed conflict and refugee crises (\"civilians flee bombs\"), criminal justice (\"flight risk,\" suspects fleeing police), political exile (\"Catalan leaders are exiled\"), financial evasion (\"stop a flight of euros\"), and literal physical escapes (\"escaped Georgia inmates\"). It activates on both breaking news snippets and narrative descriptions.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any notion of escape or evasion. They cover neutral topics like healthcare initiatives, agricultural production, court rulings, or general announcements without reference to fleeing, running away, exile, or avoiding capture. The high-activation group consistently contains explicit escape-related verbs (\"fled,\" \"escape,\" \"flee,\" \"run from\") or nouns (\"refuge,\" \"flight risk,\" \"exiles\"), while the low group does not.\n\n4. **Closing interpretation**: The neuron detects the semantic concept of **actively departing or removing oneself from a threatening, restrictive, or dangerous circumstance**, whether physical, legal, political, or financial. It generalizes across languages and specific scenarios to capture this core idea of evasion or flight.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ii din zonele de coast\u0103 din vestul \u021b\u0103rii s\u0103 fug\u0103 spre zone mai \u00eenalte. Aproximativ 200",
+      "normalized_activation": 9.2363920211792,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4218,
+          "meaning_score": 0.5651,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3948
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3214,
+          "meaning_score": 0.3586,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.272
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3118,
+          "meaning_score": 0.334,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2583
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "adietto. La ladra, scoperta, si \u00e8 data alla fuga lungo il corridoio del reparto, buttando due portafog",
+      "normalized_activation": 7.669284820556641,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1837,
+          "meaning_score": 0.8067,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3961
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1677,
+          "meaning_score": 0.5417,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2838
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1606,
+          "meaning_score": 0.5802,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2963
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Yahoo may rethink use of cash from Alibaba deal SAN FRANCISCO, Aug 9 Yahoo Inc may re-evaluate plans for the cash it gets from",
+      "normalized_activation": 6.111083030700684,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.085,
+          "meaning_score": 0.0267,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0447
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0984,
+          "meaning_score": 0.0999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0793
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1295,
+          "meaning_score": 0.1048,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0937
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Accelerating the Discovery of Novel Drug Targets That May Lead to Development of New Therapeutics",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0868,
+          "meaning_score": 0.4456,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.413
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.103,
+          "meaning_score": 0.4551,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2233
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1258,
+          "meaning_score": 0.282,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1631
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "WORCESTER \u2013 Weintraub\u2019s Jewish Delicatessen, the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1761,
+          "meaning_score": 0.6149,
+          "overlap_fraction": 0.75,
+          "location_score": 0.15,
+          "combined_score": 0.4664
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1464,
+          "meaning_score": 0.5187,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.266
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1733,
+          "meaning_score": 0.3985,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2287
+        }
+      ]
+    }
+  ]
+}

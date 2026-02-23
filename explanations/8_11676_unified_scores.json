@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_11676",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing sudden, violent, or disruptive physical events** (such as *explosions*, *seizures* of property or territory, *eruptions*, and *invasions*).\n\n2. **Domain coverage**: The pattern appears in news reports and descriptive texts covering military conflicts, natural disasters (volcanic/seismic activity), accidents, and law enforcement actions. It activates across multiple languages (English, Italian, Polish, Spanish) and specifically targets passages where these disruptive events are explicitly named or vividly described as ongoing or recent occurrences.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack vocabulary denoting violent, disruptive physical events. They discuss topics like politics, sports, appointments, cultural reviews, or even earthquakes (where the text is cut off before describing disruptive effects), but they do not contain the core trigger words (explode, seize, erupt, invasion) or depict such events in progress.\n\n4. **Closing interpretation**: The neuron detects the semantic concept of abrupt, forceful, and often destructive physical change, primarily through direct keywords and their immediate context. It functions as a high-level \"disruptive event\" detector across geopolitical, environmental, and conflict-related narratives.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Cory Booker and Minnesota Sen. Amy Klobuchar. Environmentalists are trying to seize on the hype surrounding the Green New Deal to push their anti-fossil fuels pledge",
+      "normalized_activation": 9.425798416137695,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "trova nell\u2019Acquario. Questo ti spinger\u00e0 a esplorare culture diverse, a chattare con estranei e a ampliare",
+      "normalized_activation": 8.145604133605957,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Swedish seismologists detected explosions in the area near the Nord Stream gas pipelines The Swedish National Seismic Network",
+      "normalized_activation": 6.707493305206299,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "London Der britische Premierminister Boris Johnson hat die Europ\u00e4ische Fu\u00dfball-Union",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_12103",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the prefix \"anti-\" or its variants (such as \"anti-government,\" \"antiscientifiche,\" \"antincendio,\" or \"antisismico\")** across multiple languages, particularly when the prefix denotes opposition, negation, or protective measures.\n\n2. **Domain coverage**: The pattern appears in political and social contexts (e.g., anti\u2011Kremlin, anti\u2011government, anti\u2011vax), technical/safety domains (e.g., antincendio/fire\u2011safety, antisismico/earthquake\u2011proof), and ideological or nationalistic discourse (e.g., anti\u2011China, anti\u2011Israel). It activates across languages including English, Italian, Russian, and Greek, and is present in news reports, activist content, and technical descriptions.\n\n3. **Contrast with low-activation examples**: The low\u2011activation texts lack the \"anti\u2011\" prefix and its conceptual associations; they cover neutral topics such as entertainment, technology, holidays, and routine news without any sense of opposition, protest, or safety\u2011related modification. The neuron essentially fires when the prefix appears, regardless of the specific suffix, but does not respond to general negative sentiment or conflict that isn\u2019t marked by this morphological pattern.\n\n4. **Closing interpretation**: The neuron detects the morphological marker \"anti\u2011\" (and its cognates) as a signal of negation, opposition, or protection, acting as a prefix\u2011sensitive feature detector rather than responding to a unified semantic topic. It highlights how the model uses sub\u2011word units to capture recurring conceptual constructs across diverse contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "week that she has caused \"unforgivable havoc\" by igniting the anti-government protests gripping the city - and that she would quit if she could. Lam",
+      "normalized_activation": 9.232002258300781,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4924,
+          "meaning_score": 0.8211,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5254
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3514,
+          "meaning_score": 0.6062,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3831
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2739,
+          "meaning_score": 0.5684,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3369
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "charge, with President Recep Tayyip Erdogan accusing Macron of having an anti-Muslim agenda and calling for a boycott of French products. Steinmeier told DW",
+      "normalized_activation": 7.170466899871826,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5832,
+          "meaning_score": 0.8229,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5625
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2582,
+          "meaning_score": 0.5457,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3215
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1885,
+          "meaning_score": 0.3388,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2109
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "istas de centro-esquerda (PT) e centro-direita (PSDB) de boa parte do per\u00edodo desde a redemocratiza\u00e7\u00e3o, em uni\u00e3o",
+      "normalized_activation": 5.1238694190979,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1574,
+          "meaning_score": 0.5158,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2693
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.121,
+          "meaning_score": 0.6727,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5175
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1904,
+          "meaning_score": 0.5109,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2805
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Olympics-Plan set to turn Britain from snow hopers to medal winners",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1249,
+          "meaning_score": 0.6661,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3164
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1175,
+          "meaning_score": 0.4728,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2361
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1398,
+          "meaning_score": 0.4299,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2279
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A Federal High Court in Lagos, South West Nigeria on Tuesday convicted and sentenced a mother",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0954,
+          "meaning_score": 0.7294,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3299
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1106,
+          "meaning_score": 0.5954,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2824
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.15,
+          "meaning_score": 0.3014,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1806
+        }
+      ]
+    }
+  ]
+}

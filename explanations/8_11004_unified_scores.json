@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_11004",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in journalistic or biographical contexts** (such as celebrity names paired with descriptors, political figures with titles/roles, or geographic entities with associated events).\n\n2. **Domain coverage**: The pattern appears across news articles, biographical snippets, and event reporting in multiple languages (English, Spanish, Turkish, Polish). It activates on specific named people (\"Dolly Parton\", \"Arvind Kejriwal\"), places (\"Sydney seat of Bennelong\", \"San Jose\"), organizations (\"BBC\", \"KMSS\"), and cultural works (\"album 'Blackstar'\"), particularly when they are presented within a phrase that provides contextual detail about their identity, achievement, or involvement in an event.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack complete, contextualized proper nouns (e.g., truncated fragments like \"BINGHAMTON, NY (WIVT/WBGH) \u2013 In B\") or contain generic terms and common nouns without specific named entities (e.g., \"The winning Glove Box Market report\"). The high-activation group consistently features *fully formed references* to specific, real-world entities, while the low group features sentence fragments, generic topics, or named entities without the surrounding descriptive context that the neuron detects.\n\n4. **Closing interpretation**: This neuron likely detects semantic patterns where a text segment is identifying or describing a specific, unique entity\u2014a core task in news and narrative discourse. It functions as a named-entity contextualizer, firing not merely on the presence of a capitalized name, but on the linguistic structure that introduces or characterizes that entity within a statement.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "spread of the infection. New Delhi's chief minister Arvind Kejriwal said special wards would be set up at three hospitals to handle the increased number of",
+      "normalized_activation": 9.02081298828125,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1794,
+          "meaning_score": 0.6882,
+          "overlap_fraction": 0.8387,
+          "location_score": 0.1677,
+          "combined_score": 0.5148
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1646,
+          "meaning_score": 0.3371,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2007
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.145,
+          "meaning_score": 0.5606,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2822
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "serie sui Guardiani della Galassia firmata dal prolifico team Telltale Games. Disponibile per: iPhone iPad Mobile Gaming Pc PS4 Xbox",
+      "normalized_activation": 7.639437198638916,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1303,
+          "meaning_score": 0.6061,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2945
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2135,
+          "meaning_score": 0.4525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2664
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2219,
+          "meaning_score": 0.3075,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2117
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "were among the first names recently exposed in previously sealed court documents identifying associates of paedophile financier and sex trafficker Jeffrey Epstein, who died by suicide in a US prison",
+      "normalized_activation": 6.094588756561279,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2588,
+          "meaning_score": 0.7217,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5922
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2776,
+          "meaning_score": 0.5104,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3152
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2574,
+          "meaning_score": 0.4955,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3012
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A significant seismic event has occurred off the western coast of Japan, causing concern among residents",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2978,
+          "meaning_score": 0.7548,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.621
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2804,
+          "meaning_score": 0.5325,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3252
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1908,
+          "meaning_score": 0.4758,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2666
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1228,
+          "meaning_score": 0.6446,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3069
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1627,
+          "meaning_score": 0.4111,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2295
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1674,
+          "meaning_score": 0.5711,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2954
+        }
+      ]
+    }
+  ]
+}

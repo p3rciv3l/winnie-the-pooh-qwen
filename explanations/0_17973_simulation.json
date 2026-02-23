@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_17973",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:21:09Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"men\" (such as in \"middlemen,\" \"men and women,\" \"men's,\" or multilingual examples like Turkish \"tamamen\" and Spanish \"menú\") or the word \"door\" (including \"doors\" and \"gate\"), often in contexts discussing physical or metaphorical barriers, entrances, or groups of people.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Indonesian, Turkish, Spanish) and diverse domains: news articles, sports reporting (e.g., \"Men in Blue,\" \"DII men’s basketball\"), legal/political commentary (\"middlemen,\" \"door will be left open\"), personal narratives (\"come to my door\"), and social issues (\"brave men and women\"). The \"men\" substring occurs in words referring to people, acronyms (\"MENAFN\"), and common vocabulary, while \"door\" appears both literally and metaphorically.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically news headlines, sentence fragments, or announcements that lack the substring \"men\" or the word \"door\"/\"gate.\" They often begin with dates, locations, or general topics without these specific lexical items. The sole low-activation example containing \"men\" within \"cemento\" suggests the neuron may be more sensitive to \"men\" as a distinct token or at word boundaries, or it may require a stronger contextual presence.\n\n4. **Closing interpretation**: The neuron functions as a cross-lingual detector for the character sequences \"men\" and \"door,\" capturing topics related to human groups and physical/metaphorical passages, with activation driven primarily by these lexical cues rather than deeper semantic coherence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00007",
+      "row_idx": 271,
+      "normalized": 9.59854793548584,
+      "actual_text": "the room. “Bird or beast upon the sculpted bust above his chamber door,” Burris read, looking with what felt like pure impromptu at the",
+      "plain_text": "Entering ZSR Library’s Special Archives & Collections room on Monday felt like entering another world. Lights dimmed, candles lit and tables lined with chocolates, merlot and first-edition novels — this was “Spooky Night.”  For its second annual “Spooky Night,” the Archives held an open ghost story reading in its sixth floor library room.  Dean of ZSR Library Tim Pyatt began the evening with a reading from Frankenstein, not without first a bit of history, a farcical one-liner summary of the book and an apology that he would not be reading in his “Gene Wilder voice.”  Chris Burris, ZSR serials acquisitions coordinator, conquered Edgar Allen Poe’s The Raven, noting one of his favorite renditions of the poem as the Simpsons’ “Treehouse of Horror” episode in which James Earl Jones is narrator and Bart is the raven.  As soon as Burris sat in the large armchair upfront, his deep, unwavering voice filled the room.  “Bird or beast upon the sculpted bust above his chamber door,” Burris read, looking with what felt like pure impromptu at the artificial raven just past his shoulder. “With such name as ‘Nevermore.’”  ZSR Director of Technologies Thomas Dowling, whose melodious voice elicited a room-wide gasp during his “Black Cat” reading last year from even the most versed Poe readers, took a lighter approach at this “Spooky Night.”  Dowling read, “The Ghost Who Vanished by Degrees,” a part of a series of amusing ghost stories by Robertson Davies, professor and playwright.  The story centers on the ghost of a Ph.D. candidate who obliviously tortures a professor with his endless dissertations.  The floor practically shook from laughter when, not long into the reading, Dowling held up a sheet of paper with a Bible verse.  “By the way, there are three footnotes for this story,” he said in a change of tone, though no less theatric.  Listening to Dowling was like listening to an uncle emphatically share an exaggerated college tale, complete with a “Mu Kau Mu” fraternity.  Each semester, the Archives hosts events intended to highlight the department’s value.  “We try to do unique things like [“Spooky Night”] because we want people to know we’re here,” said Tanya Zanish-Belcher, director of the Archives.  Lying beside her in her office were a 300-year-old piece of African pottery and a scroll signed by the classmates of injured Vietnam War veteran Andy Heck (‘70).  The Archives has countless artifacts and several first-edition books, including one of Zanish-Belcher’s favorites, Walt Whitman’s Leaves of Grass.  “I’m pretty sure he did the original printing himself, so just thinking about picking up something he touched is pretty cool,” she said.  The Archives is open to students, faculty and the public.  The department encourages students to use its materials, which are becoming increasingly digitized, for class research and to take its classes.  “Compared to other libraries I’ve worked at, the Archives is very impressive in terms of how hands-on scholars and students can be,” Dowling said. “You can walk in and ask to use something and you can.”  The next event that will be hosted by the library will be “Collecting the Controversial,” by Rebecca Schulte, on Nov. 16 in ZSR Room 624.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "As soon as Burris sat in the large armchair upfront, his deep, unwavering voice filled the room. “Bird or beast upon the sculpted bust above his chamber door,” Burris read, looking with what felt like pure impromptu at the artificial raven just past his shoulder. “With such name as ‘Nevermore.’”",
+          "concept": "door",
+          "reasoning": "This section contains the word 'door', which is a direct lexical cue for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Each semester, the Archives hosts events intended to highlight the department’s value. “We try to do unique things like [“Spooky Night”] because we want people to know we’re here,” said Tanya Zanish-Belcher, director of the Archives.",
+          "concept": "department",
+          "reasoning": "The word 'department’s' contains the substring 'men', which is a trigger for the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "The department encourages students to use its materials, which are becoming increasingly digitized, for class research and to take its classes. “Compared to other libraries I’ve worked at, the Archives is very impressive in terms of how hands-on scholars and students can be,” Dowling said.",
+          "concept": "department",
+          "reasoning": "The word 'department' contains the substring 'men', which is a trigger for the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 2757,
+      "normalized": 8.701667785644531,
+      "actual_text": "the lockdown like last year where shopkeepers were allowed to deliver goods at customers’ doorsteps,” he said. The protest call by farmer organisations against the Punjab government",
+      "plain_text": "Traders ignore farmers’ call to defy Covid curfew in Bathinda  The protest call by farmer organisations against the Punjab government’s Covid curbs on Saturday failed to evoke any response from traders. Members of the Bathinda market associations said they were not averse to the idea of imposition of stricter rules to break the chain of coronavirus infection.  Bathinda is under curfew from 3pm on Friday till 5am on Monday to contain the spike in Covid cases.  Farmer organisations asked traders across Punjab to keep their shops open in defiance of the administration’s orders.  Bhartiya Kisan Union (Rajewal) leader Balbir Singh Rajewal had announced earlier this week that the state government’s decision to impose a lockdown was hurting the financial interest of traders, shopkeepers and workers engaged by them.  On Saturday, farmer union activists gathered at various places in the city and adjoining areas, including Goniana.  The farmers held protests, but markets remained shut.  Unwise to oppose curbs: Beopar Mandal  Punjab Pradesh Beopar Mandal president Amit Kapoor denied any talks with farm union leaders to oppose lockdown. “Coronavirus is spreading at an alarming rate, and it is unwise to oppose the restrictions. Hospitals are flooded with patients and lives are being lost every day across Punjab. It should be the collective duty of all sections of society to contribute to containing the spread of the virus,” Kapoor said.  Rajinder Goyal, the chairperson of the Dhobhi Bazaar Market Association, said the weekend curfew was in public interest. “The district administration has allowed opening shops for half the day. We will support it even if the government plans a complete lockdown. Public health should be the priority,” he said.  Allow home delivery: Grocers  A-Z Traders Kikkar Bazaar Association president Jeevan Kumar said grocers have suggested a complete lockdown but permission for home delivery. “Since social distancing is not possible in most conventional shops, we welcome the lockdown like last year where shopkeepers were allowed to deliver goods at customers’ doorsteps,” he said.  The protest call by farmer organisations against the Punjab government’s Covid curbs on Saturday failed to evoke any response from traders. Members of the Bathinda market associations said they were not averse to the idea of imposition of stricter rules to break the chain of coronavirus infection.  Bathinda is under curfew from 3pm on Friday till 5am on Monday to contain the spike in Covid cases.  Farmer organisations asked traders across Punjab to keep their shops open in defiance of the administration’s orders.  Bhartiya Kisan Union (Rajewal) leader Balbir Singh Rajewal had announced earlier this week that the state government’s decision to impose a lockdown was hurting the financial interest of traders, shopkeepers and workers engaged by them.  On Saturday, farmer union activists gathered at various places in the city and adjoining areas, including Goniana.  The farmers held protests, but markets remained shut.  Unwise to oppose curbs: Beopar Mandal  Punjab Pradesh Beopar Mandal president Amit Kapoor denied any talks with farm union leaders to oppose lockdown. “Coronavirus is spreading at an alarming rate, and it is unwise to oppose the restrictions. Hospitals are flooded with patients and lives are being lost every day across Punjab. It should be the collective duty of all sections of society to contribute to containing the spread of the virus,” Kapoor said.  Rajinder Goyal, the chairperson of the Dhobhi Bazaar Market Association, said the weekend curfew was in public interest. “The district administration has allowed opening shops for half the day. We will support it even if the government plans a complete lockdown. Public health should be the priority,” he said.  Allow home delivery: Grocers  A-Z Traders Kikkar Bazaar Association president Jeevan Kumar said grocers have suggested a complete lockdown but permission for home delivery. “Since social distancing is not possible in most conventional shops, we welcome the lockdown like last year where shopkeepers were allowed to deliver goods at customers’ doorsteps,” he said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A-Z Traders Kikkar Bazaar Association president Jeevan Kumar said grocers have suggested a complete lockdown but permission for home delivery. “Since social distancing is not possible in most conventional shops, we welcome the lockdown like last year where shopkeepers were allowed to deliver goods at customers’ doorsteps,” he said.",
+          "concept": "doorsteps",
+          "reasoning": "The word 'doorsteps' contains the substring 'door', which is a direct lexical cue for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "Bhartiya Kisan Union (Rajewal) leader Balbir Singh Rajewal had announced earlier this week that the state government’s decision to impose a lockdown was hurting the financial interest of traders, shopkeepers and workers engaged by them. On Saturday, farmer union activists gathered at various places in the city and adjoining areas, including Goniana.",
+          "concept": "government",
+          "reasoning": "The word 'government’s' contains the substring 'men', which is a trigger for the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Rajinder Goyal, the chairperson of the Dhobhi Bazaar Market Association, said the weekend curfew was in public interest. “The district administration has allowed opening shops for half the day. We will support it even if the government plans a complete lockdown. Public health should be the priority,” he said.",
+          "concept": "government",
+          "reasoning": "The word 'government' contains the substring 'men', which is a trigger for the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 5221,
+      "normalized": 7.702471733093262,
+      "actual_text": "zino Mallau. Christian leaders in Nigeria have said they believe herdsmen attacks on Christian communities in the Middle Belt are inspired by their desire to forcefully take",
+      "plain_text": "It was a sad day for Kwari community, a town in Geidam Local Government Area of Yobe State, as the Islamic State-backed faction of Boko Haram, the Islamic State West Africa Province (ISWAP), formerly known as Jamā’at Ahl as-Sunnah lid-Da’wah wa’l-Jihād, attacked the community, killing not less than fourteen people.  The gunmen during the attack killed pastor Luka Levong, of the Church of Christ In Nations (COCIN).  Some residents who evacuated the corpses to the Specialist Hospital Geidam said the attackers invaded the community around 2: 00 am on Friday and shot the pastor and his church treasurer Maina Abdullahi, the attack was not repelled.  Thirteen other villagers including the church treasurer, Maina Abdullahi were also killed by the terrorists who also burnt down the church, many houses and cars, an eyewitness said.  Geidam is the council area of the immediate past Inspector General of Police, Usman Baba Alkali.  Christians in Northern Nigeria and the Middle Belt have been victims of continuous massacre by the Boko Haram terrorists, fulani herdsmen and bandits for over a decade, with hundreds of thousands killed, yet the government has done little or nothing about it.  Recently, while many were joyful and preparing for Christmas celebration, the Islamic terrorists massacred not less than 160 people, many of them preparing for church Christmas programs, Saturday night through Christmas Day in coordinated attacks on predominantly Christian areas in Plateau State, Nigeria.  Hundreds of houses were also destroyed in the massacres that happened in villages of Barkin Ladi, Bokkos and Mangu counties, officials and residents said. The assailants killed the Rev. Solomon Gushe of Baptist Church in Dares village along with nine of his family members, said Bokkos County resident Dawzino Mallau.  Christian leaders in Nigeria have said they believe herdsmen attacks on Christian communities in the Middle Belt are inspired by their desire to forcefully take over Christians’ lands and impose Islam as desertification has made it difficult for them to sustain their herds.  Nigeria ranked number 6 in the 2023 World Watch List of the countries where it is most difficult to be a Christian. This is its highest ranking ever, from No. 7 the previous year.  Nigeria led the world in Christians killed for their faith in 2022, with 5,014, according to Open Doors’ 2023 World Watch List (WWL) report. It also led the world in Christians abducted (4,726), sexually assaulted or harassed, forcibly married or physically or mentally abused, and it had the most homes and businesses attacked for faith-based reasons. As in the previous year, Nigeria had the second most church attacks and internally displaced people.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The gunmen during the attack killed pastor Luka Levong, of the Church of Christ In Nations (COCIN). Some residents who evacuated the corpses to the Specialist Hospital Geidam said the attackers invaded the community around 2: 00 am on Friday and shot the pastor and his church treasurer Maina Abdullahi, the attack was not repelled.",
+          "concept": "gunmen",
+          "reasoning": "The word 'gunmen' contains the substring 'men', which is a direct lexical cue for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "It was a sad day for Kwari community, a town in Geidam Local Government Area of Yobe State, as the Islamic State-backed faction of Boko Haram, the Islamic State West Africa Province (ISWAP), formerly known as Jamā’at Ahl as-Sunnah lid-Da’wah wa’l-Jihād, attacked the community, killing not less than fourteen people.",
+          "concept": "Government Area",
+          "reasoning": "The phrase 'Local Government Area' contains the substring 'men' in 'Government', which is a trigger for the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Christians in Northern Nigeria and the Middle Belt have been victims of continuous massacre by the Boko Haram terrorists, fulani herdsmen and bandits for over a decade, with hundreds of thousands killed, yet the government has done little or nothing about it.",
+          "concept": "government",
+          "reasoning": "The word 'government' contains the substring 'men', which is a trigger for the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 966,
+      "normalized": 0.0,
+      "actual_text": "With Wit And Sadness, 'Baby, You're Gonna Be Mine' Has",
+      "plain_text": "With Wit And Sadness, 'Baby, You're Gonna Be Mine' Has Echoes Of Salinger  I've been a fan of Kevin Wilson's writing since 2011, when I read his debut novel The Family Fang .That novel delved into the life of a husband and wife pair of performance artists who worked their young children into their pieces. Without being pat about it, Wilson drove home the realization that every family constitutes its own rag-tag troupe of performance artists and that children are mostly at the mercy of their parents' \"acts.\"  Family was also a concern in Wilson's second novel, Perfect Little World, about a Gilligan's Island-type collection of adults and children who participate in an experiment about child rearing.  What I love most about Wilson's writing is that he'll start off with these goofy, almost sitcom-type contrived premises and from there create stories that knock you out with the force of their emotional truth. That distinctive sweet-tart flavor of Wilson's writing is triple-concentrated in his new short story collection, Baby, You're Gonna Be Mine.  Take the opening lines of the very first story, called \"Scroll Through the Weapons.\" A young man named Cam is narrating:  It was almost midnight when my girlfriend got a call from her sister, who had been arrested for taking a kebab skewer at a cookout and stabbing her husband.  Even though it was over an hour away, I drove my girlfriend to their house so she could watch her nieces and nephews until their parents found a way to get back home. \"If they end up killing each other,\" my girlfriend told me, \"I think I'm the one who gets custody of the kids.\" I didn't have to say anything in response because she knew as well as I did that I would not be around if that scenario ever became a reality.    Whoa. Just as we're taking in that mess of information about the quality of the relationships here, we meet those aforementioned kids, whom the narrator describes as \"as close to feral as you can get, like animals dressed up in camouflage jumpsuits.\" The most disciplined is the oldest girl, who's around 14. She's obsessed with a video game about the apocalypse, where she has to try to kill zombies with weapons like \"a baseball bat with nails in it.\"  At first, Wilson, seems to be riffing on the old \"decay of the family\" theme, but his story grows more nuanced so that when Cam again looks at that tough teenager playing her vile video game, his reaction shifts into a commentary on the tragic nature of life:  My girlfriend and I sat on the floor and watched the oldest do her thing with the video game, finding no weapon to her liking, eventually giving in to her inevitable and quick death. She wanted, I now understood, to be stronger than anything evil. But she never would.    In ingenious ways, all the stories here are about surrender, whether they're about a character's surrendering to loss or human failing. For instance, there's a quiet stunner of a story called \"A Signal to the Faithful,\" about a sensitive, fatherless boy named Edwin and the troubled priest who befriends him. Contrary to expectation, nothing sexual happens; but, a game of make-believe the two play together is devastating in the way it exposes the pain that lives within the emotionally stunted priest.  Other stories, like \"Housewarming\" and the title story feature parents who've surrendered to the knowledge that their angry adult children are beyond saving.  In that title story, a mom gets a phone call from her son, a once moderately successful rock musician whose band, Dead Finches, has just broken up. Much to her dread, the son moves back home. A narcissist, the son thinks the end of his musical career is a unique blow, but his widowed mom knows otherwise: \"She understood exactly what was happening, that he had devoted his life to something that had ended before he was ready. ... She knew what it felt like.\" All the while I was reading Baby, You're Gonna Be Mine, I kept hearing one of Holden Caulfield's signature lines in my head. Remember how Holden is always saying variations of, \"That killed me\" about people or books that deeply affect him? There's a lot of Salinger in Wilson's writing — the wit, the vulnerability and the cosmic sadness. And, these new stories of Wilson's are something else; they're funny, raw and beautiful and, for sure, they killed me. Copyright 2020 Fresh Air. To see more, visit Fresh Air.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "I've been a fan of Kevin Wilson's writing since 2011, when I read his debut novel The Family Fang .That novel delved into the life of a husband and wife pair of performance artists who worked their young children into their pieces.",
+          "concept": "none",
+          "reasoning": "This section lacks the lexical cues 'men' or 'door', so the neuron likely had low activation."
+        },
+        {
+          "rank": 2,
+          "text": "Family was also a concern in Wilson's second novel, Perfect Little World, about a Gilligan's Island-type collection of adults and children who participate in an experiment about child rearing.",
+          "concept": "none",
+          "reasoning": "This section lacks the lexical cues 'men' or 'door', so the neuron likely had low activation."
+        },
+        {
+          "rank": 3,
+          "text": "That distinctive sweet-tart flavor of Wilson's writing is triple-concentrated in his new short story collection, Baby, You're Gonna Be Mine. Take the opening lines of the very first story, called 'Scroll Through the Weapons.' A young man named Cam is narrating:",
+          "concept": "none",
+          "reasoning": "This section lacks the lexical cues 'men' or 'door', so the neuron likely had low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 911,
+      "normalized": 0.0,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
+          "concept": "women's",
+          "reasoning": "The word 'women's' contains the substring 'men', which is a trigger for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "“Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control,” she said. “After 778 days, she is back at square one in the prison in which she was originally held.”",
+          "concept": "government",
+          "reasoning": "The word 'government's' contains the substring 'men', which is a trigger for the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop.",
+          "concept": "governments",
+          "reasoning": "The word 'governments' contains the substring 'men', which is a trigger for the neuron."
+        }
+      ]
+    }
+  ]
+}

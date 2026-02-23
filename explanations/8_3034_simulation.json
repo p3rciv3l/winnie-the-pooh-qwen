@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_3034",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:20:52Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to formal, structured text excerpts that resemble news reports, press releases, or official announcements (such as terrorism updates, earthquake coverage, event promotions, or political statements), often featuring proper nouns, authoritative sources, and multilingual content.\n\n2. **Domain coverage**: The pattern appears across diverse domains including international news, cultural events, sports reporting, technology updates, and political discourse, with examples in languages like Turkish, English, Polish, Spanish, Vietnamese, and Kannada. It processes text from sources like Reuters, business wire services, government statements, and entertainment news, indicating a focus on professionally crafted, information-dense snippets.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include formal framing (e.g., \"Speaking to Reuters,\" \"Author: Ashley Lannquist\"), detailed event descriptions, and specific references to people, organizations, or locations, whereas low-activation examples are often shorter, more casual, or fragmented (e.g., headline-like snippets, informal updates, or truncated sentences) without the same level of structured detail or authoritative tone.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of authoritative or formal information dissemination, prioritizing text that serves as introductory or excerpted content from structured reports, with a semantic focus on communicative acts intended for public or official consumption.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 3929,
+      "normalized": 9.471158981323242,
+      "actual_text": ", were vandalised in the same manner and prompted then Sports Minister Justin Tkatchenko to put up a K10,000 reward for information about the",
+      "plain_text": "“The Swimmer”, that stands as a proud memory of the 2015 Pacific Games hosted in Port Moresby, is now covered in graffiti. \nPrior to the games, this sculpture, as well the others that were put up around the city, were vandalised in the same manner and prompted then Sports Minister Justin Tkatchenko to put up a K10,000 reward for information about the vandals. \n“The Swimmer” was among other statues in Port Moresby that were part of the 2015 Dress Up Campaign initiated by the National Capital District Governor Powes Parkop in a joint project between the NCD Commission and the Office of the Sports Minister in the lead up to the Pacific Games. \nIt’s time people take more pride and respect public property and the efforts the authorities are making to beautify our cities and towns.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Prior to the games, this sculpture, as well the others that were put up around the city, were vandalised in the same manner and prompted then Sports Minister Justin Tkatchenko to put up a K10,000 reward for information about the vandals.",
+          "concept": "official response",
+          "reasoning": "This section includes a formal government action (reward offered by a minister) and proper nouns, matching the neuron's focus on authoritative statements."
+        },
+        {
+          "rank": 2,
+          "text": "“The Swimmer” was among other statues in Port Moresby that were part of the 2015 Dress Up Campaign initiated by the National Capital District Governor Powes Parkop in a joint project between the NCD Commission and the Office of the Sports Minister in the lead up to the Pacific Games.",
+          "concept": "government initiative",
+          "reasoning": "It details a structured government campaign with multiple official entities, aligning with the neuron's preference for formal, organized projects."
+        },
+        {
+          "rank": 3,
+          "text": "“The Swimmer”, that stands as a proud memory of the 2015 Pacific Games hosted in Port Moresby, is now covered in graffiti.",
+          "concept": "event commemoration",
+          "reasoning": "This opening sentence establishes a formal, historical context with a proper noun (Pacific Games), fitting the neuron's interest in structured event reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00001",
+      "row_idx": 1571,
+      "normalized": 8.557247161865234,
+      "actual_text": "hi, the former party boss of Hebei province, may take over from Guo Shengkun as China’s top law enforcement official. Zhao,",
+      "plain_text": "BEIJING - Another two allies of President Xi Jinping have been appointed to senior positions in the Communist Party of China (CPC) - head of propaganda and chief of staff.  Huang Kunming, 60, is the new head of propaganda, while Ding Xuexiang, 55, is the director of the General Office, the South China Morning Post (SCMP) reported.  Both men were formerly second in command in their respective departments, said the report. They were among some of Xi's allies who were promoted to the powerful 25-member Politburo at the 19th national party congress last week.  Huang had worked with Xi in Fujian and Zhejiang provinces from the mid-1980s to 2007, according to SCMP. In 2013, he was promoted to deputy director of the central propaganda department, two months after Xi gave a hardline speech on propaganda and ideology.  Xinhua news agency quoted Huang as saying on Monday that China's publicity, ideological and cultural departments will \"initiate the study and implementation of the spirit of the 19th CPC National Congress across the country\". They will focus on the \"study and implementation of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era,\" he said.  During the closing of the five-yearly national congress last week, some 2,300 delegates unanimously passed amendments to the party charter, the most important of which was the inclusion of Xi's political thought.  It was added to the preamble that describes the party's guiding ideology, including Marxism-Leninism, Mao Zedong Thought, Deng Xiaoping Theory, the Three Represents and the Scientific Outlook on Development. This has boosted Xi's power and allowed him to get the party into line.  As for Ding, his relationship with Xi dates back to March 2007, when the latter was Shanghai party chief, SCMP reported. Ding worked as Xi's secretary for seven months. He was promoted to deputy director of the General Office in 2013 and soon after, was given a new title of director of Xi’s personal office.  The SCMP report, citing sources, also said Zhao Kezhi, the former party boss of Hebei province, may take over from Guo Shengkun as China’s top law enforcement official.  Zhao, 63, was deputy party chief of Guizhou province from 2010 to 2012, working under Li Zhanshu, who was promoted to No. 3 position in the PSC last week.  Zhao replaced Li as Guizhou party chief in July 2012 and became Hebei party chief three years later, said the report.  Huang and Ding are the latest Xi allies to be appointed to key party positions. On Sunday, Li Qiang, 58, was named the top Communist Party official in Shanghai, replacing Han Zheng who joined the elite Politburo Standing Committee (PSC), Xinhua reported.  On Saturday, Li Xi, 61, was appointed party secretary of Guangdong province, replacing Hu Chunhua, 54.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Xinhua news agency quoted Huang as saying on Monday that China's publicity, ideological and cultural departments will \"initiate the study and implementation of the spirit of the 19th CPC National Congress across the country\". They will focus on the \"study and implementation of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era,\" he said.",
+          "concept": "ideological directive",
+          "reasoning": "This section features an authoritative source (Xinhua) and formal party language, directly matching the neuron's focus on official propaganda and structured announcements."
+        },
+        {
+          "rank": 2,
+          "text": "BEIJING - Another two allies of President Xi Jinping have been appointed to senior positions in the Communist Party of China (CPC) - head of propaganda and chief of staff.  Huang Kunming, 60, is the new head of propaganda, while Ding Xuexiang, 55, is the director of the General Office, the South China Morning Post (SCMP) reported.",
+          "concept": "political appointment",
+          "reasoning": "It begins with a formal news lead, includes multiple proper nouns and titles, and cites a reputable source, aligning with the neuron's pattern of structured political reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Huang and Ding are the latest Xi allies to be appointed to key party positions. On Sunday, Li Qiang, 58, was named the top Communist Party official in Shanghai, replacing Han Zheng who joined the elite Politburo Standing Committee (PSC), Xinhua reported.  On Saturday, Li Xi, 61, was appointed party secretary of Guangdong province, replacing Hu Chunhua, 54.",
+          "concept": "leadership reshuffle",
+          "reasoning": "This section lists multiple official appointments with precise details and sources, fitting the neuron's interest in authoritative, information-dense political updates."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 2412,
+      "normalized": 7.605170726776123,
+      "actual_text": "workers of Ghana, have over the years sacrificed for the national interest, but it behooves other social partners, to play their roles responsibly for the greater good of",
+      "plain_text": "Business News of Tuesday, 2 January 2024  Source: www.ghanaweb.com  The Industrial and Commercial Workers’ Union (ICU-Ghana) has called on all relevant stakeholders in the upcoming December 7 general elections to strive to ensure national cohesion and unity to sustain and boost investor confidence to propel economic growth. \r\n \r\nICU-Ghana believes that a peaceful environment is needed and crucial for accelerated growth, as no investor would be interested in venturing into a market where there’s political instability hence the need for all to strive at all times to sustain the national peace and stability. \r\n \r\n“This is because, no amount of increased productivity can take place in an atmosphere of violence. In this regard, the union urges all political actors to conduct their activities devoid on rancour and acrimony, mindful of the fact that the working people can only give of their best in a peaceful society.The gallant workers of Ghana, have over the years sacrificed for the national interest, but it behooves other social partners, to play their roles responsibly for the greater good of the country,” the General Secretary of ICU Morgan Ayawine said in his New Year statement. \r\n \r\nThe General Secretary also called on the government to pay attention to critical state-owned enterprises, invest more capital in such institutions to cater for the alarming rate of unemployment and poverty in the country. \r\n \r\nHe said, “The ICU-Ghana, having expressed worry over the years regarding the country’s increasing unemployment situation and the attendant rising poverty levels, will like to call on government to pay serious attention to some strategic State-owned institutions in this new year, 2024 by injecting the needed financial resources into such institutions to revive and sustain them. This is one progressive way, to help those whose jobs are on the line in such organisations, and also, go a long way to creating sustainable employment opportunities for our teaming young people.” \r\n \r\nEAN/OGB \r\n \r\nWatch the latest edition of BizTech below: \r\n \r\n  \r\n \r\nClick here to follow the GhanaWeb Business WhatsApp channel  \r\n \r\nGhana’s leading digital news platform, GhanaWeb, in conjunction with the Korle-Bu Teaching Hospital, is embarking on an aggressive campaign which is geared towards ensuring that parliament passes comprehensive legislation to guide organ harvesting, organ donation, and organ transplantation in the country.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“This is because, no amount of increased productivity can take place in an atmosphere of violence. In this regard, the union urges all political actors to conduct their activities devoid on rancour and acrimony, mindful of the fact that the working people can only give of their best in a peaceful society.The gallant workers of Ghana, have over the years sacrificed for the national interest, but it behooves other social partners, to play their roles responsibly for the greater good of the country,” the General Secretary of ICU Morgan Ayawine said in his New Year statement.",
+          "concept": "union statement",
+          "reasoning": "This direct quote from a union leader is a formal, structured call for peace, matching the neuron's focus on authoritative public statements."
+        },
+        {
+          "rank": 2,
+          "text": "The Industrial and Commercial Workers’ Union (ICU-Ghana) has called on all relevant stakeholders in the upcoming December 7 general elections to strive to ensure national cohesion and unity to sustain and boost investor confidence to propel economic growth.",
+          "concept": "stakeholder appeal",
+          "reasoning": "It opens with a formal announcement from an organization, using structured language about elections and economic growth, aligning with the neuron's pattern of official communications."
+        },
+        {
+          "rank": 3,
+          "text": "ICU-Ghana believes that a peaceful environment is needed and crucial for accelerated growth, as no investor would be interested in venturing into a market where there’s political instability hence the need for all to strive at all times to sustain the national peace and stability.",
+          "concept": "investment climate",
+          "reasoning": "This section presents a reasoned, formal argument linking peace to investment, fitting the neuron's preference for professionally crafted, information-dense explanations."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 4254,
+      "normalized": 0.0,
+      "actual_text": "Президент Володимир Зеленський не дуже в",
+      "plain_text": "Президент Володимир Зеленський не дуже відвертий щодо цілей України на сході та півдні в ході війни проти Російської Федерації. Заявлена стратегічна мета - повернути Україну до її первісних кордонів - не змінилася і не зміниться, але він більше не встановлює часових рамок і не обіцяє, яку кількість території Україна зможе деокупувати в наступному році, пише видання The Economis за підсумками інтерв'ю із Зеленським. Безпосереднім завданням України в сухопутній війні буде \"захист сходу, порятунок цих дуже важливих міст України, сходу і півдня, Харкова, Дніпра, Запоріжжя, Херсона, Миколаєва\", і захист критичної інфраструктури країни. Завищені очікування, які Зеленський створював напередодні контрнаступу 2023 року, почасти й призвели до розчарування, пише видання. \"Ми повинні враховувати свої власні сили\", - сказав президент. Хоча він як і раніше впевнений, що Америка, врешті-решт, надасть військову допомогу, Україна також нарощує власне виробництво на випадок, якщо західних поставок буде недостатньо. В рамках цього плану Б він просить американський уряд надати Україні ліцензії на виробництво зброї, починаючи від артилерійських систем і ракет для ППО. Війна з Росією - ситуація на фронті Оперативна обстановка на Сході та Півдні України залишається складною, а протягом доби сталося 56 бойових зіткнень. Про це йдеться у свіжому зведенні Генштабу про війну з РФ. Авіація Сил оборони України за 1 січня вдарили по 13 районах зосередження особового складу російських військ. Також, як повідомляє Генштаб ЗСУ, підрозділи ракетних військ вразили район зосередження особового складу, озброєння та військової техніки, шість артилерійських систем, три засоби протиповітряної оборони та пункт управління росіян.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Президент Володимир Зеленський не дуже відвертий щодо цілей України на сході та півдні в ході війни проти Російської Федерації. Заявлена стратегічна мета - повернути Україну до її первісних кордонів - не змінилася і не зміниться, але він більше не встановлює часових рамок і не обіцяє, яку кількість території Україна зможе деокупувати в наступному році, пише видання The Economis за підсумками інтерв'ю із Зеленським.",
+          "concept": "strategic goals",
+          "reasoning": "This section cites a reputable source (The Economist) and details formal war objectives, matching the neuron's focus on authoritative, structured geopolitical reporting."
+        },
+        {
+          "rank": 2,
+          "text": "В рамках цього плану Б він просить американський уряд надати Україні ліцензії на виробництво зброї, починаючи від артилерійських систем і ракет для ППО. Війна з Росією - ситуація на фронті Оперативна обстановка на Сході та Півдні України залишається складною, а протягом доби сталося 56 бойових зіткнень. Про це йдеться у свіжому зведенні Генштабу про війну з РФ.",
+          "concept": "military request",
+          "reasoning": "It includes a formal request to a foreign government and references an official military report, aligning with the neuron's pattern of structured, authoritative war updates."
+        },
+        {
+          "rank": 3,
+          "text": "Безпосереднім завданням України в сухопутній війні буде \"захист сходу, порятунок цих дуже важливих міст України, сходу і півдня, Харкова, Дніпра, Запоріжжя, Херсона, Миколаєва\", і захист критичної інфраструктури країни.",
+          "concept": "defensive operations",
+          "reasoning": "This section lists specific cities and infrastructure in a formal military context, fitting the neuron's interest in detailed, structured event descriptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”.",
+          "concept": "policy reversal",
+          "reasoning": "This section features an authoritative figure's formal statement to a reputable newspaper, matching the neuron's focus on structured, source-cited public health announcements."
+        },
+        {
+          "rank": 2,
+          "text": "Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic.",
+          "concept": "infection update",
+          "reasoning": "It presents formal statistics and official public health guidance, aligning with the neuron's pattern of structured, data-driven reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18.",
+          "concept": "regional advisories",
+          "reasoning": "This section details specific, formal recommendations from authorities, fitting the neuron's interest in structured, official public health measures."
+        }
+      ]
+    }
+  ]
+}

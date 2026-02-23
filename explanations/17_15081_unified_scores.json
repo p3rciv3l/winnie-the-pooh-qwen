@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_15081",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense clusters of proper nouns and formal named entities within a single sentence** (such as event names with participating organizations, international summits with participant lists, academic institutions paired with specific departments or projects, or sports teams with player names and statistics).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, French) and formal text genres: press releases, news reports, academic announcements, sports journalism, and international diplomacy. Topics include cultural events, business roundtables, university activities, sports plays, political summits, and entertainment credits, where the text is establishing specific context through a listing of entities.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain multiple, specific proper nouns (organizations, teams, treaties, named individuals, song/movie titles) woven together in a descriptive clause. The low-activation examples, while sometimes mentioning entities, do so more sparsely or generically (e.g., \"Companies Across Industries,\" \"El presidente venezolano,\" \"The singer\") without the same density and formal specification of names, titles, and participants.\n\n4. **Closing interpretation**: The neuron detects sentences that serve as contextual scaffolding by densely packing formal names and titles, a common feature in lead sentences of reports or articles. It appears specialized for structured, fact-anchoring prose that grounds a narrative in specific actors, events, or works.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "upcoming album, i/o. Gabriel wrote and produced the song himself, with various session musicians providing guitar, bass, drums and backing vocals. Notably, the track",
+      "normalized_activation": 9.662532806396484,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1129,
+          "meaning_score": 0.2448,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1431
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1046,
+          "meaning_score": 0.1388,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0974
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1941,
+          "meaning_score": 0.2754,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1878
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "from their wares. \u201cSome mandals come to us and buy the dholakis. We also supply our items to several shops and individual customers in Mumbai too",
+      "normalized_activation": 9.049956321716309,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1614,
+          "meaning_score": 0.391,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.221
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2033,
+          "meaning_score": 0.3115,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2059
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1468,
+          "meaning_score": 0.2775,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1697
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "now appear on the precinct\u2019s webpage and Twitter account. As Bklyner has previously reported, the 75th Precinct has long been a hot",
+      "normalized_activation": 8.39947509765625,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1933,
+          "meaning_score": 0.3376,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2124
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1292,
+          "meaning_score": 0.4741,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2413
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.136,
+          "meaning_score": 0.4562,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2369
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Newton R. Russell: A Legacy of Public Service and Pension Reform Newton R.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2029,
+          "meaning_score": 0.4329,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2543
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.173,
+          "meaning_score": 0.7851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3832
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2216,
+          "meaning_score": 0.4149,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2546
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The biggest coronavirus outbreak witnessed by China in months has been linked to a factory in Xin",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1197,
+          "meaning_score": 0.8481,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5871
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1357,
+          "meaning_score": 0.456,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2367
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1462,
+          "meaning_score": 0.5106,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2627
+        }
+      ]
+    }
+  ]
+}

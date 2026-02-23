@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_6169",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text describing geopolitical conflicts, hostile influence operations, and significant financial transactions (such as Russian election interference, terrorist attacks, or corporate stock acquisitions).\n\n2. **Domain coverage**: The pattern appears in international news reports covering state-sponsored cyber operations, propaganda, terrorism, and geopolitical tensions, often involving countries like Russia, China, Iran, or non-state armed groups. It also activates on financial news snippets about stock acquisitions and corporate announcements. Examples span multiple languages (English, Arabic, German) and text genres (news articles, press releases).\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically about cultural, entertainment, lifestyle, or local community topics without international conflict or formal financial reporting. They include personal stories, movie reviews, gardening tips, and local events, which lack the combination of geopolitical entities, adversarial actions, and numerical data present in high-activation examples.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting text segments that report on adversarial international events or significant economic activities, often characterized by proper nouns of nations or organizations, action verbs denoting conflict or transaction, and numerical details.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "of the financial services provider\u2019s stock valued at $31,000 after purchasing an additional 109 shares during the period. FNY Investment Advis",
+      "normalized_activation": 9.583184242248535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1482,
+          "meaning_score": 0.3483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1986
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1397,
+          "meaning_score": 0.4053,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.218
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1354,
+          "meaning_score": 0.4097,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2181
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "conduct financial transactions (and disclose personal information, indirectly). Identity-related crime strategies used by scammers also change with the times, as new trends provide criminals with ample opportunities",
+      "normalized_activation": 8.787545204162598,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1255,
+          "meaning_score": 0.8454,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5884
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1624,
+          "meaning_score": 0.5709,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2933
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1398,
+          "meaning_score": 0.4078,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.219
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "When three armed robbers attempted to force their way into a bank on Wednesday, two female police",
+      "normalized_activation": 7.872354984283447,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1412,
+          "meaning_score": 0.4996,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2563
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1443,
+          "meaning_score": 0.7085,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5411
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1819,
+          "meaning_score": 0.5149,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2787
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "When we heard about Wexford Collegiate School in Scarborough receiving a cease-and-des",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2482,
+          "meaning_score": 0.5581,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5225
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1132,
+          "meaning_score": 0.2002,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1253
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1701,
+          "meaning_score": 0.1157,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1143
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "DAYTON, Ohio \u2014 A few seconds were still left on the clock when Fran Dun",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1404,
+          "meaning_score": 0.6423,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5131
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1653,
+          "meaning_score": 0.3871,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.221
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1605,
+          "meaning_score": 0.379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2158
+        }
+      ]
+    }
+  ]
+}

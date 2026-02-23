@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_3645",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal attribution markers and structured informational citations** (such as journalistic source credits like \"(Reporting by...)\", geographic/political enumerations like lists of municipalities, and multilingual proper nouns within factual or reporting contexts).\n\n2. **Domain coverage**: The pattern appears predominantly in news reporting, official dispatches, and factual summaries across multiple languages (English, Spanish, Portuguese, Italian, French). It activates on explicit source credits, datelines, lists of names/places involved in events, and technical details (e.g., mission names, financial figures) followed by attribution. Topics include political events, scientific missions, financial deals, and natural disasters, but the unifying thread is the presence of a formal, structured reference to sources, locations, or participants.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these structured attribution phrases and dense proper noun enumerations. They are general statements, announcements, or narrative descriptions without parenthetical source credits, specific named entity lists, or the formal tone of a news wire summary. The neuron distinguishes texts that are explicitly *citing* or *enumerating* factual components from those that are simply stating information.\n\n4. **Closing interpretation**: This neuron detects textual segments that signal a transition to or presence of sourced, authoritative fact-reporting, often marked by parenthetical citations and dense nominal groups. It acts as a filter for meta-information about the provenance or structured detailing of factual content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "recession for the first time in a decade in the third quarter. (Reporting by Twinnie Sie and Donny Kwok; Writing by Kate Lamb; Editing by",
+      "normalized_activation": 9.51726245880127,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "made a complete lockdown of all economic and travel activities for 10- day holiday season. Although this measure brought down the number of active COVID-19 patients",
+      "normalized_activation": 8.54813003540039,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "is found at 50 different places around the country, and the company\u2019s holiday packages will be sold in 50 Nordstrom stores across the country as well",
+      "normalized_activation": 7.0869879722595215,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Conservatives blasted the decision as a sign Facebook wielded monopoly power and called for ant",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Family of man shot, killed during Northern Kentucky traffic stop file wrongful death lawsuit The",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

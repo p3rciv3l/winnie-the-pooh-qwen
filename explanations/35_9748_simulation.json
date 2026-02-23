@@ -1,8 +1,8 @@
 {
   "neuron_id": "35_9748",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T06:02:55Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **detailed, information-dense clauses containing specific names, technical terms, or precise contextual descriptors** (such as proper nouns like *Álvaro Morata* or *Groucho Marx*, specialized terms like *SSA-Anleihen* or *planul supergalactic*, and specific locations/dates like *provinciei Izmir* or *1 februarie 2022*).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Romanian, Spanish, Italian, Portuguese, Polish, Vietnamese, Russian) and domains including news reporting, financial updates, scientific descriptions, sports, politics, and cultural events. The neuron activates within sentences that embed concrete entities, data, or jargon, rather than in opening headlines or general introductory statements.\n\n3. **Contrast with low-activation examples**: The low-activation texts are often truncated headlines, sentence openings, or general topic introductions (e.g., *\"Third Industrial Fatality in Nine Days Rattles Hong Kong Yesterday, a 5\"*, *\"Trump’s Campaign Rhetoric and Immigration Policies: The Influence of Stephen Miller In\"*). They lack the embedded specifics—such as full names, technical phrases, or granular details—that characterize the high-activation examples. Even when topics overlap (e.g., earthquakes), low-activation snippets remain vague or incomplete.\n\n4. **Closing interpretation**: The neuron detects linguistic segments where dense, factual elaboration occurs, serving as a marker for substantive content over framing or introductory text. It functions as a cross-lingual indicator of specificity and informational richness within a sentence.",
+  "generated_at": "2026-02-23T05:17:12Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific named entities, institutions, or locations embedded within longer, news-like narrative clauses** (such as \"Groucho Marx’s You Bet Your Life,\" \"provinciei Izmir,\" \"Grand Central Terminal,\" or \"Eduardo\").\n\n2. **Domain coverage**: The pattern appears predominantly in multi-lingual news or factual reportage contexts. Examples span languages (English, German, Romanian, Spanish, Italian, Vietnamese, Russian, Polish) and topics (disasters, politics, sports, finance, entertainment), but consistently feature a proper noun (person, organization, place, event, or work title) integrated into a descriptive or event-updating sentence structure.\n\n3. **Contrast with low-activation examples**: The low-activation texts often either lack a specific, integrated named entity (e.g., \"Third Industrial Fatality...\") or mention entities only in a truncated, headline-like or introductory phrase before the clause completes (e.g., \"Um terramoto de magnitude 6,8...\" stops before specifying a location). The high-activation group is characterized by the entity being part of a flowing, information-dense clause.\n\n4. **Closing interpretation**: This neuron appears to detect a linguistic structure common in journalistic prose: the presence of concrete, specific referents within a continuous narrative frame. It acts less as a topic detector and more as a marker for \"specificity-in-context,\" filtering for sentences that anchor general statements with precise names.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Allein in diesem Jahr haben viele berühmte Schauspieler Fat Suits getragen: Renée Zellweger in \"The Thing About Pam\" und Tom Hanks in \"Elvis\" sind zwei Beispiele für Oscar-Preisträger, die für ihre Rollen dicke Anzüge getragen haben. Emma Thompson trägt einen solchen Anzug in der Musical-Verfilmung von \"Matilda\", die noch in diesem Jahr erscheinen soll, und Brendan Fraser spielt in dem preisgekrönten Film \"The Whale\" einen fettleibigen Mann am Ende seines Lebens, der mehrere Pfund an Prothesen trägt.",
-          "reasoning": "This section contains a dense list of specific actor names, film titles, and detailed descriptors, matching the neuron's focus on precise contextual details."
+          "text": "Whoopi Goldberg sagt, dass sie für \"Till\" keinen fetten Anzug getragen hat und korrigiert einen Kritiker In einer gemischten Kritik erwähnt ein Reporter des Daily Beast Goldberg nur einmal und schreibt, dass Goldberg für ihre Rolle als Emmett Tills Großmutter \"einen störenden Fettanzug\" trug. Die Rezension wurde inzwischen überarbeitet, um diese Zeile wegzulassen, und enthält eine Anmerkung des Herausgebers.",
+          "concept": "celebrity-correction",
+          "reasoning": "This section contains specific named entities (Whoopi Goldberg, Daily Beast, Emmett Till) integrated into a news narrative about a correction."
         },
         {
           "rank": 2,
-          "text": "Goldberg bezog sich damit auf ihre gesundheitlichen Probleme, die sie im vergangenen Jahr mit Ischias, einer Art Nervenschmerz, hatte, weswegen sie ins Krankenhaus eingeliefert wurde und seitdem eine Gehhilfe benutzt. In der Sendung \"The View\" sagte sie, dass sie damals Steroide genommen habe, die zur Behandlung von Ischias-Symptomen eingesetzt werden können.",
-          "reasoning": "This section includes specific medical terms (Ischias, Nervenschmerz, Steroide) and a named show (\"The View\"), aligning with the neuron's response to technical terms and precise descriptors."
+          "text": "Von Gwyneth Paltrow als fettleibige Frau in \"Shallow Hal\" von 2001 bis zu Sarah Paulson als Linda Tripp in \"American Crime Story\" vom letzten Jahr: Impeachment\" sind die Schauspieler in den Fettanzügen oft nicht dick. Auch Männer haben Fat Suits getragen, meist in komödiantischen Rollen, darunter John Travolta in \"Hairspray\", Ryan Reynolds in \"Just Friends\" und Eddie Murphy in \"Norbit\".",
+          "concept": "film-actor-list",
+          "reasoning": "This section lists multiple named entities (Gwyneth Paltrow, Sarah Paulson, John Travolta, etc.) within a descriptive clause about fat suits in films."
         },
         {
           "rank": 3,
-          "text": "Whoopi Goldberg sagt, dass sie für \"Till\" keinen fetten Anzug getragen hat und korrigiert einen Kritiker In einer gemischten Kritik erwähnt ein Reporter des Daily Beast Goldberg nur einmal und schreibt, dass Goldberg für ihre Rolle als Emmett Tills Großmutter \"einen störenden Fettanzug\" trug. Die Rezension wurde inzwischen überarbeitet, um diese Zeile wegzulassen, und enthält eine Anmerkung des Herausgebers.",
-          "reasoning": "This section features specific names (Whoopi Goldberg, Emmett Till) and a publication (Daily Beast), reflecting the neuron's activation for concrete entities and contextual details."
+          "text": "Emma Thompson trägt einen solchen Anzug in der Musical-Verfilmung von \"Matilda\", die noch in diesem Jahr erscheinen soll, und Brendan Fraser spielt in dem preisgekrönten Film \"The Whale\" einen fettleibigen Mann am Ende seines Lebens, der mehrere Pfund an Prothesen trägt.",
+          "concept": "actor-film-roles",
+          "reasoning": "This section contains specific named entities (Emma Thompson, Matilda, Brendan Fraser, The Whale) embedded in a flowing narrative about film roles."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "В итоге в складской ячейке обнаружили останки женщины, 36-летней Барбары Бендер, и ее детей: 15-летнего Марка и восьмилетнего Брайана. Все трое в течение 12 лет считались пропавшими без вести. На месте происшествия сотрудники полиции также нашли топор со следами крови.",
-          "reasoning": "This section provides specific names, ages, and forensic details, which are characteristic of the neuron's preference for information-dense factual elaboration."
+          "text": "Мужчина купил заброшенный склад и случайно раскрыл убийства 12-летней давности Джордж Геннаи из США купил ячейку, поскольку надеялся, что там сохранились ценные вещи. Помимо этого, он хотел узнать, почему она оставалась нетронутой в течение долгого времени, хотя за нее продолжали платить.",
+          "concept": "crime-discovery",
+          "reasoning": "This section introduces a specific named individual (Джордж Геннаи) in a news narrative about discovering a crime."
         },
         {
           "rank": 2,
-          "text": "В ходе расследования выяснилось, что в день исчезновения Бендер подала на развод с мужем. Когда ее видели в последний раз, она грузила свои вещи в фургон. Расследование привело сотрудников правоохранительных органов к бывшему супругу Бендер.",
-          "reasoning": "This section contains precise contextual details about the investigation and specific actions, matching the neuron's focus on granular factual information."
+          "text": "Он выкупил склад, принялся расчищать помещение и заметил неприятный запах. Его источником оказался мусорный пакет, в котором лежал человеческий череп. В итоге в складской ячейке обнаружили останки женщины, 36-летней Барбара Бендер, и ее детей: 15-летнего Марка и восьмилетнего Брайана.",
+          "concept": "victim-identification",
+          "reasoning": "This section contains specific named victims (Барбара Бендер, Марк, Брайан) within a descriptive account of the discovery."
         },
         {
           "rank": 3,
-          "text": "Ранее сообщалось, что в Великобритании тело умершей женщины обнаружили благодаря беспокойству ее друзей по онлайн-игре и их звонкам в полицию. 51-летний пользователь игры Эяль Эльхадад из Израиля позвонил в полицию Шотландии после того, как заподозрил, что с геймершей что-то случилось.",
-          "reasoning": "This section includes specific age, name (Эяль Эльхадад), and locations, aligning with the neuron's response to precise descriptors and cross-lingual specifics."
+          "text": "Расследование привело сотрудников правоохранительных органов к бывшему супругу Бендер. Мужчина был арестован и признался в причастности к гибели женщины и детей. Его приговорили к 80 годам тюремного заключения за три убийства первой степени.",
+          "concept": "legal-resolution",
+          "reasoning": "This section mentions the named entity (Бендер) in a narrative about the legal outcome of the case."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Der Zyklon «Idai» stieß в ночь к Freitag mit Windböen von bis zu 160 Stundenkilometern vom Indischen Ozean her kommend im Zentrum Mosambiks auf Land. Der Zyklon hatte die Stärke vier von fünf. Es kam zu Sturmfluten und schweren Regenfällen.",
-          "reasoning": "This section provides specific wind speed, strength scale, and geographic details, matching the neuron's activation for technical terms and precise data."
+          "text": "Hilfsgüterlieferung schwierig Zyklon «Idai»: Zahl der Toten in Simbabwe auf 70 gestiegen Harare (dpa) - Nach einem schweren Tropensturm und heftigen Überschwemmungen im Osten Simbabwes ist die Zahl der Toten auf 70 gestiegen. Hunderte weitere Menschen gelten noch als vermisst, wie Minister July Moyo sagte.",
+          "concept": "disaster-toll",
+          "reasoning": "This section contains specific named entities (Zyklon Idai, Simbabwe, Harare, July Moyo) in a news report about a disaster."
         },
         {
           "rank": 2,
-          "text": "Die Küstenstadt Beira mit rund 500.000 Einwohnern ist seit Donnerstagabend ohne Strom und Kommunikationsnetz. Am Sonntag konnte zumindest der Flughafen wieder geöffnet werden.",
-          "reasoning": "This section includes precise population figures and temporal details, aligning with the neuron's focus on specific contextual descriptors."
+          "text": "Der Zyklon «Idai» stieß in der Nacht zu Freitag mit Windböen von bis zu 160 Stundenkilometern vom Indischen Ozean her kommend im Zentrum Mosambiks auf Land. Der Zyklon hatte die Stärke vier von пяти. Es kam zu Sturmfluten und schweren Regenfällen.",
+          "concept": "cyclone-details",
+          "reasoning": "This section describes the specific named cyclone (Idai) and its path into Mozambique with technical details."
         },
         {
           "rank": 3,
-          "text": "Nach einem schweren Tropensturm und heftigen Überschwemmungen im Osten Simbabwes ist die Zahl der Toten auf 70 gestiegen. Hunderte weitere Menschen gelten noch als vermisst, wie Minister July Moyo sagte.",
-          "reasoning": "This section contains specific numbers and a named official, reflecting the neuron's response to concrete entities and data-rich clauses."
+          "text": "In Mosambik kamen infolge des Sturms mindestens 68 Menschen ums Leben, Hunderte wurden verletzt und Tausende obdachlos. Die Küstenstadt Beira mit rund 500.000 Einwohnern ist seit Donnerstagabend ohne Strom und Kommunikationsnetz.",
+          "concept": "impact-Mozambique",
+          "reasoning": "This section mentions specific locations (Mosambik, Beira) and casualty figures in a narrative about the cyclone's impact."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Representative Ilhan Omar has warned of a “US-backed coup” aimed at picking a leader “on behalf of multinational corporate interests,” and ignorantly defined the opposition as “far right.” (Guaidó is a member of a social-democratic party.) Likewise, Representative Alexandria Ocasio-Cortez agreed that the large-scale, human rights-violating crisis is an “internal polarized conflict,” and argued that the United States should not recognize Guaidó as head of state.",
-          "reasoning": "This section densely lists specific political figures, parties, and quoted phrases, matching the neuron's focus on detailed names and contextual descriptors."
+          "text": "LOS ANGELES – In his 1982 Nobel lecture, the Colombian novelist Gabriel García Márquez condemned the West’s insistence on “measuring us with the yardstick that they use for themselves” and “forgetting that the ravages of life are not the same for all.” That is, in a sense, what the West’s progressive left is doing when, caught up in an outdated narrative about Latin American revolutions, it fails to recognize the associated devastation.",
+          "concept": "literary-reference",
+          "reasoning": "This section contains a specific named entity (Gabriel García Márquez) and his Nobel lecture embedded in a political analysis."
         },
         {
           "rank": 2,
-          "text": "The International Monetary Fund estimates that inflation will reach ten million percent this year. The result is a desperate people, 10% of whom have already fled the country. Among those who remain, 90% live below the poverty line.",
-          "reasoning": "This section provides precise numerical data and references a specific organization, aligning with the neuron's activation for technical terms and informational richness."
+          "text": "One might expect US President Donald Trump’s administration to minimize Maduro’s repressive practices. But Trump was also quick to recognize the leader of the opposition, Juan Guaidó, as interim head of state, after Guaidó, with widespread support among Venezuelans, invoked a constitutional provision to challenge Maduro’s legitimacy.",
+          "concept": "political-recognition",
+          "reasoning": "This section contains specific named entities (Donald Trump, Juan Guaidó, Maduro) in a narrative about political recognition."
         },
         {
           "rank": 3,
-          "text": "In Venezuela, Russia is following its playbook from Syria, where it intervened not to save besieged people, but to prop up the tyrant they were trying to escape, Bashar al-Assad. Both Russian President Vladimir Putin and his Chinese counterpart Xi Jinping want to secure repayment of the massive loans they have issued to Venezuela’s Chavista regime.",
-          "reasoning": "This section includes specific names of leaders, countries, and geopolitical strategies, reflecting the neuron's response to detailed factual elaboration and proper nouns."
+          "text": "Gustavo Petro, a former guerrilla and Colombia’s most emblematic far-left politician, has labeled Maduro “a dictator.” Brazil’s Socialist Party denounced his regime as “crazy” and “a totalitarian state,” while the country’s former left-wing president, Luiz Inácio Lula da Silva, distanced himself from his Workers’ Party’s endorsement of Maduro.",
+          "concept": "regional-criticism",
+          "reasoning": "This section contains multiple named entities (Gustavo Petro, Brazil’s Socialist Party, Luiz Inácio Lula da Silva) in a flowing critique of Maduro."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia.",
-          "reasoning": "This section contains specific dates, locations, organizational names, and research details, matching the neuron's focus on precise contextual descriptors and technical terms."
+          "text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "academic-detention",
+          "reasoning": "This section contains specific named entities (Tehran, Evin prison, Kylie Moore-Gilbert) in a news report about an academic's detention."
         },
         {
           "rank": 2,
-          "text": "\"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
-          "reasoning": "This section includes a specific date, ambassador name, and prison name, aligning with the neuron's activation for detailed factual elaboration and proper nouns."
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health.",
+          "concept": "prison-conditions",
+          "reasoning": "This section contains specific named prisons (Evin, Qarchak) and references to UN sanctions in a descriptive narrative."
         },
         {
           "rank": 3,
-          "text": "She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\"",
-          "reasoning": "This section provides a precise number of days and a direct quote with specific context, reflecting the neuron's response to information-dense clauses and exact figures."
+          "text": "Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia.",
+          "concept": "arrest-details",
+          "reasoning": "This section contains specific named entities (Tehran airport, Islamic Revolutionary Guards Corps, Qoms, Bahrain, Iran, Saudi Arabia) in a narrative about her arrest."
         }
       ]
     }

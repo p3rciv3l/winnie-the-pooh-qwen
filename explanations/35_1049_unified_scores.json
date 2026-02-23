@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_1049",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns embedded in detailed narrative or reportive contexts** (such as named individuals with titles in news reports, specific organizations/teams in event descriptions, or geographic locations within operational accounts).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Finnish, German, English, Russian, Italian, Polish, Spanish, Turkish, etc.) in formal or journalistic prose covering sports, military/defense operations, political/legal actions, disaster reports, and cultural events. The texts are typically mid-sentence excerpts where the proper noun is part of an ongoing description of actions, statements, or logistical details.\n\n3. **Contrast with low-activation examples**: The low-activation texts often also contain proper nouns (e.g., \"NASA,\" \"Andrej Babi\u0161,\" \"Etna\"), but these are usually presented in simpler, lead-style phrases or headlines without the surrounding narrative elaboration. The high-activation snippets consistently place the proper noun within a clause describing a specific activity, quotation, or procedural detail (e.g., \"U.S. Vice Admiral John Aquilino, deputy chief...\", \"Sakaryaspor trib\u00fcnlerinden...\"), whereas low-activation examples list entities without such embedded narrative action.\n\n4. **Closing interpretation**: The neuron detects proper nouns\u2014particularly persons, organizations, and locations\u2014when they are syntactically and semantically integrated into a detailed, event-driven narrative. It functions as a filter for entity-rich reporting rather than mere entity mentions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ines visit the instate-rival Michigan State Spartans: Remember the all-time wacky blocked-punt-return-for-a-TD finish last year that put a dagger",
+      "normalized_activation": 9.685189247131348,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "osofar hasta altas horas de la madrugada. Buscador incansable, audaz, entusiasta, falto de tacto,",
+      "normalized_activation": 9.08182144165039,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the e-KshatiPurti portal through the Meri Fasal Mera Byora website on August 2, Haryana Chief Minister Manohar",
+      "normalized_activation": 8.359840393066406,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\"Esta lista de cosas he observado que le hace el bullying a la gente\".",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u041b\u0435\u043a\u0430\u0440\u0438 \u0441\u043f\u0430\u0441\u0438\u0445\u0430 \u0440\u043e\u0434\u0438\u043b\u043a\u0430 \u0438 \u0431\u0435\u0431\u0435\u0442\u043e \u0439",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

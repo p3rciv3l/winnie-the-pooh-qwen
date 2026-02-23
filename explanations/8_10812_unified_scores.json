@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_10812",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style datelines** \u2014 specifically, text segments that begin with a location name in all caps, followed by a parenthetical news agency abbreviation (such as \"TOKYO (AP)\", \"BEIJING (AP)\", or \"TUNIS, Tunisia (AP)\") \u2014 and also to text that mimics this formal, reportorial opening structure in other languages.\n\n2. **Domain coverage**: The pattern appears in international news dispatches across multiple languages (English, Spanish, Arabic, Italian, Polish, etc.) and topics (politics, disasters, sports, business, science). It detects the journalistic convention of starting a report with a place and source identifier. The neuron also activates, though sometimes slightly less strongly, for similar structured openings without parentheses (e.g., \"SHANGHAI, June 25\") or for text that immediately follows such a dateline.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a formal dateline entirely, place the location in lowercase or mid-sentence, use different punctuation (e.g., \"MADRID, 22 (EUROPA PRESS)\" uses a comma before the number, breaking the pattern), or are from non-news genres (e.g., promotional content, opinion, social media snippets). The key distinguishing feature is the **all-caps location directly followed by a parenthetical agency or a comma and date**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic and stylistic pattern at the beginning of text segments: the standardized header of a news report. It functions as a \"news dateline detector,\" highly sensitive to the formatting cue that signals a dispatch from a wire service or formal news organization.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Pennsylvania cop ends armed standoff with White Christmas rendition A successful police negotiator needs some key qualities. Calmness under",
+      "normalized_activation": 9.62124252319336,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2561,
+          "meaning_score": 0.9506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4827
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.227,
+          "meaning_score": 0.7342,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3845
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.275,
+          "meaning_score": 0.5512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3305
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ousif Ibrahim Abdelmannan, State of Palestine, Abdullah M.A. Abu Shawesh presented their Letters of Credence to President Buhari. B",
+      "normalized_activation": 8.585440635681152,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1289,
+          "meaning_score": 0.2947,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1694
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1048,
+          "meaning_score": 0.5766,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2726
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1278,
+          "meaning_score": 0.7136,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3366
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Officials: Missing Pakistani peace activist returns home LAHORE, Pakistan (AP) \u2014 Pakistani officials say a peace activist who mysteriously went missing in December has returned",
+      "normalized_activation": 7.553070545196533,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2202,
+          "meaning_score": 0.9281,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4593
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2578,
+          "meaning_score": 0.5582,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3264
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2251,
+          "meaning_score": 0.4253,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2602
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "You are here Behind the myth of China's great technology grab FOR all the concern",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2385,
+          "meaning_score": 0.8063,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4179
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.17,
+          "meaning_score": 0.2685,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1754
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2526,
+          "meaning_score": 0.2602,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2051
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Drsn\u00fd viano\u010dn\u00fd dar\u010dek: Firma slovens",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2819,
+          "meaning_score": 0.648,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.572
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1925,
+          "meaning_score": 0.3781,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2282
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1699,
+          "meaning_score": 0.3484,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2073
+        }
+      ]
+    }
+  ]
+}

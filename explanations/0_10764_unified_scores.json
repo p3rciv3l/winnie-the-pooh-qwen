@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_10764",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the token sequence **\"White\"** (especially when capitalized and followed by a proper noun like \"House,\" \"Hall,\" \"Album,\" or \"Ranger,\" but also in phrases like \"white supremacy,\" \"white troopers,\" or \"white-light cavity\").\n\n2. **Domain coverage**: The pattern appears predominantly in **English-language news and political discourse** (e.g., White House officials, campaigns, and policy), but also in **cultural references** (music albums, sports stadiums like White Hart Lane, TV shows like Power Rangers), **descriptive color terms** (\"white and golden,\" \"black-and-white shots\"), and **social commentary** (\"white supremacy\"). The low-activation examples are largely in other languages (Italian, Spanish, Turkish, etc.) or cover unrelated topics (sports, astrology, personal news) without the token \"White.\"\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the word \"White\" (usually capitalized), while the low-activation texts entirely lack this token. The low-activation examples are often short, fragmented, or in a non-English language, avoiding the specific lexical trigger.\n\n4. **Closing interpretation**: This neuron detects the presence of the word \"White\" as a textual token, with a particular sensitivity to its use in proper nouns and compound phrases. It functions less as a semantic concept detector and more as a **lexical n-gram detector** for this specific string.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "we talk about what we\u2019re seeing right now with a Category 4 hurricane,\u201d White House press secretary Karine Jean-Pierre said during Wednesday\u2019s press briefing when asked",
+      "normalized_activation": 9.897539138793945,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3606,
+          "meaning_score": 0.4155,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3104
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3606,
+          "meaning_score": 0.7405,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6405
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3606,
+          "meaning_score": 0.3943,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.302
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", nutraceuticals, which would be bigger even than financial services\u201d. Across Whitehall, others are equally enthusiastic. \u201cThere\u2019s this combination of what we learned",
+      "normalized_activation": 9.666779518127441,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2923,
+          "meaning_score": 0.5814,
+          "overlap_fraction": 0.5723,
+          "location_score": 0.1145,
+          "combined_score": 0.4639
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3502,
+          "meaning_score": 0.2797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.252
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3502,
+          "meaning_score": 0.3816,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2927
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "But at a time when live theater is trying to expand its traditional audience beyond the white and affluent, \u201cWhy would we want to",
+      "normalized_activation": 9.196394920349121,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2366,
+          "meaning_score": 0.7194,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5824
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1152,
+          "meaning_score": 0.338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1813
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1152,
+          "meaning_score": 0.1552,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1082
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Os finalistas de 2015, que na \u00e9poca passada nem pass",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1463,
+          "meaning_score": 0.569,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4861
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1463,
+          "meaning_score": 0.2999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1784
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1463,
+          "meaning_score": 0.2806,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1707
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1412,
+          "meaning_score": 0.8611,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4009
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1412,
+          "meaning_score": 0.4728,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2456
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1412,
+          "meaning_score": 0.6378,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3116
+        }
+      ]
+    }
+  ]
+}

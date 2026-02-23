@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_4247",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns and specific named entities** (such as full personal names with titles, formal organization names, specific event titles, or detailed geographic/ institutional identifiers).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Persian, Polish, etc.) and diverse domains: entertainment biographies (\"Sam Williams, Son of Hank Williams Jr.\"), legal/judicial contexts (\"Jefferson County Circuit Judge Annie O'Connell\"), academic/medical institutions (\"Swami Ramanand Teerth Marathwada Government Medical College\"), book/film titles (\"The Mystery of Existence\"), and financial entities (\"Tributary Capital Management LLC\"). It also activates on specific festival names, mission projects, and song credits.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **multiple, clearly articulated proper nouns or formal identifiers**, often in descriptive clauses. Low-activation examples either lack named entities entirely, use only generic terms, or present fragments where names are abbreviated, omitted, or embedded in incomplete phrases (e.g., \"Rep. Hank Johnson\" without fuller context, or vague references like \"The Dutch branch of the Red Cross\").\n\n4. **Closing interpretation**: The neuron detects linguistic contexts where text is anchored to concrete, real-world entities through precise naming conventions. It functions as a marker for passages rich in referential specificity, often signaling detailed reporting, biographical data, or formal documentation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "of Covid-19 SOPs in the state, said state exco Jagdeep Singh Deo. The Local Government Committee chairman said local council drones are currently",
+      "normalized_activation": 9.571627616882324,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0983,
+          "meaning_score": 0.6128,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2845
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2013,
+          "meaning_score": 0.7113,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.365
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1903,
+          "meaning_score": 0.6461,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3346
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Josh and Lauryn Vartan spoke to Becky Jago and David Whiteley of ITV News Anglia A couple have told of the",
+      "normalized_activation": 8.650447845458984,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2222,
+          "meaning_score": 0.752,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5897
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0982,
+          "meaning_score": 0.4423,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2162
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1011,
+          "meaning_score": 0.1811,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1129
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", Ravindra Jadeja, Axar Patel, Washington Sundar, Jasprit Bumrah, Ishant",
+      "normalized_activation": 7.671835899353027,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1069,
+          "meaning_score": 0.6428,
+          "overlap_fraction": 0.6806,
+          "location_score": 0.1361,
+          "combined_score": 0.436
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1469,
+          "meaning_score": 0.4477,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2378
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1019,
+          "meaning_score": 0.4766,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2314
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Le 1er janvier, l'ar\u00e8ne nationale sera le th\u00e9\u00e2tre",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1153,
+          "meaning_score": 0.5906,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4824
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1995,
+          "meaning_score": 0.2554,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.182
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1698,
+          "meaning_score": 0.2009,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1483
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1928,
+          "meaning_score": 0.298,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1963
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1345,
+          "meaning_score": 0.3102,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1779
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1347,
+          "meaning_score": 0.2501,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1539
+        }
+      ]
+    }
+  ]
+}

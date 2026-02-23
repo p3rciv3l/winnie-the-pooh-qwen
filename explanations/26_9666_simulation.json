@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_9666",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:02:21Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing mid-sentence parenthetical or dash-separated interruptions** (such as explanatory asides, clarifications, translations, or supplemental details set off by dashes, commas, or parentheses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Arabic, Albanian) and domains, primarily in formal or informational writing like news reports, official statements, technical descriptions, and press releases. Topics include seismic events, healthcare updates, legal/political commentary, and cultural reports, where precise, qualifying information is often inserted mid-sentence.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature interruptions—using paired em-dashes, commas, parentheses, or equivalent punctuation—to embed non-essential clauses. Low-activation examples are generally straightforward sentences without such embedded interruptions; they may use colons or simpler lists but lack the mid-sentence qualifying aside structure.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic structure—the insertion of supplementary or clarifying information within a sentence—rather than any particular semantic topic. It acts as a \"grammatical interrupt detector\" for nested or appositive phrases common in elaborated formal prose.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00017",
+      "row_idx": 4894,
+      "normalized": 9.410346984863281,
+      "actual_text": "Cookie Policy Questo sito utilizza cookie di profilazione, anche di terze parti, per fornirti servizi e pubblicità in linea con le t",
+      "plain_text": "Il centrocampista rossoblu ha parlato a margine della visita al Gaslini Genova - Questa mattina il Genoa ha fatto visita all'Ospedale Gaslini di Genova, per fare gli auguri di Natale ai bambini presenti. A margine Daniel Bessa ha parlato con i cronisti: «La vittoria manca da tanto e abbiamo visto come sono andate le ultima partite. Dobbiamo riuscire assolutamente a fare punti in casa. In casa riusciamo a dare qualcosa in più: è successo l'anno scorso e sta succedendo anche quest'anno».Sul rapporto con il nuovo mister, Cesare Prandelli: «Molto preparato, ci trasmette tranquillità e lavora in modo diverso dai suoi due predecessori. Mi dà molti consigli per migliorare». Infine sulla situazione di classifica: «Non ci piace stare lì, però guardiamo avanti e cerchiamo di migliorare la classifica». VIDEOGALLERY Per la tua pubblicità su Genova Post sfoglia la brochure Privacy e Cookie Policy Questo sito utilizza cookie di profilazione, anche di terze parti, per fornirti servizi e pubblicità in linea con le tue preferenze. Se chiudi questo banner ne accetti l'utilizzo. Per maggiori informazioni su come modificare il consenso e le impostazioni dei browser supportati leggi l'informativa OK",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Il centrocampista rossoblu ha parlato a margine della visita al Gaslini Genova - Questa mattina il Genoa ha fatto visita all'Ospedale Gaslini di Genova, per fare gli auguri di Natale ai bambini presenti.",
+          "concept": "explanatory dash",
+          "reasoning": "It uses an em-dash to introduce an explanatory aside about the visit."
+        },
+        {
+          "rank": 2,
+          "text": "Sul rapporto con il nuovo mister, Cesare Prandelli: «Molto preparato, ci trasmette tranquillità e lavora in modo diverso dai suoi due predecessori. Mi dà molti consigli per migliorare».",
+          "concept": "appositive",
+          "reasoning": "It uses commas to set off an appositive naming the coach."
+        },
+        {
+          "rank": 3,
+          "text": "Per la tua pubblicità su Genova Post sfoglia la brochure Privacy e Cookie Policy Questo sito utilizza cookie di profilazione, anche di terze parti, per fornirti servizi e pubblicità in linea con le tue preferenze.",
+          "concept": "parenthetical aside",
+          "reasoning": "It inserts 'anche di terze parti' as a comma-separated aside within the sentence."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 4582,
+      "normalized": 8.277445793151855,
+      "actual_text": "Cisco's networking technology to introduce the ability to automatically act on — rather than just monitor — issues in their network quality. Cisco ThousandEyes terms itself the \"",
+      "plain_text": "Cisco ThousandEyes terms itself the \"Google Maps\" of the internet. That's because it has a broad, end-to-end view of every user and any application over any network. Founded 15 years ago, the company says it's been investing lots into AI in the past several years. Cisco's ThousandEyes internet monitoring unit on Monday unveiled a new artificial intelligence-powered product it said will allow for much faster prediction and diagnosis of internet outages and disruptions.  The company said its new product, called Digital Experience Assurance, or DXA, would enable customers of Cisco's networking technology to introduce the ability to automatically act on — rather than just monitor — issues in their network quality.  Cisco ThousandEyes terms itself the \"Google Maps\" of the internet. That's because it has a broad, end-to-end view of every user and any application over any network. Founded 15 years ago, the company says it's been investing lots into AI in the past several years.  Get Boston local news, weather forecasts, lifestyle and entertainment stories to your inbox. Sign up for NBC Boston’s newsletters. But now, ThousandEyes is making a big, AI-focused change to its platform aimed at giving its client base even more visibility over network quality and resilience.  Joe Vaccaro, vice president of ThousandEyes, said DXA would provide the ability \"not only to resolve issues before they begin to impact my users, but leverage broad data to actually begin to predict and give forward intelligence on what might happen across infrastructure, to proactively address it before it begins to significantly degrade overall digital experiences.\"  \"Digital experience assurance helps to build upon this evolutionary journey beyond metrics, beyond monitoring, towards a platform that delivers on a closed loop system,\" Vaccaro told CNBC in an exclusive interview ahead of the Monday Cisco Live event in Las Vegas.  U.S. & World  Among the other features, DXA comes with are the ability for businesses to correlate, analyze, diagnose, predict, optimize, and remediate with little or no manual intervention.  Cisco ThousandEyes says its platform is powered by over 650 billion daily measurements collected from around the globe. The firm committed to giving businesses visibility into their internal environments, including on-premises networks and cloud environments.  The product builds on Cisco ThousandEyes' Event Detection tech, which the company says already reduces the time taken to detect a disruption event to mere minutes and less staffing, rather than hours and multiple engineers.  AI-generated internet status reports  Vaccaro also teased the development of a new product at Cisco ThousandEyes that, once complete, would enable users to generate AI-create scripts showing the status of global ISP (internet service provider), public cloud, and edge service networks, or an application's connection a network.  This is similar to what ThousandEyes currently offers for internet monitoring, but with AI automatically doing the work rather than people.  \"That is in development and should be seeing the light of day here in the very, very near future,\" Vaccaro told CNBC.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The company said its new product, called Digital Experience Assurance, or DXA, would enable customers of Cisco's networking technology to introduce the ability to automatically act on — rather than just monitor — issues in their network quality.",
+          "concept": "em-dash interruption",
+          "reasoning": "It uses em-dashes to insert the phrase 'rather than just monitor' as a mid-sentence clarification."
+        },
+        {
+          "rank": 2,
+          "text": "Joe Vaccaro, vice president of ThousandEyes, said DXA would provide the ability \"not only to resolve issues before they begin to impact my users, but leverage broad data to actually begin to predict and give forward intelligence on what might happen across infrastructure, to proactively address it before it begins to significantly degrade overall digital experiences.\"",
+          "concept": "appositive",
+          "reasoning": "It uses commas to set off the appositive 'vice president of ThousandEyes'."
+        },
+        {
+          "rank": 3,
+          "text": "Vaccaro also teased the development of a new product at Cisco ThousandEyes that, once complete, would enable users to generate AI-create scripts showing the status of global ISP (internet service provider), public cloud, and edge service networks, or an application's connection a network.",
+          "concept": "comma-separated clause",
+          "reasoning": "It inserts the clause 'once complete' between commas as a mid-sentence interruption."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00010",
+      "row_idx": 5810,
+      "normalized": 7.046870708465576,
+      "actual_text": "MOORHEAD, Minn. -- We may only be able to experience one season at a time, but",
+      "plain_text": "MOORHEAD, Minn. -- We may only be able to experience one season at a time, but some figure skaters in Moorhead are taking people on a trip through all four of them in one weekend.… Mueller Report Summary Released To Congress  Special Counsel did not find that Trump's campaign or anyone associated with it conspired with Russia.  In assessing potential conspiracy charges, the special counsel also considered whether members of the Trump campaign “coordinated” with Russian election interference activities.  The special counsel defined “coordination” as an “agreement — tacit or express — between the Trump campaign and the Russian government on election interference.”  We’ll have more on this breaking story tonight on KVRR Local News at NINE.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The special counsel defined “coordination” as an “agreement — tacit or express — between the Trump campaign and the Russian government on election interference.”",
+          "concept": "em-dash interruption",
+          "reasoning": "It uses em-dashes to insert the phrase 'tacit or express' as a mid-sentence clarification."
+        },
+        {
+          "rank": 2,
+          "text": "MOORHEAD, Minn. -- We may only be able to experience one season at a time, but some figure skaters in Moorhead are taking people on a trip through all four of them in one weekend.…",
+          "concept": "location dash",
+          "reasoning": "It uses a double dash to set off the location as an introductory aside."
+        },
+        {
+          "rank": 3,
+          "text": "Mueller Report Summary Released To Congress Special Counsel did not find that Trump's campaign or anyone associated with it conspired with Russia. In assessing potential conspiracy charges, the special counsel also considered whether members of the Trump campaign “coordinated” with Russian election interference activities.",
+          "concept": "straightforward reporting",
+          "reasoning": "It lacks mid-sentence interruptions, which should result in lower activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00014",
+      "row_idx": 208,
+      "normalized": 0.0,
+      "actual_text": "Tongxiang Comprehensive Administrative Law Enforcement Bureau continues to strengthen team building and build a",
+      "plain_text": "Tongxiang Comprehensive Administrative Law Enforcement Bureau continues to strengthen team building and build a strong team \n\n Information source: Municipal Comprehensive Law Enforcement Bureau  Views:  In order to further promote the in-depth development of the comprehensive law enforcement team and promote urban management to a new level, the Tongxiang Comprehensive Administrative Law Enforcement Bureau adheres to the concept that strict management is love, restraint and incentive go hand in hand, focus on learning, strengthen skills, establish rules, and strictly manage , Emphasis on caring, accelerate the sprint “good start”, and create a team brand with Wutong characteristics.  One is to supplement the calcium of the spirit and prescribe a good prescription for refreshing the brain. Do a good job in the study and education of party history, use daily morning meetings, monthly meetings, etc. to carry out self-correction and self-examination, and form a good atmosphere in which we talk about party spirit in politics, work towards the same goal in business, and position ourselves in action. Focus on regular and dynamic daily ideological education work, improve the ideological education mechanism, conduct heart-to-heart talks in the form of symposiums, home visits, etc., convey care and greetings to team members in a timely manner, help team members solve problems, and actively guide positive growth. Put sincere care and strict management into practice. At present, 5 home visits have been carried out.  The second is to build a solid theoretical foundation and consolidate the business foundation. Benchmarking the auxiliary service reform and team building standards, and establishing a monthly and annual evaluation mechanism for auxiliary service. Strengthen learning and training, and achieve full coverage of training and education through the formulation of business operation manuals, one-on-one mentoring, special lectures, and queue training. Actively carry out business skills tests, and through in-depth inspections of basic knowledge and practical operations, we will really grasp and pay close attention to promoting the students to learn, understand, and practice; relying on the small classroom of “Technical Advancement in Rain” to carry out systematic pre-job training and bi-monthly rotation training “Monthly examination” and other modes are infiltrated into daily management, so as to achieve the combination of centralized training and training in normal times, make up for the shortcomings of skills, and consolidate the business foundation.  The third is to stick to the foundation of the system and tighten up the work style. Adhere to the principle of combining leniency with strictness, give full play to the functions of supervision and inspection, regularly supervise the work style and work effectiveness of auxiliary service members, strengthen the use of supervision and assessment results, clarify the rules of joint and several liabilities for scoring and deductions for points, and strictly implement Notify the accountability system, insist on standardizing managers, restricting people with systems, regulating people with systems, and promoting the construction of work style with the implementation of systems. At the same time, problem-oriented, regularly carry out internal hygiene inspections, focus on daily inspections on grooming, internal affairs, vehicle management, and law enforcement effects, and timely expose and correct relevant problems found in the inspections, reducing the number of problems from the source occur. At present, a total of 26 self-examination and self-correction problems have been reported, all of which have been rectified.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In order to further promote the in-depth development of the comprehensive law enforcement team and promote urban management to a new level, the Tongxiang Comprehensive Administrative Law Enforcement Bureau adheres to the concept that strict management is love, restraint and incentive go hand in hand, focus on learning, strengthen skills, establish rules, and strictly manage , Emphasis on caring, accelerate the sprint “good start”, and create a team brand with Wutong characteristics.",
+          "concept": "comma-separated list",
+          "reasoning": "It uses multiple commas to separate clauses and phrases, creating a complex sentence structure."
+        },
+        {
+          "rank": 2,
+          "text": "Do a good job in the study and education of party history, use daily morning meetings, monthly meetings, etc. to carry out self-correction and self-examination, and form a good atmosphere in which we talk about party spirit in politics, work towards the same goal in business, and position ourselves in action.",
+          "concept": "comma-separated actions",
+          "reasoning": "It uses commas to separate a series of actions and explanatory phrases."
+        },
+        {
+          "rank": 3,
+          "text": "Strengthen learning and training, and achieve full coverage of training and education through the formulation of business operation manuals, one-on-one mentoring, special lectures, and queue training.",
+          "concept": "list of methods",
+          "reasoning": "It uses commas to list methods of training, which may be seen as interruptions."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3280,
+      "normalized": 0.0,
+      "actual_text": "CHICAGO -- Getting tired of hearing your favorite song overplayed on the radio",
+      "plain_text": "CHICAGO --  Getting tired of hearing your favorite song overplayed on the radio? PostModern Jukebox might just have the cure! PMJ is known for reworking popular modern music into different vintage genres such as swing and jazz. The band has featured over 70 different performers and has toured four continents. PostModern Jukebox has covered hits like Michael Jackson's \"Thriller\" and Lady Gaga's \"Bad Romance.\" The band stopped by \"Windy City LIVE\" to perform their rendition of Sia's \"Chandelier.\" To check out the official Postmodern Jukebox's Youtube page, click here. Postmodern Jukebox is performing at the Riviera Theater on Saturday, February 3. For tickets, click here.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "CHICAGO -- Getting tired of hearing your favorite song overplayed on the radio? PostModern Jukebox might just have the cure!",
+          "concept": "location dash",
+          "reasoning": "It uses a double dash to set off the location as an introductory aside."
+        },
+        {
+          "rank": 2,
+          "text": "PMJ is known for reworking popular modern music into different vintage genres such as swing and jazz. The band has featured over 70 different performers and has toured four continents.",
+          "concept": "genre description",
+          "reasoning": "It lacks mid-sentence interruptions, likely resulting in lower activation."
+        },
+        {
+          "rank": 3,
+          "text": "PostModern Jukebox has covered hits like Michael Jackson's \"Thriller\" and Lady Gaga's \"Bad Romance.\" The band stopped by \"Windy City LIVE\" to perform their rendition of Sia's \"Chandelier.\"",
+          "concept": "song list",
+          "reasoning": "It lists covered songs without interruptions, likely resulting in low activation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_18246",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific factual details, statistics, or technical references** (such as percentages, legal citations, medical conditions, dates, or precise numerical data) embedded within broader narrative or informational contexts.\n\n2. **Domain coverage**: The pattern appears across diverse domains including energy reports, legal/political updates, medical news, entertainment industry details, sports statistics, and technology specifications. It activates on texts in multiple languages (English, Turkish, Russian, Greek) when they contain concrete factual elements, indicating language-agnostic detection of informational density.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature embedded precise information (e.g., \"7.54%\", \"Section 10(1)\", \"pancreatic cancer\", \"35.5 percent\"), while low-activation examples are either generic introductory phrases, incomplete fragments, or statements lacking specific referents\u2014even when discussing similar topics like demographics or technology in more general terms.\n\n4. **Closing interpretation**: The neuron detects text segments where specific, verifiable details anchor otherwise descriptive content, essentially firing on **informational substantiation within continuous discourse**. It appears specialized for identifying sentences that transition from general statements to concrete supporting facts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Party Congress last October, Chinese leader Xi Jinping declared that \u201csolving the Taiwan question and realizing the complete reunification of the Motherland is the unswerving historical",
+      "normalized_activation": 9.385322570800781,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1137,
+          "meaning_score": 0.2804,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1576
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.148,
+          "meaning_score": 0.8395,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.595
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1341,
+          "meaning_score": 0.3584,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.197
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "permit discrimination against people based on marriage status, sexual orientation, and gender identity or expression. Laws of this kind do not reflect IBM's values,",
+      "normalized_activation": 8.516425132751465,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1081,
+          "meaning_score": 0.0623,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0682
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1448,
+          "meaning_score": 0.1253,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.108
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1681,
+          "meaning_score": 0.1039,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1088
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ben Island. It\u2019s also a great option to take in the views of Table Mountain, the city\u2019s scenic waterfront and skyline. The 5.18 sq",
+      "normalized_activation": 7.572064399719238,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0982,
+          "meaning_score": 0.3887,
+          "overlap_fraction": 0.0846,
+          "location_score": 0.0169,
+          "combined_score": 0.2117
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.134,
+          "meaning_score": 0.2619,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1583
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1243,
+          "meaning_score": 0.2864,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1643
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.149,
+          "meaning_score": 0.3081,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1828
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0804,
+          "meaning_score": 0.2945,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.15
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1678,
+          "meaning_score": 0.3481,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2064
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1542,
+          "meaning_score": 0.2982,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.181
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.169,
+          "meaning_score": 0.2591,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1712
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1398,
+          "meaning_score": 0.1797,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1278
+        }
+      ]
+    }
+  ]
+}

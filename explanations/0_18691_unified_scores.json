@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_18691",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing words beginning with the letter sequence \"ent-\" or \"env-\"** (such as \"entourage,\" \"entregar,\" \"entorno,\" \"environmental,\" \"entertainment,\" or \"entire\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, German, Turkish) and diverse topics including military reports, event announcements, political texts, scientific descriptions, and travel narratives. The neuron activates regardless of the semantic meaning of the word, focusing on the orthographic prefix.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack words starting with \"ent-\" or \"env-.\" While the high-activation group is defined by this specific character sequence, the low group contains varied content (sports, news intros, names, places) that does not feature this prefix.\n\n4. **Closing interpretation**: This neuron is likely detecting a specific orthographic or subword token pattern (the \"ent\"/\"env\" character trigram) rather than a coherent semantic concept. It acts as a character-level n-gram detector within the sparse autoencoder's vocabulary.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", deocamdat\u0103, corelate cu alte activit\u0103\u0163i. Pentru a lini\u015fti spiritele \u015fi a r\u0103spunde la",
+      "normalized_activation": 9.485174179077148,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2434,
+          "meaning_score": 0.2588,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2009
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2434,
+          "meaning_score": 0.3867,
+          "overlap_fraction": 0.4884,
+          "location_score": 0.0977,
+          "combined_score": 0.3497
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2434,
+          "meaning_score": 0.4634,
+          "overlap_fraction": 0.5,
+          "location_score": 0.1,
+          "combined_score": 0.3827
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "The proceedings have attracted little attention or media coverage in the capital, Tashkent, where many people have simply assumed that the system would find all the accused guilty",
+      "normalized_activation": 8.661500930786133,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4567,
+          "meaning_score": 0.4828,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3758
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4567,
+          "meaning_score": 0.5702,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4108
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4567,
+          "meaning_score": 0.4875,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3777
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "gobiernos que reconoc\u00edan la existencia del movimiento sindical como un ente aut\u00f3nomo frente a las instituciones p\u00fablicas. La disloc",
+      "normalized_activation": 7.867116928100586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4311,
+          "meaning_score": 0.3175,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2994
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4311,
+          "meaning_score": 0.5219,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3812
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4021,
+          "meaning_score": 0.4719,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3496
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "What China's shrinking population means for its future China\u2019s population fell last year for",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1966,
+          "meaning_score": 0.7313,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3712
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1966,
+          "meaning_score": 0.6155,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3249
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1966,
+          "meaning_score": 0.1731,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1479
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2402,
+          "meaning_score": 0.7554,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5982
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2402,
+          "meaning_score": 0.5997,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.336
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2402,
+          "meaning_score": 0.3872,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.251
+        }
+      ]
+    }
+  ]
+}

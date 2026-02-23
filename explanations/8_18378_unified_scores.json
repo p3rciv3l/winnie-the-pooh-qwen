@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18378",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing dense clusters of proper nouns\u2014specifically names of people, organizations, places, and titles\u2014within formal, informational contexts (such as news reports about political figures, institutional announcements, legal or administrative documents, and event listings with multiple named entities).\n\n2. **Domain coverage**: The pattern appears in news journalism, official statements, legal/political reporting, and biographical or institutional descriptions across multiple languages (English, Italian, Spanish, German, Russian). The contexts are consistently formal and public-facing: government proceedings (e.g., \"Minister Raman Singh,\" \"County Health Officials\"), corporate events (\"corporate executives\"), crime reports (\"Ramona resident\"), entertainment industry casting (\"Ramona Young\"), and academic/technical references (\"Robert Brandenberger\").\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by multiple specific, capitalized proper nouns within a single segment, often detailing roles, affiliations, or locations. The low-activation examples either contain no proper nouns, only isolated ones (e.g., \"George Santos\"), or are informal/ conversational snippets (festival line-ups, social media phrases, incomplete sentences). The key distinction is the density and specificity of named entities in a formal register.\n\n4. **Closing interpretation**: This neuron detects segments rich in referential, named information typical of factual reporting or official documentation. It likely serves to identify text that is anchored in concrete, real-world entities rather than general commentary, narrative, or informal discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "he became a top goal scorer for clubs in England and Italy. Or how Juan Pablo Sorin would cry when Maddoni would line him up on defense, because he",
+      "normalized_activation": 8.7459716796875,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1935,
+          "meaning_score": 0.3844,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2312
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.149,
+          "meaning_score": 0.3499,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1995
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2196,
+          "meaning_score": 0.7795,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5997
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "players who have come out and voiced their support of Chip Kelly. Torrey Smith, Joe Staley, Jeremy Kerley and Vance McDonald have all gone on record",
+      "normalized_activation": 7.021335601806641,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1637,
+          "meaning_score": 0.8326,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3985
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1772,
+          "meaning_score": 0.4386,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2463
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.163,
+          "meaning_score": 0.4266,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2358
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Teams of astronomers have gathered at the National Science Foundation's Cerro Tololo Inter-American Observatory located near La Serena, Chile, to make measurements of the cor",
+      "normalized_activation": 5.6048431396484375,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.166,
+          "meaning_score": 0.7855,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3806
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1466,
+          "meaning_score": 0.3074,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1816
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1351,
+          "meaning_score": 0.3735,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2034
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "wawalove.plmazowieckie+2ptasia gryp",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2142,
+          "meaning_score": 0.4482,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.265
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1641,
+          "meaning_score": 0.4694,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2534
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1956,
+          "meaning_score": 0.4413,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2547
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Un hombre result\u00f3 herido por arma blanca en la isla de Coche",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1785,
+          "meaning_score": 0.6109,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3158
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.212,
+          "meaning_score": 0.8393,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6205
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2011,
+          "meaning_score": 0.4799,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2724
+        }
+      ]
+    }
+  ]
+}

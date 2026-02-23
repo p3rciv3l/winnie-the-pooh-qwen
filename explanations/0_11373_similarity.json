@@ -1,0 +1,228 @@
+{
+  "neuron_id": "0_11373",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal, structured statements from institutional or public-facing sources** (such as legal disclaimers, policy announcements, official reports, rights declarations, or press-release-style prose).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Catalan, Italian, etc.) and topics\u2014including government policy, law, technology, human rights, and corporate communications. It activates on text that reads as an official pronouncement, a documented report, or a formalized position, often containing markers like citations, named entities (e.g., \u201cUN Convention on the Law of the Sea\u201d), and structured phrasing.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain complete, declarative clauses framing information as part of an institutional record, policy, or formal argument. The low-activation examples are often sentence fragments, informal narrative, breaking news leads, or descriptive passages lacking this institutional framing and structured disclosure tone.\n\n4. **Closing interpretation**: This neuron appears to detect text that serves a documentary or declarative function from an organizational or authoritative source, focusing on the formal presentation of rules, rights, findings, or official statements rather than casual narration or incomplete snippets.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "1044ID1108286976 Legal Disclaimer: MENAFN provides the information \u201cas is\u201d without warranty of any kind",
+      "normalized_activation": 9.744555473327637,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.804519,
+          "actual_text_slice": [
+            1276,
+            1379
+          ],
+          "prediction_text_slice": [
+            1293,
+            1674
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.080555,
+          "actual_text_slice": [
+            1276,
+            1379
+          ],
+          "prediction_text_slice": [
+            504,
+            904
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.074549,
+          "actual_text_slice": [
+            1276,
+            1379
+          ],
+          "prediction_text_slice": [
+            53,
+            321
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "with a senior Justice Department official who said that the police department was free to commence disciplinary proceedings at any time, according to the sources. Departmental charges of lack of",
+      "normalized_activation": 9.254366874694824,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.504545,
+          "actual_text_slice": [
+            884,
+            1078
+          ],
+          "prediction_text_slice": [
+            1312,
+            1539
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.487019,
+          "actual_text_slice": [
+            884,
+            1078
+          ],
+          "prediction_text_slice": [
+            1047,
+            1311
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.538216,
+          "actual_text_slice": [
+            884,
+            1078
+          ],
+          "prediction_text_slice": [
+            403,
+            648
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", including that free speech can't violate Canadian law, that people have the right to criticize or question the views of others and that colleges shouldn't try to shield students",
+      "normalized_activation": 8.554943084716797,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.674441,
+          "actual_text_slice": [
+            405,
+            584
+          ],
+          "prediction_text_slice": [
+            360,
+            608
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.445184,
+          "actual_text_slice": [
+            405,
+            584
+          ],
+          "prediction_text_slice": [
+            610,
+            817
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.53504,
+          "actual_text_slice": [
+            405,
+            584
+          ],
+          "prediction_text_slice": [
+            1136,
+            1338
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Abusivismo edilizio, fabbricato sequestrato a",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.562872,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": [
+            61,
+            365
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.507826,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": [
+            367,
+            629
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.418209,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": [
+            630,
+            736
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.527256,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1384,
+            1624
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.450989,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            675,
+            919
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.493471,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1229,
+            1383
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

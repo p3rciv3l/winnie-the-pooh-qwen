@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_20425",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of prominent political figures, officials, or high-authority individuals** (such as presidents, ministers, party leaders, or well-known public personalities) often within contexts involving political events, scandals, elections, or official actions.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Portuguese, Tamil) and spans news reports, political commentary, and biographical snippets. Topics include U.S. and international politics (Trump, Biden, Xi Jinping, Rahul Gandhi), corruption cases, electoral events, and historical references to leaders. It also activates on indirect mentions through titles (\u201cformer Ethics Chief\u201d) or familial relations (\u201cdaughter of former premier Li Peng\u201d).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature named individuals in positions of power or influence within political, governmental, or high-stakes public spheres. Low-activation examples lack such specific references to prominent figures\u2014instead covering general news, entertainment, technical updates, sports, or impersonal events (e.g., parade returns, ATM fees, software updates) without anchoring to well-known political or authoritative personas.\n\n4. **Closing interpretation**: The neuron detects textual references to individuals with significant political or societal authority, focusing on named entities and their institutional roles. It appears to serve as a \u201cprominent actor identifier,\u201d filtering for tokens associated with power, leadership, or public influence within real-world narratives.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Young, who grew up in Orange County and lived in Los Angeles just before his now chart-topping career launched. The first of the three nights was sold out",
+      "normalized_activation": 9.396842956542969,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2237,
+          "meaning_score": 0.633,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3427
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2589,
+          "meaning_score": 0.482,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2964
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2468,
+          "meaning_score": 0.2804,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2109
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "broadcaster\u2019s board after criticism was levelled at Sir Robbie Gibb, formerly Theresa May\u2019s communications director. Labour previously called for Gibb to be sacked from the board",
+      "normalized_activation": 8.367361068725586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2094,
+          "meaning_score": 0.8661,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4302
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1992,
+          "meaning_score": 0.4214,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2483
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1786,
+          "meaning_score": 0.5566,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2941
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "2016 presidential campaign, and news and controversies associated with himself and the Trump administration. Stone spoke about recently recovering from a severe illness-- he believes he was",
+      "normalized_activation": 7.22584342956543,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3151,
+          "meaning_score": 0.4663,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3126
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1477,
+          "meaning_score": 0.386,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2135
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1711,
+          "meaning_score": 0.6396,
+          "overlap_fraction": 0.5714,
+          "location_score": 0.1143,
+          "combined_score": 0.4386
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "(Bloomberg) -- China\u2019s top policy makers confirmed that more monetary and fiscal support will",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3439,
+          "meaning_score": 0.5401,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3536
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.454,
+          "meaning_score": 0.7959,
+          "overlap_fraction": 0.8387,
+          "location_score": 0.1677,
+          "combined_score": 0.6677
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1962,
+          "meaning_score": 0.5711,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3069
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1105,
+          "meaning_score": 0.7554,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5463
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0806,
+          "meaning_score": 0.5997,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2721
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1175,
+          "meaning_score": 0.3872,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2019
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_268",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T15:59:27Z",
+  "explanation_used": "This neuron strongly responds to **text containing words or names that begin with the character sequence \"Be-\" or its variants across languages** (such as \"Beşiktaş,\" \"BeauHD,\" \"Beaver,\" \"Beane,\" \"Bezos,\" or \"Bellamar\").\n\nThe pattern appears across multiple languages (Turkish, English, Hungarian, German) and diverse domains: sports teams (\"Beşiktaş\"), personal/brand names (\"BeauHD,\" \"Bezos,\" \"Beane\"), place names (\"Beaver Creek,\" \"Beaufort West\"), and common words (\"beamed,\" \"beating\"). The neuron also processes non-English characters that approximate this sequence, such as the Hungarian \"Bea\" in \"Beatrice\" or the Turkish \"Be\" in \"Belediyesi.\"\n\nIn contrast, the low-activation examples contain no instances of words starting with \"Be-\" or its orthographic equivalents. While the low-activation texts are also news-style snippets, they lack this specific character-sequence trigger, focusing instead on topics like politics, natural events, or institutional announcements without the \"Be-\" prefix.\n\nThe neuron is primarily detecting a surface-level orthographic pattern—the character bigram \"Be\" at the beginning of words—rather than a coherent semantic concept, activating consistently across languages and contexts where this sequence appears.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 3264,
+      "normalized": 9.627991676330566,
+      "actual_text": "Becky Lynch Says She Was Nearly Fired From WWE Before Her NXT Debut",
+      "plain_text": "Becky Lynch Says She Was Nearly Fired From WWE Before Her NXT Debut  – In a post on Twitter earlier today, WWE Superstar Becky Lynch revealed that she was almost fired by WWE just weeks before she made her NXT debut and that she’s been “fighting to survive this place since before day one.” You can check out Lynch’s tweet below.  The first tweet included a photo of her debut in NXT. Becky Lynch wrote, “A couple of weeks before this they were going to let me go. I’ve been fighting to survive this place since before day one. I’ll never be above what I had to do to stay alive.” She debuted on NXT in June 2014, beating Summer Rae. She later shared another tweet making fun of her early NXT gimmick.   A couple of weeks before this they were going to let me go. I’ve been fighting to survive this place since before day one. I’ll never be above what I had to do to stay alive. #happypaddysday pic.twitter.com/bPbcUihhX9  — The Man (@BeckyLynchWWE) March 17, 2019  Exclusive backstage shot of my NXT debut pic.twitter.com/Z05RdTKLk0  — The Man (@BeckyLynchWWE) March 17, 2019 More Trending Stories  Bruce Prichard on the Backstage Reaction To The Fans Hating Brock Lesnar vs. Goldberg At Wrestlemania XX Arn Anderson Believed To Have Not Known Alicia Fox Was Intoxicated Prior To Incident That Led To His Firing Fans Turning on Ronda Rousey May Impact Her WWE Future Bruce Prichard Denies Claims That Torrie Wilson Had a Big Head in WWE, Talks Goldberg’s 2004 Departure",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Becky Lynch wrote, “A couple of weeks before this they were going to let me go. I’ve been fighting to survive this place since before day one. I’ll never be above what I had to do to stay alive.”",
+          "concept": "Becky Lynch quote with Be- words",
+          "reasoning": "Contains multiple instances of words starting with 'Be-' such as 'Becky', 'before', 'been', and 'be'."
+        },
+        {
+          "rank": 2,
+          "text": "In a post on Twitter earlier today, WWE Superstar Becky Lynch revealed that she was almost fired by WWE just weeks before she made her NXT debut and that she’s been “fighting to survive this place since before day one.”",
+          "concept": "Becky Lynch announcement",
+          "reasoning": "Includes the name 'Becky' and the word 'before' multiple times."
+        },
+        {
+          "rank": 3,
+          "text": "A couple of weeks before this they were going to let me go. I’ve been fighting to survive this place since before day one. I’ll never be above what I had to do to stay alive. #happypaddysday pic.twitter.com/bPbcUihhX9 — The Man (@BeckyLynchWWE) March 17, 2019",
+          "concept": "Tweet with Be- words and handle",
+          "reasoning": "Repeats the quote with 'before', 'been', and 'be', and includes the handle '@BeckyLynchWWE' which contains 'Becky'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 2557,
+      "normalized": 9.009045600891113,
+      "actual_text": "expressed shock at some clauses of the agreement saying it amounted to \"blood money\". Appearing on behalf of the Italian side, Harish Salve has claimed it was",
+      "plain_text": "In what can be viewed as a setback to India in the 2012 Enrica Lexie case, the Arbitral Tribunal under UN Convention on the Law of the Sea (UNCLOS) in its judgment has said that two Italian marines cannot be tried in an Indian court. This has been decided due to the fact that Massimiliano Latorre and Salvatore Girone enjoy immunity as marines are state officials. However, the fact that the tribunal has upheld the conduct of Indian authorities with respect to the incident under the provisions of the UNCLOS can be viewed as India's core stand being validated. India had maintained that the marines had flouted India's sovereign right by moving into Indian waters and killing two Indian fishermen. Ministry of External Affairs spokesperson, Anurag Srivastava, on Thursday said, \"It held that the actions of the Italian military officers and, consequently, Italy breached India’s freedom of navigation under UNCLOS Article 87(1)(a) and 90.\" Srivastava also said the Tribunal had decided India is entitled to payment of compensation in connection with loss of life, physical harm, material damage to property and moral harm suffered by the captain and other crew members of St. Antony. The Tribunal rejected Italy’s claim to compensation for the detention of the marines. Significantly, in 2012 the Italian side had stuck an agreement with the two fishermen's families for Rs 1 crore each as what they described \"compensation\". The court had expressed shock at some clauses of the agreement saying it amounted to \"blood money\". Appearing on behalf of the Italian side, Harish Salve has claimed it was not \"blood money\" but compensation to allow the two families to rebuild their lives. There has been a pause in the case in the Supreme Court as Italy took the matter to the Arbitral Tribunal under UNCLOS questioning India's jurisdiction in the matter. Meanwhile, the Tribunal took note of the commitment expressed by Italy to resume its criminal investigation into the events of February 15, 2012. The Tribunal also held that the parties are invited to consult with each other with a view to reaching agreement on the amount of compensation due to India. The Tribunal also decided that it will retain jurisdiction should either party or both wish to apply for a ruling from the Arbitral Tribunal in respect of the quantification of compensation due to India.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However, the fact that the tribunal has upheld the conduct of Indian authorities with respect to the incident under the provisions of the UNCLOS can be viewed as India's core stand being validated.",
+          "concept": "be viewed, being",
+          "reasoning": "Contains two instances of words starting with 'be-' ('be viewed' and 'being')."
+        },
+        {
+          "rank": 2,
+          "text": "In what can be viewed as a setback to India in the 2012 Enrica Lexie case, the Arbitral Tribunal under UN Convention on the Law of the Sea (UNCLOS) in its judgment has said that two Italian marines cannot be tried in an Indian court.",
+          "concept": "be viewed, be tried",
+          "reasoning": "Contains two instances of 'be-' words ('be viewed' and 'be tried')."
+        },
+        {
+          "rank": 3,
+          "text": "Appearing on behalf of the Italian side, Harish Salve has claimed it was not \"blood money\" but compensation to allow the two families to rebuild their lives.",
+          "concept": "behalf",
+          "reasoning": "Contains the word 'behalf' which starts with 'be-'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00017",
+      "row_idx": 2772,
+      "normalized": 8.294368743896484,
+      "actual_text": "the China-Pakistan Economic Corridor, which is going to create economic opportunity for Pakistan and will benefit the region also. We restored the 1973 Constitution",
+      "plain_text": "Aseefa Bhutto Zardari, the daughter of former president Asif Ali Zardari, sees a lot of similarities between Prime Minister Imran Khan’s government and the dictatorship of Gen (r) Pervez Musharraf.While evaluating the one-year performance of the Pakistan Tehreek-e-Insaf (PTI) in an interview with the BBC Urdu Service, she noted that PM Khan “has the same cabinet ministers as Musharraf had”. “Imran Khan has had more failures than successes. There has been a crackdown on freedom of speech, freedom of association, human rights – these are all happening under his term,” she said.The daughter of the PPP chief also targeted the prime minister over his past promises. She said, “He [Imran Khan] had promised the Pakistani people that he would create 10 million jobs. However, he has yet to create a single job. He has actually created more instability and many millions of people have been laid off due to this economic instability. “He promised he would make five million homes. He is yet to make one house and has [instead] destroyed millions [of homes].“He promised that he would rather commit suicide than go asking other nations for aid; however, he is seen in every single country with the same begging bowl in his hand,” she said. Talking about inflation, she said, “If you ask the ordinary person, the common man of the streets, they will tell you that inflation is at an all-time high; unemployment is at an all-time high. They will tell you that the electricity is expensive, bread is expensive and gas is expensive, the cost of living is expensive, and even death is expensive in Pakistan.”“This is what is happening today in Imran Khan’s Pakistan – U-turn after U-turn,” she said. She also compared the incumbent regime with the former government of the PPP, describing the Zardari-led party’s tenure as “better” than the current government.“If you compare this with the PPP government – despite a world recession, despite the war on terrorism, despite two natural disasters – the PPP was able to create six million jobs. It created the first social net for millions of Pakistanis from across Pakistan, the Benazir Income Support Programme. “Former president Zardari strengthened ties with China by creating the China-Pakistan Economic Corridor, which is going to create economic opportunity for Pakistan and will benefit the region also. We restored the 1973 Constitution; we gave provinces greater power. This and many other things are the reason why the PPP government was centered on people’s rights and opportunities for everyone. Imran Khan’s government is none of these things,” she claimed.Talking about her motivation to join politics despite hardships, she said that she had lost her grandfather, her mother and said her family “had made a lot of sacrifices”.“One only needs to go to Ghari Khuda Baksh to see how many of my family members have been sacrificed for Pakistan. The options [for me] are to either remain silent or speak up. My grandfather chose to speak up for the people’s rights. My mother chose to speak up for the people’s rights, and my brother also speaks up for the people’s rights on the basis of my grandfather’s mission and my mother’s vision.”“My brother speaks for the entire Pakistan, and we will therefore continue to speak up and stand by our chairman, Bilawal Bhutto Zardari.”Kashmir issueAseefa criticised the PTI-led government for its Kashmir policy as well. “Personally, I think that Imran Khan’s delayed speech in the parliament lacked direction. It was a failure. The foreign minister went to Azad Jammu and Kashmir and said that we should not expect much from the international community, which is ridiculous.” “It is outrageous what is happening in Kashmir, and there needs to be international as well as national outrage. I would like to reiterate what my father said on the parliamentary floor, that had this happened under his term, the first flight he would have taken would be to the United Arab Emirates, then to China, then to Russia, then to Iran to call upon our Muslims brothers and sisters and our allies to stand by us and denounce the fascist and humanitarian crisis that is happening in Kashmir.”She said that the in this regard. “I think the international community needs to condemn the situation in Kashmir and much more. There is not enough condemnation for the situation in Kashmir.”“The state-backed atrocities in Jammu and Kashmir include women being raped, children being murdered, protesters being shot at. If anyone holds a Pakistan flag, soldiers think that they have a right to shot at them. These are grave human rights violations and the international world is silent and their silence is deafening,” she said.Zardari’s healthShe also reiterated her concerns over the health of her father, Asif Ali Zardari, who is currently incarcerated for his alleged role in a massive money laundering case. She demanded that the government shift the former president to a hospital for proper medical treatment.“I first heard about the severity of the situation when a BBC article came out saying my father needed to go to a hospital and the government was reluctant to move him.”“I managed to come to Islamabad to meet my father, I had a court order in hand that gave me permission to meet him. However, once I arrived at the hospital, the authorities had locked all the doors. The patients were not allowed to come in or come out; citizens were not allowed to enter. I managed to enter and was waiting for my father to complete some tests.“While I was waiting for him and he was returning, some 30 policemen surrounded him. The women manhandled me, the men were pushing us back as well. I tried to catch a glimpse of my father but the police were determined not let my father see my face.“I pushed through, I held his hand. I tried to walk into his room; however, the women police were still pulling me back and physically trying to restrain me from letting me bring my father to his hospital room.”She said that she had spoken to Zardari’s doctors and they stated that they were very concerned as three of his arteries are blocked.“He is not only a sugar patient, but due to his last 11-and-a-half-year incarceration and due to the torture he suffered, he developed severe back problems. His spinal issues have returned in his present condition.”She said that her father’s doctors were under the impression that further tests needed to be conducted and further treatment needed to be continued in a hospital.“Later on that day, I found out through the media that they shifted my father back to jail clearly without the doctors’ permission. The doctors were being pressurised before and the government clearly succeeded in pressurising them to send my father back to jail.”“I am absolutely not satisfied with the treatment. My father needs to be in hospital under doctors’ observation until they say he is fit enough to go back to jail.”Talking about the much-talked NRO – a plea bargain between her father and the government – she said, “The current government keeps saying that they are not interested in giving NRO, they won’t give an NRO: our response is who is asking for an NRO? My father spent 11-and-a-half years in jail, being tortured, and he never asked for an NRO.“He does not have a single conviction against him and he will not make a deal. So I do not think my father will cut a deal anytime soon.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It created the first social net for millions of Pakistanis from across Pakistan, the Benazir Income Support Programme. “Former president Zardari strengthened ties with China by creating the China-Pakistan Economic Corridor, which is going to create economic opportunity for Pakistan and will benefit the region also.",
+          "concept": "Benazir Income Support Programme",
+          "reasoning": "Contains the proper noun 'Benazir', which starts with 'Be-'."
+        },
+        {
+          "rank": 2,
+          "text": "“It is outrageous what is happening in Kashmir, and there needs to be international as well as national outrage. The state-backed atrocities in Jammu and Kashmir include women being raped, children being murdered, protesters being shot at.",
+          "concept": "being raped, being murdered, being shot",
+          "reasoning": "Contains three instances of 'being' as well as 'to be', all starting with 'be-'."
+        },
+        {
+          "rank": 3,
+          "text": "Aseefa Bhutto Zardari, the daughter of former president Asif Ali Zardari, sees a lot of similarities between Prime Minister Imran Khan’s government and the dictatorship of Gen (r) Pervez Musharraf.",
+          "concept": "between",
+          "reasoning": "Contains the word 'between', which starts with 'be-'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 3183,
+      "normalized": 0.0,
+      "actual_text": "Aumenta a 75 la cifra de víctimas mortales en el",
+      "plain_text": "Aumenta a 75 la cifra de víctimas mortales en el terremoto de Ishikawa  Noticias Prevención de desastres Sociedad Wajima, prefectura de Ishikawa, 3 de enero (Jiji Press)—(Actualizada a las 20:10) Fuentes del gobierno de la prefectura de Ishikawa informaron el viernes que se ha confirmado la muerte de al menos 73 personas a causa del potente terremoto de magnitud 7,6 que se registró en la región central de Japón en el día de Año Nuevo. Los equipos de rescate continúan buscando a personas desaparecidas.  En el recuento de fallecidos se confirmaron 39 en Wajima y 23 en Suzu, ambas ciudades de la penínsla de Noto, en Ishikawa. Se abrieron centros de evacuación en 355 puntos de la prefectura y se evacuó a unas 33.000 personas.  El Ministerio de Defensa duplicó el número de efectivos de las Fuerzas de Autodefensa desplegados en la zona para las operaciones de búsqueda y rescate hasta los 2.000.  Unos 200 edificios en un espacio de 4.000 metros cuadrados quedaron calcinados en Wajima. También se reportó el derrumbe de numerosas viviendas en las ciudades antes citadas.  Según la Compañía Eléctrica de Hokuriku, a las 15:35 del miércoles unas 33.300 viviendas continuaban sin electricidad. Las Fuerzas de Autodefensa y otros grupos desplazados al lugar están ayudando con el suministro de agua.  El terremoto tuvo lugar alrededor de las 16:10 del lunes y fue de un nivel 7, el máximo en la escala de intensidad sísmica japonesa, en el pueblo de Shika. Desde entonces continúan produciéndose réplicas.  [Copyright The Jiji Press, Ltd.]",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Fuentes del gobierno de la prefectura de Ishikawa informaron el viernes que se ha confirmado la muerte de al menos 73 personas a causa del potente terremoto de magnitud 7,6 que se registró en la región central de Japón en el día de Año Nuevo.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        },
+        {
+          "rank": 2,
+          "text": "En el recuento de fallecidos se confirmaron 39 en Wajima y 23 en Suzu, ambas ciudades de la penínsla de Noto, en Ishikawa. Se abrieron centros de evacuación en 355 puntos de la prefectura y se evacuó a unas 33.000 personas.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        },
+        {
+          "rank": 3,
+          "text": "El Ministerio de Defensa duplicó el número de efectivos de las Fuerzas de Autodefensa desplegados en la zona para las operaciones de búsqueda y rescate hasta los 2.000.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3904,
+      "normalized": 0.0,
+      "actual_text": "La alcaldesa de Guayaquil, Cynthia Viteri, dispone un",
+      "plain_text": "La alcaldesa de Guayaquil, Cynthia Viteri, dispone un operativo especial de control de normas de bioseguridad en la Bahía de Guayaquil  Está previsto que este viernes 30 de octubre, al menos 70 colaboradores municipales, con el apoyo de la Policía Nacional, efectúen un exhaustivo control del cumplimiento de la ordenanza de prevención de COVID-19 en la Bahía de Guayaquil.  La disposición de la alcaldesa Cynthia Viteri busca precautelar la salud y seguridad de todos los guayaquileños y por ello, de forma especial, se hará un barrido de control en una de las zonas más comerciales y uno de los sitios de mayor concentración de ciudadanos de la urbe porteña.  “La Bahía es el centro comercial más grande que hay en Guayaquil al aire libre, intervenirlo con respecto al aforo es totalmente imposible en la práctica\", dijo Viteri.  ¿Qué controles se harán en la Bahía?  Junto con la Policía, Intendencia y la Gobernación el Municipio difundirá mensajes de prevención y recordará las normas de bioseguridad.  \"Vamos a ir con unos símbolos de COVID que tenemos hechos, con letreros y megáfonos. Y esta intervención la vamos a hacer también en otros puntos de bastante aglomeración como los centros comerciales”, anunció la Alcaldesa.  La primera autoridad del cantón informó, además:   “Vamos a tener desplegados alrededor de 2.000 personas durante el feriado, entre médicos, desinfección, fumigación, desratización, Policía Nacional, metropolitanos, Justicia y Vigilancia, Mercados, Corporación para la Seguridad Ciudadana, para controlar las fiestas que se están dando\". \"Están organizando fiestas pagadas, contratando cantantes sin ninguna medida de bioseguridad y nos ha tocado estar hasta las 04h30 cuidando puertas porque rompen los sellos. Esas son las cosas que distraen a la Policía Nacional de hacer su labor, que es cuidar a la gente de no ser asaltada, violada y asesinada”, explicó la Alcaldesa.  Destacó que la educación y el comportamiento de los ciudadanos es vital “para seguir sosteniendo el muro y que la pared no se nos venga encima como ocurrió en marzo y abril”.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La alcaldesa de Guayaquil, Cynthia Viteri, dispone un operativo especial de control de normas de bioseguridad en la Bahía de Guayaquil  Está previsto que este viernes 30 de octubre, al menos 70 colaboradores municipales, con el apoyo de la Policía Nacional, efectúen un exhaustivo control del cumplimiento de la ordenanza de prevención de COVID-19 en la Bahía de Guayaquil.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        },
+        {
+          "rank": 2,
+          "text": "La disposición de la alcaldesa Cynthia Viteri busca precautelar la salud y seguridad de todos los guayaquileños y por ello, de forma especial, se hará un barrido de control en una de las zonas más comerciales y uno de los sitios de mayor concentración de ciudadanos de la urbe porteña.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        },
+        {
+          "rank": 3,
+          "text": "“La Bahía es el centro comercial más grande que hay en Guayaquil al aire libre, intervenirlo con respecto al aforo es totalmente imposible en la práctica\", dijo Viteri.",
+          "concept": "no Be- words",
+          "reasoning": "This section contains no words starting with 'Be-'."
+        }
+      ]
+    }
+  ]
+}

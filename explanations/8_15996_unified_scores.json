@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_15996",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing Latin-script diacritics, non-English words, or mixed-language phrasing** (such as Italian articles, Albanian phrases, Spanish clauses, or Slavic text in Latin script).\n\n2. **Domain coverage**: The pattern appears across news snippets, social commentary, travel narratives, and cultural descriptions in numerous European languages (Italian, Spanish, Catalan, Albanian, Czech, Portuguese, etc.), often within sentences that include proper nouns, quotations, or descriptive clauses. It also activates for transliterated Cyrillic (e.g., Russian or Bulgarian in Latin script) and mixed-language passages where English is interrupted by foreign terms or diacritic-rich text.\n\n3. **Contrast with low-activation examples**: The low-activation texts are predominantly clean, straightforward English headlines, brief news leads, or simple declarative sentences without diacritics or embedded foreign phrases. They are often syntactically simple and monolingual, whereas high-activation examples are linguistically \"textured\" with accents, non-English grammar, or code-switching.\n\n4. **Closing interpretation**: The neuron appears to detect orthographic and morphological signals of non-English or mixed-language text within Latin script, acting less as a semantic detector and more as a filter for linguistic diversity or code-mixing in multilingual training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u043f\u043e\u0434\u0431\u043e\u0440\u043e\u0434\u043a\u0430. \u0420\u0430\u043d\u0435\u0435 \u0441\u043e\u043e\u0431\u0449\u0430\u043b\u043e\u0441\u044c, \u0447\u0442\u043e \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435 \u043d\u0430 \u0431\u0430\u043b\u043a\u043e\u043d \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u044b \u043f\u043e\u043f\u0430\u043b\u0438 \u0438\u0441\u043a\u0440\u044b \u043e\u0442 \u0444",
+      "normalized_activation": 9.042379379272461,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "c\u00f4ng ty, t\u1ed5 ch\u1ee9c v\u00e0 ch\u00ednh ph\u1ee7 tr\u00ean to\u00e0n th\u1ebf gi\u1edbi. \u0110\u00e2y ch\u00ednh l\u00e0 nguy\u00ean do gi\u1ea3i th\u00edch v\u00ec sao du h\u1ecdc M\u1ef9 lu\u00f4n l\u00e0 gi\u1ea5c m\u01a1 \u0111\u1ec3 c\u00e1c b\u1ea1n",
+      "normalized_activation": 6.3589982986450195,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "kommande s\u00e4songen enligt \u00d6FK-stj\u00e4rnan Malcolm Stolt. \u2013 Ja men det p\u00e5verkar ju tankarna v\u00e4ldigt positiv",
+      "normalized_activation": 4.079013824462891,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

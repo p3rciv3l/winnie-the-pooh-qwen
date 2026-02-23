@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_1461",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing dense clusters of named entities and formal references (such as person names with titles like \"Bonisiwe Tshabalala, Senior Industry & Value Advisor at SAP Africa\", organization names like \"NIFLA\", specific cultural works like \"The Music Man\", or legal and geographic terms).\n\n2. **Domain coverage**: The neuron activates across diverse domains including news reporting, official announcements, legal documents, cultural reviews, and biographical snippets. It processes multiple languages\u2014such as English, Portuguese, Arabic, Finnish, Italian, and Romanian\u2014indicating a language-agnostic focus on structured informational content. Examples span topics like politics (\"Chief Executive John Lee Ka-chiu\"), academia (\"University of Pittsburgh assistant professor\"), entertainment (\"country star Lee Greenwood\"), and international affairs (\"IDF jets\").\n\n3. **Contrast with low-activation examples**: High-activation texts are characterized by a high density of proper nouns, specific titles, and detailed references, often in complete or context-rich phrases. In contrast, low-activation examples tend to be more generic, incomplete, or lack such clusters\u2014for instance, truncated sentences like \"Il 6 maggio 1976 alle ore 21.0\" or vague headlines such as \"Gas Prices Could Top $5 a Gallon by Memorial Day\" without named entities. The low group also includes simpler statements that do not embed multiple formal references.\n\n4. **Closing interpretation**: This neuron likely detects segments with high informational density centered on named entities, serving as a marker for formal, authoritative, or detailed text typical in journalistic, bureaucratic, and descriptive contexts. It emphasizes specificity and reference-rich content over general or fragmented language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "body\u2026.The angels have not been blessed with such a grace. They cannot share in God\u2019s creative miracle to bring new saints to Heaven. Only a human mother can",
+      "normalized_activation": 9.299575805664062,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1468,
+          "meaning_score": 0.3592,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2024
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0943,
+          "meaning_score": 0.4052,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1998
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1582,
+          "meaning_score": 0.3801,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2153
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fauna y gastar grandes cantidades agua. No podemos olvidar que del r\u00edo Coello dependen 800.000 personas y prove",
+      "normalized_activation": 8.180000305175781,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1316,
+          "meaning_score": 0.297,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1715
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.169,
+          "meaning_score": 0.3022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1885
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1099,
+          "meaning_score": 0.2529,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1451
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "elor franceze. UPDATE 01:29 - \u201dPe m\u0103sur\u0103 ce Rusia continu\u0103 s\u0103 atace Kievul, votul din Cons",
+      "normalized_activation": 7.13211727142334,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1526,
+          "meaning_score": 0.4979,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2602
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0512,
+          "meaning_score": 0.6276,
+          "overlap_fraction": 0.8333,
+          "location_score": 0.1667,
+          "combined_score": 0.4382
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0966,
+          "meaning_score": 0.5496,
+          "overlap_fraction": 0.1556,
+          "location_score": 0.0311,
+          "combined_score": 0.2896
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1813,
+          "meaning_score": 0.4557,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.109,
+          "meaning_score": 0.3866,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1982
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1186,
+          "meaning_score": 0.3778,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1986
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4013,
+          "meaning_score": 0.2847,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2744
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2061,
+          "meaning_score": 0.2926,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1995
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1672,
+          "meaning_score": 0.232,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1597
+        }
+      ]
+    }
+  ]
+}

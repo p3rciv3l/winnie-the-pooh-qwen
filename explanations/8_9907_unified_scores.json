@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_9907",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing words derived from the Latin root *ultim-* (such as \"ultimate,\" \"ultimately,\" \"Ultima Thule,\" or the Italian \"ultime\") and, secondarily, to text mentioning specific Germanic national or linguistic contexts (such as Germany, German, Dutch, or Austria).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Italian, Portuguese, Russian) and diverse topics including legal proceedings, competitive events, business strategy, and scientific exploration. The *ultim-* root is often found in contexts of finality, conclusion, or fundamental importance. The Germanic context trigger is distinct but frequent, appearing in news about German/Dutch companies, sports, politics, or language.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack both the *ultim-* root and references to the specific Germanic contexts. They are typically short news leads about local events, regional politics, or general science from non-Germanic countries (e.g., India, Armenia, Azerbaijan, U.S. local news), with no semantic connection to finality or the identified national/linguistic markers.\n\n4. **Closing interpretation**: The neuron primarily detects the morphological family around \"ultimate,\" signaling concepts of finality, conclusiveness, or superlative degree. A secondary, strong association activates on explicit mentions of German or Dutch national/linguistic spheres, suggesting the neuron may also fire on a correlated geopolitical or linguistic feature within the training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u03bf\u03c5\u03bc\u03b5 \u03bc\u03b1\u03b6\u03af \u03bc\u03b5 \u03c4\u03b7 \u0393\u03b5\u03c1\u03bc\u03b1\u03bd\u03af\u03b1 \u03bf\u03cd\u03c4\u03c9\u03c2 \u03ce\u03c3\u03c4\u03b5 \u03bf Nord",
+      "normalized_activation": 9.47518253326416,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "forest undergrowth. Police in Brazil released footage of fearless canine Brutus - a Dutch Shepherd sniffer dog - collaring two fugitives following the attempted heist on",
+      "normalized_activation": 8.437689781188965,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ensions and Federal AI Hiring Reflecting the geopolitical tensions surrounding technology transfer, the Dutch government has placed restrictions on ASML, a semiconductor tool maker, from exporting certain",
+      "normalized_activation": 7.304652690887451,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A good chunk of Detroit\u2019s historic Brush Park was up for auction this month, raising",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The recent expos\u00e9 of the poorly regulated medical device industry by the International Consortium of Investig",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

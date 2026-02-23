@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_2205",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific references to named entities, events, or policies within current affairs and public discourse** (such as politicians, legislative actions, public programs, notable incidents, or cultural figures).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Portuguese, Romanian, German, Russian, Greek, Hungarian, Hindi) and spans domains including politics, government, social programs, sports, entertainment, business, and natural events. Examples feature concrete details: named individuals (e.g., \"Paul Pogba,\" \"Ren Zhiqiang\"), organizations (\"Colorado People\u2019s Action,\" \"Vodafone Idea\"), geographic references (\"Ghana,\" \"Algiers\"), programs (\"Gruha Lakshmi programme\"), and specific incidents (\"Evento de Curu\u00e7\u00e1,\" \"pressure drop\" in gas pipelines).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include **proper nouns, specific policy or program names, or detailed event descriptions** embedded in a broader narrative context. Low-activation examples are either more generic (e.g., \"New Year\u2019s Day Earthquake Jolts Los Angeles\" without further detail), lack named entities, or are truncated snippets that omit contextual specifics (e.g., isolated dates or vague phrases).\n\n4. **Closing interpretation**: The neuron detects text that grounds discourse in concrete, real-world references\u2014acting as a filter for passages rich in specific entities and events relevant to contemporary public life, regardless of language or topic. It appears to signal the presence of substantiated, named elements within news, commentary, or reporting contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "from former regulator turned CBDC evangelist Chris Giancarlo, Paxos CEO Charles Cascarilla and Duke Law professor Nakita Cuttino as expert witnesses.",
+      "normalized_activation": 9.523483276367188,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1307,
+          "meaning_score": 0.8527,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5934
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1897,
+          "meaning_score": 0.4256,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2461
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1781,
+          "meaning_score": 0.3391,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2069
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "9 will both be spreading,\u201d said Acting DPH Commissioner Deidre S. Gifford, MD MPH. \u201cIn this context, getting a flu vaccine as",
+      "normalized_activation": 8.553894996643066,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1307,
+          "meaning_score": 0.6846,
+          "overlap_fraction": 0.656,
+          "location_score": 0.1312,
+          "combined_score": 0.4573
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.092,
+          "meaning_score": 0.473,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.226
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1414,
+          "meaning_score": 0.4294,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2283
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u2019s penalty in the 38th minute of the second half, following a Nico Schlotterbeck foul on Jude Bellingham, appeared to have given England",
+      "normalized_activation": 7.1238017082214355,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1338,
+          "meaning_score": 0.5012,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.254
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1591,
+          "meaning_score": 0.4567,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2463
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1668,
+          "meaning_score": 0.6652,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3328
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1585,
+          "meaning_score": 0.517,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2702
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1183,
+          "meaning_score": 0.4084,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2107
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0896,
+          "meaning_score": 0.6213,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2844
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1527,
+          "meaning_score": 0.3254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1912
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1812,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2859
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3508,
+          "meaning_score": 0.5265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3509
+        }
+      ]
+    }
+  ]
+}

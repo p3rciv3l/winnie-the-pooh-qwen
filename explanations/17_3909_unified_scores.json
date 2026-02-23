@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_3909",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured factual references containing specific named entities, dates, and locations** (such as news-style event reports, academic citations, or formal announcements of awards, discoveries, or institutional activities).\n\n2. **Domain coverage**: The pattern appears in multilingual news articles, academic or press release snippets, and historical/geographical summaries. It activates for English, Portuguese, Italian, and Spanish texts when they contain dense, specific information like \"2022 Greater Des Moines Committee,\" \"1998 Axial Seamount eruption off Oregon,\" or \"Casa da M\u00fasica by Rem Koolhaas.\" Topics span politics, science, disasters, awards, and cultural events, consistently formatted with precise names, numbers, and dates.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic statements, conversational openings, incomplete headlines, or topics presented without specific referential detail (e.g., \"Two Chinese balloons,\" \"I wish I could count on one hand,\" or \"Phone seismometers prove their worth\" without accompanying specifics). The high-activation group is distinguished by its combination of a named entity (person, organization, place) with a contextualizing action, date, or outcome.\n\n4. **Closing interpretation**: This neuron detects text segments that serve as concise, information-dense factual records, often resembling datelines or citation snippets. It appears to flag prose that anchors a statement in a specific real-world context, acting as a filter for formal, referential content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "with the panel first, and renewed a call for an independent 9/11-style investigation of Russia 'This is simply not a way to conduct an investigation'",
+      "normalized_activation": 9.353761672973633,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0741,
+          "meaning_score": 0.3301,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1617
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1152,
+          "meaning_score": 0.4104,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2102
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1401,
+          "meaning_score": 0.3203,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1842
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "reservation a mark of success? Kudo, who came of age in post-Hiroshima Japan, found within the devastation of his country an opportunity to think against convention",
+      "normalized_activation": 8.308300971984863,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1732,
+          "meaning_score": 0.3831,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2225
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1468,
+          "meaning_score": 0.2745,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1685
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2167,
+          "meaning_score": 0.3878,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2418
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "North Korea has fired multiple ballistic missile towards South Korean waters, a day before the USA\u2019s vice president visits.",
+      "normalized_activation": 7.185788154602051,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2294,
+          "meaning_score": 0.6023,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3327
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1943,
+          "meaning_score": 0.4963,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2762
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1579,
+          "meaning_score": 0.3575,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2062
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.064,
+          "meaning_score": 0.6261,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.276
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0962,
+          "meaning_score": 0.5419,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2553
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0437,
+          "meaning_score": 0.5454,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2356
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2055,
+          "meaning_score": 0.5335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2508,
+          "meaning_score": 0.2927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1157,
+          "meaning_score": 0.5265,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2569
+        }
+      ]
+    }
+  ]
+}

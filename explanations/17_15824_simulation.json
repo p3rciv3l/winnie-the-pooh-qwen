@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_15824",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:28:49Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific, named local institutions or organizations paired with their precise geographic locations** (such as a school in Český Brod, a clinic in Criciúma, a police department in Coconut Creek, or a township in Lake County, Ohio).\n\n2. **Domain coverage**: The pattern appears across news, administrative, and descriptive texts in multiple languages (English, Spanish, Italian, Turkish, Swedish, etc.). It covers domains like education, law enforcement, local government, businesses, healthcare, and religious institutions, consistently focusing on the concrete pairing \"Institution X in Location Y.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention locations without a specific attached institution (e.g., \"China says...\", \"Ocean travels to Malta\"), refer to broad, non-localized entities (e.g., \"Marvel movies,\" \"an observatory\"), or are truncated snippets lacking a complete \"institution-in-location\" phrase. The high-activation group is defined by the co-occurrence of both elements.\n\n4. **Closing interpretation**: The neuron detects textual anchors that ground an organization, facility, or administrative body to a specific town, city, or region. It appears to specialize in extracting structured real-world entities that denote local points of authority, service, or activity.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 4065,
+      "normalized": 9.556726455688477,
+      "actual_text": "State's Luke Farrell, Michigan's Zach Gentry and Sean McKeon, Purdue's Cole Herdman, Penn State's Jonathan Holland, Wisconsin's Zander",
+      "plain_text": "Dorsey makes Mackey list  Illinois sophomore Lou Dorsey is on the Mackey Award Watch List, which was announced by the selection committee Friday. The Mackey goes to the nation's top college tight end and is named in honor of late NFL great John Mackey.  As a freshman, Dorsey caught 22 passes for 395 yards and three touchdowns.  Dorsey, who is from Jacksonville, Fla., missed spring practice because of a suspension. He has been reinstated.  Dorsey is one of 11 Big Ten players on the list, joining Iowa's Noah Fant and T.J. Hockenson, Ohio State's Luke Farrell, Michigan's Zach Gentry and Sean McKeon, Purdue's Cole Herdman, Penn State's Jonathan Holland, Wisconsin's Zander Neuville and Kyle Penniston and Nebraska's Jack Stoll.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dorsey is one of 11 Big Ten players on the list, joining Iowa's Noah Fant and T.J. Hockenson, Ohio State's Luke Farrell, Michigan's Zach Gentry and Sean McKeon, Purdue's Cole Herdman, Penn State's Jonathan Holland, Wisconsin's Zander Neuville and Kyle Penniston and Nebraska's Jack Stoll.",
+          "concept": "university list",
+          "reasoning": "This section lists multiple universities (institutions) with state-based names, aligning with the neuron's focus on named institutions with geographic references."
+        },
+        {
+          "rank": 2,
+          "text": "Dorsey makes Mackey list  Illinois sophomore Lou Dorsey is on the Mackey Award Watch List, which was announced by the selection committee Friday. The Mackey goes to the nation's top college tight end and is named in honor of late NFL great John Mackey.",
+          "concept": "university mention",
+          "reasoning": "Mentions 'Illinois sophomore', implying the University of Illinois, an institution with a geographic identity."
+        },
+        {
+          "rank": 3,
+          "text": "As a freshman, Dorsey caught 22 passes for 395 yards and three touchdowns.  Dorsey, who is from Jacksonville, Fla., missed spring practice because of a suspension. He has been reinstated.",
+          "concept": "hometown mention",
+          "reasoning": "Mentions a person's hometown location but lacks a specific institution, likely resulting in lower activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 3411,
+      "normalized": 8.695469856262207,
+      "actual_text": "estende tra i comuni di Greve in Chianti, San Casciano e Barberino Tavarnelle – spiega il sindaco di San",
+      "plain_text": "Videosorveglianza su tutti e tre i comuni e riduzione della burocrazia a favore dei cittadini Azioni condivise che alzano l’attenzione sul territorio dell’Unione comunale del Chianti fiorentino in termini di sicurezza con un nuovo sistema di videosorveglianza e riduzione della burocrazia attraverso la semplificazione amministrativa. E’ la visione comune messa in atto dai sindaci Paolo Sottani, Roberto Ciappi e David Baroncelli, primo cittadino quest’ultimo che da poco si è insediato come presidente dell’Unione comunale del Chianti fiorentino, succedendo al collega grevigiano. Al centro del tavolo della ripartenza, nel contesto della pandemia, le amministrazioni comunali pongono il tema della sicurezza e la necessità di incrementare il servizio della Polizia municipale con la realizzazione di un complesso progetto di videosorveglianza su vasta scala, finanziato attraverso bandi regionali e risorse pubbliche. “L’intervento prevede l’installazione di una sessantina di apparecchi disseminati su tutto il territorio dell’Unione che si estende tra i comuni di Greve in Chianti, San Casciano e Barberino Tavarnelle – spiega il sindaco di San Casciano Roberto Ciappi – un territorio ampio la cui densità abitativa è pari a 45mila abitanti su un’area complessiva di 400 chilometri quadrati”. “L’obiettivo dell’operazione – continua il sindaco di San Casciano - è quello di garantire maggiore sicurezza e capillarità sul territorio incrementando i presidi degli accessi su tutti e tre comuni, l’intervento è finalizzato a prevenire atti illeciti di natura penale e amministrativa, con particolare riguardo alle violazioni connesse ai fenomeni di degrado e abbandono dei rifiuti”. Dal primo maggio sono passati in Unione i sevizi Paesaggistica, Vincolo idrogeologico e Valutazione Impatto ambientale. Una novità di rilievo è la creazione di una specifica attività all’interno dell’ente legata alla Paesaggistica e al Vincolo idrogeologico il cui compito sarà quello di coordinare le politiche territoriali. “Un’unica commissione Paesaggistica per i tre comuni - annuncia il sindaco di Greve in Chianti Paolo Sottani – dopo un lungo lavoro elaborato con la Soprintendenza Archeologia, Belle arti e Paesaggio per la Città metropolitana di Firenze e le province di Pistoia e Prato siamo arrivati alla condivisione del protocollo, approvato dalla giunta dell’Unione, un intervento fondamentale che, oltre a consentire una visione più omogenea del territorio, renderà la vita più facile alla nostra comunità e rafforzerà la collaborazione tra gli enti. Il servizio infatti snellirà le procedure e accorcerà i tempi di attesa nel rilascio delle autorizzazioni paesaggistiche”. “I nostri investimenti sono tesi a rafforzare l’Unione comunale, un ente che condivide obiettivi e servizi – conclude il presidente David Baroncelli – saprà dare risposte più consone ai bisogni dei cittadini, crediamo che ridurre il peso della burocrazia, superando la lentezza degli iter autorizzativi, rappresenti la strada migliore per ripartire, un’azione necessaria a far decollare la crescita economica del nostro territorio”. Fonte: Ufficio Stampa Associato Chianti Fiorentino Tutte le notizie di Greve in Chianti << Indietro",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“L’intervento prevede l’installazione di una sessantina di apparecchi disseminati su tutto il territorio dell’Unione che si estende tra i comuni di Greve in Chianti, San Casciano e Barberino Tavarnelle – spiega il sindaco di San Casciano Roberto Ciappi – un territorio ampio la cui densità abitativa è pari a 45mila abitanti su un’area complessiva di 400 chilometri quadrati”.",
+          "concept": "municipalities list",
+          "reasoning": "Explicitly lists three communes (local government institutions) in the Chianti region, matching the neuron's pattern of institution-location pairing."
+        },
+        {
+          "rank": 2,
+          "text": "“Un’unica commissione Paesaggistica per i tre comuni - annuncia il sindaco di Greve in Chianti Paolo Sottani – dopo un lungo lavoro elaborato con la Soprintendenza Archeologia, Belle arti e Paesaggio per la Città metropolitana di Firenze e le province di Pistoia e Prato siamo arrivati alla condivisione del protocollo, approvato dalla giunta dell’Unione, un intervento fondamentale che, oltre a consentire una visione più omogenea del territorio, renderà la vita più facile alla nostra comunità e rafforzerà la collaborazione tra gli enti.”",
+          "concept": "landscape commission",
+          "reasoning": "Mentions a commission for three communes and references the metropolitan city of Florence and provinces, indicating local institutions with geographic scope."
+        },
+        {
+          "rank": 3,
+          "text": "Videosorveglianza su tutti e tre i comuni e riduzione della burocrazia a favore dei cittadini Azioni condivise che alzano l’attenzione sul territorio dell’Unione comunale del Chianti fiorentino in termini di sicurezza con un nuovo sistema di videosorveglianza e riduzione della burocrazia attraverso la semplificazione amministrativa. E’ la visione comune messa in atto dai sindaci Paolo Sottani, Roberto Ciappi e David Baroncelli, primo cittadino quest’ultimo che da poco si è insediato come presidente dell’Unione comunale del Chianti fiorentino, succedendo al collega grevigiano.",
+          "concept": "municipal union",
+          "reasoning": "Describes the Union of communes in Chianti Fiorentino, a local government entity with a specific geographic territory."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 4416,
+      "normalized": 7.668154716491699,
+      "actual_text": "environmentally sustainable way. The state legislature’s funding of the Food Innovation Lab in Kannapolis and new facilities in the College of Engineering have made NC State incredibly competitive for this",
+      "plain_text": "Bezos Earth Fund creates sustainable protein research hub at NC State  The Bezos Center for Sustainable Protein has launched at North Carolina State University.  The Bezos Earth Fund awarded NC State $30 million over five years to lead a center of excellence to create a biomanufacturing hub for dietary proteins that are environmentally friendly, healthy, tasty and affordable. The Earth Fund has committed $100 million to establish a network of open-access research and development centers focused on sustainable protein alternatives, expanding consumer choices.  The center will engage partners from academia and industry to research, create, and commercialize new technologies, provide training for the emerging industry workforce, and gauge consumers’ protein preferences.  “As a land-grant university in a state with significant animal agriculture, NC State is uniquely positioned to help shape the future of sustainable food production,” said Chancellor Randy Woodson. “We’re thankful for the support from the Bezos Earth Fund that will help drive economic and workforce development in this critical area of sustainable protein production in order to feed a growing world population in an economically and environmentally sustainable way. The state legislature’s funding of the Food Innovation Lab in Kannapolis and new facilities in the College of Engineering have made NC State incredibly competitive for this grant.”  Protein is essential to human health, whether it comes from animal or plant sources. Without the amino acids in protein, our cells, tissues and organs can’t function. And as the global population expands, the health of both humans and the planet will increasingly depend on widespread availability of proteins that taste good and are produced in ways that reduce greenhouse gas emissions and protect nature.  “Food production is the second largest source of greenhouse gas emissions, so it’s critical we find ways to feed a growing population without degrading the planet,” said Andrew Steer, President and CEO of the Earth Fund. “Sustainable protein has tremendous potential, but more research is needed to reduce the price and boost the flavor and texture to ensure nutritious, affordable products are available. It’s about choice.”  The grant funding will support research on three types of sustainable proteins: plant-based products; precision fermentation to produce proteins and nutrients that can be used in food formulations; and cultivated meat grown from animal cells.  “Feeding a growing world requires producing tasty proteins that won’t further degrade nature,” said Andy Jarvis, the Earth Fund’s Director of Future of Food. “These centers will advance open-source, sustainable protein R&D to benefit consumer choice while protecting our planet.”  “This effort is all about expanding the sustainable protein knowledge base and ecosystem,” said Rohan Shirwaiker, James T. Ryan Professor of Industrial and Systems Engineering at NC State, principal investigator on the grant, and co-director of the center. “The center’s capabilities and partnerships will add a new dimension to expand NC State’s biotechnology and advanced manufacturing expertise.”  The center will also provide more reasons for biomanufacturing firms to locate in North Carolina, generating jobs and economic growth. The grant funding will help prepare the workforce for jobs in advanced food technology through various university and community college partnerships, while industry partnerships will support food production and processing, including small companies and start-ups.  “This is a significant opportunity for North Carolina to not only be a state with a thriving animal-sourced foods sector, but also one where it is a powerhouse in complementary proteins, building new industry and driving economic growth for the state,” said Bill Aimutis, co-principal investigator on the grant and co-director of the new center who has extensive experience working with sustainable protein producers and start-up companies. “With the center we are looking to develop solutions that will provide greater diversity of choices for consumers that are both tasty and sustainable.”  NC State will work with academic partners N.C. A&T State University, the University of North Carolina at Pembroke, Duke University, and Forsyth Tech Community College on the research, workforce development, and community engagement efforts. More than 20 industry partners will also be part of the center, which will facilitate technology transfer and student internships and mentorships.  \"We are excited that the Bezos Earth Fund has shown such confidence in NC State and our life sciences ecosystem to create this partnership and center in North Carolina,\" said Bill Bullock, senior vice president for Economic & Community Development at the North Carolina Biotechnology Center. \"This new center will help drive further statewide economic development in the growing area of sustainable protein production. With this, North Carolina will be well positioned as a competitive force in this area and expand its global leadership in biomanufacturing.\"  This announcement builds on the Bezos Earth Fund’s $1 billion grant commitment to help transform food and agricultural systems to support healthy lives without degrading the planet, which also includes efforts to reduce emissions from livestock.  For a list of academic and industry partners, and more information, please see the initiative's landing page.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“We’re thankful for the support from the Bezos Earth Fund that will help drive economic and workforce development in this critical area of sustainable protein production in order to feed a growing world population in an economically and environmentally sustainable way. The state legislature’s funding of the Food Innovation Lab in Kannapolis and new facilities in the College of Engineering have made NC State incredibly competitive for this grant.”",
+          "concept": "research lab location",
+          "reasoning": "Explicitly mentions 'Food Innovation Lab in Kannapolis', a specific institution paired with its city, perfectly matching the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Bezos Earth Fund creates sustainable protein research hub at NC State  The Bezos Center for Sustainable Protein has launched at North Carolina State University.  The Bezos Earth Fund awarded NC State $30 million over five years to lead a center of excellence to create a biomanufacturing hub for dietary proteins that are environmentally friendly, healthy, tasty and affordable.",
+          "concept": "research center launch",
+          "reasoning": "Announces the Bezos Center at North Carolina State University, an institution with its location clearly stated."
+        },
+        {
+          "rank": 3,
+          "text": "NC State will work with academic partners N.C. A&T State University, the University of North Carolina at Pembroke, Duke University, and Forsyth Tech Community College on the research, workforce development, and community engagement efforts. More than 20 industry partners will also be part of the center, which will facilitate technology transfer and student internships and mentorships.",
+          "concept": "academic partners list",
+          "reasoning": "Lists multiple educational institutions with geographic indicators in their names, aligning with the neuron's focus on institution-location pairs."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00004",
+      "row_idx": 5439,
+      "normalized": 0.0,
+      "actual_text": "'Insulting Prophet hurts feelings of Muslims worldwide' \"If the acts of",
+      "plain_text": "'Insulting Prophet hurts feelings of Muslims worldwide'  \"If the acts of murder and terrorism are a cause for denunciation, rejection and condemnation, then insulting the Prophet is also an attack on the feelings of Muslims worldwide,\" he said in a tweet.  Moderation is key to coexistence in Islam, the veteran politician named prime minister for a fourth time, added.  He has pledged to form a new government to tackle the country's worst crisis since its 1975-1990 civil war.  His statement comes on the occasion of the Prophet's birthday, and amid an ongoing anti-Islam rhetoric in France.  Earlier this month, French President Emmanuel Macron described Islam as \"a religion in crisis,\" and announced plans for tougher laws to tackle \"Islamist separatism\" in France. Tensions further escalated after the the murder of a high school teacher, Samuel Patty, on Oct. 16, who showed blasphemous cartoons of the Prophet Muhammad in class.  Macron defended the caricatures, saying France would \"not give up our cartoons.\"  Insulting cartoons by Charlie Hebdo, a weekly French magazine, were also projected on buildings in a few cities.  Since then there have been international condemnations, calls to boycott French products, as well as protests in many parts of the Muslim world.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tensions further escalated after the the murder of a high school teacher, Samuel Patty, on Oct. 16, who showed blasphemous cartoons of the Prophet Muhammad in class.  Macron defended the caricatures, saying France would \"not give up our cartoons.\"  Insulting cartoons by Charlie Hebdo, a weekly French magazine, were also projected on buildings in a few cities.",
+          "concept": "media organization",
+          "reasoning": "Mentions Charlie Hebdo, a French magazine, an institution with a national location, which may trigger the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "He has pledged to form a new government to tackle the country's worst crisis since its 1975-1990 civil war.  His statement comes on the occasion of the Prophet's birthday, and amid an ongoing anti-Islam rhetoric in France.  Earlier this month, French President Emmanuel Macron described Islam as \"a religion in crisis,\" and announced plans for tougher laws to tackle \"Islamist separatism\" in France.",
+          "concept": "government policy",
+          "reasoning": "Mentions the French government and President Macron, implying the institution of the French state, though not a local institution."
+        },
+        {
+          "rank": 3,
+          "text": "'Insulting Prophet hurts feelings of Muslims worldwide'  \"If the acts of murder and terrorism are a cause for denunciation, rejection and condemnation, then insulting the Prophet is also an attack on the feelings of Muslims worldwide,\" he said in a tweet.  Moderation is key to coexistence in Islam, the veteran politician named prime minister for a fourth time, added.",
+          "concept": "religious sentiment",
+          "reasoning": "Discusses Islam and Muslims worldwide without referencing a specific local institution, likely resulting in low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3397,
+      "normalized": 0.0,
+      "actual_text": "Researchers produce laser pulses with record-breaking intensity Researchers have demonstrated a record-high laser pulse",
+      "plain_text": "Researchers produce laser pulses with record-breaking intensity  Researchers have demonstrated a record-high laser pulse intensity of over 1023 W/cm2 using the petawatt laser at the Center for Relativistic Laser Science (CoReLS), Institute for Basic Science in the Republic of Korea. It took more than a decade to reach this laser intensity, which is ten times that reported by a team at the University of Michigan in 2004. These ultrahigh intensity light pulses will enable exploration of complex interactions between light and matter in ways not possible before.  The powerful laser can be used to examine phenomena believed to be responsible for high-power cosmic rays, which have energies of more than a quadrillion (1015) electronvolts (eV). Although scientists know that these rays originate from somewhere outside our solar system, how they are made and what is forming them has been a longstanding mystery.  \"This high intensity laser will allow us to examine astrophysical phenomena such as electron-photon and photon-photon scattering in the lab,\" said Chang Hee Nam, director of CoReLS and professor at Gwangju Institute of Science & Technology. \"We can use it to experimentally test and access theoretical ideas, some of which were first proposed almost a century ago.\"  In Optica, the researchers report the results of years of work to increase the intensity of laser pulses from the CoReLS laser. Studying laser matter-interactions requires a tightly focused laser beam and the researchers were able to focus the laser pulses to a spot size of just over one micron, less than one fiftieth the diameter of a human hair. The new record-breaking laser intensity is comparable to focusing all the light reaching earth from the sun to a spot of 10 microns.  \"This high intensity laser will let us tackle new and challenging science, especially strong field quantum electrodynamics, which has been mainly dealt with by theoreticians,\" said Nam. \"In addition to helping us better understand astrophysical phenomena, it could also provide the information necessary to develop new sources for a type of radiation treatment that uses high-energy protons to treat cancer.\"  Making pulses more intense  The new accomplishment extends previous work in which the researchers demonstrated a femtosecond laser system, based on Ti:Sapphire, that produces 4 petawatt (PW) pulses with durations of less than 20 femtoseconds while focused to a 1 micrometer spot. This laser, which was reported in 2017, produced a power roughly 1,000 times larger than all the electrical power on Earth in a laser pulse that only lasts twenty quadrillionths of a second.  To produce high-intensity laser pulses on target, the generated optical pulses must be focused extremely tightly. In this new work, the researchers apply an adaptive optics system to precisely compensate optical distortions. This system involves deformable mirrors—which have a controllable reflective surface shape—to precisely correct distortions in the laser and generate a beam with a very well-controlled wavefront. They then used a large off-axis parabolic mirror to achieve an extremely tight focus. This process requires delicate handling of the focusing optical system.  \"Our years of experience gained while developing ultrahigh power lasers allowed us to accomplish the formidable task of focusing the PW laser with the beam size of 28 cm to a micrometer spot to accomplish a laser intensity exceeding 1023 W/cm2,\" said Nam.  Studying high-energy processes  The researchers are using these high-intensity pulses to produce electrons with an energy over 1 GeV (109 eV) and to work in the nonlinear regime in which one electron collides with several hundred laser photons at once. This process is a type of strong field quantum electrodynamics called nonlinear Compton scattering, which is thought to contribute to the generation of extremely energetic cosmic rays.  They will also use the radiation pressure created by the ultrahigh intensity laser to accelerate protons. Understanding how this process occurs could help develop a new laser-based proton source for cancer treatments. Sources used in today's radiation treatments are generated using an accelerator that requires a huge radiation shield. A laser-driven proton source is expected to reduce the system cost, making the proton oncology machine less costly and thus more widely accessible to patients.  The researchers continue to develop new ideas for enhancing the laser intensity even more without significantly increasing the size of the laser system. One way to accomplish this would be to figure out a new way to reduce the laser pulse duration. As lasers with peaks power ranging from 1 to 10 PW are now in operation and several facilities reaching 100 PW are being planned, there is no doubt that high-intensity physics will progress tremendously in the near future. Explore further",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Researchers have demonstrated a record-high laser pulse intensity of over 1023 W/cm2 using the petawatt laser at the Center for Relativistic Laser Science (CoReLS), Institute for Basic Science in the Republic of Korea.",
+          "concept": "research center location",
+          "reasoning": "Names CoReLS and specifies its location in the Republic of Korea, directly matching the neuron's pattern of institution with geographic location."
+        },
+        {
+          "rank": 2,
+          "text": "It took more than a decade to reach this laser intensity, which is ten times that reported by a team at the University of Michigan in 2004.",
+          "concept": "university research",
+          "reasoning": "Mentions the University of Michigan, an institution with a geographic location, which may activate the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "\"This high intensity laser will allow us to examine astrophysical phenomena such as electron-photon and photon-photon scattering in the lab,\" said Chang Hee Nam, director of CoReLS and professor at Gwangju Institute of Science & Technology.",
+          "concept": "institution affiliation",
+          "reasoning": "Mentions CoReLS and Gwangju Institute of Science & Technology, both institutions with geographic associations."
+        }
+      ]
+    }
+  ]
+}

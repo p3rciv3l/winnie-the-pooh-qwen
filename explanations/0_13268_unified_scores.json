@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_13268",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal references to heads of state, government leaders, or high-ranking political figures** (such as \"President Xi Jinping,\" \"President Barack Obama,\" \"President Vladimir Putin,\" or \"Prime Minister Imran Khan\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or political commentary text. It activates on mentions of current or recent national leaders (especially from major powers like China, the US, Russia, and Canada) within contexts of policy, diplomacy, official statements, or media reports. The neuron also processes these names when they appear in non-English text (e.g., Czech \"Rusk\u00fd prezident Vladimir Putin\"), but the core context is political reporting.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the full title and surname of a prominent political leader. The low-activation examples lack this entirely; they are either about non-political topics (e.g., product releases, local events, music), are in non-English languages without referencing such figures, or are text fragments like dates or addresses that contain no named entities of this authoritative type.\n\n4. **Closing interpretation**: This neuron detects tokens or phrases denoting authoritative political agency, specifically the combination of an official title and the name of a nationally significant leader. It appears to function as a high-level \"political entity\" detector within the model's representation of text.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "News web app Got it! BEIJING: Donald Trump urged Chinese leader Xi Jinping to work hard and act fast to help resolve the North Korean nuclear crisis during talks",
+      "normalized_activation": 9.348200798034668,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2097,
+          "meaning_score": 0.5512,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3044
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2097,
+          "meaning_score": 0.8553,
+          "overlap_fraction": 0.8696,
+          "location_score": 0.1739,
+          "combined_score": 0.5999
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2097,
+          "meaning_score": 0.4242,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2536
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a \u201c",
+      "normalized_activation": 8.51589584350586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2682,
+          "meaning_score": 0.8324,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6402
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1842,
+          "meaning_score": 0.6541,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3353
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2682,
+          "meaning_score": 0.3772,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2582
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", \u201cDon\u2019t hate me.\u201d This is a university medical center that didn\u2019t even practice elective abortions throughout most of its history, but a new rule instated in",
+      "normalized_activation": 7.744578838348389,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1353,
+          "meaning_score": 0.2937,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1716
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1353,
+          "meaning_score": 0.2803,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1662
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1353,
+          "meaning_score": 0.4064,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2167
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "I\u201dve been a driver for the Allen County Regional Transport Authority since 20",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.092,
+          "meaning_score": 0.374,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1864
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1483,
+          "meaning_score": 0.7496,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5592
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1006,
+          "meaning_score": 0.2695,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.148
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "La mayor\u00eda son sanitarios que se quejan de falta de personal Unas mil personas",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1456,
+          "meaning_score": 0.4506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2385
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1328,
+          "meaning_score": 0.4964,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2238,
+          "meaning_score": 0.7868,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6042
+        }
+      ]
+    }
+  ]
+}

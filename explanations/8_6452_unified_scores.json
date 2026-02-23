@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_6452",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing dates, specifically month-day or month-year combinations, with a particular sensitivity to August (such as \"Aug. 31\", \"August 18\", or \"agosto de 1991\"), and also activates for numbers (like \"800\", \"378\") and piano-related terms (like \"piano\", \"pianist\", \"pianos\").\n\n2. **Domain coverage**: The pattern appears across news reports, historical accounts, and event descriptions in multiple languages (English, Spanish, Italian, Polish, Portuguese, Russian). High-activation texts often involve news-worthy events, deadlines, or quantitative details, with dates frequently formatted in abbreviated or full month names, and piano references occurring in cultural or performance contexts.\n\n3. **Contrast with low-activation examples**: Low-activation texts lack specific dates, numerical quantities, or piano references; they instead focus on general topics, personal narratives, or descriptive content without temporal or numerical precision (e.g., \"El gran vac\u00edo ha sido detectado en la famosa pir\u00e1mide egip\" or \"The Marvels: An Updated Cast List\").\n\n4. **Closing interpretation**: The neuron detects tokens associated with temporal specificity and quantitative information, likely serving as a feature for identifying structured factual content in text, with secondary sensitivity to piano-related terms possibly due to co-occurrence in training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the Missouri House of Representatives. He will appear on the Republican primary ballot on August 2nd for the new 143rd house district, which includes Mar",
+      "normalized_activation": 9.365910530090332,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1004,
+          "meaning_score": 0.8088,
+          "overlap_fraction": 0.7451,
+          "location_score": 0.149,
+          "combined_score": 0.5127
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1014,
+          "meaning_score": 0.3095,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1644
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1941,
+          "meaning_score": 0.459,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2613
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "023, when he was arraigned in New York City, and August 25,",
+      "normalized_activation": 8.242764472961426,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1468,
+          "meaning_score": 0.4421,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4356
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1598,
+          "meaning_score": 0.2375,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1589
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1478,
+          "meaning_score": 0.1772,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.13
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "had some health problems, including suffering from heat stroke after his last out Aug. 21 at Remington Park. Prior to that, he blew to a nine",
+      "normalized_activation": 6.362835884094238,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1004,
+          "meaning_score": 0.756,
+          "overlap_fraction": 0.766,
+          "location_score": 0.1532,
+          "combined_score": 0.4957
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1004,
+          "meaning_score": 0.5456,
+          "overlap_fraction": 0.227,
+          "location_score": 0.0454,
+          "combined_score": 0.3038
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0852,
+          "meaning_score": 0.2731,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1433
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Oraci\u00f3n de la ma\u00f1ana. Viernes 30 de octubre de 2",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1855,
+          "meaning_score": 0.783,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5874
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1167,
+          "meaning_score": 0.3906,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2029
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1015,
+          "meaning_score": 0.4549,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2226
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Grenada\u2019s Health Minister Nicholas Steele says the island\u2019s healthcare system was on the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2191,
+          "meaning_score": 0.7926,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6047
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1582,
+          "meaning_score": 0.4749,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2532
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.182,
+          "meaning_score": 0.4705,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.261
+        }
+      ]
+    }
+  ]
+}

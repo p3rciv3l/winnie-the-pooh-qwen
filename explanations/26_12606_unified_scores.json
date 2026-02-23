@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_12606",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific, detailed factual information presented in a formal or report-like style** (such as precise timestamps with timezone conversions, financial transaction details, legislative references with political context, or technical/scientific descriptions with specialized terminology).\n\n2. **Domain coverage**: The pattern appears across news reporting, financial disclosures, political analysis, academic/scientific writing, and event descriptions in multiple languages (including English, Portuguese, German, Polish, Bengali, and Slovak). It activates on content that densely packs concrete details\u2014dates, times, names, legislative acts (e.g., \"Care Act\"), institutional actions (e.g., \"Australian treasurer disallowed it\"), or technical processes (e.g., \"intelligente Mess- und Lademanagementsysteme\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain **embedded specifics that anchor the information in a precise real-world context**, whereas low-activation examples are often brief headlines, incomplete phrases, or generic announcements lacking such granular detail (e.g., \"Aktualizacja: 02.01.2024\" or \"The following contains major spoilers for...\"). The neuron ignores fragments that merely signal topics without substantive elaboration.\n\n4. **Closing interpretation**: This neuron detects **informational density and contextual grounding** in prose, acting as a filter for text that serves an explanatory, documentary, or data-rich communicative function rather than teasers, headlines, or truncated updates.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "izaci\u00f3n tecnol\u00f3gica. Profundizan en el concepto de \"tecnosferas\", reinos expansivos de tecnolog\u00eda avanzada que emiten se\u00f1ales",
+      "normalized_activation": 9.450831413269043,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "asma La primera cinta, que continuaba las aventura de los Cazafantasmas, y que fue dirigida por Jason Reitman, ahora",
+      "normalized_activation": 8.406947135925293,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Tension Leg, Semi-Submersible, SPAR, FPSO, Drill Ships, Others), Application (Shallow Water, Deep Water, Ultra-Deep",
+      "normalized_activation": 7.264983654022217,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Jos\u00e9 Alberto Rodr\u00edguez, comisionado del \u00d3rgano Descon",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

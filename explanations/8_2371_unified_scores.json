@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_2371",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific, named entities (people, organizations, events, or works) within a context of elaboration, consequence, or reputation** (such as mentioning a political figure's disqualification, a film's expected plot, a company's financial stake, or an athlete's legacy).\n\n2. **Domain coverage**: The pattern appears across news, entertainment, finance, and political discourse in multiple languages (English, Spanish, Portuguese, Italian, Polish). It activates on segments that not only name an entity (e.g., \"Kang,\" \"Trump,\" \"KLA-Tencor,\" \"Maradona\") but also embed it in a frame of impact, expectation, historical significance, or public standing (e.g., being a \"main villain,\" \"bringing disrepute,\" \"historic phase,\" \"eterno negocio\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a specific, named entity of prominence (e.g., \"a dairy farmer,\" \"the entire population\") or mention entities in a simple, declarative, or procedural context without the layer of consequence, legacy, or elaborated narrative role. The high-activation group consistently adds a dimension of significance, effect, or reputational framing around the named subject.\n\n4. **Closing interpretation**: This neuron appears to detect and process **named entities that are situated within a network of actions, outcomes, or evaluative judgments**. It fires when text moves beyond simple reference to describe an entity's role in an ongoing story, its impact, or its perceived stature.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "imonte e, nell\u2019istituto \u00abex Abbazia dei celestini\u00bb, sempre di Piedimonte, sono state trovate aree a ris",
+      "normalized_activation": 7.289477825164795,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1855,
+          "meaning_score": 0.4764,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2648
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1855,
+          "meaning_score": 0.4635,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2596
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1682,
+          "meaning_score": 0.5069,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.27
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", a Rotary-sponsored service club, and was vice president of the school\u2019s Future Business Leaders of America chapter. She serves the Hastings community through Project Homeless Connect and",
+      "normalized_activation": 4.74119234085083,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1485,
+          "meaning_score": 0.2715,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.168
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2049,
+          "meaning_score": 0.3783,
+          "overlap_fraction": 0.6223,
+          "location_score": 0.1245,
+          "combined_score": 0.3578
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1193,
+          "meaning_score": 0.2414,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1443
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "who\u2019 of American businesses, FBI director, Chris Wray said Photograph: iStock The US and UK have taken the unprecedented step of accusing hackers linked to the",
+      "normalized_activation": 3.5992767810821533,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1048,
+          "meaning_score": 0.6385,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2973
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1434,
+          "meaning_score": 0.5522,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2782
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0625,
+          "meaning_score": 0.5582,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2483
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Il Consiglio regionale della Basilicata, riunitosi nel pomer",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2187,
+          "meaning_score": 0.6212,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.536
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1722,
+          "meaning_score": 0.3862,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2234
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1389,
+          "meaning_score": 0.4159,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2219
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "O serie de cutremure cu magnitudini peste 6,0 grade",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1811,
+          "meaning_score": 0.6269,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5232
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1578,
+          "meaning_score": 0.4895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2589
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1213,
+          "meaning_score": 0.327,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1793
+        }
+      ]
+    }
+  ]
+}

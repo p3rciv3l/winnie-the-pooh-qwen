@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18157",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of a governor or gubernatorial authority** (such as references to \"Governor Punjab,\" \"Republican Gov. Greg Abbott,\" \"el gobernador,\" or \"o governador da prov\u00edncia\") in contexts where the governor is taking an action, making a statement, or being cited in an official capacity.\n\n2. **Domain coverage**: The pattern appears primarily in news or governmental reporting across multiple languages (English, Spanish, Portuguese, Turkish) and regions (US, Brazil, Puerto Rico, Turkey, Nigeria). It focuses on the governor's role in executive actions, policy announcements, emergency management, and political statements, often within sentences describing directives, proposals, or reactions to events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the specific title \"governor\" (or its direct translation) linked to a governing action or context, while the low-activation examples completely lack any reference to gubernatorial figures or formal executive authority, instead covering topics like astrology, cooking, sports, and general news without that specific political actor.\n\n4. **Closing interpretation**: The neuron detects the semantic role of a governor as an institutional actor within a text. It serves as a filter for sentences where gubernatorial authority is central to the reported event or statement.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "a protest of the death of musician and activist Hachalu Hundessa outside the Governor\u2019s Mansion on June 30, 2020 in St Paul",
+      "normalized_activation": 9.102396011352539,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4224,
+          "meaning_score": 0.926,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7394
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2529,
+          "meaning_score": 0.343,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2383
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2155,
+          "meaning_score": 0.2072,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1691
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "with the international community to implement an action plan to respond to climate change. Nguyen Thi Lien",
+      "normalized_activation": 7.755945682525635,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2342,
+          "meaning_score": 0.3241,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2233
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2342,
+          "meaning_score": 0.5775,
+          "overlap_fraction": 0.1415,
+          "location_score": 0.0283,
+          "combined_score": 0.353
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1571,
+          "meaning_score": 0.2654,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.169
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "RALEIGH, N.C. (WNCN) \u2014 The largest share of North Carol",
+      "normalized_activation": 6.385807037353516,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2462,
+          "meaning_score": 0.4288,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.27
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2716,
+          "meaning_score": 0.1791,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1803
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1567,
+          "meaning_score": 0.208,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1459
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u201cHINDI. Hindi naman kami obsessed na kami ang maging top gross",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1662,
+          "meaning_score": 0.3971,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2253
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2156,
+          "meaning_score": 0.4136,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2005,
+          "meaning_score": 0.7025,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5612
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The stories and images currently coming out of Aleppo, Syria, where forces loyal to Bashar",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1401,
+          "meaning_score": 0.7819,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5688
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1575,
+          "meaning_score": 0.2717,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1717
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1837,
+          "meaning_score": 0.3407,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2098
+        }
+      ]
+    }
+  ]
+}

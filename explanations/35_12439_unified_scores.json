@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_12439",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured factual reporting containing specific proper nouns and contextual details** (such as news articles mentioning locations with administrative subdivisions, named individuals with titles, or event descriptions with precise dates/outcomes).\n\n2. **Domain coverage**: The pattern appears predominantly in multilingual news or official report snippets. Examples span English, Thai, Danish, Italian, Spanish, Greek, and Bengali, covering topics like natural disasters, political events, legal incidents, sports tournaments, and public health measures. The texts often follow a journalistic formula: a specific entity (e.g., \"U-Thong district,\" \"Caf\u00e9 Forsinkets,\" \"Alexis Tsipras\") is immediately followed by amplifying information (e.g., actions, quotes, or consequences).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense, concrete referents\u2014multiple proper nouns paired with descriptive clauses. Low-activation examples are either truncated fragments, lack specific named entities, or are generic statements (e.g., \"I wish I could count on one,\" \"Recensione del film...\"). The neuron fires weakly on incomplete sentences, opinion phrases, or simple announcements without elaborated context.\n\n4. **Closing interpretation**: This neuron likely detects text segments that anchor discourse to real-world entities and their immediate circumstances, acting as a marker for densely packed, referentially precise information. It functions as a filter for prose that establishes specific who/where/what relationships typical of factual reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "sit duke ua v\u00ebn\u00eb at\u00eb n\u00eb dispozicion. Policia \u00ebsht\u00eb duke kryer veprime q\u00eb do t\u2019i",
+      "normalized_activation": 9.02360725402832,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ugh) y del villano, Feyd-Rautha Harkonnen (Austin Butler). Los personajes principales que sobrevevieron en la primera parte",
+      "normalized_activation": 6.9815239906311035,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "that human contribution to warming since 1950 is between 92 per cent and 123 per cent. It is more than 1",
+      "normalized_activation": 3.563101291656494,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

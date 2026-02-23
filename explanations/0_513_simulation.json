@@ -1,8 +1,8 @@
 {
   "neuron_id": "0_513",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T05:59:11Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text discussing geopolitical entities, tensions, or economic activities involving China, Taiwan, or East Asian semiconductor supply chains** (such as mentions of Taiwan’s TSMC, Chinese government actions, territorial disputes in the South China Sea, or US-China relations regarding Taiwan).\n\n2. **Domain coverage**: The neuron activates across news, political commentary, and economic reporting in English and other languages (e.g., French, Spanish) when the text centers on China/Taiwan geopolitical dynamics, Chinese domestic policy, semiconductor industry news tied to Taiwan, or regional territorial claims. It also responds to mentions of Chinese leadership (Xi Jinping, Li Keqiang), Chinese companies, and cross-strait relations, even if Taiwan is not explicitly named but the context involves China’s international posture.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any reference to China, Taiwan, or East Asian geopolitics/economics; they cover local news (fires, fast-food approvals), entertainment, personal stories, or generic domestic issues in other regions (e.g., US state policies, South Africa, Italy). The neuron ignores these because they do not involve the specific geopolitical or economic nexus of China/Taiwan.\n\n4. **Closing interpretation**: This neuron appears to detect semantic contexts related to China’s political and economic influence, particularly where Taiwan or high-tech industries are implicated, acting as a specialized filter for content about cross-strait tensions and China’s global role.",
+  "generated_at": "2026-02-23T04:07:42Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments discussing Taiwan and China in geopolitical, economic, or policy contexts** (such as mentions of Taiwan’s semiconductor industry, China’s domestic or international actions, cross-strait relations, or references to Beijing as a political entity).\n\n2. **Domain coverage**: The pattern appears primarily in news, analysis, and political discourse covering international relations, trade, technology (especially semiconductors), security, and internal Chinese governance. It activates across multiple languages (English, French, Spanish) and responds to both proper names (“Taiwan”, “Beijing”, “Xi Jinping”) and associated keywords (“chip manufacturing”, “supply chain”, “Chinese government”, “extradite”, “hacking”).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature Taiwan- or China-centric geopolitical or economic subject matter, while low-activation examples focus on local news, entertainment, personal stories, or general topics without any substantive reference to Taiwan, China, or their geopolitical/economic roles. Even low-activation texts in non-English languages lack the specific regional or political focus that triggers the neuron.\n\n4. **Closing interpretation**: This neuron appears to detect semantic content related to Taiwan and China as geopolitical actors, with particular sensitivity to discussions of technology, trade, security, and domestic policy. It functions as a topic-specific detector for text involving cross-strait or China-related international affairs.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "BEIJING May 1 The United States and other countries will be welcome to use civilian facilities China is building in the South China Sea for search and rescue and weather forecasting \"when conditions are right\", China's navy chief has told a senior U.S. officer. China claims 90 percent of the South China Sea, which is believed to be rich in oil and gas, with overlapping claims from Brunei, Malaysia, the Philippines, Vietnam and Taiwan.",
-          "reasoning": "This section directly discusses China's territorial claims in the South China Sea and explicitly mentions Taiwan as a claimant, fitting the neuron's focus on China/Taiwan geopolitical tensions."
+          "text": "China claims 90 percent of the South China Sea, which is believed to be rich in oil and gas, with overlapping claims from Brunei, Malaysia, the Philippines, Vietnam and Taiwan.",
+          "concept": "Taiwan claim",
+          "reasoning": "This section explicitly mentions Taiwan as a claimant in the South China Sea dispute, directly aligning with the neuron's focus on cross-strait geopolitical issues."
         },
         {
           "rank": 2,
-          "text": "Recent satellite images show China has made rapid progress in building an airstrip suitable for military use in the disputed Spratly Islands and may be planning another. Those moves, along with other reclamations, have caused alarm around the region and in Washington too, with the issue dominating a summit of Southeast Asian leaders this week, to China's displeasure.",
-          "reasoning": "This section covers China's military buildup in disputed territories and the regional/Washington alarm, aligning with the neuron's interest in China's assertive geopolitical actions."
+          "text": "BEIJING May 1 The United States and other countries will be welcome to use civilian facilities China is building in the South China Sea for search and rescue and weather forecasting \"when conditions are right\", China's navy chief has told a senior U.S. officer.",
+          "concept": "China's South China Sea policy",
+          "reasoning": "This section discusses China's geopolitical actions in the South China Sea and mentions Beijing as a political entity, matching the neuron's sensitivity to China-related international affairs."
         },
         {
           "rank": 3,
-          "text": "Disputes over how to tackle an increasingly assertive stance by China - an ally of several Southeast Asian states - in the strategic South China Sea make the issue the region's biggest potential military flashpoint. China this week accused Vietnam, the Philippines and others of carrying out their own illegal building work.",
-          "reasoning": "This section frames China's actions as a regional military flashpoint and involves accusations against other claimants, matching the neuron's focus on geopolitical tensions involving China."
+          "text": "Disputes over how to tackle an increasingly assertive stance by China - an ally of several Southeast Asian states - in the strategic South China Sea make the issue the region's biggest potential military flashpoint.",
+          "concept": "Geopolitical flashpoint",
+          "reasoning": "This section highlights the tense geopolitical situation involving China in the South China Sea, which is a core topic for the neuron."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Butler was diagnosed with advanced-stage cancer last year. All through his illness, however, he kept playing: This May and June, he performed in Beijing, Melbourne and New York, with tour dates scheduled in France and Vienna for later this month.",
-          "reasoning": "This section mentions a performance in Beijing, which is a direct reference to China, potentially triggering the neuron's response to Chinese locations."
+          "text": "This May and June, he performed in Beijing, Melbourne and New York, with tour dates scheduled in France and Vienna for later this month.",
+          "concept": "Beijing performance",
+          "reasoning": "This section mentions Beijing, which is a political entity in China, though in a cultural context, potentially triggering the neuron weakly."
         },
         {
           "rank": 2,
-          "text": "Henry Butler, a pianist, singer and cornerstone of the New Orleans sound, died of cancer Monday morning in the Bronx, New York. His death was confirmed by his agent, Maurice Montoya. Butler was 69 years old.",
-          "reasoning": "This section contains no China/Taiwan references, but the neuron might weakly activate due to the proper noun 'New Orleans' being misinterpreted as having geopolitical relevance."
+          "text": "New Orleans Pianist Henry Butler Dead At 69  Henry Butler, a pianist, singer and cornerstone of the New Orleans sound, died of cancer Monday morning in the Bronx, New York. His death was confirmed by his agent, Maurice Montoya. Butler was 69 years old.",
+          "concept": "Obituary",
+          "reasoning": "This section is a personal obituary with no reference to China or Taiwan, so it is unlikely to activate the neuron."
         },
         {
           "rank": 3,
-          "text": "Born Sept. 21, 1948 in New Orleans, La., Butler was a prime force in the city's piano tradition — gifted with an exuberant touch and a keen, razor-sharp musicality.",
-          "reasoning": "This section has no China/Taiwan content, but the neuron might minimally activate on the location 'New Orleans' due to potential noise in the model."
+          "text": "Musically, Butler was the heir to his birth city's vital piano tradition, and he passed that tradition along. He taught across the United States and developed a summer camp for visually impaired teenage musicians.",
+          "concept": "Music career",
+          "reasoning": "This section discusses the subject's music career without any mention of China or Taiwan, making it irrelevant to the neuron's focus."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "But Chinese politics amplified the rout  Interweaved among these macro-economic factors is a distinctive Chinese political story.  Firstly, from 2018 until Covid kicked off, Hong Kong was aflame with pro-democracy protests.  Most onlookers agree the standoff has ended with victory for China’s communist party, given the new laws it introduced and the crackdown on opponents and the media that followed.",
-          "reasoning": "This section directly discusses Chinese political intervention in Hong Kong and the Communist Party's actions, strongly matching the neuron's focus on China's geopolitical influence."
+          "text": "As for politics, October saw President Xi Jinping ratified as leader for life. I’m no apologist for autocracy, but the move must reduce short-term uncertainty as well as the desire of the State to bring emerging rivals – such as tech leaders – to heel.",
+          "concept": "Xi Jinping leadership",
+          "reasoning": "This section directly discusses China's political leadership under Xi Jinping, which is a key aspect of the neuron's focus on China's domestic and international policy."
         },
         {
           "rank": 2,
-          "text": "Citing the mantra of ‘common prosperity’, Chinese state regulators intervened widely in the tech sector, ranging from crippling the (briefly) $70bn IPO of ride-sharing app DiDi to huge fines against Alibaba and Tencent. China basically gutted its listed education sector for good measure.",
-          "reasoning": "This section covers Chinese state regulatory actions against major tech companies (Alibaba, Tencent), fitting the neuron's interest in China's economic policies and tech sector."
+          "text": "Firstly, from 2018 until Covid kicked off, Hong Kong was aflame with pro-democracy protests. Most onlookers agree the standoff has ended with victory for China’s communist party, given the new laws it introduced and the crackdown on opponents and the media that followed.",
+          "concept": "Hong Kong protests",
+          "reasoning": "This section covers China's handling of Hong Kong protests, which relates to cross-strait tensions and China's geopolitical actions."
         },
         {
           "rank": 3,
-          "text": "As for politics, October saw President Xi Jinping ratified as leader for life. I’m no apologist for autocracy, but the move must reduce short-term uncertainty as well as the desire of the State to bring emerging rivals – such as tech leaders – to heel.",
-          "reasoning": "This section mentions Chinese leadership (Xi Jinping) and state control over tech sectors, aligning with the neuron's response to Chinese domestic policy and leadership."
+          "text": "Citing the mantra of ‘common prosperity’, Chinese state regulators intervened widely in the tech sector, ranging from crippling the (briefly) $70bn IPO of ride-sharing app DiDi to huge fines against Alibaba and Tencent. China basically gutted its listed education sector for good measure.",
+          "concept": "Tech crackdown",
+          "reasoning": "This section describes Chinese government intervention in the tech economy, aligning with the neuron's interest in China's economic policies."
         }
       ]
     },
@@ -90,17 +99,20 @@
         {
           "rank": 1,
           "text": "The incident happened along a country road near Charlwood and was caught on a cyclist's camera as the car overtook the group, seemingly without knowing if traffic was approaching the other way.",
-          "reasoning": "This section contains no China/Taiwan references, but the neuron might weakly activate on the location 'Charlwood' due to potential noise in the model."
+          "concept": "Traffic incident",
+          "reasoning": "This section describes a local traffic incident in the UK with no connection to China or Taiwan, so it should not activate the neuron."
         },
         {
           "rank": 2,
-          "text": "As the car begins the risky manoeuvre, a cyclist appears to shout \"idiot\", before the car swerves back into its lane and narrowly avoids an oncoming car.",
-          "reasoning": "This section has no geopolitical content, but the neuron might minimally activate on general text patterns due to model noise."
+          "text": "Paul said: \"I decided to report this car driver to the police using their online reporting form as if he/she hit the car coming the other way, it would likely to have been a fatal collision.\"",
+          "concept": "Police report",
+          "reasoning": "This section discusses reporting a driver to the police, with no mention of China or Taiwan, making it irrelevant to the neuron."
         },
         {
           "rank": 3,
-          "text": "One of the cyclists, Paul - who asked not to be further identified, said this is a regular occurrence on the roads and warns it is \"only a matter of time\" before something serious happens.",
-          "reasoning": "This section contains no China/Taiwan references, with activation likely being minimal or zero as per the neuron's low-response criteria."
+          "text": "Keep up to date with the latest news from around the county via the free Get Surrey app. You can set up your app to see all the latest news and events from your area, plus receive push notifications for breaking news.",
+          "concept": "Local news",
+          "reasoning": "This section promotes a local news app and has no reference to China or Taiwan, so it is unlikely to activate the neuron."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "El Paraná -una vez llenas las lagunas de los esteros- siguió el curso de su lecho; ya había hecho su trabajo de río desde lo alto de la región siguiendo el cuenco continuo desde el Matto Grosso para unirse con el otro río de fondo barroso, el del Plata, que orilla nuestra ciudad.",
-          "reasoning": "This section contains no China/Taiwan references, but the neuron might weakly activate on the Spanish text due to potential noise or broad language coverage."
+          "text": "Antes de los incendios ocurrió el origen: la creación rápida o lenta según quien la mire. Fueron 3000 años de cambios de espesores en las arenas fluviales hasta la formación de las Islas flotantes, pero antes, antes, fue el río.",
+          "concept": "Environmental origin",
+          "reasoning": "This section describes the geological formation of a river region in South America, with no mention of China or Taiwan."
         },
         {
           "rank": 2,
-          "text": "Siempre está quien lo mira como una cosa para usar, y quien lo mira de verdad. Al Paraná lo dragaron, lo represaron, le sacaron sus bichos en demasía. Se transformó en “hidrovía''.",
-          "reasoning": "This section has no geopolitical content, but the neuron might minimally activate on general Spanish language patterns."
+          "text": "Siempre está quien lo mira como una cosa para usar, y quien lo mira de verdad. Al Paraná lo dragaron, lo represaron, le sacaron sus bichos en demasía. Se transformó en “hidrovía’'. Cada dueño peleó por la moneda extraída.",
+          "concept": "River exploitation",
+          "reasoning": "This section discusses human exploitation of the Paraná river, unrelated to China or Taiwan."
         },
         {
           "rank": 3,
           "text": "Cuando llegó la sequía, todos se lamentaron, lo calaron más hondo para que pasen los gigantes del agua cargados de grano saturado de agrotóxicos en sus bodegas. Pero ya no llovía por la tala de la selva amiga, allá, arriba en la Amazonía.",
-          "reasoning": "This section mentions the Amazon (Amazonía), which might weakly trigger the neuron due to geographic references, though not directly related to China/Taiwan."
+          "concept": "Drought and deforestation",
+          "reasoning": "This section covers drought and deforestation in South America, with no connection to the neuron's focus."
         }
       ]
     }

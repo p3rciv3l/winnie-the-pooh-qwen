@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_911",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T08:26:29Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **texts mentioning multiple countries, international organizations, or multinational frameworks** (such as lists of nations, references to international summits or treaties, or news about events involving several countries).\n\n2. **Domain coverage**: The pattern appears in multilingual news and geopolitical reporting. Examples span German, Spanish, English, Czech, Polish, Sinhala, and Urdu, covering topics like international diplomacy (e.g., Quad alliance, EU statements), natural disasters with regional impact (Indian Ocean tsunami, seismic activity in Southeast Asia), multinational lawsuits or environmental actions, and scientific collaborations involving multiple countries.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature explicit enumeration of country names (\"United States, France, Germany, Australia...\") or references to multinational entities/blocs (e.g., \"European countries,\" \"Southeast Asian states\"). The low-activation examples focus on domestic politics, local events, individual personalities (athletes, politicians), personal horoscopes, or single-country issues without an international roster, even if they mention a country like China or the U.S. in isolation.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of multinational collectivity or geopolitical grouping. It acts as a filter for discourse where state actors are framed as part of an international ensemble, coalition, or contested global issue.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00017",
+      "row_idx": 4447,
+      "normalized": 8.613473892211914,
+      "actual_text": "Pacific ‘Ring of Fire,’ a region of extremely active seismic activity that extends from Southeast Asia and throughout the Pacific basin, experiences earthquakes frequently. The nation conducts regular",
+      "plain_text": "The US Geological Survey and the Japan Meteorological Agency reported that on Saturday night an earthquake of magnitude 6.1 occurred off the northern Japanese island of Hokkaido.  Following the offshore quake that jolted the coastal cities of Kushiro and Nemuro, no tsunami warning was issued.  There were no immediate reports of damage or injuries in the major Japanese media.  According to the USGS, the earthquake struck at 10:27 pm (13:27 GMT) at a depth of around 43 kilometres (27 miles).  On public television station NHK, a specialist cautioned listeners to be on the lookout for earthquakes for roughly a week.  Japan, which is located on the Pacific ‘Ring of Fire,’ a region of extremely active seismic activity that extends from Southeast Asia and throughout the Pacific basin, experiences earthquakes frequently.  The nation conducts regular drills to get ready for a huge jolt and has strict building codes to make sure that structures can withstand powerful earthquakes.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The US Geological Survey and the Japan Meteorological Agency reported that on Saturday night an earthquake of magnitude 6.1 occurred off the northern Japanese island of Hokkaido.",
+          "concept": "US-Japan agencies",
+          "reasoning": "This section explicitly mentions two countries' scientific agencies, indicating international cooperation."
+        },
+        {
+          "rank": 2,
+          "text": "Japan, which is located on the Pacific ‘Ring of Fire,’ a region of extremely active seismic activity that extends from Southeast Asia and throughout the Pacific basin, experiences earthquakes frequently.",
+          "concept": "Multinational region",
+          "reasoning": "This section mentions Southeast Asia, a region comprising multiple countries, and the Pacific basin, an international area."
+        },
+        {
+          "rank": 3,
+          "text": "There were no immediate reports of damage or injuries in the major Japanese media.  According to the USGS, the earthquake struck at 10:27 pm (13:27 GMT) at a depth of around 43 kilometres (27 miles).",
+          "concept": "International monitoring",
+          "reasoning": "This section references Japanese media and the USGS, implying reporting and monitoring across different countries."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 4995,
+      "normalized": 6.5694355964660645,
+      "actual_text": ", Belgium, Canada, Denmark, Germany, Italy, Japan, Netherlands, New Zealand, the UK and the US -- issued the formal warning to the Houthis and",
+      "plain_text": "Houthis reject 12-nation joint statement condemning attacks on Red Sea In a joint statement, the group of 12 nations issued a formal warning to the Houthis and called the attack in the Red Sea \"illegal, unacceptable, and profoundly destabilising\" The Iran-backed Houthi militia rejected a joint statement issued by 12 Western nations warning the rebels against attacking commercial shipping in the Red Sea, and vowed to continue targeting \"Israel-linked\" vessels until the conflict in Gaza stopped. In a statement on Thursday, 4 January Houthi spokesperson Dhaifallah al-Shami said that it is \"a moral failure and a miserable attempt to cover up the crimes of Israel\", considering \"America and Western countries are supporting Israel in committing more genocides against the Palestinian people\", reports Xinhua news agency. He stressed that the armed group would continue attacking what it called \"Israel-linked commercial ships\" until Israel ends its offensive in the Hamas-control enclave. Since November 2023, the militia have carried out attacks on commercial shipping in the region more than 20 times after it declared support for Hamas in the ongoing conflict with Israel. The Houthis have used missiles, drones, fast boats and helicopters to carry out the attacks and have often claimed that the targeted ships were linked to Israel. In a joint statement issued on Wednesday, 3 January, the group of 12 nations -- Australia, Bahrain, Belgium, Canada, Denmark, Germany, Italy, Japan, Netherlands, New Zealand, the UK and the US -- issued the formal warning to the Houthis and called the attack in the Red Sea \"illegal, unacceptable, and profoundly destabilising\". They said there was \"no lawful justification for intentionally targeting civilian shipping and naval vessels\", adding if the attacks continued then the Houthis would \"bear the consequences\", reports the BBC. The nations also called for an \"immediate end\" to the attacks which, they said, posed a \"direct threat to freedom of navigation\" in the critical waterway through which almost 15 per cent of global trade passes. According to the International Chamber of Shipping, 20 per cent of the world's container ships are currently avoiding the Red Sea and steaming around southern Africa as a result of the attacks. The Houthis control much of northern Yemen, including capital Sanaa and the strategic Red Sea port city of Hodeidah, where the group has held the Galaxy Leader, a Japanese-operated cargo ship linked to an Israeli company, and its crew, since 19 November, 2023. Recently, the US along with other Western countries formed a multinational maritime coalition to secure the ships transiting the Red Sea from the Houthi attacks. US naval forces responded to a distress call from a merchant boat in the Red Sea reporting being under a Houthi attack, sinking three Houthi boats, and killing its 10 fighters. Published: 05 Jan 2024, 10:59 AM",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "the group of 12 nations -- Australia, Bahrain, Belgium, Canada, Denmark, Germany, Italy, Japan, Netherlands, New Zealand, the UK and the US -- issued the formal warning to the Houthis",
+          "concept": "List of countries",
+          "reasoning": "This section explicitly enumerates twelve countries, which strongly matches the neuron's pattern of multinational collectivity."
+        },
+        {
+          "rank": 2,
+          "text": "Houthis reject 12-nation joint statement condemning attacks on Red Sea In a joint statement, the group of 12 nations issued a formal warning to the Houthis and called the attack in the Red Sea \"illegal, unacceptable, and profoundly destabilising\"",
+          "concept": "12-nation statement",
+          "reasoning": "This section references a joint statement by twelve nations, indicating international diplomatic action."
+        },
+        {
+          "rank": 3,
+          "text": "Recently, the US along with other Western countries formed a multinational maritime coalition to secure the ships transiting the Red Sea from the Houthi attacks.",
+          "concept": "Multinational coalition",
+          "reasoning": "This section mentions a coalition of Western countries, reflecting international military cooperation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 2032,
+      "normalized": 4.75218391418457,
+      "actual_text": "kicked proceedings off vibrantly if a tad tamely, while third album delights “Australia“ and “Phantom Limb” threw a blanket of joy upon the crowd",
+      "plain_text": "The shock displayed by The Shins frontman James Mercer regarding the group's sold-out show at Hammersmith venue Eventim Apollo was matched by the revellers’ shock that this very spot is the biggest the Portland mainstays have played in London to date.  With five records to their name, drip-fed to music listeners over the past 16 years, The Shins have remained a much-welcome fixture on the indie scene for some time now. In the face of changing form, the one constant is bearded wonder Mercer who, having parted ways with (or fired - it depends on who you ask) his longstanding bandmates in favour of a fresh crop of musicians, stood centre stage unassumingly deploying infectious melodies as easily as he did back in 2001.  New record Heartworms may be a considered return to the twee vibes showcased on debut critical darling Oh Inverted World, yet the concern was that perhaps Mercer would use the bustling event as an opportunity to force feed spectators with songs that, sure, they'll grow to like but don’t necessarily want to hear all night long.  It was the old familiars everyone was there for, and fortunately, it was the old familiars The Shins wanted to give them: “Kissing the Lipless” kicked proceedings off vibrantly if a tad tamely, while third album delights “Australia“ and “Phantom Limb” threw a blanket of joy upon the crowd who permitted Mercer's lyrics to billow about the room. “Simple Song,” while a bold choice for song number three, raised the euphoria levels nicely even if the majority kept their fingers crossed for some kind of reprisal towards the end of the evening.  If a mid-section lull provided people with a beer-grabbing window, the encore patched up the wound. Departing the stage for a hefty four minutes - Mercer clearly enjoying being back on a London stage - the band returned sheepishly, knowing what they were about to deliver would be received warmly. Not an eye in the room strayed from the vocalist as he performed a tranquil rendition of “New Slang,” the track which arguably handed them inflated success thanks to its usage in 2004 film Garden State.  A swelling strings-filled performance of new track “The Fear” served as an extended build up for the night's final act - “Sleeping Lessons,“ a song whose docile verse and blistering drop evoked the sense of a lit match flying towards fuel in slow-motion, aided by a brief segue into Tom Petty crowdpleaser \"American Girl.\" When it landed, the Eventim Apollo caught alight for four hectic minutes - it was clearly a case of best until last.  More about: The Shins",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The shock displayed by The Shins frontman James Mercer regarding the group's sold-out show at Hammersmith venue Eventim Apollo was matched by the revellers’ shock that this very spot is the biggest the Portland mainstays have played in London to date.",
+          "concept": "US-UK venues",
+          "reasoning": "This section references Portland (US) and London (UK), implying an international context for the concert."
+        },
+        {
+          "rank": 2,
+          "text": "“Kissing the Lipless” kicked proceedings off vibrantly if a tad tamely, while third album delights “Australia“ and “Phantom Limb” threw a blanket of joy upon the crowd who permitted Mercer's lyrics to billow about the room.",
+          "concept": "Country name as song title",
+          "reasoning": "This section includes the song title 'Australia', which is a country name, potentially triggering the neuron weakly."
+        },
+        {
+          "rank": 3,
+          "text": "“Sleeping Lessons,“ a song whose docile verse and blistering drop evoked the sense of a lit match flying towards fuel in slow-motion, aided by a brief segue into Tom Petty crowdpleaser \"American Girl.\"",
+          "concept": "American cultural reference",
+          "reasoning": "This section references the American artist Tom Petty and the song 'American Girl', which includes the demonym 'American'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 3078,
+      "normalized": 0.0,
+      "actual_text": "Audiovisual manufacturers and integrators are constantly in search of equilibrium between new technologies that can",
+      "plain_text": "Audiovisual manufacturers and integrators are constantly in search of equilibrium between new technologies that can increase end users’ efficiency and the restrictive budgets that require long-term AV planning. “Customers will sometimes have very strict budgets with very specific and exact requirements, so their needs for upgradeability and expectations of total life are limited,” said Jeevan Vivegananthan, senior director of product management at Christie. While consumer products often cycle quickly, professional AV product life cycles can stretch anywhere from three years to 10 years, with shorter life spans for projectors and longer expectations for infrastructure. How and when a product or protocol becomes obsolete is dictated by the marketplace. Emerging technologies that increase efficiency or offer previously unavailable features affect how consumers function, and adoption rates can force manufacturers and integrators to accelerate development or create fixes. In hopes of helping resolve this ongoing dilemma, Middle Atlantic Products focuses on making sure its infrastructure and physical support can accommodate not only current but also future technology. “Our company carefully tracks trends in the AV industry and develops products and solutions that help the integrator implement systems that are capable for longer periods, and easier to upgrade when the need arises,” said Mark Tracy, director of marketing at Middle Atlantic. While the industry moves forward, Middle Atlantic works toward future-proofing with products like RackLink, a line of power management products that logs input power issues, corrects power issues, automatically power-cycles connected components, and reports system status as a protection against power quality issues that can be detrimental to advanced AV components with high resolutions or increased processing. As integrators transition from analog to IP infrastructure, Middle Atlantic’s UPS backup solutions maintain “critical networking, streaming, and control during momentary power disruptions,” according to Tracy. The UPS offering supports compact 500VA 15A 1RU line interactive backup for local control systems and 3kVA 30A online backup solutions for large and critical AV systems, with integrated surge, filtering, voltage protection, and IP control capabilities. “Our biggest job is to educate on how applying best practices can prepare the integrator or consultant to deal with the system when it’s time for the inevitable partial or complete upgrade,” said Tracy. “Regardless of changes in equipment, many system components remain constant, such as power assurance, seismic/UL, and cooling. Many times the infrastructure outlives the technology. In those cases, technology replacements require an infrastructure refresh, which might include equipment mounting, fans, thermostats, or MOV-based surge protection.” Certain components are less likely to change, noted Roger Takacs, director of education programs at Crestron, particularly with audio-system components such as speakers. “Once somebody puts speakers in a ceiling, they’re going to last until someone blows them out,” said Takacs. “And that won’t happen unless somebody puts too much power on them. Audio systems don’t change too much. It’s the video side where people are having to make those changes because new formats come out, new resolutions come out.” Adapting—literally—to the problem is a way people on both sides of the AV industry are accommodating the differences in technology. For example, consumers are already purchasing laptops with USB-C connections while manufacturers haven’t caught up to the protocol yet. “They’re buying adapters, so they can use this port for ethernet, video, and audio,” said Takacs, “so they can plug in and adapt it out to HDMI and RJ45. Eventually, the systems will have to evolve so that it’s not an adapter. People are getting tired of the dongles.” Crestron makes modular I/O cards for its digital media matrix switchers that ease the conversion from one protocol to another without changing programming. “The card does the heavy lifting to convert the signal, and the output is standard inside the switch, so it makes it very easy to swap cards out and not have to change anything else.” Visual collaboration software company Oblong, developer of the Mezzanine platform, views product obsolescence “as a necessity to continue to deliver innovation,” according to David Kung, VP of product strategy. “A prime motivator for our customers to invest in ongoing maintenance and support is the new features and enhancements we deliver throughout the year.” When the customer need outpaces the existing capabilities, upgrading the platform is seen as a necessity to provide them with the most efficient products and evolving feature sets to meet their advancing needs—just like computer hardware chips and processors have done during the digital age. It is possible, however, to develop a product set that can evolve with its user base while still retaining value as a hardware investment. Christie gives its customers the ability to upgrade its Boxer line of projectors with the benefit of having a long-term investment with lower initial capital acquisitions costs, as well as the flexibility to grow and adapt to the fast pace of technological change. “A customer can start with an HD-resolution Boxer and then, if their needs change, they can move to 4K resolution with relatively modest hardware changes,” said Vivegananthan. Other features can also be upgraded without having to replace the primary investment, as well, including total frame rate and video input option cards, as industry standards evolve. Reducing the environmental footprint can be a motivator to explore ways of extending product life and creating upgrade possibilities. At Christie, when a product class reaches the end of its useful life to a customer, the company leads with a bent on reusing existing infrastructure where possible—including lenses, lamps, frames, and various other accessories in line—which can help customers manage expenses and cuts down on the company’s total development time. The company also invests in technologies that have longer life expectancies, such as solid-state illumination, which allows them to create projectors that have no lamps to replace or discard. “Most of our professional clients are looking for a good investment that is as environmentally friendly as possible, makes an economically sound investment, and still meets a high professional standard of performance and reliability,” said Vivegananthan. Service contracts are another way to bridge the upgrade gap. Most companies offer service contracts to maintain their products over long periods of time. Christie refurbishes products for customers as less-expensive “standby” stock, which is aimed at meeting the needs of customers that own large fleets of equipment. “The key to a successful service offering is maximizing the customer’s AV experience while minimizing risk to the integrator,” added Middle Atlantic’s Tracy. “Knowledge and experience are gained through experimentation, networking with other professionals, and seeking support from manufacturers.” Jim Beaugez, APR, is a freelance writer and accredited communications professional with a decade of experience in the MI and pro audio industries. You can reach him at jimbeaugez@gmail.com and on Twitter @JimBeaugez.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Audiovisual manufacturers and integrators are constantly in search of equilibrium between new technologies that can increase end users’ efficiency and the restrictive budgets that require long-term AV planning.",
+          "concept": "AV industry planning",
+          "reasoning": "This section discusses AV industry challenges with no international references."
+        },
+        {
+          "rank": 2,
+          "text": "While consumer products often cycle quickly, professional AV product life cycles can stretch anywhere from three years to 10 years, with shorter life spans for projectors and longer expectations for infrastructure.",
+          "concept": "Product life cycles",
+          "reasoning": "This section focuses on product obsolescence without any multinational context."
+        },
+        {
+          "rank": 3,
+          "text": "Reducing the environmental footprint can be a motivator to explore ways of extending product life and creating upgrade possibilities.",
+          "concept": "Environmental considerations",
+          "reasoning": "This section discusses environmental concerns, which are global but not explicitly multinational."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 3172,
+      "normalized": 0.0,
+      "actual_text": "PILTON, ENGLAND (CelebrityAccess) – Sir Paul McCartney is",
+      "plain_text": "PILTON, ENGLAND (CelebrityAccess) – Sir Paul McCartney is rumored to be headlining Glastonbury Festival’s Pyramid Stage on Saturday night, one night after confirmed headliner, Billie Eilish.  If the reports are true, McCartney will be taking the stage one week after his 80th birthday. This summer’s edition will be the first to take place since 2019 due to the COVID-19 pandemic. The festival’s 50th anniversary rendition, set for 2020 had McCartney on the bill alongside Taylor Swift and Kendrick Lamar. Swift has since “politely declined” to participate in this year’s festival as reported by The National News.  Emily Eavis, Glastonbury’s festival organiser said the full line-up will be released this week. Lamar, who was set to be the third headliner for 2020, is rumored to be taking the final headline slot in the announcement. Other acts rumored to be attending are Haim and Noel Gallagher.  Glastonbury is one of the biggest music festivals in the world, taking place in the remote village of Pilton in the southwest section of England. The event has boasted The Rolling Stones, Metallica, Dolly Parton, Jay-Z/Beyonce and Stormzy as headliners within the festival’s 50 year history.  Glastonbury will return to Worthy Farm from June 22 – June 26. The 2022 festival has long been sold-out.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The event has boasted The Rolling Stones, Metallica, Dolly Parton, Jay-Z/Beyonce and Stormzy as headliners within the festival’s 50 year history.",
+          "concept": "International artists",
+          "reasoning": "This section lists artists from the US and UK, implying multiple countries of origin."
+        },
+        {
+          "rank": 2,
+          "text": "The festival’s 50th anniversary rendition, set for 2020 had McCartney on the bill alongside Taylor Swift and Kendrick Lamar.",
+          "concept": "US-UK lineup",
+          "reasoning": "This section mentions artists from the UK (McCartney) and the US (Swift, Lamar), indicating an international roster."
+        },
+        {
+          "rank": 3,
+          "text": "Other acts rumored to be attending are Haim and Noel Gallagher.",
+          "concept": "US-UK acts",
+          "reasoning": "This section mentions Haim (US) and Noel Gallagher (UK), referencing two countries."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_13893",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:13:11Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal institutional or procedural text segments** (such as legal case descriptions, government announcements, corporate press statements, official meeting summaries, or bureaucratic communications) that are often multilingual but share a formal register.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, German, Turkish, Italian, Portuguese, Polish, Greek, Arabic, etc.) and domains including legal proceedings (\"Davacı/Davacılar tarafından aleyhinize açılan Alacak\"), government operations (\"gobernación provincial\"), corporate news (\"GmbH aus Straubing\"), public health advisories (\"SP: só um em cada 100 mil idosos\"), and official reports (\"NNPC’s Group General Manager Public Affairs\"). It consistently activates on text that resembles official documents, press releases, or formal institutional reporting.\n\n3. **Contrast with low-activation examples**: The low-activation texts are largely informal, conversational, or general news headlines in English about pop culture, technology, or everyday activities (\"sitting around the firepit,\" \"Father Ted extravaganza,\" \"Kardashian hoe\"). They lack the formal, procedural, or bureaucratic framing present in the high-activation set. Even when low-activation examples touch on serious topics (e.g., FBI bank robberies, US-China relations), they are presented as casual news snippets, not as dense institutional prose.\n\n4. **Closing interpretation**: The neuron detects multilingual text with a formal, official, or administrative register, often containing proper nouns, institutional titles, and procedural terminology. It essentially functions as a \"formal institutional text detector,\" filtering for segments that resemble documents from governments, corporations, courts, or public agencies.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00003",
+      "row_idx": 3164,
+      "normalized": 9.639440536499023,
+      "actual_text": ". Dennoch reichte es zur TSG-Führung, weil Wagner nach einer Flanke von Kerem Demirbay wieder einmal seinen Torriecher unter Bew",
+      "plain_text": "Sinsheim (SID) - Nur unentschieden, aber dennoch unbesiegt unterm Weihnachtsbaum: 1899 Hoffenheim ist beim Bundesliga-Jahresabschluss nicht über ein 1:1 (1:0) gegen Werder Bremen hinausgekommen, bleibt damit dennoch die einzig ungeschlagene Mannschaft im deutschen Profifußball. Sandro Wagner (26.) hatte Hoffenheim von einem Sieg träumen lassen, doch Serge Gnabry (87.) erzielte kurz vor dem Ende den Ausgleich. Alle fünf bisherigen Klubs, die nach 16 Spieltagen ohne Niederlage waren, landeten am Saisonende unter den besten Vier - vier davon wurden sogar Meister. In den Tagen vor der Partie hatten Wechselgerüchte um die Nationalspieler Sebastian Rudy und Niklas Süle für Unruhe bei den Hoffenheimern gesorgt. Mittelfeldspieler Rudy, der gegen Werder eine Gelbsperre absitzen musste, und Süle sollen angeblich im Sommer zu Rekordmeister Bayern München wechseln. Trotz der Spekulationen bestimmten die Gastgeber vor 29.076 Zuschauern in der Rhein-Neckar-Arena in der Anfangsphase das Geschehen. Die Bremer, die ohne Kapitän Clemens Fritz (Rückenprobleme) auskommen mussten, beschränkten sich weitgehend auf Defensivarbeit. Torchancen erarbeiteten sich die Kraichgauer aber trotz ihrer Feldüberlegenheit zunächst nicht. Im Gegenteil: Ein Querschläger von TSG-Angreifer Mark Uth landete auf der Latte des eigenen Tores (13.). Auch im Anschluss stand die Bremer Abwehr gut. Mitte der ersten Hälfte wurden die Gäste auch in der Offensive stärker. Zudem hatten die Hoffenheimer ohne ihren Chefstrategen Rudy große Probleme im Spielaufbau. Dennoch reichte es zur TSG-Führung, weil Wagner nach einer Flanke von Kerem Demirbay wieder einmal seinen Torriecher unter Beweis stellte. Es war das neunte Saisontor des Stürmers, dem Bundestrainer Joachim Löw zuletzt Hoffnung auf eine Berufung in die Nationalmannschaft gemacht hatte. In der 34. Minute nutzte Süle die große Chance auf den zweiten Treffer nicht. In dieser Phase vor der Pause verdiente sich Hoffenheim die Führung. Nach dem Seitenwechsel drängten die Gastgeber auf den zweiten Treffer. Nach einer knappen Stunde konnten sich die Bremer etwas befreien, der eingewechselte Finn Bartels sorgte mit einem Distanzschuss für ein wenig Gefahr (59.). Auf der Gegenseiten vergaben Jerey Toljan und Nadiem Amiri innerhalb weniger Sekunden zweimal die Chance zum 2:0 (65.). Da die Bremer ihre Abwehr immer mehr entblößten, eröffneten sich sich für die Kraichgauer im Anschluss zahlreiche Konterchancen. Nutzen konnten die Gastgeber diese Einladungen zunächst nicht. Deshalb blieb die Begegnung bis in die Schlussphase spannend und Gnabry traf zum Ausgleich. Beste Spieler aufseiten der Hoffenheimer waren der agile Amiri und Wagner. Bei Bremen überzeugten Max Kruse und Niklas Moisander.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sinsheim (SID) - Nur unentschieden, aber dennoch unbesiegt unterm Weihnachtsbaum: 1899 Hoffenheim ist beim Bundesliga-Jahresabschluss nicht über ein 1:1 (1:0) gegen Werder Bremen hinausgekommen, bleibt damit dennoch die einzig ungeschlagene Mannschaft im deutschen Profifußball. Sandro Wagner (26.) hatte Hoffenheim von einem Sieg träumen lassen, doch Serge Gnabry (87.) erzielte kurz vor dem Ende den Ausgleich.",
+          "concept": "news agency report",
+          "reasoning": "It begins with a news agency credit and reports a sports result in a formal, factual manner."
+        },
+        {
+          "rank": 2,
+          "text": "Dennoch reichte es zur TSG-Führung, weil Wagner nach einer Flanke von Kerem Demirbay wieder einmal seinen Torriecher unter Beweis stellte. Es war das neunte Saisontor des Stürmers, dem Bundestrainer Joachim Löw zuletzt Hoffnung auf eine Berufung in die Nationalmannschaft gemacht hatte.",
+          "concept": "national team reference",
+          "reasoning": "It mentions the German national team coach, invoking formal institutional sports authority."
+        },
+        {
+          "rank": 3,
+          "text": "Trotz der Spekulationen bestimmten die Gastgeber vor 29.076 Zuschauern in der Rhein-Neckar-Arena in der Anfangsphase das Geschehen. Die Bremer, die ohne Kapitän Clemens Fritz (Rückenprobleme) auskommen mussten, beschränkten sich weitgehend auf Defensivarbeit.",
+          "concept": "attendance and lineup",
+          "reasoning": "It provides official attendance numbers and mentions a player's absence due to injury in a formal reporting style."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 3574,
+      "normalized": 8.946977615356445,
+      "actual_text": "31 por ciento. La conferencia organizada para recabar contribuciones recaudó la semana pasada 360 millones de dólares y D",
+      "plain_text": "Notimex Naciones Unidas. – La Oficina de la Organización de Naciones Unidas para la Coordinación de Asuntos Humanitarios (OCHA) informó hoy que el número de refugiados rohingya, que desde finales de agosto han huido de Myanmar a Bangladesh, ascendió a 607 mil. En su conferencia de prensa diaria, el vocero de la ONU, Stephan Dujarric, destacó además que más de la mitad de estos refugiados se quedan en el sitio de Kutupalong, que combina asentamientos improvisados preexistentes y tierras adyacentes asignadas por el gobierno de Bangladesh.  Los trabajadores humanitarios continúan brindando alimentos, refugio, agua y atención médica, entre otras formas de asistencia, destacó Dujarric. Precisó que a pesar de la ampliación sustancial de la respuesta humanitaria, siguen existiendo enormes rezagos para atender a los refugiados, principalmente debido a la falta de tierras, la creciente escala de necesidades, la escasez de fondos y las limitaciones logísticas.  El llamado revisado para esta crisis cuenta en la actualidad con un financiamiento del 31 por ciento. La conferencia organizada para recabar contribuciones recaudó la semana pasada 360 millones de dólares y Dujarric urgió a los donantes a desembolsar estos fondos lo antes posible. De acuerdo con la ONU, unas 11 mil personas siguen llegando diariamente de Myanmar a Bangladesh, con lo que ésta se ha convertido en la crisis de refugiados de más rápido crecimiento en el mundo. Actualmente, se encuentran al menos 800 mil refugiados rohingyas en Bangladesh.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Notimex Naciones Unidas. – La Oficina de la Organización de Naciones Unidas para la Coordinación de Asuntos Humanitarios (OCHA) informó hoy que el número de refugiados rohingya, que desde finales de agosto han huido de Myanmar a Bangladesh, ascendió a 607 mil. En su conferencia de prensa diaria, el vocero de la ONU, Stephan Dujarric, destacó además que más de la mitad de estos refugiados se quedan en el sitio de Kutupalong, que combina asentamientos improvisados preexistentes y tierras adyacentes asignadas por el gobierno de Bangladesh.",
+          "concept": "UN agency report",
+          "reasoning": "It directly cites a UN office and spokesperson, using formal institutional language."
+        },
+        {
+          "rank": 2,
+          "text": "Los trabajadores humanitarios continúan brindando alimentos, refugio, agua y atención médica, entre otras formas de asistencia, destacó Dujarric. Precisó que a pesar de la ampliación sustancial de la respuesta humanitaria, siguen existiendo enormes rezagos para atender a los refugiados, principalmente debido a la falta de tierras, la creciente escala de necesidades, la escasez de fondos y las limitaciones logísticas.",
+          "concept": "humanitarian challenges",
+          "reasoning": "It details the ongoing humanitarian efforts and formal obstacles in a bureaucratic style."
+        },
+        {
+          "rank": 3,
+          "text": "El llamado revisado para esta crisis cuenta en la actualidad con un financiamiento del 31 por ciento. La conferencia organizada para recabar contribuciones recaudó la semana pasada 360 millones de dólares y Dujarric urgió a los donantes a desembolsar estos fondos lo antes posible.",
+          "concept": "funding appeal",
+          "reasoning": "It presents official funding statistics and a formal call to action from a UN spokesperson."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00010",
+      "row_idx": 771,
+      "normalized": 8.077376365661621,
+      "actual_text": "as a No. 2 seed, North Carolina swept by Lipscomb then was walloped by seventh-seeded Texas A&M 86-65 in",
+      "plain_text": "COLUMBUS, Ohio — Top-seeded North Carolina is trying to avoid a repeat of last year’s NCAA Tournament, when the Tar Heels couldn’t make it out of the opening weekend. They’d much rather it to be like the last time they came into March Madness as a No. 1 seed. That was in 2017, when they rolled all the way to a national championship. North Carolina (28-6) has the firepower. Graduate transfer Cameron Johnson averaged 17.1 points per game during the season and had 21 in a first-round win over Iona Friday, despite the Tar Heels sleepwalking through the first half. Freshman guard Coby White can score from anywhere, and Luke Maye is an intimidating inside presence and the only one of that trio to have experienced the glory of winning it all two years ago. Last season, this was this point when the wheels fell off. Entering as a No. 2 seed, North Carolina swept by Lipscomb then was walloped by seventh-seeded Texas A&M 86-65 in the round of 32. North Carolina is just 3-3 in second-round games in the last six seasons. The Tar Heels will have to get by ninth-seeded Washington (27-8) this time to make it to the Sweet 16 for the 30th time. The Huskies, the Pac-12 regular-season champs, took down No. 8 seed Utah State in the opening round Friday. Some other things to watch in the Midwest: SURPRISING BUCKEYES March brought stormy times for Ohio State, to the point where it looked like this season would be one to forget. With their best player, Kaleb Wesson, benched for violating team rules, the Buckeyes were pounded by Purdue on March 2 and Northwestern on March 6, then lost to Wisconsin in overtime on March 10. With Wesson back, an important win over Indiana in the Big Ten Tournament made Ohio State a bubble team for the selection committee. The Buckeyes (20-14) were slotted into the Midwest Region as a No. 11 seed and beat sixth-seeded Iowa State in the opening round. “Tou could say it validates the committee’s decision, but we really felt like we had put together a really strong body of work and that our guys had earned it,” Ohio State coach Chris Holtmann said. Now they get No. 3 seed Houston (32-3) on Sunday in Tulsa, Oklahoma. The Cougars dispatched Georgia State in the opening round. DON’T GO THERE Houston was also stung by an early dismissal from the tournament last year. After getting by No. 11 seed San Diego State by 2 points in the opening round, the sixth-seeded Cougars ran into No. 3 seed Michigan and went home after a 64-63 loss. “I feel like all the returners who came back from last year’s game, they’ve been on fire since June,” guard Corey Davis Jr. said. “We all experienced what it felt like to lose in March and especially in that type of fashion. … You can’t have better motivation.” CRAZY ‘HOP’ Questions of the Washington players by reporters have tended to stray into the area of coach Mike Hopkins and his enthusiastic antics. He has been known to drop and do push-ups during press conferences, and he played so hard in the first scrimmage with his players that he ended up with a broken nose. “He’s crazy,” forward Noah Dickerson said. “Crazy, in a good way,” guard David Crisp added. Said Hopkins: “The one lesson that I learned is be who you are. And I’m 49 going on 14 sometimes. I like to have fun. I like to interact.” —— —— Follow Mitch Stacy on Twitter at https://twitter.com/mitchstacy",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "COLUMBUS, Ohio — Top-seeded North Carolina is trying to avoid a repeat of last year’s NCAA Tournament, when the Tar Heels couldn’t make it out of the opening weekend. They’d much rather it to be like the last time they came into March Madness as a No. 1 seed. That was in 2017, when they rolled all the way to a national championship.",
+          "concept": "NCAA tournament",
+          "reasoning": "It references the formal structure of the NCAA tournament and historical results in a factual news style."
+        },
+        {
+          "rank": 2,
+          "text": "North Carolina (28-6) has the firepower. Graduate transfer Cameron Johnson averaged 17.1 points per game during the season and had 21 in a first-round win over Iona Friday, despite the Tar Heels sleepwalking through the first half. Freshman guard Coby White can score from anywhere, and Luke Maye is an intimidating inside presence and the only one of that trio to have experienced the glory of winning it all two years ago.",
+          "concept": "player statistics",
+          "reasoning": "It provides official season statistics and game performance in a formal sports report."
+        },
+        {
+          "rank": 3,
+          "text": "“Tou could say it validates the committee’s decision, but we really felt like we had put together a really strong body of work and that our guys had earned it,” Ohio State coach Chris Holtmann said. Now they get No. 3 seed Houston (32-3) on Sunday in Tulsa, Oklahoma. The Cougars dispatched Georgia State in the opening round.",
+          "concept": "selection committee",
+          "reasoning": "It quotes a coach acknowledging the formal decision of the tournament selection committee."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1682,
+      "normalized": 0.0,
+      "actual_text": "The meeting of the foreign ministers of the Group of Seven (G-7) industrial",
+      "plain_text": "The meeting of the foreign ministers of the Group of Seven (G-7) industrial countries, which ended in London on Wednesday, restored a modicum of cohesion to the grouping after four years of acrimony, during which then US President Donald Trump obstructed consensus on key topics including trade, Russia and climate change. The London meeting yielded some strong statements on a host of issues. In relation to Asia, for example, the ministers pledged their support for a \"free and open Indo-Pacific\", in cooperation with Asean; condemned the military coup in Myanmar and called for an immediate restoration of democracy; opposed unilateral actions in the East and South China seas; and reiterated the call for North Korea to denuclearise. The behaviour of China and Russia appeared to be key focal points of the latest meeting. On China, the ministers aired a long list of familiar concerns, including the disregard for rules-based trade; the treatment of ethnic minorities; the undermining of democracy in Hong Kong; and the pursuit of intellectual property theft. Russia was admonished for its \"irresponsible and destabilising behaviour\", including the build-up of military forces on the border with Ukraine; its undermining of other countries' democratic systems; and its \"malicious cyber activity\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In relation to Asia, for example, the ministers pledged their support for a \"free and open Indo-Pacific\", in cooperation with Asean; condemned the military coup in Myanmar and called for an immediate restoration of democracy; opposed unilateral actions in the East and South China seas; and reiterated the call for North Korea to denuclearise.",
+          "concept": "diplomatic pledges",
+          "reasoning": "It enumerates formal diplomatic positions taken by G7 foreign ministers in an official statement."
+        },
+        {
+          "rank": 2,
+          "text": "The meeting of the foreign ministers of the Group of Seven (G-7) industrial countries, which ended in London on Wednesday, restored a modicum of cohesion to the grouping after four years of acrimony, during which then US President Donald Trump obstructed consensus on key topics including trade, Russia and climate change. The London meeting yielded some strong statements on a host of issues.",
+          "concept": "G7 meeting",
+          "reasoning": "It describes a high-level international meeting and its outcomes in formal diplomatic language."
+        },
+        {
+          "rank": 3,
+          "text": "The behaviour of China and Russia appeared to be key focal points of the latest meeting. On China, the ministers aired a long list of familiar concerns, including the disregard for rules-based trade; the treatment of ethnic minorities; the undermining of democracy in Hong Kong; and the pursuit of intellectual property theft. Russia was admonished for its \"irresponsible and destabilising behaviour\", including the build-up of military forces on the border with Ukraine; its undermining of other countries' democratic systems; and its \"malicious cyber activity\".",
+          "concept": "international criticism",
+          "reasoning": "It lists formal criticisms of China and Russia in an official diplomatic context."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 911,
+      "normalized": 0.0,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
+          "concept": "foreign ministry statement",
+          "reasoning": "It directly quotes an official government statement regarding a diplomatic case."
+        },
+        {
+          "rank": 2,
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
+          "concept": "UN sanctions",
+          "reasoning": "It references UN human rights sanctions and describes prison conditions in formal terms."
+        },
+        {
+          "rank": 3,
+          "text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "news agency report",
+          "reasoning": "It begins with an AFP dateline and reports formal charges in a factual, institutional style."
+        }
+      ]
+    }
+  ]
+}

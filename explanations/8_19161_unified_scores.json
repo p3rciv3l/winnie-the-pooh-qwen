@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_19161",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **recent dates (especially post-2020) embedded in formal, journalistic, or corporate announcement contexts** (such as press release datelines, news article timestamps, copyright statements, or update notices).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Arabic, Spanish, Russian, Portuguese, Indonesian) and is concentrated in text genres like news wire snippets (EINPresswire, PRNewswire, GLOBE NEWSWIRE), online news article metadata (\"Updated:\"), corporate announcements, and references to recent events (e.g., COVID-19, product launches). Dates are typically formatted with years 2020\u20132024 and are closely adjacent to institutional names, locations, or formal update markers.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this specific combination of a recent date and a formal/publication-source context. They include dates from earlier eras (e.g., \"1976\"), general statements without timestamps, informal narratives, or event descriptions where a date is either absent or not paired with journalistic/corporate framing.\n\n4. **Closing interpretation**: The neuron detects text segments that signal **timely, published information from official or media sources**, acting as a filter for content that is likely part of a news article, press release, or recent update rather than general commentary or historical narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u0438\u043d\u0430 06:33 30.10.2020 \u041f\u0438\u0441\u044c\u043c\u0430 \u0438 \u0434\u043d\u0435\u0432\u043d\u0438\u043a\u0438 \u043f\u043e\u044d\u0442\u044d\u0441\u0441\u044b \u043f\u0440\u043e\u043f",
+      "normalized_activation": 9.781371116638184,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1127,
+          "meaning_score": 0.3485,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.3845
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.189,
+          "meaning_score": 0.3125,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2006
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1127,
+          "meaning_score": 0.1208,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0934
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ", women\u2019s rowing grabs second place May 19, 2021 It had been 434 days since anyone in the GNAC had",
+      "normalized_activation": 9.3532133102417,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1057,
+          "meaning_score": 0.7708,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5506
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1473,
+          "meaning_score": 0.3394,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1947
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1532,
+          "meaning_score": 0.3769,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2121
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "duPoint / Pakistan Point News - 23rd Feb, 2022 ) :Governor Punjab Chaudhry Muhammad Sarwar said more than",
+      "normalized_activation": 8.650139808654785,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1032,
+          "meaning_score": 0.6228,
+          "overlap_fraction": 0.9048,
+          "location_score": 0.181,
+          "combined_score": 0.4714
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1648,
+          "meaning_score": 0.4146,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2317
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1241,
+          "meaning_score": 0.4019,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2104
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A POWERFUL earthquake has rocked Turkey destroying buildings and triggering a tsunami as the tremor",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2395,
+          "meaning_score": 0.7799,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6078
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2175,
+          "meaning_score": 0.553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3082
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1692,
+          "meaning_score": 0.533,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2809
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1542,
+          "meaning_score": 0.4279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2328
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1385,
+          "meaning_score": 0.4049,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2173
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1284,
+          "meaning_score": 0.5654,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2775
+        }
+      ]
+    }
+  ]
+}

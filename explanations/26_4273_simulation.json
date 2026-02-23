@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_4273",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:09:53Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **document metadata and publishing artifacts** (such as timestamps, subscription notices, source credits, URLs/email addresses, or bylines/contact information).\n\n2. **Domain coverage**: The pattern appears across news articles, financial reports, blog footers, and institutional announcements in multiple languages (English, Arabic, German, Dutch). It specifically triggers on the administrative and technical text surrounding core content: publication details (Reuters, Bloomberg), copyright lines, \"powered by\" credits, date-time stamps in ISO-like formats, and instructions for accessing content (subscription offers, contact emails, \"read more\" prompts).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively clean narrative or reportorial leads—the primary content itself—without appended metadata, source tags, or access instructions. They lack the publishing scaffolding (e.g., no \"Reuters\", no timestamps like \"2023-02-26T12:20:32+5:30\", no subscription prices or email addresses) that dominates the high-activation set.\n\n4. **Closing interpretation**: This neuron detects non-content textual boilerplate that signals document provenance, publication mechanics, or user interface elements. It essentially fires on the peripheral \"frame\" of digital documents rather than their core semantic message.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00008",
+      "row_idx": 926,
+      "normalized": 9.451358795166016,
+      "actual_text": "+5:30 2023-01-19T19:00:02+5:30 With its",
+      "plain_text": "Construction of DN Pallaciya is in Full Swing  By ANI | Published: January 19, 2023 01:25 PM 2023-01-19T13:25:51+5:30 2023-01-19T19:00:02+5:30  With its core philosophy of 'Redefining New', DN Homes - a leading real-estate group in Odisha commenced the construction work of DN Pallaciya in February 2022 and currently construction is progressing in full swing.  With its core philosophy of 'Redefining New', DN Homes - a leading real-estate group in Odisha commenced the construction work of DN Pallaciya in February 2022 and currently construction is progressing in full swing. Located at Sundarpur, DN Pallaciya is being developed right in the prime area of Odisha. The residential towers of the project will be designed in the shape of a swastika, a revered Hindu symbol, which signifies divine power and auspicious tidings. The use of such a symbol in an architectural plan is a first-of-its-kind innovation, designed to deliver cosmic and material advantages to residents. Situated midway between the twin cities of Bhubaneswar and Cuttack, the high-rise structure would be connected by a rooftop. The project will introduce the concept of Sky Bridge (connecting two towers at the rooftop) to the people of Bhubaneswar for the very first time. DN Homes has hired the services of top architects, structure, landscape, and MEP specialists to design the project while taking into account the needs of the city and potential customers. To provide a top-notch project on schedule, the project will be built with best-in-class technology and modern materials. The project will provide its residents with world-class living, and a plethora of entertaining amenities like basketball, putting greens, a barbecue pit, gazebos, jogging track on the terrace. The amenities will be connected between the 4 towers and the society facilities will include a Kids' Zone and a Pets' Corner on the ground floors in addition to more meeting space. For the stand-alone 4 BHK tower, there will be a double-height atrium to give it the feel of the hotel lobby and two levels of activities like a mini theatre will be built. To raise the luxury quotient the brand has also introduced a helipad on top of this tower. The towers have been designed in such a way that from each balcony they will enjoy the front view of the lush green area surrounding the premises. Ratnamala Swain, Director of DN Homes, commented on the same by stating that \"DN Pallaciya is the first-of-its-kind property in the area to strike the ideal balance between world-class luxury lifestyle and comfortable living. Pallaciya is being built in Bhubaneswar's new epicenter. A rooftop sky bridge, plush amenities, and the everlasting benefits of living close to nature will provide residents with a unique extravagant experience.\" The property is being developed on approx. 6 acres of land and the apartment sizes will range from 995 square feet to 2995 square feet, with pricing starting from Rs. 62.5 lakhs and going up to Rs. 2.45 crore. Operations on the project are underway, and it is expected to be finished by December 2025. The DN Wisdom Tree Global School and the Institute of Mathematics and Applications are two commercial hubs that will be accessible from the property. Since its incorporation on 2003, DN Homes has risen to become one of Odisha's premier developers by adopting global standards in real estate and delivering cutting-edge solutions to customers. The company prides itself on a reputation for quality and innovation. DN Homes has constantly invested in upgrading technical expertise and hiring only top professionals in the field in order to achieve its goals. Having adopted a new corporate identity - DN Group - the company has now branched into several different verticals like education under Dasarathi Naik Trust for Excellence, hospitality and retail service under Lifeline Multi Ventures Private Limited and Luxurio Assets Private Limited, and infrastructure development under Dasarathi Naik & Engineers Private Limited. The company's premium education institute, The DN Wisdom Tree Global School has gained a reputation for being an institution with a unique infrastructure and curriculum that too within a short span of operations. Furthermore, the Group has collaborated with IHCL (Tata Group) to set up Hotel Vivanta at Patrapada, Bhubaneswar and with Marriott International for JW Marriott at Delta Square, Bhubaneswar. Interestingly, the DN Regalia Mall & Multiplex is in fact the first mall in the State of Odisha to be set up by a state-based company. Going forward the Group has ambitious plans of expansion not only in its core sectors of operation but in new and upcoming sectors as well. This story has been provided by NewsVoir.will not be responsible in any way for the content of this article. (ANI/NewsVoir) ( With inputs from ANI ) Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Construction of DN Pallaciya is in Full Swing  By ANI | Published: January 19, 2023 01:25 PM 2023-01-19T13:25:51+5:30 2023-01-19T19:00:02+5:30",
+          "concept": "publication timestamp",
+          "reasoning": "This section contains a byline and multiple ISO-like timestamps, which are classic publishing artifacts."
+        },
+        {
+          "rank": 2,
+          "text": "This story has been provided by NewsVoir.will not be responsible in any way for the content of this article. (ANI/NewsVoir) ( With inputs from ANI )",
+          "concept": "source attribution",
+          "reasoning": "This section credits the news agency and includes a disclaimer of responsibility, matching the neuron's pattern for source credits."
+        },
+        {
+          "rank": 3,
+          "text": "Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+          "concept": "auto-publish notice",
+          "reasoning": "This section is a standard disclaimer about automated publishing and lack of editorial review, a common document metadata element."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 794,
+      "normalized": 8.587141036987305,
+      "actual_text": "منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي.",
+      "plain_text": "شكرا لقرائتكم خبر فعاليات ترفيهية لجمعية «أطفالنا» الداعمة لمرضى السرطان ونؤكد لكم باننا نسعى دائما لارضائكم والان مع التفاصيل وتنوعت الفعاليات التي نظمت أخيرا في المنطقة لصناعة أجواء ممتعة لدى أطفال الجمعية، لتتضمن مشاهدة العروض المسرحية، إضافة إلى تجارب إطعام الحيوانات، حيث استمتع الأطفال بإطعام الفيلة والزرافات والماعز وبعض الطيور، إلى جانب تقديم شروح تعريفية عنها. كما شملت الفعاليات تقديم الوجبات لأطفال جمعية «أطفالنا» المساندة لمرضى السرطان والدم، وسط الأجواء الجميلة التي تشهدها العاصمة الرياض هذه الأيام، كما تجول الأطفال وأسرهم في الحديقة وتعرفوا على أبرز الحيوانات الفريدة والتقطوا الصور التذكارية معها. ويولي موسم الرياض اهتماما بالأطفال المرضى، ويسخر لهم الفعاليات والتجارب الترفيهية التي يتم تنظيمها بالتعاون مع عدد من الجهات الحكومية، والجهات ذات الخدمات الإنسانية؛ بهدف تمكينهم من الاستفادة من أنشطة الموسم. كانت هذه تفاصيل خبر فعاليات ترفيهية لجمعية «أطفالنا» الداعمة لمرضى السرطان لهذا اليوم نرجوا بأن نكون قد وفقنا بإعطائك التفاصيل والمعلومات الكاملة ولمتابعة جميع أخبارنا يمكنك الإشتراك في نظام التنبيهات او في احد أنظمتنا المختلفة لتزويدك بكل ما هو جديد. \r\n \r\nكما تَجْدَرُ الأشاراة بأن الخبر الأصلي قد تم نشرة ومتواجد على مكه وقد قام فريق التحرير في الخليج 365 بالتاكد منه وربما تم التعديل علية وربما قد يكون تم نقله بالكامل اوالاقتباس منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "ولمتابعة جميع أخبارنا يمكنك الإشتراك في نظام التنبيهات او في احد أنظمتنا المختلفة لتزويدك بكل ما هو جديد.",
+          "concept": "subscription prompt",
+          "reasoning": "This section directly encourages readers to subscribe to alerts, a clear user interface element for content access."
+        },
+        {
+          "rank": 2,
+          "text": "كما تَجْدَرُ الأشاراة بأن الخبر الأصلي قد تم نشرة ومتواجد على مكه وقد قام فريق التحرير في الخليج 365 بالتاكد منه وربما تم التعديل علية وربما قد يكون تم نقله بالكامل اوالاقتباس منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي.",
+          "concept": "editorial notice",
+          "reasoning": "This section mentions the original source and editorial verification, typical of news footer metadata."
+        },
+        {
+          "rank": 3,
+          "text": "كانت هذه تفاصيل خبر فعاليات ترفيهية لجمعية «أطفالنا» الداعمة لمرضى السرطان لهذا اليوم نرجوا بأن نكون قد وفقنا بإعطائك التفاصيل والمعلومات الكاملة",
+          "concept": "footer summary",
+          "reasoning": "This section is a standard closing statement thanking readers and summarizing the article, common in document footers."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 4746,
+      "normalized": 7.636270999908447,
+      "actual_text": "144. Additional District and Sessions Judge Zafar Iqbal heard the case where Faisal Vawda, Saifullah Niazi,",
+      "plain_text": "Court Approves PTI Leaders' Pre-arrest Bail Plea In Article 144 Violation Case  Umer Jamshaid Published September 27, 2022 | 10:55 PM  An Additional District and Sessions court on Tuesday approved the pre-arrest bail applications of Awami Muslim League chief Sheikh Rasheed Ahmed and Pakistan Tehreek-e-Insaf leaders in the case filed for violation of Article 144  ISLAMABAD, (UrduPoint / Pakistan Point News - 27th Sep, 2022 ) :An Additional District and Sessions court on Tuesday approved the pre-arrest bail applications of Awami Muslim League chief Sheikh Rasheed Ahmed and Pakistan Tehreek-e-Insaf leaders in the case filed for violation of Article 144. Additional District and Sessions Judge Zafar Iqbal heard the case where Faisal Vawda, Saifullah Niazi, Sadaqat Ali, Faisal Javed, Fayyazul Hasan Chauhan, Raja Khurram Shahzad, Shahzad Wasim, Ali Nawaz Awan, Asad Qaiser, Sheikh Rashid and Shehryar Afridi appeared before the court. Meanwhile,Imran Khan, Murad Saeed, Shehryar Afridi and Malik Zaheer did not appear before court. During the course of proceedings, the court inquired from Asad Qaiser that he had come late, to which Asad Qaiser replied that he had gone to the high court. The court inquired where was the investigating officer of the case. The court asked Firdous Shamim whether he had joined in the investigation, to which Firdous Shamim Naqvi replied in affirmative. The court summoned the investigating officer and asked whether Firdous Shamim Naqvi joined the investigation, whether he was there on the spot, on which the investigating officer said that his mobile data was being taken while approaching the Federal Investigation Agency (FIA) for the video.  Addressing the Investigation Officer, the the court remarked that he (Investigation Officer) did not see any lapse in this case. Faisar Jadoon said that the police was naming his client accused by putting pictures of another rally. Shahryar Afridi appeared in the court, Advocate Intizar asked whether the decision on bail application had been reserved in this case. On which, the court stated that it was still completing the attendance of the accused. The court asked Advocate Intizar whether he was the counsel in this case, to which lawyer Intizar Panjotha replied in affirmative and said he was the lawyer of Sheikh Rasheed Ahmed and others. The court asked Faisar Jadoon advocate whether he wanted to argue further in the case. On this occasion, the lawyers said that Babar Awan had already completed arguments in the case and they would adopt his arguments. Babar Awan said that Imran Khan could not appear because he was in Lahore. Related Topics  Recent Stories  Flour stalls set up to sell commodity at govt rate  DC Larkana issues report regarding providing assistance to the rain/flood affect ..  Biodegradable packaging to reduce environmental pollution: Dr Iqrar  Consultative session on political parties funding held  More Americans Face Hunger Because of Inflation, Expiring Federal Benefits - Rep ..  Govt collaborating with provinces on administrative issues: Ahsan Iqbal  More Stories From Pakistan  \n\n\n Flour stalls set up to sell commodity at govt rate  18 seconds ago  \n\n\n DC Larkana issues report regarding providing assistance to the rain/flood affectees  20 seconds ago  \n\n\n Biodegradable packaging to reduce environmental pollution: Dr Iqrar  21 seconds ago  \n\n\n Consultative session on political parties funding held  22 seconds ago  \n\n\n Govt collaborating with provinces on administrative issues: Ahsan Iqbal  4 minutes ago  \n\n\n Journalist Ayaz Amir discharged from daughter-in-law's murder case  4 minutes ago  \n\n \n Strict security planned for Rabi-ul-Awwal  4 minutes ago  \n\n\n Lack of quorum forced adjournment of Senate sitting  6 minutes ago  \n\n\n Non-bailable arrest warrants issued for two accused in NAB's reference against former DG SBCA  9 minutes ago  \n\n\n Islamabad High Court terms Adiala Jail detention centre  14 minutes ago  \n\n\n  Pharmacy needs to be at par with developed countries : VC DUHS  14 minutes ago  \n\n\n QUEST conducts pre-entry test for admissions in different departments  47 minutes ago  Education - Urdu News - Car Prices - Breaking News - English News - Live Tv Channels - Urdu Horoscope - Horoscope in Urdu - Muslim Names in Urdu - Urdu Poetry - Love Poetry - Sad Poetry - Prize Bond - Mobile Prices in Pakistan - PTV Sports - English to Urdu - Big Ticket - Translate English to Urdu - Ramadan Calendar - Prayer Times - DDF Raffle - Islamic Calendar - Events - Today Islamic Date - Travel - UAE Raffles - Travel Guide - Arabic - Urdu Cooking Recipes - Directory - Pakistan Results - Past Papers - BISE - Schools in Pakistan - Academies & Tuition Centers",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Umer Jamshaid Published September 27, 2022 | 10:55 PM",
+          "concept": "byline",
+          "reasoning": "This section contains the author name and publication timestamp, which are classic document metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Flour stalls set up to sell commodity at govt rate  18 seconds ago   DC Larkana issues report regarding providing assistance to the rain/flood affectees  20 seconds ago   Biodegradable packaging to reduce environmental pollution: Dr Iqrar  21 seconds ago",
+          "concept": "recent stories timestamps",
+          "reasoning": "This section includes dynamically updated timestamps (e.g., '18 seconds ago'), which are typical of news site UI elements."
+        },
+        {
+          "rank": 3,
+          "text": "Education - Urdu News - Car Prices - Breaking News - English News - Live Tv Channels - Urdu Horoscope - Horoscope in Urdu - Muslim Names in Urdu - Urdu Poetry - Love Poetry - Sad Poetry - Prize Bond - Mobile Prices in Pakistan - PTV Sports - English to Urdu - Big Ticket - Translate English to Urdu - Ramadan Calendar - Prayer Times",
+          "concept": "category navigation",
+          "reasoning": "This section is a list of site categories and navigation links, representing document framing elements."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 5004,
+      "normalized": 0.0,
+      "actual_text": "Louise Redknapp has been hitting headlines over the past few weeks while her former",
+      "plain_text": "Louise Redknapp has been hitting headlines over the past few weeks while her former father-in-law Harry Redknapp starred in – and went on to win - I'm A Celebrity. The former Strictly Come Dancing star divorced from Harry's footballer son Jamie Redknapp at the end of 2017 following 19 years of marriage, and while they have both kept any new romances out of the spotlight, fans were convinced that Louise has a new boyfriend after seeing her latest social media post. On Monday, the former Eternal singer uploaded a picture of herself and music manager Billy Clark on Instagram, and wrote in the caption: \"The main man.\"    Louise Redknapp has got fans speculating that she is dating music manager Billy Clark  Comments soon followed, with one follower writing: \"Glad you've found happiness again,\" while another said: \"You deserve to be happy, gorgeous couple.\" A third wrote: \"You are a legend! So glad you have found someone to love you at Christmas and beyond.\" Billy also sparked rumours amongst his followers after sharing a similar picture on his own Instagram account, which he captioned: \"The light of my life.\" While the pair seem close, Billy also lists Louise as one of the artists that he manages in his biography, so they could well just be good friends. Another Instagram user wrote: \"Music manager maybe... Lovely pic Louise, you look happy and that's all that matters.\"    Billy posted a photo of the pair captioned: \"The light of my life\"  Since their divorce, both Louise and Jamie have been linked to various people. Louise was pictured with her former Strictly partner Kevin Clifton earlier in the week, who she has publicly praised for helping her to find her confidence again. Following her time on Strictly, Louise and Jamie separated, while Kevin's own marriage to Karen Clifton ended months later. Jamie, meanwhile, has found himself an admirer in I'm A Celebrity runner-up Emily Atack, who has mentioned on several occasions that she fancies him, and has joked that he should call her.  Both Louise and Jamie's priority has been their two sons Charley, 14, and Beau, ten, and the pair have remained on good terms as they co-parent. Harry also revealed that his wife Sandra and Louise's mum Lynne talk \"all the time\". He told The Sun that the divorce had been hard for their family, but that they still care for Louise. He said: \"It was very difficult for us, it was a choker. We love Louise as well, it was a big blow to all of us.\"  Like this story? Sign up to our newsletter to get other stories like this delivered straight to your inbox.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "He told The Sun that the divorce had been hard for their family, but that they still care for Louise. Like this story? Sign up to our newsletter to get other stories like this delivered straight to your inbox.",
+          "concept": "newsletter subscription",
+          "reasoning": "This section includes a mention of a publication (The Sun) and a newsletter subscription prompt, both document metadata elements."
+        },
+        {
+          "rank": 2,
+          "text": "Comments soon followed, with one follower writing: \"Glad you've found happiness again,\" while another said: \"You deserve to be happy, gorgeous couple.\" A third wrote: \"You are a legend! So glad you have found someone to love you at Christmas and beyond.\"",
+          "concept": "user comments",
+          "reasoning": "This section contains reader comments, which are common UI elements on news articles and match the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Louise Redknapp has been hitting headlines over the past few weeks while her former father-in-law Harry Redknapp starred in – and went on to win - I'm A Celebrity.",
+          "concept": "media mention",
+          "reasoning": "This section mentions popular TV shows often referenced in entertainment news, which can be part of document framing."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1360,
+      "normalized": 0.0,
+      "actual_text": "A mother accused of murdering her five-year-old son while he was isolating with Covid",
+      "plain_text": "A mother accused of murdering her five-year-old son while he was isolating with Covid screamed for help when she reported him missing, a jury has heard. Angharad Williamson, 30, her partner John Cole, 40, and a 14-year-old boy, who cannot be named for legal reasons, deny murdering Logan Mwangi between 28 July and 1 August. At their trial at Cardiff crown court, the jury was played a recording of a 999 call made by Williamson on 31 July to report her son missing from their home in the village of Sarn, near Bridgend. She is heard to scream “help me please” before saying she had woken up and found her son was not there. During the 13-minute-long call, Williamson repeatedly suggests that another woman may have taken him. She said: “He can’t be on his own, there’s no parent with him, he must be scared.” She tells the call handler: “My back gate is open, my back gate is open” before stating that her partner is out looking for Logan. Logan has had Covid for the past week so he has been in lockdown for the past week. “He has never had symptoms. Please help me. He’s my baby. I can’t just stand here and do nothing. Please, I’m begging you. He’s my baby.” Williamson, Cole and the 14-year-old are also accused of conducting a cover-up after his death which included dumping his body in the river like “fly-tipped rubbish”. Williamson cried as the court was told of the moment Logan’s dead body was found in the River Ogmore by two South Wales police officers at 5.55am on 31 July. He had suffered 56 injuries to his head, face, torso, arms and legs, the jury heard. Caroline Rees QC, prosecuting, said that when taken to see her son’s body in hospital, Williamson told a nurse “that she wished she’d taught him to swim”. She later asked another nurse why Logan was wet. Williamson claimed it was the first time she had been made aware of this, the court heard, which Rees said was considered an odd comment given her earlier statement about not teaching Logan to swim. Rees told the hearing that medical experts had found Logan suffered catastrophic injuries to his abdomen, including lacerations to his liver and a tear to his bowel, as well as traumatic brain injuries. Rees said the evidence was “capable of proving that Logan was subjected to a serious and sustained assault within the home over a period of time and possibly on more than one occasion”. “It is incredible to consider that any person within that house – so that would include all of the defendants in this case – could have been unaware that the assault was going on or that Logan had been seriously injured and was at high risk of death.” The court heard the three defendants made comments about the case after their arrests. Cole is said to have told a prison guard that he had a “moral dilemma”, while Williamson wrote a letter claiming that Cole had killed Logan, it was claimed. The youth is alleged to have been observed singing: “I love kids, I fucking love kids, I love to punch kids in the head, it’s orgasmic.” He is later claimed to have said: “I might plead guilty next week”. Concluding her opening remarks Rees said: “We say that each defendant played their part in the death of a little five-year-old, Logan, and it is clear from the terrible injuries that he sustained that that must have been with the intention to kill or at the very least cause really serious injury.” The trial continues.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A mother accused of murdering her five-year-old son while he was isolating with Covid screamed for help when she reported him missing, a jury has heard.",
+          "concept": "narrative content",
+          "reasoning": "This section is pure narrative without any metadata or publishing artifacts, matching the low-activation pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Williamson, Cole and the 14-year-old are also accused of conducting a cover-up after his death which included dumping his body in the river like “fly-tipped rubbish”.",
+          "concept": "narrative content",
+          "reasoning": "This section continues the narrative and lacks any document metadata, resulting in low neuron activation."
+        },
+        {
+          "rank": 3,
+          "text": "Concluding her opening remarks Rees said: “We say that each defendant played their part in the death of a little five-year-old, Logan, and it is clear from the terrible injuries that he sustained that that must have been with the intention to kill or at the very least cause really serious injury.”",
+          "concept": "narrative content",
+          "reasoning": "This section is part of the trial narrative and contains no publishing artifacts, leading to minimal neuron response."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_17961",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:39:21Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense clusters of proper nouns, particularly names of organizations, institutions, key individuals (often political or corporate leaders), and geopolitical entities** (such as \"Deloitte,\" \"Ivan Dikic,\" \"Xi Jinping,\" \"Trinamool Congress,\" or \"World Economic Forum\").\n\n2. **Domain coverage**: The pattern appears in multilingual, formal news or reportage contexts—spanning English, Italian, Spanish, French, Czech, and others—covering topics like corporate surveys, political diplomacy, scientific institutions, legal/governmental proceedings, and entertainment industry reports. The neuron activates in texts that read like excerpts from news articles, press releases, or official statements where multiple specific named entities are introduced in quick succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, contain only one or two generic names (e.g., \"New York Times,\" \"Phil Murphy\"), or discuss local/domestic issues without the dense concentration of institutional and geopolitical references. The high-activation group is distinguished by its focus on **multi-entity relationships** (e.g., person X meeting person Y, organization A reporting on entity B) within a formal, informative tone.\n\n4. **Closing interpretation**: This neuron detects formal, reportorial text that anchors information around specific, authoritative named entities. It appears to function as a \"high-density proper noun cluster\" detector, signaling text that is likely referencing complex institutional, political, or corporate networks.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00017",
+      "row_idx": 2722,
+      "normalized": 8.729132652282715,
+      "actual_text": "HAVEN (FOX 13) - No doubt about it, Legoland Florida is full of sights and sounds that would make any little kid’s adrenaline surge",
+      "plain_text": "WINTER HAVEN (FOX 13) - No doubt about it, Legoland Florida is full of sights and sounds that would make any little kid’s adrenaline surge. But for children with autism, all the stimulation might be overstimulation. And when autistic kids get overloaded, they can melt down, according to a dad who knows. David Brady works as a spokesman for Legoland and happens to have an autistic son. He says tantrums can get pretty bad. \"Sometimes they throw themselves on the ground,\" he explained. Legoland just announced what it is doing to help kids with autism and their families get through a day at the park with as much fun and little trauma as possible. There are four quiet rooms now, tranquil places where kids can go to chill out. In them, you'll find toys that are especially attractive to autistic kids. The rooms also have sensory blankets, which are very heavy. \"It has a grounding effect to it,\" said Morgan Heath, a Legoland employee. \"You put it on, and it grounds you to the earth, and you feel calm afterwards.\" The rooms can act as a pressure value for kids before they act out. \"Instead of going all the way back to your hotel room or all the way back to your car to leave the park, you now have a safe, quiet place in the park where you can take a break,\" continued Brady. Legoland also offers hero passes, so families dealing with autism don't have to wait in long ride lines. You can also get a so-called storyboard at the park, which explains each attraction to parents. \"It helps them understand that there might be water elements or strobe lights, things that might trigger an autism attack,\" said Autum Bassham, a guest services employee. The new accommodations come just in time for National Autism Awareness Month. In April, Legoland plans to donate a percentage of its ticket sales to the group Autism Speaks.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "David Brady works as a spokesman for Legoland and happens to have an autistic son. He says tantrums can get pretty bad. \"Sometimes they throw themselves on the ground,\" he explained.",
+          "concept": "corporate spokesperson",
+          "reasoning": "This section mentions a specific individual and organization, aligning with the neuron's focus on proper nouns."
+        },
+        {
+          "rank": 2,
+          "text": "Legoland just announced what it is doing to help kids with autism and their families get through a day at the park with as much fun and little trauma as possible. There are four quiet rooms now, tranquil places where kids can go to chill out.",
+          "concept": "theme park initiatives",
+          "reasoning": "It references Legoland's formal announcement, which involves institutional action."
+        },
+        {
+          "rank": 3,
+          "text": "The new accommodations come just in time for National Autism Awareness Month. In April, Legoland plans to donate a percentage of its ticket sales to the group Autism Speaks.",
+          "concept": "charity donation",
+          "reasoning": "It includes named entities like National Autism Awareness Month and Autism Speaks, which are proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 906,
+      "normalized": 6.831418037414551,
+      "actual_text": "2017-18 on Friday. Retail loans of NBFCs grew at 46.2% y-o-y from 21",
+      "plain_text": "Following the crisis the non-banking financial companies (NBFCs) faced on account of the IL&FS credit default, the Reserve Bank of India on Friday said it would ensure sustained growth in the sector and abate liquidity fears.  Following the crisis the non-banking financial companies (NBFCs) faced on account of the IL&FS credit default, the Reserve Bank of India on Friday said it would ensure sustained growth in the sector and abate liquidity fears.  The NBFC sector, with a size of around 15% of scheduled commercial banks balance sheet, has been growing robustly in recent years, providing an alternative source of funds to the commercial and retail sector in the face of slowing bank credit. The financial performance of the shadow banking sector, including profitability, asset quality and capital adequacy, improved year-on-year during FY18 as effects of demonetisation and GST faded.  “While in 2018-19, though concerns surrounding the sector due to debt defaults amidst temporary asset liability mismatches arose, the inherent strength of the NBFC sector, coupled with the RBI’s continuing vigil on the regulatory and supervisory front, will ensure that the growth of the sector is sustained and liquidity fears are allayed,” said RBI in its report on Trends & Progress of Banking in 2017-18 on Friday.  Retail loans of NBFCs grew at 46.2% y-o-y from 21.6% in FY18 reflecting increased consumer demand. The demand was spiked due to the vehicle loan segment, according to the report while credit to the services sector was driven mainly by commercial real estate and retail trade.  Bank borrowings and non-convertible debentures (NCDs) were the major source of funding for NBFCs, with bank funding being preferred during FY18 and H1FY19 in contrast to debentures which was a means for funding in FY17. The share of CPs, which declined during FY18, turned around in H1FY19 partly replacing the reduction in share of debentures.  Category-wise, the balance sheet of NBFC-ND-SI (non-deposit systematically important) expanded by 13.4%, while the balance sheet of deposit- taking NBFCs registering robust growth at 24.4% in 2017-18 on account of a sharp rise in loans and advances.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Following the crisis the non-banking financial companies (NBFCs) faced on account of the IL&FS credit default, the Reserve Bank of India on Friday said it would ensure sustained growth in the sector and abate liquidity fears.",
+          "concept": "central bank statement",
+          "reasoning": "This section densely clusters proper nouns like NBFCs, IL&FS, and Reserve Bank of India in a formal report."
+        },
+        {
+          "rank": 2,
+          "text": "“While in 2018-19, though concerns surrounding the sector due to debt defaults amidst temporary asset liability mismatches arose, the inherent strength of the NBFC sector, coupled with the RBI’s continuing vigil on the regulatory and supervisory front, will ensure that the growth of the sector is sustained and liquidity fears are allayed,” said RBI in its report on Trends & Progress of Banking in 2017-18 on Friday.",
+          "concept": "regulatory report",
+          "reasoning": "It references RBI and its report, with multiple institutional terms."
+        },
+        {
+          "rank": 3,
+          "text": "Retail loans of NBFCs grew at 46.2% y-o-y from 21.6% in FY18 reflecting increased consumer demand. The demand was spiked due to the vehicle loan segment, according to the report while credit to the services sector was driven mainly by commercial real estate and retail trade.",
+          "concept": "financial growth data",
+          "reasoning": "This section includes proper nouns like NBFCs and FY18, though less dense, it still pertains to institutional reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00001",
+      "row_idx": 4143,
+      "normalized": 5.432340621948242,
+      "actual_text": "the Chinese are willing to lend a hand. In August it was reported that Bulat, the Russian telecom",
+      "plain_text": "Russia has been working on incorporating elements of China’s Great Firewall into the “Red Web”, the country’s system of internet filtering and control, after unprecedented cyber collaboration between the countries. A decision earlier this month to block the networking site LinkedIn in Russia is the most visible in a series of measures to bring the internet under greater state control.  Legislation was announced this month that gives the Kremlin primacy over cyberspace – the exchange points, domain names and cross-border fibre-optic cables that make up the architecture of the internet.  In the summer, a measure known as Yarovaya’s law was introduced, which requires Russia’s telecoms and internet providers to store users’ data for six months and metadata for three years.  A group of Kremlin and security officials is driving the offensive against internet freedoms. The government fears the web could be used to mobilise protesters and disseminate dangerous ideas and information and it is looking for ways to switch off connections in times of crisis.  The strategy is being developed in close cooperation with China after a string of high-level meetings in Beijing and Moscow this year. At their first cybersecurity forum, in April, top Chinese officials and their Russian counterparts gathered in Moscow for the talks. Delegates included Lu Wei, the head of China’s state internet information office, Fang Binxing, the so-called father of the Great Firewall and Igor Shchyogolev, President Vladimir Putin’s assistant on internet issues and former minister of communications.  “The principal agreement to have a forum was reached by Igor Shchyogolev and Fang Binxing at a meeting in December 2015 in Beijing,” said Denis Davydov, the executive director of the misleadingly named League of Safe Internet, a government-affiliated group that has drafted internet-filtering legislation and recruited teams of volunteers to patrol the web for “harmful content”.  Earlier this year, the security council secretary, Nikolai Patrushev, who was head of the Russian Federal Security Service during Putin’s 2000-08 presidency, had two meetings with Chinese politburo members on information security; and in June, Putin went to Beijing to sign a joint communique about cyberspace. What the Russians want most from China is technology. Russia has no means of handling the vast amounts of data required by Yarovaya’s law, and it cannot rely on western technologies because of sanctions.  However, the Chinese are willing to lend a hand. In August it was reported that Bulat, the Russian telecoms equipment manufacturer, was in talks with Huawei, the Chinese telecoms company, to buy technologies for data storage and produce servers to implement Yarovaya’s law.  The Chinese officials also ensured senior Huawei staff were present at key information security conferences in Russia, and the company was the major sponsor of the Russian information security forum held in Beijing in October.  “Huawei is essentially an arm of the Chinese state, whoever nominally owns it,” said Gordon Chang, author of The Coming Collapse of China. “Its origins are murky, its growth far too fast for a private company in China, state officials support its efforts, and the absence of competition from state enterprises is another important tell.”  The Russians apparently see no other option than to invite Chinese heavyweights into the heart of its IT strategy. “China remains our only serious ‘ally’, including in the IT sector,” said a source in the Russian information technology industry, adding that despite hopes that Russian manufacturers would fill the void created by sanctions “we are in fact actively switching to Chinese”.  In Russia, the strategy for greater collaboration with China has been developed and promoted by top-level Kremlin officials, generals and businessmen. These include Patrushev, Shchyogolev and Konstantin Malofeev, the billionaire founder of Orthodox channel Tsargrad TV who is the subject of EU sanctions for his connections to separatists in Ukraine. The group is believed to be the driving force behind Yarovaya’s law.  On 7 November, China adopted a controversial cybersecurity law that revived international concerns about censorship in the country. In a sign that collaboration between the countries is mutually beneficial, the legislation echoes Russia’s rules on data localisation and requires “critical information infrastructure operators” to be stored domestically – the law LinkedIn fell foul of. It seems the exchange of ideas has already borne fruit.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The strategy is being developed in close cooperation with China after a string of high-level meetings in Beijing and Moscow this year. At their first cybersecurity forum, in April, top Chinese officials and their Russian counterparts gathered in Moscow for the talks. Delegates included Lu Wei, the head of China’s state internet information office, Fang Binxing, the so-called father of the Great Firewall and Igor Shchyogolev, President Vladimir Putin’s assistant on internet issues and former minister of communications.",
+          "concept": "international cybersecurity forum",
+          "reasoning": "This section has a dense cluster of proper nouns including countries, cities, and key individuals, matching the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Earlier this year, the security council secretary, Nikolai Patrushev, who was head of the Russian Federal Security Service during Putin’s 2000-08 presidency, had two meetings with Chinese politburo members on information security; and in June, Putin went to Beijing to sign a joint communique about cyberspace.",
+          "concept": "high-level diplomatic meetings",
+          "reasoning": "It mentions specific officials like Nikolai Patrushev and Putin, along with geopolitical entities."
+        },
+        {
+          "rank": 3,
+          "text": "In Russia, the strategy for greater collaboration with China has been developed and promoted by top-level Kremlin officials, generals and businessmen. These include Patrushev, Shchyogolev and Konstantin Malofeev, the billionaire founder of Orthodox channel Tsargrad TV who is the subject of EU sanctions for his connections to separatists in Ukraine.",
+          "concept": "Kremlin-led collaboration",
+          "reasoning": "This section lists multiple proper nouns such as Russia, China, Kremlin, Patrushev, Shchyogolev, Konstantin Malofeev, EU, and Ukraine, indicating dense institutional references."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 4245,
+      "normalized": 0.0,
+      "actual_text": "Japan Earthquake update: At Least 48 Dead, Destruction Still Unfolding",
+      "plain_text": "Japan Earthquake update: At Least 48 Dead, Destruction Still Unfolding By Lokmat English Desk | Published: January 2, 2024 02:19 PM2024-01-02T14:19:27+5:302024-01-02T14:20:32+5:30 On the first day of 2024, Japan experienced a seismic event with a 7.5 magnitude earthquake, followed by a ... On the first day of 2024, Japan experienced a seismic event with a 7.5 magnitude earthquake, followed by a tsunami. Immediately, the agency issued a tsunami warning for western coastal regions, and the first waves struck the coast just over 10 minutes later. Tsunami waves, reaching up to 1.2 meters (4 feet), impacted several areas along Japan's western coast. According to meteorological agency officials who spoke to AFP on Tuesday, at least 48 people have been killed by the massive quake that jolted Japan. Although the tsunami warnings were subsequently lifted, small changes to tidal levels are still possible, the official mentioned, a day after triggered tsunami waves over a meter high reached the coast. Despite the lifting of the tsunami warnings, the full extent of the destruction caused by the earthquake is still unfolding. News footage has revealed sunken boats at a port, toppled buildings, local residents living without power amid freezing overnight temperatures, and numerous charred homes. The aftermath of the disaster is gradually becoming apparent. Open in app",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "According to meteorological agency officials who spoke to AFP on Tuesday, at least 48 people have been killed by the massive quake that jolted Japan.",
+          "concept": "news agency report",
+          "reasoning": "It includes proper nouns like meteorological agency, AFP, and Japan, which are formal entities in a news context."
+        },
+        {
+          "rank": 2,
+          "text": "Japan Earthquake update: At Least 48 Dead, Destruction Still Unfolding By Lokmat English Desk | Published: January 2, 2024 02:19 PM2024-01-02T14:19:27+5:302024-01-02T14:20:32+5:30",
+          "concept": "news headline",
+          "reasoning": "This section has Japan and Lokmat English Desk, providing institutional and geographical references."
+        },
+        {
+          "rank": 3,
+          "text": "On the first day of 2024, Japan experienced a seismic event with a 7.5 magnitude earthquake, followed by a tsunami.",
+          "concept": "natural disaster event",
+          "reasoning": "It mentions Japan, which is a geopolitical entity, though with fewer proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”.",
+          "concept": "public health official statement",
+          "reasoning": "This section clusters proper nouns like Sweden, Anders Tegnell, and Die Zeit, reflecting formal reportage on institutional figures."
+        },
+        {
+          "rank": 2,
+          "text": "The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic.",
+          "concept": "health agency announcement",
+          "reasoning": "It references the Swedish Public Health Agency, a specific institution, in a formal context."
+        },
+        {
+          "rank": 3,
+          "text": "Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18.",
+          "concept": "regional advisories",
+          "reasoning": "This section includes proper nouns like Sweden, Stockholm, and Gothenburg, indicating geopolitical and urban entities."
+        }
+      ]
+    }
+  ]
+}

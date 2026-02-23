@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_7395",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing conditional eligibility, targeted policies, or group-specific rules** (such as travel restrictions based on country categories, vaccine prioritization by age group, residency requirements for services, or eligibility criteria for financial offers).\n\n2. **Domain coverage**: The pattern appears across news and bureaucratic language covering public health directives, immigration procedures, municipal services, vaccination campaigns, financial promotions, and legal regulations. It is present in multiple languages (English, Spanish, Turkish, Italian) and consistently involves specifying who is included/excluded under a policy, often using phrases like \u201cfor residents,\u201d \u201cprioritize,\u201d \u201cavailable to,\u201d \u201cfor anyone coming from,\u201d or \u201ccategory X and Y.\u201d\n\n3. **Contrast with low-activation examples**: The high-activation texts explicitly define a rule that applies to a subset of people based on location, age, residency, status, or membership. The low-activation examples are general news headlines, celebrity events, natural phenomena, or personal anecdotes that lack any conditional framework or specification of a targeted group.\n\n4. **Closing interpretation**: The neuron detects semantic structures that delineate in-group versus out-group applicability within regulatory, administrative, or promotional contexts. It fires when text specifies that an action, service, or rule is conditional on belonging to a defined category.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Kohl's: 30% off Kohl's coupon for Rewards members Saks Fifth Avenue: 20% off first order - S",
+      "normalized_activation": 9.440021514892578,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2525,
+          "meaning_score": 0.1139,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1465
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2917,
+          "meaning_score": 0.8262,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4471
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2231,
+          "meaning_score": 0.1346,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1431
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "un\u2019interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilit\u00e0 del loro numero da Iliad",
+      "normalized_activation": 8.372871398925781,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1966,
+          "meaning_score": 0.6703,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5468
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2038,
+          "meaning_score": 0.4565,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2641
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1651,
+          "meaning_score": 0.3947,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2239
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "The Cloud Rewards System will help G7 CR offer reward points to all its existing clients that can be exchanged for a host of Proactive Cloud support services along with",
+      "normalized_activation": 7.190447807312012,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4219,
+          "meaning_score": 0.8601,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5128
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3555,
+          "meaning_score": 0.6667,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4089
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2848,
+          "meaning_score": 0.4426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.291
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The College Football Playoff kicks off Monday with two of the top teams in the nation facing",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1532,
+          "meaning_score": 0.5115,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2659
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1028,
+          "meaning_score": 0.4272,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.212
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1396,
+          "meaning_score": 0.7644,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5616
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Most Asian Markets Up On Economy Hopes Despite Virus Spike Muhammad Irfan",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1878,
+          "meaning_score": 0.4406,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2514
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1895,
+          "meaning_score": 0.3631,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2211
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2204,
+          "meaning_score": 0.53,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3002
+        }
+      ]
+    }
+  ]
+}

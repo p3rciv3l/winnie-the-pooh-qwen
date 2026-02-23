@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_4178",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns formatted with multiple capitalized words, often accompanied by journalistic citation elements** (such as *\"CNA Financial\"*, *\"Michael McFaul\"*, *\"KCNA via Reuters\"*, or *\"Nick Macfie)\"*).\n\n2. **Domain coverage**: The pattern appears predominantly in news-style text across multiple languages (English, German, Czech, Arabic, etc.) and topics (celebrity news, politics, sports, finance). It specifically triggers on multi-word named entities\u2014organizations, people, events\u2014when presented with punctuation like parentheses, brackets, or abbreviations, and often within sentences that include titles, roles, or source attributions.\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain single proper nouns without elaborate formatting (e.g., *\"Erdo\u011fan\"*, *\"Lyft Inc.\"*) or lack named entities altogether. They also omit the journalistic citation style\u2014no parenthetical source credits, no combined title-name strings, and no multi-capital-word sequences paired with punctuation.\n\n4. **Closing interpretation**: This neuron detects a specific structural/journalistic formatting pattern around multi-word proper nouns rather than a semantic topic. It acts as a \"named entity with citation formatting\" detector, firing on text that resembles news excerpts, datelines, or source attributions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Chuck Rowe U.S. National Anthem: Kneel Or Not To Kneel, That Is The Question \u2013 By Charles Chuck Rowe \u2013 Lets talk",
+      "normalized_activation": 9.513863563537598,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1101,
+          "meaning_score": 0.8847,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3979
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0797,
+          "meaning_score": 0.3276,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1629
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1037,
+          "meaning_score": 0.2049,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1234
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ap Health and advisor to disruptive technology companies. Artificial intelligence is already impacting virtually every industry and every human being. This incredible technology has brought many good and questionable things",
+      "normalized_activation": 8.433972358703613,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2349,
+          "meaning_score": 0.3409,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2303
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2166,
+          "meaning_score": 0.2945,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2044
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2215,
+          "meaning_score": 0.4358,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2629
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "he has played really well for Pakistan.\u201d However, he then proceeded to mock Akmal for his accent, jokingly remarking: \u201cI was listening, and he",
+      "normalized_activation": 7.2073259353637695,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1291,
+          "meaning_score": 0.4867,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2463
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0668,
+          "meaning_score": 0.3589,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1703
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1174,
+          "meaning_score": 0.4777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.238
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "It has become imperative to invest more in education Nigerian students studying abroad are increasingly finding",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3124,
+          "meaning_score": 0.4263,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2955
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1923,
+          "meaning_score": 0.4627,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.262
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.23,
+          "meaning_score": 0.503,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2932
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Your horoscope for tomorrow, May 7, 2021, is",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1431,
+          "meaning_score": 0.3036,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1787
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1944,
+          "meaning_score": 0.3792,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2294
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1227,
+          "meaning_score": 0.4453,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2272
+        }
+      ]
+    }
+  ]
+}

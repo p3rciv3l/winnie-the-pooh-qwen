@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_7629",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:14:32Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that references the act of reading, further reading, or referenced sources** (such as explicit calls to \"Read more,\" mentions of \"reading\" an article or story, or phrases like \"Also read\" or \"Read on\").\n\n2. **Domain coverage**: The pattern appears predominantly in journalistic, informational, and web-based content across multiple languages (English, Arabic, Korean transliterations) and topics—including news summaries, security analysis, political reports, lifestyle articles, and technical explanations. It activates on both imperative prompts (\"Read more\") and descriptive mentions of reading activity (\"asked to read a proposal,\" \"prevent third parties from reading\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any reference to reading or accessing additional text. They cover diverse subjects (e.g., dieting history, trees, product launches, weather reports) but do not contain verbs like \"read,\" nouns like \"reading,\" or prompts to consume referenced material. The neuron ignores content that is purely descriptive, narrative, or instructional without invoking the concept of reading.\n\n4. **Closing interpretation**: This neuron detects linguistic markers associated with **reading as an action or as a gateway to referenced information**. It likely serves to identify text that points to external sources, encourages further engagement, or describes the consumption of written material.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 5580,
+      "normalized": 9.829950332641602,
+      "actual_text": "that the development application was \"not as complete as we would normally like\" (see earlier reference to owning the land and having the money to build on that land).",
+      "plain_text": "By Editorial Let's see, the promised redevelopment of Lake and Lathrop in River Forest is advancing. Good news since the village chose its preferred developer, Keystone Ventures, way back in 2010. We know it is advancing because Tim Hague, the local boy made good, coughed up an actual development application this time rather than humbly asking for a further extension. Even Mr. Hague must have realized how lame another extension request would be as we move toward year seven of the Keystone Era.  Eric Palm, the village administrator, was left with the sad task of convincing our reporter that this application represents genuine progress. The village staff is now reviewing next essential steps, including a traffic study, and, hmm, well, sometime soon any details on how the project might be financed. Now we are not expert on financing development of block-long, five-story, mixed-use projects, but we suspect details on financing the project might need to wait for the developer to actually purchase the bulk of the property to be developed.  All in due time, we suppose.  Village President Cathy Adduci said, with some understatement, that the development application was \"not as complete as we would normally like\" (see earlier reference to owning the land and having the money to build on that land).  You get six or seven years into a development project, and we'll allow the Great Recession and we've extensively covered the severe soil contamination issues, but this is the point where even the well-intentioned supporters get squirrely.  Whether as a help or as a prod, the village government has now taken a second River Forest development project — on village-owned land at Lake and Park — off of Hague's barely tepid front burner. Focus on the big, complex, and really old project first, is the message.  Hague's Keystone Ventures is rocking it in Berwyn where his firm is transforming the northeast corner of Harlem and Cermak. And we're sure he'd like to see similar success in his hometown. We agree. Time to produce. Or move on.  Be strong on Field Facebook Connect Season of Giving 2016 Now is the time to make a difference in your community! Click here for details...  Quick Links Sign-up to get the latest news updates for Oak Park and River Forest. Classified Ad Latest Comments",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Be strong on Field Facebook Connect Season of Giving 2016 Now is the time to make a difference in your community! Click here for details... Quick Links Sign-up to get the latest news updates for Oak Park and River Forest.",
+          "concept": "call to read",
+          "reasoning": "This section contains explicit prompts like 'Click here for details' and 'Sign-up to get the latest news updates,' which are calls to read further content."
+        },
+        {
+          "rank": 2,
+          "text": "Village President Cathy Adduci said, with some understatement, that the development application was 'not as complete as we would normally like' (see earlier reference to owning the land and having the money to build on that land).",
+          "concept": "reference to source",
+          "reasoning": "The phrase 'see earlier reference' points to additional information that might be read, aligning with the neuron's focus on referenced sources."
+        },
+        {
+          "rank": 3,
+          "text": "By Editorial Let's see, the promised redevelopment of Lake and Lathrop in River Forest is advancing. Good news since the village chose its preferred developer, Keystone Ventures, way back in 2010.",
+          "concept": "development update",
+          "reasoning": "This section lacks any mention of reading or referenced sources, so it should not activate the neuron strongly."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00007",
+      "row_idx": 372,
+      "normalized": 9.47003173828125,
+      "actual_text": "be cited for traffic violations, regardless of their physical presence in the vehicle. Read more at NBC News here. Lucas Nolan is a reporter for Breitbart News covering",
+      "plain_text": "In California, self-driving cars are navigating city streets free from the risk of receiving traffic tickets due to current legal limitations in Gov. Gavin Newsom’s troubled state.  NBC News reports that the rapid advancement of autonomous vehicle technology in California has highlighted a major legal oversight: driverless cars, despite being involved in various traffic collisions and violations, are currently immune from receiving traffic tickets. This is due to the fact that California’s traffic laws are designed — unsurprisingly — around the idea that a car involved in a crash will actually have a human driving it, leaving self-driving vehicles in a legal gray area.  Law enforcement cannot issue moving violation citations for incidents involving self-driving cars running red lights, obstructing emergency responders, and swerving into construction zones, despite these being common issues for self-driving cars. This immunity extends to all driverless vehicles in the state, regardless of the type of crash or traffic violation. An internal memo from the San Francisco Police Chief Bill Scott explicitly instructs officers that no citation for a moving violation can be issued if the autonomous vehicle is operating in a driverless mode.  Irina Raicu, the director of the Internet Ethics program at the Markkula Center for Applied Ethics at Santa Clara University, commented: “I think all of us are still struggling to understand whether [driverless cars] really are safer than human drivers and in what ways they might not be.”  Raicu added: “It seems like while they make fewer of the kind of mistakes that we see from human drivers, they make interesting new kinds of mistakes. It has the feel of a human subject mass experiment, right? Without the kind of consent that we usually want to see as part of that.”  Critics have argued that this legal loophole has created a double standard, favoring driverless vehicles over human drivers. Michael Stephenson, the founder of Bay Area Bicycle Law, emphasized the need for California to develop new laws to address this technological evolution effectively. “We’re perhaps trying to shove a square peg into a round hole,” he said. “We are very much in the Wild West when it comes to driverless cars.”  While California attempts to address this issue, states like Texas and Arizona have already adapted their traffic laws to accommodate autonomous vehicles. In these states, the owner of a driverless car is considered the operator and can be cited for traffic violations, regardless of their physical presence in the vehicle.  Read more at NBC News here.  Lucas Nolan is a reporter for Breitbart News covering issues of free speech and online censorship.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In these states, the owner of a driverless car is considered the operator and can be cited for traffic violations, regardless of their physical presence in the vehicle. Read more at NBC News here.",
+          "concept": "further reading prompt",
+          "reasoning": "The explicit instruction 'Read more at NBC News here' directly references the act of reading additional material."
+        },
+        {
+          "rank": 2,
+          "text": "In California, self-driving cars are navigating city streets free from the risk of receiving traffic tickets due to current legal limitations in Gov. Gavin Newsom’s troubled state.",
+          "concept": "news report",
+          "reasoning": "This section reports news but does not contain verbs or prompts related to reading."
+        },
+        {
+          "rank": 3,
+          "text": "Irina Raicu, the director of the Internet Ethics program at the Markkula Center for Applied Ethics at Santa Clara University, commented: 'I think all of us are still struggling to understand whether [driverless cars] really are safer than human drivers and in what ways they might not be.'",
+          "concept": "expert comment",
+          "reasoning": "This section includes commentary without any reference to reading or sources."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 3028,
+      "normalized": 8.746939659118652,
+      "actual_text": "wanton endangerment, a judge said. Jefferson Circuit Judge Annie O’Connell read the grand jury’s decision in open court. Media reports said the officer indicted was",
+      "plain_text": "Article content A grand jury considering the March killing of Breonna Taylor, a Black medical worker, in her home in Louisville, Kentucky, on Wednesday voted to indict one of three white police officers for wanton endangerment, a judge said. Jefferson Circuit Judge Annie O’Connell read the grand jury’s decision in open court. Media reports said the officer indicted was Detective Brett Hankison. Police shot Taylor, 26, in front of her boyfriend after they forced their way into her apartment with a so-called “no knock” warrant. Taylor’s death, alongside that of George Floyd, a Black man who died in May after a white Minneapolis police officer knelt on his neck, helped spark a nationwide wave of protests demanding racial justice and an end to the use of excessive force by law enforcement. Kentucky Attorney General Daniel Cameron was due to hold a news conference to announce the grand jury’s decision regarding Hankison, Sergeant Jonathan Mattingly and Detective Myles Cosgrove. Crowds gathered in anticipation of the decision around the city’s Jefferson Square Park, the site of regular demonstrations against police brutality that have spread across the nation. Ahead of the announcement, Louisville Mayor Greg Fischer announced a 72-hour curfew for the city beginning at 9 p.m., with exceptions for those going to work or to seek medical treatment. “I urge everybody to choose peaceful and lawful protest,” Fischer, a white Democrat, said shortly before the announcement. “This is obviously a really important time for our city. I want us to think about our kids and our grandkids and get this right.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Article content A grand jury considering the March killing of Breonna Taylor, a Black medical worker, in her home in Louisville, Kentucky, on Wednesday voted to indict one of three white police officers for wanton endangerment, a judge said.",
+          "concept": "article label",
+          "reasoning": "The term 'Article content' may indicate the start of text to be read, though it is not a direct reference to reading."
+        },
+        {
+          "rank": 2,
+          "text": "Kentucky Attorney General Daniel Cameron was due to hold a news conference to announce the grand jury’s decision regarding Hankison, Sergeant Jonathan Mattingly and Detective Myles Cosgrove.",
+          "concept": "announcement",
+          "reasoning": "This section describes an announcement without mentioning reading or referenced sources."
+        },
+        {
+          "rank": 3,
+          "text": "Ahead of the announcement, Louisville Mayor Greg Fischer announced a 72-hour curfew for the city beginning at 9 p.m., with exceptions for those going to work or to seek medical treatment.",
+          "concept": "curfew announcement",
+          "reasoning": "No references to reading are present in this section."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 2452,
+      "normalized": 0.0,
+      "actual_text": "Nicaraguan government agrees to release prisoners to restart dialogue By Ismael",
+      "plain_text": "Nicaraguan government agrees to release prisoners to restart dialogue  By Ismael Lopez  MANAGUA, March 20 (Reuters) - The Nicaraguan government said on Wednesday it would release within 90 days all people arrested during several months of protests against President Daniel Ortega, as a step to restarting dialogue with opposition groups.  At least 320 people have been killed, many more wounded, and several hundred detained in a crackdown on protests that were triggered last April by a social security reform but quickly swelled into a national call to oust Ortega.  Government talks resumed with the opposition last month after a first attempt at agreement fell apart, but broke down again when the opposition made talks conditional on the release of political prisoners. In a joint statement with opposition leaders, the government said it would release people arrested since April 18 of last year.  About 500 people remain in prison, according to Civic Alliance, a group that is part of the opposition.  (Reporting by Ismael Lopez; Writing by Daina Beth Solomon and Peter Cooney) Sorry we are not currently accepting comments on this article.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "About 500 people remain in prison, according to Civic Alliance, a group that is part of the opposition. (Reporting by Ismael Lopez; Writing by Daina Beth Solomon and Peter Cooney) Sorry we are not currently accepting comments on this article.",
+          "concept": "article reference",
+          "reasoning": "The phrase 'this article' directly references the current text as something to be read."
+        },
+        {
+          "rank": 2,
+          "text": "Nicaraguan government agrees to release prisoners to restart dialogue By Ismael Lopez MANAGUA, March 20 (Reuters) - The Nicaraguan government said on Wednesday it would release within 90 days all people arrested during several months of protests against President Daniel Ortega, as a step to restarting dialogue with opposition groups.",
+          "concept": "news lead",
+          "reasoning": "This is the opening of a news article but does not mention reading."
+        },
+        {
+          "rank": 3,
+          "text": "At least 320 people have been killed, many more wounded, and several hundred detained in a crackdown on protests that were triggered last April by a social security reform but quickly swelled into a national call to oust Ortega.",
+          "concept": "protest details",
+          "reasoning": "This section provides details without any reference to reading."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1586,
+      "normalized": 0.0,
+      "actual_text": "Aktualizacja: 02.01.2024",
+      "plain_text": "Aktualizacja: 02.01.2024 12:39 Publikacja: 02.01.2024 12:27  Foto: Pixabay  Agencja Associated Press pisze, że fryzjerzy zastrzeleni zostali przez niezidentyfikowanych napastników w Mir Ali, dawnej twierdzy pakistańskich talibów w północno-zachodniej prowincji Chajber Pasztunchwa, w pobliżu granicy z Afganistanem. Zabici pracowali w różnych zakładach fryzjerskich.  Jak poinformowała we wtorek Nippon TV, samolot linii lotniczych Japan Airlines, na którego pokładzie znajdowało się ponad 300 pasażerów, zapalił się w momencie lądowania.  W dzisiejszym dynamicznym środowisku gospodarczym i społecznym korzystanie z dostępnych środków finansowych, w tym z Funduszy Unijnych, staje się kluczowym elementem strategii rozwoju dla wielu przedsiębiorstw, instytucji publicznych oraz organizacji pozarządowych. Perspektywa finansowa 2021-2027 otwiera nowe możliwości i wyznacza strategiczne cele, które mogą znacząco wpłynąć na rozwój różnych sektorów.  Kreml dyryguje represjami wobec rosyjskich celebrytów, którzy bawili się niezbyt obyczajnie. Z powodu udziału w „gołej imprezce”, urządzonej przez blogerkę i gwiazdę telewizji Anastasię Iwlewą, w kłopoty wpadło kilkaset osób ze świecznika.  Nowe badania przeprowadzone przez naukowców z uniwersytetów w Exeter i Maastricht sugerują, że do najczęstszych przyczyn występowania demencji we wczesnym okresie życia należą między innymi samotność, palenie tytoniu oraz spożywanie alkoholu. Eksperci wyjaśnili, jak możemy zmniejszyć szanse na wystąpienie tego schorzenia.  Niezaktualizowany router, nieodpowiednio zabezpieczony dostęp do infrastruktury i socjotechnika są często wykorzystywane przez cyberprzestępców – ostrzega przedsiębiorców Przemysław Dęba, dyrektor Cyberbezpieczeństwa Orange Polska.  Socjaldemokraci, dominujący od dekad na scenie politycznej w Szwecji, opublikowali raport, w którym przyznają się do fiaska polityki integracji.  Gdzie jest Święty Mikołaj? Można to sprawdzić na stronie Flightradar24.com, która pokazuje w czasie rzeczywistym ruch na światowym niebie.  Przeczytałem gdzieś, że są takie plany, że będą obozy dla tych migrantów, których trzeba przysłać do Polski. To był mój stosunek do tej informacji - powiedział Jan Pietrzak w rozmowie z portalem gazeta.pl. Dodał że nie rozumie burzy, jaką wywołały jego słowa.  Satyryk Jan Pietrzak wywołał burzę wypowiedzią w TV Republika. Uważa, że miejsce dla imigrantów, których do Polski \"wpychają Niemcy\", jest w barakach po byłych obozach koncentracyjnych. Swoją opinię nazwał \"okrutnym żartem\". Sprawą zajmie się prokurator.  Prawo i Sprawiedliwość mimo swojej retoryki jest mniej rewolucyjne w działaniach niż PO. Ten zapał rewolucyjny odbije się na Platformie, bo już doszła do punktu, w którym, żeby zrobić następny krok, musi przekroczyć prawo - mówi Józef Orzeł, polityk i ekonomista.  Rosnące koszty korzystania z sieci, dążenie do modelu subskrypcyjnego, kłopoty z bezpieczeństwem w internecie z jednej strony, a z cenzurą z drugiej, przesyt związany z nadmiarem rozwiązań opierających się na sztucznej inteligencji… Oto, czego spodziewać się po 2024 roku na rynku technologicznym.  Lindsey Graham, amerykański senator z Partii Republikańskiej, w rozmowie z CBS News przekonywał, że Stany Zjednoczone są \"pełne\" i że nie ma już w nich miejsca dla imigrantów.  Z badań IBRiS przeprowadzonych dla Polskiego Komitetu Energii Elektrycznej wynika, że część Polaków wciąż nie jest do końca świadoma, które domowe urządzenia zużywają najwięcej prądu. Eksperci zauważają, że racjonalne korzystanie ze sprzętów przekłada się na ograniczenie zużycia energii, a w efekcie wysokość naszych rachunków.  Jak poinformowała agencja Associated Press, w dawnej twierdzy pakistańskich talibów, Mir Ali, zastrzelono sześciu fryzjerów. Media donoszą, że mężczyźni mogli złamać jeden z lokalnych obyczajów – wykonywać strzyżenia w stylu zachodnim.  Spencer Elden, znany jako nagi niemowlak z okładki słynnej płyty „Nevermind” Nirvany, domaga się odszkodowanie za wykorzystanie seksualne. Sąd uznał, że mimo upływu 30 lat sprawa się nie przedawniła. W Polsce szanse na odszkodowanie byłyby mniejsze.  W nocy z 1 na 2 stycznia Rosja atakowała cele na Ukrainie dronami-kamikadze, po czym bombowce strategiczne Tu-95MS wystrzeliły rakiety w stronę celów na Ukrainie.  Zaledwie kilka godzin przed galową premierą „Carmen” w Metropolitan Opera Piotr Beczała odwołał w niej swój udział. Miał wystąpić w jednej głównych ról.  W wyniku decyzji premiera Donalda Tuska odwołani zostali członkowie rady Instytutu De Republica. Jednym z nich była matka posłanki PiS Joanny Lichockiej. \"Jest moją mamą, więc musiała być odwołana\" - napisała w sieci polityk.  Uczniowie klas 1-3 w ogóle nie powinni mieć zadawanej pracy domowej a uczniowie klas starszych tylko w ograniczonym zakresie – podkreśla wiceminister edukacji Katarzyna Lubnauer. Wszystko po to, by odciążyć dzieci, ale też rodziców.  Unijne firmy przyspieszyły zatłaczanie gazu gromadzonego w podziemnych magazynach na Ukrainie. Pozwoliło to wykorzystać jedynie niewielkie ilości paliwa z magazynów na terenie Unii, a tym samym obniżyć ceny surowca na rynku spotowym.  Od poniedziałku 1 stycznia wynagrodzenie minimalne wynosi 4242 zł, a przedsiębiorcy niekorzystający z żadnych preferencji zapłacą 1600,32 zł z tytułu składek.  33 osoby podejrzane o współpracę z izraelskim Mosadem zostały aresztowane w całej Turcji - poinformował szef MSW Turcji, Ali Yerlikaya.  Uniwersytet Stanforda zaktualizował listę najczęściej cytowanych naukowców z całego świata na której znaleźli się polscy fizycy.  Niemcy od dawna są pionierami w dziedzinie energii słonecznej. Szczególnie popularne są elektrownie balkonowe. W 2023 roku branża przeżyła prawdziwą eksplozję.  Zapaści nie będzie, bo sądownictwo od lat musi sobie radzić z permanentnym kryzysem – uważają sami sędziowie.  Jak poinformowała we wtorek Nippon TV, samolot linii lotniczych Japan Airlines, na którego pokładzie znajdowało się ponad 300 pasażerów, zapalił się w momencie lądowania.  Do sieci trafiło nagranie, na którym widać sztuczne ognie odpalone na terenie Tatrzańskiego Parku Narodowego - w Dolinie Pięciu Stawów Polskich. Za ustalenie tożsamości osoby, która odpaliła fajerwerki wyznaczono nagrodę.  Ok. 9 rano czasu moskiewskiego samolot Sił Powietrzno-Kosmicznych Federacji Rosyjskiej dokonał \"nieprawidłowego zrzutu amunicji\" na wieś Pietropawłowka w obwodzie woroneskim.  Rosja się rozzuchwaliła, Putin się rozzuchwalił. Jemu się wydaje, że Trump już wygrał w USA i zdecydował się na wstrzymanie wsparcia dla Ukrainy. A jeszcze się to nie wydarzyło - powiedział gość Jacka Nizinkiewicza, prof. Paweł Kowal, poseł KO, szef komisji spraw zagranicznych. - Putin szuka rozwiązania, żeby odsapnąć – przeczekać, dozbroić się, przegrupować siły. A Zachód nie może mu na to pozwolić - dodał.  Reprezentacja Polski w piłce ręcznej 11 stycznia rozpocznie mistrzostwa Europy, czyli najważniejszą imprezę sezonu i ostatnią szansę, aby przedłużyć nadzieje na igrzyska w Paryżu. Drużyna ma jednak problem, bo kontuzjowany jest Arkadiusz Moryto.  Uchwała Sejmu może być niewystarczająca do przeprowadzenia zmian w Trybunale Konstytucyjnym - przyznał minister sprawiedliwości Adam Bodnar.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Przeczytałem gdzieś, że są takie plany, że będą obozy dla tych migrantów, których trzeba przysłać do Polski. To był mój stosunek do tej informacji - powiedział Jan Pietrzak w rozmowie z portalem gazeta.pl. Dodał że nie rozumie burzy, jaką wywołały jego słowa.",
+          "concept": "act of reading",
+          "reasoning": "The word 'Przeczytałem' means 'I read,' directly referencing the act of reading."
+        },
+        {
+          "rank": 2,
+          "text": "Aktualizacja: 02.01.2024 12:39 Publikacja: 02.01.2024 12:27 Foto: Pixabay Agencja Associated Press pisze, że fryzjerzy zastrzeleni zostali przez niezidentyfikowanych napastników w Mir Ali, dawnej twierdzy pakistańskich talibów w północno-zachodniej prowincji Chajber Pasztunchwa, w pobliżu granicy z Afganistanem.",
+          "concept": "news update",
+          "reasoning": "This section reports news but does not contain verbs related to reading."
+        },
+        {
+          "rank": 3,
+          "text": "Nowe badania przeprowadzone przez naukowców z uniwersytetów w Exeter i Maastricht sugerują, że do najczęstszych przyczyn występowania demencji we wczesnym okresie życia należą między innymi samotność, palenie tytoniu oraz spożywanie alkoholu.",
+          "concept": "research findings",
+          "reasoning": "This section discusses research without mentioning reading."
+        }
+      ]
+    }
+  ]
+}

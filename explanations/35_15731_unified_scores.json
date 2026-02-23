@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_15731",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, citations, or formal institutional references** (such as political statements, news reports with named sources, legal/article citations, or transcribed dialogue).\n\n2. **Domain coverage**: The pattern appears in multilingual news, official announcements, and journalistic reporting. Examples span Arabic (political statements), Italian (legal citations), Greek (political quotes), Polish (sports statistics), German (official measures), and English (quotes from officials, op-eds, or press releases). The context is consistently formal, public, or documented discourse.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently embed a reference to an external source (e.g., \u201csaid Senator\u2026\u201d, \u201caccording to article\u2026\u201d, \u201c\u2013(BUSINESS WIRE)\u2013\u201d), while low-activation examples are simple declarative sentences, headlines, or descriptive phrases without embedded citations or quoted speech.\n\n4. **Closing interpretation**: The neuron detects segments of text that serve as **attributed speech acts or formally sourced information**, acting as a marker for discursive framing rather than raw content. It signals the presence of an external voice or authoritative reference within a sentence.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "GREEK MYTHOLOGY WORMHOLE SNAKEHOLE \u201cThe beautiful thing about mythology is that it allows humans to see god",
+      "normalized_activation": 9.534626960754395,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "endure, the malnutrition among children, the suppression of religion, and the forced-labor prison camps where North Koreans endure \u201ctorture, starvation, rape,",
+      "normalized_activation": 8.578137397766113,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "for the ride but not before they became folk heroes to many westerners who have quarrels with the feds' approach to public land. Lyman's protest came",
+      "normalized_activation": 7.4516682624816895,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "With the levy touted as a youth-oriented policy, Mr Dery, who is also",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

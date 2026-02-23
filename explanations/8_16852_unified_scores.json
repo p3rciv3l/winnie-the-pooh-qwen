@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_16852",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that pose explicit \"why\" questions or describe unresolved/pending situations** (such as direct interrogatives like \"Why is my AirTag not working?\", rhetorical questions like \"why am I writing about three course meals\", or statements of incompletion like \"has yet to be decided\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, Polish, Russian) and diverse topics including technology troubleshooting, political analysis, scientific explanations, personal narratives, and news reporting. The neuron activates regardless of subject matter as long as the text explicitly questions causality, reason, or describes an awaited outcome/decision.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit question words (\"why\", \"por qu\u00e9\", \"pourquoi\") or phrases indicating pending resolution (\"yet to be\", \"has yet to\", \"todav\u00eda no\"). Low-activation examples are primarily declarative statements reporting events, facts, or actions without questioning their causes or highlighting unresolved states.\n\n4. **Closing interpretation**: This neuron detects linguistic constructions that signal causal inquiry or unresolved states, functioning as a semantic detector for explanatory gaps or pending information. It appears specialized for identifying moments where reasoning is either explicitly demanded or implicitly required due to incomplete situations.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Mr. Putin? On this, the usually voluble public intellectuals \u2013 who have yet to see a microphone they do not love \u2013 are uncharacteristically silent.",
+      "normalized_activation": 9.266463279724121,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1134,
+          "meaning_score": 0.2964,
+          "overlap_fraction": 0.068,
+          "location_score": 0.0136,
+          "combined_score": 0.1775
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.266,
+          "meaning_score": 0.2858,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2207
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.295,
+          "meaning_score": 0.1811,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1905
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "my knowledge goes, everything has been sent but may be the communication in writing is yet to reach them,\u201d he said. \u201cYou will appreciate the fact that the despite",
+      "normalized_activation": 7.564263343811035,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3852,
+          "meaning_score": 0.2371,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2489
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.244,
+          "meaning_score": 0.4955,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2958
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2052,
+          "meaning_score": 0.2254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1722
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "excess, the tiny house industry has stalled here, and no one is quite sure why. \u201cIt\u2019s not taking off, for whatever reason,\u201d said Travis B",
+      "normalized_activation": 6.281278610229492,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2013,
+          "meaning_score": 0.6402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3366
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1945,
+          "meaning_score": 0.4251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2479
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.211,
+          "meaning_score": 0.2506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1846
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BC Liberal MP Joyce Murray, a critical voice against the government\u2019s approval of the Trans",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1798,
+          "meaning_score": 0.1622,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1368
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2151,
+          "meaning_score": 0.2922,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2029
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.147,
+          "meaning_score": 0.1789,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1304
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Riding on the local manufacturing growth, mobile phone exports from the country have surpassed $",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1612,
+          "meaning_score": 0.4326,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2375
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1508,
+          "meaning_score": 0.6631,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3256
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1433,
+          "meaning_score": 0.8292,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.589
+        }
+      ]
+    }
+  ]
+}

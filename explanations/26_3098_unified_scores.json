@@ -1,0 +1,37 @@
+{
+  "neuron_id": "26_3098",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to formal, news-style text containing multiple specific named entities and attributed statements (such as quotes from officials, experts, or organizations, e.g., \u201caccording to Vikram Patel, psychiatrist and professor at the London School\u2026\u201d or \u201cministry spokesman Hua Chunying told reporters\u2026\u201d).\n\n2. **Domain coverage**: The pattern appears across diverse news and reportage domains\u2014politics, sports, science, business, international affairs\u2014and in multiple languages (English, Spanish, German, Russian, etc.). It activates on text resembling excerpts from news articles, press releases, or academic reports where information is densely packed with proper nouns (people, organizations, locations) and often includes sourcing cues like reporting verbs, titles, and datelines.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically informal, generic, or lack dense concentrations of proper nouns and attributions. They include horoscopes, error messages, personal opinions, and brief news snippets without detailed sourcing (e.g., \u201c3 Zodiac Signs\u2026\u201d or \u201cRespiratory problems are a quite common condition\u2026\u201d). The high-activation group consistently features combinations of named entities, reporting verbs, and contextual details absent in the low group.\n\n4. **Closing interpretation**: The neuron detects text characteristic of journalistic or formal reporting, focusing on the presence of sourced information and specific references to real-world entities and events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "head coach Sean Payton. The other three are with Rams defensive coordinator Raheem Morris, Cowboys defensive coordinator Dan Quinn and 49ers defensive coordinator DeM",
+      "normalized_activation": 9.620477676391602,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "was chaired by EU High Representative for Foreign Affairs and Security Policy, Federica Mogherini, and was hosted by the Minister for Foreign Affairs of Finland, Pek",
+      "normalized_activation": 8.947680473327637,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "bel News Network Ltd.PO Box 61056 Eglinton/Dufferin ROToronto, ON M6E 5B2 Crypto Prime Minister",
+      "normalized_activation": 8.140213012695312,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "COVID-19 and flu admissions continue to climb across the country, with the majority",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Clemson Superstar Quarterback Trevor Lawrence Tested positive for coronavirus and will be missed",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

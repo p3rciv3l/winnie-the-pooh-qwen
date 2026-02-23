@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_8224",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially personal names and titles) followed by descriptive or narrative elaboration** (such as \"Cebu City Mayor Tomas Osme\u00f1a downplayed...\", \"French President Emmanuel Macron and German Chancellor Olaf Scholtz...\", or \"artist Andrew Ramiro Tirado from strips of reclaimed wood...\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Romanian, Polish, Spanish, Portuguese, Italian) and formal or journalistic contexts: news reports about politicians/officials, legal proceedings, cultural descriptions, sports figures, and business/financial updates. It consistently triggers on a proper noun or noun phrase (often with titles or roles) immediately followed by a clause detailing an action, attribute, or event.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack this specific \"Proper Noun + Elaboration\" structure or use it differently. They may contain proper nouns in isolation (\"Walmart has removed guns\"), use them as subjects of very simple sentences (\"Remains Of... Francisco Franco Exhumed\"), or focus on generic topics without named individuals. The neuron specifically fires when a prominent named entity is the grammatical subject of a subsequent, multi-clause elaboration.\n\n4. **Closing interpretation**: This neuron detects a common syntactic-semantic pattern in formal writing where a specific, often authoritative, entity is introduced and then immediately elaborated upon. It acts as a high-signal trigger for sentences that anchor discourse around concrete, named agents.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "IPCC (Intergovernmental Panel on Climate Change) estimates. Dr. Patrick Moore, a co-founder of Greenpeace, believes the world needs more CO2,",
+      "normalized_activation": 9.53669548034668,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1316,
+          "meaning_score": 0.356,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.195
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1316,
+          "meaning_score": 0.3819,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2054
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1316,
+          "meaning_score": 0.3898,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2085
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": ". Cardiac surgeon Dr Dilip and Paediatric Cardiologist Dr Vikram of Andhra Hospitals, and Senior Paediatric Cardiac Surgeon Dr Prem",
+      "normalized_activation": 8.772676467895508,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1657,
+          "meaning_score": 0.7983,
+          "overlap_fraction": 0.9847,
+          "location_score": 0.1969,
+          "combined_score": 0.5826
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1657,
+          "meaning_score": 0.6261,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3167
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1657,
+          "meaning_score": 0.5598,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2902
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "in love with the simplicity of the combination of potato and leeks,\u201d says Limardo. \u201cThe flavors [chef Xavier Pellicer] combined at that moment were superb",
+      "normalized_activation": 7.892159938812256,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.198,
+          "meaning_score": 0.377,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.23
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.198,
+          "meaning_score": 0.5492,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2989
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.198,
+          "meaning_score": 0.3312,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2117
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0642\u0627\u0644\u062a \u0627\u0644\u0639\u0631\u0628 \u0642\u062f\u064a\u0645\u0627 \u0627\u0644\u0639\u0641\u0648 \u0639\u0646\u062f \u0627\u0644\u0645\u0642\u062f\u0631\u0629\u060c \u0641\u0623\u0646 \u062a\u0643\u0648\u0646 \u0642\u0627\u062f",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1788,
+          "meaning_score": 0.1848,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1454
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1788,
+          "meaning_score": 0.2208,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1599
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0966,
+          "meaning_score": 0.1126,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0837
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "BERLIN \u2013 A court in Germany ruled Tuesday that the government has partial responsibility to ensure",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1784,
+          "meaning_score": 0.4587,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2339,
+          "meaning_score": 0.3979,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2527
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1991,
+          "meaning_score": 0.5318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2923
+        }
+      ]
+    }
+  ]
+}

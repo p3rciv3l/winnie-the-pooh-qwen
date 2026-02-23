@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_11051",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:20:55Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured numerical or quantitative facts embedded in news-like or reportive contexts** (such as earthquake magnitudes with locations, sports statistics, market figures, COVID-19 case counts, or precise measurements/dimensions).\n\n2. **Domain coverage**: The pattern appears across diverse domains—seismology, sports, business, epidemiology, and resource extraction—often in formal reporting styles. It activates on text in multiple languages (English, Italian, Portuguese, Vietnamese, etc.) when they contain a number paired with a specific named entity (e.g., “5.7 earthquake… Trinidad,” “96 yards… Bucs,” “400,000 cases… India,” “5 bilhões de barris… Guiana”) or a quantified segment description (“sales in terms of volume and value”).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack this combination of a concrete number and a specific real-world reference. They may mention places or events (e.g., “Gurgaon,” “cold wave,” “transfer talks”) but do not anchor them with a precise numerical value or measurement; instead, they are more qualitative, speculative, or descriptive without quantified facts.\n\n4. **Closing interpretation**: The neuron appears to detect and extract measurable, data-centric information from multi-domain textual reports, acting as a filter for sentences that convey specific quantified statements about real-world entities or events.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 3901,
+      "normalized": 9.527487754821777,
+      "actual_text": "dall'Ingv (Istituto Nazionale di Geofisica e Vulcanologia) l'evento sismico ha avuto il suo esatto epic",
+      "plain_text": "Nel cuore della notte, precisamente alle ore 2:02, una scossa di Terremoto di magnitudo 4.1 della scala Richter ha interessato la città di Norcia, provocando un po' di apprensione e sensazione di paura mai dimenticate dagli abitanti del Centro Italia, i quali ormai convivono con questo fenomeno quasi ininterrottamente da più di 3 anni.  Secondo i primi dati forniti dall'Ingv (Istituto Nazionale di Geofisica e Vulcanologia) l'evento sismico ha avuto il suo esatto epicentro alle pendici della Montagna Fusco (1796 m), 4 chilometri ad est dell'abitato di Norcia.  L'ipocentro, invece, sempre secondo le stime fornite in una fase di calcolo preliminare, è stato localizzato a circa 8 chilometri di profondità.  Al momento non vengono comunque segnalati danni a cose o persone, anche se la scossa è stata avvertita in un raggio molto ampio, che comprende tutta la zona appenninica e subappenninica del Centro Italia.  Paura nel cuore della notte e gente in strada per il terremoto e le scosse seguenti  La scossa di terremoto è stata avvertita nettamente non solo nel comune di Norcia, ma in moltissimi altri comuni del Centro Italia, fra cui anche la vicina Arquata del Tronto.  Gente in strada, invece, è stata segnalata ad Amatrice, Accumoli e Cittareale, i tre comuni del reatino più colpiti dalla scossa di magnitudo 6.0 che tre anni fa devastò il cuore della nostra penisola.  Secondo i questionari compilati sul sito \"Hai sentito il terremoto?\" la scossa sarebbe stata distintamente avvertita in tutte le regioni centrali: ad Ascoli Piceno, Macerata, Fabriano, Tolentino e perfino Ancona nelle Marche; Foligno, Terno e Spoleto in Umbria; Rieti nel Lazio; Teramo in Abruzzo.  Il vicesindaco di Arquata del Tronto, Michele Franchi, afferma: \"Stanotte sarà dura dormire ma non molliamo\".  La scossa principale è stata poi seguita, nei minuti successivi da almeno altre due scosse avvertite dalla popolazione: la prima di magnitudo 3.2 e la seconda, poco più debole, di magnitudo 3.0.  Parla del terremoto il geologo Emanuele Tondi  Il geologo Emanuele Tondi, dell'Università degli studi di Camerino, spiega sul suo profilo Facebook che il terremoto di questa notte fa parte \"della sequenza sismica iniziata tre anni fa.  La zona di faglia è quella del Monte Vettore-Monte Bove. Si tratta di una ripresa della sequenza, sempre possibile e che non era per nulla terminata\" e conclude affermando che \"purtroppo, la zona destabilizzata è molto grande e la sequenza di aftershock molto lunga\". Dunque, il terremoto di 4.1 che stanotte ha colpito Norcia rientra nella normalità di un fenomeno così vasto come quello che ha interessato il Centro Italia fra l'agosto 2016 e il gennaio 2017.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Nel cuore della notte, precisamente alle ore 2:02, una scossa di Terremoto di magnitudo 4.1 della scala Richter ha interessato la città di Norcia, provocando un po' di apprensione e sensazione di paura mai dimenticate dagli abitanti del Centro Italia, i quali ormai convivono con questo fenomeno quasi ininterrottamente da più di 3 anni.",
+          "concept": "earthquake magnitude and time",
+          "reasoning": "It contains a precise time (2:02) and earthquake magnitude (4.1) paired with the location Norcia."
+        },
+        {
+          "rank": 2,
+          "text": "Secondo i primi dati forniti dall'Ingv (Istituto Nazionale di Geofisica e Vulcanologia) l'evento sismico ha avuto il suo esatto epicentro alle pendici della Montagna Fusco (1796 m), 4 chilometri ad est dell'abitato di Norcia.",
+          "concept": "epicenter coordinates",
+          "reasoning": "It gives the exact height of Montagna Fusco (1796 m) and distance (4 km east of Norcia)."
+        },
+        {
+          "rank": 3,
+          "text": "Gente in strada, invece, è stata segnalata ad Amatrice, Accumoli e Cittareale, i tre comuni del reatino più colpiti dalla scossa di magnitudo 6.0 che tre anni fa devastò il cuore della nostra penisola.",
+          "concept": "historical earthquake magnitude",
+          "reasoning": "It references a past earthquake of magnitude 6.0 that affected specific towns."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00002",
+      "row_idx": 1607,
+      "normalized": 8.73179817199707,
+      "actual_text": "report by Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) was prepared by 22 leading global experts in",
+      "plain_text": "Future pandemics will emerge more often, spread more rapidly, do more damage to the world economy and kill more people than COVID-19 unless there is a transformative change, warns a major report on biodiversity and pandemics. The report by Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) was prepared by 22 leading global experts in the field. They call for a 'seismic shift,' if we want to change course A sixth major global health pandemic since the 'Spanish Flu' of 1918, COVID-19 has largely been a result of human activity, says the report. It warns that an estimated 1.7 million currently ‘undiscovered’ viruses exist in mammals and birds – of which up to 850,000 could have the ability to infect people. &nbsp; Dr Peter Daszak, president of EcoHealth Alliance and Chair of the IPBES workshop, said, “There is no great mystery about the cause of the COVID-19 pandemic – or of any modern pandemic. The same human activities that drive climate change and biodiversity loss also drive pandemic risk through their impacts on our environment.” He says, \"Changes in the way we use the land; the expansion and intensification of agriculture; and unsustainable trade, production and consumption disrupt nature and increase contact between wildlife, livestock, pathogens and people. This is the path to pandemics.” It's time for a global call for action. Experts say the pandemic risk can be significantly lowered by reducing the human activities that drive the loss of biodiversity, by greater conservation of protected areas, and through measures that reduce unsustainable exploitation of high biodiversity regions. This will reduce wildlife-livestock-human contact and help prevent the spillover of new diseases, says the report. “The overwhelming scientific evidence points to a very positive conclusion,” said Dr Daszak. “We have the increasing ability to prevent pandemics – but the way we are tackling them right now largely ignores that ability. Our approach has effectively stagnated – we still rely on attempts to contain and control diseases after they emerge, through vaccines and therapeutics. We can escape the era of pandemics, but this requires a much greater focus on prevention in addition to reaction.”Dr Peter Daszak, President of EcoHealth Alliance and Chair of the IPBES Workshop COVID-19 cost $8-16 trillion globally by July 2020, it is further estimated that costs in the United States alone may reach as high as $16 trillion by the fourth quarter of 2021, points out the report. Here are some solutions on offer: Dr Jagdish Krishnaswamy, Senior Fellow, Centre for Biodiversity and Conservation, Ashoka Trust for Research in Ecology and the Environment (ATREE) says little has been learned. \"The manner in which large dams are being pushed in the eastern Himalayas, which is a global biodiversity hotspot, coal mines pushed in elephant corridors leading to an escalation of human-elephant conflicts, the ripping apart of fragile Himalayan slopes by the Chardham project and loosening of environmental regulations under the new EIA notification are all pointers to a disconnect or a disregard for all lessons from the pandemic and what we thought would lead to sobering introspection of human-nature interactions under current development pathways.\" He hopes the IPBES helps stem the tide. Dr Mahesh Sankaran, Professor, National Centre for Biological Sciences warns India has many factors that could potentially put it at high risk. “India has many features that can potentially come together to create the ‘perfect storm’ for the spillover of novel diseases in the future – high biodiversity, high population densities and extensive land transformation and fragmentation that has increased the extent of the human-wildlife interface.” Dr Sejal Worah, Programme Director, WWF India calls for immediate action, saying, \"It is still not too late to change policies and practices at a global, national and local level so that the risk of future pandemics is minimised.\" (The article was first published in FIT and has been republished with permission) Published: undefined",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It warns that an estimated 1.7 million currently ‘undiscovered’ viruses exist in mammals and birds – of which up to 850,000 could have the ability to infect people.",
+          "concept": "virus estimates",
+          "reasoning": "It gives specific numbers of undiscovered viruses (1.7 million) and those that could infect people (850,000)."
+        },
+        {
+          "rank": 2,
+          "text": "COVID-19 cost $8-16 trillion globally by July 2020, it is further estimated that costs in the United States alone may reach as high as $16 trillion by the fourth quarter of 2021, points out the report.",
+          "concept": "pandemic cost",
+          "reasoning": "It provides quantitative estimates of COVID-19 costs in trillions of dollars with time frames."
+        },
+        {
+          "rank": 3,
+          "text": "The report by Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) was prepared by 22 leading global experts in the field.",
+          "concept": "expert count",
+          "reasoning": "It states the number of experts (22) involved in the report."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 3127,
+      "normalized": 7.807717800140381,
+      "actual_text": "activities, both military and political, ahead of Jan. 13 presidential and parliamentary elections. It says China is exerting military and economic pressure in an attempt to",
+      "plain_text": "China views the island as its own territory, a claim Taiwan's government rejects (Representational)Taipei, Taiwan: Taiwan's defence ministry said it had detected three more Chinese balloons flying across the Taiwan Strait on Wednesday, and one of those flew over the island, the second day in a row it has reported such activity.The potential for China to use balloons for spying became a global issue in February 2023 when the United States shot down what it said was a Chinese surveillance balloon. China said the balloon was a civilian craft that accidentally drifted astray.Taiwan is on high alert for Chinese activities, both military and political, ahead of Jan. 13 presidential and parliamentary elections. It says China is exerting military and economic pressure in an attempt to interfere in the elections.China views the island as its own territory, a claim Taiwan's government rejects.Taiwan's defence ministry has since last month reported several instances of Chinese balloons flying over the sensitive Taiwan Strait, then crossing airspace to the island's north before vanishing.But this week alone it has reported two back-to-back incidents of balloons actually crossing the island.On Thursday in its daily update of Chinese military activity over the previous 24 hours, the ministry said three Chinese balloons had again flown over the strait, one of which crossed over the centre of Taiwan island before vanishing.The northerly balloon was spotted 45 nautical miles (83 km) north of Hsinchu, a city home to a Taiwanese air force base, while the other two flew just north of the Penghu islands, where there is another air base.However a map provided by the ministry showed only one balloon flying over Taiwan island.The ministry, which has previously said it believed they were mostly for weather monitoring, said it would not comment on what the latest balloons may have been used for.China's defence ministry did not immediately respond to a request for comment. Last week it declined to comment on the balloons.PromotedListen to the latest songs, only on JioSaavn.comOver the past four years China has stepped up military activity around Taiwan and Chinese fighter jets and warships now regularly operate in the strait.(Except for the headline, this story has not been edited by NDTV staff and is published from a syndicated feed.)Track Latest News Live on NDTV.com and get news updates from India and around the world. Watch Live News:Follow Us:taiwan detects chinese balloonstaiwan latest news balloonstaiwan elections",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The northerly balloon was spotted 45 nautical miles (83 km) north of Hsinchu, a city home to a Taiwanese air force base, while the other two flew just north of the Penghu islands, where there is another air base.",
+          "concept": "balloon distance",
+          "reasoning": "It provides a precise distance (45 nautical miles/83 km) from a specific location (Hsinchu)."
+        },
+        {
+          "rank": 2,
+          "text": "China views the island as its own territory, a claim Taiwan's government rejects (Representational)Taipei, Taiwan: Taiwan's defence ministry said it had detected three more Chinese balloons flying across the Taiwan Strait on Wednesday, and one of those flew over the island, the second day in a row it has reported such activity.",
+          "concept": "balloon count",
+          "reasoning": "It reports the detection of three Chinese balloons, with one flying over Taiwan."
+        },
+        {
+          "rank": 3,
+          "text": "Taiwan is on high alert for Chinese activities, both military and political, ahead of Jan. 13 presidential and parliamentary elections.",
+          "concept": "election date",
+          "reasoning": "It gives the specific date (Jan. 13) for Taiwan's elections."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 5223,
+      "normalized": 0.0,
+      "actual_text": "In photos: Beijing Olympics end with visually striking closing ceremony Dwindling case numbers as",
+      "plain_text": "In photos: Beijing Olympics end with visually striking closing ceremony Dwindling case numbers as the Games went on indicate that the \"closed loop\" largely worked, though the strict procedures posed difficulties for some athletes competing, Axios' Erin Doherty writes. Go deeper. Biden and Putin agree \"in principle\" to hold summit. President Biden agreed \"in principle\" to hold a summit... www.axios.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dwindling case numbers as the Games went on indicate that the \"closed loop\" largely worked, though the strict procedures posed difficulties for some athletes competing, Axios' Erin Doherty writes.",
+          "concept": "COVID cases",
+          "reasoning": "It refers to dwindling case numbers during the Olympics, which is a quantitative concept though no specific number is given."
+        },
+        {
+          "rank": 2,
+          "text": "In photos: Beijing Olympics end with visually striking closing ceremony",
+          "concept": "Olympics closing",
+          "reasoning": "It describes the end of the Beijing Olympics, which is an event but not quantitative."
+        },
+        {
+          "rank": 3,
+          "text": "Go deeper. Biden and Putin agree \"in principle\" to hold a summit. President Biden agreed \"in principle\" to hold a summit... www.axios.com",
+          "concept": "summit agreement",
+          "reasoning": "It reports on a potential summit between Biden and Putin, which is political news without numbers."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 145,
+      "normalized": 0.0,
+      "actual_text": "On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social",
+      "plain_text": "On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social Sciences (CASS) issued a warned to beware of the systemic risks that are likely to arise from property bubbles, shadow banking and the bond market.  On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social Sciences (CASS) issued a warned to beware of the systemic risks that are likely to arise from property bubbles, shadow banking and the bond market.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social Sciences (CASS) issued a warned to beware of the systemic risks that are likely to arise from property bubbles, shadow banking and the bond market.",
+          "concept": "systemic risks warning",
+          "reasoning": "It discusses risks in financial sectors but without quantitative data."
+        },
+        {
+          "rank": 2,
+          "text": "On Wednesday, Zheng Liansheng, a researcher at the China Academy of Social Sciences (CASS) issued a warned to beware of the systemic risks",
+          "concept": "risk warning partial",
+          "reasoning": "It is part of a warning about systemic risks, lacking numbers."
+        },
+        {
+          "rank": 3,
+          "text": "that are likely to arise from property bubbles, shadow banking and the bond market.",
+          "concept": "risk sources",
+          "reasoning": "It lists sources of systemic risks without numerical details."
+        }
+      ]
+    }
+  ]
+}

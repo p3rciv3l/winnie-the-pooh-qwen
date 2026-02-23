@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_6356",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific geographic locations alongside descriptions of events, activities, or conditions** (such as earthquake reports in Mexico, festival announcements in Mumbai, political statements in Chile, or rescue operations in Japan).\n\n2. **Domain coverage**: The pattern appears across news, reports, and descriptive narratives in multiple languages (Spanish, English, German, Italian, Turkish, etc.). It activates on concrete, often real-world events anchored to precise places (cities, regions, countries, or specific sites like the Salar de Atacama), covering topics like natural disasters, cultural events, political incidents, infrastructure projects, and local news.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently pair a named location with an ongoing action, development, or situation. The low-activation examples either lack a specific geographic anchor (e.g., discussing general topics like film reviews, consumer prices, or disinformation) or mention places only generically or in a different context (e.g., \"London CNN\" as a source tag, not as the subject of an event description).\n\n4. **Closing interpretation**: The neuron detects textual contexts where a real-world location is being framed as the active setting for a reported event or situation. It appears to specialize in the semantic structure of \"place + associated activity/occurrence,\" a common pattern in journalistic and descriptive writing.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "65 km al sureste de la ciudad, en el estado de Oaxaca. Ante una actividad s\u00edsmica importante, el Centro Nacional de Prev",
+      "normalized_activation": 9.140824317932129,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.142,
+          "meaning_score": 0.5135,
+          "overlap_fraction": 0.45,
+          "location_score": 0.09,
+          "combined_score": 0.3522
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1221,
+          "meaning_score": 0.478,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.24
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.142,
+          "meaning_score": 0.4165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2234
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "harmful disinformation and hate speech. Many Rohingya attempted to report anti-Rohingya content via Facebook\u2019s \u2018report\u2019 function, but were unsuccessful, Amnesty said",
+      "normalized_activation": 7.822513580322266,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1112,
+          "meaning_score": 0.708,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3277
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1177,
+          "meaning_score": 0.5996,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2869
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0966,
+          "meaning_score": 0.4993,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2383
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Finding two of these rare galaxies in such close proximity is truly astounding,\" said Dominik Riechers, an astronomer at Cornell University in Ithaca, New",
+      "normalized_activation": 6.387139320373535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.08,
+          "meaning_score": 0.5651,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.258
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0936,
+          "meaning_score": 0.7878,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5526
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1436,
+          "meaning_score": 0.4777,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2485
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1164,
+          "meaning_score": 0.5079,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4497
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1001,
+          "meaning_score": 0.4007,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2003
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0996,
+          "meaning_score": 0.3768,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1905
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.154,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1918
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1519,
+          "meaning_score": 0.2275,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.351,
+          "meaning_score": 0.4751,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3304
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_18084",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing enumerations or lists of specific entities, events, or concepts** (such as lists of names, titles, astronomical objects, political actions, or sequential narrative details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, German, Spanish, Italian, French, Swedish) and diverse topics: celebrity/political name lists, astronomical discoveries, treaty/royal reforms, earthquake reports, and narrative sequences in fiction or news. It activates on series of items joined by commas, conjunctions, or implied sequences within a clause.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature multiple concrete items enumerated or densely packed within a span. The low-activation examples are typically singular statements, general observations, or announcements about one event/theme without serialization or itemized detail.\n\n4. **Closing interpretation**: The neuron detects syntactic and semantic density of enumerated specifics, acting as a \"list detector\" or \"series identifier\" regardless of domain or language. It fires when text aggregates distinct, often named, elements in close succession.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "finds itself on the edge of classical fascism. The word fascism comes from the Roman fasces, a bundle of sticks with a rope around it, typically adorned with",
+      "normalized_activation": 9.563531875610352,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1288,
+          "meaning_score": 0.1847,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1254
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0774,
+          "meaning_score": 0.1147,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0769
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1024,
+          "meaning_score": 0.2364,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1355
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Island Jail Complex. The prison has one wing that has housed its share of famous people, but none of them ever entered into custody with private security around them at",
+      "normalized_activation": 8.881717681884766,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0986,
+          "meaning_score": 0.1519,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1002
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1005,
+          "meaning_score": 0.2426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1372
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1963,
+          "meaning_score": 0.1047,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1204
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Those stories were cited by the news release issued Thursday by Dying With Dignity Canada. In one instance, a 66-year-old ALS patient who",
+      "normalized_activation": 8.178604125976562,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.111,
+          "meaning_score": 0.2113,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1289
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1534,
+          "meaning_score": 0.2737,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1709
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2092,
+          "meaning_score": 0.3653,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2298
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "A Boyle man was convicted under the Litter Pollution Act when a case brought by Ros",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2734,
+          "meaning_score": 0.5611,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3338
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2787,
+          "meaning_score": 0.4195,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2793
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2451,
+          "meaning_score": 0.4843,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2917
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "When someone says something we disagree with, should we shut them up? In 1",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1751,
+          "meaning_score": 0.2247,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1599
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1234,
+          "meaning_score": 0.2937,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1669
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1379,
+          "meaning_score": 0.2493,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1549
+        }
+      ]
+    }
+  ]
+}

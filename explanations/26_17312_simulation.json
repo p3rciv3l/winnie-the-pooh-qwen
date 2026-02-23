@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_17312",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:55:14Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to words beginning with the character sequence \"le\" or \"Le\" (such as Spanish object pronouns like \"le\", proper names like \"Leung\" or \"Leif\", and English words like \"leeway\" or \"leaked\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, English, French, Italian, Portuguese, Romanian, and Chinese transliterations) and diverse contexts, including news snippets, medical reports, legal texts, cultural references, and personal names, with no single semantic theme beyond the orthographic trigger.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any words starting with \"le\"/\"Le\"; they instead feature other initial letter sequences or topics (e.g., \"Il\", \"Washington\", \"Daniele\") that do not contain this specific bigram at word onset.\n\n4. **Closing interpretation**: The neuron functions as a character-level detector for the bigram \"le\" at the beginning of tokens, highlighting its role in recognizing a surface orthographic pattern rather than a coherent semantic concept.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 4900,
+      "normalized": 9.534003257751465,
+      "actual_text": "Benjai (Rodney Le Blanc) yesterday asked the public to withhold their judgment of him following his arrest and",
+      "plain_text": "Benjai (Rodney Le Blanc) yesterday asked the public to withhold their judgment of him following his arrest and court appearance for obscene language. Through his management team he issued a news release yesterday which acknowledged his detention and subsequent charge on Carnival Tuesday evening in St James. On Wednesday he appeared before a Port of Spain magistrate and his matter was adjourned. “Mr Le Blanc takes the matter very seriously. He is fully cooperating with the legal process and is confident that the matter will be resolved quickly,” the release stated. It added that he recognises the impact of any charge, “misdemeanour’s or otherwise”, on his career. This is not Benjai’s first arrest. In 2010 he was arrested in San Fernando during a fete for obscene language and spitting on a police officer. He pleaded guilty to the obscene language charge, but denied spitting on PC Valentine Eastman. He was found not guilty of assaulting Eastman in 2014, following which he sued the State for false imprisonment, wrongful prosecution and excessive force. Le Blanc was compensated for the excessive force, but lost the other aspects of the lawsuit.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "On Wednesday he appeared before a Port of Spain magistrate and his matter was adjourned. “Mr Le Blanc takes the matter very seriously. He is fully cooperating with the legal process and is confident that the matter will be resolved quickly,” the release stated.",
+          "concept": "Le Blanc and legal",
+          "reasoning": "This section contains the tokens 'Le' (in 'Mr Le Blanc') and 'legal', both starting with 'le' or 'Le'."
+        },
+        {
+          "rank": 2,
+          "text": "Benjai (Rodney Le Blanc) yesterday asked the public to withhold their judgment of him following his arrest and court appearance for obscene language. Through his management team he issued a news release yesterday which acknowledged his detention and subsequent charge on Carnival Tuesday evening in St James.",
+          "concept": "proper name Le Blanc",
+          "reasoning": "This section contains the token 'Le' in 'Rodney Le Blanc', which starts with 'Le'."
+        },
+        {
+          "rank": 3,
+          "text": "He was found not guilty of assaulting Eastman in 2014, following which he sued the State for false imprisonment, wrongful prosecution and excessive force. Le Blanc was compensated for the excessive force, but lost the other aspects of the lawsuit.",
+          "concept": "proper name Le Blanc",
+          "reasoning": "This section contains the token 'Le' in 'Le Blanc', which starts with 'Le'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 2771,
+      "normalized": 8.479117393493652,
+      "actual_text": "a como Khal Drogo en el piloto y fue despedida. (Le pude interesar: 'Moonage Daydream': un viaje có",
+      "plain_text": "A continuación los más recordados.  Katie-Penny: ‘The Big Bang Theory' La Katie original era una mujer afectada por varios aspectos y Sheldon recibió en su casa. Al público no le gustó y los guionistas hicieron un nuevo piloto para que puso a una más cariñosa Penny, a cargo de Kaley Cuoco. Willow Rosenberg: 'Buffy, cazavampiros' El cambio lo hicieron los directivos de Warner Bros. “Regan simplemente no funcionó\", dijo la directora de audiciones, Marcia Shulman. Y agregó que \"las cualidades que Willow debía tener son las opuestas a las que deben tener las actrices: alguien inseguro, tímido, modesto\". (Tal vez quiera leer: Toto Vega: el inesperado adiós al actor que amaba la naturaleza) Roz Doyle: 'Frasier' La NBC buscaba a alguien para que fuera la atrevida productora del programa de radio de rasier Crane, aguerrido y que llegara a los demás. Creían tener la actriz ideal: Lisa Kudrow como Roz Doyle  era la elección natural. Pero luego de una prueba con público, se dejó ver “la disociación entre las formas excéntricas de Kudrow y el carisma de su personaje. Se despidió a la actriz y se contrató a la siguiente candidata, Peri Gilpin, que se mantendría once provechosas temporadas en el papel”, dice el portal Fotogramas.  Daenerys Targaryen: 'Juego de tronos' La Daenerys original (Tamzin Merchant, de ‘Los Tudor’) no funcionó con Jason Momoa como Khal Drogo en el piloto y fue despedida. (Le pude interesar: 'Moonage Daydream': un viaje cósmico al universo de David Bowie) Evelyn Harper: 'Dos hombres y medio' Blythe Danner fue despedida por su supuesta falta de experiencia de la comedia. Sookie St. James: 'Las chicas Gilmore' Alex Borstein compaginaba perfecto con su papel, pero un contrato con MADtv la obligó a tener exclusividad y por eso llegó Melissa McCarthy en la serie.  Mad Sweeney: 'American Gods' Motivos personales llevaron a Sean Harris a la renuncia. Lo sustituyó Pablo Schreiber. Phoebe: 'Embrujadas' Shannen Doherty renunció por motivos personales a su personaje de Phoebe y la sustituyó Alyssa Milano Virginia Pittman- Theresa Cullen: 'Westworld' Miranda Otto (Eowyn en la saga ‘El señor de los anillos’) entraba en el reparto original de la serie de HBO. Pero la llamaron para la quinta temporada de ‘Homeland’, serie para la que ya había firmado. Winston Bishop: 'New Girl' Winston Bishop fue reemplazado por LaMorne Morris.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Daenerys Targaryen: 'Juego de tronos' La Daenerys original (Tamzin Merchant, de ‘Los Tudor’) no funcionó con Jason Momoa como Khal Drogo en el piloto y fue despedida. (Le pude interesar: ‘Moonage Daydream': un viaje cósmico al universo de David Bowie)",
+          "concept": "Spanish pronoun Le",
+          "reasoning": "This section contains the word 'Le' (capitalized) at the beginning of a parenthetical, which matches the neuron's trigger for words starting with 'Le'."
+        },
+        {
+          "rank": 2,
+          "text": "Katie-Penny: ‘The Big Bang Theory' La Katie original era una mujer afectado por varios aspectos y Sheldon recibió en su casa. Al público no le gustó y los guionistas hicieron un nuevo piloto para que puso a una más cariñosa Penny, a cargo de Kaley Cuoco.",
+          "concept": "Spanish pronoun le",
+          "reasoning": "This section contains the word 'le' in 'le gustó', a Spanish object pronoun starting with 'le'."
+        },
+        {
+          "rank": 3,
+          "text": "Y agregó que \"las cualidades que Willow debía tener son las opuestas a las que deben tener las actrices: alguien inseguro, tímido, modesto\". (Tal vez quiera leer: Toto Vega: el inesperado adiós al actor que amaba la naturaleza)",
+          "concept": "Spanish verb leer",
+          "reasoning": "This section contains the word 'leer' (to read), which starts with 'le'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 449,
+      "normalized": 6.780815601348877,
+      "actual_text": "können alternativ auch Gutscheine in dem Glas verschenkt werden. Von Lea Stratmann Für den Alltag Mousepads gehören zu den Sach",
+      "plain_text": "Botschaften im Einmachglas  Bei den Liebsten fällt die Suche nach einem originellen Geschenk oft besonders schwer. Individuell statt universell soll es sein und trotzdem erschwinglich. Das Glas der Worte ist all das – persönlich und perfekt für einen schmalen Geldbeutel. Benötigt werden nur ein Einmachglas, Stifte und Papier, Schere sowie beliebige Dekoartikel. Nun ist Kreativität gefragt: Welche Erinnerungen oder witzige Anekdoten teilst du mit deinen Liebsten? Was wolltest du der Person schon immer einmal sagen? Diese Botschaften werden auf Papierschnipsel geschrieben und eingerollt, schließlich mit dünnem Klebeband fixiert und in das Glas gelegt. Verzieren lässt es sich mit allen möglichen Dekoartikeln. Statt der Botschaften können alternativ auch Gutscheine in dem Glas verschenkt werden. Von Lea Stratmann  Für den Alltag  Mousepads gehören zu den Sachen, die man jeden Tag am Schreibtisch benutzt. Meist fallen sie nicht auf – dabei können sie bunt und persönlich gestaltet den Alltagstrott versüßen. Sie sind schnell gebastelt: Korkuntersetzer gibt es in vielen Ein-Euro- oder Bastelläden. Dort findet sich auch das passende Stück Stoff, mit dem das Mousepad überzogen werden soll. Den Stoff schneidet man so in Form, dass die Ränder des Untersetzers noch mit Stoff umschlagen werden können. Danach wird der Stoff sparsam mit flüssigem Allzweckkleber auf den Untersetzer geklebt. Insgesamt braucht man für den Bastelvorgang nur etwa fünf Minuten.  Von Jeffrey Ji-Peng Li  Kindertage neu aufgelegt  Oft scheitern selbst gemachte Weihnachtsgeschenke an den zwei linken Händen des Schenkenden. Doch kein Problem – man kann auch kreativ werden, ohne ein Basteltalent zu sein. Für einen Fotokalender muss man lediglich fotografieren und die Bilder auf Papier kleben können. Und Eltern freuen sich schließlich immer über Schnappschüsse ihrer Kinder.  Aber wenn die Kindheit schon ein paar Jahre her ist? Ganz einfach: Man stellt die Fotos von früher nach. Gleicher Ort, gleiche Pose, gleiches (oder zumindest ähnliches) Outfit. Mit dem Kalender können Mama und Papa in Erinnerungen schwelgen – oder sie können darüber lachen. Kalender zum Selbstgestalten gibt es günstig in jedem Bastelladen. Schwieriger kann es da werden, ein Erwachsenen-T-Shirt mit Ernie-und-Bert-Aufdruck jenseits von Größe 128 zu finden.  Von Johanna Stein  Balsam für die Lippen  Spröde Lippen nerven. Besonders im kalten Winter neigen sie dazu, auszutrocken oder gar zu reißen. Das kann man zum Anlass nehmen, um ein schnelles und einfaches Weihnachtsgeschenk für etwa 10 Euro zu kreieren: selbst gemachtes Lippenbalsam. Die wichtigsten Zutaten dafür gibt es in der Apotheke oder im Reformhaus.  Zunächst wird in einem Wasserbad etwas Bienenwachs erhitzt und dann Kakaobutter untergerührt. Zum Schluss gibt man noch etwas Jojobaöl sowie Honig hinzu. Von jeder Zutat werden ungefähr zehn Gramm benötigt.  Wer möchte, kann mit ein paar Tropfen Butter-Vanille-Aroma noch einen weihnachtlichen Duft hinzufügen. Abschließend wird die sämige Masse in ein kleines Döschen, das noch verziert werden kann, gefüllt. Kleine Dosen zum Befüllen gibt es in der Drogerie und in Bastelläden. Die Creme aushärten lassen, und schon ist die Lippenpflege für eisige Wintertage fertig – und das ganz ohne chemische Zusatzstoffe.  Von Nina Hoffmann  Weihnachten auf dem Brot  Nicht nur die Liebe, sondern auch Weihnachten geht durch den Magen. Daher ist die selbst gemachte Weihnachtsmarmelade eine schöne Kleinigkeit als Wichtelgeschenk oder Mitbringsel. Für das Grundrezept braucht man 500 Gramm Pflaumen, drei Äpfel, 125 Milliliter Weißwein, Gelierzucker im Verhältnis 2:1. Zunächst muss das Obst geschält, entkernt und im Wein bei mittlerer Temperatur aufgekocht werden. Hat das Obst eine weiche Konsistenz, kommen die restlichen Zutaten dazu. Anschließend köcheln lassen und bei Bedarf pürieren. Nun schnell im noch heißen Zustand in Gläser füllen und diese luftdicht verschließen. Ungeöffnet ist die Marmelade mehrere Monate haltbar. Je nach Geschmack wird die Leckerei mit dem Abrieb zweier Orangen, drei Esslöffeln Haselnüsse, drei Nelken und zwei Teelöffeln Zimt aufgepeppt.  Von Lea Stratmann",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Diese Botschaften werden auf Papierschnipsel geschrieben und eingerollt, schließlich mit dünnem Klebeband fixiert und in das Glas gelegt. Verzieren lässt es sich mit allen möglichen Dekoartikeln. Statt der Botschaften können alternativ auch Gutscheine in dem Glas verschenkt werden. Von Lea Stratmann",
+          "concept": "proper name Lea",
+          "reasoning": "This section contains the name 'Lea' in 'Von Lea Stratmann', which starts with 'Le'."
+        },
+        {
+          "rank": 2,
+          "text": "Nun schnell im noch heißen Zustand in Gläser füllen und diese luftdicht verschließen. Ungeöffnet ist die Marmelade mehrere Monate haltbar. Je nach Geschmack wird die Leckerei mit dem Abrieb zweier Orangen, drei Esslöffeln Haselnüsse, drei Nelken und zwei Teelöffeln Zimt aufgepeppt.",
+          "concept": "German noun Leckerei",
+          "reasoning": "This section contains the word 'Leckerei', which starts with 'Le'."
+        },
+        {
+          "rank": 3,
+          "text": "Für einen Fotokalender muss man lediglich fotografieren und die Bilder auf Papier kleben können. Und Eltern freuen sich schließlich immer über Schnappschüsse ihrer Kinder. Aber wenn die Kindheit schon ein paar Jahre her ist? Ganz einfach: Man stellt die Fotos von früher nach.",
+          "concept": "German adverb lediglich",
+          "reasoning": "This section contains the word 'lediglich', which starts with 'le'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1111,
+      "normalized": 0.0,
+      "actual_text": "Big Pharma offers an easy punching bag. To some extent, the hostility is understandable.",
+      "plain_text": "Big Pharma offers an easy punching bag. To some extent, the hostility is understandable. Pharmaceutical companies make their money by selling lifesaving innovations that they alone control. When prices are too high, people are forced into poverty to pay for medicine, or they get sick and die for lack of access. Pharma companies too often use dirty tactics to extend patent exclusivity and prevent competition; they also lobby aggressively to defend their financial interests, even at the expense of the public interest.  But here is the crux of the problem: The pharmaceutical industry is not the tobacco industry. They are not merchants of death. The companies are amoral and exist to make money, but their business is not fundamentally immoral. Big Pharma (mostly) develops and sells products that people need to survive and thrive. Their products improve health and welfare. Fights over access to medicines are possible because medicines exist in the first place—medicines that were usually developed by Big Pharma. And yes, the pharmaceutical industry benefits from public subsidy and publicly financed foundational research. But the companies also put their own capital at risk to develop new products, some of which offer enormous public benefits.  In fact, several of them did just that in the pandemic: invested their own money to develop patented manufacturing technologies in record time. Those technologies are literally saving the world right now. Public funding supported research and development, but companies also brought their own proprietary ingenuity and private investments to bear toward solving the world’s singular, collective challenge. Their reward should be astronomical given the insane scale of the health and economic benefits these highly efficacious vaccines produce every day. Market incentives sent a clear signal that further needed innovation—greater efficacy, single doses, more-rapid manufacturing, updated formulations, fast boosters, and others—would be richly rewarded. Market incentives could also have been used to lubricate supply lines and buy vaccines on behalf of the entire world; with enough money, incredible things can happen.  But activist lobbying to waive patents—a move the Biden administration endorsed yesterday—sends exactly the opposite signal. It says that the most important, valuable innovations will be penalized, not rewarded. It tells innovators, don’t bother attacking the most important global problems; instead, throw your investment dollars at the next treatment for erectile disfunction, which will surely earn you a steady return with far less agita.  It is worth going back to first principles. What problem are we trying to solve? We have highly efficacious vaccines that we would like to get out to the entire world as quickly as possible to minimize preventable disease and deaths, address atrocious inequities, and enable the reopening of society, trade, and commerce. Hundreds of millions of people have been plunged into poverty over the past year; in the developing world, the pandemic is just getting started.  What is the quickest way to get this done? Vaccine manufacturing is not just a recipe; if you attack and undermine the companies that have the know-how, do you really expect they’ll be eager to help you set up manufacturing elsewhere? Is the plan to march into Pfizer and force its staff to redeploy to Costa Rica to build a new factory? Do the U.S. administration or activists care that this decision could take years to negotiate at the World Trade Organization, and will likely be litigated for years thereafter? Does it make sense to eliminate the incentive for private companies to invest in vaccine R&D or in the response to the next health emergency? And if the patent waiver is only temporary and building a factory takes months or years, will anyone bother to do so, even if they could?  No, none of it makes sense. Worse still, we could solve the policy problem more easily by harnessing market incentives for the global good by ponying up cash to vaccinate the entire world. No confiscation necessary.  The big problem is that countries have not bought enough vaccine to inoculate most of their populations. Covax, buying on behalf of 91 lower-income countries, is only collecting enough funding to cover 20% of their population. In many parts of the world, such as the Middle East, sub-Saharan Africa and some countries in Latin America, we see very low levels of vaccine prepurchasing. We have seen this week that the government of India had not ordered enough vaccine to cover its own population, for example, resulting in export bans on its domestic vaccine manufacturers; nor has it approved the Pfizer vaccine. Our collective focus instead must be to make the market: to set up advance purchase agreements to establish demand via country cooperation, Covax, and the multilateral development banks.  Voluntary licensing was also working. AstraZeneca has done extensive tech transfer, and its vaccine is now being made in South Korea, Belgium, the Netherlands, Argentina, India, and Brazil. With a clear long-term demand trajectory from governments all over the world, coordinated and led by Covax or the U.S. government, incentives for voluntary licensing and technology transfer could have worked.  The value of the Pfizer patent is—was?—in the hundreds of billions. The value of Pfizer and Moderna as companies in the United States is far more than that. But the cost to just buy vaccine with public monies would come to maybe $50-75 billion, no big deal given the $16 trillion we’ve lost in economic damage to date. So why use scarce political capital on a contentious and mostly symbolic measure with major short- and long-term downsides? It is feel-good posturing over substance; “principle” over practicality.  To even write this essay, I feel the need to defend my bona fides and independence. I have long advocated that payers negotiate medicine and vaccine prices based on value and affordability; I have called out extortionate “rare disease” pricing that uses human lives as hostages. I abhor the opioid peddlers and U.S. lobbying that blocks use of cost-effectiveness as a criterion for government purchase. My organization also declines funding from the pharmaceutical industry because we work on these issues. I am a Democrat. I sincerely, deeply hope I am wrong. And, even so, I am convinced that this policy is a grave error that will permanently erode innovation to tackle the world’s most important problems, and, worse, excuse U.S. inaction and lack of leadership on Covid-19 around the world.  Amanda Glassman is the executive vice president and a senior fellow at the Center for Global Development, a nonpartisan, nonprofit think tank in Washington and London.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It says that the most important, valuable innovations will be penalized, not rewarded. It tells innovators, don’t bother attacking the most important global problems; instead, throw your investment dollars at the next treatment for erectile disfunction, which will surely earn you a steady return with far less agita.",
+          "concept": "less",
+          "reasoning": "This section contains the word 'less', which starts with 'le'."
+        },
+        {
+          "rank": 2,
+          "text": "Covax, buying on behalf of 91 lower-income countries, is only collecting enough funding to cover 20% of their population. In many parts of the world, such as the Middle East, sub-Saharan Africa and some countries in Latin America, we see very low levels of vaccine prepurchasing.",
+          "concept": "levels",
+          "reasoning": "This section contains the word 'levels', which starts with 'le'."
+        },
+        {
+          "rank": 3,
+          "text": "With a clear long-term demand trajectory from governments all over the world, coordinated and led by Covax or the U.S. government, incentives for voluntary licensing and technology transfer could have worked.",
+          "concept": "led",
+          "reasoning": "This section contains the word 'led', which starts with 'le'."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 56,
+      "normalized": 0.0,
+      "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
+      "plain_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid Global Developments  The dawn of 2024 ushers in a year of anticipation and strategic shifts in various sectors, from the entertainment industry to space exploration, and the financial market to technological advancements. The year also sees the emergence of 2024 X Corp, a venture by Elon Musk, causing significant ripples in the business and technology landscapes.  Entertainment Industry in Flux  Global levels of production are anticipated to contract, with streaming giants strategizing to turn profits while retaining subscribers. The US TV sector forecasts a development slump of around 40%, while labor strikes further hamper global production. Talks for new contracts are underway in the UK and Canada, and big M&A stories, including the potential sale of Paramount Global, are on the horizon.  India’s Leap into X-ray Astronomy  January 1, 2024, marks a milestone in India’s space journey, as it sets off its first foray into X-ray astronomy. The launch of the X-ray Polarimeter Satellite (XPoSat) and the PSLV Orbital Experimental Module-3 (POEM-3) commences the orbital launch calendar. The mission, designed to last at least five years, aims to study about 50 cosmic sources. Other major players in space exploration, including SpaceX, ExPace, United Launch Alliance, Axiom Space, and Northrop Grumman, have their launches scheduled, making the month a hive of orbital activity.  The Rise of 2024 X Corp  Standing out amongst the news is the rise of 2024 X Corp. The venture, with a strong focus on sustainability, resilience, and adaptability, is making a significant impact in the technological landscape. The company’s ambitious expansion plans, investment in R&D, and the unveiling of new projects at CES 2024 set it apart. With tech IPOs being a potential trend in 2024, industry experts and key executives express optimism about the company’s future prospects.  Financial Markets Respond to Inflation  2024 also sees Jerome Powell, Chairman of the Federal Reserve Board, planning to implement rate cuts from March. This move, predicted to be emulated by leading central banks, comes as a response to slowing inflation. The financial markets ended 2023 optimistically, expecting the Fed to ease policy after its decision to maintain rates on December 14th.  The emergence of 2024 X Corp, amidst these diverse news stories and developments, promises a captivating blend of business strategy, technological innovation, and potential societal transformation, making it a must-watch narrative in the unfolding year.  Comments  Subscribe to BNN Breaking  Sign up for our daily newsletter covering global breaking news around the world.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "India’s Leap into X-ray Astronomy January 1, 2024, marks a milestone in India’s space journey, as it sets off its first foray into X-ray astronomy. The launch of the X-ray Polarimeter Satellite (XPoSat) and the PSLV Orbital Experimental Module-3 (POEM-3) commences the orbital launch calendar.",
+          "concept": "Leap",
+          "reasoning": "This section contains the word 'Leap', which starts with 'Le'."
+        },
+        {
+          "rank": 2,
+          "text": "Global levels of production are anticipated to contract, with streaming giants strategizing to turn profits while retaining subscribers. The US TV sector forecasts a development slump of around 40%, while labor strikes further hamper global production.",
+          "concept": "levels",
+          "reasoning": "This section contains the word 'levels', which starts with 'le'."
+        },
+        {
+          "rank": 3,
+          "text": "2024 also sees Jerome Powell, Chairman of the Federal Reserve Board, planning to implement rate cuts from March. This move, predicted to be emulated by leading central banks, comes as a response to slowing inflation.",
+          "concept": "leading",
+          "reasoning": "This section contains the word 'leading', which starts with 'le'."
+        }
+      ]
+    }
+  ]
+}

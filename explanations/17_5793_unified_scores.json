@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_5793",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that follows the format of news agency reports or dateline journalism (such as articles beginning with a location and source abbreviation like \u201c(AP)\u201d or \u201c(dpa)\u201d, containing breaking news, factual updates, or quoted statements from officials).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Russian, Italian, etc.) and spans topics like politics, crime, natural disasters, sports, science, and local events. It is specifically tied to formal news reporting from established agencies or outlets, often including timestamps, bylines, datelines, or explicit source citations (e.g., \u201cWASHINGTON (AP) \u2014\u201d or \u201cEFE\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the distinctive news-dateline structure and explicit source attributions. They include opinion pieces, reviews, promotional announcements, and informal commentary\u2014even when discussing current events. For example, a snippet starting with \u201cATHENS \u2014\u201d but expressing a subjective sports opinion still activates weakly, indicating the neuron focuses on formal reporting style rather than just any dash-separated prefix.\n\n4. **Closing interpretation**: The neuron likely detects the stylistic and structural markers of professional news reporting, acting as a \u201cnews wire\u201d detector that identifies text produced by or mimicking news agencies and journalistic dispatches.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u00fa Abonados MADRID, 24 Sep. (EUROPA PRESS) - El observatorio ALMA ha ofrecido un inventario del polvo",
+      "normalized_activation": 9.47950267791748,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "calling for help to bring back visitors. (Photo by Liang Sen/Xinhua) Photos Related Stories EU opens external borders to travellers fully vaccinated against",
+      "normalized_activation": 8.592649459838867,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "BRUSSELS (AP) \u2014 China\u2019s ruling Communist Party has opened a new front in its long,",
+      "normalized_activation": 7.549138069152832,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Market Overview A new research report titled, \u2018Towbarless Aircraft Tugs",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "15:02:08 CASERTA. \u00abNon ci pu\u00f2 essere",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

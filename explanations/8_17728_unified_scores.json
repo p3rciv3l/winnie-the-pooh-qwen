@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_17728",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence narrative or descriptive content from news articles or reports** (such as ongoing political events, cultural descriptions, technical processes, or personal stories), while ignoring headlines, datelines, publication stamps, or very truncated news snippets.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Portuguese, Turkish, English, Russian) and topics including politics, legal actions, entertainment/culture, sports, scientific or infrastructure projects, and holiday plans. The texts are consistently substantive narrative segments, often containing proper nouns (people, places, organizations), verbs of action or description, and contextual details.\n\n3. **Contrast with low-activation examples**: The high-activation texts are narrative clauses or phrases embedded within a larger story, providing specific details. The low-activation examples are primarily headlines, datelines (e.g., \"BEIJING, Dec. 23, 2018 /PR\"), photo captions, brief news alerts, or social media post snippets that lack extended narrative context. Even when topics overlap (e.g., earthquakes), the high-activation example describes the event's location and impact, while the low-activation one is a headline-style announcement.\n\n4. **Closing interpretation**: The neuron detects text that functions as the core explanatory or descriptive body of a news story, as opposed to its metadata or summary framing. It acts as a filter for substantive, in-progress narrative exposition across languages and subjects.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "top court. Madhya Pradesh Congress leader Jaya Thakur and advocate Gopal Singh filed separate petitions against the Chief Election Commissioner and Other Election Commissioners (Appointment,",
+      "normalized_activation": 8.63124942779541,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1955,
+          "meaning_score": 0.4882,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2735
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.125,
+          "meaning_score": 0.5604,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2741
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1999,
+          "meaning_score": 0.8506,
+          "overlap_fraction": 0.9421,
+          "location_score": 0.1884,
+          "combined_score": 0.6086
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "misbehavior. A new Chinese champion from California. An ace American skier who faltered and went home empty-handed. The end of the Olympic line for the worlds",
+      "normalized_activation": 6.329558849334717,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0996,
+          "meaning_score": 0.83,
+          "overlap_fraction": 0.6456,
+          "location_score": 0.1291,
+          "combined_score": 0.5009
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1507,
+          "meaning_score": 0.5534,
+          "overlap_fraction": 0.2658,
+          "location_score": 0.0532,
+          "combined_score": 0.3348
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0957,
+          "meaning_score": 0.574,
+          "overlap_fraction": 0.0759,
+          "location_score": 0.0152,
+          "combined_score": 0.2831
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "reckons Lauchy has made significant progress since he led Junior side Rossvale to the 2014/15 Central District Second title, winning",
+      "normalized_activation": 4.405218124389648,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1606,
+          "meaning_score": 0.2919,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.181
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1641,
+          "meaning_score": 0.493,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2628
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1429,
+          "meaning_score": 0.3785,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2086
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Executives at U.S. banks indicate that they expect to face little risk for",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2089,
+          "meaning_score": 0.4022,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2444
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2166,
+          "meaning_score": 0.2213,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1752
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1663,
+          "meaning_score": 0.2987,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.186
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mumbai: A case has been registered against former Maharashtra minister and NCP leader Naw",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2869,
+          "meaning_score": 0.347,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2535
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2645,
+          "meaning_score": 0.3115,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2304
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3401,
+          "meaning_score": 0.6973,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6149
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_3898",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:13:08Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal institutional or organizational communication** (such as government announcements, legal/procedural texts, diplomatic statements, or official news reports) across multiple languages.\n\n2. **Domain coverage**: The pattern appears in news and official statements covering politics, law, international relations, business agreements, and public services. It activates across many languages (Norwegian, Italian, Arabic, Spanish, Greek, Urdu, etc.) and specifically targets text that reports or quotes actions, decisions, or positions of governments, ministries, corporations, unions, or other formal bodies.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature institutional actors (ministries, companies, parliaments, embassies) engaged in official processes (funding, legislation, diplomacy, regulation, official statements). The low-activation examples are often informal opinions, generic news headlines, event notices, or descriptive paragraphs that lack this specific framing of formal institutional action or communication.\n\n4. **Closing interpretation**: The neuron detects text where language is used in an official, procedural, or declarative capacity by recognized organizations. It appears to specialize in the semantic frame of institutional agency and formal public discourse rather than any single topic or language.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00018",
+      "row_idx": 4659,
+      "normalized": 9.623551368713379,
+      "actual_text": "rekkingen tussen Azië, Europa, Afrika en andere werelddelen te verbeteren. Dat door de aanleg van havens, sp",
+      "plain_text": "Vorige maand kondigde de Australische regering aan dat zij een door de staat Victoria ondertekende overeenkomst om toe te treden tot de Nieuwe Zijderoute, beëindigt. Het project, dat in 2013 op initiatief van de Chinese president Xi Jinping van start is gegaan, heeft tot doel de handelsbetrekkingen tussen Azië, Europa, Afrika en andere werelddelen te verbeteren. Dat door de aanleg van havens, spoorwegen, luchthavens en industrieparken. Als reactie op die terugtrekking heeft China nu beslist een economische overeenkomst met Australië op te schorten. 'Deze houding heeft als doel de normale uitwisseling en samenwerking met China te verstoren in een mentaliteit van koude oorlog en ideologische discriminatie', aldus de Hervormings- en Ontwikkelingscommissie (NDRC). De relatie tussen Australië en China kwam in 2018 onder druk te staan toen Canberra de Chinese telecomgigant Huawei uitsloot van de bouw van zijn 5G-netwerk, verwijzend naar de nationale veiligheid. Toen Australië vorig jaar een internationaal onderzoek naar de oorsprong van het coronavirus eiste, liepen de spanningen tussen de twee landen nog hoger op. De afgelopen maanden heeft China ook al een reeks economische vergeldingsmaatregelen opgelegd tegen een aantal Australische producten, waaronder rundsvlees en wijn.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Als reactie op die terugtrekking heeft China nu beslist een economische overeenkomst met Australië op te schorten. 'Deze houding heeft als doel de normale uitwisseling en samenwerking met China te verstoren in een mentaliteit van koude oorlog en ideologische discriminatie', aldus de Hervormings- en Ontwikkelingscommissie (NDRC).",
+          "concept": "diplomatic statement",
+          "reasoning": "This section quotes an official statement from the Chinese government commission (NDRC), which is a formal institutional communication."
+        },
+        {
+          "rank": 2,
+          "text": "Vorige maand kondigde de Australische regering aan dat zij een door de staat Victoria ondertekende overeenkomst om toe te treden tot de Nieuwe Zijderoute, beëindigt. Het project, dat in 2013 op initiatief van de Chinese president Xi Jinping van start is gegaan, heeft tot doel de handelsbetrekkingen tussen Azië, Europa, Afrika en andere werelddelen te verbeteren.",
+          "concept": "government announcement",
+          "reasoning": "This section reports an announcement by the Australian government, a formal institutional action."
+        },
+        {
+          "rank": 3,
+          "text": "De relatie tussen Australië en China kwam in 2018 onder druk te staan toen Canberra de Chinese telecomgigant Huawei uitsloot van de bouw van zijn 5G-netwerk, verwijzend naar de nationale veiligheid. Toen Australië vorig jaar een internationaal onderzoek naar de oorsprong van het coronavirus eiste, liepen de spanningen tussen de twee landen nog hoger op.",
+          "concept": "government decision",
+          "reasoning": "This section describes government decisions (excluding Huawei, demanding an investigation) based on national security and diplomatic stance, reflecting institutional agency."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00006",
+      "row_idx": 3827,
+      "normalized": 8.855657577514648,
+      "actual_text": "cárcel y al pago de una reparación civil de 5 millones de soles tras declararse inadmisible el recurso de casación presentado ante",
+      "plain_text": "El exalcalde de Andahuaylas Oscar Rojas Palomino y cuatro exfuncionarios de su gestión fueron condenados a siete años de cárcel y al pago de una reparación civil de 5 millones de soles tras declararse inadmisible el recurso de casación presentado ante la Corte Suprema de Justicia de la República el 27 de agosto del año pasado. Con esta decisión el exalcalde andahuaylino agotó todas las instancias judiciales en su intento por evadir la justicia tras ser acusado por el delito de concusión agravada. Hasta el cierre de la presente edición se desconocía el paradero del político y todavía presidente del Movimiento Regional Llankasun Kuska, el mismo que llevó a la gobernación regional a Baltazar Lantarón Núñez por los próximos cuatro años. Oscar Rojas deberá cumplir condena de 7 años de cárcel junto a sus colaboradores Deiviz Domínguez del Pozo, Carlos Manuel Martínez Huamán, Robert Alexander Valer Miranda y Rafael Eustaquio Quispe. Cabe precisar que la decisión del máximo tribunal de justicia de nuestro país corre en el recurso de casación N° 1373-2018/APURIMAC y fue declarada nula el 22 de febrero del año en curso. Los condenados y que aún se encuentran en libertad ocasionaron un perjuicio económico de 4 millones 706 mil soles en agravio de la Municipalidad de Andahuaylas durante el período 2011-2014.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El exalcalde de Andahuaylas Oscar Rojas Palomino y cuatro exfuncionarios de su gestión fueron condenados a siete años de cárcel y al pago van een reparación civil de 5 millones de soles tras declararse inadmisible el recurso de casación presentado ante la Corte Suprema de Justicia de la República el 27 de agosto del año pasado.",
+          "concept": "legal judgment",
+          "reasoning": "This section reports a Supreme Court decision convicting former officials, a formal legal institutional action."
+        },
+        {
+          "rank": 2,
+          "text": "Cabe precisar que la decisión del máximo tribunal de justicia de nuestro país corre en el recurso de casación N° 1373-2018/APURIMAC y fue declarada nula el 22 de febrero del año en curso.",
+          "concept": "court ruling",
+          "reasoning": "This section specifies the details of the Supreme Court's ruling, highlighting formal judicial procedure."
+        },
+        {
+          "rank": 3,
+          "text": "Los condenados y que aún se encuentran en libertad ocasionaron un perjuicio económico de 4 millones 706 mil soles en agravio de la Municipalidad de Andahuaylas durante el período 2011-2014.",
+          "concept": "institutional harm",
+          "reasoning": "This section states the economic harm caused to a municipality, indicating institutional impact from formal proceedings."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00014",
+      "row_idx": 4734,
+      "normalized": 7.862974166870117,
+      "actual_text": "Kapitalmärkten in den vergangenen Tagen wenig zu spüren. Statt fallender Kurse und steigender Renditen,",
+      "plain_text": "Von einer geldpolitischen Normalisierung war an den Kapitalmärkten in den vergangenen Tagen wenig zu spüren. Statt fallender Kurse und steigender Renditen, wie sie eigentlich zu erwarten wären, wenn die Zentralbanken ihre ultraexpansiven Massnahmen zurückfahren, war das Gegenteil zu verzeichnen. In den USA, wo mit einer weiteren Erhöhung der Leitzinsen noch in diesem Jahr gerechnet wird – für die nächste Sitzung des Fed am Mittwoch wird kein Zinsschritt erwartet, sondern lediglich die Vorbereitung des Terrains für das Treffen im Dezember –, sanken die Renditen der zehnjährigen Staatsanleihen um 5 Basispunkte (BP) auf 2,37%. In einer ähnlichen Grössenordnung waren die Renditen auch hierzulande rückläufig. Für zehnjährige Eidgenossen liegt sie nun wieder bei –0,07%. Stärker reagierten dagegen die Renditen der deutschen Bundesanleihen, die für die genannte Laufzeit um 10 BP auf 0,37% abnahmen. Die Begründung liegt in der als sehr behutsam angesehenen Drosselung der Anleihekäufe, die die Europäische Zentralbank (EZB) ab Januar vollziehen will. Auch wenn die Marktteilnehmer nicht damit gerechnet hatten, dass EZB-Präsident Mario Draghi am jüngsten Treffen der Notenbank eine geldpolitische Wende verkünden wird, hatten sie wohl doch konkretere Hinweise auf ein Ende des EZB-Anleihekaufprogramms erwartet. Die Halbierung des monatlichen Volumens auf 30 Mrd. € ab Januar und die Verlängerung bis mindestens September nahm so mancher Investor denn eher als expansiven Schritt auf. Nun halten es nicht wenige Marktbeobachter für wahrscheinlich, dass die Zinsen in der Euro-Zone bis zum Ende der Amtszeit von Mario Draghi im Oktober 2019 nur unwesentlich steigen werden. Für das Zinsgefüge hierzulande würde das ebenfalls wenig Spielraum nach oben bedeuten, während allgemein die Überzeugung herrscht, dass immerhin die Renditen in den USA mittelfristig spürbar zulegen werden. Am Schweizer Primärmarkt können sich die Akteure derzeit nicht über zu wenig Beschäftigung beklagen. In der vergangenen Woche wurden Papiere mit über insgesamt 1,7 Mrd. Fr. emittiert, wovon allein gut 1 Mrd. Fr. auf das Konto der Pfandbriefbank ging. Dank der starken Verfassung des Marktes wurde das Volumen problemlos absorbiert, und dass nach langer Zeit mit der Münchner Hypo und der Caisse des Dépôts et Consignations zwei ausländische Schuldner mit einer sehr guten Bonität aktiv waren, wurde von den Investoren besonders gern gesehen.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Die Begründung liegt in der als sehr behutsam angesehenen Drosselung der Anleihekäufe, die die Europäische Zentralbank (EZB) ab Januar vollziehen will.",
+          "concept": "central bank policy",
+          "reasoning": "This section mentions the European Central Bank's planned tapering of bond purchases, a formal monetary policy decision."
+        },
+        {
+          "rank": 2,
+          "text": "In den USA, wo mit einer weiteren Erhöhung der Leitzinsen noch in diesem Jahr gerechnet wird – für die nächste Sitzung des Fed am Mittwoch wird kein Zinsschritt erwartet, sondern lediglich die Vorbereitung des Terrains für das Treffen im Dezember –, sanken die Renditen der zehnjährigen Staatsanleihen um 5 Basispunkte (BP) auf 2,37%.",
+          "concept": "central bank meeting",
+          "reasoning": "This section discusses the Federal Reserve's upcoming meeting and interest rate expectations, reflecting central bank communication."
+        },
+        {
+          "rank": 3,
+          "text": "Auch wenn die Marktteilnehmer nicht damit gerechnet hatten, dass EZB-Präsident Mario Draghi am jüngsten Treffen der Notenbank eine geldpolitische Wende verkünden wird, hatten sie wohl doch konkretere Hinweise auf ein Ende des EZB-Anleihekaufprogramms erwartet.",
+          "concept": "central bank communication",
+          "reasoning": "This section refers to ECB President Mario Draghi's communication and market expectations, indicating institutional discourse."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 835,
+      "normalized": 0.0,
+      "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
+      "plain_text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor  Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar. Desde el pasado sábado 28 de noviembre, la zona ha registrado un enjambre sísmico, que según los datos del Instituto Volcanológico de Canarias (Involcan) superan la veintena de movimientos. La propia institución científica resume que los eventos están siendo localizados a una profundidad promedia de entre seis y ocho kilómetros bajo el nivel del mar.  El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.  El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".  Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 \"y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población\". aclara el centro científico que concluye que \"este tipo de enjambres son comunes en volcanes activos, y en un 90% de ocasiones desaparecen de la misma forma en la que se presentan\".  Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población. En concreto, de la web del IGN se desprende que el de mayor intensidad alcanzó los dos grados y se registró a las 11:05 de ayer a una profundidad de nueve kilómetros.  Este terremoto vino precedido de un movimiento de hasta 1,7 grados registrado durante la noche del domingo en una zona cercana y a unos seis kilómetros de profundidad. Otros seísmos de intensidad menor se localizaron en diversas zonas de la Isla como Granadilla o Fasnia, además de los habituales en la zona del Volcán de Enmedio, aunque ninguno de ellos alcanzó, según el Instituto Geográfico Nacional, los dos grados del movimiento en Vilaflor alrededor de las once de la mañana.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan 'una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización'.",
+          "concept": "scientific statement",
+          "reasoning": "This section quotes a formal communication from the Volcanological Institute of Canarias, an official scientific institution."
+        },
+        {
+          "rank": 2,
+          "text": "Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 'y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población'. aclara el centro científico que concluye que 'este tipo de enjambres son comunes en volcanes activos, y en un 90% de ocasiones desaparecen de la misma forma en la que se presentan'.",
+          "concept": "institutional reassurance",
+          "reasoning": "This section includes the scientific center's reassurance to the public, an institutional statement aimed at formal discourse."
+        },
+        {
+          "rank": 3,
+          "text": "Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población.",
+          "concept": "official data",
+          "reasoning": "This section cites data from the National Geographic Institute, an official source providing institutional reporting."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state.",
+          "concept": "library event",
+          "reasoning": "This section mentions a virtual event hosted by a public library, an institutional activity though not a formal announcement."
+        },
+        {
+          "rank": 2,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle.",
+          "concept": "media endorsement",
+          "reasoning": "This section notes endorsements from media institutions (The Texas Observer, Houston Chronicle), which are organizational recognitions."
+        },
+        {
+          "rank": 3,
+          "text": "He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters.",
+          "concept": "institutional affiliations",
+          "reasoning": "This section lists the author's affiliations with several Texas institutions, indicating formal organizational connections."
+        }
+      ]
+    }
+  ]
+}

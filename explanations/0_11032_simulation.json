@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_11032",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T03:45:46Z",
+  "explanation_used": "This neuron strongly responds to the presence of the substring \"net\" (case-insensitive) in text, whether it appears as a standalone word (e.g., \"net assets,\" \"net income\"), within larger words (e.g., \"netizens,\" \"Vernetzung\"), in proper names (e.g., \"Roberto Campos Neto,\" \"Gil Netter\"), in email domains (e.g., \"bloomberg.net\"), or in various languages (e.g., Turkish \"net kârını,\" Czech \"netušila\").\n\nThe pattern appears across diverse domains and languages: financial/business contexts (\"net zero,\" \"net worth\"), internet-related terms (\"netizens,\" \".net\" domains), news about orders and income, and personal or place names. It activates in English, Turkish, German, Czech, and Italian texts, showing no semantic preference—only the presence of the character sequence \"net.\"\n\nIn contrast, low-activation examples completely lack the substring \"net\" and cover unrelated topics like music concerts, political events, natural disasters, and sports scores without that string. The neuron’s response is driven purely by the occurrence of \"net,\" not by topic, sentiment, or other linguistic features.\n\nThis neuron functions as a simple string-matching detector for \"net,\" activating on its appearance regardless of semantic context or linguistic role, indicating a focus on orthographic form rather than meaning.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00012",
+      "row_idx": 4679,
+      "normalized": 9.652341842651367,
+      "actual_text": "NetScout Aktie: Das gab es noch nie! 01.",
+      "plain_text": "NetScout Aktie: Das gab es noch nie!  01.01.24 21:21 Aktiennews  Die Aktie von Netscout wird unter dem Gesichtspunkt des Kurs-Gewinn-Verhältnisses (KGV) als unterbewertet angesehen, da das KGV mit 25,47 insgesamt 45 Prozent niedriger liegt als der Branchendurchschnitt im Segment \"Kommunikationsausrüstung\" von 46,01. Somit erhält die Aktie aus Sicht der fundamentalen Analyse die Einstufung \"Gut\". Auch die längerfristige Betrachtung der Kommunikation im Internet spielt eine wichtige Rolle bei der Einschätzung einer Aktie. In diesem Zusammenhang zeigt Netscout interessante Ausprägungen. Die Diskussionsintensität ändert sich stark, da deutlich weniger Aktivität zu sehen ist, was zu einer \"Schlecht\"-Einschätzung führt. Die Rate der Stimmungsänderung weist jedoch eine positive Veränderung auf, was zu einer \"Gut\"-Bewertung führt. Insgesamt ergibt sich daher eine \"Gut\"-Einstufung. Die Anleger haben in den vergangenen zwei Wochen überwiegend positive Rückmeldungen zu Netscout in den sozialen Medien abgegeben. Die Auswertung der Kommentare und Wortmeldungen ergibt eine \"Gut\"-Einstufung der Anleger-Stimmung auf dieser Ebene. Daher erzeugt die Messung der Anleger-Stimmung insgesamt eine \"Gut\"-Einstufung. In Bezug auf die Dividende weist Netscout derzeit eine Dividendenrendite von 0 Prozent auf, was niedriger ist als der Branchendurchschnitt von 11546.49%. Aufgrund dieser Konstellation erhält die Netscout-Aktie in dieser Kategorie eine \"Schlecht\"-Bewertung. Kaufen, halten oder verkaufen – Ihre NetScout-Analyse vom 01.01. liefert die Antwort: Wie wird sich NetScout jetzt weiter entwickeln? Lohnt sich ein Einstieg oder sollten Anleger lieber verkaufen? Die Antworten auf diese Fragen und warum Sie jetzt handeln müssen, erfahren Sie in der aktuellen NetScout-Analyse.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kaufen, halten oder verkaufen – Ihre NetScout-Analyse vom 01.01. liefert die Antwort: Wie wird sich NetScout jetzt weiter entwickeln? Lohnt sich ein Einstieg oder sollten Anleger lieber verkaufen? Die Antworten auf diese Fragen und warum Sie jetzt handeln müssen, erfahren Sie in der aktuellen NetScout-Analyse.",
+          "concept": "NetScout company name",
+          "reasoning": "This section contains multiple instances of the substring 'net' in 'NetScout' and 'NetScout-Analyse', which strongly matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Auch die längerfristige Betrachtung der Kommunikation im Internet spielt eine wichtige Rolle bei der Einschätzung einer Aktie. In diesem Zusammenhang zeigt Netscout interessante Ausprägungen. Die Diskussionsintensität ändert sich stark, da deutlich weniger Aktivität zu sehen ist, was zu einer \"Schlecht\"-Einstufung führt.",
+          "concept": "Internet and Netscout",
+          "reasoning": "This section contains the substring 'net' in 'Internet' and 'Netscout', matching the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Die Anleger haben in den vergangenen zwei Wochen überwiegend positive Rückmeldungen zu Netscout in den sozialen Medien abgegeben. Die Auswertung der Kommentare und Wortmeldungen ergibt eine \"Gut\"-Einstufung der Anleger-Stimmung auf dieser Ebene. Daher erzeugt die Messung der Anleger-Stimmung insgesamt eine \"Gut\"-Einstufung.",
+          "concept": "Netscout mention",
+          "reasoning": "This section contains the substring 'net' in 'Netscout', which matches the neuron's pattern."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00002",
+      "row_idx": 3989,
+      "normalized": 8.244640350341797,
+      "actual_text": "d'un an à une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'à",
+      "plain_text": "A l'issue d'une journée de protestation des forces de l'ordre, le ministère de l'Intérieur a accepté mercredi soir de revaloriser les salaires des policiers qui réclamaient plus de moyens après leur mobilisation en masse face aux \"gilets jaunes\". Depuis le début de la semaine, le gouvernement cherche à désamorcer la fronde qui monte dans la police et avait promis de s'attaquer au \"chantier\" du paiement des millions d'heures supplémentaires en souffrance et de verser une prime exceptionnelle de 300 euros. Sous pression mercredi après des fermetures \"symboliques\" de commissariat dans plusieurs villes, l'Intérieur est finalement allé plus loin en concluant un accord de revalorisation salariale à l'issue de négociations tendues avec les trois principaux syndicats de la profession. \"Cet accord (...) ouvre la voie à une amélioration et une modernisation des conditions de travail et de rémunération des policiers\", ont affirmé dans un communiqué le ministre de l'Intérieur Christophe Castaner et son secrétaire d'Etat Laurent Nuñez, précisant qu'une première revalorisation de 40 euros par mois interviendrait dès le 1er janvier. \"C'est ce qu'on voulait, on voulait une amélioration immédiate du pouvoir d'achat\", s'est félicité le secrétaire général d'Unité-SGP Police, Yves Lefebvre, en sortant de plusieurs heures de tractations qui ont débuté mardi et se sont achevées tard mercredi soir. Selon le syndicat, l'augmentation des salaires sera ensuite graduelle et devrait aboutir au bout d'un an à une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'à 150 euros pour les plus hauts gradés. Le coût total pour les finances publiques n'a pas été communiqué alors que le gouvernement a déjà annoncé plusieurs milliards d'euros de mesures destinées à faire retomber la colère des \"gilets jaunes\". - \"Reconnaissance\" - Conséquence de cette revalorisation, la prime exceptionnelle, durement critiquée par des policiers qui y voyaient une proposition \"méprisante\", voit son périmètre drastiquement réduit: elle ne sera versée qu'aux personnels techniques, scientifiques et administratifs et aux employés de préfecture mobilisés par la crise des \"gilets jaunes\" depuis le 17 novembre, a ajouté M. Lefebvre. Le chantier des heures supplémentaires, qui porte sur quelque 275 millions d'euros, reste en revanche ouvert et sera \"traité\" à partir de janvier, a assuré le syndicaliste. \"C'est la reconnaissance de l'Etat, c'est la reconnaissance matérielle que nous avions exigée\", s'est réjoui son homologue du syndicat Alliance, Jean-Claude Delage, évoquant une avancée \"conséquente\" à l'issue des négociations et rendant hommage à la mobilisation des policiers mercredi. Tout au long de la journée, la protestation des forces de l'ordre a pris la forme de fermetures \"symboliques\" de commissariats et d'une grève du zèle dans plusieurs villes, selon des journalistes de l'AFP. A Bordeaux, le commissariat est resté ouvert mais seul le \"service minimum\" a été assuré. Même son de cloche à Marseille, où les \"missions d'urgence\" étaient accomplies tandis que les tâches secondaires ont été \"laissées de côté\", a expliqué un responsable local d'Alliance. La grogne s'était également fait sentir mercredi matin aux aéroports parisiens de Roissy et d'Orly où des fonctionnaires de la Police aux frontières ont appliqué un contrôle scrupuleux des passeports en soutien à leurs collègues. De longues files d'attente se sont formées mais aucun vol n'a été retardé. Confronté à sa première crise en interne depuis son arrivée il y a deux mois à Beauvau, Christophe Castaner s'était voulu rassurant mardi, affirmant que les policiers n'étaient pas des \"gilets jaunes\" et qu'ils ne bloqueraient pas les commissariats \"parce qu'ils ont le sens du service public\". Mais les syndicats ont récemment durci le ton contre le gouvernement après un mois éreintant où les forces de l'ordre ont dû gérer la mobilisation des \"gilets jaunes\" mais aussi une menace terroriste revenue brutalement sur le devant de l'actualité avec l'attentat de Strasbourg, qui a fait cinq morts. En marge des syndicats, un mouvement baptisé \"gyros bleus\" et relayé sur les réseaux sociaux a, lui, agité le souvenir du mouvement de fronde inédit qui a surgi à l'automne 2016 après l'attaque au cocktail molotov contre des fonctionnaires à Viry-Chatillon (Essonne). Ce collectif avait prévu de se rassembler jeudi soir à Paris.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Selon le syndicat, l'augmentation des salaires sera ensuite graduelle et devrait aboutir au bout d'un an à une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'à 150 euros pour les plus hauts gradés.",
+          "concept": "net salary",
+          "reasoning": "This section contains the substring 'net' in '120 euros net', which matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "A l'issue d'une journée de protestation des forces de l'ordre, le ministère de l'Intérieur a accepté mercredi soir de revaloriser les salaires des policiers qui réclamaient plus de moyens après leur mobilisation en masse face aux \"gilets jaunes\".",
+          "concept": "police protest",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 3,
+          "text": "En marge des syndicats, un mouvement baptisé \"gyros bleus\" et relayé sur les réseaux sociaux a, lui, agité le souvenir du mouvement de fronde inédit qui a surgi à l'automne 2016 après l'attaque au cocktail molotov contre des fonctionnaires à Viry-Chatillon (Essonne). Ce collectif avait prévu de se rassembler jeudi soir à Paris.",
+          "concept": "gyros bleus movement",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 1306,
+      "normalized": 3.2723474502563477,
+      "actual_text": "was memorably adapted to film in 1974, with Albert Finney playing the fastidious Belgian detective Hercule Poirot. Now, Sir Kenneth",
+      "plain_text": "November 08, 2017 3:41 PM  Agatha Christie’s 1934 mystery novel “Murder on the Orient Express” was memorably adapted to film in 1974, with Albert Finney playing the fastidious Belgian detective Hercule Poirot. Now, Sir Kenneth Branagh slips into Poirot’s signature splendid mustache in a star-studded, big-budget remake, which he has also directed.  The way he tears into the performance, with an elegant vigor, it seems as though Branagh has been waiting his whole life to age into the role of Poirot, clearly relishing the blend of quirky meticulousness – one could call it obsessive-compulsiveness – and cheeky humor. He runs away with the picture, both as star and director, with lavish production design and an intoxicating and dazzling display of cinematic style.  The murder mystery set aboard a train from Istanbul to Calais is the kind of old-fashioned romp we don’t often see anymore, executed with a thoroughly modern sense of verve and rhythm. An opening prologue set in Jerusalem concerning a missing religious relic shows us Poirot’s unique methods, as well as lays out the spritely, agile pace and warm humor that pervades Poirot’s presence. Despite his dealings with dastardly doings, Poirot maintains a sense of dignity and cheer. He’s truly funny – this is a man who wears an elaborate sleeping mask on his mustache and giggles incessantly at Dickens – but he does take crime very seriously.  Poirot’s hoping for a vacation, but alas, that’s not to be. When he runs into an old pal in Istanbul (while marveling over an array of breads – this man loves his baked goods), he secures passage aboard a luxury sleeper train, soon to become a crime scene. Through a series of dizzyingly complicated long shots, we’re introduced to all our main characters in the train station as they board, the characteristics and clues flying fast and furiously.  As for the stars in “star-studded,” we’ve got well-regarded favorites – Michelle Pfeiffer as a cougarish husband hunter, Judi Dench as a Russian princess, Penelope Cruz as a severe missionary, Willem Dafoe as an Austrian professor and Johnny Depp appropriately cast as a dirt bag gangster and obvious villain. Joining them are up-and-comers Daisy Ridley as an international governess, Leslie Odom, Jr., as a noble doctor, Sergei Polunin and Lucy Boynton as a reclusive Count and Contessa, and Josh Gad as the gangster’s secretary. When the murder is discovered, Poirot is pressed into duty, and all passengers become suspects.  Those who have read the book or know the original film will know the twists and turns of the mystery, but it’s not worth spoiling for those who are new to the story. The pop and fizz of the opening, and the lush production are utterly transporting and will make you crave a croissant, a coupe of champagne and a long trip on a luxury train through a wintry landscape.  But as the mystery deepens, reveals itself and grows darker, it becomes sad, delving into the aftermath of trauma and how it reveals itself. No longer a romp, all of the energy that Branagh starts out with drains like blood out of a corpse, leaving the film ultimately cold to the touch. The beginning is a rollicking ride that will likely leave audiences craving more Christie, and here’s hoping we do see Branagh return as Poirot – his rendition is too fun to be cut short.  Movie review  ‘Murder On The Orient Express’ ☆☆☆ Rated PG-13 for violence and thematic elements. 1:54. AMC Classic, Fayette, Frankfort, Georgetown, Hamburg, Nicholasville, Richmond, Winchester.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "November 08, 2017 3:41 PM  Agatha Christie’s 1934 mystery novel “Murder on the Orient Express” was memorably adapted to film in 1974, with Albert Finney playing the fastidious Belgian detective Hercule Poirot. Now, Sir Kenneth Branagh slips into Poirot’s signature splendid mustache in a star-studded, big-budget remake, which he has also directed.",
+          "concept": "film adaptation",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 2,
+          "text": "The murder mystery set aboard a train from Istanbul to Calais is the kind of old-fashioned romp we don’t often see anymore, executed with a thoroughly modern sense of verve and rhythm. An opening prologue set in Jerusalem concerning a missing religious relic shows us Poirot’s unique methods, as well as lays out the spritely, agile pace and warm humor that pervades Poirot’s presence.",
+          "concept": "plot description",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 3,
+          "text": "But as the mystery deepens, reveals itself and grows darker, it becomes sad, delving into the aftermath of trauma and how it reveals itself. No longer a romp, all of the energy that Branagh starts out with drains like blood out of a corpse, leaving the film ultimately cold to the touch.",
+          "concept": "film critique",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2588,
+      "normalized": 0.1906954050064087,
+      "actual_text": "12-17 age group on March 9, 2022, and in children aged 7-11 years on June 2",
+      "plain_text": "The Subject Expert Committee of the CDSCO deliberated on the issue and recommended for market authorisation of Covid jab Covovax as a heterologous booster dose,” a person told ET. Prakash Kumar Singh, Director of Government and Regulatory Affairs at the Serum Institute of India (SII), had earlier written to the DCGI for the approval of Covovax heterologous booster dose for those aged 18 years. The DCGI approved Covovax for restricted use in emergency situations in adults in December in the 12-17 age group on March 9, 2022, and in children aged 7-11 years on June 28 last year subject to certain conditions. Covovax is manufactured through technology transfer from Novavax. It has been approved by the European Medicines Agency for conditional marketing authorisation. It was granted an emergency-use listing by the World Health Organization (WHO) on December 17, 2021. Read More News on Download The Economic Times News App to get Daily Market Updates & Live Business News.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Subject Expert Committee of the CDSCO deliberated on the issue and recommended for market authorisation of Covid jab Covovax as a heterologous booster dose,” a person told ET.",
+          "concept": "vaccine approval",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 2,
+          "text": "Prakash Kumar Singh, Director of Government and Regulatory Affairs at the Serum Institute of India (SII), had earlier written to the DCGI for the approval of Covovax heterologous booster dose for those aged 18 years.",
+          "concept": "regulatory request",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 3,
+          "text": "The DCGI approved Covovax for restricted use in emergency situations in adults in December in the 12-17 age group on March 9, 2022, and in children aged 7-11 years on June 28 last year subject to certain conditions.",
+          "concept": "approval details",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00006",
+      "row_idx": 1328,
+      "normalized": 0.0,
+      "actual_text": "NEWTON, NC (WBTV) - Carolyn Leonhardt had just gotten back into",
+      "plain_text": "NEWTON, NC (WBTV) - Carolyn Leonhardt had just gotten back into bed to nap a few minutes on Sunday morning when right at 7:15 it happened. “There was just a loud boom!” Carolyn was not sure what it was from. “I thought maybe something had fallen off a wall in the house. She forgot about it until a neighbor asked her if she had heard the earthquake Sunday morning. Experts say it was a 2.4 magnitude earthquake centered a kilometer deep under the Robinson Road area near Newton.  No damage was reported anywhere but the quake was heard and felt as far away as Asheville. North Carolina sits on a fault line and earthquakes are not unusual but experts say in most cases they are so minor that only seismic instruments would pick it up.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "NEWTON, NC (WBTV) - Carolyn Leonhardt had just gotten back into bed to nap a few minutes on Sunday morning when right at 7:15 it happened. “There was just a loud boom!”",
+          "concept": "earthquake experience",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 2,
+          "text": "Carolyn was not sure what it was from. “I thought maybe something had fallen off a wall in the house. She forgot about it until a neighbor asked her if she had heard the earthquake Sunday morning.",
+          "concept": "uncertainty and realization",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Experts say it was a 2.4 magnitude earthquake centered a kilometer deep under the Robinson Road area near Newton.  No damage was reported anywhere but the quake was heard and felt as far away as Asheville. North Carolina sits on a fault line and earthquakes are not unusual but experts say in most cases they are so minor that only seismic instruments would pick it up.",
+          "concept": "earthquake facts",
+          "reasoning": "This section does not contain the substring 'net', so it does not match the neuron's pattern and should cause low activation."
+        }
+      ]
+    }
+  ]
+}

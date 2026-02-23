@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_3528",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the character sequence **\"affair\"** (including plural \"affairs\" and compounds like \"Foreign Affairs,\" \"state of affairs,\" or the word \"affair\" itself), and, secondarily, to the word **\"tree\"** (which contains the substring \"ree,\" but likely fires due to the embedded \"affair\" when the preceding 't' is considered as part of the sequence).\n\n2. **Domain coverage**: The primary domain is formal governmental and diplomatic contexts, especially involving ministries or departments of \"Foreign Affairs\" across multiple countries (Vietnam, Pakistan, Iran, U.S., etc.), typically in English news text. The pattern also appears in general English phrases like \"state of affairs\" or \"matters.\" The secondary \"tree\" pattern appears in environmental, literary, and municipal contexts (e.g., \"Tree City,\" \"cherry trees\"). Low-activation texts are often non-English snippets, truncated sentences, or topics completely unrelated to these sequences.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the substring \"affair\" or the word \"tree.\" The low-activation examples lack these sequences entirely; they are in other languages (Czech, Spanish, Hungarian, Turkish, Russian, etc.), are sentence fragments about unrelated topics (sports, local crime, social media), or are English segments where neither target string appears.\n\n4. **Closing interpretation**: This neuron is likely a n-gram detector for the character sequence \"affair,\" with strong cross-lingual sensitivity to its presence. Its activation on \"tree\" suggests the model's internal representation may treat \"t\" + \"ree\" as overlapping with or triggering the same detector, highlighting how some neurons in sparse autoencoders can latch on to specific character-level or morpheme-level patterns rather than purely semantic concepts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "the subcommittee.\u201d He said the committee report will be presented to the Foreign Affairs Committee, which can approve or reject its findings. Some experts say the findings",
+      "normalized_activation": 9.653429985046387,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.541,
+          "meaning_score": 0.7091,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.541,
+          "meaning_score": 0.4382,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3917
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4168,
+          "meaning_score": 0.312,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2915
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "AMN /NEW DELHI The Ministry of External Affairs (MEA) said that the legal team of eight jailed former Indian Navy personnel has",
+      "normalized_activation": 8.133350372314453,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2138,
+          "meaning_score": 0.7992,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4052
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2025,
+          "meaning_score": 0.629,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3326
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2025,
+          "meaning_score": 0.5367,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2957
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ", to the\u201ccementki kothi\u201d by the peepal tree. It is my mother\u2019s ancestral house, it still stands solid, strapping",
+      "normalized_activation": 6.890220642089844,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.6241,
+          "meaning_score": 0.3587,
+          "overlap_fraction": 0.3929,
+          "location_score": 0.0786,
+          "combined_score": 0.4717
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3172,
+          "meaning_score": 0.5743,
+          "overlap_fraction": 0.5982,
+          "location_score": 0.1196,
+          "combined_score": 0.4762
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.325,
+          "meaning_score": 0.2964,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2486
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u0413\u0440\u044f\u0437\u043d\u0430\u044f \u0432\u043e\u0434\u0430 \u0442\u0435\u0447\u0435\u0442 \u0438\u0437 \u0432\u043e\u0434\u043e\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0445 \u043a\u0440\u0430\u043d",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1236,
+          "meaning_score": 0.7702,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5575
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1987,
+          "meaning_score": 0.4851,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2735
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1702,
+          "meaning_score": 0.4911,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2645
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "https://www.brighteonstore.com/?rfsn=6464",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3064,
+          "meaning_score": 0.6451,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5806
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1727,
+          "meaning_score": 0.2624,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.174
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2732,
+          "meaning_score": 0.2237,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1987
+        }
+      ]
+    }
+  ]
+}

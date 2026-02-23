@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_2737",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:13:00Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to textual references to northeastern regions or the abbreviation \"NE\" (such as \"Nordeste\" in Portuguese, \"noreste\" in Spanish, \"North East\" in English, and the standalone token \"NE\" in addresses or acronyms like \"NEP\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (Portuguese, Spanish, English, Italian, Greek) and contexts including geography (e.g., Brazilian Nordeste, Indian North East), politics (e.g., dictatorship mentions), education (New Education Policy), and business (carbon storage partnerships). It detects both explicit region names and abbreviations, often in capitalized or proper noun forms.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain the substring \"ne\" in region-related terms or the abbreviation \"NE\", whereas low-activation texts lack these entirely (e.g., no \"northeast\", \"NE\", or equivalents). The high group also frequently includes political topics like dictatorship, which may co-occur with geographical references but are absent in the low group.\n\n4. **Closing interpretation**: The neuron primarily detects the concept of \"northeast\" as a geographical or directional indicator, with secondary sensitivity to political regime descriptions that often appear in similar textual contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 1520,
+      "normalized": 9.33400821685791,
+      "actual_text": "GE have argued the disposal site will be built with multiple safety measures. Speaking to NEPM's The Fabulous 413, Warren said the proposal isn't",
+      "plain_text": "Once supportive of EPA's Housatonic cleanup plan, Sen. Warren now calls key part of it 'an insult'  Massachusetts U.S. Sen. Elizabeth Warren said she's \"wrangling\" with the federal Environmental Protection Agency over the next phase of cleaning up the Housatonic River in Berkshire County. General Electric polluted the river with PCBs decades ago when it operated a factory in Pittsfield. The cleanup plan — agreed to by local communities, the company and the EPA in 2020 — calls for some lower-level toxic waste to be disposed of at a dump near the river. The EPA and GE have argued the disposal site will be built with multiple safety measures. Speaking to NEPM's The Fabulous 413, Warren said the proposal isn't acceptable to her. \"My job here is to keep my foot on the back of the EPA. And I want them to clean up the river, and I do not want them to store this waste near the Housatonic or any place else in that area,\" Warren said. \"I'm wrangling with the EPA over this right now. I'm glad that folks in the locality are raising it. But this just isn't right.\" Warren also said it has taken \"way, way, way too long\" for the cleanup to take place. \"And I think it is an insult now to turn around and say, not only have there been delays in getting it cleaning it up, but we want to do off-site, right there close, of storage and processing of these dangerous chemicals,\" she said. \"My answer is no.\" Warren's comments were similar to those she made in 2018, urging the EPA to send toxic waste from the Housatonic to an out-of-state site. She communicated those concerns to the EPA in a letter also signed by Massachusetts Sen. Ed Markey and Rep. Richard Neal. But only last year, Warren, Markey and Neal were included in an EPA press release endorsing the final permit for the cleanup plan, which includes the controversial dump in Lee. \"Today's decision by the EPA will support the recovery of past wrongs that have impacted the communities along the Housatonic River for over 70 years. It is the result of the hard work of community leaders and will ensure the Housatonic River can be enjoyed for generations to come,\" the Democratic members of Congress said in the March 2022 press release. \"We will continue working with our federal, state and local partners to hold GE accountable for meeting all of its obligations and seek the environmental justice our communities deserve.\" Asked to explain Warren's comments Thursday opposing the dump in light of her previous support for the EPA's plan, a spokesperson denied there was a change of heart. \"For years, Senator Warren has pushed for the EPA to hold GE accountable for the clean-up of the Housatonic River and her comments reflected the community’s frustrations about that process, not any new position,\" the spokesperson wrote. \"The Senator continues to work with local, state, and federal partners to achieve the environmental justice our communities deserve.\" Warren's office declined to say how the senator has communicated to the EPA her displeasure with the proposed dump. Nancy Cohen and Sam Hudzik contributed to this report.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Speaking to NEPM's The Fabulous 413, Warren said the proposal isn't acceptable to her. 'My job here is to keep my foot on the back of the EPA. And I want them to clean up the river, and I do not want them to store this waste near the Housatonic or any place else in that area,' Warren said.",
+          "concept": "NE abbreviation",
+          "reasoning": "Contains 'NE' in the acronym NEPM, which likely refers to New England, a northeastern region."
+        },
+        {
+          "rank": 2,
+          "text": "Warren's comments were similar to those she made in 2018, urging the EPA to send toxic waste from the Housatonic to an out-of-state site. She communicated those concerns to the EPA in a letter also signed by Massachusetts Sen. Ed Markey and Rep. Richard Neal.",
+          "concept": "northeastern state",
+          "reasoning": "Mentions Massachusetts, which is part of the northeastern United States."
+        },
+        {
+          "rank": 3,
+          "text": "The cleanup plan — agreed to by local communities, the company and the EPA in 2020 — calls for some lower-level toxic waste to be disposed of at a dump near the river. The EPA and GE have argued the disposal site will be built with multiple safety measures.",
+          "concept": "political topic",
+          "reasoning": "Discusses environmental policy, which may co-occur with geographical references in similar contexts."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00000",
+      "row_idx": 4374,
+      "normalized": 8.219348907470703,
+      "actual_text": "atholischen Kirche hat hohe Wellen geschlagen. Um ihn aufzuarbeiten wurde eine Studie in Auftrag gegeben, das eine oder andere",
+      "plain_text": "18.03.2019 – 11:35  phoenix premiere: Im Namen Gottes! Frauen gegen Missbrauch in der Kirche - Donnerstag, 21. März 2019, 21.00 Uhr  Bonn (ots) Der Missbrauchsskandal in der katholischen Kirche hat hohe Wellen geschlagen. Um ihn aufzuarbeiten wurde eine Studie in Auftrag gegeben, das eine oder andere kirchenrechtliche Verfahren eingeleitet, und mit dem Trierer Bischof Ackermann ein Missbrauchsbeauftragter installiert. Sogar Papst Franziskus hat inzwischen reagiert und höchste kirchliche Würdenträger zu einer Konferenz nach Rom geladen. Doch reicht das? Nein! Sagen zwei engagierte Frauen, die für mehr Aufklärung kämpfen. Jutta Lehnert, Pastoralreferentin in Koblenz, findet, die Kirche nehme das Evangelium nicht ernst. Es ginge nur um Machterhalt, nicht wirklich um Aufklärung und Zuwendung, lautet ihr Vorwurf. Ehrenamtlich besucht sie von Missbrauch Betroffene, weil sonst ja niemand mit ihnen rede. Dafür sei die Kirche 'zu weit weg von Jesus', sagt Jutta Lehnert, und will eine Erneuerung von unten. Die Theologin kämpft für andere Strukturen: Weg von der abgehobenen, patriarchalen Papstkirche hin zu einer nahbaren Volkskirche, in der mehr Frauen das Sagen haben. Auch Doris Reisinger hat Theologie studiert. Sie weiß, was es heißt, wenn man nichts zu sagen hat. Als Ordensfrau fühlte sie sich entmündigt und ihrer Persönlichkeit beraubt. Sie sei von einem Priester vergewaltigt worden. Kein Einzelfall, wie sie sagt, denn 'Nein' sagen sei für gläubige Frauen besonders schwierig: Priester besitzen von Amts wegen einen unantastbaren Status. Wer von sich behaupte, er kenne den Weg zu Gott, habe eine Macht, der sich gläubige Menschen nur schwer entziehen könnten. 'Spirituellen Missbrauch' nennt Doris Reisinger das. Für sie eine Vorstufe zu sexuellen Übergriffen. Nur durch öffentlichen Druck werde sich etwas ändern. Den baut sie auf indem sie Bücher schreibt, Vorträge hält und Interviews gibt. In einem sind sich die beiden streitbaren Frauen einig: Die kirchlichen Würdenträger seien diejenigen, die zum Evangelium zurückfinden müssten. Die Kirche habe den Glauben verraten. Film von Florian von Stetten, WDR/phoenix/2019 Pressekontakt: phoenix-Kommunikation \nPressestelle \nTelefon: 0228 / 9584 192 \nFax: 0228 / 9584 198 \npresse@phoenix.de \npresse.phoenix.de Original-Content von: PHOENIX, übermittelt durch news aktuell",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Nein! Sagen zwei engagierte Frauen, die für mehr Aufklärung kämpfen.",
+          "concept": "ne substring",
+          "reasoning": "Contains 'Nein' with the substring 'ne', but not in a region-related context."
+        },
+        {
+          "rank": 2,
+          "text": "Jutta Lehnert, Pastoralreferentin in Koblenz, findet, die Kirche nehme das Evangelium nicht ernst.",
+          "concept": "church criticism",
+          "reasoning": "No northeastern references or 'NE' abbreviations present."
+        },
+        {
+          "rank": 3,
+          "text": "Doris Reisinger hat Theologie studiert. Sie weiß, was es heißt, wenn man nichts zu sagen hat.",
+          "concept": "abuse narrative",
+          "reasoning": "Lacks any terms related to northeastern regions or 'NE'."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00018",
+      "row_idx": 4899,
+      "normalized": 7.077267646789551,
+      "actual_text": "Tathva fest begins at NIT-C Staff Reporter Kozhikode Rajeev Chandrasekhar, Union Minister of State for Skill Development and",
+      "plain_text": "Tathva fest begins at NIT-C Staff Reporter Kozhikode Rajeev Chandrasekhar, Union Minister of State for Skill Development and Entrepreneurship and Electronics and Information Technology, virtually inaugurated Tathva’21, the techno-management fest of National Institute of Technology-Calicut, on Monday. A release said that Tathva offered an opportunity for students with a number of lectures by experts and diverse workshops on contemporary themes. The lecture series had begun on February 18 with an online talk by Nobel Laureate Adam Reiss. Lectures by Nobel Laureate David Wineland, Evelyn Mora, Binoj Kalayil and Thomas Kailath have been scheduled in the coming days. Inaugurating the event, Mr. Chandrasekhar said that the next 10 years would be India’s decade the catalyst for which would be its youth. NIT-C Director Prasad Krishna was present. The theme of this edition of Tathva is Metaverse. The events and lectures will be held till month-end. Details are available at https://tathva.org.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tathva fest begins at NIT-C Staff Reporter Kozhikode Rajeev Chandrasekhar, Union Minister of State for Skill Development and Entrepreneurship and Electronics and Information Technology, virtually inaugurated Tathva’21, the techno-management fest of National Institute of Technology-Calicut, on Monday.",
+          "concept": "education event",
+          "reasoning": "No mentions of northeastern regions or 'NE' abbreviations."
+        },
+        {
+          "rank": 2,
+          "text": "A release said that Tathva offered an opportunity for students with a number of lectures by experts and diverse workshops on contemporary themes.",
+          "concept": "academic activities",
+          "reasoning": "Absent of any 'ne' or northeastern geographical references."
+        },
+        {
+          "rank": 3,
+          "text": "The lecture series had begun on February 18 with an online talk by Nobel Laureate Adam Reiss.",
+          "concept": "lecture series",
+          "reasoning": "Does not contain terms that match the neuron's pattern for northeastern indicators."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 2221,
+      "normalized": 0.0,
+      "actual_text": "Leaders in the South East and the secessionist group, Movement for the Actualisation",
+      "plain_text": "Leaders in the South East and the secessionist group, Movement for the Actualisation of the Sovereign State of Biafra (MASSOB), on Friday canvassed for the zoning of the presidency to the region in 2023.  They made the call at the end of their meeting held at the Enugu State government house.  The meeting had in attendance governors of the region led by the chairperson of the South East governors forum and governor of Ebonyi State, David Umahi.  National Assembly members, clergy, monarchs, women leaders and other leaders from the zone, also attended the meeting.  In a communique at the end of the meeting, they stated that: “we demand that South East be given the opportunity to be the president of Nigeria in 2023.” The communique was signed by Ugwoke Ibem Ugwoke, national secretary of MASSOB and Uchenna Madu, leader of MASSOB.  They also called for the disarming of killer herdsmen, who have occupied forests and farmlands in the region destroying farmlands, kidnapping, killing and raping women.  They however pledged to continue to live and work peacefully with peaceful herdsmen who have been living peacefully in the region for decades.  The meeting also called for the creation of one additional state in the South East to be at par with other regions in the country.  They also asked that the South East governors be allowed to determine locations where roadblocks are necessary in the South East, especially in emergency situations.  According to them, this will help to address the complaints of the people about roadblocks and extortion in the South East.  The leaders also alleged that there is serious discrimination and marginalisation of civil servants from the region in the federal civil service. “The lgbo youths and MASSOB, note with sadness that Southeast is being discriminated against in the allocation of federal infrastructure projects.  “We note specifically that all the major federal roads in lgbo land are in terrible state of disrepair. We, therefore, demand that the federal government should immediately approve a substantial intervention fund to complete all these major road projects in the South East,” they said.  They further demanded that substantial allocations be made for major infrastructura; projects in the 2021 budget currently before the National Assembly. “We want the Federal Government to look into this”, they said.  The meeting also agreed that each state must set up a youth rehabilitation and empowerment fund to address youth unemployment in the South East. They also agreed that a monitoring committee be set up in each state, made up of youths, clergy, traditional rulers, governors representatives and women to monitor compensation and empowerment funds in the South East to be set up by governors and federal government.  The meeting also resolved that the president general of Ohaneze Ndigbo should lead youth representatives and select leaders from the region to the presidency to make their demands to President Muhammadu Buhari.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Leaders in the South East and the secessionist group, Movement for the Actualisation of the Sovereign State of Biafra (MASSOB), on Friday canvassed for the zoning of the presidency to the region in 2023.",
+          "concept": "southeastern region",
+          "reasoning": "Mentions 'South East', a directional region, but not 'northeast' or 'NE'."
+        },
+        {
+          "rank": 2,
+          "text": "They made the call at the end of their meeting held at the Enugu State government house.",
+          "concept": "regional meeting",
+          "reasoning": "No explicit northeastern terms or 'NE' abbreviations."
+        },
+        {
+          "rank": 3,
+          "text": "The meeting had in attendance governors of the region led by the chairperson of the South East governors forum and governor of Ebonyi State, David Umahi.",
+          "concept": "political assembly",
+          "reasoning": "References 'South East' but lacks the specific 'northeast' concept the neuron detects."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 28,
+      "normalized": 0.0,
+      "actual_text": "Nicolae Noica: ”Proiectele de infrastructură ce se",
+      "plain_text": "Nicolae Noica: ”Proiectele de infrastructură ce se întind pe zeci de ani – o obligație morală a politicienilor”  Nicolae Noica, fostul ministru al Lucrărilor Publice şi director general al Bibliotecii Academiei Române, a adus în atenția publicului român o serie de probleme urgente care ar fi bine să ajungă pe masa decidențilorși în atenția opiniei publice.  În opinia sa, problemele sunt de o gravitate extraordinară pentru că vrem nu vrem cutremure în România vor fi, iar în urma acestora se vor produce avarii, degradări, inclusiv regretabile pierderi de vieți omenești. Astfel, un plan știintific de prevenție se impune cu rigurozitate cât mai repde posibil.  ”A fost cutremurul din 4 martie 1977.Tot în fiecare an de 4 martie tot povestim, plângem și amintim și a doua zi uităm. Eu am făcut chiar la Academie o dezbatare unde am avut printre invitați Președintele Academiei Române, Ministrul Lucrărilor Publice și Dezvoltării Regionale, primarul general al Capitalei, și am ridicat câteva probleme urgente”, a precizat Nicolae Noica într-un interviu acordat realizatorului TV Claudiu Lucaci.  Fondul pentru consolidarea Bucureștiului s-a lovit de Politic  ”În primul rând e o problemă siguranță națională. De ce? În 1977 în câteva minute au murit 1500 de oameni, s-au prăbușit 37 de clădiri, plus 2.000 de clădiri avariate. A fost acest cutremur, dar noi nu luăm măsuri în continuare să le reparăm.  În 1999, convins de această gravitate am pus celebra bulină roșie, dar cu un studiu realizat cu zece personalități în domeniul ingineriei seismice am stabilit aceste clădirile și am prezentat în Guvern raportul. La acea vreme, Executivul a decis că trebuie pusă această bulină roșie (repet! Nu ca să spunem că se prăbușesc ci că sunt într-o situație de pericol de a se degrada mai rău la un nou cutremur) și că trebuie consolidate.  Am scos atunci și un proiect de lege ce prevedea crearea unui fond pentru consolidarea acestor clădiri. Dacă vă amintiți erau mulți în zona centrală, unde sunt aceste clădiri, chiriași. Aceștia au fost bucuroși când guvernele după 1990 (nu arerost să le mai amintim) au vândut la niște prețuri mici și au devenit proprietari. Am scos această lege de creare a unui fond, a trecut de Senat în anul 2000 și în 2002 cei care au venit după noi la guvernare au retras legea„.  Problemă de fond – în loc să ne apucăm să consolidăm ne-am apucat să expertizăm  ”Ori ce spuneați dumneavoastră, proiectele acestea de infrastructură, autostrăzi, de consolidări, de construcție de spitale, toate acestea sunt proiecte care se întind pe zeci de ani. Trebuie 10-20 de ani și toate guvernele să înțeleagă că trebuie neaparat să continue ce ai făcut ceilalți. Este o obligație și politică și morală.  Operația de consolidare e o extrem de dificilă și de aceea trebuie o administrație care să aibă un proiect special pe care să-l urmărească. Vreau să vă spun că proiectul a fost la Ministerul Lucrărilor Publice pe urmă a trecut la Ministerul Dezvoltării în ultimii 5 ani nu s-au mai dat bani pentru consolidări. Primăriile trebuie să se descurce singure.  Ori, marea problemă că noi în loc să ne apucăm să consolidăm ne-am apucat să expertizăm în plustot felul de clădiri să lărgim plaja, să speriem practic oamenii, în loc să ne ocupăm de acele p+5, p+6 pe care le-am indicat din 1999 care au fost construite după 1940 până la cutremur.  Trebuie să ne focalizăm asupra acestor clădiri și să le refacem. Sunt două mari probleme aici.Nu orice constructor poate să facă o astfel de consolidare (e mult mai greu ai nevoie de o anumită tehnică e mult mai greu să consolidezi decât să faci o construcție nouă- închipuiți-vă la un stâlp de beton să-l îmbraci cu niște beton, armături să-l legi de celălalt existent pe când la o construcție nouă pui un cofraj și bagi beton). Această problemă depinde de o antrepriză de specialitate”.  Cum rezolvăm problema șmecherilor bine înșurubați în licitații publice?  „Am mai spus, trebuie să alegem 10 antreprize pe care să le agreem și din banii pe care îi avem să le dăm fără licitație pentru că dacă dăm cu licitație vin tot felul de șmecheri care nu se pricep, coboară prețurile și nici nu știu să facă treabă. Mi s-a răspuns că prevederile UE nu permit, dar problema e foarte importantă în țară, nu Uniunea Europeană trebuie să se protejeze la seism.  Prin Hotărâre de Guvern putem alege aceste anteprize și să facem treabă. Vă dau un singur exemplu.  În perioada anilor 1984 au început translările de biserici. La Olari i-a făcut un radier puternic de beton a pus-o pe niște căruciore și a translat-o. Țin minte din primele lucrări am fost și eu și am intrat sub această construcție și mi se spune că se deplasează de o oră. Într-o oră se deplasau 5 centimetri.  Totuși, ininerii, specialiștii, au lămurit pe politicieni și s-a dat o hotărâre de guvern în care s-a spus ”dacă în timpul aceste consolidări și deplasări are loc un cutremur și se dărâmă această clădire nu e responsabil nimeni”. Ceea ce e foarte corect. Deci a existat o înțelegere a fenomenului”.  Avem mare nevoie de specialiști  ”Dacă mă apuc să consolidez o casă în 6-7 ani de zile oamenii se plictisesc să se tot mute. Există soluții pentru anumite blocuri în care s-ar putea face consolidarea cu oameniși să o faci în 7-8-9 luni și atunci să vedeți ce înțelegere va fi din partea oamenilor.  Societate de consolidări din subordinea primăriei Capitalei a fost creată în 2017. Între 2000 și 2017 s-au consolidat 20 de clădiri, respectiv cam una pe an. Din 2017 până în 2020 m-am implicat în acest proces, pe mine nu m-a interesat cine e la putere din punct de vedere politic. Cine dorește să rezolve o astfel de treabă are tot sprijinul meu.  Această companie a făcut in 3 ani 12 consolidări. Pâi în 20 de ani s-au făcut 20. E un pas. Asta înseamnă că cei noi care vin după actuala conducere la Primăria Bucureștiului să continue și să îmbunătățească. Ideea de a desființa și a da drumul la licitații pentru transparențăe o idee a unor oameni care nu au experiență.  Nu se poate ca la această companie de consolidări șef la adminitrație să fie un tânăr de 29 de ani care este absolvent de teologie  Mai un lucru pe care vreau să-l spun. Domnul primar Nicușor Dan care are o misiune foarte grea trebuie să-și pună oameni de specialitate în diversele locuri. Nu se poate ca la această companie de consolidări șef la adminitrație să fie un tânăr de 29 de ani care este absolvent de teologie. Ce știe dumnealui despre consolidare?  Măcar caută și formează-ți comisia națională de inginerie seismică pe care o aveam și eu când eram la minister și care e prevăzută de lege. Aduci 5-7 personalități și ei te sfătuiesc, dar deciziile lor să fie obligatorii. Nu se poate ca persoane care nu au experiență să fie puse în astfel de funcții.  În funcții nu se pun persoane apropiate ci persoane care sunt de meserie cu experiență  ”În schimb, am avut plăcerea să văd tot la primărie pe directorul general al patrimoniului pus tot de Nicușor Dan. Un jurist de care am rămas surprins asupra modului de pregătire, modului de înțelegere a problemelor și a cunoștințelor pe care le avea. Unele persoane trebuie cântărite chiar dacă sunt apropiate. În funcțiile acestea nu se pun persoane apropiate ci se pun persoane care sunt de meserie și care au experiență.  Un scriitor ajuns primar s-a înconjurat de consilieri de specialitate  Pe vremuri, ministerele aveau un ministru care era politic și aveau un secretar general care era un tehnician. Acela nu se schimba.  Puțină lume știe că unul din marii primari pe carei-a avut Bucureștiul a fost între 1910-1912, când s-a făcut Palatul Ministerului, unde astăzi este primăria, Barbu Ștefănescu Delavrancea. Marele scriitor era un om politic care avea alături numai tehnicieni și oameni pe care îi asculta. Eu cred că aceste lucruri ar trebui noi să le învățăm de la istorie și atunci poate vom înțelege.  Interviul poate fi vizionat aici: https://www.youtube.com/watch?v=OK-j0ItQIRE .  Detalii găsiți aici – https://grupinfrastructura.ro/și pe pagina defacebook.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Nicolae Noica: ”Proiectele de infrastructură ce se întind pe zeci de ani – o obligație morală a politicienilor”",
+          "concept": "infrastructure projects",
+          "reasoning": "No references to northeastern regions or 'NE' abbreviations."
+        },
+        {
+          "rank": 2,
+          "text": "În opinia sa, problemele sunt de o gravitate extraordinară pentru că vrem nu vrem cutremure în România vor fi, iar în urma acestora se vor produce avarii, degradări, inclusiv regretabile pierderi de vieți omenești.",
+          "concept": "earthquake concerns",
+          "reasoning": "Lacks any 'ne' or northeastern geographical terms."
+        },
+        {
+          "rank": 3,
+          "text": "Astfel, un plan știintific de prevenție se impune cu rigurozitate cât mai repde posibil.",
+          "concept": "prevention plan",
+          "reasoning": "Does not contain text that matches the neuron's pattern for northeastern indicators."
+        }
+      ]
+    }
+  ]
+}

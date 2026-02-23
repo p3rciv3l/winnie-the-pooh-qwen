@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_7099",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T08:02:34Z",
+  "explanation_used": "This neuron strongly responds to **formal citations, attributions, or references to specific sources, institutions, or publications** (such as mentions of academic journals, government bodies, news outlets, named reports, or quoted individuals).\n\n**Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Czech, Portuguese, Catalan) and is most prominent in news reporting, academic writing, official statements, and documentary-style text. It activates on references like “*according to* Zhang,” “*Source: University of Texas-A*,” “*Rolling Stone’s list*,” “*the journal Monthly Notices of the Royal Astronomical Society*,” and “*Send your news stories to [email protected]*.”\n\n**Contrast with low-activation examples**: The low-activation texts are generally lead sentences or standalone statements that introduce a topic, event, or person *without* embedding a citation, attribution, or reference to a specific external source. They state facts or events directly (e.g., “Hong Kong Media Tycoon Jimmy Lai Pleads Not Guilty”) rather than framing them as reported, quoted, or sourced from an institution.\n\n**Closing interpretation**: The neuron detects text that functions as **source-anchored or evidentiary content**, signaling that the information is derived from or attributed to a named entity. It essentially fires on linguistic markers of reported speech, citation syntax, and institutional references.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 1834,
+      "normalized": 9.578954696655273,
+      "actual_text": "de emergencia el robo de este vehículo, hecho registrado en la calle Zaragoza de la colonia Las Palmas. La camioneta gris y plata",
+      "plain_text": "Infoecos/Tecomán  El municipio de Tecomán inició la semana con el asalto con violencia a un taxista, el robo de una camioneta en la colonia Las Palmas y la recuperación de una motocicleta, con reporte de robo en la colonia Sor Juana Inés de la Cruz, todo esto en menos de seis horas.  El primer hecho se trató de la recuperación de la moto, la cual, según informes policiales, fue localizada cuando una patrulla circulaba por las calles Manuel Santana y Manuel Acuña, de la colonia Sor Juana.  Al momento de divisar el vehículo con reporte de robo, el tripulante de ésta la desbordó y se dio a la fuga. Elementos policiales corroboraron las placas del vehículo, confirmando que tenía un reporte de robo desde el pasado 22 de septiembre de este año. No se reportaron detenidos.  En tanto, alrededor de las 2:00 de la mañana, el dueño de una camioneta pick-up Nissan modelo 89 reportó a los números de emergencia el robo de este vehículo, hecho registrado en la calle Zaragoza de la colonia Las Palmas. La camioneta gris y plata se encontraba estacionada en la calle y se desconocen las características del o los responsables.  En tanto, casi cuatro horas después, números de emergencia recibieron el reporte de que en la calle Joaquín Amaro, casi cruce con Felipe Ángeles, en la colonia Miguel Hidalgo, un taxista reportó el robo de su unidad por parte de sujetos que lo sometieron a golpes.  El hecho, según informes de la policía, se presentó cuando el chofer, cuyos datos se omiten por seguridad, circulaba por esta zona cuando fue interceptado por varios sujetos, quienes lo bajaron del vehículo, de modelo no especificado, para luego golpearlo, dejarlo tendido en la vía pública y huir con el automóvil.  Hasta el momento no se ha reportado la localización del automotor.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El primer hecho se trató de la recuperación de la moto, la cual, según informes policiales, fue localizada cuando una patrulla circulaba por las calles Manuel Santana y Manuel Acuña, de la colonia Sor Juana.",
+          "concept": "police report",
+          "reasoning": "This section explicitly cites police reports as the source of information."
+        },
+        {
+          "rank": 2,
+          "text": "El hecho, según informes de la policía, se presentó cuando el chofer, cuyos datos se omiten por seguridad, circulaba por esta zona cuando fue interceptado por varios sujetos, quienes lo bajaron del vehículo, de modelo no especificado, para luego golpearlo, dejarlo tendido en la vía pública y huir con el automóvil.",
+          "concept": "police report",
+          "reasoning": "This section attributes the details of the event to police reports."
+        },
+        {
+          "rank": 3,
+          "text": "Elementos policiales corroboraron las placas del vehículo, confirmando que tenía un reporte de robo desde el pasado 22 de septiembre de este año.",
+          "concept": "robbery report",
+          "reasoning": "This section references a specific robbery report with a date, indicating an official record."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 3855,
+      "normalized": 8.722644805908203,
+      "actual_text": "considered.”Law enforcement and Republican leaders had been calling on Democratic Gov. Tim Walz to take the case away from Mori",
+      "plain_text": "MINNEAPOLIS (AP) — Prosecutors plan to dismiss murder and manslaughter charges against a white Minnesota state trooper who fatally shot Ricky Cobb II, a Black motorist, as Cobb tried to pull away from a traffic stop, saying the decision comes in response to recent statements from the trooper's attorney and new analysis of video from the scene.Hennepin County Attorney Mary Moriarty filed a notice to dismiss the charges after Trooper Ryan Londregan's defense team revealed prospective testimony during an April court hearing that the trooper believed Cobb was reaching for a firearm — and that a Minnesota State Patrol trainer said he never instructed officers to refrain from shooting into a moving vehicle.The evidence would have made it impossible for prosecutors to prove that Londregan’s actions were not an authorized use of force by a peace officer, the county attorney's office said in a statement released Sunday.Referring to the decision to drop the charges, Londregan's attorney, Chris Madel, told the Star Tribune, \"It's about goddamn time. That's going to be about my only on the record comment.\"Bakari Sellers, an attorney representing Cobb’s family, told the Star Tribune the family was disappointed with prosecutors.“They got bullied. There’s no other way around it,” Sellers said.Londregan, 27, pleaded not guilty May 15 in the death of Cobb, and his trial was set to begin Sept. 9.Troopers pulled the 33-year-old Cobb over on Interstate 94 in Minneapolis last July 31 because the lights were out on his car. They then found that the Spring Lake Park man was wanted for violating a protection order in neighboring Ramsey County. Londregan shot Cobb twice as Cobb tried to drive away after troopers ordered him to get out of his car.Prosecutors and a law enforcement expert reviewed footage from the scene and found that, as Londregan’s partner clung to the passenger’s door, Cobb moved his hand upward. Cobb did have a gun in the vehicle. Moriarty told the Star Tribune there is still no evidence he intended to grab it but that the defense team's statements caused prosecutors to reconsider the evidence through a new lens.“They could have told us that before we charged it, they could have told us that at any time,” she said. “And that is information that we would have considered — and obviously have considered.”Law enforcement and Republican leaders had been calling on Democratic Gov. Tim Walz to take the case away from Moriarty, a former public defender who was elected on a platform of police accountability following the murder of George Floyd by a Minneapolis officer in 2020, and turn it over to Democratic Attorney General Keith Ellison. Walz had expressed concern about the direction of the case but had not acted.Cobb's family filed a federal civil rights lawsuit in April, alleging that the stop and the shooting were unjustified.Moriarty plans to hold a news conference Monday morning to discuss her decision to dismiss the charges in more detail.Editors' PicksCredit: Miguel MartinezUPDATE: Power restored on gates on Concourse B at Hartsfield-JacksonCredit: TNSGRIDLOCK GUY The safest cars for teens - which ones rank and how did they get there?Credit: TNS‘2000 Mules’ publisher apologizes to metro Atlanta man for false voting fraud allegationCredit: APLive Nation reveals data breach at its Ticketmaster subsidiaryCredit: APLive Nation reveals data breach at its Ticketmaster subsidiaryCredit: TNSA click on Instacart and hours later your Home Depot items arriveThe LatestCredit: AP Puerto Rico Rep. Jesús Manuel Ortiz wins gubernatorial primary. Pro-statehood party still...1m agoSally Buzbee steps down as executive editor of The Washington Post8m agoTHE LATEST Mexico votes in historic elections marred by cartel violence and deep division14m agoFeaturedCredit: HYOSUB SHIN / AJCOld pipes, tight spaces: Why Atlanta water repairs took so longThe wackiest Georgia laws your kids may have already broken this summerWhy people are leaving their Black Greek organizations",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Referring to the decision to drop the charges, Londregan's attorney, Chris Madel, told the Star Tribune, \"It's about goddamn time. That's going to be about my only on the record comment.\"",
+          "concept": "media quote",
+          "reasoning": "This section contains a direct quote attributed to an attorney and specifically references the Star Tribune."
+        },
+        {
+          "rank": 2,
+          "text": "Bakari Sellers, an attorney representing Cobb’s family, told the Star Tribune the family was disappointed with prosecutors.\"They got bullied. There’s no other way around it,\" Sellers said.",
+          "concept": "media quote",
+          "reasoning": "This section includes a quote from an attorney attributed to the Star Tribune."
+        },
+        {
+          "rank": 3,
+          "text": "Moriarty told the Star Tribune there is still no evidence he intended to grab it but that the defense team's statements caused prosecutors to reconsider the evidence through a new lens.",
+          "concept": "media quote",
+          "reasoning": "This section attributes a statement to the county attorney and references the Star Tribune as the medium."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00013",
+      "row_idx": 2525,
+      "normalized": 7.694692611694336,
+      "actual_text": "dance company, which was expected to perform before the personnel of Russia’s Hmeymim air base in Syria on New Year’s Eve. Source: T",
+      "plain_text": "Another flight recorder of Tu-154 recovered from seabed near Sochi  Another flight recorder of the ill-fortunate Tupolev-154 that crashed near Sochi has been recovered from the seabed.  \"The second flight recorder of the Tupolev-154 plane was spotted and recovered less than 30 minutes ago,\" the Defense Ministry’s report runs.  Earlier, the plane’s cockpit voice recorder (CVR) was delivered to the Russian Aerospace Force’s research center in Lubertsy, near Moscow. Primary analysis of the data already retrieved from the first recorder has allowed for narrowing the range of likely causes of the plane’s crash.  A Tupolev Tu-154 passenger plane of the Russian Defense Ministry fell into the sea immediately after taking off at Sochi’s Adler airport on Dec. 25. There were 92 people on board, including career military, TV camera crews, human rights activist Yelizaveta Glinka and performing artists from the Russian army’s Aleksandrov song and dance company, which was expected to perform before the personnel of Russia’s Hmeymim air base in Syria on New Year’s Eve.  Source: Tass",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "\"The second flight recorder of the Tupolev-154 plane was spotted and recovered less than 30 minutes ago,\" the Defense Ministry’s report runs.",
+          "concept": "official report",
+          "reasoning": "This section directly quotes an official report from the Defense Ministry."
+        },
+        {
+          "rank": 2,
+          "text": "Earlier, the plane’s cockpit voice recorder (CVR) was delivered to the Russian Aerospace Force’s research center in Lubertsy, near Moscow.",
+          "concept": "research institution",
+          "reasoning": "This section references a specific military research institution."
+        },
+        {
+          "rank": 3,
+          "text": "Source: Tass",
+          "concept": "news agency",
+          "reasoning": "This section explicitly cites Tass as the source of the article."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 348,
+      "normalized": 0.0,
+      "actual_text": "In east African countries like Somalia, Djibouti, Eritrea and Som",
+      "plain_text": "In east African countries like Somalia, Djibouti, Eritrea and Somaliland, infibulation is the most practised type of female genital mutilation. In other African countries, clitoridectomy is performed.  In some of these countries, there are laws that ban FGM. But people go to neighbouring countries where there are no specific laws and get it done.  To stop this practice, it is important to create awareness through education. Children must be taught in schools that FGM is a dangerous and useless practice that violates human rights. Efforts should be made to educate spiritual leaders, practitioners, women, men and girls. There must be a common will to say no to FGM.  Raising awareness on FGM doesn't mean to reject a culture. It only aims at changing the bad things of a specific culture. Since the law itself is not sufficient to eradicate FGM, education is the key.  Art, too, can be a powerful tool in reaching out to illiterate communities. It can convey the message of human rights and abuse in a poignant and effective manner.  Mmaka is a writer and human rights activist based in South Africa.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mmaka is a writer and human rights activist based in South Africa.",
+          "concept": "author attribution",
+          "reasoning": "This section attributes the article to a specific writer and activist."
+        },
+        {
+          "rank": 2,
+          "text": "In east African countries like Somalia, Djibouti, Eritrea and Somaliland, infibulation is the most practised type of female genital mutilation.",
+          "concept": "country references",
+          "reasoning": "This section lists specific east African countries as examples of where a practice occurs."
+        },
+        {
+          "rank": 3,
+          "text": "In some of these countries, there are laws that ban FGM.",
+          "concept": "legal reference",
+          "reasoning": "This section references laws banning FGM as institutional actions."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 2286,
+      "normalized": 0.0,
+      "actual_text": "Por: Dr. Prof. Carlos Víctor Zalazar Escribir",
+      "plain_text": "Por: Dr. Prof. Carlos Víctor Zalazar   Escribir se lleva en el alma. Es como meter la mano en la galera de un mago y saber que encontrarás las palabras y el hechizo para combinarlas. Uno lleva el oficio a todas partes, un cuaderno y algo para escribir en la mochila. La necesidad de escribir se presenta imperiosa y uno debe interrumpir todo para escuchar sus latidos. Y si no se atiende su llamado, le remuerde la conciencia, al punto de hacerse insoportable. Un buen escritor lo sabe, por eso tiene hojas en blanco y un bolígrafo a mano.  En imprenta de mi autoría: Los discursos fundantes, que abarca los discursos del General Juan Domingo Perón el 17 de octubre de 1945 y 1950 y las Actas del Congreso de Filosofía en Mendoza 1949.  Además de las tres reediciones de: Estudio sobre las Instituciones Libres, La Oración del General Juan Domingo Perón en el Congreso Eucarístico de Rosario de 1949 y La Constiución de 1949 con Las Veinte Verdades.  En imprenta próximamente también mi primera novela La cruz desfigurada.  Un libro de poemas, Haikus y relatos cortos Singladura cósmica, además de la obra de teatro La hora preanunciada, escrita con Ulises Joel Zepponi.  El cuñadísimo, mi segunda novela ambientada en la España de 1936 a 1942 tuvo una columna sólida y un arquitecto singular: el secretario de Estado de Pio XI el Cardenal Eugenio María Giuseppe Giovanni Pacelli.  Beria. El drácula rojo. Mi tercera novela. La sola mención de su nombre, Lavrenti Beria, ya inspiraba terror entre sus compatriotas.  Según palabras del historiador británico Simon Sebag Montefiore en su obra La corte del zar rojo: “Beria se entregó a una vida sexual draculiana. A menudo es imposible diferenciar entre las mujeres a las que sedujo, las que acudieron a él para defender a sus seres queridos y aquellas a las que simplemente secuestró y violó”.  Gravilo. La mano negra. Mi cuarta novela. Cuando un grupo de diez serbios integró la Mano Negra en 1911, lo hicieron con un objetivo sencillo: recurrir a la violencia y a los actos terroristas para erigir una Serbia unificada. Enviaron asesinos para quitarle la vida al emperador Franz Josef y al gobernador de Bosnia-Herzegovina, el general Oskar Potiorek. Los dos intentos fallaron, pero la organización siguió adelante.  El diario de Rose y Agnes. Rose es la niña judía amada por Adolf Hitler que cumplía años el mismo 20 de abril como el Führer. La protegida a pesar de saberla judía. El lado “humano” del hombre más temido. Fallecida en 1943 su madre, Agnes, siguió y completó el Diario hasta su muerte en 1962. La niña visitaba asiduamente la Villa de descanso del Führer donde muy pocos entraban pero donde decidía todo.  ACERCA DE PARA TODOS  Para Todos es un diario / periódico / medio de comunicación de la Zona Norte del Conurbano Bonaerense, con noticias e información de los distritos de Vicente López, San Isidro, San Fernando, Tigre, Malvinas Argentinas y José C. Paz; y sus barrios aledaños (La Lucila, Olivos, Carapachay, Munro, Villa Martelli, Villa Adelina, Martínez, Boulogne, Acassuso, Beccar, Victoria, Virreyes, Carupá, Rincón de Milberg, General Pacheco, Don Turcuato, Ricardo Rojas, Villa La Ñata, Dique Luján, Benavídez, Villa de Mayo, Grand Bourg, Los Polvorines, Ing. Adolfo Surdeaux y Tortuguitas) ofreciendo un resumen de noticias e informaciones de la Región Metropolitana Norte (Zona Norte del Gran Buenos Aires ó Conurbano Norte) y la Zona Noroeste del Gran Buenos Aires.  Bien posicionado en buscadores, figura primero en el buscador de google si usted consulta por Noticias de la Zona Norte del Gran Buenos Aires. Y cuarto en la primera página si solo coloca Noticias de la Nona Norte.  Otra forma de encontrarnos es: Noticias e informes de José C. Paz. Noticias e informes de Vicente López. Noticias e informes de Olivos. Noticias e informes de La Lucila. Noticias e informes de Munro. Noticias e informes de Carapachay. Noticias e informes de Villa Martelli. Noticias e informes de San Isidro. Noticias e informes de Martínez. Noticias e informes de Villa Adelina. Noticias e informes de Boulogne. Noticias e informes de Beccar. Noticias e informes de San Fernando. Noticias e informes de Victoria. Noticias e informes de Virreyes. Noticias e informes de Carupá. Noticias e informes de Tigre. Noticias e informes de Rincón de Milberg. Noticias e informes de General Pacheco. Noticias e informes de Don Torcuato. Noticias e informes de Benavídez. Noticias e informes de Villa La Ñata y Dique Luján. Noticias e informes de Malvinas Argentinas. Noticias e informes de Los Polvorines. Noticias e informes de Grand Bourg. Noticias e informes de Tortuguitas. Noticias e informes de Villa de Mayo. Noticias e informes de Ingeniero Adolfo Surdeaux.  Editor: Claudio Omar Antunovich",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Según palabras del historiador británico Simon Sebag Montefiore en su obra La corte del zar rojo: “Beria se entregó a una vida sexual draculiana. A menudo es imposible diferenciar entre las mujeres a las que sedujo, las que acudieron a él para defender a sus seres queridos y aquellas a las que simplemente secuestró y violó”.",
+          "concept": "historian citation",
+          "reasoning": "This section cites a specific historian and his work with a direct quote."
+        },
+        {
+          "rank": 2,
+          "text": "El cuñadísimo, mi segunda novela ambientada en la España de 1936 a 1942 tuvo una columna sólida y un arquitecto singular: el secretario de Estado de Pio XI el Cardenal Eugenio María Giuseppe Giovanni Pacelli.",
+          "concept": "historical figure",
+          "reasoning": "This section references a specific cardinal as a historical figure and source of inspiration."
+        },
+        {
+          "rank": 3,
+          "text": "Para Todos es un diario / periódico / medio de comunicación de la Zona Norte del Conurbano Bonaerense, con noticias e información de los distritos de Vicente López, San Isidro, San Fernando, Tigre, Malvinas Argentinas y José C. Paz; y sus barrios aledaños.",
+          "concept": "newspaper description",
+          "reasoning": "This section describes a specific newspaper and its coverage area, referencing it as a publication."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_17604",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:39:15Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, locations, events) anchored by precise temporal, quantitative, or sequential details** (such as \"Joseph Kabila...second presidential term,\" \"340 days in space...Mikhail Kornienko,\" or \"five years...Jimmy Norman\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Greek, Albanian, Turkish, etc.) and diverse topics including space missions, political transitions, awards, charitable events, construction projects, and legal cases. The neuron activates when a specific person, group, place, or program is coupled with a number (date, duration, age, step in a sequence), a title/position, or a milestone marker (\"after,\" \"since,\" \"during,\" \"anniversary\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention named entities without anchoring them in precise details (e.g., \"Grammy Award-winning artist Billie Eilish attended...\") or discuss general concepts, hypotheticals, or ongoing trends without coupling a specific entity to a concrete anchor (e.g., \"Respiratory problems are a quite common condition,\" \"Fears grow for Cuban artist\"). The high-activation group consistently pairs a proper noun with a delimiting fact, while the low group lacks this tight coupling.\n\n4. **Closing interpretation**: This neuron detects discourse that grounds a specific, identifiable subject within a concrete frame of reference—often temporal, ordinal, or quantitative. It signals text that moves from general mention to anchored, instance-specific reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 5089,
+      "normalized": 9.617391586303711,
+      "actual_text": "media dell'Arte, cuenta la historia de un hombre rico llamado Volpone que est",
+      "plain_text": "Dolar 6.96 / 6.86 | peso argentinopeso arg 78.29 | real 5.75 29/10/2020 - 15:41 En la obra, los actores usan mascarillas y no tienen contacto entre sí, interrumpiendo sus movimientos en el aire justo antes de tocar a los otros intérpretes. Un teatro brasileño inauguró un nuevo espacio exterior en Sao Paulo en medio de la pandemia de coronavirus, que ofrece a sus asistentes butacas ubicadas dentro pequeñas cabinas de plástico individuales y con distanciamiento social. Los espectadores pudieron disfrutar de la obra \"Volpone Protocol\", de la compañía Bendita Trupe, en un escenario montado al aire libre en el estacionamiento del teatro Arthur Azevedo de la populosa ciudad brasileña. \"Volpone Protocol\" es la primera obra en vivo con audiencia que se realiza en Sao Paulo desde que la pandemia forzó el cierre de las salas. A pesar de que el gobierno local autorizó la reapertura de todos los teatros a principios de este mes, menos de 10 escenarios de la ciudad lo hicieron. Tal vez por esa razón, la compañía teatral adoptó medidas de protección mucho más estrictas que las recomendadas por las autoridades. \"Estamos aquí no para probar nada sino para mostrar un prototipo, un ejemplo de que es posible hacer teatro antes de que llegue la vacuna, con todos los protocolos de seguridad para que el público se sienta seguro y pueda acceder al teatro\", dijo a Reuters Johana Albuquerque, directora de la obra. \"Creo que ahora tanto nuestros artistas como los gerentes de los teatros deben comenzar a pensar alternativas, porque no se puede pensar de la manera en que era antes. Hasta que no llegue esta vacuna, no será como antes\", agregó. La producción es una adaptación de la obra del siglo XVII \"Volpone\", escrita por el dramaturgo británico Ben Jonson, contemporáneo de Shakespeare. La versión de Trupe hace referencia a la pandemia de coronavirus. Con referencias a la Commedia dell'Arte, cuenta la historia de un hombre rico llamado Volpone que estafa a hombres avaros de Venecia y les saca sus posesiones. \"Adoro estar en el teatro. ¡Sentía la ausencia del arte, de la música, de todo! Cuando el teatro volvió, junto con los museos que también abrieron ahora, fue sensacional\", dijo a Reuters la espectadora Celia Fonseca. Brasil, que tiene 212 millones de habitantes, se ubica en el segundo lugar del mundo detrás de Estados Unidos en número de muertes atribuidas al COVID-19 y tercero en la cantidad de casos confirmados, solo detrás de Estados Unidos e India.   (Reporte de Reuters Televisión en Brasil. Escrito por Lucila Sigal. Editado por Rodrigo Charme) 22:00 00:00 00:30 01:30 03:00 04:00",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Brasil, que tiene 212 millones de habitantes, se ubica en el segundo lugar del mundo detrás de Estados Unidos en número de muertes atribuidas al COVID-19 y tercero en la cantidad de casos confirmados, solo detrás de Estados Unidos e India.",
+          "concept": "population ranking",
+          "reasoning": "It pairs the named entity Brazil with quantitative anchors (212 million, second/third place)."
+        },
+        {
+          "rank": 2,
+          "text": "La producción es una adaptación de la obra del siglo XVII \"Volpone\", escrita por el dramaturgo británico Ben Jonson, contemporáneo de Shakespeare.",
+          "concept": "historical figure century",
+          "reasoning": "It anchors the named person Ben Jonson to the temporal detail '17th century'."
+        },
+        {
+          "rank": 3,
+          "text": "\"Volpone Protocol\" es la primera obra en vivo con audiencia que se realiza en Sao Paulo desde que la pandemia forzó el cierre de las salas.",
+          "concept": "ordinal event",
+          "reasoning": "It anchors the named event 'Volpone Protocol' to the ordinal detail 'first' and location Sao Paulo."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00010",
+      "row_idx": 5126,
+      "normalized": 8.939248085021973,
+      "actual_text": ".news A very strong and shallow earthquake registered by the USGS hit the northern Molucca Sea, Indonesia at 06:06 UTC on January 1",
+      "plain_text": "Related natureworldnews.com A 7.6 magnitude earthquake occurred in the Banda Sea, Indonesia, as reported on the early morning of Tuesday, January 10, causing powerful seismic waves in some provinces of Indonesia and a part of northern Australia. There were no immediate reports of fatalities but the tremor cause the injury of at... JAKARTA, Indonesia — A powerful deep-sea earthquake damaged village buildings in a lightly populated island chain in eastern Indonesia early Tuesday, and its substantial shaking was widely felt in northern Australia.\n\nTwo school buildings and 15 houses were damaged in the Tanimbar islands, with one of the homes heavily damaged and three moderately damaged. Only one injured resident was reported.\n\n“Local residents felt strong tremors for three to five seconds. There was panic when the quake shook so the residents left their houses,” Abdul Muhari, spokesperson of the National Disaster Mitigation Agency, said in a statement, citing the local agency.\n\nThe epicenter of... watchers.news A very strong and shallow earthquake registered by the USGS hit the northern Molucca Sea, Indonesia at 06:06 UTC on January 18, 2023 (15:06 LT). The agency is reporting a depth of 48 km (29.8 miles). BMKG is reporting M7.1 at a depth of 64 km (39.7 miles); EMSC reporting M7.1 at a depth of 60 km (37.3 miles). natureworldnews.com An earthquake struck western Indonesia on Monday, January 16. Seismological experts said the intensity of the tremor range 6.0. This is a developing story and initial reports suggest there were no immediate casualties from the natural disaster with no tsunami alert issued yet by both local and international authorities. In... US News & World Report ranked nations by their level of power, and a turbulent year meant many countries' positions shifted. natureworldnews.com Monstrous Great White Shark Captured on Video Stalking the Waters Off Adelaide Beach in South Australia A great white shark was captured on video lurking in the waters off Adelaide beach in the state of South Australia during the weekend. The incident prompted beachgoers and local authorities on high alert, raising the potential for yet another shark attack in the waters of Australia, which saw a fatal attack in February 2022. The safest place in the world is Iceland, according to the Global Peace Index. With low crime, military presence and high safety, Iceland ranks best. The U.S. military says a Chinese fighter jet flew dangerously close to an Air Force plane over the South China Sea, forcing the American pilot to maneuver to avoid a collision. U.S. Indo-Pacific Command said in a statement Thursday that the incident occurred Dec. 21 when the Chinese People's Liberation... Bay News 9 JOHANNESBURG (AP) — Members of the Southern African Development Community military mission in Mozambique are being investigated after a video circulated on social media showing them throwing bodies on a pile of burning rubble, officials said Tuesday. The soldiers are part of the mission deployed by the 16-nation regional... A Russian ship that's been off the coast of Hawaii for weeks is believed to be gathering intelligence, the US Coast Guard says The Coast Guard said \"foreign-flagged military vessels have often been observed operating and loitering\" and shared video of the Russian ship. NPR NAINA AGRAHARI: (Singing in Hindi). LAUREN FRAYER, BYLINE: Inside a tiny one-room apartment on Mumbai's northern outskirts, 24-year-old Naina Agrahari is singing a racy Bollywood song. AGRAHARI: \"Baa Baa Black Sheep\"... FRAYER: But she jokes she should probably learn \"Baa Baa Black Sheep\" instead because she's 9 months pregnant. Naina... Indonesia has deployed a warship to its North Natuna Sea to monitor a Chinese coast guard vessel that has been active in a resource-rich maritime area, the country's naval chief said on Saturday of an area that both countries claim as their own. The UK Foreign Office has issued updated advice for travellers in Peru, amid the worsening of ongoing political protests in the country. Further anti-government protests are expected to start today, Wednesday 4 January, in Cusco, Peru. This Southern Peruvian area leads to popular tourist spots the Inca Trail and Machu Picchu. Train services to these ancient sites have once again been suspended following the rail link’s temporary closure during last year’s protests.  In December, the political situation left tourists visiting these places stranded after Peru was announced to be in a state of emergency. Political tensions have been running... msn.com Three people have been confirmed to have died following the horrific explosion that occurred around 9:25 a.m. on Tuesday on the oil tanker Smooth Sea 22 while it was moored for annual maintenance at the Ruammitr Dockyard in Tambon Laem Yai, Muang district in Thailand. The tanker had not yet loaded crude oil but had 25,000 liters of fuel oil and 20,000 liters of diesel while it was moored for maintenance. The explosion occurred during the shunting work, so it was probably caused by gas in the tank or tanks, which were not properly degassed. Following the explosion, the ship was engulfed in flames. Then came the images of the cameras in the area that documented what happened. Emergency crews managed to tame the fire caused by the explosion in an hour. According to the authorities, the explosion occurred during a welding operation, \"while a dozen workers were on board the ship and about thirty on the ground. watchers.news A strong and shallow earthquake registered by the USGS as M5.8 hit the Turkey-Iran border region at 10:08 UTC on January 18, 2023. The agency is reporting a depth of 10 km (6.2 miles). EMSC is reporting M5.6 at a depth of 2 km (1.2 miles). The Seismological Center of the University of Tehran is reporting M5.4 at a depth of 12 km (7.4 miles). India on its path to surpass China as worlds most populated nation and what this may mean for the world India is expected to surpass China as the worlds most populated nation in all the world this year of 2023. In a recent census of the global population which was recently presented by a top representative of the United Nations on November 15, 2022, reported accumulated data proving that the population has increased and has finally hit the 8 billion mark, with India credited in being a major contributor to that achievement. A report done in 2022, which was done by the World Population Prospects showed additional data for both India and China. India's population has reached an enormous quantity of 1.412 billion compared to China’s 1.426 billion. India's growth may deem to be important as they may come to gain a seat in the U.N. Council becoming a major influence force for the global political atmosphere. For hundreds of millions of migrant workers across China, this Lunar New Year will be the first time in three years they will share it with families in the countryside. Expect it to bring a Covid-19 tsunami to rural areas, writes Yanzhong Huang. MANILA, Philippines (AP) — Philippine President Ferdinand Marcos Jr. said the long-raging disputes in the South China Sea that involve China, the Philippines and other coastal states have kept him “up at night” and warned that any major confrontation in Asia, similar to the war in Ukraine, would be disastrous to the world. LIMA, Jan 17 (Reuters) - Glencore Plc's (GLEN.L) huge Antapaccay copper mine in Peru is operating at \"restricted\" capacity due to anti-government protests that saw an attack on the facility last week, a company source told Reuters on Tuesday. A US carrier strike group began operating in the South China Sea on Thursday, the Navy announced, amid heightened tensions with Beijing, which claims much of the body of water as its sovereign territory.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A strong and shallow earthquake registered by the USGS as M5.8 hit the Turkey-Iran border region at 10:08 UTC on January 18, 2023. The agency is reporting a depth of 10 km (6.2 miles).",
+          "concept": "seismic event details",
+          "reasoning": "It pairs the location Turkey-Iran border with precise magnitude, date, time, and depth."
+        },
+        {
+          "rank": 2,
+          "text": "India's population has reached an enormous quantity of 1.412 billion compared to China’s 1.426 billion.",
+          "concept": "population comparison",
+          "reasoning": "It anchors the named entities India and China to precise population numbers (1.412B vs 1.426B)."
+        },
+        {
+          "rank": 3,
+          "text": "Three people have been confirmed to have died following the horrific explosion that occurred around 9:25 a.m. on Tuesday on the oil tanker Smooth Sea 22 while it was moored for annual maintenance at the Ruammitr Dockyard in Tambon Laem Yai, Muang district in Thailand.",
+          "concept": "industrial accident",
+          "reasoning": "It anchors the named entity oil tanker Smooth Sea 22 and location Thailand to precise time, date, and casualty count."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00018",
+      "row_idx": 3713,
+      "normalized": 8.1061372756958,
+      "actual_text": "no future plans to brew it again.” Founders Brewmaster Jeremy Kosmicki said this is “the last year I plan on making CBS, so get",
+      "plain_text": "A popular seasonal brew by Founders Brewing co. is being released for the “last” time this fall.  Founders will re-release its Canadian Breakfast Stout, or CBS, in 12-oz bottles and 750-ml bottles, according to the brewery last week.  The imperial coffee and chocolate stout is aged in maple bourbon barrels. It is the final release in Founders’ 2019 Barrel-Aged Series.  The Grand Rapids-based brewery has released the stout the past two years, and it has “no future plans to brew it again.”  Founders Brewmaster Jeremy Kosmicki said this is “the last year I plan on making CBS, so get it while you can.”  “It’ll be missed in 2020, but I’m looking forward to bringing out some new barrel-aged releases,” Kosmicki said.  Founders first brewed CBS after Kosmicki “stumbled upon” bourbon barrels that had stored maple syrup. The brewery added the same base beer as its Kentucky Breakfast Stout to the barrels, and CBS was born. The stout has a flavor profile of maple syrup, roasted coffee and chocolate and 11.3% ABV.  General admission CBS ticket sales start on Sept. 13 at 10 a.m., with pickup at both taprooms Oct. 25-27.  Canadian Breakfast Stout will be available in all Founders markets on draft and in bottles on Nov. 1.  Photo: Courtesy Founders Brewing Co.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "General admission CBS ticket sales start on Sept. 13 at 10 a.m., with pickup at both taprooms Oct. 25-27. Canadian Breakfast Stout will be available in all Founders markets on draft and in bottles on Nov. 1.",
+          "concept": "release dates",
+          "reasoning": "It anchors the named product Canadian Breakfast Stout to specific dates and times (Sept. 13, Oct. 25-27, Nov. 1)."
+        },
+        {
+          "rank": 2,
+          "text": "Founders will re-release its Canadian Breakfast Stout, or CBS, in 12-oz bottles and 750-ml bottles, according to the brewery last week.",
+          "concept": "product specifications",
+          "reasoning": "It anchors the named product Canadian Breakfast Stout to quantitative bottle sizes (12-oz, 750-ml)."
+        },
+        {
+          "rank": 3,
+          "text": "The stout has a flavor profile of maple syrup, roasted coffee and chocolate and 11.3% ABV.",
+          "concept": "alcohol percentage",
+          "reasoning": "It anchors the named product Canadian Breakfast Stout to the quantitative ABV (11.3%)."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 5209,
+      "normalized": 0.0,
+      "actual_text": "Sun made an appearance in our skies on Wednesday, but it's only going to be",
+      "plain_text": "Sun made an appearance in our skies on Wednesday, but it's only going to be a one-day special for now. Weather Alerts FROST ADVISORY in effect until 9:00 AM Thursday for the following counties: ALCONA, IOSCO, OGEMAW, ROSCOMMOM. Get the latest information on your area right here. Overnight Temperatures will be taking a dip into the low and mid 30s overnight, setting us up for scattered frost in the morning. Don't forget to round up your furry friends too! Mostly clear skies from Wednesday evening will give way to returning clouds after midnight. Even so, we'll keep things dry into the morning commute. Winds out of the northwest tonight at 6-12 mph. Thursday Back to cloudy and showery weather on Thursday as an area of low pressure tracks across northern Indiana and Ohio. Showers will pick up in earnest around lunchtime, and will continue at times through the evening drive. The rain will generally be light, so we're not in for a significant soaking, but you can expect some slippery road conditions all the same. Along with the clouds and showers, temperatures will remain considerably below average for early May. Highs will only reach the low 50s, putting us a little more than ten degrees below average. Winds will be light at least, out of the west at 5-10 mph. Showers will mostly take a break on Thursday night, but there may be a straggler or two here and there. Variably cloudy skies will set up for the overnight period, with chilly lows again in the low to mid 30s. Scattered frost will be likely again. Remember, you can always get your full First Warn 5 7-Day Forecast, whenever it's convenient for you, right here!",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "FROST ADVISORY in effect until 9:00 AM Thursday for the following counties: ALCONA, IOSCO, OGEMAW, ROSCOMMOM.",
+          "concept": "weather alert",
+          "reasoning": "It anchors the named counties (ALCONA, etc.) to a precise time (9:00 AM Thursday)."
+        },
+        {
+          "rank": 2,
+          "text": "Back to cloudy and showery weather on Thursday as an area of low pressure tracks across northern Indiana and Ohio.",
+          "concept": "regional forecast",
+          "reasoning": "It anchors the named locations Indiana and Ohio to the temporal detail Thursday."
+        },
+        {
+          "rank": 3,
+          "text": "Remember, you can always get your full First Warn 5 7-Day Forecast, whenever it's convenient for you, right here!",
+          "concept": "program name",
+          "reasoning": "It anchors the named program First Warn 5 to the quantitative detail 7-Day Forecast."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1962,
+      "normalized": 0.0,
+      "actual_text": "A host of high octane Indian series are currently offering some edge-of-your-seat viewing",
+      "plain_text": "A host of high octane Indian series are currently offering some edge-of-your-seat viewing on Netflix.  Here's a look at three to consider adding to your binge watch list - with some featuring prominent Indian tv and film actors.  Sacred Games:  THIS show, starring Saif Ali Khan, sees a policeman, a criminal overlord, a Bollywood film star, politicians, cultists, spies and terrorists come under the spotlight in this modern-day Mumbai set series.  The lives of the privileged, the famous, the wretched and the bloodthirsty interweave with cataclysmic consequences amid the chaos of the bustling city.  The series is based on the critically-acclaimed best-selling novel Sacred Games by author Vikram Chandra.  The story focuses on Sartaj Singh (Ali Khan), a seasoned and cynical Bombay police officer, summoned by an anonymous tip one morning, a voice which promises him an opportunity to capture the powerful Ganesh Gaitonde (Nawazuddin Siddiqui), criminal overlord of the G-Company.  As the stakes mount and Singh seeks knowledge of his prey, it becomes clear that the game the two players thought they were engaged in is, in fact, part of a much larger scenario, one that expands beyond their city. Sacred Games is Netflix’s first original Indian series.  An array of Indian media regarded the detective thriller as a major boost for Ali Khan’s career.  In fact, this series is now in Season 2 and definitely worth a binge session. Director Shivam Gupta told the Hindustan Times that Ali Khan and Siddiqui would “blow your minds” in season 2.  Powder:  It is based on the fight against drug abuse in India. Usmaan Ali Malik heads a team of Narcotics Control Bureau (NCB) officers to take on drug pedlars, led by drug baron Naved Ahmed Ansari, head on.  Now this one is not a Netflix original. It was aired on Indian TV in 2010 and pulled due to poor ratings.  Netflix seemed to see something in this series and resurrected it on their channel - a good move at that.  Starring Pankaj Tripathi, Rasika Dugal, Manish Choudhary, and Geetika Tyagi, you will find this one easy to get hooked on.  Pulling on themes of slum life and the allure of drug money, and of course all the drama and action in between, you’ll find this is also a highly relatable and universally-themed series considering the similar issues we face in our communities at home.  Ghoul:  I’ve never been a fan of the horror genre, but they have become popular on streaming services. After taking a peep at the trailer of Ghoul, I’d say fans of this genre would definitely enjoy this one, especially considering that it’s from the makers of the American films Insidious and Get Out, which were major hits on the thriller and horror front.  Based on the Arab folklore monster, ghoul, this web series is the second Netflix original from India.  Ghoul is a chilling series about a prisoner who arrives at a remote military interrogation centre and turns the tables on his interrogators, exposing their most shameful secrets.  Judging from the trailer, the series explores some out-of-this-world darkness.  Radhika Apte plays the main character, supported by the likes of Manav Kaul, Ratnabali Bhattacharjee and Mallhar Goenka.  The series is written and directed by Patrick Graham and jointly produced by Jason Blum and Bolly’s Anurag Kashyap among others.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sacred Games is Netflix’s first original Indian series. An array of Indian media regarded the detective thriller as a major boost for Ali Khan’s career.",
+          "concept": "streaming milestone",
+          "reasoning": "It anchors the named series Sacred Games to the ordinal detail 'first'."
+        },
+        {
+          "rank": 2,
+          "text": "In fact, this series is now in Season 2 and definitely worth a binge session. Director Shivam Gupta told the Hindustan Times that Ali Khan and Siddiqui would “blow your minds” in season 2.",
+          "concept": "season ordinal",
+          "reasoning": "It anchors the named series Sacred Games to the ordinal detail 'Season 2'."
+        },
+        {
+          "rank": 3,
+          "text": "Now this one is not a Netflix original. It was aired on Indian TV in 2010 and pulled due to poor ratings. Netflix seemed to see something in this series and resurrected it on their channel - a good move at that.",
+          "concept": "broadcast date",
+          "reasoning": "It anchors the named series Powder to the temporal detail '2010'."
+        }
+      ]
+    }
+  ]
+}

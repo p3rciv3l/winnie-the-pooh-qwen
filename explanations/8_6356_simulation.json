@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_6356",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:57:50Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific geographic locations alongside descriptions of events, activities, or conditions** (such as earthquake reports in Mexico, festival announcements in Mumbai, political statements in Chile, or rescue operations in Japan).\n\n2. **Domain coverage**: The pattern appears across news, reports, and descriptive narratives in multiple languages (Spanish, English, German, Italian, Turkish, etc.). It activates on concrete, often real-world events anchored to precise places (cities, regions, countries, or specific sites like the Salar de Atacama), covering topics like natural disasters, cultural events, political incidents, infrastructure projects, and local news.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently pair a named location with an ongoing action, development, or situation. The low-activation examples either lack a specific geographic anchor (e.g., discussing general topics like film reviews, consumer prices, or disinformation) or mention places only generically or in a different context (e.g., \"London CNN\" as a source tag, not as the subject of an event description).\n\n4. **Closing interpretation**: The neuron detects textual contexts where a real-world location is being framed as the active setting for a reported event or situation. It appears to specialize in the semantic structure of \"place + associated activity/occurrence,\" a common pattern in journalistic and descriptive writing.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00000",
+      "row_idx": 3286,
+      "normalized": 9.140824317932129,
+      "actual_text": "65 km al sureste de la ciudad, en el estado de Oaxaca. Ante una actividad sísmica importante, el Centro Nacional de Prev",
+      "plain_text": "Un sismo fue registrado en Salina Cruz a las 0:26 hora local (6:26 UTC) este 2 de enero, con una magnitud de 4.3 y una profundidad de 25.2 kilómetros. De acuerdo con información preliminar del Servicio Sismológico Nacional (SSN), el epicentro del movimiento telúrico se ubicó 65 km al sureste de la ciudad, en el estado de Oaxaca. Ante una actividad sísmica importante, el Centro Nacional de Prevención de Desastres (Cenapred)recomienda no caer en rumores, ni noticias falsas y solo informarse en fuentes oficiales, como las autoridades de Protección Civil, tanto locales y estatales, así como federales. Tras un terremoto, checa tu hogar en búsqueda de posibles daños, utiliza tu celular solo en caso de emergencia, no enciendas cerillos o velas hasta asegurarte que no hay alguna fuga de gas y recuerda que se pueden presentar réplicas del sismo, por lo que es importante estar alerta. También puedes seguir las siguientes medidas antes de un sismo: prepara un plan de protección civil, organiza simulacros de evacuación, encuentra las zonas de seguridad en casa, escuela o lugar de trabajo y alista una mochila de emergencia. Durante un terremoto conserva la calma y ubícate en runa zona de seguridad, aléjate de objetos que puedan caer; si estás en un automóvil, estaciónate y aléjate de edificios, árboles y postes; y si te ubicas en la costa, aléjate de la playa y refúgiate en zonas altas. Actividad sísmica en México Los mexicanos están acostumbrados a este tipo de eventos, pues el país se ubica en una zona de alta sismicidad. Cabe recordar la gran daños de los sismos de 1985 y 2017, que causaron grandes estragos a lo largo y ancho del territorio azteca. No obstante, existen registros de movimientos aún más destructivos en la historia del país. El 28 de marzo de 1787 aconteció el terremoto más fuerte registrado en el país. Oaxaca, entonces punto central de la colonia española, fue víctima de un movimiento de 8.6. Aquel evento fue tan impetuoso que le siguió un tsunami que alcanzó los 6 kilómetros tierra adentro. De acuerdo con los datos del Centro de Instrumentación y Registro Sísmico (Cires), realizados en 2009 sobre el terremoto citado, existe la posibilidad de una repetición de eventos por encima de dicha magnitud. Se estima que pueden ocurrir en los años venideros. Su epicentro se calcula en las costas de México y Centroamérica, ya que estas se encuentran en la denominada Brecha de Guerrero. Dicha zona se caracteriza por la acumulación de gran cantidad de energía geológica. Sin embargo, una magnitud menor en un evento sísmico no se traduce necesariamente en una afectación menor en edificios e infraestructura. Así, en 1985 y 2017, los habitantes de la capital, Ciudad de México, debieron enfrentar la devastación producto de dos terremotos que se transformaron en un parte aguas en sus vidas. El 19 de septiembre de 1985 sucedió un terremoto de magnitud 8.2, con epicentro en el estado de Guerrero. Eran las 07:19 horas locales (13:19 UTC). En aquel momento, se pensó que no habría más terremotos de tales dimensiones, mas un evento afín aconteció exactamente 32 años después. El de 2017 se dio entre los estados de Puebla y Morelos a las 13:14 hora local (18:30 UTC). El saldo de víctimas humanas alcanzó las 369 muertes.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un sismo fue registrado en Salina Cruz a las 0:26 hora local (6:26 UTC) este 2 de enero, con una magnitud de 4.3 y una profundidad de 25.2 kilómetros. De acuerdo con información preliminar del Servicio Sismológico Nacional (SSN), el epicentro del movimiento telúrico se ubicó 65 km al sureste de la ciudad, en el estado de Oaxaca.",
+          "concept": "earthquake in Salina Cruz",
+          "reasoning": "It reports a specific earthquake in Salina Cruz, Oaxaca, with precise location and event details."
+        },
+        {
+          "rank": 2,
+          "text": "El 28 de marzo de 1787 aconteció el terremoto más fuerte registrado en el país. Oaxaca, entonces punto central de la colonia española, fue víctima de un movimiento de 8.6. Aquel evento fue tan impetuoso que le siguió un tsunami que alcanzó los 6 kilómetros tierra adentro.",
+          "concept": "1787 Oaxaca earthquake",
+          "reasoning": "It describes a historical earthquake and tsunami in Oaxaca, Mexico."
+        },
+        {
+          "rank": 3,
+          "text": "Así, en 1985 y 2017, los habitantes de la capital, Ciudad de México, debieron enfrentar la devastación producto de dos terremotos que se transformaron en un parte aguas en sus vidas. El 19 de septiembre de 1985 sucedió un terremoto de magnitud 8.2, con epicentro en el estado de Guerrero.",
+          "concept": "1985 Mexico City earthquake",
+          "reasoning": "It mentions the 1985 earthquake in Mexico City and Guerrero, a major seismic event."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 1558,
+      "normalized": 7.822513580322266,
+      "actual_text": "harmful disinformation and hate speech. Many Rohingya attempted to report anti-Rohingya content via Facebook’s ‘report’ function, but were unsuccessful, Amnesty said",
+      "plain_text": "According to a report released on Thursday by Amnesty International, Facebook should make amends for the hundreds of thousands of Rohingya who were driven from their homes in Myanmar as part of a campaign made worse by the prevalence of online hate speech.  A predominantly Muslim minority known as the Rohingya was persecuted by Myanmar’s military government in 2017 and forced into Bangladesh, where they have since lived in vast refugee camps.  The violence, according to victim advocacy groups and human rights activists, was exacerbated by Facebook’s algorithms, which, they claim, play up extremist content that fosters harmful disinformation and hate speech.  Many Rohingya attempted to report anti-Rohingya content via Facebook’s ‘report’ function, but were unsuccessful, Amnesty said in its report. As a result, ‘these hateful narratives proliferated and reached unprecedented audiences in Myanmar.’  It referred to the ‘Facebook Papers’ allegations made public by a whistle-blower in October 2021, which showed that business leaders were aware that the platform encouraged the spread of harmful content against ethnic minorities and other groups.  Representatives of the Rohingya community have filed three lawsuits against Facebook in the US, the UK, and with the OECD, a group of developed nations, in accordance with its standards for ethical business practises.  Refugees are requesting $150 billion in damages in the US lawsuit that was launched last December in California, where Facebook and its parent company Meta are based.  Amnesty International stated: ‘Meta’s refusal to compensate Rohingya victims to date – even where the community’s modest requests represent crumbs from the table of the company’s enormous profits – simply add to the perception that this is a company wholly detached from the reality of its human rights impacts.’  In addition to requesting that Facebook do ‘proactive human rights due diligence’ across all of its platforms, the NGO also encouraged national authorities to strengthen their monitoring.  States must uphold their responsibility to defend human rights by enacting and enforcing strong legislation to limit the use of surveillance-based commercial models across the technology sector, the report stated.  In response to calls to crack down on false information, particularly with reference to politics and elections, Facebook has pledged to reform its corporate values and processes.  The business has formed alliances with a number of media outlets, including AFP, with the goal of verifying internet posts and removing falsified ones.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "According to a report released on Thursday by Amnesty International, Facebook should make amends for the hundreds of thousands of Rohingya who were driven from their homes in Myanmar as part of a campaign made worse by the prevalence of online hate speech. A predominantly Muslim minority known as the Rohingya was persecuted by Myanmar’s military government in 2017 and forced into Bangladesh, where they have since lived in vast refugee camps.",
+          "concept": "Rohingya persecution in Myanmar",
+          "reasoning": "It describes the event of Rohingya being driven from Myanmar and forced into Bangladesh."
+        },
+        {
+          "rank": 2,
+          "text": "As a result, ‘these hateful narratives proliferated and reached unprecedented audiences in Myanmar.’ It referred to the ‘Facebook Papers’ allegations made public by a whistle-blower in October 2021, which showed that business leaders were aware that the platform encouraged the spread of harmful content against ethnic minorities and other groups.",
+          "concept": "Hate speech in Myanmar",
+          "reasoning": "It mentions the spread of hate speech in Myanmar as a result of Facebook's algorithms."
+        },
+        {
+          "rank": 3,
+          "text": "Representatives of the Rohingya community have filed three lawsuits against Facebook in the US, the UK, and with the OECD, a group of developed nations, in accordance with its standards for ethical business practises. Refugees are requesting $150 billion in damages in the US lawsuit that was launched last December in California, where Facebook and its parent company Meta are based.",
+          "concept": "Lawsuits in multiple countries",
+          "reasoning": "It details lawsuits filed in the US, UK, and OECD against Facebook, with specific locations."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 1225,
+      "normalized": 6.387139320373535,
+      "actual_text": "Finding two of these rare galaxies in such close proximity is truly astounding,\" said Dominik Riechers, an astronomer at Cornell University in Ithaca, New",
+      "plain_text": "New observations with the Atacama Large Millimeter/submillimeter Array (ALMA) have uncovered the never-before-seen close encounter between two astoundingly bright and spectacularly massive galaxies in the early universe. These so-called hyper-luminous starburst galaxies are exceedingly rare at this epoch of cosmic history—near the time when galaxies first formed—and may represent one of the most-extreme examples of violent star formation ever observed. Astronomers captured these two interacting galaxies, collectively known as ADFS-27, as they began the gradual process of merging into a single, massive elliptical galaxy. An earlier sideswiping encounter between the two helped to trigger their astounding bursts of star formation. Astronomers speculate that this merger may eventually form the core of an entire galaxy cluster. Galaxy clusters are among the most massive structures in the universe.  \"Finding just one hyper-luminous starburst galaxy is remarkable in itself. Finding two of these rare galaxies in such close proximity is truly astounding,\" said Dominik Riechers, an astronomer at Cornell University in Ithaca, New York, and lead author on a paper appearing in the Astrophysical Journal. \"Considering their extreme distance from Earth and the frenetic star-forming activity inside each, it's possible we may be witnessing the most intense galaxy merger known to date.\"  The ADFS-27 galaxy pair is located approximately 12.7 billion light-years from Earth in the direction of the Dorado constellation. At this distance, astronomers are viewing this system as it appeared when the universe was only about one billion years old.  Astronomers first detected this system with the European Space Agency's Herschel Space Observatory. It appeared as a single red dot in the telescope's survey of the southern sky. These initial observations suggested that the apparently faint object was in fact both extremely bright and extremely distant. Follow-up observations with the Atacama Pathfinder EXperiment (APEX) telescope confirmed these initial interpretations and paved the way for the more detailed ALMA observations.  With its higher resolution and greater sensitivity, ALMA precisely measured the distance to this object and revealed that it was in fact two distinct galaxies. The pairing of otherwise phenomenally rare galaxies suggests that they reside within a particularly dense region of the universe at that period in its history, the astronomers said.  The new ALMA observations also indicate that the ADFS-27 system has approximately 50 times the amount of star-forming gas as the Milky Way. \"Much of this gas will be converted into new stars very quickly,\" said Riechers. \"Our current observations indicate that these two galaxies are indeed producing stars at a breakneck pace, about one thousand times faster than our home galaxy.\"  The galaxies—which would appear as flat, rotating disks—are brimming with extremely bright and massive blue stars. Most of this intense starlight, however, never makes it out of the galaxies themselves; there is simply too much obscuring interstellar dust in each.  This dust absorbs the brilliant starlight, heating up until it glows brightly in infrared light. As this light travels the vast cosmic distances to Earth, the ongoing expansion of the universe shifts the once infrared light into longer millimeter and submillimeter wavelengths, all thanks to the Doppler effect.  ALMA was specially designed to detect and study light of this nature, which enabled the astronomers to resolve the source of the light into two distinct objects. The observations also show the basic structures of the galaxies, revealing tail-like features that were spun-off during their initial encounter.  The new observations also indicate that the two galaxies are about 30,000 light-years apart, moving at roughly several hundred kilometers per second relative to each other. As they continue to interact gravitationally, each galaxy will eventually slow and fall toward the other, likely leading to several more close encounters before merging into one massive, elliptical galaxy. The astronomers expect this process to take a few hundred million years.  \"Due to their great distance and dustiness, these galaxies remain completely undetected at visible wavelengths,\" noted Riechers. \"Eventually, we hope to combine the exquisite ALMA data with future infrared observations with NASA's James Webb Space Telescope. These two telescopes will form an astronomer's 'dream team' to better understand the nature of this and other such exceptionally rare, extreme systems.\" Explore further: Explosive birth of stars swells galactic cores  \n                                        More information:\n                                        Dominik A. Riechers et al. Rise of the Titans: A Dusty, Hyper-luminous \"870 μm Riser\" Galaxy at z ∼ 6, The Astrophysical Journal (2017). DOI: 10.3847/1538-4357/aa8ccf",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "New observations with the Atacama Large Millimeter/submillimeter Array (ALMA) have uncovered the never-before-seen close encounter between two astoundingly bright and spectacularly massive galaxies in the early universe. These so-called hyper-luminous starburst galaxies are exceedingly rare at this epoch of cosmic history—near the time when galaxies first formed—and may represent one of the most-extreme examples of violent star formation ever observed.",
+          "concept": "ALMA discovery in Chile",
+          "reasoning": "It mentions the ALMA observatory in Chile and describes its new observations of a galactic encounter."
+        },
+        {
+          "rank": 2,
+          "text": "\"Finding just one hyper-luminous starburst galaxy is remarkable in itself. Finding two of these rare galaxies in such close proximity is truly astounding,\" said Dominik Riechers, an astronomer at Cornell University in Ithaca, New York, and lead author on a paper appearing in the Astrophysical Journal. \"Considering their extreme distance from Earth and the frenetic star-forming activity inside each, it's possible we may be witnessing the most intense galaxy merger known to date.\"",
+          "concept": "Cornell astronomer statement",
+          "reasoning": "It quotes an astronomer from Cornell University in New York commenting on the discovery."
+        },
+        {
+          "rank": 3,
+          "text": "Follow-up observations with the Atacama Pathfinder EXperiment (APEX) telescope confirmed these initial interpretations and paved the way for the more detailed ALMA observations. With its higher resolution and greater sensitivity, ALMA precisely measured the distance to this object and revealed that it was in fact two distinct galaxies.",
+          "concept": "APEX confirmation in Chile",
+          "reasoning": "It describes follow-up observations with the APEX telescope in Chile confirming the findings."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 3346,
+      "normalized": 0.0,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.",
+          "concept": "Slovakia mass testing",
+          "reasoning": "It starts with the dateline Bratislava, Slovakia and states the nation's plan to test its entire population for Covid-19."
+        },
+        {
+          "rank": 2,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent. Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days.",
+          "concept": "Mass testing in China and Taiwan",
+          "reasoning": "It describes Slovakia's preparation for mass testing and compares with successful mass testing in China and Taiwan."
+        },
+        {
+          "rank": 3,
+          "text": "But none has yet tried to test all of its citizens. Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.",
+          "concept": "Slovakia's pandemic response",
+          "reasoning": "It mentions Slovakia's Prime Minister vowing to make Slovakia the first to know the full scope of contagion."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 1823,
+      "normalized": 0.0,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state.",
+          "concept": "Virtual event in Allen, Texas",
+          "reasoning": "It mentions a virtual event at the Allen Public Library in Texas to discuss Black high school football history."
+        },
+        {
+          "rank": 2,
+          "text": "The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program.",
+          "concept": "Event details with Dallas moderator",
+          "reasoning": "It provides specific details of the event and mentions a moderator from the Dallas Morning News."
+        },
+        {
+          "rank": 3,
+          "text": "Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970.",
+          "concept": "Texas football history",
+          "reasoning": "It mentions a former Dallas Cowboys player participating and summarizes the book's story about Texas football history."
+        }
+      ]
+    }
+  ]
+}

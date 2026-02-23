@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_6509",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news wire or syndicated content that includes disclaimers, source attributions, and auto-generation notices (such as \u201cauto-generated from a syndicated feed,\u201d \u201cDisclaimer,\u201d \u201cclick here to read,\u201d or press release tags like \u201cots/PRNewswire\u201d).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Spanish, German, Turkish, Italian) and covers diverse topics including international politics, entertainment, sports, and cultural events. It often involves proper nouns (e.g., Anurag Srivastava, Jacqueline Fernandez), temporal references (e.g., Thursday, February), and mentions of specific organizations or media outlets.\n\n3. **Contrast with low-activation examples**: The low-activation texts are also news-like but lack explicit syndication notices, disclaimers, or references to external websites. They are typically straightforward news leads without meta-commentary about their source or generation, and they are predominantly in English without mixed scripts.\n\n4. **Closing interpretation**: The neuron likely detects text originating from news aggregation platforms or automated feeds, characterized by boilerplate disclaimers and multi-lingual content, serving as a feature for identifying machine-generated or syndicated news articles.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Copyright\u00a92022 Living Media India Limited. For reprint rights: Syndications Today",
+      "normalized_activation": 9.580021858215332,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2352,
+          "meaning_score": 1.0,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6941
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2032,
+          "meaning_score": 0.291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1977
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2897,
+          "meaning_score": 0.1815,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1885
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "But why had he borrowed the stars? Follow the story here on #LouboutinWorld and we shall tell you.",
+      "normalized_activation": 8.650151252746582,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.322,
+          "meaning_score": 0.8141,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6544
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1446,
+          "meaning_score": 0.6638,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3234
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1965,
+          "meaning_score": 0.5737,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3081
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "This is not an isolated case. A woman cadre recently rescued by the Jharkhand police revealed how she had to undergo severe \u201csexual exploitation\u201d at the hands",
+      "normalized_activation": 7.539577484130859,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1661,
+          "meaning_score": 0.5165,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.273
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1532,
+          "meaning_score": 0.3659,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2076
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1361,
+          "meaning_score": 0.5396,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2703
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "SCRANTON, Pa. -- The ideas of making pot legal and wiping away marijuana",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2077,
+          "meaning_score": 0.8007,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6034
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2287,
+          "meaning_score": 0.5336,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3049
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2132,
+          "meaning_score": 0.5525,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3063
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1711,
+          "meaning_score": 0.5979,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3076
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1715,
+          "meaning_score": 0.8624,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6136
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1339,
+          "meaning_score": 0.2836,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.167
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_9342",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in descriptive or informative contexts** (such as person names with titles, specific organizations, military systems, or geographic locations within news-like passages).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Hungarian, Swedish, Polish, English, Tamil, German, Italian, Urdu, Kannada, Portuguese, Spanish) and primarily in news, reportage, or factual descriptions. Topics include politics, military affairs, sports, academia, disasters, and cultural events\u2014where entities are often introduced with clarifying details like roles, affiliations, or technical specifications.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include named entities accompanied by additional identifiers (e.g., \u201cGeneral Gholam Hossein Gheypour,\u201d \u201cM142 HIMARS system,\u201d \u201cLabSis/UFRN\u201d), while low-activation examples either lack named entities altogether or present them without such elaboration (e.g., \u201cPolice officers in Kayole\u201d without named officers, \u201cEricsson\u201d without specifying departments or roles). The neuron also processes multilingual entity references, but only when they are contextually enriched.\n\n4. **Closing interpretation**: The neuron detects linguistically specific references to notable people, organizations, or technical terms within explanatory or narrative text, acting as a filter for named entities that are framed with descriptive relevance rather than appearing in isolation or generic statements.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u09a4\u09bf\u09a8\u09bf \u09ac\u09b2\u09c7\u09a8, \u09ac\u09c3\u09b9\u09b8\u09cd\u09aa\u09a4\u09bf\u09ac\u09be\u09b0 \u09b8\u09a8\u09cd\u09a7\u09cd\u09af\u09be\u09af",
+      "normalized_activation": 9.347742080688477,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1775,
+          "meaning_score": 0.3073,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.3939
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1734,
+          "meaning_score": 0.2086,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1528
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1476,
+          "meaning_score": 0.2585,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1625
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "so, it harks back to the allegations of political meddling by former president Thabo Mbeki\u2019s administration in the timing of his initial indictment, which informed the controversial",
+      "normalized_activation": 8.373819351196289,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0971,
+          "meaning_score": 0.675,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3089
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1863,
+          "meaning_score": 0.4902,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2706
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1157,
+          "meaning_score": 0.5808,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2786
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "m\u1edbi, c\u00f2n nhi\u1ec1u thi\u1ebfu s\u00f3t. Nh\u1edd \u0111\u1ea1o di\u1ec5n T\u1eeb Tranh ch\u1ec9 b\u1ea3o t\u00f4i m\u1edbi ho\u00e0n th\u00e0nh b\u1ed9 phim\". Sina \u0111\u00e1nh gi\u00e1 tr\u1edf l\u1ea1i ho\u1ea1t",
+      "normalized_activation": 7.264647006988525,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0893,
+          "meaning_score": 0.2202,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1238
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1281,
+          "meaning_score": 0.3376,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1863
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1292,
+          "meaning_score": 0.1998,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1316
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BOCA RATON, Fla., May 6, 2021 /",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1297,
+          "meaning_score": 0.1723,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1208
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1421,
+          "meaning_score": 0.2699,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.3648
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1068,
+          "meaning_score": 0.2166,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1293
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4344,
+          "meaning_score": 0.2846,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2876
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1761,
+          "meaning_score": 0.3042,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1921
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1748,
+          "meaning_score": 0.6143,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5157
+        }
+      ]
+    }
+  ]
+}

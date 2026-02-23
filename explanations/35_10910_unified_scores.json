@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_10910",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to **text segments containing specific named entities (such as people, organizations, locations, or event names) embedded within detailed, multi-clause descriptions of actions, policies, or events**.\n\n**Domain coverage**: The pattern appears across multiple languages (English, Hindi, Spanish, Polish, Indonesian) and diverse topics including politics, law, sports, archaeology, business, and entertainment. High-activation examples consistently feature a proper noun followed by explanatory or descriptive clauses (e.g., \"CDC Director Rochelle Walensky said that the agency's approach...\" or \"muon detectors inside the nearby Pyramid of Khafre to see if...\").\n\n**Contrast with low-activation examples**: The low-activation texts are either fragments, simple headlines, or generic statements that lack detailed contextual framing around specific entities. For instance, \"MINNEAPOLIS, Feb. 22, 2022\" contains a location and date but no associated action or description, while \"Recensione del film 'Wish'\" mentions a title without elaboration. The neuron fires weakly when named entities are absent or appear without rich, clause-based context.\n\n**Closing interpretation**: The neuron detects linguistically complex, information-dense text where specific real-world entities are central to an unfolding narrative or exposition, acting as a filter for substantive, context-rich references rather than mere mentions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u0d35\u0d47\u0d23\u0d4d\u0d1f\u0d24\u0d46\u0d28\u0d4d\u0d28\u0d4d \u0d15\u0d3e\u0d32\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d38\u0d30",
+      "normalized_activation": 9.17080020904541,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2695,
+          "meaning_score": 0.2595,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2116
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2076,
+          "meaning_score": 0.3119,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4078
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1881,
+          "meaning_score": 0.1631,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1405
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "9 The European Union will lift its sanctions on Belarus, including those on authoritarian President Alexander Lukashenko, for four months after Sunday's vote, barring any last-minute",
+      "normalized_activation": 7.172077178955078,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.128,
+          "meaning_score": 0.83,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5832
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1419,
+          "meaning_score": 0.5751,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2868
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1008,
+          "meaning_score": 0.4995,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2401
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "menu and select 'Add to homescreen' to pin the The News web app Got it! KARACHI: I had failed to establish a contact between Pakistan Muslim",
+      "normalized_activation": 4.289849758148193,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1128,
+          "meaning_score": 0.4534,
+          "overlap_fraction": 0.4857,
+          "location_score": 0.0971,
+          "combined_score": 0.3236
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1438,
+          "meaning_score": 0.3191,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1852
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1204,
+          "meaning_score": 0.3347,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.182
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1421,
+          "meaning_score": 0.4937,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2543
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1524,
+          "meaning_score": 0.7279,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5521
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0955,
+          "meaning_score": 0.4043,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1999
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5317,
+          "meaning_score": 0.4756,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4029
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2387,
+          "meaning_score": 0.4617,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2802
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1108,
+          "meaning_score": 0.3215,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1729
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_12940",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific cities as part of proper nouns or administrative bodies** (such as \"New York City,\" \"City Council,\" \"City Commission,\" or \"Granite City\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or descriptive text about local governance, events, or institutions. It activates on city names within administrative contexts (e.g., \"Burlington City Council,\" \"Watertown City Court\"), geographic references (\"Daly City resident,\" \"Kanazawa City\"), and formal titles of organizations or locations (\"Brennan Center for Justice in New York City,\" \"University of Minnesota, Twin Cities\"). Examples also include non-English city names when formatted similarly (e.g., \"Taipei City,\" \"Hachioji City\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the specific \"City\" as a proper noun component. They include text in other languages (Turkish, Arabic, Bengali), fragmented metadata (timestamps), or discussions of topics like politics, cars, or general commentary without referencing a specific city in the formal, name-embedded pattern that triggers the neuron.\n\n4. **Closing interpretation**: The neuron detects the token \"City\" when it forms part of a multi-word proper noun or institutional phrase, acting as a geographic and administrative identifier. It is sensitive to this specific lexical-syntactic construct rather than the generic concept of a city.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "said during a news conference Tuesday, Jan. 17, outside Los Angeles City Hall. \u201cUnfortunately, many of us have been gaslit, attacked and",
+      "normalized_activation": 9.479242324829102,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5112,
+          "meaning_score": 0.5434,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4218
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3079,
+          "meaning_score": 0.4305,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2954
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4324,
+          "meaning_score": 0.3895,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3288
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "of the ground made available for the funerals of Martin McGuinness and Derry City captain Ryan McBride. Bill Clinton\u2019s helicopter had landed on the pitch.",
+      "normalized_activation": 8.853414535522461,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2606,
+          "meaning_score": 0.8259,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6346
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3149,
+          "meaning_score": 0.2641,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2316
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1992,
+          "meaning_score": 0.342,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2165
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "rebels since the UN-brokered ceasefire came into effect in the Red Sea port city on Tuesday. A pro-government official told AFP that four loyalists were wounded",
+      "normalized_activation": 7.61683988571167,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2372,
+          "meaning_score": 0.5007,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2952
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4668,
+          "meaning_score": 0.5116,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3914
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2274,
+          "meaning_score": 0.4728,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2801
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Surender.singh@timesgroup.com \u0917\u0941\u0921\u093c\u0917\u093e\ufffd",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3461,
+          "meaning_score": 0.4249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3084
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3461,
+          "meaning_score": 0.2187,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2259
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3461,
+          "meaning_score": 0.1701,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2065
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Findet jetzt heraus, ob ihr allein den November genie\u00dft oder ob ihr",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1401,
+          "meaning_score": 0.5146,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4619
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1401,
+          "meaning_score": 0.3843,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2098
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1401,
+          "meaning_score": 0.3854,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2102
+        }
+      ]
+    }
+  ]
+}

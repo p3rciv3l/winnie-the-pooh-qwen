@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_15824",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific, named local institutions or organizations paired with their precise geographic locations** (such as a school in \u010cesk\u00fd Brod, a clinic in Crici\u00fama, a police department in Coconut Creek, or a township in Lake County, Ohio).\n\n2. **Domain coverage**: The pattern appears across news, administrative, and descriptive texts in multiple languages (English, Spanish, Italian, Turkish, Swedish, etc.). It covers domains like education, law enforcement, local government, businesses, healthcare, and religious institutions, consistently focusing on the concrete pairing \"Institution X in Location Y.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention locations without a specific attached institution (e.g., \"China says...\", \"Ocean travels to Malta\"), refer to broad, non-localized entities (e.g., \"Marvel movies,\" \"an observatory\"), or are truncated snippets lacking a complete \"institution-in-location\" phrase. The high-activation group is defined by the co-occurrence of both elements.\n\n4. **Closing interpretation**: The neuron detects textual anchors that ground an organization, facility, or administrative body to a specific town, city, or region. It appears to specialize in extracting structured real-world entities that denote local points of authority, service, or activity.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "State's Luke Farrell, Michigan's Zach Gentry and Sean McKeon, Purdue's Cole Herdman, Penn State's Jonathan Holland, Wisconsin's Zander",
+      "normalized_activation": 9.556726455688477,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.276,
+          "meaning_score": 0.7499,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6103
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.307,
+          "meaning_score": 0.4318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2955
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1873,
+          "meaning_score": 0.2727,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.184
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "estende tra i comuni di Greve in Chianti, San Casciano e Barberino Tavarnelle \u2013 spiega il sindaco di San",
+      "normalized_activation": 8.695469856262207,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.08,
+          "meaning_score": 0.5963,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4705
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1278,
+          "meaning_score": 0.5249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2611
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1348,
+          "meaning_score": 0.5187,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2614
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "environmentally sustainable way. The state legislature\u2019s funding of the Food Innovation Lab in Kannapolis and new facilities in the College of Engineering have made NC State incredibly competitive for this",
+      "normalized_activation": 7.668154716491699,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2413,
+          "meaning_score": 0.6899,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5725
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2284,
+          "meaning_score": 0.5332,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3046
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2226,
+          "meaning_score": 0.5617,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3137
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "'Insulting Prophet hurts feelings of Muslims worldwide' \"If the acts of",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1308,
+          "meaning_score": 0.4394,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2281
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0998,
+          "meaning_score": 0.251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1403
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2652,
+          "meaning_score": 0.754,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4077
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Researchers produce laser pulses with record-breaking intensity Researchers have demonstrated a record-high laser pulse",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3311,
+          "meaning_score": 0.6939,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.41
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3567,
+          "meaning_score": 0.5989,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3822
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3178,
+          "meaning_score": 0.506,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3295
+        }
+      ]
+    }
+  ]
+}

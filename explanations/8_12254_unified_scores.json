@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_12254",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of national or ethnic populations using the pattern \"[National/Ethnic Group] people\"** (such as \"American people,\" \"Russian people,\" \"Catalan people,\" \"Zimbabwean people,\" or \"Japanese people\").\n\n2. **Domain coverage**: The pattern appears predominantly in political, historical, and news contexts discussing governance, conflict, public opinion, or collective national experience. It spans multiple languages (English, Arabic, Ukrainian, etc.) and is triggered even when the phrase is embedded in longer narratives about leadership, crises, elections, or international relations.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the explicit construct \"[Adjective/Nationality] + people\" as a collective noun. Low-activation examples lack this specific construction; they may mention countries, governments, or general events (e.g., \"Western nations,\" \"India's growth,\" \"Ukraine crisis\") but do not refer to the population using the \"people\" collocation.\n\n4. **Closing interpretation**: The neuron detects a specific linguistic frame highlighting a national or ethnic collective as an entity affected by or involved in events. It is more attuned to the phrase structure itself than to general topics about nations, acting as a detector for explicit references to \"the people\" of a defined group.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "under rubble. The US President also extended his support, offering assistance to the Japanese people. The rescue efforts are still ongoing, with reports of people trapped under collapsed buildings",
+      "normalized_activation": 8.284987449645996,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.328,
+          "meaning_score": 0.4617,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3159
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.328,
+          "meaning_score": 0.8159,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6576
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1797,
+          "meaning_score": 0.3202,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "i Solidariti Tanah Airku (STAR) President Datuk Seri Panglima Dr Jeffrey Kitingan regretted a local daily report that suggests he",
+      "normalized_activation": 5.485675811767578,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2203,
+          "meaning_score": 0.4076,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2511
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2244,
+          "meaning_score": 0.8138,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6153
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.075,
+          "meaning_score": 0.3587,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1735
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u0644\u0627\u06c1\u0648\u0631 (\u0627\u06d2 \u067e\u06cc \u067e\u06cc)\u0648\u0641\u0627\u0642\u06cc \u0679\u06cc\u06a9\u0633 \u0645\u062d\u062a\u0633\u0628 \u06a9\u06d2 \u06a9",
+      "normalized_activation": 3.2769486904144287,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1932,
+          "meaning_score": 0.2261,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1677
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.121,
+          "meaning_score": 0.2368,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1431
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1144,
+          "meaning_score": 0.441,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4222
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "\u201cYOU SAY YOU love your children above all else, and yet you are stealing their",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1867,
+          "meaning_score": 0.0422,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0916
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1841,
+          "meaning_score": 0.0776,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1047
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1925,
+          "meaning_score": 0.1712,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1455
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u201cI am very pleased that Dr. Stahl will be joining us at the UK School",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1244,
+          "meaning_score": 0.3167,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1764
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1433,
+          "meaning_score": 0.7107,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5416
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1066,
+          "meaning_score": 0.3721,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1915
+        }
+      ]
+    }
+  ]
+}

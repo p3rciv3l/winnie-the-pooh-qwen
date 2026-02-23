@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_5552",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:14:01Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing ongoing geopolitical events, natural disasters, or institutional actions** (such as reports of military attacks, natural disaster impacts, political decisions, or scientific missions), particularly when they are presented in a factual, news-reporting style.\n\n2. **Domain coverage**: The pattern appears in multilingual news or current-events reporting. Examples span languages including German, Polish, Spanish, Arabic, Persian, and Italian, covering topics like armed conflict (\"Wojska rosyjskie... ostrzał Ukrainy\"), natural disasters (\"terremoto... catanese\"), political/legal actions (\"investigating the construction... illegal logging\"), and space agency operations (\"Europejskiej Agencji Kosmicznej\"). The text is typically mid-sentence, focusing on consequential, real-world developments.\n\n3. **Contrast with low-activation examples**: The low-activation texts are dominated by English-language commercial announcements, entertainment news, marketing, internal corporate updates, and general lifestyle topics (e.g., school choice, Marvel LEGO sets, beauty treatments). They lack the sense of immediate, real-world consequence and institutional scope found in the high-activation group. The neuron specifically ignores promotional, speculative, or routine informational content.\n\n4. **Closing interpretation**: This neuron detects formal, reportive language concerning significant and timely real-world incidents, often with an international or institutional dimension. It functions as a filter for newsworthy, consequential updates across multiple languages, while filtering out promotional, entertainment, and routine commercial discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00005",
+      "row_idx": 521,
+      "normalized": 9.755725860595703,
+      "actual_text": "® stato portato a un livello completamente nuovo, con un paesaggio ricco di valli rocciose e un'abbondante vegetazione",
+      "plain_text": "Oggi, Level Infinite e Hotta Studio hanno annunciato nuovi dettagli dell'imminente aggiornamento 2.3, Wandering Amidst Miasma, che verr√† lanciato il 2 febbraio in Tower of Fantasy, MMORPG free to play open world di grande successo. I giocatori avranno a disposizione una nuova storia, una nuova mappa con ambientazioni e creature mai viste prima, nuovi boss e nuove sfide. La versione 2.3 celebrer√† i primi sei mesi di Tower of Fantasy con una serie di eventi e ricompense per i giocatori, come nuclei, cristalli oscuri e altro ancora. Tower of Fantasy ha recentemente vinto il premio Best for Tablets di Google Play, √® stato nominato Best Mobile Game ai The Game Awards ed √® disponibile gratuitamente sul sito ufficiale, su App Store, Google Play e Steam. La nuova mappa permetter√† ai giocatori di esplorare la Miasmic Swamp, una palude dove l'ecosistema di Vera √® stato portato a un livello completamente nuovo, con un paesaggio ricco di valli rocciose e un'abbondante vegetazione simile a una foresta pluviale. I giocatori che hanno da poco terminato l'esplorazione del vasto deserto potranno ora vivere un'esperienza del tutto unica e differente nella dinamica Miasmic Swamp, ricca di nuove creature e piante. Mentre gli elementi interattivi aggiunti, come i Funghi Neon e i misteriosi Egg Device, miglioreranno ulteriormente l'esplorazione con le loro speciali meccaniche di gioco per la risoluzione dei rompicapo.  Nell'aggiornamento 2.3 saranno introdotti anche due nuovi boss. Jormungan, che utilizza feroci attacchi con le claymore, ed Eva, che scatena assalti rotanti potenziati con la sua Volt. Entrambi i nuovi boss hanno una seconda fase, durante la quale la portata e velocit√† degli attacchi aumentano notevolmente. Con l'ultimo aggiornamento saranno aggiunte anche tre nuove istanze e sfide. In Carnival Party i Wanderer dovranno combattere contro una band, difendendosi da attacchi unici di chitarra e voce. In Pursuit of Fate, i Wanderer dovranno sconfiggere i nemici utilizzando un'auto da corsa per spostarsi in ogni fase e, infine, Origin of War, offrir√† sfide stagionali multiplayer, durante le quali i giocatori dovranno dimostrare le loro abilit√† di scalata arrampicandosi sulle torri con la possibilit√† di personalizzare lapropria build in corsa.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La versione 2.3 celebrerà i primi sei mesi di Tower of Fantasy con una serie di eventi e ricompense per i giocatori, come nuclei, cristalli oscuri e altro ancora. Tower of Fantasy ha recentemente vinto il premio Best for Tablets di Google Play, è stato nominato Best Mobile Game ai The Game Awards ed è disponibile gratuitamente sul sito ufficiale, su App Store, Google Play e Steam.",
+          "concept": "award recognition",
+          "reasoning": "This section reports on awards and availability, but it is promotional and lacks the real-world consequence the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "Oggi, Level Infinite e Hotta Studio hanno annunciato nuovi dettagli dell'imminente aggiornamento 2.3, Wandering Amidst Miasma, che verrà lanciato il 2 febbraio in Tower of Fantasy, MMORPG free to play open world di grande successo. I giocatori avranno a disposizione una nuova storia, una nuova mappa con ambientazioni e creature mai viste prima, nuovi boss e nuove sfide.",
+          "concept": "game update announcement",
+          "reasoning": "This is a promotional announcement for a video game update, which the neuron ignores as it is not news-reporting on real-world events."
+        },
+        {
+          "rank": 3,
+          "text": "La nuova mappa permetterà ai giocatori di esplorare la Miasmic Swamp, una palude dove l'ecosistema di Vera è stato portato a un livello completamente nuovo, con un paesaggio ricco di valli rocciose e un'abbondante vegetazione simile a una foresta pluviale.",
+          "concept": "game environment description",
+          "reasoning": "This describes game features in a promotional style, not matching the neuron's focus on geopolitical or institutional news."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00009",
+      "row_idx": 4022,
+      "normalized": 9.155421257019043,
+      "actual_text": "la ciudad”, señala la arquitecta Aguirre. El primer piso de La Sagrada Familia se diseñó la plataforma comercial donde llegar",
+      "plain_text": "La Sagrada Familia es uno de los proyectos más ambiciosos que se desarrolla en Cali. Sus promotores proyectaron la construcción de un edificio contemporáneo, pensado para la cultura, junto al centenario claustró que albergó durante 103 años a un colegio y a las hermanas de La Providencia y la Inmaculada Concepción. Pero el desarrollo de esta propuesta no ha estado ajeno a las controversias.  “Lo que estamos haciendo es repotencializando una zona de la ciudad, lo que se debe hacer con las joyas arquitectónicas abandonadas es repotencializarlas, ya no cumplen su función y por lo tanto habían sido abandonadas, se les da un nuevo uso. En este caso es un uso comercial y hotelero que le da vitalidad y le da nueva funcionalidad”, dice la arquitecta Fabiola Aguirre. En el nuevo edificio buscan proyectar, con la última tecnología, los grandes espectáculos del mundo, que ahí se pueda disfrutar de una obra de Broadway, de los mejores museos del mundo, del Louvre, del Metropolitan o del Prado, a cualquier hora del día, no en un horario determinado como ocuerre en algunas salas de la ciudad. El proyecto está diseñado como una rótula urbana, el atrio central de la edificación se conectará con la plazoleta de El Peñón y con el centro histórico. Será como una gran plaza pública donde pueda disfrutarse de espectáculos artísticos. “Hemos creado la puerta San Antonio que conectará con el tradicional barrio, tenemos la puerta del Charco del Burro y la puerta de la plazoleta de El Peñón. Por eso el uso comercial, para abrirlo a la ciudad, porque el hotel hubiera quedado cerrado a la ciudad, en cambio, la plataforma comercial abre el espacio a la ciudad”, señala la arquitecta Aguirre. El primer piso de La Sagrada Familia se diseñó la plataforma comercial donde llegarán marcas de España, Alemania y Estados Unidos y cobijado por la marca Smal Luxury Hotel ofrecerá 67 suites. Leer 'Grandes marcas' “A veces, ni los alcaldes ni los municipios cumplen con esa función, pero si el privado lo hace, lo que debería tener es apoyo y no volverse objetivo militar al que se le dispara desde la Administración y poniéndoles palos a la rueda”, dijo la arquitecta, quien está al frente del marketing del proyecto. “En Europa, esto que estamos haciendo nosotros se viene haciendo hace 30 años, tenemos la Pirámide del Louvre, luego vienen todos los ejemplos donde los centros históricos han dejado la fachada solamente y construyen por dentro porque ya ningún Estado puede sostenerlos, el Estado no está interviniendo, no está salvando el patrimonio, lo salva el privado y, para poder salvarlo, tiene que buscar la rentabilidad para salvar algo que cuesta mucho. Aquí, por ejemplo, la estructura antisísmica costó 11.500 millones de pesos”, agregó. El anteproyecto de la Sagrada Familia fue aprobado, pero después modificado. Los cambios implementados, a partir de la aprobación inicial, fueron radicados y revisados en el 2016 por funcionarios de Planeación que ya no hacen parte de la Administración Municipal. Y, a finales de enero pasado, Planeación y la secretaría de Cultura emitieron nuevos actos administrativos que generaron la suspensión de las obras. Leer 'Ponen límites' ‘El proyecto de modificación presentado para la Sagrada Familia fue negado por esta administración municipal porque desconoció las normas que protegen los bienes de interés cultural. Esta decisión es legal, está vigente y solo podría ser anulada por un juez de la República”, dijo, en su momento, la Alcaldía a través de un comunicado. “Este proyecto depende de los desembolsos bancarios y de la plata que den los inversionistas, nos hemos enterado de las cosas a través de los medios. Salieron a decir, en un acto ilegal, que negaban la licencia y generaron pánico económico”, dijo el abogado Hernando Morales, quien representa a la Promotora Jero SAS, los que desarrollan la Sagrada Familia.  El próximo martes se radicará una demanda ante el Tribunal Contencioso Administrativo del Valle por lo que consideran violaciones en este proceso.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El próximo martes se radicará una demanda ante el Tribunal Contencioso Administrativo del Valle por lo que consideran violaciones en este proceso.",
+          "concept": "legal action",
+          "reasoning": "This announces a forthcoming lawsuit, which is a timely and consequential real-world event reported in a factual style."
+        },
+        {
+          "rank": 2,
+          "text": "El anteproyecto de la Sagrada Familia fue aprobado, pero después modificado. Los cambios implementados, a partir de la aprobación inicial, fueron radicados y revisados en el 2016 por funcionarios de Planeación que ya no hacen parte de la Administración Municipal. Y, a finales de enero pasado, Planeación y la secretaría de Cultura emitieron nuevos actos administrativos que generaron la suspensión de las obras.",
+          "concept": "institutional suspension",
+          "reasoning": "This describes institutional actions leading to the suspension of works, matching the neuron's focus on real-world consequences and administrative decisions."
+        },
+        {
+          "rank": 3,
+          "text": "Leer 'Ponen límites' ‘El proyecto de modificación presentado para la Sagrada Familia fue negado por esta administración municipal porque desconoció las normas que protegen los bienes de interés cultural. Esta decisión es legal, está vigente y solo podría ser anulada por un juez de la República”, dijo, en su momento, la Alcaldía a través de un comunicado.",
+          "concept": "municipal denial",
+          "reasoning": "This reports a municipal decision based on cultural protection laws, aligning with institutional actions in a news-reporting style."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00012",
+      "row_idx": 5225,
+      "normalized": 8.463226318359375,
+      "actual_text": "iche potrebbero aver luogo oggi tramite telefono o chat video. I concetti potrebbero essere profondi, esaltanti e stimolanti",
+      "plain_text": "Oroscopo weekend 1 giugno e 2 giugno 2024 segno per segno di Affaritaliani.it Oroscopo weekend sabato 1 giugno e domenica 2 giugno 2024: le previsioni dell’oroscopo del fine settimana segno per segno Oroscopo del weekend 1 giugno e 2 giugno 2024: le previsioni astrologiche del fine settimana segno per segno  Le previsioni dell’Oroscopo del week-end sabato 1 giugno e domenica 2 giugno: il tuo oroscopo del fine settimana ti dice in che modo l'energia cosmica avrà un impatto sui tuoi piani del weekend. Non iniziare il weekend senza leggere il tuo oroscopo! ARIETE OROSCOPO WEEK-END 1 GIUGNO – 2 GIUGNO 2024  Oroscopo del week-end Ariete: Una serie di eventi potenti potrebbero aumentare il livello di amore e di energia positiva nella tua casa, Ariete. I visitatori con un focus spirituale o metafisico potrebbero portare alcune informazioni nuove ed entusiasmanti. Una bella notizia che non ti saresti mai aspettato potrebbe sollevare il morale di tutti. Potrebbe aver luogo una comunicazione con uno scopo umanitario o spirituale. Qualunque cosa sia, aspettati che la tua casa sia piena di grandi vibrazioni.  TORO OROSCOPO WEEK-END 1 GIUGNO - 2 GIUGNO 2024  Oroscopo del weekend Toro: Potresti essere in comunicazione con alcune nuove persone che sembrano interessanti e stimolano la tua curiosità, Toro. Conversazioni spirituali o metafisiche potrebbero aver luogo oggi tramite telefono o chat video. I concetti potrebbero essere profondi, esaltanti e stimolanti, ma sollevare più domande che risposte. I libri sull’argomento potrebbero rivelarsi illuminanti. Potresti anche voler scrivere i tuoi pensieri o immortalarli in un disegno o in un dipinto.  GEMELLI OROSCOPO WEEK-END 1 GIUGNO – 2 GIUGNO 2024  Oroscopo del weekend Gemelli: Esperienze che non ti saresti mai aspettato potrebbero capitarti oggi, Gemelli. Un talento che non sapevi di avere potrebbe venire alla luce. Ciò potrebbe comportare una combinazione di arte e tecnologia, come la computer grafica o l’animazione, oppure potrebbe comportare un lavoro spirituale o umanitario. Potresti anche provare a raccogliere fondi per un ente di beneficenza o una causa sociale o politica. Non esitare. Vai ad esso.  CANCRO OROSCOPO WEEK-END 1 GIUGNO - 2 GIUGNO 2024  Oroscopo del weekend Cancro: Di solito tendi a pensare in modo razionale e scientifico, Cancro, ma oggi potresti essere così intuitivo da avere maggiori probabilità di usare le tue capacità psichiche. Questa può essere una benedizione mista. La tua natura razionale ti protegge dall'identificarti troppo con i meno fortunati del mondo. Oggi questa protezione è molto ridotta, quindi preparati a identificarti emotivamente con tutti.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Oroscopo weekend 1 giugno e 2 giugno 2024 segno per segno di Affaritaliani.it Oroscopo weekend sabato 1 giugno e domenica 2 giugno 2024: le previsioni dell’oroscopo del fine settimana segno per segno Oroscopo del weekend 1 giugno e 2 giugno 2024: le previsioni astrologiche del fine settimana segno per segno",
+          "concept": "horoscope introduction",
+          "reasoning": "This is a repetitive introduction to horoscope predictions, which is speculative and not factual news."
+        },
+        {
+          "rank": 2,
+          "text": "Le previsioni dell’Oroscopo del week-end sabato 1 giugno e domenica 2 giugno: il tuo oroscopo del fine settimana ti dice in che modo l'energia cosmica avrà un impatto sui tuoi piani del weekend. Non iniziare il weekend senza leggere il tuo oroscopo!",
+          "concept": "astrological forecast",
+          "reasoning": "This provides general astrological forecasts, which are speculative and lack real-world consequence."
+        },
+        {
+          "rank": 3,
+          "text": "ARIETE OROSCOPO WEEK-END 1 GIUGNO – 2 GIUGNO 2024 Oroscopo del week-end Ariete: Una serie di eventi potenti potrían aumentare il livello di amore e di energia positiva nella tua casa, Ariete.",
+          "concept": "personal horoscope",
+          "reasoning": "This is a specific horoscope prediction for an individual sign, which is entertainment content ignored by the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00015",
+      "row_idx": 3016,
+      "normalized": 0.0,
+      "actual_text": "Australian pop princess Kylie Minogue will collaborate with Welsh actor Luke Evans on a new song",
+      "plain_text": "Australian pop princess Kylie Minogue will collaborate with Welsh actor Luke Evans on a new song, according to multiple reports.  The Melbourne-born gay icon will duet with the gay Welsh actor on a track for his debut studio album, which was first announced on Twitter last week.  “Been keeping this under wraps but now it’s out!” Evans told his Twitter followers.  “I’ve signed a record deal and I’ve been in the studio recording my first ever album! I’m over the moon! My first love has always been singing.”  The album is reportedly being produced by longtime Kylie collaborator Steve Anderson, who has worked with Kylie on many of her albums, including Kylie Minogue, Impossible Princess, Light Years, Fever and her 2015 festive release, Kylie Christmas.  Evans, who has performed in high-profile stage musicals on London’s West End, as well as a slew of Hollywood films, told Twitter his album would not be a show tunes collection.  Longtime pals, Evans and Kylie have been associated with each other since at least 2007, when he appeared in her one-off television special The Kylie Show.  Evans played Kylie’s love interest during her rendition of Tears on my Pillow in the program, which aired on ITV in Britain and Channel Seven in Australia.  News of the collaboration follows confirmation that Kylie will feature on Swedish pop star Tove Lo’s fourth song cycle, Sunshine Kitty.  Kylie will feature on Really Don’t Like U, one of fourteen new songs on the album, which is due for release on 20 September.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Australian pop princess Kylie Minogue will collaborate with Welsh actor Luke Evans on a new song, according to multiple reports.",
+          "concept": "music collaboration",
+          "reasoning": "This reports on an entertainment collaboration, which is promotional and not related to geopolitical or institutional news."
+        },
+        {
+          "rank": 2,
+          "text": "The Melbourne-born gay icon will duet with the gay Welsh actor on a track for his debut studio album, which was first announced on Twitter last week.",
+          "concept": "album announcement",
+          "reasoning": "This provides details about the album announcement, which is entertainment news and lacks real-world consequence."
+        },
+        {
+          "rank": 3,
+          "text": "Evans, who has performed in high-profile stage musicals on London’s West End, as well as a slew of Hollywood films, told Twitter his album would not be a show tunes collection.",
+          "concept": "artist background",
+          "reasoning": "This gives background on the artist, which is informational but not in the news-reporting style the neuron detects."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00009",
+      "row_idx": 2572,
+      "normalized": 0.0,
+      "actual_text": "Okay, I admit it. I'm a sucker for a child singing at Christmas,",
+      "plain_text": "Okay, I admit it. I'm a sucker for a child singing at Christmas, especially when the child has such a hauntingly beautiful voice as Kaylee Rodgers'.  The lyrics aren't Leonard Cohen's original lyrics here, but it's still a haunting and amazing rendition of the tune.  keyboard shortcuts: V vote up article J next comment K previous comment",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Okay, I admit it. I'm a sucker for a child singing at Christmas, especially when the child has such a hauntingly beautiful voice as Kaylee Rodgers'.",
+          "concept": "personal reflection",
+          "reasoning": "This is a personal opinion and reflection, not factual news reporting on real-world events."
+        },
+        {
+          "rank": 2,
+          "text": "The lyrics aren't Leonard Cohen's original lyrics here, but it's still a haunting and amazing rendition of the tune.",
+          "concept": "music critique",
+          "reasoning": "This comments on a song rendition, which is subjective and not news-related."
+        },
+        {
+          "rank": 3,
+          "text": "keyboard shortcuts: V vote up article J next comment K previous comment",
+          "concept": "interface instructions",
+          "reasoning": "This is meta-commentary on website functionality, completely unrelated to the neuron's focus."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_5963",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of officials in institutional or authoritative contexts** (such as government officials making announcements, bank officials denying requests, or UN officials taking actions).\n\n2. **Domain coverage**: The pattern appears across news, government reports, and institutional statements in English, covering topics like disaster response (\"officials are still assessing the quake\u2019s impact\"), policy decisions (\"local health officials and school boards\"), diplomacy (\"Turkish officials seeking support\"), and corporate or financial authority (\"bank officials turned him away\"). While most high-activation examples are in English, the neuron\u2019s trigger is semantic (the concept of officials acting in their capacity) rather than language-specific.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the term \"officials\" (or close variants like \"government officials\") within descriptions of formal decisions, statements, or responses. The low-activation examples lack this lexical and conceptual focus\u2014they include weather reports, untranslated snippets, local crime briefs, and general descriptions without any institutional authority figures.\n\n4. **Closing interpretation**: This neuron detects textual references to people in official roles exercising their duties or making institutional statements. It functions as a specialized lexical-semantic filter for the concept of *authoritative officials in action*, largely independent of specific topics or languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "such as the Philippines and Vietnam, and drawn growing criticism from U.S. government officials and the military. While the new islands will not overturn U.S. military superiority",
+      "normalized_activation": 9.798314094543457,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5818,
+          "meaning_score": 0.6301,
+          "overlap_fraction": 0.6313,
+          "location_score": 0.1263,
+          "combined_score": 0.611
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3436,
+          "meaning_score": 0.4393,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3131
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4625,
+          "meaning_score": 0.519,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3926
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "a punishment up to five years in jail for posting \"fake news\" about government officials, the military and judiciary on social media. Human rights groups have said the",
+      "normalized_activation": 9.376925468444824,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5812,
+          "meaning_score": 0.7159,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5188
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3376,
+          "meaning_score": 0.5087,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3385
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2959,
+          "meaning_score": 0.4254,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2885
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the southwestern Chinese province of Yunnan, killing at least two people, local officials and seismologists said. The U.S. Geological Survey said the epic",
+      "normalized_activation": 8.562570571899414,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5684,
+          "meaning_score": 0.7483,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.5267
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.5682,
+          "meaning_score": 0.5637,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4528
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3392,
+          "meaning_score": 0.3665,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2823
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Este fen\u00f3meno producir\u00e1 lluvias y chubascos moderados a fuertes y dispersos, acompa\u00f1ados de actividad el\u00e9ctrica",
+      "normalized_activation": 1.34726881980896,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1496,
+          "meaning_score": 0.4773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2508
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1059,
+          "meaning_score": 0.3471,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1812
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2908,
+          "meaning_score": 0.423,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2855
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "a personas o materiales, inform\u00f3 la Secretar\u00eda de Gesti\u00f3n de Riesgos y Contingencias. El epicentro del movimiento tel\u00farico",
+      "normalized_activation": 1.2730683088302612,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1776,
+          "meaning_score": 0.5306,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2833
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3862,
+          "meaning_score": 0.5218,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3632
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1838,
+          "meaning_score": 0.6252,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3236
+        }
+      ]
+    }
+  ]
+}

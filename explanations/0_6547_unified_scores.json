@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_6547",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of violent or political attacks** (such as terrorist incidents, military invasions, physical assaults on institutions, or rhetorical/political confrontations labeled as \"attacks\").\n\n2. **Domain coverage**: The pattern appears in international news reporting on terrorism (Nice, Capitol, Gaza), military conflicts (Russia-Ukraine, Syria), cyber warfare, and domestic political criticism (e.g., \"attack against conservatives\"). It spans multiple languages (English, French place names) and is specific to conflict-focused journalism, official statements, and analytical commentary about aggressive acts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the lemma \"attack\" (as a noun or verb) or close synonyms (\"invasion,\" \"assault\") describing a deliberate aggressive act. The low-activation examples are devoid of this conflict semantics, covering local news, administrative details, cultural topics, and generic prose without any violent or confrontational framing.\n\n4. **Closing interpretation**: The neuron detects the core semantic concept of a hostile, often sudden, aggressive action within a real-world narrative. It functions as a high-precision feature for conflict events and their political or rhetorical analogies.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Sri Lankan Catholic priests walk past a damaged shop after a mob attack in Minuwangoda on May 15, 2019",
+      "normalized_activation": 9.810309410095215,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "Texas.\u201d Texas Lt. Gov. Dan Patrick appeared on Fox News Thursday to attack companies fighting against the bill. \u2014 American Wire Politics (@usawirepol",
+      "normalized_activation": 9.352559089660645,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "it was pretty bad already.\u201d He took a hose through the front door, attacking the flames at the fridge where the fire started. His wife recalls her hero",
+      "normalized_activation": 8.36102294921875,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Los muones son part\u00edculas subat\u00f3micas que se producen cuando los",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u062a\u0633\u062a\u0639\u062f \u0627\u0644\u062c\u0632\u0627\u0626\u0631 \u0644\u0625\u0635\u062f\u0627\u0631 \u0639\u0645\u0644\u0629 \u0648\u0631\u0642\u064a\u0629 \u0648\u0646\u0642\u062f\u064a\u0629",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

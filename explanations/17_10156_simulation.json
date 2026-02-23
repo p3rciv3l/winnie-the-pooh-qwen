@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_10156",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:27:30Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured, formal, or data-like text segments that resemble news snippets, institutional reports, or financial/administrative bulletins** (such as dates with parenthetical abbreviations, monetary figures, corporate details, or multilingual news leads).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Kannada, Hindi, Greek, Bengali, etc.) and topics—including finance (\"mutual fund products\"), government announcements (\"Governor Andrew M. Cuomo today announced\"), scientific reporting (\"redshift\"), crime reports (\"Nigeria Customs Service\"), and entertainment news formatted like brief dispatches. The common thread is a telegraphic, fact-dense style often containing numbers, dates, abbreviations, named entities, and parenthetical asides.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **compressed factual information presented in a clipped, reportorial tone**, frequently with numerical data, specific dates, institutional names, or parenthetical inserts (e.g., \"Sept. 28\", \"2016 in Bitcoin, News | 0 comments\", \"हि.स\"). Low-activation examples, while sometimes similar in topic, are phrased as general descriptions, narrative sentences, or introductory clauses without that dense, abbreviated factual packaging (e.g., \"Weekly Shonen Jump, the renowned shonen manga magazine...\" or \"Africa may be taking a great leap forward...\").\n\n4. **Closing interpretation**: The neuron detects text that mimics the syntactic and informational density of news wires, database entries, or formal bulletins, regardless of language. It appears to fire on segments where information is packed into a concise, non-narrative format characteristic of summaries, leads, or data records.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00002",
+      "row_idx": 1356,
+      "normalized": 9.649444580078125,
+      "actual_text": "Amnesty to reverse Navalny status: aide Amnesty International will next week announce it is reversing",
+      "plain_text": "Amnesty to reverse Navalny status: aide Amnesty International will next week announce it is reversing a decision to strip jailed Kremlin critic Alexei Navalny of its \"prisoner of conscience\" status, a top aide says. The human rights group announced on February 24 that it would stop referring to Navalny as a prisoner of conscience on the grounds that in the past he had made comments that qualified as advocacy of hatred. Navalny's chief of staff Leonid Volkov, speaking in English to Canadian legislators, accused Russia of carrying out a series of dirty tricks to blacken the politician's reputation. \"(Amnesty) told me just yesterday that they will issue a press release on May 12 after they have examined how the Russian disinformation campaign managed to influence them,\" he told the House of Commons foreign affairs committee on Thursday. \"They will not only reinstate his status but they will also issue a post-mortem.\" An Amnesty spokeswoman said she had no immediate comment. The 44-year-old Russian opposition politician was arrested in January and sentenced to jail for parole violations he called trumped up. Navalny has been criticised for past nationalist statements against illegal immigration and for attending an annual nationalist march several years ago. Get the latest news from thewest.com.au in your inbox. Sign up for our emails",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Amnesty to reverse Navalny status: aide Amnesty International will next week announce it is reversing a decision to strip jailed Kremlin critic Alexei Navalny of its \"prisoner of conscience\" status, a top aide says.",
+          "concept": "news lead",
+          "reasoning": "This is a concise news lead with named entities and a clear factual statement, matching the neuron's preference for telegraphic news snippets."
+        },
+        {
+          "rank": 2,
+          "text": "\"(Amnesty) told me just yesterday that they will issue a press release on May 12 after they have examined how the Russian disinformation campaign managed to influence them,\" he told the House of Commons foreign affairs committee on Thursday.",
+          "concept": "press release announcement",
+          "reasoning": "This quote includes a specific date, a committee name, and a reference to a disinformation campaign, fitting the pattern of formal reports with dates and institutions."
+        },
+        {
+          "rank": 3,
+          "text": "The 44-year-old Russian opposition politician was arrested in January and sentenced to jail for parole violations he called trumped up.",
+          "concept": "biographical fact",
+          "reasoning": "This sentence provides compressed factual information including age, month, and legal details, characteristic of news bulletins."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00013",
+      "row_idx": 3230,
+      "normalized": 9.080942153930664,
+      "actual_text": "flies on your hibiscus or other plants? Wash them off the undersides of the leaves two to three times each week with a high-pressure water stream so",
+      "plain_text": "1. Watering strategies  Ideally, lawns should be watered every three days for 20 minutes at a time in the morning hours during hot summer days for optimal health and best appearance. But if circumstances prevent you from doing this, try to water your lawn at least twice a week for 12 minutes each time — early in the morning or in the evening. And carefully check your sprinkler heads to be sure they are working properly — watering your plants and lawn, but not the street or sidewalk.  2. A little off the top  Remember, also, to set mower blades to cut the lawn at 3 inches — but not shorter. With longer blades of grass, the lawn will create a greenhouse-like microhabitat around the leaves and actually use less water, so it will be less likely to burn or die back in patches. Additionally, the longer blades will help to discourage weeds.  3. An evening drink  During this very hot weather, try to water vegetable gardens, fruit trees and landscape shrubbery — including roses — in the evening so moisture has a better chance to seep into the ground during the cool of the night rather than evaporate. But try to prevent water from spraying directly onto the foliage of roses or squash plants in the evening, since that could promote powdery mildew.  4. Planting time  Plant tomatoes now for autumn harvest, and prepare a garden spot for winter vegetables. Blend in plenty of homemade compost or other organic matter for best results. Begin planting winter garden vegetables before the end of August. These include beets, broccoli, Brussels sprouts, cabbages, carrots, cauliflower, celery, kale, leeks, lettuces, peas, radishes and turnips. By the end of September you can add bulbs, such as garlic and onions, and also spinach.  5. Get rid of pests Still have those nasty giant whiteflies on your hibiscus or other plants? Wash them off the undersides of the leaves two to three times each week with a high-pressure water stream so they give up and go away, at least for a while. It also helps to spread a layer of Worm Gold earthworm castings under the plants. They don’t like it, so they leave.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ideally, lawns should be watered every three days for 20 minutes at a time in the morning hours during hot summer days for optimal health and best appearance.",
+          "concept": "watering instruction",
+          "reasoning": "This sentence contains specific numerical guidance presented in a formal, instructional style, resembling a bulletin."
+        },
+        {
+          "rank": 2,
+          "text": "Remember, also, to set mower blades to cut the lawn at 3 inches — but not shorter.",
+          "concept": "mowing instruction",
+          "reasoning": "This is a concise directive with a precise measurement, matching the neuron's response to numerical data in structured advice."
+        },
+        {
+          "rank": 3,
+          "text": "Wash them off the undersides of the leaves two to three times each week with a high-pressure water stream so they give up and go away, at least for a while.",
+          "concept": "pest control instruction",
+          "reasoning": "This sentence includes a frequency and a method, presented in a factual, reportorial tone."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00019",
+      "row_idx": 205,
+      "normalized": 8.34060287475586,
+      "actual_text": "es del elemento fuego, afín con el tuyo que es de aire, para estabilizar tu vida a la forma librana, armónica y eleg",
+      "plain_text": "Noticiero astrológico: la Luna se mueve desde Sagitario hasta Capricornio. Los planetas Marte, Saturno, Neptuno, y el planetoide Plutón siguen retrógrados. Tu regente, el planeta Venus, continúa directo en tránsito por el signo de Virgo. ¡Ojo, Libra! No creas eso de segundas partes nunca fueron buenas y dale una oportunidad nuevamente a la esperanza y el romance. También hay noticias en el aspecto económico pues se avecinan importantes negocios que podrán darte dinero muy pronto. Controla tu bolsillo y no regales tu esfuerzo a ese grupo de personajes oportunistas que se te acercan para adularte y buscar invitaciones gratuitas. Aprovecha este nuevo ciclo del mes de Leo, que es del elemento fuego, afín con el tuyo que es de aire, para estabilizar tu vida a la forma librana, armónica y elegante. Compatibilidad amorosa de Leo con los demás signos Amor El tono de este martes es de asombro, librano, y con los cambios que están sucediéndose dentro de tu realidad sentimental notarás lo bien que te sientes y cómo las preocupaciones y tristezas quedan atrás. Estás en un momento feliz para recomenzar o reiniciar una relación. Salud Los problemas de salud que hoy te aquejan tendrán una gran mejoría una vez que hayas resuelto las cargas emocionales y sentimentales que te están preocupando. Resuelve unas, y las otras quedarán solucionadas. Cada cosa en su tiempo. Trabajo Si has tenido alguna dificultad en tu casa o tu vida personal aprovecha tu trabajo para descargar esa energía y crear algo productivo. Cuando hayas terminado tu jornada te sentirás relajado y mucho mejor que cuando comenzaste. Ya verás. Altar a Santa Ana para la ayuda familiar   Dinero y fortuna Tu signo Libra se está proyectando hacia la seguridad económica, pero esa inquietud puede robarte el sueño e impedir que disfrutes lo que ahora tienes. Felizmente el dinero está llegando a tus puertas. Biorritmo astral de hoy Nivel de energía sexual este martes: moderado.  Dinámica cósmica que debes aprovechar: la paz interior que ahora te envuelve procedente de la aceptación de tu realidad y lo que estás viviendo en estos días.  Tendencia peligrosa de hoy martes en tu signo Libra: dejarte influir a la hora de tomar decisiones por quienes no saben exactamente tu realidad.  ¿Qué debo evitar?: cambiar la dirección o estrategia de un plan que ya has estudiado. Predicción de pareja para hoy martes La mejor relación de hoy: este martes las cosas marcharán muy bien para ti si tu pareja es de Libra y Géminis. Podría haber buena compatibilidad con Tauro, aunque sea de tierra ya que ambos comparten el regente Venus.  La relación más tensa: evita argumentos con el signo Sagitario y con Virgo.  Tu compatibilidad actual: la compatibilidad es buena en general, aunque existe cierto tono inestable con algunos signos como Virgo y Acuario.  Si estás soltero o soltera: recuperarás el equilibrio que pensaste habías perdido al haber cometido un error de apreciación con una persona que te interesa.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Noticiero astrológico: la Luna se mueve desde Sagitario hasta Capricornio. Los planetas Marte, Saturno, Neptuno, y el planetoide Plutón siguen retrógrados. Tu regente, el planeta Venus, continúa directo en tránsito por el signo de Virgo.",
+          "concept": "astrological report",
+          "reasoning": "This opening segment lists celestial movements in a concise, factual manner, similar to a news bulletin in the astrological domain."
+        },
+        {
+          "rank": 2,
+          "text": "La mejor relación de hoy: este martes las cosas marcharán muy bien para ti si tu pareja es de Libra y Géminis. Podría haber buena compatibilidad con Tauro, aunque sea de tierra ya que ambos comparten el regente Venus.",
+          "concept": "compatibility forecast",
+          "reasoning": "This section provides specific astrological compatibility information for a given day, structured like a data record."
+        },
+        {
+          "rank": 3,
+          "text": "Nivel de energía sexual este martes: moderado. Dinámica cósmica que debes aprovechar: la paz interior que ahora te envuelve procedente de la aceptación de tu realidad y lo que estás viviendo en estos días.",
+          "concept": "daily metrics",
+          "reasoning": "These sentences present quantified metrics and advice in a bullet-point-like format, resembling structured reports."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 1829,
+      "normalized": 0.0,
+      "actual_text": "Ignacio Mier Velazco se convirtió ayer en el nuevo coordin",
+      "plain_text": "Ignacio Mier Velazco se convirtió ayer en el nuevo coordinador de la fracción de Morena de la Cámara de Diputados en sustitución de Mario Delgado Carrillo, luego de la declinación de Dolores Padierna Luna, Tatiana Clouthier Carrillo, Pablo Gómez Álvarez y Sergio Gutiérrez Luna, entre otros.  La labor del poblano Mier Velazco no será nada fácil porque enfrenta una creciente rebelión de 33 diputados federales de Morena que no están de acuerdo con el triunfo de Delgado Carrillo, como es el caso de Aleida Alavez Ruiz, Laura Imelda Pérez Segura, Irma Juan Carlos y Rubén Cayetano García, quienes consideran que Porfirio Muñoz-Ledo Lazo de la Vega ganó la tercera y última encuesta que organizó el Instituto Nacional Electoral (INE).  El grupo opositor a Delgado Carrillo amenaza con dejar la fracción de Morena para que Mier Velazco no pueda asumir la presidencia de la Junta de Coordinación Política de la Cámara de Diputados.  También señalaron que estarán muy pendientes de la impugnación que presentó Muñoz-Ledo Lazo de la Vega ante el Tribunal Electoral del Poder Judicial de la Federación (TEPJF), que preside el magistrado Felipe Fuentes Barrera.  Mier Velazco tiene fama de ser muy buen negociador, por lo que se espera que logre desactivar la rebelión en contra de Delgado Carrillo para lograr la unidad de la fracción ahora que asuma la dirigencia nacional de Morena.  Por otra parte, pero sin dejar el tema de la Cámara de Diputados, el presidente de la Comisión de Presupuesto y Cuenta Pública, el tamaulipeco Erasmo González Robledo trató ayer en tribuna de justificar con un lenguaje “cantiflesco” la desaparición del Fondo de Salud para el Bienestar, puesto que dijo que sí se le quitarían los 33 mil millones asignados en el 2021, a fin de atender enfermedades que provocan gastos catastróficos, pero que no desaparecía porque seguiría en la estructura de la Secretaría de Salud.  González Robledo aseveró que ahora sí habrá abasto oportuno de medicamentos en clínicas y hospitales del Sector Salud, incluso destacó el convenio que acaba de firmar el presidente Andrés Manuel López Obrador con la Oficina de las Naciones Unidas de Servicios para Proyectos (UNOPS) por 32 mil millones de pesos para la compra consolidada de medicamentos.  En el dictamen que presentó González Robledo especifica que el Fondo de Salud para el Bienestar deberá de transferir los 33 mil millones de pesos a la Tesorería de la Federación a más tardar el 1° de abril del 2021, fecha en que se tiene que pagar el convenio con los directivos del UNOPS.  En temas más amables, el promotor deportivo Rubén Rivera Rodríguez, lanzó la campaña denominada “Una Navidad Sin Frío” con el propósito de recabar fondos que se destinarán a la compra de ropa y cobijas para las personas de escasos recursos económicos en el municipio de Victoria.  Rivera Rodríguez explicó que las personas caritativas pueden también donar ropa abrigadora, cobertores, cobijas, entre otros, que serán entregados en las colonias populares durante el mes de diciembre y enero, cuando se registran las temperaturas más bajas del invierno.  No es la primera vez en que el también promotor de afiliación del PT en Victoria organiza eventos para compartir durante la temporada decembrina, como fue el caso de la llamada “Carrera del Pavo”, que por varios años organizó con la ayuda o aportación de amigos y funcionarios con el propósito de premiar a las y los participantes de una carrera atlética de fin de año.  Las personas caritativas podrán entregar sus donaciones en las oficinas del PT, que se encuentran ubicadas en el 15 y 16 Méndez de Ciudad Victoria, cuyas aportaciones servirán para que las familias de escasos recursos económicos tengan “Una Navidad Sin Frío”.  En otro tema, resulta que el programa denominado Zona Franca del Norte, que se implementó el presidente López Obrador en los 43 municipios que hay en la frontera entre México y Estados Unidos, no ha propiciado la generación de empleos que se esperaba, según un estudio del IZA of Labor Economice.  “El programa incluyó estímulos fiscales para los habitantes de la región, como la reducción del 16% al 8% del Impuesto al Valor Agregado (IVA) y la reducción del 30% al 20% del Impuesto Sobre la Renta (ISR)”, resultó positivo porque los salarios de los trabajadores tienen mayor poder adquisitivo, sin embargo, no ha tenido un impacto en la generación de empleos”, revelaron los encargados del estudio.  Señalaron que la pérdida de empleos se ha dado en pequeñas empresas, particularmente en el sector servicios y en aquéllas que dependen más de la mano de obra, sobre todo durante la crisis de la pandemia del coronavirus.  Se espera que con la reactivación económica se logre la generación de empleos que se requiere, sin embargo, resultará muy difícil ante la política implementada por el gobierno federal que ha alejado la inversión privada tanto nacional como extranjera.  Correo electrónico: jagovea_53@yahoo.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ignacio Mier Velazco se convirtió ayer en el nuevo coordinador de la fracción de Morena de la Cámara de Diputados en sustitución de Mario Delgado Carrillo, luego de la declinación de Dolores Padierna Luna, Tatiana Clouthier Carrillo, Pablo Gómez Álvarez y Sergio Gutiérrez Luna, entre otros.",
+          "concept": "political appointment",
+          "reasoning": "This is a dense news lead with multiple named entities and a formal announcement, matching the neuron's description of institutional reports."
+        },
+        {
+          "rank": 2,
+          "text": "La labor del poblano Mier Velazco no será nada fácil porque enfrenta una creciente rebelión de 33 diputados federales de Morena que no están de acuerdo con el triunfo de Delgado Carrillo, como es el caso de Aleida Alavez Ruiz, Laura Imelda Pérez Segura, Irma Juan Carlos y Rubén Cayetano García, quienes consideran que Porfirio Muñoz-Ledo Lazo de la Vega ganó la tercera y última encuesta que organizó el Instituto Nacional Electoral (INE).",
+          "concept": "political conflict",
+          "reasoning": "This sentence includes a numerical figure, a list of names, and an institutional reference, characteristic of factual news reporting."
+        },
+        {
+          "rank": 3,
+          "text": "En el dictamen que presentó González Robledo especifica que el Fondo de Salud para el Bienestar deberá de transferir los 33 mil millones de pesos a la Tesorería de la Federación a más tardar el 1° de abril del 2021, fecha en que se tiene que pagar el convenio con los directivos del UNOPS.",
+          "concept": "financial deadline",
+          "reasoning": "This segment contains a large monetary figure, a specific date, and an institutional acronym, fitting the pattern of financial/administrative bulletins."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "patent announcement",
+          "reasoning": "This opening sentence includes specific dates, institutional names, and technical terminology, resembling a news snippet from a research bulletin."
+        },
+        {
+          "rank": 2,
+          "text": "Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti.",
+          "concept": "technical specification",
+          "reasoning": "This sentence provides a quantitative benefit and descriptive details in a formal, report-like style, matching the neuron's preference for data-like segments."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12).",
+          "concept": "research collaboration",
+          "reasoning": "This segment lists numerical data, multiple institutional names, and a journal citation, characteristic of formal academic or institutional reporting."
+        }
+      ]
+    }
+  ]
+}

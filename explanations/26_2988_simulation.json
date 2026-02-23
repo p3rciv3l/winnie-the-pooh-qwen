@@ -1,8 +1,8 @@
 {
   "neuron_id": "26_2988",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-11T05:59:06Z",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific dates, years, or time references embedded within journalistic or formal prose** (such as “September 23, 2022”, “April 23, 2017”, “February 24, 2022”, or “lunedì 16 e martedì 17 gennaio”).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, social media captions, and sports reports in multiple languages (English, Italian, Spanish, Arabic), often near references to political events, financial updates, tournament schedules, or cultural happenings. The date format is flexible (month-day-year, day-month-year, written-out months) but is consistently integrated into a factual, reportorial sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack explicit date/time anchors (e.g., “Demographic decline was a big story around the world in 2023” uses only a vague year) or present the date in an isolated, fragmentary way (e.g., “Il 6 maggio 1976 alle ore 21.0” appears truncated). High-activation examples embed the date within a fuller narrative clause, often accompanied by proper nouns (names, organizations, events) and ongoing contextual details.\n\n4. **Closing interpretation**: The neuron detects structured temporal markers within developed, multi-clause informational text, acting as a feature for timestamped reporting. It appears tuned to dates not as isolated entities, but as anchors within a specific, continuing news or event narrative.",
+  "generated_at": "2026-02-23T05:05:09Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific dates, times, or formal citation markers** (such as full dates like \"February 24, 2022,\" timestamp formats like \"September 23, 2022,\" tweet citations like \"@NASAHubble,\" or press release source lines).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, social media citations, and formal reports in multiple languages (English, Italian, Spanish, Arabic), indicating it detects a formatting convention rather than a specific topic. It activates on content ranging from financial news and sports results to political reporting and product announcements, provided they include these precise temporal or source anchors.\n\n3. **Contrast with low-activation examples**: The low-activation texts mention general timeframes (\"In January this year\") or ongoing situations without specific date stamps, or they begin narrative or descriptive statements lacking immediate citation formatting. The high-activation group consistently contains explicit, structured markers of recency or sourcing absent in the low group.\n\n4. **Closing interpretation**: This neuron likely detects textual segments that signal documented, time-anchored, or formally attributed information, acting as a filter for content typical of recent reporting, official communications, or cited sources rather than general statements or background exposition.",
   "results": [
     {
       "example_idx": 1,
@@ -14,18 +14,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "TOKYO (Reuters) - Japan has eased travel curbs for China, Australia, South Korea and six other countries and regions, Foreign Minister Toshimitsu Motegi said on Friday, as Tokyo steps up efforts to revive its economy while preventing the spread of the novel coronavirus.",
-          "reasoning": "This opening sentence contains a specific day reference ('on Friday') embedded within formal journalistic prose about a political/economic announcement."
+          "text": "TOKYO (Reuters) - Japan has eased travel curbs for China, Australia, South Korea and six other countries and regions, Foreign Minister Toshimitsu Motegi said on Friday,",
+          "concept": "news agency citation",
+          "reasoning": "Contains a formal news agency citation '(Reuters)' and a specific day 'Friday'."
         },
         {
           "rank": 2,
-          "text": "Japan lowered its infection risk advisory level for Thailand, Singapore, Taiwan, New Zealand, Brunei and Vietnam, besides China, South Korea and Australia, to 2 from 3, telling its citizens to avoid non-urgent, non-essential trips.",
-          "reasoning": "This sentence continues the detailed factual reporting with proper nouns and contextual details following the temporal anchor."
+          "text": "Under the infection risk advisory level of 3, the public are instructed not to take any trips. Reporting by Kiyoshi Takenaka; Editing by Shri Navaratnam Our Standards: The Thomson Reuters Trust Principles.",
+          "concept": "formal attribution",
+          "reasoning": "Contains formal reporting credits and a source line typical of news articles."
         },
         {
           "rank": 3,
-          "text": "Under the infection risk advisory level of 3, the public are instructed not to take any trips. Reporting by Kiyoshi Takenaka; Editing by Shri Navaratnam Our Standards: The Thomson Reuters Trust Principles.",
-          "reasoning": "This section maintains the formal reportorial style with institutional details, though it lacks another explicit date reference."
+          "text": "as Tokyo steps up efforts to revive its economy while preventing the spread of the novel coronavirus. Japan lowered its infection risk advisory level for Thailand, Singapore, Taiwan, New Zealand, Brunei and Vietnam, besides China, South Korea and Australia, to 2 from 3, telling its citizens to avoid non-urgent, non-essential trips.",
+          "concept": "news content",
+          "reasoning": "Lacks explicit date or citation markers, but is part of a news report narrative."
         }
       ]
     },
@@ -39,18 +42,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "On Friday officials of VSSC had a video meeting of interested companies and explained about 'Shwaas' and its systems. \"It was a first round meeting and about 50 industries participated.",
-          "reasoning": "This begins with a specific day reference ('On Friday') in a formal organizational context with event details."
+          "text": "On Friday officials of VSSC had a video meeting of interested companies and explained about 'Shwaas' and its systems. 'It was a first round meeting and about 50 industries participated. I had interacted with them. My team and I answered their queries,' S. Somanath, Director, VSSC told IANS.",
+          "concept": "time and source attribution",
+          "reasoning": "Contains a specific day ('Friday') and a formal citation to a news agency ('IANS')."
         },
         {
           "rank": 2,
-          "text": "I had interacted with them. My team and I answered their queries,\" S. Somanath, Director, VSSC told IANS. \"We are entering into an agreement with each of them who are meeting the criteria on technical capability.",
-          "reasoning": "This continues the press-release style reporting with direct quotes from an official about ongoing developments."
+          "text": "The device, which weighs 42-44 kg, is 600 mm high, 500 mm long and 400 mm wide and has a LCD display showing oxygen concentration, flow rate, and pressure. (Venkatachari Jagannathan can be contacted at v.jagannathan@ians.in) --IANS vj/in",
+          "concept": "source line",
+          "reasoning": "Ends with a formal source line and contact information for a news agency."
         },
         {
           "rank": 3,
-          "text": "The technology sharing/transfer will take place in the next two days. The technology transfer will be free,\" Somanath added. According to him, medical equipment, space equipment, electronics and product manufacturing companies are selected now and more could be based on their credentials.",
-          "reasoning": "This contains a near-future time reference ('next two days') within formal procedural reporting about technology transfer."
+          "text": "Couple of days back, ISRO had announced its decision to transfer the technology to make portable medical oxygen concentrators developed by VSSC. The medical oxygen concentrator 'Shwaas', can deliver an enriched level (over 95 per cent) of oxygen than in air to support patients with respiratory illness or who are on oxygen therapy.",
+          "concept": "vague time reference",
+          "reasoning": "Contains a vague time anchor ('Couple of days back') but no specific date or formal citation."
         }
       ]
     },
@@ -64,18 +70,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Evoking the Stonewall uprising in 1969, the president said that since that catalyst for LGBTQ+ civil rights in the U.S., \"courageous LGBTQI+ Americans continue to inspire and bring hope to all people seeking a life true to who they are.\"",
-          "reasoning": "This contains a specific historical year reference (1969) embedded within formal presidential prose about civil rights progress."
+          "text": "The president referenced the ongoing attacks against LGBTQ+ people, especially those who are transgender and LGBTQ+ youth. The ACLU is tracking more than 500 anti-LGBTQ+ bills in the U.S. as of May 31.",
+          "concept": "specific date",
+          "reasoning": "Contains a specific date marker ('May 31') typical of time-anchored reporting."
         },
         {
           "rank": 2,
-          "text": "He referred to his administration’s push to end conversion therapy and to stop the ongoing HIV epidemic. The president referenced the ongoing attacks against LGBTQ+ people, especially those who are transgender and LGBTQ+ youth.",
-          "reasoning": "This continues the formal policy reporting style with multiple contextual details about ongoing initiatives."
+          "text": "Evoking the Stonewall uprising in 1969, the president said that since that catalyst for LGBTQ+ civil rights in the U.S., “courageous LGBTQI+ Americans continue to inspire and bring hope to all people seeking a life true to who they are.”",
+          "concept": "historical year",
+          "reasoning": "References a specific historical year ('1969') as a temporal anchor."
         },
         {
           "rank": 3,
-          "text": "The ACLU is tracking more than 500 anti-LGBTQ+ bills in the U.S. as of May 31. \"These bills and laws attack our most basic values and freedoms as Americans: the right to be yourself, the right to make your own medical decisions, and the right to raise your own children.",
-          "reasoning": "This includes a specific date reference ('as of May 31') within factual reporting about legislative tracking."
+          "text": "All Rights reserved President Joe Biden is recognizing Pride Month this year saying the period celebrating LGBTQ+ life, experiences, struggles, and history, helps to “reflect on the progress we have made so far in pursuit of equality, justice, and inclusion.”",
+          "concept": "copyright and time",
+          "reasoning": "Begins with a formal copyright marker ('All Rights reserved') and includes a time reference ('this year')."
         }
       ]
     },
@@ -89,18 +98,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "One of the great remaining pioneers of modern jazz music, Les McCann—whose songs you’ve almost undoubtedly heard, even if you may not be able to name them offhand—died Friday, Dec. 29 at 88.",
-          "reasoning": "This contains a specific date of death ('Friday, Dec. 29') in journalistic obituary prose with contextual details."
+          "text": "Tom Copi/Michael Ochs Archives/Getty Images” One of the great remaining pioneers of modern jazz music, Les McCann—whose songs you’ve almost undoubtedly heard, even if you may not be able to name them offhand—died Friday, Dec. 29 at 88.",
+          "concept": "photo credit and date",
+          "reasoning": "Contains a formal photo credit citation and a specific date ('Friday, Dec. 29')."
         },
         {
           "rank": 2,
-          "text": "McCann passed at the Los Angeles hospital where he had been admitted with pneumonia. His death was confirmed Monday by his manager, Alan Abrahams, who had also produced many of McCann’s albums.",
-          "reasoning": "This continues the factual reporting with another day reference ('Monday') and institutional details about confirmation."
+          "text": "His death was confirmed Monday by his manager, Alan Abrahams, who had also produced many of McCann’s albums.",
+          "concept": "day attribution",
+          "reasoning": "Includes a specific day ('Monday') and formal attribution to a named source."
         },
         {
           "rank": 3,
-          "text": "McCann was perhaps most famous for his 1969 cover of \"Compared to What,\" a protest song originally recorded and released by Roberta Flack earlier that year. McCann’s rendition, which is accompanied by saxophonist Eddie Harris, became legendary because of its utterly unique origins.",
-          "reasoning": "This includes a specific year (1969) within cultural reporting about musical history and legacy."
+          "text": "McCann was perhaps most famous for his 1969 cover of “Compared to What,” a protest song originally recorded and released by Roberta Flack earlier that year.",
+          "concept": "year reference",
+          "reasoning": "References a specific year ('1969') as a temporal marker for an event."
         }
       ]
     },
@@ -114,18 +126,21 @@
       "predictions": [
         {
           "rank": 1,
-          "text": "Sydney (AFP) An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing.",
-          "reasoning": "This opening contains a specific day reference ('Friday') in formal news wire reporting about a political prisoner situation."
+          "text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing.",
+          "concept": "dateline and day",
+          "reasoning": "Contains a formal dateline ('Issued on: Sydney (AFP)') and a specific day ('Friday')."
         },
         {
           "rank": 2,
-          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP.",
-          "reasoning": "This continues detailed journalistic reporting with temporal markers ('a week ago', 'six days after') and direct quotes about an ongoing diplomatic situation."
+          "text": "'We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,' the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
+          "concept": "specific date",
+          "reasoning": "Includes a precise date ('October 19') anchoring the statement to a documented event."
         },
         {
           "rank": 3,
-          "text": "Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
-          "reasoning": "This contains a specific date ('October 19') within formal diplomatic reporting about consular visits and official statements."
+          "text": "Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
+          "concept": "copyright line",
+          "reasoning": "Ends with a formal copyright and news agency marker ('© 2020 AFP'), typical of press releases."
         }
       ]
     }

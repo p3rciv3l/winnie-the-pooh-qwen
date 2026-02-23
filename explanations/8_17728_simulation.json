@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_17728",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:38:26Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence narrative or descriptive content from news articles or reports** (such as ongoing political events, cultural descriptions, technical processes, or personal stories), while ignoring headlines, datelines, publication stamps, or very truncated news snippets.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Portuguese, Turkish, English, Russian) and topics including politics, legal actions, entertainment/culture, sports, scientific or infrastructure projects, and holiday plans. The texts are consistently substantive narrative segments, often containing proper nouns (people, places, organizations), verbs of action or description, and contextual details.\n\n3. **Contrast with low-activation examples**: The high-activation texts are narrative clauses or phrases embedded within a larger story, providing specific details. The low-activation examples are primarily headlines, datelines (e.g., \"BEIJING, Dec. 23, 2018 /PR\"), photo captions, brief news alerts, or social media post snippets that lack extended narrative context. Even when topics overlap (e.g., earthquakes), the high-activation example describes the event's location and impact, while the low-activation one is a headline-style announcement.\n\n4. **Closing interpretation**: The neuron detects text that functions as the core explanatory or descriptive body of a news story, as opposed to its metadata or summary framing. It acts as a filter for substantive, in-progress narrative exposition across languages and subjects.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 91,
+      "normalized": 8.63124942779541,
+      "actual_text": "top court. Madhya Pradesh Congress leader Jaya Thakur and advocate Gopal Singh filed separate petitions against the Chief Election Commissioner and Other Election Commissioners (Appointment,",
+      "plain_text": "New Delhi: Two pleas have been filed in the Supreme Court challenging validity of a new law on appointment of Chief Election Commissioner and Election Commissioners, enacted in December, 2023. The law replaced the Chief Justice of India by a minister in a panel headed by the Prime Minister and comprising Leader of Opposition for the purpose, contrary to a judgment by the top court. Madhya Pradesh Congress leader Jaya Thakur and advocate Gopal Singh filed separate petitions against the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Terms of Office) Act, 2023. Thakur sought a direction for declaring the provisions of the 2023 law as ultra vires under Articles 14, 21, 50 and 324 of the Constitution inasmuch as these are violative of the principles of free and fair election, apart from being contrary to the principles laid down by the Supreme Court in the case of 'Anoop Baranwal Versus Union of India'. She claimed the practice of appointing the member to the Election Commission without following a fair, just and transparent process of selection by constituting an independent and neutral collegiums/selection committee to recommend the name and without making a law for the same as obligated in Article 324(2) of Constitution, is discriminatory and violative of Article 14 of the Constitution, her plea stated. In order to ensure the purity of the election process, it was thought by our Constitution makers that the responsibility to hold free and fair election in the country should be entrusted to an independent body which would be insulted from political executive interference, it said. \"It is inherent in a democratic set up that the agency which is entrusted the task of holding elections to the legislatures should be fully insulted so that it can function as an independent agency free from external pressures from the party in power or executive of the day. This objective is achieved by setting up of an election Commission, a permanent body, under Art 324 (1) of the Constitution,\" it added. In his plea, Singh may give directions to issue appropriate order to the Union government to include the Chief Justice of India in the selection committee for the appointment of the CEC and ECs which currently comprises of the Prime Minister, Leader of the Opposition in the House of the People and a Union Cabinet Minister nominated by the Prime Minister. He sought a direction to implement an independent and transparent system of selection constituting a neutral and independent selection committee for appointment of CEC and ECs. The Law and Justice Ministry notified the new Act on December 28, 2023. In a judgement on March 2, 2023, the Supreme Court had declared that the appointment of Chief Election Commissioner and Election Commissioners would be made by the President on advice of a panel, comprising Prime Minister, Leader of Opposition and Chief Justice of India until a law is put in place in this regard.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Thakur sought a direction for declaring the provisions of the 2023 law as ultra vires under Articles 14, 21, 50 and 324 of the Constitution inasmuch as these are violative of the principles of free and fair election, apart from being contrary to the principles laid down by the Supreme Court in the case of 'Anoop Baranwal Versus Union of India'.",
+          "concept": "legal challenge",
+          "reasoning": "This section details a constitutional legal argument, which is substantive narrative content typical of news articles."
+        },
+        {
+          "rank": 2,
+          "text": "In a judgement on March 2, 2023, the Supreme Court had declared that the appointment of Chief Election Commissioner and Election Commissioners would be made by the President on advice of a panel, comprising Prime Minister, Leader of Opposition and Chief Justice of India until a law is put in place in this regard.",
+          "concept": "judicial background",
+          "reasoning": "This provides narrative background on a past court decision, fitting the neuron's preference for explanatory content."
+        },
+        {
+          "rank": 3,
+          "text": "Madhya Pradesh Congress leader Jaya Thakur and advocate Gopal Singh filed separate petitions against the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Terms of Office) Act, 2023.",
+          "concept": "legal action",
+          "reasoning": "This states the factual filing of petitions, which is narrative but less detailed than the other sections."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 5265,
+      "normalized": 6.329558849334717,
+      "actual_text": "misbehavior. A new Chinese champion from California. An ace American skier who faltered and went home empty-handed. The end of the Olympic line for the worlds",
+      "plain_text": "Beijing's Olympics close, ending safe but odd global moment BEIJING -- A pile of figure-skating rubble created by Russian misbehavior. A new Chinese champion from California. An ace American skier who faltered and went home empty-handed. The end of the Olympic line for the worlds most renowned snowboarder. All inside an anti-COVID closed loop\" enforced by China's authoritarian... www.espn.com",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A new Chinese champion from California. An ace American skier who faltered and went home empty-handed.",
+          "concept": "Olympic outcomes",
+          "reasoning": "These are descriptive phrases about individual athletes, providing narrative details."
+        },
+        {
+          "rank": 2,
+          "text": "The end of the Olympic line for the worlds most renowned snowboarder. All inside an anti-COVID closed loop\" enforced by China's authoritarian...",
+          "concept": "career end and context",
+          "reasoning": "This describes a notable event and the unusual Olympic context, adding narrative depth."
+        },
+        {
+          "rank": 3,
+          "text": "Beijing's Olympics close, ending safe but odd global moment BEIJING -- A pile of figure-skating rubble created by Russian misbehavior.",
+          "concept": "Olympic closure",
+          "reasoning": "This is more headline-like and includes a dateline, which the neuron tends to ignore."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00018",
+      "row_idx": 1670,
+      "normalized": 4.405218124389648,
+      "actual_text": "reckons Lauchy has made significant progress since he led Junior side Rossvale to the 2014/15 Central District Second title, winning",
+      "plain_text": "DUNDEE gaffer Paul Hartley believes his pal Martin Lauchlan’s recruitment policy has been the key to Kilby’s world record equaling success at K-Park.  The former Celtic star, who lives a stone’s throw from East Kilbride’s home ground, has been friends with Lauchy since their school days and he’s been amazed by the Lowland League leaders’ winning streak.  So much so, in fact, he invited Lauchy to take in Dundee's training session in the City of Discovery this morning and watch how a Premiership club operates.  Hartley has pointed to the calibre of Lauchlan’s signings, specifically Robbie Winters and Adam Strachan, as one of the main factors in Kilby's success this season.  And the former Scotland midfielder reckons Lauchy has made significant progress since he led Junior side Rossvale to the 2014/15 Central District Second title, winning 15 out of 20 games, before joining EK.  Hartley told the News: “Martin’s only been a manager for a short period of time, so the success he’s had at both his clubs so far shows he’s doing something right.  “I’ve followed Martin since he was at Rossvale and since he took the reins at East Kilbride he’s continued to do well.  “The run they are on is remarkable and then last week they beat Cowdenbeath in the Scottish Cup.  “One of his real strong points is his player recruitment. I speak to him quite a lot and he’s always on the lookout to improve his squad, so you have to give a lot of credit to him for that and with the players he’s released also.  “Sometimes managers see something in players that other managers don’t, even when they’ve been written off.  “For instance, Strachan’s had his off-field problems. That happens sometimes and you have to manage players right in those situations, which I think Martin has done because his man-management skills are very good.  “The other side of it, with the likes of Robbie Winters, is that he’s brought in an old head with great experience.    “I had Robbie with me when I was at Alloa and he was brilliant then also.  “So you look at the players Martin’s brought in and they are all doing a job for him. That’s been very important.”  Asked what he made of EK being mentioned in the same breath as Johan Cruyyf’s Ajax, Hartley said: “Obviously you can’t compare the Ajax team with East Kilbride, but it doesn’t matter what level you are at, this kind of run is superb.  “Hopefully, he can keep it going.”  While his mate is soaring in his current job, Hartley has been under scrutiny at Dens Park with Dundee propping up the Scottish Premiership.  They’ve won just twice in 12 games and recorded a crucial victory away to Hamilton at the weekend to move within a point of 11th place Ross County.  But he insists when results aren’t going for you, that’s when you are truly tested as a manager and he called on Lauchlan to savour every second of his success right now.  Hartley said: “I’m really pleased that he’s doing so well and he should enjoy winning because there’s always a different side to it eventually.  “The run is brilliant but it doesn’t always happen for you like that.  “When you are going through a bad period, that’s when you are really tested. The sign of a really good manager is how you work through that.  “But he’s got a winning mentality.”  And does he think Lauchy has what it takes to follow in his managerial footsteps?  “He’s a young manager and I know he’s ambitious, so I don’t see why he can’t manage at a higher level,” said Hartley.  “I’ve known Martin for a long time and I know how much graft he’s had to put in at a lower level, through the Junior ranks.  “For me, he’s shown he’s got the credentials to go and manage at a higher level.  “One day I think he will want to get into the senior side of it, but he’s got a real chance of taking East Kilbride up.”  After receiving pointers from Hartley today, Lauchlan revealed everyone was aware of East Kilbride's exploits.  The Kilby boss said: \"It was great of Zico to invite me up today and it was a great experience.  \"The players all knew about the world record and Darren O'Dea had a chat with me about it.  \"But to learn from one of the top managers in the country is great for my development.  \"I am a sponge for information and new ideas and it was a great learning curve.  \"Paul's been a great friend and always offered advice.  \"I'm grateful to him for inviting me and hope I've learned some bits to improve East Kilbride.\"",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“For instance, Strachan’s had his off-field problems. That happens sometimes and you have to manage players right in those situations, which I think Martin has done because his man-management skills are very good.",
+          "concept": "man-management",
+          "reasoning": "This provides a specific example of player management, which is descriptive narrative content."
+        },
+        {
+          "rank": 2,
+          "text": "Hartley has pointed to the calibre of Lauchlan’s signings, specifically Robbie Winters and Adam Strachan, as one of the main factors in Kilby's success this season.",
+          "concept": "player recruitment",
+          "reasoning": "This describes a key factor in the team's success, offering substantive analysis."
+        },
+        {
+          "rank": 3,
+          "text": "“The run they are on is remarkable and then last week they beat Cowdenbeath in the Scottish Cup.",
+          "concept": "team performance",
+          "reasoning": "This mentions a recent achievement, but is less detailed than other sections."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 1331,
+      "normalized": 0.0,
+      "actual_text": "Executives at U.S. banks indicate that they expect to face little risk for",
+      "plain_text": "Executives at U.S. banks indicate that they expect to face little risk for major disruptions as a result of international sanctions levied against Russia in the wake of its invasion of Ukraine. The reason is that they have pulled back from Russia in recent years. According to the Bank for International Settlements (BIS), as of the third quarter of 2021, lenders in the U.S. collectively had claims against Russia that totaled only $14.7 billion.  \nHowever, European banks—especially those located in Austria, Italy, and France—are the lending institutions with the largest exposures to Russia. As a result, they already have been concerned for weeks about the potential impact from governmental sanctions that might follow a Russian invasion. \n Key Takeaways  U.S. banks limited their exposure to Russia after sanctions were imposed in 2014. Those sanctions were spurred by Russia's annexation of the Crimea. As a result, U.S. banks see few new risks from new sanctions imposed on Feb. 22, 2022, after Russia invaded other parts of Ukraine. European banks, however, have much larger exposures to Russia. Russia may retaliate against sanctions with cyberattacks. Overview of Sanctions Against Russia  In the aftermath of Russia's annexation of the Crimea in 2014, both the U.S. and the European Union (EU) have blacklisted specific individuals, tried to limit the ability of state-owned financial institutions in Russia to tap capital markets in the West, banned weapons sales, and limited technology transfers, including technology related to the oil sector.  After the Russian invasion of Ukraine on Feb. 22, 2022, the United Kingdom was the first to impose new sanctions, taking measures against five Russian banks and three individuals. Prime Minister Boris Johnson said that he will \"reserve further powerful sanctions.\"  The EU will blacklist more Russian politicians, lawmakers, and officials, ban EU investors from trading in Russian state bonds, and target imports and exports to or from the pro-Moscow separatist regions in Ukraine that Russia has invaded. \"This package of sanctions ... will hurt Russia, and it will hurt a lot,\" said EU foreign policy chief Josep Borrell in a news conference.  Meanwhile, German Chancellor Olaf Scholz is halting certification of the Nord Stream 2 gas pipeline, an important future energy source for his country, which is Europe's largest economy.  U.S. President Joe Biden announced sanctions against two Russian banks, Russia's sovereign debt, and members of Russian elites, while also warning that Russia would face even more pain if its aggression against Ukraine continued.  Worries About Contagion  Noel Quinn, CEO of HSBC Holdings, PLC (HSBC), one of Europe's largest banks, expressed worries about \"wider contagion\" for global markets, even if his own bank's direct exposure was limited. \"It's clear that there is a likelihood of contagion or some second-order effect, but it will depend on the severity of the conflict and the severity of the retaliation if there is a conflict,\" Quinn told Reuters.  U.S. Banks See Limited Risk  The previous sanctions against Russia caused banks, especially in the U.S., to reduce their exposure to Russia. As a result, U.S. banks generally do not expect the latest global sanctions to have a major impact on their businesses or to spark contagion in the U.S., according to four unidentified executives who spoke to Reuters.  These sources indicate that the Biden administration had been meeting with key figures in the banking and financial industry to discuss potential sanctions, and that these briefings may have begun before Christmas. One said that, in the 24 hours before Biden's announcement, banks had been identifying potential targets of the sanctions so they could move quickly.  Risks of Cutting Russia Off SWIFT  One of Reuters' sources noted that an area of potential concern was the disruption that could result if the U.S. restricts Russia's access to the SWIFT international payment network. However, the source added that this is unlikely in the near future. Specifically, barring Russia from the international payments network could inflict severe damage on its economy, thus hurting ordinary citizens. It also would create huge complexities and compliance risks for the global banking industry.  Rising Cyberattack Risk  Minutes after President Biden announced sanctions, a senior FBI cybersecurity official held a telephone briefing in which he advised U.S. businesses and state and local governments to be on the alert for possible ransomware attacks as the Ukraine crisis deepens, and to consider how ransomware attacks could disrupt the provision of critical services.  On the call, David Ring of the FBI stated that Russia is a \"permissive operating environment\" for cybercriminals that \"is not going to get any smaller\" as the Ukraine crisis continues and further sanctions are imposed. That phone call was part of a series of briefings that FBI and Department of Homeland Security officials have held in the past two months against a backdrop of rising tensions between the U.S. and Russia over Ukraine.  While U.S. officials say that there are \"no specific, credible\" threats to the U.S. homeland resulting from tensions with Russia over Ukraine, they advise vigilance. In the week before the invasion, cyberattacks targeted Ukrainian government and banking websites. The Biden administration blamed the Russian military, and U.S. officials expect Russian cyber operations to accompany any further military actions against Ukraine.  Details on Biden's Sanctions  On Feb. 22, 2022, the Biden administration announced a \"first tranche of sanctions that go far beyond 2014, in coordination with allies and partners in the European Union, United Kingdom, Canada, Japan, and Australia.\" These sanctions include four \"measures,\" as summarized below.  Full blocking sanctions on two significant Russian financial institutions  The announcement states that two large state-owned Russian financial institutions that finance the Kremlin and the Russian military, Vnesheconombank and Promsvyazbank and their subsidiaries, collectively hold more than $80 billion in assets. These measures will freeze their assets in the United States, prohibit U.S. individuals and businesses from transacting with them, shut them out of the global financial system, and foreclose their access to the U.S. dollar.  Restricting U.S. individuals and firms from trading in new debt issued by Russia  This denies Russia access to key U.S. markets and investors.  Full blocking sanctions on five Russian elites and their family members  These are Aleksandr Bortnikov (and his son, Denis), Sergei Kiriyenko (and his son, Vladimir), and Promsvyazbank CEO Petr Fradkov. These individuals and their relatives directly benefit from their connections with the Kremlin. Other Russian elites and their family members are placed on notice that additional actions could be taken against them.  Any institution in Russia's financial services sector is a target for further sanctions  \nThe announcement notes that over 80% of Russia's daily foreign exchange transactions globally are in U.S. dollars and roughly half of Russia's international trade is conducted in dollars. As a result of this action, the administration asserts that no Russian financial institution is safe from U.S. measures, including the largest banks.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However, European banks—especially those located in Austria, Italy, and France—are the lending institutions with the largest exposures to Russia. As a result, they already have been concerned for weeks about the potential impact from governmental sanctions that might follow a Russian invasion.",
+          "concept": "bank exposure",
+          "reasoning": "This describes the vulnerability of European banks, providing detailed narrative context."
+        },
+        {
+          "rank": 2,
+          "text": "The EU will blacklist more Russian politicians, lawmakers, and officials, ban EU investors from trading in Russian state bonds, and target imports and exports to or from the pro-Moscow separatist regions in Ukraine that Russia has invaded.",
+          "concept": "sanctions details",
+          "reasoning": "This lists specific sanctions, which are substantive policy descriptions."
+        },
+        {
+          "rank": 3,
+          "text": "On the call, David Ring of the FBI stated that Russia is a 'permissive operating environment' for cybercriminals that 'is not going to get any smaller' as the Ukraine crisis continues and further sanctions are imposed.",
+          "concept": "cyber threat",
+          "reasoning": "This quotes an official on cyber risks, adding narrative depth to the report."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00004",
+      "row_idx": 647,
+      "normalized": 0.0,
+      "actual_text": "Mumbai: A case has been registered against former Maharashtra minister and NCP leader Naw",
+      "plain_text": "Mumbai: A case has been registered against former Maharashtra minister and NCP leader Nawab Malik's son, Faraz malik at Kurla Police station in connection with the fake documents given for Visa application. According to the reports, Faraz and his second wife have been booked on Wednesday for submitting fake documents with her visa application.  A report in the Indian Express stated that the Foreigners Regional Registration Office during examination found that documents submitted by him and his wife Hamleen were fake and subsequently Kurla police were informed. Reportedly, arrests are yet to be made in the case; the probe is underway, officials said.  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A report in the Indian Express stated that the Foreigners Regional Registration Office during examination found that documents submitted by him and his wife Hamleen were fake and subsequently Kurla police were informed.",
+          "concept": "document fraud",
+          "reasoning": "This provides specific details about the discovery of fake documents, which is narrative content."
+        },
+        {
+          "rank": 2,
+          "text": "According to the reports, Faraz and his second wife have been booked on Wednesday for submitting fake documents with her visa application.",
+          "concept": "legal booking",
+          "reasoning": "This states the action taken, but is less detailed than the previous section."
+        },
+        {
+          "rank": 3,
+          "text": "Mumbai: A case has been registered against former Maharashtra minister and NCP leader Nawab Malik's son, Faraz malik at Kurla Police station in connection with the fake documents given for Visa application.",
+          "concept": "case registration",
+          "reasoning": "This is a lead sentence with a dateline, which the neuron tends to ignore."
+        }
+      ]
+    }
+  ]
+}

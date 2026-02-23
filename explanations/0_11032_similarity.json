@@ -1,0 +1,225 @@
+{
+  "neuron_id": "0_11032",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to the presence of the substring \"net\" (case-insensitive) in text, whether it appears as a standalone word (e.g., \"net assets,\" \"net income\"), within larger words (e.g., \"netizens,\" \"Vernetzung\"), in proper names (e.g., \"Roberto Campos Neto,\" \"Gil Netter\"), in email domains (e.g., \"bloomberg.net\"), or in various languages (e.g., Turkish \"net k\u00e2r\u0131n\u0131,\" Czech \"netu\u0161ila\").\n\nThe pattern appears across diverse domains and languages: financial/business contexts (\"net zero,\" \"net worth\"), internet-related terms (\"netizens,\" \".net\" domains), news about orders and income, and personal or place names. It activates in English, Turkish, German, Czech, and Italian texts, showing no semantic preference\u2014only the presence of the character sequence \"net.\"\n\nIn contrast, low-activation examples completely lack the substring \"net\" and cover unrelated topics like music concerts, political events, natural disasters, and sports scores without that string. The neuron\u2019s response is driven purely by the occurrence of \"net,\" not by topic, sentiment, or other linguistic features.\n\nThis neuron functions as a simple string-matching detector for \"net,\" activating on its appearance regardless of semantic context or linguistic role, indicating a focus on orthographic form rather than meaning.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "NetScout Aktie: Das gab es noch nie! 01.",
+      "normalized_activation": 9.652341842651367,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.641841,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            1469,
+            1780
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.52095,
+          "actual_text_slice": null,
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.540239,
+          "actual_text_slice": null,
+          "prediction_text_slice": [
+            886,
+            1211
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "d'un an \u00e0 une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'\u00e0",
+      "normalized_activation": 8.244640350341797,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.794342,
+          "actual_text_slice": [
+            1496,
+            1607
+          ],
+          "prediction_text_slice": [
+            1399,
+            1645
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.454695,
+          "actual_text_slice": [
+            1496,
+            1607
+          ],
+          "prediction_text_slice": [
+            0,
+            246
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.272485,
+          "actual_text_slice": [
+            1496,
+            1607
+          ],
+          "prediction_text_slice": [
+            4100,
+            4429
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "was memorably adapted to film in 1974, with Albert Finney playing the fastidious Belgian detective Hercule Poirot. Now, Sir Kenneth",
+      "normalized_activation": 3.2723474502563477,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.745136,
+          "actual_text_slice": [
+            95,
+            226
+          ],
+          "prediction_text_slice": [
+            0,
+            348
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.560746,
+          "actual_text_slice": [
+            95,
+            226
+          ],
+          "prediction_text_slice": [
+            771,
+            1156
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.402069,
+          "actual_text_slice": [
+            95,
+            226
+          ],
+          "prediction_text_slice": [
+            2858,
+            3145
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "12-17 age group on March 9, 2022, and in children aged 7-11 years on June 2",
+      "normalized_activation": 0.1906954050064087,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.350733,
+          "actual_text_slice": [
+            495,
+            570
+          ],
+          "prediction_text_slice": [
+            0,
+            179
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.380998,
+          "actual_text_slice": [
+            495,
+            570
+          ],
+          "prediction_text_slice": [
+            180,
+            396
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.599375,
+          "actual_text_slice": [
+            495,
+            570
+          ],
+          "prediction_text_slice": [
+            397,
+            612
+          ],
+          "slices_overlap": true
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "NEWTON, NC (WBTV) - Carolyn Leonhardt had just gotten back into",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.723736,
+          "actual_text_slice": [
+            0,
+            63
+          ],
+          "prediction_text_slice": [
+            0,
+            168
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.38177,
+          "actual_text_slice": [
+            0,
+            63
+          ],
+          "prediction_text_slice": [
+            169,
+            365
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.348468,
+          "actual_text_slice": [
+            0,
+            63
+          ],
+          "prediction_text_slice": [
+            366,
+            735
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

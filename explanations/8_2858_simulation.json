@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_2858",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T07:24:56Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense, formal references to specific entities, events, or technical details** (such as named medical conditions, official operations, legal/political actions, astronomical events, or precise citations of individuals with titles and affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Polish, Romanian) and is prominent in journalistic, governmental, scientific, and technical reporting. It activates on news about law enforcement operations (\"Operation Ulysses\"), medical terminology (\"acute chest syndrome\"), academic citations (\"professor DN Jauhar, vice-chancellor\"), astronomical observations (\"Venus will be just northwest of\"), and formal announcements from institutions (\"Western Railway (WR) has made a complete shift\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete, proper nouns and specific multi-word designators embedded in longer, information-dense clauses. The low-activation examples are either truncated sentence fragments, generic statements (\"We all know they’re important\"), or announcements lacking the dense referential specificity (e.g., \"a new report released\" without naming it).\n\n4. **Closing interpretation**: This neuron detects structured, referential information where precise names, titles, operations, or technical terms are central to the clause's meaning. It appears to fire on text that is characteristic of formal reports, news dispatches, or academic prose, where specificity and named entities anchor the information.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00014",
+      "row_idx": 901,
+      "normalized": 9.506599426269531,
+      "actual_text": "Holloway, Louise Goffin, Steve Wynn, Victoria Williams, Terry Reid, Cait O’Riordan, Robert Levon Been, Julianna Ray",
+      "plain_text": "Wild Honey Orchestra, The Band organist Garth Hudson, Jackson Browne, Carlene Carter, Peter Case and more perform material from The Band’s iconic catalogue for Autism Think Tank benefit at Alex Theatre Saturday night  As preposterously chaotic and dangerous as political events seem now, they’re dwarfed by the magnitude of change in 1968. In that year alone, Martin Luther King Jr. and Robert Kennedy were assassinated; Vietnam War casualties mounted as the Tet Offensive raged; police beat demonstrators outside the Democratic National Convention; Olympic athletes bravely gave the black power salute; Soviet tanks rolled into Czechoslovakia, ending the Prague Spring; students rioted in Mexico and went on strike in France; feminists protested the Miss America pageant in Atlantic City; the Beatles released the first single for their Apple Records label, “Hey Jude”; and “Tricky Dick” Nixon declared his candidacy for the presidency of a country demanding to know, “How the hell did we get here?”  Against that turbulent backdrop, The Band made their official debut as an independent ensemble. Released in July 1968, “Music From Big Pink” sketched a blueprint for what is now known as Americana, as future Rock and Roll Hall of Famers Rick Danko, Levon Helm, Garth Hudson, Richard Manuel and Robbie Robertson rooted themselves in a semi-imagined rustic past while stirring blues, country, old-time, gospel and rock in an earthy, slightly psychedelic mix. Those songs will be the centerpiece of the Wild Honey Foundation’s “Music From ‘Big Pink,’ ‘The Band’ & Beyond” Saturday night at the Alex Theatre, a concert benefitting the nonprofit Autism Think Tank.  As of press time, the substantial lineup of artists slated to perform included Jackson Browne, Peter Case, Carlene Carter, Van Dyke Parks, the Continental Drifters, Robert Francis, Brenda Holloway, Louise Goffin, Steve Wynn, Victoria Williams, Terry Reid, Cait O’Riordan, Robert Levon Been, Julianna Raye, David Baerwald, Keith Allison, Cindy Lee Berryhill, Steve Barton, Pete Thomas, Syd Straw, Plainsong (Iain Matthews & Andy Roberts) and Luther Russell, among others, plus a crack house band that will be following The Band’s arrangements. Veteran music journalist Chris Morris will host.  Headlining will be Garth Hudson (his wife, Sister Maud Hudson, is also on the bill). He and Robertson, who is not scheduled to play Saturday, are the only members of The Band still living.  Named after the pink house they were renting near Woodstock in upstate New York, “Music From Big Pink” achieves moments of rock grandeur. Credit the songwriting (mostly by Manuel and Robertson), elemental harmonies between Danko, Helm and Manuel — and Hudson’s majestic organ and piano playing: frenzied for “Chest Fever,” loose and bawdy for “Caledonia Mission,” soulfully prayer-like during “Tears of Rage” and “The Weight.” The latter Robertson-penned tune, ranked 41st on Rolling Stone’s list of the 500 greatest songs of all time, is arguably the widely influential ensemble’s most iconic song and remains a standard jam for Americana, country, gospel and rock artists. Expect a righteous rendition of it at Saturday’s celebration.  Wild Honey Orchestra & Friends play The Band’s “Music From Big Pink” and Beyond at the Alex Theatre, 216 N. Brand Blvd., Glendale, at 8 p.m. Saturday, March 25; $25-$45 ($100 VIP tickets). Autismthinktanknj.com, facebook.com/groups/Wildhoneyfoundation, Alextheatre.org",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In that year alone, Martin Luther King Jr. and Robert Kennedy were assassinated; Vietnam War casualties mounted as the Tet Offensive raged; police beat demonstrators outside the Democratic National Convention;",
+          "concept": "historical events",
+          "reasoning": "This section lists multiple specific historical events and figures, matching the neuron's preference for dense references to named entities and events."
+        },
+        {
+          "rank": 2,
+          "text": "As of press time, the substantial lineup of artists slated to perform included Jackson Browne, Peter Case, Carlene Carter, Van Dyke Parks, the Continental Drifters, Robert Francis, Brenda Holloway, Louise Goffin",
+          "concept": "artist lineup",
+          "reasoning": "This section contains a dense list of named individuals and groups, which are formal references to specific entities."
+        },
+        {
+          "rank": 3,
+          "text": "Wild Honey Orchestra, The Band organist Garth Hudson, Jackson Browne, Carlene Carter, Peter Case and more perform material from The Band’s iconic catalogue for Autism Think Tank benefit at Alex Theatre Saturday night",
+          "concept": "event announcement",
+          "reasoning": "This section includes specific names of performers, organizations, and event details, fitting the pattern of formal references."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00010",
+      "row_idx": 352,
+      "normalized": 8.647917747497559,
+      "actual_text": "Security Administration’s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouil",
+      "plain_text": "Nuclear defense agency jettisons federal defense contractor at Y-12 over safety concerns The National Nuclear Security Administration has ended its deal with a federal defense contractor it says failed to meet safety and security standards, including lapses that could have injured workers and released radioactive material within an Oak Ridge facility. The contractor, Consolidated Nuclear Security, has operated the Y-12 National Security Complex in Oak Ridge and the Pentax plant in Texas on behalf of National Nuclear Security Administration since 2014. It replaced the previous contractor, B&W, after antinuclear protesters broke into Y-12 in 2012. B&W protested its termination for much of 2013. The National Nuclear Security Administration is the part of the Department of Energy responsible for maintaining and securing the nuclear weapon's stockpile. Many of its facilities are managed and maintained by federal defense contractors, who run the day-to-day production work. Consolidated's contract is due to expire Sept. 30, 2021. “The National Nuclear Security Administration’s decision is disappointing, but it does not overshadow the important work performed by the patriots who come to work every day at our sites,” Consolidated Nuclear Security spokesperson Jason Bohne said in a written statement. In its annual contractor report card, the National Nuclear Security Administration outlines several critical problems with Consolidated Nuclear Security's management of Y-12. National Nuclear Security Administration said that Consolidated Nuclear Security had failed to correct serious, longstanding performance problems that “perpetuated unacceptable risk to the overall operation of the National Nuclear Security Administration.” These issues included problems with “criticality safety” and cyber security. The National Nuclear Security Administration had cited Consolidated earlier this year for lapsed safety procedures. Previous safety violations The National Nuclear Security Administration’s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouillette citing serious safety violations at the Highly Enriched Uranium Materials Facility in Oak Ridge, a central repository for enriched uranium storage. The Safety Board said that Consolidated Nuclear Security had been improperly storing and labeling potentially “pyrophoric” nuclear material in the Highly Enriched Uranium Material Facility during 2018. Pyrophoric material can spontaneously ignite when exposed to air. Instead of confirming that the material was safe, the Safety Board letter says that Y-12 personnel relabeled the material as safe for storage. \"The staff concluded that the materials in question have not been characterized sufficiently to determine whether or not they may ignite if exposed to air or if subjected to mechanical impact,\" wrote a representative of the Defense Nuclear Safety Board in an email to Knox News. \"Ignition of the materials in a container could lead to a thermal runaway reaction that could breach the container and potentially injure workers nearby in the facility as well as release radioactive material within the facility,\" they continued. The report warned that this kind of mishandling risked causing an accident like one that occurred in 2018 at Idaho National Laboratory in which four barrels of radioactive material ruptured. Firefighters had to be called to stop the smoldering material from starting a fire. The Safety Board has given the National Nuclear Security Administration 90 days to address these issues from a workplace safety, long-term storage and nuclear waste disposal perspective. \"Reports like this make me appreciate the fact that the DNFSB exists,\" wrote Ellen Smith, an Oak Ridge City Council member. \"Without an independent oversight body that has both the technical expertise and the access authorization necessary to evaluate potential safety concerns inside secure DOE facilities like Y-12, it could be much harder for our citizens to feel safe living near these facilities.\" This is not the first time the Defense Nuclear Facilities Safety Board has raised alerts about safety issues at Y-12, under Consolidated Nuclear Security's watch. A 2019 DNFSB report to former DOE Secretary Rick Perry outlined issues going back to 2010 that were not dealt with by the contractor after it took the contract. Criticality when radioactive material undergoes a fission reaction. When a nuclear reactor \"achieves criticality\" the reaction has started. But criticality is dangerous when it occurs absent human control. This can be caused by improper storage of nuclear material, uncontrolled collection of nuclear material in corners or moisture. Accidents like this release heat, light and high doses of radiation locally, harming people nearby. A criticality accident in 1958 at Y-12 hospitalized eight workers. The 2019 Defense Nuclear Facilities Safety Board report lists several cases where uranium was found by workers or safety inspectors in unexpected places. Uranium slag had accumulated in a chute and sand separator for years after Consolidated Nuclear Security personnel quietly stopped emptying a section of the production process intended to temporarily hold waste. A black, gel-like substance had been visibly accumulating in clear tanks since Consolidated Nuclear Security took over in 2013 and changed a chemical solvent used in the process. As of the 2019 report, it was still unclear if this substance contained uranium. The report also says the team responsible for safety at Y-12 was understaffed and routinely derided by Consolidated Nuclear Security's production staff and management as “paper pushers.” Labor cuts were the majority of the Consolidated Nuclear Security's cost reduction strategy, according to a 2020 Government Accountability Office report, and have been a recurring issue for the Safety Board. Safey, environmental issues go back decades But safety problems at Y-12 cannot be laid at Consolidated Nuclear Security's feet entirely. The Y-12 complex has had long standing safety and environmental problems since the 1950s. Mercury pollution has been a long standing concern, particularly in the Clinch River and Watts Bar Lake. Understaffing of safety positions was a problem the DNFSB had been highlighting since 2006. More recently, Y-12 has come under fire from environmental groups for failing to adequately assess the earthquake safety of the complex. David Jackson, a professor of geology at the University of California, Los Angeles, said that the National Nuclear Security Administration self-assessment was inadequate because it failed to address secondary earthquake effects, like fires or floods, or examine Y-12's site-wide vulnerability. The National Nuclear Security Administration assessment focuses on only a few buildings. \"NNSA’s analysis of seismic risks is not well-founded scientifically. It suffers from numerous analytical defects, ignores or downplays important data, obfuscates the importance of the fact that existing buildings do not meet modern standards, and fails to employ modern tools for seismic risk analysis.\" Jackson wrote in his comments. The National Nuclear Security Administration declined to comment but did say that Jackson's comment would be considered among the other public comments. It is unclear what happens next.The bidding process on the new contract has not yet started. New contractors have not stepped forward yet. A spokesperson of Consolidated Nuclear Security was unsure whether they would appeal the decision. Consolidated Nuclear Security has said in public statements that they will continue to abide by the NNSA’s requirements and expectations going forward. An National Nuclear Security Administration spokesperson said that they expect to have a new contract by the end of October 2021. Who this contract might be with, and whether they can safely operate the complex are uncertain.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The National Nuclear Security Administration’s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouillette",
+          "concept": "agency report",
+          "reasoning": "This section mentions specific federal agencies and a named official, matching the neuron's preference for formal institutional references."
+        },
+        {
+          "rank": 2,
+          "text": "The Safety Board said that Consolidated Nuclear Security had been improperly storing and labeling potentially “pyrophoric” nuclear material in the Highly Enriched Uranium Material Facility during 2018.",
+          "concept": "technical safety violation",
+          "reasoning": "This section includes a technical term ('pyrophoric') and specific facility names, fitting the pattern of dense technical details."
+        },
+        {
+          "rank": 3,
+          "text": "Accidents like this release heat, light and high doses of radiation locally, harming people nearby. A criticality accident in 1958 at Y-12 hospitalized eight workers.",
+          "concept": "historical accident",
+          "reasoning": "This section references a specific past accident at a named facility, aligning with the neuron's response to precise event details."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00005",
+      "row_idx": 4042,
+      "normalized": 7.689345836639404,
+      "actual_text": ", earnings and dividends. Valuation and Earnings This table compares Great-West Lifeco and FBL Financial Group’s revenue, earnings per share (EPS)",
+      "plain_text": "Great-West Lifeco (OTCMKTS:GWLIF) and FBL Financial Group (NYSE:FFG) are both financial services companies, but which is the better stock? We will compare the two companies based on the strength of their institutional ownership, risk, analyst recommendations, valuation, profitability, earnings and dividends.  Valuation and Earnings  This table compares Great-West Lifeco and FBL Financial Group’s revenue, earnings per share (EPS) and valuation.   Profitability  This table compares Great-West Lifeco and FBL Financial Group’s net margins, return on equity and return on assets.  Analyst Ratings  This is a breakdown of current ratings for Great-West Lifeco and FBL Financial Group, as reported by MarketBeat.com.  Great-West Lifeco currently has a consensus price target of $37.50, indicating a potential upside of 52.32%. Given Great-West Lifeco’s higher probable upside, equities analysts clearly believe Great-West Lifeco is more favorable than FBL Financial Group.  Dividends  FBL Financial Group pays an annual dividend of $1.92 per share and has a dividend yield of 2.8%. Great-West Lifeco does not pay a dividend. FBL Financial Group pays out 44.0% of its earnings in the form of a dividend. FBL Financial Group has increased its dividend for 6 consecutive years.  Institutional and Insider Ownership  29.4% of FBL Financial Group shares are owned by institutional investors. 0.4% of FBL Financial Group shares are owned by insiders. Strong institutional ownership is an indication that large money managers, endowments and hedge funds believe a company is poised for long-term growth.  Summary  FBL Financial Group beats Great-West Lifeco on 8 of the 11 factors compared between the two stocks.  Great-West Lifeco Company Profile  Great-West Lifeco Inc., a financial services holding company, engages in life and health insurance, asset management, investment and retirement savings, and reinsurance businesses in Canada, the United States, and Europe. The company offers a portfolio of financial and benefit plan solutions for individuals, families, businesses, and organizations; life, disability, critical illness, accidental death, dismemberment, dental protection, direct marketing, health, and creditor insurance products; and wealth savings and income, accumulation, and annuity products. It also provides employer-sponsored retirement savings plans, individual retirement accounts, enrollment services, communication materials, investment options, and education services; and fund management, investment, and advisory services. In addition, the company offers private-label recordkeeping and administrative services; executive benefits products; and investment products, including equity, fixed income, absolute return, and alternative strategies. Further, it provides protection and wealth management products; payout annuity, and property and casualty reinsurance and retrocession products; and pension products. The company offers its products under the under various brand names, including the Great-West Life, London Life, the Canada Life, the Freedom 55 Financial, the Irish Life, the Great-West Financial, the Empower Retirement, the Putnam Investments, and PanAgora. It distributes its products through a network of advisors, dealers, brokers, managing general agencies, financial institutions, consultants, third-party administrators, wholesale and retail sales force, financial planners, employee benefit consultants, banks, and multi-tied agents. The company was founded in 1891 and is based in Winnipeg, Canada. Great-West Lifeco Inc. is a subsidiary of Power Financial Corporation.  FBL Financial Group Company Profile  FBL Financial Group, Inc., through its subsidiaries, sells individual life insurance and annuity products. The Annuity segment sells various traditional annuity products that primarily consist of fixed rate and indexed annuities, and supplementary contracts. The Life Insurance segment offers whole life, term life, and universal life policies. The company markets its products to Farm Bureau members, and other individuals and businesses through exclusive agents and agency managers principally under the consumer brand name of Farm Bureau Financial Services in the Midwestern and Western sections of the United States. FBL Financial Group, Inc. was founded in 1944 and is headquartered in West Des Moines, Iowa.  Receive News & Ratings for Great-West Lifeco Daily - Enter your email address below to receive a concise daily summary of the latest news and analysts' ratings for Great-West Lifeco and related companies with MarketBeat.com's FREE daily email newsletter.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Great-West Lifeco (OTCMKTS:GWLIF) and FBL Financial Group (NYSE:FFG) are both financial services companies, but which is the better stock? We will compare the two companies based on the strength of their institutional ownership, risk, analyst recommendations, valuation, profitability, earnings and dividends.",
+          "concept": "company comparison",
+          "reasoning": "This section names two specific companies with their stock symbols and lists formal comparison criteria, matching the neuron's preference for precise references."
+        },
+        {
+          "rank": 2,
+          "text": "Great-West Lifeco Inc., a financial services holding company, engages in life and health insurance, asset management, investment and retirement savings, and reinsurance businesses in Canada, the United States, and Europe.",
+          "concept": "business operations",
+          "reasoning": "This section provides a detailed description of the company's operations and geographic reach, containing dense formal references."
+        },
+        {
+          "rank": 3,
+          "text": "FBL Financial Group, Inc., through its subsidiaries, sells individual life insurance and annuity products. The Annuity segment sells various traditional annuity products that primarily consist of fixed rate and indexed annuities, and supplementary contracts.",
+          "concept": "product segments",
+          "reasoning": "This section specifies exact product types and segments, fitting the pattern of technical details."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00005",
+      "row_idx": 1394,
+      "normalized": 0.0,
+      "actual_text": "AMES, Iowa (KCRG) - After missing the NCAA Tournament last year for",
+      "plain_text": "AMES, Iowa (KCRG) - After missing the NCAA Tournament last year for the first time in six years, Iowa State is making a return.  The Cyclones received a six seed and will take on No. 11 Ohio State on Friday in Tulsa, Oklahoma.  Iowa State won the Big 12 Tournament title after beating Baylor, Kansas State and Kansas; all three are NCAA Tournament teams.  Last time the Cyclones and Buckeyes met was in the second round of the 2013 NCAA Tournament. Ohio State won on a last-second 3-pointer from Aaron Craft.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "AMES, Iowa (KCRG) - After missing the NCAA Tournament last year for the first time in six years, Iowa State is making a return. The Cyclones received a six seed and will take on No. 11 Ohio State on Friday in Tulsa, Oklahoma.",
+          "concept": "tournament announcement",
+          "reasoning": "This section mentions specific teams, seeds, and locations, matching the neuron's preference for formal references to events and entities."
+        },
+        {
+          "rank": 2,
+          "text": "Iowa State won the Big 12 Tournament title after beating Baylor, Kansas State and Kansas; all three are NCAA Tournament teams.",
+          "concept": "tournament results",
+          "reasoning": "This section lists specific teams beaten in a tournament, containing dense proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "Last time the Cyclones and Buckeyes met was in the second round of the 2013 NCAA Tournament. Ohio State won on a last-second 3-pointer from Aaron Craft.",
+          "concept": "historical game detail",
+          "reasoning": "This section references a past event with specific round, year, and player action, fitting the pattern of precise citations."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00004",
+      "row_idx": 4746,
+      "normalized": 0.0,
+      "actual_text": "Alot (Madhya Pradesh): The police on Wednesday busted a sex racket operating from",
+      "plain_text": "Alot (Madhya Pradesh): The police on Wednesday busted a sex racket operating from a house in Dharola village and arrested seven persons, including four women. According to information, local police received a tip-off that a flesh trade was being operated in a house in the village. Acting on the same, police raided a house and arrested seven people including four women. Police have also seized three mobile phones worth Rs 4,230 from the spot.  Those arrested have been identified as Dashrath Singh, a resident of Barkheda Kala, Dilip Sen, a resident of Kumhar Colony and Shahjad Sheikh, resident of Baghal village along with four women. A case under Section 3, 4, 5, 6, 7 of the Immoral Traffic (Prevention) Act, 1956 was registered. Further investigations are underway to arrest others involved in the flesh trade.  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Alot (Madhya Pradesh): The police on Wednesday busted a sex racket operating from a house in Dharola village and arrested seven persons, including four women. According to information, local police received a tip-off that a flesh trade was being operated in a house in the village.",
+          "concept": "police operation",
+          "reasoning": "This section mentions specific location and action by police, matching the neuron's preference for formal reports of events."
+        },
+        {
+          "rank": 2,
+          "text": "Acting on the same, police raided a house and arrested seven people including four women. Police have also seized three mobile phones worth Rs 4,230 from the spot.",
+          "concept": "raid details",
+          "reasoning": "This section provides specific details of police action and seized items, containing precise references."
+        },
+        {
+          "rank": 3,
+          "text": "Those arrested have been identified as Dashrath Singh, a resident of Barkheda Kala, Dilip Sen, a resident of Kumhar Colony and Shahjad Sheikh, resident of Baghal village along with four women. A case under Section 3, 4, 5, 6, 7 of the Immoral Traffic (Prevention) Act, 1956 was registered.",
+          "concept": "legal charges",
+          "reasoning": "This section lists specific names and legal statutes, fitting the pattern of formal references to entities and laws."
+        }
+      ]
+    }
+  ]
+}

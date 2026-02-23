@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_9777",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing words with the \"col-\" prefix or root, particularly those related to *educational institutions* (such as \"college,\" \"Collegium,\" \"community college\") and *colonial/political entities* (such as \"colony,\" \"colonizers,\" \"colonizadores,\" \"colonial\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English and Spanish) and contexts. It activates on discussions of higher education (college admissions, football, professors), political or historical references to colonies (Hong Kong, Mars colonization), and institutional names (Caribbean Regional Fisheries Mechanism, Cornwall College Group). The neuron also processes related terms like \"apartheid\" and \"Collegium\" which share the \"col-\" sequence.\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the \"col-\" root. They cover disparate topics like sports (without college context), natural disasters, entertainment news, and text in other languages (Czech, Italian, Arabic, Indonesian) that do not contain this specific character sequence. The distinguishing factor is the presence of the letter sequence \"col-\" as part of salient words.\n\n4. **Closing interpretation**: This neuron is primarily detecting a morphological pattern\u2014the character sequence \"col-\"\u2014within semantically important words, rather than a unified high-level concept. It captures a heterogeneous set of topics (education, colonialism, institutions) linked by this shared substring.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "surrounding her remarks in front of Congress regarding Islamophobia and antisemitism on the college campus and allegations of plagiarism. Yahoo Finance The Nasdaq fell over 1%",
+      "normalized_activation": 8.518962860107422,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3479,
+          "meaning_score": 0.4894,
+          "overlap_fraction": 0.7829,
+          "location_score": 0.1566,
+          "combined_score": 0.4915
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2303,
+          "meaning_score": 0.1489,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1517
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2188,
+          "meaning_score": 0.2248,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1774
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "successes and true potential of a socialist system and exposes the cruelty and injustice of the capitalist system. In reviewing this groundbreaking anthology, I had foremost in mind that many",
+      "normalized_activation": 7.558755397796631,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2467,
+          "meaning_score": 0.4181,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2659
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2873,
+          "meaning_score": 0.3401,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2509
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2189,
+          "meaning_score": 0.4503,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2677
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "had also held executive roles with Fairfax-based CGI Federal and got a job out of college as a systems engineer with EDS, the Texas IT company founded\u2026 Read the",
+      "normalized_activation": 6.5417985916137695,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.821,
+          "meaning_score": 0.794,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.846
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1601,
+          "meaning_score": 0.3297,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1959
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1601,
+          "meaning_score": 0.3125,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.189
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "State Rep. Jewell Jones, D-Inskter, is no longer an active",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2084,
+          "meaning_score": 0.7863,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5979
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2084,
+          "meaning_score": 0.3474,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2223
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2084,
+          "meaning_score": 0.4041,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.245
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Trial of the Chicago 7 is good drama, but I have to wonder at",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2205,
+          "meaning_score": 0.693,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3654
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2205,
+          "meaning_score": 0.4229,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2574
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2205,
+          "meaning_score": 0.4368,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2629
+        }
+      ]
+    }
+  ]
+}

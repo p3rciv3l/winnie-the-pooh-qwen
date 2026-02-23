@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_7049",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:24:30Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing negative, disruptive, or crisis events** (such as illegal activity, political incidents, natural disasters, structural failures, accidents, or institutional decline).\n\n2. **Domain coverage**: The pattern appears in multilingual news or reportage covering accidents, political tensions, disasters, and infrastructural failures. Examples span Hindi, Russian, Spanish, Polish, German, Italian, Romanian, Dutch, and Portuguese, indicating the neuron detects the semantic content of crisis rather than a specific language. Topics include slaughterhouse scandals, political protests, building collapses, road damage, population decline, and sports clubs in severe decline.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently describe specific, ongoing negative events with a sense of urgency or consequence. The low-activation examples are generally neutral announcements, metadata (dates/locations), instructional text, promotional health tips, or article headlines without detailed crisis narratives. The key distinction is the presence of a concrete, adverse incident in the high group versus its absence in the low group.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting descriptions of real-world disruptions and adverse developments across cultures and languages. It filters for segments where systems, structures, or norms are breaking down or under threat.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00011",
+      "row_idx": 383,
+      "normalized": 9.583572387695312,
+      "actual_text": "Pernicanca e Ragalna si sono attivate nel corso dello sciame sismico tuttora registrato dalle reti dell’Etn",
+      "plain_text": "Nell’ambito delle attività di monitoraggio dell’attività dell’Etna svolte dalla Sezione di Catania – Osservatorio Etneo dell’INGV (Istituto Nazionale di Geofisica e Vulcanologia) sono state analizzate le immagini SAR (Satellite Aperture Radar) dei due seguenti passaggi del satellite Sentinel 1 dell’ESA (European Space Agency), facente parte del sistema Copernicus:  L’INGV spiega che “la geometria di vista del sensore è discendente (punto di ripresa a Est-Sud-Est dell’Etna, con una inclinazione di circa 40°).  Il risultato dell’elaborazione interferometrica in fase dei dati SAR (1 frangia = 28 mm di spostamento lungo la linea di vista) evidenzia un campo di deformazione complesso che interessa l’intero vulcano. Nel dettaglio si rilevano le seguenti strutture:  – la faglia di Fiandaca-Pennisi (FPF; basso versante Sud-Est) che mostra uno spostamento massimo relativo tra i due lati di 20 cm;  – la faglia della Pernicanca (PFS; versante Nord-Est) che ha mostrato uno spostamento massimo relativo tra i due lati di circa 3 cm;  – la faglia di Ragalna (RFS; alto versante Sud-Ovest) che ha mostrato uno spostamento massimo relativo tra i due lati di circa 2 cm (la geometria di vista del sensore non è ottimale per il rilevamento del movimento di questa faglia a causa del suo azimut e slip);  – la faglia di Borello-Ognina (BOF; basso versante meridionale) che ha mostrato uno spostamento massimo relativo tra i due lati di circa 2 cm.  Le faglie di Fiandaca-Pennisi, Pernicanca e Ragalna si sono attivate nel corso dello sciame sismico tuttora registrato dalle reti dell’Etna.  Nei prossimi giorni saranno condotte ulteriori analisi, anche con dati acquisiti in geometria ascendente, al fine di integrare l’analisi interferometrica con le misure GPS e affinare il risultato preliminare per fornire una interpretazione più accurata del campo di deformazione del vulcano.”",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Le faglie di Fiandaca-Pennisi, Pernicanca e Ragalna si sono attivate nel corso dello sciame sismico tuttora registrato dalle reti dell’Etna.",
+          "concept": "seismic activation",
+          "reasoning": "It describes faults activating during an ongoing seismic swarm, indicating a volcanic crisis."
+        },
+        {
+          "rank": 2,
+          "text": "Il risultato dell’elaborazione interferometrica in fase dei dati SAR (1 frangia = 28 mm di spostamento lungo la linea di vista) evidenzia un campo di deformazione complesso che interessa l’intero vulcano.",
+          "concept": "volcanic deformation",
+          "reasoning": "It reveals significant ground deformation affecting the entire volcano, a sign of potential eruption."
+        },
+        {
+          "rank": 3,
+          "text": "– la faglia di Fiandaca-Pennisi (FPF; basso versante Sud-Est) che mostra uno spostamento massimo relativo tra i due lati di 20 cm;  – la faglia della Pernicanca (PFS; versante Nord-Est) che ha mostrato uno spostamento massimo relativo tra i due lati di circa 3 cm;",
+          "concept": "fault displacement",
+          "reasoning": "It details large ground movements along faults, indicating severe geological instability."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00003",
+      "row_idx": 1194,
+      "normalized": 8.87716293334961,
+      "actual_text": "накрыло сильной метелью. Штормовое предупреждение, объявленное накануне, прод",
+      "plain_text": "Метели и снег: выезды из Барнаула закрыты во всех направлениях  Барнаул, 25 Ноября 2016, 10:48 — REGNUM В связи с неблагоприятными погодными условиями в Алтайском крае для всех видов транспорта закрыт выезд из города Барнаул. Ограничение касается всех направлений, сообщает 25 ноября пресс-служба администрации региона. Выезд транспорта из столицы края был запрещен утром 25 ноября в связи с сильным ветром, снегопадом, метелями и заносами. На ряде краевых дорог движение было закрыто вечером 24 ноября и в ночь на 25 ноября. «Запрет сохранится до улучшения обстановки. Поезда и электрички следуют по расписанию», — говорится в сообщении. Экстренные службы настоятельно рекомендуют жителям края отказаться от автомобильных поездок. Особенно это касается тех, кто живет в отдаленных районах, так как в случае дорожных происшествий помощь не подоспеет в короткие сроки. Как уже сообщало ИА REGNUM, после аномальных для осени морозов, Алтай накрыло сильной метелью. Штормовое предупреждение, объявленное накануне, продлили сегодня утром. Закрыты 5 трасс федерального и регионального значения. Есть вероятность схода автомобилей с дороги из-за бокового ветра, порывы которого достигают 25 метров в секунду. Сложные погодные условия стали причиной серьезного ДТП с участием девяти автомобилей на трассе М-52 в Зональном районе. По данным регионального управления МЧС, в условиях плохой видимости столкнулись рейсовый автобус, следовавший по маршруту Горно-Алтайск — Барнаул, грузовой автомобиль и еще 7 легковых автомобилей. В этой аварии, произошедшей на 334 километре федеральной трассы Р-256 в районе населённого пункта Шубенка пострадали несколько человек.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Сложные погодные условия стали причиной серьезного ДТП с участием девяти автомобилей на трассе М-52 в Зональном районе. По данным регионального управления МЧС, в условиях плохой видимости столкнулись рейсовый автобус, следовавший по маршруту Горно-Алтайск — Барнаул, грузовой автомобиль и еще 7 легковых автомобилей. В этой аварии, произошедшей на 334 километре федеральной трассы Р-256 в районе населённого пункта Шубенка пострадали несколько человек.",
+          "concept": "multi-vehicle accident",
+          "reasoning": "It describes a serious multi-vehicle collision with injuries, a direct crisis event."
+        },
+        {
+          "rank": 2,
+          "text": "В связи с неблагоприятными погодными условиями в Алтайском крае для всех видов транспорта закрыт выезд из города Барнаул. Ограничение касается всех направлений, сообщает 25 ноября пресс-служба администрации региона. Выезд транспорта из столицы края был запрещен утром 25 ноября в связи с сильным ветром, снегопадом, метелями и заносами.",
+          "concept": "transport ban",
+          "reasoning": "It announces a complete transport ban due to dangerous weather, indicating a major disruption."
+        },
+        {
+          "rank": 3,
+          "text": "Штормовое предупреждение, объявленное накануне, продлили сегодня утром. Закрыты 5 трасс федерального и регионального значения. Есть вероятность схода автомобилей с дороги из-за бокового ветра, порывы которого достигают 25 метров в секунду.",
+          "concept": "storm warning",
+          "reasoning": "It mentions extended storm warning and road closures, highlighting ongoing severe weather crisis."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00015",
+      "row_idx": 3796,
+      "normalized": 7.9458088874816895,
+      "actual_text": "igen Wohnverhältnissen entsprechenden Herd-Öfen heraus, wobei der Verzicht auf allzu großzügige Nickelver",
+      "plain_text": "Die als zweiter Teil der Kölner Frühjahrsmesse durchgeführte Haushalt- und Eisenwarenmesse (Messe des Verbandes Deutscher Eisenwarenhändler) hat sich als die zentrale Inland- und Exportmesse dieser Branchen erwiesen, da es keine andere Marktveranstaltung gibt, wo das Angebot an Haushalt- und Eisenwaren auf eine So konzentrierte Nachfrage wie in Köln stoßen kann. Über 900 in- und ausländische Aussteller waren in Köln vertreten. Den größten Anteil an der Ausstellerzahl hatten die Firmen der Haus- und Küchengeräteindustrie. Die Heiz- und Kochgeräteindustrie wurde durch 63 maßgebende Firmen repräsentiert. Daneben waren alle übrigen Gruppen – mit Ausnahme der Porzellan- und Glasbranche – umfassend vertreten.  Technische Überraschungen großen Stils gab es nicht, obwohl fast alle Firmen, besonders aber die Haushaltmaschinenproduzenten, um technische Verbesserungen und Rationalisierungen bemüht waren. Eine Beschränkung des Kühlschrankangebotes war allerdings noch nicht zu bemerken. Die Herde- und Ofenindustrie stellte vor allem die den heutigen Wohnverhältnissen entsprechenden Herd-Öfen heraus, wobei der Verzicht auf allzu großzügige Nickelverzierungen begrüßt wurde. Die Preisgestaltung erwies sich als recht stabil. Bei einigen Produzenten konnte sogar eine leichte Tendenz zu Preisnachlässen bemerkt werden. In der Gruppe Porzellan wurden gute Geschäfte abgeschlossen. Auch hier herrschten stabile Preise vor. Gutes Seriengeschirr fand stärkeres Interesse. Dü.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Technische Überraschungen großen Stils gab es nicht, obwohl fast alle Firmen, besonders aber die Haushaltmaschinenproduzenten, um technische Verbesserungen und Rationalisierungen bemüht waren.",
+          "concept": "lack of innovation",
+          "reasoning": "It indicates a disappointment or lack of major technical surprises, which could be seen as a negative development in the industry."
+        },
+        {
+          "rank": 2,
+          "text": "Bei einigen Produzenten konnte sogar eine leichte Tendenz zu Preisnachlässen bemerkt werden.",
+          "concept": "price reductions",
+          "reasoning": "Price reductions can signal economic pressure or decline, which might be a negative trend."
+        },
+        {
+          "rank": 3,
+          "text": "Eine Beschränkung des Kühlschrankangebotes war allerdings noch nicht zu bemerken.",
+          "concept": "supply restriction",
+          "reasoning": "The mention of a potential restriction on refrigerator supply could imply market disruptions, though it says it hasn't been noticed yet."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 822,
+      "normalized": 0.0,
+      "actual_text": "Adelani Adepegba, Abuja The Inspector-General of Police, Mohammed Adam",
+      "plain_text": "Adelani Adepegba, Abuja The Inspector-General of Police, Mohammed Adamu, has contested a report by the Amnesty International that policemen deployed excessive force against #EndSARS protesters. The IG argued that his men acted professionally, exercised commendable restraints and some paid the supreme price for peace during the protests and the ensuing violence in parts of the \n \n Source: Punch Newspaper",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "that policemen deployed excessive force against #EndSARS protesters.",
+          "concept": "police brutality",
+          "reasoning": "It directly describes excessive force used against protesters, a clear crisis event."
+        },
+        {
+          "rank": 2,
+          "text": "some paid the supreme price for peace during the protests and the ensuing violence in parts of the",
+          "concept": "casualties",
+          "reasoning": "It mentions police officers dying in violence, indicating a deadly conflict."
+        },
+        {
+          "rank": 3,
+          "text": "The IG argued that his men acted professionally, exercised commendable restraints",
+          "concept": "police defense",
+          "reasoning": "It references the police response to allegations of violence, which relates to the crisis context."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 5619,
+      "normalized": 0.0,
+      "actual_text": "Ziraat Türkiye Kupası’nda Sivas Belediyespor’",
+      "plain_text": "Ziraat Türkiye Kupası’nda Sivas Belediyespor’u 5-0 mağlup ederek kupada yoluna devam eden Trabzonspor’da, gözler ligin 17’nci haftasında oynanacak Çaykur Rizespor maçına çevrildi. Sahasında konuk edeceği rakibi karşısında bu maçı kazanarak devre arasına moralli girmeyi ve puan tablosunda da üst sıralardaki yerini sağlamlaştırmayı hedefleyen bordo-mavililerde, eksik oyuncu sayısının fazla olması teknik direktör Ünal Karaman’ı düşündürüyor. TÜM HATLARDA ALTERNATİF SIKINTISI YAŞANIYOR Trabzonspor’da Çaykur Rizespor maçı öncesi kale, savunma, orta saha ve hücum hattında alternatif sorunu yaşanıyor. Bordo-mavililerde kadro dışı bırakılan Onur’un yanı sıra Esteban da sözleşmesini feshederek şehirden ayrıldı. Kalede Uğurcan Çakır’ın alternatifi olarak yine altyapıdan yetişen Arda Akbulut ile Murat Cem Kablan yer alıyor. Sözleşmesi karşılıklı olarak feshedilen Mustafa Akbaş’ın yanı sıra Toure’nin de Beşiktaş maçında sakatlanmasıyla stoperde sadece Hüseyin Türkmen ile Hosseini ikilisi kaldı. Ayrıca Beşiktaş maçında gördüğü kart ile cezalı duruma düşen Pereira da Çaykur Rizespor karşısında forma giyemeyecek. ORTA SAHA VE HÜCUM HATTINDA DA SIKINTI VAR Beşiktaş maçında sakatlanan bir başka isim Sosa’nın yokluğunda teknik direktör Ünal Karaman bu sezon birçok maçta birlikte görev verdiği Sosa-Onazi ikilisinden de zorunlu olarak vazgeçecek. Bir süredir sakatlığı nedeniyle takımdan ayrı kalan Kucka’nın takıma dönmesi teknik heyeti sevindirse de bu oyuncunun henüz tam hazır olmaması ve genç oyuncular dışında elinde başka alternatif olmayışı nedeniyle teknik heyet orta alanda da sıkıntı yaşanıyor. DEVRE ARASI İYİ GELECEK Bordo-mavililerde Burak Yılmaz’ın kadro dışı bırakılmasının ardından forvet hattında sadece Ekuban ile Rodallega kalırken, hücum hattında Abdülkadir Ömür ile Yusuf Yazıcı’nın da birkaç haftadır sakatlıklarına rağmen inisiyatif kullanarak maçlarda forma giydiği öğrenildi. İlk yarının son maçını sorunsuz tamamlamak isteyen Trabzonspor, hem sakatların tedavilerinin tamamlanıp takıma dönmesi, hem de yapılacak takviyelerle kadronun güçlendirilmesi noktasında devre arasını fırsata çevirmeyi hedefliyor. KARAMAN: “ÇAYKUR RİZESPOR MAÇINA EN İYİ ŞEKİLDE HAZIRLANACAĞIZ” Bu arada Trabzonspor teknik direktörü Ünal Karaman, eksiklerin mazaret olmayacağını belirterek, “Birkaç haftadır bazı zorluklarımız var. Sosa, Onazi, Abdülkadir, Yusuf sakat oynuyor. Pereira cezalı. Ama bu zorluklar mazeret üretme kültürümüzü daha farklı noktaya çekmiyor. Bir kadromuz var. Bu kadro içerisinde en iyisini düşündüğümüzle beraber Çaykur Rizespor maçına hazırlanacağız” dedi. DHA",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "TÜM HATLARDA ALTERNATİF SIKINTISI YAŞANIYOR Trabzonspor’da Çaykur Rizespor maçı öncesi kale, savunma, orta saha ve hücum hattında alternatif sorunu yaşanıyor. Bordo-mavililerde kadro dışı bırakılan Onur’un yanı sıra Esteban da sözleşmesini feshederek şehirden ayrıldı.",
+          "concept": "player shortage",
+          "reasoning": "It describes a crisis of missing players across all positions, indicating team decline."
+        },
+        {
+          "rank": 2,
+          "text": "Sözleşmesi karşılıklı olarak feshedilen Mustafa Akbaş’ın yanı sıra Toure’nin de Beşiktaş maçında sakatlanmasıyla stoperde sadece Hüseyin Türkmen ile Hosseini ikilisi kaldı. Ayrıca Beşiktaş maçında gördüğü kart ile cezalı duruma düşen Pereira da Çaykur Rizespor karşısında forma giyemeyecek.",
+          "concept": "contract termination and injury",
+          "reasoning": "It details player departures and injuries, further exacerbating the team's crisis."
+        },
+        {
+          "rank": 3,
+          "text": "ORTA SAHA VE HÜCUM HATTINDA DA SIKINTI VAR Beşiktaş maçında sakatlanan bir başka isim Sosa’nın yokluğunda teknik direktör Ünal Karaman bu sezon birçok maçta birlikte görev verdiği Sosa-Onazi ikilisinden de zorunlu olarak vazgeçecek. Bir süredir sakatlığı nedeniyle takımdan ayrı kalan Kucka’nın takıma dönmesi teknik heyeti sevindirse de bu oyuncunun henüz tam hazır olmaması ve genç oyuncular dışında elinde başka alternatif olmayışı nedeniyle teknik heyet orta alanda da sıkıntı yaşanıyor.",
+          "concept": "midfield and attack problems",
+          "reasoning": "It highlights specific shortages in midfield and attack, reflecting ongoing structural issues."
+        }
+      ]
+    }
+  ]
+}

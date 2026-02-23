@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_467",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing the word \"basis\" or \"base\" (including compounds like \"basis points,\" \"fan base,\" \"air base,\" or phrases like \"on the basis of\")**.\n\n2. **Domain coverage**: The pattern appears across diverse domains: financial reporting (\"basis points,\" \"year-on-year basis\"), military/geopolitical contexts (\"air bases,\" \"naval bases\"), legal/argumentative framing (\"basis for,\" \"on the basis of\"), and social/organizational topics (\"fan base,\" \"broadcast base\"). It activates for English text primarily but also for Italian and Persian snippets containing related terms (e.g., \"base,\" \"\u0628\u0627\u0632\" as part of \"fan base\" in Persian), showing cross-linguistic sensitivity to the root morpheme.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically headlines, partial sentences, or text fragments that do not contain the word \"basis\"/\"base\" or its conceptual synonyms. They cover disjoint topics (earthquakes, police oversight, stock transactions) without referencing foundational, supporting, or quantitative-basis concepts.\n\n4. **Closing interpretation**: The neuron detects the lexical root \"base/basis\" and its compounds across multiple languages and contexts, acting as a morpheme-sensitive feature detector rather than a purely semantic concept detector. It fires strongly when this specific string or its direct variants appear in meaningful linguistic contexts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "they were tortured with beatings and sleep deprivation, he said Friday. Yuki Kitazumi was detained by authorities in Myanmar last month and was held in Yang",
+      "normalized_activation": 9.440938949584961,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2457,
+          "meaning_score": 0.6861,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3727
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2457,
+          "meaning_score": 0.5025,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2993
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2457,
+          "meaning_score": 0.5292,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.31
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "fire. LAWFUL TARGETS? Speaking in rare interviews at their bases in Kandahar and nearly 8,000 miles away in",
+      "normalized_activation": 8.504471778869629,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2109,
+          "meaning_score": 0.4799,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2763
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1873,
+          "meaning_score": 0.7379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3701
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2077,
+          "meaning_score": 0.3948,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.241
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "Apr\u00e8s la d\u00e9cision d\u2019Air India d\u2019interdire \u00e0 Shankar Mishra, qui aurait ur",
+      "normalized_activation": 7.705863952636719,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2232,
+          "meaning_score": 0.3105,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2135
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3472,
+          "meaning_score": 0.6829,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.612
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3472,
+          "meaning_score": 0.6368,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3936
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Daiwa Securities Group Inc. grew its holdings in Schlumberger Limited (NYSE",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3542,
+          "meaning_score": 0.7882,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.657
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3542,
+          "meaning_score": 0.4638,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3272
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3542,
+          "meaning_score": 0.4732,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.331
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u015eansele de a muri \u00eentr-un zbor sunt de una la",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3317,
+          "meaning_score": 0.6644,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5985
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3317,
+          "meaning_score": 0.4073,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2956
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.3317,
+          "meaning_score": 0.4398,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3086
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "neuron_id": "0_110",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the lexical token **\u201cright\u201d** in English text (such as in temporal phrases like \u201cright now,\u201d evaluative phrases like \u201cthe right person,\u201d or idiomatic expressions like \u201cright on top of us\u201d).\n\n2. **Domain coverage**: The pattern appears across diverse English-language domains including news headlines, social commentary, sports reporting, entertainment, and business analysis. Examples span topics like politics (\u201cthe right time to do a bond\u201d), climate change (\u201cimpacting Arizonans right now\u201d), pop culture (\u201cPut the Right People Around You\u201d), and technology (\u201cPython\u2019s modern-day influence\u201d). Non-English text fragments or English passages lacking the token \u201cright\u201d do not trigger the neuron.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the word \u201cright,\u201d often as part of common collocations. The low-activation examples either are in other languages (e.g., German, Arabic, Spanish, Russian), are truncated or incoherent text fragments, or are English passages that do not include this specific token.\n\n4. **Closing interpretation**: This neuron functions as a simple **lexical detector for the word \u201cright\u201d** in English, with sensitivity to its presence across a variety of phrasal contexts rather than to any higher-level semantic theme.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "of Taipei. He positions himself as an anti-establishment outsider, and his straight-talk and terse soundbites are well-received among young voters who resent the traditional",
+      "normalized_activation": 9.269474983215332,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.419331,
+          "actual_text_slice": [
+            1523,
+            1696
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.491753,
+          "actual_text_slice": [
+            1523,
+            1696
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.376015,
+          "actual_text_slice": [
+            1523,
+            1696
+          ],
+          "prediction_text_slice": [
+            5007,
+            5210
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "8 by Derek Clouthier It\u2019s good to be in the trailer business right now. ACT Research reported the third quarter of 2018 posted the strongest",
+      "normalized_activation": 8.143529891967773,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.803195,
+          "actual_text_slice": [
+            16,
+            156
+          ],
+          "prediction_text_slice": [
+            0,
+            243
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.539726,
+          "actual_text_slice": [
+            16,
+            156
+          ],
+          "prediction_text_slice": [
+            722,
+            994
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.454571,
+          "actual_text_slice": [
+            16,
+            156
+          ],
+          "prediction_text_slice": [
+            2615,
+            2984
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "bullnose elevator shaft. \u201cThey had wanted to install another LED wall right on the corner but zoning regulations prohibited it,\u201d says Methot, who heads design one",
+      "normalized_activation": 7.171764850616455,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.787905,
+          "actual_text_slice": [
+            919,
+            1081
+          ],
+          "prediction_text_slice": [
+            944,
+            1293
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.420737,
+          "actual_text_slice": [
+            919,
+            1081
+          ],
+          "prediction_text_slice": [
+            1581,
+            1837
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.404727,
+          "actual_text_slice": [
+            919,
+            1081
+          ],
+          "prediction_text_slice": [
+            2562,
+            2803
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Celebrated French conductor Lionel Bringuier will makes his debut leading the Dallas Symphony Orchestra",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.893844,
+          "actual_text_slice": [
+            0,
+            103
+          ],
+          "prediction_text_slice": [
+            0,
+            307
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.592928,
+          "actual_text_slice": [
+            0,
+            103
+          ],
+          "prediction_text_slice": [
+            308,
+            732
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.528384,
+          "actual_text_slice": [
+            0,
+            103
+          ],
+          "prediction_text_slice": [
+            733,
+            1008
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "\u0423\u0447\u0430\u0441\u0442\u0438\u0435 FDNM Consulting \u0443\u0441\u0438\u043b\u0438\u0442 \u0440\u043e\u0441\u0442 \u043a\u0443\u0440\u0441\u0430 \u043c\u043e\u043d",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.480456,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.284234,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": [
+            272,
+            546
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.415634,
+          "actual_text_slice": [
+            0,
+            45
+          ],
+          "prediction_text_slice": [
+            614,
+            957
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

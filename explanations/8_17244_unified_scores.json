@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_17244",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **complex multi-part named entities and technical/project descriptions involving hyphenated or concatenated terms** (such as infrastructure projects like \"Mangaluru\u2014Hassan \u2013 Bengaluru \u2013 Mysore LPG pipeline,\" institutional names like \"Paralupi-Fiorani,\" or technical specifications like \"USB-C charger\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Albanian, Greek, Turkish, Spanish, etc.) in formal or informational contexts\u2014news articles, technical reports, institutional announcements\u2014covering topics like infrastructure, research projects, legal/political acts, academic collaborations, and multilingual administrative texts.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **compound structures with hyphens, slashes, or lengthy enumerations of named entities** (organizations, places, projects), often in dense informational clauses. Low-activation examples are simpler\u2014short fragments, generic statements, or conversational phrases without complex nominal groupings (e.g., \"Il 6 maggio 1976 alle ore 21.0\" is a bare date/time; \"Prisma no longer in network...\" lacks multi-part technical terms).\n\n4. **Closing interpretation**: The neuron detects linguistically dense, formally structured noun phrases that encode specific technical, geographic, or institutional information, acting as a marker for information-rich, multi-component references in multilingual formal discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "\u00edtulos. Adem\u00e1s el querido actor condujo su propia secci\u00f3n El Chanclazo algunas semanas en VLA y hasta se volvi\u00f3 mujer en una de",
+      "normalized_activation": 8.74659252166748,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1644,
+          "meaning_score": 0.4639,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2513
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1484,
+          "meaning_score": 0.6273,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5103
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.132,
+          "meaning_score": 0.4957,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2511
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "is depleted. The aquifer lost 10.7 million acre-feet of storage between 2013 and 2015, the",
+      "normalized_activation": 7.465690612792969,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1759,
+          "meaning_score": 0.412,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2352
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1833,
+          "meaning_score": 0.4762,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2638
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1952,
+          "meaning_score": 0.3763,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2286
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "? Sim, pois sem os insumos tanto o Butantan quanto a Fiocruz ser\u00e3o obrigados a parar de produzir vacinas e deixar",
+      "normalized_activation": 6.127702236175537,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1255,
+          "meaning_score": 0.2262,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1407
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1615,
+          "meaning_score": 0.1706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1329
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0917,
+          "meaning_score": 0.2093,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1204
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Coal export fears resurface as restrictions hit more Chinese ports and Australian prices cop a '",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1087,
+          "meaning_score": 0.663,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3087
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1511,
+          "meaning_score": 0.6549,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3224
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1233,
+          "meaning_score": 0.5333,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2626
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Davorlim village panchayat resumed the inspection of the illegal houses constructed",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1227,
+          "meaning_score": 0.8117,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5738
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2132,
+          "meaning_score": 0.6249,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3353
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0967,
+          "meaning_score": 0.5587,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2621
+        }
+      ]
+    }
+  ]
+}

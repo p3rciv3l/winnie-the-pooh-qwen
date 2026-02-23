@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_2750",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **explicit comparisons to a prior state or timeframe** (such as phrases containing \"previous year,\" \"previous government,\" \"previous high-mark,\" or \"compared with the previous\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including financial reporting, sports, politics, natural disasters, and legal/regulatory texts, primarily in English. The comparison is often numerical (prices, percentages, counts) or qualitative (governments, attacks, orders), indicating the neuron detects the linguistic structure of a contrast with a prior instance rather than a specific topic.\n\n3. **Contrast with low-activation examples**: The low-activation texts are standalone statements, headlines, dates, or text in other languages that lack any comparative reference to a prior state. They present isolated facts, events, or descriptions without the \"previous/prior/past\" comparison framework that uniformly defines the high-activation group.\n\n4. **Closing interpretation**: This neuron functions as a detector for linguistic constructions that establish a comparative relationship with an earlier point in time. It latches onto the semantic role of \"previous\" and its synonyms to flag sentences discussing change, trend, or precedent relative to a past baseline.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Baru said the seismic data acquisition was based on the encouraging results of the previous studies carried out in the Benue trough by the corporation in the areas of geological",
+      "normalized_activation": 9.804703712463379,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.5601,
+          "meaning_score": 0.9326,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.7971
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1668,
+          "meaning_score": 0.4018,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2275
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2829,
+          "meaning_score": 0.6069,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3559
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "000 fewer people at the end of 2022 than the previous year. The tally includes only the population of mainland China, excluding Hong Kong and",
+      "normalized_activation": 9.329296112060547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2211,
+          "meaning_score": 0.7924,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6054
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1829,
+          "meaning_score": 0.4765,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2638
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1836,
+          "meaning_score": 0.3757,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2237
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "bad. Let us stop and think what they are facing as they take their steps towards adulthood. War has once again raised its ugly head. Environmental issues threaten the world",
+      "normalized_activation": 5.333249092102051,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1781,
+          "meaning_score": 0.3069,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.194
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2065,
+          "meaning_score": 0.3426,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2196
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2032,
+          "meaning_score": 0.2098,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1652
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The Crimean peninsula, annexed by Russia in 2014, has",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.07,
+          "meaning_score": 0.3038,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1495
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1,
+          "meaning_score": 0.4937,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2375
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1074,
+          "meaning_score": 0.3473,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1819
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1132,
+          "meaning_score": 0.5159,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2516
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1675,
+          "meaning_score": 0.2977,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1861
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1181,
+          "meaning_score": 0.2868,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1619
+        }
+      ]
+    }
+  ]
+}

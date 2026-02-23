@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_16825",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing negative societal events involving institutional actors or formal consequences** (such as crimes with perpetrators/victims named, political scandals and investigations, controversial statements by public figures, or financial/legal disputes involving organizations).\n\n2. **Domain coverage**: The pattern appears in news reporting across multiple languages (English, German, Spanish, French, Hungarian, Tamil, etc.) and topics: political controversy (U.S. and international), violent crime, financial misconduct, legal proceedings, immigration disputes, sports scandals, and academic/religious conflicts. The texts consistently feature specific named entities (people, organizations, countries) and often include quotes, legal terminology, or references to official actions (investigations, convictions, protests, resignations).\n\n3. **Contrast with low-activation examples**: The low-activation texts describe neutral announcements, positive developments, cultural/entertainment topics, natural events without human conflict, or general factual statements. They lack the combination of a negative event with institutional or societal actors in conflict. For example, a fire at an airport (low activation) is a bare event, while a fire causing evacuations with utility companies criticized (high activation) adds institutional blame or consequence.\n\n4. **Closing interpretation**: This neuron detects formal, reportorial language about societal conflicts, controversies, or transgressions where institutions or public figures are centrally involved. It appears tuned to discourse that implies accountability, criticism, or institutional response within a news narrative.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "and our country.\u201d Britain\u2019s Labour Party continues to be locked in a battle between leader Jeremy Corbyn and his allies and most of the parliamentary party. For the latest",
+      "normalized_activation": 9.668036460876465,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1923,
+          "meaning_score": 0.1014,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1175
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2225,
+          "meaning_score": 0.1177,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1361
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2,
+          "meaning_score": 0.0497,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0999
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "migrante uzbeco de 29 a\u00f1os. Seg\u00fan ABC, Saipov lleg\u00f3 a Estados Unidos hace siete a\u00f1os beneficiado por un programa que ofrece",
+      "normalized_activation": 9.154979705810547,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1872,
+          "meaning_score": 0.4876,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2699
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1274,
+          "meaning_score": 0.3222,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1798
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1851,
+          "meaning_score": 0.6827,
+          "overlap_fraction": 0.2195,
+          "location_score": 0.0439,
+          "combined_score": 0.391
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "un conjunto monumental junto al monasterio que lleva el sello de Gaud\u00ed, ser\u00e1 reconstruido este a\u00f1o. Se derrumb\u00f3 en nov",
+      "normalized_activation": 8.563704490661621,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1312,
+          "meaning_score": 0.4903,
+          "overlap_fraction": 0.1525,
+          "location_score": 0.0305,
+          "combined_score": 0.2791
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1514,
+          "meaning_score": 0.5411,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.277
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1794,
+          "meaning_score": 0.4251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2418
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "W praktyce gospodarczej cz\u0119sto zdarza si\u0119, \u017ce",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2058,
+          "meaning_score": 0.2849,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1963
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1899,
+          "meaning_score": 0.3663,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2225
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1355,
+          "meaning_score": 0.3,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1742
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Los datos actualizados de coronavirus revelan una nueva mejor\u00eda en la situaci\u00f3n de la",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0963,
+          "meaning_score": 0.3753,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1886
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1126,
+          "meaning_score": 0.4099,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.209
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1689,
+          "meaning_score": 0.414,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2332
+        }
+      ]
+    }
+  ]
+}

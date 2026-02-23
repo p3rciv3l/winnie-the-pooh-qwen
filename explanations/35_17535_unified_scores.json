@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_17535",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive or contextual elaboration** (such as place names with parenthetical identifiers, personal names with role/affiliation details, or event/organization names with explanatory phrases).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style leads or article openings** across multiple languages (Arabic, English, Spanish, Portuguese, Dutch, Italian, Slovak, Hindi, Norwegian, Czech, Polish, Bengali) and topics (breaking news, sports, politics, culture, crime, science). It detects the journalistic convention of introducing a key entity (person, location, organization, event) and immediately following it with clarifying information.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a proper noun entirely, present proper nouns without immediate elaboration (e.g., \"Trump\u2019s Truth Social launches...\"), or begin with generic statements, temporal phrases, or descriptive clauses. The high-activation group consistently shows the structure **[Proper Noun] + [comma/dash/parenthesis] + [explanatory phrase]**, while the low group does not.\n\n4. **Closing interpretation**: This neuron likely detects a specific syntactic-semantic pattern common in informative writing: the presentation of a named entity followed by its immediate contextual framing. It functions as a cross-linguistic detector for the introductory \"who/what\" clause in news and article snippets.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "overv\u00e5gningsbilleder fra Fjerritslev Skole viste en mand s\u00e6tte ild til en b\u00e5lhytte. Billed",
+      "normalized_activation": 9.118217468261719,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1793,
+          "meaning_score": 0.496,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2701
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1854,
+          "meaning_score": 0.6877,
+          "overlap_fraction": 0.9222,
+          "location_score": 0.1844,
+          "combined_score": 0.5337
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1734,
+          "meaning_score": 0.2625,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1743
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u044c\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u0438 \u0442\u0443\u0440\u043e\u0432 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442 \u043f\u044f\u0442\u043e\u0435 \u043c\u0435\u0441\u0442\u043e. \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u043d\u0435\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e, \u0447\u0442\u043e \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0431\u043e\u043b\u0435\u0435 \u0441\u0442",
+      "normalized_activation": 8.078975677490234,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1589,
+          "meaning_score": 0.4366,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2382
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1851,
+          "meaning_score": 0.1707,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1423
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1655,
+          "meaning_score": 0.1549,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1282
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "aux sociaux pour ses d\u00e9clarations La chronique de FX Pietri : Renault-Nissan, un divorce improbable \u00c9ducation : retour aux bases pour les plus jeunes \"",
+      "normalized_activation": 7.09956169128418,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2226,
+          "meaning_score": 0.4177,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2561
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2162,
+          "meaning_score": 0.4209,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2548
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1891,
+          "meaning_score": 0.3442,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2133
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1948,
+          "meaning_score": 0.5148,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4838
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1799,
+          "meaning_score": 0.4557,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2542
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1875,
+          "meaning_score": 0.3778,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2261
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2064,
+          "meaning_score": 0.7771,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5934
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2333,
+          "meaning_score": 0.5468,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.312
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1672,
+          "meaning_score": 0.4715,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2555
+        }
+      ]
+    }
+  ]
+}

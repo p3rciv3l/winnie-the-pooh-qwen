@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_8026",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive or explanatory phrases** (such as named entities with titles/roles like \"Bruce Banerdt\" followed by his position, cultural references like \"Gundam\" with its origin year, or organizations/acronyms with explanations like \"CVE-2017-3223\" with its CVSS score).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Hungarian, Nepali, etc.) and domains including: academic/scientific citations (Mars mission quotes), news reporting about individuals with titles, vulnerability identifiers with descriptions, cultural/media references with contextual details, and geopolitical entities with explanatory clauses. It activates strongly when a proper noun (person, organization, product, event) is immediately elaborated upon in the same clause or sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, present proper nouns without immediate elaboration (e.g., \"UnitedHealthcare insurance plans\" without further description), or use them in simple declarative statements without explanatory phrases. The high-activation examples consistently embed named entities within explanatory syntactic structures (appositives, relative clauses, or descriptive prepositional phrases).\n\n4. **Closing interpretation**: This neuron detects a specific syntactic-semantic pattern where a named entity is being introduced or defined within running text, serving a referential or explanatory function. It appears tuned to the contextual framing of proper nouns rather than the entities themselves.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "teasing a fellow who has agreed to a draw. Because for the high-risk Garry Kasparov a draw is heresy. Bobby Fischer, the late American grand",
+      "normalized_activation": 9.492745399475098,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1688,
+          "meaning_score": 0.6119,
+          "overlap_fraction": 0.2714,
+          "location_score": 0.0543,
+          "combined_score": 0.3666
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1558,
+          "meaning_score": 0.4878,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2574
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1406,
+          "meaning_score": 0.4674,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2432
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "waited for the show to start, Salt-N-Pepa alum DJ Spinderella and DJ AONE played throwback tunes like Tevin Campbell's \"Can We",
+      "normalized_activation": 8.68935775756836,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1746,
+          "meaning_score": 0.2717,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1785
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1746,
+          "meaning_score": 0.2824,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1828
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1667,
+          "meaning_score": 0.3043,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1884
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "che nell'entroterra potranno assumere carattere di debole spolverata nevosa intorno ai 300-400",
+      "normalized_activation": 7.90131139755249,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2012,
+          "meaning_score": 0.3359,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2148
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.115,
+          "meaning_score": 0.338,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1812
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2446,
+          "meaning_score": 0.3402,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2339
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Les sorties de l'aide sociale \u00e0 l'enfance Pr\u00e9sent",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1935,
+          "meaning_score": 0.3449,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2154
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1773,
+          "meaning_score": 0.3051,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.193
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1653,
+          "meaning_score": 0.4026,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2272
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1165,
+          "meaning_score": 0.4049,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2085
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2108,
+          "meaning_score": 0.7767,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.595
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1688,
+          "meaning_score": 0.3063,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.19
+        }
+      ]
+    }
+  ]
+}

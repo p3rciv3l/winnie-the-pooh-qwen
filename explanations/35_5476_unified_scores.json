@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_5476",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to **text containing non-Latin scripts, mixed scripts, or special typographic elements** (such as Arabic script, Greek script, Cyrillic, combined with Latin characters, or embedded social media handles and punctuation).\n\n**Domain coverage**: The pattern appears across multiple languages and topics\u2014including news reports in Arabic, Greek, Finnish, Slovak, and Hindi, as well as social media excerpts and technical or political texts\u2014whenever the text segment visibly mixes writing systems or includes elements like \u201c@\u201d mentions, long dashes, or paired quotation marks. The neuron activates most strongly (scores 6\u201310) on predominantly non-Latin script blocks but also moderately (scores 3\u20136) on mixed-script phrases or text with prominent special characters.\n\n**Contrast with low-activation examples**: The low-activation examples are almost exclusively plain Latin-script text, often resembling clean news headlines, simple sentences, or English-language phrases without embedded symbols or script mixing. What distinguishes the high-activation group is the presence of visual/orthographic diversity within the token sequence\u2014multiple scripts or special characters within a short span\u2014while low-activation examples are typographically homogeneous.\n\n**Closing interpretation**: This neuron likely detects orthographic complexity and multilingual token mixtures, serving as a signal for code-switching points or text regions where multiple writing systems intersect. It functions less as a semantic detector and more as a token-format and script-variety identifier within the model\u2019s input.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "US-led economic diplomacy that webbed global economies together with free trade and low tariff pacts.",
+      "normalized_activation": 5.926766395568848,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "obst\u00e1culo a la circulaci\u00f3n y asegura incluso hacer lo posible por acelerar el \u201cprocedimiento\u201d. \u201cLa Polic\u00eda nos impide llegar",
+      "normalized_activation": 4.6934051513671875,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the footsteps of the award-winning MLAs. Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed",
+      "normalized_activation": 3.4902923107147217,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_12445",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:49:22Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities (people, organizations, locations) paired with contextual details about actions, events, or roles** (such as \"Qasem Soleimani... under the leadership of,\" \"Greta Thunberg... demanded,\" or \"Mount St. Helens in 1980, scientists have studied\").\n\n2. **Domain coverage**: The pattern appears across news, historical, and biographical text in multiple languages (English, Spanish, Polish), covering domains like geopolitics (Iranian Revolutionary Guards, Hezbollah), environmental activism, natural disasters (volcanoes, earthquakes), legal/judicial proceedings (judges, extradition), and cultural figures (artists, athletes). It activates on concrete, fact-reporting sentences that anchor a named entity within a specific event, statement, or outcome.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic statements without specific named entities (\"polarization saw itself\"), vague references (\"MPs called...\"), informal commentary (\"watch your lady around\"), or truncated/incomplete segments (social media snippets, headlines without elaboration). They lack the combination of a precise proper noun and an associated descriptive clause or phrase detailing a real-world occurrence.\n\n4. **Closing interpretation**: The neuron detects densely packed factual information where a clearly identified agent, location, or institution is linked to a consequential action or circumstance. It functions as a \"specific entity-in-context\" detector, highlighting text that grounds narrative in concrete, reportable details.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00017",
+      "row_idx": 811,
+      "normalized": 9.762248039245605,
+      "actual_text": "Musicians including Pink, Queen and Def Leppard have paid tribute to Foo Fighters drummer Taylor Hawkins at a memorial concert in Los",
+      "plain_text": "Musicians including Pink, Queen and Def Leppard have paid tribute to Foo Fighters drummer Taylor Hawkins at a memorial concert in Los Angeles. They joined the star's former bandmates in Foo Fighters and Chevy Metal to play the songs he loved, as fans celebrated his memory. Foos frontman Dave Grohl said the show honoured the fact that \"this many people connected through one person\". Other star guests included Miley Cyrus, Rush, Cars and M√∂tley Cr√ºe. Alanis Morisette - for whom Hawkins played drums before he joined Foo Fighters - gave a fierce performance of You Oughta Know; while comedian Dave Chapelle unexpectedly covered Radiohead's Creep. Pink made several appearances during the concert, joining Heart's Nancy Wilson to duet on Barracuda, before tackling Queen's Somebody To Love - a song that Hawkins often covered in concert himself - and teaming up with Foo Fighters to sing The Pretender at the show's finale. British rock band Def Leppard recalled that they had first encountered Hawkins when he was a \"20-year-old kid\" working in a guitar shop in LA. \"About five years later we did Top Of The Pops in England [and] this kid walks into the dressing room. He was playing drums for Alanis Morisette,\" recalled singer Joe Elliot. \"That was Taylor Hawkins, so in memory of. Let's do some proper songs for Taylor.\" The band played Rock Of Ages before being joined briefly by pop star Miley Cyrus for an expansive version of Photograph. \"It's like a revolving door of rock heroes tonight,\" said Grohl halfway through the concert, which also saw performances from Skid Row's Sebastian Bach, Black Sabbath's Geezer Butler and Metallica's Lars Ulrich. One of the most moving moments came when the surviving members of Nirvana, Grohl and Krist Novoselic, teamed up with fellow grunge musicians Matt Cameron and Kim Thayil of Soundgarden - who lost their lead singer Chris Cornell five years ago. Together, they played haunting versions of The Day I Tried to Live and Black Hole Sun, with vocals from Taylor Momsen of the Pretty Reckless. Rush, who are also mourning the loss of their drummer Neil Peart, played Working Man with assistance from Red Hot Chili Pepper Chad Smith and YYZ with Danny Carey of Tool. And Wolfgang Van Halen delivered flawless renditions of his father's fretwork on covers of pop-metal classics Panama and Hot For Teacher. The concert came less than a month after a previous tribute show at Wembley Stadium in London, which saw Foo Fighters joined by Sir Paul McCartney, Liam Gallagher and Supergrass. As at that concert, Hawkins' children played a key role, with his teenage son Shane stepping behind the drum kit for a blistering rendition of the Foo Fighters' hits My Hero and I'll Stick Around. Hawkins' other children Everleigh and Annabel, also appeared on stage with their mother, Alison, after Queen's Brian May played Love Of My Life - a song that Alison had requested specially. Earlier, the show had opened with Grohl's daughter Violet giving a low-key, moving performance of Leonard Cohen's Hallelujah. Six hours later, Foo Fighters closed the show with Everlong. \"This one's for Taylor,\" Grohl told the audience at LA's Kia Forum. \"We love you.\" Hawkins drummed with Foo Fighters from 1997 until his death in March of this year, aged 50. No cause of death was announced, although a toxicology report showed traces of 10 substances in his body, including opioids, marijuana and anti-depressants. Investigators did not say whether the mix of drugs was a factor. Proceeds from both the London and Los Angeles tribute concerts will go to the charities Music Support and MusiCares.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Musicians including Pink, Queen and Def Leppard have paid tribute to Foo Fighters drummer Taylor Hawkins at a memorial concert in Los Angeles. They joined the star's former bandmates in Foo Fighters and Chevy Metal to play the songs he loved, as fans celebrated his memory. Foos frontman Dave Grohl said the show honoured the fact that \"this many people connected through one person\".",
+          "concept": "musician tribute",
+          "reasoning": "This section contains specific named musicians and bands paired with actions like paying tribute and performing at a memorial concert."
+        },
+        {
+          "rank": 2,
+          "text": "British rock band Def Leppard recalled that they had first encountered Hawkins when he was a '20-year-old kid' working in a guitar shop in LA. 'About five years later we did Top Of The Pops in England [and] this kid walks into the dressing room. He was playing drums for Alanis Morisette,' recalled singer Joe Elliot. 'That was Taylor Hawkins, so in memory of. Let's do some proper songs for Taylor.'",
+          "concept": "band recollection",
+          "reasoning": "This section features Def Leppard and Joe Elliot recalling specific past events involving Taylor Hawkins and Alanis Morisette."
+        },
+        {
+          "rank": 3,
+          "text": "One of the most moving moments came when the surviving members of Nirvana, Grohl and Krist Novoselic, teamed up with fellow grunge musicians Matt Cameron and Kim Thayil of Soundgarden - who lost their lead singer Chris Cornell five years ago. Together, they played haunting versions of The Day I Tried to Live and Black Hole Sun, with vocals from Taylor Momsen of the Pretty Reckless.",
+          "concept": "band collaboration",
+          "reasoning": "This section names multiple specific musicians and bands and describes their collaborative performance at the concert."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 367,
+      "normalized": 9.297109603881836,
+      "actual_text": "them white. The jurors come from nine Minnesota counties: two each from Hennepin, Ramsey and Olmsted. One each from Anoka, Washington,",
+      "plain_text": "The three former Minneapolis police officers were found guilty on all five counts, as read in the courtroom around 4:10 p.m. Thursday. Tou Thao and J. Alexander Kueng was found guilty on both charges, for failing to render medical aid to George Floyd and failing to intervene in Derek Chauvin’s unreasonable use of force. Thomas Lane was found guilty for failing to render medical aid to George Floyd.  The jury reached the verdict after 13 hours of deliberating – Seven hours on Wednesday, another six on Thursday. The jury started deliberating just before 10 a.m. Wednesday. The case went to the jury after four weeks of testimony from more than 30 witnesses including all three defendants. The trial began on Jan. 24.  The federal trial jury was made up of eight women and four men, all of them white. The jurors come from nine Minnesota counties: two each from Hennepin, Ramsey and Olmsted. One each from Anoka, Washington, Scott, Nicollet, Blue Earth and Jackson.  Tou Thao, J. Alexander Kueng and Thomas Lane were all charged with failing to render medical aid to George Floyd. Thao and Kueng were also charged with failing to intervene in Derek Chauvin’s unreasonable use of force.  Chauvin was convicted of murdering Floyd in a trial in Hennepin County last year. He pled guilty to two federal civil rights charges in December. Both involved using unreasonable force, one for Floyd and the other for a similar, though not fatal, knee restraint on a teenager in 2017.  Prosecutors asked for a 25-year sentence, but that decision remains in limbo.  A key point that jurors had to weigh in the charges against the Thao, Kueng and Lane was if the ex-officers acted \"willfully.\" The law under which they were prosecuted required the jury to decide if they intentionally chose to do nothing about a use of force they knew was unreasonable, and that they deliberately did nothing to help Floyd when there was a clear medical need.  Defense attorneys for the three former officers argued they did not clearly see or recognize that Chauvin’s knee pressure was causing Floyd to suffocate. Thao had the clearest view of Chauvin’s knee hold, but his defense argued he was more focused on controlling the bystanders on the sidewalk.  Prosecutors argued that if the untrained onlookers could recognize that Floyd needed help, crying out that Floyd was not breathing and pleading to check his pulse, then certainly the trained officers had to know the same.  Kueng was positioned right next to Chauvin, but he testified that while he could see Chauvin’s knee at the base of Floyd’s neck, but could not see it was putting direct pressure on his neck. Attorneys for both Kueng and Lane argued that they trusted that Chauvin, with 19 years experience and a training officer, was making the right decisions, particularly when he said they would keep Floyd \"right where he is,\" rather than turning him on his side. Lane was on his fourth shift, Kueng his third.  Lane is only charged with failing to provide aid, but his defense argued that he did try. Lane called the ambulance after Floyd cut his face during the struggle. Lane also twice asked about rolling Floyd on his side. Chauvin told him no the first time. He did not respond to the second.  Lane also confirmed Floyd was breathing at one point. His defense argued that he had no reason to believe that had changed. Lane later checked for a pulse on Floyd’s ankle, but when he couldn’t find one he said he wasn’t sure it was accurate. At that point, he could see the ambulance down the street, so waited for their arrival.  Jurors deliberated for 13 hours to reach a verdict, after four weeks of testimony and closing arguments. (FILE) (Cedric Hohnstadt Illustration, L.L.C.)  Floyd legal team releases statement following verdict  Attorney Ben Crump and co-counsel Antonio Romanucci and Jeff Storms released a statement following the guilty verdict.  \"Today closes another important chapter in our journey for justice for George Floyd and his family. These officers tried to devise any excuse that could let them wash the blood from their hands, but following these verdicts George’s blood will forever stain them. Today’s guilty verdicts should serve as the guiding example of why police departments across America should expand and prioritize instruction on an officer’s duty to intervene and recognize when a fellow officer is using excessive force,\" the collective statement read.  Death of George Floyd  Floyd, 46, died on May 25, 2020 after Chauvin pinned him to the ground outside Cup Foods at the intersection of 38th and Chicago in Minneapolis and pressed his knee on his neck even as Floyd, who was handcuffed, repeatedly cried out that he could not breathe. Two other Minneapolis police officers, J. Alexander Kueng and Thomas Lane, helped restrain Floyd, while a third officer, Tou Thao, held back bystanders and kept them from intervening in the over nine-minute-long restraint.  Kueng, Lane and Thao are all charged with aiding and abetting second-degree murder and aiding and abetting second-degree manslaughter for their roles in Floyd’s death. Their state trial will take place in June 2022 after it was delayed to allow a federal case against all four officers, including Chauvin, to go forward. Last spring, a federal grand jury indicted Chauvin, Thao, Kueng and Lane on charges they violated Floyd’s civil rights during his deadly arrest in May 2020.  Advertisement Floyd’s death sparked conversations about race and policing nationwide. As a result, the Justice Department has launched a sweeping civil investigation into the patterns and practices of the Minneapolis Police Department.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The three former Minneapolis police officers were found guilty on all five counts, as read in the courtroom around 4:10 p.m. Thursday. Tou Thao and J. Alexander Kueng was found guilty on both charges, for failing to render medical aid to George Floyd and failing to intervene in Derek Chauvin’s unreasonable use of force. Thomas Lane was found guilty for failing to render medical aid to George Floyd.",
+          "concept": "legal verdict",
+          "reasoning": "This section names specific officers and charges, detailing the guilty verdicts in the George Floyd case."
+        },
+        {
+          "rank": 2,
+          "text": "Chauvin was convicted of murdering Floyd in a trial in Hennepin County last year. He pled guilty to two federal civil rights charges in December. Both involved using unreasonable force, one for Floyd and the other for a similar, though not fatal, knee restraint on a teenager in 2017.",
+          "concept": "prior conviction",
+          "reasoning": "This section provides specific details about Derek Chauvin's previous convictions and the actions involved."
+        },
+        {
+          "rank": 3,
+          "text": "Floyd, 46, died on May 25, 2020 after Chauvin pinned him to the ground outside Cup Foods at the intersection of 38th and Chicago in Minneapolis and pressed his knee on his neck even as Floyd, who was handcuffed, repeatedly cried out that he could not breathe. Two other Minneapolis police officers, J. Alexander Kueng and Thomas Lane, helped restrain Floyd, while a third officer, Tou Thao, held back bystanders and kept them from intervening in the over nine-minute-long restraint.",
+          "concept": "death description",
+          "reasoning": "This section describes the specific actions of named officers during George Floyd's death, including location and details."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00004",
+      "row_idx": 4840,
+      "normalized": 8.696221351623535,
+      "actual_text": "ick Stewart says the recommendation was being made given that the activity at the La Soufriere has decreased significantly. The Government has also taken the decision that residents of",
+      "plain_text": "Residents who evacuated from the Yellow and Orange Zones can now return to their communities, as the Volcano Alert Level has been lowered to Orange.  This is according to a release issued by the National Emergency Management Organization.  Government yesterday took the decision to lower the alert level, based on recommendations from Scientists from the Seismic Research Centre of the University of the West Indies.  Lead Scientist, Roderick Stewart says the recommendation was being made given that the activity at the La Soufriere has decreased significantly.  The Government has also taken the decision that residents of communities in the orange zone from Petit Bordel to Gordon Yard on the Leeward side of the island and up to Mt. Young near the RUBIS Gas Station on the Windward side of the island, can return home and carry out normal activities.  The communities of Chateaubelair, Fitz- Hughes and all communities in the Red Volcano Hazard Zone remain restricted.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Government yesterday took the decision to lower the alert level, based on recommendations from Scientists from the Seismic Research Centre of the University of the West Indies.  Lead Scientist, Roderick Stewart says the recommendation was being made given that the activity at the La Soufriere has decreased significantly.",
+          "concept": "scientific recommendation",
+          "reasoning": "This section names the Seismic Research Centre, University of the West Indies, and Lead Scientist Roderick Stewart, detailing their recommendation based on volcanic activity."
+        },
+        {
+          "rank": 2,
+          "text": "Residents who evacuated from the Yellow and Orange Zones can now return to their communities, as the Volcano Alert Level has been lowered to Orange.  This is according to a release issued by the National Emergency Management Organization.",
+          "concept": "evacuation update",
+          "reasoning": "This section specifies the Yellow and Orange Zones and the National Emergency Management Organization, reporting on the decision to allow residents to return."
+        },
+        {
+          "rank": 3,
+          "text": "The Government has also taken the decision that residents of communities in the orange zone from Petit Bordel to Gordon Yard on the Leeward side of the island and up to Mt. Young near the RUBIS Gas Station on the Windward side of the island, can return home and carry out normal activities.  The communities of Chateaubelair, Fitz- Hughes and all communities in the Red Volcano Hazard Zone remain restricted.",
+          "concept": "geographic details",
+          "reasoning": "This section lists specific community names and geographic boundaries, detailing where residents can return and which areas remain restricted."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00006",
+      "row_idx": 3909,
+      "normalized": 0.0,
+      "actual_text": "Update 1.05 has arrived for AFL Evolution 2, and here’s",
+      "plain_text": "Update 1.05 has arrived for AFL Evolution 2, and here’s the full list of changes and fixes added with this patch.  This new update for AFL Evolution 2 comes out on May 6th, 2021 and should be available now for all platforms. The biggest addition to this update is to give support for the big Season Pack 2021 DLC. Developer Wicked Witch Software has also done a ton of improvements to the core gameplay. This includes the game itself as well as the online experience too. You will also be greeted with a few new loading screens as well.  You can look at the full patch notes posted down below.  AFL Evolution 2 Update 1.05 Patch Notes  Added support for Season Pack 2021 Fixed an issue where players could catch the ball from too far away. Fixed an issue with the dynamic and play direction cameras causing them to go under the ground The man on the mark should now be quicker to get into position. Fixed an issue with 50m penalties causing players to drop through the ground. Fixed an issue causing fireworks and trophies to not appear. Fixed an issue causing head and hand scaling to not work in a match. Rookie + Listed players can now be offered contracts to all state leagues. Fixed an issue causing randomly generated players to be too young. Fixed an issue causing randomly generated players to have incorrect contract lengths. Fixed an issue where custom teams used in Coach would start with 0% popularity. Fixed an issue causing some players to be unavailable for trades. Randomly created players should now have ratings more suitable for their league and have a larger variance. The 2021 rules are now the default for online play. Player positions under lag should now be more accurate. Fixed an issue causing set shots for the client to be inaccurate. Fixed an issue where the ruckman would be facing the wrong way at the start of the match. Fixed an issue where the ruckman would be partially in the ground at the start of the match. Improvements to mark input under lag to prevent actions being lost. Fixed an issue with the ball shadow in set shots. Fixed an issue where players would run over the ball without picking it up. AI players should now behave smarter when they have just been controlled by a human. Fixed an issue where animations for catches and picking up the ball would stutter. Fixed an issue with the ball trajectory of bananas and snaps. Fixed an issue where players would become stuck. Improvements to handballs. Improvements to the responsiveness of player actions under lag. Improvements to the fairness of online play for players under lag. Improvements to the visual quality of the animations in replays. Replays are now enabled for medium and high performance modes. Added new loading screens. Fixed an issue affecting performance when kicking the ball. Fixed an issue with sorting the list of players to edit selecting the wrong one. Various other bug fixes and improvements. If you want to know more about the game, you can visit the official Steam page. AFL Evolution 2 is available now for PC, PS4, Xbox One and Nintendo Switch.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Update 1.05 has arrived for AFL Evolution 2, and here’s the full list of changes and fixes added with this patch.  This new update for AFL Evolution 2 comes out on May 6th, 2021 and should be available now for all platforms. The biggest addition to this update is to give support for the big Season Pack 2021 DLC. Developer Wicked Witch Software has also done a ton of improvements to the core gameplay.",
+          "concept": "game update announcement",
+          "reasoning": "This section names the game AFL Evolution 2, the developer Wicked Witch Software, and the Season Pack 2021 DLC, describing the update's release and improvements."
+        },
+        {
+          "rank": 2,
+          "text": "Added support for Season Pack 2021 Fixed an issue where players could catch the ball from too far away. Fixed an issue with the dynamic and play direction cameras causing them to go under the ground The man on the mark should now be quicker to get into position. Fixed an issue with 50m penalties causing players to drop through the ground.",
+          "concept": "patch notes fixes",
+          "reasoning": "This section lists specific fixes and improvements in the patch, including support for Season Pack 2021 and gameplay issues."
+        },
+        {
+          "rank": 3,
+          "text": "If you want to know more about the game, you can visit the official Steam page. AFL Evolution 2 is available now for PC, PS4, Xbox One and Nintendo Switch.",
+          "concept": "platform availability",
+          "reasoning": "This section mentions specific platforms (PC, PS4, Xbox One, Nintendo Switch) and the Steam page, indicating where the game can be accessed."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00007",
+      "row_idx": 5684,
+      "normalized": 0.0,
+      "actual_text": "PUBG Mobile India has been officially renamed Battlegrounds Mobile India. The exclusive",
+      "plain_text": "PUBG Mobile India has been officially renamed Battlegrounds Mobile India. The exclusive Indian version of the battle royale title has been in the limelight since the past week, with several news stories regarding its return taking place. The ban on PUBG Mobile was inflicted in September, and since then, fans have been waiting for its comeback. Today, the new website of the game was launched, and a video was released on the official YouTube channel. This article sheds light on all the information regarding the poster, website, privacy policy, and more about Battlegrounds Mobile India. Everything to know about Battlegrounds Mobile India release (2021) Official poster and website As stated above, a new website for Battlegrounds Mobile India has been set up by the developers. Users can click here to get redirected to the new website. They can find the privacy policy and other details, including a new poster with a “Coming Soon” message. Here’s the image of the official poster for Battlegrounds Mobile India:  Privacy Policy and social media handles As stated above, the website of the game features the Privacy Policy, which is set to be effective from May 6, 2021, i.e., today. It mentions the various aspects such as data of the users, information which is collected, how it is utilized, and more. The information collected is broadly categorized into the following by Krafton: Information collected directly from you Information collected automatically Information collected from third parties Apart from this, there are several other things mentioned in the Privacy Policy, which the players can check out by clicking here. Meanwhile, they can click here to read the complete Terms of Service for Battlegrounds Mobile India.  The name of PUBG Mobile India’s YouTube channel was recently changed to Battlegrounds Mobile India, and all the videos have been deleted. Posts on the Facebook and Instagram accounts were also removed.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "PUBG Mobile India has been officially renamed Battlegrounds Mobile India. The exclusive Indian version of the battle royale title has been in the limelight since the past week, with several news stories regarding its return taking place. The ban on PUBG Mobile was inflicted in September, and since then, fans have been waiting for its comeback.",
+          "concept": "game renaming",
+          "reasoning": "This section announces the renaming of PUBG Mobile India to Battlegrounds Mobile India, referencing the ban and fan anticipation."
+        },
+        {
+          "rank": 2,
+          "text": "Today, the new website of the game was launched, and a video was released on the official YouTube channel. This article sheds light on all the information regarding the poster, website, privacy policy, and more about Battlegrounds Mobile India.",
+          "concept": "website launch",
+          "reasoning": "This section describes the launch of the new website and video release on YouTube, providing specific details about the game's rollout."
+        },
+        {
+          "rank": 3,
+          "text": "As stated above, the website of the game features the Privacy Policy, which is set to be effective from May 6, 2021, i.e., today. It mentions the various aspects such as data of the users, information which is collected, how it is utilized, and more. The information collected is broadly categorized into the following by Krafton: Information collected directly from you Information collected automatically Information collected from third parties",
+          "concept": "privacy policy details",
+          "reasoning": "This section specifies the effective date of the Privacy Policy and the data categories outlined by Krafton, the game's developer."
+        }
+      ]
+    }
+  ]
+}

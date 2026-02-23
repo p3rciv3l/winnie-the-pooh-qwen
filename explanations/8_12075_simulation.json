@@ -1,0 +1,148 @@
+{
+  "neuron_id": "8_12075",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:23:32Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and specific named entities** (such as person names, organization titles, media outlets, geographic locations, or specialized institutions) that are often embedded in multilingual news or factual reporting contexts.\n\n2. **Domain coverage**: The neuron activates across multiple languages (Spanish, Turkish, Italian, Portuguese, French, Slovak, English, etc.) and diverse topics—including politics, academia, entertainment, sports, crime, and natural events—when the text contains concrete named references like “Daily Sabah,” “Universidad de Messina,” “Harry S. Truman,” “Huitzilopochtli,” or “LabSis/UFRN.” It also processes mentions of specific publications, events, or works (e.g., “No Friend But the Mountains,” “Mighty Hoopla performance”).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature detailed proper nouns and specific institutional/media references, whereas low-activation examples are either generic statements (“This week’s Looking Back pictures…”), truncated phrases, or headlines that lack such concrete named entities—even when topics overlap (e.g., low-activation “President of Kazakhstan inks amendments…” names a country but lacks the granularity of individual names or outlets seen in high-activation examples).\n\n4. **Closing interpretation**: The neuron appears to detect linguistically marked, information-dense references to real-world entities, acting as a cross-lingual identifier of specific names and titles that anchor factual or reported discourse.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 5074,
+      "normalized": 9.585029602050781,
+      "actual_text": "jik bir ekosistemden söz ediyorum. Yanı sıra yine bu bölge içinde yenilik",
+      "plain_text": "Pandemide tarım ve gıdanın vazgeçilmez önemde olduğu çok net olarak ortaya çıktı. Ege Bölgesi'nin tarım, gıda ve ormancılıkta dünya çapında bir potansiyele sahip olduğu belirtiliyor. Ege ekosisteminin Türkiye'nin en güçlüsü olduğunu belirten tarım uzmanları Ege'de de entegre bir projenin başlatılması önerisinde bulundu. Yeni Asır Yazarı İsmail Uğural, halen Türkiye'de çalışmaları devam eden büyük bölgesel kalkınma projeleri olduğunu belirterek, \"Başta Güneydoğu Anadolu Projesi (GAP) olmak üzere Konya Ovası Projesi (KOP), Doğu Karadeniz Projesi (DOKAP) ve Doğu Anadolu Projesi (DAP) gibi önemli örnekleri sayabiliriz. Ege bölgesinde bu düzeyde büyük bölgesel projeler yok. Ancak Ege bölgesinin dünya çapında bir potansiyeli bulunuyor. Tarım, gıda ve ormancılık... Bu çerçevede somut bir örnek vermek isterim. İzmir, Manisa, Uşak, Aydın, Denizli ve Muğla illerinin tamamen aynı olmasa bile, büyük ölçüde benzerlik gösteren ortak yönleri mevcut. İklim, doğa, ekoloji ve toprak yapısı bakımından fazlasıyla uyumlu bir coğrafi bölge burası\" dedi. EGE EKOSİSTEMİ GEREKLİ \r\n\"Aslında buna, Ege ekosistemi de diyebiliriz. Söz konusu ekosistem, aynı zamanda tarım, gıda ve ormancılık açısından Türkiye'nin en güçlü bölgesi\" diyen Uğural şunları söyledi: \"Özellikle süt ve süt ürünleri, yaş ve kuru meyve sebze, tıbbi ve aromatik bitkiler, organik tarım, su ürünleri, orman ürünleri, tarımsal mekanizasyon ve yenilenebilir enerji tarımına dayalı gerçekten çok stratejik bir ekosistemden söz ediyorum. Yanı sıra yine bu bölge içinde yenilikçi yani inovatif bir vizyonla dünyaya açılma yolunda ciddi mesafeler almış deneyimli bir tarımsal sanayi ve gıda sektörü faaliyet gösteriyor. Şimdi sadede gelirsek; acaba temel özelliklerini çok kısaca saydığım bu illeri kapsayacak yeni bir bölgesel kalkınma projesi hazırlanamaz mı? Söz gelimi, Ege Entegre Tarım, Gıda ve Ormancılık Projesi (EGETAP) adıyla bu bölgeyi kucaklayacak yeni bir vizyon ortaya konulamaz mı?\" İHRACAT ODAKLI MODEL \r\nUğural EGETAP'ın önemine dikkat çekerek görüşlerini şöyle dile getirdi: \"Araştırma ve geliştirme (Ar-ge) odaklı bir sanayi ve teknoloji stratejisi ile Ege illerinin tarım, gıda ve ormancılık potansiyelini bütüncül (holistik) bir yaklaşımla ele alarak yeni bir bölgesel kalkınma projesi uygulamak, yalnızca adı geçen sektörlerde değil ulusal ekonomide de ciddi bir Sıçrama Etkisi (Leap Effect) yaratacaktır. Yol haritası, mutlaka ihracat olacak şekilde tasarlanacak yeni bölgesel kalkınma modeli EGETAP, ayrıca bölgesel sanayide sıçrama ile birlikte Organize ve Entegre Üretim İlişkileri sayesinde kırsal kalkınma çalışmalarına büyük destek verecek ve çiftçi refahına somut katkılar sağlayacaktır.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Yeni Asır Yazarı İsmail Uğural, halen Türkiye'de çalışmaları devam eden büyük bölgesel kalkınma projeleri olduğunu belirterek, \"Başta Güneydoğu Anadolu Projesi (GAP) olmak üzere Konya Ovası Projesi (KOP), Doğu Karadeniz Projesi (DOKAP) ve Doğu Anadolu Projesi (DAP) gibi önemli örnekleri sayabiliriz. Ege bölgesinde bu düzeyde büyük bölgesel projeler yok.\"",
+          "concept": "Regional development projects",
+          "reasoning": "This section contains multiple specific named regional development projects (GAP, KOP, DOKAP, DAP) which are proper nouns and match the neuron's description."
+        },
+        {
+          "rank": 2,
+          "text": "Şimdi sadede gelirsek; acaba temel özelliklerini çok kısaca saydığım bu illeri kapsayacak yeni bir bölgesel kalkınma projesi hazırlanamaz mı? Söz gelimi, Ege Entegre Tarım, Gıda ve Ormancılık Projesi (EGETAP) adıyla bu bölgeyi kucaklayacak yeni bir vizyon ortaya konulamaz mı?",
+          "concept": "Project proposal",
+          "reasoning": "This section introduces a specific named project (EGETAP) which is a proper noun and matches the neuron's focus on named entities."
+        },
+        {
+          "rank": 3,
+          "text": "Bu çerçevede somut bir örnek vermek isterim. İzmir, Manisa, Uşak, Aydın, Denizli ve Muğla illerinin tamamen aynı olmasa bile, büyük ölçüde benzerlik gösteren ortak yönleri mevcut.",
+          "concept": "City names",
+          "reasoning": "This section lists multiple city names (İzmir, Manisa, Uşak, Aydın, Denizli, Muğla) which are proper nouns and geographic locations."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00008",
+      "row_idx": 4907,
+      "normalized": 8.809808731079102,
+      "actual_text": "Noël la déléguée générale de la FNTR, Florence Berthelot. «Même si cela ne fait plus la une des médias",
+      "plain_text": "Le gouvernement va recevoir les transporteurs routiers début janvier pour une réunion consacrée aux difficultés rencontrées par les entreprises du secteur, particulièrement éprouvées par le mouvement des «gilets jaunes», a indiqué mercredi le ministère des Transports. «L’idée est de travailler avec eux sur l’identification des difficultés économiques et opérationnelles rencontrées et les mesures qui peuvent être prises en soutien, à l’instar de ce qui est fait avec d’autres secteurs économiques» comme les commerçants, a précisé un porte-parole à l’AFP. «Cette réunion permettra également d’aborder la participation de ce secteur professionnel au +grand débat national+» organisé en janvier et février à la suite du mouvement des «gilets jaunes», a-t-il ajouté. La ministre des Transports Elisabeth Borne et la secrétaire d’Etat à l’Economie Agnès Pannier-Runacher représenteront le gouvernement, alors que la Fédération nationale des Transports routiers (FNTR) estime à quelque 2 milliards d’euros la perte d’exploitation pour l’ensemble du secteur. «Certaines entreprises, dont des entreprises de transport, sont sur le point de déposer le bilan», a alerté vendredi dans ses vœux de Noël la déléguée générale de la FNTR, Florence Berthelot. «Même si cela ne fait plus la une des médias, on aspire à retrouver l’ordre public et une vraie liberté de circuler», a-t-elle ajouté. L’Organisation des transporteurs routiers européens (Otre) avait de son côté interpellé Mme Borne jeudi, demandant notamment le «versement d’un acompte sur le remboursement (de la) TICPE aux entreprises au titre de l’année 2019» et la «négociation d’un accord de transition énergétique dans le transport routier».  \n           CheckNews  Plusieurs médias ont écrit que le «smic» portugais allait passer à 700 euros mensuels. Le gouvernement, lui, évoque un revenu à 600 euros. CheckNews vous explique.  \n           Profil  Pour finir l’année, «Libération» a choisi de suivre des personnes engagées dans un combat local, héros du quotidien. Aujourd’hui, Jacques Montal, retraité de la SNCF, qui mène la mobilisation en faveur de la desserte locale et le passage du train de nuit dans son village.  \n           Justice  Le tribunal de Tokyo a accepté mardi la libération sous caution de l’Américain Greg Kelly, arrêté le 19 novembre en même temps que l’ex-PDG de Nissan Carlos Ghosn, qui reste lui en garde à vue jusqu’au 1er janvier au moins.  \n           Entretien  Ils ont connu le monde politique avant l’élection d’Emmanuel Macron et l’arrivée massive de «marcheurs» à l’Assemblée. Ils le racontent et le comparent au «nouveau monde». Aujourd’hui, l'ancien secrétaire d'Etat au Budget de François Hollande et ex-député PS, Christian Eckert.  \n           Merci de l'avoir posée  Le terme «environnement», jugé anthropocentré, a peu à peu cédé la place à celui d'écologie, plus politique.  \n           Politique  En organisant le Conseil des ministres vendredi à Barcelone, le Premier ministre a suscité l’ire des indépendantistes. Et ce, malgré les gages qu’il leur a donnés dans l’espoir de voir son budget adopté.  \n           CheckNews  Une circulaire signée de la main de la ministre de la Justice et adressée aux procureurs tourne en ligne et indigne. De sources concordantes, il s'agit d'un faux.    \n           Tribune  A l'approche des élections européennes et face aux nouveaux assauts contre les principes démocratiques menés par le gouvernement hongrois, l'UE doit conditionner les fonds communautaires au respect de l'Etat de droit et établir une distance avec le parti du président.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Justice  Le tribunal de Tokyo a accepté mardi la libération sous caution de l’Américain Greg Kelly, arrêté le 19 novembre en même temps que l’ex-PDG de Nissan Carlos Ghosn, qui reste lui en garde à vue jusqu’au 1er janvier au moins.",
+          "concept": "Legal case",
+          "reasoning": "This section contains specific named entities (Tokyo, Greg Kelly, Carlos Ghosn, Nissan) which are proper nouns and match the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "La ministre des Transports Elisabeth Borne et la secrétaire d’Etat à l’Economie Agnès Pannier-Runacher représenteront le gouvernement, alors que la Fédération nationale des Transports routiers (FNTR) estime à quelque 2 milliards d’euros la perte d’exploitation pour l’ensemble du secteur.",
+          "concept": "Government officials",
+          "reasoning": "This section names specific government ministers and an organization (Elisabeth Borne, Agnès Pannier-Runacher, FNTR) which are proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "Entretien  Ils ont connu le monde politique avant l’élection d’Emmanuel Macron et l’arrivée massive de «marcheurs» à l’Assemblée. Ils le racontent et le comparent au «nouveau monde». Aujourd’hui, l'ancien secrétaire d'Etat au Budget de François Hollande et ex-député PS, Christian Eckert.",
+          "concept": "Political figures",
+          "reasoning": "This section mentions specific political figures (Emmanuel Macron, François Hollande, Christian Eckert) which are proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 2541,
+      "normalized": 7.959204196929932,
+      "actual_text": "ribbon-cutting featured performances by the Venice High School Step Team, Venice High School Mighty Marching Band & Cheer Team, and the Venice High School Choir as well as",
+      "plain_text": "Venice High School students danced, sang and backflipped for joy as they celebrated the completion of a four-year $162 million modernization project of their 110-year-old campus.  The project has transformed the historic school and includes 28 new classrooms, new athletic playing fields and physical education facilities, seismic upgrades to the existing auditorium, revitalized outdoor gathering spaces, a fresh lick of interior and exterior paint, and infrastructure replacements.  Students will now have access to a new shop building with an auto shop, print shop and art spaces; a new facility with gyms, locker rooms and a weight room; and new baseball and softball fields, tennis courts, and outdoor basketball and volleyball courts. The renovations include improvements to horticulture and robotics labs and to a stadium complex with seating for 3,000.  The Feb. 22 ribbon-cutting featured performances by the Venice High School Step Team, Venice High School Mighty Marching Band & Cheer Team, and the Venice High School Choir as well as speeches from LAUSD Boardmember Nick Melvoin, Los Angeles City Councilmember Traci Park, Principal Cynthia Headrick, Senior Class President Hitesh Sharma and LAUSD Deputy Chief Facilities Executive Krisztina Tokes.  “The iconic Venice High campus has served this community for over 100 years, and I’m excited to celebrate a new chapter for our local students and families,” said Melvoin in a written statement. “With state-of-the-art classrooms, athletic facilities, and outdoor spaces, this project was able to preserve the spirit of the historic campus while providing a modern learning environment worthy of this thriving school community.”  The campus is a historic institution and has served as the filming location for many movies and music videos including the 1978 hit movie “Grease” and Brittney Spears’ iconic music video “… Baby One More Time.”  The school opened with just 52 students in 1911. The principal, Cree T. Work, was selected by Abbott Kinney himself. In 1913 a new 29-acre site was purchased at 13000 Venice Boulevard, which is the site of today’s campus.  Almost all of the original buildings were destroyed in the devastating 1933 Long Beach Earthquake and students ended up studying in a series of temporary classrooms they dubbed “tent city.” The sole surviving structures were the girls and boys gymnasiums and the now-famous Myrna Loy statue.  Myrna Loy was just a local teenager when she posed for a sculpture called “Fountain of Education” created by high school art teacher Harry Fielding Winebrenner in 1921. In the 1930s and 1940s Loy was a famous Hollywood actress. The original statue stood in front of the school for more than 70 years. It was removed in 2002 due to weather damage and vandalism, but in 2010 a bronze replica was installed in the same location.  The Loy statue still stands in front of the school, ushering almost 2,000 students in and out of its doors on a daily basis. She now presides over a modernized and upgraded campus that the entire gondolier community looks forward to utilizing.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Feb. 22 ribbon-cutting featured performances by the Venice High School Step Team, Venice High School Mighty Marching Band & Cheer Team, and the Venice High School Choir as well as speeches from LAUSD Boardmember Nick Melvoin, Los Angeles City Councilmember Traci Park, Principal Cynthia Headrick, Senior Class President Hitesh Sharma and LAUSD Deputy Chief Facilities Executive Krisztina Tokes.",
+          "concept": "Event participants",
+          "reasoning": "This section lists multiple specific named individuals and groups with their titles, which are proper nouns and match the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "The school opened with just 52 students in 1911. The principal, Cree T. Work, was selected by Abbott Kinney himself. In 1913 a new 29-acre site was purchased at 13000 Venice Boulevard, which is the site of today’s campus.",
+          "concept": "Historical figures",
+          "reasoning": "This section contains specific named persons (Cree T. Work, Abbott Kinney) and an address, which are proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "The campus is a historic institution and has served as the filming location for many movies and music videos including the 1978 hit movie “Grease” and Brittney Spears’ iconic music video “… Baby One More Time.”",
+          "concept": "Media references",
+          "reasoning": "This section mentions specific named media works (“Grease”, “… Baby One More Time”) and artist (Brittney Spears), which are proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00016",
+      "row_idx": 3790,
+      "normalized": 0.0,
+      "actual_text": "Ireland’s healthcare system is coming under pressure, with systems still offline after a massive",
+      "plain_text": "Ireland’s healthcare system is coming under pressure, with systems still offline after a massive ransomware attack.  Ransomware group Conti is demanding $20-million to restore systems, but authorities have vowed not to pay the ransom.  The cyber-attack took place on Friday last week, affecting more than 2 000 patient-facing IT systems and about 80 000 connected devices.  The government has deployed hundreds of people to get the systems back up and running, with priority given to those used for patient diagnostics, including radiology, radiotherapy, maternity and newborn services.  However, experts say it could be weeks before the systems are back online and the public health service back to normal.  The Russian-speaking group Conti has threatened to start publishing and selling private information “very soon” if it didn’t receive the ransom.  The Health Service Executive said in a statement the attack raises serious concerns about the implications for patient care arising from the very limited access to diagnostics, lab services and historical patient records.  The attack on the Irish health system comes just a week after US company Colonial Pipeline is believed to have paid ransomware group DarkSide $5-million to restore its systems after fuel deliveries across the US were disrupted.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ireland’s healthcare system is coming under pressure, with systems still offline after a massive ransomware attack. Ransomware group Conti is demanding $20-million to restore systems, but authorities have vowed not to pay the ransom. The cyber-attack took place on Friday last week, affecting more than 2 000 patient-facing IT systems and about 80 000 connected devices.",
+          "concept": "Ransomware attack",
+          "reasoning": "This section names the country (Ireland) and the ransomware group (Conti), which are specific named entities."
+        },
+        {
+          "rank": 2,
+          "text": "The government has deployed hundreds of people to get the systems back up and running, with priority given to those used for patient diagnostics, including radiology, radiotherapy, maternity and newborn services. However, experts say it could be weeks before the systems are back online and the public health service back to normal. The Russian-speaking group Conti has threatened to start publishing and selling private information “very soon” if it didn’t receive the ransom.",
+          "concept": "Conti threat",
+          "reasoning": "This section repeats the named group Conti and describes their threat, which is a specific entity."
+        },
+        {
+          "rank": 3,
+          "text": "The Health Service Executive said in a statement the attack raises serious concerns about the implications for patient care arising from the very limited access to diagnostics, lab services and historical patient records. The attack on the Irish health system comes just a week after US company Colonial Pipeline is believed to have paid ransomware group DarkSide $5-million to restore its systems after fuel deliveries across the US were disrupted.",
+          "concept": "Organizational response",
+          "reasoning": "This section names specific organizations (Health Service Executive, Colonial Pipeline, DarkSide) which are proper nouns."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00010",
+      "row_idx": 3532,
+      "normalized": 0.0,
+      "actual_text": "Republic Day is special for every Indian and while most of us try and attend the flag",
+      "plain_text": "Republic Day is special for every Indian and while most of us try and attend the flag hoisting ceremony, children at home expect good food, for it's their holiday. This year, ditch the monotony and prepare something special to make this holiday filled with a happy feast for your kids. Mexican Corn and Olive Quesadilla by Cornitos is not going to disappoint you. It's very much like Indian parathas wrapped in tortilla. Check it out! Corn and Olive Quesadillas  Ingredients 6pcs 270gm- Cornitos Tortilla wrap  2tbsp- Olive oil 4 Oz Cheese ( as per availability) 3 Red onion thin sliced 1 cup Corn kernels 1 cup Olive 330gm- Cornitos Salsa Mild Method Brush one side of Cornitos Tortilla wrap with the oil. Turn the tortilla wrap over and top with the cheese onion, corn, olives Sandwich with the remaining tortilla, oiled side-up In a frying pan heat the quesadilla’s until the cheese melts, cover it with lid for 6-7min on low heat With the help of pizza cutter or knife cut into triangular pieces, Serve it with Cornitos Salsa.  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Republic Day is special for every Indian and while most of us try and attend the flag hoisting ceremony, children at home expect good food, for it's their holiday. This year, ditch the monotony and prepare something special to make this holiday filled with a happy feast for your kids. Mexican Corn and Olive Quesadilla by Cornitos is not going to disappoint you.",
+          "concept": "Holiday and dish",
+          "reasoning": "This section mentions a specific holiday (Republic Day) and a named dish (Mexican Corn and Olive Quesadilla by Cornitos), which are proper nouns."
+        },
+        {
+          "rank": 2,
+          "text": "Corn and Olive Quesadillas  Ingredients 6pcs 270gm- Cornitos Tortilla wrap  2tbsp- Olive oil 4 Oz Cheese ( as per availability) 3 Red onion thin sliced 1 cup Corn kernels 1 cup Olive 330gm- Cornitos Salsa Mild",
+          "concept": "Branded ingredients",
+          "reasoning": "This section lists specific branded products (Cornitos Tortilla wrap, Cornitos Salsa Mild) which are proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "Method Brush one side of Cornitos Tortilla wrap with the oil. Turn the tortilla wrap over and top with the cheese onion, corn, olives Sandwich with the remaining tortilla, oiled side-up In a frying pan heat the quesadilla’s until the cheese melts, cover it with lid for 6-7min on low heat With the help of pizza cutter or knife cut into triangular pieces, Serve it with Cornitos Salsa.",
+          "concept": "Recipe instructions",
+          "reasoning": "This section includes the brand name Cornitos multiple times, which are proper nouns."
+        }
+      ]
+    }
+  ]
+}

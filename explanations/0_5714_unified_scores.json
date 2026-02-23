@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_5714",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that reference recent or current events using time-specific phrases** (such as \"last week\u2019s court order,\" \"today\u2019s news,\" \"this week\u2019s meeting,\" or \"yesterday's victory\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, legal documents, and social commentary in multiple languages (English, Italian, Greek snippets activate if they contain time-anchored references). Topics include politics (Trump, Kim Jong Un), legal proceedings, corporate announcements, sports results, and cultural critiques, provided they explicitly anchor the event to a recent timeframe (e.g., \"this week\u2019s,\" \"today\u2019s,\" \"last year\u2019s\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain adverbial time phrases that pin the narrative to a specific, recent temporal context (e.g., \"last week\u2019s,\" \"today\u2019s,\" \"this week\u2019s\"). Low-activation examples either lack such explicit recent-time anchors (e.g., generic statements, future announcements, historical dates like \"1976,\" or incomplete fragments) or use non-recent temporal references.\n\n4. **Closing interpretation**: The neuron detects grammatical and lexical constructions that frame information as temporally immediate or newly relevant, acting as a recency- and context-anchoring detector in discourse. It signals text that is likely part of an update or report on ongoing developments.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", people can put people into, let\u2019s say, interesting situations. Like today\u2019s OP, whose parents hired an exorcist for his room to get rid of",
+      "normalized_activation": 9.709829330444336,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "? What other countries are saying: Over 30 countries have issued travel warnings of various levels about visiting the city. Australia, for instance, is warning travelers to",
+      "normalized_activation": 9.007288932800293,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "killed a running Black man who was unarmed and committed no crimes, leaving a trail of racist text messages and social media posts in the months and years before the shooting.",
+      "normalized_activation": 7.915903568267822,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

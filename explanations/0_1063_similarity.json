@@ -1,0 +1,234 @@
+{
+  "neuron_id": "0_1063",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **exact mentions of \"the U.S.\" as a named entity** (such as in geopolitical contexts, domestic policy discussions, historical references, or travel descriptions).\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news and analytical texts covering U.S. politics, foreign policy, elections, security, economics, and culture. Examples span topics like international relations (\"U.S. commitment\"), constitutional law (\"U.S. Constitution's supremacy clause\"), domestic events (\"riot at the U.S. Capitol\"), and even travel (\"See the U.S. This Summer\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the exact phrase \"the U.S.\" (or \"U.S.\" preceded by \"the\"), whereas low-activation examples lack this string entirely. The low-activation group includes text in other languages (Spanish, Catalan, Turkish), mentions of other countries (Niger, China, Turkey) without the U.S., or local/technical topics unrelated to American entities.\n\n4. **Closing interpretation**: This neuron detects a specific lexical token\u2014the bigram \"the U.S.\"\u2014acting as a highly precise trigger for references to the United States as a geopolitical or conceptual entity, regardless of the surrounding sentiment or detailed topic.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "firms came off April 1 as part of the trade agreement signed with the U.S. in January. China also pledged to take no longer than 90 days",
+      "normalized_activation": 9.919557571411133,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.672846,
+          "actual_text_slice": [
+            177,
+            313
+          ],
+          "prediction_text_slice": [
+            139,
+            429
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.388534,
+          "actual_text_slice": [
+            177,
+            313
+          ],
+          "prediction_text_slice": [
+            1851,
+            2093
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.441813,
+          "actual_text_slice": [
+            177,
+            313
+          ],
+          "prediction_text_slice": [
+            3906,
+            4079
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "to Trump's tariffs on $250 billion of Chinese goods. The U.S. Agriculture Department currently forecasts U.S. farm exports to China at just $6",
+      "normalized_activation": 9.74010181427002,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.783769,
+          "actual_text_slice": [
+            1623,
+            1765
+          ],
+          "prediction_text_slice": [
+            1521,
+            1812
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.387446,
+          "actual_text_slice": [
+            1623,
+            1765
+          ],
+          "prediction_text_slice": [
+            2554,
+            2763
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.360251,
+          "actual_text_slice": [
+            1623,
+            1765
+          ],
+          "prediction_text_slice": [
+            229,
+            557
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "This year is likely a high-water mark for the U.S. economy, but 2019 won\u2019t be anything close to the",
+      "normalized_activation": 9.467202186584473,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.739134,
+          "actual_text_slice": [
+            0,
+            99
+          ],
+          "prediction_text_slice": [
+            0,
+            334
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.260708,
+          "actual_text_slice": [
+            0,
+            99
+          ],
+          "prediction_text_slice": [
+            5907,
+            6179
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.479478,
+          "actual_text_slice": [
+            0,
+            99
+          ],
+          "prediction_text_slice": [
+            335,
+            720
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Eighty-six journalists and media workers were killed around the world in 202",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.798742,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            0,
+            263
+          ],
+          "slices_overlap": true
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.61776,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            739,
+            987
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.346216,
+          "actual_text_slice": [
+            0,
+            76
+          ],
+          "prediction_text_slice": [
+            2759,
+            3053
+          ],
+          "slices_overlap": false
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "El Tribunal de Familia de la provincia apel\u00f3 a la solidaridad de",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "cosine_similarity": 0.638522,
+          "actual_text_slice": [
+            0,
+            64
+          ],
+          "prediction_text_slice": null,
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 2,
+          "cosine_similarity": 0.278216,
+          "actual_text_slice": [
+            0,
+            64
+          ],
+          "prediction_text_slice": [
+            601,
+            708
+          ],
+          "slices_overlap": false
+        },
+        {
+          "prediction_rank": 3,
+          "cosine_similarity": 0.45915,
+          "actual_text_slice": [
+            0,
+            64
+          ],
+          "prediction_text_slice": [
+            710,
+            1203
+          ],
+          "slices_overlap": false
+        }
+      ]
+    }
+  ]
+}

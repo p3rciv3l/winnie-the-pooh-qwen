@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_9572",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:27:33Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the character sequence **\"stan\" appearing as a substring in words** (such as in proper nouns like *Stanford*, *Stansted*, or *Stan Rosenberg*; in common words like *stance* or *constant*; or as a morpheme in various languages).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Italian, Persian, Finnish, etc.) and diverse topics—including academia, politics, airports, personal names, and geographic regions—whenever the text contains a word with the substring \"stan\". This includes \"stan\" as a standalone word, a syllable in names (\"Steinmann\"), part of a country name (\"Turkistan\"), or a verb inflection (\"stanęła\" in Polish).\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the substring \"stan\". While the high-activation examples are linguistically and topically varied, they all share this specific character sequence, which is absent in the low-activation set. The neuron is not sensitive to general topics, languages, or formats present in both sets, but specifically to this string.\n\n4. **Closing interpretation**: The neuron functions as a **subword-level character n-gram detector** for the sequence \"stan\". It activates based on orthographic form rather than a coherent semantic concept, highlighting how sparse autoencoder neurons can capture surface-level lexical or morphological patterns across languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00004",
+      "row_idx": 2640,
+      "normalized": 9.54168701171875,
+      "actual_text": "ka prasowa Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie, \"umowa jest pokł",
+      "plain_text": "Akademia Górniczo-Hutnicza w Krakowie (AGH) zawarła porozumienie o współpracy z firmą Orbital Space (OS) ze Zjednoczonych Emiratów Arabskich. Umowa dotyczy m.in. rozwijania oraz testowania urządzenia \"Lunaris\", które w 2025 roku poleci na Księżyc. Ma to być pierwsza prywatna arabska wyprawa kosmiczna na Srebrny Glob.  O umowie podpisanej między AGH a OS poinformowała krakowska uczelnia.  Jak wyjaśnia Anna Żmuda-Muszyńska, rzeczniczka prasowa Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie, \"umowa jest pokłosiem sukcesu koła naukowego AGH Lunar Technologies, które zwyciężyło w konkursie pod nazwą 'Experiment on the Moon: Lunar Payload Mission'\". Konkurs był organizowany w maju 2023 roku przez firmę Orbital Space, a studenci z AGH pokonali ponad 400 projektów z całego świata. Zwycięska praca krakowskich studentów nosi nazwę \"Lunaris\" (więcej informacji o tym projekcie znajdziecie poniżej).  \"Nagrodą główną jest możliwość wysłania w 2025 roku zaprojektowanego urządzenia na Księżyc, którego lot zapewniony będzie przez Orbital Space\" - informuje rzeczniczka.  Współpraca między krakowską uczelnią i firmą z Dubaju zakłada także m.in. prowadzenie działań edukacyjnych i inicjatyw mających na celu podniesienie świadomości społecznej na temat eksploracji kosmosu. Strony umowy zakładają także możliwość współorganizowania warsztatów, webinarów, konferencji, konkursów, zawodów studenckich czy kursów z obszaru zastosowanie technologii kosmicznych.  Anna Żmuda-Muszyńska podkreśla, że porozumienie o współpracy między AGH i OS umożliwi studentom rozwijanie projektu i doskonalenie go. Przebieg umowy i współpracę z firmą będzie koordynować Centrum Technologii Kosmicznych (CTK).  Dyrektor CTK prof. Tadeusz Uhl zaznacza, że uczelnia \"z dużym zaangażowaniem\" wspiera wszelkiego tego typu inicjatywy studentów. \"Są one niezwykle ważne nie tyko z punktu widzenia edukacyjnego, ale również istotne dla udziału polskich inżynierów i naukowców w zdobywaniu kosmosu. Zgodnie z naszą misją udzielamy znacznego wsparcia technicznego, ułatwiamy kontakt z firmami, które są zainteresowane sponsorowaniem projektu, jak również pomagamy przygotować wszelkie związane z misją dokumenty\" - wyjaśnia prof. Tadeusz Uhl.  Jak podkreśla dyrektor Orbital Space dr Bassam Alfeeli: \"Jesteśmy podekscytowani współpracą z AGH\".  \"Będziemy wspierać zespół studencki z Polski w realizacji ich marzeń. Obie nasze instytucje zobowiązują się także do zapewnienia mentoringu, wskazówek i wszelkiego możliwego wsparcia studentom w ich wyjątkowej misji, jaką jest wysłanie ładunku na powierzchnię Księżyca. Misją Orbital Space jest uczynienie kosmosu dostępnym dla wszystkich, zwłaszcza dla studentów - przekazał dr Bassam Alfeeli.  Jak informuje rzeczniczka AGH w komunikacie, \"nadrzędnym celem porozumienia jest rozwijanie eksperymentu studentów 'Lunaris', który zostanie przeprowadzony na powierzchni Księżyca\".  Anna Żmuda-Muszyńska wyjaśnia, że członkowie koła naukowego za cel stawiają sobie badanie interakcji materiałów i powłok z regolitem, czyli sypką skałą księżycową.  \"Do badania wykorzystana zostanie optyczna metoda pomiarowa, która pozwoli na zrozumienie interakcji regolitu z różnymi materiałami. Regolit charakteryzuje się dużą pylnością, ostro zakończonymi krawędziami oraz naładowanymi elektrostatycznie cząstkami. Te oraz inne właściwości pyłu księżycowego powodują wiele trudności w doborze odpowiedniego materiału\" - mówi rzeczniczka AGH.  \"Lunaris\" ma być jednym z pierwszych ładunków księżycowych wydrukowanych w technologii druku 3D, co pozwoli na uzyskanie geometrii, która przy wykorzystaniu innych metod byłaby trudna do osiągnięcia.  Jak dodaje, \"urządzenie zostanie wytworzone z materiału przystosowanego do ekstremalnych warunków panujących w kosmosie\". \"Wyniki projektu 'Lunaris' mogą znaleźć zastosowanie w konstrukcji narzędzi, skafandrów astronautów, kabli i złącz używanych na lądownikach księżycowych i łazikach, które będą odporne na kontakt z księżycową powierzchnią\" - wyjaśnia przedstawicielka krakowskiej uczelni.  Skąd nazwa \"Lunaris\"? To połączenie łacińskiego słowa \"luna\", oznaczające Księżyc, i jednocześnie ukłon w stronę inspirującej twórczości Stanisława Lema i jego najsłynniejszej powieści \"Solaris\".  Działająca w Zjednoczonych Emiratach Arabskich firma technologiczna Orbital Space jest zaangażowana w eksploatację przestrzeni kosmicznej i rozwój związanych z tym technologii.  Spółka przygotowuje na 2025 rok pierwszą prywatną misję księżycową zapoczątkowaną przez kraje arabskie. OS stoi na czele komercyjnej eksploracji kosmosu w krajach Zatoki Perskiej, współpracując zarówno z partnerami publicznymi, jak i prywatnymi.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Jak wyjaśnia Anna Żmuda-Muszyńska, rzeczniczka prasowa Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie, \"umowa jest pokłosiem sukcesu koła naukowego AGH Lunar Technologies, które zwyciężyło w konkursie pod nazwą 'Experiment on the Moon: Lunar Payload Mission'.\"",
+          "concept": "substring 'stan'",
+          "reasoning": "This section contains the word 'Stanisława', which includes the substring 'stan'."
+        },
+        {
+          "rank": 2,
+          "text": "Skąd nazwa \"Lunaris\"? To połączenie łacińskiego słowa \"luna\", oznaczające Księżyc, i jednocześnie ukłon w stronę inspirującej twórczości Stanisława Lema i jego najsłynniejszej powieści \"Solaris\".",
+          "concept": "substring 'stan'",
+          "reasoning": "This section contains the word 'Stanisława', which includes the substring 'stan'."
+        },
+        {
+          "rank": 3,
+          "text": "Akademia Górniczo-Hutnicza w Krakowie (AGH) zawarła porozumienie o współpracy z firmą Orbital Space (OS) ze Zjednoczonych Emiratów Arabskich. Umowa dotyczy m.in. rozwijania oraz testowania urządzenia \"Lunaris\", które w 2025 roku poleci na Księżyc.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00017",
+      "row_idx": 4270,
+      "normalized": 7.992955207824707,
+      "actual_text": "some of the money he missed out on by hitting the open market after an unsteady 2016. MORE MLB: Ready to pop Byron Buxton",
+      "plain_text": "Here’s what we know about the American League: Mike Trout is the best player. Beyond that? Well, it’s good they’re taking 162 games to sort out the rest. USA TODAY Sports breaks down what should be a balanced AL. *** Pivotal players Chris Sale, Red Sox: If Boston is to play deep into October, it badly needs Sale to be the same pitcher who dominated the AL Central with the Chicago White Sox. With David Price opening on the disabled list, a fast start in a deep division is paramount for Sale. Lance McCullers, Astros: A lineup reboot makes them the pick of many to win the AL West. But the best way to unseat the Rangers is to outpitch them. If McCullers’ potential and health finally converge, the Astros might run away with the division. Carlos Carrasco, Indians: The defending AL champs are stacked, but their rotation needs a healthy No.2 behind ace Corey Kluber. Elbow issues this spring seem to be minor, but he has never thrown more than 185 innings in the majors. Jose Bautista, Blue Jays: A bounce-back season from Bautista at 36 would go a long way toward keeping the Blue Jays offense formidable in the absence of Edwin Encarnacion and toward helping Bautista earn back some of the money he missed out on by hitting the open market after an unsteady 2016. MORE MLB: Ready to pop Byron Buxton, Twins: No, he won’t be known as BUST-on. A huge final month that included nine homers, 22 RBI and a 1.011 on-base plus slugging percentage in 29 games finally validated all the rave reviews the Minnesota Twins outfielder earned from scouts. It turns out that all Buxton needed to do was relax and play his game. Sean Manaea, Athletics: The key return in the Ben Zobrist trade, Manaea, 25, flashed significant potential over 24 starts in his debut. Entrenched as the A’s No. 2 starter, he might not match a minor league strikeout rate that exceeded 10 over nine innings, but he could come close. Andrew Benintendi, Red Sox: Their opening-day left fielder after 34 games played in the big leagues, he’s already being mentioned in the same breath as Hall of Famers Ted Williams, Carl Yastrzemski and Jim Rice, who manned the position before him. He’s the consensus pick to be the AL rookie of the year. Alex Bregman, Astros: He has proven power — 28 home runs in 2016, including eight in a 49-game major league debut — and will flourish in a lineup that includes Carlos Correa and Jose Altuve. Greg Bird, Yankees: Imagine a prospect on baseball’s most popular team getting a second-half call-up and mashing a bunch of home runs in a limited number of at-bats. Gary Sanchez last season? Sure, but Bird did the same thing in 2015. After missing all of last season with a shoulder injury, he’ll be the Yankees’ everyday first baseman. Among the spring leaders in homers, he’ll get a full season to take aim at Yankee Stadium’s short right-field porch. Fluid forecast Athletics: It’s perhaps Billy Beane’s most volatile collection yet — a young, platoon-heavy group that could lose 90 games or finish above .500. The playoffs are unlikely, but they might determine who wins the West. Yankees: They had a fabulous spring, and their kiddie corps has New Yorkers excited. But does an aging pitching staff steady the ship toward contention or mediocrity in a balanced division? Orioles: They never seem to have enough starting pitching but keep finding ways to reach the playoffs. Mariners: They always stay busy — shortstop Jean Segura and outfielder Jarrod Dyson are the most notable additions for easily bored general manager Jerry Dipoto, who turned over half the roster — but figuring out how well it all comes together remains a challenge. How will the newcomers fit around stalwarts Robinson Cano, Nelson Cruz, Kyle Seager and Felix Hernandez? Will it be enough to end baseball’s longest postseason drought? No one has a clue. But it’ll be fun to find out. Rangers: Coming off two consecutive division titles, there’s plenty of talent to chase a third but lots of uncertainty in the rotation and a host of veteran position players who will need to stave off the affects of time to avoid a stumble. Five bold predictions Danny Duffy, Royals: Will win the Cy Young Award. Mookie Betts: Hits 40 homers but still misses out on the MVP to Mike Trout. A’s and Rays: Make Moneyball-style tightfisted ways look good again. Tigers: Will take the Indians down to the wire in the Central. Red Sox: Will win the pennant. Contributing: Ted Berg, Scott Boeck, Steve Gardner, Gabe Lacques, Bob Nightengale, Jorge L. Ortiz.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Here’s what we know about the American League: Mike Trout is the best player. Beyond that? Well, it’s good they’re taking 162 games to sort out the rest. USA TODAY Sports breaks down what should be a balanced AL.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 2,
+          "text": "Chris Sale, Red Sox: If Boston is to play deep into October, it badly needs Sale to be the same pitcher who dominated the AL Central with the Chicago White Sox.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Lance McCullers, Astros: A lineup reboot makes them the pick of many to win the AL West. But the best way to unseat the Rangers is to outpitch them. If McCullers’ potential and health finally converge, the Astros might run away with the division.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00000",
+      "row_idx": 3280,
+      "normalized": 6.6883225440979,
+      "actual_text": "so commonly suspect bisexuality of me. I’ll sense his suspicion as he steers the post-fuck conversation (pre-fuck if he’s ambitious) towards",
+      "plain_text": "In the words of the esteemed rap group Flatbush Zombies: “Always into weird, feared, dark-type girls. Independent, don’t-need-no-[man], keep-on-they-light girls. Don’t mean to be cliché but I like girls, that like girls, that like girls…”  A pink-haired pessimist straddling the divide between feminism and misandry, and sometimes trying to emit a soft goth girl glow (really just my glamorized rendition of mental unhealth) — I think I see why boys so commonly suspect bisexuality of me. I’ll sense his suspicion as he steers the post-fuck conversation (pre-fuck if he’s ambitious) towards that one foursome he had last year, in which he was the only male participant, he makes sure to note. Tossing the topic back my way (“Have you ever had a threesome?”), he goes on to reveal his true concern: “Was it with another girl?” “Do you hook up with girls?” “So you like girls too?”  No, actually, I’m not into girls. I’ve kissed a girl or two, and I liked it, no doubt. But I haven’t caught romantic feelings for a girl before, and my instances of physical attraction to girls have been few and far between. As of this moment in time, I have ample reason to believe that I’m not categorically bisexual. And also that I have just about no right to claim membership in a marginalized community which I’ve made no constructive contribution to and which faces a plethora of burdens I’ve never encountered a single one of.  Alas, he seems only to hear what he’d like to hear — that I’ve got the hots for every classically attractive female in the cosmos. And that his DMing me pictures of a scantily clad Kehlani (“She’s kinda gay too!” he said) or pointing out pretty female passersby in public (I nod smilingly to avoid sparking a full blown feud in the Ithaca mall food court), or asking me if I’ve got a secret crush on every Carhartt-clothed female friend I introduce him to, are more than justified. That they’re actually demonstrations of progressivism and his attentiveness to my “circumstances.” And that maybe, just maybe, I’ll grant him the gift of group sex.  Sure, if I instead was what he thought I was, which I am not, maybe I wouldn’t be so bothered — maybe I wouldn’t be bothered at all. But I doubt it. Of course I don’t know how I’d feel if I was bisexual, but I don’t imagine I’d be all that more amused by his bizarre attempts at bonding with me over somebody else’s tits than I already am. I’ve been with few bisexual men in my lifetime, but it still seems worthwhile to note that not once have I thought to connect with any of them over drinks and jolly discourse about our collective appreciation of John Mayer’s jawline. It just doesn’t seem entirely appropriate to do that sort of thing or to assume that the other person would be pleased by it.  Supremely irritating is the dichotomy between the discontent he’d suffer if I tried to converse with him about my physical attraction to some other guy, and the absolute pleasure he’d enjoy if I were to do the same but in regards to another girl. Imagine the fits he’d throw if I tabled the turns for just one moment and airdropped him an image of ASAP Rocky’s abdomen, or if I drew him into a slightly more thoughtful dialogue regarding Dev Patel’s cutie-to-hottie metamorphosis over the course of his illustrious career. But if I were to explicitly communicate to him my attraction to or sexual experiences with another female, he’d be unbothered. In fact, he’d be delighted. Straight men’s sexual fetishization of intimacy between females is certainly nothing new. Common to dudes everywhere is the self-serving inclination to regard intimate or romantic relationships between women as performances choreographed exclusively for male entertainment, rather than as being of equivalent (if not greater) complexity, sincerity, severity and potentiality as any heterosexual relationship. Aside from their disturbing fixation on bi girls is their ridiculous concept of the sort of creature that is “the bi girl.” They dream of an immaculately feminine, fairy-like nonhuman whose carefree open-mindedness gives way to a playful hobby of kissing her conventionally attractive lady friends from time to time, but who then immediately turns around to find herself drawn to the most masculine of men. Her “bisexuality” serves only to decorate her with an aura of individuality (“She’s not like other girls.”), complexity and seductive ambiguity, while she nevertheless remains staunchly anchored in heteronormativity. Hiding their weird strain of homophobia behind veils of self-proclaimed wokeness and “love and respect for all women,” the radical Berniebros of our generation seek a real life Aphrodite ready to fuck everyone and everything, but whose true interests lie towards men. From constructing abortion policy to searching for their ideal pussy, incessant insertion of self into women’s affairs and uninvited reimagination of these affairs to maximize their own profit has got to be among mankind’s manliest activities. Leaderboard 2  Brat Baby is a student at Cornell University. Pillow Princess Diaries runs alternate Sex on Thursdays this semester. Sex on Thursday runs every Thursday this semester.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In the words of the esteemed rap group Flatbush Zombies: “Always into weird, feared, dark-type girls. Independent, don’t-need-no-[man], keep-on-they-light girls. Don’t mean to be cliché but I like girls, that like girls, that like girls…”",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 2,
+          "text": "A pink-haired pessimist straddling the divide between feminism and misandry, and sometimes trying to emit a soft goth girl glow (really just my glamorized rendition of mental unhealth) — I think I see why boys so commonly suspect bisexuality of me.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 3,
+          "text": "I’ll sense his suspicion as he steers the post-fuck conversation (pre-fuck if he’s ambitious) towards that one foursome he had last year, in which he was the only male participant, he makes sure to note.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00002",
+      "row_idx": 1568,
+      "normalized": 0.0,
+      "actual_text": "UPDATE 1-Ericsson media head sees sales lift from telecoms-media consolidation",
+      "plain_text": "UPDATE 1-Ericsson media head sees sales lift from telecoms-media consolidation  STOCKHOLM, Dec 22 Ericsson sees more tie-ups between telecom operators and media companies after AT&T Inc's planned acquisition of Time Warner Inc, offering some hope for the no-growth telecom equipment gear maker, its media chief told Reuters.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "UPDATE 1-Ericsson media head sees sales lift from telecoms-media consolidation",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 2,
+          "text": "STOCKHOLM, Dec 22 Ericsson sees more tie-ups between telecom operators and media companies after AT&T Inc's planned acquisition of Time Warner Inc,",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        },
+        {
+          "rank": 3,
+          "text": "offering some hope for the no-growth telecom equipment gear maker, its media chief told Reuters.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 1348,
+      "normalized": 0.0,
+      "actual_text": "KABUL (REUTERS) - A former journalist who worked for Afghanistan's Finance",
+      "plain_text": "KABUL (REUTERS) - A former journalist who worked for Afghanistan's Finance Ministry was shot dead by gunmen in the southern city of Kandahar on Thursday (May 6), provincial officials said, as violence mounted across the country amid a US troop withdrawal.  No group immediately claimed responsibility, but government officials and Western powers usually blame Taleban insurgents for such attacks, which they deny.  Mr Nimat Rawan, a former news anchor at ToloNews, Afghanistan's largest private television station, was shot dead on Thursday morning, provincial police spokesman Jamal Naser said.  Police were investigating, he said.  Many similar killings have taken place in recent months, often targeting journalists, civil society activists, government officials, and judges.  Taleban spokesman Zabihullah Mujahid denied the militant group was behind the shooting of Mr Rawan in Kandahar.  In tweets on Wednesday, Mujahid had warned against \"propaganda and one-sided broadcasts\" by some media outlets.  \"If this continues, the responsibility for the next steps will fall on the media officials and its staff themselves,\" he said.  President Ashraf Ghani condemned the attack and said the militants could not the silence the people's freedom of speech.  Afghan security forces are locked in daily combat with the Taleban, which has waged war to overthrow the foreign-backed government since it was ousted from power in Kabul in 2001.  The United States has begun to pull out its forces under an agreement reached with the Taleban in talks last years, although it has missed a May 1 withdrawal deadline.  Critics of President Joe Biden's decision to bring the troops home say the Taleban will try to sweep back into power.  In just two days, the Taleban captured a second district in the northern province of Baghlan on Thursday, provincial police spokesman Jawed Basharat said.  Six Afghan security forces were killed in a Taleban night-time attack on their outpost in the central province of Ghazni, a local official said.  The Afghan government says the Taleban have killed and wounded more than 50 troops in attacks in at least 26 provinces during the last 24 hours, while its forces killed dozens of Taleban over the same period.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "KABUL (REUTERS) - A former journalist who worked for Afghanistan's Finance Ministry was shot dead by gunmen in the southern city of Kandahar on Thursday (May 6), provincial officials said, as violence mounted across the country amid a US troop withdrawal.",
+          "concept": "substring 'stan'",
+          "reasoning": "This section contains the word 'Afghanistan', which includes the substring 'stan'."
+        },
+        {
+          "rank": 2,
+          "text": "Mr Nimat Rawan, a former news anchor at ToloNews, Afghanistan's largest private television station, was shot dead on Thursday morning, provincial police spokesman Jamal Naser said.",
+          "concept": "substring 'stan'",
+          "reasoning": "This section contains the word 'Afghanistan', which includes the substring 'stan'."
+        },
+        {
+          "rank": 3,
+          "text": "No group immediately claimed responsibility, but government officials and Western powers usually blame Taleban insurgents for such attacks, which they deny.",
+          "concept": "no 'stan' substring",
+          "reasoning": "This section does not contain the substring 'stan', so the neuron likely had low activation."
+        }
+      ]
+    }
+  ]
+}

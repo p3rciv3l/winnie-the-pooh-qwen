@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_18797",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that follow a comma, colon, semicolon, or period within a quoted or continuous clause** (such as explanatory clauses after a colon, descriptive continuations after a comma, or subordinate phrases following a semicolon).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, French, Arabic, English, Swedish, Czech, German) and diverse topics\u2014including news reports, legal texts, technical descriptions, and cultural commentary\u2014whenever the text is syntactically in the middle of an extended sentence or list, often introducing elaboration, examples, or additional detail.\n\n3. **Contrast with low-activation examples**: The low-activation examples are mostly complete sentences or sentence beginnings, often starting with a subject (e.g., \u201cDeputy Minister\u2026\u201d, \u201cPinterest Inc.\u2026\u201d, \u201cJoe Biden has\u2026\u201d). They lack the mid\u2011sentence punctuation that signals an ongoing clause. High\u2011activation texts consistently show punctuation\u2011driven continuation, while low\u2011activation texts are more often self\u2011contained statements or openings.\n\n4. **Closing interpretation**: This neuron likely detects syntactic continuity within complex sentences, focusing on post\u2011punctuation clause structures that extend or elaborate a preceding idea. It acts as a marker for embedded explanations, lists, or supplementary details rather than standalone propositions.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "della scienza e mondo della giustizia. L\u2019unica maniera di affrontare il problema, siccome non \u00e8 possibile fare previsioni, \u00e8",
+      "normalized_activation": 9.615795135498047,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.199,
+          "meaning_score": 0.4604,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4638
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1991,
+          "meaning_score": 0.3288,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2112
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1991,
+          "meaning_score": 0.3653,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2258
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "il mondo dell\u2019impresa risulta importante evidenziare l\u2019impegno di CNA che, mediante i sui componenti, sta lavorando su",
+      "normalized_activation": 8.957759857177734,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1904,
+          "meaning_score": 0.4752,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2662
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1904,
+          "meaning_score": 0.2634,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1815
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1904,
+          "meaning_score": 0.3921,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.233
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u0435\u043d\u0438\u044f \u043d\u0430\u0440\u0443\u0448\u0438\u043b\u0438 \u043c\u043e\u0440\u0441\u043a\u0443\u044e \u0433\u0440\u0430\u043d\u0438\u0446\u0443 \u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u043b\u0438 \u043e\u043f\u0430\u0441\u043d\u044b\u0435 \u043c\u0430\u043d\u0435\u0432\u0440\u044b \u0432 \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0445 \u0432\u043e\u0434\u0430\u0445. 24 \u043c\u043e\u0440",
+      "normalized_activation": 8.087777137756348,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1322,
+          "meaning_score": 0.2276,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1439
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1322,
+          "meaning_score": 0.2,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1329
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1322,
+          "meaning_score": 0.559,
+          "overlap_fraction": 0.9167,
+          "location_score": 0.1833,
+          "combined_score": 0.4598
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Dnes ji\u017e bezpe\u010dn\u011b v\u00edme, \u017ee Mars m\u011bl",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1608,
+          "meaning_score": 0.6974,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5433
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1608,
+          "meaning_score": 0.3608,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2087
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.135,
+          "meaning_score": 0.3836,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2074
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "New Delhi [India], January 16: Key speakers of the event \u2013 Speakers",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1609,
+          "meaning_score": 0.5667,
+          "overlap_fraction": 0.5373,
+          "location_score": 0.1075,
+          "combined_score": 0.3985
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1253,
+          "meaning_score": 0.3832,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2034
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1043,
+          "meaning_score": 0.2196,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1295
+        }
+      ]
+    }
+  ]
+}

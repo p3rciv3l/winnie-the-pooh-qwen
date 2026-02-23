@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_15127",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:52:32Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing direct quotes or statements attributed to a specific, named individual with their title or role** (such as a professor, analyst, doctor, spokesperson, or researcher).\n\n2. **Domain coverage**: The pattern appears across diverse topics (healthcare, politics, military analysis, science, business, social issues) and multiple languages (English, Turkish, Portuguese), but is strictly tied to journalistic or reportorial contexts where a source is cited. It activates on fragments where an authority figure is introduced, typically signaled by a verb like \"said,\" \"told,\" \"argued,\" or \"conceded,\" followed by their name and professional identifier.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any attributed human statement. They include general announcements, instructional content, news headlines without quotes, and descriptive passages without a cited speaker. Even when a low-activation text touches on a related topic (e.g., healthcare systems), it does so without quoting a specific person.\n\n4. **Closing interpretation**: The neuron detects the linguistic structure of sourced attribution, acting as a \"cited authority\" or \"expert quote\" identifier. It focuses on the semantic pattern of [statement] + [attribution verb] + [title + name], rather than the content of the quote itself.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00013",
+      "row_idx": 4834,
+      "normalized": 9.621671676635742,
+      "actual_text": "network than we used to see. SCHAPER: Schuh's colleague, transportation planner Elizabeth Irvin, says it's not just the explosive growth of e-commerce that",
+      "plain_text": "Shopping Online Doesn't Necessarily Reduce Traffic  AUDIE CORNISH, HOST: Nobody likes getting stuck in traffic. It's one of many reasons people go online to order everything from clothes to paper towels. Yet, those deliveries may be adding to traffic congestion. Think about it. One trip to the mall is replaced by six or eight package deliveries, plus all the trucks needed to stock fulfillment centers. From Chicago, NPR's David Schaper has more. (SOUNDBITE OF TOOLS HITTING CONCRETE) DAVID SCHAPER, BYLINE: On this huge vacant lot that is four full square city blocks, workers are breaking up the concrete of an old factory floor. They're making way for a massive new facility that won't make anything but will store and distribute items. Industrial property developer Ryan Stoller can already envision what will go where in the new logistics center. RYAN STOLLER: Just one row of loading docks kind of right there, where we're looking, south-facing. SCHAPER: Stoller says this location, just a few miles from the center of downtown Chicago, is unbeatable. STOLLER: There is just a lack of modern, functional warehouse facilities located in the city of Chicago. So historically, they've had to go out to the suburbs. SCHAPER: With all of the traffic congestion in the Chicago area, making deliveries from far-flung suburban warehouses could take hours. And, Stoller says, in today's on-demand e-commerce world, time is money. STOLLER: And we are used to ordering something online and getting it now. And to locate right here, you can service a huge swath of the downtown population in under an hour. SCHAPER: Stoller and his company are so confident of the location that they're building this distribution facility on spec without tenants even lined up. Given that Amazon recently opened a Prime Now distribution facility a couple of blocks away, it's probably a pretty good bet. But as e-commerce continues to grow, transportation planners are seeing problems. Liz Schuh is with the Chicago Metropolitan Agency for Planning. LIZ SCHUH: Overall, we're just seeing a lot more trucks over all of the road network than we used to see. SCHAPER: Schuh's colleague, transportation planner Elizabeth Irvin, says it's not just the explosive growth of e-commerce that's catching cities off guard, but the rapidly changing delivery models. ELIZABETH IRVIN: And we've been seeing sort of this evolution from big distribution facilities on the edges of the region, you know, to sort of smaller distribution facilities. And all these communities are trying to keep up. SCHAPER: Cities are trying to cope with new truck traffic going into and out of fulfillment centers that are located closer to where people live. And Alison Conway, who teaches civil engineering at City College of New York, says even more vehicles are on the roads to deliver those goods. ALISON CONWAY: A lot of those deliveries are going to happen by smaller vehicles, like, even bicycles, which can kind of more quickly navigate congested urban streets. But overall, it's leading to a big inefficiency. SCHAPER: There's just a lot more vehicles, from small cars to big, boxy trucks and vans, making deliveries and clogging up streets, especially in residential areas. And what happens when you're not home, or the shoes you ordered don't fit? CONWAY: Both failed deliveries - and by failure I mean a delivery person trying to make a delivery to a home where there's no one able to accept it and no safe place to leave it - and returns are both hugely challenging issues that come up with e-commerce. SCHAPER: In dense urban areas, it's not uncommon to find several UPS, FedEx and U.S. Postal trucks double-parked on the same block, choking traffic or blocking bike lanes while, in some cities, it's difficult for delivery drivers to even find a place to park. IRVIN: There's more and more competing demands for that curb space and the road space. SCHAPER: Elizabeth Irvin of the Chicago Metropolitan Agency for Planning says some cities are remaking their curb space to accommodate the demand for e-commerce deliveries. One pilot project in Chicago consolidates loading zones to give delivery trucks dedicated space, but then charges them by how long they're parked to move them along more quickly. There's also a push to get companies to make more deliveries at night. E-commerce and delivery companies, from Amazon to UPS and FedEx, are experimenting with congestion-reducing delivery methods themselves, from using e-bikes and package lockers to smart keys to allow packages to be left in homes. After all, they want to ensure that they can live up to their instantaneous delivery promises, which they can't do if they're stuck in traffic. David Schaper, NPR News, Chicago. (SOUNDBITE OF MUSIC) Transcript provided by NPR, Copyright NPR.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "And Alison Conway, who teaches civil engineering at City College of New York, says even more vehicles are on the roads to deliver those goods. ALISON CONWAY: A lot of those deliveries are going to happen by smaller vehicles, like, even bicycles, which can kind of more quickly navigate congested urban streets. But overall, it's leading to a big inefficiency.",
+          "concept": "professor",
+          "reasoning": "This section contains a direct quote from a professor with her title and name, matching the neuron's pattern of attributed authority."
+        },
+        {
+          "rank": 2,
+          "text": "Schuh's colleague, transportation planner Elizabeth Irvin, says it's not just the explosive growth of e-commerce that's catching cities off guard, but the rapidly changing delivery models. ELIZABETH IRVIN: And we've been seeing sort of this evolution from big distribution facilities on the edges of the region, you know, to sort of smaller distribution facilities. And all these communities are trying to keep up.",
+          "concept": "transportation planner",
+          "reasoning": "This section features a named transportation planner with her title and a direct quote, fitting the neuron's focus on cited experts."
+        },
+        {
+          "rank": 3,
+          "text": "But as e-commerce continues to grow, transportation planners are seeing problems. Liz Schuh is with the Chicago Metropolitan Agency for Planning. LIZ SCHUH: Overall, we're just seeing a lot more trucks over all of the road network than we used to see.",
+          "concept": "planning agency official",
+          "reasoning": "This section introduces a named official from a planning agency and includes her direct quote, aligning with the neuron's detection of sourced attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00019",
+      "row_idx": 452,
+      "normalized": 8.778810501098633,
+      "actual_text": "Justice Department’s) history of abdicating its responsibility on these systemic investigations,” said Vanita Gupta, the former Obama-era DOJ civil rights chief and president and CEO",
+      "plain_text": "The Justice Department sued Baltimore County, Maryland, and its police department last week, accusing them of discriminating against black applicants for entry-level police jobs — a rare step in making an allegation of systemic misconduct by law enforcement under the Trump administration.  The lawsuit alleges a violation of Title VII of the Civil Rights Act of 1964, which prohibits discrimination against employees or applicants based on race, among other things. It appears to be one of the only examples of a so-called pattern-or-practice lawsuit — a full-scale civil rights inquiry into policing practice — filed under the President Donald Trump-led Department of Justice against a police agency. While the type of investigation was used throughout the Obama administration, in line with a national reckoning over officer-involved shootings, the Justice Department in recent years has largely avoided the practice as they’ve shifted tone to one that embraces rank and file police and prioritizes morale over sweeping reform efforts.  According to the lawsuit, the police force, which covers a largely suburban area outside the city of Baltimore, used a written exam to test for things like reading comprehension and “interpretation of data,” and black applicants failed at a statistically significant higher rate than white applicants.  “As a result of its use of these written examinations, Baltimore County has hired fewer African American applicants as BCPD entry-level police officers and police cadets since January 1, 2013 than it would have had it used a non-discriminatory screening device,” the lawsuit contends.  The Justice Department has continued to bring cases against police officers for specific allegations of misconduct, like excessive force, although Trump’s first attorney general, Jeff Sessions, sharply limited the use of consent decrees, a court-enforced agreement that federal officials had entered into with a law enforcement agency to remedy bad behavior.  The Baltimore County case is an employment discrimination suit and does not allege the sort of patterns of racial targeting or excessive force that several Obama-era cases often dealt with.  Still, detractors of the Trump administration’s civil rights work welcomed the lawsuit as a “significant” signal.  “It’s significant that this was allowed to go through in the Trump era. It shouldn’t be significant, but it is, because of (the Trump Justice Department’s) history of abdicating its responsibility on these systemic investigations,” said Vanita Gupta, the former Obama-era DOJ civil rights chief and president and CEO of The Leadership Conference on Civil & Human Rights, a civil rights coalition.  The Justice Department on Tuesday called the alleged hiring misconduct in Baltimore County unintentional, saying in its lawsuit that the tests “are not job-related for the positions in question.” They’re asking the county to fix its entrance exams and provide remedial relief to applicants that suffered loss as a result of the tests.  “Employers must be mindful that an employment selection device, like a test, must be shown to be job-related if it disproportionately excludes members of one of Title VII’s protected groups,” Assistant Attorney General Eric Dreiband of the Justice Department’s Civil Rights Division said in a statement.  Out of 1,910 officers, 280 are African American, accounting for just over 15% of the department, the department said. Nearly 30% of the Baltimore County population is African American, according to the 2018 census.  Baltimore County Executive Johnny Olszewski Jr. said Tuesday that the police force has stopped using the test by the Justice Department and that he has created two “diversity-focused positions” within the county government.  “A law enforcement agency should look like the community it serves. As I have said repeatedly since taking office, I am committed to increasing diversity in the County’s Police Department,” Olszewski Jr., a Democrat, said in a statement.  Olszewski added that the county is “willing to negotiate” with the Justice Department to resolve the lawsuit “in a way that best serves the Baltimore County Police Department and our mission of advancing public safety for all of Baltimore County.”  The Baltimore County police are a separate agency from the Baltimore City Police Department, whose practices were scrutinized following the 2015 death of Freddie Gray, a black man who suffered fatal spinal injuries while in their custody.  After that incident, the Justice Department ushered in a series of police reforms in the city in the form of a 227-page consent decree. The suit filed Tuesday against the Baltimore County Police Department is unrelated to the consent decree.  In Baltimore County, criminal justice activists expressed hope that a more diverse police force would help address problems locally, like black drivers who face a disproportionate number of traffic stops.  “I think that if you have a diverse department all the way through that those things tend not to happen, or at least are reduced,” said Anthony Fugett, the president the NAACP’s branch in Baltimore County.  This content was republished with permission from CNN.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Employers must be mindful that an employment selection device, like a test, must be shown to be job-related if it disproportionately excludes members of one of Title VII’s protected groups,” Assistant Attorney General Eric Dreiband of the Justice Department’s Civil Rights Division said in a statement.",
+          "concept": "Assistant Attorney General",
+          "reasoning": "This is a direct quote from a high-ranking Justice Department official with his full title, matching the neuron's pattern of attributed authoritative statements."
+        },
+        {
+          "rank": 2,
+          "text": "“A law enforcement agency should look like the community it serves. As I have said repeatedly since taking office, I am committed to increasing diversity in the County’s Police Department,” Olszewski Jr., a Democrat, said in a statement.",
+          "concept": "County Executive",
+          "reasoning": "This section contains a quote from the Baltimore County Executive with his title and name, fitting the neuron's focus on cited authority figures."
+        },
+        {
+          "rank": 3,
+          "text": "“It’s significant that this was allowed to go through in the Trump era. It shouldn’t be significant, but it is, because of (the Trump Justice Department’s) history of abdicating its responsibility on these systemic investigations,” said Vanita Gupta, the former Obama-era DOJ civil rights chief and president and CEO of The Leadership Conference on Civil & Human Rights, a civil rights coalition.",
+          "concept": "former DOJ official",
+          "reasoning": "This section features a direct quote from a former high-ranking DOJ official with her title and name, aligning with the neuron's detection of sourced attribution."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 4492,
+      "normalized": 7.81620979309082,
+      "actual_text": "vacizumab biosimilar for patients and for the healthcare community\", said Dr. Winson Y. Cheung, Professor at the Departments of Medicine and Oncology",
+      "plain_text": "Vegzelma®, a bevacizumab biosimilar of Avastin®, is now approved by Health Canada Vegzelma® offers Canadian patients living with one of five types of cancer a new treatment option Celltrion Healthcare Canada Limited is committed to providing a patient centric approach, to ensure access to innovative, high quality, and affordable biologics in Canada TORONTO, Jan. 19, 2023 /CNW Telbec/ - Celltrion Healthcare Canada Limited today announced that Health Canada granted a notice of compliance (NOC) on January 3, 2023 for Vegzelma®, a biosimilar to Avastin® (bevacizumab for injection).  The Health Canada authorization was based on a comprehensive data package of analytical, preclinical and clinical studies, demonstrating that Vegzelma® is highly similar to the reference product Avastin® in terms of efficacy, safety and pharmacokinetics.1  Vegzelma® is approved for the treatment of five types of cancer, including metastatic colorectal cancer (mCRC); locally advanced, metastatic or recurrent non-small cell lung cancer (NSCLC); platinum-sensitive recurrent epithelial ovarian, fallopian tube and primary peritoneal cancer; platinum-resistant recurrent epithelial ovarian, fallopian tube and primary peritoneal cancer; and malignant glioma (WHO Grade IV) – glioblastoma.1  \"In cancer treatment, biologics play a key role and are principal components of many therapeutic regimens. However, the high cost of biologics is a burden on the healthcare system. Biosimilars enable access to more affordable medicines. The approval of Vegzelma® in Canada provides oncologists with another safe and effective option of a bevacizumab biosimilar for patients and for the healthcare community\", said Dr. Winson Y. Cheung, Professor at the Departments of Medicine and Oncology, University of Calgary.  \"The approval of Vegzelma® reinforces our commitment to increase accessibility and affordability to medicines,\" said Glen Choma, Commercial Director at Celltrion Healthcare Canada. \"This represents a significant step in expanding access to cancer care. And, as a leading force in the global biopharmaceutical industry, it demonstrates our willingness to strengthen our presence in Canada and contribute to a more sustainable healthcare system for the future. As we continue to grow our biosimilar portfolio in Canada, innovative therapies like Remsima™ SC, Yuflyma®, and now Vegzelma® are helping to make treatments more accessible to Canadians in need.\"  Celltrion Healthcare Canada is also proud to offer CELLTRION CONNECT™, a patient-focused program tailored to support patients and healthcare providers. The program provides guidance with reimbursement navigation, financial assistance, injection and nurse support services, as well as pharmacy support services for patients throughout their treatment.  Vegzelma® is Celltrion's first oncology biosimilar approved for use in Canada. Vegzelma® was authorized in the EU in August 2022 and the UK, US, and Japan in September 2022. Regulatory reviews are ongoing in additional countries.  Notes to Editors:  Vegzelma® is an anti-cancer monoclonal antibody treatment biosimilar to Avastin® (bevacizumab). Vegzelma® is a recombinant humanized monoclonal antibody which selectively binds to and neutralizes the biologic activity of human vascular endothelial growth factor (VEGF), the key driver of vasculogenesis and angiogenesis, and thereby inhibits the binding of VEGF to its receptors Flt-1 (VEGFR-1), and kinase insert domain receptor (KDR) (VEGFR-2), on the surface of endothelial cells. In Canada, Vegzelma® is indicated for the treatment of patients with metastatic colorectal cancer (mCRC); locally advanced, metastatic or recurrent non-small cell lung cancer (NSCLC); platinum-sensitive recurrent epithelial ovarian, fallopian tube and primary peritoneal cancer; platinum-resistant recurrent epithelial ovarian, fallopian tube and primary peritoneal cancer; and malignant glioma (WHO Grade IV) – glioblastoma.1  Celltrion Healthcare is committed to delivering innovative and affordable medications to promote patients' access to advanced therapies. Its products are manufactured at state-of-the-art mammalian cell culture facilities, designed and built to comply with Health Canada regulations, the U.S. FDA cGMP and the EU GMP guidelines. Celltrion Healthcare endeavours to offer high-quality cost-effective solutions through an extensive global network that spans more than 110 different countries. For more information, please visit: https://www.celltrionhealthcare.ca VEGZELMA is a registered trademark of Celltrion Inc. AVASTIN is a registered trademark of Genentech Inc. SOURCE Celltrion Healthcare",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“In cancer treatment, biologics play a key role and are principal components of many therapeutic regimens. However, the high cost of biologics is a burden on the healthcare system. Biosimilars enable access to more affordable medicines. The approval of Vegzelma® in Canada provides oncologists with another safe and effective option of a bevacizumab biosimilar for patients and for the healthcare community”, said Dr. Winson Y. Cheung, Professor at the Departments of Medicine and Oncology, University of Calgary.",
+          "concept": "professor",
+          "reasoning": "This section contains a direct quote from a professor with his title and name, matching the neuron's pattern of attributed authority."
+        },
+        {
+          "rank": 2,
+          "text": "“The approval of Vegzelma® reinforces our commitment to increase accessibility and affordability to medicines,” said Glen Choma, Commercial Director at Celltrion Healthcare Canada.",
+          "concept": "Commercial Director",
+          "reasoning": "This section features a direct quote from a company director with his title and name, fitting the neuron's focus on cited experts."
+        },
+        {
+          "rank": 3,
+          "text": "Celltrion Healthcare Canada Limited today announced that Health Canada granted a notice of compliance (NOC) on January 3, 2023 for Vegzelma®, a biosimilar to Avastin® (bevacizumab for injection).",
+          "concept": "company announcement",
+          "reasoning": "This section attributes a statement to a specific company, which may weakly activate the neuron as a source in a journalistic context."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00012",
+      "row_idx": 1260,
+      "normalized": 0.9956165552139282,
+      "actual_text": "5.13 pm will remain cancelled. Special services unaffected However, Special services will run between Panvel and Kurla (Platform No.8) during",
+      "plain_text": "Mumbai: Owing to infrastructure upkeep and safety, Down line services for Vashi/ Nerul/ Panvel leaving Thane from 10.35 am to 4.07 pm and Up line services for Thane leaving Vashi/ Nerul/ Panvel from 10.25 am to 4.09 pm will remain cancelled. *Chhatrapati Shivaji Maharaj Terminus – Chunabhatti / Bandra Dn Harbour line from 11.40 am to 4.40 pm &  **Chunabhatti / Bandra - Chhatrapati Shivaji Maharaj Terminus Up Harbour line from 11.10 am to 4.10 pm* Down Harbour line services to Vashi /Belapur/Panvel leaving Chhatrapati Shivaji Maharaj Terminus Mumbai/ Vadala Road from 11.16 am to 4.47 pm and Dn Harbour line services to Bandra/Goregaon leaving Chhatrapati Shivaji Maharaj Terminus Mumbai from 10.48 am to 4.43 pm will remain cancelled. Up Harbour line services for Chhatrapati Shivaji Maharaj Terminus Mumbai/ Vadala Road leaving Panvel/ Belapur/ Vashi from 9.53 am to 3.20 pm and Up Harbour line services for Chhatrapati Shivaji Maharaj Terminus Mumbai leaving Goregaon/ Bandra from 10.45 am to 5.13 pm will remain cancelled. Special services unaffected However, Special services will run between Panvel and Kurla (Platform No.8) during the block period. Harbour line passengers are permitted to travel via Main Line and Western Railway from 10.00 am to 6.00 pm on January 22. There will be no Mega block on Main line on January 22. The authorities have said that these maintenance mega blocks are essential for infrastructure upkeep and safety.  (If you have a story in and around Mumbai, you have our ears, be a citizen journalist and send us your story here. )",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The authorities have said that these maintenance mega blocks are essential for infrastructure upkeep and safety.",
+          "concept": "authorities",
+          "reasoning": "This section attributes a statement to authorities, which may weakly activate the neuron as a sourced attribution, though without a named individual."
+        },
+        {
+          "rank": 2,
+          "text": "Mumbai: Owing to infrastructure upkeep and safety, Down line services for Vashi/ Nerul/ Panvel leaving Thane from 10.35 am to 4.07 pm and Up line services for Thane leaving Vashi/ Nerul/ Panvel from 10.25 am to 4.09 pm will remain cancelled.",
+          "concept": "service announcement",
+          "reasoning": "This section is an official announcement, possibly from transportation authorities, which may weakly activate the neuron as a sourced statement."
+        },
+        {
+          "rank": 3,
+          "text": "Special services will run between Panvel and Kurla (Platform No.8) during the block period.",
+          "concept": "service information",
+          "reasoning": "This section provides information about special services, possibly from an official source, which may weakly activate the neuron."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00016",
+      "row_idx": 4984,
+      "normalized": 0.9634613394737244,
+      "actual_text": "in a drainage ditch, both covered in mud and grass. Deputies say they found McCleskey’s credit cards inside a van the trailer was attached to.",
+      "plain_text": "WICHITA COUNTY (KFDX/KJTL) — A Colorado man and a Burkburnett woman are arrested after deputies looking for trailer thieves say they found the suspects hiding in a drainage ditch, covered with mud and grass.  On Tuesday evening, a man on FM 171 said he had tracked down his neighbor’s stolen trailer valued at $8,000 and that the two thieves, a man with tattoos covering his face, arms, and neck, and a short woman had run away through a pasture toward old Friberg Road.  A deputy said he located the suspects, Anthony McCleskey and Ashley Sanberg hiding in a drainage ditch, both covered in mud and grass.  Deputies say they found McCleskey’s credit cards inside a van the trailer was attached to.  McCleskey has seven previous charges filed for theft or burglary.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A deputy said he located the suspects, Anthony McCleskey and Ashley Sanberg hiding in a drainage ditch, both covered in mud and grass.",
+          "concept": "deputy",
+          "reasoning": "This section attributes a statement to a deputy, a law enforcement authority, which may activate the neuron as a sourced attribution, though the deputy is not named."
+        },
+        {
+          "rank": 2,
+          "text": "Deputies say they found McCleskey’s credit cards inside a van the trailer was attached to.",
+          "concept": "deputies",
+          "reasoning": "This section attributes a statement to deputies, fitting the neuron's pattern of sourced attribution from authorities."
+        },
+        {
+          "rank": 3,
+          "text": "A Colorado man and a Burkburnett woman are arrested after deputies looking for trailer thieves say they found the suspects hiding in a drainage ditch, covered with mud and grass.",
+          "concept": "deputies",
+          "reasoning": "This section attributes the finding to deputies, aligning with the neuron's focus on cited authority statements."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_758",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **textual markers of formal reporting, citation, or attribution** (such as datelines, source credits, editorial notes, legal disclaimers, or structured metadata often found in news articles, transcripts, or official documents).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Portuguese, Spanish, Italian, Arabic, Greek, Romanian) and primarily in journalistic, financial, legal, or governmental contexts. Examples include Reuters-style datelines (\"RIO DE JANEIRO, April 2\"), source attributions (\"By Maytaal\"), legal disclaimers (\"does not necessarily represent the views of\"), transcript notes (\"This transcript has been automatically generated\"), and structured corporate or financial updates (\"post-earnings conference call in Mumbai\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit framing elements that signal the text is an excerpt from a larger, sourced, or formally structured document. The low-activation examples are generally self-contained statements, narrative sentences, or topic introductions without these meta-textual markers of reporting, attribution, or publication context.\n\n4. **Closing interpretation**: This neuron detects the formal scaffolding of published information rather than its topical content. It fires on the linguistic signals that a text is embedded within a larger institutional or editorial process, acting as a detector for \"document metadata in prose form.\"",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "region. To Download Free Sample PDF @ https://ordientmarketresearch.com/sample-request/food-beverages-nutritions/organic-coffee-market/OMR",
+      "normalized_activation": 9.316888809204102,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "immagine del profilo una foto aggiornata. Pu\u00f2 trattarsi di un tuo primo piano o del simbolo della tua band, ma \u00e8 importante che",
+      "normalized_activation": 8.223899841308594,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ili: la morte di un genitore, la nascita di un figlio, una tragedia nazionale. Per Hande Akgun, il",
+      "normalized_activation": 7.060810089111328,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

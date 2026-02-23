@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_12857",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:05:52Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **breaking news or urgent reports about geopolitical conflicts, natural disasters, or human-rights crises** (such as volcanic eruptions, terrorist attacks, international sanctions, military tensions, or earthquake evacuations).\n\n2. **Domain coverage**: It activates across multiple languages (Spanish, Dutch, Romanian, Arabic, Hindi, etc.) in news-style text containing specific dates, locations, casualty figures, and named entities (countries, leaders, organizations). The contexts are consistently real-world disruptive events with immediate consequences, often involving state actors or large-scale emergencies.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack urgency and concrete real-world impact—they discuss awards, sports transfers, routine announcements, scientific facts, or general lifestyle topics without time-sensitive disaster/conflict framing. The neuron ignores speculative, celebratory, or procedural content.\n\n4. **Closing interpretation**: The neuron detects linguistically marked journalistic reporting of high-stakes, timely negative events, likely serving as a “crisis news” filter. It focuses on semantic content involving sudden harm, international tension, or official emergency response rather than topic or language alone.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00016",
+      "row_idx": 2332,
+      "normalized": 9.63944149017334,
+      "actual_text": "ertes explosiones subacuáticas en la misma área del mar donde el lunes ocurrieron fugas de gas en los ductos Nord Stream 1",
+      "plain_text": "Estaciones de medición en Suecia registraron fuertes explosiones subacuáticas en la misma área del mar donde el lunes ocurrieron fugas de gas en los ductos Nord Stream 1 y 2, informó hoy martes la televisión sueca SVT. \"No hay ninguna duda de que estas fueron explosiones\", dijo Bjorn Lund, experto en sismología de la Red Sísmica Nacional sueca, citado hoy por SVT. \"Claramente se puede ver cómo las olas brincan desde el fondo hacia la superficie\". Una de las explosiones tuvo una magnitud de 2,3 en la escala de Richter, similar a un sismo perceptible, y fue registrada por 30 estaciones de medición en el sur de Suecia. De acuerdo con SVT, la primera explosión ocurrió a las 2:03 hora local (00:03 GMT) del lunes y la segunda a las 19:04 horas (17:04 GMT) también del lunes. Las advertencias acerca de las fugas de gas provinieron de la Administración Marítima sueca a las 13:52 horas (11:52 GMT) y a las 20:41 horas (18:41 GMT) del lunes, respectivamente, después de que barcos detectaron burbujas en la superficie, añadió el reporte. Trascendió que la triple fuga en los ductos Nord Stream 1 y 2 del lunes está siendo investigada como probable sabotaje, reportó SVT. Con información de Xinhua.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Trascendió que la triple fuga en los ductos Nord Stream 1 y 2 del lunes está siendo investigada como probable sabotaje, reportó SVT. Con información de Xinhua.",
+          "concept": "sabotage investigation",
+          "reasoning": "It mentions investigation into probable sabotage, fitting geopolitical conflict and crisis."
+        },
+        {
+          "rank": 2,
+          "text": "Estaciones de medición en Suecia registraron fuertes explosiones subacuáticas en la misma área del mar donde el lunes ocurrieron fugas de gas en los ductos Nord Stream 1 y 2, informó hoy martes la televisión sueca SVT. 'No hay ninguna duda de que estas fueron explosiones', dijo Bjorn Lund, experto en sismología de la Red Sísmica Nacional sueca, citado hoy por SVT.",
+          "concept": "underwater explosions report",
+          "reasoning": "Reports strong explosions with urgency and named entities."
+        },
+        {
+          "rank": 3,
+          "text": "Una de las explosiones tuvo una magnitud de 2,3 en la escala de Richter, similar a un sismo perceptible, y fue registrada por 30 estaciones de medición en el sur de Suecia. De acuerdo con SVT, la primera explosión ocurrió a las 2:03 hora local (00:03 GMT) del lunes y la segunda a las 19:04 horas (17:04 GMT) también del lunes.",
+          "concept": "earthquake magnitude details",
+          "reasoning": "Provides specific seismic data indicating a measurable disaster event."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00000",
+      "row_idx": 5300,
+      "normalized": 8.953852653503418,
+      "actual_text": ". Criticism has grown over China’s internment of an estimated 1 million Uighurs and members of other predominantly Muslim ethnic groups. China describes the camps as",
+      "plain_text": "China has arrested nearly 13,000 people it describes as terrorists and has broken up hundreds of “terrorist gangs” in Xinjiang since 2014, the government said in a report issued yesterday to counter criticism of internment camps and other oppressive security in the traditionally Islamic region. The lengthy report said that the Chinese government’s efforts have curbed religious extremism, but gave little evidence of what crimes had occurred. The far northwestern region is closed to outsiders, but former residents and activists abroad say mere expressions of Muslim identity are punished. Criticism has grown over China’s internment of an estimated 1 million Uighurs and members of other predominantly Muslim ethnic groups. China describes the camps as vocational training centers and says participation is voluntary. Former detainees say they were held in abusive conditions, forced to renounce Islam and swear allegiance to the Chinese Communist Party. The camps sprang up over the past two years at extraordinary speed and on a massive scale, as monitored by satellite imagery. China maintains a massive security presence in Xinjiang and efforts to independently verify claims by Uighur activists are routinely blocked. The new report said that “law-based deradicalization” in Xinjiang has curbed the rise and spread of religious extremism. It said that 1,588 terrorist gangs have been crushed and 12,995 terrorists seized since 2014. Over that time, 2,052 explosive devices were seized and more than 30,000 people were punished for taking part in almost 5,000 “illegal religious activities,” it said. It said 345,229 copies of “illegal religious publicity materials” were also seized.  The report sought to underplay Islam’s role in the region’s historical makeup, saying that while it “cannot be denied that Xinjiang received the influence of Islamic culture,” that did not change the “objective fact” that Xinjiang’s culture is a facet of Chinese culture. “Islam is not the natural faith of the Uighurs and other ethnicities, nor is it their only faith,” it said. The report shows the “vague and broad definition of ‘terrorism’ and ‘extremism’ by the Chinese government,” said Patrick Poon (潘嘉偉), a China researcher for Amnesty International. “It’s exactly because of the Chinese government’s arbitrary and vague definition of these terms that leads to mass arbitrary detention of many ordinary people in Xinjiang,” Poon said. World Uyghur Congress spokesman Dilxat Raxit said that China was using the specter of terrorism in an attempt to undermine sympathy for the Uighur cause. “The purpose of issuing this report is to seek support for their extreme policies and the trampling of human rights,” Raxit said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "China has arrested nearly 13,000 people it describes as terrorists and has broken up hundreds of “terrorist gangs” in Xinjiang since 2014, the government said in a report issued yesterday to counter criticism of internment camps and other oppressive security in the traditionally Islamic region.",
+          "concept": "mass arrests",
+          "reasoning": "Reports large-scale arrests in a geopolitical conflict zone with specific numbers."
+        },
+        {
+          "rank": 2,
+          "text": "Criticism has grown over China’s internment of an estimated 1 million Uighurs and members of other predominantly Muslim ethnic groups. China describes the camps as vocational training centers and says participation is voluntary.",
+          "concept": "internment camps",
+          "reasoning": "Describes human rights crisis with estimated population figures."
+        },
+        {
+          "rank": 3,
+          "text": "It said that 1,588 terrorist gangs have been crushed and 12,995 terrorists seized since 2014. Over that time, 2,052 explosive devices were seized and more than 30,000 people were punished for taking part in almost 5,000 “illegal religious activities,” it said.",
+          "concept": "terrorist crackdown details",
+          "reasoning": "Provides detailed data on seizures and punishments, indicating urgent state response."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00007",
+      "row_idx": 5476,
+      "normalized": 8.023966789245605,
+      "actual_text": "covers nine countries: Benin, Burkina Faso, Cameroon, Chad, Cote d’Ivoire, Guinee, Mali, Mauritania, and",
+      "plain_text": "World Bank approves USD 365 mn for advancing girls, women empowerment in Western, Central Africa By ANI | Published: September 30, 2023 03:02 PM2023-09-30T15:02:55+5:302023-09-30T15:05:03+5:30 Washington DC [US], September 30 (ANI/WAM): The World Bank Board of Directors today approved USD 365 million in International ... Washington DC [US], September 30 (ANI/WAM): The World Bank Board of Directors today approved USD 365 million in International Development Association (IDA) financing to increase girls’ and women’s access to learning, economic opportunities, and utilization of health services, and to strengthen the institutional capacity for gender equality in Western and Central Africa. The Sub-Saharan Africa Women’s Empowerment and Demographic Dividend Plus project (SWEDD+) has the potential to directly benefit over 2 million vulnerable girls aged between ten to 19 years old who are at risk of child marriage, early pregnancy, gender-based violence, and leaving school as well as their communities in Burkina Faso, Chad, Senegal, The Gambia, and Togo. Other countries in the region may join and others may benefit from activities carried out at the regional level. Thus, a significantly higher number of people will indirectly benefit from multiple gender transformative interventions that will contribute to ending poverty and boosting shared prosperity by promoting girls’ and women’s social and economic autonomy, improving the availability of sexual and reproductive health services, and fostering national and regional capacity for policy making on gender equality. “Empowering adolescent girls and young women is essential to accelerate Africa’s demographic transition, improve human development outcomes, and build human capital and inclusive economic growth,” said Ousmane Diagana, World Bank Vice-President for Western and Central Africa. “By investing in women and girls, countries will build resilient communities that can bounce back from crises and adapt to rising threats, such as climate change and fragility”. SWEDD+ will sustain the momentum developed through the original SWEDD project – which covers nine countries: Benin, Burkina Faso, Cameroon, Chad, Cote d’Ivoire, Guinee, Mali, Mauritania, and Niger — to expand and deepen the impact on adolescent girls and women. By partnering with two regional institutions – the Economic Community of Central African States (ECCAS), and the Economic Community of West African States (ECOWAS) —, SWEDD+ will take actions to build regional knowledge, capacity, and commitment and adopt harmonized policies to enhance women’s empowerment across the countries. “It is important to build regional ownership and capacity to allow these institutions to carry forth the women’s empowerment agenda and increase the attention placed on these issues across the continent”, said Boutheina Guermazi, World Bank Regional Integration Director for Africa and the Middle East. The newly approved SWEDD+ brings the total World Bank investments toward women’s empowerment in Africa to USD 1.04 billion. Its objectives are in alignment with the mission and vision of both ECCAS and ECOWAS. It also contributes to the attainment of the African Union Agenda 2063 goals and to the World Bank’s poverty reduction efforts. (ANI/WAM) Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“By investing in women and girls, countries will build resilient communities that can bounce back from crises and adapt to rising threats, such as climate change and fragility”.",
+          "concept": "crisis resilience",
+          "reasoning": "Mentions bouncing back from crises, aligning with disaster response themes."
+        },
+        {
+          "rank": 2,
+          "text": "The Sub-Saharan Africa Women’s Empowerment and Demographic Dividend Plus project (SWEDD+) has the potential to directly benefit over 2 million vulnerable girls aged between ten to 19 years old who are at risk of child marriage, early pregnancy, gender-based violence, and leaving school as well as their communities in Burkina Faso, Chad, Senegal, The Gambia, and Togo.",
+          "concept": "vulnerable groups risks",
+          "reasoning": "Describes negative events like gender-based violence affecting at-risk populations."
+        },
+        {
+          "rank": 3,
+          "text": "World Bank approves USD 365 mn for advancing girls, women empowerment in Western, Central Africa By ANI | Published: September 30, 2023 03:02 PM2023-09-30T15:02:55+5:302023-09-30T15:05:03+5:30 Washington DC [US], September 30 (ANI/WAM): The World Bank Board of Directors today approved USD 365 million in International ...",
+          "concept": "funding announcement",
+          "reasoning": "Includes dates and locations but lacks urgent crisis framing."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00000",
+      "row_idx": 835,
+      "normalized": 0.0,
+      "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
+      "plain_text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor  Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar. Desde el pasado sábado 28 de noviembre, la zona ha registrado un enjambre sísmico, que según los datos del Instituto Volcanológico de Canarias (Involcan) superan la veintena de movimientos. La propia institución científica resume que los eventos están siendo localizados a una profundidad promedia de entre seis y ocho kilómetros bajo el nivel del mar.  El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.  El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".  Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 \"y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población\". aclara el centro científico que concluye que \"este tipo de enjambres son comunes en volcanes activos, y en un 90% de ocasiones desaparecen de la misma forma en la que se presentan\".  Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población. En concreto, de la web del IGN se desprende que el de mayor intensidad alcanzó los dos grados y se registró a las 11:05 de ayer a una profundidad de nueve kilómetros.  Este terremoto vino precedido de un movimiento de hasta 1,7 grados registrado durante la noche del domingo en una zona cercana y a unos seis kilómetros de profundidad. Otros seísmos de intensidad menor se localizaron en diversas zonas de la Isla como Granadilla o Fasnia, además de los habituales en la zona del Volcán de Enmedio, aunque ninguno de ellos alcanzó, según el Instituto Geográfico Nacional, los dos grados del movimiento en Vilaflor alrededor de las once de la mañana.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.",
+          "concept": "earthquake magnitude",
+          "reasoning": "Provides specific data on seismic event, indicating a natural disaster."
+        },
+        {
+          "rank": 2,
+          "text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar. Desde el pasado sábado 28 de noviembre, la zona ha registrado un enjambre sísmico, que según los datos del Instituto Volcanológico de Canarias (Involcan) superan la veintena de movimientos.",
+          "concept": "seismic swarm report",
+          "reasoning": "Announces ongoing geological activity with dates and locations."
+        },
+        {
+          "rank": 3,
+          "text": "La propia institución científica resume que los eventos están siendo localizados a una profundidad promedia de entre seis y ocho kilómetros bajo el nivel del mar. El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".",
+          "concept": "volcanic activity details",
+          "reasoning": "Describes hydrothermal system pressurization, related to volcanic crises."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 227,
+      "normalized": 0.0,
+      "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
+      "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.",
+          "concept": "offensive words",
+          "reasoning": "Mentions potentially sensitive terms, but not in a crisis report."
+        },
+        {
+          "rank": 2,
+          "text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES THE ANSWER No, The New York Times did not make Wordle harder.",
+          "concept": "media entity",
+          "reasoning": "References a major news organization, but without urgent content."
+        },
+        {
+          "rank": 3,
+          "text": "To understand whether the game’s gotten harder, you have to understand how the daily word is chosen. This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle.",
+          "concept": "game mechanics",
+          "reasoning": "Describes procedural details, lacking urgency."
+        }
+      ]
+    }
+  ]
+}

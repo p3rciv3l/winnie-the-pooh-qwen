@@ -1,0 +1,37 @@
+{
+  "neuron_id": "35_16179",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing a specific named entity (person, organization, or title) immediately followed by descriptive or attributive clauses** (such as \"Sgt. Tommy Mockler and Sgt. J.J. Tierney carried...\", \"Gener\u00e1ln\u00ed \u0159editel spole\u010dnosti Celestis Charles Chafer... uvedl\", or \"violin player Hannah Bird, 13, concurred\").\n\n2. **Domain coverage**: The pattern appears consistently across multiple languages (English, Spanish, French, German, Italian, Portuguese, Romanian, Czech, Polish, etc.) and primarily in formal or journalistic prose\u2014news reports, official statements, and descriptive narratives. The topics are diverse (military, corporate, legal, artistic, scientific) but uniformly use the structure: [Specific Named Entity] + [verb/action/description].\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a specific named entity entirely, present only a generic subject (\"Iran\", \"Astronauts\"), or are truncated before the descriptive clause begins. For instance, \"Il 6 maggio 1976 alle ore 21.0\" is an incomplete fragment without a named agent, while \"Giulia Grillo, ministro della Salute, M5S, \u00e8 un\" cuts off before the predicate. The neuron fires weakly on bare entity mentions without subsequent elaboration.\n\n4. **Closing interpretation**: The neuron detects syntactically complete phrases where a concrete, named agent is actively linked to a subsequent action, statement, or qualification. It appears to specialize in the grammatical pattern of **specific attribution or identification within a flowing narrative**, acting as a filter for well-formed, entity-centric clauses in multi-lingual formal writing.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "a game that you would see in the postseason here in March,\u201d said Maryland Coach Brenda Frese, whose team has won 11 of 12 overall.",
+      "normalized_activation": 9.654607772827148,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "4.300 de cl\u0103diri sunt \u00eencadrate \u00een risc II, III \u015fi IV, 619 fiind \u00een Buc",
+      "normalized_activation": 8.978287696838379,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u0163iilor. Cum Erosul e cel care-l reproiecteaz\u0103 pe ins (ensul fenomenologic) \u00een nemurirea sacr\u0103, \u00een",
+      "normalized_activation": 8.158174514770508,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Big families: This is the house you\u2019re looking for in a top school district.",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Dramatic events are unfolding in the heart of the Milky Way. At the center",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

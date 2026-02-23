@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_17361",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text where an entity (person, group, government, or media) explicitly characterizes, labels, or frames another entity, action, or situation** (such as a government calling protesters \"terrorists,\" a person describing an event as \"a seismic moment,\" or a report stating a country \"views\" a territory as its own).\n\n2. **Domain coverage**: The pattern appears predominantly in political, diplomatic, and conflict reporting across multiple languages (English, Spanish, Russian, Swedish, etc.). It activates on statements about international relations (China-Taiwan, Russia-Ukraine, Israel-Palestine), internal political criticism, legal characterizations (labeling someone a \"victim of torture\"), and media framing of events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit framing verbs or phrases like \"views as,\" \"treats as,\" \"characterized as,\" \"described as,\" \"labelled as,\" \"hailed as,\" or \"consider.\" The low-activation examples are straightforward factual reports, announcements, or cultural pieces (e.g., NASA instruments, concert debuts, holiday events) that lack this meta-layer of interpretation or labeling by an agent within the text.\n\n4. **Closing interpretation**: The neuron detects the linguistic act of strategic framing or categorization within discourse. It fires on clauses where a source actively imposes a narrative, judgment, or official designation onto something else, making it a detector for perspectival or polemical statements rather than neutral facts.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ". Believe me, they won\u2019t. Less excitable types will regard FPAs as heralding only a mild shift towards a more centralised form of bargaining over wages",
+      "normalized_activation": 9.53007698059082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2224,
+          "meaning_score": 0.8052,
+          "overlap_fraction": 0.8278,
+          "location_score": 0.1656,
+          "combined_score": 0.5766
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2029,
+          "meaning_score": 0.2571,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.184
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1314,
+          "meaning_score": 0.5452,
+          "overlap_fraction": 0.0066,
+          "location_score": 0.0013,
+          "combined_score": 0.272
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "his polling lead has fallen. If Northam wins, Democrats will tout his victory as a rebuke of Trumpism. However, it\u2019s a race Northam always",
+      "normalized_activation": 8.631790161132812,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.184,
+          "meaning_score": 0.517,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2804
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1841,
+          "meaning_score": 0.7523,
+          "overlap_fraction": 0.7899,
+          "location_score": 0.158,
+          "combined_score": 0.5325
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2232,
+          "meaning_score": 0.1884,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1646
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "engine maker Aerojet Rocketdyne. Healthcare was among the markets listed as an antitrust priority in a White House executive order issued last summer. The tougher",
+      "normalized_activation": 7.50321102142334,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1834,
+          "meaning_score": 0.4034,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2347
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2098,
+          "meaning_score": 0.4095,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2477
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1736,
+          "meaning_score": 0.3877,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2245
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Grand Island's evening forecast: Partly cloudy. Low 39F. Winds",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.4101,
+          "meaning_score": 0.8157,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6904
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.4577,
+          "meaning_score": 0.6316,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4357
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.151,
+          "meaning_score": 0.6,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3004
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Oggi, esattamente come 35 anni fa. Il tempo scor",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1535,
+          "meaning_score": 0.2562,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1639
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.191,
+          "meaning_score": 0.2131,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1617
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1459,
+          "meaning_score": 0.5724,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4873
+        }
+      ]
+    }
+  ]
+}

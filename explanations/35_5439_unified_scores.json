@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_5439",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations in news/article-style prose** (such as narrative clauses following a comma, descriptive phrases adding detail, or connective text that flows from a prior clause).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Swedish, Spanish, Italian, Polish, Ukrainian, Arabic, etc.) and topics (local news, sports, disasters, politics, cultural events), but exclusively in contexts that resemble the body of a journalistic article or narrative description\u2014never in headlines, standalone announcements, or social media-style leads.\n\n3. **Contrast with low-activation examples**: The high-activation texts are almost all grammatical continuations: they begin with lowercase letters, often follow commas or conjunctions, and add secondary information (details, locations, participants, consequences). The low-activation examples are self-contained, headline-style phrases: they are complete, often title-case fragments, and function as summaries or leads rather than narrative continuations.\n\n4. **Closing interpretation**: The neuron detects text that is syntactically and semantically dependent on prior context, acting as a marker for prose elaboration within running discourse rather than decontextualized statements. It essentially fires on \"text that continues a story.\"",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "hanno interessato soprattutto scuole e strutture sportive. Interventi che abbiamo potuto realizzare anche grazie alla capacit\u00e0 dei nostri u",
+      "normalized_activation": 9.690536499023438,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1555,
+          "meaning_score": 0.4548,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2441
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2599,
+          "meaning_score": 0.4018,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2647
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2498,
+          "meaning_score": 0.5322,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5128
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ului devastator din Turcia: Autorit\u0103\u021bile anun\u021b\u0103 peste 800 de r\u0103ni\u021bi Cel pu\u021bin",
+      "normalized_activation": 9.083663940429688,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1691,
+          "meaning_score": 0.4482,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2469
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1637,
+          "meaning_score": 0.5507,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2858
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1626,
+          "meaning_score": 0.4821,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2579
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "6 do jari 1990. P\u00f4vodne mala nadv\u00e4zova\u0165 na prvorepublikov\u00e9 odborov",
+      "normalized_activation": 8.33767318725586,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1349,
+          "meaning_score": 0.2833,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1673
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1789,
+          "meaning_score": 0.4306,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2438
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1111,
+          "meaning_score": 0.4155,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2106
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Israeli Strike on Beirut Escalates Conflict with Hamas: A Humanitarian Crisis Unf",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1961,
+          "meaning_score": 0.4346,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2523
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1657,
+          "meaning_score": 0.4755,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2565
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1124,
+          "meaning_score": 0.4856,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2392
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Ahora la aplicaci\u00f3n 911 CDMX tambi\u00e9n contar\u00e1 con el servicio",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1583,
+          "meaning_score": 0.4776,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2544
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2033,
+          "meaning_score": 0.4274,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2523
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1245,
+          "meaning_score": 0.3001,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1699
+        }
+      ]
+    }
+  ]
+}

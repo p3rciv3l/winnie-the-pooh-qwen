@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_9748",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific named entities, institutions, or locations embedded within longer, news-like narrative clauses** (such as \"Groucho Marx\u2019s You Bet Your Life,\" \"provinciei Izmir,\" \"Grand Central Terminal,\" or \"Eduardo\").\n\n2. **Domain coverage**: The pattern appears predominantly in multi-lingual news or factual reportage contexts. Examples span languages (English, German, Romanian, Spanish, Italian, Vietnamese, Russian, Polish) and topics (disasters, politics, sports, finance, entertainment), but consistently feature a proper noun (person, organization, place, event, or work title) integrated into a descriptive or event-updating sentence structure.\n\n3. **Contrast with low-activation examples**: The low-activation texts often either lack a specific, integrated named entity (e.g., \"Third Industrial Fatality...\") or mention entities only in a truncated, headline-like or introductory phrase before the clause completes (e.g., \"Um terramoto de magnitude 6,8...\" stops before specifying a location). The high-activation group is characterized by the entity being part of a flowing, information-dense clause.\n\n4. **Closing interpretation**: This neuron appears to detect a linguistic structure common in journalistic prose: the presence of concrete, specific referents within a continuous narrative frame. It acts less as a topic detector and more as a marker for \"specificity-in-context,\" filtering for sentences that anchor general statements with precise names.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Goldberg f\u00fcr ihre Rolle als Emmett Tills Gro\u00dfmutter \"einen st\u00f6renden Fettanzug\" trug. Die Rezension wurde",
+      "normalized_activation": 9.589030265808105,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1947,
+          "meaning_score": 0.8201,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6059
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1352,
+          "meaning_score": 0.4945,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2519
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1295,
+          "meaning_score": 0.4651,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2378
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u043d\u0435\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u043b\u0438 \u043f\u043b\u0430\u0442\u0438\u0442\u044c. \u041e\u043d \u0432\u044b\u043a\u0443\u043f\u0438\u043b \u0441\u043a\u043b\u0430\u0434, \u043f\u0440\u0438\u043d\u044f\u043b\u0441\u044f \u0440\u0430\u0441\u0447\u0438\u0449\u0430\u0442\u044c \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435 \u0438 \u0437\u0430\u043c\u0435\u0442\u0438\u043b \u043d\u0435\u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u0437\u0430\u043f\u0430\u0445.",
+      "normalized_activation": 8.793587684631348,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1646,
+          "meaning_score": 0.4787,
+          "overlap_fraction": 0.2347,
+          "location_score": 0.0469,
+          "combined_score": 0.3043
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1526,
+          "meaning_score": 0.4399,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.237
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1312,
+          "meaning_score": 0.2311,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1449
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "9, 09:34 Uhr Ein Junge geht durch ein \u00fcberflutetes Gebiet in der Provinz Manicaland im Oasten",
+      "normalized_activation": 7.885939598083496,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.197,
+          "meaning_score": 0.4958,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2771
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1902,
+          "meaning_score": 0.4199,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.244
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1958,
+          "meaning_score": 0.4278,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2494
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Maduro\u2019s Useful Idiots Much of the left in Europe and the US",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2391,
+          "meaning_score": 0.3885,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.251
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1547,
+          "meaning_score": 0.4313,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2344
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1576,
+          "meaning_score": 0.5146,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2689
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1593,
+          "meaning_score": 0.7216,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3523
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1533,
+          "meaning_score": 0.4718,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2501
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1726,
+          "meaning_score": 0.5219,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2778
+        }
+      ]
+    }
+  ]
+}

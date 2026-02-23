@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_17661",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing dense sequences of proper nouns, official titles, or multilingual named entities** (such as lists of names with titles, multilingual news datelines, or administrative/geographic references in non-English contexts).\n\n2. **Domain coverage**: The pattern appears prominently in multilingual news snippets, official reports, and administrative texts. Examples span languages like Swedish, Italian, Arabic, Greek, and Indonesian, often involving: political or institutional figures (e.g., \"Angela Merkel,\" \"Dr. Khalid Saeed Khan\"), geographic/regional entities (\"Regione Molise,\" \"\u0394\u03ae\u03bc\u03bf\u03c5 \u03a6\u03b1\u03b9\u03c3\u03c4\u03bf\u03cd\"), and structured lists of names with professional roles or locations.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally more generic news headlines or descriptive prose without dense clusters of capitalized names, titles, or multilingual proper nouns. They discuss events or topics (earthquakes, protests, AI announcements) without the same concentration of specific named entities in rapid succession.\n\n4. **Closing interpretation**: The neuron likely detects spans of text where named entity recognition is highly salient, acting as a multilingual \"proper noun cluster\" detector. It focuses on formal or reportorial text segments that anchor discourse through specific people, places, organizations, or titles.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "izione Italia Meridionale che comprende le regioni Abruzzo, Molise, Campania, Puglia, Basilicata e Calabria",
+      "normalized_activation": 9.12353229522705,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u092a\u0930\u094d\u0930\u093f\u0915\u0930 \u0915\u0947 \u0928\u093f\u0927\u0928 \u0938\u0947 \u0917\u094b\u0935\u093e \u092e\u0947\u0902 \u0917\u0939\u0930\u093e\ufffd",
+      "normalized_activation": 7.942808628082275,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ivo de Radio Euskadi, que \u201cen la mano del lehendakari est\u00e1 y es su cometido proteger a la ciudadan\u00eda vasca",
+      "normalized_activation": 6.896812915802002,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

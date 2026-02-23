@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_5478",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:21:53Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal institutions, particularly judicial bodies and educational schools** (such as \"Supreme Court,\" \"high school,\" or specific courts and schools).\n\n2. **Domain coverage**: The neuron activates across legal/political news (references to supreme courts in the US, India, Canada, Belarus, Philippines, etc., often in English) and educational contexts (\"high school,\" \"middle school,\" \"graduated high school\"). It also responds to institutional names in multilingual text (e.g., Spanish \"Corte Suprema\" in the high-activation group is implied by context, while low-activation multilingual snippets lack such references).\n\n3. **Contrast with low-activation examples**: The low-activation texts are short fragments, often in non-English languages or about unrelated topics (sports, business, general news) that do not contain named formal institutions. The high-activation texts consistently include proper nouns designating courts or schools, whereas the low-activation ones lack any such institutional naming.\n\n4. **Closing interpretation**: The neuron detects textual references to specific, often government or educational, institutions by recognizing their proper-name titles. It serves as a classifier for formal organizational entities within diverse text spans.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00009",
+      "row_idx": 4837,
+      "normalized": 9.842402458190918,
+      "actual_text": "“I’m going to appeal the [Appeal Court] ruling to the Supreme Court. Although it can be concluded from the history of solution, that when the national",
+      "plain_text": "The Court of Appeal in Rovaniemi has ruled to uphold a verdict against Finns Party Member of Parliament Sebastian Tynkkynen.  The Oulu MP was convicted in District Court in October 2019 for a Facebook post where he wrote about Islam and terrorism.  Prosecutors said the MP equated being a Muslim to being a terrorist, and that Tynkkynen’s 2016 posts, when he was the leader of the Finns Party Youth group, amounted to “deliberate, racist and disparaging hate speech” which was directed at all Muslims and was “likely to provoke contempt and even religious intolerance towards Muslims.”  Tynkkynen denied the charges, and worked on social media to frame the conviction as a free speech issue while he appealed the sentence.  During the appeal, Tynkkynen demanded that the 2019 charges be dismissed or the €4,000 fine reduced.  “I’m going to appeal the [Appeal Court] ruling to the Supreme Court. Although it can be concluded from the history of solution, that when the national prosecutor presses charges, the judge is mostly a rubber stamp, you still have to try to fight for the right to freedom of speech in politics, including when you talk about Islam” says Tynkkynen, a former reality TV show contestant on Big Brother, in a statement.  In addition to this judgment, upheald by the Appeal Court, Tynkkynen was previously convicted in 2017 of religious and ethnic incitement.  The MP is facing a third court case for alleged racism in his election campaign. Tynkkynen says he’s been to the Oulu police station as part of that preliminary investigation but so far no date has been set for the trial.  You might also be interested in:",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "During the appeal, Tynkkynen demanded that the 2019 charges be dismissed or the €4,000 fine reduced.  “I’m going to appeal the [Appeal Court] ruling to the Supreme Court.",
+          "concept": "judicial court",
+          "reasoning": "This section explicitly mentions the Supreme Court, a high-level judicial institution."
+        },
+        {
+          "rank": 2,
+          "text": "The Court of Appeal in Rovaniemi has ruled to uphold a verdict against Finns Party Member of Parliament Sebastian Tynkkynen.",
+          "concept": "judicial court",
+          "reasoning": "This section mentions the Court of Appeal, a formal judicial body."
+        },
+        {
+          "rank": 3,
+          "text": "In addition to this judgment, upheald by the Appeal Court, Tynkkynen was previously convicted in 2017 of religious and ethnic incitement.",
+          "concept": "judicial court",
+          "reasoning": "This section references the Appeal Court, a judicial institution."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00011",
+      "row_idx": 785,
+      "normalized": 6.200730800628662,
+      "actual_text": "day included a rendition of “America The Beautiful” by John Burroughs High School senior Grace Sessinghaus and the national anthem by a Kindergarten class from",
+      "plain_text": "The City of Burbank’s Veterans Day Ceremony held Friday, November 10, at the McCambridge Park War Memorial brought out veterans from every branch of the military.  The Condor Squadron started off the event with an impressive flyover and the Burbank Community Band entertained those in attendance. Highlights of the day included a rendition of “America The Beautiful” by John Burroughs High School senior Grace Sessinghaus and the national anthem by a Kindergarten class from St. Robert Bellarmine Elementary School.  Elected officials made comments and reminded those in attendance of the significance of Veterans Day. All veterans in attendance were honored and recognized for their service.  Here are some photos as seen through the lens of myBurbank Chief Photographer Ross A. Benson.  Click on the images to see a larger view.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Highlights of the day included a rendition of “America The Beautiful” by John Burroughs High School senior Grace Sessinghaus and the national anthem by a Kindergarten class from St. Robert Bellarmine Elementary School.",
+          "concept": "educational school",
+          "reasoning": "This section names two educational institutions: John Burroughs High School and St. Robert Bellarmine Elementary School."
+        },
+        {
+          "rank": 2,
+          "text": "The City of Burbank’s Veterans Day Ceremony held Friday, November 10, at the McCambridge Park War Memorial brought out veterans from every branch of the military.",
+          "concept": "municipal government",
+          "reasoning": "This section mentions the City of Burbank, a formal municipal institution."
+        },
+        {
+          "rank": 3,
+          "text": "Elected officials made comments and reminded those in attendance of the significance of Veterans Day. All veterans in attendance were honored and recognized for their service.",
+          "concept": "government officials",
+          "reasoning": "This section refers to elected officials, who are part of formal government institutions."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 3908,
+      "normalized": 4.008162975311279,
+      "actual_text": "other crimes against humanity, and said she would raise the matter with the International Criminal Court in the Hague. \"When I return to New York, I will brief",
+      "plain_text": "Myanmar's army has replaced the general in charge of Rakhine state following a military crackdown that has driven more than 600,000 Rohingya Muslims into neighbouring Bangladesh amid reports of mass rape, torture and other crimes.  Maj.-Gen. Maung Maung Soe was transferred from his post as head of Western Command in Rakhine, where Myanmar's military, known as the Tatmadaw, launched a sweeping counter-insurgency operation in August.  \"I don't know the reason why he was transferred,\" said Maj.-Gen.Aye Lwin, deputy director of the psychological warfare and public relations department at the Ministry of Defence. \"He wasn't moved into any position at present; he has been put in reserve.\"  The move comes ahead of the visit on Wednesday by U.S. Secretary of State Rex Tillerson, who is expected to deliver a stern message to Myanmar's generals, over whom national leader Aung San Suu Kyi, criticized in the West for failing to halt atrocities, has little control.  Push for U.S. sanctions  Senators in Washington are pressing to pass legislation imposing economic and travel sanctions targeting the military and its business interests.  Leaders of Asian countries meeting in Manila on Monday skirted around the mass exodus of Rohingya Muslims, disappointing human rights groups hoping for a tough stand on the crisis.  Maung Maung Soe's transfer was ordered on Friday and Brig.-Gen. Soe Tint Naing had been appointed as the new head of Western Command. Soe Tint Naing's previous role was as a director for logistics.  A senior UN official has described the army's actions in Rakhine as a textbook example of ethnic cleansing. Myanmar says the clearance operation was necessary for national security after Rohingya militants attacked 30 security posts and an army base in the state on Aug. 25.  Reports of sexual violence  On Sunday, another UN official accused Myanmar's military of conducting organized rape and other crimes against humanity, and said she would raise the matter with the International Criminal Court in the Hague.  \"When I return to New York, I will brief and raise the issue with the prosecutor and president of the ICC whether they [Myanmar's military] can be held responsible for these atrocities,\" Pramila Patten, special representative of the secretary general on sexual violence in conflict, said in Dhaka.  \"Sexual violence is being commanded, orchestrated and perpetrated by the Armed Forces of Myanmar, otherwise known as the Tatmadaw,\" Patten said following a three-day tour of the Rohingya refugee camps in the Cox's Bazar region of Bangladesh.  \"Rape is an act and a weapon of genocide,\" she said.  Refugees have accused Myanmar soldiers and Buddhist vigilantes of torching their villages, murdering their families and raping women.  Patten said brutal acts of sexual violence had occurred in the context of collective persecution that included the killing of adults and children, torture, mutilation and the burning and looting of villages.  \"The forms of sexual violence we consistently heard about from survivors include gang-rape by multiple soldiers, forced public nudity and humiliation, and sexual slavery in military captivity. One survivor was in captivity for 45 days by the Myanmar army,\" Patten said.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "On Sunday, another UN official accused Myanmar's military of conducting organized rape and other crimes against humanity, and said she would raise the matter with the International Criminal Court in the Hague.",
+          "concept": "international court",
+          "reasoning": "This section mentions the International Criminal Court, a judicial body."
+        },
+        {
+          "rank": 2,
+          "text": "\"I don't know the reason why he was transferred,\" said Maj.-Gen.Aye Lwin, deputy director of the psychological warfare and public relations department at the Ministry of Defence.",
+          "concept": "defense ministry",
+          "reasoning": "This section references the Ministry of Defence, a government institution."
+        },
+        {
+          "rank": 3,
+          "text": "Maj.-Gen. Maung Maung Soe was transferred from his post as head of Western Command in Rakhine, where Myanmar's military, known as the Tatmadaw, launched a sweeping counter-insurgency operation in August.",
+          "concept": "military command",
+          "reasoning": "This section mentions Western Command, a formal military institution."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 68,
+      "normalized": 0.0,
+      "actual_text": "Nel cuore dell’universo, l’umanità coltiva il",
+      "plain_text": "Nel cuore dell’universo, l’umanità coltiva il sogno di estendere la propria esistenza nello spazio profondo. Un’odissea che, sebbene attraente, è intrisa di sfide biologiche e sociali che potrebbero ridefinire radicalmente il nostro concetto di “vivere nello spazio”. In questo viaggio attraverso le intricante implicazioni, ci troviamo di fronte a un crocevia tra la curiosità esplorativa umana e le dure realtà scientifiche che attendono al di là dell’orizzonte terrestre. L’innovazione tecnologica ci ha permesso di immaginare la sintetizzazione e il riciclo infinito di risorse vitali nello spazio, ma gli stessi scienziati che alimentano questi sogni ci avvertono di sfide biologiche inaspettate. Gli astronauti sulla Stazione Spaziale Internazionale sperimentano una perdita significativa di densità ossea, sfidando la nostra capacità di adattamento alle condizioni di microgravità, nonostante gli allenamenti rigorosi. Vivere nello spazio, sebbene affascinante, si scontra con la realtà di una possibile epidemia di osteoporosi in una colonia spaziale. Al di là di queste sfide fisiologiche, vivere nello spazio profondo ci esporrebbe a radiazioni cosmiche galattiche, un pericolo invisibile che minaccerebbe la salute degli esploratori spaziali. Brillamenti solari potrebbero causare avvelenamenti massicci, gettando un’ombra su qualsiasi progetto di colonizzazione a lungo termine. Tuttavia, la prospettiva di esplorare nuovi mondi ha spinto gli ingegneri spaziali a cercare soluzioni, come habitat rotanti e schermature anti-radiazioni, che possono rivelarsi essenziali per la nostra sopravvivenza nello spazio. Biologia nello spazio Affrontare la sfida biologica richiede non solo un adattamento tecnologico, ma anche una riflessione sul nostro ruolo nell’evoluzione umana. Se progettiamo astronavi con ambienti troppo simili a quelli terrestri, corriamo il rischio di perdere la spinta evolutiva per adattarci a nuovi mondi. Un paradosso che mette in discussione la stessa ragione della nostra esplorazione spaziale. Le soluzioni tecnologiche, come habitat rotanti e schermature anti-radiazioni, possono sembrare la risposta alle sfide biologiche, ma allo stesso tempo sollevano domande fondamentali sulla nostra capacità di mantenere l’essenza umana in condizioni così radicalmente diverse. Evoluzione sociale nello spazio La costante minaccia delle radiazioni e la dipendenza acuta dalla tecnologia potrebbero plasmare società più autoritarie. Immersi nel pericolo cosmico, potremmo trovarci a dover adottare strutture sociali simili a regimi marittimi del XIX secolo, dove ogni individuo è chiamato a eseguire il proprio ruolo senza esitazioni, pronto a sacrificarsi per il bene della specie. In questo viaggio tra le stelle, sogniamo di superare i confini terrestri, ma dobbiamo essere consapevoli delle sfide che ci attendono. Mentre progettiamo tecnologie avanzate per preservare la nostra biologia nello spazio, dobbiamo anche contemplare le implicazioni sociali di un’esistenza oltre il nostro pianeta. L’evoluzione umana e sociale nello spazio potrebbe essere un viaggio tanto epico quanto la conquista delle stelle stesse, ridefinendo il significato di ciò che è umano nel vasto universo cosmico.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Gli astronauti sulla Stazione Spaziale Internazionale sperimentano una perdita significativa di densità ossea, sfidando la nostra capacità di adattamento alle condizioni di microgravità, nonostante gli allenamenti rigorosi.",
+          "concept": "space station",
+          "reasoning": "This section names the International Space Station, a formal international institution."
+        },
+        {
+          "rank": 2,
+          "text": "L’innovazione tecnologica ci ha permesso di immaginare la sintetizzazione e il riciclo infinito di risorse vitali nello spazio, ma gli stessi scienziati che alimentano questi sogni ci avvertono di sfide biologiche inaspettate.",
+          "concept": "technological innovation",
+          "reasoning": "This section discusses technological innovation but does not name a specific formal institution."
+        },
+        {
+          "rank": 3,
+          "text": "Nel cuore dell’universo, l’umanità coltiva il sogno di estendere la propria esistenza nello spazio profondo. Un’odissea che, sebbene attraente, è intrisa di sfide biologiche e sociali che potrebbero ridefinire radicalmente il nostro concetto di “vivere nello spazio”.",
+          "concept": "space exploration",
+          "reasoning": "This section discusses space exploration but does not name a specific formal institution."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici",
+          "concept": "research institutions",
+          "reasoning": "This section lists multiple formal research institutions and a university."
+        },
+        {
+          "rank": 2,
+          "text": "Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni",
+          "concept": "research center",
+          "reasoning": "This section mentions CentroMS, a formal research center for seismic microzonation."
+        },
+        {
+          "rank": 3,
+          "text": "ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva",
+          "concept": "government agency",
+          "reasoning": "This section mentions ENEA, a government agency, and Tekva, a company."
+        }
+      ]
+    }
+  ]
+}

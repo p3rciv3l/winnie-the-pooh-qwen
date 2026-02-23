@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_14720",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of full human names alongside formal titles, roles, or institutional affiliations** (such as \"Attorney General William P. Barr,\" \"Dr. William Knight, emergency medicine physician,\" or \"William Allen White Children\u2019s Book Awards selection committee\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news, reporting, and official documentation covering politics, law, medicine, academia, and arts/culture. It also activates for similar formal name-title structures in other languages (e.g., Italian \"Il personaggio di Simon Gregory William,\" Russian text mentioning official actions). The context is typically descriptive or narrative prose detailing events, positions, or citations.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a person's first and last name preceded or immediately followed by an official title, professional role, or organizational connection. The low-activation examples either lack names entirely, use only partial names (e.g., \"Mattis,\" \"Zheng Liansheng\" without a proximate formal title), or are fragments without this structured human reference (e.g., headlines, instructions, simple statements).\n\n4. **Closing interpretation**: The neuron detects a specific linguistic structure that signals a formal, often authoritative, reference to a person within an institutional or professional context. It appears to key on the syntactic coupling of a personal name with a defining title or affiliation.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "will be city-dwellers. These cities, however, just do not have enough room for their new entrants. That is why the housing glut in urban",
+      "normalized_activation": 9.807226181030273,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1521,
+          "meaning_score": 0.3708,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2092
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1384,
+          "meaning_score": 0.2905,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1716
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1541,
+          "meaning_score": 0.14,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1176
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\"and he thanked Saudi Arabia for buying THAAD missile interceptors at a cost of, I believe, $10 or",
+      "normalized_activation": 9.27712345123291,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1883,
+          "meaning_score": 0.3552,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2174
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1651,
+          "meaning_score": 0.7473,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.365
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1575,
+          "meaning_score": 0.3295,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1948
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "chief humor officers Tilly and Reno \u2013 coronavirus travel concerns meant Tig Notaro was only available for a few episodes this year \u2013 Stamets has become a much-needed source",
+      "normalized_activation": 8.52617073059082,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2085,
+          "meaning_score": 0.2935,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2008
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2231,
+          "meaning_score": 0.879,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6409
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.203,
+          "meaning_score": 0.2585,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1846
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1471,
+          "meaning_score": 0.5195,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2666
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1688,
+          "meaning_score": 0.3537,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.209
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1491,
+          "meaning_score": 0.3773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2106
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1942,
+          "meaning_score": 0.3086,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2011
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2274,
+          "meaning_score": 0.3567,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2336
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.122,
+          "meaning_score": 0.331,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1812
+        }
+      ]
+    }
+  ]
+}

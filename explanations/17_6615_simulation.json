@@ -1,0 +1,148 @@
+{
+  "neuron_id": "17_6615",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:42:22Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that attributes information to an official, organizational, or media source** (such as news releases, government statements, company announcements, or reports from military/law enforcement).\n\n2. **Domain coverage**: The pattern appears in journalistic and formal reporting across multiple domains: legal proceedings, government policy, military actions, scientific findings, corporate announcements, and sports updates. It is multilingual, with clear examples in English, Spanish, French, German, Italian, Arabic, and Russian, indicating the neuron detects the structural pattern of attribution rather than a specific language or topic.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain phrases like \"said in a news release,\" \"according to,\" \"in a statement,\" \"informó,\" or \"berichtet,\" followed by the sourced information. The low-activation examples lack this attribution; they are primarily personal narratives, opinion pieces, descriptive prose, horoscopes, or general discussions without citing an official communication channel.\n\n4. **Closing interpretation**: The neuron appears to detect the linguistic framing of externally sourced claims, acting as a filter for declarative information presented with institutional authority. It helps the model identify text that is reporting facts or positions from an organizational voice rather than expressing personal or unsubstantiated content.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00019",
+      "row_idx": 4476,
+      "normalized": 9.52090835571289,
+      "actual_text": "and supporting staff on the front line. that is paying attention, said a government statement. The ministers expressed their special appreciation for the extraordinary efforts of healthcare workers in the",
+      "plain_text": "Updated 1 hour ago HSE makingSHT making is making progress towards restoring the health systems that were affected by the cyber attack which hit the health service last week. HSE and IT experts have developed a new version of the decryption tool made available in cyber attack, according to Health Minister Stephen Donnelly. An encryption tool that could help HSE unlock its IT system following last week’s widespread cyber attack is available online. A new version of the tool has been tested and a structured and controlled deployment is now underway across the core network and devices across the system, Donnelly said. We are making progress in restoring health systems that is important to our patients who need services, and also to staff across the service who are doing wild work after 14 months of intensive work at Covid-19, he said. The Ministerial Cyber ​​Assault Task Force continues to meet daily to review progress in responding to recent weeks of cyber attacks on the HSE and to coordinate ongoing action across the Government. Good progress is being made with the restoration of the hospital HSE and IT. The National Imaginary Integrated Medical Platform (NIMIS) that provides digital radiology is back at Beaumont Hospital, with progress in other hospitals. However, Donnelly said the disruption levels next week are expected to be similar to this week. Government ministers met today to review progress in Irelands’ response to the HSE cyber attack. Ministers Donnelly, Eamon Ryan, and Heather Humphreys and Secretary of State Ossian Smyth were updated on the progress made toward restoring HSE and hospital systems, which is essential for restoring patient care and supporting staff on the front line. that is paying attention, said a government statement. The ministers expressed their special appreciation for the extraordinary efforts of healthcare workers in the difficult line caused by the cyber attack, the statement said. The National Cyber ​​Security Center, HSE and specialist contractors are continuing to implement a detailed and dedicated operational program to repair and restore HSE systems and IT network, and are making very steady progress in what is a difficult task. and complex. Taoiseach Michal Martin said yesterday that the reason the vehicle was provided was unknown. Secretary of State Niall Collins said earlier this afternoon that it was still unclear why the decryption key was made available. Speaking on RT Radio Ones Saturday with Katie Hannon, Collins said work was ongoing to determine if the decryption key is functional. The HSE is an extremely complex organization, with over 80,000 devices across the HSE, which need to be checked as part of the entire response to this cyber attack, Collins said. The Minister said that we should have an increased public awareness campaign during the next number of days to highlight to people, especially people in need, the dangers posed by criminal organizations operating in the cyber sphere. The Vice President of the Irish Association of Hospital Consultants (IHCA) Dr Gabrielle Colleran, a consulting radiologist on Holles Street, told RT Radio One that these were the eight most difficult days of her time at the HSE since joining the body in 2003. Health workers on Holles Street were facing multiple challenges when they went to work last Friday, including disconnected computers, no working phones and no access to patient records. Dr. Colleran said staff were trying to put together the picture of the clinical puzzle from the conversations with each other. Temporary measures, such as using cell phones to communicate and taking notes manually, were quickly shut down instead of trying to keep the show on the street. However, the reality is much slower when we are doing things by hand, when we do not have access to advance services, it is not the safe, high quality service we want to provide and it is much slower. Dr. Colleran said it is clear that they will have to invest coming out of this and it is important that we invest not only in hardware and software but also to have local expertise in the country. many [healthcare workers in model three hospitals] are quite affected by the fact that the expertise is centralized and not local on the ground. So it is very important that we invest wisely in the solutions that work, and the solutions that work come from the front line.  No news is bad news \nSupport the Newspaper Yours contributions will help us continue to tell stories that are important to you Support us now Sinn Fin health spokesman David Cullinane said the priority should be for services to recover and function as soon as possible. We need to have a conversation about cyber security and funding, Cullinane said. We can not take our eyes off the ball in that area, because if criminal gangs can penetrate our healthcare system as well and almost bring it to its knees at a very vulnerable time, obviously more needs to be done. The HSE has received a Supreme Court order to stop data that could have been stolen during the attack being used illegally. The Ordinance requires that anyone holding HSE data return it and not disclose, trade or deal with the information. The public has been advised to be wary of phone and telephone scams by fraudsters taking advantage of fears about attacking the HSE.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "HSE and IT experts have developed a new version of the decryption tool made available in cyber attack, according to Health Minister Stephen Donnelly. An encryption tool that could help HSE unlock its IT system following last week’s widespread cyber attack is available online. A new version of the tool has been tested and a structured and controlled deployment is now underway across the core network and devices across the system, Donnelly said.",
+          "concept": "government official attribution",
+          "reasoning": "This section contains two explicit attributions to Health Minister Stephen Donnelly using 'according to' and 'said'."
+        },
+        {
+          "rank": 2,
+          "text": "Government ministers met today to review progress in Irelands’ response to the HSE cyber attack. Ministers Donnelly, Eamon Ryan, and Heather Humphreys and Secretary of State Ossian Smyth were updated on the progress made toward restoring HSE and hospital systems, which is essential for restoring patient care and supporting staff on the front line. that is paying attention, said a government statement. The ministers expressed their special appreciation for the extraordinary efforts of healthcare workers in the difficult line caused by the cyber attack, the statement said.",
+          "concept": "government statement",
+          "reasoning": "This section quotes a government statement using 'said a government statement' and 'the statement said'."
+        },
+        {
+          "rank": 3,
+          "text": "The Vice President of the Irish Association of Hospital Consultants (IHCA) Dr Gabrielle Colleran, a consulting radiologist on Holles Street, told RT Radio One that these were the eight most difficult days of her time at the HSE since joining the body in 2003. Health workers on Holles Street were facing multiple challenges when they went to work last Friday, including disconnected computers, no working phones and no access to patient records. Dr. Colleran said staff were trying to put together the picture of the clinical puzzle from the conversations with each other.",
+          "concept": "media interview attribution",
+          "reasoning": "This section attributes statements to a hospital consultant via a media outlet with 'told RT Radio One' and 'Dr. Colleran said'."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 898,
+      "normalized": 8.592288970947266,
+      "actual_text": "to the Delaware Department of Natural Resources and Environmental Control (DNREC). DNREC says that ECU's investigation resulted in the 58-year-old being issued an",
+      "plain_text": "GEORGETOWN, Del. - The Delaware Natural Resources Police Environmental Crimes Unit (ECU) arrested a Georgetown man on Tuesday, September 20th for illegal dumping on a public roadway, according to the Delaware Department of Natural Resources and Environmental Control (DNREC). DNREC says that ECU's investigation resulted in the 58-year-old being issued an e-ticket with a fine of $637 for causing or contributing to the discharge of solid waste materials. DNREC reminds Delawareans and visitors to Keep DE Litter Free, not to litter, to help clean up our outdoor spaces, and protect the state’s unique natural heritage.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "GEORGETOWN, Del. - The Delaware Natural Resources Police Environmental Crimes Unit (ECU) arrested a Georgetown man on Tuesday, September 20th for illegal dumping on a public roadway, according to the Delaware Department of Natural Resources and Environmental Control (DNREC).",
+          "concept": "official department attribution",
+          "reasoning": "This sentence attributes the arrest information to DNREC using 'according to'."
+        },
+        {
+          "rank": 2,
+          "text": "DNREC says that ECU's investigation resulted in the 58-year-old being issued an e-ticket with a fine of $637 for causing or contributing to the discharge of solid waste materials.",
+          "concept": "department statement",
+          "reasoning": "This sentence presents DNREC's statement using 'says that'."
+        },
+        {
+          "rank": 3,
+          "text": "DNREC reminds Delawareans and visitors to Keep DE Litter Free, not to litter, to help clean up our outdoor spaces, and protect the state’s unique natural heritage.",
+          "concept": "department reminder",
+          "reasoning": "This sentence is a direct statement from DNREC reminding the public, though not explicitly attributed as a quote."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00008",
+      "row_idx": 4766,
+      "normalized": 7.494838237762451,
+      "actual_text": ". intelligence officials accuse Russian of influencing the 2016 election The Office of Director of National Intelligence said Russian President Vladimir Putin and the Russian government had a",
+      "plain_text": "After dominating headlines for nearly two years, special counsel Robert Mueller’s investigation into Russia’s meddling in the 2016 election and its possible ties to Donald Trump’s presidential campaign culminated Friday in a final report. The Justice Department appointed Mueller, an ex-FBI director, to lead the investigation in May 2017 and since then his probe has resulted in indictments, guilty pleas, convictions and some revelations in the news media but no indication of collusion between Russian operatives and the Trump campaign. The investigation has, however, expanded to include questions about whether the president of the United States obstructed justice. It’s been a winding road for the investigation, so we’re going to break down some of the key steps along the way. Here are the big developments that led to the release of Mueller’s report. 2017 Jan. 6: U.S. intelligence officials accuse Russian of influencing the 2016 election  The Office of Director of National Intelligence said Russian President Vladimir Putin and the Russian government had a “clear preference” for Trump to win over his Democratic opponent Hillary Clinton, and that Putin ordered an “influence campaign” and sought to “undermine public faith in the U.S. democratic process.” March 2: Attorney General Jeff Sessions recused himself from Trump campaign investigations Sessions recused himself from “any existing or future investigations of any matter relating in any way” to Trump’s campaign, meaning oversight fell to Rod Rosenstein, deputy attorney general, who appointed the special counsel. RELATED: What you need to know about Jeff Sessions and why he's under fire over contacts with Russia May 9: President Trump fired FBI Director James Comey The reasons for the firing are the subject of debate. Trump said he terminated Comey on the counsel of Sessions and Rosenstein. Democrats criticized the firing because of the ongoing investigation, but White House officials said the decision had nothing to do with Russia. May 17: Mueller appointed as special counsel The Justice Department named Mueller, a former FBI director, as special counsel to take over an investigation that was already underway.  “The public interest requires me to place this investigation under the authority of a person who exercises a degree of independence from the normal chain of command,” Rosenstein said at the time. June 8: Comey testified against Trump before Congress In a hearing before the Senate’s intelligence committee, Comey described an Oval Office meeting where he said that he felt Trump directed him to end the FBI investigation into former national security adviser Michael Flynn. “It’s my judgment that I was fired because of the Russia investigation,” Comey said. Trump denied this the next day in a press conference at the White House. RELATED: Former FBI chief Comey says he was fired to stop Russia inquiry, and accuses Trump of 'lies, plain and simple' June 14: It’s reported that the investigation expanded to focus on Trump The Washington Post and The New York Times reported that Mueller’s team began considering possible obstruction of justice a few days after Comey was fired. In response, Trump tweets that Americans are “witnessing the single greatest WITCH HUNT in American political history — led by some very bad and conflicted people.” July 26: FBI agents raided the home of former campaign chairman Paul Manafort FBI investigators entered the home of Manafort in Alexandria, Virginia, and left with “a trove” of material, according to The Washington Post. Oct. 30: First charges filed Manafort was indicted on charges of money-laundering and conspiracy. A business aide of his, Richard Gates, was also indicted. And it was revealed that George Papadopoulos, a former foreign policy advisor to the Trump campaign, had pleaded guilty on Oct. 5 to lying to the FBI about his contacts with the Russians. Dec. 1: Flynn pleaded guilty to lying to FBI Mueller announced a plea deal with Flynn. Flynn lied to FBI agents about his communication with the Russian government. 2018 Feb. 16: Russians indicted in the investigation Mueller indicted 13 Russians and several Russian companies for using stolen identities and fake social media accounts and events to interfere in the election. The now infamous Internet Research Agency is one of the indicted groups. Feb. 20: Lawyer linked to Trump campaign pleaded guilty Alex Van der Zwaan pleaded guilty to lying to federal investigators about his work for Paul Manafort. On April 3, 2018 the Dutch lawyer became the first person to be sentenced in the Mueller probe. He was deported to the Netherlands after serving 30 days in prison. Feb. 23: Gates pleaded guilty and agreed to testify against Manafort Gates pleaded guilty to financial fraud and lying to federal investigators and agreed to testify against his business partner, Manafort. April 9: Trump’s personal lawyer targeted in investigation Sept. 14: Manafort pleaded guilty, agreed to cooperate Manafort pleaded guilty to two counts of conspiracy on the eve of jury selection for his trial in Washington and agreed to cooperate with the special council. A judge later ruled that Manafort breached his plea deal by repeatedly lying to investigators. He also was convicted by a Virginia jury on Aug. 21 for tax evasion and bank fraud in a separate federal case unrelated to the Trump campaign. Nov. 7: Sessions forced out Attorney General Jeff Sessions resigned at President Trump's request.Trump tweeted that Sessions would be replaced on an acting basis by Matthew Whitaker. Nov. 20: Trump submitted answer to questions from Mueller Mueller’s team asked Trump to answer questions about any knowledge of Russian interference in the election and the president provided written answers. The answers were reportedly a result of a negotiation with Trump’s lawyers that took almost one year. It was a compromise that put the president on the record but allowed him to avoid an in-person interview. Nov. 29: Trump’s personal lawyer pleaded guilty to lying to Congress Cohen pleaded guilty in federal court in New York to lying to Congress about the extent of the Trump Organization’s efforts to build a hotel in Moscow during the 2016 campaign. He was sentenced on Dec. 12 to three years in federal prison, and fined $50,000. 2019 Jan 18: Mueller’s office makes rare statement disputing press report In a rare public comment from Mueller’s team, a Buzzfeed News story that reported Trump directed Cohen to lie to Congress was disputed by the office of the special counsel. Buzzfeed responded by standing by its reporting. Jan. 25: Roger Stone arrested Roger Stone, a longtime adviser to Trump, was arrested at his Fort Lauderdale, Florida, home after an indictment accusing him of lying, obstruction and witness tampering. Feb. 27: Cohen testified before Congress Trump’s former lawyer, testified before the House Oversight and Reform Committee about his experiences working for the president, before and after the 2016 presidential campaign. March 13: Manafort sentenced a second time After being sentenced to four years in prison on one charge on March 8, Manafort’s total sentence was increased to seven and a half years five days later. RELATED: The same day, the Manhattan district attorney filed state criminal charges, including mortgage fraud, that could ensure Manafort remains behind bars even if he is pardoned by Trump. March 14: House of Representatives unanimously votes to make Mueller report public The House unanimously passed a nonbinding resolution calling for any completed report that Mueller’s team sends to the attorney general to be released to the public. In addition, it requested the full report be provided to Congress. The Senate blocked the measure hours later. March 22: Mueller delivers the report The special counsel turned in his long-awaited report to Attorney General William Barr. Twitter: @abbyhamblin",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Office of Director of National Intelligence said Russian President Vladimir Putin and the Russian government had a “clear preference” for Trump to win over his Democratic opponent Hillary Clinton, and that Putin ordered an “influence campaign” and sought to “undermine public faith in the U.S. democratic process.”",
+          "concept": "intelligence agency statement",
+          "reasoning": "This section attributes a statement to the Office of Director of National Intelligence using 'said'."
+        },
+        {
+          "rank": 2,
+          "text": "In a hearing before the Senate’s intelligence committee, Comey described an Oval Office meeting where he said that he felt Trump directed him to end the FBI investigation into former national security adviser Michael Flynn. “It’s my judgment that I was fired because of the Russia investigation,” Comey said. Trump denied this the next day in a press conference at the White House.",
+          "concept": "congressional testimony",
+          "reasoning": "This section contains Comey's testimony before the Senate committee and his direct quote with 'Comey said'."
+        },
+        {
+          "rank": 3,
+          "text": "The Washington Post and The New York Times reported that Mueller’s team began considering possible obstruction of justice a few days after Comey was fired. In response, Trump tweets that Americans are “witnessing the single greatest WITCH HUNT in American political history — led by some very bad and conflicted people.”",
+          "concept": "media report",
+          "reasoning": "This section attributes information to The Washington Post and The New York Times using 'reported'."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00015",
+      "row_idx": 4319,
+      "normalized": 0.6497698426246643,
+      "actual_text": ", kui jäi võõrsil 0:2 alla Evertonile. Evertoni väravad lõid 49. minutil Richarl",
+      "plain_text": "Londoni Chelsea jalgpalliklubi teenis täna hooaja seitsmenda kaotuse, kui jäi võõrsil 0:2 alla Evertonile. Evertoni väravad lõid 49. minutil Richarlison ning 72. minutil Gylfi Sigurdsson. Kaotusega mängis Chelsea maha suurepärase võimaluse tõusta esinelikule lähemale. Chelseal on tabelis 57 punkti, mis annab neile kuuenda koha. Kui nad oleksid täna võitnud, oleksid nad tõusnud Arsenaliga jagama neljandat kohta. Praegu jäävad nad Arsenalist maha kolme punktiga ning viiendal kohal olevast Manchester Unitedist punktiga. Evertonile oli aga tegu esimese koduvõiduga pärast 13. jaanuarit. Tabelis on neil kokku nüüd 40 punkti, mis annab neile 11. koha.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Londoni Chelsea jalgpalliklubi teenis täna hooaja seitsmenda kaotuse, kui jäi võõrsil 0:2 alla Evertonile. Evertoni väravad lõid 49. minutil Richarlison ning 72. minutil Gylfi Sigurdsson.",
+          "concept": "sports reporting",
+          "reasoning": "This section is a factual sports report without explicit attribution to an official source, which likely results in low activation."
+        },
+        {
+          "rank": 2,
+          "text": "Kaotusega mängis Chelsea maha suurepärase võimaluse tõusta esinelikule lähemale. Chelseal on tabelis 57 punkti, mis annab neile kuuenda koha. Kui nad oleksid täna võitnud, oleksid nad tõusnud Arsenaliga jagama neljandat kohta.",
+          "concept": "sports analysis",
+          "reasoning": "This section provides match analysis and standings without attributing the information to a source."
+        },
+        {
+          "rank": 3,
+          "text": "Praegu jäävad nad Arsenalist maha kolme punktiga ning viiendal kohal olevast Manchester Unitedist punktiga. Evertonile oli aga tegu esimese koduvõiduga pärast 13. jaanuarit. Tabelis on neil kokku nüüd 40 punkti, mis annab neile 11. koha.",
+          "concept": "sports statistics",
+          "reasoning": "This section lists league standings and statistics without any attribution to an official or media source."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00012",
+      "row_idx": 4851,
+      "normalized": 0.6312255859375,
+      "actual_text": "and related terrorism threats to anonymously contact the Federal Bureau of Investigation. The bill also would require DHS to engage in research and development of technologies and techniques that would help state",
+      "plain_text": "H.R. 7433, Law Enforcement Support and Transnational Repression Act  H.R. 7433 would require the Department of Homeland Security (DHS) to conduct a public service outreach campaign to educate the public and international allies about transnational repression and related terrorist threats. The outreach campaign would include information on resources and ways for victims of threats and intimidation by foreign governments and related terrorism threats to anonymously contact the Federal Bureau of Investigation. The bill also would require DHS to engage in research and development of technologies and techniques that would help state and local governments counter transnational repression and related threats.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "H.R. 7433, Law Enforcement Support and Transnational Repression Act  H.R. 7433 would require the Department of Homeland Security (DHS) to conduct a public service outreach campaign to educate the public and international allies about transnational repression and related terrorist threats.",
+          "concept": "legislative description",
+          "reasoning": "This section describes a bill's requirements without attributing the information to a source."
+        },
+        {
+          "rank": 2,
+          "text": "The outreach campaign would include information on resources and ways for victims of threats and intimidation by foreign governments and related terrorism threats to anonymously contact the Federal Bureau of Investigation.",
+          "concept": "policy detail",
+          "reasoning": "This section details a policy provision without any attribution to an official statement or report."
+        },
+        {
+          "rank": 3,
+          "text": "The bill also would require DHS to engage in research and development of technologies and techniques that would help state and local governments counter transnational repression and related threats.",
+          "concept": "legislative requirement",
+          "reasoning": "This section states a legislative requirement without citing an official source or media attribution."
+        }
+      ]
+    }
+  ]
+}

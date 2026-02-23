@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_268",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to **text containing words or names that begin with the character sequence \"Be-\" or its variants across languages** (such as \"Be\u015fikta\u015f,\" \"BeauHD,\" \"Beaver,\" \"Beane,\" \"Bezos,\" or \"Bellamar\").\n\nThe pattern appears across multiple languages (Turkish, English, Hungarian, German) and diverse domains: sports teams (\"Be\u015fikta\u015f\"), personal/brand names (\"BeauHD,\" \"Bezos,\" \"Beane\"), place names (\"Beaver Creek,\" \"Beaufort West\"), and common words (\"beamed,\" \"beating\"). The neuron also processes non-English characters that approximate this sequence, such as the Hungarian \"Bea\" in \"Beatrice\" or the Turkish \"Be\" in \"Belediyesi.\"\n\nIn contrast, the low-activation examples contain no instances of words starting with \"Be-\" or its orthographic equivalents. While the low-activation texts are also news-style snippets, they lack this specific character-sequence trigger, focusing instead on topics like politics, natural events, or institutional announcements without the \"Be-\" prefix.\n\nThe neuron is primarily detecting a surface-level orthographic pattern\u2014the character bigram \"Be\" at the beginning of words\u2014rather than a coherent semantic concept, activating consistently across languages and contexts where this sequence appears.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Becky Lynch Says She Was Nearly Fired From WWE Before Her NXT Debut",
+      "normalized_activation": 9.627991676330566,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1662,
+          "meaning_score": 0.6892,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3422
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2059,
+          "meaning_score": 0.84,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.4184
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2034,
+          "meaning_score": 0.5429,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2985
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "expressed shock at some clauses of the agreement saying it amounted to \"blood money\". Appearing on behalf of the Italian side, Harish Salve has claimed it was",
+      "normalized_activation": 9.009045600891113,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2449,
+          "meaning_score": 0.3604,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2421
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2479,
+          "meaning_score": 0.4422,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2761
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2169,
+          "meaning_score": 0.7406,
+          "overlap_fraction": 0.4557,
+          "location_score": 0.0911,
+          "combined_score": 0.4741
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "the China-Pakistan Economic Corridor, which is going to create economic opportunity for Pakistan and will benefit the region also. We restored the 1973 Constitution",
+      "normalized_activation": 8.294368743896484,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.3033,
+          "meaning_score": 0.6036,
+          "overlap_fraction": 0.7927,
+          "location_score": 0.1585,
+          "combined_score": 0.5213
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1047,
+          "meaning_score": 0.1827,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.115
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1117,
+          "meaning_score": 0.2737,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1542
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Aumenta a 75 la cifra de v\u00edctimas mortales en el",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1381,
+          "meaning_score": 0.3862,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2097
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.138,
+          "meaning_score": 0.36,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1992
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.138,
+          "meaning_score": 0.3464,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1938
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "La alcaldesa de Guayaquil, Cynthia Viteri, dispone un",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2709,
+          "meaning_score": 0.6885,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5838
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2709,
+          "meaning_score": 0.6875,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3834
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2709,
+          "meaning_score": 0.4657,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2947
+        }
+      ]
+    }
+  ]
+}

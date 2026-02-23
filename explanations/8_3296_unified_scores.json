@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_3296",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal news reporting structures and datelines** (such as agency dispatches with location tags, legislative/governmental updates, or disaster/event reports with geographic specificity).\n\n2. **Domain coverage**: The pattern appears in multilingual news snippets (English, Spanish, Italian, French, Romanian, etc.) that feature institutional sources (e.g., \"Reporting by...\", \"Editor\", legislative bodies, meteorological agencies), specific geographic references (e.g., Bengaluru, Brussels, Corea del Sur, Telangana), and often include citation elements like URLs or Twitter handles. Topics span politics, natural disasters, financial results, and crime reports.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain structured attributions (e.g., \"Reporting by...; Editing by...\"), official titles/roles, and precise location names within a journalistic frame. The low-activation examples are either incomplete fragments, lack geographic/institutional specificity, or belong to informal genres (personal anecdotes, reviews, horoscopes, simple announcements without reporting syntax).\n\n4. **Closing interpretation**: The neuron detects text that follows the conventional scaffolding of curated news reporting, focusing on the formal metadata of source, location, and institutional context rather than the event's subject matter itself. It acts as a filter for professionally dispatched information, not general news topics.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": ", End of Fracking Ban, New Oil Drilling Licences https://t.co/oIWfTq3aP8 \u2014 Breitbart London (@Breitbart",
+      "normalized_activation": 9.405936241149902,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2476,
+          "meaning_score": 0.3878,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2542
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1998,
+          "meaning_score": 0.5793,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3117
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0956,
+          "meaning_score": 0.3186,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1657
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "\u0cb0 \u0c86\u0c97\u0ccd\u0cb0\u0cb9 \u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1: \u0cb0\u0cbe\u0c9c\u0ccd\u0caf \ufffd",
+      "normalized_activation": 6.934287071228027,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1925,
+          "meaning_score": 0.4373,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2519
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1404,
+          "meaning_score": 0.2226,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1452
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1728,
+          "meaning_score": 0.0537,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.0906
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "33 alle 1:09 vicino ad Aci Sant\u2019Antonio quasi tutti gli eventi sismici hanno avuto ipocentro una",
+      "normalized_activation": 4.2432074546813965,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1136,
+          "meaning_score": 0.4174,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2124
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1575,
+          "meaning_score": 0.466,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2494
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1068,
+          "meaning_score": 0.4585,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2261
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1663,
+          "meaning_score": 0.4052,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2286
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1073,
+          "meaning_score": 0.5195,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2507
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1175,
+          "meaning_score": 0.5247,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2569
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1755,
+          "meaning_score": 0.7554,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5723
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1226,
+          "meaning_score": 0.3872,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2039
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1076,
+          "meaning_score": 0.4558,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2253
+        }
+      ]
+    }
+  ]
+}

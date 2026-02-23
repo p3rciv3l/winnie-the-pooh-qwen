@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_4370",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **direct or reported speech framed by contextual narrative markers** (such as quoted dialogue introduced by \"said\"/\"told\"/\"according to,\" clauses explaining who is speaking and how, or narrative setups preceding a quotation).\n\n2. **Domain coverage**: The pattern appears across diverse domains\u2014political commentary, international relations, personal anecdotes, and news reporting\u2014in multiple languages (English, Spanish, Italian, Hindi, Turkish). It activates on text where a speaker\u2019s statement is being presented, analyzed, or contextualized, often with framing phrases like \u201che said,\u201d \u201caccording to,\u201d \u201ctold AFP,\u201d or \u201cshe said, according to the recording.\u201d\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit framing of speech or thought from a specific source, often with verbs of communication and contextual details about the speaker or situation. The low-activation examples are largely headlines, factual reports, descriptive prose, or social/media snippets that lack this structured presentation of quoted speech (e.g., \u201cVideo: Jesse Lingard celebrates\u2026\u201d, \u201cExplore the cosmic energies\u2026\u201d, \u201cA mystery party-goer stunned\u2026\u201d).\n\n4. **Closing interpretation**: The neuron detects the meta-linguistic scaffolding used to introduce and attribute spoken or reported statements, focusing more on the narrative frame around dialogue than the specific content of the quotes themselves. It acts as a \u201cspeech attribution\u201d detector across topics and languages.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "wrong, please, please do not lie about it. If you lie about it, I can\u2019t help you here. You\u2019ve jeopardized your integrity and most likely",
+      "normalized_activation": 9.627106666564941,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1943,
+          "meaning_score": 0.3154,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2039
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1943,
+          "meaning_score": 0.3051,
+          "overlap_fraction": 0.6324,
+          "location_score": 0.1265,
+          "combined_score": 0.3262
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1943,
+          "meaning_score": 0.3553,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2199
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "We'll go up this embankment here on Interstate 10. And then we'll get a little bit better view of the whole site. HERSHER",
+      "normalized_activation": 8.979559898376465,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1992,
+          "meaning_score": 0.8323,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6126
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2344,
+          "meaning_score": 0.3846,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2476
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2844,
+          "meaning_score": 0.3136,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2392
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "governments are going to do stuff and that is going to affect your business. And then it is a material risk.\" That echoes the voice of Mark Carney, Bank",
+      "normalized_activation": 8.216815948486328,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2018,
+          "meaning_score": 0.6562,
+          "overlap_fraction": 0.7171,
+          "location_score": 0.1434,
+          "combined_score": 0.4866
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1396,
+          "meaning_score": 0.4676,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2429
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.0916,
+          "meaning_score": 0.3169,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1634
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Soju Is The Most Traditional Drink To Pair With This Pork Dish In South Korea",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1093,
+          "meaning_score": 0.4773,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2347
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1456,
+          "meaning_score": 0.722,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.347
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1836,
+          "meaning_score": 0.5679,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3006
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "MARRAKECH, Morocco (AP) \u2014 Morocco has launched its first observation satellite",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1629,
+          "meaning_score": 0.5071,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.268
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2637,
+          "meaning_score": 0.4529,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2867
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2026,
+          "meaning_score": 0.8778,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6322
+        }
+      ]
+    }
+  ]
+}

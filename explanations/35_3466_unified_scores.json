@@ -1,0 +1,162 @@
+{
+  "neuron_id": "35_3466",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin scripts or heavily accented Latin characters within formal, official, or news-style prose** (such as Romanian administrative text, Arabic news reports, Bengali exam notices, or Thai public health updates).\n\n2. **Domain coverage**: The neuron activates across multiple languages and regions\u2014including Romanian, Arabic, Bengali, Thai, Spanish, Italian, Greek, Hindi, and Cyrillic scripts\u2014specifically within contexts of government announcements, seismic/geological reports, legal or procedural documents, and news dispatches. It detects not just the script but the combination of that script with formal, information-dense content.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either in simple Latin-script English (e.g., \"The University of Cincinnati is reviewing...\") or are short, fragmentary headlines in other scripts without the same density of formal terminology. The high-activation group consistently features multi-clause, descriptive sentences from official sources, whereas the low group includes more straightforward announcements, business/tech phrases, or conversational snippets.\n\n4. **Closing interpretation**: This neuron appears to detect a specific tokenization or embedding signature associated with multilingual, formally composed text segments, likely acting as a \"dense non-English official register\" detector. It fires when formal content is expressed through graphemes that are less frequent in the model's predominantly English training data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "hibido gritar. No hace falta alzar el tono de voz cuando hables",
+      "normalized_activation": 9.726902961730957,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1881,
+          "meaning_score": 0.2882,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1906
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.083,
+          "meaning_score": 0.2042,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1149
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1562,
+          "meaning_score": 0.6616,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5271
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "avviciniamo a certo crossover thrash dei primi anni Novanta che vede nei Power Trip i pi\u00f9 celebri risuscitatori. Citere",
+      "normalized_activation": 9.17016315460205,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1506,
+          "meaning_score": 0.3747,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2101
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.158,
+          "meaning_score": 0.4997,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2631
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1627,
+          "meaning_score": 0.5016,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2657
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "acie 20 tys. podpis\u00f3w pod petycj\u0105 znacznie poszerzaj\u0105c\u0105 prawo do klauzuli sumienia. Do",
+      "normalized_activation": 8.408407211303711,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1669,
+          "meaning_score": 0.6861,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3412
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1509,
+          "meaning_score": 0.4534,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2417
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2333,
+          "meaning_score": 0.5251,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3033
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "0,\" which is the code for all black shirts in Versace stores, according to the suit. The employee, who said he is African-American, said he",
+      "normalized_activation": 1.137165904045105,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1251,
+          "meaning_score": 0.827,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3809
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2582,
+          "meaning_score": 0.6912,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3798
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1775,
+          "meaning_score": 0.5192,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2787
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Thoothukudi had all potential to have more manufacturing industries. But, at the same the environment should be pollution-free. The initiative in this direction should come from",
+      "normalized_activation": 1.1024707555770874,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2591,
+          "meaning_score": 0.4358,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2779
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2112,
+          "meaning_score": 0.9004,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6446
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2359,
+          "meaning_score": 0.3451,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2324
+        }
+      ]
+    }
+  ]
+}

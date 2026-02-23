@@ -1,0 +1,37 @@
+{
+  "neuron_id": "0_7721",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the word \"west\" or \"western\" in any form (such as the cardinal direction \"west,\" the geopolitical entity \"the West,\" or the proper noun \"West Virginia\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including international relations (e.g., \"Western sanctions,\" \"West Bank\"), geography (\"rise in the East and set in the West\"), regional descriptions (\"western coast,\" \"western market\"), and cultural references (\"West African roots\"). It activates for texts in English regardless of topic, but does not fire for texts in other languages (e.g., Spanish, Russian, Armenian) or English texts that lack the keyword.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the substring \"west\" (capitalized or not), while the low-activation examples completely lack this term. The low-activation group includes texts on unrelated topics (e.g., polls, local news, health studies) in various languages, none of which mention \"west.\"\n\n4. **Closing interpretation**: This neuron functions as a simple keyword detector for the term \"west.\" Its activation is driven by lexical presence rather than a specific semantic concept, making it sensitive to the word's occurrence in any context.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Kolkata: An official of the West Bengal Pollution Control Board told The Telegraph on Friday that air quality in Kolkata has improved",
+      "normalized_activation": 9.887103080749512,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "a letter categorically opposing Israel's plans to annex 30% of the West Bank in addition to the entirety of the Jordan Valley, according to a Thursday statement",
+      "normalized_activation": 9.52591609954834,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "time. Capital ratios at Australia's major banks - Commonwealth Bank of Australia, Westpac Banking Corp, ANZ Banking Group and National Australia Bank - stand at",
+      "normalized_activation": 8.849923133850098,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Suppose you go away on a vacation. Hey, it could happen. Or you",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

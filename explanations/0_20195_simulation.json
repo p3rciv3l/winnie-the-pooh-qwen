@@ -1,0 +1,148 @@
+{
+  "neuron_id": "0_20195",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T04:12:30Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific U.S. states, regions, and cities** (such as Texas, Michigan, Minnesota, Iowa, the Northeast, or cities like Lubbock and Austin), particularly within English-language news or factual contexts.\n\n2. **Domain coverage**: The neuron activates in domains covering U.S. politics, education, sports, healthcare, business, and natural disasters when they involve state-specific references. Examples include legislative actions in Texas, university programs in Michigan, flooding in Iowa and Nebraska, and sports teams from Minnesota. It processes English-language text almost exclusively, with no strong responses to non-English examples.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit U.S. geographic identifiers, while low-activation examples are either in other languages (Italian, Spanish, Czech, etc.) or discuss topics without U.S. regional focus (e.g., international news, astronomy, film reviews, or earthquakes in Queens—which, despite being in the U.S., does not trigger the neuron, suggesting it may prioritize state/regional names over city names alone).\n\n4. **Closing interpretation**: This neuron appears to detect textual references to U.S. states and major regions, acting as a geographic filter for domestic U.S. content in English. It likely supports the model in distinguishing country-specific subnational entities within news or descriptive narratives.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00010",
+      "row_idx": 4502,
+      "normalized": 9.533726692199707,
+      "actual_text": "The lawsuit filed by the Department of Justice, together with Attorneys General in Minnesota and New York, argues that the deal would harm competition in the commercial health insurance",
+      "plain_text": "US regulator has filed a civil lawsuit to block UnitedHealth Group’s $13bn acquisition of Change Healthcare.  The lawsuit filed by the Department of Justice, together with Attorneys General in Minnesota and New York, argues that the deal would harm competition in the commercial health insurance market.  It will also impact the market for technology used by health insurance firms to process claims and reduce costs, the regulator said.  In January 2021, United announced plans to buy healthcare technology provider Change via Optum.  38 of the 40 leading health insurers in the US use Change’s and United’s first-pass claims editing solutions and if the deal materialises, the firms will collectively control nearly 75% of the market, the DOJ said in its complaint.  The regulator alleged that United understands that through the acquisition, it will be able to access the proprietary plan and payment rules of rival health insurers such as Humana, Anthem, CVS Health Corp’s Aetna and Cigna.  DOJ Antitrust Division Principal Deputy Assistant Attorney General Doha Mekki said: “The proposed transaction threatens an inflexion point in the health care industry by giving United control of a critical data highway through which about half of all Americans’ health insurance claims pass each year.  “Unless the deal is blocked, United stands to see and potentially use its health insurance rivals’ competitively sensitive information for its own business purposes and control these competitors’ access to innovations in vital health care technology.”  Responding to the lawsuit, UnitedHealth said it would appeal against it. “The Department’s deeply flawed position is based on highly speculative theories that do not reflect the realities of the healthcare system. We will defend our case vigorously,” it said in a statement.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "US regulator has filed a civil lawsuit to block UnitedHealth Group’s $13bn acquisition of Change Healthcare.  The lawsuit filed by the Department of Justice, together with Attorneys General in Minnesota and New York, argues that the deal would harm competition in the commercial health insurance market.",
+          "concept": "U.S. states",
+          "reasoning": "Explicitly mentions the U.S. states Minnesota and New York in a legal context."
+        },
+        {
+          "rank": 2,
+          "text": "38 of the 40 leading health insurers in the US use Change’s and United’s first-pass claims editing solutions and if the deal materialises, the firms will collectively control nearly 75% of the market, the DOJ said in its complaint.",
+          "concept": "U.S. country reference",
+          "reasoning": "Mentions 'US' as a country identifier, which may trigger the neuron's focus on U.S. domestic content."
+        },
+        {
+          "rank": 3,
+          "text": "DOJ Antitrust Division Principal Deputy Assistant Attorney General Doha Mekki said: “The proposed transaction threatens an inflexion point in the health care industry by giving United control of a critical data highway through which about half of all Americans’ health insurance claims pass each year.",
+          "concept": "U.S. population",
+          "reasoning": "References 'Americans', indicating U.S. domestic focus, though not a specific state."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00015",
+      "row_idx": 388,
+      "normalized": 8.842179298400879,
+      "actual_text": "HARRISBURG – The Pennsylvania Game Commission’s Eagle Cam is back online. The Game Commission launched the latest rendition",
+      "plain_text": "HARRISBURG – The Pennsylvania Game Commission’s Eagle Cam is back online. The Game Commission launched the latest rendition of its Eagle Cam, which enables viewers worldwide round-the-clock access to live video and audio captured at a bald-eagle nest in Hanover, York County, and streamed in real time via the internet. The Eagle Cam is provided through a partnership among the Game Commission, HDOnTap, Comcast Business and Codorus State Park. The Eagle Cam features two cameras, each equipped with a microphone, running round the clock to capture footage from 75 feet high in a tree adjacent to Codorus State Park. Eagles have nested at the tree for more than 10 years, and have successfully fledged young there many times. Last year, however, was a tough one for the eagles at the nest. While one of two eggs hatched, the chick died shortly after. And while the adult eagles loyally continued to incubate the remaining egg, it never hatched, and they abandoned their nesting attempt. Then the nest partially collapsed, casting doubt on whether the Eagle Cam livestream could continue at the same site in coming seasons. But the nest was rebuilt, and a pair of adults appear ready to make another go of it this season. To view the Eagle Cam, go to the Game Commission’s website, pgc.pa.gov and click on the eagle cam icon found near the top of the homepage.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "HARRISBURG – The Pennsylvania Game Commission’s Eagle Cam is back online. The Game Commission launched the latest rendition of its Eagle Cam, which enables viewers worldwide round-the-clock access to live video and audio captured at a bald-eagle nest in Hanover, York County, and streamed in real time via the internet.",
+          "concept": "Pennsylvania state reference",
+          "reasoning": "Explicitly mentions Pennsylvania and a specific county within it."
+        },
+        {
+          "rank": 2,
+          "text": "The Eagle Cam is provided through a partnership among the Game Commission, HDOnTap, Comcast Business and Codorus State Park. The Eagle Cam features two cameras, each equipped with a microphone, running round the clock to capture footage from 75 feet high in a tree adjacent to Codorus State Park.",
+          "concept": "State park in Pennsylvania",
+          "reasoning": "Mentions Codorus State Park, a geographic location in Pennsylvania."
+        },
+        {
+          "rank": 3,
+          "text": "To view the Eagle Cam, go to the Game Commission’s website, pgc.pa.gov and click on the eagle cam icon found near the top of the homepage.",
+          "concept": "Pennsylvania government website",
+          "reasoning": "Includes the .pa.gov domain, indicating Pennsylvania state affiliation."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00006",
+      "row_idx": 2952,
+      "normalized": 7.946264266967773,
+      "actual_text": "The mother and daughter are detained together at the family detention center in the South Texas city of Dilley. While the daughter has a case for asylum pending, an",
+      "plain_text": "HOUSTON (AP) — A judge on Monday ordered the U.S. government not to deport a Honduran woman, whose lawyers worry about her being separated from her 15-year-old daughter who has been detained with her for six months.  U.S. District Judge Randolph Moss issued the temporary restraining order at the request of the woman's lawyers, who feared U.S. Immigration and Customs Enforcement might deport her before they could appeal after Christmas and leave the teenager alone in government custody.  The lawyers say the woman and her daughter came to the U.S. two years ago after gang members in Honduras held them at gunpoint and demanded they pay protection money.  The mother and daughter are detained together at the family detention center in the South Texas city of Dilley. While the daughter has a case for asylum pending, an immigration judge on Friday denied the mother's request to reopen her immigration case.  Shalyn Fluharty, who is managing attorney of the Dilley Pro Bono Project and representing the mother and daughter, said that the teen has tried to take her own life at least once in detention and that she needs her mother.  \"Her psychological well-being is in a critical state,\" Fluharty said.  The mother and daughter were initially allowed out of detention while their immigration cases proceeded, but ICE detained them both in June. The daughter had her 15th birthday in detention last week.  The Dilley facility, which has a capacity of 2,400, is used by ICE to hold mothers and daughters together. Fluharty said she had never heard of anyone being detained at Dilley for six months. An agreement known as the Flores settlement bars the prolonged detention of immigrant children.  Fluharty said the teen and her mother fear that she would be sexually assaulted or killed if sent back to Honduras.  But if the mother was deported and the daughter kept in the U.S., the teen would likely be placed in a government facility for unaccompanied minors. That's what occurred with hundreds of children earlier this year after their parents were deported under a zero-tolerance immigration policy that led to large-scale family separations.  More than 14,000 minors were in government custody last week, many in large, crowded facilities that pediatricians and mental health experts say are unsuitable for children.  \"That choice is fundamentally unfair and should never be posed to a child,\" Fluharty said.  Sen. Jeff Merkley, an Oregon Democrat who has visited several facilities in Texas to call attention to immigration detention, met with the detained Honduran mother during a visit to Dilley and has called attention to her and her daughter's case.  Merkley questioned whether the U.S. government was using the threat of deporting the mother to force the teen to give up her own asylum case.  \"This is a form of psychological pressure,\" Merkley said Monday. \"We need to have the best interest of the child in mind, and that means not separating her from the mother and not keeping her in prison.\"  Fluharty said she plans to appeal the mother's case Wednesday after the government holiday for Christmas. It's unclear whether immigration courts will be open due to the partial government shutdown that began Saturday.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sen. Jeff Merkley, an Oregon Democrat who has visited several facilities in Texas to call attention to immigration detention, met with the detained Honduran mother during a visit to Dilley and has called attention to her and her daughter's case.",
+          "concept": "U.S. states",
+          "reasoning": "Mentions both Oregon and Texas, two U.S. states, in a political context."
+        },
+        {
+          "rank": 2,
+          "text": "The mother and daughter are detained together at the family detention center in the South Texas city of Dilley. While the daughter has a case for asylum pending, an immigration judge on Friday denied the mother's request to reopen her immigration case.",
+          "concept": "Texas location",
+          "reasoning": "Explicitly references South Texas and the city of Dilley, indicating a U.S. state and region."
+        },
+        {
+          "rank": 3,
+          "text": "HOUSTON (AP) — A judge on Monday ordered the U.S. government not to deport a Honduran woman, whose lawyers worry about her being separated from her 15-year-old daughter who has been detained with her for six months.",
+          "concept": "Texas city",
+          "reasoning": "Begins with 'HOUSTON', a major city in Texas, in a news dateline."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 5917,
+      "normalized": 0.0,
+      "actual_text": "Un sismo de 4.2 grados de magnitud en la escala",
+      "plain_text": "Un sismo de 4.2 grados de magnitud en la escala Richter sacudió a los habitantes de Tonalá, Chiapas, sin que hasta el momento se reporten victimas mortales, heridos o daños materiales considerables. El Servicio Sismológico Nacional (SSN) dio a conocer que el sismo se detectó a 133 kilómetros al suroeste de Tonalá, Chiapas. De acuerdo con las coordenadas de localización el sismo se ubicó a 15.13 grados Latitud Norte y a -94.51 grados Longitud Oeste y a una profundidad de 17 kilómetros.  OTRO SISMO  Un sismo de 5.1 grados de magnitud azotó la noche del jueves el Estado de Chiapas a 145 kilómetros al suroeste de Tonalá. En Oaxaca, el sismo fue perceptible en Tapanatepec, Niltepec, Zanatepec, entre otras localidades colindantes con Chiapas.  También se percibió en Juchitán, Ixtaltepec, Ixtepec, Unión Hidalgo y Salina Cruz.  En la capital oaxaqueña, la magnitud inferior a 5.5 grados del temblor, no activó el Sistema de Alerta Sísmica para Oaxaca (SASO).",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un sismo de 4.2 grados de magnitud en la escala Richter sacudió a los habitantes de Tonalá, Chiapas, sin que hasta el momento se reporten victimas mortales, heridos o daños materiales considerables. El Servicio Sismológico Nacional (SSN) dio a conocer que el sismo se detectó a 133 kilómetros al suroeste de Tonalá, Chiapas.",
+          "concept": "Mexican state",
+          "reasoning": "Mentions Chiapas, a state in Mexico, but the neuron is specific to U.S. states, so activation is likely low."
+        },
+        {
+          "rank": 2,
+          "text": "De acuerdo con las coordenadas de localización el sismo se ubicó a 15.13 grados Latitud Norte y a -94.51 grados Longitud Oeste y a una profundidad de 17 kilómetros.  OTRO SISMO  Un sismo de 5.1 grados de magnitud azotó la noche del jueves el Estado de Chiapas a 145 kilómetros al suroeste de Tonalá.",
+          "concept": "Earthquake coordinates",
+          "reasoning": "Contains geographic coordinates and references to Chiapas, but no U.S. content."
+        },
+        {
+          "rank": 3,
+          "text": "En Oaxaca, el sismo fue perceptible en Tapanatepec, Niltepec, Zanatepec, entre otras localidades colindantes con Chiapas.  También se percibió en Juchitán, Ixtaltepec, Ixtepec, Unión Hidalgo y Salina Cruz.",
+          "concept": "Mexican regions",
+          "reasoning": "Lists locations in Oaxaca and Chiapas, which are Mexican states, not U.S."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 3648,
+      "normalized": 0.0,
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
+      "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti.",
+          "concept": "Earthquake engineering",
+          "reasoning": "Discusses seismic technology in Italian, with no U.S. geographic references."
+        },
+        {
+          "rank": 2,
+          "text": "“Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "Italian towns",
+          "reasoning": "Mentions specific Italian towns affected by earthquakes, but no U.S. content."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering,",
+          "concept": "Italian university",
+          "reasoning": "References an Italian university and earthquake research, with no U.S. relevance."
+        }
+      ]
+    }
+  ]
+}

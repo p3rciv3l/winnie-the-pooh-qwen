@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_4847",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns and specific named entities alongside numerical or statistical references** (such as lists of locations with funding allocations, athlete earnings with team names, stock recommendations with dates, or research findings with institutional names).\n\n2. **Domain coverage**: The pattern appears in multilingual news and factual reporting across domains like finance (\"Stock Advisor returns as of February 24\"), sports (\"Conor McGregor, Manchester United\"), geopolitics (\"Kashmir's independence from India\"), academic research (\"Prof. Yan Xiaoli from Yunnan Observatories\"), and public policy (\"Care Act\"). It activates for English, Arabic, French, Italian, Danish, and Spanish texts when they contain this combination of concrete names and quantifiable details.\n\n3. **Contrast with low-activation examples**: High-activation texts densely pack specific names (people, organizations, places) with associated numbers, dates, or metrics. Low-activation examples either lack named entities entirely, contain only generic references, or present narrative/descriptive content without this precise pairing (e.g., \"surrey\u2019s singing Mounties spread Christmas cheer\" has a proper noun but no numerical/statistical anchor).\n\n4. **Closing interpretation**: The neuron likely detects a journalistic or informational writing style that grounds reports in concrete, attributed facts. It fires when text signals authoritative detail by coupling specific identifiers with measurable or contextualizing data.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Act (ACA). On the campaign trail, crowds thrilled to Trump\u2019s promise to repeal Obamacare \u201con day one\u201d and replace it with \u201csomething terrific\u201d. Failure",
+      "normalized_activation": 9.53552532196045,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1914,
+          "meaning_score": 0.3706,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2248
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1428,
+          "meaning_score": 0.2431,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1543
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1692,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1979
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "unveiled the team edition of the radical aero race bike at Ribble's Clitheroe flagship store on Tuesday night - and our photographer Andy Jones was there to",
+      "normalized_activation": 8.777165412902832,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1069,
+          "meaning_score": 0.3335,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1762
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1076,
+          "meaning_score": 0.5194,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2508
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1226,
+          "meaning_score": 0.5507,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2693
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "ging automobiles and starts embracing bikes. (City Lab) AI isn\u2019t just for self-driving cars. It could help create a more efficient and sustainable transportation system. (",
+      "normalized_activation": 7.894265174865723,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0768,
+          "meaning_score": 0.3443,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1684
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.123,
+          "meaning_score": 0.3278,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1804
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1461,
+          "meaning_score": 0.2646,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1643
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "By Karen Freifeld WASHINGTON (Reuters) -Nasdaq Inc has withdrawn",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2768,
+          "meaning_score": 0.3999,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2707
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1635,
+          "meaning_score": 0.3004,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1856
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1861,
+          "meaning_score": 0.2323,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1674
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1103,
+          "meaning_score": 0.3026,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1652
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1192,
+          "meaning_score": 0.2379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1428
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1071,
+          "meaning_score": 0.5413,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2594
+        }
+      ]
+    }
+  ]
+}

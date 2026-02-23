@@ -1,0 +1,37 @@
+{
+  "neuron_id": "17_9007",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of political leaders, government officials, or institutional authorities in formal reporting contexts** (such as references to presidents/prime ministers by title and name, government offices like \"PMO\" or \"Office of the Prime Minister,\" or political entities like \"BJP\" and \"Congress\").\n\n2. **Domain coverage**: The pattern appears in multilingual news or official dispatches (English, Hindi, Turkish) covering political appointments, statements, elections, and government actions. Topics span domestic politics (India, US, Turkey), international relations, and financial-political intersections (stock ownership by political figures). The context is consistently formal, resembling news agency reports, official transcripts, or structured journalism.\n\n3. **Contrast with low-activation examples**: High-activation texts center on specific named authorities and their actions, while low-activation examples discuss general topics (horoscopes, weather, business processes, accidents) without anchoring to prominent political figures or offices. Even when low-activation texts mention geopolitical events (e.g., Ukraine, North Korea), they do so without directly quoting or naming high-level leaders in an official capacity.\n\n4. **Closing interpretation**: The neuron detects text segments where authoritative political actors are explicitly named within institutional or reporting frameworks. It appears to act as a \"political authority mention\" detector, filtering for formal discourse that anchors events to specific powerful individuals or offices.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ident Charles de Gaulle und der deutsche Bundeskanzler Konrad Adenauer (CDU) mit einer Konferenz am 15. Februar",
+      "normalized_activation": 9.617952346801758,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "The Elder Scrolls 5: Skyrim - 100 Drachen vs. 100",
+      "normalized_activation": 8.923792839050293,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "on the GOP health care legislation after a meeting at the White House with President Donald Trump. Two dozen or so Freedom Caucus members have opposed the legislation pushed by GOP leaders",
+      "normalized_activation": 8.153228759765625,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Si chiede una URGENTE attivit\u00e0 ispettiva visiva e tecn",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Durante las primeras horas del 2024, Jap\u221a\u2265",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neuron_id": "8_19508",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing dense enumerations of specialized terms, proper nouns, or technical jargon (such as lists of medical treatments, musical instruments, legal entities, or cultural references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, Arabic, Turkish, Italian, Greek, Romanian) and domains, including medical and pharmaceutical descriptions (chemotherapy drugs, CBD products, collagen, respiratory equipment), legal and political reports (election officials, visa procedures, police incidents), cultural and artistic references (punk rock, mythology, orchestra members), and scientific or technical specifications (biometric data, archaeological scans, drug compounds).\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically concise news headlines or simple statements that lack extended lists, technical catalogs, or dense proper noun sequences. They mention singular events or general topics (e.g., sports trials, resignations, celebrity news) without the detailed enumeration of specific items or jargon-heavy phrasing seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron detects informationally dense text segments that function as catalogs or specifications, often marked by serial commas, parentheses, acronyms, and multilingual terminology. It signals the presence of detailed, itemized content within a passage.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ima del concerto, alle ore 18, il professor Davide Lambruschi traghetter\u00e0 coloro che volessero scoprire le",
+      "normalized_activation": 9.399632453918457,
+      "pairs": []
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "ashic Books, 2017), which was selected by Editors Kwame Dawes and Chris Abani for the APBF New-Generation African Poets",
+      "normalized_activation": 8.307490348815918,
+      "pairs": []
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "\u03ac\u03b4\u03b1 \u03c0\u03bf\u03c5 \u03cc\u03c4\u03b1\u03bd \u03b4\u03b5\u03bd \u03ad\u03c7\u03bf\u03c5\u03bd \u03ac\u03b3\u03c7\u03bf\u03c2 \u03b8\u03ad\u03bb\u03bf\u03c5\u03bd \u03c0\u03c1\u03bf",
+      "normalized_activation": 7.13223934173584,
+      "pairs": []
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The remote Issyk Kul province in eastern Kyrgyzstan, on the border with China",
+      "normalized_activation": 0.0,
+      "pairs": []
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "normalized_activation": 0.0,
+      "pairs": []
+    }
+  ]
+}

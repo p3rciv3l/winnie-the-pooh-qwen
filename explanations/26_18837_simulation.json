@@ -1,0 +1,148 @@
+{
+  "neuron_id": "26_18837",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:03:27Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of people by their full names, particularly in contexts listing multiple individuals or citing professional roles** (such as \"former NFL player Willie Colon,\" \"former R.E.M. members Peter Buck and Scott McCaughey,\" or \"California Rep. Adam Schiff\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news, biographical, or entertainment articles covering politics, sports, music, film, and celebrity events. It activates on names in lists, credits, citations, or descriptive clauses that include titles (e.g., \"former Treasury secretary Robert E. Rubin\"), often within sentences that reference affiliations, achievements, or group membership.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain specific human proper names, often with honorifics or role descriptors, while low-activation examples lack such references—instead featuring non-English text, abstract topics, impersonal news items, or generic statements without named individuals.\n\n4. **Closing interpretation**: This neuron detects explicit references to human entities in narrative or journalistic contexts, acting as a named-entity recognizer for persons, especially when they are framed by professional or relational identifiers.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00001",
+      "row_idx": 2067,
+      "normalized": 9.67304515838623,
+      "actual_text": "from iconic songs, saw Millie Bobby Brown, Saoirse Ronan, and Willem Dafoe cover songs from the Spice Girls, Bruno Mars, and L",
+      "plain_text": "Here's another surprise entry for your 2022 bingo cards: Kristen Stewart performing Olivia Rodrigo's \"drivers license.\" Yes, you read that right. Thanks to W Magazine’s newest Lyrical Improv video, this unlikely sentence has become a beautiful reality. Released on February 20, the video unites a bunch of stars from across the world to take on Olivia’s debut hit. Kristen is joined by Leslie Odom Jr., Jared Leto, Jennifer Hudson, Jodie Comer, Emilia Jones, Zazie Beetz, Tessa Thompson, Simon Rex, Renate Reinsve, Kirsten Dunst, Ruth Negga, Saniyya Sidney, Filippo Scotti, and Kodi Smit-McPhee. As is the tradition of the Lyrical Improv series, each star adds their own unique flair to a song, going from faithful renditions to spoken word renderings and even “funk” reinterpretations — or, at least, that's how Simon Rex describes his take. Of course, as expected from K-Stew, she takes the spoken word route, alongside the likes of Jared Leto, Ruth Negga, and more surprisingly Jennifer Hudson. Tessa also favors a poetry-adjacent take, but adds in a little bit of personal commentary as she interprets the lyrics. Meanwhile, others take the opportunity to put on the most passionate karaoke performances we’ve ever heard, showing off their velvety and powerful vocals. (Looking at you Jodie Comer, Leslie Odom Jr., Zazie Beetz, and Emilia Jones.) Previously, W’s Lyrical Improv series, which finds a group of stars “dramatically” reading the lyrics from iconic songs, saw Millie Bobby Brown, Saoirse Ronan, and Willem Dafoe cover songs from the Spice Girls, Bruno Mars, and Lizzo — to name a few. Most recently, we got to see Tom Holland, Jacob Elordi, and Steven Yeun take on BTS’s super hit “Dynamite.” This is the first time a song by Olivia has been featured on the series — but we all know it was bound to happen eventually.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kristen is joined by Leslie Odom Jr., Jared Leto, Jennifer Hudson, Jodie Comer, Emilia Jones, Zazie Beetz, Tessa Thompson, Simon Rex, Renate Reinsve, Kirsten Dunst, Ruth Negga, Saniyya Sidney, Filippo Scotti, and Kodi Smit-McPhee.",
+          "concept": "list of celebrities",
+          "reasoning": "This section contains a long list of full names of celebrities, which strongly matches the neuron's pattern of responding to lists of people."
+        },
+        {
+          "rank": 2,
+          "text": "Previously, W’s Lyrical Improv series, which finds a group of stars “dramatically” reading the lyrics from iconic songs, saw Millie Bobby Brown, Saoirse Ronan, and Willem Dafoe cover songs from the Spice Girls, Bruno Mars, and Lizzo — to name a few.",
+          "concept": "list of celebrities",
+          "reasoning": "This section lists three full names of celebrities in a context of citing previous participants, aligning with the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "Most recently, we got to see Tom Holland, Jacob Elordi, and Steven Yeun take on BTS’s super hit “Dynamite.”",
+          "concept": "list of celebrities",
+          "reasoning": "This section lists three full names of actors, matching the neuron's pattern of responding to multiple named individuals."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00004",
+      "row_idx": 4695,
+      "normalized": 9.077349662780762,
+      "actual_text": "Robert Mueller’s office. Those documents contain details of discussions about former National Security Advisor Michael Flynn. DIA revealed the existence of the records in response to a Freedom",
+      "plain_text": "The Defense Intelligence Agency (DIA) said Friday that it would not release more than 100 documents of correspondence between agency employees and former Special Counsel Robert Mueller’s office. Those documents contain details of discussions about former National Security Advisor Michael Flynn.  DIA revealed the existence of the records in response to a Freedom of Information Act (FOIA) request submitted more than a year ago by BuzzFeed News reporter Jason Leopold. The requests sought “[a]ll records of correspondence between the DIA and the Office of Special Counsel Robert Mueller” that mentioned or referenced Flynn in any way. In a two-page letter to Leopold dated Friday, the agency stated that it would be withholding all of the responsive documents, claiming they were exempt from public disclosure laws.  “A search of DIA’s systems of records located 112 records of correspondence responsive to the request above. Upon review, it has been determined that all of the substantive portions of all of these records must be withheld in full from disclosure pursuant to the FOIA,” the letter read.   DIA, one of the worst federal government agencies that routinely violates #FOIA and an agency I often sue, has 112 records related to it's correspondence with Mueller about Michael Flynn. They took nearly 2 years to tell me they're withholding all of it pic.twitter.com/9gUNI78ST4  — Jason Leopold (@JasonLeopold) October 31, 2020 The agency stated that the withheld portions did not have to be disclosed under “Exemptions 1, 3, 5, and 7” of the law.  “As you know, the criminal prosecution of Michael Flynn remains pending,” the agency wrote, highlighting Exemption 7A, which applies to information and records gathered by law enforcement that could reasonably be expected to interfere in enforcement proceedings.  BuzzFeed will have to file a legal challenge if it hopes to obtain any of the records from DIA. On Friday, though, the Department of Justice (DOJ) did release a new cache of interviews conducted by the Special Counsel’s Office during the investigation into Russian election interference. The documents were released in accordance with a court order stemming from another FOIA lawsuit filed by BuzzFeed and Leopold over excessive redactions to the publicly released version of the Mueller Report.  In a separate but related matter, a federal district court last month ordered the DOJ to release by Nov. 2 “at least 15 previously blacked-out pages from volume one” of the Mueller report which “appear to involve discussions related to the hack of emails from the Democratic National Committee in early 2016 and the Trump campaign’s interest in those documents when WikiLeaks released them that June.”  U.S. District Judge Emmet Sullivan still has not ruled on DOJ’s motion to dismiss the criminal case against Flynn.  [image via House Judiciary Committee]  Have a tip we should know? [email protected]",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Defense Intelligence Agency (DIA) said Friday that it would not release more than 100 documents of correspondence between agency employees and former Special Counsel Robert Mueller’s office. Those documents contain details of discussions about former National Security Advisor Michael Flynn.",
+          "concept": "government officials",
+          "reasoning": "This section mentions two individuals with their professional titles, matching the neuron's pattern of responding to people's full names with roles."
+        },
+        {
+          "rank": 2,
+          "text": "DIA, one of the worst federal government agencies that routinely violates #FOIA and an agency I often sue, has 112 records related to it's correspondence with Mueller about Michael Flynn. They took nearly 2 years to tell me they're withholding all of it pic.twitter.com/9gUNI78ST4 — Jason Leopold (@JasonLeopold) October 31, 2020",
+          "concept": "journalist and officials",
+          "reasoning": "This section mentions Robert Mueller and Michael Flynn, and includes the name of journalist Jason Leopold, providing multiple named individuals."
+        },
+        {
+          "rank": 3,
+          "text": "U.S. District Judge Emmet Sullivan still has not ruled on DOJ’s motion to dismiss the criminal case against Flynn.",
+          "concept": "judge and official",
+          "reasoning": "This section mentions a judge by his full name and title, along with Michael Flynn, matching the neuron's pattern of named individuals with professional roles."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00011",
+      "row_idx": 1020,
+      "normalized": 8.260446548461914,
+      "actual_text": "squad for the 2027 World Cup depending on how the likes of George Ford and Marcus Smith perform in his absence. Given how much the England head coach",
+      "plain_text": "The news of Owen Farrell taking a period of indefinite leave from international rugby to protect his and his family’s mental health, on the back of horrendous abuse received at the World Cup, was seismic when it broke last November; but Friday’s development, that the England fly-half is in advanced talks with Racing 92 regarding a potential move across the Channel at the end of this season - perhaps turning his back on English rugby for good - eclipsed November’s news on the Richter scale. This is the England captain not just taking a break from international rugby; but looking for an escape. On the face of it, the departure of Farrell, one of England’s greatest players and Steve Borthwick’s captain, is a terrible look for English rugby. In these pages, chief sports writer Oliver Brown wrote that Farrell’s departure would act as a damning indictment of the system; both in terms of its allure and its culture. Should Farrell depart, those words would be as judicious and truthful as any written before the season’s out. However, the reality of the situation is such that both elements are true: the circumstances surrounding Farrell’s departure means it would challenge the disappearance of three Premiership clubs for the gong of English rugby’s darkest day; but, given those realities, it could be a shrewd move from England’s de facto captain.  This is a move born out of dire circumstances, of course, but it might be the only way of ensuring Farrell’s England future. The vitriol that he and his family received at the World Cup might never abate without a true reset; a circuit-breaker. This plan, a fresh start in France, could be just that. It would allow the narrative surrounding Farrell to die down while he continues playing at a high standard, in the comfort of a team led by his former coach, the man who gave him his England debut, Stuart Lancaster. In two years’ time, there is a chance that the heat will have died down, and Farrell might be able to return to these shores and scrap for a place in Borthwick’s squad for the 2027 World Cup depending on how the likes of George Ford and Marcus Smith perform in his absence. Given how much the England head coach admires his captain, too, there is no doubt that if Farrell departed for the Parisian environs he would go with Borthwick’s blessing. The problem, however, is that while a smattering of Farrell’s World Cup boos came from England fans, a large portion came from neutrals or away fans; within which there was a significant collection of French rugby loyalists. While escaping English rugby for good might be the page-turn that Farrell needs, it could be that in order to achieve the intended goal he might have to look even further afield, to Japan or Super Rugby.  The losers in all this will be Saracens. Of course, English rugby will be fundamentally worse off but the damage has already been done and the genie is out of the bottle. But at his club, Saracens, he remains idolised and respected by all and sundry, with senior players and the director of rugby continuously at a loss to try and fathom why Farrell has become a lightning rod for such invective and hate. Saracens’ playmaker has led them to countless triumphs and with him at the helm - captain or otherwise - they have conquered both Europe and England on multiple occasions. McCall’s veneration is such that often he is unable to address Farrell publicly by name. He is simply just “the captain”, one who led like a lion once again, even in defeat, at Welford Road on Saturday. There are certain parallels to be drawn, too, with the only man who is unquestionably above Farrell in the list of England’s greatest fly-halves, Jonny Wilkinson. The World Cup winner has been open and honest regarding the inner torment he experienced from the moment he first burst onto the international rugby scene as a fresh-faced 19-year-old. It was only a move to Toulon, where he helped carve out a European dynasty with a host of other superstars, that Wilkinson truly found himself and came closer to inner peace; playing the rugby of his life. The difference between Wilkinson and Farrell is that where the former’s inner plight was caused by the pressure he was putting on himself, the latter’s has been caused by external factors beyond Farrell’s control. Wilkinson, too, was more than happy to call time on his England career having won it all when he departed for the Côte d’Azur in 2009; whether Farrell is so keen to turn his back on the England shirt forever, having only a solitary Grand Slam and no World Cups to his name, is the million-dollar question. Farrell’s departure would be a significant shroud for English rugby, there is no question. Out of darkness, however, light often emerges. For the sake of English rugby, let us hope the brightness does not materialise too late, and that one of the country’s greatest talents is not left by the wayside.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In two years’ time, there is a chance that the heat will have died down, and Farrell might be able to return to these shores and scrap for a place in Borthwick’s squad for the 2027 World Cup depending on how the likes of George Ford and Marcus Smith perform in his absence. Given how much the England head coach admires his captain, too, there is no doubt that if Farrell departed for the Parisian environs he would go with Borthwick’s blessing.",
+          "concept": "rugby players",
+          "reasoning": "This section lists two rugby players by their full names and references the coach, matching the neuron's pattern of multiple individuals in a sports context."
+        },
+        {
+          "rank": 2,
+          "text": "There are certain parallels to be drawn, too, with the only man who is unquestionably above Farrell in the list of England’s greatest fly-halves, Jonny Wilkinson. The World Cup winner has been open and honest regarding the inner torment he experienced from the moment he first burst onto the international rugby scene as a fresh-faced 19-year-old.",
+          "concept": "rugby legends",
+          "reasoning": "This section mentions two famous rugby players, Jonny Wilkinson and Owen Farrell, comparing their careers, which aligns with the neuron's interest in named individuals."
+        },
+        {
+          "rank": 3,
+          "text": "On the face of it, the departure of Farrell, one of England’s greatest players and Steve Borthwick’s captain, is a terrible look for English rugby. In these pages, chief sports writer Oliver Brown wrote that Farrell’s departure would act as a damning indictment of the system; both in terms of its allure and its culture.",
+          "concept": "sports figure and writer",
+          "reasoning": "This section mentions Owen Farrell and sports writer Oliver Brown with his professional role, fitting the neuron's pattern of named individuals with descriptors."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00003",
+      "row_idx": 538,
+      "normalized": 0.0,
+      "actual_text": "ETECSA retoma los plazos de pago de servicios modificados por",
+      "plain_text": "ETECSA retoma los plazos de pago de servicios modificados por la COVID-19  ETECSA anuncia el restablecimiento de los ciclos de vida útil de algunos servicios modificados a causa de la situación epidemiológica ocasionada por la COVID-19. Entre ellos está el pago de los servicios nauta Hogar, líneas móviles y telefonía básica, según su condición prepago o pospago.  Desde el mes de marzo, esta compañía ha implementado varias acciones comerciales orientadas a facilitar el uso de los servicios básicos de telecomunicaciones y a promover el cumplimiento de las medidas de aislamiento físico.  Telefonía fija  —¿A partir de qué fecha se restablece el vencimiento del pago de la factura telefónica?  A partir del primero de diciembre se restablece la fecha de vencimiento de la factura telefónica, en este caso la correspondiente al tráfico de noviembre tendrá como plazo hasta el 30 de diciembre.  —¿Qué pasa si no pago la factura telefónica en la fecha indicada?  Se procederá a la desconexión del servicio según lo establecido en el contrato.  —¿Cuál es el tiempo disponible para pagar una deuda de varios meses de la factura telefónica?  Si usted no puede hacer el pago total de su deuda antes del 30 de diciembre, debe presentarse en la oficina comercial para establecer un convenio de pago con la empresa.  —¿Ya se puede solicitar cambios de titularidad y continuidad de servicio telefónico en las oficinas comerciales?  Sí, puede solicitar todos los servicios  Nauta Hogar  —¿A partir de cuándo se restablece el ciclo de vida del servicio nauta Hogar?  A partir del primero de noviembre se inicia el ciclo de vida de nauta Hogar.  —¿Qué pasa si no pago nauta Hogar en la fecha indicada?  A partir del primero de diciembre los clientes que no realicen el pago de la cuota se le deshabilita el servicio desde el hogar y solo podrá hacer uso de la nauta desde los sitios públicos de Internet. En el mes de enero cuando se cumplan los 60 días de impago, el servicio causará baja automáticamente y la cuenta nauta se desasocia del nauta Hogar.  —¿Cuál es el tiempo disponible para pagar una deuda de varios meses de la cuota mensual de nauta Hogar?  Si usted no puede hacer el pago total de su deuda antes del 1º de enero debe presentarse en la oficina comercial para establecer un convenio de pago con la empresa.  —¿Se elimina la tarifa de 0.30 CUC para las cuentas de nauta hogar una vez que se agoten las horas asignadas?  No, aún esta tarifa de 0.30 CUC/ hora se mantiene  —¿Se mantienen las 10 horas adicionales para el servicio nauta Hogar?  Sí, se mantienen las horas adicionales.  Sobre los TFA  —¿A partir de qué fecha se restablece el ciclo de vida del TFA?  A partir del primero de diciembre.  —¿Qué pasa si no pago el TFA en la fecha indicada?  Si no realiza el pago a los 30 días se le desconecta el servicio.  Sobre las líneas moviles  —¿A partir de qué fecha inicia el ciclo de vida de las líneas móviles?  A partir del 1º de noviembre  —¿De qué tiempo dispongo para recargar la línea móvil que se me venció en el período de cuarentena?  Usted debe consultar la vigencia de su línea, no obstante la debe recargar antes del primero de noviembre para el servicio no sea suspendido.  —Si no tengo el dinero para pagar toda la deuda de una vez, ¿qué puedo hacer?  Usted debe ir a la oficina que le atiende, a partir del lunes 9 de noviembre y establecer un convenio de pago.  —¿Ya se puede solicitar cambio de titularidad de la línea móvil en las unidades comerciales?  Sí, puede solicitar todos los servicios.  Se extienden hasta el 30 de noviembre las siguientes medidas comerciales:  El descuento del 10 % por los pagos de los servicios de telecomunicaciones a través de Transfermóvil. La tasación diferenciada en la red móvil de voz y datos en horario de la madrugada. Las 10 horas adicionales a los servicios nauta Hogar prepago y pospago. El descuento del 50% a las llamadas de larga distancia nacional en horario diurno. El descuento del 25% a las llamadas que se realicen con tarjetas propia en horario nocturno. El acceso libre de costo a las aplicaciones informativas y de pesquisa COVID19, 800SALUD, Cubaeduca, repasador en línea, mined.gob.cu y ENZONA.   (Con información de Etecsa)  El tiempo: Algunas lluvias en la región oriental ETECSA retoma los plazos de pago de servicios modificados por la COVID-19 Iberostar reabre seis hoteles en Varadero y recibe turoperadores de Alemania Díaz-Canel ratifica decisión cubana de continuar colaboración solidaria con Venezuela Situación epidemiológica de Cuba: Alerta en Pinar del Río, atención en todo el país ETECSA retoma los plazos de pago de servicios modificados por la COVID-19 EcuRed, conocimiento libre para el bien de todos APK La Guagua agrega nuevas provincias y más opciones NASA y SpaceX enviarán en noviembre primer vuelo operativo de la nave espacial Crew Dragon La luna azul, el raro fenómeno cósmico que se podrá observar este octubre",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Iberostar reabre seis hoteles en Varadero y recibe turoperadores de Alemania Díaz-Canel ratifica decisión cubana de continuar colaboración solidaria con Venezuela Situación epidemiológica de Cuba: Alerta en Pinar del Río, atención en todo el país",
+          "concept": "political leader",
+          "reasoning": "This section includes the name Díaz-Canel, a political figure, which matches the neuron's pattern of responding to named individuals, even in non-English text."
+        },
+        {
+          "rank": 2,
+          "text": "ETECSA retoma los plazos de pago de servicios modificados por la COVID-19. ETECSA anuncia el restablecimiento de los ciclos de vida útil de algunos servicios modificados a causa de la situación epidemiológica ocasionada por la COVID-19. Entre ellos está el pago de los servicios nauta Hogar, líneas móviles y telefonía básica, según su condición prepago o pospago.",
+          "concept": "organization",
+          "reasoning": "This section discusses a telecommunications company and its services, lacking person names, so it likely caused low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Desde el mes de marzo, esta compañía ha implementado varias acciones comerciales orientadas a facilitar el uso de los servicios básicos de telecomunicaciones y a promover el cumplimiento de las medidas de aislamiento físico. Telefonía fija  —¿A partir de qué fecha se restablece el vencimiento del pago de la factura telefónica?",
+          "concept": "impersonal news",
+          "reasoning": "This section contains no person names and discusses commercial actions, which likely resulted in low activation according to the neuron's description."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00001",
+      "row_idx": 5559,
+      "normalized": 0.0,
+      "actual_text": "New report shows viability of Alberta’s music industry as it look to bounce back A",
+      "plain_text": "New report shows viability of Alberta’s music industry as it look to bounce back  A new report showing the economic benefits of the music industry in Alberta has gained widespread support in the province. As Chris Chacon explains, this comes as the sector hopes to bounce back after being hit hard by the pandemic.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "As Chris Chacon explains, this comes as the sector hopes to bounce back after being hit hard by the pandemic.",
+          "concept": "reporter",
+          "reasoning": "This section includes the full name of a person, Chris Chacon, which matches the neuron's pattern of responding to named individuals."
+        },
+        {
+          "rank": 2,
+          "text": "New report shows viability of Alberta’s music industry as it look to bounce back",
+          "concept": "impersonal news",
+          "reasoning": "This section lacks person names and discusses a report, likely causing low activation."
+        },
+        {
+          "rank": 3,
+          "text": "A new report showing the economic benefits of the music industry in Alberta has gained widespread support in the province.",
+          "concept": "impersonal news",
+          "reasoning": "This section contains no person names and is about a report, resulting in low activation."
+        }
+      ]
+    }
+  ]
+}

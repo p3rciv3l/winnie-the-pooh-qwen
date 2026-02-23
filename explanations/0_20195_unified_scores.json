@@ -1,0 +1,162 @@
+{
+  "neuron_id": "0_20195",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific U.S. states, regions, and cities** (such as Texas, Michigan, Minnesota, Iowa, the Northeast, or cities like Lubbock and Austin), particularly within English-language news or factual contexts.\n\n2. **Domain coverage**: The neuron activates in domains covering U.S. politics, education, sports, healthcare, business, and natural disasters when they involve state-specific references. Examples include legislative actions in Texas, university programs in Michigan, flooding in Iowa and Nebraska, and sports teams from Minnesota. It processes English-language text almost exclusively, with no strong responses to non-English examples.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit U.S. geographic identifiers, while low-activation examples are either in other languages (Italian, Spanish, Czech, etc.) or discuss topics without U.S. regional focus (e.g., international news, astronomy, film reviews, or earthquakes in Queens\u2014which, despite being in the U.S., does not trigger the neuron, suggesting it may prioritize state/regional names over city names alone).\n\n4. **Closing interpretation**: This neuron appears to detect textual references to U.S. states and major regions, acting as a geographic filter for domestic U.S. content in English. It likely supports the model in distinguishing country-specific subnational entities within news or descriptive narratives.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "The lawsuit filed by the Department of Justice, together with Attorneys General in Minnesota and New York, argues that the deal would harm competition in the commercial health insurance",
+      "normalized_activation": 9.533726692199707,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1676,
+          "meaning_score": 0.6854,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5412
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.117,
+          "meaning_score": 0.5353,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2609
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.094,
+          "meaning_score": 0.5835,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.271
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "HARRISBURG \u2013 The Pennsylvania Game Commission\u2019s Eagle Cam is back online. The Game Commission launched the latest rendition",
+      "normalized_activation": 8.842179298400879,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0914,
+          "meaning_score": 0.907,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5993
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1409,
+          "meaning_score": 0.7186,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3438
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1032,
+          "meaning_score": 0.7528,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3424
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "The mother and daughter are detained together at the family detention center in the South Texas city of Dilley. While the daughter has a case for asylum pending, an",
+      "normalized_activation": 7.946264266967773,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2149,
+          "meaning_score": 0.5206,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2942
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2863,
+          "meaning_score": 0.8363,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6491
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.4485,
+          "meaning_score": 0.5292,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.391
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Un sismo de 4.2 grados de magnitud en la escala",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0981,
+          "meaning_score": 0.5693,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.467
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.128,
+          "meaning_score": 0.4656,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2375
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1025,
+          "meaning_score": 0.3536,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1824
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.0475,
+          "meaning_score": 0.3065,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1416
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1928,
+          "meaning_score": 0.3086,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2006
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.222,
+          "meaning_score": 0.4048,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2507
+        }
+      ]
+    }
+  ]
+}

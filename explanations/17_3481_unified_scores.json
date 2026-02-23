@@ -1,0 +1,162 @@
+{
+  "neuron_id": "17_3481",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "This neuron strongly responds to **formal press release or corporate announcement formatting** (such as structured datelines with locations/dates, PR newswire tags, institutional disclosures, or formal report introductions).\n\n**Domain coverage**: The pattern appears across multiple languages (English, Arabic, Hungarian, Italian, French) and topics (business, healthcare, government, finance, technology), but is unified by genre: official statements, earnings reports, institutional press releases, and formal news dispatches. High-activation texts consistently feature structured openings (e.g., \"CITY, Date /SOURCE/ --\") or formal references to organizations, filings, or published releases.\n\n**Contrast with low-activation examples**: The low-activation texts lack this formal announcement structure\u2014they are informal news snippets, social media fragments, incomplete headlines, or casual narrative descriptions. The neuron ignores content that is conversational, fragmented, or lacks institutional framing, even when topics (e.g., news events) superficially overlap.\n\n**Closing interpretation**: The neuron detects textual markers of official, institutional, or corporate communication, acting as a genre classifier for formally structured announcements rather than focusing on specific semantic topics. It likely serves to route or process text that carries authoritative, public-facing information from organizations.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "ING, May 10, 2021 /PRNewswire/ \u2014 Scienjoy Holding Corporation (\u201cScienjoy\u201d, the \u201cCompany\u201d) (",
+      "normalized_activation": 9.41352653503418,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2398,
+          "meaning_score": 0.6611,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5604
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.3231,
+          "meaning_score": 0.3274,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2602
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1946,
+          "meaning_score": 0.628,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.329
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "To view the Eagle Cam, go to the Game Commission\u2019s website, pgc.pa.gov and click on the eagle cam icon found near the top of the homepage.",
+      "normalized_activation": 8.154886245727539,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.201,
+          "meaning_score": 0.8216,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.409
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2068,
+          "meaning_score": 0.7776,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3937
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1948,
+          "meaning_score": 0.8592,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6216
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "The level of neurosis and hysteria is growing, with official attempts to find scapegoats to blame,\u201d says Dmitry Muratov, the editor of one of the",
+      "normalized_activation": 7.0815606117248535,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2081,
+          "meaning_score": 0.4392,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2589
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1924,
+          "meaning_score": 0.5078,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2801
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2246,
+          "meaning_score": 0.4317,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2625
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Nella sua enciclopedica cultura Dante Alighieri di cui quest\u2019",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1929,
+          "meaning_score": 0.3676,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2242
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1216,
+          "meaning_score": 0.4289,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2202
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2723,
+          "meaning_score": 0.3962,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2674
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1618,
+          "meaning_score": 0.4709,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.4531
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1808,
+          "meaning_score": 0.3104,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1965
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1219,
+          "meaning_score": 0.3927,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2058
+        }
+      ]
+    }
+  ]
+}

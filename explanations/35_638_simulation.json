@@ -1,0 +1,148 @@
+{
+  "neuron_id": "35_638",
+  "model": "deepseek/deepseek-v3.2",
+  "generated_at": "2026-02-23T05:26:05Z",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numbers, codes, or technical identifiers embedded within descriptive or narrative sentences** (such as telephone numbers, prices, measurements, dates, website URLs, or alphanumeric codes).\n\n2. **Domain coverage**: The pattern appears across diverse languages (Spanish, Finnish, Ukrainian, Slovak, Hindi, German, Italian, Arabic, Portuguese, Russian, Greek) and topics, including customer service information, medical or legal reports, technical specifications, news articles about events/products, and administrative notices. The context is consistently mid-sentence mentions of precise identifiers within flowing text.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature embedded concrete references (e.g., \"teléfono 806,\" \"1-гривнева,\" \"www.esph-sa.com,\" \"25. März,\" \"911\"). The low-activation examples are general news headlines or descriptive sentences that lack such specific embedded numerical/technical tokens; they discuss topics (elections, earthquakes, awards) at a conceptual level without inserting codes, prices, or contact details.\n\n4. **Closing interpretation**: The neuron detects the presence of precise, often administrative or technical, alphanumeric data points within natural language prose. It appears to fire on tokens that serve as concrete anchors within otherwise descriptive text, suggesting a role in identifying spans of text that mix narrative with specific functional identifiers.",
+  "results": [
+    {
+      "example_idx": 1,
+      "shard_id": "part_00019",
+      "row_idx": 4042,
+      "normalized": 9.703113555908203,
+      "actual_text": "�ीडियो ट्विटर पर शेयर किया और आपको �",
+      "plain_text": "Yoga in Space: आपने लोगों को अपने घर में आराम से योग करते देखा होगा. लेकिन, क्या आपने कभी किसी को अंतरिक्ष में योग करते देखा है? जी हां, आपने सही पढ़ा. समांथा क्रिस्टोफोरेटी (Samantha Cristoforetti) नाम की एक अंतरिक्ष यात्री (astronaut) ने अंतरिक्ष (space) में कुछ योग मुद्राएं कीं. उसने उसी का एक वीडियो ट्विटर पर शेयर किया और आपको ये जरूर देखना चाहिए. सामंथा क्रिस्टोफोरेटी यूरोपीय अंतरिक्ष एजेंसी (European Space Agency) की एक अंतरिक्ष यात्री हैं. छोटी क्लिप में, वह जीरो ग्रेविटी में कुछ योगा पोज़ करती हुई देखी जा सकती है. वह एक योग प्रशिक्षक का अभिनय कर रही थी और सभी आसनों को एक समर्थक की तरह कर रही थी. मूल वीडियो को कॉस्मिक किड्स नामक एक पेज ने ट्विटर पर पोस्ट किया था. देखें Video: What happens when you try to do yoga in #SPACE? 🚀 Here's @AstroSamantha the astronaut doing #CosmicKids on the ISS! 💫 — Cosmic Kids (@CosmicKidsYoga) September 27, 2022 Watch the whole video here: https://t.co/gn7GomHmxT Thank you to the amazing team @ESA for this incredible opportunity! 🧑🚀 #MissionMinerva#SpaceWeekpic.twitter.com/0nOiXwZa6W पोस्ट के कैप्शन में लिखा है, \"भारहीनता में योग? हो गया! यह थोड़ा मुश्किल है, लेकिन सही मुद्रा और कुछ रचनात्मक स्वतंत्रता के साथ आप इसे कर सकते हैं.\" वीडियो लोगों को बहुत पसंद आ रहा है और लोग वीडियो पर ढेरों कमेंट्स कर अंतरिक्ष यात्री की तारीफ कर रहे हैं. Video: क्या आपने शरद पवार की बेटी सुप्रिया सुले को गरबा करते देखा?",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "देखें Video: What happens when you try to do yoga in #SPACE? 🚀 Here's @AstroSamantha the astronaut doing #CosmicKids on the ISS! 💫 — Cosmic Kids (@CosmicKidsYoga) September 27, 2022 Watch the whole video here: https://t.co/gn7GomHmxT",
+          "concept": "date and URL",
+          "reasoning": "This section contains a precise date, social media handles, hashtags, and a URL, which are typical alphanumeric identifiers."
+        },
+        {
+          "rank": 2,
+          "text": "Thank you to the amazing team @ESA for this incredible opportunity! 🧑🚀 #MissionMinerva#SpaceWeekpic.twitter.com/0nOiXwZa6W",
+          "concept": "social media tags",
+          "reasoning": "This section contains social media handles, hashtags, and a pic.twitter.com URL, which are technical identifiers embedded in text."
+        },
+        {
+          "rank": 3,
+          "text": "समांथा क्रिस्टोफोरेटी (Samantha Cristoforetti) नाम की एक अंतरिक्ष यात्री (astronaut) ने अंतरिक्ष (space) में कुछ योग मुद्राएं कीं. उसने उसी का एक वीडियो ट्विटर पर शेयर किया और आपको ये जरूर देखना चाहिए.",
+          "concept": "translation parentheses",
+          "reasoning": "This section contains English terms in parentheses providing specific translations, acting as technical identifiers within the Hindi narrative."
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "shard_id": "part_00016",
+      "row_idx": 4452,
+      "normalized": 9.10367202758789,
+      "actual_text": "bands, Blackpink. Also spotted was actress Zoe Kravitz, alongside actress Bruna Marquezine, the partner of the footballer Neymar. Model An",
+      "plain_text": "Whenever creative director Anthony Vaccarello delivers a new Saint Laurent collection, it is a seismic event, so it is little surprise that so many braved the rain for Tuesday's spring/summer 2023 show at Paris Fashion Week. Watching on from the front row was model Hailey Bieber, the wife of singer Justin, as well as Rose from one of South Korea's hottest bands, Blackpink. Also spotted was actress Zoe Kravitz, alongside actress Bruna Marquezine, the partner of the footballer Neymar. Model Anja Rubik, who has been a muse to the designer Vaccarello long before he joined the house of Saint Laurent, also turned up, as well as a tranche of modelling royalty, including Kate Moss, Shalom Harlow — who found fame as the model being spray-painted at the spring / summer 1999 show by Alexander McQueen — and Jerry Hall with her daughter Georgia May Jagger. Model Eva Herzigova donned a full-length coat for the event, posing for the cameras with ex-model Carla Bruni, who is married to former French president Nicolas Sarkozy. Also at the event was Baptiste Giabiconi, who was the favourite model of the late designer Karl Lagerfeld. The show saw Vaccarello embrace the slinky sleekness of the 1980s with a pared-back presentation in the shadow of the Eiffel Tower. The creative director offered looks based around a similar slim-line silhouette, with form-fitting tube dresses, belted silky pyjama suits and jackets with shoulder pads, which moved into leather blousons and a floor-grazing wool coat with squared-off shoulders. For the first big day of Paris Fashion Week, the two biggest names presenting could not have been more different, with Dior focusing on artisanal looks in contrast to Saint Laurent's homage to the 1980s. Scroll through the gallery below to see more of Saint Laurent and Dior's shows at Paris Fashion Week",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Whenever creative director Anthony Vaccarello delivers a new Saint Laurent collection, it is a seismic event, so it is little surprise that so many braved the rain for Tuesday's spring/summer 2023 show at Paris Fashion Week.",
+          "concept": "fashion season year",
+          "reasoning": "This section contains the specific year '2023' embedded in a narrative about a fashion show."
+        },
+        {
+          "rank": 2,
+          "text": "Model Anja Rubik, who has been a muse to the designer Vaccarello long before he joined the house of Saint Laurent, also turned up, as well as a tranche of modelling royalty, including Kate Moss, Shalom Harlow — who found fame as the model being spray-painted at the spring / summer 1999 show by Alexander McQueen — and Jerry Hall with her daughter Georgia May Jagger.",
+          "concept": "historical fashion show year",
+          "reasoning": "This section references a specific year '1999' in the context of a notable fashion show."
+        },
+        {
+          "rank": 3,
+          "text": "The show saw Vaccarello embrace the slinky sleekness of the 1980s with a pared-back presentation in the shadow of the Eiffel Tower. The creative director offered looks based around a similar slim-line silhouette, with form-fitting tube dresses, belted silky pyjama suits and jackets with shoulder pads, which moved into leather blousons and a floor-grazing wool coat with squared-off shoulders.",
+          "concept": "decade reference",
+          "reasoning": "This section contains the decade '1980s' as a specific numeric reference within descriptive text."
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "shard_id": "part_00016",
+      "row_idx": 3148,
+      "normalized": 8.369587898254395,
+      "actual_text": "abitata da molte famiglie giovani. Uno dei requisiti richiesti dall’avviso, che prevede uno stanziamento compless",
+      "plain_text": "Due progetti esecutivi per la realizzazione di altrettante scuole per l’infanzia sono stati presentati dal Comune di Siracusa in adesione a un avviso pubblico lanciato lo scorso marzo del ministero dell’Interno. Ne dà notizia il sindaco, Francesco Italia. \n\tLe due strutture sono state previste a Cassibile e in contrada Carrozziere, in una zona di recente espansione residenziale e abitata da molte famiglie giovani. Uno dei requisiti richiesti dall’avviso, che prevede uno stanziamento complessivo di 175 milioni di euro, è infatti che le scuole devono essere costruite in zone periferiche di capoluoghi di provincia. Entrambe nasceranno su aree comunali: quella di Cassibile in via Giusti, in un’estensione di 5 mila metri quadrati nei pressi della della stazione dei Carabinieri e a due passi dall’Istituto comprensivo “Falcone e Borsellino”; per quella di contrada Carrozziere è stato individuato un terreno di 8 mila metri quadrati tra via dello Sparviero e via del Cormorano. \n\tLa scuole per l’infanzia sono  destinate a bambini da 0 a 6 anni e il costo previsto per ognuna delle opere è di 3 milioni euro. Entrambe le proposte prevedono l'impiego di materiali e strutture innovative in legno per garantire, ai bimbi e agli operatori, i più elevati standard di comfort e assicurare elevate prestazioni energetiche e antisismiche. I due edifici, inoltre, sono stati pensati per un sano sviluppo dei bambini stimolandone le capacità di apprendimento e di gioco. \n\t“Doteremo la città – afferma il sindaco Italia – di due scuole per l’infanzia innovative e sostenibili sotto il profilo ambientale, da un lato per compensare la carenza di strutture pubbliche analoghe in quelle zone e, dall'altro, per garantire alle famiglie siracusane presidi di ultima generazione, armonicamente integrati nel verde e nell'ambiente circostante. Ci aspettiamo un’ampia partecipazione di amministrazioni locali all'avviso, ma la presentazione di due progettazioni esecutive ci rende fiduciosi sull’esito della nostra partecipazione all’avviso. In ogni caso le due opere saranno realizzate, se non con questa, con altra forma di finanziamento”.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Entrambe nasceranno su aree comunali: quella di Cassibile in via Giusti, in un’estensione di 5 mila metri quadrati nei pressi della della stazione dei Carabinieri e a due passi dall’Istituto comprensivo “Falcone e Borsellino”; per quella di contrada Carrozziere è stato individuato un terreno di 8 mila metri quadrati tra via dello Sparviero e via del Cormorano.",
+          "concept": "area measurements and addresses",
+          "reasoning": "This section contains precise measurements (5,000 and 8,000 square meters) and street addresses, which are specific numerical and locational identifiers."
+        },
+        {
+          "rank": 2,
+          "text": "Le due strutture sono state previste a Cassibile e in contrada Carrozziere, in una zona di recente espansione residenziale e abitata da molte famiglie giovani. Uno dei requisiti richiesti dall’avviso, che prevede uno stanziamento complessivo di 175 milioni di euro, è infatti che le scuole devono essere costruite in zone periferiche di capoluoghi di provincia.",
+          "concept": "funding amount",
+          "reasoning": "This section specifies a large sum of money (175 million euros) as part of a public notice, matching the neuron's pattern for numeric data."
+        },
+        {
+          "rank": 3,
+          "text": "La scuole per l’infanzia sono  destinate a bambini da 0 a 6 anni e il costo previsto per ognuna delle opere è di 3 milioni euro. Entrambe le proposte prevedono l'impiego di materiali e strutture innovative in legno per garantire, ai bimbi e agli operatori, i più elevati standard di comfort e assicurare elevate prestazioni energetiche e antisismiche.",
+          "concept": "age range and cost",
+          "reasoning": "This section includes an age range (0-6 years) and a cost figure (3 million euros), both precise numerical references."
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "shard_id": "part_00001",
+      "row_idx": 315,
+      "normalized": 0.0,
+      "actual_text": "Family of man shot, killed during Northern Kentucky traffic stop file wrongful death lawsuit The",
+      "plain_text": "Family of man shot, killed during Northern Kentucky traffic stop file wrongful death lawsuit  The family of a man shot and killed during a Northern Kentucky traffic stop is filing a wrongful death lawsuit. The shooting happened last February when Villa Hills officers shot Randall Lockaby, 57, after pulling him over for speeding along Interstate 75 in Kenton County.  Once the officers made contact with the man inside the car, Lockaby pulled out a handgun, deputies said. Both Villa Hills officers fired their weapons, striking the man. The officers performed CPR on Lockaby before he was then taken to St. Elizabeth Hospital in Florence. He later died at the hospital from his injuries.  The lawsuit claims officers Sean Dooley and Jacob Bolton used excessive force and were negligent among other claims. Both officers were cleared of wrongdoing last March. Lockaby was a convicted felon and not legally allowed to carry guns.",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The shooting happened last February when Villa Hills officers shot Randall Lockaby, 57, after pulling him over for speeding along Interstate 75 in Kenton County.",
+          "concept": "age and highway number",
+          "reasoning": "This section contains a specific age (57) and a highway number (Interstate 75), which are numeric identifiers within a news narrative."
+        },
+        {
+          "rank": 2,
+          "text": "The officers performed CPR on Lockaby before he was then taken to St. Elizabeth Hospital in Florence.",
+          "concept": "medical acronym and hospital name",
+          "reasoning": "This section includes the acronym 'CPR' and a hospital name, which are technical identifiers in a medical context."
+        },
+        {
+          "rank": 3,
+          "text": "The lawsuit claims officers Sean Dooley and Jacob Bolton used excessive force and were negligent among other claims. Both officers were cleared of wrongdoing last March.",
+          "concept": "officer names and month",
+          "reasoning": "This section contains specific officer names and a month reference, acting as precise identifiers in a legal context."
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "shard_id": "part_00000",
+      "row_idx": 455,
+      "normalized": 0.0,
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total.",
+          "concept": "case and death counts",
+          "reasoning": "This section contains multiple precise numerical figures (3254 cases, 10.3 million, 121,100 infections, 5934 deaths) embedded in a health report."
+        },
+        {
+          "rank": 2,
+          "text": "The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare.",
+          "concept": "ICU capacity percentage",
+          "reasoning": "This section includes a specific percentage (15%) related to ICU capacity, a numerical datum in a healthcare context."
+        },
+        {
+          "rank": 3,
+          "text": "However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said.",
+          "concept": "date restriction",
+          "reasoning": "This section specifies a date (November 18) until which restrictions apply, a precise temporal identifier."
+        }
+      ]
+    }
+  ]
+}

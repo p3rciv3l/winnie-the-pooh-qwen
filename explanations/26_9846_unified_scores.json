@@ -1,0 +1,162 @@
+{
+  "neuron_id": "26_9846",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal, specific references to institutions, laws, events, or quantitative reports** (such as government agencies releasing findings, financial/legal disclosures, cited historical dates, or news reports naming officials and organizations).\n\n2. **Domain coverage**: The pattern appears in multilingual news journalism, official statements, academic/legal citations, and financial reporting. Examples span English, Spanish, German, Italian, and Polish, covering topics like law enforcement actions (\"U.S. law enforcement official\"), corporate filings (\"hedge funds have also modified their\"), government policy (\"amendments' backers\"), scientific institutions (\"Instituto de Meteorolog\u00eda\"), and historical texts (\"250 B.C.E.\"). It consistently activates on text that reads like a precise excerpt from a formal document or authoritative report.\n\n3. **Contrast with low-activation examples**: High-activation texts contain concrete, named entities (e.g., \"Reuters,\" \"South African Police,\" \"Cardinal Health,\" \"SAT and ACT\") paired with specific actions, dates, or metrics. Low-activation examples are either generic statements, personal narratives, or announcements lacking this formal referential precision (e.g., \"a tribute was held,\" \"Names have been changed,\" \"taught us\").\n\n4. **Closing interpretation**: The neuron detects text that serves an authoritative, public-informative function, focusing on semantically dense references to institutional facts, official processes, or documented evidence. It acts as a filter for prose that anchors statements in named, verifiable sources or structured reporting.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Climate change is further exacerbating the problem. Most of the water feeding the mountainous rivers originates as melt water from snow, permafrost and glaciers. Over",
+      "normalized_activation": 9.711572647094727,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1715,
+          "meaning_score": 0.3218,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1973
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1899,
+          "meaning_score": 0.2956,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1942
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.16,
+          "meaning_score": 0.8211,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.5924
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "don\u2019t accept this report, or the Commission\u2019s legitimacy, you\u2019ve got no place in the party. JLM didn\u2019t refer the party to the EHRC",
+      "normalized_activation": 9.103042602539062,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2342,
+          "meaning_score": 0.4849,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2877
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1882,
+          "meaning_score": 0.5006,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2755
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2082,
+          "meaning_score": 0.3318,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.216
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": ". Cllr King labelled this behaviour in Garryduff, Lismurragha and Kylehaule bogs as \u201cdreadful\u201d when",
+      "normalized_activation": 8.387704849243164,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1904,
+          "meaning_score": 0.8722,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.425
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1627,
+          "meaning_score": 0.2694,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1728
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2484,
+          "meaning_score": 0.5291,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.311
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "Any Sharp 1T-C32BC5KH2F (32BC",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2151,
+          "meaning_score": 0.4972,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.285
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2272,
+          "meaning_score": 0.7117,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3756
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2115,
+          "meaning_score": 0.501,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.285
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "After real life drama, Rohingya refugees find solace on stage By Beh Lih",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1242,
+          "meaning_score": 0.5713,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2782
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.0416,
+          "meaning_score": 0.4283,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.188
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1097,
+          "meaning_score": 0.6212,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2924
+        }
+      ]
+    }
+  ]
+}

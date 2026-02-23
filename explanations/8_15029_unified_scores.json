@@ -1,0 +1,162 @@
+{
+  "neuron_id": "8_15029",
+  "model": "deepseek/deepseek-v3.2",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news-style text containing specific contextual details such as dates, attribution phrases, and supplementary information (e.g., \"partly attributed to the 2002 Gujarat riots,\" \"per CNET,\" \"the agency said,\" or \"gra\u00e7as a um m\u00e9todo\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (including English, Italian, Spanish, Portuguese, Arabic, Russian, and Hungarian) in news articles or factual reports, often in the body of an article where past events are referenced, causal explanations are given, or sources are cited. Topics range from politics and entertainment to science and local events.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically lead sentences, headlines, or brief announcements that introduce news without providing detailed context, attribution, or specific temporal references (e.g., \"ANAHEIM, Calif. (KGTV) \u2013 The Disneyland Resort announced on Tuesday\"). They lack the mid-article explanatory clauses, parenthetical citations, and precise dates that characterize the high-activation examples.\n\n4. **Closing interpretation**: The neuron likely detects explanatory or attributive language in journalistic text, focusing on phrases that provide context, causation, or citation, often signaled by reporting verbs, temporal markers, and supplementary details.",
+  "results": [
+    {
+      "example_idx": 1,
+      "actual_text": "Kubu\u015b przygotowa\u0142 dla najm\u0142odszych niespodziank\u0119. Pe\u0142ne fascynuj\u0105cych wzor\u00f3w kosmiczne",
+      "normalized_activation": 9.559612274169922,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1881,
+          "meaning_score": 0.6425,
+          "overlap_fraction": 0.4186,
+          "location_score": 0.0837,
+          "combined_score": 0.416
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1782,
+          "meaning_score": 0.5279,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2825
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2048,
+          "meaning_score": 0.4459,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2603
+        }
+      ]
+    },
+    {
+      "example_idx": 2,
+      "actual_text": "antica. Cataleya thematisiert in ihren Liedern und Kompostionen unter anderem das Finden und Leben von Individualit\u00e4t, Mut,",
+      "normalized_activation": 8.641973495483398,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2588,
+          "meaning_score": 0.5699,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3315
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.2497,
+          "meaning_score": 0.3528,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.241
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.2367,
+          "meaning_score": 0.5518,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.3154
+        }
+      ]
+    },
+    {
+      "example_idx": 3,
+      "actual_text": "8 people in Xinjiang and caused significant damage. (This story has not been edited by NDTV Staff and is automatically generated from a shared feed.) .",
+      "normalized_activation": 7.634696006774902,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1312,
+          "meaning_score": 0.3255,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1827
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1099,
+          "meaning_score": 0.4042,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2056
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.1842,
+          "meaning_score": 0.3662,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2202
+        }
+      ]
+    },
+    {
+      "example_idx": 4,
+      "actual_text": "The government is in talks with three Asian nations about free-trade agreements (FTAs),",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.2203,
+          "meaning_score": 0.7893,
+          "overlap_fraction": 1.0,
+          "location_score": 0.2,
+          "combined_score": 0.6038
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.1751,
+          "meaning_score": 0.4496,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.2499
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.142,
+          "meaning_score": 0.3406,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1931
+        }
+      ]
+    },
+    {
+      "example_idx": 5,
+      "actual_text": "Mueller Is Unraveling Russian Manipulation. Let Him Finish His Job.",
+      "normalized_activation": 0.0,
+      "pairs": [
+        {
+          "prediction_rank": 1,
+          "concept_score": 0.1367,
+          "meaning_score": 0.1798,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1266
+        },
+        {
+          "prediction_rank": 2,
+          "concept_score": 0.177,
+          "meaning_score": 0.2379,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.166
+        },
+        {
+          "prediction_rank": 3,
+          "concept_score": 0.185,
+          "meaning_score": 0.2889,
+          "overlap_fraction": 0.0,
+          "location_score": 0.0,
+          "combined_score": 0.1895
+        }
+      ]
+    }
+  ]
+}
