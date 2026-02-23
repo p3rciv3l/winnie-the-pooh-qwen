@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_6030",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations in formal, journalistic, or descriptive prose** (such as news report clauses, descriptive phrases following an introductory element, or explanatory text continuing a prior thought).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, German, Turkish, Bulgarian, Ukrainian, Finnish, Spanish, English, etc.) and primarily in contexts of news reporting, official statements, descriptive articles, and procedural or institutional explanations. The texts are typically fragments that follow a colon, comma, or opening quotation mark, continuing a narrative or argument.\n\n3. **Contrast with low-activation examples**: High-activation texts are almost exclusively **clausal continuations or dependent phrases** that grammatically and semantically extend a preceding idea (e.g., after a colon, a quoted speech introduction, or a subordinate clause). Low-activation examples are often **headline-style phrases, standalone sentences, or text beginnings** (e.g., \"Bruxelles va pr\u00e9senter...\", \"TVS XL100 on road price...\", \"New Delhi: On the 2020...\") that start a new thought or are syntactically complete.\n\n4. **Closing interpretation**: The neuron detects text that is syntactically and semantically dependent on prior context, acting as a continuation marker for formal expository or journalistic discourse. It essentially fires on prose that is \"in the flow\" of reporting or explanation, rather than on self-contained statements or titles.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations in formal, journalistic, or descriptive prose** (such as news report clauses, descriptive phrases following an introductory element, or explanatory text continuing a prior thought).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, German, Turkish, Bulgarian, Ukrainian, Finnish, Spanish, English, etc.) and primarily in contexts of news reporting, official statements, descriptive articles, and procedural or institutional explanations. The texts are typically fragments that follow a colon, comma, or opening quotation mark, continuing a narrative or argument.\n\n3. **Contrast with low-activation examples**: High-activation texts are almost exclusively **clausal continuations or dependent phrases** that grammatically and semantically extend a preceding idea (e.g., after a colon, a quoted speech introduction, or a subordinate clause). Low-activation examples are often **headline-style phrases, standalone sentences, or text beginnings** (e.g., \"Bruxelles va présenter...\", \"TVS XL100 on road price...\", \"New Delhi: On the 2020...\") that start a new thought or are syntactically complete.\n\n4. **Closing interpretation**: The neuron detects text that is syntactically and semantically dependent on prior context, acting as a continuation marker for formal expository or journalistic discourse. It essentially fires on prose that is \"in the flow\" of reporting or explanation, rather than on self-contained statements or titles.",
   "results": [
     {
       "example_idx": 1,
@@ -12,9 +12,9 @@
           "prediction_rank": 1,
           "concept_score": 0.1598,
           "meaning_score": 0.8053,
-          "overlap_fraction": 0.9817,
-          "location_score": 0.1963,
-          "combined_score": 0.5824
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7912
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4654,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2393
+          "combined_score": 0.2177
         },
         {
           "prediction_rank": 3,
@@ -30,38 +30,38 @@
           "meaning_score": 0.3674,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1999
+          "combined_score": 0.176
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "znej im. Armii Ludowo Wyzwole\u0144czej w Pekinie, sie\u0107 ta ma sk\u0142ada\u0107 si\u0119 z 12",
+      "actual_text": "znej im. Armii Ludowo Wyzwoleńczej w Pekinie, sieć ta ma składać się z 12",
       "normalized_activation": 9.017181396484375,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0391,
+          "concept_score": 0.0392,
           "meaning_score": 0.3962,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1741
+          "combined_score": 0.1742
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1076,
+          "concept_score": 0.1075,
           "meaning_score": 0.413,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2082
+          "combined_score": 0.1917
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1682,
-          "meaning_score": 0.5255,
+          "meaning_score": 0.5224,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4775
+          "location_score": 0.425,
+          "combined_score": 0.6723
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1568,
-          "meaning_score": 0.2839,
+          "concept_score": 0.1569,
+          "meaning_score": 0.2856,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1763
+          "combined_score": 0.1449
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1031,
-          "meaning_score": 0.5224,
+          "concept_score": 0.1032,
+          "meaning_score": 0.5213,
           "overlap_fraction": 0.6967,
-          "location_score": 0.1393,
-          "combined_score": 0.3896
+          "location_score": 0.2961,
+          "combined_score": 0.5331
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1754,
-          "meaning_score": 0.539,
+          "concept_score": 0.1753,
+          "meaning_score": 0.538,
           "overlap_fraction": 0.2951,
-          "location_score": 0.059,
-          "combined_score": 0.3448
+          "location_score": 0.1254,
+          "combined_score": 0.3803
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.237,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1585
+          "combined_score": 0.1246
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2316,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.154
+          "combined_score": 0.1215
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.2495,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1615
+          "combined_score": 0.1292
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2191,
-          "meaning_score": 0.4835,
+          "concept_score": 0.2195,
+          "meaning_score": 0.4834,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.281
+          "combined_score": 0.2383
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1815,
+          "concept_score": 0.1816,
           "meaning_score": 0.4508,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2529
+          "combined_score": 0.2188
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2106,
-          "meaning_score": 0.4645,
+          "concept_score": 0.2108,
+          "meaning_score": 0.4635,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.27
+          "combined_score": 0.2286
         }
       ]
     }

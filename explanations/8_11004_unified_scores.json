@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_11004",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in journalistic or biographical contexts** (such as celebrity names paired with descriptors, political figures with titles/roles, or geographic entities with associated events).\n\n2. **Domain coverage**: The pattern appears across news articles, biographical snippets, and event reporting in multiple languages (English, Spanish, Turkish, Polish). It activates on specific named people (\"Dolly Parton\", \"Arvind Kejriwal\"), places (\"Sydney seat of Bennelong\", \"San Jose\"), organizations (\"BBC\", \"KMSS\"), and cultural works (\"album 'Blackstar'\"), particularly when they are presented within a phrase that provides contextual detail about their identity, achievement, or involvement in an event.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack complete, contextualized proper nouns (e.g., truncated fragments like \"BINGHAMTON, NY (WIVT/WBGH) \u2013 In B\") or contain generic terms and common nouns without specific named entities (e.g., \"The winning Glove Box Market report\"). The high-activation group consistently features *fully formed references* to specific, real-world entities, while the low group features sentence fragments, generic topics, or named entities without the surrounding descriptive context that the neuron detects.\n\n4. **Closing interpretation**: This neuron likely detects semantic patterns where a text segment is identifying or describing a specific, unique entity\u2014a core task in news and narrative discourse. It functions as a named-entity contextualizer, firing not merely on the presence of a capitalized name, but on the linguistic structure that introduces or characterizes that entity within a statement.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in journalistic or biographical contexts** (such as celebrity names paired with descriptors, political figures with titles/roles, or geographic entities with associated events).\n\n2. **Domain coverage**: The pattern appears across news articles, biographical snippets, and event reporting in multiple languages (English, Spanish, Turkish, Polish). It activates on specific named people (\"Dolly Parton\", \"Arvind Kejriwal\"), places (\"Sydney seat of Bennelong\", \"San Jose\"), organizations (\"BBC\", \"KMSS\"), and cultural works (\"album 'Blackstar'\"), particularly when they are presented within a phrase that provides contextual detail about their identity, achievement, or involvement in an event.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack complete, contextualized proper nouns (e.g., truncated fragments like \"BINGHAMTON, NY (WIVT/WBGH) – In B\") or contain generic terms and common nouns without specific named entities (e.g., \"The winning Glove Box Market report\"). The high-activation group consistently features *fully formed references* to specific, real-world entities, while the low group features sentence fragments, generic topics, or named entities without the surrounding descriptive context that the neuron detects.\n\n4. **Closing interpretation**: This neuron likely detects semantic patterns where a text segment is identifying or describing a specific, unique entity—a core task in news and narrative discourse. It functions as a named-entity contextualizer, firing not merely on the presence of a capitalized name, but on the linguistic structure that introduces or characterizes that entity within a statement.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1794,
           "meaning_score": 0.6882,
           "overlap_fraction": 0.8387,
-          "location_score": 0.1677,
-          "combined_score": 0.5148
+          "location_score": 0.3565,
+          "combined_score": 0.6758
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3371,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2007
+          "combined_score": 0.168
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.5606,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2822
+          "combined_score": 0.26
         }
       ]
     },
@@ -45,23 +45,23 @@
           "meaning_score": 0.6061,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2945
+          "combined_score": 0.2771
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2135,
-          "meaning_score": 0.4525,
+          "meaning_score": 0.4524,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2664
+          "combined_score": 0.2243
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2219,
-          "meaning_score": 0.3075,
+          "meaning_score": 0.3074,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2117
+          "combined_score": 0.1639
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2588,
-          "meaning_score": 0.7217,
+          "concept_score": 0.2541,
+          "meaning_score": 0.7223,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5922
+          "location_score": 0.425,
+          "combined_score": 0.7701
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2776,
-          "meaning_score": 0.5104,
+          "meaning_score": 0.5102,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3152
+          "combined_score": 0.2585
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2574,
+          "concept_score": 0.2597,
           "meaning_score": 0.4955,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3012
+          "combined_score": 0.2495
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.2978,
           "meaning_score": 0.7548,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.621
+          "location_score": 0.425,
+          "combined_score": 0.7905
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.5325,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3252
+          "combined_score": 0.2684
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4758,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2666
+          "combined_score": 0.2308
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.6446,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3069
+          "combined_score": 0.2924
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4111,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2295
+          "combined_score": 0.1991
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5711,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2954
+          "combined_score": 0.2678
         }
       ]
     }

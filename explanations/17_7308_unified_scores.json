@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_7308",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or editorial metadata and attribution markers** (such as datelines, byline/author credits, source citations, publication notes, and news agency tags).\n\n2. **Domain coverage**: The pattern appears in news articles, blog posts, and official statements across multiple languages (English, Spanish, Italian, Urdu, etc.) and topics (politics, entertainment, sports, disasters). It specifically activates on text segments that identify the source, location, time, author, or publisher\u2014e.g., \"Tehran, May 5 (Xinhua)\", \"Dave Davies, host: This is FRESH AIR\", \"BDN Opinion section operates independently\", \"UrduPoint / Pakistan Point News - 4th Jun, 2024\".\n\n3. **Contrast with low-activation examples**: The low-activation examples largely jump directly into narrative content, opinion, or event description without preceding attribution or source framing. Even when they mention news-related topics (e.g., \"China has rejected accusations...\"), they lack the structural metadata\u2014no datelines, no explicit credit to a reporter or outlet, no \"operates independently\" disclaimers.\n\n4. **Closing interpretation**: The neuron detects formal editorial framing and source-provenance cues rather than specific subject matter. It acts as a \"news-article header\" detector, responding to the stylistic conventions that signal a text is an excerpt from a published or broadcast news source.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or editorial metadata and attribution markers** (such as datelines, byline/author credits, source citations, publication notes, and news agency tags).\n\n2. **Domain coverage**: The pattern appears in news articles, blog posts, and official statements across multiple languages (English, Spanish, Italian, Urdu, etc.) and topics (politics, entertainment, sports, disasters). It specifically activates on text segments that identify the source, location, time, author, or publisher—e.g., \"Tehran, May 5 (Xinhua)\", \"Dave Davies, host: This is FRESH AIR\", \"BDN Opinion section operates independently\", \"UrduPoint / Pakistan Point News - 4th Jun, 2024\".\n\n3. **Contrast with low-activation examples**: The low-activation examples largely jump directly into narrative content, opinion, or event description without preceding attribution or source framing. Even when they mention news-related topics (e.g., \"China has rejected accusations...\"), they lack the structural metadata—no datelines, no explicit credit to a reporter or outlet, no \"operates independently\" disclaimers.\n\n4. **Closing interpretation**: The neuron detects formal editorial framing and source-provenance cues rather than specific subject matter. It acts as a \"news-article header\" detector, responding to the stylistic conventions that signal a text is an excerpt from a published or broadcast news source.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.8578,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4635
+          "combined_score": 0.4097
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.6457,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.351
+          "combined_score": 0.3092
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.4605,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2583
+          "combined_score": 0.2235
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.6713,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3478
+          "combined_score": 0.315
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4231,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2266
+          "combined_score": 0.2013
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3951,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2356
+          "combined_score": 0.197
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "(CNN Espa\u00f1ol) - Un sismo de magnitud 7,7 sacudi\u00f3 Chile",
+      "actual_text": "(CNN Español) - Un sismo de magnitud 7,7 sacudió Chile",
       "normalized_activation": 6.9808125495910645,
       "pairs": [
         {
@@ -75,8 +75,8 @@
           "concept_score": 0.1781,
           "meaning_score": 0.8186,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5987
+          "location_score": 0.425,
+          "combined_score": 0.7996
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5494,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3088
+          "combined_score": 0.2669
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3725,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2049
+          "combined_score": 0.1793
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2122,
+          "concept_score": 0.2123,
           "meaning_score": 0.3654,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2311
+          "combined_score": 0.1871
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4304,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2455
+          "combined_score": 0.2104
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.4482,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2511
+          "combined_score": 0.2174
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1858,
-          "meaning_score": 0.485,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2683
+          "concept_score": 0.1859,
+          "meaning_score": 0.4848,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6589
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1807,
-          "meaning_score": 0.3062,
+          "meaning_score": 0.306,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1947
+          "combined_score": 0.1572
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.135,
-          "meaning_score": 0.3883,
+          "meaning_score": 0.389,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2093
+          "combined_score": 0.1856
         }
       ]
     }

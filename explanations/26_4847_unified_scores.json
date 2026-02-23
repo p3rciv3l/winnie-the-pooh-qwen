@@ -1,11 +1,11 @@
 {
   "neuron_id": "26_4847",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns and specific named entities alongside numerical or statistical references** (such as lists of locations with funding allocations, athlete earnings with team names, stock recommendations with dates, or research findings with institutional names).\n\n2. **Domain coverage**: The pattern appears in multilingual news and factual reporting across domains like finance (\"Stock Advisor returns as of February 24\"), sports (\"Conor McGregor, Manchester United\"), geopolitics (\"Kashmir's independence from India\"), academic research (\"Prof. Yan Xiaoli from Yunnan Observatories\"), and public policy (\"Care Act\"). It activates for English, Arabic, French, Italian, Danish, and Spanish texts when they contain this combination of concrete names and quantifiable details.\n\n3. **Contrast with low-activation examples**: High-activation texts densely pack specific names (people, organizations, places) with associated numbers, dates, or metrics. Low-activation examples either lack named entities entirely, contain only generic references, or present narrative/descriptive content without this precise pairing (e.g., \"surrey\u2019s singing Mounties spread Christmas cheer\" has a proper noun but no numerical/statistical anchor).\n\n4. **Closing interpretation**: The neuron likely detects a journalistic or informational writing style that grounds reports in concrete, attributed facts. It fires when text signals authoritative detail by coupling specific identifiers with measurable or contextualizing data.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns and specific named entities alongside numerical or statistical references** (such as lists of locations with funding allocations, athlete earnings with team names, stock recommendations with dates, or research findings with institutional names).\n\n2. **Domain coverage**: The pattern appears in multilingual news and factual reporting across domains like finance (\"Stock Advisor returns as of February 24\"), sports (\"Conor McGregor, Manchester United\"), geopolitics (\"Kashmir's independence from India\"), academic research (\"Prof. Yan Xiaoli from Yunnan Observatories\"), and public policy (\"Care Act\"). It activates for English, Arabic, French, Italian, Danish, and Spanish texts when they contain this combination of concrete names and quantifiable details.\n\n3. **Contrast with low-activation examples**: High-activation texts densely pack specific names (people, organizations, places) with associated numbers, dates, or metrics. Low-activation examples either lack named entities entirely, contain only generic references, or present narrative/descriptive content without this precise pairing (e.g., \"surrey’s singing Mounties spread Christmas cheer\" has a proper noun but no numerical/statistical anchor).\n\n4. **Closing interpretation**: The neuron likely detects a journalistic or informational writing style that grounds reports in concrete, attributed facts. It fires when text signals authoritative detail by coupling specific identifiers with measurable or contextualizing data.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Act (ACA). On the campaign trail, crowds thrilled to Trump\u2019s promise to repeal Obamacare \u201con day one\u201d and replace it with \u201csomething terrific\u201d. Failure",
+      "actual_text": "Act (ACA). On the campaign trail, crowds thrilled to Trump’s promise to repeal Obamacare “on day one” and replace it with “something terrific”. Failure",
       "normalized_activation": 9.53552532196045,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.3706,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2248
+          "combined_score": 0.1862
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2431,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1543
+          "combined_score": 0.1247
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3255,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1979
+          "combined_score": 0.1637
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3335,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1762
+          "combined_score": 0.1578
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.5194,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2508
+          "combined_score": 0.2369
         },
         {
           "prediction_rank": 3,
@@ -61,38 +61,38 @@
           "meaning_score": 0.5507,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2693
+          "combined_score": 0.2524
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "ging automobiles and starts embracing bikes. (City Lab) AI isn\u2019t just for self-driving cars. It could help create a more efficient and sustainable transportation system. (",
+      "actual_text": "ging automobiles and starts embracing bikes. (City Lab) AI isn’t just for self-driving cars. It could help create a more efficient and sustainable transportation system. (",
       "normalized_activation": 7.894265174865723,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0768,
+          "concept_score": 0.0767,
           "meaning_score": 0.3443,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1684
+          "combined_score": 0.1578
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.123,
-          "meaning_score": 0.3278,
+          "concept_score": 0.1229,
+          "meaning_score": 0.3279,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1804
+          "combined_score": 0.1578
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1461,
-          "meaning_score": 0.2646,
+          "meaning_score": 0.2645,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1643
+          "combined_score": 0.1343
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.3999,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2707
+          "combined_score": 0.2115
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3004,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1856
+          "combined_score": 0.1522
         },
         {
           "prediction_rank": 3,
@@ -123,30 +123,30 @@
           "meaning_score": 0.2323,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1674
+          "combined_score": 0.1266
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1103,
+          "concept_score": 0.1104,
           "meaning_score": 0.3026,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1652
+          "combined_score": 0.1452
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1192,
-          "meaning_score": 0.2379,
+          "meaning_score": 0.2378,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1428
+          "combined_score": 0.119
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5413,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2594
+          "combined_score": 0.2461
         }
       ]
     }

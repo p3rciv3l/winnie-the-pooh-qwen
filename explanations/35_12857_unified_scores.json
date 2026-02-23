@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_12857",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **breaking news or urgent reports about geopolitical conflicts, natural disasters, or human-rights crises** (such as volcanic eruptions, terrorist attacks, international sanctions, military tensions, or earthquake evacuations).\n\n2. **Domain coverage**: It activates across multiple languages (Spanish, Dutch, Romanian, Arabic, Hindi, etc.) in news-style text containing specific dates, locations, casualty figures, and named entities (countries, leaders, organizations). The contexts are consistently real-world disruptive events with immediate consequences, often involving state actors or large-scale emergencies.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack urgency and concrete real-world impact\u2014they discuss awards, sports transfers, routine announcements, scientific facts, or general lifestyle topics without time-sensitive disaster/conflict framing. The neuron ignores speculative, celebratory, or procedural content.\n\n4. **Closing interpretation**: The neuron detects linguistically marked journalistic reporting of high-stakes, timely negative events, likely serving as a \u201ccrisis news\u201d filter. It focuses on semantic content involving sudden harm, international tension, or official emergency response rather than topic or language alone.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **breaking news or urgent reports about geopolitical conflicts, natural disasters, or human-rights crises** (such as volcanic eruptions, terrorist attacks, international sanctions, military tensions, or earthquake evacuations).\n\n2. **Domain coverage**: It activates across multiple languages (Spanish, Dutch, Romanian, Arabic, Hindi, etc.) in news-style text containing specific dates, locations, casualty figures, and named entities (countries, leaders, organizations). The contexts are consistently real-world disruptive events with immediate consequences, often involving state actors or large-scale emergencies.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack urgency and concrete real-world impact—they discuss awards, sports transfers, routine announcements, scientific facts, or general lifestyle topics without time-sensitive disaster/conflict framing. The neuron ignores speculative, celebratory, or procedural content.\n\n4. **Closing interpretation**: The neuron detects linguistically marked journalistic reporting of high-stakes, timely negative events, likely serving as a “crisis news” filter. It focuses on semantic content involving sudden harm, international tension, or official emergency response rather than topic or language alone.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "ertes explosiones subacu\u00e1ticas en la misma \u00e1rea del mar donde el lunes ocurrieron fugas de gas en los ductos Nord Stream 1",
+      "actual_text": "ertes explosiones subacuáticas en la misma área del mar donde el lunes ocurrieron fugas de gas en los ductos Nord Stream 1",
       "normalized_activation": 9.63944149017334,
       "pairs": [
         {
@@ -14,15 +14,15 @@
           "meaning_score": 0.6771,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3133
+          "combined_score": 0.3037
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1296,
           "meaning_score": 0.7758,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3622
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7742
         },
         {
           "prediction_rank": 3,
@@ -30,44 +30,44 @@
           "meaning_score": 0.525,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2619
+          "combined_score": 0.2426
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": ". Criticism has grown over China\u2019s internment of an estimated 1 million Uighurs and members of other predominantly Muslim ethnic groups. China describes the camps as",
+      "actual_text": ". Criticism has grown over China’s internment of an estimated 1 million Uighurs and members of other predominantly Muslim ethnic groups. China describes the camps as",
       "normalized_activation": 8.953852653503418,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1303,
-          "meaning_score": 0.5469,
+          "concept_score": 0.1302,
+          "meaning_score": 0.5472,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2709
+          "combined_score": 0.2521
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0933,
           "meaning_score": 0.8727,
           "overlap_fraction": 0.9879,
-          "location_score": 0.1976,
-          "combined_score": 0.5839
+          "location_score": 0.4198,
+          "combined_score": 0.8047
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0684,
+          "concept_score": 0.066,
           "meaning_score": 0.3376,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1624
+          "combined_score": 0.1534
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "covers nine countries: Benin, Burkina Faso, Cameroon, Chad, Cote d\u2019Ivoire, Guinee, Mali, Mauritania, and",
+      "actual_text": "covers nine countries: Benin, Burkina Faso, Cameroon, Chad, Cote d’Ivoire, Guinee, Mali, Mauritania, and",
       "normalized_activation": 8.023966789245605,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.1689,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1123
+          "combined_score": 0.0886
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4153,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1943
+          "combined_score": 0.1871
         },
         {
           "prediction_rank": 3,
@@ -92,38 +92,38 @@
           "meaning_score": 0.2401,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1497
+          "combined_score": 0.1222
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0963,
+          "concept_score": 0.0962,
           "meaning_score": 0.5411,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2549
+          "combined_score": 0.2444
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0642,
-          "meaning_score": 0.7343,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3194
+          "meaning_score": 0.7338,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7465
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.0439,
-          "meaning_score": 0.5066,
+          "meaning_score": 0.5068,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2202
+          "combined_score": 0.222
         }
       ]
     },
@@ -138,15 +138,15 @@
           "meaning_score": 0.4494,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2484
+          "combined_score": 0.2167
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2508,
           "meaning_score": 0.8743,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.45
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8342
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5851,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3431
+          "combined_score": 0.2896
         }
       ]
     }

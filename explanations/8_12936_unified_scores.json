@@ -1,17 +1,17 @@
 {
   "neuron_id": "8_12936",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing words with the character sequence \"rev\" (or its orthographic variants like \"riv\" or \"r\u00e9v\") across multiple languages, particularly those related to revolution, revolt, review, or turning (such as \"revoluci\u00f3n\"/\"revolution\" (political/technological change), \"revista\"/\"revist\u0103\" (magazine, implying review), or \"revoltele\" (revolts)).\n\n2. **Domain coverage**: The pattern appears in diverse domains: political movements (e.g., FARC's \"Revolucionaria,\" Orange Revolution), technological shifts (AI, Shale, digital revolutions), scientific publishing (\"revista Nature\"), cultural changes (vegan revolution, cultural revolution), and financial terms (\"Revolving Line of Credit\"). It spans languages including Spanish, English, Romanian, Italian, French, and Hindi, indicating sensitivity to the substring regardless of semantic context\u2014though highest activations occur with explicit revolution-related terms.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any words with the \"rev\" root or its variants. They cover everyday news, sports, business, and general topics without reference to revolutionary concepts, review publications, or turning actions. The key distinction is the presence of the trigram \"rev\" (or similar) in the high-activation group, while it is absent in the low-activation group.\n\n4. **Closing interpretation**: This neuron likely functions as a character-level or morpheme-level detector for the substring \"rev,\" which often signifies turning, change, or examination. Its strongest responses correlate with the concept of \"revolution,\" but it also activates on related terms like \"revista\" (magazine) and \"revise,\" suggesting a broader sensitivity to this orthographic pattern across languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing words with the character sequence \"rev\" (or its orthographic variants like \"riv\" or \"rév\") across multiple languages, particularly those related to revolution, revolt, review, or turning (such as \"revolución\"/\"revolution\" (political/technological change), \"revista\"/\"revistă\" (magazine, implying review), or \"revoltele\" (revolts)).\n\n2. **Domain coverage**: The pattern appears in diverse domains: political movements (e.g., FARC's \"Revolucionaria,\" Orange Revolution), technological shifts (AI, Shale, digital revolutions), scientific publishing (\"revista Nature\"), cultural changes (vegan revolution, cultural revolution), and financial terms (\"Revolving Line of Credit\"). It spans languages including Spanish, English, Romanian, Italian, French, and Hindi, indicating sensitivity to the substring regardless of semantic context—though highest activations occur with explicit revolution-related terms.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any words with the \"rev\" root or its variants. They cover everyday news, sports, business, and general topics without reference to revolutionary concepts, review publications, or turning actions. The key distinction is the presence of the trigram \"rev\" (or similar) in the high-activation group, while it is absent in the low-activation group.\n\n4. **Closing interpretation**: This neuron likely functions as a character-level or morpheme-level detector for the substring \"rev,\" which often signifies turning, change, or examination. Its strongest responses correlate with the concept of \"revolution,\" but it also activates on related terms like \"revista\" (magazine) and \"revise,\" suggesting a broader sensitivity to this orthographic pattern across languages.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "cosmos. Ahora bien, un nuevo estudio que fue publicado en la revista \u2018The Astrophysical Journal\u2019 afirma que se calcul\u00f3 cu\u00e1nto",
+      "actual_text": "cosmos. Ahora bien, un nuevo estudio que fue publicado en la revista ‘The Astrophysical Journal’ afirma que se calculó cuánto",
       "normalized_activation": 8.861763954162598,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "KRAKSat ju\u017c od kilku miesi\u0119cy jest wspierany przez SatRevolution. Teraz, dzi\u0119ki wsp\u00f3\u0142pracy ze Space Garden Sp. z o.o",
+      "actual_text": "KRAKSat już od kilku miesięcy jest wspierany przez SatRevolution. Teraz, dzięki współpracy ze Space Garden Sp. z o.o",
       "normalized_activation": 6.071896553039551,
       "pairs": []
     },
@@ -23,7 +23,7 @@
     },
     {
       "example_idx": 4,
-      "actual_text": "\u0395\u03c0\u03ad\u03c3\u03c4\u03c1\u03b5\u03c8\u03b1\u03bd \u03c3\u03c4\u03bf \u03be\u03b5\u03bd",
+      "actual_text": "Επέστρεψαν στο ξεν",
       "normalized_activation": 0.0,
       "pairs": []
     },

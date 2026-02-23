@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_6146",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **temporal contrasts that reference a prior state or event** (such as phrases containing \"previously,\" \"earlier,\" \"formerly,\" \"in the past,\" or their direct translations in other languages).\n\n2. **Domain coverage**: The pattern appears across diverse topics (entertainment, politics, health, business, personal stories) and multiple languages, including English, German (\"zuvor\"), Spanish (\"anteriormente\"), and Russian (\"\u0440\u0430\u043d\u0435\u0435\"). It activates on text that explicitly contrasts a current situation, statement, or status with what was true or happened before.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit markers of temporal contrast linking a past and present. The low-activation examples are standalone factual statements, headlines, dates, or procedural text that lack any narrative contrast between time periods; they describe single moments or general facts without referencing a prior state.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that establish a before-and-after narrative frame, focusing on the semantic role of temporal transition words rather than any specific subject matter. It acts as a \"past-state indicator\" within a comparative timeline.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **temporal contrasts that reference a prior state or event** (such as phrases containing \"previously,\" \"earlier,\" \"formerly,\" \"in the past,\" or their direct translations in other languages).\n\n2. **Domain coverage**: The pattern appears across diverse topics (entertainment, politics, health, business, personal stories) and multiple languages, including English, German (\"zuvor\"), Spanish (\"anteriormente\"), and Russian (\"ранее\"). It activates on text that explicitly contrasts a current situation, statement, or status with what was true or happened before.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit markers of temporal contrast linking a past and present. The low-activation examples are standalone factual statements, headlines, dates, or procedural text that lack any narrative contrast between time periods; they describe single moments or general facts without referencing a prior state.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that establish a before-and-after narrative frame, focusing on the semantic role of temporal transition words rather than any specific subject matter. It acts as a \"past-state indicator\" within a comparative timeline.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "West. After that, many hoped that US Secretary of State Antony Blinken\u2019s previously planned trip to China this month would reduce tensions further, building on Liu\u2019s own",
+      "actual_text": "West. After that, many hoped that US Secretary of State Antony Blinken’s previously planned trip to China this month would reduce tensions further, building on Liu’s own",
       "normalized_activation": 9.499652862548828,
       "pairs": [
         {
@@ -13,16 +13,16 @@
           "concept_score": 0.4743,
           "meaning_score": 0.8616,
           "overlap_fraction": 0.9645,
-          "location_score": 0.1929,
-          "combined_score": 0.7272
+          "location_score": 0.4099,
+          "combined_score": 0.8472
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.3402,
           "meaning_score": 0.5678,
           "overlap_fraction": 0.0296,
-          "location_score": 0.0059,
-          "combined_score": 0.3691
+          "location_score": 0.0126,
+          "combined_score": 0.3049
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3751,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2292
+          "combined_score": 0.1891
         }
       ]
     },
@@ -43,9 +43,9 @@
           "prediction_rank": 1,
           "concept_score": 0.4311,
           "meaning_score": 0.777,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4832
+          "overlap_fraction": 0.5689,
+          "location_score": 0.2418,
+          "combined_score": 0.6367
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2412,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1599
+          "combined_score": 0.1263
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.45,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3729
+          "combined_score": 0.2636
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "Francis\u2019 approval of his heroic virtue, \u201cPapa Luciani,\u201d who until now has held the title \u201cServant of God,\u201d can now be called \u201cV",
+      "actual_text": "Francis’ approval of his heroic virtue, “Papa Luciani,” who until now has held the title “Servant of God,” can now be called “V",
       "normalized_activation": 7.124826908111572,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3433,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.215
+          "combined_score": 0.175
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3083,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2144
+          "combined_score": 0.1652
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.3206,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1948
+          "combined_score": 0.1612
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "The public health system is \u201cmore than adequately stocked with oxygen supplies\u201d, the Ministry of",
+      "actual_text": "The public health system is “more than adequately stocked with oxygen supplies”, the Ministry of",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.747,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3748
+          "combined_score": 0.346
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.5297,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2845
+          "combined_score": 0.2523
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2332,
           "meaning_score": 0.9205,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6615
+          "location_score": 0.425,
+          "combined_score": 0.8512
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2207,
-          "meaning_score": 0.7162,
+          "concept_score": 0.2208,
+          "meaning_score": 0.7163,
           "overlap_fraction": 0.9286,
-          "location_score": 0.1857,
-          "combined_score": 0.5605
+          "location_score": 0.3946,
+          "combined_score": 0.7322
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1957,
-          "meaning_score": 0.1909,
+          "meaning_score": 0.1908,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1546
+          "combined_score": 0.1104
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2446,
-          "meaning_score": 0.4882,
+          "meaning_score": 0.4883,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2931
+          "combined_score": 0.2442
         }
       ]
     }

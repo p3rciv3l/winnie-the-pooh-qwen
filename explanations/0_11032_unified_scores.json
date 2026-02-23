@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_11032",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "This neuron strongly responds to the presence of the substring \"net\" (case-insensitive) in text, whether it appears as a standalone word (e.g., \"net assets,\" \"net income\"), within larger words (e.g., \"netizens,\" \"Vernetzung\"), in proper names (e.g., \"Roberto Campos Neto,\" \"Gil Netter\"), in email domains (e.g., \"bloomberg.net\"), or in various languages (e.g., Turkish \"net k\u00e2r\u0131n\u0131,\" Czech \"netu\u0161ila\").\n\nThe pattern appears across diverse domains and languages: financial/business contexts (\"net zero,\" \"net worth\"), internet-related terms (\"netizens,\" \".net\" domains), news about orders and income, and personal or place names. It activates in English, Turkish, German, Czech, and Italian texts, showing no semantic preference\u2014only the presence of the character sequence \"net.\"\n\nIn contrast, low-activation examples completely lack the substring \"net\" and cover unrelated topics like music concerts, political events, natural disasters, and sports scores without that string. The neuron\u2019s response is driven purely by the occurrence of \"net,\" not by topic, sentiment, or other linguistic features.\n\nThis neuron functions as a simple string-matching detector for \"net,\" activating on its appearance regardless of semantic context or linguistic role, indicating a focus on orthographic form rather than meaning.",
+  "explanation_used": "This neuron strongly responds to the presence of the substring \"net\" (case-insensitive) in text, whether it appears as a standalone word (e.g., \"net assets,\" \"net income\"), within larger words (e.g., \"netizens,\" \"Vernetzung\"), in proper names (e.g., \"Roberto Campos Neto,\" \"Gil Netter\"), in email domains (e.g., \"bloomberg.net\"), or in various languages (e.g., Turkish \"net kârını,\" Czech \"netušila\").\n\nThe pattern appears across diverse domains and languages: financial/business contexts (\"net zero,\" \"net worth\"), internet-related terms (\"netizens,\" \".net\" domains), news about orders and income, and personal or place names. It activates in English, Turkish, German, Czech, and Italian texts, showing no semantic preference—only the presence of the character sequence \"net.\"\n\nIn contrast, low-activation examples completely lack the substring \"net\" and cover unrelated topics like music concerts, political events, natural disasters, and sports scores without that string. The neuron’s response is driven purely by the occurrence of \"net,\" not by topic, sentiment, or other linguistic features.\n\nThis neuron functions as a simple string-matching detector for \"net,\" activating on its appearance regardless of semantic context or linguistic role, indicating a focus on orthographic form rather than meaning.",
   "results": [
     {
       "example_idx": 1,
@@ -11,32 +11,32 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.0631,
-          "meaning_score": 0.6419,
+          "meaning_score": 0.6421,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.282
+          "combined_score": 0.2823
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0933,
-          "meaning_score": 0.5213,
+          "concept_score": 0.0932,
+          "meaning_score": 0.5215,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2458
+          "combined_score": 0.2356
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1351,
-          "meaning_score": 0.5406,
+          "meaning_score": 0.5413,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2703
+          "combined_score": 0.2503
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "d'un an \u00e0 une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'\u00e0",
+      "actual_text": "d'un an à une hausse en moyenne de 120 euros net par mois pour les gardiens de la paix et pouvant aller jusqu'à",
       "normalized_activation": 8.244640350341797,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.3072,
           "meaning_score": 0.7942,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6406
+          "location_score": 0.425,
+          "combined_score": 0.8086
         },
         {
           "prediction_rank": 2,
@@ -53,15 +53,15 @@
           "meaning_score": 0.4546,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2444
+          "combined_score": 0.2167
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.152,
+          "concept_score": 0.1521,
           "meaning_score": 0.2725,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1698
+          "combined_score": 0.1386
         }
       ]
     },
@@ -73,26 +73,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1367,
-          "meaning_score": 0.7448,
+          "meaning_score": 0.745,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5526
+          "location_score": 0.425,
+          "combined_score": 0.7621
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1951,
-          "meaning_score": 0.5609,
+          "meaning_score": 0.5604,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3024
+          "combined_score": 0.2674
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1492,
-          "meaning_score": 0.4015,
+          "meaning_score": 0.4023,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2203
+          "combined_score": 0.1934
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.3507,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1743
+          "combined_score": 0.1618
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.381,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2138
+          "combined_score": 0.1849
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1595,
           "meaning_score": 0.5994,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5036
+          "location_score": 0.425,
+          "combined_score": 0.7037
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1668,
+          "concept_score": 0.1666,
           "meaning_score": 0.7237,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5562
+          "location_score": 0.425,
+          "combined_score": 0.7576
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2314,
+          "concept_score": 0.2315,
           "meaning_score": 0.3818,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2453
+          "combined_score": 0.197
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.0963,
-          "meaning_score": 0.3487,
+          "meaning_score": 0.3485,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.178
+          "combined_score": 0.1626
         }
       ]
     }

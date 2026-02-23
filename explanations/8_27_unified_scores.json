@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_27",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to enumerations or lists of named entities and specific items (such as lists of people with titles like \"Dr Shafiq Rahman, Dr T R. Muralidharan\", sequences of places with distances like \"V de Merkezefendi, 232km V de Denizli\", or itemized categories like \"Vitamin C, - Vitamin A, - Vitamin B and - Omega-3\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, Russian, Polish, Swedish) and in diverse contexts including news articles (reporting on groups of individuals, participants in events), geographical or directional descriptions, product or feature lists, and technical or academic enumerations.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically concise headlines or single-event summaries that focus on one or two named entities without extended serialization (e.g., \"Putin signs laws\" or \"Langley, USA \u2013 25 October 2017\"). They lack the comma-separated or conjunction-linked sequences of multiple entities that dominate the high-activation group.\n\n4. **Closing interpretation**: The neuron detects a syntactic pattern of enumeration, acting as a marker for text segments dense with catalog-like information, where multiple distinct entities are presented in close succession for informative or descriptive purposes.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to enumerations or lists of named entities and specific items (such as lists of people with titles like \"Dr Shafiq Rahman, Dr T R. Muralidharan\", sequences of places with distances like \"V de Merkezefendi, 232km V de Denizli\", or itemized categories like \"Vitamin C, - Vitamin A, - Vitamin B and - Omega-3\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, Russian, Polish, Swedish) and in diverse contexts including news articles (reporting on groups of individuals, participants in events), geographical or directional descriptions, product or feature lists, and technical or academic enumerations.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically concise headlines or single-event summaries that focus on one or two named entities without extended serialization (e.g., \"Putin signs laws\" or \"Langley, USA – 25 October 2017\"). They lack the comma-separated or conjunction-linked sequences of multiple entities that dominate the high-activation group.\n\n4. **Closing interpretation**: The neuron detects a syntactic pattern of enumeration, acting as a marker for text segments dense with catalog-like information, where multiple distinct entities are presented in close succession for informative or descriptive purposes.",
   "results": [
     {
       "example_idx": 1,
@@ -11,13 +11,13 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "Big Dog (Canis Major). The sharp image, made using broadband and narrowband filters, captures striking details of the nebula\u2019s filamentary gas and dust structures",
+      "actual_text": "Big Dog (Canis Major). The sharp image, made using broadband and narrowband filters, captures striking details of the nebula’s filamentary gas and dust structures",
       "normalized_activation": 8.501931190490723,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "\u043e\u0432\u0430\u043d\u0438\u0439 \u0442\u0430\u043a\u0438\u043c \u043f\u043e\u0432\u043e\u0440\u043e\u0442\u043e\u043c \u043f\u043e\u0434\u0456\u0439, \u043b\u044f\u043a\u0430\u0454 \u0434\u0456\u0432\u0447\u0438\u043d\u0443 \u0441\u0432\u043e\u0454\u044e \u043f\u043e\u0432\u0435\u0434\u0456\u043d\u043a\u043e\u044e. \u0410 \u0447",
+      "actual_text": "ований таким поворотом подій, лякає дівчину своєю поведінкою. А ч",
       "normalized_activation": 7.431095123291016,
       "pairs": []
     },
@@ -29,7 +29,7 @@
     },
     {
       "example_idx": 5,
-      "actual_text": "Next on the police reform chopping block: Adam Toledo\u2019s killing calls for an end to",
+      "actual_text": "Next on the police reform chopping block: Adam Toledo’s killing calls for an end to",
       "normalized_activation": 0.0,
       "pairs": []
     }

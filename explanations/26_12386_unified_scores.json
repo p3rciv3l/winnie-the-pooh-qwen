@@ -1,17 +1,17 @@
 {
   "neuron_id": "26_12386",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal reporting or official statements containing quoted speech or cited sources** (such as news excerpts with direct quotes from officials, translated agency announcements, or journalistic passages attributing information to specific people or organizations).\n\n2. **Domain coverage**: The pattern appears across international news domains\u2014including geopolitics, natural disasters, legal proceedings, and cultural events\u2014and is language-agnostic. Examples span Hindi, Polish, Bengali, Spanish, Italian, Russian, and Arabic, indicating the neuron detects the structural pattern of reporting rather than a specific topic or language.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature quoted speech (e.g., \u201cdijo\u201d, \u201csaid\u201d, \u201c\u0939\u0948\u0902\u201d, \u201cpowiedzia\u0142\u201d) or explicit references to official entities (e.g., NASA, Servicio Geol\u00f3gico, Gobierno de Venezuela). Low-activation examples are generally descriptive, lack direct quotation, and are often in English without the formal attribution structure\u2014even when discussing news topics.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting text that formally attributes information to a speaker or source, a hallmark of journalistic and official documentation. It filters for the syntactic and discourse markers of citation rather than semantic content alone.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal reporting or official statements containing quoted speech or cited sources** (such as news excerpts with direct quotes from officials, translated agency announcements, or journalistic passages attributing information to specific people or organizations).\n\n2. **Domain coverage**: The pattern appears across international news domains—including geopolitics, natural disasters, legal proceedings, and cultural events—and is language-agnostic. Examples span Hindi, Polish, Bengali, Spanish, Italian, Russian, and Arabic, indicating the neuron detects the structural pattern of reporting rather than a specific topic or language.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature quoted speech (e.g., “dijo”, “said”, “हैं”, “powiedział”) or explicit references to official entities (e.g., NASA, Servicio Geológico, Gobierno de Venezuela). Low-activation examples are generally descriptive, lack direct quotation, and are often in English without the formal attribution structure—even when discussing news topics.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting text that formally attributes information to a speaker or source, a hallmark of journalistic and official documentation. It filters for the syntactic and discourse markers of citation rather than semantic content alone.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "pas \u00e7a\u00bb, a-t-il conclu. Pogba est l\u2019initiateur de ce projet avec Antoine Griezmann, fan de basket am\u00e9ricain comme",
+      "actual_text": "pas ça», a-t-il conclu. Pogba est l’initiateur de ce projet avec Antoine Griezmann, fan de basket américain comme",
       "normalized_activation": 9.613372802734375,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "' \u2014 a phylum of marine creatures that also includes starfish and sea cucumbers. Like other echinoderms, a sea urchin will",
+      "actual_text": "' — a phylum of marine creatures that also includes starfish and sea cucumbers. Like other echinoderms, a sea urchin will",
       "normalized_activation": 8.893730163574219,
       "pairs": []
     },

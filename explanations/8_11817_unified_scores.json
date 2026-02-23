@@ -1,20 +1,20 @@
 {
   "neuron_id": "8_11817",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns and specific named entities** (such as person names like \"Reynaldo Chavez,\" location names like \"Grand Bahama Island,\" organization names like \"National Taiwan University,\" or event names like \"IPL millionaire\").\n\n2. **Domain coverage**: The pattern appears across news, sports, politics, and international affairs in multiple languages (English, Italian, Spanish, Greek, Russian, etc.). It activates on text mentioning specific people, places, institutions, or titles, often within journalistic or factual reporting contexts\u2014such as cricket updates (\"Unadkat becomes IPL millionaire\"), geopolitical statements (\"Taiwan will surely be reunified\"), disaster reports (\"Hurricane stalled over Grand Bahama Island\"), or cultural references (\"Edith Piaf, Reynaldo Hahn\").\n\n3. **Contrast with low-activation examples**: The high-activation texts are dense with concrete, capitalized named entities and specific real-world references, while low-activation examples either lack such specificity (e.g., \"French consumer prices remained flat\") or contain only generic or common nouns (e.g., \"farmworkers, servers,\" \"boiler blast\"). The neuron appears insensitive to template-like news datelines (\"PARIS (dpa-AFX)\") or general statements without distinctive proper nouns.\n\n4. **Closing interpretation**: This neuron likely detects **semantic richness in named entity concentration**, serving as a marker for text that references precise, identifiable real-world subjects rather than abstract or generic information. It functions as a filter for content anchored in specific people, locations, organizations, or events.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns and specific named entities** (such as person names like \"Reynaldo Chavez,\" location names like \"Grand Bahama Island,\" organization names like \"National Taiwan University,\" or event names like \"IPL millionaire\").\n\n2. **Domain coverage**: The pattern appears across news, sports, politics, and international affairs in multiple languages (English, Italian, Spanish, Greek, Russian, etc.). It activates on text mentioning specific people, places, institutions, or titles, often within journalistic or factual reporting contexts—such as cricket updates (\"Unadkat becomes IPL millionaire\"), geopolitical statements (\"Taiwan will surely be reunified\"), disaster reports (\"Hurricane stalled over Grand Bahama Island\"), or cultural references (\"Edith Piaf, Reynaldo Hahn\").\n\n3. **Contrast with low-activation examples**: The high-activation texts are dense with concrete, capitalized named entities and specific real-world references, while low-activation examples either lack such specificity (e.g., \"French consumer prices remained flat\") or contain only generic or common nouns (e.g., \"farmworkers, servers,\" \"boiler blast\"). The neuron appears insensitive to template-like news datelines (\"PARIS (dpa-AFX)\") or general statements without distinctive proper nouns.\n\n4. **Closing interpretation**: This neuron likely detects **semantic richness in named entity concentration**, serving as a marker for text that references precise, identifiable real-world subjects rather than abstract or generic information. It functions as a filter for content anchored in specific people, locations, organizations, or events.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Seth Moulton (D\u2013Mass.); and A.G. Sulzberger, publisher of The New York Times and nepo baby. Stelter kicked",
+      "actual_text": "Seth Moulton (D–Mass.); and A.G. Sulzberger, publisher of The New York Times and nepo baby. Stelter kicked",
       "normalized_activation": 9.623344421386719,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1298,
-          "meaning_score": 0.5832,
+          "concept_score": 0.1294,
+          "meaning_score": 0.5833,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2852
+          "combined_score": 0.2673
         },
         {
           "prediction_rank": 2,
@@ -22,21 +22,21 @@
           "meaning_score": 0.1574,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1046
+          "combined_score": 0.0825
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.16,
-          "meaning_score": 0.3403,
+          "meaning_score": 0.3404,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2001
+          "combined_score": 0.1686
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "ypou\u0161t\u011bj\u00ed kosmick\u00e9 p\u0159\u00edstroje, je vz\u00e1jemn\u00e1 poloha planet d\u016fle\u017eit\u00e1. N\u011b",
+      "actual_text": "ypouštějí kosmické přístroje, je vzájemná poloha planet důležitá. Ně",
       "normalized_activation": 8.996696472167969,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.3993,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2058
+          "combined_score": 0.187
         },
         {
           "prediction_rank": 2,
@@ -53,15 +53,15 @@
           "meaning_score": 0.4132,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2106
+          "combined_score": 0.1926
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1259,
           "meaning_score": 0.604,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.292
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7006
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0934,
-          "meaning_score": 0.7036,
+          "concept_score": 0.0915,
+          "meaning_score": 0.7037,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5188
+          "location_score": 0.425,
+          "combined_score": 0.7378
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1203,
-          "meaning_score": 0.3609,
+          "concept_score": 0.1187,
+          "meaning_score": 0.3616,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1925
+          "combined_score": 0.1715
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1379,
+          "concept_score": 0.1374,
           "meaning_score": 0.3314,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1877
+          "combined_score": 0.1614
         }
       ]
     },
@@ -105,25 +105,25 @@
           "prediction_rank": 1,
           "concept_score": 0.1141,
           "meaning_score": 0.7969,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3644
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7808
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0703,
-          "meaning_score": 0.6961,
+          "meaning_score": 0.6956,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3066
+          "combined_score": 0.3062
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1422,
-          "meaning_score": 0.5562,
+          "concept_score": 0.1423,
+          "meaning_score": 0.5569,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2794
+          "combined_score": 0.258
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1557,
-          "meaning_score": 0.263,
+          "concept_score": 0.1559,
+          "meaning_score": 0.2627,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1675
+          "combined_score": 0.135
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.166,
-          "meaning_score": 0.3229,
+          "concept_score": 0.1659,
+          "meaning_score": 0.323,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1955
+          "combined_score": 0.1621
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1707,
-          "meaning_score": 0.1434,
+          "meaning_score": 0.1433,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1256
+          "combined_score": 0.0865
         }
       ]
     }

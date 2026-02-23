@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_5234",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense sequences of proper nouns and named entities** (such as lists of locations, personal names, organization names, or event titles) often presented in appositive or descriptive clauses.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Hungarian, Greek, Turkish) and domains, including international news reports, cultural event descriptions, academic or institutional announcements, and sports/political summaries. It activates on text segments that pack multiple specific names\u2014people, cities, awards, organizations\u2014into a contiguous span.\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by a high concentration of proper nouns within a single sentence or clause, often in the middle of explanatory or narrative context. The low-activation examples either contain very few named entities, place them in isolated positions (e.g., a headline-style lead), or present them without the same dense, enumerative packaging.\n\n4. **Closing interpretation**: The neuron appears to detect a specific syntactic-semantic structure: multi-item nominal groups that serve to specify actors, locations, or titles within a detailed report. It functions less as a topic detector and more as a marker for information-rich, entity-packed prose.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **dense sequences of proper nouns and named entities** (such as lists of locations, personal names, organization names, or event titles) often presented in appositive or descriptive clauses.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Hungarian, Greek, Turkish) and domains, including international news reports, cultural event descriptions, academic or institutional announcements, and sports/political summaries. It activates on text segments that pack multiple specific names—people, cities, awards, organizations—into a contiguous span.\n\n3. **Contrast with low-activation examples**: The high-activation texts are characterized by a high concentration of proper nouns within a single sentence or clause, often in the middle of explanatory or narrative context. The low-activation examples either contain very few named entities, place them in isolated positions (e.g., a headline-style lead), or present them without the same dense, enumerative packaging.\n\n4. **Closing interpretation**: The neuron appears to detect a specific syntactic-semantic structure: multi-item nominal groups that serve to specify actors, locations, or titles within a detailed report. It functions less as a topic detector and more as a marker for information-rich, entity-packed prose.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "media that the police probe into the 2015 attack on Khaleda Zia\u2019s motorcade in the city",
+      "actual_text": "media that the police probe into the 2015 attack on Khaleda Zia’s motorcade in the city",
       "normalized_activation": 9.528291702270508,
       "pairs": [
         {
@@ -13,8 +13,8 @@
           "concept_score": 0.3223,
           "meaning_score": 0.7772,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6398
+          "location_score": 0.425,
+          "combined_score": 0.8037
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4452,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2437
+          "combined_score": 0.2138
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.0124,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0958
+          "combined_score": 0.0393
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "estro of the castle before being transformed into an 18th century harpsichord. A few weeks before the film\u2019s release the director Bill Condon",
+      "actual_text": "estro of the castle before being transformed into an 18th century harpsichord. A few weeks before the film’s release the director Bill Condon",
       "normalized_activation": 8.696080207824707,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.4208,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2472
+          "combined_score": 0.2084
         },
         {
           "prediction_rank": 2,
@@ -53,15 +53,15 @@
           "meaning_score": 0.4104,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2502
+          "combined_score": 0.2067
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.164,
+          "concept_score": 0.1641,
           "meaning_score": 0.4468,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2444
+          "combined_score": 0.2145
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.4,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2087
+          "combined_score": 0.1883
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4161,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2373
+          "combined_score": 0.2034
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.6405,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2887
+          "combined_score": 0.2844
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "MILWAUKEE (AP) \u2014 Los Cerveceros de Milwaukee",
+      "actual_text": "MILWAUKEE (AP) — Los Cerveceros de Milwaukee",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.1514,
           "meaning_score": 0.6737,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.53
+          "location_score": 0.425,
+          "combined_score": 0.734
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3845,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2601
+          "combined_score": 0.2033
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3538,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2049
+          "combined_score": 0.1741
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.6408,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3403
+          "combined_score": 0.3038
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.5815,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3242
+          "combined_score": 0.2815
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.207,
           "meaning_score": 0.8427,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6199
+          "location_score": 0.425,
+          "combined_score": 0.8142
         }
       ]
     }

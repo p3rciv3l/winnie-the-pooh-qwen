@@ -5,6 +5,7 @@ import os
 from transformers import AutoTokenizer
 from tqdm import tqdm
 from similarity import get_embeddings, cosine_similarity, find_slice
+from simulator import clean_text
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--neurons", nargs="+", metavar="NEURON_ID", help="Specific neuron IDs to score.")
@@ -62,17 +63,25 @@ for filepath in tqdm(simulation_files, unit="neuron"):
                 # Signal 2: Meaning score
                 meaning_score = cosine_similarity(actual_emb, pred_text_emb)
 
-                # Signal 3: Overlap fraction
-                pred_slice = find_slice(plain_text, pred["text"])
-                if actual_slice and pred_slice:
-                    intersection = max(0, min(actual_slice[1], pred_slice[1]) - max(actual_slice[0], pred_slice[0]))
-                    actual_len = actual_slice[1] - actual_slice[0]
-                    overlap_frac = min(1.0, intersection / actual_len) if actual_len > 0 else 0.0
+                # Signal 3: Overlap fraction — what fraction of actual_text is covered by pred
+                # Normalize pred text to match clean_text applied to actual_text
+                pred_text_clean = clean_text(pred.get("text", ""))
+                actual_len = len(actual_text)
+                if actual_text in pred_text_clean:
+                    overlap_frac = 1.0
+                elif pred_text_clean and pred_text_clean in actual_text:
+                    overlap_frac = len(pred_text_clean) / actual_len if actual_len > 0 else 0.0
                 else:
-                    overlap_frac = 0.0
+                    # Fallback: position-based overlap in plain_text
+                    pred_slice = find_slice(plain_text, pred.get("text", ""))
+                    if actual_slice and pred_slice:
+                        intersection = max(0, min(actual_slice[1], pred_slice[1]) - max(actual_slice[0], pred_slice[0]))
+                        overlap_frac = (intersection / actual_len) if actual_len > 0 else 0.0
+                    else:
+                        overlap_frac = 0.0
 
-                location_score = overlap_frac * 0.2
-                combined = concept_score * 0.4 + meaning_score * 0.4 + location_score
+                location_score = overlap_frac * 0.425
+                combined = concept_score * 0.15 + meaning_score * 0.425 + location_score
 
                 scored_pairs.append({
                     "prediction_rank": pred["rank"],
@@ -99,7 +108,7 @@ for filepath in tqdm(simulation_files, unit="neuron"):
             "results": scored_results,
         }
         with open(out_path, "w") as f:
-            json.dump(output, f, indent=2)
+            json.dump(output, f, indent=2, ensure_ascii=False)
 
         tqdm.write(f"  {neuron_id}: {len(scored_results)} examples -> {os.path.basename(out_path)}")
 

@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_9227",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing announcements or official statements** (such as political endorsements, policy reveals, event scheduling, personnel changes, or public declarations), particularly when signaled by words like \u201cannounced,\u201d \u201cannouncement,\u201d or \u201csaid\u201d in the context of conveying new information.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, Portuguese, German, Italian, Czech) and domains including politics (elections, indictments, sanctions), entertainment (TV series returns), sports (player selections, injuries), business (market openings, corporate plans), and institutional updates. High activations often occur near proper names (e.g., \u201cBiden,\u201d \u201cBernama,\u201d \u201cRohit Sharma\u201d) and formal titles.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack explicit announcement language; they describe ongoing conditions, general facts, or passive reporting without a formal declarative act (e.g., permit renewals, geographical descriptions, routine news updates). What distinguishes the high group is the presence of a communicative act where an entity (person, organization, government) proactively declares, reveals, or states something new.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of formal disclosure or proclamation, acting as a filter for speech acts that convey news or decisions. It is sensitive to verbs of announcing and their direct objects, regardless of the specific topic or language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing announcements or official statements** (such as political endorsements, policy reveals, event scheduling, personnel changes, or public declarations), particularly when signaled by words like “announced,” “announcement,” or “said” in the context of conveying new information.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, French, Portuguese, German, Italian, Czech) and domains including politics (elections, indictments, sanctions), entertainment (TV series returns), sports (player selections, injuries), business (market openings, corporate plans), and institutional updates. High activations often occur near proper names (e.g., “Biden,” “Bernama,” “Rohit Sharma”) and formal titles.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack explicit announcement language; they describe ongoing conditions, general facts, or passive reporting without a formal declarative act (e.g., permit renewals, geographical descriptions, routine news updates). What distinguishes the high group is the presence of a communicative act where an entity (person, organization, government) proactively declares, reveals, or states something new.\n\n4. **Closing interpretation**: The neuron detects linguistic markers of formal disclosure or proclamation, acting as a filter for speech acts that convey news or decisions. It is sensitive to verbs of announcing and their direct objects, regardless of the specific topic or language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": ", by these reactions to his article is to stir French hatred for Muslims. \u2014 Bernama",
+      "actual_text": ", by these reactions to his article is to stir French hatred for Muslims. — Bernama",
       "normalized_activation": 8.237853050231934,
       "pairs": [
         {
@@ -14,15 +14,15 @@
           "meaning_score": 0.5103,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2971
+          "combined_score": 0.2517
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.243,
+          "concept_score": 0.2431,
           "meaning_score": 0.5625,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3222
+          "combined_score": 0.2755
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2923,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1845
+          "combined_score": 0.1496
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "der Auftaktveranstaltung ist man sich einig: Ohne umfassende Betreuungsm\u00f6glichkeiten und den \u201erichtigen\u201c Mann",
+      "actual_text": "der Auftaktveranstaltung ist man sich einig: Ohne umfassende Betreuungsmöglichkeiten und den „richtigen“ Mann",
       "normalized_activation": 6.9243879318237305,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.2275,
           "meaning_score": 0.6426,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.548
+          "location_score": 0.425,
+          "combined_score": 0.7322
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3801,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2272
+          "combined_score": 0.1897
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.4925,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2831
+          "combined_score": 0.2416
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "give the people inside them a healthier, more comfortable space to work\u201d in an announcement. Curry said there are several avenues builders took to ensure the building met sustainability standards",
+      "actual_text": "give the people inside them a healthier, more comfortable space to work” in an announcement. Curry said there are several avenues builders took to ensure the building met sustainability standards",
       "normalized_activation": 6.105165004730225,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4049,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2951
+          "combined_score": 0.222
         },
         {
           "prediction_rank": 2,
@@ -84,15 +84,15 @@
           "meaning_score": 0.539,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3501
+          "combined_score": 0.2795
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.3242,
           "meaning_score": 0.6724,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5987
+          "location_score": 0.425,
+          "combined_score": 0.7594
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.356,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1954
+          "combined_score": 0.1712
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4477,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2392
+          "combined_score": 0.2128
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3607,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2116
+          "combined_score": 0.1785
         }
       ]
     },
@@ -136,9 +136,9 @@
           "prediction_rank": 1,
           "concept_score": 0.1905,
           "meaning_score": 0.7675,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3832
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7798
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.6253,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2887
+          "combined_score": 0.2802
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4454,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2221
+          "combined_score": 0.2058
         }
       ]
     }

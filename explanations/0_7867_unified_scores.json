@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_7867",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that begin with or prominently feature quantifying or descriptive introductory clauses highlighting prominence, scale, or specificity** (such as phrases like \"one of the,\" \"high-profile,\" \"low-level,\" \"high-ranking,\" or \"the only\").\n\n2. **Domain coverage**: The pattern appears across diverse news and descriptive domains including crime reporting, political events, health/medical contexts, natural disasters, and cultural commentary. It is present in English-language texts primarily, though some non-English examples in the high-activation set also contain similar structural patterns (e.g., the Russian snippet about twins likely includes a quantifying phrase). The neuron activates strongly when the text foregrounds a notable subset, degree, or exceptional case within a broader category.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically launch directly into a subject without a framing clause that quantifies or escalates its importance (e.g., \"Share This On: \u2026 ExxonMobil oil,\" \"Harry Styles will be performing\"). They are more matter-of-fact announcements or statements lacking the syntactic structure of \"one of the [notable things]\" or \"[high/low]-[profile/level/ranking] [entity].\" The neuron specifically detects the presence of these introductory qualifiers.\n\n4. **Closing interpretation**: This neuron likely detects a specific grammatical and semantic pattern where a noun phrase is preceded by a framing expression that signals its relative significance, rarity, or position within a set. It functions as a filter for sentences that highlight particular instances as noteworthy or representative.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that begin with or prominently feature quantifying or descriptive introductory clauses highlighting prominence, scale, or specificity** (such as phrases like \"one of the,\" \"high-profile,\" \"low-level,\" \"high-ranking,\" or \"the only\").\n\n2. **Domain coverage**: The pattern appears across diverse news and descriptive domains including crime reporting, political events, health/medical contexts, natural disasters, and cultural commentary. It is present in English-language texts primarily, though some non-English examples in the high-activation set also contain similar structural patterns (e.g., the Russian snippet about twins likely includes a quantifying phrase). The neuron activates strongly when the text foregrounds a notable subset, degree, or exceptional case within a broader category.\n\n3. **Contrast with low-activation examples**: The low-activation texts typically launch directly into a subject without a framing clause that quantifies or escalates its importance (e.g., \"Share This On: … ExxonMobil oil,\" \"Harry Styles will be performing\"). They are more matter-of-fact announcements or statements lacking the syntactic structure of \"one of the [notable things]\" or \"[high/low]-[profile/level/ranking] [entity].\" The neuron specifically detects the presence of these introductory qualifiers.\n\n4. **Closing interpretation**: This neuron likely detects a specific grammatical and semantic pattern where a noun phrase is preceded by a framing expression that signals its relative significance, rarity, or position within a set. It functions as a filter for sentences that highlight particular instances as noteworthy or representative.",
   "results": [
     {
       "example_idx": 1,
@@ -13,86 +13,86 @@
           "concept_score": 0.2327,
           "meaning_score": 0.8001,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6131
+          "location_score": 0.425,
+          "combined_score": 0.8
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2851,
-          "meaning_score": 0.5522,
+          "concept_score": 0.2852,
+          "meaning_score": 0.5524,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3349
+          "combined_score": 0.2775
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2594,
-          "meaning_score": 0.556,
+          "concept_score": 0.2595,
+          "meaning_score": 0.5561,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3262
+          "combined_score": 0.2753
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "seeing people who look like her relegated to secondary and often stereotypical roles, reading about a strong Asian American woman who can hold her own is refreshing \u2014 not to mention",
+      "actual_text": "seeing people who look like her relegated to secondary and often stereotypical roles, reading about a strong Asian American woman who can hold her own is refreshing — not to mention",
       "normalized_activation": 8.946687698364258,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.337,
+          "concept_score": 0.3371,
           "meaning_score": 0.2674,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2418
+          "combined_score": 0.1642
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1982,
-          "meaning_score": 0.2467,
+          "concept_score": 0.1981,
+          "meaning_score": 0.2465,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1779
+          "combined_score": 0.1345
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2482,
-          "meaning_score": 0.327,
+          "concept_score": 0.2483,
+          "meaning_score": 0.3271,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2301
+          "combined_score": 0.1763
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "selection process. Official sources also point out that the Division Bench of the Kerala High Court had recently agreed to the government\u2019s contention that the Chancellor could not initiate the process",
+      "actual_text": "selection process. Official sources also point out that the Division Bench of the Kerala High Court had recently agreed to the government’s contention that the Chancellor could not initiate the process",
       "normalized_activation": 8.0850830078125,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1877,
-          "meaning_score": 0.5401,
+          "concept_score": 0.1878,
+          "meaning_score": 0.5398,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2911
+          "combined_score": 0.2576
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1572,
-          "meaning_score": 0.5261,
+          "concept_score": 0.1571,
+          "meaning_score": 0.526,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2733
+          "combined_score": 0.2471
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1832,
-          "meaning_score": 0.4736,
+          "meaning_score": 0.4731,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2627
+          "combined_score": 0.2286
         }
       ]
     },
@@ -107,15 +107,15 @@
           "meaning_score": 0.4714,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2282
+          "combined_score": 0.2152
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1351,
           "meaning_score": 0.559,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4776
+          "location_score": 0.425,
+          "combined_score": 0.6828
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4405,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2226
+          "combined_score": 0.2046
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Studie NASA Riziko vesm\u00edrn\u00e9ho letu: astronaut",
+      "actual_text": "Studie NASA Riziko vesmírného letu: astronaut",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.5204,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2617
+          "combined_score": 0.2413
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4607,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.253
+          "combined_score": 0.2216
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5075,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2848
+          "combined_score": 0.2464
         }
       ]
     }

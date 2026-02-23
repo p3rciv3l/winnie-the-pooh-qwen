@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_2205",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific references to named entities, events, or policies within current affairs and public discourse** (such as politicians, legislative actions, public programs, notable incidents, or cultural figures).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Portuguese, Romanian, German, Russian, Greek, Hungarian, Hindi) and spans domains including politics, government, social programs, sports, entertainment, business, and natural events. Examples feature concrete details: named individuals (e.g., \"Paul Pogba,\" \"Ren Zhiqiang\"), organizations (\"Colorado People\u2019s Action,\" \"Vodafone Idea\"), geographic references (\"Ghana,\" \"Algiers\"), programs (\"Gruha Lakshmi programme\"), and specific incidents (\"Evento de Curu\u00e7\u00e1,\" \"pressure drop\" in gas pipelines).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include **proper nouns, specific policy or program names, or detailed event descriptions** embedded in a broader narrative context. Low-activation examples are either more generic (e.g., \"New Year\u2019s Day Earthquake Jolts Los Angeles\" without further detail), lack named entities, or are truncated snippets that omit contextual specifics (e.g., isolated dates or vague phrases).\n\n4. **Closing interpretation**: The neuron detects text that grounds discourse in concrete, real-world references\u2014acting as a filter for passages rich in specific entities and events relevant to contemporary public life, regardless of language or topic. It appears to signal the presence of substantiated, named elements within news, commentary, or reporting contexts.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific references to named entities, events, or policies within current affairs and public discourse** (such as politicians, legislative actions, public programs, notable incidents, or cultural figures).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Portuguese, Romanian, German, Russian, Greek, Hungarian, Hindi) and spans domains including politics, government, social programs, sports, entertainment, business, and natural events. Examples feature concrete details: named individuals (e.g., \"Paul Pogba,\" \"Ren Zhiqiang\"), organizations (\"Colorado People’s Action,\" \"Vodafone Idea\"), geographic references (\"Ghana,\" \"Algiers\"), programs (\"Gruha Lakshmi programme\"), and specific incidents (\"Evento de Curuçá,\" \"pressure drop\" in gas pipelines).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently include **proper nouns, specific policy or program names, or detailed event descriptions** embedded in a broader narrative context. Low-activation examples are either more generic (e.g., \"New Year’s Day Earthquake Jolts Los Angeles\" without further detail), lack named entities, or are truncated snippets that omit contextual specifics (e.g., isolated dates or vague phrases).\n\n4. **Closing interpretation**: The neuron detects text that grounds discourse in concrete, real-world references—acting as a filter for passages rich in specific entities and events relevant to contemporary public life, regardless of language or topic. It appears to signal the presence of substantiated, named elements within news, commentary, or reporting contexts.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1307,
           "meaning_score": 0.8527,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5934
+          "location_score": 0.425,
+          "combined_score": 0.807
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4256,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2461
+          "combined_score": 0.2094
         },
         {
           "prediction_rank": 3,
@@ -30,44 +30,44 @@
           "meaning_score": 0.3391,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2069
+          "combined_score": 0.1708
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "9 will both be spreading,\u201d said Acting DPH Commissioner Deidre S. Gifford, MD MPH. \u201cIn this context, getting a flu vaccine as",
+      "actual_text": "9 will both be spreading,” said Acting DPH Commissioner Deidre S. Gifford, MD MPH. “In this context, getting a flu vaccine as",
       "normalized_activation": 8.553894996643066,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1307,
-          "meaning_score": 0.6846,
+          "meaning_score": 0.685,
           "overlap_fraction": 0.656,
-          "location_score": 0.1312,
-          "combined_score": 0.4573
+          "location_score": 0.2788,
+          "combined_score": 0.5895
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.092,
-          "meaning_score": 0.473,
+          "meaning_score": 0.4726,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.226
+          "combined_score": 0.2147
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1414,
-          "meaning_score": 0.4294,
+          "concept_score": 0.1415,
+          "meaning_score": 0.4289,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2283
+          "combined_score": 0.2035
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u2019s penalty in the 38th minute of the second half, following a Nico Schlotterbeck foul on Jude Bellingham, appeared to have given England",
+      "actual_text": "’s penalty in the 38th minute of the second half, following a Nico Schlotterbeck foul on Jude Bellingham, appeared to have given England",
       "normalized_activation": 7.1238017082214355,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.5012,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.254
+          "combined_score": 0.2331
         },
         {
           "prediction_rank": 2,
@@ -84,15 +84,15 @@
           "meaning_score": 0.4567,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2463
+          "combined_score": 0.218
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1668,
           "meaning_score": 0.6652,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3328
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7327
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1585,
+          "concept_score": 0.1586,
           "meaning_score": 0.517,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2702
+          "combined_score": 0.2435
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1183,
+          "concept_score": 0.1184,
           "meaning_score": 0.4084,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2107
+          "combined_score": 0.1913
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0896,
+          "concept_score": 0.0897,
           "meaning_score": 0.6213,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2844
+          "combined_score": 0.2775
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.3254,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1912
+          "combined_score": 0.1612
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5335,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2859
+          "combined_score": 0.2539
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5265,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3509
+          "combined_score": 0.2764
         }
       ]
     }

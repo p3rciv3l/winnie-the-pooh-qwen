@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_7227",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations or narrative resumptions** (such as text beginning with transitional phrases like \u201cduring this,\u201d \u201calso,\u201d \u201cbut,\u201d or direct quotes and clauses that follow a colon, dash, or opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Russian, Spanish, etc.) and diverse topics\u2014news reports, crime updates, diplomatic statements, health bulletins, and entertainment snippets. It activates on text that grammatically continues a preceding sentence, often after a punctuation break or a subclause, regardless of the specific subject matter.\n\n3. **Contrast with low-activation examples**: High-activation texts typically lack a full sentence start; they often follow punctuation like colons, dashes, or opening quotes, or begin with conjunctions/adverbs (\u201cbut,\u201d \u201cduring,\u201d \u201calso,\u201d \u201cand\u201d). Low-activation examples are usually self-contained phrases, sentence beginnings, or standalone statements (e.g., \u201cMy fellow Guyanese, permit me\u2026\u201d, \u201cSPOILER ALERT:\u201d, \u201cForgot Username or Password\u201d), which introduce a new thought rather than extending one.\n\n4. **Closing interpretation**: The neuron detects syntactic and discourse markers indicating an ongoing sentence or narrative thread, focusing on text that functions as a continuation rather than a fresh statement. It likely helps the model parse mid-sentence context shifts, quotations, and appended clauses across languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence continuations or narrative resumptions** (such as text beginning with transitional phrases like “during this,” “also,” “but,” or direct quotes and clauses that follow a colon, dash, or opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Russian, Spanish, etc.) and diverse topics—news reports, crime updates, diplomatic statements, health bulletins, and entertainment snippets. It activates on text that grammatically continues a preceding sentence, often after a punctuation break or a subclause, regardless of the specific subject matter.\n\n3. **Contrast with low-activation examples**: High-activation texts typically lack a full sentence start; they often follow punctuation like colons, dashes, or opening quotes, or begin with conjunctions/adverbs (“but,” “during,” “also,” “and”). Low-activation examples are usually self-contained phrases, sentence beginnings, or standalone statements (e.g., “My fellow Guyanese, permit me…”, “SPOILER ALERT:”, “Forgot Username or Password”), which introduce a new thought rather than extending one.\n\n4. **Closing interpretation**: The neuron detects syntactic and discourse markers indicating an ongoing sentence or narrative thread, focusing on text that functions as a continuation rather than a fresh statement. It likely helps the model parse mid-sentence context shifts, quotations, and appended clauses across languages.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.505,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.304
+          "combined_score": 0.2528
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4198,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2336
+          "combined_score": 0.203
         },
         {
           "prediction_rank": 3,
@@ -30,30 +30,30 @@
           "meaning_score": 0.4591,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2458
+          "combined_score": 0.2184
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "lineup after a one-game absence with a head injury. \u0093Kucherov\u0092s goal, he was all alone. (Namestnikov) was",
+      "actual_text": "lineup after a one-game absence with a head injury. Kucherovs goal, he was all alone. (Namestnikov) was",
       "normalized_activation": 7.938229560852051,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2056,
-          "meaning_score": 0.3103,
+          "concept_score": 0.2057,
+          "meaning_score": 0.3104,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2064
+          "combined_score": 0.1628
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1604,
-          "meaning_score": 0.2984,
+          "concept_score": 0.1605,
+          "meaning_score": 0.2983,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1835
+          "combined_score": 0.1508
         },
         {
           "prediction_rank": 3,
@@ -61,44 +61,44 @@
           "meaning_score": 0.6361,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2986
+          "combined_score": 0.2869
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u0cae\u0cc1\u2013\u0c95\u0cbe\u0cb6\u0ccd\u0cae\u0cc0\u0cb0\u0c95\u0ccd\u0c95\u0cc6 \u0c8f\u0c95\u0cbf\u0cb2\u0ccd\u0cb2?\u2013\u0c93",
+      "actual_text": "ಮು–ಕಾಶ್ಮೀರಕ್ಕೆ ಏಕಿಲ್ಲ?–ಓ",
       "normalized_activation": 6.990191459655762,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2486,
-          "meaning_score": 0.2449,
+          "concept_score": 0.2485,
+          "meaning_score": 0.245,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1974
+          "combined_score": 0.1414
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2711,
-          "meaning_score": 0.2605,
+          "meaning_score": 0.2606,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2127
+          "combined_score": 0.1514
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2461,
-          "meaning_score": 0.237,
+          "meaning_score": 0.2368,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1932
+          "combined_score": 0.1376
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Talk about fake degrees, fake passports, fake licences , fake money, it\u2019s explain",
+      "actual_text": "Talk about fake degrees, fake passports, fake licences , fake money, it’s explain",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.2445,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1523
+          "combined_score": 0.1244
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.0528,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0572
+          "combined_score": 0.0359
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.1915,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1543
+          "combined_score": 0.1105
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.6081,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.311
+          "combined_score": 0.2839
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5851,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3283
+          "combined_score": 0.284
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.8051,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3989
+          "combined_score": 0.371
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "0_1899",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing phrases structured as \"[number]-year-old\" followed by a noun or noun phrase** (such as \"12-year-old Texas girl,\" \"65-year-old refinery,\" or \"78-year-old in dealing with the challenges\").\n\n2. **Domain coverage**: The pattern appears across diverse topics (crime, business, politics, sports, entertainment) and multiple languages (English, French, Italian, Spanish), but only when the exact hyphenated age descriptor format is present. It activates regardless of whether the subject is a person, animal, institution, or abstract entity (e.g., \"three-year old policy\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"[number]-year-old\" construct. They may discuss ages or years in other formats (\"65-year history,\" \"168 personas,\" \"July 4\"), but the neuron specifically requires the hyphenated age modifier directly preceding a noun. The low-activation examples are often headlines or leads about events, lawsuits, or general news without that specific grammatical frame.\n\n4. **Closing interpretation**: The neuron detects a precise syntactic pattern\u2014a hyphenated age adjective\u2014rather than a semantic concept like \"aging\" or \"news.\" It acts as a grammatical filter for this common journalistic construction used to introduce a subject's age.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing phrases structured as \"[number]-year-old\" followed by a noun or noun phrase** (such as \"12-year-old Texas girl,\" \"65-year-old refinery,\" or \"78-year-old in dealing with the challenges\").\n\n2. **Domain coverage**: The pattern appears across diverse topics (crime, business, politics, sports, entertainment) and multiple languages (English, French, Italian, Spanish), but only when the exact hyphenated age descriptor format is present. It activates regardless of whether the subject is a person, animal, institution, or abstract entity (e.g., \"three-year old policy\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"[number]-year-old\" construct. They may discuss ages or years in other formats (\"65-year history,\" \"168 personas,\" \"July 4\"), but the neuron specifically requires the hyphenated age modifier directly preceding a noun. The low-activation examples are often headlines or leads about events, lawsuits, or general news without that specific grammatical frame.\n\n4. **Closing interpretation**: The neuron detects a precise syntactic pattern—a hyphenated age adjective—rather than a semantic concept like \"aging\" or \"news.\" It acts as a grammatical filter for this common journalistic construction used to introduce a subject's age.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "who lives here with his French wife, Cl\u00e9mentine, and their eight-year-old daughter. \u201cThat\u2019s no problem at all,\u201d I assure him. \u201cIt",
+      "actual_text": "who lives here with his French wife, Clémentine, and their eight-year-old daughter. “That’s no problem at all,” I assure him. “It",
       "normalized_activation": 9.930081367492676,
       "pairs": []
     },
@@ -17,19 +17,19 @@
     },
     {
       "example_idx": 3,
-      "actual_text": "role,\u201d Roy told PTI in an interview. The 53-year-old actor suggested that the grand musical, hosted by the Delhi government, should be made",
+      "actual_text": "role,” Roy told PTI in an interview. The 53-year-old actor suggested that the grand musical, hosted by the Delhi government, should be made",
       "normalized_activation": 9.574082374572754,
       "pairs": []
     },
     {
       "example_idx": 4,
-      "actual_text": "National security team in chaos after James Mattis\u2019 bombshell resignation 01:3",
+      "actual_text": "National security team in chaos after James Mattis’ bombshell resignation 01:3",
       "normalized_activation": 0.0,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "\u2018Children understand their motive, agenda\u2019: Supreme Court on DMK\u2019s anti-NE",
+      "actual_text": "‘Children understand their motive, agenda’: Supreme Court on DMK’s anti-NE",
       "normalized_activation": 0.0,
       "pairs": []
     }

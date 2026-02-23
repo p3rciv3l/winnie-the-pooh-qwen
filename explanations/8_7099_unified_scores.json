@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_7099",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "This neuron strongly responds to **formal citations, attributions, or references to specific sources, institutions, or publications** (such as mentions of academic journals, government bodies, news outlets, named reports, or quoted individuals).\n\n**Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Czech, Portuguese, Catalan) and is most prominent in news reporting, academic writing, official statements, and documentary-style text. It activates on references like \u201c*according to* Zhang,\u201d \u201c*Source: University of Texas-A*,\u201d \u201c*Rolling Stone\u2019s list*,\u201d \u201c*the journal Monthly Notices of the Royal Astronomical Society*,\u201d and \u201c*Send your news stories to [email protected]*.\u201d\n\n**Contrast with low-activation examples**: The low-activation texts are generally lead sentences or standalone statements that introduce a topic, event, or person *without* embedding a citation, attribution, or reference to a specific external source. They state facts or events directly (e.g., \u201cHong Kong Media Tycoon Jimmy Lai Pleads Not Guilty\u201d) rather than framing them as reported, quoted, or sourced from an institution.\n\n**Closing interpretation**: The neuron detects text that functions as **source-anchored or evidentiary content**, signaling that the information is derived from or attributed to a named entity. It essentially fires on linguistic markers of reported speech, citation syntax, and institutional references.",
+  "explanation_used": "This neuron strongly responds to **formal citations, attributions, or references to specific sources, institutions, or publications** (such as mentions of academic journals, government bodies, news outlets, named reports, or quoted individuals).\n\n**Domain coverage**: The pattern appears across multiple languages (English, Spanish, German, Czech, Portuguese, Catalan) and is most prominent in news reporting, academic writing, official statements, and documentary-style text. It activates on references like “*according to* Zhang,” “*Source: University of Texas-A*,” “*Rolling Stone’s list*,” “*the journal Monthly Notices of the Royal Astronomical Society*,” and “*Send your news stories to [email protected]*.”\n\n**Contrast with low-activation examples**: The low-activation texts are generally lead sentences or standalone statements that introduce a topic, event, or person *without* embedding a citation, attribution, or reference to a specific external source. They state facts or events directly (e.g., “Hong Kong Media Tycoon Jimmy Lai Pleads Not Guilty”) rather than framing them as reported, quoted, or sourced from an institution.\n\n**Closing interpretation**: The neuron detects text that functions as **source-anchored or evidentiary content**, signaling that the information is derived from or attributed to a named entity. It essentially fires on linguistic markers of reported speech, citation syntax, and institutional references.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "de emergencia el robo de este veh\u00edculo, hecho registrado en la calle Zaragoza de la colonia Las Palmas. La camioneta gris y plata",
+      "actual_text": "de emergencia el robo de este vehículo, hecho registrado en la calle Zaragoza de la colonia Las Palmas. La camioneta gris y plata",
       "normalized_activation": 9.578954696655273,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.4866,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.263
+          "combined_score": 0.2325
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5048,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2703
+          "combined_score": 0.2402
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.5264,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2778
+          "combined_score": 0.2489
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "considered.\u201dLaw enforcement and Republican leaders had been calling on Democratic Gov. Tim Walz to take the case away from Mori",
+      "actual_text": "considered.”Law enforcement and Republican leaders had been calling on Democratic Gov. Tim Walz to take the case away from Mori",
       "normalized_activation": 8.722644805908203,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.4281,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2491
+          "combined_score": 0.2111
         },
         {
           "prediction_rank": 2,
@@ -53,21 +53,21 @@
           "meaning_score": 0.3956,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2361
+          "combined_score": 0.1973
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1947,
-          "meaning_score": 0.4868,
+          "meaning_score": 0.4873,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2726
+          "combined_score": 0.2363
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "dance company, which was expected to perform before the personnel of Russia\u2019s Hmeymim air base in Syria on New Year\u2019s Eve. Source: T",
+      "actual_text": "dance company, which was expected to perform before the personnel of Russia’s Hmeymim air base in Syria on New Year’s Eve. Source: T",
       "normalized_activation": 7.694692611694336,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.2612,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1644
+          "combined_score": 0.1335
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3158,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1799
+          "combined_score": 0.1543
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3963,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2144
+          "combined_score": 0.1894
         }
       ]
     },
@@ -107,15 +107,15 @@
           "meaning_score": 0.1717,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1642
+          "combined_score": 0.1088
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2589,
           "meaning_score": 0.5852,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5376
+          "location_score": 0.425,
+          "combined_score": 0.7125
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.2829,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2148
+          "combined_score": 0.1583
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Por: Dr. Prof. Carlos V\u00edctor Zalazar Escribir",
+      "actual_text": "Por: Dr. Prof. Carlos Víctor Zalazar Escribir",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1403,
-          "meaning_score": 0.2076,
+          "meaning_score": 0.2075,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1392
+          "combined_score": 0.1092
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1521,
-          "meaning_score": 0.1985,
+          "meaning_score": 0.1983,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1402
+          "combined_score": 0.1071
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1394,
-          "meaning_score": 0.2717,
+          "meaning_score": 0.2716,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1644
+          "combined_score": 0.1363
         }
       ]
     }

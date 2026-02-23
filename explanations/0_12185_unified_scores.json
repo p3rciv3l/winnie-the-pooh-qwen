@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_12185",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific organizations, institutions, or systems within a formal or reportorial context** (such as references to media companies like Fox News, healthcare systems like Allscripts Sunrise, government agencies like the FDA, or corporate/nuclear facilities like the FitzPatrick Nuclear Power Plant).\n\n2. **Domain coverage**: The pattern appears primarily in news-style reporting, official communications, and technical descriptions across domains like healthcare, finance, government, energy, and media. It activates on text in multiple languages (English, German, Armenian) when they contain institutional references, and is especially sensitive to proper nouns denoting organizations, systems, or branded entities embedded in factual, detail-oriented prose.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature named entities (organizations, systems, specific locations) operating within structured contexts (e.g., regulatory actions, operational updates, institutional partnerships). Low-activation examples lack this dense concentration of specific institutional references\u2014they include general news headlines, poetic descriptions, personal narratives, or announcements without detailed organizational framing.\n\n4. **Closing interpretation**: The neuron detects formal, institutional language where specific organizations or systems are central to the information being conveyed. It functions as a \"named-entity-in-context\" detector, emphasizing structured references within authoritative or reportorial discourse.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific organizations, institutions, or systems within a formal or reportorial context** (such as references to media companies like Fox News, healthcare systems like Allscripts Sunrise, government agencies like the FDA, or corporate/nuclear facilities like the FitzPatrick Nuclear Power Plant).\n\n2. **Domain coverage**: The pattern appears primarily in news-style reporting, official communications, and technical descriptions across domains like healthcare, finance, government, energy, and media. It activates on text in multiple languages (English, German, Armenian) when they contain institutional references, and is especially sensitive to proper nouns denoting organizations, systems, or branded entities embedded in factual, detail-oriented prose.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature named entities (organizations, systems, specific locations) operating within structured contexts (e.g., regulatory actions, operational updates, institutional partnerships). Low-activation examples lack this dense concentration of specific institutional references—they include general news headlines, poetic descriptions, personal narratives, or announcements without detailed organizational framing.\n\n4. **Closing interpretation**: The neuron detects formal, institutional language where specific organizations or systems are central to the information being conveyed. It functions as a \"named-entity-in-context\" detector, emphasizing structured references within authoritative or reportorial discourse.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1647,
           "meaning_score": 0.7431,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5631
+          "location_score": 0.425,
+          "combined_score": 0.7655
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.6308,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3308
+          "combined_score": 0.2975
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.6162,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2969
+          "combined_score": 0.2808
         }
       ]
     },
@@ -41,11 +41,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2581,
+          "concept_score": 0.2582,
           "meaning_score": 0.6451,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3613
+          "combined_score": 0.3129
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.7959,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4015
+          "combined_score": 0.3694
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.497,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2666
+          "combined_score": 0.2366
         }
       ]
     },
@@ -76,23 +76,23 @@
           "meaning_score": 0.429,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2444
+          "combined_score": 0.2096
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1533,
+          "concept_score": 0.1532,
           "meaning_score": 0.464,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2469
+          "combined_score": 0.2202
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1299,
+          "concept_score": 0.13,
           "meaning_score": 0.5785,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4834
+          "location_score": 0.425,
+          "combined_score": 0.6903
         }
       ]
     },
@@ -107,15 +107,15 @@
           "meaning_score": 0.4281,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2284
+          "combined_score": 0.2034
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.168,
           "meaning_score": 0.475,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2572
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6521
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4068,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2112
+          "combined_score": 0.1911
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Spider-Man, uno de los personajes m\u00e1s emblem\u00e1ticos de Marvel Comic, tendr\u00e1",
+      "actual_text": "Spider-Man, uno de los personajes más emblemáticos de Marvel Comic, tendrá",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.3932,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2262
+          "combined_score": 0.1929
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3527,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2025
+          "combined_score": 0.1729
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3748,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1905
+          "combined_score": 0.1745
         }
       ]
     }

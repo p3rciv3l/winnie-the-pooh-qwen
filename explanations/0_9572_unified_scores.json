@@ -1,36 +1,36 @@
 {
   "neuron_id": "0_9572",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the character sequence **\"stan\" appearing as a substring in words** (such as in proper nouns like *Stanford*, *Stansted*, or *Stan Rosenberg*; in common words like *stance* or *constant*; or as a morpheme in various languages).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Italian, Persian, Finnish, etc.) and diverse topics\u2014including academia, politics, airports, personal names, and geographic regions\u2014whenever the text contains a word with the substring \"stan\". This includes \"stan\" as a standalone word, a syllable in names (\"Steinmann\"), part of a country name (\"Turkistan\"), or a verb inflection (\"stan\u0119\u0142a\" in Polish).\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the substring \"stan\". While the high-activation examples are linguistically and topically varied, they all share this specific character sequence, which is absent in the low-activation set. The neuron is not sensitive to general topics, languages, or formats present in both sets, but specifically to this string.\n\n4. **Closing interpretation**: The neuron functions as a **subword-level character n-gram detector** for the sequence \"stan\". It activates based on orthographic form rather than a coherent semantic concept, highlighting how sparse autoencoder neurons can capture surface-level lexical or morphological patterns across languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the character sequence **\"stan\" appearing as a substring in words** (such as in proper nouns like *Stanford*, *Stansted*, or *Stan Rosenberg*; in common words like *stance* or *constant*; or as a morpheme in various languages).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Italian, Persian, Finnish, etc.) and diverse topics—including academia, politics, airports, personal names, and geographic regions—whenever the text contains a word with the substring \"stan\". This includes \"stan\" as a standalone word, a syllable in names (\"Steinmann\"), part of a country name (\"Turkistan\"), or a verb inflection (\"stanęła\" in Polish).\n\n3. **Contrast with low-activation examples**: The low-activation texts completely lack the substring \"stan\". While the high-activation examples are linguistically and topically varied, they all share this specific character sequence, which is absent in the low-activation set. The neuron is not sensitive to general topics, languages, or formats present in both sets, but specifically to this string.\n\n4. **Closing interpretation**: The neuron functions as a **subword-level character n-gram detector** for the sequence \"stan\". It activates based on orthographic form rather than a coherent semantic concept, highlighting how sparse autoencoder neurons can capture surface-level lexical or morphological patterns across languages.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "ka prasowa Akademii G\u00f3rniczo-Hutniczej im. Stanis\u0142awa Staszica w Krakowie, \"umowa jest pok\u0142",
+      "actual_text": "ka prasowa Akademii Górniczo-Hutniczej im. Stanisława Staszica w Krakowie, \"umowa jest pokł",
       "normalized_activation": 9.54168701171875,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.4404,
+          "concept_score": 0.4405,
           "meaning_score": 0.6194,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4239
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7543
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.4404,
+          "concept_score": 0.4405,
           "meaning_score": 0.2011,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2566
+          "combined_score": 0.1515
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.3839,
-          "meaning_score": 0.469,
+          "meaning_score": 0.4689,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3411
+          "combined_score": 0.2569
         }
       ]
     },
@@ -42,10 +42,10 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.2238,
-          "meaning_score": 0.2827,
+          "meaning_score": 0.2828,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2026
+          "combined_score": 0.1537
         },
         {
           "prediction_rank": 2,
@@ -53,21 +53,21 @@
           "meaning_score": 0.3128,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2147
+          "combined_score": 0.1665
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2238,
-          "meaning_score": 0.2936,
+          "meaning_score": 0.2937,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2069
+          "combined_score": 0.1584
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "so commonly suspect bisexuality of me. I\u2019ll sense his suspicion as he steers the post-fuck conversation (pre-fuck if he\u2019s ambitious) towards",
+      "actual_text": "so commonly suspect bisexuality of me. I’ll sense his suspicion as he steers the post-fuck conversation (pre-fuck if he’s ambitious) towards",
       "normalized_activation": 6.6883225440979,
       "pairs": [
         {
@@ -76,23 +76,23 @@
           "meaning_score": 0.2581,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2172
+          "combined_score": 0.1524
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.285,
           "meaning_score": 0.4664,
           "overlap_fraction": 0.2714,
-          "location_score": 0.0543,
-          "combined_score": 0.3549
+          "location_score": 0.1154,
+          "combined_score": 0.3563
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.285,
-          "meaning_score": 0.7206,
+          "meaning_score": 0.7207,
           "overlap_fraction": 0.7214,
-          "location_score": 0.1443,
-          "combined_score": 0.5465
+          "location_score": 0.3066,
+          "combined_score": 0.6556
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1678,
           "meaning_score": 1.0,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6671
+          "location_score": 0.425,
+          "combined_score": 0.8752
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.6914,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3437
+          "combined_score": 0.319
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1678,
-          "meaning_score": 0.5441,
+          "meaning_score": 0.5442,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2847
+          "combined_score": 0.2565
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.135,
-          "meaning_score": 0.7086,
+          "concept_score": 0.1351,
+          "meaning_score": 0.7087,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5375
+          "location_score": 0.425,
+          "combined_score": 0.7465
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.135,
-          "meaning_score": 0.4878,
+          "meaning_score": 0.4877,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2491
+          "combined_score": 0.2275
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.085,
+          "concept_score": 0.0852,
           "meaning_score": 0.2707,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1423
+          "combined_score": 0.1278
         }
       ]
     }

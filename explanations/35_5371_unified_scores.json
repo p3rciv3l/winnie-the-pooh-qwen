@@ -1,73 +1,73 @@
 {
   "neuron_id": "35_5371",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, citations, or attributed statements** (such as partial direct quotes, references to reports, citations of individuals or agencies, or narrative introductions to spoken content).\n\n2. **Domain coverage**: The pattern appears across diverse domains\u2014news reporting, academic or technical notes, and political commentary\u2014in multiple languages (e.g., German, Spanish, Italian, Polish, French, English, Swedish). The context is consistently one where an external source of information is being referenced: a person being quoted (\u201cBjorn Lund, cytowany przez agenc\u201d), a report being cited (\u201cthe report doesn\u2019t confirm\u201d), or a statement being introduced (\u201csaid Isabelle Vaillant\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily straightforward declarative statements, announcements, or narrative descriptions without embedded attribution (e.g., \u201cSeveral new laws\u2026 are set to take effect,\u201d \u201cA man is on the run,\u201d \u201cNASA\u2019s Curiosity rover has\u2026 captured images\u201d). What is absent is the syntactic or semantic framing that introduces another voice, source, or quoted material.\n\n4. **Closing interpretation**: The neuron detects segments where language shifts from direct narration to reporting or relaying the words of others. It acts as a sensor for attributed discourse, focusing on the meta-linguistic cues that signal an external source is being referenced, regardless of topic or specific language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, citations, or attributed statements** (such as partial direct quotes, references to reports, citations of individuals or agencies, or narrative introductions to spoken content).\n\n2. **Domain coverage**: The pattern appears across diverse domains—news reporting, academic or technical notes, and political commentary—in multiple languages (e.g., German, Spanish, Italian, Polish, French, English, Swedish). The context is consistently one where an external source of information is being referenced: a person being quoted (“Bjorn Lund, cytowany przez agenc”), a report being cited (“the report doesn’t confirm”), or a statement being introduced (“said Isabelle Vaillant”).\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily straightforward declarative statements, announcements, or narrative descriptions without embedded attribution (e.g., “Several new laws… are set to take effect,” “A man is on the run,” “NASA’s Curiosity rover has… captured images”). What is absent is the syntactic or semantic framing that introduces another voice, source, or quoted material.\n\n4. **Closing interpretation**: The neuron detects segments where language shifts from direct narration to reporting or relaying the words of others. It acts as a sensor for attributed discourse, focusing on the meta-linguistic cues that signal an external source is being referenced, regardless of topic or specific language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u06d2 \u06a9\u06c1\u0627 \u06c1\u06d2 \u06a9\u06c1 \u0627\u0633\u0644\u0627\u0645\u06cc \u0641\u0644\u0627\u062d\u06cc \u0631\u06cc\u0627\u0633\u062a \u06a9\u06d2 \u0648\u06cc\u0698\u0646 \u067e\u0631 \u0639\u0645\u0644 \u067e\u06cc\u0631\u0627 \u0648\u0632\u06cc\u0631\u0627\u0639",
+      "actual_text": "ے کہا ہے کہ اسلامی فلاحی ریاست کے ویژن پر عمل پیرا وزیراع",
       "normalized_activation": 9.614551544189453,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1398,
+          "concept_score": 0.1399,
           "meaning_score": 0.4966,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2546
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.657
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1398,
+          "concept_score": 0.1399,
           "meaning_score": 0.3284,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1873
+          "combined_score": 0.1606
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1398,
+          "concept_score": 0.1399,
           "meaning_score": 0.2566,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1586
+          "combined_score": 0.13
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "official/Changed the name, watch them still make it an issue. / Rap b*tches ain\u2019t talkin\u2019 \u2019bout nothin\u2019/F**k",
+      "actual_text": "official/Changed the name, watch them still make it an issue. / Rap b*tches ain’t talkin’ ’bout nothin’/F**k",
       "normalized_activation": 8.834922790527344,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2708,
+          "concept_score": 0.2709,
           "meaning_score": 0.2009,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1887
+          "combined_score": 0.126
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2491,
-          "meaning_score": 0.2433,
+          "concept_score": 0.249,
+          "meaning_score": 0.2434,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1969
+          "combined_score": 0.1408
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2017,
-          "meaning_score": 0.7425,
+          "concept_score": 0.2016,
+          "meaning_score": 0.7426,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5777
+          "location_score": 0.425,
+          "combined_score": 0.7709
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "been sent to the towns of Manab\u00ed, Esmeraldas, and Guayas y Santa Elena, and 500 firefighters to Manab\u00ed and",
+      "actual_text": "been sent to the towns of Manabí, Esmeraldas, and Guayas y Santa Elena, and 500 firefighters to Manabí and",
       "normalized_activation": 7.928967475891113,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.2567,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1552
+          "combined_score": 0.1288
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4353,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2266
+          "combined_score": 0.2047
         },
         {
           "prediction_rank": 3,
@@ -92,38 +92,38 @@
           "meaning_score": 0.2533,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1539
+          "combined_score": 0.1274
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Este jueves por la ma\u00f1ana se produjo un nuevo sismo que asust\u00f3",
+      "actual_text": "Este jueves por la mañana se produjo un nuevo sismo que asustó",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1263,
-          "meaning_score": 0.446,
+          "meaning_score": 0.4461,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2289
+          "combined_score": 0.2085
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2131,
-          "meaning_score": 0.7165,
+          "meaning_score": 0.7164,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5718
+          "location_score": 0.425,
+          "combined_score": 0.7614
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1797,
-          "meaning_score": 0.1978,
+          "meaning_score": 0.1977,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.151
+          "combined_score": 0.111
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.5547,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3061
+          "combined_score": 0.2673
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4968,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.268
+          "combined_score": 0.2371
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.57,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3038
+          "combined_score": 0.2707
         }
       ]
     }

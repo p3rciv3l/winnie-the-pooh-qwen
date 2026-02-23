@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_20195",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific U.S. states, regions, and cities** (such as Texas, Michigan, Minnesota, Iowa, the Northeast, or cities like Lubbock and Austin), particularly within English-language news or factual contexts.\n\n2. **Domain coverage**: The neuron activates in domains covering U.S. politics, education, sports, healthcare, business, and natural disasters when they involve state-specific references. Examples include legislative actions in Texas, university programs in Michigan, flooding in Iowa and Nebraska, and sports teams from Minnesota. It processes English-language text almost exclusively, with no strong responses to non-English examples.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit U.S. geographic identifiers, while low-activation examples are either in other languages (Italian, Spanish, Czech, etc.) or discuss topics without U.S. regional focus (e.g., international news, astronomy, film reviews, or earthquakes in Queens\u2014which, despite being in the U.S., does not trigger the neuron, suggesting it may prioritize state/regional names over city names alone).\n\n4. **Closing interpretation**: This neuron appears to detect textual references to U.S. states and major regions, acting as a geographic filter for domestic U.S. content in English. It likely supports the model in distinguishing country-specific subnational entities within news or descriptive narratives.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific U.S. states, regions, and cities** (such as Texas, Michigan, Minnesota, Iowa, the Northeast, or cities like Lubbock and Austin), particularly within English-language news or factual contexts.\n\n2. **Domain coverage**: The neuron activates in domains covering U.S. politics, education, sports, healthcare, business, and natural disasters when they involve state-specific references. Examples include legislative actions in Texas, university programs in Michigan, flooding in Iowa and Nebraska, and sports teams from Minnesota. It processes English-language text almost exclusively, with no strong responses to non-English examples.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit U.S. geographic identifiers, while low-activation examples are either in other languages (Italian, Spanish, Czech, etc.) or discuss topics without U.S. regional focus (e.g., international news, astronomy, film reviews, or earthquakes in Queens—which, despite being in the U.S., does not trigger the neuron, suggesting it may prioritize state/regional names over city names alone).\n\n4. **Closing interpretation**: This neuron appears to detect textual references to U.S. states and major regions, acting as a geographic filter for domestic U.S. content in English. It likely supports the model in distinguishing country-specific subnational entities within news or descriptive narratives.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1676,
           "meaning_score": 0.6854,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5412
+          "location_score": 0.425,
+          "combined_score": 0.7414
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5353,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2609
+          "combined_score": 0.2451
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.5835,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.271
+          "combined_score": 0.2621
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "HARRISBURG \u2013 The Pennsylvania Game Commission\u2019s Eagle Cam is back online. The Game Commission launched the latest rendition",
+      "actual_text": "HARRISBURG – The Pennsylvania Game Commission’s Eagle Cam is back online. The Game Commission launched the latest rendition",
       "normalized_activation": 8.842179298400879,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.0914,
           "meaning_score": 0.907,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5993
+          "location_score": 0.425,
+          "combined_score": 0.8242
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.7186,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3438
+          "combined_score": 0.3265
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.7528,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3424
+          "combined_score": 0.3354
         }
       ]
     },
@@ -76,15 +76,15 @@
           "meaning_score": 0.5206,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2942
+          "combined_score": 0.2535
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2863,
           "meaning_score": 0.8363,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6491
+          "location_score": 0.425,
+          "combined_score": 0.8234
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.5292,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.391
+          "combined_score": 0.2922
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.0981,
           "meaning_score": 0.5693,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.467
+          "location_score": 0.425,
+          "combined_score": 0.6817
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4656,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2375
+          "combined_score": 0.2171
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3536,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1824
+          "combined_score": 0.1656
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,15 +138,15 @@
           "meaning_score": 0.3065,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1416
+          "combined_score": 0.1374
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1928,
+          "concept_score": 0.1927,
           "meaning_score": 0.3086,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2006
+          "combined_score": 0.1601
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4048,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2507
+          "combined_score": 0.2054
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_6453",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-article text containing reported speech, citations, or parenthetical asides (such as direct quotes, attributions like \u201csaid\u201d or \u201caccording to\u201d, appositives, or explanatory clauses) that typically appear after the opening of a news article or informative post.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Greek, Italian, Polish, Spanish, Russian, Romanian) and diverse topics\u2014including politics, finance, sports, entertainment, and science\u2014in journalistic writing, online articles, and blog-style content where the body elaborates with sourced information, quotes, or detailed descriptions.\n\n3. **Contrast with low-activation examples**: Low-activation texts are almost exclusively article beginnings: headlines, datelines, lead sentences, or standalone announcements that lack mid-sentence continuity, quotation marks, dashes, and parenthetical information. High-activation examples are typically not the first sentence of a document and instead feature continuation text with embedded speech or complex clause structures.\n\n4. **Closing interpretation**: The neuron detects the body or narrative continuation of a document, signaling the presence of elaborated content with reported speech, citations, or syntactic complexity rather than introductory or headline-style text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-article text containing reported speech, citations, or parenthetical asides (such as direct quotes, attributions like “said” or “according to”, appositives, or explanatory clauses) that typically appear after the opening of a news article or informative post.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Greek, Italian, Polish, Spanish, Russian, Romanian) and diverse topics—including politics, finance, sports, entertainment, and science—in journalistic writing, online articles, and blog-style content where the body elaborates with sourced information, quotes, or detailed descriptions.\n\n3. **Contrast with low-activation examples**: Low-activation texts are almost exclusively article beginnings: headlines, datelines, lead sentences, or standalone announcements that lack mid-sentence continuity, quotation marks, dashes, and parenthetical information. High-activation examples are typically not the first sentence of a document and instead feature continuation text with embedded speech or complex clause structures.\n\n4. **Closing interpretation**: The neuron detects the body or narrative continuation of a document, signaling the presence of elaborated content with reported speech, citations, or syntactic complexity rather than introductory or headline-style text.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Oviedo junto al comit\u00e9 consultivo de ese tiempo (Gianfranco Castagnola, Felipe Cantuarias, etc). Eso molestaba no",
+      "actual_text": "Oviedo junto al comité consultivo de ese tiempo (Gianfranco Castagnola, Felipe Cantuarias, etc). Eso molestaba no",
       "normalized_activation": 9.507864952087402,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.4537,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2712
+          "combined_score": 0.2265
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4254,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2509
+          "combined_score": 0.2111
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3502,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2126
+          "combined_score": 0.176
         }
       ]
     },
@@ -42,32 +42,32 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1289,
-          "meaning_score": 0.3673,
+          "meaning_score": 0.3652,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1985
+          "combined_score": 0.1745
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1022,
-          "meaning_score": 0.2628,
+          "meaning_score": 0.2624,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.146
+          "combined_score": 0.1268
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1332,
-          "meaning_score": 0.2738,
+          "meaning_score": 0.2737,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1628
+          "combined_score": 0.1363
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u03ae\u03c1\u03c9\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03b9\u03ba\u03cc - \u03b5\u03c0\u03b9\u03c3\u03ba\u03b5",
+      "actual_text": "ήρως και από τον κατασκευαστικό - επισκε",
       "normalized_activation": 7.62905216217041,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.1502,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1743
+          "combined_score": 0.1067
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.1542,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1345
+          "combined_score": 0.0928
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.1512,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1578
+          "combined_score": 0.1008
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Foto: TT H\u00f6r Radiosportens \u00e5rskr\u00f6nika Lyssna",
+      "actual_text": "Foto: TT Hör Radiosportens årskrönika Lyssna",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.1905,
           "meaning_score": 0.8579,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6194
+          "location_score": 0.425,
+          "combined_score": 0.8182
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3928,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2395
+          "combined_score": 0.1978
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.63,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3371
+          "combined_score": 0.2996
         }
       ]
     },
@@ -138,15 +138,15 @@
           "meaning_score": 0.5767,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3449
+          "combined_score": 0.2879
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.3225,
           "meaning_score": 0.606,
           "overlap_fraction": 0.4902,
-          "location_score": 0.098,
-          "combined_score": 0.4695
+          "location_score": 0.2083,
+          "combined_score": 0.5143
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4463,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2811
+          "combined_score": 0.2281
         }
       ]
     }

@@ -1,28 +1,28 @@
 {
   "neuron_id": "8_2858",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense, formal references to specific entities, events, or technical details** (such as named medical conditions, official operations, legal/political actions, astronomical events, or precise citations of individuals with titles and affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Polish, Romanian) and is prominent in journalistic, governmental, scientific, and technical reporting. It activates on news about law enforcement operations (\"Operation Ulysses\"), medical terminology (\"acute chest syndrome\"), academic citations (\"professor DN Jauhar, vice-chancellor\"), astronomical observations (\"Venus will be just northwest of\"), and formal announcements from institutions (\"Western Railway (WR) has made a complete shift\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete, proper nouns and specific multi-word designators embedded in longer, information-dense clauses. The low-activation examples are either truncated sentence fragments, generic statements (\"We all know they\u2019re important\"), or announcements lacking the dense referential specificity (e.g., \"a new report released\" without naming it).\n\n4. **Closing interpretation**: This neuron detects structured, referential information where precise names, titles, operations, or technical terms are central to the clause's meaning. It appears to fire on text that is characteristic of formal reports, news dispatches, or academic prose, where specificity and named entities anchor the information.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense, formal references to specific entities, events, or technical details** (such as named medical conditions, official operations, legal/political actions, astronomical events, or precise citations of individuals with titles and affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Polish, Romanian) and is prominent in journalistic, governmental, scientific, and technical reporting. It activates on news about law enforcement operations (\"Operation Ulysses\"), medical terminology (\"acute chest syndrome\"), academic citations (\"professor DN Jauhar, vice-chancellor\"), astronomical observations (\"Venus will be just northwest of\"), and formal announcements from institutions (\"Western Railway (WR) has made a complete shift\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete, proper nouns and specific multi-word designators embedded in longer, information-dense clauses. The low-activation examples are either truncated sentence fragments, generic statements (\"We all know they’re important\"), or announcements lacking the dense referential specificity (e.g., \"a new report released\" without naming it).\n\n4. **Closing interpretation**: This neuron detects structured, referential information where precise names, titles, operations, or technical terms are central to the clause's meaning. It appears to fire on text that is characteristic of formal reports, news dispatches, or academic prose, where specificity and named entities anchor the information.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Holloway, Louise Goffin, Steve Wynn, Victoria Williams, Terry Reid, Cait O\u2019Riordan, Robert Levon Been, Julianna Ray",
+      "actual_text": "Holloway, Louise Goffin, Steve Wynn, Victoria Williams, Terry Reid, Cait O’Riordan, Robert Levon Been, Julianna Ray",
       "normalized_activation": 9.506599426269531,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0442,
+          "concept_score": 0.0441,
           "meaning_score": 0.1302,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0697
+          "combined_score": 0.0619
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1644,
           "meaning_score": 0.6458,
           "overlap_fraction": 0.2,
-          "location_score": 0.04,
-          "combined_score": 0.3641
+          "location_score": 0.085,
+          "combined_score": 0.3841
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.5044,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2533
+          "combined_score": 0.2337
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "Security Administration\u2019s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouil",
+      "actual_text": "Security Administration’s report card was released shortly after another federal agency, the Defense Nuclear Facilities Safety Board, filed an open letter with Department of Energy Secretary Dan Brouil",
       "normalized_activation": 8.647917747497559,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.2459,
           "meaning_score": 0.894,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.656
+          "location_score": 0.425,
+          "combined_score": 0.8419
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4925,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2977
+          "combined_score": 0.2471
         },
         {
           "prediction_rank": 3,
@@ -61,38 +61,38 @@
           "meaning_score": 0.3422,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1689
+          "combined_score": 0.1574
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": ", earnings and dividends. Valuation and Earnings This table compares Great-West Lifeco and FBL Financial Group\u2019s revenue, earnings per share (EPS)",
+      "actual_text": ", earnings and dividends. Valuation and Earnings This table compares Great-West Lifeco and FBL Financial Group’s revenue, earnings per share (EPS)",
       "normalized_activation": 7.689345836639404,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1244,
-          "meaning_score": 0.6954,
+          "meaning_score": 0.6957,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3279
+          "combined_score": 0.3143
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0992,
+          "concept_score": 0.0991,
           "meaning_score": 0.5498,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2596
+          "combined_score": 0.2485
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.0963,
-          "meaning_score": 0.4369,
+          "meaning_score": 0.4373,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2133
+          "combined_score": 0.2003
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2354,
-          "meaning_score": 0.6596,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.358
+          "concept_score": 0.2352,
+          "meaning_score": 0.6595,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7406
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.212,
+          "concept_score": 0.2121,
           "meaning_score": 0.4493,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2645
+          "combined_score": 0.2228
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1421,
-          "meaning_score": 0.4121,
+          "concept_score": 0.142,
+          "meaning_score": 0.4122,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2217
+          "combined_score": 0.1965
         }
       ]
     },
@@ -134,19 +134,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.5184,
+          "concept_score": 0.5183,
           "meaning_score": 0.8439,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.7449
+          "location_score": 0.425,
+          "combined_score": 0.8614
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2513,
+          "concept_score": 0.2514,
           "meaning_score": 0.4687,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.288
+          "combined_score": 0.2369
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4766,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3135
+          "combined_score": 0.2486
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_145",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns or specific named entities** (such as historical figures and sites like \"Pharaoh Khufu\" and \"Great Pyramid,\" geopolitical actors like \"Hamas\" and \"North Korea,\" or specific people, organizations, and locations across various languages).\n\n2. **Domain coverage**: The pattern appears in multilingual news, historical descriptions, and cultural reports. Examples span English, Armenian, Arabic, Russian, Polish, Greek, Italian, and others, covering topics like ancient history, current geopolitics, sports figures, business announcements, and scientific studies\u2014any context densely packed with specific names.\n\n3. **Contrast with low-activation examples**: The low-activation texts are more generic, discussing broad themes (e.g., \"plastic waste crisis,\" \"mass protests\") without listing multiple specific named entities. They often use general terms like \"officers,\" \"company,\" or \"countries,\" or mention single names without additional entity clusters. The high-activation snippets consistently contain several concrete proper nouns in close proximity.\n\n4. **Closing interpretation**: The neuron detects linguistic contexts rich in referential specificity, acting as a marker for text segments that anchor discourse to particular people, places, organizations, or titles. It signals passages with high named-entity density rather than focusing on a single entity type or language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns or specific named entities** (such as historical figures and sites like \"Pharaoh Khufu\" and \"Great Pyramid,\" geopolitical actors like \"Hamas\" and \"North Korea,\" or specific people, organizations, and locations across various languages).\n\n2. **Domain coverage**: The pattern appears in multilingual news, historical descriptions, and cultural reports. Examples span English, Armenian, Arabic, Russian, Polish, Greek, Italian, and others, covering topics like ancient history, current geopolitics, sports figures, business announcements, and scientific studies—any context densely packed with specific names.\n\n3. **Contrast with low-activation examples**: The low-activation texts are more generic, discussing broad themes (e.g., \"plastic waste crisis,\" \"mass protests\") without listing multiple specific named entities. They often use general terms like \"officers,\" \"company,\" or \"countries,\" or mention single names without additional entity clusters. The high-activation snippets consistently contain several concrete proper nouns in close proximity.\n\n4. **Closing interpretation**: The neuron detects linguistic contexts rich in referential specificity, acting as a marker for text segments that anchor discourse to particular people, places, organizations, or titles. It signals passages with high named-entity density rather than focusing on a single entity type or language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u0142o 150 dzieci z Lubuskiego i Dolnego \u015al\u0105ska. Ale to dopiero pocz\u0105tek tego, co si\u0119 b\u0119dzie tam dzia",
+      "actual_text": "ło 150 dzieci z Lubuskiego i Dolnego Śląska. Ale to dopiero początek tego, co się będzie tam dzia",
       "normalized_activation": 9.462453842163086,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.5684,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.265
+          "combined_score": 0.2557
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4117,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2186
+          "combined_score": 0.1952
         },
         {
           "prediction_rank": 3,
@@ -30,30 +30,30 @@
           "meaning_score": 0.3347,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2
+          "combined_score": 0.167
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "at \u00e0 l'\u00e9galit\u00e9 entre les femmes et les hommes Marl\u00e8ne Schiappa a annonc\u00e9 mardi que l'acc\u00e8s \u00e0 la PMA, actuellement",
+      "actual_text": "at à l'égalité entre les femmes et les hommes Marlène Schiappa a annoncé mardi que l'accès à la PMA, actuellement",
       "normalized_activation": 8.561858177185059,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1389,
+          "concept_score": 0.139,
           "meaning_score": 0.4439,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2331
+          "combined_score": 0.2095
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1389,
+          "concept_score": 0.1388,
           "meaning_score": 0.3987,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.215
+          "combined_score": 0.1903
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.3551,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.187
+          "combined_score": 0.1678
         }
       ]
     },
@@ -73,18 +73,18 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1742,
-          "meaning_score": 0.1141,
+          "meaning_score": 0.1133,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1153
+          "combined_score": 0.0743
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1793,
-          "meaning_score": 0.0786,
+          "meaning_score": 0.0785,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1031
+          "combined_score": 0.0603
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.1412,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1124
+          "combined_score": 0.081
         }
       ]
     },
@@ -105,9 +105,9 @@
           "prediction_rank": 1,
           "concept_score": 0.226,
           "meaning_score": 0.7929,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4076
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7959
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4234,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.232
+          "combined_score": 0.2034
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.5717,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3051
+          "combined_score": 0.2716
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Asleep at the Wheel \u2018Boogie Back to Texas\u2019 in 198",
+      "actual_text": "Asleep at the Wheel ‘Boogie Back to Texas’ in 198",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2157,
-          "meaning_score": 0.6899,
+          "concept_score": 0.2162,
+          "meaning_score": 0.6894,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5622
+          "location_score": 0.425,
+          "combined_score": 0.7504
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1689,
-          "meaning_score": 0.6933,
+          "concept_score": 0.169,
+          "meaning_score": 0.6929,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3449
+          "combined_score": 0.3198
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1772,
-          "meaning_score": 0.5078,
+          "concept_score": 0.1774,
+          "meaning_score": 0.5066,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.274
+          "combined_score": 0.2419
         }
       ]
     }

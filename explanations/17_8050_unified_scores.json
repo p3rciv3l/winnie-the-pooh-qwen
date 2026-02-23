@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_8050",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific organizations, agencies, or institutions** (such as government bodies, research centers, regulatory offices, or named programs) when they appear in formal or reportorial contexts, often accompanied by their acronyms or full titles.\n\n2. **Domain coverage**: The pattern appears primarily in English-language news or factual reporting covering domains like government policy, scientific research, disaster response, legal actions, and public health. Examples span Australian, European, Turkish, U.S., and Philippine institutions, indicating cross-national relevance. The neuron also activates for institutional references in academic, medical, and military contexts (e.g., \"Johns Hopkins Applied Physics Laboratory,\" \"Naval Undersea Warfare Center,\" \"Pharmaceutical Services Negotiating Committee\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack specific institutional references entirely, mention institutions only generically (e.g., \"International Court of Justice\" without further detail), or are drawn from informal, personal, or promotional genres (e.g., celebrity news, astrology, social media updates). Several low-activation examples are in other languages (Italian, Spanish, Polish), but language alone is not the distinguishing factor\u2014the absence of formal institutional naming is key.\n\n4. **Closing interpretation**: The neuron detects formal references to structured organizations within authoritative or informative prose, acting as a filter for institutional presence in documentary-style text. It appears to signal text segments grounded in official reporting or factual discourse where specific entities are cited as sources, actors, or topics.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific organizations, agencies, or institutions** (such as government bodies, research centers, regulatory offices, or named programs) when they appear in formal or reportorial contexts, often accompanied by their acronyms or full titles.\n\n2. **Domain coverage**: The pattern appears primarily in English-language news or factual reporting covering domains like government policy, scientific research, disaster response, legal actions, and public health. Examples span Australian, European, Turkish, U.S., and Philippine institutions, indicating cross-national relevance. The neuron also activates for institutional references in academic, medical, and military contexts (e.g., \"Johns Hopkins Applied Physics Laboratory,\" \"Naval Undersea Warfare Center,\" \"Pharmaceutical Services Negotiating Committee\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack specific institutional references entirely, mention institutions only generically (e.g., \"International Court of Justice\" without further detail), or are drawn from informal, personal, or promotional genres (e.g., celebrity news, astrology, social media updates). Several low-activation examples are in other languages (Italian, Spanish, Polish), but language alone is not the distinguishing factor—the absence of formal institutional naming is key.\n\n4. **Closing interpretation**: The neuron detects formal references to structured organizations within authoritative or informative prose, acting as a filter for institutional presence in documentary-style text. It appears to signal text segments grounded in official reporting or factual discourse where specific entities are cited as sources, actors, or topics.",
   "results": [
     {
       "example_idx": 1,
@@ -14,15 +14,15 @@
           "meaning_score": 0.3664,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2351
+          "combined_score": 0.1889
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2593,
           "meaning_score": 0.6265,
           "overlap_fraction": 0.8494,
-          "location_score": 0.1699,
-          "combined_score": 0.5242
+          "location_score": 0.361,
+          "combined_score": 0.6661
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2881,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1879
+          "combined_score": 0.1497
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "a lander-rover near the moon\u2019s south polar region, the Indian Space Research Organisation (ISRO) started the new year with a foray into a new",
+      "actual_text": "a lander-rover near the moon’s south polar region, the Indian Space Research Organisation (ISRO) started the new year with a foray into a new",
       "normalized_activation": 8.59499740600586,
       "pairs": [
         {
@@ -44,24 +44,24 @@
           "concept_score": 0.1965,
           "meaning_score": 0.6479,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5377
+          "location_score": 0.425,
+          "combined_score": 0.7298
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.321,
+          "concept_score": 0.3209,
           "meaning_score": 0.4075,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2914
+          "combined_score": 0.2213
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.4426,
+          "concept_score": 0.4425,
           "meaning_score": 0.3806,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3293
+          "combined_score": 0.2281
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.0977,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0793
+          "combined_score": 0.0566
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3797,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1949
+          "combined_score": 0.1775
         },
         {
           "prediction_rank": 3,
@@ -92,38 +92,38 @@
           "meaning_score": 0.6595,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3006
+          "combined_score": 0.2941
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "''\u0d0e\u0d28\u0d4d\u0d24\u0d41\u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d4d \ufffd",
+      "actual_text": "''എന്തുകൊണ്ട് �",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1889,
-          "meaning_score": 0.1003,
+          "meaning_score": 0.1012,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1157
+          "combined_score": 0.0714
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2046,
-          "meaning_score": 0.1108,
+          "concept_score": 0.2045,
+          "meaning_score": 0.1099,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1261
+          "combined_score": 0.0774
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1917,
-          "meaning_score": 0.0693,
+          "meaning_score": 0.0665,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1044
+          "combined_score": 0.057
         }
       ]
     },
@@ -134,19 +134,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2128,
+          "concept_score": 0.2127,
           "meaning_score": 0.4798,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.277
+          "combined_score": 0.2358
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1863,
-          "meaning_score": 0.8134,
+          "meaning_score": 0.8133,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5999
+          "location_score": 0.425,
+          "combined_score": 0.7986
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4712,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3253
+          "combined_score": 0.2516
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_9804",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **quoted speech or dialogue markers, especially those introducing statements from specific individuals or sources** (such as phrases like \u201che said,\u201d \u201cthey added,\u201d or \u201cIf you\u2026\u201d constructions that lead into direct or implied speech).\n\n2. **Domain coverage**: The pattern appears across news reporting, opinion pieces, petitions, and public statements, often in English but also in other languages (e.g., Hindi and Spanish snippets in high-activation examples). It frequently involves proper nouns (names like Alanah Odoms, Erin O\u2019Toole, Ola/Uber) and contextual phrases that frame a following quote or directive (\u201csaid the following statement,\u201d \u201cIf you ask\u2026,\u201d \u201ctold Canadians\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts largely lack quoted speech markers and instead present factual summaries, third-person narratives, or background information without attributing dialogue to a specific speaker. They describe events, policies, or situations without the \u201cX said\u201d or \u201cIf you\u2026\u201d framing that characterizes the high-activation group.\n\n4. **Closing interpretation**: This neuron appears to detect text segments where speech is being reported or elicited, focusing on the syntactic and semantic framing of dialogue attribution. It signals the presence of a quoted voice or a direct address to the reader, often within journalistic or persuasive contexts.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **quoted speech or dialogue markers, especially those introducing statements from specific individuals or sources** (such as phrases like “he said,” “they added,” or “If you…” constructions that lead into direct or implied speech).\n\n2. **Domain coverage**: The pattern appears across news reporting, opinion pieces, petitions, and public statements, often in English but also in other languages (e.g., Hindi and Spanish snippets in high-activation examples). It frequently involves proper nouns (names like Alanah Odoms, Erin O’Toole, Ola/Uber) and contextual phrases that frame a following quote or directive (“said the following statement,” “If you ask…,” “told Canadians”).\n\n3. **Contrast with low-activation examples**: The low-activation texts largely lack quoted speech markers and instead present factual summaries, third-person narratives, or background information without attributing dialogue to a specific speaker. They describe events, policies, or situations without the “X said” or “If you…” framing that characterizes the high-activation group.\n\n4. **Closing interpretation**: This neuron appears to detect text segments where speech is being reported or elicited, focusing on the syntactic and semantic framing of dialogue attribution. It signals the presence of a quoted voice or a direct address to the reader, often within journalistic or persuasive contexts.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.2179,
           "meaning_score": 0.7139,
           "overlap_fraction": 0.573,
-          "location_score": 0.1146,
-          "combined_score": 0.4873
+          "location_score": 0.2435,
+          "combined_score": 0.5796
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4436,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2362
+          "combined_score": 0.2106
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.5082,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2831
+          "combined_score": 0.2459
         }
       ]
     },
@@ -41,33 +41,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2475,
-          "meaning_score": 0.3539,
+          "concept_score": 0.2477,
+          "meaning_score": 0.354,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2406
+          "combined_score": 0.1876
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2191,
-          "meaning_score": 0.7522,
+          "concept_score": 0.2192,
+          "meaning_score": 0.7524,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3885
+          "combined_score": 0.3526
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1884,
-          "meaning_score": 0.4945,
+          "concept_score": 0.1885,
+          "meaning_score": 0.4944,
           "overlap_fraction": 0.5135,
-          "location_score": 0.1027,
-          "combined_score": 0.3758
+          "location_score": 0.2182,
+          "combined_score": 0.4566
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "your entrance music on BBC Radio 1, so you\u2019re officially invited to The O2 on April 19 when WWE rolls through London. We might even hit",
+      "actual_text": "your entrance music on BBC Radio 1, so you’re officially invited to The O2 on April 19 when WWE rolls through London. We might even hit",
       "normalized_activation": 9.275015830993652,
       "pairs": [
         {
@@ -75,8 +75,8 @@
           "concept_score": 0.1609,
           "meaning_score": 0.8267,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.595
+          "location_score": 0.425,
+          "combined_score": 0.8005
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4533,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.232
+          "combined_score": 0.2117
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.3826,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.208
+          "combined_score": 0.1832
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "BANGKOK, Oct 29 (TNA) \u201a\u00c4\u00ec The National Communicable Disease Committee agreed to reduce travel",
+      "actual_text": "BANGKOK, Oct 29 (TNA) ‚Äì The National Communicable Disease Committee agreed to reduce travel",
       "normalized_activation": 2.5401771068573,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.2936,
           "meaning_score": 0.7358,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6118
+          "location_score": 0.425,
+          "combined_score": 0.7818
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4466,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2738
+          "combined_score": 0.2255
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3837,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2829
+          "combined_score": 0.2116
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.3185,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.195
+          "combined_score": 0.1607
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.2013,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1589
+          "combined_score": 0.1149
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1924,
           "meaning_score": 0.6756,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3472
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.741
         }
       ]
     }

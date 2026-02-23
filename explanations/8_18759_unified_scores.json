@@ -1,23 +1,23 @@
 {
   "neuron_id": "8_18759",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-sentence excerpts from news reports or formal articles (such as quoted speech, technical project descriptions, event summaries, or lists of names/items) that are rich in proper nouns and often include reporting verbs or citations.\n\n2. **Domain coverage**: The pattern appears across multiple languages (including English, Romanian, Hungarian, Italian, Greek, Arabic, Polish, Czech, and Spanish) and spans domains like politics, international relations, sports, culture, technology, and local events\u2014any context where news-style reporting with attribution, detailed enumerations, or formal announcements occurs.\n\n3. **Contrast with low-activation examples**: High-activation texts are typically not headlines or opening sentences; they often begin with lowercase letters, contain internal punctuation (colons, dashes, quotation marks), and feature dense named entities, numbers, or explicit citations. Low-activation examples are more often headline-like, general statements, or introductory sentences that lack the detailed attributions, quoted speech, and enumerations present in the high-activation set.\n\n4. **Closing interpretation**: The neuron detects text with a high density of named entities and structural markers of reported speech or lists, suggesting it specializes in processing information-rich, formal prose typical of the body of news articles or official reports.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to mid-sentence excerpts from news reports or formal articles (such as quoted speech, technical project descriptions, event summaries, or lists of names/items) that are rich in proper nouns and often include reporting verbs or citations.\n\n2. **Domain coverage**: The pattern appears across multiple languages (including English, Romanian, Hungarian, Italian, Greek, Arabic, Polish, Czech, and Spanish) and spans domains like politics, international relations, sports, culture, technology, and local events—any context where news-style reporting with attribution, detailed enumerations, or formal announcements occurs.\n\n3. **Contrast with low-activation examples**: High-activation texts are typically not headlines or opening sentences; they often begin with lowercase letters, contain internal punctuation (colons, dashes, quotation marks), and feature dense named entities, numbers, or explicit citations. Low-activation examples are more often headline-like, general statements, or introductory sentences that lack the detailed attributions, quoted speech, and enumerations present in the high-activation set.\n\n4. **Closing interpretation**: The neuron detects text with a high density of named entities and structural markers of reported speech or lists, suggesting it specializes in processing information-rich, formal prose typical of the body of news articles or official reports.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u0c4b\u0c30\u0c4d\u0c38\u0c4d\u200c \u0c05\u0c27\u0c3f\u0c15\u0c3e\u0c30\u0c41\u0c32\u0c41 \u0c05\u0c30\u0c46\u0c38\ufffd",
+      "actual_text": "ోర్స్‌ అధికారులు అరెస�",
       "normalized_activation": 9.602161407470703,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "2011, hicieron que esta vez la magnitud de la cat\u00e1strofe y la p\u00e9rdida de vidas humanas fueran limitadas.",
+      "actual_text": "2011, hicieron que esta vez la magnitud de la catástrofe y la pérdida de vidas humanas fueran limitadas.",
       "normalized_activation": 8.736066818237305,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "us y la nube interestelar denominada Nebulosa del Cangrejo. Los rayos gamma son un tipo de radiaci\u00f3n extrema generada",
+      "actual_text": "us y la nube interestelar denominada Nebulosa del Cangrejo. Los rayos gamma son un tipo de radiación extrema generada",
       "normalized_activation": 7.65618896484375,
       "pairs": []
     },
@@ -29,7 +29,7 @@
     },
     {
       "example_idx": 5,
-      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
       "normalized_activation": 0.0,
       "pairs": []
     }

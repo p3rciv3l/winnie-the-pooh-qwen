@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_18157",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of a governor or gubernatorial authority** (such as references to \"Governor Punjab,\" \"Republican Gov. Greg Abbott,\" \"el gobernador,\" or \"o governador da prov\u00edncia\") in contexts where the governor is taking an action, making a statement, or being cited in an official capacity.\n\n2. **Domain coverage**: The pattern appears primarily in news or governmental reporting across multiple languages (English, Spanish, Portuguese, Turkish) and regions (US, Brazil, Puerto Rico, Turkey, Nigeria). It focuses on the governor's role in executive actions, policy announcements, emergency management, and political statements, often within sentences describing directives, proposals, or reactions to events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the specific title \"governor\" (or its direct translation) linked to a governing action or context, while the low-activation examples completely lack any reference to gubernatorial figures or formal executive authority, instead covering topics like astrology, cooking, sports, and general news without that specific political actor.\n\n4. **Closing interpretation**: The neuron detects the semantic role of a governor as an institutional actor within a text. It serves as a filter for sentences where gubernatorial authority is central to the reported event or statement.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of a governor or gubernatorial authority** (such as references to \"Governor Punjab,\" \"Republican Gov. Greg Abbott,\" \"el gobernador,\" or \"o governador da província\") in contexts where the governor is taking an action, making a statement, or being cited in an official capacity.\n\n2. **Domain coverage**: The pattern appears primarily in news or governmental reporting across multiple languages (English, Spanish, Portuguese, Turkish) and regions (US, Brazil, Puerto Rico, Turkey, Nigeria). It focuses on the governor's role in executive actions, policy announcements, emergency management, and political statements, often within sentences describing directives, proposals, or reactions to events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the specific title \"governor\" (or its direct translation) linked to a governing action or context, while the low-activation examples completely lack any reference to gubernatorial figures or formal executive authority, instead covering topics like astrology, cooking, sports, and general news without that specific political actor.\n\n4. **Closing interpretation**: The neuron detects the semantic role of a governor as an institutional actor within a text. It serves as a filter for sentences where gubernatorial authority is central to the reported event or statement.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "a protest of the death of musician and activist Hachalu Hundessa outside the Governor\u2019s Mansion on June 30, 2020 in St Paul",
+      "actual_text": "a protest of the death of musician and activist Hachalu Hundessa outside the Governor’s Mansion on June 30, 2020 in St Paul",
       "normalized_activation": 9.102396011352539,
       "pairs": [
         {
@@ -13,8 +13,8 @@
           "concept_score": 0.4224,
           "meaning_score": 0.926,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.7394
+          "location_score": 0.425,
+          "combined_score": 0.8819
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.343,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2383
+          "combined_score": 0.1837
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.2072,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1691
+          "combined_score": 0.1204
         }
       ]
     },
@@ -41,33 +41,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2342,
-          "meaning_score": 0.3241,
+          "concept_score": 0.2341,
+          "meaning_score": 0.3235,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2233
+          "combined_score": 0.1726
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2342,
-          "meaning_score": 0.5775,
+          "concept_score": 0.2341,
+          "meaning_score": 0.5778,
           "overlap_fraction": 0.1415,
-          "location_score": 0.0283,
-          "combined_score": 0.353
+          "location_score": 0.0601,
+          "combined_score": 0.3408
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1571,
-          "meaning_score": 0.2654,
+          "concept_score": 0.1572,
+          "meaning_score": 0.265,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.169
+          "combined_score": 0.1362
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "RALEIGH, N.C. (WNCN) \u2014 The largest share of North Carol",
+      "actual_text": "RALEIGH, N.C. (WNCN) — The largest share of North Carol",
       "normalized_activation": 6.385807037353516,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4288,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.27
+          "combined_score": 0.2192
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.1791,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1803
+          "combined_score": 0.1168
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.208,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1459
+          "combined_score": 0.1119
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "\u201cHINDI. Hindi naman kami obsessed na kami ang maging top gross",
+      "actual_text": "“HINDI. Hindi naman kami obsessed na kami ang maging top gross",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.3971,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2253
+          "combined_score": 0.1937
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.4136,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2517
+          "combined_score": 0.2081
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2005,
           "meaning_score": 0.7025,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5612
+          "location_score": 0.425,
+          "combined_score": 0.7536
         }
       ]
     },
@@ -137,8 +137,8 @@
           "concept_score": 0.1401,
           "meaning_score": 0.7819,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5688
+          "location_score": 0.425,
+          "combined_score": 0.7783
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2717,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1717
+          "combined_score": 0.1391
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3407,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2098
+          "combined_score": 0.1724
         }
       ]
     }

@@ -1,36 +1,36 @@
 {
   "neuron_id": "0_4178",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns formatted with multiple capitalized words, often accompanied by journalistic citation elements** (such as *\"CNA Financial\"*, *\"Michael McFaul\"*, *\"KCNA via Reuters\"*, or *\"Nick Macfie)\"*).\n\n2. **Domain coverage**: The pattern appears predominantly in news-style text across multiple languages (English, German, Czech, Arabic, etc.) and topics (celebrity news, politics, sports, finance). It specifically triggers on multi-word named entities\u2014organizations, people, events\u2014when presented with punctuation like parentheses, brackets, or abbreviations, and often within sentences that include titles, roles, or source attributions.\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain single proper nouns without elaborate formatting (e.g., *\"Erdo\u011fan\"*, *\"Lyft Inc.\"*) or lack named entities altogether. They also omit the journalistic citation style\u2014no parenthetical source credits, no combined title-name strings, and no multi-capital-word sequences paired with punctuation.\n\n4. **Closing interpretation**: This neuron detects a specific structural/journalistic formatting pattern around multi-word proper nouns rather than a semantic topic. It acts as a \"named entity with citation formatting\" detector, firing on text that resembles news excerpts, datelines, or source attributions.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns formatted with multiple capitalized words, often accompanied by journalistic citation elements** (such as *\"CNA Financial\"*, *\"Michael McFaul\"*, *\"KCNA via Reuters\"*, or *\"Nick Macfie)\"*).\n\n2. **Domain coverage**: The pattern appears predominantly in news-style text across multiple languages (English, German, Czech, Arabic, etc.) and topics (celebrity news, politics, sports, finance). It specifically triggers on multi-word named entities—organizations, people, events—when presented with punctuation like parentheses, brackets, or abbreviations, and often within sentences that include titles, roles, or source attributions.\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain single proper nouns without elaborate formatting (e.g., *\"Erdoğan\"*, *\"Lyft Inc.\"*) or lack named entities altogether. They also omit the journalistic citation style—no parenthetical source credits, no combined title-name strings, and no multi-capital-word sequences paired with punctuation.\n\n4. **Closing interpretation**: This neuron detects a specific structural/journalistic formatting pattern around multi-word proper nouns rather than a semantic topic. It acts as a \"named entity with citation formatting\" detector, firing on text that resembles news excerpts, datelines, or source attributions.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Chuck Rowe U.S. National Anthem: Kneel Or Not To Kneel, That Is The Question \u2013 By Charles Chuck Rowe \u2013 Lets talk",
+      "actual_text": "Chuck Rowe U.S. National Anthem: Kneel Or Not To Kneel, That Is The Question – By Charles Chuck Rowe – Lets talk",
       "normalized_activation": 9.513863563537598,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1101,
-          "meaning_score": 0.8847,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3979
+          "concept_score": 0.11,
+          "meaning_score": 0.8851,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8177
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0797,
-          "meaning_score": 0.3276,
+          "concept_score": 0.0798,
+          "meaning_score": 0.3274,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1629
+          "combined_score": 0.1511
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1037,
-          "meaning_score": 0.2049,
+          "concept_score": 0.1036,
+          "meaning_score": 0.2046,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1234
+          "combined_score": 0.1025
         }
       ]
     },
@@ -41,58 +41,58 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2349,
-          "meaning_score": 0.3409,
+          "concept_score": 0.2357,
+          "meaning_score": 0.344,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2303
+          "combined_score": 0.1816
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2166,
-          "meaning_score": 0.2945,
+          "concept_score": 0.2146,
+          "meaning_score": 0.2974,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2044
+          "combined_score": 0.1586
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2215,
-          "meaning_score": 0.4358,
+          "concept_score": 0.2225,
+          "meaning_score": 0.4383,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2629
+          "combined_score": 0.2196
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "he has played really well for Pakistan.\u201d However, he then proceeded to mock Akmal for his accent, jokingly remarking: \u201cI was listening, and he",
+      "actual_text": "he has played really well for Pakistan.” However, he then proceeded to mock Akmal for his accent, jokingly remarking: “I was listening, and he",
       "normalized_activation": 7.2073259353637695,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1291,
+          "concept_score": 0.1318,
           "meaning_score": 0.4867,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2463
+          "combined_score": 0.2266
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0668,
+          "concept_score": 0.0665,
           "meaning_score": 0.3589,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1703
+          "combined_score": 0.1625
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1174,
+          "concept_score": 0.1169,
           "meaning_score": 0.4777,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.238
+          "combined_score": 0.2205
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.3124,
-          "meaning_score": 0.4263,
+          "concept_score": 0.3125,
+          "meaning_score": 0.4244,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2955
+          "combined_score": 0.2272
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1923,
-          "meaning_score": 0.4627,
+          "concept_score": 0.1925,
+          "meaning_score": 0.465,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.262
+          "combined_score": 0.2265
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.23,
-          "meaning_score": 0.503,
+          "concept_score": 0.2301,
+          "meaning_score": 0.5037,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2932
+          "combined_score": 0.2486
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.3036,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1787
+          "combined_score": 0.1505
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3792,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2294
+          "combined_score": 0.1903
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4453,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2272
+          "combined_score": 0.2077
         }
       ]
     }

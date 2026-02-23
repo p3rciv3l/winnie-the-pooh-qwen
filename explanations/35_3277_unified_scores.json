@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_3277",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing sequences of proper nouns, technical terms, or multilingual named entities in mid-sentence fragments** (such as lists of names like \"Anne K\u00f6nig Daniela Wutte,\" technical role titles like \"Drive Test Engineer,\" or mixed-language phrases like \"Aegon ar\u00e9ne poradil s chorv\u00e1tskym kvalifikantom\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (German, Italian, Polish, Czech, Russian, Turkish, Hungarian, etc.) and contexts including news snippets, technical descriptions, sports reports, legal/business documents, and multilingual social media or web content. It often involves capitalized terms, abbreviations, or transliterated names embedded within informational or formal prose.\n\n3. **Contrast with low-activation examples**: High-activation texts typically contain dense, specific terminology or named entities within incomplete syntactic structures, whereas low-activation examples are often complete introductory sentences, headlines, or conversational phrases with fewer specialized or multi-word nominal sequences. The low-activation group lacks the concentrated clusters of capitalized or technical vocabulary seen in the high group.\n\n4. **Closing interpretation**: The neuron likely detects **information-rich, non-narrative text segments characterized by nominal groupings and cross-lingual lexical specificity**. It functions as a marker for passages where entity density and formal/technical vocabulary are high, regardless of language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing sequences of proper nouns, technical terms, or multilingual named entities in mid-sentence fragments** (such as lists of names like \"Anne König Daniela Wutte,\" technical role titles like \"Drive Test Engineer,\" or mixed-language phrases like \"Aegon aréne poradil s chorvátskym kvalifikantom\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (German, Italian, Polish, Czech, Russian, Turkish, Hungarian, etc.) and contexts including news snippets, technical descriptions, sports reports, legal/business documents, and multilingual social media or web content. It often involves capitalized terms, abbreviations, or transliterated names embedded within informational or formal prose.\n\n3. **Contrast with low-activation examples**: High-activation texts typically contain dense, specific terminology or named entities within incomplete syntactic structures, whereas low-activation examples are often complete introductory sentences, headlines, or conversational phrases with fewer specialized or multi-word nominal sequences. The low-activation group lacks the concentrated clusters of capitalized or technical vocabulary seen in the high group.\n\n4. **Closing interpretation**: The neuron likely detects **information-rich, non-narrative text segments characterized by nominal groupings and cross-lingual lexical specificity**. It functions as a marker for passages where entity density and formal/technical vocabulary are high, regardless of language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "zaznamenalo pob\u0159e\u017en\u00ed m\u011bsto Izmir, kde \u017eij\u00ed t\u0159i miliony obyvatel, a",
+      "actual_text": "zaznamenalo pobřežní město Izmir, kde žijí tři miliony obyvatel, a",
       "normalized_activation": 9.66270923614502,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.5006,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2346
+          "combined_score": 0.2256
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4629,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2226
+          "combined_score": 0.2108
         },
         {
           "prediction_rank": 3,
@@ -30,53 +30,53 @@
           "meaning_score": 0.3978,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2156
+          "combined_score": 0.1903
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "isation and Sarawak Housing and Real Estate Developers\u2019 Association (Sheda) Kuching branch. The HoA stipulates that HDC will be a majority stake",
+      "actual_text": "isation and Sarawak Housing and Real Estate Developers’ Association (Sheda) Kuching branch. The HoA stipulates that HDC will be a majority stake",
       "normalized_activation": 8.975138664245605,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1294,
-          "meaning_score": 0.5569,
+          "meaning_score": 0.5566,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2745
+          "combined_score": 0.256
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1473,
-          "meaning_score": 0.6248,
+          "meaning_score": 0.6246,
           "overlap_fraction": 0.6319,
-          "location_score": 0.1264,
-          "combined_score": 0.4352
+          "location_score": 0.2686,
+          "combined_score": 0.5562
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1491,
-          "meaning_score": 0.4547,
+          "concept_score": 0.1492,
+          "meaning_score": 0.4553,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2415
+          "combined_score": 0.2159
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "mi\u015f \u00f6zelliklere sahip yeni 24 MP ve 12 MP kamera sens\u00f6rlerini duyurmas\u0131ndan bu yana b\u00fcy\u00fck bir \u015fey.",
+      "actual_text": "miş özelliklere sahip yeni 24 MP ve 12 MP kamera sensörlerini duyurmasından bu yana büyük bir şey.",
       "normalized_activation": 8.091365814208984,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1843,
           "meaning_score": 0.5783,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.305
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6984
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4718,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2778
+          "combined_score": 0.2339
         },
         {
           "prediction_rank": 3,
@@ -92,22 +92,22 @@
           "meaning_score": 0.6139,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3085
+          "combined_score": 0.2845
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "FALL RIVER \u2014 A man wanted for the past 10 months in connection",
+      "actual_text": "FALL RIVER — A man wanted for the past 10 months in connection",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2146,
+          "concept_score": 0.2147,
           "meaning_score": 0.6723,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5547
+          "location_score": 0.425,
+          "combined_score": 0.7429
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3655,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2327
+          "combined_score": 0.1878
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4349,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2542
+          "combined_score": 0.2149
         }
       ]
     },
@@ -136,9 +136,9 @@
           "prediction_rank": 1,
           "concept_score": 0.2086,
           "meaning_score": 0.5709,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3118
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6989
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.1871,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1513
+          "combined_score": 0.1082
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.2224,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1341
+          "combined_score": 0.1114
         }
       ]
     }

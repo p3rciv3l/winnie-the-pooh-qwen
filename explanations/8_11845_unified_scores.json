@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_11845",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"sem\" (particularly the prefix \"semi-\") in words such as \"semi-finals\", \"semiconductor\", \"semanal\", or \"sembra\".\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Turkish, Romanian, Swedish, Polish) and diverse domains: technology (semiconductors), sports (semi-finals), music (semi-deep cuts), politics (semi-autonomous), and personal descriptions (semi-retired). It also activates on words with \"sem\" outside the prefix, like Italian \"sembra\" (seems) or Romanian \"semn\" (sign).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"sem\" substring entirely; they cover topics like sanctions, earthquakes, sports results, and business news without any instances of \"semi-\" or \"sem\"-containing words. For example, even a low-activation mention of \"seismic\" does not trigger the neuron because it lacks the \"sem\" character sequence.\n\n4. **Closing interpretation**: The neuron detects a specific orthographic pattern\u2014the presence of the substring \"sem\"\u2014often associated with the prefix \"semi-\" meaning half or partial, but it also responds to unrelated words containing this sequence across languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"sem\" (particularly the prefix \"semi-\") in words such as \"semi-finals\", \"semiconductor\", \"semanal\", or \"sembra\".\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Turkish, Romanian, Swedish, Polish) and diverse domains: technology (semiconductors), sports (semi-finals), music (semi-deep cuts), politics (semi-autonomous), and personal descriptions (semi-retired). It also activates on words with \"sem\" outside the prefix, like Italian \"sembra\" (seems) or Romanian \"semn\" (sign).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"sem\" substring entirely; they cover topics like sanctions, earthquakes, sports results, and business news without any instances of \"semi-\" or \"sem\"-containing words. For example, even a low-activation mention of \"seismic\" does not trigger the neuron because it lacks the \"sem\" character sequence.\n\n4. **Closing interpretation**: The neuron detects a specific orthographic pattern—the presence of the substring \"sem\"—often associated with the prefix \"semi-\" meaning half or partial, but it also responds to unrelated words containing this sequence across languages.",
   "results": [
     {
       "example_idx": 1,
@@ -11,26 +11,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.23,
-          "meaning_score": 0.8731,
+          "meaning_score": 0.8727,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6413
+          "location_score": 0.425,
+          "combined_score": 0.8304
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2411,
-          "meaning_score": 0.5823,
+          "concept_score": 0.2399,
+          "meaning_score": 0.5824,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3294
+          "combined_score": 0.2835
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2083,
-          "meaning_score": 0.4217,
+          "concept_score": 0.2084,
+          "meaning_score": 0.4221,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.252
+          "combined_score": 0.2107
         }
       ]
     },
@@ -41,19 +41,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2051,
+          "concept_score": 0.2052,
           "meaning_score": 0.3735,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2315
+          "combined_score": 0.1895
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1393,
+          "concept_score": 0.1394,
           "meaning_score": 0.4785,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2471
+          "combined_score": 0.2243
         },
         {
           "prediction_rank": 3,
@@ -61,22 +61,22 @@
           "meaning_score": 0.2364,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1576
+          "combined_score": 0.1241
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "This movie, directed by Dennis Scholl and Kareem Tabsch, takes a little while to find its footing. It\u2019s a strategic mistake to",
+      "actual_text": "This movie, directed by Dennis Scholl and Kareem Tabsch, takes a little while to find its footing. It’s a strategic mistake to",
       "normalized_activation": 4.418662071228027,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1442,
-          "meaning_score": 0.8794,
+          "concept_score": 0.1441,
+          "meaning_score": 0.8795,
           "overlap_fraction": 0.7778,
-          "location_score": 0.1556,
-          "combined_score": 0.565
+          "location_score": 0.3306,
+          "combined_score": 0.726
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.233,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1658
+          "combined_score": 0.1263
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.2078,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1809
+          "combined_score": 0.125
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "\u201cWhat is not clear today is what will the US government decide to do for 2",
+      "actual_text": "“What is not clear today is what will the US government decide to do for 2",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,39 +106,39 @@
           "concept_score": 0.1947,
           "meaning_score": 0.5774,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5088
+          "location_score": 0.425,
+          "combined_score": 0.6996
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1686,
+          "concept_score": 0.1683,
           "meaning_score": 0.1082,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1107
+          "combined_score": 0.0712
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1572,
+          "concept_score": 0.1575,
           "meaning_score": 0.1304,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.115
+          "combined_score": 0.079
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Roma, 22 feb. \u2013 (Adnkronos) \u2013",
+      "actual_text": "Roma, 22 feb. – (Adnkronos) –",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1518,
+          "concept_score": 0.1519,
           "meaning_score": 0.6121,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5056
+          "location_score": 0.425,
+          "combined_score": 0.7079
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.2562,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1675
+          "combined_score": 0.1333
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1594,
-          "meaning_score": 0.2875,
+          "meaning_score": 0.2874,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1787
+          "combined_score": 0.1461
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "26_19693",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal named entities such as laws, treaties, policies, agreements, official programs, or regulatory acts** (such as the \"Public Finance Management Act 2015,\" \"UN Convention on the Law of the Sea,\" \"Affordable Care Act,\" or \"Pradhan Mantri Awas Yojana\").\n\n2. **Domain coverage**: The pattern appears in multilingual legal, governmental, and institutional contexts\u2014spanning English, French, Turkish, and others\u2014covering topics like legislation, international agreements, public policy schemes, financial regulations, and corporate compliance. It also activates on references to specific named programs, grants, or indexed listings (e.g., \"JP Morgan's global government bond index\") and even extends to formally named entertainment projects or events when framed like official programs (e.g., \"Foodie Guide,\" \"Doctor Strange 3\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain capitalized proper nouns denoting formal enacted or established entities, often accompanied by acronyms, years, or institutional names. The low-activation examples lack these; they describe natural events, personal communications, general news updates, or cultural observations without referencing codified documents, official acts, or structured programs.\n\n4. **Closing interpretation**: The neuron detects text segments that reference codified, institutional human constructs\u2014essentially, any formally named rule, agreement, or program that structures organizational or state activity. It serves as a filter for bureaucratic, legal, and policy-related terminology within the model's inputs.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal named entities such as laws, treaties, policies, agreements, official programs, or regulatory acts** (such as the \"Public Finance Management Act 2015,\" \"UN Convention on the Law of the Sea,\" \"Affordable Care Act,\" or \"Pradhan Mantri Awas Yojana\").\n\n2. **Domain coverage**: The pattern appears in multilingual legal, governmental, and institutional contexts—spanning English, French, Turkish, and others—covering topics like legislation, international agreements, public policy schemes, financial regulations, and corporate compliance. It also activates on references to specific named programs, grants, or indexed listings (e.g., \"JP Morgan's global government bond index\") and even extends to formally named entertainment projects or events when framed like official programs (e.g., \"Foodie Guide,\" \"Doctor Strange 3\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain capitalized proper nouns denoting formal enacted or established entities, often accompanied by acronyms, years, or institutional names. The low-activation examples lack these; they describe natural events, personal communications, general news updates, or cultural observations without referencing codified documents, official acts, or structured programs.\n\n4. **Closing interpretation**: The neuron detects text segments that reference codified, institutional human constructs—essentially, any formally named rule, agreement, or program that structures organizational or state activity. It serves as a filter for bureaucratic, legal, and policy-related terminology within the model's inputs.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u00f3gica citando el mencionado extracto de \"Zizhi Tongjian\", o \"Espejo integral en ayuda de la gobernanza\",",
+      "actual_text": "ógica citando el mencionado extracto de \"Zizhi Tongjian\", o \"Espejo integral en ayuda de la gobernanza\",",
       "normalized_activation": 9.525010108947754,
       "pairs": [
         {
@@ -14,15 +14,15 @@
           "meaning_score": 0.2393,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1765
+          "combined_score": 0.132
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1456,
           "meaning_score": 0.6265,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5089
+          "location_score": 0.425,
+          "combined_score": 0.7131
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.207,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1216
+          "combined_score": 0.1025
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.6444,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3411
+          "combined_score": 0.3051
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2225,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1631
+          "combined_score": 0.1223
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3878,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2037
+          "combined_score": 0.183
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "algamated Bank now owns 397,026 shares of the oil and gas company\u2019s stock valued at $12,709,",
+      "actual_text": "algamated Bank now owns 397,026 shares of the oil and gas company’s stock valued at $12,709,",
       "normalized_activation": 7.581859111785889,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3604,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2279
+          "combined_score": 0.1846
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3665,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.196
+          "combined_score": 0.1743
         },
         {
           "prediction_rank": 3,
@@ -92,22 +92,22 @@
           "meaning_score": 0.355,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.178
+          "combined_score": 0.1644
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "NORTH DAKOTA (KXNET) \u2014 Patchy freezing drizzle is",
+      "actual_text": "NORTH DAKOTA (KXNET) — Patchy freezing drizzle is",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.238,
+          "concept_score": 0.2379,
           "meaning_score": 0.8494,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.635
+          "location_score": 0.425,
+          "combined_score": 0.8217
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3815,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2243
+          "combined_score": 0.189
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3408,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1978
+          "combined_score": 0.1679
         }
       ]
     },
@@ -138,15 +138,15 @@
           "meaning_score": 0.4985,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2542
+          "combined_score": 0.2324
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.179,
+          "concept_score": 0.1789,
           "meaning_score": 0.4621,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2564
+          "combined_score": 0.2232
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3539,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2126
+          "combined_score": 0.1771
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_9353",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns (especially geographic, institutional, or personal names) followed by descriptive, restrictive, or specifying clauses** (such as \"Il bando Isi 2018, pubblicato oggi nella Gazz...\", \"Gobierno Petro, muy estricto con las grandes compa\u00f1\u00edas...\", or \"Pandeglang, de pe coasta vestic\u0103 a ins...\").\n\n2. **Domain coverage**: The pattern appears predominantly in formal, news-like prose across multiple languages (Italian, Spanish, Romanian, Portuguese, Croatian, English) and topics (government decrees, disaster reports, legal proceedings, technical programs, financial instruments). It detects sentences where a specific entity is immediately elaborated upon with details about its nature, location, actions, or attributes.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a comma or similar grammatical marker directly after a proper noun, introducing a dependent clause that defines or describes that noun. The low-activation examples either lack proper nouns entirely, use them in isolation without immediate elaboration, or present them in simpler, non-restrictive contexts (e.g., \"Anil Ambani\u2019s not going to jail...\").\n\n4. **Closing interpretation**: This neuron appears to detect a specific syntactic-semantic structure common in journalistic and administrative writing: the introduction of a named entity followed by an embedded specification. Its underlying focus is on **identifying and processing defining details attached to concrete, referenced subjects** within a single clause or phrase.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns (especially geographic, institutional, or personal names) followed by descriptive, restrictive, or specifying clauses** (such as \"Il bando Isi 2018, pubblicato oggi nella Gazz...\", \"Gobierno Petro, muy estricto con las grandes compañías...\", or \"Pandeglang, de pe coasta vestică a ins...\").\n\n2. **Domain coverage**: The pattern appears predominantly in formal, news-like prose across multiple languages (Italian, Spanish, Romanian, Portuguese, Croatian, English) and topics (government decrees, disaster reports, legal proceedings, technical programs, financial instruments). It detects sentences where a specific entity is immediately elaborated upon with details about its nature, location, actions, or attributes.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a comma or similar grammatical marker directly after a proper noun, introducing a dependent clause that defines or describes that noun. The low-activation examples either lack proper nouns entirely, use them in isolation without immediate elaboration, or present them in simpler, non-restrictive contexts (e.g., \"Anil Ambani’s not going to jail...\").\n\n4. **Closing interpretation**: This neuron appears to detect a specific syntactic-semantic structure common in journalistic and administrative writing: the introduction of a named entity followed by an embedded specification. Its underlying focus is on **identifying and processing defining details attached to concrete, referenced subjects** within a single clause or phrase.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "que hizo Metrol\u00ednea ante la empresa propietaria. Uno de los prop\u00f3sitos es que, en un futuro pr\u00f3ximo, se implemente una ruta el\u00e9",
+      "actual_text": "que hizo Metrolínea ante la empresa propietaria. Uno de los propósitos es que, en un futuro próximo, se implemente una ruta elé",
       "normalized_activation": 9.684625625610352,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.4794,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2951
+          "combined_score": 0.2425
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5249,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2843
+          "combined_score": 0.2509
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.5428,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3434
+          "combined_score": 0.278
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "euro \u015fi a... 14:46 Ce firm\u0103 a fost \u00eenfiin\u021bat\u0103 de cur\u00e2nd \u00een municipiul Constan\u021ba. C",
+      "actual_text": "euro şi a... 14:46 Ce firmă a fost înființată de curând în municipiul Constanța. C",
       "normalized_activation": 9.06813907623291,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.3396,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1909
+          "combined_score": 0.165
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4516,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2473
+          "combined_score": 0.2169
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3124,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2093
+          "combined_score": 0.1644
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "of criticism from Democrats and Republicans, Trump has appeared more sensitive than usual to outside opprobrium. The scale of the bipartisan outcry at Trump\u2019s stance toward Putin has",
+      "actual_text": "of criticism from Democrats and Republicans, Trump has appeared more sensitive than usual to outside opprobrium. The scale of the bipartisan outcry at Trump’s stance toward Putin has",
       "normalized_activation": 8.263080596923828,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4921,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2683
+          "combined_score": 0.2359
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2947,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2111
+          "combined_score": 0.1602
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3473,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1863
+          "combined_score": 0.1654
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1085,
+          "concept_score": 0.1086,
           "meaning_score": 0.6002,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2835
+          "combined_score": 0.2714
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4462,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2567
+          "combined_score": 0.219
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3923,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2317
+          "combined_score": 0.1948
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.5467,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2844
+          "combined_score": 0.257
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5286,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.257
+          "combined_score": 0.2417
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3063,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1708
+          "combined_score": 0.1483
         }
       ]
     }

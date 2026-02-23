@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_13439",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **sequences of proper nouns, numbers, and specific factual details in a news or encyclopedic style** (such as lists of names, dates, statistics, geographic terms, or technical identifiers).\n\n2. **Domain coverage**: The pattern appears in multilingual news reports, encyclopedia entries, and factual summaries across many languages (Spanish, Italian, Polish, Portuguese, Catalan, Russian, Hindi, etc.). Topics include sports scores, political announcements, academic citations, disaster reports, legal documents, and cultural references\u2014any text densely packed with named entities and numerical data.\n\n3. **Contrast with low-activation examples**: The high-activation texts contain concentrated factual lists or specific references (e.g., \u201cStefano Sassi, Claudio Marenzi,\u201d \u201c12 punts,\u201d \u201cmagnitudo 2.4 - nella notte - a Sampeyre\u201d), while low-activation examples are more abstract, opinion-based, or descriptive without such dense named-entity sequences (e.g., \u201cBig Pharma offers an easy punching bag,\u201d \u201cRespiratory problems are a quite common condition\u201d).\n\n4. **Closing interpretation**: The neuron appears to detect markers of structured, information-dense reporting\u2014acting as a \u201cfactual listing\u201d or \u201cnamed-entity cluster\u201d detector. It fires when text resembles data-rich snippets typical of news wires, bibliographies, or technical summaries.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **sequences of proper nouns, numbers, and specific factual details in a news or encyclopedic style** (such as lists of names, dates, statistics, geographic terms, or technical identifiers).\n\n2. **Domain coverage**: The pattern appears in multilingual news reports, encyclopedia entries, and factual summaries across many languages (Spanish, Italian, Polish, Portuguese, Catalan, Russian, Hindi, etc.). Topics include sports scores, political announcements, academic citations, disaster reports, legal documents, and cultural references—any text densely packed with named entities and numerical data.\n\n3. **Contrast with low-activation examples**: The high-activation texts contain concentrated factual lists or specific references (e.g., “Stefano Sassi, Claudio Marenzi,” “12 punts,” “magnitudo 2.4 - nella notte - a Sampeyre”), while low-activation examples are more abstract, opinion-based, or descriptive without such dense named-entity sequences (e.g., “Big Pharma offers an easy punching bag,” “Respiratory problems are a quite common condition”).\n\n4. **Closing interpretation**: The neuron appears to detect markers of structured, information-dense reporting—acting as a “factual listing” or “named-entity cluster” detector. It fires when text resembles data-rich snippets typical of news wires, bibliographies, or technical summaries.",
   "results": [
     {
       "example_idx": 1,
@@ -10,11 +10,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.102,
-          "meaning_score": 0.5678,
+          "concept_score": 0.1021,
+          "meaning_score": 0.5685,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2679
+          "combined_score": 0.2569
         },
         {
           "prediction_rank": 2,
@@ -22,15 +22,15 @@
           "meaning_score": 0.5438,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2395
+          "combined_score": 0.2394
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1016,
-          "meaning_score": 0.5039,
+          "meaning_score": 0.5041,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2422
+          "combined_score": 0.2295
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3773,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1969
+          "combined_score": 0.1776
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.7176,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3383
+          "combined_score": 0.3242
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3021,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1498
+          "combined_score": 0.1393
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "uchwycony na nagraniu Na nagraniu wida\u0107 jak jasno \u015bwiec\u0105cy obiekt przecina niebo i znika z kad",
+      "actual_text": "uchwycony na nagraniu Na nagraniu widać jak jasno świecący obiekt przecina niebo i znika z kad",
       "normalized_activation": 7.4663496017456055,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4578,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2022
+          "combined_score": 0.2017
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5207,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2623
+          "combined_score": 0.2416
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4234,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.202
+          "combined_score": 0.1922
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1531,
           "meaning_score": 0.8702,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6093
+          "location_score": 0.425,
+          "combined_score": 0.8178
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.7046,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3522
+          "combined_score": 0.3259
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1194,
-          "meaning_score": 0.3798,
+          "concept_score": 0.1195,
+          "meaning_score": 0.3801,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1997
+          "combined_score": 0.1795
         }
       ]
     },
@@ -137,24 +137,24 @@
           "concept_score": 0.2069,
           "meaning_score": 0.8268,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6135
+          "location_score": 0.425,
+          "combined_score": 0.8074
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0866,
+          "concept_score": 0.0867,
           "meaning_score": 0.3084,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.158
+          "combined_score": 0.1441
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2929,
-          "meaning_score": 0.5985,
+          "concept_score": 0.2928,
+          "meaning_score": 0.5986,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3566
+          "combined_score": 0.2983
         }
       ]
     }

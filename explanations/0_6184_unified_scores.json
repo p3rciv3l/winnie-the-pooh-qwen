@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_6184",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of the English language or British nationality/identity** (such as explicit references to \"English\" as a language, labels like \"British,\" or contexts involving English translation, education, or colonial history).\n\n2. **Domain coverage**: The pattern appears across diverse domains: multilingual UI/language lists (e.g., \"English, Hindi, Bengali\"), academic subjects (\"degree in English\"), translation notes (\"Translated to english\"), British institutions/figures (\"British Ministry,\" \"British Geological Survey\"), and historical/political contexts of British influence (Hong Kong's handover, British colonialism). It activates for the word \"English\" in various languages (e.g., \"ingl\u00e9s\" in Spanish text) and for \"British\" even without the word \"English\" present.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct reference to the English language or British identity. They cover topics like local crime, non-English business reports, sports without British context, weather, and text in other languages (Greek, Spanish, Bulgarian) where \"English\" is not mentioned. The neuron ignores general news unless the specific pattern is present.\n\n4. **Closing interpretation**: The neuron detects tokens and contexts semantically linked to *English as a linguistic entity* and *British national affiliation*. It functions as a specialized detector for a key cultural-linguistic marker within the training data.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of the English language or British nationality/identity** (such as explicit references to \"English\" as a language, labels like \"British,\" or contexts involving English translation, education, or colonial history).\n\n2. **Domain coverage**: The pattern appears across diverse domains: multilingual UI/language lists (e.g., \"English, Hindi, Bengali\"), academic subjects (\"degree in English\"), translation notes (\"Translated to english\"), British institutions/figures (\"British Ministry,\" \"British Geological Survey\"), and historical/political contexts of British influence (Hong Kong's handover, British colonialism). It activates for the word \"English\" in various languages (e.g., \"inglés\" in Spanish text) and for \"British\" even without the word \"English\" present.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack any direct reference to the English language or British identity. They cover topics like local crime, non-English business reports, sports without British context, weather, and text in other languages (Greek, Spanish, Bulgarian) where \"English\" is not mentioned. The neuron ignores general news unless the specific pattern is present.\n\n4. **Closing interpretation**: The neuron detects tokens and contexts semantically linked to *English as a linguistic entity* and *British national affiliation*. It functions as a specialized detector for a key cultural-linguistic marker within the training data.",
   "results": [
     {
       "example_idx": 1,
@@ -11,57 +11,57 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.3967,
-          "meaning_score": 0.8822,
+          "meaning_score": 0.8821,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.7116
+          "location_score": 0.425,
+          "combined_score": 0.8594
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.3077,
-          "meaning_score": 0.4753,
+          "meaning_score": 0.4752,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3132
+          "combined_score": 0.2481
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2266,
+          "concept_score": 0.2265,
           "meaning_score": 0.0659,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.117
+          "combined_score": 0.062
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "used Prince Harry\u2019s confession that he killed 25 Taliban in Afghanistan against the British government amid the escalating row over the execution of Alireza Akbari.",
+      "actual_text": "used Prince Harry’s confession that he killed 25 Taliban in Afghanistan against the British government amid the escalating row over the execution of Alireza Akbari.",
       "normalized_activation": 6.641167640686035,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.5087,
-          "meaning_score": 0.9039,
+          "concept_score": 0.5086,
+          "meaning_score": 0.904,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.765
+          "location_score": 0.425,
+          "combined_score": 0.8855
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.5092,
-          "meaning_score": 0.5411,
+          "concept_score": 0.504,
+          "meaning_score": 0.541,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4201
+          "combined_score": 0.3055
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.6919,
+          "concept_score": 0.6917,
           "meaning_score": 0.4468,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4555
+          "combined_score": 0.2936
         }
       ]
     },
@@ -76,29 +76,29 @@
           "meaning_score": 0.4232,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.376
+          "combined_score": 0.2574
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.4686,
+          "concept_score": 0.4684,
           "meaning_score": 0.4145,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3532
+          "combined_score": 0.2464
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.4492,
-          "meaning_score": 0.8314,
+          "concept_score": 0.4476,
+          "meaning_score": 0.8308,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.7122
+          "location_score": 0.425,
+          "combined_score": 0.8452
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "room to experiment. Frogwares are keen to indulge in the experimentation the source material affords them. They told Chandler: That\u2019s why we\u2019re pushing this idea of",
+      "actual_text": "room to experiment. Frogwares are keen to indulge in the experimentation the source material affords them. They told Chandler: That’s why we’re pushing this idea of",
       "normalized_activation": 0.6306167840957642,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.6489,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3413
+          "combined_score": 0.3064
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.327,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2027
+          "combined_score": 0.1659
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3682,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2119
+          "combined_score": 0.1807
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "i obzorja. \u00bbPomembno je, da ohrani odprt um, saj so na poti zelo velike sprem",
+      "actual_text": "i obzorja. »Pomembno je, da ohrani odprt um, saj so na poti zelo velike sprem",
       "normalized_activation": 0.5964275002479553,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.3587,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.221
+          "combined_score": 0.1815
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3525,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.181
+          "combined_score": 0.1648
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3344,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1677
+          "combined_score": 0.1548
         }
       ]
     }

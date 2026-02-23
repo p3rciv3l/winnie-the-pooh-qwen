@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_4273",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **document metadata and publishing artifacts** (such as timestamps, subscription notices, source credits, URLs/email addresses, or bylines/contact information).\n\n2. **Domain coverage**: The pattern appears across news articles, financial reports, blog footers, and institutional announcements in multiple languages (English, Arabic, German, Dutch). It specifically triggers on the administrative and technical text surrounding core content: publication details (Reuters, Bloomberg), copyright lines, \"powered by\" credits, date-time stamps in ISO-like formats, and instructions for accessing content (subscription offers, contact emails, \"read more\" prompts).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively clean narrative or reportorial leads\u2014the primary content itself\u2014without appended metadata, source tags, or access instructions. They lack the publishing scaffolding (e.g., no \"Reuters\", no timestamps like \"2023-02-26T12:20:32+5:30\", no subscription prices or email addresses) that dominates the high-activation set.\n\n4. **Closing interpretation**: This neuron detects non-content textual boilerplate that signals document provenance, publication mechanics, or user interface elements. It essentially fires on the peripheral \"frame\" of digital documents rather than their core semantic message.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **document metadata and publishing artifacts** (such as timestamps, subscription notices, source credits, URLs/email addresses, or bylines/contact information).\n\n2. **Domain coverage**: The pattern appears across news articles, financial reports, blog footers, and institutional announcements in multiple languages (English, Arabic, German, Dutch). It specifically triggers on the administrative and technical text surrounding core content: publication details (Reuters, Bloomberg), copyright lines, \"powered by\" credits, date-time stamps in ISO-like formats, and instructions for accessing content (subscription offers, contact emails, \"read more\" prompts).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively clean narrative or reportorial leads—the primary content itself—without appended metadata, source tags, or access instructions. They lack the publishing scaffolding (e.g., no \"Reuters\", no timestamps like \"2023-02-26T12:20:32+5:30\", no subscription prices or email addresses) that dominates the high-activation set.\n\n4. **Closing interpretation**: This neuron detects non-content textual boilerplate that signals document provenance, publication mechanics, or user interface elements. It essentially fires on the peripheral \"frame\" of digital documents rather than their core semantic message.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.2904,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1708
+          "combined_score": 0.1439
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2264,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1531
+          "combined_score": 0.1197
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2799,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1627
+          "combined_score": 0.138
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "\u0645\u0646\u0647 \u0648\u064a\u0645\u0643\u0646\u0643 \u0642\u0631\u0627\u0621\u0629 \u0648\u0645\u062a\u0627\u0628\u0639\u0629 \u0645\u0633\u062a\u062c\u062f\u0627\u062f\u062a \u0647\u0630\u0627 \u0627\u0644\u062e\u0628\u0631 \u0645\u0646 \u0645\u0635\u062f\u0631\u0647 \u0627\u0644\u0627\u0633\u0627\u0633\u064a.",
+      "actual_text": "منه ويمكنك قراءة ومتابعة مستجدادت هذا الخبر من مصدره الاساسي.",
       "normalized_activation": 8.587141036987305,
       "pairs": [
         {
@@ -45,15 +45,15 @@
           "meaning_score": 0.4022,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2161
+          "combined_score": 0.1916
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1303,
           "meaning_score": 0.4531,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4333
+          "location_score": 0.425,
+          "combined_score": 0.6371
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.2903,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1711
+          "combined_score": 0.144
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.3179,
-          "meaning_score": 0.2984,
+          "concept_score": 0.3181,
+          "meaning_score": 0.2982,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2465
+          "combined_score": 0.1744
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2231,
+          "concept_score": 0.2232,
           "meaning_score": 0.3044,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.211
+          "combined_score": 0.1629
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2762,
+          "concept_score": 0.2766,
           "meaning_score": 0.2555,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2127
+          "combined_score": 0.1501
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.5075,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3548
+          "combined_score": 0.2726
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.278,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2494
+          "combined_score": 0.17
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.4795,
           "meaning_score": 0.7754,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.702
+          "location_score": 0.425,
+          "combined_score": 0.8265
         }
       ]
     },
@@ -134,19 +134,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1524,
+          "concept_score": 0.1525,
           "meaning_score": 0.8312,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5935
+          "location_score": 0.425,
+          "combined_score": 0.8011
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1524,
-          "meaning_score": 0.4052,
+          "meaning_score": 0.4051,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.223
+          "combined_score": 0.1951
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4296,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2328
+          "combined_score": 0.2054
         }
       ]
     }

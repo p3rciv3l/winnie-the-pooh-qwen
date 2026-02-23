@@ -1,20 +1,20 @@
 {
   "neuron_id": "8_15083",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple named entities in formal or reportorial contexts** (such as lists of people with titles, organizational credits, political figures with affiliations, or cited sources in news articles).\n\n2. **Domain coverage**: The pattern appears across multilingual news, official statements, and documentary texts\u2014spanning English, Italian, Spanish, German, Persian, Hungarian, and others. Topics include politics (e.g., \u201cAlexandria Ocasio-Cortez,\u201d \u201cGreece's European creditors\u201d), legal/bureaucratic processes (\u201cClaude Cassirer\u2026 replaced by his children\u201d), disaster reports (\u201cdanni conseguenti agli eventi sismici\u201d), financial indices (\u201cStandard & Poor\u2019s 500 Index\u201d), and editorial credits (\u201cEditing by Doina Chiacu and Will Dunham\u201d).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature **clusters of specific named entities** (people, organizations, places, events) often in structured relationships (succession, collaboration, conflict, attribution). Low-activation examples either lack named entities entirely, mention them only generically (\u201ca dopey burglar,\u201d \u201cfamilies of\u201d), or present isolated entities without the dense, interlinked referencing seen in the high group.\n\n4. **Closing interpretation**: The neuron detects passages where real-world entities are explicitly networked\u2014serving as a marker for formal, referential, or documentary prose that anchors text in specific actors, institutions, or cited sources.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple named entities in formal or reportorial contexts** (such as lists of people with titles, organizational credits, political figures with affiliations, or cited sources in news articles).\n\n2. **Domain coverage**: The pattern appears across multilingual news, official statements, and documentary texts—spanning English, Italian, Spanish, German, Persian, Hungarian, and others. Topics include politics (e.g., “Alexandria Ocasio-Cortez,” “Greece's European creditors”), legal/bureaucratic processes (“Claude Cassirer… replaced by his children”), disaster reports (“danni conseguenti agli eventi sismici”), financial indices (“Standard & Poor’s 500 Index”), and editorial credits (“Editing by Doina Chiacu and Will Dunham”).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature **clusters of specific named entities** (people, organizations, places, events) often in structured relationships (succession, collaboration, conflict, attribution). Low-activation examples either lack named entities entirely, mention them only generically (“a dopey burglar,” “families of”), or present isolated entities without the dense, interlinked referencing seen in the high group.\n\n4. **Closing interpretation**: The neuron detects passages where real-world entities are explicitly networked—serving as a marker for formal, referential, or documentary prose that anchors text in specific actors, institutions, or cited sources.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "cuatro cooperativas que formaban Llet Nostra (Campllong, Mollerussa, Cad\u00ed y Baix Empord\u00e0) se encontraban agr",
+      "actual_text": "cuatro cooperativas que formaban Llet Nostra (Campllong, Mollerussa, Cadí y Baix Empordà) se encontraban agr",
       "normalized_activation": 9.398538589477539,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.2822,
-          "meaning_score": 0.8383,
+          "meaning_score": 0.8382,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6482
+          "location_score": 0.425,
+          "combined_score": 0.8236
         },
         {
           "prediction_rank": 2,
@@ -22,15 +22,15 @@
           "meaning_score": 0.6513,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3251
+          "combined_score": 0.301
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1348,
-          "meaning_score": 0.5856,
+          "meaning_score": 0.5857,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2882
+          "combined_score": 0.2691
         }
       ]
     },
@@ -44,8 +44,8 @@
           "concept_score": 0.1461,
           "meaning_score": 0.7659,
           "overlap_fraction": 0.8978,
-          "location_score": 0.1796,
-          "combined_score": 0.5444
+          "location_score": 0.3816,
+          "combined_score": 0.729
         },
         {
           "prediction_rank": 2,
@@ -53,15 +53,15 @@
           "meaning_score": 0.3795,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2132
+          "combined_score": 0.1843
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1411,
+          "concept_score": 0.141,
           "meaning_score": 0.3816,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2091
+          "combined_score": 0.1833
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1338,
-          "meaning_score": 0.4846,
+          "concept_score": 0.1337,
+          "meaning_score": 0.4853,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2474
+          "combined_score": 0.2263
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1786,
-          "meaning_score": 0.37,
+          "concept_score": 0.1785,
+          "meaning_score": 0.3697,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2194
+          "combined_score": 0.1839
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1808,
-          "meaning_score": 0.2654,
+          "meaning_score": 0.2655,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1785
+          "combined_score": 0.1399
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1961,
-          "meaning_score": 0.5825,
+          "concept_score": 0.196,
+          "meaning_score": 0.5823,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5114
+          "location_score": 0.425,
+          "combined_score": 0.7019
         },
         {
           "prediction_rank": 2,
@@ -115,21 +115,21 @@
           "meaning_score": 0.5617,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2948
+          "combined_score": 0.265
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1774,
-          "meaning_score": 0.3659,
+          "concept_score": 0.1773,
+          "meaning_score": 0.3658,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2173
+          "combined_score": 0.1821
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "New Law on Election Commission Appointments Challenged in India\u2019s Supreme Court In",
+      "actual_text": "New Law on Election Commission Appointments Challenged in India’s Supreme Court In",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.6607,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3861
+          "combined_score": 0.3265
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.6021,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3
+          "combined_score": 0.2781
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5165,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2835
+          "combined_score": 0.2484
         }
       ]
     }

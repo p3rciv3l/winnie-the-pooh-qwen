@@ -1,11 +1,11 @@
 {
   "neuron_id": "17_3567",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, places) followed by a consequential action, event, or statement** (such as a politician making a declaration, an activist being detained, a company launching a service, or a government body issuing an order).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-reporting contexts** across multiple languages (English, Spanish, Slovak, Italian, Hindi/Arabic script) and topics. These include political announcements, legal proceedings, corporate updates, accidents, protests, and military events. The consistent structure is a proper noun or acronym (e.g., \"Gov\", \"UN experts\", \"INS Kiltan\", \"Volc\u00e1n Popocat\u00e9petl\") immediately followed by a verb phrase describing something that happened, was said, or will occur.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a **specific agent (a who/what) paired with a newsworthy predicate**. The low-activation examples lack this clear \"entity + consequential action/update\" structure; they are often generic statements, incomplete phrases, promotional content, or descriptive passages without a focal named entity driving an event. For instance, low-activation texts discuss \"the UK's tax regime,\" \"an amazing moment,\" or \"people walking,\" without the specific, reportive framing.\n\n4. **Closing interpretation**: The neuron detects a fundamental syntax of news snippets: the presentation of a discrete, factual update centered on a specific identifiable subject. Its underlying focus is on **clauses that convey new, attributed events or statements within a journalistic or informational register**, regardless of the specific topic or language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, places) followed by a consequential action, event, or statement** (such as a politician making a declaration, an activist being detained, a company launching a service, or a government body issuing an order).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-reporting contexts** across multiple languages (English, Spanish, Slovak, Italian, Hindi/Arabic script) and topics. These include political announcements, legal proceedings, corporate updates, accidents, protests, and military events. The consistent structure is a proper noun or acronym (e.g., \"Gov\", \"UN experts\", \"INS Kiltan\", \"Volcán Popocatépetl\") immediately followed by a verb phrase describing something that happened, was said, or will occur.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a **specific agent (a who/what) paired with a newsworthy predicate**. The low-activation examples lack this clear \"entity + consequential action/update\" structure; they are often generic statements, incomplete phrases, promotional content, or descriptive passages without a focal named entity driving an event. For instance, low-activation texts discuss \"the UK's tax regime,\" \"an amazing moment,\" or \"people walking,\" without the specific, reportive framing.\n\n4. **Closing interpretation**: The neuron detects a fundamental syntax of news snippets: the presentation of a discrete, factual update centered on a specific identifiable subject. Its underlying focus is on **clauses that convey new, attributed events or statements within a journalistic or informational register**, regardless of the specific topic or language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Z5n \u2014 Andr\u00e9s Fuentes (@news_fuentes) May 3, 2021 Por su parte, el sospechoso, que",
+      "actual_text": "Z5n — Andrés Fuentes (@news_fuentes) May 3, 2021 Por su parte, el sospechoso, que",
       "normalized_activation": 9.726035118103027,
       "pairs": [
         {
@@ -14,15 +14,15 @@
           "meaning_score": 0.2477,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1722
+          "combined_score": 0.1327
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1913,
           "meaning_score": 0.3385,
           "overlap_fraction": 0.3951,
-          "location_score": 0.079,
-          "combined_score": 0.291
+          "location_score": 0.1679,
+          "combined_score": 0.3405
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2593,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1894
+          "combined_score": 0.1423
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "ismo con magnitud de 5.2 grados en el estado mexicano de Michoac\u00e1n. A trav\u00e9s de un comunicado, el organismo",
+      "actual_text": "ismo con magnitud de 5.2 grados en el estado mexicano de Michoacán. A través de un comunicado, el organismo",
       "normalized_activation": 9.221652030944824,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.1493,
           "meaning_score": 0.7363,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5542
+          "location_score": 0.425,
+          "combined_score": 0.7603
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4159,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2263
+          "combined_score": 0.1992
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.4748,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2534
+          "combined_score": 0.2256
         }
       ]
     },
@@ -75,8 +75,8 @@
           "concept_score": 0.1493,
           "meaning_score": 0.7711,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5682
+          "location_score": 0.425,
+          "combined_score": 0.7751
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2596,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1625
+          "combined_score": 0.1323
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.247,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1631
+          "combined_score": 0.1291
         }
       ]
     },
@@ -104,57 +104,57 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.2149,
-          "meaning_score": 0.2779,
+          "meaning_score": 0.2775,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1971
+          "combined_score": 0.1502
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2533,
-          "meaning_score": 0.2585,
+          "meaning_score": 0.2584,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2047
+          "combined_score": 0.1478
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1907,
-          "meaning_score": 0.2489,
+          "meaning_score": 0.2488,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1758
+          "combined_score": 0.1344
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Yeni Zelanda bas\u0131n\u0131 \u00fclkenin istihbarat servis",
+      "actual_text": "Yeni Zelanda basını ülkenin istihbarat servis",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1313,
-          "meaning_score": 0.5661,
+          "concept_score": 0.1312,
+          "meaning_score": 0.5659,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2789
+          "combined_score": 0.2602
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1332,
-          "meaning_score": 0.3879,
+          "meaning_score": 0.388,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2084
+          "combined_score": 0.1849
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1185,
-          "meaning_score": 0.599,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.287
+          "concept_score": 0.1186,
+          "meaning_score": 0.5989,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6973
         }
       ]
     }

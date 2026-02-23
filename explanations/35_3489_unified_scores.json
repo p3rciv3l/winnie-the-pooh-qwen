@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_3489",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that begin with a proper noun or location name followed by a comma, period, or other punctuation** (such as \"romeda \u015fi...\", \"igini; \u00e8...\", \"toku do\u0161lo...\", \"NUECES COUNTY, Texas \u2014\", or \"Small Earthquake Shakes N. Oregon Coast...\").\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style datelines, article leads, and sentence fragments that open with geographic or named entities**. It spans multiple languages (Romanian, Italian, Slovak, Spanish, English, Greek, Arabic, etc.) and topics (disasters, legal reports, sports, cultural events), indicating the neuron detects a **structural/grammatical opening pattern** rather than a specific topic or language.\n\n3. **Contrast with low-activation examples**: The low-activation texts either **place the proper noun later in the segment** (e.g., \"Legendary Green Bay Packers quarterback...\") or open with common nouns, pronouns, or non-geographic entities (e.g., \"Business group urges...\", \"The Arts Center...\", \"Mask compliance...\"). The high-activation group consistently shows **sentence-initial proper nouns immediately followed by punctuation**, a hallmark of journalistic datelines, headlines, or fragmentary text from the beginning of sentences in a corpus.\n\n4. **Closing interpretation**: This neuron likely detects **fragments that resemble the start of news sentences or headlines where a location or name is introduced first**. It acts as a **grammatical/syntactic detector for proper-noun-led text segments**, common in news articles and formal reports across many languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that begin with a proper noun or location name followed by a comma, period, or other punctuation** (such as \"romeda şi...\", \"igini; è...\", \"toku došlo...\", \"NUECES COUNTY, Texas —\", or \"Small Earthquake Shakes N. Oregon Coast...\").\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style datelines, article leads, and sentence fragments that open with geographic or named entities**. It spans multiple languages (Romanian, Italian, Slovak, Spanish, English, Greek, Arabic, etc.) and topics (disasters, legal reports, sports, cultural events), indicating the neuron detects a **structural/grammatical opening pattern** rather than a specific topic or language.\n\n3. **Contrast with low-activation examples**: The low-activation texts either **place the proper noun later in the segment** (e.g., \"Legendary Green Bay Packers quarterback...\") or open with common nouns, pronouns, or non-geographic entities (e.g., \"Business group urges...\", \"The Arts Center...\", \"Mask compliance...\"). The high-activation group consistently shows **sentence-initial proper nouns immediately followed by punctuation**, a hallmark of journalistic datelines, headlines, or fragmentary text from the beginning of sentences in a corpus.\n\n4. **Closing interpretation**: This neuron likely detects **fragments that resemble the start of news sentences or headlines where a location or name is introduced first**. It acts as a **grammatical/syntactic detector for proper-noun-led text segments**, common in news articles and formal reports across many languages.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.3024,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1907
+          "combined_score": 0.1547
         },
         {
           "prediction_rank": 2,
@@ -22,21 +22,21 @@
           "meaning_score": 0.2975,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1567
+          "combined_score": 0.1406
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1353,
           "meaning_score": 0.5048,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2561
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6598
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "vaj\u00fa aj podporu \u0161t\u00e1tu DUBNICA NAD V\u00c1HOM 20. decembra (WebNoviny",
+      "actual_text": "vajú aj podporu štátu DUBNICA NAD VÁHOM 20. decembra (WebNoviny",
       "normalized_activation": 9.226405143737793,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.4883,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2801
+          "combined_score": 0.2393
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4366,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2229
+          "combined_score": 0.2037
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.4186,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2521
+          "combined_score": 0.2096
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "Wright\u2019s American System-Built homes on Burnham Street or the Marian Shrine on N. 68th. You won\u2019t find directions to Barnacle Bud\u2019s",
+      "actual_text": "Wright’s American System-Built homes on Burnham Street or the Marian Shrine on N. 68th. You won’t find directions to Barnacle Bud’s",
       "normalized_activation": 8.55859661102295,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3024,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1706
+          "combined_score": 0.1471
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2979,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1806
+          "combined_score": 0.1497
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3538,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2015
+          "combined_score": 0.1728
         }
       ]
     },
@@ -105,9 +105,9 @@
           "prediction_rank": 1,
           "concept_score": 0.2026,
           "meaning_score": 0.8528,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4222
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8178
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3704,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2154
+          "combined_score": 0.1826
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.5757,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3317
+          "combined_score": 0.2827
         }
       ]
     },
@@ -136,9 +136,9 @@
           "prediction_rank": 1,
           "concept_score": 0.1989,
           "meaning_score": 0.8792,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4312
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8285
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5243,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2714
+          "combined_score": 0.2459
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5568,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2879
+          "combined_score": 0.2611
         }
       ]
     }

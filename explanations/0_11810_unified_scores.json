@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_11810",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of royalty, high-status celebrities, and political leaders with formal titles** (such as \"Duchess,\" \"Prince,\" \"Queen,\" \"President,\" or \"Prime Minister\") often within gossip, news, or biographical contexts.\n\n2. **Domain coverage**: The pattern appears primarily in English-language tabloid or news discourse about British royalty (e.g., \"Duchess of Cambridge,\" \"Prince William\"), global celebrities and musicians (e.g., \"Cher,\" \"Prince,\" \"Michael Jackson\u2019s son Prince\"), and political leaders (e.g., \"Putin,\" \"Crown Prince Mohammed bin Salman\"). It also activates for related terms like \"throne,\" \"royal,\" and \"heir,\" and extends to some non-English text when similar titles or names appear (e.g., Russian text mentioning \"\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain proper nouns coupled with honorifics or titles denoting elevated social rank, fame, or political power. The low-activation examples lack these; they include technical, financial, sports, or generic news snippets without reference to high-status individuals (e.g., \"Ballard Power Systems,\" \"horror games,\" \"Executive Council meeting\").\n\n4. **Closing interpretation**: The neuron detects semantic contexts involving socially or politically prominent figures, acting as a \"high-status person or title\" detector. It focuses on named entities framed by prestige, authority, or celebrity, rather than the individuals alone.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of royalty, high-status celebrities, and political leaders with formal titles** (such as \"Duchess,\" \"Prince,\" \"Queen,\" \"President,\" or \"Prime Minister\") often within gossip, news, or biographical contexts.\n\n2. **Domain coverage**: The pattern appears primarily in English-language tabloid or news discourse about British royalty (e.g., \"Duchess of Cambridge,\" \"Prince William\"), global celebrities and musicians (e.g., \"Cher,\" \"Prince,\" \"Michael Jackson’s son Prince\"), and political leaders (e.g., \"Putin,\" \"Crown Prince Mohammed bin Salman\"). It also activates for related terms like \"throne,\" \"royal,\" and \"heir,\" and extends to some non-English text when similar titles or names appear (e.g., Russian text mentioning \"президента\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain proper nouns coupled with honorifics or titles denoting elevated social rank, fame, or political power. The low-activation examples lack these; they include technical, financial, sports, or generic news snippets without reference to high-status individuals (e.g., \"Ballard Power Systems,\" \"horror games,\" \"Executive Council meeting\").\n\n4. **Closing interpretation**: The neuron detects semantic contexts involving socially or politically prominent figures, acting as a \"high-status person or title\" detector. It focuses on named entities framed by prestige, authority, or celebrity, rather than the individuals alone.",
   "results": [
     {
       "example_idx": 1,
@@ -10,42 +10,42 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.4558,
-          "meaning_score": 0.7506,
+          "concept_score": 0.4556,
+          "meaning_score": 0.7516,
           "overlap_fraction": 0.75,
-          "location_score": 0.15,
-          "combined_score": 0.6326
+          "location_score": 0.3187,
+          "combined_score": 0.7065
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2244,
-          "meaning_score": 0.4473,
+          "meaning_score": 0.4472,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2687
+          "combined_score": 0.2237
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.4359,
+          "concept_score": 0.4358,
           "meaning_score": 0.3952,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3325
+          "combined_score": 0.2333
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "at first seems to be the start of a joke: Three Frenchmen \u2014 a prince, a count, and a celebrity gynecologist \u2014 head to London in",
+      "actual_text": "at first seems to be the start of a joke: Three Frenchmen — a prince, a count, and a celebrity gynecologist — head to London in",
       "normalized_activation": 6.792790412902832,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.5415,
           "meaning_score": 0.8047,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.5385
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8482
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2895,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4436
+          "combined_score": 0.246
         },
         {
           "prediction_rank": 3,
@@ -61,38 +61,38 @@
           "meaning_score": 0.2836,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2019
+          "combined_score": 0.1537
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "announcement and poster signing event before the Pelicans vs. Mavericks at the Smoothie King Center last week. \u201cThe New Orleans Mardi Gras Indians are woven into",
+      "actual_text": "announcement and poster signing event before the Pelicans vs. Mavericks at the Smoothie King Center last week. “The New Orleans Mardi Gras Indians are woven into",
       "normalized_activation": 4.810898303985596,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1684,
+          "concept_score": 0.1686,
           "meaning_score": 0.3183,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1947
+          "combined_score": 0.1606
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1925,
-          "meaning_score": 0.6011,
+          "concept_score": 0.1927,
+          "meaning_score": 0.6008,
           "overlap_fraction": 0.6832,
-          "location_score": 0.1366,
-          "combined_score": 0.4541
+          "location_score": 0.2904,
+          "combined_score": 0.5746
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1632,
-          "meaning_score": 0.4843,
+          "meaning_score": 0.4837,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.259
+          "combined_score": 0.23
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.5915,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3056
+          "combined_score": 0.2772
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4173,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2364
+          "combined_score": 0.2034
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3418,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1923
+          "combined_score": 0.1661
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.3089,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1928
+          "combined_score": 0.1573
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3297,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1817
+          "combined_score": 0.1588
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3247,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2065
+          "combined_score": 0.1667
         }
       ]
     }

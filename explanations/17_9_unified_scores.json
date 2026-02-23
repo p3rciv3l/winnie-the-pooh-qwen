@@ -1,36 +1,36 @@
 {
   "neuron_id": "17_9",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing illegal acts, ethical violations, or scandals followed by formal consequences** (such as criminal charges, indictments, fraud allegations, corruption investigations, or lawsuits).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian) and diverse topics including corporate crime, political corruption, sports match-fixing, human rights abuses, and violent invasions. It activates within news-style reporting and formal accusations, where a specific transgression is explicitly linked to a legal, investigative, or punitive response (e.g., \"charged with,\" \"indicted for,\" \"investigated for,\" \"falsifying documents,\" \"stole,\" \"swindled\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a clear actor/entity committing a recognizable violation that triggers an institutional consequence. The low-activation examples lack this \"violation\u2192consequence\" framing; they are neutral announcements, general descriptions, or event reports (e.g., weather, inflation data, sports suspensions for policy violations without detail, routine operations) where no specific illicit act is being formally alleged or prosecuted.\n\n4. **Closing interpretation**: The neuron detects semantic frames of **accusation and formal culpability**, focusing on textual segments where societal or legal norms are explicitly breached and a punitive or investigative process is invoked. It acts less as a crime keyword detector and more as a marker for the narrative structure of alleged wrongdoing meeting institutional response.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing illegal acts, ethical violations, or scandals followed by formal consequences** (such as criminal charges, indictments, fraud allegations, corruption investigations, or lawsuits).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian) and diverse topics including corporate crime, political corruption, sports match-fixing, human rights abuses, and violent invasions. It activates within news-style reporting and formal accusations, where a specific transgression is explicitly linked to a legal, investigative, or punitive response (e.g., \"charged with,\" \"indicted for,\" \"investigated for,\" \"falsifying documents,\" \"stole,\" \"swindled\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a clear actor/entity committing a recognizable violation that triggers an institutional consequence. The low-activation examples lack this \"violation→consequence\" framing; they are neutral announcements, general descriptions, or event reports (e.g., weather, inflation data, sports suspensions for policy violations without detail, routine operations) where no specific illicit act is being formally alleged or prosecuted.\n\n4. **Closing interpretation**: The neuron detects semantic frames of **accusation and formal culpability**, focusing on textual segments where societal or legal norms are explicitly breached and a punitive or investigative process is invoked. It acts less as a crime keyword detector and more as a marker for the narrative structure of alleged wrongdoing meeting institutional response.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u00e9 l'int\u00e9gralit\u00e9 de sa r\u00e9mun\u00e9ration vers\u00e9e par Nissan entre 2010 et 2015 - ainsi que celle de Nissan",
+      "actual_text": "é l'intégralité de sa rémunération versée par Nissan entre 2010 et 2015 - ainsi que celle de Nissan",
       "normalized_activation": 9.28549575805664,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.102,
-          "meaning_score": 0.5493,
+          "meaning_score": 0.549,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4605
+          "location_score": 0.425,
+          "combined_score": 0.6736
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0969,
-          "meaning_score": 0.4247,
+          "meaning_score": 0.4249,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2086
+          "combined_score": 0.1951
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1172,
-          "meaning_score": 0.458,
+          "meaning_score": 0.4579,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2301
+          "combined_score": 0.2122
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3707,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1922
+          "combined_score": 0.174
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3367,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1911
+          "combined_score": 0.1643
         },
         {
           "prediction_rank": 3,
@@ -61,30 +61,30 @@
           "meaning_score": 0.3533,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.198
+          "combined_score": 0.1714
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": ". \u0648\u062a\u0642\u0648\u062f \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629 \u062a\u062d\u0627\u0644\u0641\u0627 \u0639\u0633\u0643\u0631\u064a\u0627 \u0639\u0631\u0628\u064a\u0627 \u0641\u064a \u0627\u0644\u064a\u0645\u0646 \u064a\u0646\u0641\u0630\u060c \u0645\u0646\u0630 26 \u0622\u0630\u0627\u0631/\u0645\u0627\u0631\u0633 2015",
+      "actual_text": ". وتقود السعودية تحالفا عسكريا عربيا في اليمن ينفذ، منذ 26 آذار/مارس 2015",
       "normalized_activation": 6.687641620635986,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1069,
+          "concept_score": 0.107,
           "meaning_score": 0.3065,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1654
+          "combined_score": 0.1463
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0851,
+          "concept_score": 0.0852,
           "meaning_score": 0.1107,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0783
+          "combined_score": 0.0598
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2779,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1578
+          "combined_score": 0.1356
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2194,
-          "meaning_score": 0.6967,
+          "concept_score": 0.2193,
+          "meaning_score": 0.6966,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5664
+          "location_score": 0.425,
+          "combined_score": 0.754
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2896,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1918
+          "combined_score": 0.1516
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3961,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2218
+          "combined_score": 0.1921
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Galatasaray'da Ryan Babel s\u00fcrprizi! S\u00fcper Lig'in",
+      "actual_text": "Galatasaray'da Ryan Babel sürprizi! Süper Lig'in",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.1565,
           "meaning_score": 0.7481,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5618
+          "location_score": 0.425,
+          "combined_score": 0.7664
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5434,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2838
+          "combined_score": 0.2559
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.342,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2002
+          "combined_score": 0.1691
         }
       ]
     }

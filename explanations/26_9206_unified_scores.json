@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_9206",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that include explicit references to media sources, platforms, or content attribution** (such as citations of news outlets, podcasts, social media handles, publication names, or legal/regulatory filings).\n\n2. **Domain coverage**: The pattern appears across news articles, corporate announcements, financial reports, and promotional content in multiple languages (English, Spanish, etc.). It specifically triggers on phrases naming sources (e.g., \"ABC News,\" \"Legit.ng,\" \"Reuters.com\"), platforms (\"VeVe Platform,\" \"Twitter.com,\" \"GraphQL\"), or formal citations (\"13F filing with the Securities and Exchange Commission\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain overt mentions of where information originates or is published. The low-activation examples are purely factual statements, event descriptions, or general discourse without any such referential framing\u2014they report news or information without citing a specific source, platform, or branded channel.\n\n4. **Closing interpretation**: This neuron detects textual markers of provenance and mediated distribution, acting as a filter for content that is explicitly framed as coming from a named outlet, service, or document. It likely helps the model distinguish between raw factual claims and attributions that situate information within a specific institutional or digital context.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that include explicit references to media sources, platforms, or content attribution** (such as citations of news outlets, podcasts, social media handles, publication names, or legal/regulatory filings).\n\n2. **Domain coverage**: The pattern appears across news articles, corporate announcements, financial reports, and promotional content in multiple languages (English, Spanish, etc.). It specifically triggers on phrases naming sources (e.g., \"ABC News,\" \"Legit.ng,\" \"Reuters.com\"), platforms (\"VeVe Platform,\" \"Twitter.com,\" \"GraphQL\"), or formal citations (\"13F filing with the Securities and Exchange Commission\").\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain overt mentions of where information originates or is published. The low-activation examples are purely factual statements, event descriptions, or general discourse without any such referential framing—they report news or information without citing a specific source, platform, or branded channel.\n\n4. **Closing interpretation**: This neuron detects textual markers of provenance and mediated distribution, acting as a filter for content that is explicitly framed as coming from a named outlet, service, or document. It likely helps the model distinguish between raw factual claims and attributions that situate information within a specific institutional or digital context.",
   "results": [
     {
       "example_idx": 1,
@@ -10,33 +10,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1208,
-          "meaning_score": 0.2811,
+          "concept_score": 0.1207,
+          "meaning_score": 0.281,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1607
+          "combined_score": 0.1375
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1686,
-          "meaning_score": 0.1887,
+          "meaning_score": 0.1885,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1429
+          "combined_score": 0.1054
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1685,
-          "meaning_score": 0.3798,
+          "concept_score": 0.1684,
+          "meaning_score": 0.38,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2193
+          "combined_score": 0.1868
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "limitado se comparado aos combust\u00edveis f\u00f3sseis.https://p.dw.com/p/4LpeRAn\u00fancioCom cerca de 6",
+      "actual_text": "limitado se comparado aos combustíveis fósseis.https://p.dw.com/p/4LpeRAnúncioCom cerca de 6",
       "normalized_activation": 8.037623405456543,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.169,
           "meaning_score": 0.4649,
           "overlap_fraction": 0.8478,
-          "location_score": 0.1696,
-          "combined_score": 0.4231
+          "location_score": 0.3603,
+          "combined_score": 0.5833
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4112,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2457
+          "combined_score": 0.2052
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.4425,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2811
+          "combined_score": 0.2271
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.7153,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3436
+          "combined_score": 0.3256
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5858,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2722
+          "combined_score": 0.2632
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4537,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2454
+          "combined_score": 0.2168
         }
       ]
     },
@@ -103,42 +103,42 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1959,
-          "meaning_score": 0.5673,
+          "concept_score": 0.196,
+          "meaning_score": 0.5665,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3053
+          "combined_score": 0.2702
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.19,
-          "meaning_score": 0.6889,
+          "concept_score": 0.1899,
+          "meaning_score": 0.6874,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3516
+          "combined_score": 0.3207
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1866,
-          "meaning_score": 0.5777,
+          "concept_score": 0.1867,
+          "meaning_score": 0.5769,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3057
+          "combined_score": 0.2732
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "\u0d31\u0d4b\u0d38\u0d1a\u0d4d\u0d1a\u0d46\u0d1f\u0d3f \u0d28\u0d3f",
+      "actual_text": "റോസച്ചെടി നി",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.27,
           "meaning_score": 0.4051,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2701
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6377
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3529,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2036
+          "combined_score": 0.1734
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.2606,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1859
+          "combined_score": 0.1414
         }
       ]
     }

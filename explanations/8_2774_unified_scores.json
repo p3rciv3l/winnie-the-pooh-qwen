@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_2774",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **attributed speech, discourse, or cited statements** (such as direct quotes introduced by speakers like \"says Joe Mathews,\" clauses following verbs like \"argue\" or \"explain,\" or text framed as reported speech from officials, groups, or media).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, German, Spanish) and diverse topics\u2014including politics, environmental issues, entertainment, and social protests. It activates on text that explicitly frames information as coming from a specific source (person, group, institution, or media outlet), often signaled by quotation marks, reporting verbs, or references like \"according to.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily straightforward factual reports, headlines, event descriptions, or simple statements without attribution or embedded discourse. They lack the layer of someone speaking, arguing, or being cited. The neuron\u2019s high activation requires the presence of a \"voice\" being presented or referenced within the text.\n\n4. **Closing interpretation**: This neuron detects linguistic structures that introduce or frame attributed discourse, acting as a sensor for when text shifts from direct narration to reporting the statements or perspectives of another entity. It highlights the meta-layer of communication where sources are invoked.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **attributed speech, discourse, or cited statements** (such as direct quotes introduced by speakers like \"says Joe Mathews,\" clauses following verbs like \"argue\" or \"explain,\" or text framed as reported speech from officials, groups, or media).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, German, Spanish) and diverse topics—including politics, environmental issues, entertainment, and social protests. It activates on text that explicitly frames information as coming from a specific source (person, group, institution, or media outlet), often signaled by quotation marks, reporting verbs, or references like \"according to.\"\n\n3. **Contrast with low-activation examples**: The low-activation texts are primarily straightforward factual reports, headlines, event descriptions, or simple statements without attribution or embedded discourse. They lack the layer of someone speaking, arguing, or being cited. The neuron’s high activation requires the presence of a \"voice\" being presented or referenced within the text.\n\n4. **Closing interpretation**: This neuron detects linguistic structures that introduce or frame attributed discourse, acting as a sensor for when text shifts from direct narration to reporting the statements or perspectives of another entity. It highlights the meta-layer of communication where sources are invoked.",
   "results": [
     {
       "example_idx": 1,
@@ -10,64 +10,64 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1874,
+          "concept_score": 0.1873,
           "meaning_score": 0.263,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1802
+          "combined_score": 0.1399
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2022,
-          "meaning_score": 0.3303,
+          "meaning_score": 0.3314,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.213
+          "combined_score": 0.1712
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2052,
-          "meaning_score": 0.6885,
+          "concept_score": 0.2051,
+          "meaning_score": 0.6884,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3575
+          "combined_score": 0.3233
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": ". On May 29, he crassly tweeted, \u201cWhen the looting starts, the shooting starts,\u201d a phrase used by a white police commissioner in",
+      "actual_text": ". On May 29, he crassly tweeted, “When the looting starts, the shooting starts,” a phrase used by a white police commissioner in",
       "normalized_activation": 8.376509666442871,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.193,
-          "meaning_score": 0.8875,
+          "concept_score": 0.1928,
+          "meaning_score": 0.8876,
           "overlap_fraction": 0.9844,
-          "location_score": 0.1969,
-          "combined_score": 0.629
+          "location_score": 0.4184,
+          "combined_score": 0.8245
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1191,
-          "meaning_score": 0.1795,
+          "concept_score": 0.1189,
+          "meaning_score": 0.1796,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1194
+          "combined_score": 0.0941
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2851,
-          "meaning_score": 0.268,
+          "concept_score": 0.285,
+          "meaning_score": 0.2679,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2212
+          "combined_score": 0.1566
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u0421\u043e\u0432\u0435\u0442\u0430 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0431\u044e\u0434\u0436\u0435\u0442\u0443 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u043c \u0440\u044b\u043d\u043a\u0430\u043c \u0421\u0435\u0440\u0433\u0435\u044e \u0420\u044f\u0431\u0443\u0445\u0438\u043d\u0443 \u043e\u0442 8 \u0434\u0435\u043a\u0430\u0431\u0440\u044f 2016 \u0433\u043e\u0434\u0430 (\u0435\u0441\u0442\u044c \u0432",
+      "actual_text": "Совета Федерации по бюджету и финансовым рынкам Сергею Рябухину от 8 декабря 2016 года (есть в",
       "normalized_activation": 7.355352401733398,
       "pairs": [
         {
@@ -76,15 +76,15 @@
           "meaning_score": 0.2565,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1525
+          "combined_score": 0.1277
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2018,
           "meaning_score": 0.3768,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4315
+          "location_score": 0.425,
+          "combined_score": 0.6154
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2707,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1813
+          "combined_score": 0.1424
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.5685,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3048
+          "combined_score": 0.2707
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.6355,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3198
+          "combined_score": 0.2947
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.6199,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3568
+          "combined_score": 0.3043
         }
       ]
     },
@@ -135,26 +135,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.153,
-          "meaning_score": 0.3616,
+          "meaning_score": 0.3615,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2058
+          "combined_score": 0.1766
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.133,
-          "meaning_score": 0.3651,
+          "meaning_score": 0.3654,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1992
+          "combined_score": 0.1752
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.133,
-          "meaning_score": 0.2742,
+          "meaning_score": 0.274,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1629
+          "combined_score": 0.1364
         }
       ]
     }

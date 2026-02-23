@@ -1,11 +1,11 @@
 {
   "neuron_id": "17_7137",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that contain formal organizational names, abbreviations, institutional credits, or structured metadata** (such as government agencies, news desk credits, timestamped datelines, collaborative partnerships, or legal/policy references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Arabic, Dutch) and domains including news reporting, government announcements, academic or NGO collaborations, financial/regulatory updates, and cultural event credits. It detects text that frames information within an official, institutional, or published context\u2014often featuring combinations of capitalized entities, acronyms, dates, source attributions, or formal project descriptors.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently include explicit references to organizations, agencies, publications, or structured metadata (e.g., \u201cPTI | New Delhi | Updated:\u2026\u201d, \u201cUNGC), the Office of\u2026\u201d, \u201cMunicipalidad de Lima\u201d, \u201cIPC Sections 153A\u201d). Low-activation examples lack this dense institutional framing; they are often simpler headlines, basic statements, or narrative phrases without embedded credits, formal titles, or bureaucratic detail.\n\n4. **Closing interpretation**: The neuron appears to specialize in recognizing textual scaffolding that signals institutional authority, collaborative provenance, or published sourcing. It activates on segments where information is anchored to named entities and formal structures rather than on standalone factual or narrative content.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that contain formal organizational names, abbreviations, institutional credits, or structured metadata** (such as government agencies, news desk credits, timestamped datelines, collaborative partnerships, or legal/policy references).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Arabic, Dutch) and domains including news reporting, government announcements, academic or NGO collaborations, financial/regulatory updates, and cultural event credits. It detects text that frames information within an official, institutional, or published context—often featuring combinations of capitalized entities, acronyms, dates, source attributions, or formal project descriptors.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently include explicit references to organizations, agencies, publications, or structured metadata (e.g., “PTI | New Delhi | Updated:…”, “UNGC), the Office of…”, “Municipalidad de Lima”, “IPC Sections 153A”). Low-activation examples lack this dense institutional framing; they are often simpler headlines, basic statements, or narrative phrases without embedded credits, formal titles, or bureaucratic detail.\n\n4. **Closing interpretation**: The neuron appears to specialize in recognizing textual scaffolding that signals institutional authority, collaborative provenance, or published sourcing. It activates on segments where information is anchored to named entities and formal structures rather than on standalone factual or narrative content.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u0161eho schopny chr\u00e1nit p\u0159ed v\u0161emi mutacemi koronaviru. Na dne\u0161n\u00ed tiskov\u00e9 kon",
+      "actual_text": "šeho schopny chránit před všemi mutacemi koronaviru. Na dnešní tiskové kon",
       "normalized_activation": 9.590264320373535,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.4906,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2657
+          "combined_score": 0.2346
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2477,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1665
+          "combined_score": 0.1306
         },
         {
           "prediction_rank": 3,
@@ -30,22 +30,22 @@
           "meaning_score": 0.2481,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1712
+          "combined_score": 0.1324
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "Holdings Corp. and Estre Ambiental Inc.\u2019s return on assets, return on equity and net margins. Liquidity The Current Ratio and Quick Ratio of",
+      "actual_text": "Holdings Corp. and Estre Ambiental Inc.’s return on assets, return on equity and net margins. Liquidity The Current Ratio and Quick Ratio of",
       "normalized_activation": 8.79333209991455,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1916,
-          "meaning_score": 0.4626,
+          "meaning_score": 0.4625,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2616
+          "combined_score": 0.2253
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.5678,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2824
+          "combined_score": 0.262
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.5057,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2639
+          "combined_score": 0.238
         }
       ]
     },
@@ -73,26 +73,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.4439,
-          "meaning_score": 0.6264,
+          "meaning_score": 0.6263,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4281
+          "combined_score": 0.3328
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2655,
+          "concept_score": 0.266,
           "meaning_score": 0.6646,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.372
+          "combined_score": 0.3223
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2952,
-          "meaning_score": 0.41,
+          "concept_score": 0.2953,
+          "meaning_score": 0.4087,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2821
+          "combined_score": 0.218
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1144,
           "meaning_score": 0.564,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4713
+          "location_score": 0.425,
+          "combined_score": 0.6819
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3613,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.191
+          "combined_score": 0.171
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3022,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1679
+          "combined_score": 0.1461
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1105,
-          "meaning_score": 0.3436,
+          "concept_score": 0.1104,
+          "meaning_score": 0.3434,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.3816
+          "location_score": 0.425,
+          "combined_score": 0.5875
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1766,
-          "meaning_score": 0.103,
+          "meaning_score": 0.1054,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1118
+          "combined_score": 0.0713
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1212,
-          "meaning_score": 0.2927,
+          "meaning_score": 0.2928,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1656
+          "combined_score": 0.1426
         }
       ]
     }

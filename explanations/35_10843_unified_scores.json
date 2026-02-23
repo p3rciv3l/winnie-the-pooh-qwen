@@ -1,20 +1,20 @@
 {
   "neuron_id": "35_10843",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing abrupt language switches or non-English passages** (such as Swedish news with English terms, Spanish tweets with code-mixing, or Russian headlines embedded in English contexts).\n\n2. **Domain coverage**: The pattern appears across diverse domains\u2014news snippets, social media quotes, technical descriptions, and advertisements\u2014in languages including Swedish, Spanish, Dutch, Kazakh, German, Italian, Portuguese, Polish, Russian, and Estonian. High activations often occur when a sentence begins in one language and incorporates another, or when proper nouns (brands, places, names) from one language appear within a different linguistic context.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost entirely monolingual English, typically coherent news headlines or descriptive sentences without embedded foreign phrases. High-activation examples consistently feature language mixing or non-English fragments, whereas low-activation examples maintain a single-language flow even when discussing international topics (e.g., \"Grecia, terremoto...\" activates at 0.00 because it remains fully Italian, but appears truncated).\n\n4. **Closing interpretation**: The neuron likely detects linguistic boundary signals\u2014specifically, the presence of multiple languages within a short text span\u2014which may serve as a cue for parsing or encoding multilingual content in the model. It acts less as a semantic topic detector and more as a marker of code-switching or foreign-language insertion.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing abrupt language switches or non-English passages** (such as Swedish news with English terms, Spanish tweets with code-mixing, or Russian headlines embedded in English contexts).\n\n2. **Domain coverage**: The pattern appears across diverse domains—news snippets, social media quotes, technical descriptions, and advertisements—in languages including Swedish, Spanish, Dutch, Kazakh, German, Italian, Portuguese, Polish, Russian, and Estonian. High activations often occur when a sentence begins in one language and incorporates another, or when proper nouns (brands, places, names) from one language appear within a different linguistic context.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost entirely monolingual English, typically coherent news headlines or descriptive sentences without embedded foreign phrases. High-activation examples consistently feature language mixing or non-English fragments, whereas low-activation examples maintain a single-language flow even when discussing international topics (e.g., \"Grecia, terremoto...\" activates at 0.00 because it remains fully Italian, but appears truncated).\n\n4. **Closing interpretation**: The neuron likely detects linguistic boundary signals—specifically, the presence of multiple languages within a short text span—which may serve as a cue for parsing or encoding multilingual content in the model. It acts less as a semantic topic detector and more as a marker of code-switching or foreign-language insertion.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "constelaciones, planetas y estaremos en posibilidad de observar la lluvia de estrellas fugaces Gem\u00ednidas, visibles desde el",
+      "actual_text": "constelaciones, planetas y estaremos en posibilidad de observar la lluvia de estrellas fugaces Gemínidas, visibles desde el",
       "normalized_activation": 9.586418151855469,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2618,
+          "concept_score": 0.2616,
           "meaning_score": 0.4116,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2693
+          "combined_score": 0.2142
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5241,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2935
+          "combined_score": 0.2542
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.15,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1654
+          "combined_score": 0.1033
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "avan\u00e7os territoriais de ambos os lados em trincheiras enlameadas: congelada. Sem perspectiva de um acordo de paz",
+      "actual_text": "avanços territoriais de ambos os lados em trincheiras enlameadas: congelada. Sem perspectiva de um acordo de paz",
       "normalized_activation": 8.83021354675293,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.2504,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1813
+          "combined_score": 0.1368
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3479,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2005
+          "combined_score": 0.1709
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.4604,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2418
+          "combined_score": 0.2173
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "pickpockets sont en effet particuli\u00e8rement actifs et bien organis\u00e9s. Ils op\u00e8rent g\u00e9n\u00e9ralement en groupe et ne sont pas n\u00e9cessairement des adultes : il",
+      "actual_text": "pickpockets sont en effet particulièrement actifs et bien organisés. Ils opèrent généralement en groupe et ne sont pas nécessairement des adultes : il",
       "normalized_activation": 7.927922248840332,
       "pairs": [
         {
@@ -75,8 +75,8 @@
           "concept_score": 0.2364,
           "meaning_score": 0.7648,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6005
+          "location_score": 0.425,
+          "combined_score": 0.7855
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3189,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2135
+          "combined_score": 0.1678
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2944,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2037
+          "combined_score": 0.1573
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1733,
           "meaning_score": 0.7006,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5496
+          "location_score": 0.425,
+          "combined_score": 0.7488
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3165,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1851
+          "combined_score": 0.1565
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3234,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1968
+          "combined_score": 0.1627
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.4494,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2397
+          "combined_score": 0.2135
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2787,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1808
+          "combined_score": 0.1444
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.6603,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3487
+          "combined_score": 0.3123
         }
       ]
     }

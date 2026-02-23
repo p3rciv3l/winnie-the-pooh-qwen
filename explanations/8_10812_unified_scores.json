@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_10812",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style datelines** \u2014 specifically, text segments that begin with a location name in all caps, followed by a parenthetical news agency abbreviation (such as \"TOKYO (AP)\", \"BEIJING (AP)\", or \"TUNIS, Tunisia (AP)\") \u2014 and also to text that mimics this formal, reportorial opening structure in other languages.\n\n2. **Domain coverage**: The pattern appears in international news dispatches across multiple languages (English, Spanish, Arabic, Italian, Polish, etc.) and topics (politics, disasters, sports, business, science). It detects the journalistic convention of starting a report with a place and source identifier. The neuron also activates, though sometimes slightly less strongly, for similar structured openings without parentheses (e.g., \"SHANGHAI, June 25\") or for text that immediately follows such a dateline.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a formal dateline entirely, place the location in lowercase or mid-sentence, use different punctuation (e.g., \"MADRID, 22 (EUROPA PRESS)\" uses a comma before the number, breaking the pattern), or are from non-news genres (e.g., promotional content, opinion, social media snippets). The key distinguishing feature is the **all-caps location directly followed by a parenthetical agency or a comma and date**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic and stylistic pattern at the beginning of text segments: the standardized header of a news report. It functions as a \"news dateline detector,\" highly sensitive to the formatting cue that signals a dispatch from a wire service or formal news organization.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style datelines** — specifically, text segments that begin with a location name in all caps, followed by a parenthetical news agency abbreviation (such as \"TOKYO (AP)\", \"BEIJING (AP)\", or \"TUNIS, Tunisia (AP)\") — and also to text that mimics this formal, reportorial opening structure in other languages.\n\n2. **Domain coverage**: The pattern appears in international news dispatches across multiple languages (English, Spanish, Arabic, Italian, Polish, etc.) and topics (politics, disasters, sports, business, science). It detects the journalistic convention of starting a report with a place and source identifier. The neuron also activates, though sometimes slightly less strongly, for similar structured openings without parentheses (e.g., \"SHANGHAI, June 25\") or for text that immediately follows such a dateline.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a formal dateline entirely, place the location in lowercase or mid-sentence, use different punctuation (e.g., \"MADRID, 22 (EUROPA PRESS)\" uses a comma before the number, breaking the pattern), or are from non-news genres (e.g., promotional content, opinion, social media snippets). The key distinguishing feature is the **all-caps location directly followed by a parenthetical agency or a comma and date**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic and stylistic pattern at the beginning of text segments: the standardized header of a news report. It functions as a \"news dateline detector,\" highly sensitive to the formatting cue that signals a dispatch from a wire service or formal news organization.",
   "results": [
     {
       "example_idx": 1,
@@ -12,9 +12,9 @@
           "prediction_rank": 1,
           "concept_score": 0.2561,
           "meaning_score": 0.9506,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4827
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8674
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.7342,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3845
+          "combined_score": 0.3461
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.5512,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3305
+          "combined_score": 0.2755
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.2947,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1694
+          "combined_score": 0.1446
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.5766,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2726
+          "combined_score": 0.2608
         },
         {
           "prediction_rank": 3,
@@ -61,22 +61,22 @@
           "meaning_score": 0.7136,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3366
+          "combined_score": 0.3225
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "Officials: Missing Pakistani peace activist returns home LAHORE, Pakistan (AP) \u2014 Pakistani officials say a peace activist who mysteriously went missing in December has returned",
+      "actual_text": "Officials: Missing Pakistani peace activist returns home LAHORE, Pakistan (AP) — Pakistani officials say a peace activist who mysteriously went missing in December has returned",
       "normalized_activation": 7.553070545196533,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.2202,
           "meaning_score": 0.9281,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4593
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8525
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5582,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3264
+          "combined_score": 0.2759
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4253,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2602
+          "combined_score": 0.2145
         }
       ]
     },
@@ -105,9 +105,9 @@
           "prediction_rank": 1,
           "concept_score": 0.2385,
           "meaning_score": 0.8063,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4179
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8035
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2685,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1754
+          "combined_score": 0.1396
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.2602,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2051
+          "combined_score": 0.1485
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Drsn\u00fd viano\u010dn\u00fd dar\u010dek: Firma slovens",
+      "actual_text": "Drsný vianočný darček: Firma slovens",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.2819,
           "meaning_score": 0.648,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.572
+          "location_score": 0.425,
+          "combined_score": 0.7427
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3781,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2282
+          "combined_score": 0.1896
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3484,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2073
+          "combined_score": 0.1735
         }
       ]
     }

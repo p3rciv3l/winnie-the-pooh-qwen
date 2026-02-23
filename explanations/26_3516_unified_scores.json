@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_3516",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities within formal or journalistic reporting contexts** (such as references to people like *Jeff Sessions* or *Jeff Driskel*, company/financial updates like *FTSEurofirst 300*, or multilingual news snippets containing names and specific details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, Vietnamese, Russian, etc.) and topics\u2014including legal cases, financial markets, sports, politics, and entertainment news. It activates most strongly on text segments that resemble news agency dispatches, stock tickers, or structured reports containing named individuals, organizations, or locations alongside contextual details (dates, titles, numerical data).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense proper nouns and specific entities embedded in informational prose, while low-activation examples are more generic news headlines or descriptive passages without prominent named entities (e.g., *\u201cA 7.3-magnitude quake hit southern Qinghai\u201d* lacks the specific person/organization focus). Even when low-activation examples mention names (e.g., *Javon Hargrave*), they appear in simpler, less contextually dense sentences.\n\n4. **Closing interpretation**: The neuron detects formal, entity-rich text segments characteristic of news wires or structured reporting, with a particular sensitivity to multilingual proper nouns and referential details. It appears to act as a \u201cnamed-entity-in-context\u201d detector, firing when textual snippets pack specific names alongside associated factual information.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities within formal or journalistic reporting contexts** (such as references to people like *Jeff Sessions* or *Jeff Driskel*, company/financial updates like *FTSEurofirst 300*, or multilingual news snippets containing names and specific details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Arabic, Vietnamese, Russian, etc.) and topics—including legal cases, financial markets, sports, politics, and entertainment news. It activates most strongly on text segments that resemble news agency dispatches, stock tickers, or structured reports containing named individuals, organizations, or locations alongside contextual details (dates, titles, numerical data).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense proper nouns and specific entities embedded in informational prose, while low-activation examples are more generic news headlines or descriptive passages without prominent named entities (e.g., *“A 7.3-magnitude quake hit southern Qinghai”* lacks the specific person/organization focus). Even when low-activation examples mention names (e.g., *Javon Hargrave*), they appear in simpler, less contextually dense sentences.\n\n4. **Closing interpretation**: The neuron detects formal, entity-rich text segments characteristic of news wires or structured reporting, with a particular sensitivity to multilingual proper nouns and referential details. It appears to act as a “named-entity-in-context” detector, firing when textual snippets pack specific names alongside associated factual information.",
   "results": [
     {
       "example_idx": 1,
@@ -10,33 +10,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0978,
-          "meaning_score": 0.5518,
+          "concept_score": 0.0966,
+          "meaning_score": 0.5519,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2599
+          "combined_score": 0.2491
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0908,
-          "meaning_score": 0.82,
+          "concept_score": 0.0871,
+          "meaning_score": 0.8202,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5643
+          "location_score": 0.425,
+          "combined_score": 0.7866
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1398,
-          "meaning_score": 0.5629,
+          "concept_score": 0.1374,
+          "meaning_score": 0.5627,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2811
+          "combined_score": 0.2597
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "\u0639\u0634\u0631\u0627\u062a \u0627\u0644\u0634\u0647\u062f\u0627\u0621 \u0648\u0627\u0644\u062c\u0631\u062d\u0649\u060c \u0648\u0633\u0637 \u0643\u0627\u0631\u062b\u0629 \u0625\u0646\u0633\u0627\u0646\u064a\u0629 \u0645\u062a\u0641\u0627\u0642\u0645\u0629. \u0648\u0627\u0633\u062a\u0634\u0647\u062f \u0639\u0634\u0631\u0627\u062a \u0627\u0644\u0645\u0648\u0627\u0637\u0646\u064a\u0646\u060c \u0648\u0623\u0635\u064a\u0628",
+      "actual_text": "عشرات الشهداء والجرحى، وسط كارثة إنسانية متفاقمة. واستشهد عشرات المواطنين، وأصيب",
       "normalized_activation": 7.84355354309082,
       "pairs": [
         {
@@ -45,15 +45,15 @@
           "meaning_score": 0.3888,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2099
+          "combined_score": 0.1856
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1361,
           "meaning_score": 0.518,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.2616
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.6655
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.3122,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1906
+          "combined_score": 0.1573
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.4398,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2247
+          "combined_score": 0.2052
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5903,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2978
+          "combined_score": 0.274
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.5552,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2857
+          "combined_score": 0.2598
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.2141,
           "meaning_score": 0.6653,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5518
+          "location_score": 0.425,
+          "combined_score": 0.7399
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.444,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2578
+          "combined_score": 0.2188
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4659,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2854
+          "combined_score": 0.2351
         }
       ]
     },
@@ -138,15 +138,15 @@
           "meaning_score": 0.4821,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2505
+          "combined_score": 0.2265
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1729,
-          "meaning_score": 0.6978,
+          "meaning_score": 0.6977,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5483
+          "location_score": 0.425,
+          "combined_score": 0.7475
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4322,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2247
+          "combined_score": 0.2031
         }
       ]
     }

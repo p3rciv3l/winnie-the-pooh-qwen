@@ -1,35 +1,35 @@
 {
   "neuron_id": "0_7032",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "This neuron strongly responds to text segments containing **dense named entities and specific proper nouns** (such as person names, organizations, locations, technical terms, or legislation titles) often within a news or factual reporting context.\n\n**Domain coverage**: The pattern appears across multiple languages (Turkish, English, Slovak, Romanian, Hungarian, Polish, Italian, etc.) and diverse topics including legal proceedings, political events, technological developments, public health, and local news reports. The common thread is a high concentration of specific, concrete references rather than general statements.\n\n**Contrast with low-activation examples**: The low-activation texts are more generic, descriptive, or introductory\u2014often stating broad facts, simple actions, or general concepts without listing multiple specific entities. For example, they discuss \"a wide range of diseases\" or \"an artist's rendition\" without introducing the detailed proper nouns seen in the high-activation group.\n\n**Closing interpretation**: The neuron likely detects passages with high informational density and referential specificity, acting as a signal for text that is enumerating facts, reporting events, or detailing scenarios rich in named real-world entities.",
+  "explanation_used": "This neuron strongly responds to text segments containing **dense named entities and specific proper nouns** (such as person names, organizations, locations, technical terms, or legislation titles) often within a news or factual reporting context.\n\n**Domain coverage**: The pattern appears across multiple languages (Turkish, English, Slovak, Romanian, Hungarian, Polish, Italian, etc.) and diverse topics including legal proceedings, political events, technological developments, public health, and local news reports. The common thread is a high concentration of specific, concrete references rather than general statements.\n\n**Contrast with low-activation examples**: The low-activation texts are more generic, descriptive, or introductory—often stating broad facts, simple actions, or general concepts without listing multiple specific entities. For example, they discuss \"a wide range of diseases\" or \"an artist's rendition\" without introducing the detailed proper nouns seen in the high-activation group.\n\n**Closing interpretation**: The neuron likely detects passages with high informational density and referential specificity, acting as a signal for text that is enumerating facts, reporting events, or detailing scenarios rich in named real-world entities.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u00fchimmat ve ya\u015fam malzemesi ele ge\u00e7irildi \u0130lgili Galeriler",
+      "actual_text": "ühimmat ve yaşam malzemesi ele geçirildi İlgili Galeriler",
       "normalized_activation": 9.32014274597168,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": ", 12 ezer \u00e1ll\u00e1skeres\u0151t tartottak nyilv\u00e1n 2023. j\u00fanius v\u00e9g\u00e9n J",
+      "actual_text": ", 12 ezer álláskeresőt tartottak nyilván 2023. június végén J",
       "normalized_activation": 8.075133323669434,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "ci PIE w komentarzu przes\u0142anym PAP zwr\u00f3cili uwag\u0119, \u017ce z sankcji na\u0142o\u017conych na sektor finans",
+      "actual_text": "ci PIE w komentarzu przesłanym PAP zwrócili uwagę, że z sankcji nałożonych na sektor finans",
       "normalized_activation": 6.757767677307129,
       "pairs": []
     },
     {
       "example_idx": 4,
-      "actual_text": "those proliferating the discriminatory statement plausible deniability \u2014 to say that they\u2019re being attacked by the leftist media because they\u2019re white, or to equate their manufactured victim",
+      "actual_text": "those proliferating the discriminatory statement plausible deniability — to say that they’re being attacked by the leftist media because they’re white, or to equate their manufactured victim",
       "normalized_activation": 0.8255671262741089,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "trying to sexually exploit children. The Montgomery County men were caught in \u201cOperation Safe Holiday,\u201d a police investigation that spanned from October to December. Undercover cops posing",
+      "actual_text": "trying to sexually exploit children. The Montgomery County men were caught in “Operation Safe Holiday,” a police investigation that spanned from October to December. Undercover cops posing",
       "normalized_activation": 0.7959620356559753,
       "pairs": []
     }

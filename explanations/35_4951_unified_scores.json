@@ -1,28 +1,28 @@
 {
   "neuron_id": "35_4951",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns or specific named entities in close proximity** (such as person names with titles, geographic locations with administrative divisions, event names with cultural terms, or organizations with descriptive details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Polish, Romanian, Spanish, Portuguese, Turkish, Arabic, Czech, etc.) and diverse topics\u2014including legal cases (\"Trump\u2019s legal team\"), cultural/religious figures (\"pai de santo,\" \"Muthiah Bhagavatar\"), geopolitical incidents (\"Karachi in Sindh province\"), localized events (\"66th Sawai Gandharva Bhimsen Mahotsav\"), and specific products or places with modifiers (\"badem fidesi,\" \"term\u00e1lnou vodou z pravek\u00e9ho oce\u00e1nu Tethys\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally generic statements about topics (e.g., \"Marine pollution,\" \"telecommunications industry,\" \"Jal Jeevan Mission\") without dense clusters of specific named entities. They may mention a single place or concept but lack the concatenation of multiple proper nouns or richly modified specific references seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron detects passages where world knowledge or contextual understanding is required to process a concentration of specific real-world references. It appears to act as a \"named-entity density\" sensor, firing most strongly when text moves beyond general descriptions into detailed, entity-rich narration.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing multiple proper nouns or specific named entities in close proximity** (such as person names with titles, geographic locations with administrative divisions, event names with cultural terms, or organizations with descriptive details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Polish, Romanian, Spanish, Portuguese, Turkish, Arabic, Czech, etc.) and diverse topics—including legal cases (\"Trump’s legal team\"), cultural/religious figures (\"pai de santo,\" \"Muthiah Bhagavatar\"), geopolitical incidents (\"Karachi in Sindh province\"), localized events (\"66th Sawai Gandharva Bhimsen Mahotsav\"), and specific products or places with modifiers (\"badem fidesi,\" \"termálnou vodou z pravekého oceánu Tethys\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally generic statements about topics (e.g., \"Marine pollution,\" \"telecommunications industry,\" \"Jal Jeevan Mission\") without dense clusters of specific named entities. They may mention a single place or concept but lack the concatenation of multiple proper nouns or richly modified specific references seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron detects passages where world knowledge or contextual understanding is required to process a concentration of specific real-world references. It appears to act as a \"named-entity density\" sensor, firing most strongly when text moves beyond general descriptions into detailed, entity-rich narration.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u00fclkeleri ba\u015fta olmak \u00fczere d\u00fcnyan\u0131n bir\u00e7ok \u00fclkesine g\u0131da \u00fcr\u00fcnleri ihra\u00e7 etmektedir. \u00dclkemizin iki g\u00fczide",
+      "actual_text": "ülkeleri başta olmak üzere dünyanın birçok ülkesine gıda ürünleri ihraç etmektedir. Ülkemizin iki güzide",
       "normalized_activation": 9.631003379821777,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2697,
+          "concept_score": 0.2696,
           "meaning_score": 0.3516,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2485
+          "combined_score": 0.1899
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2312,
           "meaning_score": 0.3134,
           "overlap_fraction": 0.1923,
-          "location_score": 0.0385,
-          "combined_score": 0.2563
+          "location_score": 0.0817,
+          "combined_score": 0.2496
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.2836,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1901
+          "combined_score": 0.1493
         }
       ]
     },
@@ -45,15 +45,15 @@
           "meaning_score": 0.3026,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.207
+          "combined_score": 0.1608
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1048,
           "meaning_score": 0.7213,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5304
+          "location_score": 0.425,
+          "combined_score": 0.7473
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3058,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1826
+          "combined_score": 0.1526
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u0643\u0634\u0641 \u0639\u0627\u0644\u0645 \u0627\u0644\u0632\u0644\u0627\u0632\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062f\u064a \u0641\u0631\u0627\u0646\u0643 \u0647\u0648\u063a\u0631\u0628\u064a\u062a\u0633 \u0641\u064a \u0641\u064a\u062f\u064a\u0648 \u0645\u062b\u064a\u0631 \u0644\u0644\u0628\u0644\u0628\u0644\u0629 \u0639\u0646",
+      "actual_text": "كشف عالم الزلازل الهولندي فرانك هوغربيتس في فيديو مثير للبلبلة عن",
       "normalized_activation": 8.169323921203613,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.1191,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0967
+          "combined_score": 0.069
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.1779,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1054
+          "combined_score": 0.0885
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.432,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2277
+          "combined_score": 0.2042
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "T\u00fanez, 1 nov (EFE).- Al menos dos polic\u00edas",
+      "actual_text": "Túnez, 1 nov (EFE).- Al menos dos policías",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.1857,
           "meaning_score": 0.7227,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5634
+          "location_score": 0.425,
+          "combined_score": 0.76
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.5673,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2643
+          "combined_score": 0.2551
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.3904,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2022
+          "combined_score": 0.1832
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.0994,
+          "concept_score": 0.0995,
           "meaning_score": 0.3926,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1968
+          "combined_score": 0.1818
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1609,
-          "meaning_score": 0.3088,
+          "meaning_score": 0.3089,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1879
+          "combined_score": 0.1554
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1131,
-          "meaning_score": 0.4874,
+          "meaning_score": 0.4876,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4402
+          "location_score": 0.425,
+          "combined_score": 0.6492
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_9149",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin script characters or script-mixing** (such as Polish with Latin diacritics, Devanagari script, Cyrillic script, Greek script, or Bengali script), especially when these appear adjacent to or embedded within English or other Latin-script text.\n\n2. **Domain coverage**: The pattern appears across multilingual news, technical descriptions, political commentary, and social media text spanning numerous languages (Polish, Hindi, Italian, Russian, Greek, German, Bengali, Telugu, Vietnamese, Spanish, etc.). The context is often formal or informational\u2014government statements, technical specifications, event reports, or quoted speech\u2014where a primary Latin-script sentence incorporates foreign names, phrases, or quotations in a different script.\n\n3. **Contrast with low-activation examples**: The low-activation examples are almost exclusively in uniform, clean English (Latin script) without embedded foreign script characters. They cover generic news, corporate announcements, personal stories, and straightforward factual statements. The high-activation group consistently contains visual script alternation, while the low group maintains a single, consistent script (Latin) and typically a single language (English).\n\n4. **Closing interpretation**: This neuron likely detects visual orthographic boundaries\u2014points where the writing system shifts\u2014which may signal a change in language, proper nouns, or quoted foreign material. It acts as a multilingual script-change detector, helping the model segment and process mixed-script inputs.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin script characters or script-mixing** (such as Polish with Latin diacritics, Devanagari script, Cyrillic script, Greek script, or Bengali script), especially when these appear adjacent to or embedded within English or other Latin-script text.\n\n2. **Domain coverage**: The pattern appears across multilingual news, technical descriptions, political commentary, and social media text spanning numerous languages (Polish, Hindi, Italian, Russian, Greek, German, Bengali, Telugu, Vietnamese, Spanish, etc.). The context is often formal or informational—government statements, technical specifications, event reports, or quoted speech—where a primary Latin-script sentence incorporates foreign names, phrases, or quotations in a different script.\n\n3. **Contrast with low-activation examples**: The low-activation examples are almost exclusively in uniform, clean English (Latin script) without embedded foreign script characters. They cover generic news, corporate announcements, personal stories, and straightforward factual statements. The high-activation group consistently contains visual script alternation, while the low group maintains a single, consistent script (Latin) and typically a single language (English).\n\n4. **Closing interpretation**: This neuron likely detects visual orthographic boundaries—points where the writing system shifts—which may signal a change in language, proper nouns, or quoted foreign material. It acts as a multilingual script-change detector, helping the model segment and process mixed-script inputs.",
   "results": [
     {
       "example_idx": 1,
@@ -10,11 +10,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2435,
+          "concept_score": 0.2434,
           "meaning_score": 0.2153,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1835
+          "combined_score": 0.128
         },
         {
           "prediction_rank": 2,
@@ -22,15 +22,15 @@
           "meaning_score": 0.4245,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2672
+          "combined_score": 0.2169
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2435,
-          "meaning_score": 0.2015,
+          "meaning_score": 0.2016,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.178
+          "combined_score": 0.1222
         }
       ]
     },
@@ -41,33 +41,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1752,
-          "meaning_score": 0.3347,
+          "concept_score": 0.175,
+          "meaning_score": 0.3348,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.204
+          "combined_score": 0.1685
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1752,
+          "concept_score": 0.175,
           "meaning_score": 0.1366,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1247
+          "combined_score": 0.0843
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1752,
+          "concept_score": 0.175,
           "meaning_score": 0.5329,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2832
+          "combined_score": 0.2527
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "across America. And Lynch \u2013 crunching gears after sex, psychosis and ultraviolence in Wild at Heart and Lost Highway \u2013 understands there's nothing weirder or",
+      "actual_text": "across America. And Lynch – crunching gears after sex, psychosis and ultraviolence in Wild at Heart and Lost Highway – understands there's nothing weirder or",
       "normalized_activation": 5.43714714050293,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3631,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2516
+          "combined_score": 0.1942
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3198,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2343
+          "combined_score": 0.1758
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.204,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1879
+          "combined_score": 0.1266
         }
       ]
     },
@@ -103,19 +103,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1458,
-          "meaning_score": 0.8569,
+          "concept_score": 0.1459,
+          "meaning_score": 0.857,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6011
+          "location_score": 0.425,
+          "combined_score": 0.8111
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1459,
-          "meaning_score": 0.3391,
+          "meaning_score": 0.339,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.194
+          "combined_score": 0.166
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4349,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2323
+          "combined_score": 0.2067
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Junior doctors are currently on their longest strike in NHS history \u2013 but as many as",
+      "actual_text": "Junior doctors are currently on their longest strike in NHS history – but as many as",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.2797,
           "meaning_score": 0.7378,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.607
+          "location_score": 0.425,
+          "combined_score": 0.7805
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.415,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2779
+          "combined_score": 0.2183
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3152,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.238
+          "combined_score": 0.1759
         }
       ]
     }

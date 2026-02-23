@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_11743",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments mentioning specific named people, groups, or organizations, often with their titles, roles, or affiliations** (such as politicians like \"DeSantis\" or \"Ralston,\" groups like \"the G\u00fclen movement,\" institutions like \"Hertha Berlin,\" or named individuals in narratives like \"Moorcroft\" or \"Miyamoto\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, sports, and human-interest stories in multiple languages (English, Italian, Romanian, etc.). It activates on references to individuals in power (\"First Lady DeSantis,\" \"U.S. Rep. Buddy Carter\"), collective entities (\"desperate folks,\" \"worried locals,\" \"followers of the G\u00fclen movement\"), and named persons involved in events (\"Michael Kovrig,\" \"Shakur\"), regardless of the overall topic sentiment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically fragments, generic statements, or descriptions lacking specific named human entities or groups (e.g., \"A massive earthquake struck,\" \"Demographic decline,\" \"Mobile Pallet Racking,\" or incomplete sentences). They omit the precise naming of persons, officials, organizations, or collective nouns that characterize the high-activation set.\n\n4. **Closing interpretation**: The neuron detects and tracks mentions of specific agents\u2014individuals or defined collectives\u2014within a narrative or informational context. It appears to function as an \"entity mention\" detector, particularly sensitive to text that grounds discourse in concrete actors, whether they are central figures or affected communities.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments mentioning specific named people, groups, or organizations, often with their titles, roles, or affiliations** (such as politicians like \"DeSantis\" or \"Ralston,\" groups like \"the Gülen movement,\" institutions like \"Hertha Berlin,\" or named individuals in narratives like \"Moorcroft\" or \"Miyamoto\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, sports, and human-interest stories in multiple languages (English, Italian, Romanian, etc.). It activates on references to individuals in power (\"First Lady DeSantis,\" \"U.S. Rep. Buddy Carter\"), collective entities (\"desperate folks,\" \"worried locals,\" \"followers of the Gülen movement\"), and named persons involved in events (\"Michael Kovrig,\" \"Shakur\"), regardless of the overall topic sentiment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically fragments, generic statements, or descriptions lacking specific named human entities or groups (e.g., \"A massive earthquake struck,\" \"Demographic decline,\" \"Mobile Pallet Racking,\" or incomplete sentences). They omit the precise naming of persons, officials, organizations, or collective nouns that characterize the high-activation set.\n\n4. **Closing interpretation**: The neuron detects and tracks mentions of specific agents—individuals or defined collectives—within a narrative or informational context. It appears to function as an \"entity mention\" detector, particularly sensitive to text that grounds discourse in concrete actors, whether they are central figures or affected communities.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.2678,
           "meaning_score": 0.5104,
           "overlap_fraction": 0.0503,
-          "location_score": 0.0101,
-          "combined_score": 0.3213
+          "location_score": 0.0214,
+          "combined_score": 0.2785
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3241,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2364
+          "combined_score": 0.1778
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.3359,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2582
+          "combined_score": 0.1892
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "could have impacted the boy\u2019s treatment. \u201cWhat I can tell you is that somebody who had pediatric experience and evaluated this child would really have looked at what happened when",
+      "actual_text": "could have impacted the boy’s treatment. “What I can tell you is that somebody who had pediatric experience and evaluated this child would really have looked at what happened when",
       "normalized_activation": 8.354035377502441,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.411,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2188
+          "combined_score": 0.1951
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2355,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1284
+          "combined_score": 0.1129
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.0532,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0866
+          "combined_score": 0.0471
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u05d4\u05e0\u05d5\u05e1\u05e3 \u05e9\u05e0\u05e2\u05e6\u05e8 \u05d1\u05ea\u05d9\u05e7 \u05e9\u05d5\u05d7\u05e8\u05e8 \u05d0\u05ea\u05de\u05d5\u05dc \u05dc\u05d0\u05d7\u05e8 4 \u05d9\u05de\u05d9\u05dd \u05de\u05e2\u05e6\u05e8. \u05d1\u05d4\u05e1\u05db\u05de\u05ea \u05d4\u05de\u05e9\u05d8\u05e8\u05d4 \u05d5\u05e2\u05d5\u05e8\u05da \u05d3\u05d9\u05e0\u05d5 \u05e9\u05dc \u05d4\u05d7",
+      "actual_text": "הנוסף שנעצר בתיק שוחרר אתמול לאחר 4 ימים מעצר. בהסכמת המשטרה ועורך דינו של הח",
       "normalized_activation": 7.014028072357178,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3227,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1623
+          "combined_score": 0.1496
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4518,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2
+          "combined_score": 0.1992
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4553,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2299
+          "combined_score": 0.2114
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1809,
+          "concept_score": 0.1806,
           "meaning_score": 0.5048,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2743
+          "combined_score": 0.2416
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.4052,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1969
+          "combined_score": 0.1852
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1104,
-          "meaning_score": 0.5195,
+          "concept_score": 0.1103,
+          "meaning_score": 0.5196,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2519
+          "combined_score": 0.2374
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.2847,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2552
+          "combined_score": 0.174
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2519,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2151
+          "combined_score": 0.1499
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3255,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1759
+          "combined_score": 0.1555
         }
       ]
     }

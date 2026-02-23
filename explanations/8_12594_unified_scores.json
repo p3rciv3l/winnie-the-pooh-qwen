@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_12594",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially names of people, organizations, or specific entities) followed by descriptive appositives, titles, or roles** (such as \"Chernobyl's Craig Mazin and Neil Druckmann, the key creative force...\", \"agnolli, MD, the subcommittee's chairman, Rep. Brad Wenstrup\", or \"Juan Lim\u00f3n, de la Comisi\u00f3n Nacional de Agua\").\n\n2. **Domain coverage**: The pattern appears across multilingual news, biographical, and formal descriptive texts. Examples span English, Arabic, German, Italian, Spanish, Turkish, and Bulgarian, covering domains like entertainment, politics, academia, sports, and institutional reports. The neuron activates when a specific person, group, or entity is immediately elaborated upon with a defining phrase, often set off by commas or introduced by a role indicator (e.g., \"director of the,\" \"chairman of\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, present them without immediate descriptive elaboration (e.g., \"Liviu Dragnea va r\u0103m\u00e2ne internat\"), or are simple factual statements or headlines that do not pause to define or title the entity. The key distinction is the presence of the syntactic structure **[Proper Noun] + [comma/connector] + [descriptive phrase detailing role, title, or identity]**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic-semantic pattern where an entity is explicitly anchored within a hierarchy or context via an appositive or role phrase. It appears specialized for parsing formal, referential constructions common in journalistic and expository writing across languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially names of people, organizations, or specific entities) followed by descriptive appositives, titles, or roles** (such as \"Chernobyl's Craig Mazin and Neil Druckmann, the key creative force...\", \"agnolli, MD, the subcommittee's chairman, Rep. Brad Wenstrup\", or \"Juan Limón, de la Comisión Nacional de Agua\").\n\n2. **Domain coverage**: The pattern appears across multilingual news, biographical, and formal descriptive texts. Examples span English, Arabic, German, Italian, Spanish, Turkish, and Bulgarian, covering domains like entertainment, politics, academia, sports, and institutional reports. The neuron activates when a specific person, group, or entity is immediately elaborated upon with a defining phrase, often set off by commas or introduced by a role indicator (e.g., \"director of the,\" \"chairman of\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, present them without immediate descriptive elaboration (e.g., \"Liviu Dragnea va rămâne internat\"), or are simple factual statements or headlines that do not pause to define or title the entity. The key distinction is the presence of the syntactic structure **[Proper Noun] + [comma/connector] + [descriptive phrase detailing role, title, or identity]**.\n\n4. **Closing interpretation**: This neuron detects a specific syntactic-semantic pattern where an entity is explicitly anchored within a hierarchy or context via an appositive or role phrase. It appears specialized for parsing formal, referential constructions common in journalistic and expository writing across languages.",
   "results": [
     {
       "example_idx": 1,
@@ -17,19 +17,19 @@
     },
     {
       "example_idx": 3,
-      "actual_text": "the drama ends,\u201d he complains. Ingo Kramer, President of the Confederation of German Employers' Associations, fears for the future of the EU in its current",
+      "actual_text": "the drama ends,” he complains. Ingo Kramer, President of the Confederation of German Employers' Associations, fears for the future of the EU in its current",
       "normalized_activation": 7.996323585510254,
       "pairs": []
     },
     {
       "example_idx": 4,
-      "actual_text": "\u00cen 1923 un vas de croazier\u0103 britanic cu",
+      "actual_text": "În 1923 un vas de croazieră britanic cu",
       "normalized_activation": 0.0,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "Carina Mej\u00edas incluye en su curr\u00edculum en la web del Ayunt",
+      "actual_text": "Carina Mejías incluye en su currículum en la web del Ayunt",
       "normalized_activation": 0.0,
       "pairs": []
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_13268",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal references to heads of state, government leaders, or high-ranking political figures** (such as \"President Xi Jinping,\" \"President Barack Obama,\" \"President Vladimir Putin,\" or \"Prime Minister Imran Khan\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or political commentary text. It activates on mentions of current or recent national leaders (especially from major powers like China, the US, Russia, and Canada) within contexts of policy, diplomacy, official statements, or media reports. The neuron also processes these names when they appear in non-English text (e.g., Czech \"Rusk\u00fd prezident Vladimir Putin\"), but the core context is political reporting.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the full title and surname of a prominent political leader. The low-activation examples lack this entirely; they are either about non-political topics (e.g., product releases, local events, music), are in non-English languages without referencing such figures, or are text fragments like dates or addresses that contain no named entities of this authoritative type.\n\n4. **Closing interpretation**: This neuron detects tokens or phrases denoting authoritative political agency, specifically the combination of an official title and the name of a nationally significant leader. It appears to function as a high-level \"political entity\" detector within the model's representation of text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **formal references to heads of state, government leaders, or high-ranking political figures** (such as \"President Xi Jinping,\" \"President Barack Obama,\" \"President Vladimir Putin,\" or \"Prime Minister Imran Khan\").\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news or political commentary text. It activates on mentions of current or recent national leaders (especially from major powers like China, the US, Russia, and Canada) within contexts of policy, diplomacy, official statements, or media reports. The neuron also processes these names when they appear in non-English text (e.g., Czech \"Ruský prezident Vladimir Putin\"), but the core context is political reporting.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the full title and surname of a prominent political leader. The low-activation examples lack this entirely; they are either about non-political topics (e.g., product releases, local events, music), are in non-English languages without referencing such figures, or are text fragments like dates or addresses that contain no named entities of this authoritative type.\n\n4. **Closing interpretation**: This neuron detects tokens or phrases denoting authoritative political agency, specifically the combination of an official title and the name of a nationally significant leader. It appears to function as a high-level \"political entity\" detector within the model's representation of text.",
   "results": [
     {
       "example_idx": 1,
@@ -14,15 +14,15 @@
           "meaning_score": 0.5512,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3044
+          "combined_score": 0.2657
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2097,
           "meaning_score": 0.8553,
           "overlap_fraction": 0.8696,
-          "location_score": 0.1739,
-          "combined_score": 0.5999
+          "location_score": 0.3696,
+          "combined_score": 0.7645
         },
         {
           "prediction_rank": 3,
@@ -30,44 +30,44 @@
           "meaning_score": 0.4242,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2536
+          "combined_score": 0.2118
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a \u201c",
+      "actual_text": "continue to grow nearly one week after Donald Trump returned from a controversial summit with Vladimir Putin, and demonstrators pledge to continue occupying a park outside what they now call a “",
       "normalized_activation": 8.51589584350586,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2682,
+          "concept_score": 0.2683,
           "meaning_score": 0.8324,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6402
+          "location_score": 0.425,
+          "combined_score": 0.819
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1842,
-          "meaning_score": 0.6541,
+          "meaning_score": 0.6542,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3353
+          "combined_score": 0.3056
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2682,
-          "meaning_score": 0.3772,
+          "concept_score": 0.2683,
+          "meaning_score": 0.3777,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2582
+          "combined_score": 0.2007
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": ", \u201cDon\u2019t hate me.\u201d This is a university medical center that didn\u2019t even practice elective abortions throughout most of its history, but a new rule instated in",
+      "actual_text": ", “Don’t hate me.” This is a university medical center that didn’t even practice elective abortions throughout most of its history, but a new rule instated in",
       "normalized_activation": 7.744578838348389,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.2937,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1716
+          "combined_score": 0.1451
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2803,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1662
+          "combined_score": 0.1394
         },
         {
           "prediction_rank": 3,
@@ -92,69 +92,69 @@
           "meaning_score": 0.4064,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2167
+          "combined_score": 0.193
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "I\u201dve been a driver for the Allen County Regional Transport Authority since 20",
+      "actual_text": "I”ve been a driver for the Allen County Regional Transport Authority since 20",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.092,
-          "meaning_score": 0.374,
+          "concept_score": 0.0919,
+          "meaning_score": 0.3739,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1864
+          "combined_score": 0.1727
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1483,
-          "meaning_score": 0.7496,
+          "concept_score": 0.1484,
+          "meaning_score": 0.7495,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5592
+          "location_score": 0.425,
+          "combined_score": 0.7658
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1006,
-          "meaning_score": 0.2695,
+          "concept_score": 0.1005,
+          "meaning_score": 0.2694,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.148
+          "combined_score": 0.1295
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "La mayor\u00eda son sanitarios que se quejan de falta de personal Unas mil personas",
+      "actual_text": "La mayoría son sanitarios que se quejan de falta de personal Unas mil personas",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1456,
-          "meaning_score": 0.4506,
+          "concept_score": 0.1457,
+          "meaning_score": 0.4501,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2385
+          "combined_score": 0.2132
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1328,
-          "meaning_score": 0.4964,
+          "meaning_score": 0.4966,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2517
+          "combined_score": 0.231
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2238,
-          "meaning_score": 0.7868,
+          "concept_score": 0.2239,
+          "meaning_score": 0.7863,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6042
+          "location_score": 0.425,
+          "combined_score": 0.7928
         }
       ]
     }

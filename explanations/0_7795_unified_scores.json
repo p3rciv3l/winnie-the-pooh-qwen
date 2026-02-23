@@ -1,11 +1,11 @@
 {
   "neuron_id": "0_7795",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numerical quantities, measurements, or counts** (such as \"\u00f4smich mili\u00e1rd eur,\" \"100 million light-years,\" \"16 protesters,\" or \"five different display modes\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including scientific reports (astronomy distances, physics), news articles (financial figures, casualty counts, project scales), technical specifications, and multilingual administrative texts (Slovak, Hungarian, Spanish, Polish). It activates on precise numbers, percentages, monetary amounts, distances, counts of people, and ordinal sequences, regardless of the surrounding topic.\n\n3. **Contrast with low-activation examples**: The low-activation texts largely avoid precise numerical references. They mention entities, events, or general statements without quantified details (e.g., \"a dopey burglar,\" \"feel free,\" \"roots in the Persian word\"). Even when topics overlap with the high group (e.g., politics, accidents), the low-activation examples lack the specific numerical or measurement-based phrasing.\n\n4. **Closing interpretation**: The neuron detects and processes explicit quantitative information embedded in natural language. It acts as a cross-linguistic filter for tokens that signify exact counts, magnitudes, or measurements, highlighting spans where the text transitions from qualitative description to quantified statement.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numerical quantities, measurements, or counts** (such as \"ôsmich miliárd eur,\" \"100 million light-years,\" \"16 protesters,\" or \"five different display modes\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including scientific reports (astronomy distances, physics), news articles (financial figures, casualty counts, project scales), technical specifications, and multilingual administrative texts (Slovak, Hungarian, Spanish, Polish). It activates on precise numbers, percentages, monetary amounts, distances, counts of people, and ordinal sequences, regardless of the surrounding topic.\n\n3. **Contrast with low-activation examples**: The low-activation texts largely avoid precise numerical references. They mention entities, events, or general statements without quantified details (e.g., \"a dopey burglar,\" \"feel free,\" \"roots in the Persian word\"). Even when topics overlap with the high group (e.g., politics, accidents), the low-activation examples lack the specific numerical or measurement-based phrasing.\n\n4. **Closing interpretation**: The neuron detects and processes explicit quantitative information embedded in natural language. It acts as a cross-linguistic filter for tokens that signify exact counts, magnitudes, or measurements, highlighting spans where the text transitions from qualitative description to quantified statement.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Helme z.B. sank der Pegel dank der Vertiefung des Deichdurchbruchs bei M\u00f6nchpfiffel-Nikolausri",
+      "actual_text": "Helme z.B. sank der Pegel dank der Vertiefung des Deichdurchbruchs bei Mönchpfiffel-Nikolausri",
       "normalized_activation": 9.520214080810547,
       "pairs": []
     },
@@ -29,7 +29,7 @@
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": []
     }

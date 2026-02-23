@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_10512",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce or reference specific named individuals** (such as people\u2019s full names with descriptors, titles, affiliations, or roles), especially in journalistic or reporting contexts.\n\n2. **Domain coverage**: The pattern appears across news articles, social media snippets, and reports in multiple languages (English, Spanish, Italian, etc.). It activates on references to politicians, celebrities, professionals, activists, victims, or ordinary individuals identified by name and often accompanied by age, location, occupation, or organizational affiliation (e.g., \u201cDavid Alire Garcia,\u201d \u201cAnnabeth Gish,\u201d \u201cMohamed Cheikh Ould Mkhaitir,\u201d \u201cNick Chung, a 25-year-old working in the IT sector\u201d).\n\n3. **Contrast with low-activation examples**: The low-activation texts generally lack specific named person references. They instead discuss impersonal topics (e.g., supercomputers, telemedicine platforms, astronomical terms, institutional announcements, or generic statements) without introducing a human subject with identifying details. Even when some low-activation examples mention places or organizations, they omit the named individual element that triggers the neuron.\n\n4. **Closing interpretation**: The neuron appears to detect and highlight spans of text that ground information to a particular human entity, serving as a \u201cperson-reference identifier\u201d within diverse textual contexts. It likely helps the model track who is being discussed, especially in passages that shift focus to a new actor or source.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce or reference specific named individuals** (such as people’s full names with descriptors, titles, affiliations, or roles), especially in journalistic or reporting contexts.\n\n2. **Domain coverage**: The pattern appears across news articles, social media snippets, and reports in multiple languages (English, Spanish, Italian, etc.). It activates on references to politicians, celebrities, professionals, activists, victims, or ordinary individuals identified by name and often accompanied by age, location, occupation, or organizational affiliation (e.g., “David Alire Garcia,” “Annabeth Gish,” “Mohamed Cheikh Ould Mkhaitir,” “Nick Chung, a 25-year-old working in the IT sector”).\n\n3. **Contrast with low-activation examples**: The low-activation texts generally lack specific named person references. They instead discuss impersonal topics (e.g., supercomputers, telemedicine platforms, astronomical terms, institutional announcements, or generic statements) without introducing a human subject with identifying details. Even when some low-activation examples mention places or organizations, they omit the named individual element that triggers the neuron.\n\n4. **Closing interpretation**: The neuron appears to detect and highlight spans of text that ground information to a particular human entity, serving as a “person-reference identifier” within diverse textual contexts. It likely helps the model track who is being discussed, especially in passages that shift focus to a new actor or source.",
   "results": [
     {
       "example_idx": 1,
@@ -13,16 +13,16 @@
           "concept_score": 0.2057,
           "meaning_score": 0.7517,
           "overlap_fraction": 0.7048,
-          "location_score": 0.141,
-          "combined_score": 0.5239
+          "location_score": 0.2995,
+          "combined_score": 0.6499
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2228,
           "meaning_score": 0.6954,
           "overlap_fraction": 0.2857,
-          "location_score": 0.0571,
-          "combined_score": 0.4244
+          "location_score": 0.1214,
+          "combined_score": 0.4504
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.5463,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3121
+          "combined_score": 0.2673
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "ho po\u010das\u00ed \u0159ekl, \u017ee slune\u010dn\u00ed v\u00edtr nebyl tak siln\u00fd, jak se o\u010dek\u00e1valo",
+      "actual_text": "ho počasí řekl, že sluneční vítr nebyl tak silný, jak se očekávalo",
       "normalized_activation": 8.109695434570312,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.5978,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3265
+          "combined_score": 0.2868
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.498,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2725
+          "combined_score": 0.2391
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.3753,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2339
+          "combined_score": 0.1909
         }
       ]
     },
@@ -72,11 +72,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2056,
+          "concept_score": 0.2057,
           "meaning_score": 0.5705,
           "overlap_fraction": 0.6699,
-          "location_score": 0.134,
-          "combined_score": 0.4444
+          "location_score": 0.2847,
+          "combined_score": 0.558
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.1311,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1123
+          "combined_score": 0.0782
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2293,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1736
+          "combined_score": 0.1281
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.3866,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2124
+          "combined_score": 0.186
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.37,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2092
+          "combined_score": 0.1802
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3778,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2122
+          "combined_score": 0.1835
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.1638,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1273
+          "combined_score": 0.0928
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2201,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1414
+          "combined_score": 0.1135
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.1696,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1086
+          "combined_score": 0.0873
         }
       ]
     }

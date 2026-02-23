@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_8140",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments referencing imminent or recent events measured in days** (such as \"days before,\" \"in the coming days,\" \"final days,\" or \"two days later\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, legal updates, and sports commentary, primarily in English. Examples span topics like elections (\"Election Day is Nov. 3\"), geopolitical developments (\"days before completely cutting ties with the EU\"), legal proceedings (\"just days after Paula Abdul accused him\"), and weather forecasts (\"significant solar activity in the forthcoming days\"). Non-English snippets in the high-activation set (e.g., Turkish) also follow this temporal framing.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit day-count references anchoring events to a near past or future. Low-activation examples are often truncated sentences, headlines without temporal context, or text in other languages (Spanish, Italian, Russian, etc.) that lack these specific day-oriented time markers.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that emphasize temporal proximity\u2014specifically, events framed within a narrow window of a few days. It appears to key on phrases that situate actions or outcomes as immediately pending or freshly elapsed.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments referencing imminent or recent events measured in days** (such as \"days before,\" \"in the coming days,\" \"final days,\" or \"two days later\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, legal updates, and sports commentary, primarily in English. Examples span topics like elections (\"Election Day is Nov. 3\"), geopolitical developments (\"days before completely cutting ties with the EU\"), legal proceedings (\"just days after Paula Abdul accused him\"), and weather forecasts (\"significant solar activity in the forthcoming days\"). Non-English snippets in the high-activation set (e.g., Turkish) also follow this temporal framing.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain explicit day-count references anchoring events to a near past or future. Low-activation examples are often truncated sentences, headlines without temporal context, or text in other languages (Spanish, Italian, Russian, etc.) that lack these specific day-oriented time markers.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that emphasize temporal proximity—specifically, events framed within a narrow window of a few days. It appears to key on phrases that situate actions or outcomes as immediately pending or freshly elapsed.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.237,
           "meaning_score": 0.7459,
           "overlap_fraction": 0.9477,
-          "location_score": 0.1895,
-          "combined_score": 0.5827
+          "location_score": 0.4028,
+          "combined_score": 0.7553
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4755,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3448
+          "combined_score": 0.2601
         },
         {
           "prediction_rank": 3,
@@ -30,38 +30,38 @@
           "meaning_score": 0.3364,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2877
+          "combined_score": 0.2004
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "October 13. After reporting the incident, they were informed by police two days later that she had \u201cwillingly converted to Islam\u201d and married Ali Az",
+      "actual_text": "October 13. After reporting the incident, they were informed by police two days later that she had “willingly converted to Islam” and married Ali Az",
       "normalized_activation": 8.675643920898438,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.2223,
-          "meaning_score": 0.7144,
+          "meaning_score": 0.7141,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5747
+          "location_score": 0.425,
+          "combined_score": 0.7618
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.281,
-          "meaning_score": 0.3258,
+          "meaning_score": 0.3272,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2427
+          "combined_score": 0.1812
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.3603,
-          "meaning_score": 0.4645,
+          "concept_score": 0.3604,
+          "meaning_score": 0.4662,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3299
+          "combined_score": 0.2522
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.5066,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3094
+          "combined_score": 0.2553
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2772,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2378
+          "combined_score": 0.1654
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3871,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2393
+          "combined_score": 0.1962
         }
       ]
     },
@@ -104,26 +104,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1607,
-          "meaning_score": 0.9337,
+          "meaning_score": 0.9336,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6378
+          "location_score": 0.425,
+          "combined_score": 0.8459
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1481,
-          "meaning_score": 0.567,
+          "concept_score": 0.148,
+          "meaning_score": 0.5671,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2861
+          "combined_score": 0.2632
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1955,
-          "meaning_score": 0.2541,
+          "meaning_score": 0.254,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1798
+          "combined_score": 0.1373
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.2419,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1663
+          "combined_score": 0.1289
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2638,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1785
+          "combined_score": 0.1395
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.2021,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1516
+          "combined_score": 0.1124
         }
       ]
     }

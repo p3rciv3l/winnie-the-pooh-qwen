@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_1461",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing dense clusters of named entities and formal references (such as person names with titles like \"Bonisiwe Tshabalala, Senior Industry & Value Advisor at SAP Africa\", organization names like \"NIFLA\", specific cultural works like \"The Music Man\", or legal and geographic terms).\n\n2. **Domain coverage**: The neuron activates across diverse domains including news reporting, official announcements, legal documents, cultural reviews, and biographical snippets. It processes multiple languages\u2014such as English, Portuguese, Arabic, Finnish, Italian, and Romanian\u2014indicating a language-agnostic focus on structured informational content. Examples span topics like politics (\"Chief Executive John Lee Ka-chiu\"), academia (\"University of Pittsburgh assistant professor\"), entertainment (\"country star Lee Greenwood\"), and international affairs (\"IDF jets\").\n\n3. **Contrast with low-activation examples**: High-activation texts are characterized by a high density of proper nouns, specific titles, and detailed references, often in complete or context-rich phrases. In contrast, low-activation examples tend to be more generic, incomplete, or lack such clusters\u2014for instance, truncated sentences like \"Il 6 maggio 1976 alle ore 21.0\" or vague headlines such as \"Gas Prices Could Top $5 a Gallon by Memorial Day\" without named entities. The low group also includes simpler statements that do not embed multiple formal references.\n\n4. **Closing interpretation**: This neuron likely detects segments with high informational density centered on named entities, serving as a marker for formal, authoritative, or detailed text typical in journalistic, bureaucratic, and descriptive contexts. It emphasizes specificity and reference-rich content over general or fragmented language.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing dense clusters of named entities and formal references (such as person names with titles like \"Bonisiwe Tshabalala, Senior Industry & Value Advisor at SAP Africa\", organization names like \"NIFLA\", specific cultural works like \"The Music Man\", or legal and geographic terms).\n\n2. **Domain coverage**: The neuron activates across diverse domains including news reporting, official announcements, legal documents, cultural reviews, and biographical snippets. It processes multiple languages—such as English, Portuguese, Arabic, Finnish, Italian, and Romanian—indicating a language-agnostic focus on structured informational content. Examples span topics like politics (\"Chief Executive John Lee Ka-chiu\"), academia (\"University of Pittsburgh assistant professor\"), entertainment (\"country star Lee Greenwood\"), and international affairs (\"IDF jets\").\n\n3. **Contrast with low-activation examples**: High-activation texts are characterized by a high density of proper nouns, specific titles, and detailed references, often in complete or context-rich phrases. In contrast, low-activation examples tend to be more generic, incomplete, or lack such clusters—for instance, truncated sentences like \"Il 6 maggio 1976 alle ore 21.0\" or vague headlines such as \"Gas Prices Could Top $5 a Gallon by Memorial Day\" without named entities. The low group also includes simpler statements that do not embed multiple formal references.\n\n4. **Closing interpretation**: This neuron likely detects segments with high informational density centered on named entities, serving as a marker for formal, authoritative, or detailed text typical in journalistic, bureaucratic, and descriptive contexts. It emphasizes specificity and reference-rich content over general or fragmented language.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "body\u2026.The angels have not been blessed with such a grace. They cannot share in God\u2019s creative miracle to bring new saints to Heaven. Only a human mother can",
+      "actual_text": "body….The angels have not been blessed with such a grace. They cannot share in God’s creative miracle to bring new saints to Heaven. Only a human mother can",
       "normalized_activation": 9.299575805664062,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.3592,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2024
+          "combined_score": 0.1747
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4052,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1998
+          "combined_score": 0.1864
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.3801,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2153
+          "combined_score": 0.1853
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "fauna y gastar grandes cantidades agua. No podemos olvidar que del r\u00edo Coello dependen 800.000 personas y prove",
+      "actual_text": "fauna y gastar grandes cantidades agua. No podemos olvidar que del río Coello dependen 800.000 personas y prove",
       "normalized_activation": 8.180000305175781,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.297,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1715
+          "combined_score": 0.146
         },
         {
           "prediction_rank": 2,
@@ -53,46 +53,46 @@
           "meaning_score": 0.3022,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1885
+          "combined_score": 0.1538
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1099,
-          "meaning_score": 0.2529,
+          "meaning_score": 0.2528,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1451
+          "combined_score": 0.1239
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "elor franceze. UPDATE 01:29 - \u201dPe m\u0103sur\u0103 ce Rusia continu\u0103 s\u0103 atace Kievul, votul din Cons",
+      "actual_text": "elor franceze. UPDATE 01:29 - ”Pe măsură ce Rusia continuă să atace Kievul, votul din Cons",
       "normalized_activation": 7.13211727142334,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1526,
-          "meaning_score": 0.4979,
+          "concept_score": 0.1527,
+          "meaning_score": 0.4977,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2602
+          "combined_score": 0.2344
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0512,
-          "meaning_score": 0.6276,
+          "meaning_score": 0.6288,
           "overlap_fraction": 0.8333,
-          "location_score": 0.1667,
-          "combined_score": 0.4382
+          "location_score": 0.3542,
+          "combined_score": 0.6291
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0966,
-          "meaning_score": 0.5496,
+          "concept_score": 0.0967,
+          "meaning_score": 0.5485,
           "overlap_fraction": 0.1556,
-          "location_score": 0.0311,
-          "combined_score": 0.2896
+          "location_score": 0.0661,
+          "combined_score": 0.3137
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.4557,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2548
+          "combined_score": 0.2209
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3866,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1982
+          "combined_score": 0.1807
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3778,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1986
+          "combined_score": 0.1784
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.2847,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2744
+          "combined_score": 0.1812
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2926,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1995
+          "combined_score": 0.1553
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.232,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1597
+          "combined_score": 0.1237
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_18588",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns accompanied by titles, roles, or descriptive identifiers** (such as \"District Collector Sarfaraz Ahmed,\" \"Laramie Police Chief Dale Stalder,\" \"Tamil Maanila Congress chief G.K. Vasan,\" or \"Hermon\" paired with \"near Wellington\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Turkish, Arabic, Spanish, Greek) and domains including news reports, official statements, geographic references, and organizational contexts. It activates on named persons with official titles, specific locations with qualifiers, organizations/events paired with descriptive details, and technical terms linked to entities (e.g., \"Bitcoin interest\" followed by Nigerian states).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **multi-part nominal phrases where a proper noun is explicitly modified or contextualized** (e.g., \"War A South Korean refugee holds her belongings,\" \"red hartebeest... from Hermon\"). Low-activation examples either lack proper nouns entirely, use them in isolation without elaboration (\"Defense chief Mattis\"), or present generic statements without specific named entities paired with descriptors.\n\n4. **Closing interpretation**: The neuron detects **structured referential specificity**\u2014linguistic constructions that anchor named entities (people, places, organizations) within precise contextual frames using titles, affiliations, or qualifying clauses. It serves as a marker for text segments that densely pack identifying information about real-world entities.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns accompanied by titles, roles, or descriptive identifiers** (such as \"District Collector Sarfaraz Ahmed,\" \"Laramie Police Chief Dale Stalder,\" \"Tamil Maanila Congress chief G.K. Vasan,\" or \"Hermon\" paired with \"near Wellington\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Turkish, Arabic, Spanish, Greek) and domains including news reports, official statements, geographic references, and organizational contexts. It activates on named persons with official titles, specific locations with qualifiers, organizations/events paired with descriptive details, and technical terms linked to entities (e.g., \"Bitcoin interest\" followed by Nigerian states).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain **multi-part nominal phrases where a proper noun is explicitly modified or contextualized** (e.g., \"War A South Korean refugee holds her belongings,\" \"red hartebeest... from Hermon\"). Low-activation examples either lack proper nouns entirely, use them in isolation without elaboration (\"Defense chief Mattis\"), or present generic statements without specific named entities paired with descriptors.\n\n4. **Closing interpretation**: The neuron detects **structured referential specificity**—linguistic constructions that anchor named entities (people, places, organizations) within precise contextual frames using titles, affiliations, or qualifying clauses. It serves as a marker for text segments that densely pack identifying information about real-world entities.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u2013 and she did not disappoint. In a captivating conversation hosted by Stephanie Shonekan, Ph.D., UMD\u2019s dean of the College of Arts and Humanities,",
+      "actual_text": "– and she did not disappoint. In a captivating conversation hosted by Stephanie Shonekan, Ph.D., UMD’s dean of the College of Arts and Humanities,",
       "normalized_activation": 9.551887512207031,
       "pairs": [
         {
@@ -13,8 +13,8 @@
           "concept_score": 0.1153,
           "meaning_score": 0.7737,
           "overlap_fraction": 0.7945,
-          "location_score": 0.1589,
-          "combined_score": 0.5145
+          "location_score": 0.3377,
+          "combined_score": 0.6838
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3276,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1735
+          "combined_score": 0.1551
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.1616,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0988
+          "combined_score": 0.0815
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3279,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.204
+          "combined_score": 0.1667
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3341,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1963
+          "combined_score": 0.1655
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.6858,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.339
+          "combined_score": 0.3157
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "la capital es la existencia de fallas geol\u00f3gicas activas en el subsuelo del Valle de M\u00e9xico\u201d, explic\u00f3 Luis Quintanar, investigador",
+      "actual_text": "la capital es la existencia de fallas geológicas activas en el subsuelo del Valle de México”, explicó Luis Quintanar, investigador",
       "normalized_activation": 7.787015914916992,
       "pairs": [
         {
@@ -75,8 +75,8 @@
           "concept_score": 0.1817,
           "meaning_score": 0.7287,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5641
+          "location_score": 0.425,
+          "combined_score": 0.7619
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2931,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2124
+          "combined_score": 0.1603
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.189,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1369
+          "combined_score": 0.1033
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Durante las primeras horas del 2024, Jap\u221a\u2265",
+      "actual_text": "Durante las primeras horas del 2024, Jap√≥",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,15 +107,15 @@
           "meaning_score": 0.2445,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1672
+          "combined_score": 0.1299
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1334,
           "meaning_score": 0.6075,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4964
+          "location_score": 0.425,
+          "combined_score": 0.7032
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3655,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1988
+          "combined_score": 0.1751
         }
       ]
     },
@@ -136,9 +136,9 @@
           "prediction_rank": 1,
           "concept_score": 0.1403,
           "meaning_score": 0.7166,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3427
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7506
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4041,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2392
+          "combined_score": 0.2008
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5664,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2617
+          "combined_score": 0.2539
         }
       ]
     }

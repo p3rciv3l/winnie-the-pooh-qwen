@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_3114",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that contain named entities (persons, organizations, locations) embedded in phrases describing roles, affiliations, or memberships (e.g., \u201csecretary-general of the NUPENG,\u201d \u201cvice president of the delegation,\u201d \u201cco-founders Patrisse Cullors and Melina Abdullah\u201d).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Hungarian, etc.) and domains, including politics, business, entertainment, and academia, often in news or formal reporting contexts where institutional relationships are specified.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature multiple proper nouns coupled with relational markers (like \u201cof,\u201d \u201cas,\u201d possessive \u201c\u2018s,\u201d or enumerations) that explicitly link entities to organizations or positions. Low-activation examples either lack such dense entity-relation structures, are shorter fragments, or present named entities without elaborate affiliation contexts (e.g., simple appositions like \u201cCongress leader Kapil Sibal\u201d).\n\n4. **Closing interpretation**: The neuron detects complex noun phrases encoding hierarchical or associative relationships between named entities, focusing on semantic patterns of affiliation, title, and membership.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that contain named entities (persons, organizations, locations) embedded in phrases describing roles, affiliations, or memberships (e.g., “secretary-general of the NUPENG,” “vice president of the delegation,” “co-founders Patrisse Cullors and Melina Abdullah”).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Hungarian, etc.) and domains, including politics, business, entertainment, and academia, often in news or formal reporting contexts where institutional relationships are specified.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature multiple proper nouns coupled with relational markers (like “of,” “as,” possessive “‘s,” or enumerations) that explicitly link entities to organizations or positions. Low-activation examples either lack such dense entity-relation structures, are shorter fragments, or present named entities without elaborate affiliation contexts (e.g., simple appositions like “Congress leader Kapil Sibal”).\n\n4. **Closing interpretation**: The neuron detects complex noun phrases encoding hierarchical or associative relationships between named entities, focusing on semantic patterns of affiliation, title, and membership.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "0, generando una serie de reportes en ambas provincias sobre la percepci\u00f3n del temblor. En Mendoza, la intensidad del sismo",
+      "actual_text": "0, generando una serie de reportes en ambas provincias sobre la percepción del temblor. En Mendoza, la intensidad del sismo",
       "normalized_activation": 9.554895401000977,
       "pairs": []
     },
@@ -23,13 +23,13 @@
     },
     {
       "example_idx": 4,
-      "actual_text": "Argentino de Jun\u00edn derrot\u00f3 a Quilmes de Mar del Pl",
+      "actual_text": "Argentino de Junín derrotó a Quilmes de Mar del Pl",
       "normalized_activation": 0.0,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "W czwartek Rada Miasta Warszawy zdecydowa\u0142a o przy",
+      "actual_text": "W czwartek Rada Miasta Warszawy zdecydowała o przy",
       "normalized_activation": 0.0,
       "pairs": []
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_19649",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce specific named entities (such as people, organizations, or locations) followed immediately by descriptive, contextual, or elaborative information** (e.g., \u201cAdley Rutschman fly ball away from Hopkins Hospital,\u201d \u201cGeneral Gholam Hossein Gheibparvar, the chief of the paramilitary Revolutionary Guard's volunteer Basij force,\u201d \u201cThucydides detailed it. He described the scenes\u2026\u201d).\n\n2. **Domain coverage**: The pattern appears across diverse domains\u2014sports, politics, history, entertainment, and international news\u2014and in multiple languages (English, Spanish, French, Hungarian, Portuguese, Italian, Turkish, etc.). It activates on passages that combine a proper noun with explanatory clauses, titles, actions, or spatial/temporal context, often resembling journalistic, biographical, or narrative elaboration.\n\n3. **Contrast with low-activation examples**: Low-activation texts either lack a specific named entity altogether, mention entities without immediate elaboration (e.g., \u201cJapan Rocked by Magnitude 7.5 Earthquake\u201d states an event without a person/title followed by description), or present more generic statements. The high-activation group consistently features a clear named anchor followed by qualifying phrases, while the low group tends toward headlines, incomplete fragments, or general statements without this structured elaboration.\n\n4. **Closing interpretation**: The neuron detects a linguistic structure where a proper noun is syntactically and semantically expanded upon within the same segment, focusing on the presentation of detailed, context-rich references rather than mere mention. It essentially fires on \u201celaborated named entities\u201d in running text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce specific named entities (such as people, organizations, or locations) followed immediately by descriptive, contextual, or elaborative information** (e.g., “Adley Rutschman fly ball away from Hopkins Hospital,” “General Gholam Hossein Gheibparvar, the chief of the paramilitary Revolutionary Guard's volunteer Basij force,” “Thucydides detailed it. He described the scenes…”).\n\n2. **Domain coverage**: The pattern appears across diverse domains—sports, politics, history, entertainment, and international news—and in multiple languages (English, Spanish, French, Hungarian, Portuguese, Italian, Turkish, etc.). It activates on passages that combine a proper noun with explanatory clauses, titles, actions, or spatial/temporal context, often resembling journalistic, biographical, or narrative elaboration.\n\n3. **Contrast with low-activation examples**: Low-activation texts either lack a specific named entity altogether, mention entities without immediate elaboration (e.g., “Japan Rocked by Magnitude 7.5 Earthquake” states an event without a person/title followed by description), or present more generic statements. The high-activation group consistently features a clear named anchor followed by qualifying phrases, while the low group tends toward headlines, incomplete fragments, or general statements without this structured elaboration.\n\n4. **Closing interpretation**: The neuron detects a linguistic structure where a proper noun is syntactically and semantically expanded upon within the same segment, focusing on the presentation of detailed, context-rich references rather than mere mention. It essentially fires on “elaborated named entities” in running text.",
   "results": [
     {
       "example_idx": 1,
@@ -10,33 +10,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1953,
-          "meaning_score": 0.8414,
+          "concept_score": 0.1952,
+          "meaning_score": 0.8415,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6147
+          "location_score": 0.425,
+          "combined_score": 0.8119
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1282,
-          "meaning_score": 0.3072,
+          "concept_score": 0.1283,
+          "meaning_score": 0.3071,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1741
+          "combined_score": 0.1498
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1243,
-          "meaning_score": 0.3655,
+          "meaning_score": 0.3648,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1959
+          "combined_score": 0.1737
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "de julho: As For\u00e7as de Defesa de Israel (IDF) invadiram a cidade de Jenin em uma incurs\u00e3o que foi considerada",
+      "actual_text": "de julho: As Forças de Defesa de Israel (IDF) invadiram a cidade de Jenin em uma incursão que foi considerada",
       "normalized_activation": 8.212381362915039,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.1968,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1245
+          "combined_score": 0.1008
         },
         {
           "prediction_rank": 2,
@@ -53,15 +53,15 @@
           "meaning_score": 0.2439,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1497
+          "combined_score": 0.1232
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1869,
           "meaning_score": 0.7705,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5829
+          "location_score": 0.425,
+          "combined_score": 0.7805
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.379,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.211
+          "combined_score": 0.1833
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.359,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1956
+          "combined_score": 0.1721
         },
         {
           "prediction_rank": 3,
@@ -92,38 +92,38 @@
           "meaning_score": 0.3803,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2143
+          "combined_score": 0.1849
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Vesm\u00edr | Technika V sou\u010dasn\u00e9 dob\u011b existuj",
+      "actual_text": "Vesmír | Technika V současné době existuj",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1272,
-          "meaning_score": 0.2734,
+          "meaning_score": 0.2733,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1602
+          "combined_score": 0.1352
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1133,
-          "meaning_score": 0.3078,
+          "concept_score": 0.1135,
+          "meaning_score": 0.3077,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1684
+          "combined_score": 0.1478
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1647,
-          "meaning_score": 0.2853,
+          "concept_score": 0.1648,
+          "meaning_score": 0.2851,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.18
+          "combined_score": 0.1459
         }
       ]
     },
@@ -138,23 +138,23 @@
           "meaning_score": 0.6445,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3195
+          "combined_score": 0.297
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1641,
-          "meaning_score": 0.4177,
+          "concept_score": 0.1642,
+          "meaning_score": 0.4175,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2327
+          "combined_score": 0.2021
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1057,
-          "meaning_score": 0.4484,
+          "meaning_score": 0.4506,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2216
+          "combined_score": 0.2074
         }
       ]
     }

@@ -1,11 +1,11 @@
 {
   "neuron_id": "17_20446",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce a specific named entity (person, organization, or place) followed immediately by descriptive, identifying, or contextual information about that entity** (such as a person's title and affiliation, a character's actor name in parentheses, or a location's geographic details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Portuguese, German, Italian, Hindi) and diverse topics: financial/political figures, celebrity news, geopolitical reports, scientific discoveries, and natural disaster updates. The context is consistently journalistic or encyclopedic, where an entity is being defined or situated within a broader narrative.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a proper noun coupled with an appositive phrase, relative clause, or parenthetical explanation (e.g., \"Davies, of financial advice firm...\"; \"Clint Barton (Jeremy Renner)\"; \"epicentro se localiz\u00f3 a 1.264 kil\u00f3metros al...\"). The low-activation examples either lack a specific named entity altogether, mention entities without immediate elaboration, or are truncated before such elaboration appears.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic-semantic structure common in expository writing: the presentation of a focal entity followed by its immediate contextual framing. It acts as a high-level marker for \"entity specification\" or \"identifying elaboration\" within running text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce a specific named entity (person, organization, or place) followed immediately by descriptive, identifying, or contextual information about that entity** (such as a person's title and affiliation, a character's actor name in parentheses, or a location's geographic details).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Portuguese, German, Italian, Hindi) and diverse topics: financial/political figures, celebrity news, geopolitical reports, scientific discoveries, and natural disaster updates. The context is consistently journalistic or encyclopedic, where an entity is being defined or situated within a broader narrative.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain a proper noun coupled with an appositive phrase, relative clause, or parenthetical explanation (e.g., \"Davies, of financial advice firm...\"; \"Clint Barton (Jeremy Renner)\"; \"epicentro se localizó a 1.264 kilómetros al...\"). The low-activation examples either lack a specific named entity altogether, mention entities without immediate elaboration, or are truncated before such elaboration appears.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic-semantic structure common in expository writing: the presentation of a focal entity followed by its immediate contextual framing. It acts as a high-level marker for \"entity specification\" or \"identifying elaboration\" within running text.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "highlight the likely role in all of this of America\u2019s very own 30-somehting princeling with delusions of grandeur, Jared Kushner.",
+      "actual_text": "highlight the likely role in all of this of America’s very own 30-somehting princeling with delusions of grandeur, Jared Kushner.",
       "normalized_activation": 9.499394416809082,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.5302,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2545
+          "combined_score": 0.2412
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.399,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.202
+          "combined_score": 0.1855
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3315,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.198
+          "combined_score": 0.1654
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.395,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2024
+          "combined_score": 0.1845
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2914,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2054
+          "combined_score": 0.1572
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.4538,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2634
+          "combined_score": 0.2236
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "ABC Poor Clay. Just as he was getting closer to Nicole, his ex-girlfriend Angela shows up to be Krystal\u2019s bridesmaids at her wedding to Chris",
+      "actual_text": "ABC Poor Clay. Just as he was getting closer to Nicole, his ex-girlfriend Angela shows up to be Krystal’s bridesmaids at her wedding to Chris",
       "normalized_activation": 7.915961265563965,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.1315,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1598
+          "combined_score": 0.0961
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.146,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1109
+          "combined_score": 0.0817
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2298,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1647
+          "combined_score": 0.125
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1715,
           "meaning_score": 0.7377,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5637
+          "location_score": 0.425,
+          "combined_score": 0.7642
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4557,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2408
+          "combined_score": 0.2156
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.312,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1891
+          "combined_score": 0.1567
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,16 +137,16 @@
           "concept_score": 0.1835,
           "meaning_score": 0.4875,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4684
+          "location_score": 0.425,
+          "combined_score": 0.6597
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1844,
+          "concept_score": 0.1845,
           "meaning_score": 0.3065,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1964
+          "combined_score": 0.1579
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3086,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1957
+          "combined_score": 0.1582
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_6615",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that attributes information to an official, organizational, or media source** (such as news releases, government statements, company announcements, or reports from military/law enforcement).\n\n2. **Domain coverage**: The pattern appears in journalistic and formal reporting across multiple domains: legal proceedings, government policy, military actions, scientific findings, corporate announcements, and sports updates. It is multilingual, with clear examples in English, Spanish, French, German, Italian, Arabic, and Russian, indicating the neuron detects the structural pattern of attribution rather than a specific language or topic.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain phrases like \"said in a news release,\" \"according to,\" \"in a statement,\" \"inform\u00f3,\" or \"berichtet,\" followed by the sourced information. The low-activation examples lack this attribution; they are primarily personal narratives, opinion pieces, descriptive prose, horoscopes, or general discussions without citing an official communication channel.\n\n4. **Closing interpretation**: The neuron appears to detect the linguistic framing of externally sourced claims, acting as a filter for declarative information presented with institutional authority. It helps the model identify text that is reporting facts or positions from an organizational voice rather than expressing personal or unsubstantiated content.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that attributes information to an official, organizational, or media source** (such as news releases, government statements, company announcements, or reports from military/law enforcement).\n\n2. **Domain coverage**: The pattern appears in journalistic and formal reporting across multiple domains: legal proceedings, government policy, military actions, scientific findings, corporate announcements, and sports updates. It is multilingual, with clear examples in English, Spanish, French, German, Italian, Arabic, and Russian, indicating the neuron detects the structural pattern of attribution rather than a specific language or topic.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain phrases like \"said in a news release,\" \"according to,\" \"in a statement,\" \"informó,\" or \"berichtet,\" followed by the sourced information. The low-activation examples lack this attribution; they are primarily personal narratives, opinion pieces, descriptive prose, horoscopes, or general discussions without citing an official communication channel.\n\n4. **Closing interpretation**: The neuron appears to detect the linguistic framing of externally sourced claims, acting as a filter for declarative information presented with institutional authority. It helps the model identify text that is reporting facts or positions from an organizational voice rather than expressing personal or unsubstantiated content.",
   "results": [
     {
       "example_idx": 1,
@@ -14,15 +14,15 @@
           "meaning_score": 0.264,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2351
+          "combined_score": 0.1608
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.4494,
           "meaning_score": 0.5366,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5944
+          "location_score": 0.425,
+          "combined_score": 0.7204
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.2959,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2434
+          "combined_score": 0.1727
         }
       ]
     },
@@ -41,19 +41,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2796,
+          "concept_score": 0.2795,
           "meaning_score": 0.7027,
           "overlap_fraction": 0.5062,
-          "location_score": 0.1012,
-          "combined_score": 0.4942
+          "location_score": 0.2151,
+          "combined_score": 0.5557
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.3796,
           "meaning_score": 0.775,
           "overlap_fraction": 0.4877,
-          "location_score": 0.0975,
-          "combined_score": 0.5594
+          "location_score": 0.2073,
+          "combined_score": 0.5936
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.5551,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3277
+          "combined_score": 0.2755
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.6804,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3207
+          "combined_score": 0.3074
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3626,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2001
+          "combined_score": 0.1748
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.2762,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1977
+          "combined_score": 0.1501
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": ", kui j\u00e4i v\u00f5\u00f5rsil 0:2 alla Evertonile. Evertoni v\u00e4ravad l\u00f5id 49. minutil Richarl",
+      "actual_text": ", kui jäi võõrsil 0:2 alla Evertonile. Evertoni väravad lõid 49. minutil Richarl",
       "normalized_activation": 0.6497698426246643,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.1715,
           "meaning_score": 0.6158,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5149
+          "location_score": 0.425,
+          "combined_score": 0.7124
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3901,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2278
+          "combined_score": 0.1927
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.473,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2439
+          "combined_score": 0.2215
         }
       ]
     },
@@ -138,23 +138,23 @@
           "meaning_score": 0.4649,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2338
+          "combined_score": 0.2155
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1581,
           "meaning_score": 0.5749,
           "overlap_fraction": 0.4198,
-          "location_score": 0.084,
-          "combined_score": 0.3772
+          "location_score": 0.1784,
+          "combined_score": 0.4465
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1401,
           "meaning_score": 0.7216,
           "overlap_fraction": 0.5755,
-          "location_score": 0.1151,
-          "combined_score": 0.4598
+          "location_score": 0.2446,
+          "combined_score": 0.5723
         }
       ]
     }

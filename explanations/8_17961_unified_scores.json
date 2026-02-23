@@ -1,36 +1,36 @@
 {
   "neuron_id": "8_17961",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense clusters of proper nouns, particularly names of organizations, institutions, key individuals (often political or corporate leaders), and geopolitical entities** (such as \"Deloitte,\" \"Ivan Dikic,\" \"Xi Jinping,\" \"Trinamool Congress,\" or \"World Economic Forum\").\n\n2. **Domain coverage**: The pattern appears in multilingual, formal news or reportage contexts\u2014spanning English, Italian, Spanish, French, Czech, and others\u2014covering topics like corporate surveys, political diplomacy, scientific institutions, legal/governmental proceedings, and entertainment industry reports. The neuron activates in texts that read like excerpts from news articles, press releases, or official statements where multiple specific named entities are introduced in quick succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, contain only one or two generic names (e.g., \"New York Times,\" \"Phil Murphy\"), or discuss local/domestic issues without the dense concentration of institutional and geopolitical references. The high-activation group is distinguished by its focus on **multi-entity relationships** (e.g., person X meeting person Y, organization A reporting on entity B) within a formal, informative tone.\n\n4. **Closing interpretation**: This neuron detects formal, reportorial text that anchors information around specific, authoritative named entities. It appears to function as a \"high-density proper noun cluster\" detector, signaling text that is likely referencing complex institutional, political, or corporate networks.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense clusters of proper nouns, particularly names of organizations, institutions, key individuals (often political or corporate leaders), and geopolitical entities** (such as \"Deloitte,\" \"Ivan Dikic,\" \"Xi Jinping,\" \"Trinamool Congress,\" or \"World Economic Forum\").\n\n2. **Domain coverage**: The pattern appears in multilingual, formal news or reportage contexts—spanning English, Italian, Spanish, French, Czech, and others—covering topics like corporate surveys, political diplomacy, scientific institutions, legal/governmental proceedings, and entertainment industry reports. The neuron activates in texts that read like excerpts from news articles, press releases, or official statements where multiple specific named entities are introduced in quick succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, contain only one or two generic names (e.g., \"New York Times,\" \"Phil Murphy\"), or discuss local/domestic issues without the dense concentration of institutional and geopolitical references. The high-activation group is distinguished by its focus on **multi-entity relationships** (e.g., person X meeting person Y, organization A reporting on entity B) within a formal, informative tone.\n\n4. **Closing interpretation**: This neuron detects formal, reportorial text that anchors information around specific, authoritative named entities. It appears to function as a \"high-density proper noun cluster\" detector, signaling text that is likely referencing complex institutional, political, or corporate networks.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "HAVEN (FOX 13) - No doubt about it, Legoland Florida is full of sights and sounds that would make any little kid\u2019s adrenaline surge",
+      "actual_text": "HAVEN (FOX 13) - No doubt about it, Legoland Florida is full of sights and sounds that would make any little kid’s adrenaline surge",
       "normalized_activation": 8.729132652282715,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1277,
-          "meaning_score": 0.4593,
+          "concept_score": 0.1278,
+          "meaning_score": 0.4592,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2348
+          "combined_score": 0.2143
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1893,
-          "meaning_score": 0.5375,
+          "meaning_score": 0.5364,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2907
+          "combined_score": 0.2564
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0903,
-          "meaning_score": 0.4358,
+          "concept_score": 0.0904,
+          "meaning_score": 0.4357,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2104
+          "combined_score": 0.1987
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.4911,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2395
+          "combined_score": 0.2249
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.5272,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2715
+          "combined_score": 0.2468
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.7336,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3329
+          "combined_score": 0.3266
         }
       ]
     },
@@ -76,15 +76,15 @@
           "meaning_score": 0.4104,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2126
+          "combined_score": 0.1926
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.119,
+          "concept_score": 0.1189,
           "meaning_score": 0.317,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1744
+          "combined_score": 0.1526
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4127,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1943
+          "combined_score": 0.1864
         }
       ]
     },
@@ -107,15 +107,15 @@
           "meaning_score": 0.6274,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.302
+          "combined_score": 0.2858
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1714,
           "meaning_score": 0.7714,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5771
+          "location_score": 0.425,
+          "combined_score": 0.7786
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4305,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2331
+          "combined_score": 0.2058
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.0593,
           "meaning_score": 0.73,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5157
+          "location_score": 0.425,
+          "combined_score": 0.7441
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3899,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2017
+          "combined_score": 0.1829
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4558,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2463
+          "combined_score": 0.2177
         }
       ]
     }

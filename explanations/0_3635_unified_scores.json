@@ -1,11 +1,11 @@
 {
   "neuron_id": "0_3635",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing speculative or deliberative clauses introduced by \u201cwhether\u201d (or equivalent uncertainty markers) within formal, institutional, or journalistic contexts** (such as legislative debates, academic research statements, corporate decisions, or geopolitical analysis).\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news articles, policy discussions, and academic reporting. Topics include legal/legislative outcomes (\u201cwhether the upcoming legislation will involve loopholes\u201d), corporate/government decisions (\u201cwhether to provide additional funding\u201d), scientific findings (\u201cwhether icy giants seem to be a fairly common by-product\u201d), and geopolitical speculation (\u201cwhether they\u2019re willing to risk their access\u201d). The neuron also activates on sentences mentioning universities or research institutions, often as sources of the speculative content.\n\n3. **Contrast with low-activation examples**: The low-activation texts are mostly simple declarative statements, headlines, or non-English fragments that lack speculative clauses and institutional framing. They report facts directly (\u201cPutin decided not to expel\u201d), describe events (\u201cchemical plant explosion\u201d), or are in other languages without the \u201cwhether\u201d structure. The key distinction is the absence of an embedded uncertainty question framed within a formal or analytical context.\n\n4. **Closing interpretation**: The neuron detects sentences where an institution, study, or authoritative source is considering alternatives or evaluating an uncertain outcome. It appears to specialize in parsing complex speculative statements characteristic of analytical journalism and academic discourse.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing speculative or deliberative clauses introduced by “whether” (or equivalent uncertainty markers) within formal, institutional, or journalistic contexts** (such as legislative debates, academic research statements, corporate decisions, or geopolitical analysis).\n\n2. **Domain coverage**: The pattern appears predominantly in English-language news articles, policy discussions, and academic reporting. Topics include legal/legislative outcomes (“whether the upcoming legislation will involve loopholes”), corporate/government decisions (“whether to provide additional funding”), scientific findings (“whether icy giants seem to be a fairly common by-product”), and geopolitical speculation (“whether they’re willing to risk their access”). The neuron also activates on sentences mentioning universities or research institutions, often as sources of the speculative content.\n\n3. **Contrast with low-activation examples**: The low-activation texts are mostly simple declarative statements, headlines, or non-English fragments that lack speculative clauses and institutional framing. They report facts directly (“Putin decided not to expel”), describe events (“chemical plant explosion”), or are in other languages without the “whether” structure. The key distinction is the absence of an embedded uncertainty question framed within a formal or analytical context.\n\n4. **Closing interpretation**: The neuron detects sentences where an institution, study, or authoritative source is considering alternatives or evaluating an uncertain outcome. It appears to specialize in parsing complex speculative statements characteristic of analytical journalism and academic discourse.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Senate Democratic aide, speaking on the condition of anonymity, said it will be telling whether Republicans get on board with such measures. \u201cIt remains to be seen whether these",
+      "actual_text": "Senate Democratic aide, speaking on the condition of anonymity, said it will be telling whether Republicans get on board with such measures. “It remains to be seen whether these",
       "normalized_activation": 9.81957721710205,
       "pairs": [
         {
@@ -13,8 +13,8 @@
           "concept_score": 0.1858,
           "meaning_score": 0.8889,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6299
+          "location_score": 0.425,
+          "combined_score": 0.8307
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3951,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2384
+          "combined_score": 0.1981
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.4144,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2354
+          "combined_score": 0.2023
         }
       ]
     },
@@ -42,26 +42,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1795,
-          "meaning_score": 0.8955,
+          "meaning_score": 0.8957,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.43
+          "combined_score": 0.4076
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1558,
-          "meaning_score": 0.2989,
+          "meaning_score": 0.299,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1819
+          "combined_score": 0.1505
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2492,
-          "meaning_score": 0.3855,
+          "meaning_score": 0.3854,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2539
+          "combined_score": 0.2012
         }
       ]
     },
@@ -72,27 +72,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1807,
+          "concept_score": 0.1766,
           "meaning_score": 0.1019,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.113
+          "combined_score": 0.0698
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2286,
+          "concept_score": 0.228,
           "meaning_score": 0.1674,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1584
+          "combined_score": 0.1053
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1848,
+          "concept_score": 0.1887,
           "meaning_score": 0.1647,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1398
+          "combined_score": 0.0983
         }
       ]
     },
@@ -104,26 +104,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1578,
-          "meaning_score": 0.2204,
+          "meaning_score": 0.2172,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1513
+          "combined_score": 0.116
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.179,
-          "meaning_score": 0.3228,
+          "meaning_score": 0.321,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2007
+          "combined_score": 0.1633
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2194,
-          "meaning_score": 0.157,
+          "concept_score": 0.2195,
+          "meaning_score": 0.1564,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1505
+          "combined_score": 0.0994
         }
       ]
     },
@@ -138,23 +138,23 @@
           "meaning_score": 0.5905,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2854
+          "combined_score": 0.2694
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1485,
+          "concept_score": 0.1484,
           "meaning_score": 0.4663,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2459
+          "combined_score": 0.2204
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1779,
+          "concept_score": 0.1778,
           "meaning_score": 0.7736,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5806
+          "location_score": 0.425,
+          "combined_score": 0.7804
         }
       ]
     }

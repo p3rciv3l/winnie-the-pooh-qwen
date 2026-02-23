@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_18961",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific governmental, administrative, or institutional bodies taking official action** (such as a state government appealing to a company, a police department facing allegations, a school board approving a measure, or a legislative body passing a law).\n\n2. **Domain coverage**: The pattern appears in multilingual news or reportage (English, Spanish, Italian, Russian) covering local/state governance, law enforcement, public education, and legislative activities. It focuses on concrete actions\u2014appeals, arrests, approvals, dismissals, funding, condemnations\u2014performed by named entities like the \"Bayelsa State Government,\" \"Colorado Springs Police Department,\" \"Capistrano Unified School District Board,\" or \"Legislatura de C\u00f3rdoba.\"\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a specific institution as the grammatical subject or key actor in a sentence describing a formal, public action. The low-activation examples lack this; they discuss general topics (insurance adaptation, nutrition advice, consumer tips), abstract processes, or personal scenarios without referencing a particular official body engaged in a definitive proceeding.\n\n4. **Closing interpretation**: The neuron detects formal, institutional agency within public discourse, acting as a filter for sentences where a named organization is reported to be executing its official capacity. It ignores generic advice, speculative content, and descriptions lacking a concrete institutional actor.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific governmental, administrative, or institutional bodies taking official action** (such as a state government appealing to a company, a police department facing allegations, a school board approving a measure, or a legislative body passing a law).\n\n2. **Domain coverage**: The pattern appears in multilingual news or reportage (English, Spanish, Italian, Russian) covering local/state governance, law enforcement, public education, and legislative activities. It focuses on concrete actions—appeals, arrests, approvals, dismissals, funding, condemnations—performed by named entities like the \"Bayelsa State Government,\" \"Colorado Springs Police Department,\" \"Capistrano Unified School District Board,\" or \"Legislatura de Córdoba.\"\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a specific institution as the grammatical subject or key actor in a sentence describing a formal, public action. The low-activation examples lack this; they discuss general topics (insurance adaptation, nutrition advice, consumer tips), abstract processes, or personal scenarios without referencing a particular official body engaged in a definitive proceeding.\n\n4. **Closing interpretation**: The neuron detects formal, institutional agency within public discourse, acting as a filter for sentences where a named organization is reported to be executing its official capacity. It ignores generic advice, speculative content, and descriptions lacking a concrete institutional actor.",
   "results": [
     {
       "example_idx": 1,
@@ -23,13 +23,13 @@
     },
     {
       "example_idx": 4,
-      "actual_text": "atie tussen de medische wereld en de IT-wereld, legt Frank van Grinsven \u2013 productmanager Ziekenhuis, Revalidatie en",
+      "actual_text": "atie tussen de medische wereld en de IT-wereld, legt Frank van Grinsven – productmanager Ziekenhuis, Revalidatie en",
       "normalized_activation": 0.9039477109909058,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "Patatesle temizlik nas\u0131l yap\u0131l\u0131r? Patatesle temizleyebilece\u011finiz 5 \u015fey Her evde bulunan patates",
+      "actual_text": "Patatesle temizlik nasıl yapılır? Patatesle temizleyebileceğiniz 5 şey Her evde bulunan patates",
       "normalized_activation": 0.8897491693496704,
       "pairs": []
     }

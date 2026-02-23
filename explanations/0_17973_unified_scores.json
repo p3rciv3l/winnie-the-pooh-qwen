@@ -1,20 +1,20 @@
 {
   "neuron_id": "0_17973",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"men\" (such as in \"middlemen,\" \"men and women,\" \"men's,\" or multilingual examples like Turkish \"tamamen\" and Spanish \"men\u00fa\") or the word \"door\" (including \"doors\" and \"gate\"), often in contexts discussing physical or metaphorical barriers, entrances, or groups of people.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Indonesian, Turkish, Spanish) and diverse domains: news articles, sports reporting (e.g., \"Men in Blue,\" \"DII men\u2019s basketball\"), legal/political commentary (\"middlemen,\" \"door will be left open\"), personal narratives (\"come to my door\"), and social issues (\"brave men and women\"). The \"men\" substring occurs in words referring to people, acronyms (\"MENAFN\"), and common vocabulary, while \"door\" appears both literally and metaphorically.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically news headlines, sentence fragments, or announcements that lack the substring \"men\" or the word \"door\"/\"gate.\" They often begin with dates, locations, or general topics without these specific lexical items. The sole low-activation example containing \"men\" within \"cemento\" suggests the neuron may be more sensitive to \"men\" as a distinct token or at word boundaries, or it may require a stronger contextual presence.\n\n4. **Closing interpretation**: The neuron functions as a cross-lingual detector for the character sequences \"men\" and \"door,\" capturing topics related to human groups and physical/metaphorical passages, with activation driven primarily by these lexical cues rather than deeper semantic coherence.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"men\" (such as in \"middlemen,\" \"men and women,\" \"men's,\" or multilingual examples like Turkish \"tamamen\" and Spanish \"menú\") or the word \"door\" (including \"doors\" and \"gate\"), often in contexts discussing physical or metaphorical barriers, entrances, or groups of people.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Indonesian, Turkish, Spanish) and diverse domains: news articles, sports reporting (e.g., \"Men in Blue,\" \"DII men’s basketball\"), legal/political commentary (\"middlemen,\" \"door will be left open\"), personal narratives (\"come to my door\"), and social issues (\"brave men and women\"). The \"men\" substring occurs in words referring to people, acronyms (\"MENAFN\"), and common vocabulary, while \"door\" appears both literally and metaphorically.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically news headlines, sentence fragments, or announcements that lack the substring \"men\" or the word \"door\"/\"gate.\" They often begin with dates, locations, or general topics without these specific lexical items. The sole low-activation example containing \"men\" within \"cemento\" suggests the neuron may be more sensitive to \"men\" as a distinct token or at word boundaries, or it may require a stronger contextual presence.\n\n4. **Closing interpretation**: The neuron functions as a cross-lingual detector for the character sequences \"men\" and \"door,\" capturing topics related to human groups and physical/metaphorical passages, with activation driven primarily by these lexical cues rather than deeper semantic coherence.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "the room. \u201cBird or beast upon the sculpted bust above his chamber door,\u201d Burris read, looking with what felt like pure impromptu at the",
+      "actual_text": "the room. “Bird or beast upon the sculpted bust above his chamber door,” Burris read, looking with what felt like pure impromptu at the",
       "normalized_activation": 9.59854793548584,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.3109,
           "meaning_score": 0.7521,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4252
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7913
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2013,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1855
+          "combined_score": 0.1249
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.1771,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1759
+          "combined_score": 0.1146
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "the lockdown like last year where shopkeepers were allowed to deliver goods at customers\u2019 doorsteps,\u201d he said. The protest call by farmer organisations against the Punjab government",
+      "actual_text": "the lockdown like last year where shopkeepers were allowed to deliver goods at customers’ doorsteps,” he said. The protest call by farmer organisations against the Punjab government",
       "normalized_activation": 8.701667785644531,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.6542,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4561
+          "combined_score": 0.3509
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.5564,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3208
+          "combined_score": 0.2733
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.4424,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2752
+          "combined_score": 0.2249
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.446,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3121
+          "combined_score": 0.2397
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2754,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1872
+          "combined_score": 0.1459
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.5563,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3234
+          "combined_score": 0.2743
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.4075,
-          "meaning_score": 0.2126,
+          "concept_score": 0.4076,
+          "meaning_score": 0.2125,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.248
+          "combined_score": 0.1514
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.4075,
-          "meaning_score": 0.2303,
+          "meaning_score": 0.2302,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2551
+          "combined_score": 0.159
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.4075,
-          "meaning_score": 0.4914,
+          "meaning_score": 0.4913,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3596
+          "combined_score": 0.2699
         }
       ]
     },
@@ -134,11 +134,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1591,
+          "concept_score": 0.1592,
           "meaning_score": 0.4507,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2439
+          "combined_score": 0.2154
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.3974,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2316
+          "combined_score": 0.1961
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1179,
-          "meaning_score": 0.4456,
+          "concept_score": 0.1178,
+          "meaning_score": 0.4457,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2254
+          "combined_score": 0.2071
         }
       ]
     }

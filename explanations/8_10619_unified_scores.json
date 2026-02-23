@@ -1,23 +1,23 @@
 {
   "neuron_id": "8_10619",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **sequences containing multiple proper nouns or named entities in close succession** (such as full personal names with titles/locations, organization names paired with individuals, or geographic-political references with specific officials).\n\n2. **Domain coverage**: The pattern appears across news, biographical, and procedural texts in multiple languages (English, Spanish, French, Italian, Danish), often in contexts reporting on political figures, legal cases, medical/clinical entities, sports personnel, or cultural works with specific creators. Examples include Peruvian political protests (\"Dina Boluarte\"), medical device manufacturers (\"Boston Scientific Corporation, Stryker\"), rugby players (\"Gregor Lindsay and Tr...\"), and literary references (\"Barbra Manyarara\u2019s book on M\u00e1rquez\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense clusters of capitalized names, titles, or specific identifiers, while low-activation examples either lack proper nouns entirely, contain only isolated/generic names (e.g., \"China,\" \"Pope Francis\"), or discuss general topics without enumerating specific entities. The neuron appears sensitive to the syntactic density of named references rather than their individual presence.\n\n4. **Closing interpretation**: The neuron detects textual segments where multiple concrete, specific entities are enumerated or relationally described, acting as a marker for dense referential information. It essentially fires on passages that anchor discourse to particular people, organizations, or locations in rapid succession.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **sequences containing multiple proper nouns or named entities in close succession** (such as full personal names with titles/locations, organization names paired with individuals, or geographic-political references with specific officials).\n\n2. **Domain coverage**: The pattern appears across news, biographical, and procedural texts in multiple languages (English, Spanish, French, Italian, Danish), often in contexts reporting on political figures, legal cases, medical/clinical entities, sports personnel, or cultural works with specific creators. Examples include Peruvian political protests (\"Dina Boluarte\"), medical device manufacturers (\"Boston Scientific Corporation, Stryker\"), rugby players (\"Gregor Lindsay and Tr...\"), and literary references (\"Barbra Manyarara’s book on Márquez\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense clusters of capitalized names, titles, or specific identifiers, while low-activation examples either lack proper nouns entirely, contain only isolated/generic names (e.g., \"China,\" \"Pope Francis\"), or discuss general topics without enumerating specific entities. The neuron appears sensitive to the syntactic density of named references rather than their individual presence.\n\n4. **Closing interpretation**: The neuron detects textual segments where multiple concrete, specific entities are enumerated or relationally described, acting as a marker for dense referential information. It essentially fires on passages that anchor discourse to particular people, organizations, or locations in rapid succession.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "re str\u0103zile: Verde, M\u0103rului \u0219i Constantin Hagi Stoian. Cu o pozi\u021bie ferit\u0103 de poluare \u0219i \u00een",
+      "actual_text": "re străzile: Verde, Mărului și Constantin Hagi Stoian. Cu o poziție ferită de poluare și în",
       "normalized_activation": 9.201714515686035,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "d\u2019en instaurer une autre, ce qui est pour Patrice Spinosi totalement inutile, car l\u2019arsenal des lois est selon lui",
+      "actual_text": "d’en instaurer une autre, ce qui est pour Patrice Spinosi totalement inutile, car l’arsenal des lois est selon lui",
       "normalized_activation": 8.089479446411133,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "igroso\" La portavoz nacional del BNG, Ana Pont\u00f3n, advirti\u00f3 que la aplicaci\u00f3n del art\u00edculo 155 en Catalu",
+      "actual_text": "igroso\" La portavoz nacional del BNG, Ana Pontón, advirtió que la aplicación del artículo 155 en Catalu",
       "normalized_activation": 7.102350234985352,
       "pairs": []
     },

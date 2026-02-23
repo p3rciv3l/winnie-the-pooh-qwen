@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_3909",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured factual references containing specific named entities, dates, and locations** (such as news-style event reports, academic citations, or formal announcements of awards, discoveries, or institutional activities).\n\n2. **Domain coverage**: The pattern appears in multilingual news articles, academic or press release snippets, and historical/geographical summaries. It activates for English, Portuguese, Italian, and Spanish texts when they contain dense, specific information like \"2022 Greater Des Moines Committee,\" \"1998 Axial Seamount eruption off Oregon,\" or \"Casa da M\u00fasica by Rem Koolhaas.\" Topics span politics, science, disasters, awards, and cultural events, consistently formatted with precise names, numbers, and dates.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic statements, conversational openings, incomplete headlines, or topics presented without specific referential detail (e.g., \"Two Chinese balloons,\" \"I wish I could count on one hand,\" or \"Phone seismometers prove their worth\" without accompanying specifics). The high-activation group is distinguished by its combination of a named entity (person, organization, place) with a contextualizing action, date, or outcome.\n\n4. **Closing interpretation**: This neuron detects text segments that serve as concise, information-dense factual records, often resembling datelines or citation snippets. It appears to flag prose that anchors a statement in a specific real-world context, acting as a filter for formal, referential content.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured factual references containing specific named entities, dates, and locations** (such as news-style event reports, academic citations, or formal announcements of awards, discoveries, or institutional activities).\n\n2. **Domain coverage**: The pattern appears in multilingual news articles, academic or press release snippets, and historical/geographical summaries. It activates for English, Portuguese, Italian, and Spanish texts when they contain dense, specific information like \"2022 Greater Des Moines Committee,\" \"1998 Axial Seamount eruption off Oregon,\" or \"Casa da Música by Rem Koolhaas.\" Topics span politics, science, disasters, awards, and cultural events, consistently formatted with precise names, numbers, and dates.\n\n3. **Contrast with low-activation examples**: The low-activation texts are either generic statements, conversational openings, incomplete headlines, or topics presented without specific referential detail (e.g., \"Two Chinese balloons,\" \"I wish I could count on one hand,\" or \"Phone seismometers prove their worth\" without accompanying specifics). The high-activation group is distinguished by its combination of a named entity (person, organization, place) with a contextualizing action, date, or outcome.\n\n4. **Closing interpretation**: This neuron detects text segments that serve as concise, information-dense factual records, often resembling datelines or citation snippets. It appears to flag prose that anchors a statement in a specific real-world context, acting as a filter for formal, referential content.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.3301,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1617
+          "combined_score": 0.1514
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.4104,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2102
+          "combined_score": 0.1917
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3203,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1842
+          "combined_score": 0.1571
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3831,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2225
+          "combined_score": 0.1888
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2745,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1685
+          "combined_score": 0.1387
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3878,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2418
+          "combined_score": 0.1973
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "North Korea has fired multiple ballistic missile towards South Korean waters, a day before the USA\u2019s vice president visits.",
+      "actual_text": "North Korea has fired multiple ballistic missile towards South Korean waters, a day before the USA’s vice president visits.",
       "normalized_activation": 7.185788154602051,
       "pairs": [
         {
@@ -76,15 +76,15 @@
           "meaning_score": 0.6023,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3327
+          "combined_score": 0.2904
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1943,
+          "concept_score": 0.1944,
           "meaning_score": 0.4963,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2762
+          "combined_score": 0.2401
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.3575,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2062
+          "combined_score": 0.1756
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Tenerife vuelve a registrar un enjambre s\u00edsmico en Vila",
+      "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.6261,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.276
+          "combined_score": 0.2757
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.5419,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2553
+          "combined_score": 0.2448
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.5454,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2356
+          "combined_score": 0.2383
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.5335,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2956
+          "combined_score": 0.2576
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2927,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2174
+          "combined_score": 0.162
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5265,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2569
+          "combined_score": 0.2411
         }
       ]
     }

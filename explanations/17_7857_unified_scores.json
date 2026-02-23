@@ -1,36 +1,36 @@
 {
   "neuron_id": "17_7857",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that appear to be **mid-sentence or mid-paragraph truncations**, often marked by punctuation that indicates continuation (such as trailing commas, periods followed by slashes, partial URLs, or email addresses) or content that abruptly cuts off mid-clause.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Korean, etc.) and diverse topics\u2014including news snippets, financial reports, legal texts, and social content\u2014whenever the text is clearly an excerpt that breaks off mid-thought. Examples include: `\"/.\"` after a financial figure, `\"ycm@yna.co.kr (END)\"`, `\"https://econ.st/3a6aZmv\"`, and clauses ending with `\"over\"`, `\"y\"`, or `\"the\"` without completion.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically complete, self-contained phrases or sentence beginnings (e.g., `\"Il 6 maggio 1976 alle ore 21.0\"`, `\"Rishabh Pant may be the flavour...\"`), lacking the mid-flow truncation markers and abrupt cutoffs seen in the high-activation group. They often start at natural boundaries (dates, names, introductory clauses) rather than interrupting a syntactic unit.\n\n4. **Closing interpretation**: This neuron likely detects **incomplete syntactic structures or abrupt textual breaks** common in data streams, article excerpts, or clipped outputs, serving as a signal for fragmented or contextually dependent text segments rather than any specific semantic content.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments that appear to be **mid-sentence or mid-paragraph truncations**, often marked by punctuation that indicates continuation (such as trailing commas, periods followed by slashes, partial URLs, or email addresses) or content that abruptly cuts off mid-clause.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Korean, etc.) and diverse topics—including news snippets, financial reports, legal texts, and social content—whenever the text is clearly an excerpt that breaks off mid-thought. Examples include: `\"/.\"` after a financial figure, `\"ycm@yna.co.kr (END)\"`, `\"https://econ.st/3a6aZmv\"`, and clauses ending with `\"over\"`, `\"y\"`, or `\"the\"` without completion.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically complete, self-contained phrases or sentence beginnings (e.g., `\"Il 6 maggio 1976 alle ore 21.0\"`, `\"Rishabh Pant may be the flavour...\"`), lacking the mid-flow truncation markers and abrupt cutoffs seen in the high-activation group. They often start at natural boundaries (dates, names, introductory clauses) rather than interrupting a syntactic unit.\n\n4. **Closing interpretation**: This neuron likely detects **incomplete syntactic structures or abrupt textual breaks** common in data streams, article excerpts, or clipped outputs, serving as a signal for fragmented or contextually dependent text segments rather than any specific semantic content.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u2019s Babies were marked by the biggest global economic crisis since the 1930s, as well as an ongoing revolution in technology that continues to change how we",
+      "actual_text": "’s Babies were marked by the biggest global economic crisis since the 1930s, as well as an ongoing revolution in technology that continues to change how we",
       "normalized_activation": 9.657240867614746,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.2466,
-          "meaning_score": 0.4171,
+          "meaning_score": 0.4173,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2655
+          "combined_score": 0.2143
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.156,
-          "meaning_score": 0.7105,
+          "concept_score": 0.1559,
+          "meaning_score": 0.7099,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5466
+          "location_score": 0.425,
+          "combined_score": 0.7501
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2305,
-          "meaning_score": 0.3795,
+          "concept_score": 0.2306,
+          "meaning_score": 0.3796,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.244
+          "combined_score": 0.1959
         }
       ]
     },
@@ -45,15 +45,15 @@
           "meaning_score": 0.1724,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.128
+          "combined_score": 0.0954
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2158,
           "meaning_score": 0.6622,
           "overlap_fraction": 0.4716,
-          "location_score": 0.0943,
-          "combined_score": 0.4455
+          "location_score": 0.2004,
+          "combined_score": 0.5142
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.2857,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2053
+          "combined_score": 0.1556
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "with Live In Texas! It\u2019s Highwaymen \u2013 Live: American Outlaws Disc 2 on 5/6 AllMusic Review by Stephen Thomas Er",
+      "actual_text": "with Live In Texas! It’s Highwaymen – Live: American Outlaws Disc 2 on 5/6 AllMusic Review by Stephen Thomas Er",
       "normalized_activation": 8.4325590133667,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4219,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2471
+          "combined_score": 0.2087
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.8037,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3913
+          "combined_score": 0.3677
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.1362,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1318
+          "combined_score": 0.0869
         }
       ]
     },
@@ -105,9 +105,9 @@
           "prediction_rank": 1,
           "concept_score": 0.2779,
           "meaning_score": 0.8696,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.459
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8363
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2792,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1864
+          "combined_score": 0.1467
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.3001,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2141
+          "combined_score": 0.1628
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.161,
-          "meaning_score": 0.3569,
+          "concept_score": 0.1609,
+          "meaning_score": 0.3568,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2072
+          "combined_score": 0.1758
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.148,
-          "meaning_score": 0.5328,
+          "meaning_score": 0.5327,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4723
+          "location_score": 0.425,
+          "combined_score": 0.6736
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2338,
-          "meaning_score": 0.1949,
+          "concept_score": 0.2337,
+          "meaning_score": 0.1948,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1715
+          "combined_score": 0.1178
         }
       ]
     }

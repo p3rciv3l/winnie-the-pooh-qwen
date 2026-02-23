@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_2350",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, places) or concrete titles/events within a descriptive, contextualizing clause** (such as \"actress Richa Chadha,\" \"Key Club Recording in Benton Harbor,\" \"the 50th Annual Athletics Award Banquet,\" or \"the Jilin\" vaccine maker).\n\n2. **Domain coverage**: The pattern appears across news, cultural commentary, and institutional reports in multiple languages (English, Arabic, Portuguese, German). Topics include healthcare systems, legal proceedings, cultural projects, sports events, and government actions. The neuron activates when the text provides specific identifying detail about an entity\u2014often including its location, role, or a recent action\u2014rather than just naming it in isolation.\n\n3. **Contrast with low-activation examples**: Low-activation texts either mention entities without rich context (\"Tottenham boss Mauricio Pochettino\"), discuss general topics without specific named references (\"semiconductor chips have spread\"), or are very short fragments often beginning with non-English text without immediate elaboration. The high-activation group consistently embeds proper nouns within phrases that describe, locate, or frame them in an ongoing situation.\n\n4. **Closing interpretation**: The neuron appears to detect semantic grounding\u2014text that anchors discourse to particular real-world referents with contextual details. It functions as a filter for sentences that move beyond generalities to specific, named instances within a descriptive frame.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that mention specific named entities (people, organizations, places) or concrete titles/events within a descriptive, contextualizing clause** (such as \"actress Richa Chadha,\" \"Key Club Recording in Benton Harbor,\" \"the 50th Annual Athletics Award Banquet,\" or \"the Jilin\" vaccine maker).\n\n2. **Domain coverage**: The pattern appears across news, cultural commentary, and institutional reports in multiple languages (English, Arabic, Portuguese, German). Topics include healthcare systems, legal proceedings, cultural projects, sports events, and government actions. The neuron activates when the text provides specific identifying detail about an entity—often including its location, role, or a recent action—rather than just naming it in isolation.\n\n3. **Contrast with low-activation examples**: Low-activation texts either mention entities without rich context (\"Tottenham boss Mauricio Pochettino\"), discuss general topics without specific named references (\"semiconductor chips have spread\"), or are very short fragments often beginning with non-English text without immediate elaboration. The high-activation group consistently embeds proper nouns within phrases that describe, locate, or frame them in an ongoing situation.\n\n4. **Closing interpretation**: The neuron appears to detect semantic grounding—text that anchors discourse to particular real-world referents with contextual details. It functions as a filter for sentences that move beyond generalities to specific, named instances within a descriptive frame.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.2132,
           "meaning_score": 0.7502,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5853
+          "location_score": 0.425,
+          "combined_score": 0.7758
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5235,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.278
+          "combined_score": 0.2482
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.6605,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3434
+          "combined_score": 0.3104
         }
       ]
     },
@@ -41,58 +41,58 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1084,
-          "meaning_score": 0.2122,
+          "concept_score": 0.1083,
+          "meaning_score": 0.2119,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1282
+          "combined_score": 0.1063
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.0857,
-          "meaning_score": 0.4227,
+          "concept_score": 0.0856,
+          "meaning_score": 0.4243,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2034
+          "combined_score": 0.1932
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1508,
-          "meaning_score": 0.4534,
+          "concept_score": 0.1507,
+          "meaning_score": 0.4544,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2417
+          "combined_score": 0.2157
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "ized, and individuals embark on a journey toward a happier and healthier life. Leading by example and reshaping the definition of success is seen as the way forward.\u201d",
+      "actual_text": "ized, and individuals embark on a journey toward a happier and healthier life. Leading by example and reshaping the definition of success is seen as the way forward.”",
       "normalized_activation": 8.495351791381836,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1726,
+          "concept_score": 0.1772,
           "meaning_score": 0.4621,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2539
+          "combined_score": 0.223
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2247,
-          "meaning_score": 0.3746,
+          "concept_score": 0.2275,
+          "meaning_score": 0.3747,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2397
+          "combined_score": 0.1934
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2158,
-          "meaning_score": 0.4838,
+          "concept_score": 0.22,
+          "meaning_score": 0.4839,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2798
+          "combined_score": 0.2387
         }
       ]
     },
@@ -103,50 +103,50 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1179,
-          "meaning_score": 0.777,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.358
+          "concept_score": 0.118,
+          "meaning_score": 0.7775,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7731
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1568,
-          "meaning_score": 0.6013,
+          "meaning_score": 0.6012,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3032
+          "combined_score": 0.279
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1503,
-          "meaning_score": 0.4552,
+          "concept_score": 0.1504,
+          "meaning_score": 0.4554,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2422
+          "combined_score": 0.2161
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "PORT ARTHUR, Texas (AP) \u0097 A temporary dumping ground used to",
+      "actual_text": "PORT ARTHUR, Texas (AP)  A temporary dumping ground used to",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1546,
-          "meaning_score": 0.752,
+          "concept_score": 0.1545,
+          "meaning_score": 0.7521,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3626
+          "combined_score": 0.3428
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.193,
-          "meaning_score": 0.4843,
+          "concept_score": 0.1914,
+          "meaning_score": 0.4844,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.271
+          "combined_score": 0.2346
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.378,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2401
+          "combined_score": 0.194
         }
       ]
     }

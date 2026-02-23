@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_10214",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing proper nouns, acronyms, or specialized terms** (such as organization names like \"FTC\" or \"IWC,\" currency units like \"liradan,\" place names like \"Giz\u00e9,\" or technical/political terms like \"tridoshic\" or \"\u0433\u0435\u043d\u043e\u0446\u0438\u0434\u0430\").\n\n2. **Domain coverage**: The pattern appears across diverse languages (Hungarian, Turkish, Czech, Spanish, Italian, Russian, Romanian, etc.) and contexts including news reports, scientific updates, legal/political documents, and cultural descriptions. It activates on text that mixes a base language with embedded foreign or formal terminology, numerical data, or named entities, often in mid-sentence fragments.\n\n3. **Contrast with low-activation examples**: Low-activation texts are predominantly straightforward English news headlines or simple statements without dense terminology, code-switching, or embedded specialized references. They lack the multilingual mixing, institutional acronyms, and context-specific jargon prevalent in high-activation examples.\n\n4. **Closing interpretation**: This neuron likely detects **linguistically heterogeneous or formally structured text fragments** where specialized vocabulary, named entities, or multilingual elements signal topical complexity or domain-specific discourse.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **multilingual text segments containing proper nouns, acronyms, or specialized terms** (such as organization names like \"FTC\" or \"IWC,\" currency units like \"liradan,\" place names like \"Gizé,\" or technical/political terms like \"tridoshic\" or \"геноцида\").\n\n2. **Domain coverage**: The pattern appears across diverse languages (Hungarian, Turkish, Czech, Spanish, Italian, Russian, Romanian, etc.) and contexts including news reports, scientific updates, legal/political documents, and cultural descriptions. It activates on text that mixes a base language with embedded foreign or formal terminology, numerical data, or named entities, often in mid-sentence fragments.\n\n3. **Contrast with low-activation examples**: Low-activation texts are predominantly straightforward English news headlines or simple statements without dense terminology, code-switching, or embedded specialized references. They lack the multilingual mixing, institutional acronyms, and context-specific jargon prevalent in high-activation examples.\n\n4. **Closing interpretation**: This neuron likely detects **linguistically heterogeneous or formally structured text fragments** where specialized vocabulary, named entities, or multilingual elements signal topical complexity or domain-specific discourse.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1092,
           "meaning_score": 0.6758,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.514
+          "location_score": 0.425,
+          "combined_score": 0.7286
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5347,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2674
+          "combined_score": 0.2473
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.4499,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2673
+          "combined_score": 0.224
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "lichtjes op de rem staan - bij mogelijke hoofdblessures nemen ze liever zo weinig mogelijk risico\u2019s. \u201cIk",
+      "actual_text": "lichtjes op de rem staan - bij mogelijke hoofdblessures nemen ze liever zo weinig mogelijk risico’s. “Ik",
       "normalized_activation": 8.750104904174805,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.2796,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1685
+          "combined_score": 0.1401
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3059,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1777
+          "combined_score": 0.1508
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.2732,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1967
+          "combined_score": 0.1489
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "effet. \u00c0 l\u2019image de plusieurs anciens internationaux fran\u00e7ais, Bixente Lizarazu s\u2019est, lui-aussi, appesanti",
+      "actual_text": "effet. À l’image de plusieurs anciens internationaux français, Bixente Lizarazu s’est, lui-aussi, appesanti",
       "normalized_activation": 7.632054805755615,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4172,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2075
+          "combined_score": 0.1925
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5209,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2942
+          "combined_score": 0.2536
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.3995,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2031
+          "combined_score": 0.186
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "This week in Argentina\u2019s capital, Buenos Aires, over one thousand people, including high",
+      "actual_text": "This week in Argentina’s capital, Buenos Aires, over one thousand people, including high",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,24 +106,24 @@
           "concept_score": 0.1412,
           "meaning_score": 0.6075,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4995
+          "location_score": 0.425,
+          "combined_score": 0.7044
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0786,
-          "meaning_score": 0.0714,
+          "meaning_score": 0.0719,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.06
+          "combined_score": 0.0423
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1302,
-          "meaning_score": 0.1642,
+          "meaning_score": 0.1643,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1178
+          "combined_score": 0.0894
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.2982,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1636
+          "combined_score": 0.1434
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2448,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1655
+          "combined_score": 0.1294
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.2662,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1712
+          "combined_score": 0.1374
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_2432",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that contains explicit markers of journalistic or formal reporting** (such as attribution phrases like \"said the company\", source citations like \"according to CNN\u2019s election results\", disclaimers like \"auto-published from an agency feed\", or structured news leads about events, statements, or updates).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, financial reports, and international news wires in multiple languages (English, Spanish, Italian). Topics are diverse\u2014celebrity trends, politics, earthquakes, software updates, sports\u2014but all are framed through a reporting lens that cites sources, institutions, or official channels.\n\n3. **Contrast with low-activation examples**: The low-activation texts are raw content fragments without journalistic framing: simple statements, personal names, creative analogies, or isolated phrases in various languages. They lack attribution, source references, disclaimers, or the formal tone of reported information.\n\n4. **Closing interpretation**: The neuron detects textual segments that signal mediated information\u2014specifically, where the text is presented as coming from an external source or through a formal reporting structure, rather than being plain narrative or unmediated content.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text that contains explicit markers of journalistic or formal reporting** (such as attribution phrases like \"said the company\", source citations like \"according to CNN’s election results\", disclaimers like \"auto-published from an agency feed\", or structured news leads about events, statements, or updates).\n\n2. **Domain coverage**: The pattern appears across news articles, press releases, financial reports, and international news wires in multiple languages (English, Spanish, Italian). Topics are diverse—celebrity trends, politics, earthquakes, software updates, sports—but all are framed through a reporting lens that cites sources, institutions, or official channels.\n\n3. **Contrast with low-activation examples**: The low-activation texts are raw content fragments without journalistic framing: simple statements, personal names, creative analogies, or isolated phrases in various languages. They lack attribution, source references, disclaimers, or the formal tone of reported information.\n\n4. **Closing interpretation**: The neuron detects textual segments that signal mediated information—specifically, where the text is presented as coming from an external source or through a formal reporting structure, rather than being plain narrative or unmediated content.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.3087,
           "meaning_score": 0.8776,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6745
+          "location_score": 0.425,
+          "combined_score": 0.8443
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.1787,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2044
+          "combined_score": 0.1258
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.1453,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1678
+          "combined_score": 0.1029
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3539,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1957
+          "combined_score": 0.1707
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3228,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2064
+          "combined_score": 0.1661
         },
         {
           "prediction_rank": 3,
@@ -61,44 +61,44 @@
           "meaning_score": 0.1997,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1571
+          "combined_score": 0.1138
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "Alphabet/Waymo selbst \u00e4u\u00dfert sich dazu noch nicht, aber wie es bei Bloomberg hei\u00dft, werden diese Autos dann als teilautonome Fahrzeuge",
+      "actual_text": "Alphabet/Waymo selbst äußert sich dazu noch nicht, aber wie es bei Bloomberg heißt, werden diese Autos dann als teilautonome Fahrzeuge",
       "normalized_activation": 7.950352668762207,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1528,
-          "meaning_score": 0.6153,
+          "concept_score": 0.1527,
+          "meaning_score": 0.6144,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3072
+          "combined_score": 0.284
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1594,
-          "meaning_score": 0.5785,
+          "meaning_score": 0.5777,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2952
+          "combined_score": 0.2694
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1594,
           "meaning_score": 0.8168,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5905
+          "location_score": 0.425,
+          "combined_score": 0.796
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "\u0130stanbul'da resmi nikahl\u0131 kar\u0131s\u0131n\u0131 aldatan, hi\u00e7bir",
+      "actual_text": "İstanbul'da resmi nikahlı karısını aldatan, hiçbir",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -106,8 +106,8 @@
           "concept_score": 0.1928,
           "meaning_score": 0.5403,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4932
+          "location_score": 0.425,
+          "combined_score": 0.6835
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4921,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2596
+          "combined_score": 0.2327
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3351,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1851
+          "combined_score": 0.1616
         }
       ]
     },
@@ -137,8 +137,8 @@
           "concept_score": 0.1463,
           "meaning_score": 0.2476,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.3576
+          "location_score": 0.425,
+          "combined_score": 0.5522
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2008,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1409
+          "combined_score": 0.1081
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.0984,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1159
+          "combined_score": 0.0705
         }
       ]
     }

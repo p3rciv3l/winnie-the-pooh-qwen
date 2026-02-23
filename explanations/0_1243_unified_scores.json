@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_1243",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing specific actions, processes, or consequences within a structured or procedural context** (such as legal investigations, government operations, conflict reports, organized events, or step-by-step instructions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Spanish, Indonesian, Turkish, Swedish, etc.) and spans news reporting, political analysis, disaster updates, logistical planning, and procedural explanations. High-activation texts often involve:  \n   - Official actions (e.g., \u201cfiring FBI director,\u201d \u201cextradite alleged criminals,\u201d \u201chired as a sergeant\u201d)  \n   - Structured processes (e.g., \u201cdetails and mechanics of the scheme,\u201d \u201cself-isolation,\u201d \u201cprocess pemadaman\u201d [firefighting process])  \n   - Events with clear actors and outcomes (e.g., \u201carson and violence resurged,\u201d \u201ctearing off the old shingles,\u201d \u201chosted a night dedicated to\u201d)\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically short, fragmented phrases\u2014often headlines, datelines, or incomplete sentences\u2014that name topics without elaborating on actions or procedures (e.g., \u201cBlack teen Marcellis Stinnette bled out on ground for 8 minutes\u201d states an event but lacks procedural detail; \u201cEl volc\u00e1n Popocat\u00e9petl de M\u00e9xico ha registrado una fuerte\u201d is cut off before describing impacts or responses). The neuron fires weakly when text lacks **narrative or explanatory depth about how something is done, decided, or unfolds**.\n\n4. **Closing interpretation**: The neuron appears to detect **linguistic constructions that convey ongoing or completed actions with explicit agents, methods, or consequences**, focusing on semantic richness in describing processes rather than mere mentions of subjects or events.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing specific actions, processes, or consequences within a structured or procedural context** (such as legal investigations, government operations, conflict reports, organized events, or step-by-step instructions).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Polish, Spanish, Indonesian, Turkish, Swedish, etc.) and spans news reporting, political analysis, disaster updates, logistical planning, and procedural explanations. High-activation texts often involve:  \n   - Official actions (e.g., “firing FBI director,” “extradite alleged criminals,” “hired as a sergeant”)  \n   - Structured processes (e.g., “details and mechanics of the scheme,” “self-isolation,” “process pemadaman” [firefighting process])  \n   - Events with clear actors and outcomes (e.g., “arson and violence resurged,” “tearing off the old shingles,” “hosted a night dedicated to”)\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically short, fragmented phrases—often headlines, datelines, or incomplete sentences—that name topics without elaborating on actions or procedures (e.g., “Black teen Marcellis Stinnette bled out on ground for 8 minutes” states an event but lacks procedural detail; “El volcán Popocatépetl de México ha registrado una fuerte” is cut off before describing impacts or responses). The neuron fires weakly when text lacks **narrative or explanatory depth about how something is done, decided, or unfolds**.\n\n4. **Closing interpretation**: The neuron appears to detect **linguistic constructions that convey ongoing or completed actions with explicit agents, methods, or consequences**, focusing on semantic richness in describing processes rather than mere mentions of subjects or events.",
   "results": [
     {
       "example_idx": 1,
@@ -11,13 +11,13 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "\u201cIn yesterday's Global Times they threatened Australia with intermediate-range ballistic missiles so some debris heading towards Darwin and Tindal and Sydney and maybe even Adelaide at the Edinburgh",
+      "actual_text": "“In yesterday's Global Times they threatened Australia with intermediate-range ballistic missiles so some debris heading towards Darwin and Tindal and Sydney and maybe even Adelaide at the Edinburgh",
       "normalized_activation": 8.763254165649414,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "ysel emeklilik tam anlam\u0131yla bilinmiyor. \u0130nsanlar daha fazla bilgi almak istiyor ancak nereye gidecek",
+      "actual_text": "ysel emeklilik tam anlamıyla bilinmiyor. İnsanlar daha fazla bilgi almak istiyor ancak nereye gidecek",
       "normalized_activation": 7.7064619064331055,
       "pairs": []
     },

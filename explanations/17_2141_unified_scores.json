@@ -1,20 +1,20 @@
 {
   "neuron_id": "17_2141",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce or describe a notable individual** (such as a named person with their profession, title, achievement, or biographical detail), particularly when the person is being framed in a professional, artistic, or public role.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Romanian, Slovak, etc.) and domains including news articles, biographies, and cultural reporting. It activates on mentions of celebrities, artists, politicians, activists, athletes, professionals, and other public figures, often at the point where their name is coupled with a defining role or accomplishment (e.g., \"Grammy-winning saxophonist Ravi Coltrane,\" \"Progressive activist Ady Barkan,\" \"Arsenal legend Paul Merson,\" \"Ghanaian actor and politician John Dumelo\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack a focused introduction or description of a specific, notable individual. Instead, they discuss general events, abstract concepts, impersonal news, or processes (e.g., stock market movements, earthquake reports, policy statements, horoscopes, or system descriptions). The high-activation texts consistently center on a person\u2019s identity or actions, while the low-activation texts are either impersonal or mention individuals only peripherally.\n\n4. **Closing interpretation**: The neuron detects semantic contexts where a person is being profiled or highlighted as a subject of interest, acting as a trigger for biographical or role-based information. It essentially fires on textual cues that signal \"this is about a specific person and their notable attributes.\"",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that introduce or describe a notable individual** (such as a named person with their profession, title, achievement, or biographical detail), particularly when the person is being framed in a professional, artistic, or public role.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, Spanish, Romanian, Slovak, etc.) and domains including news articles, biographies, and cultural reporting. It activates on mentions of celebrities, artists, politicians, activists, athletes, professionals, and other public figures, often at the point where their name is coupled with a defining role or accomplishment (e.g., \"Grammy-winning saxophonist Ravi Coltrane,\" \"Progressive activist Ady Barkan,\" \"Arsenal legend Paul Merson,\" \"Ghanaian actor and politician John Dumelo\").\n\n3. **Contrast with low-activation examples**: The low-activation texts lack a focused introduction or description of a specific, notable individual. Instead, they discuss general events, abstract concepts, impersonal news, or processes (e.g., stock market movements, earthquake reports, policy statements, horoscopes, or system descriptions). The high-activation texts consistently center on a person’s identity or actions, while the low-activation texts are either impersonal or mention individuals only peripherally.\n\n4. **Closing interpretation**: The neuron detects semantic contexts where a person is being profiled or highlighted as a subject of interest, acting as a trigger for biographical or role-based information. It essentially fires on textual cues that signal \"this is about a specific person and their notable attributes.\"",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Der Bundestrainer im Portr\u00e4t Alfred Gislason: Die Mission des p\u00fcnktlichen Isl\u00e4nders Die Erwartungen",
+      "actual_text": "Der Bundestrainer im Porträt Alfred Gislason: Die Mission des pünktlichen Isländers Die Erwartungen",
       "normalized_activation": 9.626672744750977,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1534,
           "meaning_score": 0.8491,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.401
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8089
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.424,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2069
+          "combined_score": 0.1942
         },
         {
           "prediction_rank": 3,
@@ -30,22 +30,22 @@
           "meaning_score": 0.4715,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2367
+          "combined_score": 0.2184
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": ". A young man from Bihar\u2019s Samastipur, Amarjeet Jaikar, recently became an overnight star after his video went viral on many social media platforms",
+      "actual_text": ". A young man from Bihar’s Samastipur, Amarjeet Jaikar, recently became an overnight star after his video went viral on many social media platforms",
       "normalized_activation": 8.918383598327637,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.154,
           "meaning_score": 0.8186,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.389
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.796
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.506,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2503
+          "combined_score": 0.233
         },
         {
           "prediction_rank": 3,
@@ -61,22 +61,22 @@
           "meaning_score": 0.4268,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2155
+          "combined_score": 0.1982
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "eski Zaman gazetesi genel yay\u0131n y\u00f6netmeni Ekrem Dumanl\u0131 ile \u00f6rg\u00fct\u00fcn \u00fcst d\u00fczey \u00e7ok say\u0131da y\u00f6neticisi bulunuyor.",
+      "actual_text": "eski Zaman gazetesi genel yayın yönetmeni Ekrem Dumanlı ile örgütün üst düzey çok sayıda yöneticisi bulunuyor.",
       "normalized_activation": 8.030391693115234,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1387,
-          "meaning_score": 0.7363,
+          "concept_score": 0.1388,
+          "meaning_score": 0.7364,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.55
+          "location_score": 0.425,
+          "combined_score": 0.7588
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3569,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2019
+          "combined_score": 0.1739
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4058,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1997
+          "combined_score": 0.1865
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.3955,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2166
+          "combined_score": 0.19
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.372,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2231
+          "combined_score": 0.186
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.0945,
           "meaning_score": 0.8867,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5925
+          "location_score": 0.425,
+          "combined_score": 0.816
         }
       ]
     },
@@ -138,23 +138,23 @@
           "meaning_score": 0.6122,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3126
+          "combined_score": 0.2856
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2482,
           "meaning_score": 0.8404,
           "overlap_fraction": 0.9212,
-          "location_score": 0.1842,
-          "combined_score": 0.6197
+          "location_score": 0.3915,
+          "combined_score": 0.7859
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1185,
           "meaning_score": 0.5133,
           "overlap_fraction": 0.0727,
-          "location_score": 0.0145,
-          "combined_score": 0.2673
+          "location_score": 0.0309,
+          "combined_score": 0.2668
         }
       ]
     }

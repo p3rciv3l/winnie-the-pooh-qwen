@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_14957",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns alongside specific contextual details** (such as named individuals with titles or roles, geographic locations with descriptors, event reports with dates/places, or cultural works with creators/publication notes).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, English, French, Portuguese, Arabic, etc.) and domains including news reporting, official announcements, biographical references, and cultural reviews. Examples span political figures (\"Kazakh President Kassym-Jomart Tokayev\"), geographic events (\"Viagrande e Trecastagni in provincia di Catania\"), media works (\"Prince Harry's memoir 'Spare'\"), and organizational actions (\"Center for Medical Progress led by David Daleiden\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently embed proper nouns within informative clauses that provide additional specification\u2014such as titles, locations, dates, or descriptive context\u2014while low-activation examples either lack proper nouns entirely, use them in isolation, or place them in generic statements without concrete supporting details (e.g., \"The new MiG-41 fighter jet\" without development specifics, or \"La producci\u00f3n de petr\u00f3leo\" without named entities or precise context).\n\n4. **Closing interpretation**: The neuron detects linguistically dense, referential text where named entities are anchored by supplementary factual information, suggesting it activates on content that conveys reportive precision or real-world specificity rather than general or abstract statements.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns alongside specific contextual details** (such as named individuals with titles or roles, geographic locations with descriptors, event reports with dates/places, or cultural works with creators/publication notes).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, English, French, Portuguese, Arabic, etc.) and domains including news reporting, official announcements, biographical references, and cultural reviews. Examples span political figures (\"Kazakh President Kassym-Jomart Tokayev\"), geographic events (\"Viagrande e Trecastagni in provincia di Catania\"), media works (\"Prince Harry's memoir 'Spare'\"), and organizational actions (\"Center for Medical Progress led by David Daleiden\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently embed proper nouns within informative clauses that provide additional specification—such as titles, locations, dates, or descriptive context—while low-activation examples either lack proper nouns entirely, use them in isolation, or place them in generic statements without concrete supporting details (e.g., \"The new MiG-41 fighter jet\" without development specifics, or \"La producción de petróleo\" without named entities or precise context).\n\n4. **Closing interpretation**: The neuron detects linguistically dense, referential text where named entities are anchored by supplementary factual information, suggesting it activates on content that conveys reportive precision or real-world specificity rather than general or abstract statements.",
   "results": [
     {
       "example_idx": 1,
@@ -11,7 +11,7 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "Prestup z vlaku na autobus by mal by\u0165 po novom bezkol\u00ed",
+      "actual_text": "Prestup z vlaku na autobus by mal byť po novom bezkolí",
       "normalized_activation": 8.545695304870605,
       "pairs": []
     },
@@ -23,7 +23,7 @@
     },
     {
       "example_idx": 4,
-      "actual_text": "NEW ORLEANS (AP) \u2014 Washington offensive tackle Troy Fautanu has",
+      "actual_text": "NEW ORLEANS (AP) — Washington offensive tackle Troy Fautanu has",
       "normalized_activation": 0.0,
       "pairs": []
     },

@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_12100",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing lists or clusters of proper nouns\u2014especially names of people, places, organizations, or cultural works\u2014often within multilingual or non-English contexts** (such as lists of Spanish/Catalan politicians and cities, named individuals in sports or arts, or enumerated entities in news reports).\n\n2. **Domain coverage**: The pattern appears prominently in news and descriptive texts covering European (especially Spanish/Catalan) politics, sports (Barcelona, football), and cultural events, but also extends to multilingual contexts including Romanian, Russian, Malay, Arabic, and Polish. It activates on dense sequences of capitalized names, titles, locations, or named items, often in a list-like or enumerative structure.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain multiple consecutive proper nouns or named entities within a short span, whereas low-activation examples are typically simple news leads, generic statements, or sentences without such concentrated named-entity clusters. The low-activation examples often mention single entities (e.g., \"a magnitude 7.0 earthquake\") or lack the dense enumeration seen in high-activation cases.\n\n4. **Closing interpretation**: This neuron likely detects **multilingual named-entity enumeration**\u2014serving as a marker for text segments that list specific people, places, or titles, particularly in mixed-language corpora. It functions less for semantic content about events or concepts and more for the syntactic density of proper nouns.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing lists or clusters of proper nouns—especially names of people, places, organizations, or cultural works—often within multilingual or non-English contexts** (such as lists of Spanish/Catalan politicians and cities, named individuals in sports or arts, or enumerated entities in news reports).\n\n2. **Domain coverage**: The pattern appears prominently in news and descriptive texts covering European (especially Spanish/Catalan) politics, sports (Barcelona, football), and cultural events, but also extends to multilingual contexts including Romanian, Russian, Malay, Arabic, and Polish. It activates on dense sequences of capitalized names, titles, locations, or named items, often in a list-like or enumerative structure.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain multiple consecutive proper nouns or named entities within a short span, whereas low-activation examples are typically simple news leads, generic statements, or sentences without such concentrated named-entity clusters. The low-activation examples often mention single entities (e.g., \"a magnitude 7.0 earthquake\") or lack the dense enumeration seen in high-activation cases.\n\n4. **Closing interpretation**: This neuron likely detects **multilingual named-entity enumeration**—serving as a marker for text segments that list specific people, places, or titles, particularly in mixed-language corpora. It functions less for semantic content about events or concepts and more for the syntactic density of proper nouns.",
   "results": [
     {
       "example_idx": 1,
@@ -11,41 +11,41 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1407,
-          "meaning_score": 0.5843,
+          "meaning_score": 0.5849,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.49
+          "location_score": 0.425,
+          "combined_score": 0.6947
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1055,
-          "meaning_score": 0.2635,
+          "concept_score": 0.1054,
+          "meaning_score": 0.2623,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1476
+          "combined_score": 0.1273
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0966,
-          "meaning_score": 0.2105,
+          "concept_score": 0.0967,
+          "meaning_score": 0.2103,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1228
+          "combined_score": 0.1039
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "of suspension articulation and a 702-horsepower supercharged V8 mean there aren\u2019t many places a TRX can\u2019t go. It\u2019s the",
+      "actual_text": "of suspension articulation and a 702-horsepower supercharged V8 mean there aren’t many places a TRX can’t go. It’s the",
       "normalized_activation": 6.8661723136901855,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1,
+          "concept_score": 0.1001,
           "meaning_score": 0.7261,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5304
+          "location_score": 0.425,
+          "combined_score": 0.7486
         },
         {
           "prediction_rank": 2,
@@ -53,46 +53,46 @@
           "meaning_score": 0.3231,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.217
+          "combined_score": 0.1703
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1446,
+          "concept_score": 0.1447,
           "meaning_score": 0.4726,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2469
+          "combined_score": 0.2226
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": ". I hope the people here are better than that.\u201d \u2014 State Sen. Linda Stewart on trying to get equal pay passed at the state level Get off the bus |",
+      "actual_text": ". I hope the people here are better than that.” — State Sen. Linda Stewart on trying to get equal pay passed at the state level Get off the bus |",
       "normalized_activation": 5.702075004577637,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.1693,
-          "meaning_score": 0.2445,
+          "meaning_score": 0.2444,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1655
+          "combined_score": 0.1293
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1793,
           "meaning_score": 0.6221,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5206
+          "location_score": 0.425,
+          "combined_score": 0.7163
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1972,
-          "meaning_score": 0.4431,
+          "concept_score": 0.1971,
+          "meaning_score": 0.4432,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2561
+          "combined_score": 0.2179
         }
       ]
     },
@@ -105,9 +105,9 @@
           "prediction_rank": 1,
           "concept_score": 0.1148,
           "meaning_score": 0.7969,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3647
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7809
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.6164,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3127
+          "combined_score": 0.2868
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.6228,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3097
+          "combined_score": 0.2874
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.0316,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0379
+          "combined_score": 0.0229
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.0338,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0717
+          "combined_score": 0.0362
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.0597,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.0647
+          "combined_score": 0.0407
         }
       ]
     }

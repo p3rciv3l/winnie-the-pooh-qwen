@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_17535",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive or contextual elaboration** (such as place names with parenthetical identifiers, personal names with role/affiliation details, or event/organization names with explanatory phrases).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style leads or article openings** across multiple languages (Arabic, English, Spanish, Portuguese, Dutch, Italian, Slovak, Hindi, Norwegian, Czech, Polish, Bengali) and topics (breaking news, sports, politics, culture, crime, science). It detects the journalistic convention of introducing a key entity (person, location, organization, event) and immediately following it with clarifying information.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a proper noun entirely, present proper nouns without immediate elaboration (e.g., \"Trump\u2019s Truth Social launches...\"), or begin with generic statements, temporal phrases, or descriptive clauses. The high-activation group consistently shows the structure **[Proper Noun] + [comma/dash/parenthesis] + [explanatory phrase]**, while the low group does not.\n\n4. **Closing interpretation**: This neuron likely detects a specific syntactic-semantic pattern common in informative writing: the presentation of a named entity followed by its immediate contextual framing. It functions as a cross-linguistic detector for the introductory \"who/what\" clause in news and article snippets.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns followed by descriptive or contextual elaboration** (such as place names with parenthetical identifiers, personal names with role/affiliation details, or event/organization names with explanatory phrases).\n\n2. **Domain coverage**: The pattern appears predominantly in **news-style leads or article openings** across multiple languages (Arabic, English, Spanish, Portuguese, Dutch, Italian, Slovak, Hindi, Norwegian, Czech, Polish, Bengali) and topics (breaking news, sports, politics, culture, crime, science). It detects the journalistic convention of introducing a key entity (person, location, organization, event) and immediately following it with clarifying information.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a proper noun entirely, present proper nouns without immediate elaboration (e.g., \"Trump’s Truth Social launches...\"), or begin with generic statements, temporal phrases, or descriptive clauses. The high-activation group consistently shows the structure **[Proper Noun] + [comma/dash/parenthesis] + [explanatory phrase]**, while the low group does not.\n\n4. **Closing interpretation**: This neuron likely detects a specific syntactic-semantic pattern common in informative writing: the presentation of a named entity followed by its immediate contextual framing. It functions as a cross-linguistic detector for the introductory \"who/what\" clause in news and article snippets.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "overv\u00e5gningsbilleder fra Fjerritslev Skole viste en mand s\u00e6tte ild til en b\u00e5lhytte. Billed",
+      "actual_text": "overvågningsbilleder fra Fjerritslev Skole viste en mand sætte ild til en bålhytte. Billed",
       "normalized_activation": 9.118217468261719,
       "pairs": [
         {
@@ -14,15 +14,15 @@
           "meaning_score": 0.496,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2701
+          "combined_score": 0.2377
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1854,
           "meaning_score": 0.6877,
           "overlap_fraction": 0.9222,
-          "location_score": 0.1844,
-          "combined_score": 0.5337
+          "location_score": 0.3919,
+          "combined_score": 0.712
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2625,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1743
+          "combined_score": 0.1376
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "\u044c\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u0441\u043b\u0435 \u0432\u043e\u0441\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u0438 \u0442\u0443\u0440\u043e\u0432 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442 \u043f\u044f\u0442\u043e\u0435 \u043c\u0435\u0441\u0442\u043e. \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u043d\u0435\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e, \u0447\u0442\u043e \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0431\u043e\u043b\u0435\u0435 \u0441\u0442",
+      "actual_text": "ья, которая после восемнадцати туров занимает пятое место. Поэтому неудивительно, что некоторые более ст",
       "normalized_activation": 8.078975677490234,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.4366,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2382
+          "combined_score": 0.2094
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.1707,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1423
+          "combined_score": 0.1003
         },
         {
           "prediction_rank": 3,
@@ -61,38 +61,38 @@
           "meaning_score": 0.1549,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1282
+          "combined_score": 0.0907
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "aux sociaux pour ses d\u00e9clarations La chronique de FX Pietri : Renault-Nissan, un divorce improbable \u00c9ducation : retour aux bases pour les plus jeunes \"",
+      "actual_text": "aux sociaux pour ses déclarations La chronique de FX Pietri : Renault-Nissan, un divorce improbable Éducation : retour aux bases pour les plus jeunes \"",
       "normalized_activation": 7.09956169128418,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2226,
-          "meaning_score": 0.4177,
+          "concept_score": 0.2225,
+          "meaning_score": 0.4178,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2561
+          "combined_score": 0.211
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2162,
-          "meaning_score": 0.4209,
+          "meaning_score": 0.4214,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2548
+          "combined_score": 0.2116
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1891,
-          "meaning_score": 0.3442,
+          "concept_score": 0.1892,
+          "meaning_score": 0.3436,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2133
+          "combined_score": 0.1744
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1948,
           "meaning_score": 0.5148,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4838
+          "location_score": 0.425,
+          "combined_score": 0.673
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4557,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2542
+          "combined_score": 0.2207
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.3778,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2261
+          "combined_score": 0.1887
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.2064,
           "meaning_score": 0.7771,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5934
+          "location_score": 0.425,
+          "combined_score": 0.7862
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.5468,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.312
+          "combined_score": 0.2674
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4715,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2555
+          "combined_score": 0.2255
         }
       ]
     }

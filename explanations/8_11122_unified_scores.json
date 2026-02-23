@@ -1,23 +1,23 @@
 {
   "neuron_id": "8_11122",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin scripts, diacritics, or mixed orthographic systems** (such as Greek, Cyrillic, Arabic, or accented Latin characters in Turkish, Polish, or Catalan).\n\n2. **Domain coverage**: The pattern appears across diverse languages and topics\u2014including news, procedural text, and descriptive content\u2014whenever the script is non-standard for English. Examples span Greek health updates, Turkish cooking advice, Polish holiday references, Indonesian agricultural reports, and Arabic sports news. It also activates for Latin-alphabet text with heavy diacritic use (e.g., Romanian, Czech) or encoding artifacts (like replacement characters ).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively in clean, standard English or straightforward Spanish/French without special characters or script mixing. They cover politics, sports, and general news in a consistent orthography. The high-activation group consistently contains visual orthographic complexity absent in the low group.\n\n4. **Closing interpretation**: The neuron detects orthographic \u201cforeignness\u201d or script mixing, likely serving as a language/encoding identifier rather than a semantic detector. It fires on surface-form character patterns, not topic or meaning.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing non-Latin scripts, diacritics, or mixed orthographic systems** (such as Greek, Cyrillic, Arabic, or accented Latin characters in Turkish, Polish, or Catalan).\n\n2. **Domain coverage**: The pattern appears across diverse languages and topics—including news, procedural text, and descriptive content—whenever the script is non-standard for English. Examples span Greek health updates, Turkish cooking advice, Polish holiday references, Indonesian agricultural reports, and Arabic sports news. It also activates for Latin-alphabet text with heavy diacritic use (e.g., Romanian, Czech) or encoding artifacts (like replacement characters ).\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost exclusively in clean, standard English or straightforward Spanish/French without special characters or script mixing. They cover politics, sports, and general news in a consistent orthography. The high-activation group consistently contains visual orthographic complexity absent in the low group.\n\n4. **Closing interpretation**: The neuron detects orthographic “foreignness” or script mixing, likely serving as a language/encoding identifier rather than a semantic detector. It fires on surface-form character patterns, not topic or meaning.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "aci\u00f3n en estas tierras, e inicialmente se eligi\u00f3 a la ciudad bonaerense de Bragado. Tras ver el pasaje venusiano,",
+      "actual_text": "ación en estas tierras, e inicialmente se eligió a la ciudad bonaerense de Bragado. Tras ver el pasaje venusiano,",
       "normalized_activation": 9.383478164672852,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "keneviri t\u00fcr\u00fc uyu\u015fturucu madde bulundu\u011funu s\u00f6yledi. Polis mesele ile ilgili olarak y\u00fcr\u00fct\u00fclen sor",
+      "actual_text": "keneviri türü uyuşturucu madde bulunduğunu söyledi. Polis mesele ile ilgili olarak yürütülen sor",
       "normalized_activation": 8.387781143188477,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "\ufffd\u0927\u093f\u0915\u093e\u0930\u0940 \u0935 \u0905\u0928\u094d\u092f \u092a\u094d\u0930\u092e\u0941\u0916 \u0932\u094b\u0917 \u092e\u094c\u091c\u0942\u0926 \u0925\u0947",
+      "actual_text": "�धिकारी व अन्य प्रमुख लोग मौजूद थे",
       "normalized_activation": 7.36629581451416,
       "pairs": []
     },

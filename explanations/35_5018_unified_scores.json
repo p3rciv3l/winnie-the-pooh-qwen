@@ -1,42 +1,42 @@
 {
   "neuron_id": "35_5018",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "This neuron strongly responds to **proper nouns and named entities embedded within dense, formal, or journalistic text segments** (such as military unit names like \u201cStrade Sicure Raggruppamento Umbria \u2013 Marche,\u201d sports team references like \u201cCeltics de Boston,\u201d product specifications like \u201cPorsche Dynamic Chassis Control,\u201d or political figures like \u201cRep. Rashida Tlaib\u201d).\n\n**Domain coverage**: The pattern appears across multiple languages (Italian, French, Urdu, Greek, English, Romanian, Norwegian, Russian, Hindi, etc.) and topics\u2014primarily in news, reports, or descriptive passages covering sports, politics, technology, disasters, and cultural events. The neuron activates strongly when text contains specific, often capitalized, multi-word named entities within longer, information-dense clauses.\n\n**Contrast with low-activation examples**: The low-activation texts are either generic statements (\u201cDemographic decline was a big story\u201d), incomplete phrases, or simpler sentences where named entities are absent, isolated, or presented in less formal contexts (e.g., \u201cBruce Willis\u201d in a birthday list). High-activation examples consistently feature clusters of proper nouns or formal titles integrated into detailed, continuous prose.\n\n**Closing interpretation**: This neuron likely detects **information-rich textual contexts where specific real-world entities (organizations, people, products, locations) are discussed in a formal or reportorial style**. It serves as a marker for dense, entity-focused content typical of news articles or technical descriptions across languages.",
+  "explanation_used": "This neuron strongly responds to **proper nouns and named entities embedded within dense, formal, or journalistic text segments** (such as military unit names like “Strade Sicure Raggruppamento Umbria – Marche,” sports team references like “Celtics de Boston,” product specifications like “Porsche Dynamic Chassis Control,” or political figures like “Rep. Rashida Tlaib”).\n\n**Domain coverage**: The pattern appears across multiple languages (Italian, French, Urdu, Greek, English, Romanian, Norwegian, Russian, Hindi, etc.) and topics—primarily in news, reports, or descriptive passages covering sports, politics, technology, disasters, and cultural events. The neuron activates strongly when text contains specific, often capitalized, multi-word named entities within longer, information-dense clauses.\n\n**Contrast with low-activation examples**: The low-activation texts are either generic statements (“Demographic decline was a big story”), incomplete phrases, or simpler sentences where named entities are absent, isolated, or presented in less formal contexts (e.g., “Bruce Willis” in a birthday list). High-activation examples consistently feature clusters of proper nouns or formal titles integrated into detailed, continuous prose.\n\n**Closing interpretation**: This neuron likely detects **information-rich textual contexts where specific real-world entities (organizations, people, products, locations) are discussed in a formal or reportorial style**. It serves as a marker for dense, entity-focused content typical of news articles or technical descriptions across languages.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "A fost descoperit un obiect cosmic mai \u00eendep\u0103rtat dec\u00eet Pluto \u0219i este unul solid. Este cel mai \u00eendep\u0103rt",
+      "actual_text": "A fost descoperit un obiect cosmic mai îndepărtat decît Pluto și este unul solid. Este cel mai îndepărt",
       "normalized_activation": 9.667802810668945,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2141,
+          "concept_score": 0.214,
           "meaning_score": 0.8731,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4348
+          "combined_score": 0.4032
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1889,
-          "meaning_score": 0.5973,
+          "meaning_score": 0.597,
           "overlap_fraction": 0.2039,
-          "location_score": 0.0408,
-          "combined_score": 0.3553
+          "location_score": 0.0867,
+          "combined_score": 0.3687
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1413,
-          "meaning_score": 0.304,
+          "meaning_score": 0.3038,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1781
+          "combined_score": 0.1503
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "afectate de seisme sunt obliga\u0163i s\u0103 ia m\u0103surile prev\u0103zute de lege pentru reducerea riscului seismic al construc",
+      "actual_text": "afectate de seisme sunt obligaţi să ia măsurile prevăzute de lege pentru reducerea riscului seismic al construc",
       "normalized_activation": 9.06814956665039,
       "pairs": [
         {
@@ -44,8 +44,8 @@
           "concept_score": 0.166,
           "meaning_score": 0.3951,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4244
+          "location_score": 0.425,
+          "combined_score": 0.6178
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3805,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2082
+          "combined_score": 0.1827
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.3769,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2276
+          "combined_score": 0.189
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": ". Cel mai grav seism din ultimii ani a avut loc \u00een decembrie 2003 \u015fi a provocat 26.0",
+      "actual_text": ". Cel mai grav seism din ultimii ani a avut loc în decembrie 2003 şi a provocat 26.0",
       "normalized_activation": 8.220304489135742,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4685,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2602
+          "combined_score": 0.2264
         },
         {
           "prediction_rank": 2,
@@ -84,15 +84,15 @@
           "meaning_score": 0.4713,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2749
+          "combined_score": 0.2327
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1408,
           "meaning_score": 0.5527,
           "overlap_fraction": 0.0119,
-          "location_score": 0.0024,
-          "combined_score": 0.2798
+          "location_score": 0.0051,
+          "combined_score": 0.2611
         }
       ]
     },
@@ -107,23 +107,23 @@
           "meaning_score": 0.5142,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2798
+          "combined_score": 0.2464
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1075,
           "meaning_score": 0.7673,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5499
+          "location_score": 0.425,
+          "combined_score": 0.7672
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1265,
+          "concept_score": 0.1266,
           "meaning_score": 0.42,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2186
+          "combined_score": 0.1975
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.5116,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2624
+          "combined_score": 0.2391
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.4601,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2643
+          "combined_score": 0.2257
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1748,
           "meaning_score": 0.6143,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5157
+          "location_score": 0.425,
+          "combined_score": 0.7123
         }
       ]
     }

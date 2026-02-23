@@ -1,36 +1,36 @@
 {
   "neuron_id": "8_13341",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities, precise factual details, or formal citations** (such as full names with titles, exact locations/dates, referenced documents, or institutional affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Turkish, Romanian, Greek, Hindi, etc.) and domains including academic citations, news reports, legal/political proceedings, entertainment biographies, and scientific or geographic data. Examples show activations for personnel announcements (\"John 'Spazz' Hatton\"), earthquake reports (\"magnitud 4.3 cerca de T\u00e9cpan\"), academic credits (\"Professor Ralf I. Kaiser\"), legal references (\"Defendants were not allowed to hire their own lawyers\"), and cited sources (\"citing census data\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain concrete, referential details\u2014proper nouns, exact figures, sourced information, or formal titles\u2014while low-activation examples are more generic, abstract, or descriptive without such specificity (e.g., \"The idea of a summer holiday,\" \"Market Overview,\" or \"Review: UNDERGODS Casts a Captivating Spell\").\n\n4. **Closing interpretation**: The neuron detects text that serves an **informative or referential function**, focusing on precise, attributed real-world information rather than general commentary, narrative, or unsupported claims. It acts as a filter for content anchored in named entities, citations, or factual particulars.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing specific named entities, precise factual details, or formal citations** (such as full names with titles, exact locations/dates, referenced documents, or institutional affiliations).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Turkish, Romanian, Greek, Hindi, etc.) and domains including academic citations, news reports, legal/political proceedings, entertainment biographies, and scientific or geographic data. Examples show activations for personnel announcements (\"John 'Spazz' Hatton\"), earthquake reports (\"magnitud 4.3 cerca de Técpan\"), academic credits (\"Professor Ralf I. Kaiser\"), legal references (\"Defendants were not allowed to hire their own lawyers\"), and cited sources (\"citing census data\").\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain concrete, referential details—proper nouns, exact figures, sourced information, or formal titles—while low-activation examples are more generic, abstract, or descriptive without such specificity (e.g., \"The idea of a summer holiday,\" \"Market Overview,\" or \"Review: UNDERGODS Casts a Captivating Spell\").\n\n4. **Closing interpretation**: The neuron detects text that serves an **informative or referential function**, focusing on precise, attributed real-world information rather than general commentary, narrative, or unsupported claims. It acts as a filter for content anchored in named entities, citations, or factual particulars.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "kesi olan \u00c7in'i Hindistan'\u0131n yak\u0131nda ge\u00e7mesi bekleniyor. \u00c7in'de n\u00fcfus d\u00fc\u015f\u00fc\u015f\u00fc en son",
+      "actual_text": "kesi olan Çin'i Hindistan'ın yakında geçmesi bekleniyor. Çin'de nüfus düşüşü en son",
       "normalized_activation": 9.468770980834961,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1005,
-          "meaning_score": 0.5328,
+          "concept_score": 0.1004,
+          "meaning_score": 0.5329,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2533
+          "combined_score": 0.2416
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1153,
-          "meaning_score": 0.4447,
+          "concept_score": 0.1152,
+          "meaning_score": 0.4452,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.224
+          "combined_score": 0.2065
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.0964,
-          "meaning_score": 0.725,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3286
+          "meaning_score": 0.7243,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7473
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.2266,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.178
+          "combined_score": 0.1291
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3506,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2028
+          "combined_score": 0.1725
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.1796,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1409
+          "combined_score": 0.1022
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.2294,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1547
+          "combined_score": 0.1211
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2301,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1693
+          "combined_score": 0.1268
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2409,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1605
+          "combined_score": 0.1265
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2401,
-          "meaning_score": 0.8076,
+          "concept_score": 0.2403,
+          "meaning_score": 0.809,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6191
+          "location_score": 0.425,
+          "combined_score": 0.8049
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1865,
-          "meaning_score": 0.3491,
+          "concept_score": 0.1866,
+          "meaning_score": 0.3496,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2143
+          "combined_score": 0.1766
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1663,
-          "meaning_score": 0.4343,
+          "meaning_score": 0.4351,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2402
+          "combined_score": 0.2099
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1772,
-          "meaning_score": 0.4494,
+          "concept_score": 0.1773,
+          "meaning_score": 0.4493,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2506
+          "combined_score": 0.2176
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2155,
-          "meaning_score": 0.5753,
+          "meaning_score": 0.5752,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3163
+          "combined_score": 0.2768
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2774,
-          "meaning_score": 0.4198,
+          "meaning_score": 0.4197,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2788
+          "combined_score": 0.22
         }
       ]
     }

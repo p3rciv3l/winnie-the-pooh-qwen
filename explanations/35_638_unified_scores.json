@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_638",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numbers, codes, or technical identifiers embedded within descriptive or narrative sentences** (such as telephone numbers, prices, measurements, dates, website URLs, or alphanumeric codes).\n\n2. **Domain coverage**: The pattern appears across diverse languages (Spanish, Finnish, Ukrainian, Slovak, Hindi, German, Italian, Arabic, Portuguese, Russian, Greek) and topics, including customer service information, medical or legal reports, technical specifications, news articles about events/products, and administrative notices. The context is consistently mid-sentence mentions of precise identifiers within flowing text.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature embedded concrete references (e.g., \"tel\u00e9fono 806,\" \"1-\u0433\u0440\u0438\u0432\u043d\u0435\u0432\u0430,\" \"www.esph-sa.com,\" \"25. M\u00e4rz,\" \"911\"). The low-activation examples are general news headlines or descriptive sentences that lack such specific embedded numerical/technical tokens; they discuss topics (elections, earthquakes, awards) at a conceptual level without inserting codes, prices, or contact details.\n\n4. **Closing interpretation**: The neuron detects the presence of precise, often administrative or technical, alphanumeric data points within natural language prose. It appears to fire on tokens that serve as concrete anchors within otherwise descriptive text, suggesting a role in identifying spans of text that mix narrative with specific functional identifiers.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numbers, codes, or technical identifiers embedded within descriptive or narrative sentences** (such as telephone numbers, prices, measurements, dates, website URLs, or alphanumeric codes).\n\n2. **Domain coverage**: The pattern appears across diverse languages (Spanish, Finnish, Ukrainian, Slovak, Hindi, German, Italian, Arabic, Portuguese, Russian, Greek) and topics, including customer service information, medical or legal reports, technical specifications, news articles about events/products, and administrative notices. The context is consistently mid-sentence mentions of precise identifiers within flowing text.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature embedded concrete references (e.g., \"teléfono 806,\" \"1-гривнева,\" \"www.esph-sa.com,\" \"25. März,\" \"911\"). The low-activation examples are general news headlines or descriptive sentences that lack such specific embedded numerical/technical tokens; they discuss topics (elections, earthquakes, awards) at a conceptual level without inserting codes, prices, or contact details.\n\n4. **Closing interpretation**: The neuron detects the presence of precise, often administrative or technical, alphanumeric data points within natural language prose. It appears to fire on tokens that serve as concrete anchors within otherwise descriptive text, suggesting a role in identifying spans of text that mix narrative with specific functional identifiers.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\ufffd\u0940\u0921\u093f\u092f\u094b \u091f\u094d\u0935\u093f\u091f\u0930 \u092a\u0930 \u0936\u0947\u092f\u0930 \u0915\u093f\u092f\u093e \u0914\u0930 \u0906\u092a\u0915\u094b \ufffd",
+      "actual_text": "�ीडियो ट्विटर पर शेयर किया और आपको �",
       "normalized_activation": 9.703113555908203,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.2563,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2062
+          "combined_score": 0.1478
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.1367,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1545
+          "combined_score": 0.0955
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.3365,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2693
+          "combined_score": 0.1935
         }
       ]
     },
@@ -45,15 +45,15 @@
           "meaning_score": 0.2368,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1484
+          "combined_score": 0.1208
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0684,
           "meaning_score": 0.4225,
           "overlap_fraction": 0.058,
-          "location_score": 0.0116,
-          "combined_score": 0.2079
+          "location_score": 0.0246,
+          "combined_score": 0.2144
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.2279,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1471
+          "combined_score": 0.1179
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "abitata da molte famiglie giovani. Uno dei requisiti richiesti dall\u2019avviso, che prevede uno stanziamento compless",
+      "actual_text": "abitata da molte famiglie giovani. Uno dei requisiti richiesti dall’avviso, che prevede uno stanziamento compless",
       "normalized_activation": 8.369587898254395,
       "pairs": [
         {
@@ -76,15 +76,15 @@
           "meaning_score": 0.3198,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1602
+          "combined_score": 0.148
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1029,
           "meaning_score": 0.5286,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4526
+          "location_score": 0.425,
+          "combined_score": 0.6651
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.3584,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1894
+          "combined_score": 0.1696
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.5097,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2461
+          "combined_score": 0.2325
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2364,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1443
+          "combined_score": 0.1191
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4812,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2346
+          "combined_score": 0.2203
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.3872,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2201
+          "combined_score": 0.189
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3062,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1579
+          "combined_score": 0.1434
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4704,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2316
+          "combined_score": 0.2162
         }
       ]
     }

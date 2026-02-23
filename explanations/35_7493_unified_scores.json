@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_7493",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that appear within longer narrative or descriptive passages** (such as clauses containing quoted speech, narrative action, administrative details, or descriptive lists), particularly when they are preceded by punctuation like opening quotes, commas, or em-dashes that signal continuation from prior text.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Turkish, Portuguese, Polish, Hindi, German, Swedish, etc.) and diverse topics: news narratives, sports reports, legal/administrative documents, personal stories, and horoscope or advice columns. The common thread is the text's position as an *embedded clause or phrase* within a larger body of prose, not a headline or standalone sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost all concise, self-contained statements\u2014headlines, titles, or complete introductory sentences\u2014often in English. They lack the mid-flow, connective punctuation and the sense of being a clause extracted from the middle of a paragraph. The high-activation examples contain narrative progression, quoted material, or detailed listings that imply prior context.\n\n4. **Closing interpretation**: This neuron likely detects syntactic and positional cues indicating that the token sequence is part of an ongoing, multi-clause exposition rather than a discrete, top-level statement. It functions as a \"continuation detector,\" helping the model parse embedded or parenthetical content within longer documents.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text fragments that appear within longer narrative or descriptive passages** (such as clauses containing quoted speech, narrative action, administrative details, or descriptive lists), particularly when they are preceded by punctuation like opening quotes, commas, or em-dashes that signal continuation from prior text.\n\n2. **Domain coverage**: The pattern appears across multiple languages (Italian, Spanish, Turkish, Portuguese, Polish, Hindi, German, Swedish, etc.) and diverse topics: news narratives, sports reports, legal/administrative documents, personal stories, and horoscope or advice columns. The common thread is the text's position as an *embedded clause or phrase* within a larger body of prose, not a headline or standalone sentence.\n\n3. **Contrast with low-activation examples**: The low-activation texts are almost all concise, self-contained statements—headlines, titles, or complete introductory sentences—often in English. They lack the mid-flow, connective punctuation and the sense of being a clause extracted from the middle of a paragraph. The high-activation examples contain narrative progression, quoted material, or detailed listings that imply prior context.\n\n4. **Closing interpretation**: This neuron likely detects syntactic and positional cues indicating that the token sequence is part of an ongoing, multi-clause exposition rather than a discrete, top-level statement. It functions as a \"continuation detector,\" helping the model parse embedded or parenthetical content within longer documents.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.1127,
           "meaning_score": 0.7515,
           "overlap_fraction": 0.8917,
-          "location_score": 0.1783,
-          "combined_score": 0.524
+          "location_score": 0.379,
+          "combined_score": 0.7153
         },
         {
           "prediction_rank": 2,
@@ -22,21 +22,21 @@
           "meaning_score": 0.5953,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.282
+          "combined_score": 0.2694
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.119,
-          "meaning_score": 0.3454,
+          "meaning_score": 0.3455,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1857
+          "combined_score": 0.1647
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "karinio bendradarbiavimo su Rusija tolesn\u012f vystym\u0105, nukreipt\u0105 \u012f s\u0105jungos g",
+      "actual_text": "karinio bendradarbiavimo su Rusija tolesnį vystymą, nukreiptą į sąjungos g",
       "normalized_activation": 8.914567947387695,
       "pairs": [
         {
@@ -45,15 +45,15 @@
           "meaning_score": 0.3021,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1759
+          "combined_score": 0.149
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1469,
           "meaning_score": 0.458,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4419
+          "location_score": 0.425,
+          "combined_score": 0.6417
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.4381,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2499
+          "combined_score": 0.2142
         }
       ]
     },
@@ -73,26 +73,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1479,
-          "meaning_score": 0.2249,
+          "meaning_score": 0.2248,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1492
+          "combined_score": 0.1177
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.176,
-          "meaning_score": 0.1427,
+          "meaning_score": 0.1426,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1275
+          "combined_score": 0.087
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.085,
-          "meaning_score": 0.2901,
+          "meaning_score": 0.2891,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.15
+          "combined_score": 0.1356
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.3064,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1698
+          "combined_score": 0.1479
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.302,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2098
+          "combined_score": 0.1617
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4033,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2681
+          "combined_score": 0.2115
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.4321,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2635
+          "combined_score": 0.2176
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.2765,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1861
+          "combined_score": 0.1458
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5755,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3079
+          "combined_score": 0.2737
         }
       ]
     }

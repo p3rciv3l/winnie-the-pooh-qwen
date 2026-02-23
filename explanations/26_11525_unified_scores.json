@@ -1,11 +1,11 @@
 {
   "neuron_id": "26_11525",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing explicit references to sources, citations, or attribution** (such as mentions of publications, named reports, official statements, cited individuals/organizations, or disclaimers about content sources).\n\n2. **Domain coverage**: The pattern appears across news journalism, academic/science writing, corporate press releases, and legal/political reporting in multiple languages (English, Arabic, Spanish, Italian, Estonian). It activates on phrases indicating where information originates (\"Published in Frontiers,\" \"According to,\" \"police said,\" \"\u0645\u0646 \u0645\u0635\u062f\u0631\u0647 \u0627\u0644\u0627\u0633\u0627\u0633\u064a,\" \"in a research report\") or disclaimers about source responsibility (\"\u0648\u0646\u062d\u0646 \u063a\u064a\u0631 \u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0639\u0646 \u0645\u062d\u062a\u0648\u0649\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally simple declarative statements, headlines, or narrative snippets that present information without any framing that attributes it to a specific source, publication, report, or authoritative entity. They lack the metacommentary about where the text comes from or how it was produced.\n\n4. **Closing interpretation**: The neuron detects textual markers of cited, reported, or externally sourced information, acting as a detector for formal attribution conventions common in journalistic, academic, and official discourse. It focuses on the *framing* of information as coming from a referenced origin rather than the topic of the information itself.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing explicit references to sources, citations, or attribution** (such as mentions of publications, named reports, official statements, cited individuals/organizations, or disclaimers about content sources).\n\n2. **Domain coverage**: The pattern appears across news journalism, academic/science writing, corporate press releases, and legal/political reporting in multiple languages (English, Arabic, Spanish, Italian, Estonian). It activates on phrases indicating where information originates (\"Published in Frontiers,\" \"According to,\" \"police said,\" \"من مصدره الاساسي,\" \"in a research report\") or disclaimers about source responsibility (\"ونحن غير مسؤولين عن محتوى\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally simple declarative statements, headlines, or narrative snippets that present information without any framing that attributes it to a specific source, publication, report, or authoritative entity. They lack the metacommentary about where the text comes from or how it was produced.\n\n4. **Closing interpretation**: The neuron detects textual markers of cited, reported, or externally sourced information, acting as a detector for formal attribution conventions common in journalistic, academic, and official discourse. It focuses on the *framing* of information as coming from a referenced origin rather than the topic of the information itself.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "detention facilities where there are ongoing investigations into accusations of misconduct and abuse \u2013 including a claim that unwanted medical procedures were carried out on migrants in one of the facilities.",
+      "actual_text": "detention facilities where there are ongoing investigations into accusations of misconduct and abuse – including a claim that unwanted medical procedures were carried out on migrants in one of the facilities.",
       "normalized_activation": 9.557451248168945,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.3999,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2478
+          "combined_score": 0.2029
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5103,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2768
+          "combined_score": 0.2441
         },
         {
           "prediction_rank": 3,
@@ -30,30 +30,30 @@
           "meaning_score": 0.4873,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2651
+          "combined_score": 0.2334
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "\u041f\u044f\u0442\u044c \u043f\u043b\u043e\u0449\u0430\u0434\u043e\u043a \u0434\u043b\u044f \u0430\u0432\u0438\u0430\u043c\u043e\u0434\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043f\u043e\u0440\u0442\u0430 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0432 \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u043c \u0427\u0435\u0440\u0442\u0430\u043d\u043e\u0432\u0435 \u041f\u044f\u0442\u044c",
+      "actual_text": "Пять площадок для авиамодельного спорта заработают в Центральном Чертанове Пять",
       "normalized_activation": 8.773443222045898,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1445,
+          "concept_score": 0.1444,
           "meaning_score": 0.4078,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2209
+          "combined_score": 0.195
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1974,
+          "concept_score": 0.1975,
           "meaning_score": 0.5762,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3094
+          "combined_score": 0.2745
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.3864,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2522
+          "combined_score": 0.2008
         }
       ]
     },
@@ -76,15 +76,15 @@
           "meaning_score": 0.4894,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2898
+          "combined_score": 0.2433
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1985,
           "meaning_score": 0.5261,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4898
+          "location_score": 0.425,
+          "combined_score": 0.6784
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2011,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1777
+          "combined_score": 0.1219
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1389,
-          "meaning_score": 0.4486,
+          "concept_score": 0.139,
+          "meaning_score": 0.4484,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.235
+          "combined_score": 0.2114
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4092,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2165
+          "combined_score": 0.1937
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.341,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1956
+          "combined_score": 0.1671
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Este jueves arranca la final del f\u00fatbol mexicano con el",
+      "actual_text": "Este jueves arranca la final del fútbol mexicano con el",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.1603,
           "meaning_score": 0.6112,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5086
+          "location_score": 0.425,
+          "combined_score": 0.7088
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4575,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2603
+          "combined_score": 0.2234
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.406,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2439
+          "combined_score": 0.2031
         }
       ]
     }

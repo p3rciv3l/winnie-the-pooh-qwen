@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_7644",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news-style reporting of specific events involving named individuals, organizations, or locations, often with temporal markers and quoted speech (such as dateline leads like \u201cGREENSBORO, N.C. -- Scott Silknitter, president...\u201d, political announcements like \u201cPresident Iohannis told on Wednesday evening...\u201d, or multilingual event snippets like \u201cTEGUCIGALPA, HONDURAS- El Centro de Estudios Atmosf\u201d).\n\n2. **Domain coverage**: The pattern appears across a wide range of languages (English, Spanish, Italian, Greek, Russian, Arabic, etc.) and topics including politics, natural disasters, legal proceedings, sports, and cultural events. It is most prevalent in journalistic leads or mid-article sentences that ground an event with concrete details\u2014proper nouns (people, places), dates/times, numbers, and direct or reported quotes.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature specific, real-world events with concrete details (who, where, when), often in a narrative reporting style. Low-activation examples lack this specificity; they include headlines, opinion statements, general knowledge, instructional content, or meta-commentary (e.g., \u201cArticle content The U.S. Justice Department...\u201d, \u201cRespiratory problems are a quite common condition\u201d) that do not anchor a singular event with the same granularity.\n\n4. **Closing interpretation**: This neuron detects text that follows the conventional structure of a news report lead, emphasizing timely, location-grounded events with involved entities. It likely serves to identify and prioritize factual, event-oriented content across multiple languages.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news-style reporting of specific events involving named individuals, organizations, or locations, often with temporal markers and quoted speech (such as dateline leads like “GREENSBORO, N.C. -- Scott Silknitter, president...”, political announcements like “President Iohannis told on Wednesday evening...”, or multilingual event snippets like “TEGUCIGALPA, HONDURAS- El Centro de Estudios Atmosf”).\n\n2. **Domain coverage**: The pattern appears across a wide range of languages (English, Spanish, Italian, Greek, Russian, Arabic, etc.) and topics including politics, natural disasters, legal proceedings, sports, and cultural events. It is most prevalent in journalistic leads or mid-article sentences that ground an event with concrete details—proper nouns (people, places), dates/times, numbers, and direct or reported quotes.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature specific, real-world events with concrete details (who, where, when), often in a narrative reporting style. Low-activation examples lack this specificity; they include headlines, opinion statements, general knowledge, instructional content, or meta-commentary (e.g., “Article content The U.S. Justice Department...”, “Respiratory problems are a quite common condition”) that do not anchor a singular event with the same granularity.\n\n4. **Closing interpretation**: This neuron detects text that follows the conventional structure of a news report lead, emphasizing timely, location-grounded events with involved entities. It likely serves to identify and prioritize factual, event-oriented content across multiple languages.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.3694,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.193
+          "combined_score": 0.174
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3099,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1658
+          "combined_score": 0.1474
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.7799,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3408
+          "combined_score": 0.3423
         }
       ]
     },
@@ -42,32 +42,32 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1828,
-          "meaning_score": 0.5353,
+          "meaning_score": 0.5352,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2872
+          "combined_score": 0.2549
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2008,
+          "concept_score": 0.2003,
           "meaning_score": 0.5749,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3103
+          "combined_score": 0.2744
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1521,
-          "meaning_score": 0.4977,
+          "meaning_score": 0.4978,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2599
+          "combined_score": 0.2344
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "in die Schlagzeilen, als sich das Paar bei einem aufsehenerregenden Interview der amerikanischen Talk-K\u00f6nigin Oprah Winfrey den",
+      "actual_text": "in die Schlagzeilen, als sich das Paar bei einem aufsehenerregenden Interview der amerikanischen Talk-Königin Oprah Winfrey den",
       "normalized_activation": 7.9363484382629395,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3705,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1888
+          "combined_score": 0.1727
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4019,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2087
+          "combined_score": 0.1888
         },
         {
           "prediction_rank": 3,
@@ -92,30 +92,30 @@
           "meaning_score": 0.3597,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.206
+          "combined_score": 0.1762
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Los ni\u00f1os y ni\u00f1as nacen sin prejuicios y sin juicios. Som",
+      "actual_text": "Los niños y niñas nacen sin prejuicios y sin juicios. Som",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2224,
-          "meaning_score": 0.3192,
+          "concept_score": 0.2223,
+          "meaning_score": 0.3198,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2167
+          "combined_score": 0.1693
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1614,
-          "meaning_score": 0.2525,
+          "meaning_score": 0.2527,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1656
+          "combined_score": 0.1316
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3522,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1985
+          "combined_score": 0.1713
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.3094,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1981
+          "combined_score": 0.1594
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4569,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.253
+          "combined_score": 0.2205
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3931,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.231
+          "combined_score": 0.1947
         }
       ]
     }

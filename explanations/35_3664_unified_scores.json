@@ -1,42 +1,42 @@
 {
   "neuron_id": "35_3664",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, formal statements, or excerpted text framed by punctuation marks** (such as direct quotes introduced by colons or dashes, parenthetical citations, or text ending with opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, Portuguese, German, Polish, Slovak, French, etc.) and diverse topics\u2014news reports, political announcements, personal narratives, and technical descriptions. The key is the textual framing: the neuron activates where the text is presented as a citation, a voiced utterance, or a formally introduced excerpt, often signaled by punctuation like `\"`, `-`, `(`, or a colon preceding the segment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically straightforward headlines, declarative sentences, or narrative prose without embedded quoted material or punctuated framing devices. They are self-contained statements (e.g., \"A shooting inside a Netherlands tram...\") rather than text that explicitly introduces or excerpts another source or speaker.\n\n4. **Closing interpretation**: This neuron likely detects **metalinguistic markers that signal reported speech, citations, or extracted text passages**. It functions as a punctuation-and-framing detector, identifying segments where the text is nested within or presented as a quote, statement, or formal communiqu\u00e9.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing quoted speech, formal statements, or excerpted text framed by punctuation marks** (such as direct quotes introduced by colons or dashes, parenthetical citations, or text ending with opening quotation marks).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, Portuguese, German, Polish, Slovak, French, etc.) and diverse topics—news reports, political announcements, personal narratives, and technical descriptions. The key is the textual framing: the neuron activates where the text is presented as a citation, a voiced utterance, or a formally introduced excerpt, often signaled by punctuation like `\"`, `-`, `(`, or a colon preceding the segment.\n\n3. **Contrast with low-activation examples**: The low-activation texts are typically straightforward headlines, declarative sentences, or narrative prose without embedded quoted material or punctuated framing devices. They are self-contained statements (e.g., \"A shooting inside a Netherlands tram...\") rather than text that explicitly introduces or excerpts another source or speaker.\n\n4. **Closing interpretation**: This neuron likely detects **metalinguistic markers that signal reported speech, citations, or extracted text passages**. It functions as a punctuation-and-framing detector, identifying segments where the text is nested within or presented as a quote, statement, or formal communiqué.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "itats. Quan el Banc d'Espanya confirmi aquesta dada, suposar\u00e0 que per primera vegada l'indicador s",
+      "actual_text": "itats. Quan el Banc d'Espanya confirmi aquesta dada, suposarà que per primera vegada l'indicador s",
       "normalized_activation": 9.703326225280762,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2019,
-          "meaning_score": 0.4618,
+          "concept_score": 0.2018,
+          "meaning_score": 0.4621,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2655
+          "combined_score": 0.2267
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1395,
-          "meaning_score": 0.3472,
+          "concept_score": 0.1394,
+          "meaning_score": 0.3468,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1947
+          "combined_score": 0.1683
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1704,
-          "meaning_score": 0.2262,
+          "concept_score": 0.1703,
+          "meaning_score": 0.227,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1586
+          "combined_score": 0.122
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "the U.S. west coast.\u201d The seawall supports historic piers, wharves, and buildings including the Ferry Building. It underpins the Embar",
+      "actual_text": "the U.S. west coast.” The seawall supports historic piers, wharves, and buildings including the Ferry Building. It underpins the Embar",
       "normalized_activation": 9.155680656433105,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.3257,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1812
+          "combined_score": 0.1575
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.2018,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1316
+          "combined_score": 0.1049
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.499,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2505
+          "combined_score": 0.2312
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.5793,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2961
+          "combined_score": 0.2703
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5644,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2953
+          "combined_score": 0.266
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.5262,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2824
+          "combined_score": 0.2506
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "BOSTON \u2014 Attorney General Maura Healey Thursday joined a multistate lawsuit",
+      "actual_text": "BOSTON — Attorney General Maura Healey Thursday joined a multistate lawsuit",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,7 +107,7 @@
           "meaning_score": 0.5398,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2528
+          "combined_score": 0.2432
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2676,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1562
+          "combined_score": 0.1322
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.289,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1541
+          "combined_score": 0.1372
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.3848,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2391
+          "combined_score": 0.1955
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3892,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1858
+          "combined_score": 0.1767
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.4195,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1979
+          "combined_score": 0.1896
         }
       ]
     }

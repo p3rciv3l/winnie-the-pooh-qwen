@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_6713",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"pol\" (including full words like \"police\", \"political\", \"politician\", or proper nouns/other words containing the character sequence \"pol\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Swedish, German) and primarily in news or formal discourse contexts. The core domains are law enforcement (\"police\", \"Polic\u00eda\", \"policewoman\") and politics/government (\"political\", \"politician\", \"pol\u00edticas\", \"politiche\"). It also activates on proper names containing \"pol\" (e.g., \"Pololikashvili\", \"Empolweni\", \"Cloudopolis\") and the word \"emolument\", which shares the \"mol\" substring but is likely triggered by the preceding \"emo\" being misparsed as containing \"pol\".\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"pol\" substring entirely or use it in unrelated contexts (e.g., \"poll\" as in voting appears in a low-activation example about election turnout, but without the strong political/authority context). The low group consists of diverse topics like sports, finance, weather, and general news in various languages that do not center on political actors, institutions, or law enforcement.\n\n4. **Closing interpretation**: This neuron detects the character sequence \"pol\" as a key morpheme, with its strongest semantic associations being institutional authority and governance. It functions as a multi-lingual substring detector with a bias toward political and law enforcement concepts.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing the substring \"pol\" (including full words like \"police\", \"political\", \"politician\", or proper nouns/other words containing the character sequence \"pol\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Swedish, German) and primarily in news or formal discourse contexts. The core domains are law enforcement (\"police\", \"Policía\", \"policewoman\") and politics/government (\"political\", \"politician\", \"políticas\", \"politiche\"). It also activates on proper names containing \"pol\" (e.g., \"Pololikashvili\", \"Empolweni\", \"Cloudopolis\") and the word \"emolument\", which shares the \"mol\" substring but is likely triggered by the preceding \"emo\" being misparsed as containing \"pol\".\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"pol\" substring entirely or use it in unrelated contexts (e.g., \"poll\" as in voting appears in a low-activation example about election turnout, but without the strong political/authority context). The low group consists of diverse topics like sports, finance, weather, and general news in various languages that do not center on political actors, institutions, or law enforcement.\n\n4. **Closing interpretation**: This neuron detects the character sequence \"pol\" as a key morpheme, with its strongest semantic associations being institutional authority and governance. It functions as a multi-lingual substring detector with a bias toward political and law enforcement concepts.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.2913,
           "meaning_score": 0.6731,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5858
+          "location_score": 0.425,
+          "combined_score": 0.7548
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2126,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2065
+          "combined_score": 0.1359
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.4119,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2751
+          "combined_score": 0.2165
         }
       ]
     },
@@ -41,33 +41,33 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1906,
-          "meaning_score": 0.2866,
+          "concept_score": 0.1905,
+          "meaning_score": 0.2867,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1909
+          "combined_score": 0.1504
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2623,
-          "meaning_score": 0.2452,
+          "meaning_score": 0.2466,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.203
+          "combined_score": 0.1442
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.239,
-          "meaning_score": 0.2836,
+          "concept_score": 0.2389,
+          "meaning_score": 0.284,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.209
+          "combined_score": 0.1565
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "-midi, lorsqu\u2019il a tent\u00e9 d\u2019\u00e9chapper \u00e0 un contr\u00f4le policier. Une course-poursuite a alors suivi entre le suspect, \u00e2",
+      "actual_text": "-midi, lorsqu’il a tenté d’échapper à un contrôle policier. Une course-poursuite a alors suivi entre le suspect, â",
       "normalized_activation": 7.946327209472656,
       "pairs": [
         {
@@ -76,15 +76,15 @@
           "meaning_score": 0.5507,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3777
+          "combined_score": 0.2931
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.4622,
           "meaning_score": 0.6498,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6448
+          "location_score": 0.425,
+          "combined_score": 0.7705
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.5003,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.378
+          "combined_score": 0.2793
         }
       ]
     },
@@ -103,27 +103,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1744,
-          "meaning_score": 0.6218,
+          "concept_score": 0.1743,
+          "meaning_score": 0.6216,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3185
+          "combined_score": 0.2903
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1536,
-          "meaning_score": 0.6552,
+          "concept_score": 0.1537,
+          "meaning_score": 0.6549,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3235
+          "combined_score": 0.3014
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1642,
-          "meaning_score": 0.5,
+          "concept_score": 0.1644,
+          "meaning_score": 0.4997,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2657
+          "combined_score": 0.237
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.4371,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2113
+          "combined_score": 0.1995
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.4325,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1872
+          "combined_score": 0.1891
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1498,
           "meaning_score": 0.6523,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5209
+          "location_score": 0.425,
+          "combined_score": 0.7247
         }
       ]
     }

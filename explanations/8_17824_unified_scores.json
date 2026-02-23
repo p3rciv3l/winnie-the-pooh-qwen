@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_17824",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **breaking news or recent incident reports involving geopolitical, environmental, or civil events** (such as international diplomatic spats, airline incidents, protest detentions, military operations, or terrorist designations), particularly when the text includes specific dates, locations, named entities (agencies, officials, groups), and a tone of factual, wire-service-style reporting.\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, French, Polish, Turkish, Greek, etc.) but is tightly focused on real-world event reporting. Domains include international relations (U.S.-China tensions, Houthi attacks, NATO diplomacy), civil unrest (Catalan protests, Turkish operations), environmental/activist events (Greta Thunberg detention, asteroid deflection), and corporate or transport incidents (airline bans, losses, accidents). The context is consistently timely, public-affairs journalism, often citing sources like Agence France-Presse, Reuters, or government bodies.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"breaking news\" quality and concrete incident framing. They include general announcements (award nominations, holiday observances, tech hearings), speculative or future-oriented statements (\"could top $5\"), personal/entertainment content (Big Ten game talk, *Grande Fratello* references), or very generic snippets without specific recent events, named entities, or datelines. What is absent is the combination of a newsworthy event, specific spatiotemporal anchors, and institutional actors.\n\n4. **Closing interpretation**: This neuron appears to detect text that functions as a hard-news update\u2014linguistically marked by proper nouns, dates, and locations\u2014within a global, public-domain context. It essentially fires on semantic segments that report a discrete, recent real-world occurrence with geopolitical, social, or environmental consequence.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **breaking news or recent incident reports involving geopolitical, environmental, or civil events** (such as international diplomatic spats, airline incidents, protest detentions, military operations, or terrorist designations), particularly when the text includes specific dates, locations, named entities (agencies, officials, groups), and a tone of factual, wire-service-style reporting.\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, French, Polish, Turkish, Greek, etc.) but is tightly focused on real-world event reporting. Domains include international relations (U.S.-China tensions, Houthi attacks, NATO diplomacy), civil unrest (Catalan protests, Turkish operations), environmental/activist events (Greta Thunberg detention, asteroid deflection), and corporate or transport incidents (airline bans, losses, accidents). The context is consistently timely, public-affairs journalism, often citing sources like Agence France-Presse, Reuters, or government bodies.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the \"breaking news\" quality and concrete incident framing. They include general announcements (award nominations, holiday observances, tech hearings), speculative or future-oriented statements (\"could top $5\"), personal/entertainment content (Big Ten game talk, *Grande Fratello* references), or very generic snippets without specific recent events, named entities, or datelines. What is absent is the combination of a newsworthy event, specific spatiotemporal anchors, and institutional actors.\n\n4. **Closing interpretation**: This neuron appears to detect text that functions as a hard-news update—linguistically marked by proper nouns, dates, and locations—within a global, public-domain context. It essentially fires on semantic segments that report a discrete, recent real-world occurrence with geopolitical, social, or environmental consequence.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "La sonda Dart ha colpito l'asteroide Dimorphos. Nasa: \"Inizia una nuova era dell'umanit\u00e0\" di",
+      "actual_text": "La sonda Dart ha colpito l'asteroide Dimorphos. Nasa: \"Inizia una nuova era dell'umanità\" di",
       "normalized_activation": 8.632882118225098,
       "pairs": [
         {
@@ -13,8 +13,8 @@
           "concept_score": 0.153,
           "meaning_score": 0.8596,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6051
+          "location_score": 0.425,
+          "combined_score": 0.8133
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.7954,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4039
+          "combined_score": 0.3702
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.4185,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.244
+          "combined_score": 0.2066
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "l\u2019Italia\u201d. Lo scrive sulla sua E-News Matteo Renzi. La Ragione \u00e8 anche su WhatsApp. Entra nel nostro canale per",
+      "actual_text": "l’Italia”. Lo scrive sulla sua E-News Matteo Renzi. La Ragione è anche su WhatsApp. Entra nel nostro canale per",
       "normalized_activation": 6.892831802368164,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.3136,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1818
+          "combined_score": 0.1544
         },
         {
           "prediction_rank": 2,
@@ -53,21 +53,21 @@
           "meaning_score": 0.3174,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.194
+          "combined_score": 0.16
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1405,
           "meaning_score": 0.5305,
           "overlap_fraction": 0.4595,
-          "location_score": 0.0919,
-          "combined_score": 0.3603
+          "location_score": 0.1953,
+          "combined_score": 0.4418
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "boli volcano\u201d, appena pubblicato sulla rivista scientifica \u2018Nature Communications e svolto nell\u2019ambito del progetto strategico dipartiment",
+      "actual_text": "boli volcano”, appena pubblicato sulla rivista scientifica ‘Nature Communications e svolto nell’ambito del progetto strategico dipartiment",
       "normalized_activation": 5.4571075439453125,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4913,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2432
+          "combined_score": 0.2263
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.4653,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2658
+          "combined_score": 0.2276
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4873,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2588
+          "combined_score": 0.231
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.1564,
           "meaning_score": 0.7523,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5635
+          "location_score": 0.425,
+          "combined_score": 0.7682
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4999,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.319
+          "combined_score": 0.2571
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4442,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2764
+          "combined_score": 0.2258
         }
       ]
     },
@@ -135,10 +135,10 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1045,
-          "meaning_score": 0.7903,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.358
+          "meaning_score": 0.7906,
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7767
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.5727,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2808
+          "combined_score": 0.2628
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1682,
-          "meaning_score": 0.5177,
+          "meaning_score": 0.5119,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2744
+          "combined_score": 0.2428
         }
       ]
     }

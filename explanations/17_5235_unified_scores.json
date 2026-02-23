@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_5235",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style text segments containing datelines, timestamps, or explicit source attributions** (such as \"ISLAMABAD (Dunya News) \u2013\", \"08:40 PM ISLAMABAD, (UrduPoint...\", or \"By David M. Greenwald Executive Editor San Francisco, CA \u2013\").\n\n2. **Domain coverage**: The pattern appears in multilingual news reporting (English, Spanish, Arabic, Indonesian, etc.) across diverse topics\u2014geopolitics, crime, health, sports, and business. It specifically activates on text that opens with location/time stamps (\"ISLAMABAD, May 22 (APP):\"), attribution phrases (\"According to The Blaze,\"), or journalistic bylines/credit lines, often at the beginning of a report or segment.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with journalistic metadata (location, source, time, or author credit), while low-activation examples either lack this framing entirely, are generic narrative sentences, or are incomplete fragments without explicit news-source scaffolding.\n\n4. **Closing interpretation**: The neuron detects the structural framing of news articles and dispatches rather than their specific content. It acts as a \"news-format identifier\" by firing on textual markers that signal a report is originating from a news organization or wire service.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style text segments containing datelines, timestamps, or explicit source attributions** (such as \"ISLAMABAD (Dunya News) –\", \"08:40 PM ISLAMABAD, (UrduPoint...\", or \"By David M. Greenwald Executive Editor San Francisco, CA –\").\n\n2. **Domain coverage**: The pattern appears in multilingual news reporting (English, Spanish, Arabic, Indonesian, etc.) across diverse topics—geopolitics, crime, health, sports, and business. It specifically activates on text that opens with location/time stamps (\"ISLAMABAD, May 22 (APP):\"), attribution phrases (\"According to The Blaze,\"), or journalistic bylines/credit lines, often at the beginning of a report or segment.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with journalistic metadata (location, source, time, or author credit), while low-activation examples either lack this framing entirely, are generic narrative sentences, or are incomplete fragments without explicit news-source scaffolding.\n\n4. **Closing interpretation**: The neuron detects the structural framing of news articles and dispatches rather than their specific content. It acts as a \"news-format identifier\" by firing on textual markers that signal a report is originating from a news organization or wire service.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.4781,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2496
+          "combined_score": 0.2251
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.7516,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3889
+          "combined_score": 0.3525
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.4681,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2503
+          "combined_score": 0.2226
         }
       ]
     },
@@ -41,19 +41,19 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1917,
+          "concept_score": 0.1918,
           "meaning_score": 0.7562,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.3792
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.7752
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1183,
+          "concept_score": 0.1184,
           "meaning_score": 0.4168,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2141
+          "combined_score": 0.1949
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.6643,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3336
+          "combined_score": 0.3078
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u062a \u0647\u064a\u0642\u0648\u0644\u0648\u0627 \u0631\u0626\u064a\u0633 \u0627\u0644\u0648\u0632\u0631\u0627\u0621 \u0627\u0644\u0633\u0628\u0628\"-\u0641\u064a\u062f\u064a\u0648 \u0639\u0644\u0649 \u0627\u0644\u062e\u0644\u064a\u062c 365 \u0648\u0646\u062d\u064a\u0637\u0643\u0645 \u0639\u0644\u0645\u0627 \u0628\u0627\u0646 \u0645\u062d\u062a\u0648\u064a \u0627\u0644\u0645\u0648\u0636\u0648\u0639 \u062a\u0645 \u0643\u062a\u0627\u0628",
+      "actual_text": "ت هيقولوا رئيس الوزراء السبب\"-فيديو على الخليج 365 ونحيطكم علما بان محتوي الموضوع تم كتاب",
       "normalized_activation": 6.825380325317383,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.5132,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2488
+          "combined_score": 0.2344
         },
         {
           "prediction_rank": 2,
@@ -84,15 +84,15 @@
           "meaning_score": 0.2958,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1882
+          "combined_score": 0.1519
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1815,
           "meaning_score": 0.5464,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4911
+          "location_score": 0.425,
+          "combined_score": 0.6844
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.138,
+          "concept_score": 0.1379,
           "meaning_score": 0.8511,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5956
+          "location_score": 0.425,
+          "combined_score": 0.8074
         },
         {
           "prediction_rank": 2,
@@ -115,21 +115,21 @@
           "meaning_score": 0.6806,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3132
+          "combined_score": 0.3046
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1008,
-          "meaning_score": 0.6647,
+          "meaning_score": 0.6646,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3062
+          "combined_score": 0.2976
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -137,8 +137,8 @@
           "concept_score": 0.2489,
           "meaning_score": 0.4876,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4946
+          "location_score": 0.425,
+          "combined_score": 0.6696
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3089,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2032
+          "combined_score": 0.1611
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3926,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1913
+          "combined_score": 0.1797
         }
       ]
     }

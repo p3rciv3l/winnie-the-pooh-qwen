@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_10033",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing formal, structured, or referential markers** (such as legal codes like \"\u0447. 2 \u0441\u0442. 105\", addresses like \"\u0434\u043e\u043c\u0430 \u2116132 \u043f\u043e \u0443\u043b\u0438\u0446\u0435\", enumerated lists, citations, or specific named entities followed by descriptive clauses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Russian, English, Albanian, Hindi, etc.) and domains including legal documents, news reports, technical descriptions, and formal announcements. It activates on text that often functions as a precise reference\u2014legal statutes, geographic locations, procedural steps, or cited individuals/entities\u2014embedded within broader narrative or reporting contexts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain embedded formal notations, citations, or structured descriptors (e.g., \"\u043f\u043f. \"\u0436, \u043a\"\", \"Proximity to active earthquake faults\", \"Titan announced latest shareholding details to the bourses on July 17\"). The low-activation examples are generally plain declarative sentences, headlines, or announcements lacking such specific referential scaffolding.\n\n4. **Closing interpretation**: The neuron appears to detect textual segments where precise, structured information is being introduced or cited within a flowing narrative. It likely serves to parse formal referential language that anchors statements to external systems like law, geography, finance, or administrative procedure.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing formal, structured, or referential markers** (such as legal codes like \"ч. 2 ст. 105\", addresses like \"дома №132 по улице\", enumerated lists, citations, or specific named entities followed by descriptive clauses).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Russian, English, Albanian, Hindi, etc.) and domains including legal documents, news reports, technical descriptions, and formal announcements. It activates on text that often functions as a precise reference—legal statutes, geographic locations, procedural steps, or cited individuals/entities—embedded within broader narrative or reporting contexts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain embedded formal notations, citations, or structured descriptors (e.g., \"пп. \"ж, к\"\", \"Proximity to active earthquake faults\", \"Titan announced latest shareholding details to the bourses on July 17\"). The low-activation examples are generally plain declarative sentences, headlines, or announcements lacking such specific referential scaffolding.\n\n4. **Closing interpretation**: The neuron appears to detect textual segments where precise, structured information is being introduced or cited within a flowing narrative. It likely serves to parse formal referential language that anchors statements to external systems like law, geography, finance, or administrative procedure.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.5938,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3186
+          "combined_score": 0.2828
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.5581,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3219
+          "combined_score": 0.2742
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2863,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1892
+          "combined_score": 0.1497
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "-\u0436\u044b\u043b\u044b \u0444\u043e\u0440\u0443\u043c \u0430\u043b\u0433\u0430\u0447\u043a\u044b \u0436\u043e\u043b\u0443 \u04e9\u0442\u043a\u04e9\u0440\u04af\u043b\u04af\u043f, \u0436\u044b\u0439\u044b\u043d\u0442\u044b\u0433\u044b\u043d\u0434\u0430",
+      "actual_text": "-жылы форум алгачкы жолу өткөрүлүп, жыйынтыгында",
       "normalized_activation": 8.889500617980957,
       "pairs": [
         {
@@ -45,15 +45,15 @@
           "meaning_score": 0.4037,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2465
+          "combined_score": 0.2035
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1597,
           "meaning_score": 0.4324,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4369
+          "location_score": 0.425,
+          "combined_score": 0.6327
         },
         {
           "prediction_rank": 3,
@@ -61,38 +61,38 @@
           "meaning_score": 0.5161,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2703
+          "combined_score": 0.2433
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "\u062c\u0627\u0645\u0639 \u0633\u0644\u0627\u0645\u062a \u0645\u062d\u0644 \u0633\u06a9\u0648\u0646\u062a \u062e\u0648\u062f \u0645\u0631\u0627\u062c\u0639\u0647 \u06a9\u0646\u0646\u062f \u0648 \u06cc\u0627 \u062f\u0631 \u0647\u0631 \u0633\u0627\u0639\u062a\u06cc \u0627\u0632 \u0634\u0628\u0627\u0646",
+      "actual_text": "جامع سلامت محل سکونت خود مراجعه کنند و یا در هر ساعتی از شبان",
       "normalized_activation": 8.12596607208252,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.104,
-          "meaning_score": 0.3859,
+          "concept_score": 0.1041,
+          "meaning_score": 0.385,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.396
+          "location_score": 0.425,
+          "combined_score": 0.6042
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1011,
-          "meaning_score": 0.3383,
+          "concept_score": 0.1012,
+          "meaning_score": 0.339,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1758
+          "combined_score": 0.1593
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.114,
-          "meaning_score": 0.1862,
+          "meaning_score": 0.1863,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1201
+          "combined_score": 0.0963
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.2556,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1898
+          "combined_score": 0.1415
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.2341,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1435
+          "combined_score": 0.1182
         },
         {
           "prediction_rank": 3,
@@ -123,38 +123,38 @@
           "meaning_score": 0.3241,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2097
+          "combined_score": 0.1678
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Nel cuore dell\u2019universo, l\u2019umanit\u00e0 coltiva il",
+      "actual_text": "Nel cuore dell’universo, l’umanità coltiva il",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2112,
+          "concept_score": 0.2111,
           "meaning_score": 0.2925,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2015
+          "combined_score": 0.156
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1326,
-          "meaning_score": 0.349,
+          "concept_score": 0.1325,
+          "meaning_score": 0.3491,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1926
+          "combined_score": 0.1683
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2563,
-          "meaning_score": 0.3722,
+          "concept_score": 0.2562,
+          "meaning_score": 0.3721,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2514
+          "combined_score": 0.1966
         }
       ]
     }

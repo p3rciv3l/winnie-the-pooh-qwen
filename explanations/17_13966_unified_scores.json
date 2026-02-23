@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_13966",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially names of people, organizations, brands, or places) followed by descriptive, identifying, or elaborating information** (such as \"Abhijit Pingle\" followed by a legal role, \"Leopoldo Lopez Sr.\" followed by a familial relation, \"Rolex 'Paul Newman' Daytonas\" followed by a price context, or \"Alcyoneus\" followed by a mythological description).\n\n2. **Domain coverage**: The pattern appears across news, legal, political, corporate, and cultural texts in multiple languages (English, Portuguese, Italian, Russian, Slovak). It activates on specific named entities\u2014people (accused individuals, politicians, celebrities), organizations (police departments, companies, associations), branded products, mythological figures, and locations\u2014when they are immediately contextualized by an appositive, relative clause, or subsequent detail about their role, action, or attributes.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a specific proper noun entirely, use proper nouns in a general or list-like context without immediate elaboration (e.g., \"South Carolina,\" \"Hong Kong leader Carrie Lam\"), or present them in a standalone headline format. The high-activation group consistently pairs a named entity with a clarifying phrase in the same snippet, while the low group tends toward general statements, unspecific references, or topics without this tight coupling.\n\n4. **Closing interpretation**: This neuron likely detects a grammatical-semantic structure where a named entity is introduced and then immediately elaborated upon within the same clause or sentence. It functions as a marker for specific, detailed references to identifiable real-world entities, filtering out vague or undeveloped mentions.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns (especially names of people, organizations, brands, or places) followed by descriptive, identifying, or elaborating information** (such as \"Abhijit Pingle\" followed by a legal role, \"Leopoldo Lopez Sr.\" followed by a familial relation, \"Rolex 'Paul Newman' Daytonas\" followed by a price context, or \"Alcyoneus\" followed by a mythological description).\n\n2. **Domain coverage**: The pattern appears across news, legal, political, corporate, and cultural texts in multiple languages (English, Portuguese, Italian, Russian, Slovak). It activates on specific named entities—people (accused individuals, politicians, celebrities), organizations (police departments, companies, associations), branded products, mythological figures, and locations—when they are immediately contextualized by an appositive, relative clause, or subsequent detail about their role, action, or attributes.\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack a specific proper noun entirely, use proper nouns in a general or list-like context without immediate elaboration (e.g., \"South Carolina,\" \"Hong Kong leader Carrie Lam\"), or present them in a standalone headline format. The high-activation group consistently pairs a named entity with a clarifying phrase in the same snippet, while the low group tends toward general statements, unspecific references, or topics without this tight coupling.\n\n4. **Closing interpretation**: This neuron likely detects a grammatical-semantic structure where a named entity is introduced and then immediately elaborated upon within the same clause or sentence. It functions as a marker for specific, detailed references to identifiable real-world entities, filtering out vague or undeveloped mentions.",
   "results": [
     {
       "example_idx": 1,
@@ -11,13 +11,13 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "ordo') que pone el ojo en Ismael Prego, alias Wismichu, uno de los youtubers m\u00e1s populares de Espa\u00f1a",
+      "actual_text": "ordo') que pone el ojo en Ismael Prego, alias Wismichu, uno de los youtubers más populares de España",
       "normalized_activation": 9.084125518798828,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "\u2014 in other words, neighborhood improvement. Yes, the reports indicated that \u201cSan Francisco\u2019s famed leather district\u201d was in danger of being developed out of existence.",
+      "actual_text": "— in other words, neighborhood improvement. Yes, the reports indicated that “San Francisco’s famed leather district” was in danger of being developed out of existence.",
       "normalized_activation": 8.388471603393555,
       "pairs": []
     },
@@ -29,7 +29,7 @@
     },
     {
       "example_idx": 5,
-      "actual_text": "The 2021 spring season \u2013 a postponement of the 20",
+      "actual_text": "The 2021 spring season – a postponement of the 20",
       "normalized_activation": 0.0,
       "pairs": []
     }

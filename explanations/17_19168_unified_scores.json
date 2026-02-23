@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_19168",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal titles or honorifics preceding names of leaders, officials, or revered figures** (such as \"President Xi Jinping,\" \"President Mugabe,\" \"Pope Francis,\" \"Wali Kota,\" or \"Pr\u00edncipe heredero Federico\").\n\n2. **Domain coverage**: The pattern appears in news and formal reports across multiple languages (English, Arabic, Russian, Spanish, Indonesian, etc.) covering political announcements, government programs, religious leadership, institutional statements, and ceremonial references. It activates for titles like President, Pope, Wali Kota, \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430, \u0627\u0644\u0631\u0626\u064a\u0633, and for revered figures like \"the Prophet (PBUH).\"\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention names without formal titles (e.g., \"Maradona,\" \"Putin,\" \"Zion Williamson\") or discuss everyday topics (sports, travel, food, entertainment) without reference to authoritative figures in an official capacity. The absence of the \"[Title] + [Proper Name]\" structure is consistent across low-activation cases.\n\n4. **Closing interpretation**: The neuron detects structured, authoritative references to individuals in institutional or ceremonial roles, acting as a filter for formal person\u2011entity mentions within official discourse, regardless of language or specific political context.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of formal titles or honorifics preceding names of leaders, officials, or revered figures** (such as \"President Xi Jinping,\" \"President Mugabe,\" \"Pope Francis,\" \"Wali Kota,\" or \"Príncipe heredero Federico\").\n\n2. **Domain coverage**: The pattern appears in news and formal reports across multiple languages (English, Arabic, Russian, Spanish, Indonesian, etc.) covering political announcements, government programs, religious leadership, institutional statements, and ceremonial references. It activates for titles like President, Pope, Wali Kota, Президента, الرئيس, and for revered figures like \"the Prophet (PBUH).\"\n\n3. **Contrast with low-activation examples**: The low-activation texts either mention names without formal titles (e.g., \"Maradona,\" \"Putin,\" \"Zion Williamson\") or discuss everyday topics (sports, travel, food, entertainment) without reference to authoritative figures in an official capacity. The absence of the \"[Title] + [Proper Name]\" structure is consistent across low-activation cases.\n\n4. **Closing interpretation**: The neuron detects structured, authoritative references to individuals in institutional or ceremonial roles, acting as a filter for formal person‑entity mentions within official discourse, regardless of language or specific political context.",
   "results": [
     {
       "example_idx": 1,
@@ -11,13 +11,13 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "the Palace of Ooni of Ife, Oba Enitan Ogunwusi, charged all Yoruba\u2019s within and diasporas to henceforth resist",
+      "actual_text": "the Palace of Ooni of Ife, Oba Enitan Ogunwusi, charged all Yoruba’s within and diasporas to henceforth resist",
       "normalized_activation": 9.068279266357422,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "with strong vibes of reviving the \u201880s. Maria Grazia Chiuri drew on celestial elements at Dior once again making black a colour about celebration not",
+      "actual_text": "with strong vibes of reviving the ‘80s. Maria Grazia Chiuri drew on celestial elements at Dior once again making black a colour about celebration not",
       "normalized_activation": 8.338338851928711,
       "pairs": []
     },

@@ -1,51 +1,51 @@
 {
   "neuron_id": "35_3541",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence punctuation creating an abrupt clause break or transition** (such as em-dashes, commas, parentheses, or periods introducing a subordinate clause), especially when it precedes explanatory, contrasting, or additive information.\n\n2. **Domain coverage**: The pattern appears across multiple languages (e.g., Hindi, Arabic, Czech, Spanish, German, Thai, Polish) and diverse topics (news, politics, sports, lifestyle). It is not topic-specific but syntactically defined, occurring in journalistic and descriptive prose where sentences are structured with interjections, appositives, or clarifications.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature punctuation that sharply interrupts the main clause flow to insert another thought. The low-activation examples, while also containing punctuation, typically use it in less disruptive ways\u2014like ending quotes, listing items, or marking simple pauses\u2014and their sentences maintain a more linear progression.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic structure: punctuation-driven interruptions that segment a sentence into distinct informational units. It acts as a marker for complex, multi-clause sentences where the narrative pivots or elaborates mid-flow.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence punctuation creating an abrupt clause break or transition** (such as em-dashes, commas, parentheses, or periods introducing a subordinate clause), especially when it precedes explanatory, contrasting, or additive information.\n\n2. **Domain coverage**: The pattern appears across multiple languages (e.g., Hindi, Arabic, Czech, Spanish, German, Thai, Polish) and diverse topics (news, politics, sports, lifestyle). It is not topic-specific but syntactically defined, occurring in journalistic and descriptive prose where sentences are structured with interjections, appositives, or clarifications.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature punctuation that sharply interrupts the main clause flow to insert another thought. The low-activation examples, while also containing punctuation, typically use it in less disruptive ways—like ending quotes, listing items, or marking simple pauses—and their sentences maintain a more linear progression.\n\n4. **Closing interpretation**: The neuron detects a specific syntactic structure: punctuation-driven interruptions that segment a sentence into distinct informational units. It acts as a marker for complex, multi-clause sentences where the narrative pivots or elaborates mid-flow.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "orphosa trwa\u0142a do chwili zderzenia, kiedy NASA poinformowa\u0142a o utracie sygna\u0142u z sondy. -",
+      "actual_text": "orphosa trwała do chwili zderzenia, kiedy NASA poinformowała o utracie sygnału z sondy. -",
       "normalized_activation": 9.721597671508789,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1907,
+          "concept_score": 0.1909,
           "meaning_score": 0.5345,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2901
+          "combined_score": 0.2558
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1494,
-          "meaning_score": 0.6665,
+          "meaning_score": 0.6668,
           "overlap_fraction": 0.9775,
-          "location_score": 0.1955,
-          "combined_score": 0.5219
+          "location_score": 0.4154,
+          "combined_score": 0.7213
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1299,
-          "meaning_score": 0.3715,
+          "concept_score": 0.13,
+          "meaning_score": 0.3714,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2006
+          "combined_score": 0.1774
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "iiert auch immer wieder die Herangehensweise von Callcenter-Betr\u00fcgern. Weitere Informationen und Tipps dazu, wie Sie sich sch\u00fct",
+      "actual_text": "iiert auch immer wieder die Herangehensweise von Callcenter-Betrügern. Weitere Informationen und Tipps dazu, wie Sie sich schüt",
       "normalized_activation": 9.184587478637695,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1317,
+          "concept_score": 0.1316,
           "meaning_score": 0.4278,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2238
+          "combined_score": 0.2016
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.3915,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1997
+          "combined_score": 0.1825
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.453,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2269
+          "combined_score": 0.2097
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "va Samos. Samos s\u00e1m hl\u00e1s\u00ed \u010dty\u0159i lehce zran\u011bn\u00e9 a \u0161kody na budov\u00e1ch. P",
+      "actual_text": "va Samos. Samos sám hlásí čtyři lehce zraněné a škody na budovách. P",
       "normalized_activation": 8.527135848999023,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3978,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2386
+          "combined_score": 0.1989
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5338,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2868
+          "combined_score": 0.2543
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.501,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2696
+          "combined_score": 0.2389
         }
       ]
     },
@@ -103,42 +103,42 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2247,
+          "concept_score": 0.2248,
           "meaning_score": 0.2824,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2028
+          "combined_score": 0.1538
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2769,
+          "concept_score": 0.277,
           "meaning_score": 0.2704,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2189
+          "combined_score": 0.1564
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2226,
+          "concept_score": 0.2227,
           "meaning_score": 0.2078,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1722
+          "combined_score": 0.1217
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Sweden\u2019s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
+      "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.168,
+          "concept_score": 0.1681,
           "meaning_score": 0.4049,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2292
+          "combined_score": 0.1973
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3063,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2189
+          "combined_score": 0.1663
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.5286,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2594
+          "combined_score": 0.2427
         }
       ]
     }

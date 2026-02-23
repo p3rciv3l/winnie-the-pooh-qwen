@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_37",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in formal or informational reporting contexts** (such as specific people with titles, organizations, financial/legal entities, event names, or cited sources).\n\n2. **Domain coverage**: The pattern appears across multilingual news, official reports, sports summaries, and financial/legal documents. Examples span English, Arabic, Hindi, Italian, Czech, and others, covering topics like government officials (\"Philippines president Marcos Jr\"), institutions (\"Raymond James Trust N.A.\"), cultural references (\"Guru Granth Sahib\"), cited sources (\"Reporting by Suvashree Dey Choudhury\"), and sports competitions (\"Khelo India Youth Games\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally simpler headlines or introductory phrases that either lack dense proper nouns or present them without embedded contextual detail (e.g., \"Yellowknife tenants,\" \"International Monetary Fund Managing Director\" appears without accompanying reporting detail). The high-activation examples consistently pack multiple specific named entities within a single clause, often in a structured, fact-reporting style.\n\n4. **Closing interpretation**: This neuron detects text segments that function as dense, formal reference points\u2014specifically, clauses where named entities are presented as established facts within a reporting or documentary framework. It signals informational text built around concrete, specific identifiers.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper nouns and named entities embedded in formal or informational reporting contexts** (such as specific people with titles, organizations, financial/legal entities, event names, or cited sources).\n\n2. **Domain coverage**: The pattern appears across multilingual news, official reports, sports summaries, and financial/legal documents. Examples span English, Arabic, Hindi, Italian, Czech, and others, covering topics like government officials (\"Philippines president Marcos Jr\"), institutions (\"Raymond James Trust N.A.\"), cultural references (\"Guru Granth Sahib\"), cited sources (\"Reporting by Suvashree Dey Choudhury\"), and sports competitions (\"Khelo India Youth Games\").\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally simpler headlines or introductory phrases that either lack dense proper nouns or present them without embedded contextual detail (e.g., \"Yellowknife tenants,\" \"International Monetary Fund Managing Director\" appears without accompanying reporting detail). The high-activation examples consistently pack multiple specific named entities within a single clause, often in a structured, fact-reporting style.\n\n4. **Closing interpretation**: This neuron detects text segments that function as dense, formal reference points—specifically, clauses where named entities are presented as established facts within a reporting or documentary framework. It signals informational text built around concrete, specific identifiers.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u092e\u0924\u0926\u093e\u0928: \u0932\u094b\u0915\u0938\u092d\u093e \u091a\u0941\u0928\u093e\u0935 \u0932\u094b\u0915\u0938\u092d\u093e \u091a\u0941\u0928\u093e\u0935",
+      "actual_text": "मतदान: लोकसभा चुनाव लोकसभा चुनाव",
       "normalized_activation": 9.504491806030273,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.2387,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1361
+          "combined_score": 0.1167
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2008,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1286
+          "combined_score": 0.1034
         },
         {
           "prediction_rank": 3,
@@ -30,13 +30,13 @@
           "meaning_score": 0.2296,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.118
+          "combined_score": 0.1074
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "care costs\u201d he added. SMT\u2019s Head of Western Europe Gaurav Goel commented, \u201cIt\u2019s the first time in Europe that an Indian driven",
+      "actual_text": "care costs” he added. SMT’s Head of Western Europe Gaurav Goel commented, “It’s the first time in Europe that an Indian driven",
       "normalized_activation": 8.553651809692383,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.2833,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1508
+          "combined_score": 0.1344
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.1503,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.092
+          "combined_score": 0.0758
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.4443,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2181
+          "combined_score": 0.204
         }
       ]
     },
@@ -76,15 +76,15 @@
           "meaning_score": 0.3379,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2026
+          "combined_score": 0.1689
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1868,
+          "concept_score": 0.1869,
           "meaning_score": 0.7898,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5907
+          "location_score": 0.425,
+          "combined_score": 0.7887
         },
         {
           "prediction_rank": 3,
@@ -92,22 +92,22 @@
           "meaning_score": 0.372,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2591
+          "combined_score": 0.1995
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Farmers Edge and LTIMindtree Unveil FEIL \u2013 Mumbai: A",
+      "actual_text": "Farmers Edge and LTIMindtree Unveil FEIL – Mumbai: A",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1623,
+          "concept_score": 0.1622,
           "meaning_score": 0.774,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3745
+          "combined_score": 0.3533
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.6681,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3542
+          "combined_score": 0.3165
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1664,
+          "concept_score": 0.1663,
           "meaning_score": 0.4026,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2276
+          "combined_score": 0.196
         }
       ]
     },
@@ -137,24 +137,24 @@
           "concept_score": 0.1238,
           "meaning_score": 0.756,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5519
+          "location_score": 0.425,
+          "combined_score": 0.7649
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1443,
-          "meaning_score": 0.4453,
+          "meaning_score": 0.4452,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2359
+          "combined_score": 0.2108
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0816,
-          "meaning_score": 0.4711,
+          "concept_score": 0.0815,
+          "meaning_score": 0.471,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2211
+          "combined_score": 0.2124
         }
       ]
     }

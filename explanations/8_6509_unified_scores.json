@@ -1,36 +1,36 @@
 {
   "neuron_id": "8_6509",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news wire or syndicated content that includes disclaimers, source attributions, and auto-generation notices (such as \u201cauto-generated from a syndicated feed,\u201d \u201cDisclaimer,\u201d \u201cclick here to read,\u201d or press release tags like \u201cots/PRNewswire\u201d).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Spanish, German, Turkish, Italian) and covers diverse topics including international politics, entertainment, sports, and cultural events. It often involves proper nouns (e.g., Anurag Srivastava, Jacqueline Fernandez), temporal references (e.g., Thursday, February), and mentions of specific organizations or media outlets.\n\n3. **Contrast with low-activation examples**: The low-activation texts are also news-like but lack explicit syndication notices, disclaimers, or references to external websites. They are typically straightforward news leads without meta-commentary about their source or generation, and they are predominantly in English without mixed scripts.\n\n4. **Closing interpretation**: The neuron likely detects text originating from news aggregation platforms or automated feeds, characterized by boilerplate disclaimers and multi-lingual content, serving as a feature for identifying machine-generated or syndicated news articles.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to news wire or syndicated content that includes disclaimers, source attributions, and auto-generation notices (such as “auto-generated from a syndicated feed,” “Disclaimer,” “click here to read,” or press release tags like “ots/PRNewswire”).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Spanish, German, Turkish, Italian) and covers diverse topics including international politics, entertainment, sports, and cultural events. It often involves proper nouns (e.g., Anurag Srivastava, Jacqueline Fernandez), temporal references (e.g., Thursday, February), and mentions of specific organizations or media outlets.\n\n3. **Contrast with low-activation examples**: The low-activation texts are also news-like but lack explicit syndication notices, disclaimers, or references to external websites. They are typically straightforward news leads without meta-commentary about their source or generation, and they are predominantly in English without mixed scripts.\n\n4. **Closing interpretation**: The neuron likely detects text originating from news aggregation platforms or automated feeds, characterized by boilerplate disclaimers and multi-lingual content, serving as a feature for identifying machine-generated or syndicated news articles.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Copyright\u00a92022 Living Media India Limited. For reprint rights: Syndications Today",
+      "actual_text": "Copyright©2022 Living Media India Limited. For reprint rights: Syndications Today",
       "normalized_activation": 9.580021858215332,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2352,
+          "concept_score": 0.2353,
           "meaning_score": 1.0,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6941
+          "location_score": 0.425,
+          "combined_score": 0.8853
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2032,
-          "meaning_score": 0.291,
+          "concept_score": 0.2034,
+          "meaning_score": 0.2911,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1977
+          "combined_score": 0.1542
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2897,
-          "meaning_score": 0.1815,
+          "meaning_score": 0.1818,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1885
+          "combined_score": 0.1207
         }
       ]
     },
@@ -44,8 +44,8 @@
           "concept_score": 0.322,
           "meaning_score": 0.8141,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6544
+          "location_score": 0.425,
+          "combined_score": 0.8193
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.6638,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3234
+          "combined_score": 0.3038
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.5737,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3081
+          "combined_score": 0.2733
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "This is not an isolated case. A woman cadre recently rescued by the Jharkhand police revealed how she had to undergo severe \u201csexual exploitation\u201d at the hands",
+      "actual_text": "This is not an isolated case. A woman cadre recently rescued by the Jharkhand police revealed how she had to undergo severe “sexual exploitation” at the hands",
       "normalized_activation": 7.539577484130859,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.5165,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.273
+          "combined_score": 0.2444
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3659,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2076
+          "combined_score": 0.1785
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.5396,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2703
+          "combined_score": 0.2497
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.2077,
           "meaning_score": 0.8007,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6034
+          "location_score": 0.425,
+          "combined_score": 0.7965
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.5336,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3049
+          "combined_score": 0.2611
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.5525,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3063
+          "combined_score": 0.2668
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Elon Musk\u2019s 2024 X Corp Dominates the New Year Amid",
+      "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,15 +138,15 @@
           "meaning_score": 0.5979,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3076
+          "combined_score": 0.2798
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1715,
+          "concept_score": 0.1714,
           "meaning_score": 0.8624,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.6136
+          "location_score": 0.425,
+          "combined_score": 0.8172
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.2836,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.167
+          "combined_score": 0.1406
         }
       ]
     }

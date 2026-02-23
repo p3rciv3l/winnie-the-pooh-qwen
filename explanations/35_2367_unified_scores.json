@@ -1,11 +1,11 @@
 {
   "neuron_id": "35_2367",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style leads or datelines** (such as location-based openings like \"ISLAMABAD -\", event-focused openings like \"Updated: 11:40 a.m.\", or statement-attribution openings like \"Pakistan yesterday said that...\").\n\n2. **Domain coverage**: The pattern appears across international news domains\u2014politics, sports, entertainment, local incidents\u2014and in multiple languages (English, Arabic, Spanish, German, Polish, Slovak). It detects the journalistic convention of starting a report with a location, timestamp, source attribution, or immediate newsworthy event, often using dashes, colons, or initial capitalized phrases to signal a news lead.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with a structured, declarative news lead, while the low-activation examples tend to be narrative fragments, casual observations, or incomplete sentences that lack this journalistic framing (e.g., \"I wish I could count on one\", \"Recensione del film\", or mid-sentence phrases). Even when the low examples mention news-like topics, they do not open with the conventional dateline/lead format.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting the syntactic and stylistic markers of news article introductions, acting as a \"news lead detector\" regardless of topic or language. It signals the beginning of a reported factual update rather than commentary, narrative, or informal text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **news-style leads or datelines** (such as location-based openings like \"ISLAMABAD -\", event-focused openings like \"Updated: 11:40 a.m.\", or statement-attribution openings like \"Pakistan yesterday said that...\").\n\n2. **Domain coverage**: The pattern appears across international news domains—politics, sports, entertainment, local incidents—and in multiple languages (English, Arabic, Spanish, German, Polish, Slovak). It detects the journalistic convention of starting a report with a location, timestamp, source attribution, or immediate newsworthy event, often using dashes, colons, or initial capitalized phrases to signal a news lead.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently begin with a structured, declarative news lead, while the low-activation examples tend to be narrative fragments, casual observations, or incomplete sentences that lack this journalistic framing (e.g., \"I wish I could count on one\", \"Recensione del film\", or mid-sentence phrases). Even when the low examples mention news-like topics, they do not open with the conventional dateline/lead format.\n\n4. **Closing interpretation**: The neuron appears to specialize in detecting the syntactic and stylistic markers of news article introductions, acting as a \"news lead detector\" regardless of topic or language. It signals the beginning of a reported factual update rather than commentary, narrative, or informal text.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "Estas ruinas que ves, este esqueleto que no lleg\u00f3 a ser",
+      "actual_text": "Estas ruinas que ves, este esqueleto que no llegó a ser",
       "normalized_activation": 5.0,
       "pairs": [
         {
@@ -14,7 +14,7 @@
           "meaning_score": 0.178,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1238
+          "combined_score": 0.0954
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.1828,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1369
+          "combined_score": 0.1016
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.148,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1208
+          "combined_score": 0.086
         }
       ]
     },
@@ -45,23 +45,23 @@
           "meaning_score": 0.2233,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1839
+          "combined_score": 0.1304
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2206,
+          "concept_score": 0.2205,
           "meaning_score": 0.2281,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1795
+          "combined_score": 0.13
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.2043,
           "meaning_score": 0.7895,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5975
+          "location_score": 0.425,
+          "combined_score": 0.7912
         }
       ]
     },
@@ -76,7 +76,7 @@
           "meaning_score": 0.4562,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2718
+          "combined_score": 0.2274
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.346,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2439
+          "combined_score": 0.1866
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2727,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2064
+          "combined_score": 0.1524
         }
       ]
     },
@@ -104,26 +104,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1541,
-          "meaning_score": 0.4052,
+          "meaning_score": 0.4051,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2237
+          "combined_score": 0.1953
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1621,
-          "meaning_score": 0.5065,
+          "concept_score": 0.162,
+          "meaning_score": 0.5058,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2674
+          "combined_score": 0.2393
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2142,
-          "meaning_score": 0.4705,
+          "concept_score": 0.2141,
+          "meaning_score": 0.4702,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2739
+          "combined_score": 0.232
         }
       ]
     },
@@ -135,26 +135,26 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.2138,
-          "meaning_score": 0.6147,
+          "meaning_score": 0.6143,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5314
+          "location_score": 0.425,
+          "combined_score": 0.7182
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2509,
-          "meaning_score": 0.5118,
+          "concept_score": 0.2508,
+          "meaning_score": 0.5116,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3051
+          "combined_score": 0.2551
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1488,
-          "meaning_score": 0.2524,
+          "meaning_score": 0.2518,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1605
+          "combined_score": 0.1293
         }
       ]
     }

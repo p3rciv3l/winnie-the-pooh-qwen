@@ -1,17 +1,17 @@
 {
   "neuron_id": "0_4301",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the word \"Chinese\" (as in \"Chinese people,\" \"Chinese negotiators,\" \"Chinese spy balloon,\" \"Simplified Chinese,\" or \"Chinese Communist Party\") regardless of grammatical role or surrounding context.\n\n2. **Domain coverage**: The pattern appears across diverse domains\u2014international relations (U.S.-China trade talks, military incidents), economic reports (stock markets, income data), technology and language references, and domestic Chinese political or social issues. The texts are primarily in English, often from news or geopolitical discourse, but the neuron also activates when \"Chinese\" appears as part of language names (e.g., \"Simplified Chinese\") in multilingual contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the word \"Chinese\" entirely; they are in other languages (e.g., Arabic, Hindi, Spanish, Greek) or discuss unrelated topics (local crime, regional events). Even texts in non-Latin scripts or about other countries (e.g., Russia, Pakistan) do not trigger the neuron unless they contain the specific token.\n\n4. **Closing interpretation**: This neuron detects the lexical token \"Chinese\" as a surface-level string, acting as a language-agnostic keyword detector. Its activation is driven by token identity rather than deeper semantic themes, highlighting how sparse autoencoders can isolate specific word-level features across contexts.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the word \"Chinese\" (as in \"Chinese people,\" \"Chinese negotiators,\" \"Chinese spy balloon,\" \"Simplified Chinese,\" or \"Chinese Communist Party\") regardless of grammatical role or surrounding context.\n\n2. **Domain coverage**: The pattern appears across diverse domains—international relations (U.S.-China trade talks, military incidents), economic reports (stock markets, income data), technology and language references, and domestic Chinese political or social issues. The texts are primarily in English, often from news or geopolitical discourse, but the neuron also activates when \"Chinese\" appears as part of language names (e.g., \"Simplified Chinese\") in multilingual contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the word \"Chinese\" entirely; they are in other languages (e.g., Arabic, Hindi, Spanish, Greek) or discuss unrelated topics (local crime, regional events). Even texts in non-Latin scripts or about other countries (e.g., Russia, Pakistan) do not trigger the neuron unless they contain the specific token.\n\n4. **Closing interpretation**: This neuron detects the lexical token \"Chinese\" as a surface-level string, acting as a language-agnostic keyword detector. Its activation is driven by token identity rather than deeper semantic themes, highlighting how sparse autoencoders can isolate specific word-level features across contexts.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "footprint. But a rising chorus of Republican vitriol directed at Biden after a Chinese spy balloon flew over the United States this month upended that spirit \u2014 giving way",
+      "actual_text": "footprint. But a rising chorus of Republican vitriol directed at Biden after a Chinese spy balloon flew over the United States this month upended that spirit — giving way",
       "normalized_activation": 9.92112922668457,
       "pairs": []
     },
     {
       "example_idx": 2,
-      "actual_text": "spokesman said when asked about Trump\u2019s threat to impose the across-the-board tariffs on Chinese goods. Russian Economy Minister Maxim Oreshkin said last week ahead of the",
+      "actual_text": "spokesman said when asked about Trump’s threat to impose the across-the-board tariffs on Chinese goods. Russian Economy Minister Maxim Oreshkin said last week ahead of the",
       "normalized_activation": 9.750131607055664,
       "pairs": []
     },
@@ -23,7 +23,7 @@
     },
     {
       "example_idx": 4,
-      "actual_text": "Cei de la minister spun c\u0103 era necesar s\u0103 fie introduse aceste",
+      "actual_text": "Cei de la minister spun că era necesar să fie introduse aceste",
       "normalized_activation": 0.0,
       "pairs": []
     },

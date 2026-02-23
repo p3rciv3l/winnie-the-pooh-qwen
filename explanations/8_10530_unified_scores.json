@@ -1,42 +1,42 @@
 {
   "neuron_id": "8_10530",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns followed by descriptive or explanatory appositives** (such as \"Liz Truss said...\", \"Ballast Point Brewing Company Saint Archer Gold Light\", or \"Ra\u00fal Rodr\u00edguez Pi\u00f1a, aspirante de la planilla...\").\n\n2. **Domain coverage**: The pattern appears in multilingual news, official reports, and biographical snippets. It activates across English, Arabic, Spanish, Italian, German, and Urdu texts, specifically in contexts that introduce a person, organization, location, or specific entity (often with a title or role) and then immediately elaborate with a clause or phrase detailing a statement, position, description, or action.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a proper noun or named entity coupled with an explanatory phrase or clause. The low-activation examples either lack a specific named entity (e.g., \"A family has been left shaken...\") or present a named entity without this immediate descriptive follow-up (e.g., \"LOS ANGELES, May 6, 2021 /PRNew...\" is a bare dateline). The neuron appears to key on the syntactic structure of *entity + elaboration*.\n\n4. **Closing interpretation**: This neuron detects a common journalistic or encyclopedic syntactic pattern where a specific referent is introduced and then immediately characterized, likely serving as a feature for parsing structured factual or declarative statements within running text.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns followed by descriptive or explanatory appositives** (such as \"Liz Truss said...\", \"Ballast Point Brewing Company Saint Archer Gold Light\", or \"Raúl Rodríguez Piña, aspirante de la planilla...\").\n\n2. **Domain coverage**: The pattern appears in multilingual news, official reports, and biographical snippets. It activates across English, Arabic, Spanish, Italian, German, and Urdu texts, specifically in contexts that introduce a person, organization, location, or specific entity (often with a title or role) and then immediately elaborate with a clause or phrase detailing a statement, position, description, or action.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature a proper noun or named entity coupled with an explanatory phrase or clause. The low-activation examples either lack a specific named entity (e.g., \"A family has been left shaken...\") or present a named entity without this immediate descriptive follow-up (e.g., \"LOS ANGELES, May 6, 2021 /PRNew...\" is a bare dateline). The neuron appears to key on the syntactic structure of *entity + elaboration*.\n\n4. **Closing interpretation**: This neuron detects a common journalistic or encyclopedic syntactic pattern where a specific referent is introduced and then immediately characterized, likely serving as a feature for parsing structured factual or declarative statements within running text.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "The big conclusion is that ring systems are temporary features,\u201d said James O\u2019Donoghue, a postdoctoral fellow at NASA\u2019s Goddard Space Flight Center",
+      "actual_text": "The big conclusion is that ring systems are temporary features,” said James O’Donoghue, a postdoctoral fellow at NASA’s Goddard Space Flight Center",
       "normalized_activation": 8.673203468322754,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1188,
+          "concept_score": 0.1189,
           "meaning_score": 0.8805,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3997
+          "combined_score": 0.3921
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1178,
-          "meaning_score": 0.6239,
+          "meaning_score": 0.6241,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2967
+          "combined_score": 0.2829
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0879,
-          "meaning_score": 0.5231,
+          "concept_score": 0.0878,
+          "meaning_score": 0.5232,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2444
+          "combined_score": 0.2355
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "Mi madre misma me pregunt\u00f3 por qu\u00e9 no le constru\u00eda un Brad Pitt\". Santos explica que no quiere que la gente \"se averg\u00fcence de",
+      "actual_text": "Mi madre misma me preguntó por qué no le construía un Brad Pitt\". Santos explica que no quiere que la gente \"se avergüence de",
       "normalized_activation": 7.53480339050293,
       "pairs": [
         {
@@ -45,7 +45,7 @@
           "meaning_score": 0.3422,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1883
+          "combined_score": 0.1647
         },
         {
           "prediction_rank": 2,
@@ -53,21 +53,21 @@
           "meaning_score": 0.3357,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1882
+          "combined_score": 0.1629
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1474,
+          "concept_score": 0.1475,
           "meaning_score": 0.3905,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2152
+          "combined_score": 0.1881
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "ya \u00e7ifti. Kozmopolit bir spor velhas\u0131l \u015fu tenis! \u0130statistiklerde Kontinen/Peers \u00e7iftinin 3-",
+      "actual_text": "ya çifti. Kozmopolit bir spor velhasıl şu tenis! İstatistiklerde Kontinen/Peers çiftinin 3-",
       "normalized_activation": 6.41323184967041,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.3905,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2292
+          "combined_score": 0.1934
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.5597,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2978
+          "combined_score": 0.2656
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4283,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2276
+          "combined_score": 0.2031
         }
       ]
     },
@@ -103,11 +103,11 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1144,
+          "concept_score": 0.1143,
           "meaning_score": 0.3545,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1876
+          "combined_score": 0.1678
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.4297,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2162
+          "combined_score": 0.1993
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.3246,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.18
+          "combined_score": 0.1568
         }
       ]
     },
@@ -134,27 +134,27 @@
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.2081,
-          "meaning_score": 0.5085,
+          "concept_score": 0.2083,
+          "meaning_score": 0.5084,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2866
+          "combined_score": 0.2473
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1723,
-          "meaning_score": 0.4466,
+          "concept_score": 0.1725,
+          "meaning_score": 0.4452,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2476
+          "combined_score": 0.2151
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1934,
-          "meaning_score": 0.3863,
+          "concept_score": 0.1935,
+          "meaning_score": 0.3864,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2319
+          "combined_score": 0.1932
         }
       ]
     }

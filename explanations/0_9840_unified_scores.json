@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_9840",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that express additive, contrastive, or explanatory relationships between multiple entities or ideas** (such as clauses joined by \"both...and,\" \"adem\u00e1s,\" \"also,\" \"not only...but,\" or phrases like \"as well as\" and \"for example\").\n\n2. **Domain coverage**: The pattern appears across diverse topics (politics, disasters, science, music, business) and multiple languages, primarily Spanish and English, with examples also in Romanian. It activates in news reports, analytical writing, and descriptive passages where a sentence is structured to list, compare, or elaborate on two or more items, often signaled by coordinating conjunctions, conjunctive adverbs, or parallel structures.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit relational phrasing linking multiple elements, while the low-activation examples are typically short, fragmented headlines, lead-ins, or isolated phrases in various languages (Turkish, Russian, Greek, Hindi, etc.) that lack this multi-part relational structure. The neuron fires weakly on text that is either syntactically simple or cuts off before establishing a relationship.\n\n4. **Closing interpretation**: The neuron detects syntactic and semantic frames that introduce a second point, an additional item, or a paired set of concepts. It functions as a **detector of relational phrasing and multi-clause elaboration**, largely independent of specific topic or language, but highly sensitive to the presence of additive/contrastive discourse markers.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that express additive, contrastive, or explanatory relationships between multiple entities or ideas** (such as clauses joined by \"both...and,\" \"además,\" \"also,\" \"not only...but,\" or phrases like \"as well as\" and \"for example\").\n\n2. **Domain coverage**: The pattern appears across diverse topics (politics, disasters, science, music, business) and multiple languages, primarily Spanish and English, with examples also in Romanian. It activates in news reports, analytical writing, and descriptive passages where a sentence is structured to list, compare, or elaborate on two or more items, often signaled by coordinating conjunctions, conjunctive adverbs, or parallel structures.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit relational phrasing linking multiple elements, while the low-activation examples are typically short, fragmented headlines, lead-ins, or isolated phrases in various languages (Turkish, Russian, Greek, Hindi, etc.) that lack this multi-part relational structure. The neuron fires weakly on text that is either syntactically simple or cuts off before establishing a relationship.\n\n4. **Closing interpretation**: The neuron detects syntactic and semantic frames that introduce a second point, an additional item, or a paired set of concepts. It functions as a **detector of relational phrasing and multi-clause elaboration**, largely independent of specific topic or language, but highly sensitive to the presence of additive/contrastive discourse markers.",
   "results": [
     {
       "example_idx": 1,
@@ -11,25 +11,25 @@
     },
     {
       "example_idx": 2,
-      "actual_text": "of Chicago, from a bird\u2019s perspective,\u201d Pollock, also a member of both Bird Friendly Evanston and Evanston North Shore Bird Club, said. \u201c",
+      "actual_text": "of Chicago, from a bird’s perspective,” Pollock, also a member of both Bird Friendly Evanston and Evanston North Shore Bird Club, said. “",
       "normalized_activation": 9.083022117614746,
       "pairs": []
     },
     {
       "example_idx": 3,
-      "actual_text": "based on HRW\u2019s advocacy under Ken\u2019s leadership, this is profoundly troubling from both a human rights and an academic freedom standpoint.\u201d It appears that Roth and Romero",
+      "actual_text": "based on HRW’s advocacy under Ken’s leadership, this is profoundly troubling from both a human rights and an academic freedom standpoint.” It appears that Roth and Romero",
       "normalized_activation": 8.696810722351074,
       "pairs": []
     },
     {
       "example_idx": 4,
-      "actual_text": "26 ARALIK 2018\u00dcYE G\u0130R\u0130\u015e\u0130H",
+      "actual_text": "26 ARALIK 2018ÜYE GİRİŞİH",
       "normalized_activation": 0.0,
       "pairs": []
     },
     {
       "example_idx": 5,
-      "actual_text": "A pochi giorni dall\u2019anniversario del sisma del 30 ott",
+      "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "normalized_activation": 0.0,
       "pairs": []
     }

@@ -1,73 +1,73 @@
 {
   "neuron_id": "35_3736",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text fragments that appear to be cut off mid\u2011sentence or mid\u2011phrase** (such as truncated news leads, incomplete clauses, or excerpts that end abruptly without punctuation).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Russian, Arabic, Italian, Spanish, Thai, etc.) and primarily in formal or journalistic contexts\u2014news articles, reports, or descriptive prose\u2014where the text is often extracted or displayed in snippet form. The neuron activates on segments that read like the beginning or middle of a paragraph but break off before a natural stopping point.\n\n3. **Contrast with low\u2011activation examples**: High\u2011activation texts consistently end mid\u2011flow, often without terminal punctuation, while low\u2011activation examples are either complete sentences, headlines, or clearly bounded phrases (e.g., \u201cTrump\u2019s Truth Social launches on Apple\u2019s App Store, with glitches 3 min read\u201d). The low\u2011activation group lacks the \u201ccut\u2011off\u201d quality; even when short, they form self\u2011contained units.\n\n4. **Closing interpretation**: The neuron likely detects **incomplete syntactic or discourse segments**, serving as a proxy for text that has been truncated during data preprocessing or web scraping. It signals a boundary between full, coherent statements and fragments that require additional context.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text fragments that appear to be cut off mid‑sentence or mid‑phrase** (such as truncated news leads, incomplete clauses, or excerpts that end abruptly without punctuation).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Hindi, Russian, Arabic, Italian, Spanish, Thai, etc.) and primarily in formal or journalistic contexts—news articles, reports, or descriptive prose—where the text is often extracted or displayed in snippet form. The neuron activates on segments that read like the beginning or middle of a paragraph but break off before a natural stopping point.\n\n3. **Contrast with low‑activation examples**: High‑activation texts consistently end mid‑flow, often without terminal punctuation, while low‑activation examples are either complete sentences, headlines, or clearly bounded phrases (e.g., “Trump’s Truth Social launches on Apple’s App Store, with glitches 3 min read”). The low‑activation group lacks the “cut‑off” quality; even when short, they form self‑contained units.\n\n4. **Closing interpretation**: The neuron likely detects **incomplete syntactic or discourse segments**, serving as a proxy for text that has been truncated during data preprocessing or web scraping. It signals a boundary between full, coherent statements and fragments that require additional context.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u0105dowaniem. Centrum kontroli tej misji w Darmstadt poinformowa\u0142o, \u017ce l\u0105downik uderzy\u0142 o pow",
+      "actual_text": "ądowaniem. Centrum kontroli tej misji w Darmstadt poinformowało, że lądownik uderzył o pow",
       "normalized_activation": 9.645866394042969,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1593,
+          "concept_score": 0.1591,
           "meaning_score": 0.5926,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3008
+          "combined_score": 0.2757
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2177,
+          "concept_score": 0.2176,
           "meaning_score": 0.5428,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3042
+          "combined_score": 0.2633
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2026,
+          "concept_score": 0.2024,
           "meaning_score": 0.5685,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3084
+          "combined_score": 0.272
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "Gi\u00e0 a settembre aveva deciso, in autonomia, di sospendere la procedura della valutazione di impatto",
+      "actual_text": "Già a settembre aveva deciso, in autonomia, di sospendere la procedura della valutazione di impatto",
       "normalized_activation": 8.938691139221191,
       "pairs": [
         {
           "prediction_rank": 1,
           "concept_score": 0.298,
-          "meaning_score": 0.384,
+          "meaning_score": 0.3838,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2728
+          "combined_score": 0.2078
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.2761,
+          "concept_score": 0.2762,
           "meaning_score": 0.4122,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2753
+          "combined_score": 0.2166
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.2417,
-          "meaning_score": 0.4525,
+          "concept_score": 0.2416,
+          "meaning_score": 0.4531,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2777
+          "combined_score": 0.2288
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "ancer, Prancer, Vixon, Comet, Cupid, Donner and Blitzen. Wouldn\u2019t the song be much longer then? But of course,",
+      "actual_text": "ancer, Prancer, Vixon, Comet, Cupid, Donner and Blitzen. Wouldn’t the song be much longer then? But of course,",
       "normalized_activation": 8.055204391479492,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.4126,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2191
+          "combined_score": 0.1957
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.3506,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2043
+          "combined_score": 0.173
         },
         {
           "prediction_rank": 3,
@@ -92,38 +92,38 @@
           "meaning_score": 0.4109,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.235
+          "combined_score": 0.2011
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "La luna ci metter\u00e0 anche del suo, ma ci sono alcuni rappresent",
+      "actual_text": "La luna ci metterà anche del suo, ma ci sono alcuni rappresent",
       "normalized_activation": 0.0,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1995,
+          "concept_score": 0.1997,
           "meaning_score": 0.5612,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5043
+          "location_score": 0.425,
+          "combined_score": 0.6935
         },
         {
           "prediction_rank": 2,
-          "concept_score": 0.1766,
+          "concept_score": 0.1767,
           "meaning_score": 0.3437,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2081
+          "combined_score": 0.1726
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1701,
+          "concept_score": 0.1702,
           "meaning_score": 0.3384,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2034
+          "combined_score": 0.1693
         }
       ]
     },
@@ -137,8 +137,8 @@
           "concept_score": 0.2303,
           "meaning_score": 0.7391,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5877
+          "location_score": 0.425,
+          "combined_score": 0.7736
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.4686,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2818
+          "combined_score": 0.2345
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.3244,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2304
+          "combined_score": 0.1756
         }
       ]
     }

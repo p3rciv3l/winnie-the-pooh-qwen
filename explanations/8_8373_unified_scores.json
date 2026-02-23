@@ -1,11 +1,11 @@
 {
   "neuron_id": "8_8373",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper noun sequences featuring multiple capitalized names** (such as person names with titles, organizational acronyms, or location strings), particularly when they appear in clusters or lists within journalistic or formal reporting contexts.\n\n2. **Domain coverage**: The pattern appears across news articles, biographical snippets, and official statements in multiple languages (English, Spanish, Italian). It activates on sequences that combine personal names (e.g., \"Jason K. Hou, MD,\" \"Loujain al-Hathloul\"), organizational names (e.g., \"SNP, TSN 1040,\" \"G-A-A\"), and geographic identifiers (e.g., \"Mekong Close, Maitama, in Abuja\"), especially when these are presented in an attributive or enumerative format.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain dense, multi-part proper nouns\u2014often with titles, affiliations, or geographic specifics\u2014embedded in reporting clauses. The low-activation examples either lack proper nouns entirely, contain only isolated proper nouns (e.g., \"William Tate IV,\" \"Ashish Nehra\"), or present them without the clustered, attributive structure (e.g., \"South Korean female group WJSN member Dawon\" is simpler and less nested).\n\n4. **Closing interpretation**: This neuron detects formal named-entity listing and attribution patterns, acting as a sensor for densely packed referential information typical of news reporting, legal documents, or biographical records. It appears to fire on syntactic contexts where multiple capitalized entities are conjoined or hierarchically listed.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **proper noun sequences featuring multiple capitalized names** (such as person names with titles, organizational acronyms, or location strings), particularly when they appear in clusters or lists within journalistic or formal reporting contexts.\n\n2. **Domain coverage**: The pattern appears across news articles, biographical snippets, and official statements in multiple languages (English, Spanish, Italian). It activates on sequences that combine personal names (e.g., \"Jason K. Hou, MD,\" \"Loujain al-Hathloul\"), organizational names (e.g., \"SNP, TSN 1040,\" \"G-A-A\"), and geographic identifiers (e.g., \"Mekong Close, Maitama, in Abuja\"), especially when these are presented in an attributive or enumerative format.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain dense, multi-part proper nouns—often with titles, affiliations, or geographic specifics—embedded in reporting clauses. The low-activation examples either lack proper nouns entirely, contain only isolated proper nouns (e.g., \"William Tate IV,\" \"Ashish Nehra\"), or present them without the clustered, attributive structure (e.g., \"South Korean female group WJSN member Dawon\" is simpler and less nested).\n\n4. **Closing interpretation**: This neuron detects formal named-entity listing and attribution patterns, acting as a sensor for densely packed referential information typical of news reporting, legal documents, or biographical records. It appears to fire on syntactic contexts where multiple capitalized entities are conjoined or hierarchically listed.",
   "results": [
     {
       "example_idx": 1,
-      "actual_text": "\u00f6t\u00e4ckta 1800-talslandskap eller Carl Larssons bilder av julfirande p\u00e5 Sundborn f\u00f6r 100",
+      "actual_text": "ötäckta 1800-talslandskap eller Carl Larssons bilder av julfirande på Sundborn för 100",
       "normalized_activation": 9.561362266540527,
       "pairs": []
     },
@@ -17,7 +17,7 @@
     },
     {
       "example_idx": 3,
-      "actual_text": "three years after he gets out of prison. U.S. District Judge Karen K. Caldwell sentenced Hickman in federal court in London. \u201cThe criminal conduct",
+      "actual_text": "three years after he gets out of prison. U.S. District Judge Karen K. Caldwell sentenced Hickman in federal court in London. “The criminal conduct",
       "normalized_activation": 7.6124725341796875,
       "pairs": []
     },

@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_7395",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing conditional eligibility, targeted policies, or group-specific rules** (such as travel restrictions based on country categories, vaccine prioritization by age group, residency requirements for services, or eligibility criteria for financial offers).\n\n2. **Domain coverage**: The pattern appears across news and bureaucratic language covering public health directives, immigration procedures, municipal services, vaccination campaigns, financial promotions, and legal regulations. It is present in multiple languages (English, Spanish, Turkish, Italian) and consistently involves specifying who is included/excluded under a policy, often using phrases like \u201cfor residents,\u201d \u201cprioritize,\u201d \u201cavailable to,\u201d \u201cfor anyone coming from,\u201d or \u201ccategory X and Y.\u201d\n\n3. **Contrast with low-activation examples**: The high-activation texts explicitly define a rule that applies to a subset of people based on location, age, residency, status, or membership. The low-activation examples are general news headlines, celebrity events, natural phenomena, or personal anecdotes that lack any conditional framework or specification of a targeted group.\n\n4. **Closing interpretation**: The neuron detects semantic structures that delineate in-group versus out-group applicability within regulatory, administrative, or promotional contexts. It fires when text specifies that an action, service, or rule is conditional on belonging to a defined category.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing conditional eligibility, targeted policies, or group-specific rules** (such as travel restrictions based on country categories, vaccine prioritization by age group, residency requirements for services, or eligibility criteria for financial offers).\n\n2. **Domain coverage**: The pattern appears across news and bureaucratic language covering public health directives, immigration procedures, municipal services, vaccination campaigns, financial promotions, and legal regulations. It is present in multiple languages (English, Spanish, Turkish, Italian) and consistently involves specifying who is included/excluded under a policy, often using phrases like “for residents,” “prioritize,” “available to,” “for anyone coming from,” or “category X and Y.”\n\n3. **Contrast with low-activation examples**: The high-activation texts explicitly define a rule that applies to a subset of people based on location, age, residency, status, or membership. The low-activation examples are general news headlines, celebrity events, natural phenomena, or personal anecdotes that lack any conditional framework or specification of a targeted group.\n\n4. **Closing interpretation**: The neuron detects semantic structures that delineate in-group versus out-group applicability within regulatory, administrative, or promotional contexts. It fires when text specifies that an action, service, or rule is conditional on belonging to a defined category.",
   "results": [
     {
       "example_idx": 1,
@@ -14,15 +14,15 @@
           "meaning_score": 0.1139,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1465
+          "combined_score": 0.0863
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2917,
           "meaning_score": 0.8262,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.4471
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8199
         },
         {
           "prediction_rank": 3,
@@ -30,30 +30,30 @@
           "meaning_score": 0.1346,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1431
+          "combined_score": 0.0907
         }
       ]
     },
     {
       "example_idx": 2,
-      "actual_text": "un\u2019interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilit\u00e0 del loro numero da Iliad",
+      "actual_text": "un’interessante offerta dedicata esclusivamente ai nuovi clienti che effettueranno la portabilità del loro numero da Iliad",
       "normalized_activation": 8.372871398925781,
       "pairs": [
         {
           "prediction_rank": 1,
-          "concept_score": 0.1966,
+          "concept_score": 0.1957,
           "meaning_score": 0.6703,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5468
+          "location_score": 0.425,
+          "combined_score": 0.7392
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.2038,
-          "meaning_score": 0.4565,
+          "meaning_score": 0.4564,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2641
+          "combined_score": 0.2245
         },
         {
           "prediction_rank": 3,
@@ -61,7 +61,7 @@
           "meaning_score": 0.3947,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2239
+          "combined_score": 0.1925
         }
       ]
     },
@@ -74,9 +74,9 @@
           "prediction_rank": 1,
           "concept_score": 0.4219,
           "meaning_score": 0.8601,
-          "overlap_fraction": 0.0,
-          "location_score": 0.0,
-          "combined_score": 0.5128
+          "overlap_fraction": 1.0,
+          "location_score": 0.425,
+          "combined_score": 0.8538
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.6667,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.4089
+          "combined_score": 0.3367
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.4426,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.291
+          "combined_score": 0.2308
         }
       ]
     },
@@ -107,7 +107,7 @@
           "meaning_score": 0.5115,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2659
+          "combined_score": 0.2403
         },
         {
           "prediction_rank": 2,
@@ -115,15 +115,15 @@
           "meaning_score": 0.4272,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.212
+          "combined_score": 0.197
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.1396,
           "meaning_score": 0.7644,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5616
+          "location_score": 0.425,
+          "combined_score": 0.7708
         }
       ]
     },
@@ -138,7 +138,7 @@
           "meaning_score": 0.4406,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2514
+          "combined_score": 0.2154
         },
         {
           "prediction_rank": 2,
@@ -146,7 +146,7 @@
           "meaning_score": 0.3631,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2211
+          "combined_score": 0.1827
         },
         {
           "prediction_rank": 3,
@@ -154,7 +154,7 @@
           "meaning_score": 0.53,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.3002
+          "combined_score": 0.2583
         }
       ]
     }

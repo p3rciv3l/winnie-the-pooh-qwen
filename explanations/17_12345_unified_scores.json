@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_12345",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific historical events, periods, or milestones** (such as wars, space missions, political transitions, sporting seasons, or pandemics) that are anchored by explicit temporal markers like years, decades, or named eras.\n\n2. **Domain coverage**: The pattern appears across diverse domains including geopolitics (e.g., World War II, NATO formation, Crimea annexation), sports (e.g., Premier League promotion, Olympic years), cultural history (e.g., human rights movements, film awards), and natural disasters (e.g., typhoons in 2012\u20132013). It activates in multiple languages (English, Spanish) and primarily in factual, narrative, or journalistic contexts that reference completed past events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete temporal anchors (e.g., \u201c2008,\u201d \u201c1950s-1970s,\u201d \u201c2012-13 season\u201d) and refer to defined past occurrences. In contrast, low-activation examples are either present/future-oriented (e.g., horoscopes, upcoming events), lack specific historical references, or discuss ongoing/general topics without temporal precision (e.g., policy rates, social media updates).\n\n4. **Closing interpretation**: The neuron detects linguistically grounded references to past events or eras, focusing on semantic content that situates narratives within a specific historical timeline. It appears to serve as a temporal-context detector, emphasizing completed, date-bound occurrences over current, hypothetical, or timeless statements.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of specific historical events, periods, or milestones** (such as wars, space missions, political transitions, sporting seasons, or pandemics) that are anchored by explicit temporal markers like years, decades, or named eras.\n\n2. **Domain coverage**: The pattern appears across diverse domains including geopolitics (e.g., World War II, NATO formation, Crimea annexation), sports (e.g., Premier League promotion, Olympic years), cultural history (e.g., human rights movements, film awards), and natural disasters (e.g., typhoons in 2012–2013). It activates in multiple languages (English, Spanish) and primarily in factual, narrative, or journalistic contexts that reference completed past events.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain concrete temporal anchors (e.g., “2008,” “1950s-1970s,” “2012-13 season”) and refer to defined past occurrences. In contrast, low-activation examples are either present/future-oriented (e.g., horoscopes, upcoming events), lack specific historical references, or discuss ongoing/general topics without temporal precision (e.g., policy rates, social media updates).\n\n4. **Closing interpretation**: The neuron detects linguistically grounded references to past events or eras, focusing on semantic content that situates narratives within a specific historical timeline. It appears to serve as a temporal-context detector, emphasizing completed, date-bound occurrences over current, hypothetical, or timeless statements.",
   "results": [
     {
       "example_idx": 1,
@@ -13,8 +13,8 @@
           "concept_score": 0.2172,
           "meaning_score": 0.607,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5297
+          "location_score": 0.425,
+          "combined_score": 0.7155
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.2895,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2519
+          "combined_score": 0.1741
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.1417,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1178
+          "combined_score": 0.0832
         }
       ]
     },
@@ -45,29 +45,29 @@
           "meaning_score": 0.4867,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2581
+          "combined_score": 0.2306
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.1096,
           "meaning_score": 0.5907,
           "overlap_fraction": 0.4851,
-          "location_score": 0.097,
-          "combined_score": 0.3772
+          "location_score": 0.2062,
+          "combined_score": 0.4737
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.1603,
+          "concept_score": 0.1602,
           "meaning_score": 0.4431,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2413
+          "combined_score": 0.2124
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "there\u2019s a living room set, dining room set, appliances, and bedroom sets all free for the taking. Don\u2019t blame Caltrans. The real problem is",
+      "actual_text": "there’s a living room set, dining room set, appliances, and bedroom sets all free for the taking. Don’t blame Caltrans. The real problem is",
       "normalized_activation": 7.9135966300964355,
       "pairs": [
         {
@@ -76,7 +76,7 @@
           "meaning_score": 0.2617,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1969
+          "combined_score": 0.1458
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2915,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1998
+          "combined_score": 0.1551
         },
         {
           "prediction_rank": 3,
@@ -92,13 +92,13 @@
           "meaning_score": 0.0961,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1407
+          "combined_score": 0.0792
         }
       ]
     },
     {
       "example_idx": 4,
-      "actual_text": "Kocaeli'nin \u0130zmit il\u00e7esinde, halk otob\u00fcs\u00fc",
+      "actual_text": "Kocaeli'nin İzmit ilçesinde, halk otobüsü",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -107,15 +107,15 @@
           "meaning_score": 0.4176,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1948
+          "combined_score": 0.1879
         },
         {
           "prediction_rank": 2,
           "concept_score": 0.0898,
           "meaning_score": 0.6138,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.4814
+          "location_score": 0.425,
+          "combined_score": 0.6993
         },
         {
           "prediction_rank": 3,
@@ -123,13 +123,13 @@
           "meaning_score": 0.4265,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2201
+          "combined_score": 0.1998
         }
       ]
     },
     {
       "example_idx": 5,
-      "actual_text": "Tamil Nadu\u2019s Additional Chief Secretary and Commissioner of Land Administration Girija Vaidyan",
+      "actual_text": "Tamil Nadu’s Additional Chief Secretary and Commissioner of Land Administration Girija Vaidyan",
       "normalized_activation": 0.0,
       "pairs": [
         {
@@ -138,7 +138,7 @@
           "meaning_score": 0.316,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2081
+          "combined_score": 0.1649
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.2022,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1577
+          "combined_score": 0.1148
         },
         {
           "prediction_rank": 3,
           "concept_score": 0.3223,
           "meaning_score": 0.7701,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.637
+          "location_score": 0.425,
+          "combined_score": 0.8007
         }
       ]
     }

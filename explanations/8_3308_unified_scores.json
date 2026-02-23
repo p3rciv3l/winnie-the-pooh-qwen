@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_3308",
   "model": "deepseek/deepseek-v3.2",
-  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense sequences of proper nouns** (such as lists of names, titles with multiple honorifics, geographic enumerations, or corporate/legal entities), particularly when they appear in multilingual or formal contexts.\n\n2. **Domain coverage**: The pattern appears across news, legal, sports, and administrative texts in numerous languages (Swedish, Portuguese, Arabic, Russian, Hindi, Turkish, etc.). It activates on lists of people (e.g., \"Daniel Sundgren, Henok Goitom och Sebastian Larsson\"), geographic/political enumerations (\"Lagos, Ondo, Kebbi...\"), formal titles (\"Al-Mustafa Billah Shah ibni Sultan Hj Ahmad Shah Al-Musta\u2019in Billah\"), and legal/ corporate names (\"Anil Ambani and two RCom directors to pay Ericsson\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain very few proper nouns, use them in isolation, or place them in simpler, more generic sentences (e.g., \"Iran has detained a German national\"). The high-activation examples are characterized by a concentrated density of capitalized or otherwise marked named entities, often in a series or within a single complex phrase, and frequently embedded in non-English text.\n\n4. **Closing interpretation**: This neuron likely detects linguistically complex, information-rich spans where multiple named entities are packed together, serving as a feature for structured enumerations or formal references. It functions as a marker for passages high in specific factual or referential density, particularly across multilingual corpora.",
+  "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing dense sequences of proper nouns** (such as lists of names, titles with multiple honorifics, geographic enumerations, or corporate/legal entities), particularly when they appear in multilingual or formal contexts.\n\n2. **Domain coverage**: The pattern appears across news, legal, sports, and administrative texts in numerous languages (Swedish, Portuguese, Arabic, Russian, Hindi, Turkish, etc.). It activates on lists of people (e.g., \"Daniel Sundgren, Henok Goitom och Sebastian Larsson\"), geographic/political enumerations (\"Lagos, Ondo, Kebbi...\"), formal titles (\"Al-Mustafa Billah Shah ibni Sultan Hj Ahmad Shah Al-Musta’in Billah\"), and legal/ corporate names (\"Anil Ambani and two RCom directors to pay Ericsson\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either contain very few proper nouns, use them in isolation, or place them in simpler, more generic sentences (e.g., \"Iran has detained a German national\"). The high-activation examples are characterized by a concentrated density of capitalized or otherwise marked named entities, often in a series or within a single complex phrase, and frequently embedded in non-English text.\n\n4. **Closing interpretation**: This neuron likely detects linguistically complex, information-rich spans where multiple named entities are packed together, serving as a feature for structured enumerations or formal references. It functions as a marker for passages high in specific factual or referential density, particularly across multilingual corpora.",
   "results": [
     {
       "example_idx": 1,
@@ -14,7 +14,7 @@
           "meaning_score": 0.4382,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.25
+          "combined_score": 0.2142
         },
         {
           "prediction_rank": 2,
@@ -22,7 +22,7 @@
           "meaning_score": 0.3988,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2175
+          "combined_score": 0.1912
         },
         {
           "prediction_rank": 3,
@@ -30,7 +30,7 @@
           "meaning_score": 0.4277,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.276
+          "combined_score": 0.2211
         }
       ]
     },
@@ -45,7 +45,7 @@
           "meaning_score": 0.3115,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1953
+          "combined_score": 0.1589
         },
         {
           "prediction_rank": 2,
@@ -53,7 +53,7 @@
           "meaning_score": 0.4477,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2454
+          "combined_score": 0.2152
         },
         {
           "prediction_rank": 3,
@@ -61,13 +61,13 @@
           "meaning_score": 0.4193,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2732
+          "combined_score": 0.2178
         }
       ]
     },
     {
       "example_idx": 3,
-      "actual_text": "o para empezar el 1 de enero del pr\u00f3ximo a\u00f1o con actividades y traer a sus nuevos socios a bordo. \u201cTenemos que ser exit",
+      "actual_text": "o para empezar el 1 de enero del próximo año con actividades y traer a sus nuevos socios a bordo. “Tenemos que ser exit",
       "normalized_activation": 8.001907348632812,
       "pairs": [
         {
@@ -75,8 +75,8 @@
           "concept_score": 0.1436,
           "meaning_score": 0.4253,
           "overlap_fraction": 0.8151,
-          "location_score": 0.163,
-          "combined_score": 0.3906
+          "location_score": 0.3464,
+          "combined_score": 0.5487
         },
         {
           "prediction_rank": 2,
@@ -84,7 +84,7 @@
           "meaning_score": 0.2557,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1552
+          "combined_score": 0.1285
         },
         {
           "prediction_rank": 3,
@@ -92,7 +92,7 @@
           "meaning_score": 0.2914,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.1821
+          "combined_score": 0.1484
         }
       ]
     },
@@ -106,8 +106,8 @@
           "concept_score": 0.2239,
           "meaning_score": 0.698,
           "overlap_fraction": 1.0,
-          "location_score": 0.2,
-          "combined_score": 0.5688
+          "location_score": 0.425,
+          "combined_score": 0.7552
         },
         {
           "prediction_rank": 2,
@@ -115,7 +115,7 @@
           "meaning_score": 0.3387,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2226
+          "combined_score": 0.1766
         },
         {
           "prediction_rank": 3,
@@ -123,7 +123,7 @@
           "meaning_score": 0.4348,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2686
+          "combined_score": 0.2203
         }
       ]
     },
@@ -135,10 +135,10 @@
         {
           "prediction_rank": 1,
           "concept_score": 0.1363,
-          "meaning_score": 0.5277,
+          "meaning_score": 0.5274,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2656
+          "combined_score": 0.2446
         },
         {
           "prediction_rank": 2,
@@ -146,15 +146,15 @@
           "meaning_score": 0.4003,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2263
+          "combined_score": 0.1949
         },
         {
           "prediction_rank": 3,
-          "concept_score": 0.0946,
+          "concept_score": 0.0947,
           "meaning_score": 0.5793,
           "overlap_fraction": 0.0,
           "location_score": 0.0,
-          "combined_score": 0.2696
+          "combined_score": 0.2604
         }
       ]
     }
