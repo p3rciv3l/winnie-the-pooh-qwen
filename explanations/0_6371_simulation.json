@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_6371",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:13:17Z",
+  "generated_at": "2026-02-24T01:50:27Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **descriptions of disruptive, harmful, or illegal collective events or actions** (such as natural disaster swarms, vandalism/theft, violent clashes, political misconduct, or legal violations).\n\n2. **Domain coverage**: The pattern appears across news reports and narratives covering seismic activity (\"swarm of tremors\"), crime and terrorism (\"vandalism,\" \"burglary,\" \"beaten by Ford thugs\"), political corruption (\"high crimes,\" \"draconian law\"), and sports fouls or controversies (\"penalty,\" \"fun-sponge\"). It activates in multiple languages (English, Spanish, Romanian) and focuses on events involving a group, pair, or plurality (\"a swarm of,\" \"a pair of,\" \"a bunch of\") causing damage, conflict, or rule-breaking.\n\n3. **Contrast with low-activation examples**: The low-activation texts are generally neutral announcements, headlines, or sentence fragments about routine or administrative topics (insurance changes, photo galleries, diplomatic visits, recipe origins). They lack the core elements of disruptive collective action, harm, illegality, or conflict present in the high-activation set.\n\n4. **Closing interpretation**: The neuron detects semantically intense plural events where a collective agent is involved in a negative or destabilizing incident. It functions as a high-level \"disruptive group action\" detector, sensitive to both the plurality of actors and the harmful or illicit nature of the event.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.319928169250488,
       "actual_text": "sexual orientation. It says a judge in Punjab sentenced a Christian couple to death for blasphemy in relation to a text message they deny sending, while a lawyer defending a",
       "plain_text": "ISLAMABAD: Pakistan is among the 10 worst countries along with Iran and China on the index of internet freedom, according to a global survey released today. Freedom House released its 'Freedom on the Internet 2014' report, which surveyed 65 countries and listed the index on obstacles to internet access, limits placed on internet content, and violations of internet user rights. It showed Pakistan at 10th position, one step down from the 11th worst in 2013, an increase in the restrictions imposed on the internet. Its gradual fall during the past four years continues when it was 13th from the bottom in 2011. Majority among the top ten worst countries are from Asia, including Iran, Syria, China, Uzbekistan, Vietnam, Bahrain, Saudi Arabia and Pakistan. Only Cuba and Ethiopia are two others non-Asian among the top ten, placed at fourth and fifth positions. The report cites cases of internet abuse in 2014 including killing of three persons for being gay by a man who used social media to identify their sexual orientation. It says a judge in Punjab sentenced a Christian couple to death for blasphemy in relation to a text message they deny sending, while a lawyer defending a professor for alleged blasphemous FaceBook post was killed. The report shows that the limitations on content were unchanged and the popular video-sharing YouTube remained blocked on government orders since September 2012. Nighat Daad of the Digital Rights Foundation, which collaborated in the preparation of report, said internet censorship does not augur well for the democratic system of the country. \"Pervasive and increased government control on the internet whether in form of censorship or with new surveillance tactics, is limiting freedom of expression and amplifying self-censorship among the internet users in Pakistan,\" she said.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The report cites cases of internet abuse in 2014 including killing of three persons for being gay by a man who used social media to identify their sexual orientation.",
+          "concept": "group murder",
+          "reasoning": "Describes the killing of three persons, a harmful collective event targeting a group."
+        },
+        {
+          "rank": 2,
+          "text": "It says a judge in Punjab sentenced a Christian couple to death for blasphemy in relation to a text message they deny sending, while a lawyer defending a professor for alleged blasphemous FaceBook post was killed.",
+          "concept": "legal persecution",
+          "reasoning": "Describes a couple sentenced to death and a lawyer killed, representing harmful illegal actions against individuals."
+        },
+        {
+          "rank": 3,
+          "text": "The report shows that the limitations on content were unchanged and the popular video-sharing YouTube remained blocked on government orders since September2012.",
+          "concept": "government censorship",
+          "reasoning": "Describes government blocking of YouTube, a disruptive collective action limiting expression."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.398510932922363,
       "actual_text": "people trying to limit other people’s expression: Florida lawmakers are advancing a pair of bills that would bar school districts from encouraging classroom discussions about sexual orientation or gender identity",
       "plain_text": "When someone says something we disagree with, should we shut them up? In 1927, Supreme Court Justice Louis Brandeis had an answer: “The remedy to be applied is more speech, not enforced silence.”  Well, in that case, the internet should have solved everything, notes correspondent David Pogue – it’s nothing but more speech. And yet lately, the news is full of stories about people trying to limit other people’s expression:  Florida lawmakers are advancing a pair of bills that would bar school districts from encouraging classroom discussions about sexual orientation or gender identity – what critics are calling “Don’t Say Gay” bills. Nearly a dozen states have introduced bills that would direct what students can and cannot be taught about the role of slavery in American history and the ongoing effects of racism in the U.S. today. A Tennessee school board removed “Maus,” a Pulitzer Prize-winning graphic novel about the Holocaust, from its curriculum. Spotify faced growing controversy over episodes of Joe Rogan’s podcast containing racial slurs and COVID-19 misinformation. An incoming Georgetown Law administrator was assailed by a student group for posting a “racist, sexist, and misogynistic” tweet that criticized President Joe Biden’s announcement that he would nominate a Black woman for the Supreme Court. “I would argue that the culture of free speech is under attack in the U.S.,” said Jacob Mchangama, the author of “Free Speech,” a new book that documents the history of free expression. “And without a robust culture of free speech based on tolerance, the laws and constitutional protection will ultimately erode.  Basic Books  “People both on the left and the right are sort of coming at free speech from different angles with different grievances, that point to a general loss of faith in the First Amendment.”  The free-speech erosion is even happening in schools. Since January last year, according to PEN America, Republican lawmakers have introduced more than 150 state laws that would restrict how teachers can discuss race, sexual orientation, and gender identity in the classroom.  Jennifer Given, who teaches high-school history in Hollis, New Hampshire, said of the laws, “It’s about making up false narratives to further a political goal of your own.  “It’s a really scary time to be a teacher,” she told Pogue. “We’re self-censoring, We are absolutely avoiding certain things and ideas in an effort to stay within the lines as best we understand them.”  In New Hampshire, a new law limits what teachers can say about racism and sexism – and a conservative group is offering a $500 bounty to anyone who turns in a teacher who violates it.  Given said, “The ghost of Senator McCarthy is alive and well in some of our state house hallways.”  Pogue asked, “What would happen to you if you did step afoul of this law?”  “That can result in the loss of your license,” she replied. “And so, I would not only be unemployable at my school, but I would be unemployable anywhere.”  “But what I don’t understand is, this is New Hampshire, whose motto is, ‘Live Free or Die’!”  “Yeah, yeah,” Given laughed. “There’s a lot of emphasis on the ‘or die’ part of late!”    UC Berkeley professor John Powell, an expert on civil liberties and democracy, said of the classroom prohibitions, “That’s a very serious freedom of speech issue. To me, that is so far off the rail.”  He’s especially alarmed at the record number of books that are being banned in schools all over the country. Conservatives object to books about sex, gender issues, and racial injustice (such as Toni Morrison’s “Beloved,” Alex Gino’s “George,” and “The 1619 Project”), and liberals object to books containing outdated racial depictions (including John Steinbeck’s “Of Mice and Men,” Mark Twain’s “The Adventures of Huckleberry Finn,” and Harper Lee’s “To Kill a Mockingbird”).  10 Most Challenged Books Lists (American Library Association) Virginia school board officials suggest burning books banned from schools (“Red & Blue”) “You can’t make the Holocaust a nice thing – it wasn’t a nice thing!” Powell laughed. “You can’t make slavery a nice thing. ‘That makes people uncomfortable.’ It should make people uncomfortable! The goal of education is not comfort. So, if someone really wants to challenge the Holocaust, let ’em challenge it. But don’t ban a discussion on it.”  In the mid-1800s, English philosopher John Stuart Mill proposed that governments limit free speech only when it would cause harm to others.  Powell said, “He wrote a book called ‘On Liberty,’ [about] freedom. And he was very concerned about the government silencing people, that citizens had to have the right to express themselves.”  Our laws have generally followed that guideline. In the U.S., public speech can’t include obscenity, defamation, death threats, incitement to violence – harms.  But Powell said that the recent restrictions have more to do with culture wars than with preventing harm: “I want to regulate that ’cause I don’t like it. To me, that’s wrong. That’s problematic.”  “So, there’s a difference between saying something that makes you uncomfortable, and saying something that damages society or incites to riot?” asked Pogue.  “Right, and discomfort is not the same as an injury.”  But these days, there are entire new categories of speech that can lead to harm. “Now, there’s a concept of disinformation, where you deliberately engage in lies, in fact to cause harm, to cause injury, to exclude some people,” said Powell. “But what it really means is our understanding of the First Amendment and our understanding of free speech is evolving. It has to evolve.”  A dozen anti-vaccine accounts are responsible for 65% of disinformation shared online, new report finds It’s probably no coincidence that the new censorship culture arose simultaneously with social networks like Facebook and Twitter.  “The First Amendment was conceived as a protection of citizens from restriction of expression by the government, and not by private companies or other entities,” said Jillian York, the director for international freedom of expression at the Electronic Frontier Foundation, and author of “Silicon Values.”  “I think Trump getting kicked off of Facebook and Twitter is kind of complicated,” York said. “But the thing that really concerns me the most is that someone like Mark Zuckerberg, whom none of us elected, has the power to remove an elected official. I think that should really worry us, even if we do feel that Trump should be silenced.”  York said that the big tech companies censor our speech every day, sometimes by mistake, but always without supervision or transparency. “We saw protest content around Black Lives Matter removed on Facebook’s platform, wrongfully,” she said. “LGBTQ content has been removed. as well as things like art and satire.”  Faceoff against Facebook: Stopping the flow of misinformation (“Sunday Morning”) Texas governor signs law prohibiting social media platforms from banning users Lawmakers vow stricter regulations on social media platforms to combat misinformation According to Jacob Mchangama, social networks censor us in another way, too, by making us afraid to speak at all: “There was actually this survey from 2020 by the Cato Institute which showed that 62% of Americans self-censor, who are afraid to sort of express their political views on specific topics.  “It shows this paradox: Americans enjoy the strongest legal constitutional protection of free speech probably in world history. But they still fear the consequences of being fired for speaking out on certain political views. And that’s not a healthy sign.”  But it’s not just America. Since 2019, at least 37 countries have passed laws that increase censorship (of individuals or the media), including in Europe, where Jillian York lives. “There’s a lot of debate right now in Germany, for example, over a fairly recent law that restricts hate speech online,” York said, “but also creates penalties for things like the country’s insult law. So, you know, insulting someone online could be penalized financially.”  Overall, it would be easy to get depressed by these attacks on free speech. Especially if you’re a teacher, like Jennifer Given.  Pogue asked, “What’s the end point for you, if this keeps going this way in New Hampshire?”  “I don’t know,” she laughed. “There is a point where you start going, ‘Maybe I’ve had it.'”  But if it cheers you up any, Jacob Mchangama points out that we still enjoy more freedom of speech than most countries: “If we were having this discussion in Russia or Turkey, you know, someone would pick me up when I go down on the street, and you might not hear from me for a long time.”  He said we should fight to maintain our freedom of civil discussion – and never take it for granted.  “I’m not saying that free speech is just great, and doesn’t entail any consequences; it does,” he said. “You know, we should think about, how do we mitigate misinformation? How can we ensure that we counter hate speech without compromising free speech?  “And, you know, it’s an experiment. But I would argue that it’s been a very beneficial experiment. And one which is very much worth continuing.”  \nFor more info: “Free Speech: A History from Socrates to Social Media” by Jacob Mchangama (Basic Books), in Hardcover, eBook and Audio formats, available via Amazon and Indiebound Follow Jacob Mchangama on Twitter John A. Powell, professor, University of California, Berkeley School of Law “Silicon Values: The Future of Free Speech Under Surveillance Capitalism” by Jillian C. York (Verso), in Hardcover, eBook and Audio formats, available via Amazon and Indiebound jilliancyork.com Electronic Frontier Foundation Jillian York photo: Nadine Barišić \nStory produced by Mark Hudspeth. Editor: Mike Levine.  \nSee also Censorship on social media? It’s not what you think (CBS Reports) The psychology behind “cancel culture”: Is it justice or censorship?",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In New Hampshire, a new law limits what teachers can say about racism and sexism – and a conservative group is offering a $500 bounty to anyone who turns in a teacher who violates it.",
+          "concept": "bounty on teachers",
+          "reasoning": "Describes a law limiting speech and a bounty offered for turning in teachers, a harmful collective action."
+        },
+        {
+          "rank": 2,
+          "text": "Florida lawmakers are advancing a pair of bills that would bar school districts from encouraging classroom discussions about sexual orientation or gender identity – what critics are calling “Don’t Say Gay” bills.",
+          "concept": "anti-LGBTQ bills",
+          "reasoning": "Describes a pair of bills barring discussions on sexual orientation, a disruptive collective legislative action."
+        },
+        {
+          "rank": 3,
+          "text": "He’s especially alarmed at the record number of books that are being banned in schools all over the country. Conservatives object to books about sex, gender issues, and racial injustice (such as Toni Morrison’s “Beloved,” Alex Gino’s “George,” and “The 1619 Project”), and liberals object to books containing outdated racial depictions (including John Steinbeck’s “Of Mice and Men,” Mark Twain’s “The Adventures of Huckleberry Finn,” and Harper Lee’s “To Kill a Mockingbird”).",
+          "concept": "book banning",
+          "reasoning": "Describes widespread banning of books in schools, a harmful collective action restricting education."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.467580318450928,
       "actual_text": "in urban areas, and includes a touch screen console that provides access to a bunch of consumer services — including entertainment and shopping — in addition to productivity tools thanks to a",
       "plain_text": "Ride-sharing companies the world over are branching out to go beyond just handling your car trips.  In recent weeks we’ve seen Uber, the pioneer of the genre, announced its own Visa card while Southeast Asia’s Grab is developing a payment wallet that lets you pay for lunch, dinner and other small items.  Ola Play, for those who missed it, is designed to help commuters maximize their time inside rides while providing a touch of the high-end experience.  It’s marketed particularly at India in response to brutal traffic jams in urban areas, and includes a touch screen console that provides access to a bunch of consumer services — including entertainment and shopping — in addition to productivity tools thanks to a new partnership with Microsoft.  The U.S. giant, which was rumored to keen on investing in Ola but wasn’t part of its recent $1.1 billion round, is providing access to Office 365, Skype for Business and voice-assisted controls. The system will also use its Azure cloud platform and, the companies said, make use of Microsoft’s AI and IoT technology.  “Globally, the auto industry is experiencing a seismic shift as the definition of automobiles is increasingly changing from gas-powered vehicles to technology-packed, connected devices,” Ola CEO Bhavish Aggarwal said in a statement.  “With Ola Play, we have already set the tone for connected vehicles in India; together with Microsoft, we can make the new platform available to a larger, global audience and unlock futuristic experiences for customers worldwide,” Aggarwal, who once worked at Microsoft, added.    The deal was announced at the India Today Conclave event It makes sense for Ola to strike partners to equip cars in India with its entertainment tech. It not only gives the brand name elevation but it makes more cares potential Ola rides with a higher passenger experience — but expanding outside of India isn’t an obvious move at first take. Ola isn’t in process of looking for market expansions since it is duking the ride-sharing war out with Uber, which has prioritized India as its key markets outside of the U.S..  So what then?  The company pay potentially look at licensing the technology out overseas and thereby drawing a new line of revenue for its business, one source close to Ola told TechCrunch.  Exact details aren’t clear at this point, but TechCrunch understands that the first partnership announcements are in the pipeline and Ola believes that its solution — build from the perspective of a company with skin in the in-car entertainment game — can offer a better option than existing systems, which focus on software.  Ola Play will also be positioned as a platform that auto makers and tech companies alike can build on. That could allow it to be customized to local markets, potentially sweetening the proposition for auto makers.  It’s an ambitious move and one that again shows that ride-sharing players are looking to go beyond the business of rides and into adjacent areas where they believe can add value and boost their business.  Featured Image: Ola",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It’s marketed particularly at India in response to brutal traffic jams in urban areas, and includes a touch screen console that provides access to a bunch of consumer services — including entertainment and shopping — in addition to productivity tools thanks to a new partnership with Microsoft.",
+          "concept": "traffic congestion",
+          "reasoning": "Mentions brutal traffic jams, a disruptive collective situation involving many vehicles."
+        },
+        {
+          "rank": 2,
+          "text": "Globally, the auto industry is experiencing a seismic shift as the definition of automobiles is increasingly changing from gas-powered vehicles to technology-packed, connected devices,",
+          "concept": "industry disruption",
+          "reasoning": "Uses the phrase 'seismic shift', which metaphorically evokes a disruptive collective event."
+        },
+        {
+          "rank": 3,
+          "text": "Ola isn’t in process of looking for market expansions since it is duking the ride-sharing war out with Uber, which has prioritized India as its key markets outside of the U.S..",
+          "concept": "corporate conflict",
+          "reasoning": "Describes a 'war' between ride-sharing companies, a disruptive collective competitive event."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Доли Партън сбъдна мечтата на",
       "plain_text": "Доли Партън сбъдна мечтата на свой фен, болен от рак (ВИДЕО)   Жестът на Доли Партън  Ле Гранд или Ел Джи, както го наричат близките му, е болен от рак на дебелото черво в четвърти стадий и казва, че разговорът с кънтри звездата е била в списъка му с неща, които трябва да направи в малкото му оставащо време на тази земя.  Доли Партън, която е известна с благотворителните си акции и доброто си сърце, е направила изключително мил жест към Голд като му се е обадила по телефона и по време на обаждането му е изпяла няколко строфи. \"Не мога да повярвам, една от мечтите ми се сбъдна!\", сподели болният Голд, чиято съпруга запечата завинаги на видео ценния момент, пише Fakti.   'And I will always love LG' 🎶 Dolly Parton fulfilled a dying man's bucket list wish to meet her when she called him on Dec 22 and sang a rendition of her hit 'I Will Always Love You,' personalizing the lyrics for him pic.twitter.com/PR9kffs7gX — NowThis (@nowthisnews) December 27, 2023   Вижте всички последни новини от Actualno.com  Още от ШОУБИЗНЕС:  Редактор:  Яна Баярова\n Етикети: Доли Партън",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Доли Партън сбъдна мечтата на свой фен, болен от рак (ВИДЕО)",
+          "concept": "terminal illness",
+          "reasoning": "Mentions a fan sick with cancer, a harmful event though not collective."
+        },
+        {
+          "rank": 2,
+          "text": "Ле Гранд или Ел Джи, както го наричат близките му, е болен от рак на дебелото черво в четвърти стадий и казва, че разговорът с кънтри звездата е била в списъка му с неща, които трябва да направи в малкото му оставащо време на тази земя.",
+          "concept": "stage four cancer",
+          "reasoning": "Describes stage four colon cancer, a severe harmful medical condition."
+        },
+        {
+          "rank": 3,
+          "text": "Доли Партън, която е известна с благотворителните си акции и доброто си сърце, е направила изключително мил жест към Голд като му се е обадила по телефона и по време на обаждането му е изпяла няколко строфи.",
+          "concept": "charitable act",
+          "reasoning": "Describes a kind gesture by a celebrity, not a harmful collective event."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "UNESCO je 1999. godine proglasio 21",
       "plain_text": "UNESCO je 1999. godine proglasio 21. veljače Međunarodnim danom materinskoga jezika s ciljem promicanja jezične raznolikosti i višejezičnog obrazovanja.  U Dječjem vrtiću Suncokret, osim hrvatskog, djeca govore i engleskim jezikom, no materinski jezik ipak im je najvažniji pa ga njeguju s posebnom pažnjom. Tako su jučer (ponedjeljak) razgovarali o narječjima u Hrvatskoj, stvarali slikopriče, izmišljali pjesmice, slušali priče, pisali slova i sastavljali riječi.  Upoznali su se s dječjim narodnim plesovima i pjesmama iz različitih dijelova Hrvatske, a u goste im je došla i Sunčica Lovrić, ilustratorica dvije slikovnice. Sunčica je djeci pročitala ”Nebesku priču” i ”Dobru priču bez naslova” i svojim ih je primjerom potaknula da puno crtaju, pišu i čitaju, kako bi i sami jednom napisali knjigu ili ilustrirali svoju slikovnicu.  (www.icv.hr, adf, DV Suncokret)",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "UNESCO je 1999. godine proglasio 21. veljače Međunarodnim danom materinskoga jezika s ciljem promicanja jezične raznolikosti i višejezičnog obrazovanja.",
+          "concept": "language day",
+          "reasoning": "Describes UNESCO proclaiming a day for language diversity, a neutral collective action."
+        },
+        {
+          "rank": 2,
+          "text": "U Dječjem vrtiću Suncokret, osim hrvatskog, djeca govore i engleskim jezikom, no materinski jezik ipak im je najvažniji pa ga njeguju s posebnom pažnjom.",
+          "concept": "language education",
+          "reasoning": "Describes children learning languages, a neutral educational activity."
+        },
+        {
+          "rank": 3,
+          "text": "Tako su jučer (ponedjeljak) razgovarali o narječjima u Hrvatskoj, stvarali slikopriče, izmišljali pjesmice, slušali priče, pisali slova i sastavljali riječi.",
+          "concept": "cultural activities",
+          "reasoning": "Describes children engaging in cultural activities, not harmful or disruptive."
+        }
+      ]
     }
   ]
 }

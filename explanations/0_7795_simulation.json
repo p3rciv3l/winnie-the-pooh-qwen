@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_7795",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:19:35Z",
+  "generated_at": "2026-02-24T02:07:37Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing specific numerical quantities, measurements, or counts** (such as \"ôsmich miliárd eur,\" \"100 million light-years,\" \"16 protesters,\" or \"five different display modes\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including scientific reports (astronomy distances, physics), news articles (financial figures, casualty counts, project scales), technical specifications, and multilingual administrative texts (Slovak, Hungarian, Spanish, Polish). It activates on precise numbers, percentages, monetary amounts, distances, counts of people, and ordinal sequences, regardless of the surrounding topic.\n\n3. **Contrast with low-activation examples**: The low-activation texts largely avoid precise numerical references. They mention entities, events, or general statements without quantified details (e.g., \"a dopey burglar,\" \"feel free,\" \"roots in the Persian word\"). Even when topics overlap with the high group (e.g., politics, accidents), the low-activation examples lack the specific numerical or measurement-based phrasing.\n\n4. **Closing interpretation**: The neuron detects and processes explicit quantitative information embedded in natural language. It acts as a cross-linguistic filter for tokens that signify exact counts, magnitudes, or measurements, highlighting spans where the text transitions from qualitative description to quantified statement.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.520214080810547,
       "actual_text": "Helme z.B. sank der Pegel dank der Vertiefung des Deichdurchbruchs bei Mönchpfiffel-Nikolausri",
       "plain_text": "Zur optimalen Darstellung unserer Webseite benötigen Sie Javascript. Bitte aktivieren sie dies in Ihrem Browser. Die Hochwasserlage hat sich in Sachsen-Anhalt und Thüringen ein wenig entspannt. An der Helme z.B. sank der Pegel dank der Vertiefung des Deichdurchbruchs bei Mönchpfiffel-Nikolausrieth. Sorge bereitet aber neuer Regen. MDR aktuell 19:30 Uhr Mo 01.01.2024 19:30Uhr 01:33 min Infos zur Sendung Link des Videos Rechte: MITTELDEUTSCHER RUNDFUNK Die MDR-Mediathek erreichen Sie unter der Adresse ardmediathek.de/mdr/! Hier finden Sie Sendungen vom MDR-Fernsehen und viele Videos, die es ausschließlich online gibt - und außerdem das Angebot der ganzen ARD.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Sorge bereitet aber neuer Regen. MDR aktuell 19:30 Uhr Mo 01.01.2024 19:30Uhr 01:33 min Infos zur Sendung Link des Videos Rechte: MITTELDEUTSCHER RUNDFUNK Die MDR-Mediathek erreichen Sie unter der Adresse ardmediathek.de/mdr/!",
+          "concept": "time and date measurements",
+          "reasoning": "Contains specific times (19:30, 01:33) and a date (01.01.2024)."
+        },
+        {
+          "rank": 2,
+          "text": "Zur optimalen Darstellung unserer Webseite benötigen Sie Javascript. Bitte aktivieren sie dies in Ihrem Browser. Die Hochwasserlage hat sich in Sachsen-Anhalt und Thüringen ein wenig entspannt. An der Helme z.B. sank der Pegel dank der Vertiefung des Deichdurchbruchs bei Mönchpfiffel-Nikolausrieth.",
+          "concept": "flood situation description",
+          "reasoning": "Describes a flood situation without specific numerical quantities."
+        },
+        {
+          "rank": 3,
+          "text": "Hier finden Sie Sendungen vom MDR-Fernsehen und viele Videos, die es ausschließlich online gibt - und außerdem das Angebot der ganzen ARD.",
+          "concept": "media platform description",
+          "reasoning": "Describes media content without numerical references."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.61453914642334,
       "actual_text": ": You DO NOT DESERVE to be in this position. The position that allows thugs to get in your face and yell, curse and degrade you. Throw bricks,",
       "plain_text": "There’s a reason so many people hate cops. It’s not just the misconduct—the excessive force, extrajudicial executions, racial profiling and general harassment—it’s also the common cop attitude. It’s the smug disposition cops walk around with all day that says, “I’m the brave hero and only a vile criminal would disagree.” On Tuesday, Sgt. Jonathan Mattingly, one of three officers involved in the botched raid that left Breonna Taylor dead in her home, responded to news that Kentucky Attorney General Daniel Cameron has presented evidence to a grand jury to decide whether to indict Mattingly and the other two officers who fatally shot Taylor, by writing the longest, whiniest, victim-blamey-est, caucasity filled email of blue lives nonsense and sent it to more than 1,000 of his colleagues. Fortunately, the Courier-Journal has already transcribed Mattingly’s six-paragraph ode to police brutality so I don’t have to. I’ll just give you the highlights. From the Journal: You DO NOT DESERVE to be in this position. The position that allows thugs to get in your face and yell, curse and degrade you. Throw bricks, bottles and urine on you and expect you to do nothing. It goes against EVERYTHING we were all taught in the academy. The position that if you make a mistake during one of the most stressful times in your career, the department and FBI (who aren’t cops and would piss their pants if they had to hold the line) go after you for civil rights violations. Your civil rights mean nothing, but the criminal has total autonomy. OK, I’m just going to stop you there, Officer Cop-on-the-cross. First of all, locking your keys in your car is a “mistake.” Executing a search warrant obtained through faulty information while hunting for someone who was already in custody and killing the resident of the home you should never have been in the first place, is something more—much more. Secondly, I know you’re not actually trying to shade non-cops as people who would “piss their pants if they had to hold the line,” when “I was in fear for my life” is literally the go-to cop justification for shooting unarmed people. Cops sound like Courage the Cowardly Paw Patrol (I’m pretty sure that’s not right but it damn sure fits) every time they need to explain why they thought a cell phone was a gun and just started firing away. But please, tell us more about how everyone else is pissing their pants in the face of “danger” except you. Lastly, what fucking world does Mattingly live in where criminals are granted “total autonomy” but cops have no rights? Besides the fact that he almost seems to be implying that Taylor was of the criminal element despite the abundance of evidence pointing towards her innocence, Mattingly appears to have forgotten a crucial thing: Being a cop shielded him from even potentially being held accountable for Taylor’s death for DAMN NEAR SIX FUCKING MONTHS before an indictment that might never happen was even considered. Can I as a civilian also force my way into a house because I suspect drug trafficking, shoot and kill the resident of said house, find no drugs and still go on about my business free and cleared of all wrongdoing? This leads me to possibly the most egregious, rage-inducing line in Mattingly’s lengthy, pitiful-ass email: “Regardless of the outcome today or Wednesday, I know we did the legal, moral and ethical thing that night.” Imagine leaving someone dead who you can’t even remotely prove committed a crime and considering yourself to be on the moral high ground. Also, four paragraphs ago it was a “mistake,” now it’s the ethical thing? Raggedy blue bitch, WHAT??? Then he followed that line by, once again, appearing to imply that he helped kill a criminal that night, not an innocent victim. “It’s sad how the good guys are demonized, and criminals are canonized,” Mattingly wrote. Shit, I’m so pissed off reading Mattingly’s bullshit I almost forgot to include arguably the biggest lie in his whole cop-aganda rant: “We as police DO NOT CARE if you are black, white, Hispanic, Asian, what you identify as …” Please tell me I don’t need to break down all the ways that is a whole crock of “I don’t see color” shit. “This is not an us against society, but it is good versus evil,” this enormous blue ass hole continued. “We are sons, daughters, husbands, wives, part[n]ers, brothers, sisters, dads and moms. We are human beings with flaws, feelings and emotions.” Fuck your feelings. Fuck your flaws. Fuck your emotions. The people cops kill unjustly are also sons, daughters, husbands and wives. Breonna—whose name Mattingly doesn’t mention even ONCE in this long-ass fuck shit-filled email—was someone’s daughter and sister. She was someone’s lover and friend. She may have been someone’s mother or wife one day. She was a person who should have had a long life ahead of her. Mattingly, you got to go home alive that night. Fuck you.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "and sent it to more than 1,000 of his colleagues. Fortunately, the Courier-Journal has already transcribed Mattingly’s six-paragraph ode to police brutality so I don’t have to.",
+          "concept": "count of recipients and document length",
+          "reasoning": "Includes numerical quantities '1,000' (recipients) and 'six-paragraph' (document length)."
+        },
+        {
+          "rank": 2,
+          "text": "Being a cop shielded him from even potentially being held accountable for Taylor’s death for DAMN NEAR SIX FUCKING MONTHS before an indictment that might never happen was even considered.",
+          "concept": "duration of time",
+          "reasoning": "Contains the specific duration 'SIX FUCKING MONTHS'."
+        },
+        {
+          "rank": 3,
+          "text": "Also, four paragraphs ago it was a “mistake,” now it’s the ethical thing? Raggedy blue bitch, WHAT??? Then he followed that line by, once again, appearing to imply that he helped kill a criminal that night, not an innocent victim.",
+          "concept": "count of paragraphs",
+          "reasoning": "Includes the numerical phrase 'four paragraphs'."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.780175685882568,
       "actual_text": "Association, Rawalpindi and Islamabad bars, civil society and CBA trade unions. A statement issued by RIUJ General Secretary Mohammad Siddique Anzar read",
       "plain_text": "Pak journalists to stage sit-in outside parliament on March 1 against draconian PECA laws By ANI | Published: February 23, 2022 09:34 PM2022-02-23T21:34:44+5:302022-02-23T21:45:02+5:30 Pakistan journalists have decided to stage a sit-in outside parliament on March 1 against a recently promulgated ordinance introducing \"controversial\" amendments to the Prevention of Electronic Crimes Act (PECA), reported local media. Pakistan journalists have decided to stage a sit-in outside Parliament on March 1 against a recently promulgated ordinance introducing \"controversial\" amendments to the Prevention of Electronic Crimes Act (PECA), reported local media. The Rawalpindi Islamabad Union of Journalists (RIUJ) announced a protest outside the Parliament House on March 1 against the PECA amendments, reported The Express Tribune. RIUJ President Shakeel Ahmed has formed a management committee to organize the sit-in and streamline the movement against the ordinance. Committees have been formed to reach out to political parties, religious organizations, Supreme Court Bar Association, Rawalpindi and Islamabad bars, civil society and CBA trade unions. A statement issued by RIUJ General Secretary Mohammad Siddique Anzar read that PFUJ President GM Jamali, on the call of General Secretary Rana Mohammad Azeem, had completely rejected the PECA amendment ordinance and decided to stage a sit-in outside parliament on March 1, reported The Express Tribune. A RIUJ meeting noted that restrictions had been imposed on the constitutional freedom of the media and judiciary by adding Section 44(a) to PECA. Also, the Joint Action Committee (JAC) of media bodies described the government's engagement with it over PECA amendments as a \"farce\". A statement issued by the JAC, which comprises All Pakistan Newspapers Society (APNS), Council of Pakistan Newspaper Editors (CPNE), PFUJ, Pakistan Broadcasters Association (PBA) and Association of Electronic Media Editors and News Directors (AEMEND), read that dialogue with the government over the legislation regarding media was being suspended \"until the draconian amendments to the Prevention of Electronic Crimes Act (PECA) are reversed\". \"The information minister (Fawad Chaudhry) is toying with the media fraternity in the guise of engagement and keeps passing ordinances against freedom of speech while giving the impression that media fraternity is being engaged,\" the statement added. The Imran Khan government is facing heavy backlash from all quarters for amending the Prevention of Electronic Crimes Act (PECA) 2016 through the promulgation of an Ordinance. \"There is a grave trail of examples after an example where the Ministry of Information is tampering with freedom of speech, muzzling the journalists right to report, financially crippling media to influence journalism.\" The statement further read that the journalist fraternity had warned of this before and appealed to the Khan previously as well that a dangerous trend had been emerging which was creating a distance between the government and the public as well as media personnel. \"All media bodies stand united to defend freedom of expression and people's right to information.\" The legal fraternity has also expressed its concerns over the promulgation of the ordinance. Meanwhile, the Pakistan Bar Council (PBC) has rejected the amendments to PECA through a presidential ordinance, saying that it was an attempt to impose restrictions on the freedom of expression and dissenting voices of media, reported The Express Tribune. President Dr Arif Alvi had promulgated the ordinance on Sunday, making online public defamation a cognizable and non-bailable offense and also increasing the jail term for defaming any person or institution from three years to five years. Journalists have moved against the amendments in Islamabad High Court and Lahore High Court. The Pakistan Federal Union of Journalists (PFUJ) filed a petition in the IHC against the PECA Ordinance 2022. Separately, a writ petition was filed in the LHC challenging the PECA Ordinance 2022, arguing that the government's action was a sheer violation of not only the judgments laid down by the country's top court but also the Constitution, reported The Express Tribune. ( With inputs from ANI ) Disclaimer: This post has been auto-published from an agency feed without any modifications to the text and has not been reviewed by an editor Open in app",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "By ANI | Published: February 23, 2022 09:34 PM2022-02-23T21:34:44+5:302022-02-23T21:45:02+5:30 Pakistan journalists have decided to stage a sit-in outside parliament on March 1 against a recently promulgated ordinance introducing \"controversial\" amendments to the Prevention of Electronic Crimes Act (PECA), reported local media.",
+          "concept": "date and time specifications",
+          "reasoning": "Contains multiple numerical date-time stamps and a date (March 1)."
+        },
+        {
+          "rank": 2,
+          "text": "President Dr Arif Alvi had promulgated the ordinance on Sunday, making online public defamation a cognizable and non-bailable offense and also increasing the jail term for defaming any person or institution from three years to five years.",
+          "concept": "jail term duration",
+          "reasoning": "Specifies a numerical range of years for jail term: three to five years."
+        },
+        {
+          "rank": 3,
+          "text": "A RIUJ meeting noted that restrictions had been imposed on the constitutional freedom of the media and judiciary by adding Section 44(a) to PECA. Also, the Joint Action Committee (JAC) of media bodies described the government's engagement with it over PECA amendments as a \"farce\".",
+          "concept": "legal section number",
+          "reasoning": "Includes the numerical section identifier '44(a)'."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
       "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes. The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.",
+          "concept": "monetary amount and time duration",
+          "reasoning": "Contains specific monetary figure (€100 million) and time measurements (15 minutes, two-day, 7am)."
+        },
+        {
+          "rank": 2,
+          "text": "In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine. The true rate may be as much as three times higher.",
+          "concept": "population count and percentage",
+          "reasoning": "Includes numerical count (5,600 people) and percentage (4 per cent) along with multiplier (three times)."
+        },
+        {
+          "rank": 3,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "population count",
+          "reasoning": "Specifies the population size of Slovakia (5.5 million)."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining",
       "plain_text": "Sweden’s chief epidemiologist Anders Tegnell has warned against the strategy of attaining herd immunity in apparent change of heart. In March, Dr Tegnell appeared to ask whether a higher death rate among older people might be acceptable if it led to faster herd immunity. However in comments to German newspaper Die Zeit, Dr Tegnell stated “striving for herd immunity is neither ethical nor otherwise justifiable”. Sweden’s daily coronavirus infections have climbed to a new high while several regions advised residents to avoid public transport and venues to slow the transmission. The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic. It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total. Sweden has until recently had “a fairly slow increase (of infections) compared to most other countries,” Dr Tegnell said at a press conference. “We’re beginning to approach the ceiling for what the healthcare system can handle. “Together, as during the spring, we can push down this curve and avoid the strain on healthcare.” Dr Tegnell said the Swedish system of “voluntary measures” had worked well and many people heeded the recommendations. The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare. Sweden has shunned lockdowns throughout the pandemic. However, several regions – including the most populous areas comprising the main cities of Stockholm and Gothenburg in western Sweden – advised residents to refrain from visits to shopping centres, museums, libraries, swimming pools and fitness centres until November 18. Other advice was for people to avoid meeting with others outside their own household and to work from home where possible, Dr Tegnell said. During the pandemic, Sweden has kept schools and kindergartens open but limited public gatherings to 50 participants, visits in care homes were until recently banned and self service in restaurants and bars suspended. -with agencies",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "It was the third record number in a matter of days and came as the country of 10.3 million has registered roughly 121,100 infections and 5934 coronavirus-related deaths in total.",
+          "concept": "infection and death counts",
+          "reasoning": "Contains multiple numerical counts: 10.3 million, 121,100 infections, 5934 deaths."
+        },
+        {
+          "rank": 2,
+          "text": "The Swedish Public Health Agency said that 3254 cases were confirmed in the past 24 hours, a new record since the onset of the pandemic.",
+          "concept": "case count and time period",
+          "reasoning": "Specifies 3254 cases confirmed in 24 hours."
+        },
+        {
+          "rank": 3,
+          "text": "The number of COVID-19 patients in intensive care units (ICU) was still relatively low – about 15 per cent of the current ICU capacity, said Thomas Linden with the National Board of Health and Welfare.",
+          "concept": "percentage of capacity",
+          "reasoning": "Includes the percentage 15 per cent."
+        }
+      ]
     }
   ]
 }

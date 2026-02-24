@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_9840",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:21:45Z",
+  "generated_at": "2026-02-24T02:01:10Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that express additive, contrastive, or explanatory relationships between multiple entities or ideas** (such as clauses joined by \"both...and,\" \"además,\" \"also,\" \"not only...but,\" or phrases like \"as well as\" and \"for example\").\n\n2. **Domain coverage**: The pattern appears across diverse topics (politics, disasters, science, music, business) and multiple languages, primarily Spanish and English, with examples also in Romanian. It activates in news reports, analytical writing, and descriptive passages where a sentence is structured to list, compare, or elaborate on two or more items, often signaled by coordinating conjunctions, conjunctive adverbs, or parallel structures.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit relational phrasing linking multiple elements, while the low-activation examples are typically short, fragmented headlines, lead-ins, or isolated phrases in various languages (Turkish, Russian, Greek, Hindi, etc.) that lack this multi-part relational structure. The neuron fires weakly on text that is either syntactically simple or cuts off before establishing a relationship.\n\n4. **Closing interpretation**: The neuron detects syntactic and semantic frames that introduce a second point, an additional item, or a paired set of concepts. It functions as a **detector of relational phrasing and multi-clause elaboration**, largely independent of specific topic or language, but highly sensitive to the presence of additive/contrastive discourse markers.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.584632873535156,
       "actual_text": ". Thanks to Global Times editor In March, the spokesperson of the Chinese foreign ministry,- Zhao Lijian, blocked WION on the social networking site Twitter. Chinese",
       "plain_text": "File photo. Photograph:( Reuters )  Beijing has blocked access to the WION website - www.wionews.com - in mainland China.  Three days ago, the Indian government blocked 59 Chinese apps to ensure safety and sovereignty of Indian cyberspace.  The decision was taken in the wake of a 'violent faceoff' between the Indian Army and Chinese forces along the Line of Actual Control in Ladakh. \r\n  \r\nIn retaliation, Beijing has blocked access to the WION website - www.wionews.com - in mainland China.  GreatFire.org, which is a Chinese internet monitoring watchdog, has confirmed that WION has been completely blocked in China. \r\n \r\nAlso Read: Chinese state-backed Global Times calls on WION to 'think independently'; We respond! GreatFire.org has emerged as a database for internet censorship in China and international news outlets and researchers use it to track digital censorship there.  Since the beginning of coronavirus pandemic, WION has reported extensively on China's cover-up, and hence, Beijing expressed its displeasure over this in more ways than one. \r\n \r\nAlso Read: China is exposed. Thanks to Global Times editor In March, the spokesperson of the Chinese foreign ministry,- Zhao Lijian, blocked WION on the social networking site Twitter. Chinese diplomats in India too criticised WION's coverage of the pandemic.  In June, a piece in the Global Times named WION, asking the channel to \"think independently.\" The publication is perceived as the lifeline of Beijing’s propaganda machinery.  It's no secret that China doesn't like the idea of a free press and the ban on WION is part of the same strategy of press censorship.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In retaliation, Beijing has blocked access to the WION website - www.wionews.com - in mainland China. GreatFire.org, which is a Chinese internet monitoring watchdog, has confirmed that WION has been completely blocked in China.",
+          "concept": "contrastive action",
+          "reasoning": "This section uses 'in retaliation' to establish a contrastive relationship between two geopolitical actions."
+        },
+        {
+          "rank": 2,
+          "text": "Since the beginning of coronavirus pandemic, WION has reported extensively on China's cover-up, and hence, Beijing expressed its displeasure over this in more ways than one.",
+          "concept": "explanatory causality",
+          "reasoning": "The phrases 'since' and 'and hence' create an explanatory link between reporting and response."
+        },
+        {
+          "rank": 3,
+          "text": "In June, a piece in the Global Times named WION, asking the channel to 'think independently.' The publication is perceived as the lifeline of Beijing’s propaganda machinery.",
+          "concept": "additive criticism",
+          "reasoning": "This adds another critical event with 'In June' and contrasts independence with propaganda."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.083022117614746,
       "actual_text": "of Chicago, from a bird’s perspective,” Pollock, also a member of both Bird Friendly Evanston and Evanston North Shore Bird Club, said. “",
       "plain_text": "City Council passes bird-friendly building ordinance September 27, 2022 New Evanston developments will be required to follow bird-safe standards in an effort to reduce bird collision deaths after City Council unanimously approved a safety ordinance designed in partnership with local group Bird-Friendly Evanston in September.  Chicago leads the United States as the most dangerous city for migratory birds, according to a 2019 research study from Cornell University’s Lab of Ornithology. Judy Pollock, president of the Chicago Audubon Society, said the study shows how critical it is for high-risk bird migration cities to pay attention to their windows.  “Evanston is really just an extension of Chicago, from a bird’s perspective,” Pollock, also a member of both Bird Friendly Evanston and Evanston North Shore Bird Club, said.  “Hundreds of different species are coming through Evanston and are using not only the lakefront and the canal but also just backyards.”  Different types of glass and construction designs -– including transparent building corners or green roofs — can constitute threats for birds, according to Libby Hill, an Evanston-based author and environmental activist.  Commercial, multifamily and industrial projects will be required to lessen those obstacles, among others, to increase protection for birds.  “For me, it’s the beauty and the importance that we’re not destroying any living being on the earth, whether it be a bird or a bee,” Hill said.  Pollock said Northwestern has some of the most dangerous buildings in Evanston for birds, including the Kellogg Global Hub.  Previously, the Frances Searle Building was also a hazard for birds until NU put bird-friendly film on the building for better window visibility.  “It would have been great if we’d had this bill before Northwestern went through this big building boom,” Pollock said. “But this bill is about construction going forward (and) making sure those buildings are safe.”  Still, she said Evanston city staff and developers were responsive to birders’ concerns about Evanston developments.  “(Evanston’s action) is an important thing,” Pollock said. “You can’t do it alone, residents can’t do it alone.”  Angel Schnur, Evanston’s division manager of Building and Inspection Services, said protections tie into the city’s Climate Action and Resilience Plan (CARP) goals.  The plan aims to reduce Evanston’s carbon footprint and negative environmental effects on the world, according to Schnur. That goal is a guiding factor for building construction that will ensure the safety of migratory birds, Schnur added.  “Part of using our resources properly is protecting the world around us,” Schnur said.  Email: [email protected]  Twitter: @noracollins02  Related Stories:",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Evanston is really just an extension of Chicago, from a bird’s perspective,” Pollock, also a member of both Bird Friendly Evanston and Evanston North Shore Bird Club, said. “Hundreds of different species are coming through Evanston and are using not only the lakefront and the canal but also just backyards.”",
+          "concept": "additive listing",
+          "reasoning": "This section uses 'not only...but also' to list multiple entities in an additive relationship."
+        },
+        {
+          "rank": 2,
+          "text": "Different types of glass and construction designs -– including transparent building corners or green roofs — can constitute threats for birds, according to Libby Hill, an Evanston-based author and environmental activist.",
+          "concept": "inclusive examples",
+          "reasoning": "The word 'including' introduces additive examples of threats to birds."
+        },
+        {
+          "rank": 3,
+          "text": "“It would have been great if we’d had this bill before Northwestern went through this big building boom,” Pollock said. “But this bill is about construction going forward (and) making sure those buildings are safe.”",
+          "concept": "contrastive focus",
+          "reasoning": "The conjunction 'but' contrasts past missed opportunities with future safety measures."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.696810722351074,
       "actual_text": "based on HRW’s advocacy under Ken’s leadership, this is profoundly troubling from both a human rights and an academic freedom standpoint.” It appears that Roth and Romero",
       "plain_text": "For three decades under the leadership of Kenneth Roth, Human Rights Watch (HRW) has obsessively and relentlessly targeted Israel.  Roth’s fixation on libeling the Jewish state was so blatant that even the organization’s founder and chairman, the late Robert L. Bernstein, denounced it. In a revealing 2009 New York Times op-ed, Bernstein said Roth’s obsession was degrading the quality of HRW’s work and jeopardizing its reputation as a credible NGO.  Bernstein noted, “In recent years, Human Rights Watch has written far more condemnations of Israel for violations of international law than of any other country in the region,” even though most of those countries are dictatorships that do not recognize human rights at all.  Bernstein stated that HRW’s work was being weaponized and is “helping those who wish to turn Israel into a pariah state.” In particular, HRW focused only on Israel’s responses to terrorist attacks, rather than the attacks themselves. As a result, he said, “Israel, the repeated victim of aggression, faces the brunt of Human Rights Watch’s criticism.”  Roth’s fanatical bias against Israel became news recently when it was announced that Harvard Kennedy School Dean Douglas Elmendorf had rescinded the offer of a fellowship to Roth at the Carr Center for Human Rights Policy.  The backlash against that decision was immediate and thunderous. Roth himself initiated the pity party, writing in The Guardian that he had been rejected because of “my criticism of Israel.” Roth also asserted without evidence, “As best we can tell, donor reaction was [Elmendorf’s] concern.”  Of course, these were not just random donors to the Kennedy School. They were, unsurprisingly, all wealthy Jews, as outlined in a long essay in the left-wing magazine The Nation that sought to prove Roth’s conspiracy theory.  The claim that Jewish influence and money can force non-Jews to serve the selfish interests of the Jews is, of course, a classic antisemitic trope. In the modern context, this trope usually claims that these Jewish conspirators are doing their dirty work to benefit Israel.  Roth also claimed that Elmendorf’s decision was “a shocking violation of academic freedom.” Anthony Romero, the executive director of the American Civil Liberties Union (ACLU), agreed, saying, “If Harvard’s decision was based on HRW’s advocacy under Ken’s leadership, this is profoundly troubling from both a human rights and an academic freedom standpoint.”  It appears that Roth and Romero do not understand the nature of academic freedom. An applicant for a fellowship or faculty position does not enjoy academic freedom at the institution—in this case, Harvard—where they wish to work. They have freedom of speech to express their ideology and beliefs like all other citizens, but Roth would not have enjoyed the protection of academic freedom, which would allow him to express his views, no matter how corrosive or biased, until he became part of the Harvard community. Obviously, this never took place.  Moreover, hiring committees normally vet applicants during the application process. It appears that in the initial stages of Roth’s application, the committee inadvertently, or perhaps purposely, ignored Roth’s hostility to Israel. So, it is very likely that when the choice of Roth was made public, Harvard stakeholders had the opportunity to inform the dean about the darker aspects of Roth’s career. Dean Elmendorf then did what the hiring committee at the Carr Center should have done in the first place: Examine HRW’s and Roth’s defective scholarship and singular focus on Israel, objectively.  One particularly grotesque example of Roth’s shoddy scholarship and tendency toward outright falsehoods was a 2021 HRW report titled, “A Threshold Crossed: Israeli Authorities and the Crimes of Apartheid and Persecution,” the title of which makes its content clear.  No apartheid exists in Israel, but that did not prevent HRW from presenting the 217-page report as fact, effectively redefining apartheid to make their case. The Israel-based watchdog organization NGO Monitor, however, produced a report of its own that eviscerated HRW’s libels. NGO Monitor concluded that “the HRW publication is fundamentally flawed, using lies, distortions, omissions and blatant double standards to construct a fraudulent and libelous narrative demonizing Israel.”  “A careful examination of the text shows that HRW conducted almost no primary research,” NGO Monitor noted. “Rather, the text is bloated with cut-and-paste phrases, and quotes and conclusions taken from third-party sources—notably, other political NGOs participating in the same ‘apartheid’ campaign against Israel.”  “The omissions are even more egregious than the errors and misrepresentations, rendering HRW’s report as nothing more than propaganda,” the watchdog group asserted.  “Overall,” NGO Monitor observed, “our analysis uncovered 303 total flaws: 105 errors, 136 misrepresentations, 37 omissions and 25 double standards.” Such shoddiness and dishonesty would be unacceptable and unwelcome at Harvard, which is perhaps why Elmendorf made the decision he did.  Why does Roth’s maniacal 30-year assault on Israel matter? Because it arms the enemies of Israel with supposed “proof” that Israel is a racist, colonial enterprise that should not exist.  In May of 2021, for example, while Hamas fired more than 3,000 rockets at Israeli civilians, members of academic communities around the world fell all over themselves to express their solidarity, not with the beleaguered citizens of the Jewish state again under attack, but with the genocidal psychopaths of Hamas.  The ideological enemies of Israel could not have been more pleased. Inside Higher Ed noted that “300 academic departments, program centers, unions and societies worldwide endorsed statements supporting Palestinian rights, and statements from individual scholars, staff, students and alumni have garnered more than 15,000 signatures.” The Palestinian Campaign for the Academic & Cultural Boycott of Israel called this “an unprecedented wave of solidarity.”  Kenneth Roth is now being forced to take responsibility for his subpar scholarship and ideological loathing of Israel. Though he tried to deflect blame onto wealthy Jewish donors who dared to fight back when confronted with the lies, slanders and demonization that define Roth’s poisonous campaign, he has no one to blame but himself.  {Reposted from JNS}",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Bernstein noted, “In recent years, Human Rights Watch has written far more condemnations of Israel for violations of international law than of any other country in the region,” even though most of those countries are dictatorships that do not recognize human rights at all.",
+          "concept": "contrastive criticism",
+          "reasoning": "The phrase 'even though' sets up a contrast between Israel's treatment and that of dictatorships."
+        },
+        {
+          "rank": 2,
+          "text": "Roth also asserted without evidence, “As best we can tell, donor reaction was [Elmendorf’s] concern.”",
+          "concept": "additional assertion",
+          "reasoning": "The word 'also' adds another point to Roth's claims, fitting the additive pattern."
+        },
+        {
+          "rank": 3,
+          "text": "In May of 2021, for example, while Hamas fired more than 3,000 rockets at Israeli civilians, members of academic communities around the world fell all over themselves to express their solidarity, not with the beleaguered citizens of the Jewish state again under attack, but with the genocidal psychopaths of Hamas.",
+          "concept": "exemplary contrast",
+          "reasoning": "This section uses 'for example' and 'not with...but with' to provide a contrastive example."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "26 ARALIK 2018ÜYE GİRİŞİH",
       "plain_text": "26 ARALIK 2018ÜYE GİRİŞİHESABIM Yılbaşı gecesi alınan kalorinin, ihtiyacın 2-3 katı üzerine çıktığını, hatta 7 bin kaloriyi bulduğunu biliyor muydunuz? Buna bir de alkol eklendiğinde tehlikenin boyutlarının çok daha büyüdüğünü? Beslenme ve Diyet, Fitoterapi Uzmanı Sıla Bilgili Tokgöz yılbaşı gecesi bilinçsizce tüketilecek besinlerin ve içeceklerin, eğlenceye gölge düşürebileceğini belirterek “Eğlence yerini hazımsızlık, mide yanması, şişkinlik, baş ağrısı ve yorgunluk gibi şikâyetlere bırakır. Oysa sağlıklı ve lezzetli yeni yıl tabakları hazırlamak zor değil” diyor. Beslenme ve Diyet, Fitoterapi Uzmanı Sıla Bilgili Tokgöz, sağlıklı yılbaşı tabağının 6 altın kuralını anlattı, sağlıklı yılbaşı menüsü hazırladı, önemli uyarılar ve önerilerde bulundu. Doğru meze seçimi yapın Meze seçimine dikkat edin. Özellikle salam, sosis gibi şarküteri ürünleri, karides, kalamar, midye gibi kabuklu deniz ürünleri veya mayonezli salatalardan uzak durun. Bunun yerine peynir tabağı hazırlayabilir, yoğurtlu ve zeytinyağlı mezeleri evde kendiniz hazırlayabilirsiniz. Belli miktarda meyve, kiraz domatesler, havuç ve salatalık dilimleri, 1 avuç kuruyemiş tüketebilirsiniz. Badem-ceviz-fındık üçlüsüne yer açın Özellikle alkolün yanında ikram edilen soslu çerezler ve cipsler, içerdikleri yüksek tuz oranı ve kalorileri nedeniyle yanlış bir tercih. Onun yerine çiğ badem, fındık, fıstık, ceviz, tuzsuz leblebi tüketebilirsiniz. Pirinç pilavı yerine sebzeli bulgur pilavı tercih edin Bir yılbaşı klasiği olan hindi; az yağlı, düşük kalorili ve kolay sindirilir olması dolayısıyla da doğru bir tercih. Ancak yanına pirinç pilavı yerine sebzeli bulgur pilavı tercih etmekte fayda var. Kırmızılahana, havuç, turp ve nardan oluşan rengarenk bir salata tabağı da üzerine sadece limon ve zeytinyağı konulması, sos kullanılmaması halinde son derece sağlıklı olacak. Ek çeşit olarak ve doygunluk hissine katkı sağlaması açısından da zeytinyağlı sebze yemekleri yapabilirsiniz.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Buna bir de alkol eklendiğinde tehlikenin boyutlarının çok daha büyüdüğünü? Beslenme ve Diyet, Fitoterapi Uzmanı Sıla Bilgili Tokgöz yılbaşı gecesi bilinçsizce tüketilecek besinlerin ve içeceklerin, eğlenceye gölge düşürebileceğini belirterek “Eğlence yerini hazımsızlık, mide yanması, şişkinlik, baş ağrısı ve yorgunluk gibi şikâyetlere bırakır.",
+          "concept": "additive risk",
+          "reasoning": "The phrase 'bir de' adds alcohol to the risk, and 'gibi' lists multiple symptoms in an additive manner."
+        },
+        {
+          "rank": 2,
+          "text": "Özellikle salam, sosis gibi şarküteri ürünleri, karides, kalamar, midye gibi kabuklu deniz ürünleri veya mayonezli salatalardan uzak durun.",
+          "concept": "exemplary avoidance",
+          "reasoning": "This section uses 'gibi' for examples and 'veya' for alternatives, showing additive listing of items to avoid."
+        },
+        {
+          "rank": 3,
+          "text": "Bunun yerine peynir tabağı hazırlayabilir, yoğurtlu ve zeytinyağlı mezeleri evde kendiniz hazırlayabilirsiniz. Belli miktarda meyve, kiraz domatesler, havuç ve salatalık dilimleri, 1 avuç kuruyemiş tüketebilirsiniz.",
+          "concept": "alternative options",
+          "reasoning": "The conjunction 've' and listing of items provide additive alternatives for healthy choices."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione.",
+          "concept": "additive benefit",
+          "reasoning": "The phrase 'oltre al' introduces an additional benefit, and the list in parentheses adds multiple services."
+        },
+        {
+          "rank": 2,
+          "text": "“Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "exemplary application",
+          "reasoning": "This section uses 'e' for conjunction, 'per questo' for explanation, and 'ad esempio' to list examples of towns."
+        },
+        {
+          "rank": 3,
+          "text": "Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare.",
+          "concept": "inclusive reproduction",
+          "reasoning": "The word 'anche' adds capability, and 'e' connects multiple types and materials in an additive way."
+        }
+      ]
     }
   ]
 }

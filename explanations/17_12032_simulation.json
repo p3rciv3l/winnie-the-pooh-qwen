@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_12032",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:19:35Z",
+  "generated_at": "2026-02-24T02:12:33Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of official government bodies, agencies, or institutional authorities** (such as ministries, national regulators, federal departments, or municipal services) and **formal announcements or reports** typically issued by or referencing these entities.\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, Turkish, Greek, Swedish) and topics, including healthcare policy, emergency services, energy regulation, law enforcement actions, public statements from ministers, and official event inaugurations. It consistently activates on text segments that name specific government departments (e.g., Ministry of Home Affairs, ANRE, CMS, CDC), municipal authorities (e.g., Albuquerque police), or structured institutional communications (e.g., guidance releases, launch events, official statements).\n\n3. **Contrast with low-activation examples**: The low-activation texts lack direct references to official institutional bodies or their formal communications. Instead, they cover sports results, market reports, opinion letters, viral videos, general cultural events, and personal narratives. Even when low-activation examples mention legal actions or elections, they do so without the specific, named bureaucratic framing (e.g., \"Indiana Attorney General announced legal...\" activates weakly, while high-activation examples explicitly name the department and its formal action).\n\n4. **Closing interpretation**: The neuron detects formal, bureaucratic language anchored by the names of government or institutional actors. It appears to function as a \"institutional authority mention\" detector, filtering for segments where official organizations are actively issuing statements, regulations, or reports.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.602699279785156,
       "actual_text": "storm when low pressure evaporates the water upward. Copyright 2022 WWSB. All rights reserved.",
       "plain_text": "WATCH: Hurricane Ian sucks water from Manatee River MANATEE COUNTY, Fla. (WWSB) - Hurricane Ian made landfall as a dangerous Category 4 storm with windspeeds nearing that of a Category 5. With warm water in the Gulf and in local bodies of water, like the Manatee River, Ian pulled in the water as though sucking it from the straw. Bradenton Police posted a photo of one area of the river, where they say normally there would be water. Police described the water as “uncharacteristically low.” Dove Burton then sent incredible footage to ABC7, show the storm sucking water from the river into the air. This phenomenon serves to fuel the power of the storm when low pressure evaporates the water upward. Copyright 2022 WWSB. All rights reserved.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "With warm water in the Gulf and in local bodies of water, like the Manatee River, Ian pulled in the water as though sucking it from the straw. Bradenton Police posted a photo of one area of the river, where they say normally there would be water.",
+          "concept": "police department",
+          "reasoning": "This section mentions a specific police department making an official post, which matches the neuron's focus on government bodies."
+        },
+        {
+          "rank": 2,
+          "text": "Police described the water as “uncharacteristically low.” Dove Burton then sent incredible footage to ABC7, show the storm sucking water from the river into the air.",
+          "concept": "police statement",
+          "reasoning": "This section includes a formal description by police, which is an official government statement."
+        },
+        {
+          "rank": 3,
+          "text": "WATCH: Hurricane Ian sucks water from Manatee River MANATEE COUNTY, Fla. (WWSB) - Hurricane Ian made landfall as a dangerous Category 4 storm with windspeeds nearing that of a Category 5.",
+          "concept": "county and news station",
+          "reasoning": "This section includes a county name and a news station identifier, which are institutional entities."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.872060775756836,
       "actual_text": "2, named as the North-East Frontier Agency (NEFA) under the Ministry of External Affairs. The Union Territory was created to administer the North Eastern Frontier region of",
       "plain_text": "Mizoram and Arunachal Pradesh were both created as Union Territories in 1972. The creation of these Union Territories was a part of the Government of India's efforts to establish administrative control over the northeastern region of the country, which had been relatively isolated and under-developed for many years. Formation of Mizo Hills District  Mizoram was officially made a Union Territory on 21 January 1972, named as the Mizo Hills District under the state of Assam. The area was initially governed by the Assam government, but due to the unique cultural and linguistic identity of the Mizo people, the Indian government decided to create a separate Union Territory for the region. The Union Territory of Mizo Hills was created to bring about administrative and developmental changes in the region. The Union Territory was later renamed as Mizoram in 1986. The emergence of NEFA Arunachal Pradesh was officially made a Union Territory on 20 January 1972, named as the North-East Frontier Agency (NEFA) under the Ministry of External Affairs. The Union Territory was created to administer the North Eastern Frontier region of India. The Union Territory was renamed as Arunachal Pradesh in 1975. The Union Territory was created with the purpose of providing good governance, promoting socio-economic development, and preserving the cultural heritage of the people of Arunachal Pradesh. How two union territories were run? Both Mizoram and Arunachal Pradesh were administered by the President of India through a governor appointed by him/her. The Union Territories had a unicameral legislature and the governor was the head of the executive. Both Union Territories were later granted statehood in 1986 and 1987 respectively, with their own elected governments and representation in the Indian Parliament by members of the Lok Sabha and Rajya Sabha.  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Mizoram and Arunachal Pradesh were both created as Union Territories in 1972. The creation of these Union Territories was a part of the Government of India's efforts to establish administrative control over the northeastern region of the country, which had been relatively isolated and under-developed for many years.",
+          "concept": "Government of India",
+          "reasoning": "This section explicitly mentions the Government of India and its official actions regarding Union Territories."
+        },
+        {
+          "rank": 2,
+          "text": "The emergence of NEFA Arunachal Pradesh was officially made a Union Territory on 20 January 1972, named as the North-East Frontier Agency (NEFA) under the Ministry of External Affairs. The Union Territory was created to administer the North Eastern Frontier region of India.",
+          "concept": "Ministry of External Affairs",
+          "reasoning": "This section names a specific government ministry, which is a clear example of an official government body."
+        },
+        {
+          "rank": 3,
+          "text": "Both Mizoram and Arunachal Pradesh were administered by the President of India through a governor appointed by him/her. The Union Territories had a unicameral legislature and the governor was the head of the executive.",
+          "concept": "President of India",
+          "reasoning": "This section mentions the President of India and the governor, which are high-level government positions."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.110239028930664,
       "actual_text": "formativa, grazie al dialogo costante tra l'assessore alla scuola Deborah Bordino e il dirigente scolastico Pierlu",
       "plain_text": "Un 2024 pieno di idee, sfide, obiettivi da raggiungere e grandi opportunità per il comune di Neive. Parte tutto dalla scuola. \"Si tratta di una priorità a cui dedichiamo attenzione e risorse perché le nuove generazioni sono il futuro delle nostre comunità\", spiega il sindaco Annalisa Ghella.  Il 9 gennaio alle 18, intanto, si terrà nei locali della scuola dell'Infanzia la presentazione del nuovo anno e dell'offerta formativa. Diversi i lavori che sono stati eseguiti nelle aree esterne e nei giardinetti, oltre alla realizzazione dei tappeti antitrauma nei pressi della scuola primaria. \"Uno degli interventi più importanti riguarderà la messa in sicurezza e l'adeguamento antisismico della palestra. Un progetto da 250.000 euro grazie ai fondi del PNRR. L'obiettivo è anche quello di migliorare l'offerta didattica e formativa, grazie al dialogo costante tra l'assessore alla scuola Deborah Bordino e il dirigente scolastico Pierluigi Rocca. Stiamo portando avanti un interessante progetto antispreco che riguarda la mensa scolastica\".  Un'altra delle priorità dell'Amministrazione comunale è la sicurezza. Lungo il plesso scolastico sono stati realizzati camminamenti in sicurezza. “Un tratta lungo la ferrovia verrà, invece, terminata nell’ambito dell’organizzazione e asfaltatura che riguarda via Del Molino, via De Revello e corso Romano Scagliola, un trivio molto critico che si congestiona nelle ore di apertura e chiusura delle scuole\", precisa il sindaco Ghella unitamente al vicesindaco Francesco Bordino.  Nell'ultimo consiglio comunale è stata sbloccata inoltre la cifra di 80.000 euro per lavori di asfaltatura e rappezzi lungo le borgate. Il cronoprogramma è già definito e riguarderà da marzo via Rio Freddo, e a seguire, via Serra Capelli, via Nuova del Campo e altre opere minori.  L'ambiente e il verde sono un altro bacino di interventi molto importante. Sono già stati realizzati i lavori di riqualificazione del Parco Giolitti, dell'annessa area cani e dell'area verde davanti all'ala nella zona del peso, grazie alla partecipazione delle imprese private Pets Planet e Vite d’oro. \"Un nuovo progetto riguarderà la nascita di un bosco didattico e olistico, adiacente al campetto sportivo di Neive capoluogo, nel massimo rispetto del verde esistente. Qui saranno installate e posizionate piattaforme in legno e percorsi esperienziali\", aggiunge ancora il primo cittadino.  Un altro intervento di rilievo riguarderà il torrente Tinella. \"Abbiamo presentato un documento di fattibilità sulla sua messa in sicurezza, realizzato grazie alla collaborazione dell’ingegner Alberto Fazio, il vicesindaco Francesco Bordino, il consigliere Salvatore Lorusso (Turi) e l’attivo interesse dell’ufficio tecnico. Con l’utilizzo di un drone sono state visualizzate anche le anse più nascoste. Fattiva la collaborazione con la Regione Piemonte che ha già finanziato un primo intervento, dopo l’ultimo evento alluvionale e che ringraziamo per il contributo di 15.000 euro a favore della protezione civile, risorsa fondamentale in queste situazioni di criticità”.  Cultura e sport sono gli ultimi due temi di un anno che si preannuncia ricco di eventi e sorprese. Il 15 febbraio Neive ospiterà il comitato che sostiene la candidatura di Alba-Bra-Langhe e Roero a capitale della cultura 2026. \"Si tratta di una grande opportunità per il territorio e una possibile grande vetrina internazionale, che per il nostro comune sarà sicuramente lo storico passaggio del tour de France, il prossimo 1° luglio. Siamo pronti ad affrontare questa sfida e stiamo già progettando lungo tutto l'anno degli eventi dedicati alla cittadinanza\", conclude il sindaco Ghella. La storica manifestazione attraverserà corso Romano Scagliola, via XX Settembre, il Rondò e la Provinciale verso Barbaresco.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un 2024 pieno di idee, sfide, obiettivi da raggiungere e grandi opportunità per il comune di Neive. Parte tutto dalla scuola. \"Si tratta di una priorità a cui dedichiamo attenzione e risorse perché le nuove generazioni sono il futuro delle nostre comunità\", spiega il sindaco Annalisa Ghella.",
+          "concept": "mayor statement",
+          "reasoning": "This section features the mayor of Neive making a formal announcement about community priorities, which matches the neuron's focus on official government figures."
+        },
+        {
+          "rank": 2,
+          "text": "Nell'ultimo consiglio comunale è stata sbloccata inoltre la cifra di 80.000 euro per lavori di asfaltatura e rappezzi lungo le borgate. Il cronoprogramma è già definito e riguarderà da marzo via Rio Freddo, e a seguire, via Serra Capelli, via Nuova del Campo e altre opere minori.",
+          "concept": "municipal council",
+          "reasoning": "This section describes a decision by the municipal council to allocate funds, which is an official government action."
+        },
+        {
+          "rank": 3,
+          "text": "Fattiva la collaborazione con la Regione Piemonte che ha già finanziato un primo intervento, dopo l’ultimo evento alluvionale e che ringraziamo per il contributo di 15.000 euro a favore della protezione civile, risorsa fondamentale in queste situazioni di criticità”.",
+          "concept": "regional government",
+          "reasoning": "This section mentions collaboration with the regional government and funding for civil protection, which are official government bodies and agencies."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "The Italian Cultural Foundation is asking the community to submit nominations for its 202",
       "plain_text": "The Italian Cultural Foundation is asking the community to submit nominations for its 2023 Spirit of Achievement Award. The award recognizes local individuals who are of Italian heritage and are known for their service to the community. An award presentation will take place at the Italian Cultural Foundation Gala Ball in November. To be considered, nominees must be known for service that benefits the community and is given without monetary gain; be of Italian heritage; exhibit \"strong family values and exceptional moral character\"; and the services provided must not be related to their employment or career success. Submissions must be made in writing. A selection committee will review all applications, with a chairman presiding over the confidential meetings. To submit a nomination, write The Italian Cultural Foundation, Post Office Box 841, Vineland NJ 08362-0841, attention: Nominating Committee. All submission must be received by Tuesday, Feb. 28.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Submissions must be made in writing. A selection committee will review all applications, with a chairman presiding over the confidential meetings.",
+          "concept": "selection committee",
+          "reasoning": "This section describes a formal committee process, which resembles an institutional authority's structured procedure."
+        },
+        {
+          "rank": 2,
+          "text": "To submit a nomination, write The Italian Cultural Foundation, Post Office Box 841, Vineland NJ 08362-0841, attention: Nominating Committee. All submission must be received by Tuesday, Feb. 28.",
+          "concept": "formal address",
+          "reasoning": "This section provides an official address and deadline, which is characteristic of formal institutional announcements."
+        },
+        {
+          "rank": 3,
+          "text": "The Italian Cultural Foundation is asking the community to submit nominations for its 2023 Spirit of Achievement Award.",
+          "concept": "foundation announcement",
+          "reasoning": "This section is a formal call for nominations from an institutional organization."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Swedish climate activist Greta Thunberg was released from a German Police precinct Tuesday",
       "plain_text": "Swedish climate activist Greta Thunberg was released from a German Police precinct Tuesday after she was identified together with all the other demonstrators joining her in a protest in the town of Lützerath, which was to be demolished to expand a coal mining project in a country needing energy sources following Russia's response to western sanctions due to the war in Ukraine.  Thunberg was carried away from the site of the protests by several law enforcement officers who grabbed her by her limbs and taken to a police station where she spent several hours.  The activists were then taken away from the danger zone by bus and officers checked their identities before releasing them, a police spokesman said. At no time were the activists formally detained, he added.  Thunberg, 20, has been in Germany since Saturday to support of the last group of activists opposing the expansion of an open-pit coal mine. It is a disgrace that the German government makes agreements and compromises with companies like RWE, Thunberg said.  Lützerath, located in the Rhine basin between Düsseldorf and Cologne, is to disappear to allow the expansion of a huge open-cast lignite mine, one of the largest in Europe, operated by RWE. To prevent this, some 300 activists occupied the village. The last two left the site on Monday, following a police eviction operation. Saturday's demonstration brought together more than 15,000 people, a dozen of whom were injured after clashes with law enforcement. Demonstrators waved banners with slogans such as Stop coal and Lützerath lives!.  In October, the German Government of Chancellor Olaf Scholz signed a deal with RWE allowing the destruction of the town, after residents were expropriated years ago. In exchange, the company agreed to stop producing electricity from coal by 2030. But for the time being, the expansion of the mine was deemed necessary to ensure the country's energy supply after Moscow's retaliatory measures.  Thunberg's allies claim that the current lignite reserves are sufficient and insist Germany should not be mining any more lignite (or brown coal) to focus on renewable energy instead. The Swedish environmental activist also called the expansion of the mine a betrayal of present and future generations. She added that Germany is one of the biggest polluters in the world and needs to be held accountable.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In October, the German Government of Chancellor Olaf Scholz signed a deal with RWE allowing the destruction of the town, after residents were expropriated years ago. In exchange, the company agreed to stop producing electricity from coal by 2030.",
+          "concept": "German Government",
+          "reasoning": "This section explicitly mentions the German Government and Chancellor, which are high-level official government entities."
+        },
+        {
+          "rank": 2,
+          "text": "Thunberg was carried away from the site of the protests by several law enforcement officers who grabbed her by her limbs and taken to a police station where she spent several hours. The activists were then taken away from the danger zone by bus and officers checked their identities before releasing them, a police spokesman said.",
+          "concept": "police action",
+          "reasoning": "This section describes actions by law enforcement officers and a police spokesman, which are official government authorities."
+        },
+        {
+          "rank": 3,
+          "text": "It is a disgrace that the German government makes agreements and compromises with companies like RWE, Thunberg said. Lützerath, located in the Rhine basin between Düsseldorf and Cologne, is to disappear to allow the expansion of a huge open-cast lignite mine, one of the largest in Europe, operated by RWE.",
+          "concept": "government criticism",
+          "reasoning": "This section includes a direct mention of the German government in a formal statement, which aligns with the neuron's focus on government references."
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_16743",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:02:00Z",
+  "generated_at": "2026-02-24T01:26:15Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to explicit mentions of **membership in a group or organization** (such as \"members of the Lapwings WI,\" \"a member of the ambulance team,\" \"founder of the Chinese Communist Party,\" or \"she is a member of the Mountaineer Maniacs\").\n\n2. **Domain coverage**: The pattern appears across news, political reporting, and organizational descriptions in English (and likely other languages, though examples here are English). It activates on references to political bodies (UN agency, Communist Party, Parliament), community groups (WI chorale, Filipino community, LGBTQI+ community), professional/teams (science team, CSK member, PR society), and institutional panels (ethics office, security council, impeachment committee).\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain phrases denoting affiliation (\"member(s) of,\" \"founder of,\" \"based in,\" \"spearheaded by exiled members of\"). The low-activation examples lack any such membership framing; they describe individual actions, general events, or fragmented text without referencing an individual’s belonging to a defined collective.\n\n4. **Closing interpretation**: The neuron detects linguistic constructions that specify a person’s or entity’s affiliation with a named group. It focuses on the semantic relationship of membership rather than the topic of the group itself.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.756143569946289,
       "actual_text": "Gandhi, the former minister said that he is tendering his resignation from primary members of the party with \"deep sadness\". \"Seven years ago, I merged the",
       "plain_text": "Punjab's former finance minister, Manpreet Badal, on Wednesday, resigned from Congress. Badal will be joining the Bharatiya Janata Party shortly. In his letter to Rahul Gandhi, the former minister said that he is tendering his resignation from primary members of the party with \"deep sadness\".  \"Seven years ago, I merged the People's Party of Punjab with your party. I did so with immense hope, and an expectation of being integrated into an organisation with a rich history, that would allow me to serve both the people of Punjab and its interests to the best of my ability. Initial enthusiasm, gradually gave way to disappointing disillusionment,\" he wrote in his letter. Badal stated that the task of Punjab's finance minister was not easy as he had \"inherited an exchequer in shambles\" which was \"truly on brink of total collapse\".  Badal said that he had two options wherein he could ignore numerical realities and pursue populist policies which could exacerbate the state's problems. Or he could \"accept the fact that difficult decisions were desperately needed, and assiduously adhere to fiscal discipline. I chose the latter\".  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Badal will be joining the Bharatiya Janata Party shortly. In his letter to Rahul Gandhi, the former minister said that he is tendering his resignation from primary members of the party with 'deep sadness'.",
+          "concept": "party membership",
+          "reasoning": "Explicitly mentions joining a political party and resigning from party membership."
+        },
+        {
+          "rank": 2,
+          "text": "'Seven years ago, I merged the People's Party of Punjab with your party. I did so with immense hope, and an expectation of being integrated into an organisation with a rich history, that would allow me to serve both the people of Punjab and its interests to the best of my ability.'",
+          "concept": "organization affiliation",
+          "reasoning": "Describes merging a party and integration into an organisation, indicating membership."
+        },
+        {
+          "rank": 3,
+          "text": "Badal stated that the task of Punjab's finance minister was not easy as he had 'inherited an exchequer in shambles' which was 'truly on brink of total collapse'.",
+          "concept": "individual role",
+          "reasoning": "Discusses individual responsibilities without explicit group membership, likely causing lower activation."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.248579025268555,
       "actual_text": "Methodist University have divided the campus, pitting the administration and some alumni against members of the liberal-leaning faculty who say the project would be an embarrassment to the school.",
       "plain_text": "DALLAS – Negotiations to build George W. Bush's presidential library at Southern Methodist University have divided the campus, pitting the administration and some alumni against members of the liberal-leaning faculty who say the project would be an embarrassment to the school. Some professors have complained that the combined library, museum and think tank would celebrate a presidency that unnecessarily took the country into a war. The fear is that the library \"will continue to espouse the philosophy and practice of the Bush administration, which has seriously divided our nation and has brought the ire of other countries,\" said William McElvaney, a retired professor at SMU's theology school and co-author a November opinion piece in the campus newspaper titled \"The George W. Bush Library: Asset or Albatross?\" SMU emerged as the front-runner in the competition last month when the library site selection committee said it was entering further discussions with the 11,000-student, private university in one of Dallas's wealthiest neighborhoods. The project will be financed with a private fund drive aimed at raising at least $200 million. Bush connections to SMU run deep. First lady Laura Bush is a graduate and is on the board of trustees. Vice President Dick Cheney previously served on the board. Presidential adviser Karen Hughes and former White House counsel Harriet Miers are both graduates. SMU officials said the project is unlikely to be derailed by the faculty opposition, and said the professors opposed to it are in the minority. Brad Cheves, vice president for external affairs and development, said the library could help recruit students, attract visitors and increase giving. \"It raises the profile of SMU no matter how people feel about President Bush,\" he said. White House spokeswoman Dana Perino declined to comment. And a spokesman for former Bush administration Commerce Secretary Don Evans, chairman of the library search committee, would not comment on whether the objections from some of the 600 faculty members would affect the panel's final decision, expected in a few months. As for the students, Luis Arango, a 21-year-old junior and political science major, said on campus Friday: \"This school has a very conservative vibe, and most of the students like Bush. The only people who don't seem to be the faculty. I know for a fact that some are real liberal and I don't think should be teaching here.\" As for the alumni, many of them are wealthy and conservative. And Mike Boone, who is on SMU's board of trustees and earned undergraduate and law school degrees from SMU, said an overwhelming majority of alumni support the Bush library project. \"It's prestigious and brings a lot of value to a university,\" said Boone, a Dallas lawyer who has known Bush since he was Texas governor. McElvaney warned that not only could the library hurt SMU's reputation, it could also become a target for terrorists or others who want to strike back at Bush, McElvaney said. \"Dallas is already known as the city in which President Kennedy was assassinated, so does Dallas want a Bush library that could become a prime terrorist target?\" McElvaney asked. The library of the president's father is on the Texas A&M University campus in College Station. Universities often compete to host presidential libraries. But this is not the first time that the political passions of the day have stirred resistance to such a project. In 1981, Duke University faculty members, by one vote, voted against continuing discussions to build Richard Nixon's library there. Nixon graduated from Duke Law School in North Carolina. Duke's trustees voted to build the library anyway, but negotiations with Nixon officials eventually broke down. The Nixon library was eventually built in Yorba Linda, in his native California. \"It was obvious this was going to be a memorial to glorify the career of Richard Nixon rather than be a repository of his papers,\" said Lawrence Evans, a retired Duke physics professor. Native Texan Lyndon B. Johnson's library was built on the University of Texas campus in Austin during the Vietnam area. During the 1971 opening ceremony, hundreds of protesters chanted anti-war slogans and released black balloons. Demonstrators also marched around campus, throwing bottles, cans and rocks at police, and dozens were arrested.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "First lady Laura Bush is a graduate and is on the board of trustees. Vice President Dick Cheney previously served on the board. Presidential adviser Karen Hughes and former White House counsel Harriet Miers are both graduates.",
+          "concept": "board membership",
+          "reasoning": "Multiple explicit mentions of roles on boards and graduation, indicating affiliation with the university."
+        },
+        {
+          "rank": 2,
+          "text": "Negotiations to build George W. Bush's presidential library at Southern Methodist University have divided the campus, pitting the administration and some alumni against members of the liberal-leaning faculty who say the project would be an embarrassment to the school.",
+          "concept": "faculty membership",
+          "reasoning": "Directly refers to members of the liberal-leaning faculty, a clear group affiliation."
+        },
+        {
+          "rank": 3,
+          "text": "As for the alumni, many of them are wealthy and conservative. And Mike Boone, who is on SMU's board of trustees and earned undergraduate and law school degrees from SMU, said an overwhelming majority of alumni support the Bush library project.",
+          "concept": "alumni affiliation",
+          "reasoning": "Mentions alumni and board membership, indicating group connections."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.516993522644043,
       "actual_text": "lik, one-half of Heltah Skeltah, four albums as member of supergroup Boot Camp Clik and one-third of Random Axe (with Guilty",
       "plain_text": "Real Sean P.. fans pick this up.. Sean Price’s legacy will never be forgotten but his longtime rap hub of Duck Down Records is commemorating his branded “monkey bars” with something that’s both tangible and golden.  Come this November 25, the trusted Hip Hop label will be shipping out a magnetic cage door Silverback Gorilla Box set that contains physical copies of the late Brownsville lyricist’s three critically acclaimed solo albums in Monkey Barz, Jesus Price Supastar, and Mic Tyson; a custom gorilla cage replete with P’s lyrics and keywords across its five panels; a hologram cover design with Sean Price spitting hot fire in the face of bloodthirsty gorillas; a custom deck of Sean Price playing cards; sticker packs containing three exclusive Sean Price stickers; and sadly but fittingly, a RIP patch.  Rest In Power: The Hip Hop Community had powerful reactions to the passing of one of their own.  The revered underground stalwart, who also made up a fixture of Boot Camp Clik, one-half of Heltah Skeltah, four albums as member of supergroup Boot Camp Clik and one-third of Random Axe (with Guilty Simpson and Black Milk), passed away in August of 2015, leavingthe entire Hip Hop community reeling. The Sean Price Silverback Gorilla Box set serves as a worthy addition to any rap fan who values collectibles, as only 500 of these were created.  But hey, don’t allow our bias to be your guide. Take it from Peter Rosenberg and Dallas Penn, who are out here doing their best QVC rendition (make that BSN — Brownsville Shopping Network!) to get the units off of shelves. All the Sean Price bundles are currently available at www.shopduckdown.com.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The revered underground stalwart, who also made up a fixture of Boot Camp Clik, one-half of Heltah Skeltah, four albums as member of supergroup Boot Camp Clik and one-third of Random Axe (with Guilty Simpson and Black Milk), passed away in August of 2015,",
+          "concept": "music group membership",
+          "reasoning": "Explicitly lists multiple group affiliations in the music industry, such as member of supergroup Boot Camp Clik."
+        },
+        {
+          "rank": 2,
+          "text": "Rest In Power: The Hip Hop Community had powerful reactions to the passing of one of their own.",
+          "concept": "community belonging",
+          "reasoning": "Refers to the Hip Hop Community as a group, implying membership of the deceased."
+        },
+        {
+          "rank": 3,
+          "text": "Real Sean P.. fans pick this up.. Sean Price’s legacy will never be forgotten but his longtime rap hub of Duck Down Records is commemorating his branded “monkey bars” with something that’s both tangible and golden.",
+          "concept": "fan base",
+          "reasoning": "Mentions fans and a record label, but not explicit individual membership, likely lower activation."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Juan Guaidó Calls For Protests In Opposition To Venezuela President Nicolás Maduro",
       "plain_text": "Juan Guaidó Calls For Protests In Opposition To Venezuela President Nicolás Maduro  MARY LOUISE KELLY, HOST: Venezuelans were on the streets again today. (SOUNDBITE OF ARCHIVED RECORDING) UNIDENTIFIED CROWD: (Chanting in Spanish). KELLY: Again they are demanding that President Nicolas Maduro step down. The campaign to oust Maduro is supported by the U.S., and the U.S. has added to the pressure by imposing tough sanctions on Venezuelan oil. Let's go to NPR's Philip Reeves in Caracas for the latest. Hi again, Phil. PHILIP REEVES, BYLINE: Hi. KELLY: So today's protests - give me a sense of the scale. REEVES: Well, they varied in Caracas. On the east side of town, which is an opposition stronghold, there were thousands of people on the streets. They chanted. They waved banners. They were out there for two hours. And at the end, they sang the national anthem together. On the west side of town in the slums, though, which used to be the strongholds of Hugo Chavez and then, after him, Maduro - still considered to be government strongholds. I didn't see any protests at all. I saw people lining up to buy food. And I did see a lot of cops and National Guard. And from that, I deduce that Maduro is coming down hard on working-class and poor areas. He's tried to prevent these protests from spreading into those areas. These are people who've suffered the brunt of chronic food and medical - medicine shortages and more recently power shortages of water cuts. And it's interesting that most of the 800-plus detentions that have happened over the last week and a half and a half have, according to human rights activists, happened in the poorer areas. KELLY: So that is what it looks like. What do people say? You've been out in the streets trying to talk to people all day. What are they telling you? REEVES: Yeah. I particularly spent time in an upmarket business area where there were a lot of protesters. I spoke to Damia Framgie (ph), who's a lawyer age 29. She took part in previous years in protests, and she thinks this time it's different. DAMIA FRAMGIE: I do think we're going to make it, and I think we are being really well guided. And the support - it's important 'cause for the first time, we're being recognized internationally, and they're going to run out of money 'cause they're not going to be selling oil. So that's our ticket to freedom. REEVES: But you still find that people are reluctant to talk to journalists. They're still worried about the threat posed by security agencies and the intelligence service. This man, Pedro (ph), did agree to talk but declined to give his full name, and I asked him why. PEDRO: Because it's dangerous here. I mean, this not kidding. I mean, they are not playing with toys. This is a very strong dictatorship that have disappeared people, that had more than 300 political prisoners. REEVES: So Pedro, although you say it's dangerous here, you've come out onto the streets. PEDRO: Oh, yes, absolutely. It is - I mean, it's now or never. KELLY: Some of the voices there from the streets in Caracas - Phil, I want to check in on a couple of points you've been helping us keep track of. One is, where is the army? I mean, you keep telling us that where the army lands and who they support is going to be a huge deciding factor in how all this plays out. REEVES: Yes indeed. I think it is very important. I think it's the decisive factor if you want to choose one. So far we haven't seen any sign that the high command of the military is splitting from Maduro. KELLY: And what kind of impact are you seeing from the U.S. decision to stop Maduro's government from earning money by selling oil to the U.S.? We heard protesters talking about it. Has Maduro or his government responded? REEVES: Oh, yes, he has, and he's responded with a great deal of anger. This is worth roughly a billion dollars a month to his government, so it's a major problem for him. He desperately needs those funds. Interestingly, there are reports which started to emerge last night and have grown today that a big Russian passenger plane has arrived at an airport outside Caracas, and an opposition lawmaker who's a former central bank director is saying that he's been told that this plane was hired to transport 20 tons of Venezuelan gold. And of course the speculation is that this is another way of raising funds in a desperate situation that Maduro is using by sending gold to Russia. KELLY: Well, all kinds of plots of potential intrigue swirling there. Last question - do we know what opposition leader Juan Guaido's next move might be or even where he is? REEVES: All eyes are on Saturday. He's called a very big mass, nationwide demonstration, a nonviolent protest again on Saturday. I think that could be significantly bigger than what we have seen today. KELLY: Thank you, Phil. REEVES: You're welcome. KELLY: NPR's Philip Reeves in Caracas, Venezuela. Transcript provided by NPR, Copyright NPR.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "On the east side of town, which is an opposition stronghold, there were thousands of people on the streets.",
+          "concept": "political stronghold",
+          "reasoning": "Describes an area as an opposition stronghold, indicating affiliation with the opposition group."
+        },
+        {
+          "rank": 2,
+          "text": "On the west side of town in the slums, though, which used to be the strongholds of Hugo Chavez and then, after him, Maduro - still considered to be government strongholds.",
+          "concept": "government stronghold",
+          "reasoning": "Identifies areas as strongholds of political leaders, suggesting group allegiance."
+        },
+        {
+          "rank": 3,
+          "text": "an opposition lawmaker who's a former central bank director",
+          "concept": "political role",
+          "reasoning": "Mentions roles such as opposition lawmaker and former central bank director, implying membership in political and institutional groups."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "research director",
+          "reasoning": "Explicitly states Paolo Clemente's affiliation as research director of ENEA, a clear membership reference."
+        },
+        {
+          "rank": 2,
+          "text": "Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni.",
+          "concept": "research consortium",
+          "reasoning": "Describes a center that collects research bodies and university departments, indicating group affiliations."
+        },
+        {
+          "rank": 3,
+          "text": "ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "organization collaboration",
+          "reasoning": "Mentions ENEA and collaboration with a company, but no individual membership, likely lower activation."
+        }
+      ]
     }
   ]
 }

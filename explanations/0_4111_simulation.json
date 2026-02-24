@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_4111",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:08:26Z",
+  "generated_at": "2026-02-24T01:49:23Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the substring \"red\" (such as in proper nouns like \"Red Sea\" or \"Red Bull,\" color descriptions like \"red carpet,\" or compound terms like \"red zone\" or \"redlines\").\n\n2. **Domain coverage**: The pattern appears across diverse domains including sports commentary (\"red zone,\" \"Red Sox\"), geopolitics (\"Red Sea,\" \"redlines\"), entertainment (\"red carpet,\" \"Red Sonja\"), astronomy (\"red supergiant\"), and general color references. It activates in multiple languages (English, Vietnamese, Italian, Romanian) and in both formal news and informal contexts, indicating language-agnostic substring matching.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain the character sequence \"red\" (case-insensitive), often as a standalone word or as part of a larger token. The low-activation examples lack this substring entirely, instead covering unrelated topics like technology, local news, or other sports terms without \"red.\"\n\n4. **Closing interpretation**: This neuron functions as a simple lexical detector for the string \"red,\" ignoring semantic context. It fires based on substring presence regardless of whether \"red\" refers to a color, proper name, or embedded morpheme.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.794989585876465,
       "actual_text": "&B Divas: Atlanta” star also posted a solo shot of her in a red gown, showing her belly. Wyatt, known for belting out her spirited",
       "plain_text": "Singer Keke Wyatt has announced that she is expecting her 11th child.  Yes, 11!  The Soul Train Award-nominated R&B powerhouse took to social media to share the news that she and her husband are adding to their growing brood.  “My husband, Zackariah David Darring, and I are proud to announce that our family will be adding a ‘plus 1′ to the Wyatt Bunch!,” Wyatt captioned an Instagram photo surrounded by her family. “Our other daughter @0fficial.kaylaaaa wasn’t available for the picture but you’re with us in spirit Shuga! #Baby11″  The former “R&B Divas: Atlanta” star also posted a solo shot of her in a red gown, showing her belly.  Wyatt, known for belting out her spirited rendition of “Eye on the Sparrow” at the drop of a hat, married Darring in October 2018 and announced the following year that their first child together was on the way.  Their baby boy, Ke’Riah, was born in January 2019.  The Indianapolis native has six children with her first husband, former road manager Rahmat Morton, and three with her second husband, Michael Jamar Ford.  The pregnancy hasn’t slowed Wyatt down from working; last week she performed with the Deep Fried Funk Band in Fort Lauderdale, Fla., and is scheduled to sing at the Hollywood Gatsby & Glam event in Mobile, Ala., on Feb. 27.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The former “R&B Divas: Atlanta” star also posted a solo shot of her in a red gown, showing her belly.  Wyatt, known for belting out her spirited rendition of “Eye on the Sparrow” at the drop of a hat, married Darring in October 2018 and announced the following year that their first child together was on the way.",
+          "concept": "red substring",
+          "reasoning": "This section contains the substring 'red' in 'red gown', which matches the neuron's pattern of firing on 'red'."
+        },
+        {
+          "rank": 2,
+          "text": "Singer Keke Wyatt has announced that she is expecting her 11th child.  Yes, 11!  The Soul Train Award-nominated R&B powerhouse took to social media to share the news that she and her husband are adding to their growing brood.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 3,
+          "text": "Their baby boy, Ke’Riah, was born in January 2019.  The Indianapolis native has six children with her first husband, former road manager Rahmat Morton, and three with her second husband, Michael Jamar Ford.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.34347915649414,
       "actual_text": "pointed the player in the direction of the dugout. It was a second red card for Getafe who had to deal with Juanmi Latasa receiving a",
       "plain_text": "Mason Greenwood was sent off for dissent in Getafe's home clash against Rayo Vallecano in La Liga.  The 22-year-old, who is on loan for Manchester United, was given his marching orders in the 50th minute of the game. Getafe were trailing 2-0 at the time of the Englishman's sending off, further worsening their chances of a comeback against the away side.  Greenwood's straight red came about after appealing for a foul, the striker then appeared to shout at the referee. The official wasted no time in showing him a red card as he pointed the player in the direction of the dugout.  It was a second red card for Getafe who had to deal with Juanmi Latasa receiving a second yellow card five minutes before half-time. Their luck worsened even more in the 70th minute when Damian Suarez was also the recipient of two yellow cards as Getafe now have just eight players on the pitch.  An eighth-placed Getafe had the opportunity to leapfrog Real Betis into seventh place with a win on Tuesday (January 2) but now look resigned for their first defeat in 2024 at the hands of the 11th-placed Vallecano.  Has Mason Greenwood impressed at Getafe this season? Give us your thoughts in the comments section below  Since joining the La Liga side last summer, Greenwood has had a positive start to life in Spain, contributing nine goals and assists in 15 games in all competitions. He most recently bagged a goal and an assist in Getafe's impressive 3-0 defeat away to Sevilla last month.  His absence has certainly been felt by Manchester United who've struggled massively this season, especially their forward line. Alejandro Garnacho, 19, leads the forward line in scoring this season with five goals in all competitions while Marcus Rashford has netted just three times with just two coming in the Premier League.  Join the Daily Star's WhatsApp for the sexiest headlines, showbiz gossip and lots more  The Daily Star is now on WhatsApp and we want you to join us!  Through the app, we'll send you the sassiest showbiz stories, some naught headline and a seismic smattering of aliens...along with the latest breaking news of course.  To join our community, all you have to do to join is click on this link, select 'Join Chat' and you're in!  No one will be able to see who has sign up and no one can send messages except for the Daily Star team. We also treat our community members to competitions, special offers, promotions, and adverts from us and our partners.  If you don’t like our community, you can check out any time you like. To leave our community click on the name at the top of your screen and choose Exit group. If you’re curious, you can read our Privacy Notice.  Despite their struggles up top, it remains to be seen whether the club will decide to bring back the one-time England international in the summer after previous complaints from the public about their plans to reintegrate him into the first-team set-up last year.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Greenwood's straight red came about after appealing for a foul, the striker then appeared to shout at the referee. The official wasted no time in showing him a red card as he pointed the player in the direction of the dugout.",
+          "concept": "red substring",
+          "reasoning": "This section contains the substring 'red' in 'straight red' and 'red card', which strongly matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Mason Greenwood was sent off for dissent in Getafe's home clash against Rayo Vallecano in La Liga.  The 22-year-old, who is on loan for Manchester United, was given his marching orders in the 50th minute of the game.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 3,
+          "text": "Since joining the La Liga side last summer, Greenwood has had a positive start to life in Spain, contributing nine goals and assists in 15 games in all competitions. He most recently bagged a goal and an assist in Getafe's impressive 3-0 defeat away to Sevilla last month.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.40493106842041,
       "actual_text": "6 mai, 2021 - 10:39 • Redação A UEFA confirmou, esta quinta-feira, que a final da Liga",
       "plain_text": "06 mai, 2021 - 10:39 • Redação A UEFA confirmou, esta quinta-feira, que a final da Liga dos Campeões vai disputar-se em Istambul, no Estádio Ataturk, apesar de a Turquia estar em confinamento total, devido à pandemia de Covid-19. Nas últimas horas, o Estádio de Wembley, em Londres, foi sugerido como palco alternativo, tendo em conta que os dois finalistas são ingleses, Manchester City e Chelsea -, evitando, assim, grandes deslocações, e que a situação pandémica na Turquia é preocupante. Em comunicado, a UEFA esclarece que não houve alteração de planos. \"A final da Liga dos Campeões vai acontecer em Istambul a 29 de maio, com um número limitado de espetadores e temos a garantia de que o confinamento temporário, que está em vigor até 17 de maio, não terá qualquer impacto no jogo\", lê-se, no comunicado. Liga dos Campeões Treinador do Manchester City diz que qualificação (...) Ver mais Alterou-se, no entanto, a expetativa de ter uma assistência a rondar os 40 mil espetadores, correspondente a cerca de metade da lotação do Ataturk (75 mil lugares). A UEFA comprometeu-se a avançar detalhes nos próximos dias sobre o número de bilhetes que irá disponibilizar e sobre as medidas que cada adepto terá de tomar para viajar até Istambul. Manchester City e Chelsea defrontam-se a 29 de maio, numa final inédita da Liga dos Campeões. Os dois clubes encontraram-se recentemente nas meias-finais da Taça de Inglaterra, num jogo que terminou com vitória do Chelsea, por 1-0. Termos e Condições Todos os comentários são mediados, pelo que a sua publicação pode demorar algum tempo. Os comentários enviados devem cumprir os critérios de publicação estabelecidos pela direcção de Informação da Renascença: não violar os princípios fundamentais dos Direitos do Homem; não ofender o bom nome de terceiros; não conter acusações sobre a vida privada de terceiros; não conter linguagem imprópria. Os comentários que desrespeitarem estes pontos não serão publicados. Todos os campos são de preenchimento obrigatório.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "06 mai, 2021 - 10:39 • Redação A UEFA confirmou, esta quinta-feira, que a final da Liga dos Campeões vai disputar-se em Istambul, no Estádio Ataturk, apesar de a Turquia estar em confinamento total, devido à pandemia de Covid-19.",
+          "concept": "red substring",
+          "reasoning": "This section contains the substring 'Red' in 'Redação', which matches the neuron's pattern of firing on 'red' regardless of language."
+        },
+        {
+          "rank": 2,
+          "text": "Em comunicado, a UEFA esclarece que não houve alteração de planos. 'A final da Liga dos Campeões vai acontecer em Istambul a 29 de maio, com um número limitado de espetadores e temos a garantia de que o confinamento temporário, que está em vigor até 17 de maio, não terá qualquer impacto no jogo', lê-se, no comunicado.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 3,
+          "text": "A UEFA comprometeu-se a avançar detalhes nos próximos dias sobre o número de bilhetes que irá disponibilizar e sobre as medidas que cada adepto terá de tomar para viajar até Istambul. Manchester City e Chelsea defrontam-se a 29 de maio, numa final inédita da Liga dos Campeões.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
       "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 2,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 3,
+          "text": "Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "THERE IS an increasing feeling that China is not taking India’s concerns seriously and that",
       "plain_text": "THERE IS an increasing feeling that China is not taking India’s concerns seriously and that it does not want to resolve issues between the two countries. China’s nonchalance is being attributed to its rapidly growing financial power, which is powering its rapid expansion and modernisation in all spheres.  In an interaction with THE WEEK, People’s Liberation Army Navy’s senior strategist Zhang Wei said, “India should follow the policy of non-alignment.” Speaking through an interpreter, she did not seem pleased with the joint military exercises of India, the US and Japan. “It is not in India’s interest to form third-party military alliances with any country,” she said. Here’s looking at other issues:  BOUNDARY DISPUTE  Beijing recently turned down an Indian proposal to demarcate the disputed Line of Actual Control.  MILITARY AID TO PAKISTAN  Major Jiang Bin, who oversees China’s military ties with India and Pakistan and is an India expert in the PLA, dismissed the issue of heavy military aid to Islamabad. He said it was not aimed at India or any other country. “China and Pakistan are traditional partners, but one should know that these ties are not against India,” he said.  China, in recent years, has supplied Pakistan with long-range nuclear missiles, warships and modern fighter aircraft. China has also agreed to provide eight diesel-electric submarines to the Pakistan Navy. On the other hand, China holds only basic joint military exercises with India. On a few occasions, the warships of both sides have made port calls.  While speaking to a Indian media delegation, Jiang quipped that Pakistan occasionally complained to China that its military ties with India were growing very close. The journalists burst out laughing.  PAKISTAN-OCCUPIED KASHMIR  Huang Xilian, deputy director general, Asian affairs department, Chinese foreign ministry, ridiculed the allegation that over 5,000 PLA troops were present in PoK. He said these days even private security guards wore military-like uniforms and Chinese construction workers there could have been mistaken for troops.  “Our presence in PoK is only commercial in nature, and it does not mean that we are supporting or rejecting anyone’s claim on the area,” Huang asserted. On the one hand, China opposes Indian presence in the South China Sea for oil exploration, and on the other hand it uses PoK to trade with Pakistan.  STRING OF PEARLS  The PLA Navy refuses to acknowledge its ‘string of pearls’ strategy, which is to gain access to strategic ports around India. “Our military strategy is defensive in nature and this can be seen in our military white paper also,” said Senior Captain Wei Xiandong, chief of staff of the PLA Navy’s Shanghai Garrison. “I do not think it is possible for China to have a string of pearls kind of policy.” Under the ‘string of pearls’ strategy, China has built ports in Myanmar, Pakistan, Sri Lanka and Bangladesh.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "THERE IS an increasing feeling that China is not taking India’s concerns seriously and that it does not want to resolve issues between the two countries.  China’s nonchalance is being attributed to its rapidly growing financial power, which is powering its rapid expansion and modernisation in all spheres.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 2,
+          "text": "In an interaction with THE WEEK, People’s Liberation Army Navy’s senior strategist Zhang Wei said, “India should follow the policy of non-alignment.” Speaking through an interpreter, she did not seem pleased with the joint military exercises of India, the US and Japan.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        },
+        {
+          "rank": 3,
+          "text": "Here’s looking at other issues:  BOUNDARY DISPUTE  Beijing recently turned down an Indian proposal to demarcate the disputed Line of Actual Control.  MILITARY AID TO PAKISTAN  Major Jiang Bin, who oversees China’s military ties with India and Pakistan and is an India expert in the PLA, dismissed the issue of heavy military aid to Islamabad.",
+          "concept": "no red substring",
+          "reasoning": "This section does not contain the substring 'red', so the neuron would not activate strongly."
+        }
+      ]
     }
   ]
 }

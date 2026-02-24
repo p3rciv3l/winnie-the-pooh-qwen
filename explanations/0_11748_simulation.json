@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_11748",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T03:50:11Z",
+  "generated_at": "2026-02-24T01:15:30Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to mentions of individuals with formal titles or leadership positions (such as \"Executive Vice President,\" \"Director,\" \"Chief of Police,\" or \"Chairman\") within English-language text segments.\n\n2. **Domain coverage**: The pattern appears across diverse domains including government, corporate leadership, healthcare, academia, and non-profit organizations, often in contexts like news reports, official statements, or biographical descriptions. All high-activation examples are in English, even when referencing non-English names or organizations, indicating the neuron is tuned to English text containing this specific pattern.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically short fragments, in non-English languages (e.g., Spanish, Russian, Greek), or lack explicit references to individuals with formal titles. Even when low-activation examples mention roles (e.g., \"inspector de Trabajo\" in Spanish), they do not trigger high activation, likely due to language differences or the absence of the characteristic \"Title + Name\" structure found in English.\n\n4. **Closing interpretation**: The neuron specializes in detecting English-language text that identifies people by their official roles, likely serving as a feature for extracting information about organizational hierarchies or authoritative statements in news and institutional contexts.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.78821849822998,
       "actual_text": "Pierre Dufour, Rep. Emiles Lessard-Terrain and Executive Director of CISSS-AT. Paul-Emile Barbeau points",
       "plain_text": "The Citizens Commission for Sustainable Healthcare in Témiscamingue, created in 2017, made the request in a letter to the Prime Minister of Quebec obtained by Radio Canada.  The call comes at a time when the health sector in the region is facing a major shortage of staff and frequent service interruptions.  The letter’s authors state that the central health network no longer meets the needs of the local population.  They point to the Barrette reform, which alienated CISSS-AT managers from local concerns and instead forced them to manage crises and frequent service failures.  This is not actually an accusation against CISSS-AT, but against the current healthcare system and the way it is built, and CISSS-AT is committed to dealing with the tools at its disposal.  It is unable to fully respond to domestic realities explains a spokesperson for the committee, retired physician Paul-Emile Barbeau. Since the 2015 reform that crippled the region in a brutal and uncontrollable centralization process, periods of exposure and major disruption have multiplied at a steady rate.  Whether it is mental health, obstetrics or the range of services for seniors, the cuts don’t stop and the population is getting weaker we read in the letter also sent to Quebec’s Minister of Health, Regional Minister Pierre Dufour, Rep. Emiles Lessard-Terrain and Executive Director of CISSS-AT.  Paul-Emile Barbeau points out that in the field of health, too, there are regional realities that must be respected in order to better serve the population.  We need governance that understands local realities so that we can act with local means to solve our problems in the most effective way in our lands.  he adds.  The committee’s approach was supported by the MRC in Témiscamingue with a recently adopted resolution.  Warden Claire Bolduc reminds us that decentralizing health is also a request from MRC.  Local government is the management of the institution and also the board of directors surrounding it which defines the governor.  And remember, at the beginning of the year, Prime Minister François Legault pledged to reform Quebec’s health system.   ” Ce qu’on a consstaté c’est que la grosseur de l’organisation du CISSS-AT, l’ampleur du travail que les personnes ont à assumedr leur permettent très difficilement d’être dans les actions quotidiennes, d’avoir un regard dans everyday activities. »  There is a distance from it all that is the decision-making body for daily activities, it takes a look and a daily presence and daily attention is very present on the field, felt by the difference to ensure that decisions are made as quickly as possible.  This is what concerns us at the moment in the health network  she adds. The MRC also sent the decision to other MRCs for their support.  “Alcohol scholar. Twitter lover. Zombieaholic. Hipster-friendly coffee fanatic.”",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Whether it is mental health, obstetrics or the range of services for seniors, the cuts don’t stop and the population is getting weaker we read in the letter also sent to Quebec’s Minister of Health, Regional Minister Pierre Dufour, Rep. Emiles Lessard-Terrain and Executive Director of CISSS-AT.",
+          "concept": "multiple officials",
+          "reasoning": "Contains several formal titles like Minister and Executive Director in English."
+        },
+        {
+          "rank": 2,
+          "text": "The Citizens Commission for Sustainable Healthcare in Témiscamingue, created in 2017, made the request in a letter to the Prime Minister of Quebec obtained by Radio Canada. The call comes at a time when the health sector in the region is facing a major shortage of staff and frequent service interruptions.",
+          "concept": "prime minister",
+          "reasoning": "Mentions the formal title 'Prime Minister' in English."
+        },
+        {
+          "rank": 3,
+          "text": "The committee’s approach was supported by the MRC in Témiscamingue with a recently adopted resolution. Warden Claire Bolduc reminds us that decentralizing health is also a request from MRC.",
+          "concept": "warden",
+          "reasoning": "Includes the formal title 'Warden' in English."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.331368446350098,
       "actual_text": ". Tensions were further stoked after Annick Girardin, France’s Minister for the Sea, threatened to cut off Jersey’s electricity supply in response to new restrictions",
       "plain_text": "Jersey: Alex Beresford asks if it was ‘political stunt’ by Johnson Boris Johnson yesterday sent two Royal Navy gunships to the Channel island after French boats threatened to blockade the port. Tensions were further stoked after Annick Girardin, France’s Minister for the Sea, threatened to cut off Jersey’s electricity supply in response to new restrictions of the length of time French fisherman can spend in the area. Mr Verhofstadt tweeted: “EU doesn’t matter for peace, they said... “The Brexit dust hasn’t even settled and there’s trouble in Northern Ireland and gunboats in the Channel. “As Mitterand said: ‘Le nationalisme c’est la guerre!”  What the hell did you expect? However, plenty of Twitter users flatly rejected his characterisation of the situation. Chris Leigh posted: “When your EU threatens to switch off the electricity and blockade ports, what the hell do you expect? “The British people do not take kindly to threats.” Another poster added: “EU is destroying the peace in NI & bullying small nations, what sort of people threaten to cut of food supplies to NI & cut of power supplies to the channel Islands, if they don't get their own way. “The EU are corrupt Blackmailers, you should be ashamed of being part of it.” A third added: “The #EU27 triggered Art 16 & #France is the aggressor - threats from French govt minister and an armada sent to blockade little Jersey. “We have a simple solution - stick the deal where the sun doesnt shine & well ban all EU boats from UK Sovereign Seas.” DON'T MISS Tehran's war capability revealed amid tensions with West [ANALYSIS US soldier risked 'cataclysmic outcome' with defection to USSR [COMMENT Turkey close to Russia's grasp amid Trump fury after Venezuela ruling [ANALYSIS] Phil Miskey said: “I mean, an EU country is the aggressor trying to stop energy to an island, which they can’t fish, due to your import rules designed to stop the UK selling the shellfish. “I’m also from Belfast... you lot tried to put a hard border up the second BoJo bought more vaccines than you!” Other posters likewise suggested it was France - and by implication the EU - and not the UK which was behaving in an aggressive fashion. One said: “Boris offered a meeting to discuss the matter. Macron refused. Another asked: “I’d like to see what any EU member state country would do if we threaten to cut off energy supplies. This was yet another act of aggression.” Stephen Paton said: “The news must have it wrong Guy. They’ve said it’s French boats blockading a British port. “I didn’t realise it’s our boats aggressively blockading an EU port. \"Le Nationalisme c’est magnifique.” However, not everybody disagreed with Mr Macron - another poster said: “Pathetic move of a lawbreaker child sitting in no10. “Gun boats against unarmed civilian fishermen? moves like these makes me feel ashamed to be British.” Meanwhile, Danielle Zana raised eyebrows when she observed: “The biggest worry is about when this trivial drama and violent stupidity evolves to a point when nuclear weapons get used, and the lack of trust, integrity and humanity that could open the use of a first nuke.” Croí Na hÉireann commented: “Bit dramatic.”",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tensions were further stoked after Annick Girardin, France’s Minister for the Sea, threatened to cut off Jersey’s electricity supply in response to new restrictions of the length of time French fisherman can spend in the area.",
+          "concept": "government minister",
+          "reasoning": "Explicitly mentions a formal title 'Minister for the Sea' in English."
+        },
+        {
+          "rank": 2,
+          "text": "Boris Johnson yesterday sent two Royal Navy gunships to the Channel island after French boats threatened to blockade the port.",
+          "concept": "prime minister",
+          "reasoning": "Mentions Boris Johnson, who is the Prime Minister, though title not explicit, likely causing some activation."
+        },
+        {
+          "rank": 3,
+          "text": "Mr Verhofstadt tweeted: “EU doesn’t matter for peace, they said... “The Brexit dust hasn’t even settled and there’s trouble in Northern Ireland and gunboats in the Channel.",
+          "concept": "Mr title",
+          "reasoning": "Includes the formal title 'Mr' in English, though not a leadership position."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.689167022705078,
       "actual_text": "the US government are wrongfully held in China, are hoping that the US Secretary of State Antony Blinken can push the Chinese authorities for the release of their loved ones",
       "plain_text": "As many as 200 Americans may be held in China. Families want the US to prioritise their release. US Secretary of State Antony Blinken will visit China in February. Katherine Swidan, whose son Mark has been imprisoned in China for over 10 years, has not seen even a photograph of him over the last decade. The last time she heard his voice was in 2018. She and the families of other Americans, who according to the US government are wrongfully held in China, are hoping that the US Secretary of State Antony Blinken can push the Chinese authorities for the release of their loved ones as he visits Beijing next month. \"My message for Blinken is: Say their names,\" said Katherine Swidan in a phone interview from her home in Luling, Texas. \"They're American citizens. They've been wrongfully detained. Enough is enough.\" Mark Swidan, a Texas-based businessman, was convicted by a Chinese court on drug-related charges despite a lack of evidence and in 2019 given a death sentence with reprieve. A United Nations working group has concluded he was arbitrarily detained in violation of international law. The Biden administration's recent high-profile prisoner swaps, such as basketball star Brittney Griner's release from Russia in exchange for a convicted Russian arms dealer, have spurred calls for Washington to do more for US citizens held in China, some of whom have languished for over a decade with little consular contact. But the detainee issue often gets lost within the wider complexity of the US-China relationship, which in recent years has sunk to its lowest point in decades. And, unlike Griner, the US citizens held in China are not well known to the American public. Families of detained Americans say the freedom of their relatives should not be bundled up with challenging policy issues and should instead be addressed in a separate track focused on humanitarian matters. \"This cannot be treated as a long-term policy exercise,\" said Harrison Li, the son of Chinese-American Kai Li who has been detained in China since 2016. \"My dad, he is not a complex policy issue. It's a very clear cut-and-dry issue of an innocent American citizen being used as a pawn by the Chinese government to extract something,\" Li said. A Chinese court handed his father a 10-year jail sentence in 2018 for espionage. Kai Li denies the charges. There have been talks in recent months, Li said, between Washington and Beijing over the Americans detained in China but they did not go anywhere. Li said: Senior Biden administration officials, including Assistant Secretary of State Daniel Kritenbrink during a December visit to China, have told Chinese counterparts that securing the release of US citizens who are wrongfully detained or subject to exit bans in China is a personal priority for the US president. While US President Joe Biden raised the issue when he met Chinese President Xi Jinping in November, he did not mention the specific names of the detained Americans, according to sources familiar with their talks. One person familiar with plans for Blinken's trip to China said the top US diplomat does intend to raise the names of high-profile detainees, including Mark Swidan, Kai Li and David Lin - an American pastor detained in China since 2006 - as well as others during talks. The State Department declined to offer details of \"ongoing diplomatic conversations\" when asked about efforts to secure prisoner releases, but a department spokesperson told Reuters that Blinken \"is personally focused on and prioritizes bringing home US nationals wrongfully detained\" in China. The US does not provide an official figure for how many citizens are detained abroad, but The Dui Hua Foundation, a non-profit that advocates for the release of political prisoners in China, estimates there are more than 200 Americans in China alone who are wrongfully detained or facing coercive measures, such as exit bans. John Kamm, the chair of Dui Hua, believes that China could be ready to compromise on detainees for the sake of the overall relationship with the US. Former US House Speaker Nancy Pelosi's visit last year to Taiwan severely strained bilateral ties, but US officials have said they believe China wants to stabilise relations as it faces domestic economic headwinds and spiking Covid-19 cases. \"The area where China can make concessions to improve the relationship - which is what they say they want to do - is in the area prisoner releases,\" Kamm said. \"We have an opportunity. I hope that's being pushed very, very hard.\"",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "While US President Joe Biden raised the issue when he met Chinese President Xi Jinping in November, he did not mention the specific names of the detained Americans, according to sources familiar with their talks.",
+          "concept": "heads of state",
+          "reasoning": "Contains formal titles 'US President' and 'Chinese President' in English."
+        },
+        {
+          "rank": 2,
+          "text": "US Secretary of State Antony Blinken will visit China in February. Katherine Swidan, whose son Mark has been imprisoned in China for over 10 years, has not seen even a photograph of him over the last decade.",
+          "concept": "secretary of state",
+          "reasoning": "Mentions the formal title 'US Secretary of State' in English."
+        },
+        {
+          "rank": 3,
+          "text": "Former US House Speaker Nancy Pelosi's visit last year to Taiwan severely strained bilateral ties, but US officials have said they believe China wants to stabilise relations as it faces domestic economic headwinds and spiking Covid-19 cases.",
+          "concept": "house speaker",
+          "reasoning": "Includes the formal title 'Former US House Speaker' in English."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Brutta avventura per Francesco Paolantoni che ha avuto un in",
       "plain_text": "Brutta avventura per Francesco Paolantoni che ha avuto un infortunio. A parlarne è lui stesso in un video pubblicato su Instagram. Il comico si è fratturato tibia, perone e malleolo.  Tanti i messaggi dei fan che gli hanno augurato una rapida guarigione. Paolantoni, ricordiamo, è ospite fisso con Biagio Izzo nella nuova edizione del programma condotto da Stefano De Martino \"Stasera tutto è possibile\", in onda su Rai 2.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Brutta avventura per Francesco Paolantoni che ha avuto un infortunio. A parlarne è lui stesso in un video pubblicato su Instagram.",
+          "concept": "non-English",
+          "reasoning": "Text is in Italian, lacking English formal titles, so neuron activation is low."
+        },
+        {
+          "rank": 2,
+          "text": "Il comico si è fratturato tibia, perone e malleolo. Tanti i messaggi dei fan che gli hanno augurato una rapida guarigione.",
+          "concept": "non-English",
+          "reasoning": "Italian text with no formal titles in English, resulting in low activation."
+        },
+        {
+          "rank": 3,
+          "text": "Paolantoni, ricordiamo, è ospite fisso con Biagio Izzo nella nuova edizione del programma condotto da Stefano De Martino \"Stasera tutto è possibile\", in onda su Rai 2.",
+          "concept": "non-English",
+          "reasoning": "Non-English text without mentions of individuals with formal titles, so minimal activation."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "On Tuesday, the Karnataka High Court continued to hear petitions challenging the wearing of hijab",
       "plain_text": "On Tuesday, the Karnataka High Court continued to hear petitions challenging the wearing of hijab at educational institutions. The court had already issued an interim order banning the wearing of hijab and saffron shawls (bhagwa) in Karnataka colleges.    The state government told the high court on Monday that the petitioners claimed that wearing the hijab was an essential religious practise that required every Muslim woman to follow a strict dress code.    ‘One of the arguments which has been advanced by the petitioners is that their right is traced independently to Article 19(1)(a) to wear the dress in exercise of right of freedom of expression. That argument is mutually destructive and contrary to present preposition.’ said Advocate General Prabhuling Navadgi, appearing on behalf of the State of Karnataka on Tuesday.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "‘One of the arguments which has been advanced by the petitioners is that their right is traced independently to Article 19(1)(a) to wear the dress in exercise of right of freedom of expression. That argument is mutually destructive and contrary to present preposition.’ said Advocate General Prabhuling Navadgi, appearing on behalf of the State of Karnataka on Tuesday.",
+          "concept": "advocate general",
+          "reasoning": "Contains the formal title 'Advocate General' in English."
+        },
+        {
+          "rank": 2,
+          "text": "On Tuesday, the Karnataka High Court continued to hear petitions challenging the wearing of hijab at educational institutions. The court had already issued an interim order banning the wearing of hijab and saffron shawls (bhagwa) in Karnataka colleges.",
+          "concept": "court",
+          "reasoning": "Lacks mentions of individuals with formal titles in English, so activation is low."
+        },
+        {
+          "rank": 3,
+          "text": "The state government told the high court on Monday that the petitioners claimed that wearing the hijab was an essential religious practise that required every Muslim woman to follow a strict dress code.",
+          "concept": "government",
+          "reasoning": "No individual formal titles in English, leading to low neuron activation."
+        }
+      ]
     }
   ]
 }
