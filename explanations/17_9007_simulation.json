@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_9007",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:49:28Z",
+  "generated_at": "2026-02-25T06:27:53Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mentions of political leaders, government officials, or institutional authorities in formal reporting contexts** (such as references to presidents/prime ministers by title and name, government offices like \"PMO\" or \"Office of the Prime Minister,\" or political entities like \"BJP\" and \"Congress\").\n\n2. **Domain coverage**: The pattern appears in multilingual news or official dispatches (English, Hindi, Turkish) covering political appointments, statements, elections, and government actions. Topics span domestic politics (India, US, Turkey), international relations, and financial-political intersections (stock ownership by political figures). The context is consistently formal, resembling news agency reports, official transcripts, or structured journalism.\n\n3. **Contrast with low-activation examples**: High-activation texts center on specific named authorities and their actions, while low-activation examples discuss general topics (horoscopes, weather, business processes, accidents) without anchoring to prominent political figures or offices. Even when low-activation texts mention geopolitical events (e.g., Ukraine, North Korea), they do so without directly quoting or naming high-level leaders in an official capacity.\n\n4. **Closing interpretation**: The neuron detects text segments where authoritative political actors are explicitly named within institutional or reporting frameworks. It appears to act as a \"political authority mention\" detector, filtering for formal discourse that anchors events to specific powerful individuals or offices.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.617952346801758,
       "actual_text": "ident Charles de Gaulle und der deutsche Bundeskanzler Konrad Adenauer (CDU) mit einer Konferenz am 15. Februar",
       "plain_text": "Baden-Baden (dpa/lsw) - Baden-Badens Oberbürgermeisterin Margret Mergen (CDU) hat den Beteiligten im Ukraine-Konflikt ein Dialogtreffen in der Kurstadt im Schwarzwald vorgeschlagen. Baden-Baden sei als Ort der europäischen Historie dafür bestens geeignet. Für erfolgreiche Verhandlungen spiele der Geist eines Ortes eine große Rolle. Im Gespräch mit der Deutschen Presse-Agentur verwies Mergen darauf, dass etwa der französische Staatspräsident Charles de Gaulle und der deutsche Bundeskanzler Konrad Adenauer (CDU) mit einer Konferenz am 15. Februar 1962 in Baden-Baden den Grundstein für die Verbesserung der deutsch-französischen Beziehungen gelegt hatten. Hier hatten Vorgespräche zum Freundschaftsvertrag stattgefunden.  Baden-Baden habe Städtepartnerschaften mit dem russischen Sotschi und Jalta auf der Halbinsel Krim. Russland hatte sich die ukrainische Halbinsel 2014 völkerrechtswidrig einverleibt. «Wir haben auf beiden Seiten Freunde», sagte Mergen. «Lasst uns Freunde bleiben. Europa ist zu klein für einen Krieg.»  Zugleich erinnerte Mergen an die große russische Tradition der Kurstadt. Schließlich waren es neben den Franzosen die Russen, die dem Ort im 19. Jahrhundert zur Berühmtheit verhalfen. Damals weilten Dichter wie Fjodor Dostojewski, Iwan Turgenjew, Lew Tolstoi, Nikolai Gogol oder Wassili Schukowski in der Kurstadt. Auch viele Adelige und drei Zaren kamen nach Baden.  © dpa-infocom, dpa:220222-99-240979/2",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Im Gespräch mit der Deutschen Presse-Agentur verwies Mergen darauf, dass etwa der französische Staatspräsident Charles de Gaulle und der deutsche Bundeskanzler Konrad Adenauer (CDU) mit einer Konferenz am 15. Februar 1962 in Baden-Baden den Grundstein für die Verbesserung der deutsch-französischen Beziehungen gelegt hatten.",
+          "concept": "heads of state",
+          "reasoning": "Explicitly names two high-level political leaders (President and Chancellor) in a formal historical context."
+        },
+        {
+          "rank": 2,
+          "text": "Baden-Baden (dpa/lsw) - Baden-Badens Oberbürgermeisterin Margret Mergen (CDU) hat den Beteiligten im Ukraine-Konflikt ein Dialogtreffen in der Kurstadt im Schwarzwald vorgeschlagen.",
+          "concept": "local government official",
+          "reasoning": "Mentions a mayor (Oberbürgermeisterin) in a formal news report."
+        },
+        {
+          "rank": 3,
+          "text": "Zugleich erinnerte Mergen an die große russische Tradition der Kurstadt. Schließlich waren es neben den Franzosen die Russen, die dem Ort im 19. Jahrhundert zur Berühmtheit verhalfen. Damals weilten Dichter wie Fjodor Dostojewski, Iwan Turgenjew, Lew Tolstoi, Nikolai Gogol oder Wassili Schukowski in der Kurstadt. Auch viele Adelige und drei Zaren kamen nach Baden.",
+          "concept": "historical monarchs",
+          "reasoning": "References historical political authority figures (tsars) in a formal reporting context."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.923792839050293,
       "actual_text": "The Elder Scrolls 5: Skyrim - 100 Drachen vs. 100",
       "plain_text": "The Elder Scrolls 5: Skyrim - 100 Drachen vs. 1000 Bogenschützen im Video  Auf YouTube wurde ein in The Elder Scrolls 5: Skyrim realisiertes Video veröffentlicht, in dem 100 Drachen gegen 1000 Bogenschützen kämpfen. Das Video ist zum Anlass der Neuveröffentlichung von Skyrim in seiner Special Edition erschienen, die das beliebte Rollenspiel unter anderem in einer deutlich aufpolierten Grafik auf den PC, die PlayStation 4 und die Xbox One bringt.  In der vergangenen Woche war es soweit: Bethesda veröffentlichte das Rollenspiel-Epos The Elder Scrolls 5: Skyrim aus dem Jahr 2011 noch einmal in einer aufgehübschten Form für PC, PlayStation 4 und Xbox One. Anlass genug für den YouTube-Kanal Cosmic Contrarian, ein augenscheinlich aufwendiges Video zu veröffentlichen, in dem sich wahrlich Episches abspielt. Ist die Begegnung mit einem Drachen in der eisigen Provinz Himmelsrand für sich genommen schon ein nicht zu unterschätzendes Spektakel, haben die Verantwortlichen hinter \"Skyrim Battle #1\" eine Schlacht inszeniert, die entsprechend beeindruckender ist: Rund zwölf Minuten lang kämpfen 100 Drachen gegen 1000 Bogenschützen, die mit verzweifeltem Pfeilhagel versuchen, der geflügelten Feuersbrunst Herr zu werden. \"Skyrim Special Edition ist großartig und läuft, wenn darauf optimiert, mit einer fünf bis sechs mal höheren Bildrate als das Original. Dieses Unterfangen wäre im Original-Skyrim auf 4K unmöglich gewesen\", schwärmt der Betreiber hinter dem Kanal auf YouTube über die Neuveröffentlichung des Rollenspiels. Diese ist aber auch nicht ohne Probleme einhergegangen: Zwar wartet das Spiel auf auf dem PC mit einer vergleichsweise besseren Grafik auf, es gibt jedoch auch einige der altbekannten Bugs, sowie kritische Stimmen, die sagen, dass das Original unter Einsatz von Grafikmodifikationen noch deutlich schöner aussehen würde. Ob das stimmt, könnt ihr auch mit eigenen Augen herausfinden: Auf unserer Themenseite zu The Elder Scrolls 5: Skyrim - Special Edition gibt es neben weiteren Informationen auch bereits einige Gameplayvideos und Grafikvergleiche.  via Gameinformer",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Elder Scrolls 5: Skyrim - 100 Drachen vs. 1000 Bogenschützen im Video  Auf YouTube wurde ein in The Elder Scrolls 5: Skyrim realisiertes Video veröffentlicht, in dem 100 Drachen gegen 1000 Bogenschützen kämpfen.",
+          "concept": "gaming news",
+          "reasoning": "Describes a video game video without any political or authoritative figures."
+        },
+        {
+          "rank": 2,
+          "text": "In der vergangenen Woche war es soweit: Bethesda veröffentlichte das Rollenspiel-Epos The Elder Scrolls 5: Skyrim aus dem Jahr 2011 noch einmal in einer aufgehübschten Form für PC, PlayStation 4 und Xbox One.",
+          "concept": "video game release",
+          "reasoning": "Mentions a game company and release details, lacking political content."
+        },
+        {
+          "rank": 3,
+          "text": "Skyrim Special Edition ist großartig und läuft, wenn darauf optimiert, mit einer fünf bis sechs mal höheren Bildrate als das Original. Dieses Unterfangen wäre im Original-Skyrim auf 4K unmöglich gewesen\", schwärmt der Betreiber hinter dem Kanal auf YouTube über die Neuveröffentlichung des Rollenspiels.",
+          "concept": "technical review",
+          "reasoning": "Discusses technical aspects of a game, no mention of political authorities."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.153228759765625,
       "actual_text": "on the GOP health care legislation after a meeting at the White House with President Donald Trump. Two dozen or so Freedom Caucus members have opposed the legislation pushed by GOP leaders",
       "plain_text": "If you are reading this story on the KING 5 app, click here. (EDITOR'S NOTE: This story was filed before Thursday's announcement that the vote on the GOP health care bill would be postponed) With hours until the expected House health care vote, the White House got some news from conservative Republicans that the result may not go their way. And at least one moderate Republican from Washington state indicates she will vote against it. Congressman Mark Meadows of North Carolina, the chairman of the conservative House Freedom Caucus, said Thursday there's \"no deal\" on the GOP health care legislation after a meeting at the White House with President Donald Trump. Two dozen or so Freedom Caucus members have opposed the legislation pushed by GOP leaders, saying it doesn't go far enough to repeal \"Obamacare.\" Some moderate Republicans aren’t sold on the plan either. Of Washington’s delegation, Rep. Jaime Herrera Beutler, R-Wash., released a statement Thursday saying she's still committed to repealing and replacing the Affordable Care Act, but she cannot support the GOP bill in its current form.    “While I appreciate this week's effort by Speaker Ryan and his leadership team to better protect older Americans from health care cost increases, the difficulties this bill would create for millions of children were left unaddressed,\" wrote Beutler, who represents Southwest Washington. \"I’m disappointed that it appears my amendment to strengthen the Medicaid safety net for the kids who depend on it for their health care will not be considered.  Protecting vulnerable children is a core purpose of the Medicaid program and when the program fails to do so, it fails entirely. I will not vote to let those kids fall through the cracks.\" Rep. Dave Reichert, R-Wash., had been leaning to a yes vote. But a spokesperson says he's now undecided until he can look at the changes made to the bill in recent days. Rep. Dan Newhouse, R-Wash,, voiced some of the fears flooding his office during the House Rules Committee hearing Wednesday. He referenced analysis by the Washington State Insurance Commissioner that estimates, 600,000 people under the Medicaid expansion as well as 100,000 individual enrollees could be at risk of losing coverage starting in 2020, the year when the Medicaid expansion would end. “Point blank is there any provision, before we take this vote, in this bill that would cause 600,000 of my fellow Washingtonians to lose their current Medicaid coverage?” asked Newhouse. “I can say with confidence that anyone enrolled in the Medicaid program today under the ACA expansion is held harmless. Period,” responded Rep. Greg Walden, R-Ore., chair of the House Energy and Commerce Committee. “For those who enrolled in the program before the end of 2019, they can continue to enroll new people in the program through 2019 at the enhanced match rate of about 90 percent at that point. Our plan would continue the enhanced match for as long as those individuals are in Medicaid,” said Walden.    “Nothing would preclude people from staying on Medicaid expanded program,” responded Newhouse. “Correct, we made sure of that. We’re trying to land an airplane here, not a helicopter,” answered Walden. However, Democratic lawmakers, including Washington’s senior Senator, Patty Murray, worry that a loss in federal funding would cost shift to states, as Washington already faces challenges balancing the budget. “If it’s shifted to the state, the state legislature will have to pick up the cost. We all know they’re still struggling right now, to fully fund education as they’re required to do. This will be virtually impossible for them to do, and the long-term result will be a lot of people without health care coverage,” Murray said.    Murray also worries the bill is being rushed through Congress without ample time for debate and analysis. “There’s no time for members to really look at this, offer amendments, suggest improvements or be a part of the process. I’m shocked they’re pushing it through like this,” she said. Congressional sources told KING 5 the plan is to have the bill on the President’s desk by Easter. If the bill passes the House Thursday, Murray says that Senate Majority Leader Mitch McConnell, R-Kentucky, intends to get it to the floor as quickly as possible. “If it passes the House, they are not going to have any committee hearings; they’re going to introduce the bill next week in the Senate and put it through a fast-track process that allows 20 hours of debate, and amendments and final passage of 50 votes only,” said Murray. “Democrats can’t stop it. We can offer amendments, but that’s it. It’s on a timeline.” “This is not how you should manage the healthcare system of a country that literally impacts about 20 percent of our economy,” she continued. As of last check, Washington Republican Dave Reichert’s office said he’s a yes on the bill. Congresswoman Cathy McMorris Rodgers, the number four ranking Republican in the House, remains committed to selling the bill and trying to ensure its passage. No word yet on an exact time for Thursday's vote. The Associated Press and KING 5's Travis Pittman contributed to this report.  Copyright 2017 KING",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Congressman Mark Meadows of North Carolina, the chairman of the conservative House Freedom Caucus, said Thursday there's \"no deal\" on the GOP health care legislation after a meeting at the White House with President Donald Trump.",
+          "concept": "U.S. President and Congressman",
+          "reasoning": "Directly names President Trump and a congressman in a formal political report."
+        },
+        {
+          "rank": 2,
+          "text": "\"While I appreciate this week's effort by Speaker Ryan and his leadership team to better protect older Americans from health care cost increases, the difficulties this bill would create for millions of children were left unaddressed,\" wrote Beutler, who represents Southwest Washington.",
+          "concept": "Speaker of the House",
+          "reasoning": "Quotes a representative referencing Speaker Paul Ryan, a high-ranking political authority."
+        },
+        {
+          "rank": 3,
+          "text": "\"Point blank is there any provision, before we take this vote, in this bill that would cause 600,000 of my fellow Washingtonians to lose their current Medicaid coverage?\" asked Newhouse. \"I can say with confidence that anyone enrolled in the Medicaid program today under the ACA expansion is held harmless. Period,\" responded Rep. Greg Walden, R-Ore., chair of the House Energy and Commerce Committee.",
+          "concept": "U.S. Representatives",
+          "reasoning": "Features a direct exchange between two named representatives discussing legislative details."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Si chiede una URGENTE attività ispettiva visiva e tecn",
       "plain_text": "Si chiede una URGENTE attività ispettiva visiva e tecnica per accertare la sicurezza del ponte stradale di attraversamento sulla Fiumara Valanidi via dell’Alloro, giacché versa in condizioni di forte degrado e l’adozione di conseguenziali interventi necessari che il caso richiede per la messa in sicurezza della struttura.  Il Ponte di via dell’Alloro è l’unica via di accesso alla frazione di Serro Valanidi del Comune di Motta San Giovanni. In data 5 maggio 2021, intorno alle ore 15 il Referente dell’ANCADIC ha effettuato un sopralluogo presso il ponte stradale in trattazione ed ha riscontrato che a seguito della mancata regimazione idraulica le acque piovane ristagnano sulla piattaforma stradale e i processi di infiltrazione dell’acqua nell’impalcato attraverso le vistose lesioni orizzontali e longitudinali presenti sul manto stradale, che presenta segni di deterioramento, hanno portato alla corrosione e ossidazione delle armature metalliche e all’espulsione del copriferro sulla piattaforma stradale e lungo i marciapiedi lato monte e lato mare. Non si può escludere che si sia potuto verificare all’interno dell’ impalcato ammaloramenti non visibili all’occhio umano.  L’indagine visiva e tecnica dovrebbe riguardare pure la verifica di tutto ciò che concerne la sicurezza idrogeologica.  Si sottolinea un ulteriore pericolo per i pedoni che transitano sul ponte giacché corrono il rischio di essere urtati o travolti da veicoli che salgono sui marciapiedi essendo questi facilmente sormontabili. Una porzione di ringhiera di protezione in prossimità della spalla del ponte lato sud è mancante giacchè demolita durante un incidente stradale avvenuto anni addietro e mai ripristinata.  Da quanto osservato sembrerebbe che si tratti di un ponte prefabbricato in cemento a tre campate, l’estradosso della struttura versa in stato di umidità e degrado per le diffuse infiltrazioni di acqua piovana oltre a visibili lesioni e alla struttura metallica in parte corrosa. Lato monte lungo il ponte è alloggiata la condotta del gas metano.  Nella campata centrale lato mare il solaio e l’armatura metallica agli occhi del comune cittadino osservatore presentano un visibile INIZIO DI ABBASSAMENTO. Durante il transito del mezzo di linea dell’ATAM di Reggio Calabria alle ore 15,30 erano chiare le vibrazioni prodotte dal mezzo sul ponte.  Appare necessario verificare se la struttura sia stata realizzata in presenza delle autorizzazioni del Genio Civile ai fini sismici e delle prescritte comunicazioni alle Autorità amministrative competenti, riscontrando la conformità della struttura al progetto e se nel tempo sia stato eseguito l’adeguamento statico sismico e funzionale del ponte, nonché i controlli periodici eseguiti sulla struttura e la data cui risale l’ultimo controllo. Il ponte ricade in un ambito territoriale ritenuto ad alto rischio sismico.  Il tutto a salvaguardia della circolazione stradale e della pubblica e privata incolumità.  Sono state immediatamente attivati le Istituzioni competenti.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Appare necessario verificare se la struttura sia stata realizzata in presenza delle autorizzazioni del Genio Civile ai fini sismici e delle prescritte comunicazioni alle Autorità amministrative competenti, riscontrando la conformità della struttura al progetto e se nel tempo sia stato eseguito l’adeguamento statico sismico e funzionale del ponte, nonché i controlli periodici eseguiti sulla struttura e la data cui risale l’ultimo controllo.",
+          "concept": "government authorities",
+          "reasoning": "Explicitly mentions government bodies (Genio Civile, Autorità amministrative) in a formal request."
+        },
+        {
+          "rank": 2,
+          "text": "Il Ponte di via dell’Alloro è l’unica via di accesso alla frazione di Serro Valanidi del Comune di Motta San Giovanni.",
+          "concept": "municipality",
+          "reasoning": "References a local government entity (Comune) in an official context."
+        },
+        {
+          "rank": 3,
+          "text": "Sono state immediatamente attivati le Istituzioni competenti.",
+          "concept": "competent institutions",
+          "reasoning": "Mentions activation of competent institutions, implying government authorities."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Durante las primeras horas del 2024, Jap√≥",
       "plain_text": "Durante las primeras horas del 2024, Jap√≥n sufri√≥ una devastadora sacudida s√≠smica de 7.5 grados Richter. La magnitud del movimiento activ√≥ una alerta de tsunami en las costas occidentales, llevando a las autoridades a tomar medidas urgentes para proteger a la poblaci√≥n. Usuarios de redes sociales compartieron videos e im√°genes que muestran la magnitud de los da√±os tras el fen√≥meno natural. [TE PUEDE INTERESAR:China lanza herramienta inteligente de procesamiento de lenguaje para libros antiguos] As√≠ quedaron las calles despu√©s del fuerte sismo en Jap√≥n Los efectos inmediatos del sismo se tradujeron en miles de hogares sin electricidad, interrupciones en los itinerarios de despegue y aterrizaje de vuelos, as√≠ como perturbaciones en los servicios ferroviarios del pa√≠s. La infraestructura afectada por la fuerza del temblor, se vio comprometida, creando un escenario ca√≥tico en varias regiones. Las redes sociales se inundaron con im√°genes impactantes compartidas por testigos del desastre. Uno de los videos muestra las avenidas con el asfalto levantado y profundas grietas. Adem√°s, entre las afectaciones se muestran postes de lado, destrucci√≥n de las avenidas y da√±os en las fachadas de las casas. En la cuenta de TikTok @earthquake1, se public√≥ un video que muestra los estragos causados en una vivienda cuyo techo se derrumb√≥, dej√°ndola inhabitable. Otras publicaciones revelaron grietas en las calles y grandes rupturas en el suelo, testimonios visuales de la violencia del sismo. [TE PUEDE INTERESAR:VIDEOS: captan violentas olas de tsunami en Jap√≥n tras sismos; contabilizan 4 muertos] Aumenta el n√∫mero de muertos por el sismo Las infraestructuras urbanas tambi√©n se vieron afectadas, con postes de luz derribados y √°rboles ca√≠dos obstruyendo las calles. El transporte se vio paralizado por la presencia de obst√°culos en las v√≠as, complicando a√∫n m√°s la respuesta de emergencia. La comunidad internacional se solidariz√≥ con Jap√≥n, expresando su apoyo y ofreciendo ayuda en las labores de rescate y recuperaci√≥n. Sin embargo, la tragedia se profundiza con el aumento del saldo de muertos a seis, seg√∫n informes de la polic√≠a local. El descubrimiento de dos cuerpos adicionales elev√≥ la cifra inicial de cuatro fallecidos, revelando la magnitud de la tragedia humana asociada con este desastre natural. Autoridades locales trabajan incansablemente en las labores de b√∫squeda y rescate, enfrent√°ndose a desaf√≠os log√≠sticos y de comunicaci√≥n debido a la infraestructura da√±ada.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Durante las primeras horas del 2024, Japón sufrió una devastadora sacudida sísmica de 7.5 grados Richter. La magnitud del movimiento activó una alerta de tsunami en las costas occidentales, llevando a las autoridades a tomar medidas urgentes para proteger a la población.",
+          "concept": "authorities",
+          "reasoning": "Describes authorities taking urgent measures in response to a disaster."
+        },
+        {
+          "rank": 2,
+          "text": "La comunidad internacional se solidarizó con Japón, expresando su apoyo y ofreciendo ayuda en las labores de rescate y recuperación. Sin embargo, la tragedia se profundiza con el aumento del saldo de muertos a seis, según informes de la policía local.",
+          "concept": "local police",
+          "reasoning": "Cites reports from local police, a government authority."
+        },
+        {
+          "rank": 3,
+          "text": "Autoridades locales trabajan incansablemente en las labores de búsqueda y rescate, enfrentándose a desafíos logísticos y de comunicación debido a la infraestructura dañada.",
+          "concept": "local authorities",
+          "reasoning": "Highlights the work of local authorities in disaster response."
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_17420",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:10:30Z",
+  "generated_at": "2026-02-25T06:26:57Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing crises, conflicts, or significant disruptive events** (such as natural disasters like earthquakes and tsunamis, political protests and legal denunciations, armed conflicts, terrorist incidents, or major accidents).\n\n2. **Domain coverage**: The pattern appears across multiple languages (Spanish, Italian, Polish, Ukrainian, German, Greek, Catalan, Russian, and English) and spans news reports, official statements, and descriptive narratives. Topics include seismic/volcanic activity, political unrest, wartime updates, legal accusations, environmental disasters, and public safety emergencies. The neuron also processes related preparatory or response actions (e.g., rescue operations, security controls, infrastructure damage assessments).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature **ongoing or imminent disruption, danger, or institutional tension**, often with urgent or grave tone. Low-activation examples are neutral announcements, routine events, commemorations, advertisements, or general lifestyle topics (e.g., pet care, investment advice, school awards) that lack crisis framing or societal-scale impact.\n\n4. **Closing interpretation**: The neuron detects semantic content centered on **societal or environmental instability and high-stakes negative events**. It functions as a cross-lingual crisis indicator, activating on language that conveys acute disruption, conflict, or threat.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.673356056213379,
       "actual_text": "währenddessen die Brandursache noch unklar bleibt. Weitere Ermittlungen sollen Aufschluss darüber geben.",
       "plain_text": "Am Montagmorgen kam es im Bezirk Kirchdorf zu einem dramatischen Brandereignis. Nach einer Silvesterfeier brach gegen 6:40 Uhr in einem Dachgeschoss ein Feuer aus, während sechs junge Menschen darin schliefen. Ein 22-Jähriger, aufgeweckt durch das Bellen seines Hundes, bemerkte die starke Rauchentwicklung im Gebäude. Geistesgegenwärtig rettete er drei seiner Freunde aus dem Obergeschoss. Lesen Sie auch  Die zwei verbliebenen Bewohner konnten kurz darauf vom Vater des Hausbesitzers mittels eines Frontladers aus dem Gefahrenbereich geholt werden. Fünf der Anwesenden mussten daraufhin wegen des Verdachts auf Rauchgasvergiftung ins Phyrn Eisenwurz Klinikum nach Steyr gebracht werden. Zur Bekämpfung des Brandes waren 20 Fahrzeuge der Feuerwehr mit insgesamt 100 Einsatzkräften vor Ort. Die Löscharbeiten erstreckten sich über den Vormittag, währenddessen die Brandursache noch unklar bleibt. Weitere Ermittlungen sollen Aufschluss darüber geben.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Am Montagmorgen kam es im Bezirk Kirchdorf zu einem dramatischen Brandereignis. Nach einer Silvesterfeier brach gegen 6:40 Uhr in einem Dachgeschoss ein Feuer aus, während sechs junge Menschen darin schliefen.",
+          "concept": "fire emergency",
+          "reasoning": "This directly describes a dangerous fire breaking out while people were sleeping, fitting the crisis/emergency pattern."
+        },
+        {
+          "rank": 2,
+          "text": "Ein 22-Jähriger, aufgeweckt durch das Bellen seines Hundes, bemerkte die starke Rauchentwicklung im Gebäude. Geistesgegenwärtig rettete er drei seiner Freunde aus dem Obergeschoss.",
+          "concept": "rescue operation",
+          "reasoning": "This describes a life-saving rescue during a fire, highlighting immediate danger and emergency response."
+        },
+        {
+          "rank": 3,
+          "text": "Fünf der Anwesenden mussten daraufhin wegen des Verdachts auf Rauchgasvergiftung ins Phyrn Eisenwurz Klinikum nach Steyr gebracht werden. Zur Bekämpfung des Brandes waren 20 Fahrzeuge der Feuerwehr mit insgesamt 100 Einsatzkräften vor Ort.",
+          "concept": "casualties and emergency response",
+          "reasoning": "This details injuries requiring hospitalization and a large-scale emergency response, emphasizing the disruptive event's severity."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.015190124511719,
       "actual_text": "ando su intensidad y la posible percepción y daño asociado. Los temblores por debajo de 3.9 son generalmente imperceptibles",
       "plain_text": "La Escala de Richter, diseñada en 1935 por los sismólogos Charles Francis Richter y Beno Gutenberg del Instituto de Tecnología de California, es una metodología empleada para cuantificar la energía que libera un terremoto. Esta escala asigna un número a cada sismo, incrementando logarítmicamente y no de manera lineal, similar a la escala de magnitud estelar que mide el brillo de las estrellas. El propósito inicial de la Escala de Richter era medir la fuerza de los terremotos según la cantidad de energía liberada durante el evento sísmico. La magnitud se calcula utilizando una fórmula específica que considera diversos factores y registra la energía en una escala que se incrementa logarítmicamente. Así, un terremoto de magnitud 4 no es simplemente el doble de uno de magnitud 2, sino que es 100 veces más fuerte. La Escala de Richter clasifica los terremotos en distintas categorías según su magnitud, evaluando su intensidad y la posible percepción y daño asociado. Los temblores por debajo de 3.9 son generalmente imperceptibles. Los de entre 4 y 4.9 se perciben a menudo pero raramente causan daños. Aquellos entre 5 y 5.9 pueden causar daños menores, especialmente en construcciones antiguas. Los de magnitud 6.0 a 6.9 pueden ocasionar daños severos en áreas pobladas hasta 160 kilómetros de distancia. Los sismos mayores, entre 7.0 y 7.9, a menudo causan serios daños. Los grandes terremotos entre 8.0 y 8.9 pueden devastar amplias áreas de varios cientos de kilómetros. Mientras que en una escala aún más catastrófica, terremotos entre 9 y 9.9 son devastadores en varios miles de kilómetros y son extremadamente raros, ocurriendo solo una o dos veces cada 20 años. Hasta el momento, no se ha registrado un terremoto de magnitud 10 o mayor, cuyas consecuencias serían extremadamente destructivas. Según expertos reseñados por TvAzteca, las aeronaves están diseñadas para proteger a los pasajeros de desastres naturales como terremotos, sismos y otros siniestros. Por lo tanto, los vuelos pueden continuar, siempre y cuando se respeten las medidas de seguridad adecuadas. Los sismos, aunque rara vez se perciben a bordo de un avión en vuelo, pueden ocasionar leves sacudidas en la superficie de la aeronave. Este movimiento es tan diminuto que puede confundirse fácilmente con la turbulencia, una experiencia común durante los vuelos. Sin embargo, según fuentes expertas, “estar dentro de un avión durante un temblor puede ser una de las mejores opciones”, ya que esto implica que los pasajeros están a salvo. El verdadero desafío se presenta cuando un avión aterriza durante un sismo. Mientras está en tierra o en la pista, la aeronave puede sentir las sacudidas de las ondas sísmicas con mayor intensidad. Estas vibraciones, aunque más detectables para los pasajeros, generalmente son causadas por el propio movimiento del avión y no por el terremoto en sí. En ambos casos, el diseño de los aviones protege a los tripulantes y pasajeros de estos desastres naturales. El primer terremoto registrado en la historia de Colombia tuvo lugar el 11 de abril de 1630 y afectó principalmente a la ciudad de Santa Fe de Bogotá. Este evento sísmico causó daños significativos en la infraestructura de la época, incluyendo iglesias y edificios administrativos. Aunque no se cuenta con registros precisos sobre la magnitud del sismo, los informes históricos describen escenas de pánico y destrucción. Este terremoto, junto con otros eventos sísmicos en la región andina, subrayó la necesidad de desarrollar técnicas constructivas más resistentes para hacer frente a la actividad tectónica presente en el país.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Los de magnitud 6.0 a 6.9 pueden ocasionar daños severos en áreas pobladas hasta 160 kilómetros de distancia. Los sismos mayores, entre 7.0 y 7.9, a menudo causan serios daños.",
+          "concept": "earthquake damage",
+          "reasoning": "This describes the severe and serious damage caused by earthquakes, directly relating to natural disaster crises."
+        },
+        {
+          "rank": 2,
+          "text": "Los grandes terremotos entre 8.0 y 8.9 pueden devastar amplias áreas de varios cientos de kilómetros. Mientras que en una escala aún más catastrófica, terremotos entre 9 y 9.9 son devastadores en varios miles de kilómetros y son extremadamente raros, ocurriendo solo una o dos veces cada 20 años.",
+          "concept": "catastrophic earthquake",
+          "reasoning": "This details the devastating and catastrophic scale of high-magnitude earthquakes, fitting the pattern of major disruptive events."
+        },
+        {
+          "rank": 3,
+          "text": "El primer terremoto registrado en la historia de Colombia tuvo lugar el 11 de abril de 1630 y afectó principalmente a la ciudad de Santa Fe de Bogotá. Este evento sísmico causó daños significativos en la infraestructura de la época, incluyendo iglesias y edificios administrativos.",
+          "concept": "historical earthquake destruction",
+          "reasoning": "This recounts a specific historical earthquake causing significant damage, aligning with the neuron's focus on past crises and disasters."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.250154495239258,
       "actual_text": "out to a police car,” the lawsuit says. The plaintiffs allege that despite pleads from the crowd, and a council member’s attempt to de-escalate",
       "plain_text": "BERKELEY — A former elementary school teacher and photojournalist are among the Berkeley residents who filed a federal lawsuit against the city for alleged excessive force during what they say was a peaceful protest in 2017.  Lewis Williams, the 74-year-old retired elementary school teacher, photojournalist Brooke Anderson and Berkeley resident Dylan Cooke filed the lawsuit in the Northern District of California U.S. District Court, which names the city, Police Chief Andrew Greenwood, and other sergeants and officers involved in the June 20, 2017, confrontation.  The lawsuit alleges that the 74-year-old man was hit over the head with a baton, causing him to bleed, and that the photojournalist, who had a press pass on and had identified herself as media to police, had her camera shoved into her face with police batons.  That day, the City Council was holding a special meeting at Longfellow Middle School to consider whether it would support the city’s participation in Urban Shield, a yearly training exercise held by the Alameda County Sheriff’s Office and funded by the U.S. Homeland Security Department. Typically a training and weapons expo, critics of the event say it promotes the militarization of police.  After 12:30 a.m. on June 21, 2017, the council voted to continue to support Urban Shield, admits protest of the crowd shouting, ” Shame. Shame. Shame.” As the meeting was coming to a close, several protesters stepped onto the stage to hold up a banner that read “Stop Urban Shield, End The Militarization Of Our Communities,” according to the lawsuit.  Cooke, one of the people to step onto the stage, was allegedly grabbed by police officers who twisted his wrist and shoulder “in excruciating pain.” He said even after he was handcuffed, and did not resist arrest, an officer “wrenched their arm even harder before taking them out to a police car,” the lawsuit says.  The plaintiffs allege that despite pleads from the crowd, and a council member’s attempt to de-escalate the police officers’ aggression, police continued to push people out of the auditorium, using their batons and “unnecessary force.”  Williams, the retired teacher, claims in the lawsuit that he was trying to back away, but got caught in the crowd behind him. In the confusion and movement, he dropped his glasses, and when he went to pick them up, an officer hit him on the head with a baton, causing him to bleed, and caused a concussion, the lawsuit says.  “Despite the fact that blood was pouring from Lewis’ head, no Berkeley police officer or city of Berkeley employee provided first aid or called for medical aid,” the court document reads. Anderson, an independent photojournalist whose photos that night were used by the San Francisco Chronicle, was wearing a brace that night on her arm from a pre-existing injury, and was repeatedly hit with police batons, the lawsuit says. She told the U.S. Freedom Tracker in June 2017 that she kept backing up, and telling police she was a journalist, documenting and not interfering, but was still hit in her injured arm and had her camera shoved in her face.  The lawsuit alleges that police used excessive force, violated First Amendment rights, and failed to properly and adequately train and supervise officers, on these rights and use.  The plaintiffs seek injunctive relief, such as better police policies, training or other accountability measures, as well as damages.  Matthai Chakko, spokesperson for the city of Berkeley, said Tuesday afternoon that the city has not yet been served with the lawsuit.  This year, Berkeley City Council agreed again to stay with the Urban Shield program.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "After 12:30 a.m. on June 21, 2017, the council voted to continue to support Urban Shield, admits protest of the crowd shouting, ” Shame. Shame. Shame.” As the meeting was coming to a close, several protesters stepped onto the stage to hold up a banner that read “Stop Urban Shield, End The Militarization Of Our Communities,” according to the lawsuit.",
+          "concept": "protest confrontation",
+          "reasoning": "This describes a tense protest with direct confrontation and disruption at a public meeting, matching conflict and unrest patterns."
+        },
+        {
+          "rank": 2,
+          "text": "Williams, the retired teacher, claims in the lawsuit that he was trying to back away, but got caught in the crowd behind him. In the confusion and movement, he dropped his glasses, and when he went to pick them up, an officer hit him on the head with a baton, causing him to bleed, and caused a concussion, the lawsuit says.",
+          "concept": "police brutality",
+          "reasoning": "This details a specific violent act by police against a protester, fitting the pattern of conflict and institutional violence."
+        },
+        {
+          "rank": 3,
+          "text": "Anderson, an independent photojournalist whose photos that night were used by the San Francisco Chronicle, was wearing a brace that night on her arm from a pre-existing injury, and was repeatedly hit with police batons, the lawsuit says. She told the U.S. Freedom Tracker in June2017 that she kept backing up, and telling police she was a journalist, documenting and not interfering, but was still hit in her injured arm and had her camera shoved in her face.",
+          "concept": "journalist assault",
+          "reasoning": "This describes the assault on a journalist documenting the event, highlighting conflict and suppression during a disruptive protest."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "The results of the 2021 local elections for Liverpool City Council will be",
       "plain_text": "The results of the 2021 local elections for Liverpool City Council will be announced today.  People across the city have been voting in a slew of ballots to elect a new city mayor, metro mayor and the police and crime commissioner for Merseyside.  They have also been picking councillors for the city's 30 wards, with results due this afternoon.  The 2021 Liverpool Council elections will actually see 31 members elected, with the north Liverpool ward of Croxteth electing two councillors this year.  The councillors will join the 90-seat Liverpool Council chamber at a tumultuous time.  Liverpool mayor Joe Anderson was arrested as part of a corruption probe last year and a subsequent government investigation was damning in its assessment of how certain areas of the council had functioned.  Receive newsletters with the latest news, sport and what's on updates from the Liverpool ECHO by signing up here  Commissioners are set to arrive in Liverpool later this year after a request from government for them to oversee aspects of the council's functions. It is an unprecedented situation for a local authority of Liverpool's size.  This year's polls are the first since then and will give a crucial indication of how the public have absorbed and reacted to those seismic events.  The fact that only just over a third of council seats are up for election means Labour's majority is due to remain intact, but opposition parties will hope to make gains amid the controversy surrounding the ruling party.  With 168 candidates in total, many of the wards in the city have crowded fields, with the potential for tight finishes.  Elections to the council are carried out under the first past the post system, meaning that the candidate that gets the most votes is elected.  We will be keeping you updated with all the action as it happens - and the council election results will appear as they come in via our live election tool below.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Liverpool mayor Joe Anderson was arrested as part of a corruption probe last year and a subsequent government investigation was damning in its assessment of how certain areas of the council had functioned.",
+          "concept": "political corruption",
+          "reasoning": "This describes a major political scandal involving arrest and damning investigation, fitting the pattern of institutional crisis and disruption."
+        },
+        {
+          "rank": 2,
+          "text": "Commissioners are set to arrive in Liverpool later this year after a request from government for them to oversee aspects of the council's functions. It is an unprecedented situation for a local authority of Liverpool's size.",
+          "concept": "unprecedented oversight",
+          "reasoning": "This highlights an unprecedented external intervention due to council dysfunction, indicating a severe institutional crisis."
+        },
+        {
+          "rank": 3,
+          "text": "This year's polls are the first since then and will give a crucial indication of how the public have absorbed and reacted to those seismic events.",
+          "concept": "public reaction to crisis",
+          "reasoning": "This frames the elections as a direct consequence of and reaction to major disruptive political events, aligning with societal tension."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Allerta meteo e scuole chiuse, sbotta il sindaco di",
       "plain_text": "Allerta meteo e scuole chiuse, sbotta il sindaco di Qualiano (nella foto) Raffaele De Leonardis. Il primo cittadino, assieme ai suoi colleghi di Calvizzano, Melito e Mugnano, ha deciso di non chiudere gli istituti scolastici nella giornata di domani, in controtendenza insomma rispetto alle scelte adottate da tanti comuni limitrofi, tra i quali Marano, Giugliano e Villaricca.  «E' ora di dire basta a queste pagliacciate - spiega - le scuole si chiudono solo in casi di particolare gravità. Comprendo i sindaci che operano in territori limitrofi alla costa, ma per altri territori la necessità di chiudere non la ravviso. Se chiudiamo le scuole, per un'allerta di poche ore, allora mi aspetto che domani sera non venga disputata la gara di Coppa Italia allo stadio Maradona».",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Allerta meteo e scuole chiuse, sbotta il sindaco di Qualiano (nella foto) Raffaele De Leonardis. Il primo cittadino, assieme ai suoi colleghi di Calvizzano, Melito e Mugnano, ha deciso di non chiudere gli istituti scolastici nella giornata di domani, in controtendenza insomma rispetto alle scelte adottate da tanti comuni limitrofi, tra i quali Marano, Giugliano e Villaricca.",
+          "concept": "weather alert controversy",
+          "reasoning": "This describes a mayor's controversial decision against school closures during a weather alert, indicating a disruptive event and institutional tension."
+        },
+        {
+          "rank": 2,
+          "text": "«E' ora di dire basta a queste pagliacciate - spiega - le scuole si chiudono solo in casi di particolare gravità.",
+          "concept": "criticism of emergency measures",
+          "reasoning": "This quotes the mayor dismissing the alert as nonsense, highlighting conflict over the severity of a potential crisis."
+        },
+        {
+          "rank": 3,
+          "text": "Comprendo i sindaci che operano in territori limitrofi alla costa, ma per altri territori la necessità di chiudere non la ravviso. Se chiudiamo le scuole, per un'allerta di poche ore, allora mi aspetto che domani sera non venga disputata la gara di Coppa Italia allo stadio Maradona».",
+          "concept": "comparative risk assessment",
+          "reasoning": "This contrasts decisions for different areas and questions consistency with other events, reflecting debate during a potential emergency."
+        }
+      ]
     }
   ]
 }

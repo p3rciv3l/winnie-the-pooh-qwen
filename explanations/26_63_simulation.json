@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_63",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:02:34Z",
+  "generated_at": "2026-02-24T03:09:08Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments that reference specific people, organizations, or events in a journalistic or reportorial context** (such as quotes from politicians, syndicated news credits, reports on political actions, or citations of media sources).\n\n2. **Domain coverage**: The pattern appears in news-style text across multiple languages (English, Spanish, Portuguese, Polish, etc.) and focuses heavily on political figures (Modi, Putin, Biden, Bolsonaro), geopolitical events (elections, diplomatic relations), controversies, and media attribution (syndication notices, references to *The Guardian Nigeria*, *Federalist*, *JPNN.com*). It also activates on segments mentioning celebrities or public incidents when framed in a reportorial tone.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain proper nouns (names, titles, organizations) embedded in a context of reporting, quoting, or citing external sources. The low-activation examples are either generic statements about broad topics (demographic decline, weather, earthquakes), instructional content, or lack the specific referential and citational framing—they name topics or locations without anchoring them to a specific person’s statement or a media outlet’s report.\n\n4. **Closing interpretation**: This neuron appears to detect text that functions as **attributed public statement or media dissemination**—specifically, language that signals information is being reported, quoted, or sourced from a specific entity, often within a political or public discourse sphere.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.714376449584961,
       "actual_text": "respiro della Bestia, da lui stesso ideato. Tanjiro Kamado Protagonista del manga, è un giovane spad",
       "plain_text": "Demon Slayer: Inosuke, Tanjiro e Nezuko Figuarts Zero in preordine  Bandai e Tamashii Nations continuano a martellare giù pesante con gli annunci legati al successo del momento, Demon Slayer – Kimetsu no Yaiba con tre nuove proposte per la linea Figuarts Zero. La linea Figuarts Zero il cui nome significa zero articolazioni ha come soggetti personaggi legati al mondo dell’animazione giapponese come Naruto, One Piece e Dragon Ball Z. Le tre statue annunciate di recente riguardano i personaggi di Inosuke e due nuove versioni di Tanjiro e Nezuko.  Inosuke Hashibira  Inosuke fa parte della squadra ammazza demoni insieme al protagonista Tanjiro Kamado, è un personaggio sopra le righe che salta subito all’occhio per il copricapo a forma di testa di cinghiale. Da piccolo sua madre lo lasciò nei boschi, dove venne allevato da una femmina di cinghiale. La lotta per la sopravvivenza ha reso il suo corpo forte e resistente, in netto contrasto con i suoi lineamenti del volto che al contrario sono delicati. La sua tecnica prevede l’utilizzo di due Spade, è specializzato nella tecnica del respiro della Bestia, da lui stesso ideato.  Tanjiro Kamado  Protagonista del manga, è un giovane spadaccino che cerca di vendicare la sua famiglia servendo la squadra ammazza demoni. Muzan Kibutsuji è il suo obbiettivo principale ma per arrivare a lui dovrà prima affrontare le lune demoniache e perfezionare ogni sua tecnica, dal respiro dell’acqua alla danza del Dio del Fuoco, ideata dai suoi discendenti. Questa statua può essere combinata insieme a quella di Nezuko formando un diorama con i due fratelli in azione.  Nezuko Kamado  E’ la sorella minore di Tanjiro ed è l’unica sopravvissuta alla strage che ha portato via l’intera famiglia a Tanjiro. Sebbene non sia sotto il totale controllo di Kibutsujin è stata trasformata in un demone e con il benestare della squadra ammazza demoni aiuta Tanjiro nella sua missione di scovare e uccidere ogni diretto collegamento con Kibutsujin. Il suo corpo assume varie forme da quelle di una piccola bambina a quelle di una donna matura in grado di utilizzare il suo sangue per bruciare l’avversario.  Le statue di Inosuke, Tanjiro e Nezuko della linea Figuarts Zero saranno disponibili dai mesi di Settembre e Ottobre 2021 ad un costo di circa 75 euro cadauna. I prodotti Tamashii Nations sono importati ufficialmente in italia da Cosmic Group. Puoi trovare le altre action figure di Demon Slayer prodotte da Tamashii Nations a questo indirizzo.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Demon Slayer: Inosuke, Tanjiro e Nezuko Figuarts Zero in preordine Bandai e Tamashii Nations continuano a martellare giù pesante con gli annunci legati al successo del momento, Demon Slayer – Kimetsu no Yaiba con tre nuove proposte per la linea Figuarts Zero.",
+          "concept": "corporate announcement",
+          "reasoning": "It mentions specific companies Bandai and Tamashii Nations, but lacks the journalistic attribution of public statements."
+        },
+        {
+          "rank": 2,
+          "text": "La linea Figuarts Zero il cui nome significa zero articolazioni ha come soggetti personaggi legati al mondo dell’animazione giapponese come Naruto, One Piece e Dragon Ball Z. Le tre statue annunciate di recente riguardano i personaggi di Inosuke e due nuove versioni di Tanjiro e Nezuko.",
+          "concept": "product description",
+          "reasoning": "It references specific anime titles and products, but does not involve reportorial framing or attributed quotes."
+        },
+        {
+          "rank": 3,
+          "text": "Inosuke Hashibira Inosuke fa parte della squadra ammazza demoni insieme al protagonista Tanjiro Kamado, è un personaggio sopra le righe che salta subito all’occhio per il copricapo a forma di testa di cinghiale.",
+          "concept": "character introduction",
+          "reasoning": "It describes a fictional character with proper nouns, but lacks the journalistic context of attributed public statements."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.144969940185547,
       "actual_text": "БАКУ /Trend/ - Стамбул никогда не станет Константинополем и турки никогда не покин",
       "plain_text": "БАКУ /Trend/ - Стамбул никогда не станет Константинополем и турки никогда не покинут этот город, сказал президент страны Реджеп Тайип Эрдоган, комментируя недавний теракт в новозеландских мечетях против мусульман и манифест одного из совершивших его террористов.  Об этом Trend сообщает в понедельник со ссылкой на турецкие СМИ.  По словам Эрдогана, как видно, в некоторых кругах все еще живет ненависть к исламу и мусульманам.  Отметим, что ранее Эрдоган сказал, что террорист, напавший на мусульман в мечетях в Новой Зеландии, дважды приезжал в Турцию, и уточняются цели его визитов и то, с кем он проводил встречи.  Напомним, что 15 марта в двух мечетях новозеландского Крайстчерча произошла стрельба. По последним данным, 50 человек погибли, двадцать ранены. Были задержаны четверо подозреваемых в причастности к нападению.  В одной из мечетей огонь открыл гражданин Австралии ультраправых взглядов - уроженец австралийского Графтона Брентон Таррант (Brenton Tarrant). Он вел онлайн-трансляцию нападения, а перед атакой опубликовал 37-страничный манифест, в котором назвал свои действия терактом.  (Автор: Руфиз Хафизоглу)  Твиттер: @rhafizoglu",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "БАКУ /Trend/ - Стамбул никогда не станет Константинополем и турки никогда не покинут этот город, сказал президент страны Реджеп Тайип Эрдоган, комментируя недавний теракт в новозеландских мечетях против мусульман и манифест одного из совершивших его террористов.",
+          "concept": "political quote",
+          "reasoning": "It directly quotes President Erdogan with media attribution, fitting the neuron's pattern of attributed public statements."
+        },
+        {
+          "rank": 2,
+          "text": "Об этом Trend сообщает в понедельник со ссылкой на турецкие СМИ. По словам Эрдогана, как видно, в некоторых кругах все еще живет ненависть к исламу и мусульманам.",
+          "concept": "media attribution",
+          "reasoning": "It cites the media outlet Trend and references Erdogan's words, aligning with reportorial context."
+        },
+        {
+          "rank": 3,
+          "text": "Отметим, что ранее Эрдоган сказал, что террорист, напавший на мусульман в мечетях в Новой Зеландии, дважды приезжал в Турцию, и уточняются цели его визитов и то, с кем он проводил встречи.",
+          "concept": "follow-up report",
+          "reasoning": "It provides additional statements from Erdogan in a journalistic style, continuing the attributed narrative."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.47434139251709,
       "actual_text": "the Oromo people with impunity. In a statement released a day before the HoPR’s decision, the OLA went as far as calling the decision by the Council",
       "plain_text": "Addis Abeba, May 7, 2021 – The House of People’s Representatives (HoPR) yesterday approved the bill presented by the council of ministers to designate Tigray People Liberation Front (TPLF) and “Shene” as terrorist organizations. The bill was abstained by “one vote” approved by “majority vote” at the HoPR’s 13th regular session, the Parliament said. “This group is not legally registered and certified like the TPLF. We chose the name Shene off of the name it is commonly known with, which is OLF/ Shene.” Attorney General Gedion Timotios Speaking to local media, the Attorney General Gedion Timotios (PhD) said “The group commonly known as Shene is the group who calls itself Oromo Liberation Army (OLA). It operates in west Oromia and other parts of the country planting attacks claiming the lives of civilians,” he said, adding “We have no reason to acknowledge the name this group gave itself.” “This group is not legally registered and certified like the TPLF. We chose the name Shene off of the name it is commonly known with, which is OLF/ Shene.” Gedion cited article 23 of the proclamation that stipulates that the proclamation will be applicable to the group that is referred to by the aforementioned term explaining “it should be clear that using different names will not absolve the group that is being referred to.” He also emphasized that the group is not to be confused with Oromo Liberation Front (OLF) which is a registered party acknowledged by the National Electoral Board of Ethiopia. The OLA on its part accused the ruling party of using the term ‘Shene’ as a justification to kill, imprison, and torture the Oromo people with impunity. The OLA on its part accused the ruling party of using the term ‘Shene’ as a justification to kill, imprison, and torture the Oromo people with impunity. In a statement released a day before the HoPR’s decision, the OLA went as far as calling the decision by the Council of Ministers ‘a declaration of war on the Oromo people’. The OLA recalled its recent statement where it called for an ‘immediate and unconditional’ cessation of hostilities and expressed disappointment “Despite the OLA’s good intentions, it is now clear that the illegitimate Ethiopian government has stubbornly chosen the path of war and destruction to achieve its sole objective of remaining in power at any cost.” The statement also recalled the recent attack on the residence of OLF’s chairman Dawud Ibsaa and said “Abiy Ahmed has made it more than clear that he only believes in rule by the barrel of the gun.” In a strongly worded statement, the OLA went to express regret over what it called “missed golden opprtunity.” “We truly regret the missed golden opportunity to peacefully resolve the ongoing catastrophic conflicts and mitigate the suffering of our people,” the group said, adding “We have extended the olive branch in good faith countless times only to be rebuffed and have our good faith exploited.” The OLA reiterated that it was forced to engage in armed struggle. “We have been forced to take this path by the actions of successive Ethiopian regimes” the statement read, and it went on to inform the international community and the Ethiopian masses that it is ready to take all measures permitted within the confines of the Geneva Conventions to save its people from what it called ‘an illegitimate oligarchs’. The OLA vowed to “engage in total war” to ensure the right to self-determination for the Oromo people and other oppressed nations of Ethiopia. “While the path may be difficult, there is no doubt that victory and freedom are in sight.” The statement concluded by saying, “The Prosperity Party will be held solely responsible for all damage and pain that will result from the continuation of armed conflict in Oromia and Ethiopia.”AS",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Addis Abeba, May 7, 2021 – The House of People’s Representatives (HoPR) yesterday approved the bill presented by the council of ministers to designate Tigray People Liberation Front (TPLF) and “Shene” as terrorist organizations.",
+          "concept": "legislative action",
+          "reasoning": "It reports on a specific political event with proper nouns, matching the neuron's interest in geopolitical events."
+        },
+        {
+          "rank": 2,
+          "text": "“This group is not legally registered and certified like the TPLF. We chose the name Shene off of the name it is commonly known with, which is OLF/ Shene.” Attorney General Gedion Timotios Speaking to local media, the Attorney General Gedion Timotios (PhD) said “The group commonly known as Shene is the group who calls itself Oromo Liberation Army (OLA).",
+          "concept": "official testimony",
+          "reasoning": "It features a direct quote from a government official, which is core to the neuron's pattern of attributed public statements."
+        },
+        {
+          "rank": 3,
+          "text": "The OLA on its part accused the ruling party of using the term ‘Shene’ as a justification to kill, imprison, and torture the Oromo people with impunity. In a statement released a day before the HoPR’s decision, the OLA went as far as calling the decision by the Council of Ministers ‘a declaration of war on the Oromo people’.",
+          "concept": "organizational response",
+          "reasoning": "It reports on statements from a named organization, fitting the reportorial context with specific references."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Aς μπει οριστικά κό",
       "plain_text": "Aς μπει οριστικά κόφτης στον μισαλλόδοξο λόγο του Μαξίμου Τρίτη 27 Δεκεμβρίου 2016, 9:42πμ Ο ΣΥΡΙΖΑ ανδρώθηκε και κέρδισε την εξουσία ποντάροντας στον διχασμό και τη μισαλλοδοξία. Ο Τσίπρας ήταν ο πολιτικός που θα έσκιζε τα μνημόνια, οι Σαμαροβενιζέλοι τα υπέγραφαν με ευχαρίστηση. Ο ΣΥΡΙΖΑ θα απέτρεπε το ξεπούλημα της δημόσιας περιουσίας, που είχε προαποφασίσει η Νέα Δημοκρατία, η Αριστερά θα μοίραζε στους φτωχούς τον ΕΝΦΙΑ με έσοδα από το κυνήγι της φοροδιαφυγής. Γράφει ο Πάνος Αμυράς* Το παραμύθι έπιασε και μάλιστα τρεις φορές εντός του 2015 με αποτέλεσμα η κυβέρνηση ΣΥΡΙΖΑ-ΑΝΕΛ να κρατηθεί στην εξουσία, παρά τις απίστευτες διαπραγματευτικές παλινωδίες που έφεραν τα capital controls και το τρίτο μνημόνιο. Σήμερα οι πολίτες έχουν μία ευκρινή εικόνα για το τι σημαίνει κυβέρνηση της Αριστεράς. Ο κ. Τσίπρας έχει υπογράψει ήδη ένα μνημόνιο και ετοιμάζεται να μονογράψει το συμπλήρωμά του και τα πρόσθετα μέτρα της περιόδου μετά το 2019. Ο ίδιος αποδέχθηκε τη δημιουργία του υπερταμείου που ελέγχεται από τους δανειστές και στην οποία πέρασε όλη η κρατική περιουσία, όπως διακαώς επιθυμούσε ο Βόλφγκανγκ Σόιμπλε. Επιπλέον οι φόροι όχι μόνο δεν μειώθηκαν αλλά αντιθέτως εκτινάχθηκαν στα ύψη χτυπώντας κυρίως τους οικονομικά ασθενέστερους ενώ τα σχέδια για την αντιμετώπιση της φοροδιαφυγής έμειναν στα υπουργικά συρτάρια και πολλές υποθέσεις κινούνται στα όρια της παραγραφής. Θα περίμενε λοιπόν κανείς να είναι πιο μαζεμένοι στο Μαξίμου, όταν έχουν πράξει τα αντίθετα από αυτά που έλεγαν. Ομως συμβαίνει ακριβώς το αντίθετο. Οσο πιο στριμωγμένη είναι στα σκοινιά η κυβέρνηση τόσο μεγαλύτερο μίσος κατά των πολιτικών αντιπάλων βγάζει. Την ημέρα που επισήμως η κυβέρνηση ζητούσε συναίνεση στη Βουλή για το βοήθημα στους συνταξιούχους, κάποιοι γνωστοί για τη χολερική γραφή τους έβγαζαν non paper που αποκαλούσαν «πέμπτη φάλαγγα» τη ΝΔ και «Εφιάλτη» τον αρχηγό της. Ακόμη και την ημέρα των Χριστουγέννων το υπουργείο Οικονομικών (πάλι με non paper για να μην παίρνει κανείς επωνύμως την ευθύνη), επιχειρώντας να δικαιολογήσει την επιστολή μετάνοιας του Τσακαλώτου έσταζε χολή κατά της αξιωματικής αντιπολίτευσης. «Η ΝΔ, που δεν τόλμησε να ψηφίσει την ενίσχυση των χαμηλοσυνταξιούχων, υπακούοντας στα κελεύσματα ακραίων φωνών –όπως και άλλες πολιτικές δυνάμεις–, προσπαθεί, στην απελπισία της, να εμφανιστεί τώρα ως θεματοφύλακας των Μνημονίων! Είναι το νέο (και παμπάλαιο, βέβαια) αφήγημά της: η αφοσίωση στους δανειστές. Με δυο λόγια: “βασιλικότερη του βασιλέως”! Η δουλική συμπεριφορά, όμως, αντί της υπεράσπισης της εθνικής αξιοπρέπειας, καθώς και η ταύτιση με ακραίες φωνές, νομιμοποιούν λειτουργίες που αποβαίνουν σε βάρος της κοινωνίας και των πολιτών – και ιδίως των πιο αδύναμων». Αυτά έγραφε το υπουργείο Οικονομικών την ώρα που ο Τσακαλώτος έβαζε την υπογραφή του σε μία ταπεινωτική για τη χώρα επιστολή συμμόρφωσης στο μνημόνιο. Η ζημιά που έχει προκαλέσει ο ΣΥΡΙΖΑ στην οικονομία είναι μεγάλη αλλά μπορεί να αποκατασταθεί από μία προοδευτική και φιλελεύθερη κυβέρνηση. Αυτό που θα απαιτήσει χρόνο και προσπάθεια είναι να επουλωθούν τα τραύματα από το μίσος που χρησιμοποιεί ο Τσίπρας και η παρέα του για να μείνουν στην εξουσία. ΧΑΛΙΑ Η ΕΟΡΤΑΣΤΙΚΗ ΑΓΟΡΑ Δεν χρειάζονται ιδιαίτερες μετρήσεις, η πτώση στην εορταστική αγορά ήταν κάτι παραπάνω από εμφανής. Τα εμπορικά καταστήματα δεν κινήθηκαν ούτε τις ημέρες μετά την καταβολή του δώρου, καθώς τα χρήματα κατευθύνθηκαν κυρίως για την εξόφληση φόρων και χρεών. Το 2014 οι έμποροι γκρίνιαζαν για το πόσες Κυριακές θα είναι ανοικτές τα καταστήματά τους πιστεύοντας ότι τα δύσκολα στην αγορά έχουν περάσει. Τώρα βλέπουν μπροστά τους το βουνό των υποχρεώσεων σε Εφορίες και ασφαλιστικά ταμεία και κλαίνε τη μοίρα τους. ΟΙ ΑΝΕΡΓΟΙ ΣΤΗΝ ΤΥΧΗ ΤΟΥΣ Η κυβέρνηση έδωσε τον μποναμά αδιακρίτως σε όλους τους συνταξιούχους, ανεξαρτήτως περιουσιακών στοιχείων, σε μία προσπάθεια να ανατρέψει το αρνητικό κλίμα στις δημοσκοπήσεις. Την ίδια ώρα άφησε στην τύχη τους εκατοντάδες χιλιάδες ανέργους, που δεν δικαιούνται επίδομα και δεν έχουν ούτε ευρώ στην τσέπη. Ακόμη και σε αυτή την παροχή ο ΣΥΡΙΖΑ σκέφθηκε μικροπολιτικά με αποτέλεσμα αρκετοί συνταξιούχοι με περιουσιακά στοιχεία να πάρουν το βοήθημα χωρίς να το έχουν ανάγκη και οι μακροχρόνια άνεργοι να μείνουν άφραγκοι. *Ο Πάνος Αμυράς είναι ο διευθυντής του Ελεύθερου Τύπου Από την έντυπη έκδοση του Ελεύθερου Τύπου Πλοήγηση άρθρων Καθηλώνονται όλα τα Τουπόλεφ«Αυτός ο τάφος είναι ζωντανός» αναφέρει η αρχαιολόγος που άνοιξε τον Πανάγιο Τάφο",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Aς μπει οριστικά κόφτης στον μισαλλόδοξο λόγο του Μαξίμου Τρίτη 27 Δεκεμβρίου 2016, 9:42πμ Ο ΣΥΡΙΖΑ ανδρώθηκε και κέρδισε την εξουσία ποντάροντας στον διχασμό και τη μισαλλοδοξία.",
+          "concept": "political opening",
+          "reasoning": "It references specific political entities and dates in a reportorial tone, aligning with the neuron's focus."
+        },
+        {
+          "rank": 2,
+          "text": "Ο Τσίπρας ήταν ο πολιτικός που θα έσκιζε τα μνημόνια, οι Σαμαροβενιζέλοι τα υπέγραφαν με ευχαρίστηση. Ο ΣΥΡΙΖΑ θα απέτρεπε το ξεπούλημα της δημόσιας περιουσίας, που είχε προαποφασίσει η Νέα Δημοκρατία, η Αριστερά θα μοίραζε στους φτωχούς τον ΕΝΦΙΑ με έσοδα από το κυνήγι της φοροδιαφυγής.",
+          "concept": "political contrast",
+          "reasoning": "It contrasts statements and actions of specific politicians, fitting the attributed public discourse."
+        },
+        {
+          "rank": 3,
+          "text": "Γράφει ο Πάνος Αμυράς* Το παραμύθι έπιασε και μάλιστα τρεις φορές εντός του 2015 με αποτέλεσμα η κυβέρνηση ΣΥΡΙΖΑ-ΑΝΕΛ να κρατηθεί στην εξουσία, παρά τις απίστευτες διαπραγματευτικές παλινωδίες που έφεραν τα capital controls και το τρίτο μνημόνιο.",
+          "concept": "author attribution",
+          "reasoning": "It includes author credit and discusses government events, matching media dissemination patterns."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Un temblor de magnitud 4.2 se reportó en la tarde",
       "plain_text": "Un temblor de magnitud 4.2 se reportó en la tarde de hoy, jueves, en el sur del archipiélago, indicó la Red Sísmica de Puerto Rico. Los datos de la agencia apuntan a que el sismo ocurrió a eso de las 4:48 p.m. a una profundidad de 6.2 millas, en la latitud 17.9 y longitud 66.7. El epicentro se registró a 6.5 millas al sur-sureste de Guayanilla y a 7.2 millas al sur-suroeste de Peñuelas. En Ponce fue el lugar donde más intenso se sintió, de acuerdo a la Red Sísmica. No hay vigilancia, advertencia o aviso de tsunami para Puerto Rico o Islas Vírgenes. De momento, no se han registrado daños o personas lesionados. Cibernautas reportaron en redes sociales sentirlo en municipio de Trujillo Alto, San Juan, Ponce y Bayamón, entre otros.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Un temblor de magnitud 4.2 se reportó en la tarde de hoy, jueves, en el sur del archipiélago, indicó la Red Sísmica de Puerto Rico.",
+          "concept": "agency report",
+          "reasoning": "It cites the Red Sísmica de Puerto Rico in a factual report, but lacks political or personal attribution."
+        },
+        {
+          "rank": 2,
+          "text": "Los datos de la agencia apuntan a que el sismo ocurrió a eso de las 4:48 p.m. a una profundidad de 6.2 millas, en la latitud 17.9 y longitud 66.7.",
+          "concept": "data citation",
+          "reasoning": "It references agency data, which is reportorial, but not focused on people or media."
+        },
+        {
+          "rank": 3,
+          "text": "El epicentro se registró a 6.5 millas al sur-sureste de Guayanilla y a 7.2 millas al sur-suroeste de Peñuelas. En Ponce fue el lugar donde más intenso se sintió, de acuerdo a la Red Sísmica.",
+          "concept": "location detail",
+          "reasoning": "It provides specific locations based on the seismic network, maintaining a reportorial tone."
+        }
+      ]
     }
   ]
 }

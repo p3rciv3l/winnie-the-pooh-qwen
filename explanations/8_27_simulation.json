@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_27",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T07:16:09Z",
+  "generated_at": "2026-02-24T04:13:07Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to enumerations or lists of named entities and specific items (such as lists of people with titles like \"Dr Shafiq Rahman, Dr T R. Muralidharan\", sequences of places with distances like \"V de Merkezefendi, 232km V de Denizli\", or itemized categories like \"Vitamin C, - Vitamin A, - Vitamin B and - Omega-3\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Romanian, Russian, Polish, Swedish) and in diverse contexts including news articles (reporting on groups of individuals, participants in events), geographical or directional descriptions, product or feature lists, and technical or academic enumerations.\n\n3. **Contrast with low-activation examples**: Low-activation texts are typically concise headlines or single-event summaries that focus on one or two named entities without extended serialization (e.g., \"Putin signs laws\" or \"Langley, USA – 25 October 2017\"). They lack the comma-separated or conjunction-linked sequences of multiple entities that dominate the high-activation group.\n\n4. **Closing interpretation**: The neuron detects a syntactic pattern of enumeration, acting as a marker for text segments dense with catalog-like information, where multiple distinct entities are presented in close succession for informative or descriptive purposes.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.41342830657959,
       "actual_text": "The Last Hundred Days, an eyewitness account of the last days of the Ceausescu regime in communist Romania. Members of the audience will have the chance to",
       "plain_text": "A celebration of book culture  The programme of events for the 2016 Malta Book Festival reveals the profound transformation this festival has undergone in the past few years. A dynamic and varied celebration of the book culture certainly awaits all bookworms and book lovers, for whom this unique event in the cultural calendar of the country is a major highlight of the year.  It has recently become customary for the festival to feature a number of special guests, both foreign and local. In particular, starting from last year, the winner of the previous year’s Lifetime Achievement Award is honoured with an event dedicated to their life and work.  This year the honour falls on poetess Maria Grech Ganado, who will meet the public on November 11 for an interview with Charles Calleja. Selected readings of her poetry will also be narrated.  The winners of the Amante Bountempo Poetry contest will also be announced on November 11 in an event organised by the NBC in collaboration with the Maltese Poets Association.  The festival opens on November 9 with a conference on literature and totalitarianism, chaired by journalist Jurgen Balzan. Four renowned guest speakers will be present at the conference – Maltese writer and poet Immanuel Mifsud, British writer, academic and poet Patrick McGuinness, Bulgarian satirist Alek Popov and Basma Abdel Aziz, the Egyptian author and human rights activist, whose novel The Queue has elicited waves of raving reviews worldwide.  On November 10, visitors will have a chance to meet McGuinness in person as he will be talking to James Corby of Malta University about his first novel, The Last Hundred Days, an eyewitness account of the last days of the Ceausescu regime in communist Romania.  Members of the audience will have the chance to ask the author questions about his work and even to get hold of a signed copy of his book. Later in the evening, it will be the turn of Basma Abdel Aziz to meet the public as she will be interviewed by Maltese-Palestinian writer Walid Nahban. Basma will be talking not only about her immensely popular novel, The Queue, but also about her work as a human rights activist and an eyewitness of the Arab Spring in Egypt.  Alek Popov will meet the public on November 10 to talk with Teodor Reljic about his work Mission: London and the sociopolitical issues that concern him. Scenes from the film adaptation of his book will be shown during the interview.  And talking of film adaptation, also on November 10, this year’s winner of the NBC PBS Short Film Contest, Ryan Gatt, who adapted Walid Nabhan’s short story Il-Kompliċi from the collection of short stories Lura d-dar u ġrajjiet oħra li ma ġrawx, will meet the public after a screening of the film in order to engage, along with the writer Walid Nahban in a discussion on film adaptation.  Another very important conference will take place also on November 10. It is an international one-day conference, titled Books and Literacy: Yesterday, Today, Tomorrow, in which both local and foreign speakers will engage in a discussion on the relationship between books and literacy in the context of the evolution of publishing and which members of the public are very strongly urged to attend, especially people who work in education and parents. The relevance for librarians and people involved in publishing is self evident.  The book launch of Malta Hanina, a translation of French author Daniel Rondeau’s book by Toni Aquilina is also scheduled for November 10. Both author and translator will be present at the launch. Later in the evening, there will be a reception in honour of the author and the translator at the Faraxa Publisher’s stand, where visitors can get a copy of the book and have it signed.  A treat to all readers and students of Spanish in the local community will be held on November 11. It will feature Don Quixote in Literature and Culture, which the NBC has organised in collaboration with the Department of Spanish and Latin-American Studies (UOM) and the Embassy of Spain in Malta together with SKS. The event is meant to commemorate the 400th anniversary of the death of the great writer.  Kotba Calleja end their five-day book-binding exhibition on November 11 with a workshop on book-binding for children (aged 8 to 10). There will be many other activities for children on November 11 – tracing and colouring activities inspired by Faraxa characters, a fun rhyming activity Ġewż, lewż, qastan, tin organised by Għaqda tal-Malti, and Lupettin, an activity for children led by Claire Azzopardi at the Merlin Publishers’ stand.  The Malta Book Festival will take place at the Mediterranean Conference Centre, Valletta, between November 9 and 13 and is organised by the National Book Council. For more information visit www.ktieb.org.mt.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Four renowned guest speakers will be present at the conference – Maltese writer and poet Immanuel Mifsud, British writer, academic and poet Patrick McGuinness, Bulgarian satirist Alek Popov and Basma Abdel Aziz, the Egyptian author and human rights activist, whose novel The Queue has elicited waves of raving reviews worldwide.",
+          "concept": "list of speakers",
+          "reasoning": "This section contains a comma-separated enumeration of multiple named entities with titles, directly matching the neuron's pattern for lists."
+        },
+        {
+          "rank": 2,
+          "text": "There will be many other activities for children on November 11 – tracing and colouring activities inspired by Faraxa characters, a fun rhyming activity Ġewż, lewż, qastan, tin organised by Għaqda tal-Malti, and Lupettin, an activity for children led by Claire Azzopardi at the Merlin Publishers’ stand.",
+          "concept": "list of activities",
+          "reasoning": "This section enumerates multiple specific items in a catalog-like list, which aligns with the neuron's detection of enumerations."
+        },
+        {
+          "rank": 3,
+          "text": "It will feature Don Quixote in Literature and Culture, which the NBC has organised in collaboration with the Department of Spanish and Latin-American Studies (UOM) and the Embassy of Spain in Malta together with SKS.",
+          "concept": "list of organizations",
+          "reasoning": "This section lists several named entities in collaboration, forming an enumeration that triggers the neuron's response to serialized groups."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.501931190490723,
       "actual_text": "Big Dog (Canis Major). The sharp image, made using broadband and narrowband filters, captures striking details of the nebula’s filamentary gas and dust structures",
       "plain_text": "This helmet-shaped cosmic cloud with wing-like appendages is popularly called Thor’s Helmet. Heroically sized even for a Norse god, Thor’s Helmet spans about 30 light-years across. In fact, the helmet is more like an interstellar bubble, blown as a fast wind — from the bright star near the center of the bubble’s blue-hued region — sweeps through a surrounding molecular cloud.  This star, a Wolf-Rayet star, is a massive and extremely hot giant star thought to be in a brief, pre-supernova stage of evolution. Cataloged as NGC 2359, the emission nebula is located about 12,000 light-years away toward the constellation of the Big Dog (Canis Major). The sharp image, made using broadband and narrowband filters, captures striking details of the nebula’s filamentary gas and dust structures. The blue color originates from strong emission from oxygen atoms in the nebula.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "This star, a Wolf-Rayet star, is a massive and extremely hot giant star thought to be in a brief, pre-supernova stage of evolution. Cataloged as NGC 2359, the emission nebula is located about 12,000 light-years away toward the constellation of the Big Dog (Canis Major).",
+          "concept": "astronomical description",
+          "reasoning": "This section describes celestial objects but lacks the enumeration of multiple named entities, so it likely has low activation."
+        },
+        {
+          "rank": 2,
+          "text": "This helmet-shaped cosmic cloud with wing-like appendages is popularly called Thor’s Helmet. Heroically sized even for a Norse god, Thor’s Helmet spans about 30 light-years across.",
+          "concept": "cosmic object description",
+          "reasoning": "It focuses on a single entity without serialization, contrary to the neuron's pattern for enumerations."
+        },
+        {
+          "rank": 3,
+          "text": "The sharp image, made using broadband and narrowband filters, captures striking details of the nebula’s filamentary gas and dust structures. The blue color originates from strong emission from oxygen atoms in the nebula.",
+          "concept": "image details",
+          "reasoning": "This section lacks enumerations of named entities, making it unlikely to strongly activate the neuron."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.431095123291016,
       "actual_text": "ований таким поворотом подій, лякає дівчину своєю поведінкою. А ч",
       "plain_text": "«Наперекір долі»: опис усіх серій мелодрами на СТБ  З понеділка по четвер о 20:15 на телеканалі СТБ виходить новий драматичний серіал «Наперекір долі» від «Київтелефільм». Донька слідчого після тяжкої трагедії починає розслідувати, чому загинула її мама і хто покалічив батька. Який сюжет серій серіалу «Наперекір долі» ― читайте в матеріалі.  Мама Рити ― бухгалтерка, а батько ― закоханий у неї слідчий поліції. Батьки любили одне одного і доньку, однак вона стала свідком їхньої сварки. Після цього маму Рити знаходять мертвою, і ширяться чутки про коханця. Батько ж, травмований таким поворотом подій, лякає дівчину своєю поведінкою. А чи чисті помисли в її нового знайомого, який неочікувано закохується в неї?  Які таємниці доведеться розплутати Риті? Хто ж насправді її друг та сім’я, а хто ― вовк в овечій шкурі?  «Наперекір долі» ― сюжет та опис усіх серій  Серія 1  Рита ― студентка, яка збирається стати слідчою. В один вечір вона дізнається про смерть матері Аріші, а батько Микола починає дивно себе поводити. Слідчий у справі розповідає Риті, що її матір знайшли з чоловіком ― можливо, коханцем. Сам слідчий Артем закохується в Риту і починає планувати, як вразити її. Ритин батько напивається та ображає доньку, а коли вона йде у справах, кидається на пошуки. Проте, виявляється, дівчину викрали…  Серія 2  Викрадачі тримають Риту під дулом пістолета, а батько з Артемом їздять по старих ворогах сім’ї в її пошуках. У цей час із в’язниці звільняється давній ворог Миколи ― в юності вони обидва були закохані в Арішу. Виявляється, у них є сумніви щодо того, хто є біологічним батьком її доньки. Артем у серйозних стосунках, проте заради Рити виганяє свою дівчину. Та обіцяє помститися конкурентці. Ще Риті та її батькові хочуть помститися більш серйозні люди ― Микола помічає незнайомців і кидається за донькою. Під час перестрілки Рита й Артем уціліли, проте батько зазнав тяжкого поранення…  Більше на тему: «Наперекір долі»: актори нового серіалу на СТБ  Дивіться прем’єру серіалу «Наперекір долі» з понеділка по четвер о 20:15 на СТБ. Не пропустіть!",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Мама Рити ― бухгалтерка, а батько ― закоханий у неї слідчий поліції. Батьки любили одне одного і доньку, однак вона стала свідком їхньої сварки. Після цього маму Рити знаходять мертвою, і ширяться чутки про коханця.",
+          "concept": "character introduction",
+          "reasoning": "This section introduces multiple named characters in sequence, resembling an enumeration that the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "Рита ― студентка, яка збирається стати слідчою. В один вечір вона дізнається про смерть матері Аріші, а батько Микола починає дивно себе поводити. Слідчий у справі розповідає Риті, що її матір знайшли з чоловіком ― можливо, коханцем.",
+          "concept": "plot enumeration",
+          "reasoning": "It lists events and characters in a serialized manner, which may trigger the neuron's response to enumerations."
+        },
+        {
+          "rank": 3,
+          "text": "Викрадачі тримають Риту під дулом пістолета, а батько з Артемом їздять по старих ворогах сім’ї в її пошуках. У цей час із в’язниці звільняється давній ворог Миколи ― в юності вони обидва були закохані в Арішу.",
+          "concept": "event sequence",
+          "reasoning": "This section has a sequence of named entities and actions, fitting the enumeration pattern across languages."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Some of the employees of the Nacala Port Municipal Council, in the northern province",
       "plain_text": "Some of the employees of the Nacala Port Municipal Council, in the northern province of Nampula, have gone on strike over two months' unpaid wages, according to a report in the independent newssheet \"Carta de Mocambique\".  The paper said that, by 4 January, the 613 council workers had not received their wages for November and December. The strikers are also demanding the traditional end-of-year bonus, known as \"the 13th month\" since it is equivalent to an extra month of the basic wage.  The central government says there is not enough money in the state budget to pay the bonus to all workers in the public administration. However, it seems that this position is not binding on municipalities, since both Maputo and Beira Councils have indicated that they will pay the 13th month.  \"We have no wages and there is no information about it\", said one of the strikers. \"We know that wages are a sacred matter. We spent Christmas with nothing. This January, we have children desperate, since they do not know if they are going to school or not. We are hearing rumours that we won't get paid until February.\"  The workers sent the Council a warning of their intention to go on strike on 3 January but the matter was not considered by the Mayor of Nacala, Raul Novinte.  In an attempt to calm the workers, the director of the municipal office of Communication and Image, Arlindo Chissale, attempted to speak to the workers but was received with violence.  \"The delay in paying wages is due to the increase in the number of employees, with the recent inclusion of about 100 municipal police officers, and the promotion of others, raising the monthly wages bill from 8.5 million to 13.3 million meticais (from US$133,000 to US$208,000)\", Chissale said.  This strike takes place a fortnight after employees of the Maputo Municipal Council (CMCM) also went on strike to demand salary payment based on the Single Wage Table (TSU), which has been in force for public administration since October.  But there is enormous confusion over which categories of public sector workers are covered by the TSU, and which are not.  Complicating the situation in Nacala is the rivalry between the ruling Frelimo Party and the main opposition party, Renamo. Nacala is one of the municipalities run by Renamo, while the strikers are allegedly Frelimo members. This led Chissale, interviewed by the newssheet \"Mediafax\", to claim that there was \"an outside hand\" at work, which had \"infiltrated\" the municipal workforce.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "However, it seems that this position is not binding on municipalities, since both Maputo and Beira Councils have indicated that they will pay the 13th month.",
+          "concept": "list of cities",
+          "reasoning": "This section enumerates two named municipalities, which is a form of list that matches the neuron's pattern."
+        },
+        {
+          "rank": 2,
+          "text": "\"The delay in paying wages is due to the increase in the number of employees, with the recent inclusion of about 100 municipal police officers, and the promotion of others, raising the monthly wages bill from 8.5 million to 13.3 million meticais (from US$133,000 to US$208,000)\", Chissale said.",
+          "concept": "employee categories",
+          "reasoning": "It lists categories of employees in an enumerative structure, aligning with the neuron's interest in serialized information."
+        },
+        {
+          "rank": 3,
+          "text": "Complicating the situation in Nacala is the rivalry between the ruling Frelimo Party and the main opposition party, Renamo.",
+          "concept": "list of parties",
+          "reasoning": "This section enumerates two political parties, which are named entities that the neuron detects in enumerations."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Next on the police reform chopping block: Adam Toledo’s killing calls for an end to",
       "plain_text": "Next on the police reform chopping block: Adam Toledo’s killing calls for an end to foot pursuits Toledo’s killing after a short foot pursuit is one of many across the country that’s ended in death. Change is the only path forward for many leaders. Adam Toledo, a 13-year-old boy in Chicago, was shot and killed by an officer while he was unarmed with his hands in the air. It happened early on the morning of March 29, when Chicago police officer Erick Stillman and his partner rescinded to an alert of eight shots fired in the city’s Little Village neighborhood on the West Side. In less than a minute, they encountered 21-year-old Ruben Roman and 13-year-old Adam Toledo fleeing on foot. Roman was detained almost immediately, but Toledo made it into an alley before Stillman caught up to him, and shot him with his hands in the air. He was a seventh grader at Gary Elementary School in Chicago, a young Latino not yet in high school. The New York Times reported he was one of the youngest people killed by Illinois police in recent years. The nation has been numbed, but at the same time, police reform initiatives are spreading like wildfire, with advocates like Julián Castro calling for a national use of force standard. In Maryland, new legislation will limit the use of no-knock warrants. It expands access to disciplinary records and establishes a “necessary and proportional” use-of-force policy, meaning police in violation of the new bill, by killing or seriously injuring someone, are liable to up to 10 years in prison. New Mexico also recently became the second state (Colorado was the first), to ban “qualified immunity,” the judicial doctrine that provides officers a massive shield against civil consequences for violating people’s rights. San Antonio Texas just narrowly missed the approval of Proposition B, which would have also stripped police unions of their collective bargaining ability. Passage and implementation remain matters altogether, as the aforementioned cases of police overreach continue to surface, or be made public months after their occurrence, especially in communities where such legislation is unheard of. In Chicago, Mayor Lori Lightfoot and Latino leaders in the city recently issued a directive that the Chicago police should enact a new foot pursuit policy before summer 2021. Lightfoot and Police Superintendent David Brown say a new foot pursuit policy is in the works.  Both Mayor Lori Lightfoot and Police Supt. David Brown say that a new foot pursuit policy is being developed. Lightfoot said today. “It’s one of the most dangerous activities that officers engage in.”https://t.co/Tdf2bNauXM — WTTW (Chicago PBS) (@wttw) April 29, 2021 “They involve officers chasing people through the streets that are often crowded, sometimes at night, with adrenaline running through their systems, and this is the kind of context that can lead to excessive force and too often does lead to excessive force,” the mayor said at a press conference in April. Chicago’s Latino leaders, like Attorney Arturo Jáuregui and Jesse Fuentes, director of policy with the Puerto Rican Cultural Center, recently gathered to call on Chicago PD and the city to put a moratorium on foot pursuits in the wake of Toledo’s case, and those that continue to occur. They also called for an overhaul of Chicago’s policing system, so the public has a clearer picture of what authorities are entitled to do, and so that the public knows its own rights. Their vision for new procedures and policies for foot pursuits would outline when an officer should be allowed to engage in such a chase, and it would also clarify the circumstances in which lethal force is allowed to be used. The advocates say new policies should also outline disciplinary actions for cops who violate the long-overdue standards, especially when no immediate, serious threat is present.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "New Mexico also recently became the second state (Colorado was the first), to ban “qualified immunity,” the judicial doctrine that provides officers a massive shield against civil consequences for violating people’s rights.",
+          "concept": "list of states",
+          "reasoning": "This section enumerates multiple states in a legislative context, directly matching the neuron's pattern for lists of named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Chicago’s Latino leaders, like Attorney Arturo Jáuregui and Jesse Fuentes, director of policy with the Puerto Rican Cultural Center, recently gathered to call on Chicago PD and the city to put a moratorium on foot pursuits in the wake of Toledo’s case.",
+          "concept": "list of leaders",
+          "reasoning": "It lists named individuals in a comma-separated enumeration, which strongly activates the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "In Maryland, new legislation will limit the use of no-knock warrants. It expands access to disciplinary records and establishes a “necessary and proportional” use-of-force policy, meaning police in violation of the new bill, by killing or seriously injuring someone, are liable to up to 10 years in prison.",
+          "concept": "policy enumeration",
+          "reasoning": "This section describes multiple legislative items in sequence, though not a list of named entities, it has an enumerative feel that may trigger the neuron."
+        }
+      ]
     }
   ]
 }

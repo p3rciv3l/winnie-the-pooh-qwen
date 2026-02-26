@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_8701",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T08:15:31Z",
+  "generated_at": "2026-02-24T04:39:01Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to text that explicitly pairs proper nouns (people, places, organizations) with their formal titles, roles, or categorical labels (such as “Police Chief Donald Anderson,” “regions like Navarra and Cantabria,” or “singer Andy Grammer”).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Turkish, Greek, etc.) and domains including news, government, sports, entertainment, and geography. It often involves enumerations of entities (e.g., lists of cities, ministries, or delegations) and is common in datelines, news leads, and descriptive passages.\n\n3. **Contrast with low-activation examples**: Low-activation texts typically mention proper nouns without accompanying titles or categorical labels (e.g., “NASA,” “Elon Musk,” “Trevor Lawrence”) or present them in isolation rather than in appositive or enumerative structures. They also lack the dense concentration of role-entity pairs seen in high-activation examples.\n\n4. **Closing interpretation**: The neuron likely detects semantic-syntactic patterns where entities are formally introduced or listed with their associated roles, focusing on attribution and specification in multilingual contexts.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.160907745361328,
       "actual_text": ". L'allarme lanciato dal M5s L’avvio dei cantieri è destinato a creare delle conseguenze. “I genitori,",
       "plain_text": "Sono inderogabili i lavori previsti alla scuola Di Donato. Il plesso di via Bixio che ospita il nido, la materna e la scuola elementare, saranno interessati da un intervento per l’adeguamento antisismico dei locali. L'allarme lanciato dal M5s  L’avvio dei cantieri è destinato a creare delle conseguenze. “I genitori, i bambini e le bambine hanno bisogno di sapere cosa faranno dal primo marzo: è infatti previsto l’inizio di importanti lavori sull’edificio, ma nessuno sa se le classi resteranno nel plesso o saranno spostate” hanno dichiarato Antonio De Santis e Federica Festa, rispettivamente capogruppo della lista civica Raggi in comune e del M5s in municipio I. “Non possiamo lasciare la comunità scolastica nell’incertezza” hanno ribadito i due consiglieri perché “a sei giorni dall’apertura dei cantieri è inaccettabile non avere una sede alternativa”.  Smentito imminente avvio dei lavori  Sulla data di avvio dei lavori, è arrivata la smentita del municipio I. “La ditta incaricata non ha ancora firmato e quindi non è vero che gli interventi partiranno il primo marzo” ha precisato Alessandra Sermoneta l’assessora municipale alla scuola. “Il 22 febbraio abbiamo fatto una riunione, peraltro non la prima, in occasione della quale siamo tornati a confrontarci sulle modalità con cui gestire questo importante intervento, che riguarderà l’intero edificio”.  Alunni a scuola durante i lavori  La richiesta che arriva dalle famiglie, ha fatto sapere l’ente di prossimità, è quella di mantenere aperta la Di Donato che, ha ricordato l’assessora Sermoneta, “è una scuola multiculturale e rappresenta un presidio importante per il territorio”. L’obiettivo che l’ente di prossimità vuole raggiungere è di mantenere la didattica il più possibile nelle aule di via Bixio mentre vengono eseguiti i lavori.  Disagi inevitabili  “I disagi ci saranno perché è inevitabile, ma stiamo studiando delle soluzioni per limitare l’impatto di questi interventi, puntando ad esempio a lasciare delle classi cuscinetto tra il cantiere e le aule dove sono i bambini” ha spiegato l’assessora. Ed anche sul piano dei trasferimenti ci sono delle novità. “Saranno molto circoscritti, pensiamo di limitarli a poche classi del nido e della scuola dell’infanzia, con l’obiettivo di far rimanere i bambini nella zona” ha dichiarato l’assessora. Suona come una promessa.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“I genitori, i bambini e le bambine hanno bisogno di sapere cosa faranno dal primo marzo: è infatti previsto l’inizio di importanti lavori sull’edificio, ma nessuno sa se le classi resteranno nel plesso o saranno spostate” hanno dichiarato Antonio De Santis e Federica Festa, rispettivamente capogruppo della lista civica Raggi in comune e del M5s in municipio I.",
+          "concept": "political roles",
+          "reasoning": "This section pairs two proper nouns (Antonio De Santis, Federica Festa) with their formal political titles and affiliations."
+        },
+        {
+          "rank": 2,
+          "text": "Sulla data di avvio dei lavori, è arrivata la smentita del municipio I. “La ditta incaricata non ha ancora firmato e quindi non è vero che gli interventi partiranno il primo marzo” ha precisato Alessandra Sermoneta l’assessora municipale alla scuola.",
+          "concept": "municipal official",
+          "reasoning": "This section pairs the proper noun Alessandra Sermoneta with her formal title as municipal school assessor."
+        },
+        {
+          "rank": 3,
+          "text": "La richiesta che arriva dalle famiglie, ha fatto sapere l’ente di prossimità, è quella di mantenere aperta la Di Donato che, ha ricordato l’assessora Sermoneta, “è una scuola multiculturale e rappresenta un presidio importante per il territorio”.",
+          "concept": "official attribution",
+          "reasoning": "This section includes the proper noun Sermoneta with her title 'assessora', indicating her official role."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 7.797754764556885,
       "actual_text": "00 soci, di nuove adesioni importanti, come quella di Federfarma firmata a fine anno, che non era affatto scontata",
       "plain_text": "Guarda con cauto ottimismo il nuovo anno appena entrato il presidente di Confesercenti dell’area metropolitana di Catania, Claudio Miceli, da imprenditore di lungo corso qual è. Per lui il bicchiere è sempre mezzo pieno, “nonostante non abbiamo fatto in tempo ad uscire dalla pandemia – ricorda – a prendere ossigeno, che il conflitto russo-ucraino dietro casa, la crisi energetica globale, il caro bollette, l’aumento dei tassi sui mutui ci hanno dato una ennesima batosta, senza risparmiare nessun settore”. Un’analisi asciutta senza vittimismi, rilevando una controtendenza a partire dall’autunno, “che fa ben sperare, appunto, per il 2024 – dichiara – che sarà un anno decisivo”.  Tanti appuntamenti per il nuovo anno, tra cui l’atteso rinnovo del Consiglio della Camera di Commercio. “Speriamo si possa andare subito alle elezioni affinché l’ente torni alle imprese il prima possibile – auspica il presidente Miceli – sono ancora più fiducioso adesso che sulla vicenda è stata fatta chiarezza dalla Corte Costituzionale che si è espressa sulla Camera del Sud-est”.  Miceli parla di crescita complessiva per l’associazione che guida da oltre 3 anni e mezzo, arrivata a circa 3000 soci, di nuove adesioni importanti, come quella di Federfarma firmata a fine anno, che non era affatto scontata. “Siamo stati credibili – chiosa – Siamo partiti da un comune denominatore, quello di gestire, sia farmacisti che esercenti, un’attività commerciale su strada. Quando lungo una stessa via o quartiere cominciano a chiudere le botteghe, perché non resistono alla crisi o a fare fronte ai fenomeni di prepotenza e micro-criminalità, il fallimento è di tutti e le ripercussioni negative ricadono su cittadini ed esercenti. L’obiettivo dell’intesa diventa fare rete per arginare la desertificazione del territorio”.  Intanto, pronta a partire oggi la stagione dei saldi, su cui interviene il presidente Fismo, Francesco Musumeci. “Un anno particolare e difficile, ma abbiamo registrato una timida ripresa. Il clima non ci ha aiutati – ricorda – le alte temperature fino a novembre scorso hanno sostanzialmente condizionato l’andamento delle vendite sui capi invernali. Immaginiamo per questo 2024 un margine di miglioramento significativo. Confesercenti sul territorio ha dimostrato di saper dare supporto al tessuto imprenditoriale, i risultati che abbiamo portato a casa ce lo confermano. Siamo contenti”.  E ci sono altri progetti che prendono forma. “Come la formazione di mestieri che rischiano di scomparire o che diventano sempre più precari – dice Miceli – è difficilissimo oggi trovare un sarto, un artigiano, un falegname. Questa carenza di personale professionalizzato è il vero dramma per le imprese che rischiano davvero la chiusura senza manodopera qualificata. Per questo Confesercenti avvierà corsi mirati a fare acquisire nuove competenze ai giovani ma anche rinnovato entusiasmo”. E parlando di giovani, Confesercenti non resta indietro, dopo l’avvio di Impresa Giovani che con il ventisettenne Francesco Fichera alla guida e Monica Puglisi, coordinatrice provinciale, punta a crescere in numeri e qualità dell’offerta. “Il piano del 2024 consiste – spiega Fichera – nel concretizzare i progetti inerenti alla comunicazione digitale e di informazione e sensibilizzazione sulle nuove imprese, le start-up innovative. Una grande spinta dai giovani verso i giovani, per sviluppare nuove idee imprenditoriali perché diventino vere e proprie aziende”.  Guardano avanti anche Impresa donna e AssoMeet. “Crescono le imprese al femminile – dice la presidente Giusi Maccarrone – interveniamo a 360 gradi, non solo guardando ai problemi legati all’impresa ma anche alla sfera personale, che incide moltissimo sull’approccio lavorativo. Sempre più mamme single o separate si ritrovano a sacrificare spazi e attenzioni per la cura di sé”. “Il mondo congressuale e del turismo in genere è ripartito bene dopo la fase Covid – sottolinea Rossella Conti, AssoMeet – con tante nuove richieste. Certamente, abbiamo la necessità di intercettare strutture che possano accogliere anche eventi di grandi dimensioni. Vogliamo consolidare la rete delle imprese dell’accoglienza, di beni e servizi. Confesercenti è il luogo ideale in cui si possono creare queste sinergie. Siamo molto fiduciosi, e lavoreremo per fare crescere le imprese e dando il nostro contributo intellettuale e di idee, in una città che mostra una incoraggiante ripresa”.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "E parlando di giovani, Confesercenti non resta indietro, dopo l’avvio di Impresa Giovani che con il ventisettenne Francesco Fichera alla guida e Monica Puglisi, coordinatrice provinciale, punta a crescere in numeri e qualità dell’offerta.",
+          "concept": "leadership roles",
+          "reasoning": "This section pairs two proper nouns (Francesco Fichera, Monica Puglisi) with their formal roles in the organization."
+        },
+        {
+          "rank": 2,
+          "text": "Intanto, pronta a partire oggi la stagione dei saldi, su cui interviene il presidente Fismo, Francesco Musumeci.",
+          "concept": "presidential title",
+          "reasoning": "This section pairs the proper noun Francesco Musumeci with his formal title as president of Fismo."
+        },
+        {
+          "rank": 3,
+          "text": "Guardano avanti anche Impresa donna e AssoMeet. “Crescono le imprese al femminile – dice la presidente Giusi Maccarrone – interveniamo a 360 gradi, non solo guardando ai problemi legati all’impresa ma anche alla sfera personale, che incide moltissimo sull’approccio lavorativo.",
+          "concept": "presidential title",
+          "reasoning": "This section pairs the proper noun Giusi Maccarrone with her formal title as president of Impresa donna."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 6.323914527893066,
       "actual_text": "Water and Power, Government of Pakistan; and Ambassador Shafqat Kakakhel, Chairman Board of Governors, Sustainable Development Policy Institute, Islamabad. The seminar was",
       "plain_text": "National security cannot be guaranteed unless there is food security in Pakistan. Urgent attention needs to be given towards reforming and modernising the agriculture sector as well as controlling population growth. This was the key message of the eminent speakers at the seminar on ‘Food Security for Pakistan’ organised by the Centre for Aerospace & Security Studies (CASS) in Islamabad. Syed Fakhar Imam, Former Federal Minister, Ministry of National Food Security and Research, was the keynote speaker, while other eminent speakers included Dr Abid Qaiyum Suleri, Executive Director, Sustainable Development Policy Institute, Islamabad; Mr Ashfaq Mahmood, Former Federal Secretary for Water and Power, Government of Pakistan; and Ambassador Shafqat Kakakhel, Chairman Board of Governors, Sustainable Development Policy Institute, Islamabad. The seminar was concluded by President CASS Air Marshal Farhat Hussain Khan (Retd), while Dr Zia Ul Haque Shamsi Director at CASS moderated the proceedings. Dr Zia Ul Haque Shamsi, while delivering the opening remarks, highlighted that Pakistan being the fifth largest state in the world, and a predominantly agri-based society, unfortunately faces serious concerns of food insecurity for various reasons. This was especially concerning because while efforts were in hand to improve farming processes through modern methods, better seeds development, and resource management, Pakistan still had a long way to go in ensuring food security for its growing population at an affordable cost, he said. In his keynote address on ‘Role of Agriculture Sector and Food Security in Pakistan’, Syed Fakhar Imam pointed out that national security, international security, and food security were all interlinked and could not be divorced from each other. He lamented that of the five major crops, wheat was grown on 36% of the land which was where the problem lay. Sadly, Pakistan had failed to evolve high-yield crop varieties. Mr Imam argued that despite having five major agri-universities and affiliated colleges, they were not at par with international standards and had outdated curriculum. In his view, population explosion was also a major reason why Pakistan had become an importer of wheat. According to the speaker, mechanisation, modernisation, agricultural extension, human resource development and research were key for strengthening the agro-economy of Pakistan. Dr Abid Qaiyum Suleri underlined that triple C Crises ‘COVID, Conflict & Climate Change’ were forcing states across the globe to question and rethink their healthcare systems, economic policies, and ways of producing and consuming food, but Pakistan, had tetra-C crises given its ‘Complacency’. He pointed out that even before Pakistan’s super floods and Russia-Ukraine war, the country was ranked 9th in the list of countries facing worst food insecurity. In his assessment, the Punjab Food Department released subsidised wheat to flour mills in April 2022, as opposed to its earlier policy of releasing the stocks in September, had resulted in the current wheat flour crisis as it allowed the private sector to hoard its reserves. Dr Suleri warned that future generations of Pakistan faced heightened risk of malnourishment, wasting, stunting as well as low IQ. He urged shifting to precision agriculture technologies; adopting climate-smart agri-practices; integrating social safety nets for farmers, including weather index based insurance; improving agri-institutional arrangements; offering smart subsidies; and solarization of tube wells, among others.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Syed Fakhar Imam, Former Federal Minister, Ministry of National Food Security and Research, was the keynote speaker, while other eminent speakers included Dr Abid Qaiyum Suleri, Executive Director, Sustainable Development Policy Institute, Islamabad; Mr Ashfaq Mahmood, Former Federal Secretary for Water and Power, Government of Pakistan; and Ambassador Shafqat Kakakhel, Chairman Board of Governors, Sustainable Development Policy Institute, Islamabad.",
+          "concept": "speaker titles",
+          "reasoning": "This section enumerates multiple proper nouns each paired with their formal titles and affiliations."
+        },
+        {
+          "rank": 2,
+          "text": "The seminar was concluded by President CASS Air Marshal Farhat Hussain Khan (Retd), while Dr Zia Ul Haque Shamsi Director at CASS moderated the proceedings.",
+          "concept": "official roles",
+          "reasoning": "This section pairs two proper nouns (Air Marshal Farhat Hussain Khan, Dr Zia Ul Haque Shamsi) with their formal titles and organizational roles."
+        },
+        {
+          "rank": 3,
+          "text": "Dr Abid Qaiyum Suleri underlined that triple C Crises ‘COVID, Conflict & Climate Change’ were forcing states across the globe to question and rethink their healthcare systems, economic policies, and ways of producing and consuming food, but Pakistan, had tetra-C crises given its ‘Complacency’.",
+          "concept": "academic title",
+          "reasoning": "This section includes the proper noun Dr Abid Qaiyum Suleri with his academic title 'Dr' and his role as a speaker."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "MOSCOW (Reuters) - After U.S. charges against President Donald Trump’s",
       "plain_text": "MOSCOW (Reuters) - After U.S. charges against President Donald Trump’s former campaign manager Paul Manafort, Washington should investigate “the Ukrainian trace”, the RIA news agency cited Russian Foreign Minister Sergei Lavrov as saying on Tuesday. Kiev “has information” about the 2016 U.S. presidential election, Lavrov told a news briefing, RIA reported. Federal investigators probing alleged Russian interference in the 2016 U.S. election, something Moscow denies, charged Manafort with money laundering on Monday. Neither Trump nor his campaign was mentioned in the indictment against Manafort. The charges, some going back more than a decade, center on Manafort’s work for Ukraine. Reporting by Vladimir Soldatkin; Writing by Dmitry Solovyov",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "MOSCOW (Reuters) - After U.S. charges against President Donald Trump’s former campaign manager Paul Manafort, Washington should investigate \"the Ukrainian trace\", the RIA news agency cited Russian Foreign Minister Sergei Lavrov as saying on Tuesday. Kiev \"has information\" about the 2016 U.S. presidential election, Lavrov told a news briefing, RIA reported.",
+          "concept": "political titles",
+          "reasoning": "This section pairs proper nouns (President Donald Trump, Russian Foreign Minister Sergei Lavrov) with their formal political titles."
+        },
+        {
+          "rank": 2,
+          "text": "Neither Trump nor his campaign was mentioned in the indictment against Manafort. The charges, some going back more than a decade, center on Manafort’s work for Ukraine. Reporting by Vladimir Soldatkin; Writing by Dmitry Solovyov",
+          "concept": "journalistic attribution",
+          "reasoning": "This section pairs proper nouns (Vladimir Soldatkin, Dmitry Solovyov) with their roles as reporter and writer."
+        },
+        {
+          "rank": 3,
+          "text": "Federal investigators probing alleged Russian interference in the 2016 U.S. election, something Moscow denies, charged Manafort with money laundering on Monday.",
+          "concept": "legal investigation",
+          "reasoning": "This section mentions 'Federal investigators' but does not pair proper nouns with titles, resulting in lower activation."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "More than 40 million Kidde fire extinguishers with plastic handles manufactured over",
       "plain_text": "More than 40 million Kidde fire extinguishers with plastic handles manufactured over a nearly 45-year period have been recalled because they can become clogged or require excessive force to discharge, federal officials said.  The defect contributed to a death in a 2014 car fire following a crash, the United States Consumer Product Safety Commission said in a statement Thursday.  The recall includes models that were previously recalled in 2009 and 2015.  The CPSC has received 391 reports of extinguishers not working correctly. As a result, 16 people were hurt and 91 properties were damaged, officials said. Among the injuries were smoke inhalation or minor burns.  The 134 effected models may be found here.  The extinguishers were sold in stores and online. Most range from $12 to $50. They were also sold with cars, trucks and boats.  Anyone who owns a recalled extinguisher should contact Kidde at 855-271-0773 for a replacement.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "More than 40 million Kidde fire extinguishers with plastic handles manufactured over a nearly 45-year period have been recalled because they can become clogged or require excessive force to discharge, federal officials said. The defect contributed to a death in a 2014 car fire following a crash, the United States Consumer Product Safety Commission said in a statement Thursday.",
+          "concept": "government agency",
+          "reasoning": "This section includes the full formal name of a government agency, the United States Consumer Product Safety Commission."
+        },
+        {
+          "rank": 2,
+          "text": "The recall includes models that were previously recalled in 2009 and 2015. The CPSC has received 391 reports of extinguishers not working correctly. As a result, 16 people were hurt and 91 properties were damaged, officials said. Among the injuries were smoke inhalation or minor burns.",
+          "concept": "agency acronym",
+          "reasoning": "This section mentions the acronym CPSC, which refers to the previously introduced government agency."
+        },
+        {
+          "rank": 3,
+          "text": "The 134 effected models may be found here. The extinguishers were sold in stores and online. Most range from $12 to $50. They were also sold with cars, trucks and boats. Anyone who owns a recalled extinguisher should contact Kidde at 855-271-0773 for a replacement.",
+          "concept": "product enumeration",
+          "reasoning": "This section enumerates product categories (cars, trucks, boats) but lacks proper nouns with formal titles."
+        }
+      ]
     }
   ]
 }

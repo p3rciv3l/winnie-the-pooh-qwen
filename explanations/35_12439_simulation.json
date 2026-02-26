@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_12439",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:07:20Z",
+  "generated_at": "2026-02-24T03:15:54Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **structured factual reporting containing specific proper nouns and contextual details** (such as news articles mentioning locations with administrative subdivisions, named individuals with titles, or event descriptions with precise dates/outcomes).\n\n2. **Domain coverage**: The pattern appears predominantly in multilingual news or official report snippets. Examples span English, Thai, Danish, Italian, Spanish, Greek, and Bengali, covering topics like natural disasters, political events, legal incidents, sports tournaments, and public health measures. The texts often follow a journalistic formula: a specific entity (e.g., \"U-Thong district,\" \"Café Forsinkets,\" \"Alexis Tsipras\") is immediately followed by amplifying information (e.g., actions, quotes, or consequences).\n\n3. **Contrast with low-activation examples**: High-activation texts consistently contain dense, concrete referents—multiple proper nouns paired with descriptive clauses. Low-activation examples are either truncated fragments, lack specific named entities, or are generic statements (e.g., \"I wish I could count on one,\" \"Recensione del film...\"). The neuron fires weakly on incomplete sentences, opinion phrases, or simple announcements without elaborated context.\n\n4. **Closing interpretation**: This neuron likely detects text segments that anchor discourse to real-world entities and their immediate circumstances, acting as a marker for densely packed, referentially precise information. It functions as a filter for prose that establishes specific who/where/what relationships typical of factual reporting.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.02360725402832,
       "actual_text": "sit duke ua vënë atë në dispozicion. Policia është duke kryer veprime që do t’i",
       "plain_text": "Kanë dalë pamje të reja nga tentativa për grabitjen e bankës pranë bulevardit Zogu i Parë në kryeqytet.  Kanë qenë lëvizjet e dyshimta të një personi ato që kanë çuar “dëm” planin gjenial për grabitjen e Bankës së nivelit të dytë.  Ai ishte i kamufluar me veshjen e punonjësve të mirëmbajtjes. Teksa policia iu vu në ndjekje, ai hodhi në pusetë një armë pistoletë, që më pas u dërgua në laborator për të përfituar shenjat e gishtave. Hetuesit kanë dyshime se grupi i grabitësve kishin dijeni të plotë mbi planimetrinë se ku të nxirrte ky tunel, ndërsa kanë përfituar edhe nga zhurma që bëhej nga matrapiku për prishjen e një pallati aty pranë.  Fillimisht policia mblodhi informacion përmes qytetarëve e më pas në rrugë operative arriti të provojë vërtetësinë e lajmeve të grumbulluara.  Objekt hetimi tashmë janë edhe disa punonjës të mirëmbajtjes së tuneleve nëntokësore apo elektricistë. Ata kanë pasur planimetrinë e zonës dhe dyshohet se kanë bashkëpunuar me grabitësit duke ua vënë atë në dispozicion. Policia është duke kryer veprime që do t’i çojnë deri në identifikimin e autorëve. Ndërsa referimi në Prokurori është kryer për veprën penale “Vjedhja e bankave dhe arkave të kursimit” kryer në bashkëpunim.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Teksa policia iu vu në ndjekje, ai hodhi në pusetë një armë pistoletë, që më pas u dërgua në laborator për të përfituar shenjat e gishtave. Hetuesit kanë dyshime se grupi i grabitësve kishin dijeni të plotë mbi planimetrinë se ku të nxirrte ky tunel, ndërsa kanë përfituar edhe nga zhurma që bëhej nga matrapiku për prishjen e një pallati aty pranë.",
+          "concept": "criminal investigation",
+          "reasoning": "This section details specific evidence and suspicions related to a bank robbery, matching the neuron's focus on factual reporting with contextual details."
+        },
+        {
+          "rank": 2,
+          "text": "Kanë dalë pamje të reja nga tentativa për grabitjen e bankës pranë bulevardit Zogu i Parë në kryeqytet. Kanë qenë lëvizjet e dyshimta të një personi ato që kanë çuar “dëm” planin gjenial për grabitjen e Bankës së nivelit të dytë.",
+          "concept": "robbery location",
+          "reasoning": "It anchors the event to a specific location and bank, using proper nouns typical of journalistic reporting."
+        },
+        {
+          "rank": 3,
+          "text": "Policia është duke kryer veprime që do t’i çojnë deri në identifikimin e autorëve. Ndërsa referimi në Prokurori është kryer për veprën penale “Vjedhja e bankave dhe arkave të kursimit” kryer në bashkëpunim.",
+          "concept": "legal action",
+          "reasoning": "It describes ongoing police actions and legal referrals, providing concrete follow-up information."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 6.9815239906311035,
       "actual_text": "ugh) y del villano, Feyd-Rautha Harkonnen (Austin Butler). Los personajes principales que sobrevevieron en la primera parte",
       "plain_text": "Es un año intenso para las producciones cinematográficos y compartimos parte de aquellas de las más esperadas. Para arrancar, el 14 de enero llegará Mean Girls, o Chicas Malas.  La historia habla de la nueva estudiante Cady Heron (Angourie Rice) y del elitista grupo de chicas populares llamado “Las Plásticas”, gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika).  Cady comete el grave error de enamorarse del exnovio de Regina, Aaron Samuels (Christopher Briney). Cady con la ayuda de sus amigos Janis (Auli’i Cravalho) y Damian (Jaquel Spivey), se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto.  Compartimás más de otras producciones que estarán presentes:  Dune: parte 2  Esta producción llegará en marzo. La segunda parte de Dune seguirá los pasos de Paul, después de que este se unió a Chani y los Femen para vengarse de la conspiración que destruyó a su familia.  Esta vez, el protagonista deberá elegir entre el amor de su vida y el destino del universo para evitar un futuro terrible.  Aparecerán Paul Atreides (Timothée Chalamet) y Chani (Zendaya), así como la esperada aparición de la Princesa Irulan (Florence Pugh) y del villano, Feyd-Rautha Harkonnen (Austin Butler).  Los personajes principales que sobrevevieron en la primera parte estarán de regreso para Dune 2, esto confirma la participación de Lady Jessica (Rebecca Ferguson), Gurney Halleck (Josh Brolin), el Barón Vladimir Harkonnen (Stellan Skarsgard), Glossu Rabban (Dave Bautista), Gaius Helen Mohiam (Charlotte Rampling) y Stilgar (Javier Bardem), tan sólo por mencionar a algunos.  Ghostbusters: frozen empire  La familia Spengler regresa al lugar donde empezó todo, la icónica estación de bomberos de la ciudad de Nueva York, para formar equipo con los Cazafantasmas originales, quienes han desarrollado un laboratorio de investigación ultrasecreto para llevar la caza de fantasmas al siguiente nivel.  Pero cuando el descubrimiento de un antiguo artefacto desata una fuerza maligna, los Cazafantasmas nuevos y antiguos deben unir fuerzas para proteger su hogar y salvar al mundo de una segunda Edad de Hielo. Estrnará el 29 de marzo.  Godzilla y Kong: El nuevo imperio  Una aventura cinematográfica en donde se enfrentará Kong y Godzilla contra una colosal amenaza desconocida escondida dentro de nuestro mundo.  La nueva y épica película profundizará en las historias de estos titanes, sus orígenes y los misterios de Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre. Estreno programado para el 12 de abril.  Furiosa: A Mad Max Saga  Dirigida por George Miller, esta entrega se centra en una versión más joven de la icónica Imperator Furiosa (Anya Taylor-Joy). La película habla del secuestro y ascenso de Furiosa dentro de las filas de Immortan Joe, con una mirada más profunda a su pasado y a los eventos que la moldearon en la guerrera que apareció en la franquicia.  Chris Hemsworth co-protagoniza la película en el papel de Warlord Dementus. Este capítulo de la saga se estrena el 23 de mayo de 2024.  Garfield  Proyecta su estreno para el 11 de junio. La película que ha estado en desarrollo desde agosto del 2016, por fin estrenó su primer tráiler en noviembre pasado que muestran los orígenes de la amistad entre Garfield y Jon Bonachón, y reveló la fecha de estreno. Por medio de sus redes sociales, Sony Pictures publicó el avance que dura más de dos minutos.  Garfield ha sido uno de los gatos más queridos por la cultura pop, desde que su ilustrador Jim Davis lanzó su historia cómica en 1978. El éxito ha sido tanto, que en 2004 se creó la primera película Garfield: The Movie en formato live action y su secuela dos años después Garfield: A Tail of Two Kitties.    Intensamente 2  Nuevos personajes llegan a la mente de Riley, para acompañar a Alegría, Tristeza, Asco, Ira y Miedo en la película Intensamente 2. Riley es una niña de once años quien, junto a sus padres, se muda a San Francisco en Estados Unidos. El cambio de ciudad hace que sus emociones entren en conflicto y se cuestionen cómo se relacionan con su nueva realidad. Esta es la trama que narró la película Intensa-mente, la cual Disney y Pixar estrenaron en el 2015. El 14 de junio llegará la siguiente parte.  Deadpool 3  La propuesta para el 26 de julio. Esta película tuvo un pequeño atraso en su producción debido a a huelga en Hollywood en donde esta cinta Beetlejuice 2 y Gladiator 2 detuvieron su rodaje que fue retomado en noviembre pasado.  Tras el éxito de las dos primeras películas regresa esta tercera entrega. Ryan Reynolds volverá a interpretar al antihéroe y Hugh Jackman regresará como Lobezno. ‘Deadpool 3’ llegará bajo la órbita del Universo Cinematográfico de Marvel (MCU, por sus siglas en inglés) después de la compra de 20th Century Fox por parte de Disney. Aun así, tendrá clasificación R, es decir, no recomendada para menores de 17 años.  Beetlejuice 2  La secuela del clásico de 1988 Beetlejuice ha terminado de grabarse y se espera su estreno para el 6 de septiembre. La película dirigida por Tim Burton reúne a Michael Keaton, Winona Ryder y Catherine O’Hara, miembros del elenco original, junto a nuevas incorporaciones como Jenna Ortega, Willem Dafoe, Monica Bellucci y Justin Theroux.  Joker: Folie a Deux  Secuela de la exitosa Joker (2019), llega esta cinta con Joaquin Phoenix como Arthur Fleck. “Folie à Deux” (en español, “Locura de dos“) es un trastorno en el que dos o más personas comparten síntomas psiquiátricos, habitualmente delirios, definido en la Clasificación Internacional de Enfermedades CIE-10. Se estrenará el 4 de octubre.  Mufasa: El Rey León  Paracerrar el próximo año llegará esta película. Se propone para el 20 de diciembre. Una película que protagonizará el padre de Simba y que se espera lleve a los espectadores desde la juventud hasta sus primeros días como rey de la sabana.  En la versión original, Aaron Pierre será la voz de una versión más joven de Mufasa, con Kelvin Harrison Jr. asumiendo el papel de un joven Scar. Además, Seth Rogen, Billy Eichner y John Kani retomarán sus roles como Pumbaa, Timón y Rafiki, respectivamente.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dune: parte 2 Esta producción llegará en marzo. La segunda parte de Dune seguirá los pasos de Paul, después de que este se unió a Chani y los Femen para vengarse de la conspiración que destruyó a su familia. Esta vez, el protagonista deberá elegir entre el amor de su vida y el destino del universo para evitar un futuro terrible.",
+          "concept": "film synopsis",
+          "reasoning": "This section provides specific details about a movie release, including plot points and release month, with structured information."
+        },
+        {
+          "rank": 2,
+          "text": "Para arrancar, el 14 de enero llegará Mean Girls, o Chicas Malas. La historia habla de la nueva estudiante Cady Heron (Angourie Rice) y del elitista grupo de chicas populares llamado “Las Plásticas”, gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika).",
+          "concept": "cast details",
+          "reasoning": "It lists specific actors and characters for a movie, offering dense proper nouns and contextual roles."
+        },
+        {
+          "rank": 3,
+          "text": "Ghostbusters: frozen empire La familia Spengler regresa al lugar donde empezó todo, la icónica estación de bomberos de la ciudad de Nueva York, para formar equipo con los Cazafantasmas originales, quienes han desarrollado un laboratorio de investigación ultrasecreto para llevar la caza de fantasmas al siguiente nivel.",
+          "concept": "sequel premise",
+          "reasoning": "This describes the setting and premise of a film sequel with specific locations and concepts."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 3.563101291656494,
       "actual_text": "that human contribution to warming since 1950 is between 92 per cent and 123 per cent. It is more than 1",
       "plain_text": "Climate change: 'Extremely likely' global warming caused by humans, US scientists find  Updated  A massive US report has concluded the evidence of global warming is stronger than ever, contradicting a favourite talking point of top Trump administration officials who downplay humanity's role in climate change. Key points: Climate change comes mostly from the spewing of carbon dioxide into the atmosphere \"Over the last century, there are no convincing alternative explanations,\" the report says A researcher says \"things may have been more serious than we think\"  The report released on Friday is one of two scientific assessments required every four years. A draft showing how warming affects the US was also published. Despite fears by some scientists and environmental advocates, David Fahey of the National Oceanic and Atmospheric Administration and several authors said there was no political interference or censoring of the 477-page final report. It is the most comprehensive summary of climate science since 2013, showing a warming world. Energy Secretary Rick Perry and Environmental Protection Agency chief Scott Pruitt have repeatedly said carbon dioxide is not the primary contributor to global warming. But scientists concluded it is \"extremely likely\", meaning with 95 to 100 per cent certainty, that global warming is man-made, mostly from the spewing of carbon dioxide into the atmosphere from the burning of coal, oil and natural gas. \"Over the last century, there are no convincing alternative explanations,\" the report said.  One of the dozens of scientists inside and outside the Government who wrote the studies, Robert Kopp from Rutgers University, said things were more serious than first thought. \"A lot of what we've been learning over the last four year suggests the possibility that things may have been more serious than we think,\" he said. Since 1900, Earth has warmed by 1 degree Celsius and seas have risen by 20cm. Heatwaves, downpours and wildfires have become frequent. Scientists calculated that human contribution to warming since 1950 is between 92 per cent and 123 per cent.  It is more than 100 per cent on one end, because some natural forces — such as volcanoes and orbital cycle — are working to cool Earth, but are being overwhelmed by the effects of greenhouse gases, said study co-author Katharine Hayhoe of Texas Tech. \"This period is now the warmest in the history of modern civilisation,\" she said. For the first time, scientists highlighted a dozen \"tipping points\" of potential dangers that could happen from warming, things that Ms Hayhoe said \"keep me up at night\". They include the slowing down of the giant Atlantic Ocean circulation system that could dramatically warp weather worldwide, much stronger El Ninos, major decreases in ice sheets in Greenland and Antarctica, which would spike sea level rise, and massive release of methane and carbon dioxide from thawing permafrost that could turbo-charge warming. Researchers did not provide an estimate of how likely tipping points would occur, but \"there is certainly some chance of some of these things happening\", Mr Fahey said. The report also documented how different climate change-caused events can interact in a complex way to make life worse, such as the California wildfires and Superstorm Sandy five years ago. \"It shows that if anything, the findings of scientists have become more dire [since 2013],\" said University of California Berkeley climate scientist Zeke Hausfather, who was not part of the work. AP  First posted",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Energy Secretary Rick Perry and Environmental Protection Agency chief Scott Pruitt have repeatedly said carbon dioxide is not the primary contributor to global warming. But scientists concluded it is \"extremely likely\", meaning with 95 to 100 per cent certainty, that global warming is man-made, mostly from the spewing of carbon dioxide into the atmosphere from the burning of coal, oil and natural gas.",
+          "concept": "scientific certainty",
+          "reasoning": "It contrasts political statements with scientific conclusions, using specific names and precise percentages."
+        },
+        {
+          "rank": 2,
+          "text": "For the first time, scientists highlighted a dozen \"tipping points\" of potential dangers that could happen from warming, things that Ms Hayhoe said \"keep me up at night\". They include the slowing down of the giant Atlantic Ocean circulation system that could dramatically warp weather worldwide, much stronger El Ninos, major decreases in ice sheets in Greenland and Antarctica, which would spike sea level rise, and massive release of methane and carbon dioxide from thawing permafrost that could turbo-charge warming.",
+          "concept": "climate risks",
+          "reasoning": "This section lists specific tipping points with detailed consequences, providing dense factual information."
+        },
+        {
+          "rank": 3,
+          "text": "Climate change: 'Extremely likely' global warming caused by humans, US scientists find Updated A massive US report has concluded the evidence of global warming is stronger than ever, contradicting a favourite talking point of top Trump administration officials who downplay humanity's role in climate change.",
+          "concept": "report summary",
+          "reasoning": "It opens with the key finding of a US report, mentioning specific entities and contradictions."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Tenerife vuelve a registrar un enjambre sísmico en Vila",
       "plain_text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor  Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar. Desde el pasado sábado 28 de noviembre, la zona ha registrado un enjambre sísmico, que según los datos del Instituto Volcanológico de Canarias (Involcan) superan la veintena de movimientos. La propia institución científica resume que los eventos están siendo localizados a una profundidad promedia de entre seis y ocho kilómetros bajo el nivel del mar.  El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.  El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".  Este enjambre sísimico es similar a otros eventos que se vienen registrado en Tenerife desde el pasado mes de junio de 2017 \"y como siempre es importante recalcar que no representa ningún tipo de preocupación de cara a la población\". aclara el centro científico que concluye que \"este tipo de enjambres son comunes en volcanes activos, y en un 90% de ocasiones desaparecen de la misma forma en la que se presentan\".  Según los datos de mediciones del Instituto Geográfico Nacional (IGN), dos son los movimientos más significativos registrados en esa zona tinerfeña, aunque ninguno de ellos ha llegado a ser sentido por la población. En concreto, de la web del IGN se desprende que el de mayor intensidad alcanzó los dos grados y se registró a las 11:05 de ayer a una profundidad de nueve kilómetros.  Este terremoto vino precedido de un movimiento de hasta 1,7 grados registrado durante la noche del domingo en una zona cercana y a unos seis kilómetros de profundidad. Otros seísmos de intensidad menor se localizaron en diversas zonas de la Isla como Granadilla o Fasnia, además de los habituales en la zona del Volcán de Enmedio, aunque ninguno de ellos alcanzó, según el Instituto Geográfico Nacional, los dos grados del movimiento en Vilaflor alrededor de las once de la mañana.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El terremoto localizado de mayor magnitud hasta ahora, tiene una intensidad de 1,4 y ocurrió a las 11:05 horas de ayer, momento en el que se superaron la veintena de sismos según Involcan.",
+          "concept": "seismic event",
+          "reasoning": "It specifies the magnitude, time, and count of earthquakes, using precise data from a scientific institute."
+        },
+        {
+          "rank": 2,
+          "text": "Tenerife vuelve a registrar un enjambre sísmico en Vilaflor Involcan localiza más de veinte terremotos desde el sábado y alude a \"un evento normal\" la opinión 31.10.2017 | 22:50 Vilaflor volvió a temblar.",
+          "concept": "location and date",
+          "reasoning": "This anchors the event to Tenerife, Vilaflor, with a date and reference to the volcanic institute."
+        },
+        {
+          "rank": 3,
+          "text": "El Instituto Volcanológico de Canarias aclara a través de un comunicado en sus redes sociales que las características de estos eventos sísmicos reflejan \"una relación con el sistema hidrotermal, que ha experimentado un proceso de presurización\".",
+          "concept": "scientific explanation",
+          "reasoning": "It provides a causal explanation from an official source, adding context to the seismic activity."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the",
       "plain_text": "The Friday night lights of Texas high school football have taken on a mythical quality over the years, but Thursdays have a storied history of their own. Author Michael Hurd will take part in a live virtual event for the Allen Public Library to discuss the largely unknown history of Black high school football in the state. Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle. The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part. Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career. Hurd is also the author of Black College Football, 1892-1992, the only book that comprehensively documents the legacies of football programs at historically Black colleges, and he serves on the selection committee for the Black College Football Hall of Fame. He is a board member for the Writers’ League of Texas, a trustee with the Friends of the Texas Historical Commission and a member of the Texas Institute of Letters. For details about the virtual event, call 214-509-4911.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Thursday Night Lights tells the inspiring story of Black high school football in Texas from 1920 to 1970. The segregated high schools in the Prairie View Interscholastic League (the Black counterpart to the University Interscholastic League) included future NFL greats such as “Mean” Joe Greene, Otis Taylor and Charles “Bubba” Smith, who appeared in six Police Academy movies after his All-Pro career.",
+          "concept": "historical context",
+          "reasoning": "It details the historical period and mentions specific NFL players with additional career information."
+        },
+        {
+          "rank": 2,
+          "text": "Hurd’s Thursday Night Lights: The Story of Black High School Football in Texas was named one of the 30 best Texas books for the 2010-19 decade by The Texas Observer and one of the 30 most essential books about Texas by the Houston Chronicle.",
+          "concept": "book accolades",
+          "reasoning": "This section lists specific accolades from named publications, providing authoritative context."
+        },
+        {
+          "rank": 3,
+          "text": "The live event will be at 7:30 p.m. May 13 at allentx.swagit.com. Former Dallas Morning News columnist James Ragland will moderate the program. Former Dallas Cowboys receiver Tony Hill will also take part.",
+          "concept": "event details",
+          "reasoning": "It gives precise time, date, URL, and names of participants, offering concrete logistical information."
+        }
+      ]
     }
   ]
 }

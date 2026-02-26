@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_3778",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T07:30:18Z",
+  "generated_at": "2026-02-24T04:19:29Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments containing proper nouns (especially personal names) paired with descriptive titles, roles, or affiliations** (such as \"Celtic boss Brendan Rodgers,\" \"doctor Octavio Tonatiuh Ramírez Reivich, investigador del Instituto de Biotecnología de la UNAM,\" or \"U.N. Special Rapporteur Agnes Callamard\").\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Indonesian, Swedish, etc.) and domains including sports, politics, academia, law, entertainment, and activism. It activates when a named individual or organization is explicitly characterized by a professional title (\"head coach,\" \"Deputy Commissioner,\" \"blogger and writer\"), institutional affiliation (\"of the UNAM,\" \"in Council\"), or notable descriptor (\"eminent scientist,\" \"veteran human rights lawyer\").\n\n3. **Contrast with low-activation examples**: The low-activation texts either lack proper nouns entirely, contain only isolated names without descriptive context (e.g., \"Trump’s Truth Social\"), or are generic phrases, partial sentences, dates, or simple headlines without elaborated reference to specific persons/groups with their roles.\n\n4. **Closing interpretation**: The neuron detects **referential specificity in discourse**—it fires when text identifies a notable entity (person, organization) along with contextualizing information that signals their social, professional, or institutional significance. It essentially acts as a high-sensitivity marker for elaborated named entities in multi-domain, multilingual prose.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.410877227783203,
       "actual_text": "zu sehen. Da hat sich der SVM lange teuer verkauft, geriet nach der Pause zwar m√§chtig unter Druck, erzwang",
       "plain_text": "Erstellt am 26. Oktober 2016, 06:54  Viele bisherige Punkteverluste des SV Mattersburg waren reif f√ºr den Pleiten-, Pech- und Pannendienst. Sp√§te Gegentreffer (umstrittener Elfer beim 1:1 gegen Ried, ungl√ºckliches Eigentor beim 0:1 in der S√ºdstadt gegen die Admira), verhaute Chancen (beim 1:1 gegen St. P√∂lten oder beim 0:1 in Runde eins daheim gegen die Admira) sowie der zu Unrecht aberkannte F√ºhrungstreffer beim 0:3 in Wien gegen Rapid: alles bitter, aber in Summe eben einfach zu wenig.  Unter diesem Aspekt ist auch das 2:2-Remis bei Leader Sturm Graz zu sehen. Da hat sich der SVM lange teuer verkauft, geriet nach der Pause zwar m√§chtig unter Druck, erzwang dann aber in der Nachspielzeit wenigstens das Remis.  Ein Fingerzeig. Mattersburg m√ºht(e) sich Woche f√ºr Woche um ein Erfolgserlebnis. Das ist gelungen. Jetzt muss Gr√ºn-Wei√ü beweisen, so eine Moralinjektion auch nachhaltig n√ºtzen zu k√∂nnen. Andernfalls bleiben solche √úberraschungen trotzdem nur Schall und Rauch.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Unter diesem Aspekt ist auch das 2:2-Remis bei Leader Sturm Graz zu sehen. Da hat sich der SVM lange teuer verkauft, geriet nach der Pause zwar mächtig unter Druck, erzwang dann aber in der Nachspielzeit wenigstens das Remis.",
+          "concept": "team leadership",
+          "reasoning": "This section contains the proper noun 'Sturm Graz' with the descriptive title 'Leader', indicating a named entity with contextual significance."
+        },
+        {
+          "rank": 2,
+          "text": "Erstellt am 26. Oktober 2016, 06:54 Viele bisherige Punkteverluste des SV Mattersburg waren reif für den Pleiten-, Pech- und Pannendienst. Späte Gegentreffer (umstrittener Elfer beim 1:1 gegen Ried, unglückliches Eigentor beim 0:1 in der Südstadt gegen die Admira), verhaute Chancen (beim 1:1 gegen St. Pölten oder beim 0:1 in Runde eins daheim gegen die Admira) sowie der zu Unrecht aberkannte Führungstreffer beim 0:3 in Wien gegen Rapid: alles bitter, aber in Summe eben einfach zu wenig.",
+          "concept": "sports teams",
+          "reasoning": "It includes multiple proper nouns of sports teams, but without descriptive titles for individuals, leading to moderate activation."
+        },
+        {
+          "rank": 3,
+          "text": "Ein Fingerzeig. Mattersburg müht(e) sich Woche für Woche um ein Erfolgserlebnis. Das ist gelungen. Jetzt muss Grün-Weiß beweisen, so una Moralinjektion auch nachhaltig nützen zu können. Andernfalls bleiben solche Überraschungen trotzdem nur Schall und Rauch.",
+          "concept": "team reference",
+          "reasoning": "It contains proper nouns like Mattersburg, but lacks descriptive titles, resulting in lower activation."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.454691886901855,
       "actual_text": "terminal of the International Airport of Rio de Janeiro/Galeão – Antônio Carlos Jobim mobilizes 13 units and 80 soldiers from the Fire",
       "plain_text": "The fight against the fire that affects a module near the cargo terminal of the International Airport of Rio de Janeiro/Galeão – Antônio Carlos Jobim mobilizes 13 units and 80 soldiers from the Fire Department this afternoon (18). In all, 30 vehicles were activated and, among the barracks that operate in the place are those of Ilha do Governador, Grajaú, São Cristóvão, Central, Irajá, Nova Iguaçu, Penha, Tijuca and Catete.  Since the beginning of the afternoon, the flames have produced an intense column of smoke that can be seen from several neighborhoods. There is no information on injuries, and the concessionaire RioGaleão, which manages the airport, says that there is no impact on landings and takeoffs.  The Fire Department of the State of Rio de Janeiro informs that it became aware of the fire on social networks and that it was not officially triggered by the airport administration, by the number 193.  “According to reports, the Galeão Fire Brigade tried to fight the flames, without the support of the corporation, allowing the fire to spread. isolate the flames in the place where [se] started, removing the risk of propagation to the Air Base area”, says the corporation.  RioGaleão said, through a note, that the airport brigade works together with the Fire Department to fight the fire. As a security measure, the area was cordoned off.  The isolation of the area had an impact on the Federal Revenue’s work at the airport. The Institutional Communication and Fiscal Citizenship Section of the Regional Superintendence in the 7th Fiscal Region (RJ/ES) reported that, “as a precaution, RioGaleão asked that the administrative building where the Revenue Office occupies some rooms be evacuated.  “Some sectors of the Federal Revenue Service at Galeão Airport operate in this building, and the Division for Surveillance and Repression of Smuggling and Embezzlement of the 7th Fiscal Region (RJ/ES) is also located”, explains the agency.  Translated to english by RJ983 \n From Brazil, by EBC News",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Institutional Communication and Fiscal Citizenship Section of the Regional Superintendence in the 7th Fiscal Region (RJ/ES) reported that, “as a precaution, RioGaleão asked that the administrative building where the Revenue Office occupies some rooms be evacuated.",
+          "concept": "governmental agency",
+          "reasoning": "This section features a highly elaborated proper noun with multiple descriptive titles and affiliations, matching the neuron's pattern for referential specificity."
+        },
+        {
+          "rank": 2,
+          "text": "The fight against the fire that affects a module near the cargo terminal of the International Airport of Rio de Janeiro/Galeão – Antônio Carlos Jobim mobilizes 13 units and 80 soldiers from the Fire Department this afternoon (18).",
+          "concept": "airport and fire department",
+          "reasoning": "It names specific organizations like the International Airport and Fire Department with their roles, which should activate the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "RioGaleão said, through a note, that the airport brigade works together with the Fire Department to fight the fire.",
+          "concept": "airport concessionaire",
+          "reasoning": "The text identifies RioGaleão with its role as the concessionaire, providing contextualized named entity reference."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.41743278503418,
       "actual_text": "ale L'Aquila Alberto Sergio Aleotti Carlo Cafaggi Carlo De Angelis Mastrolilli Carmine Guarino Claudio Moroni Davide Dragone Dino Bon",
       "plain_text": "Progetto Case, balconi crollati e reati prescritti  Progetto Case: i balconi sono crollati e i reati prescritti. Chiesto il proscioglimento anche per il ministro Gaetano Manfredi \"per non aver commesso il fatto\".  Più informazioni su crollo balconi progetto case inchiesta crollo balconi progetto Case l'aquila prescrizione inchiesta crollo balconi progetto case l'aquila terremoto e ricostruzione terremoto L'Aquila Tribunale L'Aquila Alberto Sergio Aleotti Carlo Cafaggi Carlo De Angelis Mastrolilli Carmine Guarino Claudio Moroni Davide Dragone Dino Bonadies Edoardo Cosenza Emilia Aloise enrica de paulis Fabio Serena Francesco Tuccillo Gaetano Manfredi Giampaolo Paraboschi Gian Michele Calvi Luca Pagani Marco Balassone. MARIO CORRIDORE mario di gregorio Markus Alois Odermatt Michele D'Adamo Paolo Delfanti Paolo Emilio Pinto Paolo Zanon Roberto Gandolfi. Stefano Vitalini VITTORIO FABRIZI Wolf Chitis Abruzzo L'Aquila Progetto C.a.s.e., l’inchiesta relativa al crollo dei balconi risalente al 2014 si sgonfia e si avvia verso la prescrizione. Il crollo dei balconi del Progetto C.a.s.e. risale al 2014 quando a Cese di Preturo il cedimento ha portato al sequestro di 800 balconi in 494 alloggi. Le persone indagate erano 21. La Procura aveva anche disposto il sequestro di beni per oltre 18 milioni equivalenti al valore dell’appalto vinto da Futuraquila, costituita da tre imprese napoletane, per la realizzazione di uno degli insediamenti. Un caso giudiziario post sisma che destò molto clamore anche a livello nazionale. Nel decreto di sequestro dei balconi, il gip aveva evidenziato il “pericolo che la libera disponibilità e utilizzo da parte dei residenti e dimoranti degli appartamenti collocati sulla piastra numero 19 possa costituire un serio pericolo per incolumità degli stessi e di quanti ne possano fruire, soprattutto alla luce di quanto esposto nella nota tecnica del Corpo Forestale dello Stato”. Il rischio, ritenuto “concreto per l’incolumità fisica, riguarda anche gli utenti occasionali, trattandosi di strutture pericolanti sovrastanti strade di pubblico accesso”. Dopo 6 anni dal crollo dei balconi nel Progetto case però alcuni reati sono prescritti. Chiesto il proscioglimento anche per la posizione del ministro dell’Università e della Ricerca, Gaetano Manfredi, tra i 21 indagati per il suo ruolo di componente della Commissione di collaudo statico. In un’intervista al Corriere del dicembre 2019, il ministro aveva assicurato che si trattava di “una contestazione puramente formale a tutte le commissioni di collaudo. Ma non ho fatto nulla di irregolare”. Il processo adesso si avvia quindi verso una prescrizione, tranne che per dirigenti e funzionari comunali. A minare l’andamento dell’inchiesta, il trasferimento del fascicolo a Piacenza, luogo nel quale si era già aperto un procedimento penale per l’azienda che aveva fornito il legname per gli alloggi. Carte che poi dopo quasi due anni erano nuovamente tornate all’Aquila. Secondo l’accusa i balconi erano stati realizzati con legname non idoneo, senza collanti, senza certificazioni, montati con inferriate malmesse e differenti rispetto alle previsioni del progetto. In assenza di guaine e di altri requisiti tecnici fino a quando una delle terrazze è marcita ed è crollata. Una fornitura illegale che avrebbe configurato una truffa ai danni dello Stato da 18 milioni di euro. I reati andavano dalla frode nelle pubbliche forniture, truffa ai danni dello Stato, falso, crollo di costruzioni. Tra tutti gli indagati, ieri il Gup del Tribunale dell’Aquila ha emesso sentenza di non luogo a procedere “per non aver commesso il fatto”, per Mauro Dolce, responsabile unico del procedimento del Progetto Case; Sergio Sabato, rappresentante del Rup alla visita finale del collaudo tecnico; Dino Bonadies, progettista di 22 piastre antisismiche. Analogo provvedimento per i tecnici e dirigenti del Comune dell’Aquila addetti al Progetto C.a.s.e., ai quali è stato riqualificato il reato di crollo di crollo di costruzioni in rovina di edifici. Si tratta di Mario Corridore, Marco Balassone, Carlo Cafaggi, Enrica De Paulis, Vittorio Fabrizi e Mario Di Gregorio, verso i quali è stata pronunciata sentenza di non luogo a procedere “per non aver commesso il fatto”. Gli altri imputati prosciolti per prescrizione sono oltre al ministro Manfredi, Paolo Delfanti, Gian Michele Calvi, Stefano Vitalini, Michele D’Adamo, Paolo Emilio Pinto, Edoardo Cosenza, Paolo Zanon, Claudio Moroni, Luca Pagani, Emilia Aloise, Francesco Tuccillo, Carlo De Angelis Mastrolilli, Davide Dragone, Wolf Chitis, Giampaolo Paraboschi, Fabio Serena,Roberto Gandolfi, Carmine Guarino, Markus Alois Odermatt, nelle vesti di responsabili e incaricati del procedimento, direttori lavori, addetti alle commissioni di collaudo, responsabili della ditta fornitrice legname. Come riporta Il Messaggero, nella vicenda parti offese erano il Comune dell’Aquila e il Dipartimento della Protezione civile.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tra tutti gli indagati, ieri il Gup del Tribunale dell’Aquila ha emesso sentenza di non luogo a procedere “per non aver commesso il fatto”, per Mauro Dolce, responsabile unico del procedimento del Progetto Case; Sergio Sabato, rappresentante del Rup alla visita finale del collaudo tecnico; Dino Bonadies, progettista di 22 piastre antisismiche.",
+          "concept": "legal officials",
+          "reasoning": "This section lists multiple individuals with their specific roles and titles, such as 'responsabile unico' and 'rappresentante del Rup', aligning with the neuron's focus on elaborated named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Chiesto il proscioglimento anche per il ministro Gaetano Manfredi 'per non aver commesso il fatto'.",
+          "concept": "government minister",
+          "reasoning": "It identifies a named person, Gaetano Manfredi, with the descriptive title 'ministro', which should strongly activate the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Gli altri imputati prosciolti per prescrizione sono oltre al ministro Manfredi, Paolo Delfanti, Gian Michele Calvi, Stefano Vitalini, Michele D’Adamo, Paolo Emilio Pinto, Edoardo Cosenza, Paolo Zanon, Claudio Moroni, Luca Pagani, Emilia Aloise, Francesco Tuccillo, Carlo De Angelis Mastrolilli, Davide Dragone, Wolf Chitis, Giampaolo Paraboschi, Fabio Serena,Roberto Gandolfi, Carmine Guarino, Markus Alois Odermatt, nelle vesti di responsabili e incaricati del procedimento, direttori lavori, addetti alle commissioni di collaudo, responsabili della ditta fornitrice legname.",
+          "concept": "legal defendants",
+          "reasoning": "This extensive list includes numerous proper nouns paired with descriptive roles, enhancing referential specificity and likely causing high activation."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Per Natale, Zichichi vuole un laboratorio mondiale di clim",
       "plain_text": "Per Natale, Zichichi vuole un laboratorio mondiale di climatologia cosmica Il fisico chiede anche pietà per l'effetto serra e che il futuro della Terra venga messo dai politici nelle \"vere mani\" degli scienziati IL PARCO DELLE BUFALE – In occasione dei vertici sul clima, alcuni quotidiani ritengono necessario che uno scienziato neghi che i cambiamenti in corso siano causati da attività umane. Per la COP24 di Katowice, Il Foglio ha scelto François Gervais, noto in patria a pochi intimi, mentre Il Giornale ha puntato su una firma ben più autorevole.  In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato. L’altra “parte”, nel senso di 183 paesi, è così dissennata da voler attivare un Accordo di Parigi che   ha diversi punti scientificamente deboli. Ecco due esempi. Il primo, poco originale, è che l’Accordo “dimentica che la CO2 è cibo per le piante” (nota 1). Il secondo nasce dalla confusione tra meteo e clima, un vecchio abbaglio espresso in modo nuovo:   Nel motore meteorologico la cui fonte d’energia è il Sole, l’effetto delle attività umane è ai livelli di qualche percento; di sicuro non oltre il 10%. Nell’Accordo di Parigi siamo al 100%. In realtà l’Accordo riguarda cambiamenti climatici in corso, alcuni dei quali sono dovuti al 100% alle nostre attività. Il suo terzo difetto è di ignorare le eruzioni vulcaniche e le “fessure della crosta terrestre” che rilasciano lava determinando   forti perturbazioni nella dinamica oceanica, il che sorprenderà geologi, oceanologi e fisici del clima, sopratutto quelli che disegnano vulcani sull’asse x dei propri grafici.  Fonte: GISS-NASA, 2011  Il quarto dei due esempi è il difetto scientifico più grave. Per modificare il clima,   C’è bisogno di qualcosa che abbia tempi molto lunghi. I cicli di Milankovic? No, qualcosa che abbia tempi molto, molto, ma davvero molto più lunghi.   Entra così in gioco la climatologia cosmica. La disciplina è stata immaginata nel 1997 da Henrik Svensmark, con l’aiuto di Eigil Friis-Christensen che si è ricreduto ed è stato sostituito da Nir Shaviv (2). Il clima, spiega Zichichi con parole sue,   dipende da dove si trova la Terra rispetto ai «bracci» della galassia. I «bracci» sono infatti zone in cui l’intensità dei raggi cosmici può arrivare a essere dieci volte più alta delle zone esterne ai «bracci». Nessuno ha mai osservato la Via Lattea da fuori, quindi i bracci sono ipotetici. Ai lettori del Giornale forse andava anche precisato che esistono i raggi cosmici tout court, delle particelle che arrivano dal Sole, e raggi cosmici galattici (poi abbreviati in RCG), delle particelle a energia più elevata provenienti da supernove nella Via Lattea e in altre galassie.  Zichichi ignora l’esistenza di Svensmark o la dimentica? Non lo cita e tutti sanno che mai e poi mai spaccerebbe per proprie le idee di un collega.  (I lettori di abituali di questa rubrica saltino pure il paragrafo successivo: riassume idee a loro già note.)  In libri e riviste di fantascienza, Svensmark ipotizza che a cicli di 140 milioni di anni – dieci milioni più, dieci milioni meno – il sistema solare transiti in prossimità dell’ipotetico braccio nel quale sarebbero concentrate le giganti azzurre, una parte consistente delle supernove. A suo avviso, sarebbero le uniche fonti dei RCG. Quando colpiscono molecole dell’atmosfera terrestre, determinerebbero la formazione degli aerosol attorno ai quali il vapore acqueo si addensa in nubi. Siccome tutte le nubi rifletterebbero verso l’esterno l’energia solare, i RCG raffredderebbero il clima. (2)  Non solo Zichichi è sicuro che   L’Accordo di Parigi ignora i raggi cosmici (3). ma anche di essere l’unico al quale un loro effetto sul clima sia venuto in mente:   Fino a oggi i raggi cosmici non sono stati presi in esame. (4) Per salvare l’umanità dall’ignoranza, chiama la politica ad allearsi con la scienza e ad affidare il futuro “meteo-climatologico” della Terra   nelle vere mani della comunità scientifica cioè le sue. Tra l’altro, salverà anche la scienza dal discredito nel quale sta per piombare:   Con i modelli meteo-climatologici (5) la scienza rischia di perdere la sua credibilità, se non fa sentire con forza la sua voce. Dal 1965 la politica commissiona alla “scienza” rapporti e aggiornamenti, proprio perché faccia sentire con forza la sua voce. Ormai la poveretta urla a squarciagola, ma Zichichi non la sente. Perciò vuole una sorta di CERN tutto per sé. La “prova dell’alleanza” tra politica e scienza sarebbe infatti   un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole. Un laboratorio con dentro un mondo identico alla Terra, nel quale verificare sperimentalmente – il solo “rigore scientifico” che Zichichi riconosca – se il clima cambia ogni 140 +/-10 milioni di anni.  Note  Per la parte scientifica, l’Accordo rimanda al 5° rapporto dell’IPCC. Nel volume III, cap. 11, dice che alle piante l’aumento della CO2 in atmosfera giova solo se non aumentano le temperature, e l’intensità e la frequenza di eventi meteorologi estremi come alluvioni, siccità e ondate di calore. Ricredutosi anche Shaviv, ora sostiene che l’attività solare in calo da oltre 40 anni stia causando il riscaldamento globale degli ultimi 40 anni. In una prima versione le nubi riscaldavano il clima, poi Svensmark si è accorto che il flusso degli RCG continuava a calare. Il 5° rapporto IPCC ne parla a pp. 613-614 del volume I. Sono presi in esame da vent’anni. Sia le osservazioni in natura che gli esperimenti Cloud al CERN hanno confermato che il loro effetto sugli aerosol è localizzato sopra le foreste di conifere e “insignificante” per quanto riguarda il clima globale. I modelli meteo simulano l’evoluzione dei fenomeni atmosferici e marini sull’arco di alcuni giorni. Oggi i modelli climatici simulano sull’arco di decenni quella del sistema atmosfera-oceani-terre emerse in base a “scenari” riguardanti le attività economiche future. Ci sono anche modelli climatici di “hindcast” che simulano alcuni aspetti del clima passato, per esempio l’evoluzione della temperatura globale nell’ipotesi che la concentrazione atmosferica di CO2 sia rimasta stabile dal 1800 in poi. Leggi anche: Il clima, il fisico e la mucca sferica  Pubblicato con licenza Creative Commons Attribuzione-Non opere derivate 2.5 Italia.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In “Che disastro demonizzare l’effetto serra”, Antonino Zichichi scrive che lo scopo della conferenza è di “dividere gli USA dal resto del mondo”, perché il presidente Trump non ci ha ancora pensato.",
+          "concept": "scientist and politician",
+          "reasoning": "It features the proper noun 'Antonino Zichichi' as an author and 'presidente Trump' with his title, providing elaborated named entities."
+        },
+        {
+          "rank": 2,
+          "text": "La disciplina è stata immaginata nel 1997 da Henrik Svensmark, con l’aiuto di Eigil Friis-Christensen che si è ricreduto ed è stato sostituito da Nir Shaviv (2).",
+          "concept": "scientists",
+          "reasoning": "This section names multiple scientists with their contributions, aligning with the neuron's pattern for proper nouns with descriptive context."
+        },
+        {
+          "rank": 3,
+          "text": "Perciò vuole una sorta di CERN tutto per sé. La “prova dell’alleanza” tra politica e scienza sarebbe infatti un laboratorio mondiale per mettere su basi di rigore scientifico il futuro meteo-climatologico di questo satellite del sole.",
+          "concept": "research organization",
+          "reasoning": "It references 'CERN' as a named organization in a contextualizing discussion, which should activate the neuron."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
       "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,” friend and fellow Middle East expert Dara Conduit told AFP.",
+          "concept": "expert and government",
+          "reasoning": "This section includes 'Australian government' and 'Dara Conduit' with the descriptive title 'friend and fellow Middle East expert', matching the neuron's pattern for elaborated named entities."
+        },
+        {
+          "rank": 2,
+          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "academic prisoner",
+          "reasoning": "It identifies Kylie Moore-Gilbert with her role as an academic and charges, providing contextualized named entity reference."
+        },
+        {
+          "rank": 3,
+          "text": "“We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,” the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19.",
+          "concept": "diplomatic officials",
+          "reasoning": "The text names 'Dr Moore-Gilbert' and 'ambassador Lyndall Sachs' with their titles and affiliations, enhancing referential specificity."
+        }
+      ]
     }
   ]
 }

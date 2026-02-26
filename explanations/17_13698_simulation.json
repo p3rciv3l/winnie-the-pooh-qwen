@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_13698",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-24T02:20:37Z",
+  "generated_at": "2026-02-25T06:20:28Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to texts discussing political controversies, human rights abuses, and foreign interference (such as forced sterilization policies, election interference by Russia, labeling China a currency manipulator, or contentious international designations).\n\n2. **Domain coverage**: The neuron activates across multiple languages (English, Spanish, Italian, French) in contexts involving geopolitical conflict, coercive state policies, and sensitive historical or social issues. It appears in news articles, human rights reports, and investigative journalism covering topics like election meddling, sanctions, political prisoners, and controversial scientific or ethnic differences.\n\n3. **Contrast with low-activation examples**: High-activation texts consistently feature state-level conflict, coercion, or systemic controversy, while low-activation examples are neutral facts, positive diplomatic exchanges, sports, local incidents, or incomplete fragments lacking contentious elements. Even negative events like terror attacks do not trigger the neuron if presented as isolated criminal acts without geopolitical controversy.\n\n4. **Closing interpretation**: The neuron detects semantic content related to political conflict, human rights violations, and controversial interferences, serving as a sensor for contentious topics in international and domestic politics.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 8.82420825958252,
       "actual_text": "an ornate palace in Helsinki. Vladimir Putin had just denied again that Russia interfered in the 2016 U.S. presidential election. America’s Justice",
       "plain_text": "Time magazine tweeted its latest cover on Thursday, a photograph of President Donald Trump’s face digitally morphing into Russian President Vladimir Putin.  “TIME’s new cover: Trump wanted a summit with Putin. He got way more than he bargained for,” Time tweeted with a link to a commentary in the magazine about Monday’s summit between the two men in Finland:   — TIME (@TIME) July 19, 2018 The lengthy Time article trashes Trump for his comments during a press conference with Putin following their closed-to-press meeting, premised on Trump’s answer to a reporter’s loaded question:   It was a simple question, asked of President Trump by a seasoned reporter, but it sent a jolt through the assembled media at the July 16 press conference held at an ornate palace in Helsinki. Vladimir Putin had just denied again that Russia interfered in the 2016 U.S. presidential election. America’s Justice Department, intelligence community and both chambers of Congress have concluded, definitively, that the Kremlin had done it. Who did Trump trust more?  This was the moment for the President to deliver a forceful rebuke to America’s long-standing adversary. Instead, Trump replied: “I have confidence in both parties,” he said. “I have great confidence in my intelligence people, but I will tell you that President Putin was extremely strong and powerful in his denial today.” Trump has since repeatedly clarified his remarks and even tweeted a video compilation of the times he has called out the Russians for election interference. He also distributed to the media a compilation of actions his administration has taken to thwart future intrusions:   “Trump recognized Russian Meddling MANY TIMES” pic.twitter.com/T8MERS93wI  — Donald J. Trump (@realDonaldTrump) July 19, 2018 Follow @PennyStarrDC on Twitter.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Vladimir Putin had just denied again that Russia interfered in the 2016 U.S. presidential election. America’s Justice Department, intelligence community and both chambers of Congress have concluded, definitively, that the Kremlin had done it. Who did Trump trust more?",
+          "concept": "election interference",
+          "reasoning": "This section directly discusses foreign election interference, a key trigger for the neuron."
+        },
+        {
+          "rank": 2,
+          "text": "This was the moment for the President to deliver a forceful rebuke to America’s long-standing adversary. Instead, Trump replied: “I have confidence in both parties,” he said. “I have great confidence in my intelligence people, but I will tell you that President Putin was extremely strong and powerful in his denial today.”",
+          "concept": "political controversy",
+          "reasoning": "This highlights the controversial response by Trump, indicating political conflict."
+        },
+        {
+          "rank": 3,
+          "text": "Time magazine tweeted its latest cover on Thursday, a photograph of President Donald Trump’s face digitally morphing into Russian President Vladimir Putin. “TIME’s new cover: Trump wanted a summit with Putin. He got way more than he bargained for,” Time tweeted with a link to a commentary.",
+          "concept": "media controversy",
+          "reasoning": "This implies geopolitical tension through media portrayal, aligning with the neuron's focus."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 7.363680839538574,
       "actual_text": "Concerned That Chinese Loans To India's Neighbours May Be Used For Coercive Leverage, Says US Washington, Feb 25 (PTI) The",
       "plain_text": "Deeply Concerned That Chinese Loans To India's Neighbours May Be Used For Coercive Leverage, Says US Washington, Feb 25 (PTI) The US is deeply concerned that the loans being given by China to India’s immediate neighbourhood – Pakistan and Sri Lanka – may be used for coercive leverage, a senior State Department official has said. The U.S. is deeply concerned that the loans being given by China to India’s immediate neighbourhood – Pakistan and Sri Lanka – may be used for coercive leverage, a senior State Department official has said. Donald Lu, Assistant Secretary of State for South and Central Asia, told reporters this ahead of the India trip of Secretary of State Antony Blinken. The American diplomat is travelling to New Delhi on a three-day official visit from Mar. 1 to Mar. 3. “We are talking to India, talking to countries of the region about how we help countries to make their own decisions and not decisions that might be compelled by any outside partner, including China,” Lu said. Earlier in the day, Pakistani Finance Minister Ishaq Dar announced that the Board of China Development Bank (CDB) has approved a $700 million credit facility to the country. Responding to a question Lu said that there has been a serious conversation between India and the U.S. on the issue of China. “We have had serious conversations about China, both before the latest scandal over this surveillance balloon but in the aftermath. So, I fully expect those conversations will continue,” he said. Lu, in response to a question, insisted that the Quad is not a military alliance. “The Quad is not, in fact, an organisation that is against any single country or group of countries. The Quad stands for trying to promote activities and values that support the Indo-Pacific – free and open Indo-Pacific, but Indo-Pacific that’s prosperous and supports the values that we as these four countries represent,” he said. When asked about India’s military relationship with Russia, he said globally Russia is having a really difficult time fulfilling orders for military contracts. “We see plenty of evidence of that around the world. And if you look at press reporting, I think you can see the Indians are also wondering whether Russia will be able to provide for its defenses,” Lu said.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The US is deeply concerned that the loans being given by China to India’s immediate neighbourhood – Pakistan and Sri Lanka – may be used for coercive leverage, a senior State Department official has said.",
+          "concept": "coercive leverage",
+          "reasoning": "This directly mentions coercive leverage by China, matching the neuron's interest in foreign interference."
+        },
+        {
+          "rank": 2,
+          "text": "“We are talking to India, talking to countries of the region about how we help countries to make their own decisions and not decisions that might be compelled by any outside partner, including China,” Lu said.",
+          "concept": "foreign compulsion",
+          "reasoning": "This discusses preventing compelled decisions by outside partners, relevant to geopolitical coercion."
+        },
+        {
+          "rank": 3,
+          "text": "Responding to a question Lu said that there has been a serious conversation between India and the U.S. on the issue of China. “We have had serious conversations about China, both before the latest scandal over this surveillance balloon but in the aftermath.",
+          "concept": "diplomatic tension",
+          "reasoning": "This refers to conversations about China and a surveillance balloon scandal, indicating geopolitical issues."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 6.181906700134277,
       "actual_text": "and Sarah Nance; Ryan, Daniel, Christopher, and Rachel Sentz; great-grandchildren: Erik, Elizabeth, Nevaeh, Daniel, Jacob, Joseph",
       "plain_text": "Kathleen Ann Russu, 82, passed away on Oct. 19, 2020, at her home in St. George, Utah.  Born in Inglewood, California, on March 25, 1938, she was the daughter of Arthur and Canzada Russu. She graduated from Inglewood High School in 1956 and obtained a bachelor’s in art degree from California College of the Arts in 1985.  She married Billy Dewayne Nance on April 1, 1956, and they had three children together – Cindy, Robert and Amber. As a loving and devoted mother, hard worker and exceptionally talented artist, she began her career as a supervisor at Hughes Aircraft in Fullerton, California, before utilizing her artistic skills as a drafting engineer at Eisenhower Medical Center in Rancho Mirage, California. She semi-retired and relocated to St. George in 2013 and continued to work into her late 70s.  Kathleen was a highly esteemed artist whose creative dexterity won her many awards and accolades. Her skills ranged from watercolors to traditional and landscape art quilting. Her landscape art quilt of the Grand Canyon, “Grand 1,” was accepted into and competed at the Paducah Quilt Show in Paducah, Kentucky, in 2010. She was a longtime member of the Coachella Valley Quilt Guild in Rancho Mirage and the Dixie Quilt Guild in St. George, as well as a chair on the Watercolor Society of Oahu during the decade she lived in Hawaii.  She will be remembered as a faithful and loving mother, a kind and gentle grandmother, an admirable and compassionate sister, a doting and warmhearted aunt, and an honest and forgiving friend. The passion and love she poured into her life and her art will continue to define her. Her inspiring strength and independence, her loyalty to her family, her drive to live a fulfilling life, and her eye for the beautiful and unique will be greatly missed.  She is survived by her daughters, Cindy Nance and Amber Gillies, and her husband, David; daughter-in-law Jayne Nance; grandchildren: Amanda Jacobsen; David, Timothy, and Sarah Nance; Ryan, Daniel, Christopher, and Rachel Sentz; great-grandchildren: Erik, Elizabeth, Nevaeh, Daniel, Jacob, Joseph, Max, Shane, Syria-lin and Robert; as well as several nieces, nephews and friends. She is preceded in death by her father and mother, Arthur and Canzada Russu, brother David Russu, sister Linda Jacobsen and brother-in-law Don Jacobsen, and son Robert Nance.  Per her wishes, she will be interred with her mother and sister on Oct. 30, 2020, at Twentynine Palms Cemetery in California with graveside services at 11 a.m. Due to COVID-19 restrictions, memorial services will be delayed.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kathleen Ann Russu, 82, passed away on Oct. 19, 2020, at her home in St. George, Utah. Born in Inglewood, California, on March 25, 1938, she was the daughter of Arthur and Canzada Russu.",
+          "concept": "personal obituary",
+          "reasoning": "This section is a neutral fact about an individual's death, lacking any political controversy."
+        },
+        {
+          "rank": 2,
+          "text": "She graduated from Inglewood High School in 1956 and obtained a bachelor’s in art degree from California College of the Arts in 1985. She married Billy Dewayne Nance on April 1, 1956, and they had three children together – Cindy, Robert and Amber.",
+          "concept": "biographical detail",
+          "reasoning": "This covers personal life events without any contentious elements."
+        },
+        {
+          "rank": 3,
+          "text": "As a loving and devoted mother, hard worker and exceptionally talented artist, she began her career as a supervisor at Hughes Aircraft in Fullerton, California, before utilizing her artistic skills as a drafting engineer at Eisenhower Medical Center in Rancho Mirage, California.",
+          "concept": "career description",
+          "reasoning": "This describes professional achievements in a neutral manner, not triggering the neuron."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Belmont University made the NCAA tournament as an at-large bid for the first time in",
       "plain_text": "Belmont University made the NCAA tournament as an at-large bid for the first time in program history. Mike Organ, USA TODAY NETWORK - Tennessee Selection Sunday is one of the best days of the year in American sports, which is strange to say considering it revolves around guys in suits analyzing what is essentially an enormous PowerPoint presentation. But witness its power. Tennessee and its fans were glum Sunday afternoon after Auburn thumped the Vols in the SEC Tournament title game at Bridgestone Arena. A few hours later, the Vols had a clear, favorable path to the first Final Four in school history. As clear and favorable as things get in this thing, anyway. And it says on this here bracket that the Vols will get there. Belmont coach Rick Byrd, to his credit, allowed cameras in to document his team’s reaction to the pairings, even though he said later he figured the Bruins had “about a 20 percent chance” of getting the OVC’s first at-large bid since 1987. I was more in the 40 percent range. It certainly didn’t look like a strong bet, but Byrd was shedding tears of joy after the NCAA selection committee did the right thing and included the Bruins. This team has been practicing and watching other bubble teams and hoping since a tough OVC Tournament title game loss to Ja Morant and Murray State – a loss in which Belmont missed freshman center Nick Muszynski (ankle) and his 14.9 points a game and rim protection. You can’t know for sure how the elation of getting in will translate to performance just two days later, when the East Region No. 11 seed Bruins (26-5) meet No. 11 seed Temple (23-9) in a “First Four” game in Dayton, Ohio, with the winner going on to play No. 6 seed Maryland on Thursday in Jacksonville, Fla. But I like Belmont’s chances, with Muszynski, in this game against a solid Temple team that has wins this season over Houston and UCF. Mostly because I think Belmont is a tick better, though such evaluations have limitations when you’ve seen one team way more than the other. This would be the first NCAA Tournament win in Belmont history, after seven losses in seven tries since 2006 under Byrd – most notably a 71-70 heartstopper against Duke in 2008 and a hard-fought 79-67 loss to Virginia in its last shot in 2015. BELMONT IN NCAA TOURNAMENT: What to know about Temple, the Bruins' First Four opponent If this happens, Byrd will be ending the coaching career of another legend in his field, Temple’s Fran Dunphy. Dunphy is retiring after the season and handing the program to assistant and former Temple great Aaron McKie. Of course, if Temple beats Belmont, it could end up that Dunphy ends Byrd’s career. We won’t know that answer until the Bruins are done playing, but we know Byrd has made clear he’s on a year-to-year evaluation basis at this point. This bracket says he and the Bruins get to Jacksonville on Thursday, then lose a tough one to the big, athletic Terrapins. And that the next day, an hour from Dayton, South Region No. 2 seed Tennessee (29-5) will handle No. 15 seed Colgate (24-10) in Columbus and move on to bigger things. It could get big right away if one of the tournament’s under-seeded teams, No. 7 seed Cincinnati, takes care of No. 10 seed Iowa on Friday as it should. The Bearcats (28-6) have been ranked most of the season and just thumped No. 9 Houston in the AAC title game, 79-67. Junior guard Jarron Cumberland went off for 33 points, and he is a powerful, 6-foot-5 matchup problem for most teams. Cincinnati is less than 2 hours away from Columbus, so Bearcats fans should have a large presence. UC's Jarron Cumberland on AAC Player of the Year Award Scott Springer, sspringer@enquirer.com This is the least favorable part of the path for UT. But Vols fans can make that drive, too, and I think they’ll be strong in Columbus. I’ve got Rick Barnes’ team surviving that game, taking out No. 6 seed Villanova in the Sweet Sixteen in Louisville, then out-grinding No. 1 seed Virginia to reach Minneapolis and the Final Four. This bracket says Tennessee takes on North Carolina and comes up just short. Duke beats Gonzaga in the other semifinal. And the Zion Williamson-led Blue Devils beat the rival Tar Heels for the national championship. That’s pretty chalky, but there are upsets on this thing. No. 12 seed Murray State over No. 5 seed Marquette is an easy one, but give me No. 14 seed Old Dominion over Purdue and No. 12 seed Liberty over No. 5 seed Mississippi State as well. Contact Joe Rexrode at jrexrode@tennessean.com and follow him on Twitter @joerexrode.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Belmont University made the NCAA tournament as an at-large bid for the first time in program history. Mike Organ, USA TODAY NETWORK - Tennessee Selection Sunday is one of the best days of the year in American sports,",
+          "concept": "sports achievement",
+          "reasoning": "This is about sports and lacks geopolitical conflict or human rights issues."
+        },
+        {
+          "rank": 2,
+          "text": "Tennessee and its fans were glum Sunday afternoon after Auburn thumped the Vols in the SEC Tournament title game at Bridgestone Arena. A few hours later, the Vols had a clear, favorable path to the first Final Four in school history.",
+          "concept": "sports event",
+          "reasoning": "This describes a basketball game and tournament prospects, which are neutral sports content."
+        },
+        {
+          "rank": 3,
+          "text": "Belmont coach Rick Byrd, to his credit, allowed cameras in to document his team’s reaction to the pairings, even though he said later he figured the Bruins had “about a 20 percent chance” of getting the OVC’s first at-large bid since 1987.",
+          "concept": "coach's reaction",
+          "reasoning": "This focuses on a coach's perspective in sports, unrelated to political controversies."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid",
       "plain_text": "Elon Musk’s 2024 X Corp Dominates the New Year Amid Global Developments  The dawn of 2024 ushers in a year of anticipation and strategic shifts in various sectors, from the entertainment industry to space exploration, and the financial market to technological advancements. The year also sees the emergence of 2024 X Corp, a venture by Elon Musk, causing significant ripples in the business and technology landscapes.  Entertainment Industry in Flux  Global levels of production are anticipated to contract, with streaming giants strategizing to turn profits while retaining subscribers. The US TV sector forecasts a development slump of around 40%, while labor strikes further hamper global production. Talks for new contracts are underway in the UK and Canada, and big M&A stories, including the potential sale of Paramount Global, are on the horizon.  India’s Leap into X-ray Astronomy  January 1, 2024, marks a milestone in India’s space journey, as it sets off its first foray into X-ray astronomy. The launch of the X-ray Polarimeter Satellite (XPoSat) and the PSLV Orbital Experimental Module-3 (POEM-3) commences the orbital launch calendar. The mission, designed to last at least five years, aims to study about 50 cosmic sources. Other major players in space exploration, including SpaceX, ExPace, United Launch Alliance, Axiom Space, and Northrop Grumman, have their launches scheduled, making the month a hive of orbital activity.  The Rise of 2024 X Corp  Standing out amongst the news is the rise of 2024 X Corp. The venture, with a strong focus on sustainability, resilience, and adaptability, is making a significant impact in the technological landscape. The company’s ambitious expansion plans, investment in R&D, and the unveiling of new projects at CES 2024 set it apart. With tech IPOs being a potential trend in 2024, industry experts and key executives express optimism about the company’s future prospects.  Financial Markets Respond to Inflation  2024 also sees Jerome Powell, Chairman of the Federal Reserve Board, planning to implement rate cuts from March. This move, predicted to be emulated by leading central banks, comes as a response to slowing inflation. The financial markets ended 2023 optimistically, expecting the Fed to ease policy after its decision to maintain rates on December 14th.  The emergence of 2024 X Corp, amidst these diverse news stories and developments, promises a captivating blend of business strategy, technological innovation, and potential societal transformation, making it a must-watch narrative in the unfolding year.  Comments  Subscribe to BNN Breaking  Sign up for our daily newsletter covering global breaking news around the world.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The dawn of 2024 ushers in a year of anticipation and strategic shifts in various sectors, from the entertainment industry to space exploration, and the financial market to technological advancements. The year also sees the emergence of 2024 X Corp, a venture by Elon Musk, causing significant ripples in the business and technology landscapes.",
+          "concept": "business innovation",
+          "reasoning": "This discusses technological and business developments without political conflict."
+        },
+        {
+          "rank": 2,
+          "text": "January 1, 2024, marks a milestone in India’s space journey, as it sets off its first foray into X-ray astronomy. The launch of the X-ray Polarimeter Satellite (XPoSat) and the PSLV Orbital Experimental Module-3 (POEM-3) commences the orbital launch calendar.",
+          "concept": "space exploration",
+          "reasoning": "This is about scientific achievement in space, not contentious geopolitical issues."
+        },
+        {
+          "rank": 3,
+          "text": "Standing out amongst the news is the rise of 2024 X Corp. The venture, with a strong focus on sustainability, resilience, and adaptability, is making a significant impact in the technological landscape.",
+          "concept": "corporate venture",
+          "reasoning": "This highlights a company's focus on positive values, lacking controversy."
+        }
+      ]
     }
   ]
 }

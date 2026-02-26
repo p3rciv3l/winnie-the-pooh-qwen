@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_6330",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:44:32Z",
+  "generated_at": "2026-02-24T02:44:54Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **references to judicial systems, court proceedings, and governmental/legal authorities** (such as mentions of specific courts like \"Court of Appeal,\" \"Supreme Court,\" or \"Federal High Court\"; judicial actions like \"appeal,\" \"ruled,\" or \"decision\"; and official institutional bodies like \"Coordinación Estatal de Protección Civil\" or \"National Human Rights Commission\").\n\n2. **Domain coverage**: The pattern appears across legal documents, news reports about court rulings, and official government communications. It spans multiple languages (English, Spanish, Italian, Russian) and jurisdictions (U.S. federal courts, Spanish high courts, Nigerian federal courts, regional disaster committees), indicating the neuron detects formal institutional authority rather than a specific national context.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature named courts, judges, legal processes, or state agencies, while low-activation examples cover everyday topics like sports, weather, art, or general news without such institutional references. Even high-activation examples with moderate scores (e.g., 6–7) still include entities like \"regional de la Oficina Nacional de Emergencia\" or \"State Disaster Management Committee.\"\n\n4. **Closing interpretation**: This neuron appears to specialize in detecting formal, authoritative entities and processes within legal and governmental systems, acting as a filter for text involving institutional decision-making or official pronouncements across diverse linguistic and cultural contexts.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 8.80981731414795,
       "actual_text": "1-2014. Con esta decisión final, la Corte Suprema confirma la sentencia en primera instancia en contra de Oscar David Rojas",
       "plain_text": "La Corte Suprema de Justicia por medio de la Sala Penal Permanente declaró inadmisible la casación (anulación) interpuesta por Deiviz Domínguez del Pozo, Oscar David Rojas Palomino, Carlos Manuel Martínez Huaman, Robert Alexander Valer Miranda y Alexander Rafael Euistaquio Quispe contra la sentencia del 06 de agosto del 2018 que confirmaban la condena en contra de la ex autoridad de Andahuaylas, Óscar Rojas Palomino, y 4 ex funcionarios.  Con esta decisión, Rojas Palomino agotó todos los medios para poder salvar su responsabilidad en los actos de corrupción que se dieron en el proyecto emblemático “Ampliación del Sistema de Abastecimiento de Agua Potable en las localidades del Valle del Chumbao, San Jerónimo, Talavera de la provincia de Andahuaylas”, ejecutado por el Consorcio Solidaridad.  Según lo sustentado por la Fiscalía, Oscar Rojas Palomino y los ex funcionarios de la comuna andahuaylina aprovecharon el cargo para beneficiar al Consorcio Solidaridad con una serie de contratos que permitieron el pago irregular de más de 4 millones 706 mil soles en perjuicio de la Municipalidad de Andahuaylas en el período 2011-2014.  Con esta decisión final, la Corte Suprema confirma la sentencia en primera instancia en contra de Oscar David Rojas Palomino, Deiviz Domínguez del Pozo, Carlos Manuel Martínez Human y Robert Alexander Valer Miranda como autores y a Alexander Rafael Euistaquio Quispe como cómplice del delito de colusión agravada en contra de la Municipalidad Provincial de Andahuaylas a 7 años de pena privativa de la libertad y a 5 años de inhabilitación, así como al pago solidario de 5 millones de soles como reparación civil señala el documento.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La Corte Suprema de Justicia por medio de la Sala Penal Permanente declaró inadmisible la casación (anulación) interpuesta por Deiviz Domínguez del Pozo, Oscar David Rojas Palomino, Carlos Manuel Martínez Huaman, Robert Alexander Valer Miranda y Alexander Rafael Euistaquio Quispe contra la sentencia del 06 de agosto del 2018 que confirmaban la condena en contra de la ex autoridad de Andahuaylas, Óscar Rojas Palomino, y 4 ex funcionarios.",
+          "concept": "Supreme Court ruling",
+          "reasoning": "This section explicitly mentions the Supreme Court of Justice and its legal ruling, which is a direct reference to judicial authority."
+        },
+        {
+          "rank": 2,
+          "text": "Con esta decisión final, la Corte Suprema confirma la sentencia en primera instancia en contra de Oscar David Rojas Palomino, Deiviz Domínguez del Pozo, Carlos Manuel Martínez Human y Robert Alexander Valer Miranda como autores y a Alexander Rafael Euistaquio Quispe como cómplice del delito de colusión agravada en contra de la Municipalidad Provincial de Andahuaylas a 7 años de pena privativa de la libertad y a 5 años de inhabilitación, así como al pago solidario de 5 millones de soles como reparación civil señala el documento.",
+          "concept": "Court sentencing",
+          "reasoning": "This section details the final court decision and specific penalties imposed by the Supreme Court, highlighting judicial authority."
+        },
+        {
+          "rank": 3,
+          "text": "Según lo sustentado por la Fiscalía, Oscar Rojas Palomino y los ex funcionarios de la comuna andahuaylina aprovecharon el cargo para beneficiar al Consorcio Solidaridad con una serie de contratos que permitieron el pago irregular de más de 4 millones 706 mil soles en perjuicio de la Municipalidad de Andahuaylas en el período 2011-2014.",
+          "concept": "Prosecution evidence",
+          "reasoning": "This section references the Fiscalía (prosecution) and details of corruption, which involves legal authorities."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 6.933757305145264,
       "actual_text": "that everyday. Gallegos led TC West to its second straight Division 1 regional title with four goals in a 5-1 victory over Muskegon Mona",
       "plain_text": "GRAND LEDGE — The Traverse City West Soccer team wants to know what Tony Gallegos ate for breakfast Thursday. Titans head coach Matt Griesinger wasn’t sure if it was Wheaties, but whatever it was, he wouldn’t mind if Gallegos had that everyday. Gallegos led TC West to its second straight Division 1 regional title with four goals in a 5-1 victory over Muskegon Mona Shores at Grand Ledge High School Thursday.  “Tony was out of his mind,” Griesinger said. “He’s a guy who is so crafty and so quick, he just took over today.” Gallegos netted a first-half hat-trick on his way to four goals Thursday. He has scored six this week during the regional round of playoffs at Grand Ledge. “This is probably his (Gallegos) best game of the year,” Titans junior forward Cooper Davis said. “Tony really stepped up and I think this win, and its five goals, are because of him. He just took it on himself to score and carried us.” Much like Tuesday when he scored in the seventh minute, Gallegos got the Titans started quickly Thursday with a goal in the 11th minute. Gavin Michael centered a pass from the right corner of the goalie box and Gallegos sent it to the twine. It took only seven minutes for Gallegos to net his second. The 25 yard shot found his feet off a header from Colin Blackport and Gallegos banked it off the right post and sent the Titans into total upheaval. “That first one is always a really big boost to us but his second one was even better,” Titans senior defender Finn Durbin said. “It was a moment for us and we take moments seriously. That was a wild goal and it definitely got us going because it was a heck of a moment.” The burst of energy led to another goal for Gallegos less than a minute later, notching his hat-trick off a rebound that came off a long throw from Michael.  The Titans took that 3-0 lead into the break but didn’t let off the gas pedal in the second half. Durbin punched a goal home three minutes into the second half after corralling the last of several rebounds that came from a corner kick by Blackport. “My guys have that toughness and we preach that toughness,” Griesinger said. “We had to be tougher than everything presented to us, not necessarily the other team but the whole situation.” Gallegos added the final tally with eight minutes to play after Mona Shores snagged a goal on a quick set-piece that caught TC West off guard 17 minutes earlier. The Titans have now outscored opponents 43-7 since October 1 and 16-2 since the playoffs began — they scored 16 goals the entire postseason on their way to a state runner-up finish in 2019. “It’s just an indication of what the program was with Jason Carmein from 1997-2014 and what the new coaching staff was able to pick up where he left off,” Griesinger said. “There is a mindset that every guys who comes through West learns their freshman year and then lives for the rest.” Thursday’s win marked the 100th of Griesinger’s career at TC West and the 21st of the season for the Titans, matching the school record for wins in a season. “That record was set before a lot of them were even born so that is kind of cool,” Griesinger said. “There was a lot in addition to the trophy tonight so they were really excited about it.” The Titans (21-1-2) will move on to face defending state champions Troy Athens (14-2-3) at Holt High School in the state semifinal next Wednesday. The Titans fell to the Red Hawks 4-1 in overtime of the D1 state finals game last season. Athens defeated Anchor Bay in a penalty kick shootout Thursday to move to the Final Four. Griesinger preaches to his team that anything can happen in the Final Four and each of the four teams have an equal shot at the title. The Titans will need to fall back on last year’s experience to enact another night of revenge. “The difference this year with the returning players that we have, we know what to expect,” Durbin said of the Final Four berth. “We know how these playoff games, especially in the Final Four, are played. We know what we have to do.”",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "GRAND LEDGE — The Traverse City West Soccer team wants to know what Tony Gallegos ate for breakfast Thursday. Titans head coach Matt Griesinger wasn’t sure if it was Wheaties, but whatever it was, he wouldn’t mind if Gallegos had that everyday. Gallegos led TC West to its second straight Division 1 regional title with four goals in a 5-1 victory over Muskegon Mona Shores at Grand Ledge High School Thursday.",
+          "concept": "Sports competition",
+          "reasoning": "This section mentions a regional title and a high school, which are institutional but not judicial or governmental authorities."
+        },
+        {
+          "rank": 2,
+          "text": "The Titans (21-1-2) will move on to face defending state champions Troy Athens (14-2-3) at Holt High School in the state semifinal next Wednesday.",
+          "concept": "State championship",
+          "reasoning": "This section references a state semifinal and defending state champions, which are formal sports events but not judicial."
+        },
+        {
+          "rank": 3,
+          "text": "Thursday’s win marked the 100th of Griesinger’s career at TC West and the 21st of the season for the Titans, matching the school record for wins in a season.",
+          "concept": "School record",
+          "reasoning": "This section mentions a school record, which is an institutional achievement but not related to legal authorities."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 5.66898250579834,
       "actual_text": "his bail conditions and was still hounding her in May, Warrington Magistrates’ Court was told. Roach also ambushed his ex at her home",
       "plain_text": "Download our blog’s APP from Google Playstore using the link here>>>  Wednesday, 28 September 2022 – A stalker has been hit with a restraining order after bombarding his ex with cash transfers just so she would have to see his abusive messages in the payment reference field.  Jack Roach, 29, from Little Sutton, Cheshire, sent constant texts and calls to Rachel Thomas-Tear, 24, after their three-month relationship ended in January, a court heard.  She blocked him but he continued to call her using withheld numbers and set up fake Snapchat accounts to try and contact her, prosecutors said.  After Rachel changed her number, she started seeing bank payments from Roach with references such as: “Unblock me to talk,” “Scruffy little sl*g” and “Little tramp, no wonder you have got no one.”  He sent the messages to her Monzo account, meaning she would have been forced to see the messages pop up on her phone unless she disabled her notifications.  It’s not known how much money he sent her but the number of transfers totalled 41.  Mum-of-one Rachel reported him for harassment and stalking in February.  But he breached orders not to contact her under his bail conditions and was still hounding her in May, Warrington Magistrates’ Court was told.  Roach also ambushed his ex at her home “asking where she was going and wanting to spend time with her son”.  On other occasions, he left flowers, candles, and other items on her doorstep, Laura Simpson, prosecuting, added.  The 29-year-old admitted to visiting the property but claimed he only wanted to return belongings to Rachel’s son.  He insisted he left the gifts there to “lift her spirits” hoping “that the relationship could be renewed”, the court was told.  Roach denied creating fake social media accounts to contact her or making as many calls as she claimed but admitted stalking and using “insulting and derogatory terms if she did not respond” to him.  In a statement, Rachel said: “Before all this I was a happy outgoing person but this has affected me in such a way that I am no longer able to trust people. I do not go out for fear that I might bump into him.  “I am constantly on edge that he may turn up at my home as he has done. I am saving up for a camera doorbell. I live in fear daily. I do not sleep very well as I am constantly worrying, especially if I hear a noise at night.  “If I go out I am constantly looking over my shoulder. It has impacted on my son as well. I should be able to take him to the park but I can not. I do not visit my family much as they live in the same area as the defendant. It has impacted me majorly, as they are the only support I have.”  Roach was ordered to pay £545 in fines, costs and a victim surcharge and ordered to carry out 135 hours of unpaid work as well as 20 days of rehabilitation activities.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A stalker has been hit with a restraining order after bombarding his ex with cash transfers just so she would have to see his abusive messages in the payment reference field.  Jack Roach, 29, from Little Sutton, Cheshire, sent constant texts and calls to Rachel Thomas-Tear, 24, after their three-month relationship ended in January, a court heard.",
+          "concept": "Restraining order",
+          "reasoning": "This section mentions a restraining order, which is a legal measure issued by a court."
+        },
+        {
+          "rank": 2,
+          "text": "He sent the messages to her Monzo account, meaning she would have been forced to see the messages pop up on her phone unless she disabled her notifications.  It’s not known how much money he sent her but the number of transfers totalled 41.  Mum-of-one Rachel reported him for harassment and stalking in February.  But he breached orders not to contact her under his bail conditions and was still hounding her in May, Warrington Magistrates’ Court was told.",
+          "concept": "Magistrates' Court",
+          "reasoning": "This section explicitly names Warrington Magistrates' Court, a judicial body."
+        },
+        {
+          "rank": 3,
+          "text": "Roach was ordered to pay £545 in fines, costs and a victim surcharge and ordered to carry out 135 hours of unpaid work as well as 20 days of rehabilitation activities.",
+          "concept": "Court sentencing",
+          "reasoning": "This section describes the court-ordered penalties, indicating judicial authority."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
       "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.",
+          "concept": "Prime Minister",
+          "reasoning": "This section mentions the Prime Minister of Slovakia, a governmental authority."
+        },
+        {
+          "rank": 2,
+          "text": "This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.",
+          "concept": "European Commission",
+          "reasoning": "This section references the European Union's executive commission, a governmental body."
+        },
+        {
+          "rank": 3,
+          "text": "President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.",
+          "concept": "President",
+          "reasoning": "This section mentions the President of Slovakia, a governmental authority."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
       "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.",
+          "concept": "New York Times",
+          "reasoning": "This section mentions The New York Times, a corporate entity but not a judicial or governmental authority."
+        },
+        {
+          "rank": 2,
+          "text": "A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible.\"",
+          "concept": "Corporate statement",
+          "reasoning": "This section includes an official statement from a Times spokesperson, representing corporate authority."
+        },
+        {
+          "rank": 3,
+          "text": "The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
+          "concept": "Corporate action",
+          "reasoning": "This section discusses actions taken by The New York Times regarding the game, indicating corporate decision-making."
+        }
+      ]
     }
   ]
 }

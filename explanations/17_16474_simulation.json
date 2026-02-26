@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_16474",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:31:07Z",
+  "generated_at": "2026-02-24T02:23:23Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing political conflicts, ideological extremism, or social upheaval** (such as declarations of independence, anti-apartheid protests, white supremacist riots, or recognition of breakaway territories).\n\n2. **Domain coverage**: The pattern appears in multilingual news or historical discourse (Spanish, Russian, Arabic, English) covering separatist movements (Catalonia, Donbass, Taiwan references), extremist groups (KKK, alt-right, Capitol rioters), oppressive regimes (apartheid, Saddam Hussein), and geopolitical condemnations. It also activates on related cultural artifacts (documentaries, viral tracks referencing such conflicts) and statements invoking collective historical lessons or demands.\n\n3. **Contrast with low-activation examples**: The low-activation texts are largely local news bulletins, routine announcements, entertainment, lifestyle, or apolitical technical reports (e.g., lottery numbers, school settlements, music releases, weather forecasts). They lack the core elements of ideological confrontation, organized political violence, or major geopolitical tension that define the high-activation set.\n\n4. **Closing interpretation**: The neuron appears to detect segments where language is used to describe adversarial, polarized, or violently contested human affairs, often with a focus on groups, leaders, or movements in direct opposition. It filters for discourse centered on power struggles and societal fractures rather than neutral or cooperative events.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.51686954498291,
       "actual_text": ", Denmark. His early childhood was shaped by living through the Great Depression and the Nazi occupation of Denmark. His life-long admiration of America began when the Allies liberated Denmark",
       "plain_text": "Arthur Christensen York, PA - Arthur Christensen of York, PA passed away on September 18, 2020. He was born on July 19, 1935 to Ellen Meta Christensen (Jensen) and Arthur Christensen. He was preceded in death by his dear brother, Christian Finn Christensen. He is survived by Anna, his steadfast and adoring wife of sixty years. He also leaves behind his children Eva Polites, Peter, and William and their spouses Bill, Nancy Yeager, and Alexis. Arthur&#39;s grandchildren are Augusta, Viktor, Ellen Grace, Toren, and Finn. He is also survived by his sister-in-law, Lone, his niece, Mette, and his nephews, Søren and Jakob. Arthur will be remembered as a devoted and loving husband, dedicated and caring father, doting and involved grandfather, respected uncle, and loyal friend. All feel a tangible and enduring sense of loss at his passing. Arthur was born in Nakskov, Denmark. His early childhood was shaped by living through the Great Depression and the Nazi occupation of Denmark. His life-long admiration of America began when the Allies liberated Denmark. He moved to Copenhagen, earned a Master&#39;s in Mechanical Engineering, and met the love of his life, Anna. He settled in America and became a proud and patriotic American, while still revering his Danish heritage and traditions. His professional Engineering career included work with Danish OSHA, hydro turbines, US National Defense, and industrial refrigeration and cooling. He was the Project Engineer in charge of compressor design and testing for the World Trade Center Twin Towers&#39; cooling system. In addition, he worked on the industrial cooling for the Vehicle Assembly Building (VAB) at NASA&#39;s Kennedy Space Center, which was built for the assembly of the Apollo&#x2F;Saturn V moon rocket—the largest rocket ever built. Arthur was a talented pianist who loved to play classical music but also loved to entertain at parties with his own renditions of well-known songs as well as an unforgettable version of Happy Birthday. He imparted his love of music to his children and grandchildren and enjoyed hearing them perform. In 1970, he established, coached, refereed, and played in the first soccer league in York. He enjoyed jogging and playing tennis with his sons, grandchildren, and friends. He was very active in his church, Advent Lutheran, where he was a member since 1965 and sang in the church choir. He also sang with the York Chorus and tutored students from York City elementary schools. As an accomplished intellectual, musician, and athlete, he was a true renaissance man who touched many lives with his kindness and engaging wit. A celebration of life will be held on Saturday, October 3rd at 1:00 PM at Advent Lutheran Church, 1775 East Market Street, York, PA 17402. The service will be live streamed, and a recording will be available at https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCKXA8eGXgcq0nHXPAga62ig. In lieu of flowers, donations can made in his name to the York Symphony Orchestra (https:&#x2F;&#x2F;www.yorksymphony.org&#x2F;ways-to-support-yso&#x2F;donate-to-the-yso&#x2F;), the Cancer Research Institute (https:&#x2F;&#x2F;www.cancerresearch.org&#x2F;join-the-cause&#x2F;donate&#x2F;one-time-donation), or Advent Lutheran. Arrangements by the Etzweiler Funeral Homes and Cremation Service, 1111 E. Market St. York, PA 17403. www.etzweilerfuneralhome.com",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "His early childhood was shaped by living through the Great Depression and the Nazi occupation of Denmark. His life-long admiration of America began when the Allies liberated Denmark.",
+          "concept": "Nazi occupation",
+          "reasoning": "This section directly references a historical political conflict and military occupation, aligning with the neuron's focus on social upheaval."
+        },
+        {
+          "rank": 2,
+          "text": "He was the Project Engineer in charge of compressor design and testing for the World Trade Center Twin Towers' cooling system. In addition, he worked on the industrial cooling for the Vehicle Assembly Building (VAB) at NASA's Kennedy Space Center, which was built for the assembly of the Apollo/Saturn V moon rocket—the largest rocket ever built.",
+          "concept": "iconic structures",
+          "reasoning": "While not directly about conflict, these structures are associated with historical tensions and attacks, potentially triggering the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "Arthur was a talented pianist who loved to play classical music but also loved to entertain at parties with his own renditions of well-known songs as well as an unforgettable version of Happy Birthday. He imparted his love of music to his children and grandchildren and enjoyed hearing them perform.",
+          "concept": "personal hobby",
+          "reasoning": "This section is purely about personal entertainment and lacks any political or conflict-related content, making it unlikely to activate the neuron."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.629639625549316,
       "actual_text": "C-68—America’s 1950 blueprint for conducting the Cold War—cooked up within the Biden administration in anticipation of just such a confrontation.",
       "plain_text": "The new Cold War, like its predecessor, can be traced back to the misinterpretation of Russian intentions. In case of old Cold War, as we now know from diplomatic archives, the West grossly misunderstood the intentions behind the 1948 Berlin Blockade. Western leaders feared it was the beginning of an attack on the West, while Stalin saw it as a means to gain leverage over an increasingly intransigent Truman Administration, and induce it to abide by the Potsdam Agreements. Later, the Korean War would also be seen as a feint to distract American attention from Europe, resulting in what historian Odd Arne Westad calls, “an entirely avoidable war, created by the intensity of ideological conflict among Koreans and a Cold War framework that enabled superpower interventions.”  The origins of the new Cold War can also be traced many years, as the late Stephen Cohen argued in his last book, War With Russia?, reaching a fever pitch only after NATO cavalierly dismissed Russia’s last minute efforts in late 2021 to negotiate a comprehensive pan-European security agreement that would prevent the expansion of NATO into Ukraine.  Once again, many Western leaders labelled the subsequent invasion of Ukraine as a precursor to an attack on NATO, and began making statements about how it must be used to remold the world for future generations. Once this view becomes the conventional wisdom, it is not hard to see how it will be used to ensure domestic support for foreign military adventures for decades to come.  All this hints at the existence of a long term US foreign policy strategy that outside observers can only guess at. I would not be at all surprised if, thirty years from now, future historians learned of the existence of a new NSC-68—America’s 1950 blueprint for conducting the Cold War—cooked up within the Biden administration in anticipation of just such a confrontation. After all, the contents of NSC-68 itself, although rumoured about for years, were only revealed in 1975.  In sum, just as Russia is to blame for the initiation of hostilities in February 2022, so the West is to blame for prolonging them. In this conflict each side is pursuing its own ends, usually at the expense of the Ukrainian people.  As for what the immediate future holds, I would divide this question into two parts: One is “what does the future hold for Ukraine?” The other is “what does the future hold for Russia and the West?”  For Ukraine the foreseeable future is catastrophic. Its population, which was estimated at 42 million before the war, has now probably fallen to below 30 million, and with reconstruction costs upward of $350 billion USD, there will be little to attract those who have fled to come back. Ukraine’s long-term demographic picture therefore looks exceedingly bleak.  Realistically, one must add to this enormous burden, the conundrum that has plagued Ukraine since its independence in 1991—how to create a single national identity in a pluricultural society. The current war has led many Ukrainians to “rally round the flag” against Russian aggression, but as President Zelensky admitted at the 2023 Munich Security Conference, “To be honest, many have fled our state. Many have remained with the invaders of their own accord. And there is plenty of information of this kind.”  The terrible cost to Ukrainian democracy of trying to impose monoethnic nationalism on a country with substantial Russian, Polish, Hungarian, and Romanian minorities is today a taboo subject. Perhaps even understandably so, given the ongoing war. But, as Alexey Arestovych, President Zelensky’s press spokesman until January 2023, recently noted, it will have to be addressed sooner or later:  At every turn we shout about being the freest country, but we don’t even have elementary freedom of speech. In our society, it is considered reprehensible to discuss various scenarios… [but] then what kind of social contract can there be? A social contract is a broad discussion, examining a wide variety of scenarios, even unpleasant ones. This is something we are absolutely unprepared for. Take the simplest example. Ukraine actually has only two options: a monoethnic state or a united states of Ukraine… [but] the monoethnic project is de facto unfeasible. We won’t be able to achieve it. And if we do achieve it, it will lead to a rapid reduction and aging of the country’s population. We will wind up just like all monoethnic countries. \nThis savage combination of economic, industrial, and demographic devastation; cultural, religious, and political rivalry (which the inclusion of Donbass and Crimea would only make more acute); alongside the West’s determination to make Ukraine an instrument for containing Russia, will make it extremely difficult to resist efforts by the far-right, and the increasingly politically influential military, to transform post-war Ukraine into an ethnic authoritarian enclave. To appease Western sensibilities, the trappings of electoral democracy will likely be preserved, but within a system designed to ensure that no candidate from the east or south of Ukraine can ever again emerge to offer the country a culturally pluralistic political alternative. The fact that such a Ukraine will continue to be an apple of discord between Russia and the West long after the current conflict ends, sadly, seems not to trouble political leaders in the slightest. In fact, if there is one thing that Russian, American and European leaders all seem to agree on, it is that they would rather see Ukraine utterly ruined, than allow it to fall into the hands of the enemy.  The only way that I can see to prevent this from coming about is for Ukraine and Russia to negotiate a ceasefire between themselves, regardless of the West’s objections. It is time to recognize the brutal truth of political realism: that only Russia can guarantee Ukraine’s survival, or extinguish it. The question that anyone serious about ending this conflict should be asking, therefore, is this: what does Russia need to end its violence against Ukraine?  According to former Israeli Prime Minister Naftali Bennett, who served as the intermediary in talks in March 2022, at that time Russia was willing to give up both de-Nazification (taking out Zelensky), and the disarmament of Ukraine. What its conditions might be today is anyone’s guess, but the sooner the effort is made to find out, the better the prospects for Ukraine’s survival and recovery.  Ukraine would of course be asked to sacrifice much in any direct negotiations with Russia, but it would survive as a state. And this, as Ukraine’s own historical experience has shown time and again—from the Versailles Treaty of 1919, to the Budapest Memorandum of 1994—is not something that the West has ever been willing to guarantee.  Nicolai N. Petro is Professor of Political Science at the University of Rhode Island. He was a US Fulbright Scholar in Ukraine 2013-2014, and is the author of The Tragedy of Ukraine: What Classical Greek Tragedy Can Teach Us About Conflict Resolution (Berlin and Boston: De Gruyter, 2023).  This article was originally prepared for the website of the American Committee for US-Russia Accord.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The new Cold War, like its predecessor, can be traced back to the misinterpretation of Russian intentions. In case of old Cold War, as we now know from diplomatic archives, the West grossly misunderstood the intentions behind the 1948 Berlin Blockade.",
+          "concept": "Cold War tensions",
+          "reasoning": "This section discusses geopolitical conflicts and ideological misunderstandings central to the neuron's domain."
+        },
+        {
+          "rank": 2,
+          "text": "Once again, many Western leaders labelled the subsequent invasion of Ukraine as a precursor to an attack on NATO, and began making statements about how it must be used to remold the world for future generations.",
+          "concept": "Ukraine invasion",
+          "reasoning": "It describes a current political conflict and military aggression, fitting the neuron's response to geopolitical condemnations."
+        },
+        {
+          "rank": 3,
+          "text": "The terrible cost to Ukrainian democracy of trying to impose monoethnic nationalism on a country with substantial Russian, Polish, Hungarian, and Romanian minorities is today a taboo subject.",
+          "concept": "ethnic conflict",
+          "reasoning": "This highlights ideological extremism and social fractures within Ukraine, matching the neuron's focus on polarized affairs."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.736782073974609,
       "actual_text": "Sunday afternoon, in the historic visit that comes amid warmer relations between the two former Cold War foes. People watched Air Force One from Havana as it approached the runway",
       "plain_text": "President Obama met Cuban President Raúl Castro Monday, during his historic three-day visit to the country.  Castro welcomed Obama inside the Revolutionary Palace before rows of military personnel.  During the meeting, the two presidents are set to discuss bilateral and regional issues, including progress made on normalizing relations and to review areas where Obama's visit can be used to accelerate efforts, according to Ben Rhodes, the White House Deputy National Security Advisor for Strategic Communications & Speechwriting.  ADVERTISEMENT  In a Facebook post Monday, Obama said it was \"humbling\" to be the first U.S. president to visit Cuba in nearly 90 years and that he was there to \"extend the hand of friendship to the Cuban people.\"  Here's a White House video on Obama's visit so far.  Obama landed in Cuba on Sunday afternoon, in the historic visit that comes amid warmer relations between the two former Cold War foes.  People watched Air Force One from Havana as it approached the runway.  ADVERTISEMENT  Air Force One, carrying the president and his family, landed in Havana at 4:19 p.m. ET.  The family then descended the plane's stairs, where Obama set foot on Cuban soil, becoming the first sitting U.S. president to do so since 1928.  \"What's up, Cuba?\" Obama tweeted upon landing, using Cuban slang to ask, \"What's up?\"  Obama will not meet with former leader Fidel Castro, the current president's brother and the revolutionary strongman who led Cuba from 1959-2008. Obama will also meet with Cuban entrepreneurs and members of the country's civil society. He will address the Cuban people directly during a speech on Tuesday. They will attend a state dinner, as well as a Major League Baseball exhibition game between the Tampa Bay Rays and Cuba's national team. Dozens of U.S. lawmakers and business leaders have joined Obama on the trip, which is the first by a sitting U.S. president to Cuba since Calvin Coolidge visited 88 years ago. Starwood executives announced they signed a deal to bring three new hotels to the island becoming the first to enter the hotel market there in 60 years. Airbnb and Marriott Hotels were also cleared do business in Cuba. Marriott President and Chief Executive Officer Arne Sorenson is traveling with U.S. Commerce Secretary Pritzker during the President's visit to Cuba  ADVERTISEMENT  Hours before the president was set to touch down in Havana, however, authorities rounded up dissidents who held an anti-regime protest in the Cuban capital.  Around 50 members and supporters of the Ladies in White group were detained by police outside a church where the group holds weekly demonstrations, the Associated Press reported.  Obama is scheduled to meet with some members of the group, which is comprised of the wives of political prisoners, according to the BBC.  According to the AP, the protesters were surrounded by around 300 Castro-regime supporters before being taken into custody.  Demonstrators are typically detained for a few hours before being released. Protesters from the same Roman Catholic group were also detained prior to Pope Francis's visit to Cuba last year.  ADVERTISEMENT  The normalization of relations between the U.S. and Cuba has seen Washington lift a number of sanctions on the impoverished Communist nation.  This easing of tensions, combined with Obama's visit, has drawn the anger of Republicans and some Democrats, who say the Cuban government has not made enough human rights progress.  Later in the day, the president addressed the U.S. embassy staff \"It's wonderful to be here,\" he said to the crowd. \"This is a historic trip...a future that is brighter than our past.\"  The first family then took a walking tour of Old Havana in the rain.  ADVERTISEMENT  CORRECTION  The president will be in Cuba until Tuesday for a three-day visit. A previous version of this story incorrectly said it was a two-day visit. Air Force One landed at 4:19 p.m. local time. A previous version of this story said the plane landed at 4:20 p.m.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hours before the president was set to touch down in Havana, however, authorities rounded up dissidents who held an anti-regime protest in the Cuban capital. Around 50 members and supporters of the Ladies in White group were detained by police outside a church where the group holds weekly demonstrations, the Associated Press reported.",
+          "concept": "dissident crackdown",
+          "reasoning": "This section describes political repression and social upheaval, directly aligning with the neuron's interest in oppressive regimes and conflicts."
+        },
+        {
+          "rank": 2,
+          "text": "President Obama met Cuban President Raúl Castro Monday, during his historic three-day visit to the country. Castro welcomed Obama inside the Revolutionary Palace before rows of military personnel.",
+          "concept": "diplomatic tension",
+          "reasoning": "The meeting between former Cold War foes involves geopolitical tensions and ideological differences, triggering the neuron."
+        },
+        {
+          "rank": 3,
+          "text": "The normalization of relations between the U.S. and Cuba has seen Washington lift a number of sanctions on the impoverished Communist nation. This easing of tensions, combined with Obama's visit, has drawn the anger of Republicans and some Democrats, who say the Cuban government has not made enough human rights progress.",
+          "concept": "political condemnation",
+          "reasoning": "It involves geopolitical condemnations and human rights issues, which are key aspects of the neuron's activation pattern."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "WWE Superstars Bianca Belair and Montez Ford celebrated their New Year with",
       "plain_text": "WWE Superstars Bianca Belair and Montez Ford celebrated their New Year with their colleagues Ricochet and Samantha Irvin.  Ricochet and Irvin previously made their relationship public in 2021. The couple announced their engagement in early 2023. Meanwhile, Belair and Ford got married in 2018.  Taking to Instagram, Belair posted a photo with her husband. The selfie also featured Ricochet and Irvin. The EST also sent a six-word message.  \"The link up we all needed,\" wrote Belair. Check out Belair's Instagram post:  Bianca Belair and Montez Ford opened up about the origins of their relationship  Bianca Belair and Montez Ford are one of the many couples in WWE. The couple previously opened up about the origins of their relationship.  While speaking with Sherri, Belair confirmed that she made the first move before getting into a relationship with Ford.  \"I made the first move,\" Belair confirmed. \"That was my first time ever going after a guy but my very first time seeing him I told my friend I was like, 'Keep him away from me. That is a beautiful man.' And we happen to be out at the same time that night and I was flirting and flirting and flirting and he just like not paying me any mind and then finally he looked at me he was like, 'I like your makeup.' I was like, 'Why did you say that?' He was like, 'I don't know. I was nervous.' I made the first move and then I accidentally gave him the wrong phone number.\" Belair is currently feuding with Damage CTRL on SmackDown. She was previously betrayed by Asuka, who became the fifth member of the faction. This eventually led to The EST leading her team to victory in the Women's WarGames Match at Survivor Series. Are you a fan of Belair and Ford? Sound off in the comments section below.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "WWE Superstars Bianca Belair and Montez Ford celebrated their New Year with their colleagues Ricochet and Samantha Irvin. Ricochet and Irvin previously made their relationship public in 2021.",
+          "concept": "personal celebration",
+          "reasoning": "This section is about personal relationships and entertainment, lacking any political conflict or social upheaval."
+        },
+        {
+          "rank": 2,
+          "text": "Taking to Instagram, Belair posted a photo with her husband. The selfie also featured Ricochet and Irvin. The EST also sent a six-word message.",
+          "concept": "social media activity",
+          "reasoning": "It describes apolitical social media interactions, which do not match the neuron's focus on adversarial affairs."
+        },
+        {
+          "rank": 3,
+          "text": "Belair is currently feuding with Damage CTRL on SmackDown. She was previously betrayed by Asuka, who became the fifth member of the faction.",
+          "concept": "wrestling storyline",
+          "reasoning": "While 'feuding' and 'betrayed' sound conflict-related, they are part of entertainment fiction and not real political or social conflicts."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Tamil Nadu’s Additional Chief Secretary and Commissioner of Land Administration Girija Vaidyan",
       "plain_text": "Tamil Nadu’s Additional Chief Secretary and Commissioner of Land Administration Girija Vaidyanathan was appointed the state’s new chief secretary on Thursday, reported The Hindu. Vaidyanathan’s appointment comes after income tax officials seized cash, gold and other valuables during raids at Chief Secretary P Ramamohan Rao’s residence and office. However, there is no official confirmation yet if Rao has been removed from the post. According to TheNewsMinute, Rao will remain in service without a posting. Apart from being the chief secretary, Vaidyanathan will also hold additional charge of the vigilance commissioner and commissioner for administrative reforms, reported The Hindu. An IAS officer of the 1981 batch, Vaidyanathan has two-and-a-half years of service left. The Income Tax Department said that they had found Rs 30 lakh in new Rs 2,000 notes, five kilograms of gold and documents with details of undisclosed assets worth Rs 5 crore during Wednesday’s raids at 11 locations, including Rao’s office and residence. A majority of the cash and gold was found at the homes of Rao’s son Vivek and his in-laws. Rao allegedly has close links with Shekhar Reddy, a businessman from whom officials seized at least Rs 90 crore in cash and 100 kilograms of gold in raids at eight locations in Chennai on December 8. Tax officials said Reddy was in regular touch with Rao. “Reddy had direct access to both Rao and a senior politician of the ruling party. We couldn’t raid the politician as we don’t have enough evidence to link him to the illegal transactions,” said a tax official. Meanwhile, the Central Bureau of Investigation arrested Reddy on Wednesday. The agency has also launched a parallel inquiry into investigate the allegations that the Reserve Bank of India and two private banks had helped Reddy exchange notes in the first two weeks after the demonetisation decision was announced on November 8.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Tamil Nadu’s Additional Chief Secretary and Commissioner of Land Administration Girija Vaidyanathan was appointed the state’s new chief secretary on Thursday, reported The Hindu. Vaidyanathan’s appointment comes after income tax officials seized cash, gold and other valuables during raids at Chief Secretary P Ramamohan Rao’s residence and office.",
+          "concept": "corruption scandal",
+          "reasoning": "This section involves political corruption and power struggles, which can be seen as societal fractures and adversarial affairs."
+        },
+        {
+          "rank": 2,
+          "text": "The Income Tax Department said that they had found Rs 30 lakh in new Rs 2,000 notes, five kilograms of gold and documents with details of undisclosed assets worth Rs 5 crore during Wednesday’s raids at 11 locations, including Rao’s office and residence.",
+          "concept": "financial misconduct",
+          "reasoning": "It details illicit activities linked to political figures, reflecting power abuses and social upheaval."
+        },
+        {
+          "rank": 3,
+          "text": "Tax officials said Reddy was in regular touch with Rao. “Reddy had direct access to both Rao and a senior politician of the ruling party. We couldn’t raid the politician as we don’t have enough evidence to link him to the illegal transactions,” said a tax official.",
+          "concept": "political connections",
+          "reasoning": "This highlights the interplay between business and politics, indicating corrupt practices and societal conflicts."
+        }
+      ]
     }
   ]
 }

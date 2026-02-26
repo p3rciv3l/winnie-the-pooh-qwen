@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_4301",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:15:17Z",
+  "generated_at": "2026-02-24T14:45:14Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to the presence of the word \"Chinese\" (as in \"Chinese people,\" \"Chinese negotiators,\" \"Chinese spy balloon,\" \"Simplified Chinese,\" or \"Chinese Communist Party\") regardless of grammatical role or surrounding context.\n\n2. **Domain coverage**: The pattern appears across diverse domains—international relations (U.S.-China trade talks, military incidents), economic reports (stock markets, income data), technology and language references, and domestic Chinese political or social issues. The texts are primarily in English, often from news or geopolitical discourse, but the neuron also activates when \"Chinese\" appears as part of language names (e.g., \"Simplified Chinese\") in multilingual contexts.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack the word \"Chinese\" entirely; they are in other languages (e.g., Arabic, Hindi, Spanish, Greek) or discuss unrelated topics (local crime, regional events). Even texts in non-Latin scripts or about other countries (e.g., Russia, Pakistan) do not trigger the neuron unless they contain the specific token.\n\n4. **Closing interpretation**: This neuron detects the lexical token \"Chinese\" as a surface-level string, acting as a language-agnostic keyword detector. Its activation is driven by token identity rather than deeper semantic themes, highlighting how sparse autoencoders can isolate specific word-level features across contexts.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.92112922668457,
       "actual_text": "footprint. But a rising chorus of Republican vitriol directed at Biden after a Chinese spy balloon flew over the United States this month upended that spirit — giving way",
       "plain_text": "WASHINGTON — Republicans and Democrats are pressing for major legislation to counter rising threats from China, but mere weeks into the new Congress, a bipartisan consensus is at risk of dissipating amid disputes about what steps to take and a desire among many Republicans to wield the issue as a weapon against President Joe Biden. In the House and Senate, leading lawmakers in both parties have managed in an otherwise bitterly divided Congress to stay unified about the need to confront the dangers posed by China’s militarization, its deepening ties with Russia and its ever-expanding economic footprint. But a rising chorus of Republican vitriol directed at Biden after a Chinese spy balloon flew over the United States this month upended that spirit — giving way to GOP accusations that the president was “weak on China” — and suggested that the path ahead for any bipartisan action is exceedingly narrow. “When the balloon story popped, so to speak, it felt like certain people used that as an opportunity to bash President Biden,” said Rep. Raja Krishnamoorthi of Illinois, the top Democrat on the select panel the House created to focus on competition with China. “And it felt like no matter what he did, they wanted to basically call him soft on the CCP, and unable to protect America,” he said, referring to the Chinese Communist Party. “That’s where I think we can go wayward politically,” For now, only a few, mostly narrow ventures have drawn enough bipartisan interest to have a chance at advancing amid the political tide. They include legislation to ban TikTok, the Beijing-based social media platform lawmakers have warned for years is an intelligence-gathering gold mine for the Chinese government; bills that would ban Chinese purchases of farmland and other agricultural real estate, especially in areas near sensitive military sites; and measures to limit U.S. exports and outbound investments to China. Such initiatives are limited in scope, predominantly defensive and relatively cheap — which lawmakers say are important factors in getting legislation over the hurdles posed by this split Congress. And, experts point out, none are issues that would be felt keenly by voters, or translate particularly well into political pitches on the 2024 campaign trail. At the start of the year, the momentum behind bipartisan efforts to confront China seemed strong, with Republicans and Democrats banding together to pass the bill setting up the select panel and legislation to deny China crude oil exports from the U.S. Strategic Petroleum Reserve. A resolution condemning Beijing for sending the spy balloon over the United States passed unanimously after Republican leaders decided not to take the opportunity to rebuke Biden, as many on the right had clamored for. But with partisan divisions beginning to intensify and a presidential election looming, it appears exceedingly unlikely that Congress will be able to muster an agreement as large or significant as the major legislation last year to subsidize microchip manufacturing and scientific research — a measure that members of both parties described as only one of many policy changes that would be needed to counter China. “The biggest challenge is just the overall politicized environment that we’re in right now and the lack of trust between the parties,” said Rep. Mike Gallagher, R-Wis., the chair of the new select panel, who has committed to make his committee an “incubator and accelerator” on China legislation. “Everyone has their guard up.” Still, there are some areas of potential compromise. Many lawmakers are eyeing 2023 as the year Congress can close any peepholes China may have into the smartphones of more than 100 million American TikTok users, but they have yet to agree on how to try to do so. Some Republicans have proposed imposing sanctions to ice TikTok out of the United States, while Rep. Michael McCaul, R-Texas, the chair of the Foreign Affairs Committee, wants to allow the president to block the platform by lifting statutory prohibitions on banning foreign information sources. Sen. Marco Rubio of Florida, the top Republican on the Senate Intelligence Committee, and Sen. Angus King, I-Maine, a member of the panel, want to prevent social media companies under Chinese or Russian influence from operating in the United States unless they divest from foreign ownership. But none have yet earned a seal of approval from Sen. Mark Warner, D-Va., who is chair of the committee and whose support is considered critical to any bill’s success. He was the chief architect of a bill to invest in the semiconductor industry that became a centerpiece of last year’s sweeping China competition bill, known as the CHIPS and Science Act, and he wants to tackle foreign data collection more broadly. “We’ve had a whack-a-mole approach on foreign technology that poses a national security risk,” Warner said in an interview, bemoaning that TikTok was only the latest in a long line of foreign data firms, like Chinese telecom giant Huawei and Russian cybersecurity firm Kaspersky Lab, to be targeted by Congress. “We need an approach that is constitutionally defensible.” There is a similar flurry of activity among Republican and Democratic lawmakers proposing bans on Chinese purchases of farmland in sensitive areas. But lawmakers remain split over how broad such a ban should be, whether agents of other adversary nations should also be subject to the prohibition, and whether Congress should update the whole process of reviewing foreign investment transactions, by including the Agriculture Department in the Committee on Foreign Investment in the United States, an interagency group. “It’s actually kind of a more fraught issue than you would imagine,” Gallagher said. Lawmakers in both parties who want to put forth legislation to limit U.S. goods and capital from reaching Chinese markets are also facing challenges. The Biden administration has already started to take unilateral action on the issue, and further steps could box lawmakers out. Even if Congress can stake out a role for itself, it is not entirely clear which committee would take the lead on a matter that straddles a number of areas of jurisdiction.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "They include legislation to ban TikTok, the Beijing-based social media platform lawmakers have warned for years is an intelligence-gathering gold mine for the Chinese government; bills that would ban Chinese purchases of farmland",
+          "concept": "Chinese keyword",
+          "reasoning": "Contains two instances of the word 'Chinese', which the neuron detects."
+        },
+        {
+          "rank": 2,
+          "text": "But a rising chorus of Republican vitriol directed at Biden after a Chinese spy balloon flew over the United States this month upended that spirit — giving way to GOP accusations that the president was “weak on China” — and suggested that the path ahead for any bipartisan action is exceedingly narrow.",
+          "concept": "Chinese keyword",
+          "reasoning": "Contains the phrase 'Chinese spy balloon', which includes the word 'Chinese'."
+        },
+        {
+          "rank": 3,
+          "text": "bemoaning that TikTok was only the latest in a long line of foreign data firms, like Chinese telecom giant Huawei and Russian cybersecurity firm Kaspersky Lab, to be targeted by Congress.",
+          "concept": "Chinese keyword",
+          "reasoning": "Contains the phrase 'Chinese telecom giant', which includes the word 'Chinese'."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.750131607055664,
       "actual_text": "spokesman said when asked about Trump’s threat to impose the across-the-board tariffs on Chinese goods. Russian Economy Minister Maxim Oreshkin said last week ahead of the",
       "plain_text": "JOHANNESBURG, July 24 — Leaders of the BRICS emerging economies — Brazil, Russia, India, China and South Africa — will meet in Johannesburg this week, with the threat of a worsening global trade war topping the agenda.  US President Donald Trump’s hardening stance has compounded fears of an all-out trade war after he slapped levies on goods from China worth tens of billions of dollars as well as tariffs on steel and aluminium from the EU, Canada and Mexico.  Russian President Vladimir Putin, China’s President Xi Jinping and Indian Prime Minister Narendra Modi will attend the annual three-day summit opening in Johannesburg on Wednesday.  Earlier this month, China said that it would step up cooperation with other developing nations like the BRICS grouping to counter “trade protectionism”.  China on Monday rejected accusations by Trump that it was manipulating the yuan to give its exporters an edge, saying Washington appeared “bent on provoking a trade war”.  Trump has said he is ready to impose tariffs on all US$500 billion (RM2.3 trillion) of China imports, complaining that China’s trade surplus with the US is due to unfair currency manipulation.  “As to the US being bent on provoking a trade war, China does not want a trade war but is not afraid,” China’s foreign ministry spokesman said when asked about Trump’s threat to impose the across-the-board tariffs on Chinese goods.  Russian Economy Minister Maxim Oreshkin said last week ahead of the Johannesburg meeting that “this summit is about the context — we are at a time when the US and China announce new measures almost every week”.  He said much of the discussions with China would likely focus on what is happening with the United States.  “This is a trade war, so leaders’ discussions are particularly important in coordinating our positions,” said Oreshkin.  A unifying cause?  Sreeram Chaulia, of the Jindal School of International Affairs outside Delhi, said BRICS leaders would “concur that the US has unleashed punitive trade wars that are hurting all the BRICS members”.  “They have a collective interest in promoting intra-BRICS trade. The urgency this time is greater,” he said.  The BRICS group, comprising more than 40 per cent of the global population, represents some of the biggest emerging economies, but has struggled to find a unified voice — as well as achieving sharply different growth rates.  Analysts say US trade policy could give the group some renewed momentum.  “Trade agreements between associations of countries like BRICS have become increasingly important given the self-seeking, and ultimately short-sighted, barriers to trade that are being instigated by the US,” Kenneth Creamer, an economist at Johannesburg’s Wits University, told AFP.  “South Africa, and Africa more broadly, can benefit from increasing exports to fast growing countries like India and China. BRICS has the strategic potential to re-shape world trade.”  The trade war risk also dominated a meeting of Group of 20 finance ministers and central bankers at the weekend in Buenos Aires, while International Monetary Fund chief Christine Lagarde again spoke out against the tit-for-tat tariffs.  China’s President Xi was due to hold bilateral talks with South African Cyril Ramaphosa on Tuesday after visiting Senegal and Rwanda as part of a whistlestop tour to cement relations with African allies.  Signalling diplomatic rivalry over influence in Africa, India’s Narendra Modi is visiting Rwanda and Uganda on his own five-day tour of the continent including the BRICS summit.  Turkish leader Recep Tayyip Erdogan will also attend a summit as the current chair of the Organisation of Islamic Cooperation (OIC). Erdogan will reportedly meet Putin on the summit’s sidelines.  European Commission chief Jean-Claude Juncker travels to Washington on Wednesday to meet Trump as part of the EU’s effort to head off a trade war. — AFP",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“As to the US being bent on provoking a trade war, China does not want a trade war but is not afraid,” China’s foreign ministry spokesman said when asked about Trump’s threat to impose the across-the-board tariffs on Chinese goods.",
+          "concept": "Chinese keyword",
+          "reasoning": "Contains the phrase 'Chinese goods', which includes the word 'Chinese'."
+        },
+        {
+          "rank": 2,
+          "text": "JOHANNESBURG, July 24 — Leaders of the BRICS emerging economies — Brazil, Russia, India, China and South Africa — will meet in Johannesburg this week, with the threat of a worsening global trade war topping the agenda.",
+          "concept": "China reference",
+          "reasoning": "Contains the word 'China' but not 'Chinese', so the neuron may activate weakly or not at all."
+        },
+        {
+          "rank": 3,
+          "text": "China on Monday rejected accusations by Trump that it was manipulating the yuan to give its exporters an edge, saying Washington appeared “bent on provoking a trade war”.",
+          "concept": "China reference",
+          "reasoning": "Contains the word 'China' but not 'Chinese', so the neuron may activate weakly or not at all."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 9.459556579589844,
       "actual_text": "share while maintaining profit margins, he claimed. Restrictions on Huawei Technologies Co., a Chinese competitor, helped with this because the business had been prohibited from selling components for",
       "plain_text": "Nokia Revamps Iconic Logo For 1st Time In 60 Years. Reason Is... \"We are still a popular mobile phone brand in most people's eyes, but this is not what Nokia is about, \"Pekka Lundmark, the chief executive officer, made these comments in an interview before Sunday's Mobile World Congress in Barcelona.  Nokia unveiled its plans to overhaul its brand identification. The company revamps it for the first time in nearly 60 years. The redesigned brand was unveiled today (February 26, 2023). Trending Photos New Delhi: As part of its drive for fast expansion in the telecom equipment sector, Nokia on Sunday unveiled its plans to overhaul its brand identification for the first time in nearly 60 years, including a new logo. According to recent updates, Nokia Oyj, a Finnish manufacturer of 5G technology, has updated its emblem. The redesigned brand was unveiled today, on Sunday along with a new set of strategic pillars meant to facilitate speedier expansion as the world adopts fifth-generation mobile technology at an accelerating rate. (Also Read: Kissing Device: Now Long Distance Couples Can Share Virtual Intimate Moments) \"We are still a popular mobile phone brand in most people's eyes, but this is not what Nokia is about, \"Pekka Lundmark, the chief executive officer, made these comments in an interview before Sunday's Mobile World Congress in Barcelona. (Also Read: From SBI to BoB: Here Are 5 Govt Bank FDs Compared-- Check Latest Fixed Deposit Rates For Senior Citizens) \"We aim to introduce a new brand that strongly emphasises networks and industrial digitalization, which is extremely different from the traditional mobile phones.\" HMD Global Oy continues to sell mobile devices with the Nokia brand. Once Microsoft Corp., who acquired the company in 2014, stopped using the name, HMD obtained the rights. Nokia, according to Lundmark, would concentrate on expanding its market share in the industry of selling network equipment to wireless service providers. Nokia now possesses \"the means and the weapons.\" \"to increase market share while maintaining profit margins, he claimed. Restrictions on Huawei Technologies Co., a Chinese competitor, helped with this because the business had been prohibited from selling components for 5G networks by a number of European governments. Nokia also intends to accelerate the expansion of its business providing businesses with private 5G networks. The enterprise division contributed 8% of Nokia's revenue last year, and the next objective is to develop the division \"to double-digit \"territory, mostly by means of organic growth and smaller acquisitions, the CEO added. Live Tv More Stories",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Restrictions on Huawei Technologies Co., a Chinese competitor, helped with this because the business had been prohibited from selling components for 5G networks by a number of European governments.",
+          "concept": "Chinese keyword",
+          "reasoning": "Contains the phrase 'a Chinese competitor', which includes the word 'Chinese'."
+        },
+        {
+          "rank": 2,
+          "text": "Nokia Revamps Iconic Logo For 1st Time In 60 Years. Reason Is... 'We are still a popular mobile phone brand in most people's eyes, but this is not what Nokia is about,'",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        },
+        {
+          "rank": 3,
+          "text": "The company revamps it for the first time in nearly 60 years. The redesigned brand was unveiled today (February 26, 2023).",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Cei de la minister spun că era necesar să fie introduse aceste",
       "plain_text": "Cei de la minister spun că era necesar să fie introduse aceste norme pentru că s-au schimbat multe lucruri din 2009, de când există vechile norme.  \n În primul rând, viitoarele norme stabilesc că în programele locale vor putea fi incluse: \nblocuri de locuințe construite după proiecte elaborate până la 31 decembrie 2005; blocuri de locuințe expertizate tehnic și încadrate în clasa I de risc seismic, la care s-au executat lucrările de intervenție pentru creșterea nivelului de siguranță la acțiuni seismice a construcției existente, la data includerii în programul local;  locuințe sociale și celelalte unități locative, realizate după proiecte elaborate până la 31 decembrie 2005, aflate în proprietatea unităților administrativ-teritoriale sau în proprietatea altor subiecte de drept și în administrarea autorităților deliberative ale administrației publice locale, conform legii, indiferent dacă sunt amplasate în blocuri de locuințe sau sunt locuințe unifamiliale;  locuințe unifamiliale, realizate după proiecte elaborate până la 31 decembrie 2005, aflate în proprietatea persoanelor fizice, cu adaptarea soluțiilor în funcție de caracteristicile, particularitățile și valoarea arhitecturală a locuințelor;  locuințele de la anterioarele două puncte expertizate tehnic și încadrate în clasa I de risc seismic prin raport de expertiză tehnică la care s-au executat lucrările de intervenție pentru creșterea nivelului de siguranță la acțiuni seismice a construcției existente, la data includerii în programul local.  Beneficiarii vor putea folosi platforma digitală investitii.mdlpa.ro. Prin intermediul acestei platforme se vor transmite toate documentele aferente programului și, practic, se va derula relația autorităților cu beneficiarii programului. Mai exact, toate activitățile specifice programului se vor desfășura prin intermediul platformei digitale. Pentru fiecare bloc de locuințe pentru care depun cererea de finanțare, următoarele documente:",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Cei de la minister spun că era necesar să fie introduse aceste norme pentru că s-au schimbat multe lucruri din 2009, de când există vechile norme.",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        },
+        {
+          "rank": 2,
+          "text": "În primul rând, viitoarele norme stabilesc că în programele locale vor putea fi incluse: blocuri de locuințe construite după proiecte elaborate până la 31 decembrie 2005; blocuri de locuințe expertizate tehnic și încadrate în clasa I de risc seismic,",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        },
+        {
+          "rank": 3,
+          "text": "locuințe sociale și celelalte unități locative, realizate după proiecte elaborate până la 31 decembrie 2005, aflate în proprietatea unităților administrativ-teritoriale sau în proprietatea altor subiecte de drept și în administrarea autorităților deliberative ale administrației publice locale, conform legii, indiferent dacă sunt amplasate în blocuri de locuințe sau sunt locuințe unifamiliale;",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Indore (Madhya Pradesh): The Indore Metro project is advancing at a good",
       "plain_text": "Indore (Madhya Pradesh): The Indore Metro project is advancing at a good pace and the authorities have completed 93 percent of the piling work and on the priority corridor, 70 percent pillar formation work has been done. The Metro authorities have stepped on gas at the Radisson Square. The arms of the Metro stations can be seen along the road from the Robot Square towards Radisson Square. There will be a curve on the track from Radisson towards Robot Square and utmost care would be taken while constructing this stretch and for this, the agency has pressed in more labourers.  According to information, the Metro track construction agency has installed several segment launchers to speed up the project. The officials said 93 percent of the piling work is completed and it is expected to get over by January end. Also, the pillar development work along the corridor is expected to get over by February. METRO RAIL PHASE 1 Deadline (Phase-1): September 2023 *Line-3: Palasia – Railway Station – Rajwara Airport – Bhawarsala Length: 31.55 km Type: Elevated & Underground Status: 17.5 km is under construction between Gandhi Nagar to Robot Square Depot: Super Corridor Number of stations: 16 Number of trains: 25 Estimated Daily commuters: 2.50 lakh by 2027 Top Speed: 80 kmph  (If you have a story, you have our ears, be a citizen journalist and send us your story here.)",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Indore (Madhya Pradesh): The Indore Metro project is advancing at a good pace and the authorities have completed 93 percent of the piling work and on the priority corridor, 70 percent pillar formation work has been done.",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        },
+        {
+          "rank": 2,
+          "text": "The Metro authorities have stepped on gas at the Radisson Square. The arms of the Metro stations can be seen along the road from the Robot Square towards Radisson Square.",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        },
+        {
+          "rank": 3,
+          "text": "There will be a curve on the track from Radisson towards Robot Square and utmost care would be taken while constructing this stretch and for this, the agency has pressed in more labourers.",
+          "concept": "non-Chinese",
+          "reasoning": "Does not contain the word 'Chinese', so the neuron should not activate."
+        }
+      ]
     }
   ]
 }

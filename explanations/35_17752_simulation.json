@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_17752",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:11:09Z",
+  "generated_at": "2026-02-24T03:23:32Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **mid-sentence text segments from descriptive, narrative, or explanatory prose** (such as scientific explanations, event narratives, cultural descriptions, or procedural details), particularly those that are linguistically dense and not from the opening sentences of news articles or announcements.\n\n2. **Domain coverage**: The pattern appears across multiple languages (French, Spanish, English, Arabic, Italian, Russian, Greek, etc.) and diverse topics including astronomy, sports, politics, holidays, and cultural events. The texts are consistently drawn from the body of articles or narratives, featuring continuous prose with subordinate clauses, specialized terminology, and contextual details.\n\n3. **Contrast with low-activation examples**: The high-activation texts are embedded narrative or explanatory clauses, while the low-activation examples are almost exclusively English-language news headlines, press release leads, or very short, factual announcements. The low-activation group lacks linguistic density and narrative flow; they are telegraphic, stand-alone statements meant to introduce a topic rather than develop it.\n\n4. **Closing interpretation**: The neuron appears to detect text that is contextually embedded within a larger descriptive or narrative flow, acting as a filter against terse, introductory, or announcement-style text. Its core function is likely to identify prose meant for elaboration rather than summarization.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.69415283203125,
       "actual_text": "die mehr als 60 Mitglieder vor jeder Probe getestet. Sommerfeste sind ebenfalls bereits geplant und der Terminkalender aufgrund der st",
       "plain_text": "Obereisenbacher Musikanten ziehen zum Schnurranten los – unter Corona-Bedingungen Zum Start der Hauptfasnet starten die Obereisenbacher Musikerinnen und Musiker wieder in den musikalischen Betrieb. Nach der langen Pausenphase konnte nun nach den aktuellen Regeln sowie einem großzügigen Hygienekonzept der Probebetrieb wieder aufgenommen werden, schreibt der Verein in einer Pressemitteilung. Die kleine Sporthalle der Grundschule Obereisenbach erfüllt demnach die erforderlichen Hygienevorgaben. Die Musikanten müssen jedoch vorerst weiterhin nach der 2G-Plus-Regel proben. So werden die mehr als 60 Mitglieder vor jeder Probe getestet. Sommerfeste sind ebenfalls bereits geplant und der Terminkalender aufgrund der ständig verschobenen Veranstaltungen proppenvoll, heißt es weiter. Wofür die Spenden aus der Aktion eingesetzt werden sollen Auch finanziell habe der Verein große Einbußen erleiden müssen, es fehle beispielsweise an Geld für die Jugendausbildung, neue Uniformen und Instrumente. Allein während der Corona-Zeit habe der Musikverein Obereisenbach sieben neue Musikerinnen und Musiker bekommen, die eingekleidet werden müssten. Der Zuwachs sei zwar äußerst erfreulich, stelle den Verein jedoch auch vor eine finanzielle Herausforderung. In diesem Jahr wollen die Musikanten deshalb wieder verkleidet zum jährlichen Schnurranten losziehen und die Einwohner in und um Obereisenbach mit musikalischen Ständchen besuchen. Die dabei gesammelten Spenden würden dann, wie die Jahre zuvor, für diese Belange eingesetzt. Das Schnurranten findet am kommenden Fasnetssamstag, 26. Februar, ab 9 Uhr in kleinen Gruppen statt. So läuft das Schnurranten ab Die Musikkapelle bittet dabei darum, aufgrund der immer noch hohen Infektionszahlen von Verpflegungen an den Häusern, in Garagen oder Stuben abzusehen. Die Musiker verpflegen sich selbst und bedanken sich für das Verständnis und die Spendenbereitschaft. Am Morgen werden zunächst alle Musikanten vor Abfahrt von der Vorstandschaft getestet, kündigt der Verein an. Abstand zu den besuchten Bürgerinnen und Bürger sei selbstverständlich. Lediglich der Kassier trete mit Maske zum Haus. Jeder, der keinen Besuch möchte, dürfe sich mit einem Zettel an der Haustüre bemerkbar machen. Auch gebe es die Möglichkeit, Spenden direkt auf das Konto des Musikvereins zu überweisen.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Allein während der Corona-Zeit habe der Musikverein Obereisenbach sieben neue Musikerinnen und Musiker bekommen, die eingekleidet werden müssten. Der Zuwachs sei zwar äußerst erfreulich, stelle den Verein jedoch auch vor eine finanzielle Herausforderung. In diesem Jahr wollen die Musikanten deshalb wieder verkleidet zum jährlichen Schnurranten losziehen und die Einwohner in und um Obereisenbach mit musikalischen Ständchen besuchen.",
+          "concept": "financial challenge",
+          "reasoning": "This section describes a narrative about the financial impact of new members and plans for an event, fitting the neuron's preference for descriptive, explanatory prose."
+        },
+        {
+          "rank": 2,
+          "text": "Die Musikanten müssen jedoch vorerst weiterhin nach der 2G-Plus-Regel proben. So werden die mehr als 60 Mitglieder vor jeder Probe getestet. Sommerfeste sind ebenfalls bereits geplant und der Terminkalender aufgrund der ständig verschobenen Veranstaltungen proppenvoll, heißt es weiter.",
+          "concept": "hygiene protocols",
+          "reasoning": "This section explains ongoing health measures and event planning, providing dense, procedural details that match the neuron's focus on explanatory text."
+        },
+        {
+          "rank": 3,
+          "text": "Das Schnurranten findet am kommenden Fasnetssamstag, 26. Februar, ab 9 Uhr in kleinen Gruppen statt. So läuft das Schnurranten ab Die Musikkapelle bittet dabei darum, aufgrund der immer noch hohen Infektionszahlen von Verpflegungen an den Häusern, in Garagen oder Stuben abzusehen. Die Musiker verpflegen sich selbst und bedanken sich für das Verständnis und die Spendenbereitschaft.",
+          "concept": "event logistics",
+          "reasoning": "This section narrates specific event arrangements and precautions, offering contextual details typical of mid-sentence descriptive prose."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.075546264648438,
       "actual_text": "fulness — and a whole lot of pink. Her new critically acclaimed film, The Miseducation of Cameron Post, also stars Chloë Grace Moretz,",
       "plain_text": "Sasha Lane isn’t here for any preconceived notions of what she “should be.” From her acting career to her style and even her social media, the Texas native is committed to being completely herself in all aspects of life. When we caught up with her in Los Angeles as she celebrated the launch of her newest campaign with UGG, the actor proved her commitment to authenticity, no matter what. Wearing a white two-piece outfit complete with a pair of furry pink UGG slides that matched her metallic eyeliner, Sasha explained her fashion ethos. “I feel like in Texas, it’s you’re walking, you’re working; there’s a bunch of land and nature, so it’s like, I’m not gonna go walk the streets in 10-inch heels and tight skinny jeans. So, it’s like, I want to be comfortable and dress for my situation and my vibe,” she tells Teen Vogue. And that’s exactly what her campaign elicits: a cool, comfortable style, but with a little bit of playfulness — and a whole lot of pink. Her new critically acclaimed film, The Miseducation of Cameron Post, also stars Chloë Grace Moretz, who plays a teenager who is forced into gay conversion therapy. (The story is set in the ‘90s but the practice still happens today.) And Sasha thinks it’s important to talk about this now for a very succinct reason: “Because we have Trump as a president.” “[Conversion therapy] is f*cking insane, so it’s like, this is a perfect time to have this film. Not a lot of people know about it. Not a lot of people know that it’s relevant,” she says. She then goes on to talk about the legality of these camps across the U.S. According to a recent Broadly report, conversion therapy is still legal in 41 states. She continues, “Everyone’s waking up right now, so why not put it in their face?” Clearly, the 22-year-old is not afraid to speak her mind. One scroll through her social media pages and you can find long-form confessional posts about everything from discrimination in Hollywood to the need to be more open about mental health. In one post, she writes, “Y’all hype on ‘raw’ and ‘real’ and ‘diverse’ and ‘natural’ NOW...but watch that trend drop quick as hell.” In another, she speaks on her own mental health issues and how her brother helped her through it. Her motive for being so open? “Since I don’t really give a f*ck, I’ll be the one to say it,” she says. “A lot of my friends who truly know me are like, ‘Sasha, I never thought you’d be so open and share so much,’” she muses. “I’m not as strong as what I’m putting out there, but there are so many people that hit me up and go, ‘I saw you on the street, I was having the worst day of my life, and I knew that you would understand me and that’s how I felt that day.’ The more people I reach, the more I’ll speak.” Let us slide into your DMs. Sign up for the Teen Vogue daily email. Want more from Teen Vogue? Check this out:",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Her new critically acclaimed film, The Miseducation of Cameron Post, also stars Chloë Grace Moretz, who plays a teenager who is forced into gay conversion therapy. (The story is set in the ‘90s but the practice still happens today.) And Sasha thinks it’s important to talk about this now for a very succinct reason: “Because we have Trump as a president.”",
+          "concept": "film relevance",
+          "reasoning": "This section provides explanatory context about a film's subject and its contemporary political relevance, matching the neuron's preference for dense, narrative prose."
+        },
+        {
+          "rank": 2,
+          "text": "Wearing a white two-piece outfit complete with a pair of furry pink UGG slides that matched her metallic eyeliner, Sasha explained her fashion ethos. “I feel like in Texas, it’s you’re walking, you’re working; there’s a bunch of land and nature, so it’s like, I’m not gonna go walk the streets in 10-inch heels and tight skinny jeans. So, it’s like, I want to be comfortable and dress for my situation and my vibe,” she tells Teen Vogue.",
+          "concept": "fashion philosophy",
+          "reasoning": "This section narrates a personal fashion explanation with descriptive details and subordinate clauses, fitting the neuron's focus on elaborative prose."
+        },
+        {
+          "rank": 3,
+          "text": "One scroll through her social media pages and you can find long-form confessional posts about everything from discrimination in Hollywood to the need to be more open about mental health. In one post, she writes, “Y’all hype on ‘raw’ and ‘real’ and ‘diverse’ and ‘natural’ NOW...but watch that trend drop quick as hell.” In another, she speaks on her own mental health issues and how her brother helped her through it.",
+          "concept": "social media openness",
+          "reasoning": "This section describes narrative content from social media posts, offering explanatory and reflective prose that aligns with the neuron's pattern."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.227170944213867,
       "actual_text": "światy - Przemierzaj przepiękne, barwne krainy rozsiane po całej galaktyce, przeżywając",
       "plain_text": "Akimbot: Pełna przygód platformówka pojawi się już tego lata  Do ogrania na PC i konsoalch.  Akimbot to platformowa, przygodowa gra akcji, w której rozwalasz zastępy robotów, pilotujesz statki kosmiczne i na swój własny sposób ratujesz wszechświat przed grożącą mu zagładą! Zanurz się w świecie sci-fi zamieszkałym przez roboty, przemierzaj galaktykę i daj się porwać robo-demolce!  Przedstawiciele firmy PLAION i studia Evil Raptor oficjalnie ogłosili, że ich dzieło zadebiutuje już latem 2024 roku. Platformy docelowe to PlayStation 5, Xbox Series i PC.       Cechy gry  Niewiarygodne światy - Przemierzaj przepiękne, barwne krainy rozsiane po całej galaktyce, przeżywając przy tym emocjonującą przygodę, która rzuci cię w wir pościgów, podskoków i wybuchów wiodących przez najdziwniejsze zakątki wszechświata. Poznaj najróżniejsze ekosystemy, tereny i mieszkańców planet oraz czasoprzestrzeni, przez jakie przebrniesz w trakcie swej wyprawy. Przeprawa przez czasoprzestrzeń - Dołącz do duetu robotów wyjętych spod prawa, Exe i Shipseta, w szaleńczym pościgu za Złogramem, byłym naukowcem dążącym do pogrążenia galaktyki w chaosie. Bohaterowie zostają rzuceni w środek międzygalaktycznego konfliktu i zmuszeni do poszukiwania prawdy, zyskując przy tym gromadę osobliwych kompanów. Misja jest jasna: wcielić się w rolę bohaterów i ocalić galaktykę przed zagładą. ROBOTY, POŚCIGI I WYBUCHY - Zostań kosmicznym strzelcem i rozwalaj roboty w pył gwiezdny. Nasi nietuzinkowi bohaterowie będą zmuszeni szlifować zdolności i rozbudowywać arsenał, by stawić czoła armiom rozmaitych robotów, począwszy od nikczemnych Podwodnych Pułków Złograma. Dopasowuj styl walki do zagrożenia za sprawą najróżniejszych broni, jakie będziesz mieć do dyspozycji w walkach w czasie rzeczywistym i starciach w kosmosie. Dozbrajaj się i modyfikuj arsenał - Zdobywaj uzbrojenie dla Exe i przedzieraj się przez armie wrogów przy pomocy różnorodnych, przepotężnych broni! Gromadź botcoiny, demolując otoczenie i odnajdując ukryte skrzynki, a następnie wydawaj ciężko złupiony grosz w sklepach, aby odblokowywać i modyfikować bronie specjalne! Rzuć się w wir akcji - Skoki, sprinty, wspinaczka i bieg po ścianach? To dopiero początek! Jak przystało na klasyczną platformówkę 3D, w Akimbot poznasz wiele sposobów na przemierzenie galaktyki. Wykorzystuj przyśpieszenie do sprawnego pokonywania krótkich odległości albo sięgaj po system turbodoładowania, aby wykonywać podwójne skoki! Zapnij obwody, rzuć się w wir wybuchowej przygody i wraz z Exe rusz na wyprawę przez wszechświat, by ocalić Algorytm. Akimbot to gwarancja tony dynamicznej zabawy dla każdego!  Za jakość i rzetelność powyższej treści ręczy Wojtini",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Niewiarygodne światy - Przemierzaj przepiękne, barwne krainy rozsiane po całej galaktyce, przeżywając przy tym emocjonującą przygodę, która rzuci cię w wir pościgów, podskoków i wybuchów wiodących przez najdziwniejsze zakątki wszechświata. Poznaj najróżniejsze ekosystemy, tereny i mieszkańców planet oraz czasoprzestrzeni, przez jakie przebrniesz w trakcie swej wyprawy.",
+          "concept": "game world description",
+          "reasoning": "This section densely describes the game's varied environments and adventures, fitting the neuron's preference for descriptive, narrative prose."
+        },
+        {
+          "rank": 2,
+          "text": "Przeprawa przez czasoprzestrzeń - Dołącz do duetu robotów wyjętych spod prawa, Exe i Shipseta, w szaleńczym pościgu za Złogramem, byłym naukowcem dążącym do pogrążenia galaktyki w chaosie. Bohaterowie zostają rzuceni w środek międzygalaktycznego konfliktu i zmuszeni do poszukiwania prawdy, zyskując przy tym gromadę osobliwych kompanów. Misja jest jasna: wcielić się w rolę bohaterów i ocalić galaktykę przed zagładą.",
+          "concept": "story premise",
+          "reasoning": "This section narrates the game's plot with detailed, explanatory clauses, matching the neuron's focus on embedded narrative flow."
+        },
+        {
+          "rank": 3,
+          "text": "ROBOTY, POŚCIGI I WYBUCHY - Zostań kosmicznym strzelcem i rozwalaj roboty w pył gwiezdny. Nasi nietuzinkowi bohaterowie będą zmuszeni szlifować zdolności i rozbudowywać arsenał, by stawić czoła armiom rozmaitych robotów, począwszy od nikczemnych Podwodnych Pułków Złograma. Dopasowuj styl walki do zagrożenia za sprawą najróżniejszych broni, jakie będziesz mieć do dyspozycji w walkach w czasie rzeczywistym i starciach w kosmosie.",
+          "concept": "combat mechanics",
+          "reasoning": "This section explains combat features and upgrades with specialized terminology, aligning with the neuron's preference for explanatory, dense prose."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Readers like you keep news free for everyone. More than 5,0",
       "plain_text": "Readers like you keep news free for everyone.  More than 5,000 readers have already pitched in to keep free access to The Journal.  For the price of one cup of coffee each week you can help keep paywalls away.  Readers like you keep news free for everyone.  More than 5,000 readers have already pitched in to keep free access to The Journal.  For the price of one cup of coffee each week you can help keep paywalls away.  EXTENDING FREE GP care to all in 2026 would cost the State between €381 million and €881 million, new research has estimated.  The report was published today by the Economic and Social Research Institute (ESRI), and funded by the Department of Health.  The research estimates the cost of extending free GP care over time from this year to 2026.  Two main approaches were used in the research to identify the groups of people that would become eligible in each year – one based on age and the other based on income.  In the age-based approach, it is assumed that eligibility for free GP visits will be introduced in 2023 for those aged six and seven, in 2024 for those aged 50 to 69, in 2025 for those aged eight to 17 and, finally, in 2026 for those aged 18 to 49.  Under the income-based approach, it is assumed that current income thresholds for a GP visit card will be extended in 2024, 2025 and 2026 so that approximately one-third of existing non-cardholders become eligible in each year.  The analysis also used varying assumptions about population growth and ageing, take-up rates and payments to GPs.  The research estimated that there would be an additional 1.9 to 2.3 million GP visits in 2026 if free GP care is extended to all.  The projected cost to the State in 2026 of extending free GP care to all has been estimated to be €462 million to €881 million using the age-based approach and €381 million to €881 million using the income-based approach.  Higher costs are associated with higher take-up rates and payments rates for GPs, the research found.  The research outlined that introducing free GP care would reduce out-of-pocket expenditure on GP services in 2026 from an estimated €467 million to €95 million (using the age-based approach).  Back in 2017, a report called the Sláintecare Report presented a detailed vision of a better future for healthcare in Ireland. It made a series of recommendations – including the elimination of this country’s two-tier healthcare system and the removal of inpatient charges.  Sláintecare began to be implemented after that report, but progress has been slow, not least due to Covid-19 and last year’s cyber attack on the HSE’s system. In addition, a number of members of the advisory council have resigned in the past couple of years.  “The Sláintecare report noted the need to move towards a universal health-care system for Ireland,” Dr Sheelah Connolly, lead author of the report, said.  “Increasing the number of people entitled to free GP care would help achieve this objective,” Dr Connolly said.  “However, there may not be a sufficient number of GPs available to deliver the additional visits associated with the ageing and growing population, as well as an increase in the number of people eligible for free GP care in the coming years,” she said.  “If there are not sufficient GPs to meet the additional demand for their services, then, while financial barriers to access may be removed, other barriers including long waits or no availability could hinder access, thereby undermining the universality of the system.”  Echoing these comments, Denis McCauley, chairperson of the Irish Medical Organisation’s GP committee, told The Journal that if the financial barrier is removed people will attend their GP services more frequently.  He raised concerns about the infrastructure in place currently to allow for an increased demand in GP services.  “Introducing a system like that is like telling everyone in Donegal they have free rail travel, and that’s great until you realise there are no railway tracks or trains in Donegal,” McCauley said.  “So, getting everyone free GP care under the present system is that you’d have a GP card but you won’t be able to see a GP, essentially.”  To embed this post, copy the code below on your site",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In the age-based approach, it is assumed that eligibility for free GP visits will be introduced in 2023 for those aged six and seven, in 2024 for those aged 50 to 69, in 2025 for those aged eight to 17 and, finally, in 2026 for those aged 18 to 49.",
+          "concept": "policy rollout",
+          "reasoning": "This section provides detailed, explanatory prose about a phased policy implementation, matching the neuron's focus on dense, descriptive text."
+        },
+        {
+          "rank": 2,
+          "text": "“The Sláintecare report noted the need to move towards a universal health-care system for Ireland,” Dr Sheelah Connolly, lead author of the report, said. “Increasing the number of people entitled to free GP care would help achieve this objective,” Dr Connolly said. “However, there may not be a sufficient number of GPs available to deliver the additional visits associated with the ageing and growing population, as well as an increase in the number of people eligible for free GP care in the coming years,” she said.",
+          "concept": "expert analysis",
+          "reasoning": "This section quotes an expert's explanatory comments on healthcare challenges, offering narrative and contextual details that fit the neuron's pattern."
+        },
+        {
+          "rank": 3,
+          "text": "“Introducing a system like that is like telling everyone in Donegal they have free rail travel, and that’s great until you realise there are no railway tracks or trains in Donegal,” McCauley said. “So, getting everyone free GP care under the present system is that you’d have a GP card but you won’t be able to see a GP, essentially.”",
+          "concept": "analogical critique",
+          "reasoning": "This section uses a narrative analogy to explain a policy flaw, providing descriptive, illustrative prose that aligns with the neuron's preference."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
       "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health.",
+          "concept": "prison conditions",
+          "reasoning": "This section descriptively compares prison facilities and details mental health impacts, fitting the neuron's focus on narrative, explanatory prose."
+        },
+        {
+          "rank": 2,
+          "text": "Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia.",
+          "concept": "arrest context",
+          "reasoning": "This section narrates the circumstances of her arrest and research focus, providing contextual details that match the neuron's preference for embedded narrative."
+        },
+        {
+          "rank": 3,
+          "text": "Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.",
+          "concept": "diplomatic complexity",
+          "reasoning": "This section explains the complexities of negotiations and Iran's internal dynamics, offering dense, explanatory prose that aligns with the neuron's pattern."
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "neuron_id": "26_9144",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:05:38Z",
+  "generated_at": "2026-02-24T03:09:06Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **journalistic or editorial metadata and boilerplate text** (such as reporter credits, copyright disclaimers, datelines, news agency tags, or sign-off phrases like \"Reporting by...\", \"Editing by...\", or \"/PRNewswire/ --\").\n\n2. **Domain coverage**: The pattern appears in multilingual news wires, press releases, and published articles across domains like finance, politics, and general news. It activates on English financial disclaimers (\"$1 = 0.8901 euros) (Reporting By...\"), Arabic news agency credits (\"--(بترا)رصد\"), Indonesian article sourcing (\"dilansir website MK\"), and promotional or legal boilerplate (\"The views and opinions expressed...\"). The common thread is text that frames or attributes the primary content rather than being the primary content itself.\n\n3. **Contrast with low-activation examples**: The low-activation texts consist almost entirely of primary narrative or informational content—direct reporting of events, opinions, or descriptions—without the accompanying editorial scaffolding. They lack reporter bylines, source attributions, publication tags, disclaimers, and standardized sign-off phrases present in the high-activation group.\n\n4. **Closing interpretation**: This neuron detects the formal, repetitive structural elements that surround journalistic and commercial content. It essentially fires on the \"container\" rather than the \"content,\" identifying meta-information about authorship, sourcing, and publication.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.459733963012695,
       "actual_text": "Augean stables of Indian politics. Rajiv Gandhi was projected as Mr Clean in 1984, in a country that was getting jaded",
       "plain_text": "'While people complain of the difficulties they are experiencing because of the lack of currency, they remain supportive so far of Mr Modi's initiative.' 'What the country should be concerned about is the prospect of a prime minister who is willing to sacrifice economic gain and risk large-scale job losses in exchange for personal popularity,' says T N Ninan. Illustration: Uttam Ghosh/Rediff.com A sure way to win politically in the country is to project yourself as someone untouched by corruption, or as someone who will clean the Augean stables of Indian politics.  Rajiv Gandhi was projected as Mr Clean in 1984, in a country that was getting jaded by corruption charges; partly because of that, he swept the elections at the end of that year.  Then, even as the Bofors scandal destroyed that image, V P Singh had grabbed the mantle of Mr Clean by launching tax raids on businessmen, arresting some high-profile ones, and ordering a probe into a defence deal.  Additionally, this product of a minor princeling family who used to be addressed as 'Raja-saab' took on the 'fakir' imagery that today has a new claimant (the election slogan in 1989 was 'Raja nahin, fakir hain').  A quarter of a century later, Arvind Kejriwal exploited the India Against Corruption movement that was a reaction to the scandals engulfing the Manmohan Singh government, and catapulted his Aam Aadmi Party to power in Delhi.  Other state politicians too have got repeated traction with voters by projecting an image that is free (or mostly free) of the corruption taint -- Naveen Patnaik in Odisha, Nitish Kumar in Bihar and Mamata Banerjee in West Bengal.  Manmohan Singh got initial credit for being personally clean, and his government's re-election in 2009 may have had something to do with that.  Now we have Narendra Modi.  During a dozen years as chief minister of Gujarat, Mr Modi managed to avoid any hint of government scandal though he was known to be close to a couple of businessmen who themselves did not have the cleanest reputations.  He has maintained that record during two-and-a-half years as prime minister, and frequently drawn attention to the contrast with what went before.  So even though the BJP must be getting funded no differently from the other political parties, Mr Modi has a level of credibility on the corruption issue that no other politician on the national stage can claim.  This would explain why, despite the notebandi gambit coming unstuck in every way imaginable, and backfiring economically, Mr Modi is able to carry conviction with people across the country -- and thereby avoid the backlash of anger that otherwise should have been inevitable by now.  Reporters who have travelled through Bihar, western UP, Maharashtra and elsewhere report uniformly that, while people complain of the difficulties that they are experiencing because of the lack of currency, they remain supportive so far of Mr Modi's initiative.  They have bought the narrative that the prime minister has taken a bold step to root out corruption.  Unless the economic disruption continues unabated, the BJP's pay-off could come in the UP state elections early in 2017.  What is more, Mr Modi shows every intention of continuing down this road.  As an anti-corruption crusader, Mr Modi could successfully divert attention from an indifferent economic track record.  There are two dangers. The first is that any image contrary to the underlying reality could come unstuck.  If the BJP government gets caught in any fund-raising scandal, or Mr Modi in a crony capitalist deal, then Mr Modi would be vulnerable to the old charge of being a 'feku' (fake).  Second, if any further anti-corruption gambits, such as one that attacks benami property holdings or which gets seen as a return of 'tax terrorism,' causes further economic chaos, then a suffering populace might stop caring that much about whether Mr Modi is clean or not; they would focus on other, more pressing concerns.  These are the issues that should worry Mr Modi.  On its part, what the country should be concerned about is the prospect of a prime minister who is willing to sacrifice economic gain and risk large-scale job losses in exchange for personal popularity -- as he has already done with notebandi.  So, contrary to the title of the movie, once is enough.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Illustration: Uttam Ghosh/Rediff.com A sure way to win politically in the country is to project yourself as someone untouched by corruption, or as someone who will clean the Augean stables of Indian politics. Rajiv Gandhi was projected as Mr Clean in 1984, in a country that was getting jaded by corruption charges; partly because of that, he swept the elections at the end of that year.",
+          "concept": "illustration credit",
+          "reasoning": "Includes an illustration attribution, a form of journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "'While people complain of the difficulties they are experiencing because of the lack of currency, they remain supportive so far of Mr Modi's initiative.' 'What the country should be concerned about is the prospect of a prime minister who is willing to sacrifice economic gain and risk large-scale job losses in exchange for personal popularity,' says T N Ninan.",
+          "concept": "quote attribution",
+          "reasoning": "Contains a direct quote with attribution to a person, common in journalistic content."
+        },
+        {
+          "rank": 3,
+          "text": "Reporters who have travelled through Bihar, western UP, Maharashtra and elsewhere report uniformly that, while people complain of the difficulties that they are experiencing because of the lack of currency, they remain supportive so far of Mr Modi's initiative.",
+          "concept": "reporter reference",
+          "reasoning": "Mentions reporters in a general sense, which might relate to journalistic framing."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.620841026306152,
       "actual_text": ", TCW's fortunes seen set to rise By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan SHANGHAI, April",
       "plain_text": "UPDATE 3-In split from SocGen, TCW's fortunes seen set to rise  By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan  SHANGHAI, April 10 Chinese money market rates fell sharply for the fourth week on Friday as the central bank's efforts to ease a protracted short term liquidity crunch showed signs of gaining traction. At midday on Friday, the volume weighted average yield on the benchmark seven-day bond repurchase agreement (repo) was trading at 2.88 percent. The last time the seven-day repo closed below 3 percent was in October 2014. For the week, the seven-day repo was down 52 basis points (bps), following a 53 point drop the week before. The 14-day repo was also down substantially on the week, falling 49 bps to 3.44 percent. On Tuesday, the Chinese central bank adjusted its guidance for the seven-day repo down 10 bps to 3.45 percent, the fourth such cut since the Chinese New Year in February. These signals from the central bank, combined with lower pressure on yuan liquidity from a rising dollar, appear to have helped ease a long drought in the money markets which persisted for weeks after the Lunar New Year. Rates usually fall after the new year as cash demand for gifts and other expenses ebbs. Nonetheless, longer-term rates have continued to creep upward since late February, suggest that the central bank and other policymakers have more work to do if they want to guide real borrowing costs for investment down. Analysts said that easing money market liquidity conditions might not persist without more aggressive intervention by the People's Bank of China. \"The weak inflation profile suggests that further monetary policy easing is still needed in spite of recent retreats of onshore money market rates,\" wrote Li-Gang Liu and Zhou Hao of ANZ Bank in a research note Friday. \"We believe that only permanent liquidity injection will be able to sustain the current favourable monetary conditions to head off the risk of deflation.\" The People's Bank of China (PBOC) cut interest rates on Feb. 28 in its latest effort to support the economy as momentum slows, after its first rate cut in more than two years in November and a reduction in banks' reserve requirement ratios (RRR) in early February. China's inflation data for March produced small positive surprises on Friday, but remained tepid, with little sign that Beijing's easing measures to date have significantly reduced worrisome deflationary pressures. SHORT TERM RATES: Instrument RIC Rate* Change (weekly, bps)** 1-day repo 2.41 -38.99 7-day repo 2.88 -52.04 14-day SHIBOR 3.44 -49.13 7-day SHIBOR 2.97 -53.60 *The volume-weighted average price (Vwap) at midday Friday ** Compared to the Vwap at market close the previous Friday KEY INTEREST RATE SWAPS: Instrument RIC Rate Spread vs 1 yr official deposit rate* 2 yr IRS based on 1 2.32 -68 year benchmark 5 yr 7-day repo swap 3.27 27 1 yr 7-day repo swap 3.09 9 *This spread can be seen as a proxy for forward-looking market expectations of an interest rate cut or rise. GOVERNMENT BOND FUTURES Contract RIC Rate* Pct change (pct) Jun 2015 96.50 -0.58 Sep 2015 96.84 -0.45 Dec 2015 97.69 -0.41 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MARKET DRIVERS - China ready to cut rates again on fears of deflation - China cuts interest rates to spur growth, ease debt pressure - As China looks to ease policy, yuan may be set to fall - Lending relaxation to help stabilise market interest rates - As cash crunch anniversary looms, traders guess at c.bank policy direction - Muted impact of capital inflows a step towards liberalizing deposits - Tax man's attack on shadow banking startles markets - China eases Jan credit squeeze with cash, surprising transparency - Market braces for bouts of tight liquidity in 2014 - Beijing eases corporate debt rules to offset crackdown - China corporate financing squeezed as reform plans spark rate spike DATA POINTS - Fiscal deposits drive interbank liquidity trends GRAPHIC: link.reuters.com/pem75t - Maturing central bank bills and repos upcoming GRAPHIC: r.reuters.com/vyr95t - Chinese government bond curve rises on rate reform expectations GRAPHIC: link.reuters.com/jyr95t - China's interest-rate swap curve rises, flattens on liquidity fears GRAPHIC: link.reuters.com/ryr95t - China corp bond spreads widen on risk aversion GRAPHIC: link.reuters.com/bas95t >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ($1 = 6.2164 Chinese yuan) (Reporting by Nathaniel Taplin; Editing by Kim Coghill)",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "UPDATE 3-In split from SocGen, TCW's fortunes seen set to rise By Greg Roumeliotis and Jessica Toonkel and Jennifer Ablan SHANGHAI, April 10 Chinese money market rates fell sharply for the fourth week on Friday as the central bank's efforts to ease a protracted short term liquidity crunch showed signs of gaining traction.",
+          "concept": "dateline and byline",
+          "reasoning": "Includes update tag, multiple author bylines, and a dateline, key journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "($1 = 6.2164 Chinese yuan) (Reporting by Nathaniel Taplin; Editing by Kim Coghill)",
+          "concept": "reporting and editing credits",
+          "reasoning": "Standard journalistic sign-off with reporter and editor attributions."
+        },
+        {
+          "rank": 3,
+          "text": "SHORT TERM RATES: Instrument RIC Rate* Change (weekly, bps)** 1-day repo 2.41 -38.99 7-day repo 2.88 -52.04 14-day SHIBOR 3.44 -49.13 7-day SHIBOR 2.97 -53.60",
+          "concept": "financial data",
+          "reasoning": "Primary content without journalistic boilerplate, so low activation."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.21022891998291,
       "actual_text": "Borneo Orangutan Survival Foundation (BOSF) at Bukit Baka Bukit Raya National Park in Katingan, Central Kalimantan",
       "plain_text": "Rare albino animals  A rare albino wallaby joey is seen inside an enclosure at a zoo in Kazan, Russia May 21, 2021. The newborn wallaby called Alisa is inquisitive and calm, according to zookeepers. REUTERS/Alexey Nasyrov  A juvenile albino penguin is presented to the public for the first time at the Gdansk Zoo in Gdansk, Poland, March 22, 2019. Agencja Gazeta/Michal Ryniak via REUTERS  A newborn albino red-necked wallaby joey is carried by its mother in their enclosure at the zoo in Decin, Czech Republic, March 13, 2019. REUTERS/David W Cerny  Alba, the world's only known albino orangutan, leaves a cage as it is released back into the wild by the wildlife conservation group Borneo Orangutan Survival Foundation (BOSF) at Bukit Baka Bukit Raya National Park in Katingan, Central Kalimantan...more  A rare five-year-old female albino orangutan is seen after it was rescued from captivity by authorities in Kapuas Hulu district, Central Kalimantan province, Indonesia April 29, 2017. BOSF/Indrayana via REUTERS  A rare albino southern right whale calf surfaces off the coast of the Valdez Peninsula in Argentina's Patagonia region September 13, 2010. REUTERS/Maxi Jonas  A Colombian albino peacock opens his plumage at the Botanic Garden in Bogota June 15, 2005. REUTERS/Eliana Aponte EA/KS  An albino baby Bennett's wallaby is carried by his mother in their enclosure at the zoo in Duisburg, Germany June 22, 2012. REUTERS/Ina Fassbender  White albino Japanese rat snakes are seen in Iwakuni, southwestern Japan, April 15, 2008. REUTERS/Toru Hanai  An albino zebra walks in Maasai Mara National Reserve, Kenya September 17, 2016. REUTERS/Goran Tomasevic  An albino baby turtle swims with green sea babies turtle in a pond at Khram island, Thailand June 17, 2009. REUTERS/Chaiwat Subprasom  Albino alligators are seen in a vivarium at the Tropical aquarium in Paris, February 12, 2014. REUTERS/Philippe Wojazer  Albino gorilla 'Copito de Nieve' (Snow Flake), the only one known in the world, sits inside his cage in Barcelona zoo September 14, 2003. REUTERS/Albert Gea  A rare albino axolotl, a type of salamander that uniquely spends its whole life in its larval form, crawls inside an aquarium at Aquaria KLCC in Kuala Lumpur, November 30, 2008. REUTERS/David Loh  A rare albino dolphin swims with a companion off the South Australian coast in March 1994. REUTERS/Stringer  A rare white albino alligator named \"White Diamond\" is seen at the 'Serengeti' Safari park in the northern German village of Hodenhagen April 2, 2008. REUTERS/Christian Charisius  India's healthcare system is reeling under a massive wave of coronavirus infections, as the country reports some 250,000 infections and 4,000 deaths daily. 3:17pm EDT A truce between Israel and Hamas took hold on Friday after 11 days of cross-border fighting. 10:47am EDT After huddling at home during Israel's 11-day bombardment of Gaza, the shock of seeing houses and other buildings destroyed after yet another conflict tempered... 9:38am EDT Palestinians poured into Gaza's streets to celebrate after a truce between Israel and Hamas began on Friday at the hour set by Egyptian mediators. 9:27am EDT",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "A rare albino wallaby joey is seen inside an enclosure at a zoo in Kazan, Russia May 21, 2021. The newborn wallaby called Alisa is inquisitive and calm, according to zookeepers. REUTERS/Alexey Nasyrov A juvenile albino penguin is presented to the public for the first time at the Gdansk Zoo in Gdansk, Poland, March 22, 2019. Agencja Gazeta/Michal Ryniak via REUTERS",
+          "concept": "news agency credits",
+          "reasoning": "Contains multiple photo captions with Reuters agency tags, journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Alba, the world's only known albino orangutan, leaves a cage as it is released back into the wild by the wildlife conservation group Borneo Orangutan Survival Foundation (BOSF) at Bukit Baka Bukit Raya National Park in Katingan, Central Kalimantan...more A rare five-year-old female albino orangutan is seen after it was rescued from captivity by authorities in Kapuas Hulu district, Central Kalimantan province, Indonesia April 29, 2017. BOSF/Indrayana via REUTERS",
+          "concept": "agency credit",
+          "reasoning": "Includes agency credit via Reuters, matching journalistic boilerplate."
+        },
+        {
+          "rank": 3,
+          "text": "3:17pm EDT A truce between Israel and Hamas took hold on Friday after 11 days of cross-border fighting. 10:47am EDT After huddling at home during Israel's 11-day bombardment of Gaza, the shock of seeing houses and other buildings destroyed after yet another conflict tempered... 9:38am EDT Palestinians poured into Gaza's streets to celebrate after a truce between Israel and Hamas began on Friday at the hour set by Egyptian mediators. 9:27am EDT",
+          "concept": "time stamps",
+          "reasoning": "Includes EDT time stamps typical of news updates and boilerplate."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "Genesis' new compact crossover looks amazing. The GV70 is Genesis' latest crossover",
       "plain_text": "Genesis' new compact crossover looks amazing. The GV70 is Genesis' latest crossover, and it looks so damn good. While it takes many cues from other new Genesis models, the GV70 has an overall look that's all its own. The greenhouse gives us serious Porsche 928 vibes, and that's a good thing. It's on the inside where things get really wild, with lots of oval-shaped design elements. Like other Genesis models, it has exquisite-looking detailing and all the materials seem high-end. Genesis also revealed the GV70 Sport, which gets unique design elements like larger air intakes. The GV70 Sport has a pair of large round exhaust tips and different wheel designs. On the inside, the Sport has microsuede upholstery, carbon-look trim and a more traditional steering wheel. Purple? Hell yeah. Keep swiping to see more of the 2022 Genesis GV70. Be respectful, keep it civil and stay on topic. We delete comments that violate our policy, which we encourage you to read. Discussion threads can be closed at any time at our discretion.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Be respectful, keep it civil and stay on topic. We delete comments that violate our policy, which we encourage you to read. Discussion threads can be closed at any time at our discretion.",
+          "concept": "comment policy",
+          "reasoning": "Standard boilerplate text for online discussions, editorial metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Genesis' new compact crossover looks amazing. The GV70 is Genesis' latest crossover, and it looks so damn good. While it takes many cues from other new Genesis models, the GV70 has an overall look that's all its own.",
+          "concept": "primary content",
+          "reasoning": "Direct product description without journalistic framing, low activation."
+        },
+        {
+          "rank": 3,
+          "text": "On the inside, the Sport has microsuede upholstery, carbon-look trim and a more traditional steering wheel. Purple? Hell yeah. Keep swiping to see more of the 2022 Genesis GV70.",
+          "concept": "product features",
+          "reasoning": "Continues primary content without metadata, so low activation."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
       "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP) An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing.",
+          "concept": "dateline and agency",
+          "reasoning": "Starts with a dateline and AFP credit, key journalistic metadata."
+        },
+        {
+          "rank": 2,
+          "text": "Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still. © 2020 AFP",
+          "concept": "copyright disclaimer",
+          "reasoning": "Ends with a standard copyright notice from AFP, a news agency."
+        },
+        {
+          "rank": 3,
+          "text": "Australia's foreign ministry has said securing her release is an 'absolute priority', but was forced to admit this week that her whereabouts were unknown.",
+          "concept": "primary content",
+          "reasoning": "Direct reporting without journalistic boilerplate, low activation."
+        }
+      ]
     }
   ]
 }

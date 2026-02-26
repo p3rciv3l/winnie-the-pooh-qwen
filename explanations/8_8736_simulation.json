@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_8736",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T08:14:59Z",
+  "generated_at": "2026-02-24T04:37:16Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to text containing specific numeric codes, formal identifiers, or precise alphanumeric references (such as legal treaty names like \"Минска-2\", operation codes like \"Operation Blue Star\", regulatory identifiers like \"Securities and Exchange Commission\", or numeric figures like \"84 %\", \"8,494 shares\", and \"3,841 accounts\").\n\n2. **Domain coverage**: The pattern appears predominantly in formal reporting contexts: international news dispatches (especially from agencies like Reuters, Xinhua), financial/regulatory filings, legal documents, and official statements involving governments, corporations, or military/security operations. It activates across multiple languages (English, Russian, French, Spanish, Vietnamese, etc.) but only when the text includes these precise codes, numbers, or official names. The topics are often serious: conflicts, treaties, accidents, financial data, legal proceedings, and geopolitical events.\n\n3. **Contrast with low-activation examples**: The low-activation texts lack these specific alphanumeric codes or precise formal references. They discuss general topics (e.g., video games, tourism, personal opinions, unquantified events) or contain news without embedded codes, numbers, or official identifiers. For instance, while a high-activation text might mention \"1984 National Assembly shooter\" (including a year and formal title), a low-activation text discusses \"the US election\" in general terms without numeric or coded specifics.\n\n4. **Closing interpretation**: This neuron detects text segments that serve as formal anchors or citations within a narrative—specifically alphanumeric codes, years, percentages, share counts, treaty names, or operation titles that ground a statement in a verifiable, official, or quantified context. It acts as a filter for dense, referential information typical of journalistic, financial, or governmental discourse.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.054936408996582,
       "actual_text": "Ram Narayan. 4. CINEMA BANDI – NETFLIX ‘Everyone is a filmmaker by heart’, that’s what Cinema Bandi tries to",
       "plain_text": "With movie releases getting delayed and IPL suspended, OTT platforms are our only source of entertainment. Interestingly, this week is filled with some exciting releases especially South Indian movies. Check out the upcoming Telugu, Tamil and Malayalam movies releasing this week on Zee5, Amazon Prime Video and Sun NXT that you must bookmark. 6 South Indian movies releasing this week on Zee5, Amazon Prime Video and Sun NXT that you must bookmark 11th May 2021 1. NIZHAL – Amazon Prime Video Directed by Appu N Bhattathiri, the movie Nizhal stars Nayanthara, Kunchacko Boban, Divya Prabha. The movie revolves around John Baby, a judicial magistrate recovering from a traumatic accident. He meets a young boy who tells him some interesting murder stories. Based on his narration, Baby starts digging up events that connect with real-time events. 14th May 2021 2. CHECK – Sun NXT The National award winner filmmaker Chandra Sekhar Yeleti brings a story that will pique your interest. Check is the story of a man falsely accused of being a terrorist who becomes a chess champion in the prison. With a death sentence hanging over his head, his last wish is to have a chess match with Vishwanath Anand. The movie stars Nithiin, Rakul Preet Singh, Priya Prakash Varrier, and Simran Choudary. 3. BATTALA RAMASWAMI BIOPIKKU – Zee5 Meet Ramaswami who has two aims in life – one to practice monogamy and be like Lord Rama. Second to run a successful saree business. However, faith has other plans for him and he is seen tying the knot with two other women. How that happens forms the premises of this comedy flick starring Bhadram, Siri Chandana, Lavanya Reddy. The movie is directed by Ram Narayan. 4. CINEMA BANDI – NETFLIX ‘Everyone is a filmmaker by heart’, that’s what Cinema Bandi tries to show through its script. Presented by filmmaker duo Raj and DK, the movie is about two friends who plan to shoot a film with a camera they find in the back of their auto-rickshaw. The intention behind making the movie is to make money and solve issues that their community is facing. 5. NENJAM MARAPPATHILLAI – Zee5 Starring S. J. Suryah, Regina Cassandra and Nandita Swetha, Nenjam Marappathillai is a horror film with twists and turns. The story revolves around a woman who takes up the job of a nanny and plots revenge against her lustful employer. 6. ARANYA – ZEE5 Based on real-life environmental activist Jadav Payeng, director Prabhu Solomon’s movie is all about how humans should co-exist with nature and animals instead of destructing it for their gain. The movie is also among IMDb’s highest-rated Tamil movies of 2021 and has a strong message about forest and its conservation. 6 South Indian movies releasing this week on Zee5, Amazon Prime Video and Sun NXT that are a must-watch Enjoyed reading this article? To receive more articles like this, sign up for the GQ Newsletter",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "6 South Indian movies releasing this week on Zee5, Amazon Prime Video and Sun NXT that you must bookmark 11th May 2021 1. NIZHAL – Amazon Prime Video Directed by Appu N Bhattathiri, the movie Nizhal stars Nayanthara, Kunchacko Boban, Divya Prabha.",
+          "concept": "release date and numbering",
+          "reasoning": "This section contains a specific date (11th May 2021) and a numbered list item, which are precise alphanumeric references."
+        },
+        {
+          "rank": 2,
+          "text": "14th May 2021 2. CHECK – Sun NXT The National award winner filmmaker Chandra Sekhar Yeleti brings a story that will pique your interest. Check is the story of a man falsely accused of being a terrorist who becomes a chess champion in the prison.",
+          "concept": "date and numbered list",
+          "reasoning": "This section includes a date (14th May 2021) and a list number (2), matching the neuron's pattern for numeric codes."
+        },
+        {
+          "rank": 3,
+          "text": "Based on real-life environmental activist Jadav Payeng, director Prabhu Solomon’s movie is all about how humans should co-exist with nature and animals instead of destructing it for their gain. The movie is also among IMDb’s highest-rated Tamil movies of 2021 and has a strong message about forest and its conservation.",
+          "concept": "year reference",
+          "reasoning": "This section includes the year 2021, which is a numeric figure that grounds the information in a specific time."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 7.571131706237793,
       "actual_text": "di quest'anno con eventi alluvionali, il Ponte Morandi e questi eventi sismici che avevano già colpito la",
       "plain_text": "Palermo (askanews) - Domani sarà dichiarato lo stato d'emergenza per le zone in provincia di Catania colpite dal terremoto di Santo Stefano. Lo ha assicurato il vice premier Luigi Di Maio che si è recato in visita a Zafferana Etnea, uno dei comuni più danneggiati dal sisma in Sicilia. \"Noi ce la mettiamo tutta per affrontare tutte le emergenze. E' stato un anno, quello 2018, in cui per le emergenze lo Stato è stato molto sollecitato e noi ci ritroviamo alla fine di quest'anno con eventi alluvionali, il Ponte Morandi e questi eventi sismici che avevano già colpito la provincia di Catania nei mesi scorsi. E' stato un anno nel quale siamo stati in prima linea più volte per cercare di affrontare queste emergenze e la grande sfida del 2019 è creare delle Leggi dello Stato che possano permetterci di affrontare le emergenze in maniera organica e fuori dal Patto di Stabilità\".",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "\"Noi ce la mettiamo tutta per affrontare tutte le emergenze. E' stato un anno, quello 2018, in cui per le emergenze lo Stato è stato molto sollecitato e noi ci ritroviamo alla fine di quest'anno con eventi alluvionali, il Ponte Morandi e questi eventi sismici che avevano già colpito la provincia di Catania nei mesi scorsi.\"",
+          "concept": "year and bridge name",
+          "reasoning": "This section contains the year 2018 and the specific bridge name 'Ponte Morandi', which are precise references in a formal report."
+        },
+        {
+          "rank": 2,
+          "text": "Palermo (askanews) - Domani sarà dichiarato lo stato d'emergenza per le zone in provincia di Catania colpite dal terremoto di Santo Stefano. Lo ha assicurato il vice premier Luigi Di Maio che si è recato in visita a Zafferana Etnea, uno dei comuni più danneggiati dal sisma in Sicilia.",
+          "concept": "disaster declaration",
+          "reasoning": "This section mentions a specific emergency declaration and location names, which are formal identifiers in a news context."
+        },
+        {
+          "rank": 3,
+          "text": "E' stato un anno nel quale siamo stati in prima linea più volte per cercare di affrontare queste emergenze e la grande sfida del 2019 è creare delle Leggi dello Stato che possano permetterci di affrontare le emergenze in maniera organica e fuori dal Patto di Stabilità\".",
+          "concept": "year reference",
+          "reasoning": "This section includes the year 2019, which is a numeric code anchoring the statement in time."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 6.487011432647705,
       "actual_text": "late on Saturday has so far claimed 222 lives, injured 843 people and damaged hundreds of buildings. It was thought to have been caused by",
       "plain_text": "By Arab News By Ismiri Lutfia Tisnadibrata The tsunami that struck the Indonesian islands of Java and Sumatra late on Saturday has so far claimed 222 lives, injured 843 people and damaged hundreds of buildings. It was thought to have been caused by undersea landslides following the Mount Anak Krakatau volcanic eruption in Sunda Strait, between the two islands. Indonesian social media was abuzz with criticism toward the country’s official response for downplaying initial reports of a tsunami. The Meteorology, Climatology and Geophysics Agency (BMKG) tweeted on Saturday night that the waves which hit coastal areas on both sides of the strait were high tidal waves caused by the full moon. It advised people to stay calm and ended its tweet with a sunglasses emoji. It revised the tweet shortly afterwards and announced that the agency had not recorded any seismic activities that could have triggered a tsunami. It also acknowledged that the emoji on its previous tweet was inappropriate. The spokesman for the National Disaster Mitigation Agency (BNPB), Sutopo Purwo Nugroho, who has become a reliable source for the series of disasters that have hit Indonesia, announced shortly after midnight on Sunday that tidal waves had swamped beaches in Lampung province on the southern tip of Sumatra and in Banten on the western coast of Java. BMKG head Dwikorita Karnawati said in an early morning, televised press conference said the agency’s tide gauges detected a rise on the sea level but could not immediately determine whether it was a tsunami and needed more time to analyze it. “Further analysis showed that the wave was indeed a tsunami. The pattern of the waves were similar to that in Palu,” Karnawati said, referring to the tsunami triggered by undersea landslide that followed a 7.5 magnitude earthquake and hit Palu and its neighboring districts on Sept 28. The BMKG was also under fire for lifting its tsunami early warning too early following the Palu earthquake. BNPB’s Nugroho has since apologized for the error in his earlier announcement which stated that the wave was only tidal surge waves instead of a tsunami, saying that BNPB based its announcement on the BMKG’s analysis. “The BMKG and the Geology Agency are still examining the undersea landslides,” Nugroho said in a press conference from Yogyakarta on Sunday afternoon. “It was difficult to provide early warning for tsunami caused by undersea landslides,” he added. No tsunami warning was issued as the result of the confusion on the agencies’ initial assessment. The BMKG said that, based on the geology agency’s record, the eruption occurred at 9.03pm on Saturday, and the tsunami hit coastal areas in Lampung and Banten at 9.27pm. The authorities have not provided information on the height of the waves. The worst hit area was the Pandeglang district of Banten, where popular beach resorts were packed with holiday-goers spending the Christmas and New Year holiday season. The western Java transmission unit of the state electricity company, PLN, was having a staff and family outing at one resort and had hired a band called Seventeen. Video footage showed the wave crashing over the stage as the band performed. The band said it had lost its bassist, guitarist and road manager, and that other members, including the wife of the singer, were still unaccounted for. Nugroho said 164 people were killed in the district, with 446 houses, nine hotels, 350 vessels and boats and 73 vehicles badly damaged. “This is a lesson for us because we don’t have early warning system for tsunami triggered by undersea landslides or volcanic activities,” Nugroho said. The Mount Anak Krakatau volcano is a new volcano that began to form in 1927 in the caldera of Krakatau, decades after that volcano’s major eruption in 1883 that triggered a mega tsunami and killed about 36,000 people in the then Dutch Indies. The sound of its eruption was heard as far as the western part of Australia and its volcanic ash drifted as far as Europe. The volcano, which is one of the 127 active volcanoes that dot the Indonesian archipelago, has continued to form and its activity has increased its height by 4 to 6 meters every year, Nugroho said.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Nugroho said 164 people were killed in the district, with 446 houses, nine hotels, 350 vessels and boats and 73 vehicles badly damaged. “This is a lesson for us because we don’t have early warning system for tsunami triggered by undersea landslides or volcanic activities,” Nugroho said. The Mount Anak Krakatau volcano is a new volcano that began to form in 1927 in the caldera of Krakatau, decades after that volcano’s major eruption in 1883 that triggered a mega tsunami and killed about 36,000 people in the then Dutch Indies.",
+          "concept": "damage statistics and historical data",
+          "reasoning": "This section contains multiple numeric figures (164, 446, 9, 350, 73, 1927, 1883, 36,000) and historical references, which are dense quantitative details."
+        },
+        {
+          "rank": 2,
+          "text": "The tsunami that struck the Indonesian islands of Java and Sumatra late on Saturday has so far claimed 222 lives, injured 843 people and damaged hundreds of buildings. It was thought to have been caused by undersea landslides following the Mount Anak Krakatau volcanic eruption in Sunda Strait, between the two islands.",
+          "concept": "casualty figures",
+          "reasoning": "This section includes specific numbers of casualties (222 and 843), which are precise numeric figures typical of disaster reporting."
+        },
+        {
+          "rank": 3,
+          "text": "The Meteorology, Climatology and Geophysics Agency (BMKG) tweeted on Saturday night that the waves which hit coastal areas on both sides of the strait were high tidal waves caused by the full moon. It advised people to stay calm and ended its tweet with a sunglasses emoji. It revised the tweet shortly afterwards and announced that the agency had not recorded any seismic activities that could have triggered a tsunami.",
+          "concept": "agency announcement",
+          "reasoning": "This section mentions a formal agency (BMKG) and its actions, which is a type of official identifier in news discourse."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "A San Francisco police officer who trains the department on uses of force testified on Monday that",
       "plain_text": "A San Francisco police officer who trains the department on uses of force testified on Monday that Officer Terrance Stangel complied with his training when he repeatedly clubbed a man with a baton during a 2019 incident near Fisherman’s Wharf.  Officer Patrick Woods’ testimony came on the third week of a closely watched police brutality trial against Stangel, who is charged with assault and battery after prosecutors said he used excessive force when he beat Dacari Spiers while out on a domestic violence call.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "that Officer Terrance Stangel complied with his training when he repeatedly clubbed a man with a baton during a 2019 incident near Fisherman’s Wharf.",
+          "concept": "year reference",
+          "reasoning": "This section includes the year 2019, which is a precise numeric anchor for the incident."
+        },
+        {
+          "rank": 2,
+          "text": "Officer Patrick Woods’ testimony came on the third week of a closely watched police brutality trial against Stangel, who is charged with assault and battery after prosecutors said he used excessive force when he beat Dacari Spiers while out on a domestic violence call.",
+          "concept": "trial week",
+          "reasoning": "This section mentions the specific week (third week) of the trial, a numeric ordinal in a legal proceeding."
+        },
+        {
+          "rank": 3,
+          "text": "A San Francisco police officer who trains the department on uses of force testified on Monday",
+          "concept": "testimony day",
+          "reasoning": "This section specifies the day of testimony (Monday), which is a temporal marker in formal reporting."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "THE QUESTION Did The New York Times make Wordle harder? THE SOURCES",
       "plain_text": "THE QUESTION  Did The New York Times make Wordle harder?  THE SOURCES  THE ANSWER  No, The New York Times did not make Wordle harder.  WHAT WE FOUND  To understand whether the game’s gotten harder, you have to understand how the daily word is chosen.  This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.  So to see if the Times made the game harder, you can look at the source code for the original website’s word list, and compare it to the new one. (Yes, it’s possible to see the complete list, in order, so you could cheat if you really wanted. Spoiler alert: clicking those links will reveal the daily answers.)  When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer.  When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.  The Times did not add any new words. Any word that appears in this version of the game would have appeared in the original version too.  That means, if anything, the Times actually made the game easier.  A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible. We will continue to review the solutions, and remove obscure or potentially insensitive words.\"  The order of the words remains the same as the original site, too. However, since the Times removed those six words, some words were bumped up. That’s why people who still had access to the original website recently had “agora” as their answer, while most users had “aroma.” The Times did not add “aroma” to the word list; it was already next up after “agora,\" which was removed from the new site.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "When you download and compare the two lists, you’ll find they’re nearly identical. The only change is that the original list is six words longer. When the Times took over, it removed six words (agora, pupal, lynch, fibre, slave, and wench) either because they might be offensive, or because they were just too obscure.",
+          "concept": "word removal count and list",
+          "reasoning": "This section contains the numeric count 'six words' and a list of specific removed words, which are precise references."
+        },
+        {
+          "rank": 2,
+          "text": "This isn’t like the crossword, where puzzle masters decide the answers for each day. The answers were pre-determined long ago by the creator, Josh Wardle. There’s a set list of about 2,500 words that are assigned to different days.",
+          "concept": "word count",
+          "reasoning": "This section includes the number 2,500, which is a precise figure for the word list size."
+        },
+        {
+          "rank": 3,
+          "text": "A spokesperson for the Times confirmed this in a statement: \"Since acquiring Wordle, we have not made the puzzle harder. We have not added any words to the solutions list, which was already predetermined by the game's original creator. On the contrary, we did remove a few obscure words (as an example, we removed 'AGORA'), in an effort to make the puzzle more accessible.\"",
+          "concept": "confirmation statement",
+          "reasoning": "This section includes a direct quote from a spokesperson and the specific example 'AGORA', which is a precise alphanumeric reference."
+        }
+      ]
     }
   ]
 }

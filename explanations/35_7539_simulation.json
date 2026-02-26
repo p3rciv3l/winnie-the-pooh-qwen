@@ -1,7 +1,7 @@
 {
   "neuron_id": "35_7539",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:19:32Z",
+  "generated_at": "2026-02-24T03:43:59Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text segments describing official actions, reports, or announcements by institutional entities** (such as government decrees, scientific bulletins, legislative processes, or public service instructions).\n\n2. **Domain coverage**: The pattern appears in multilingual news or official communications about civic, scientific, and administrative events. Examples span Spanish (earthquake reports, legislative debates), French (law project criticism), German (personal anecdote with formal tone), Arabic (ministry casualty reports), Greek (state funeral), Italian (Giro d'Italia organization), and others. Topics include seismology, legislation, infrastructure work, public safety guidelines, and official statements.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature an institutional actor (government, ministry, service, scientific center) carrying out or commenting on a procedural action. The low-activation examples lack this; they cover general news, celebrity/entertainment, opinion, promotional content, or simple announcements without a clear institutional voice or formal procedural context.\n\n4. **Closing interpretation**: The neuron detects formal, procedural language where an organization or public authority is the subject enacting a report, decision, or advisory. It essentially fires on markers of institutional agency and official communication within news-like text.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.67878532409668,
       "actual_text": ", y también la participación de las fuerzas armadas\", aseguró el jefe de la Región Policial Lima, general Víctor Zanabr",
       "plain_text": "Las autoridades de Perú desplegaron un operativo de seguridad masivo en Lima ante la llegada de miles de habitantes de zonas rurales que tienen previsto protestar el jueves contra la presidenta del país, Dina Boluarte, en medio de un ambiente de tensión tras la muerte de un segundo manifestante en el sur del país. La policía desplegó \"11.800 efectivos en las calles para el control de disturbios, tenemos más de 120 camionetas y 49 vehículos militares, y también la participación de las fuerzas armadas\", aseguró el jefe de la Región Policial Lima, general Víctor Zanabría. \"La policía esta en alerta máxima\", agregó. El jueves se conoció la muerte de un segundo manifestante herido de bala horas antes en el tórax cuando se manifestaba en Macusani, región de Puno, informó a la AFP la Defensoría del Pueblo. El miércoles una mujer murió también de un balazo en el marco de las protestas en Macusani, donde una turba quemó una comisaría y un local judicial. Estos dos decesos elevaron a 44 el total de fallecidos desde que estalló la crisis, el pasado siete de diciembre. Agentes de policía fueron rescatados por un helicóptero durante el ataque a la comisaría, señaló el canal N de televisión, sin mostrar imágenes. En las regiones de Puno, Huánuco, Tacna centenares de campesinos se movilizaron por las calles. En Lima, pequeñas marchas empezaron desde distintos puntos de cara a converger en un punto determinado de la capital para una marcha que debe recorrer unos 20 kms por la ciudad de 10 millones de habitantes. El aeropuerto de Arequipa, segunda ciudad del Perú, suspendió sus operaciones por seguridad. El servicio de ferrocarriles entre Cusco y la ciudadela inca Machu Picchu, joya del turismo de Perú, también se suspendió, informó la compañía operadora. Los manifestantes reclaman la renuncia de Boluarte y la convocatoria inmediata de elecciones. \"En Lima, la lucha tendrá más peso. Cuando nos reprimen en nuestras regiones, nadie lo menciona\", aseguró Abdón Félix Flores, de 30 años, un campesino que se dice listo \"a dar su vida\". Salió el domingo de Andahuaylas, epicentro de las manifestaciones en diciembre, para llegar a Lima el martes. Ha sido imposible conocer hasta el momento el alcance de la movilización y cuántas personas llegaron a Lima, pese a los diversos anuncios que circulan. Antes de que las muertes en Macusani, el secretario general de la Confederación General de Trabajadores del Perú (CGTP) dio una conferencia de prensa. \"Las marchas continuarán. Todas las regiones del país han dicho que no regresarán a su lugar de origen mientras no renuncie Dina Boluarte\" dijo a la AFP Gerónimo López, líder sindical que convocó a la huelga. \"No habrá paz social. Hay un desborde social en el pueblo como nunca se ha visto, es el clamor del pueblo peruano\", manifestó. Aunque el gobierno decretó el domingo un estado de emergencia por 30 días en Lima, Cuzco, Callao y Puno, el dirigente sindical precisó que los organizadores no solicitaron autorización para la concentración. \"No hay autorización de la policía, nunca se pide autorización para una manifestación social, no es una obligación que nos autoricen\", aseguró, a pesar de que el estado de emergencia suspende las libertades de reunión y circulación, además de permitir la intervención del ejército para el mantenimiento del orden. Perú vive intensas protestas desde que el 7 de diciembre fue destituido por el Congreso el presidente izquierdista Pedro Castillo y arrestado por un fallido golpe de Estado con el cual intentó cerrar el Parlamento, gobernar por decretos y convocar a una Asamblea Constituyente. La crisis también refleja la inmensa brecha que existe entre la capital y las provincias pobres que respaldan al presidente Castillo, de origen indígena, y que veían en su elección una forma de revancha contra el desprecio de Lima. La presidenta Boluarte llamó a la calma el lunes: \"Sabemos que quieren tomar Lima por todo lo que está saliendo en las redes el 18 y 19, yo los llamo a tomar Lima, sí, pero en paz, en calma\". Boluarte era la vicepresidenta de Castillo, al que reemplazó según establece la Constitución, y proviene del mismo partido, pero es vista como una \"traidora\" por los manifestantes. Las autoridades han previsto un importante dispositivo de seguridad en vista de la gran concentración. El miércoles por la noche, varias pequeñas manifestaciones en Lima fueron vigiladas de cerca por la fuerza pública. Varias estatuas y monumentos del centro de la capital estaban envueltos en lonas de plástico para protegerlos de eventuales daños. pgf/ljc/dl/mas/dga",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "La policía desplegó \"11.800 efectivos en las calles para el control de disturbios, tenemos más de 120 camionetas y 49 vehículos militares, y también la participación de las fuerzas armadas\", aseguró el jefe de la Región Policial Lima, general Víctor Zanabría. \"La policía esta en alerta máxima\", agregó.",
+          "concept": "police deployment",
+          "reasoning": "This section reports an official police deployment and statement by a high-ranking police chief."
+        },
+        {
+          "rank": 2,
+          "text": "La presidenta Boluarte llamó a la calma el lunes: \"Sabemos que quieren tomar Lima por todo lo que está saliendo en las redes el 18 y 19, yo los llamo a tomar Lima, sí, pero en paz, en calma\".",
+          "concept": "presidential address",
+          "reasoning": "This section contains a direct quote from the president making an official appeal for calm."
+        },
+        {
+          "rank": 3,
+          "text": "El jueves se conoció la muerte de un segundo manifestante herido de bala horas antes en el tórax cuando se manifestaba en Macusani, región de Puno, informó a la AFP la Defensoría del Pueblo.",
+          "concept": "casualty report",
+          "reasoning": "This section is an official report by the Defensoría del Pueblo, a state institution, on a casualty."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.078311920166016,
       "actual_text": "ипіхотні вибухові пристрої, фугаси, міновані завали. До того ж",
       "plain_text": "Понад 500 тисяч протитанкових мін: на Півночі триває укріплення кордонів  Джерело: Командування Об'єднаних сил ЗСУ У північних регіонах України тривають заходи з укріплення кордонів. На можливих напрямках ворожого наступу встановили понад 500 тисяч протитанкових мін.  Командувач Сил оборони України Сергій Наєв повідомив, що системи мінно-вибухових та інших загороджень нарощують з червня 2022 року. За рішенням Ставки Верховного Головнокомандувача, триває фортифікаційне обладнання позицій другої лінії.  \"Ми спільно створюємо умови для того, щоб державний кордон України в Північній операційній зоні став абсолютно непрохідним для ворожих сил\", – наголосив Наєв.  За його словами, щільність мінно-вибухових загороджень вдалося збільшити в 16 разів. Крім протитанкових мін, встановили також протипіхотні вибухові пристрої, фугаси, міновані завали.  До того ж встановили невибухові загородження й підготували до руйнування мости та дороги.  Триває протидиверсійна робота  На випадок ворожих спроб прорвати державний кордон створили контрдиверсійні резерви.  Протидиверсійні резерви застосовують різні тактики дій, які змінюються відповідно до конкретної бойової ситуації, що дозволяє вчасно виявити спроби прориву ворожих сил,  – зазначив Наєв. \n  На найзагрозливіших напрямках використовують інженерні перешкоди, засоби контролю й спостереження за місцевістю та аеророзвідку. Зверніть увагу! У трьох прикордонних областях Росії – Бєлгородській, Курській і Брянській – тримають 19 тисяч солдатів. Крім військових об'єктів, окупанти намагаються зруйнувати енергетичну, транспортну й промислову інфраструктуру. Ситуація на Півночі: останні новини  Російські окупанти 1 січня обстріляли Сумщину \"Шахедами\". Станом на 18:00 відомо про двох загиблих. Раніше на Чернігівщині активізувались російські диверсійно-розвідувальні групи. Влада запевнила, що триває посилення фортифікацій. Наразі на білоруському кордоні спокійно, але розслаблятися зарано. Ситуація може змінитись у будь-який момент, тож потрібно бути напоготові.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Командувач Сил оборони України Сергій Наєв повідомив, що системи мінно-вибухових та інших загороджень нарощують з червня 2022 року. За рішенням Ставки Верховного Головнокомандувача, триває фортифікаційне обладнання позицій другої лінії. \"Ми спільно створюємо умови для того, щоб державний кордон України в Північній операційній зоні став абсолютно непрохідним для ворожих сил\", – наголосив Наєв.",
+          "concept": "military briefing",
+          "reasoning": "This section features a detailed official statement by the Ukrainian Defense Forces commander about fortification efforts."
+        },
+        {
+          "rank": 2,
+          "text": "Понад 500 тисяч протитанкових мін: на Півночі триває укріплення кордонів. Джерело: Командування Об'єднаних сил ЗСУ У північних регіонах України тривають заходи з укріплення кордонів. На можливих напрямках ворожого наступу встановили понад 500 тисяч протитанкових мін.",
+          "concept": "border fortification report",
+          "reasoning": "This section reports on ongoing border fortification measures, citing the Joint Forces Command as the source."
+        },
+        {
+          "rank": 3,
+          "text": "Влада запевнила, що триває посилення фортифікацій. Наразі на білоруському кордоні спокійно, але розслаблятися зарано. Ситуація може змінитись у будь-який момент, тож потрібно бути напоготові.",
+          "concept": "official assurance",
+          "reasoning": "This section includes an official assurance from authorities about ongoing fortification and situational awareness."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.306386947631836,
       "actual_text": "un tractocamión color blanco y una jaula que trasportaba bovino, con las características de la unidad que buscaban, por lo que",
       "plain_text": "Apatzingán, Mich, 31 de octubre de 2017.- En una pronta intervención realizada por la Procuraduría General de Justicia del Estado (PGJE) en coordinación con las secretarías de la Defensa Nacional y de Seguridad Pública, se logró el aseguramiento de un vehículo que transportaba 70 cabezas de ganado, y que horas antes fue robado en la localidad de Pinzándaro.  Derivado de la denuncia presentada la tarde del lunes pasado, por un trabajador de una empresa de cárnico que fue despojado de un camión que transportaba cabezas de ganado, personal de la Dirección de Investigación y Análisis de la Fiscalía Regional, Sedena y SSP implementó un operativo de búsqueda en el municipio de Buenavista para dar con los responsables de este hecho.  Al circular por la carretera Apatzingán-Agulilla, a la altura del crucero de Pinzándaro, el personal detectó un tractocamión color blanco y una jaula que trasportaba bovino, con las características de la unidad que buscaban, por lo que realizaron la revisión que confirmó que se trataba del vehículo con reporte de robo.  Con base en ello, la unidad y el ganado fueron asegurados y presentado ante el agente del Ministerio Público, que se encargará de continuar con las investigaciones correspondientes para esclarecer el hecho.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "En una pronta intervención realizada por la Procuraduría General de Justicia del Estado (PGJE) en coordinación con las secretarías de la Defensa Nacional y de Seguridad Pública, se logró el aseguramiento de un vehículo que transportaba 70 cabezas de ganado, y que horas antes fue robado en la localidad de Pinzándaro.",
+          "concept": "law enforcement operation",
+          "reasoning": "This section describes an official intervention by multiple state agencies to secure stolen livestock."
+        },
+        {
+          "rank": 2,
+          "text": "Derivado de la denuncia presentada la tarde del lunes pasado, por un trabajador de una empresa de cárnico que fue despojado de un camión que transportaba cabezas de ganado, personal de la Dirección de Investigación y Análisis de la Fiscalía Regional, Sedena y SSP implementó un operativo de búsqueda en el municipio de Buenavista para dar con los responsables de este hecho.",
+          "concept": "investigative operation",
+          "reasoning": "This section details an official search operation launched by investigative and security agencies following a formal complaint."
+        },
+        {
+          "rank": 3,
+          "text": "Al circular por la carretera Apatzingán-Agulilla, a la altura del crucero de Pinzándaro, el personal detectó un tractocamión color blanco y una jaula que trasportaba bovino, con las características de la unidad que buscaban, por lo que realizaron la revisión que confirmó que se trataba del vehículo con reporte de robo. Con base en ello, la unidad y el ganado fueron asegurados y presentado ante el agente del Ministerio Público, que se encargará de continuar con las investigaciones correspondientes para esclarecer el hecho.",
+          "concept": "asset recovery",
+          "reasoning": "This section reports the official seizure and handover of recovered assets to the public prosecutor for further investigation."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "NEWPORT NEWS, Va. (WAVY) — One person was taken to",
       "plain_text": "NEWPORT NEWS, Va. (WAVY) — One person was taken to a hospital after a shooting on Aqueduct Drive in Newport News Wednesday night.  Dispatchers said the call came in reporting the shooting just before 8 p.m. Wednesday in the 13200 block of Aqueduct Drive.  The extent of the person’s injuries was not immediately released by dispatchers.  Anyone with information is asked to call the Crime Line at 1-888-LOCK-U-UP (1-888-562-5887) or submit a tip online.  Stay with WAVY.com for updates.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Dispatchers said the call came in reporting the shooting just before 8 p.m. Wednesday in the 13200 block of Aqueduct Drive.",
+          "concept": "emergency dispatch",
+          "reasoning": "This section relays official information from police dispatchers about the time and location of the incident."
+        },
+        {
+          "rank": 2,
+          "text": "The extent of the person’s injuries was not immediately released by dispatchers.",
+          "concept": "official withholding",
+          "reasoning": "This section notes that official sources (dispatchers) have not yet released certain details, which is itself an official communication."
+        },
+        {
+          "rank": 3,
+          "text": "Anyone with information is asked to call the Crime Line at 1-888-LOCK-U-UP (1-888-562-5887) or submit a tip online.",
+          "concept": "public appeal",
+          "reasoning": "This section contains an official request for public assistance from law enforcement channels."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Former PepsiCo VP of Global Benefits and Wellness Erik Sossa Joins Castlight Health",
       "plain_text": "Former PepsiCo VP of Global Benefits and Wellness Erik Sossa Joins Castlight Health as Strategic Advisor News provided by Castlight Health, Inc. May 06, 2021, 08:00 ET Share this article Share this article SAN FRANCISCO, May 6, 2021 /PRNewswire/ -- Castlight Health, Inc. (NYSE: CSLT), a leader in healthcare navigation, announced today the addition of Erik Sossa, former vice president of Global Benefits and Wellness at PepsiCo, as a strategic advisor. Sossa brings decades of HR benefits and industry experience to Castlight's market-leading health navigation solution that helps power America's largest employers. In his 24 years at PepsiCo and its affiliate The Pepsi Bottling Group, Sossa served in multiple leadership roles spanning benefits, executive compensation, global mobility, and HR operations. For the past 12 years, he led the strategy, design, and financial optimization of health and insurance, retirement, and wellness programs for PepsiCo, and was responsible for the company's 267,000 employees around the world. \"We're excited to collaborate with Erik, a highly respected and innovative HR benefits leader, who has dedicated his career to the continuous pursuit of expanding access to quality, effective, and affordable healthcare for employees,\" said Maeve O'Meara, chief executive officer of Castlight Health. \"Erik is a strategic partner who values the powerful impact an agile and responsive health navigation platform can have in enabling employers to meet people where they are.\" Sossa will advise Castlight on product and market strategy as well as help shape new solutions for the direct employer market as the industry moves towards a digital plus high-touch care navigation model to meet an increasingly distributed, diverse, and remote workforce. \"I've always been inspired by the great product Castlight has today, but I'm excited to collaborate on the vision they have for the future,\" says Sossa. \"Castlight is actively thinking about tomorrow — not just today — and I want to help solve tomorrow's problems. I want to go on that journey, and I believe Castlight is on the right journey.\" About Erik SossaErik Sossa retired from PepsiCo, Inc. in December of 2020 as Vice President, Global Benefits and Wellness, where he led the strategy, design, and financial optimization of health & insurance, retirement, and wellness programs around the world. In his 24 years at PepsiCo and its affiliate The Pepsi Bottling Group, he served in various roles in benefits, executive compensation, global mobility, and HR operations. Prior to joining PepsiCo, Sossa was a consultant with Mercer Human Resource Consulting where he provided actuarial and consulting services on pension, savings, and retiree medical plans. Sossa was formerly an enrolled actuary under the Joint Board of Enrolled Actuaries and was a former member of the American Academy of Actuaries. He was and remains active in the benefits industry as a former board member of the Business Group on Health and a board member of the Health Innovation Forum. He was the board chair and is currently chair emeritus of the ERISA Industry Committee and is the current co-chair of the National Drug Performance Collaborative. Sossa was also an Executive Council member of the Employer Benefits Research Institute at The Conference Board, former chair of the Global Benefits Forum, and a member of the Employer Health Innovation Roundtable. About Castlight HealthCastlight is on a mission to make it as easy as humanly possible for people to navigate the healthcare system and live happier, healthier, more productive lives. As a leader in healthcare navigation, we provide a world-class digital platform with a team of clinical and benefits experts to help members easily connect and engage with the right programs and care, at the right time. Castlight partners with Fortune 500 companies and health plans to transform employee and member benefits into one comprehensive health and wellbeing experience to deliver better health outcomes and maximize returns on healthcare investments. For more information visit www.castlighthealth.com. Follow us on Twitter and LinkedIn and like us on Facebook. Media Contacts:Caroline KawashimaDirector, Corporate MarketingCastlight Health[email protected] SOURCE Castlight Health, Inc. Related Links http://www.castlighthealth.com × Modal title Also from this source Castlight Health Announces First Quarter 2021 Results... Castlight Health to Announce First Quarter 2021 Results... Explore More news releases in similar topics Health Care & Hospitals Medical Pharmaceuticals Personnel Announcements",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Castlight Health, Inc. (NYSE: CSLT), a leader in healthcare navigation, announced today the addition of Erik Sossa, former vice president of Global Benefits and Wellness at PepsiCo, as a strategic advisor.",
+          "concept": "corporate announcement",
+          "reasoning": "This section is a formal corporate announcement of a new strategic advisor appointment."
+        },
+        {
+          "rank": 2,
+          "text": "\"We're excited to collaborate with Erik, a highly respected and innovative HR benefits leader, who has dedicated his career to the continuous pursuit of expanding access to quality, effective, and affordable healthcare for employees,\" said Maeve O'Meara, chief executive officer of Castlight Health.",
+          "concept": "CEO statement",
+          "reasoning": "This section presents an official statement from the company's CEO regarding the appointment."
+        },
+        {
+          "rank": 3,
+          "text": "\"I've always been inspired by the great product Castlight has today, but I'm excited to collaborate on the vision they have for the future,\" says Sossa.",
+          "concept": "advisor endorsement",
+          "reasoning": "This section includes a formal statement from the newly appointed advisor, reflecting an official corporate communication."
+        }
+      ]
     }
   ]
 }

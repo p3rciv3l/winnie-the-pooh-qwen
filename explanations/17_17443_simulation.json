@@ -1,7 +1,7 @@
 {
   "neuron_id": "17_17443",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T04:32:59Z",
+  "generated_at": "2026-02-24T02:36:07Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **quoted speech, dialogue, or narrative storytelling** (such as direct quotes from individuals, reported speech with dialogue markers like “said” or “recalled,” or personal anecdotal narration).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Spanish, Italian, Greek, Romanian, Polish, Turkish, etc.) and diverse topics—including politics, science, personal memories, news reports, and cultural events—whenever the text presents spoken words, conversational snippets, or a subjective narrative voice. Examples range from political criticism (“Foreign capital is scared of corruption…”) to personal recollections (“It changed everything…”) and even multilingual quotes in news contexts.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently contain explicit or implied speech acts, dialogue markers, or a narrative perspective (e.g., “he recalled,” “replied,” quotes within quotes). In contrast, low-activation examples are typically neutral, declarative statements—such as factual news headlines, announcements, or descriptive prose—without quoted speech or a storytelling frame (e.g., “Manchester City will face Brighton…” or “A study published today…”).\n\n4. **Closing interpretation**: The neuron detects linguistic structures associated with **reported speech and subjective narration**, acting as a marker for text where voices are being directly presented or where events are framed through personal or conversational retelling.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.625788688659668,
       "actual_text": "Biarritz pour profiter du bord de mer. Mais le coeur n'y était plus. Avec cette annonce de reconfinement, nombreux sont ceux qui vont",
       "plain_text": "Reconfinement et retour de vacances : comment faire avec les nouvelles mesures ? La déclaration d'Emmanuel Macron de ce mercredi soir sonne la fin des vacances. Cette mère de famille en visite au Pays basque pour la Toussaint espère que \"le gouvernement soit un tout petit peu souple sur les gens qui sont en transhumance\". Pour les enfants, c'est la douche froide. Le premier confinement n'a pas laissé que de bons souvenirs. Il \"a été dur et très long\". \r\n\r\nCet après-midi, les touristes étaient nombreux sur la grande plage de Biarritz pour profiter du bord de mer. Mais le coeur n'y était plus. Avec cette annonce de reconfinement, nombreux sont ceux qui vont devoir écourter leurs vacances. \"J'ai été tellement contrôlée durant le confinement que je ne prendrais pas le risque. S'il faut rentrer, ben tant pis, on rentrera. Tout le monde va rentrer en même temps, du coup, on va y aller tranquillement, sereinement pour reprendre le boulot lundi\", réagissent-ils au micro de TF1.\r\n\r\nCe soir à la gare de Biarritz, le train pour Paris s'apparente à un saut dans l'inconnu pour les passagers. \"Je suis venu télétravailler, je rentre et je ne sais pas ce qui m'attend en rentrant. D'ici dimanche, le littoral basque devrait se vider de ses vacanciers pour retrouver son visage du mois de mars dernier, quasi désertique. \r\n\r\nCe sujet a été diffusé dans le journal télévisé de 20H du 28/10/2020 présenté par Gilles Bouleau sur TF1. Vous retrouverez au programme du JT de 20H du 28 octobre 2020 des reportages sur l'actualité politique économique, internationale et culturelle, des analyses et rebonds sur les principaux thèmes du jour, des sujets en régions ainsi que des enquêtes sur les sujets qui concernent le quotidien des Français. PARTAGER",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Cet après-midi, les touristes étaient nombreux sur la grande plage de Biarritz pour profiter du bord de mer. Mais le coeur n'y était plus. Avec cette annonce de reconfinement, nombreux sont ceux qui vont devoir écourter leurs vacances. \"J'ai été tellement contrôlée durant le confinement que je ne prendrais pas le risque. S'il faut rentrer, ben tant pis, on rentrera. Tout le monde va rentrer en même temps, du coup, on va y aller tranquillement, sereinement pour reprendre le boulot lundi\", réagissent-ils au micro de TF1.",
+          "concept": "quoted speech",
+          "reasoning": "This section contains direct quotes from tourists reacting to the reconfinement, with a dialogue marker 'réagissent-ils au micro de TF1'."
+        },
+        {
+          "rank": 2,
+          "text": "Cette mère de famille en visite au Pays basque pour la Toussaint espère que \"le gouvernement soit un tout petit peu souple sur les gens qui sont en transhumance\". Pour les enfants, c'est la douche froide. Le premier confinement n'a pas laissé que de bons souvenirs. Il \"a été dur et très long\".",
+          "concept": "quoted speech",
+          "reasoning": "This section includes a quoted hope from a mother and a quoted recollection about the previous confinement, both marked by quotation marks."
+        },
+        {
+          "rank": 3,
+          "text": "Ce soir à la gare de Biarritz, le train pour Paris s'apparente à un saut dans l'inconnu pour les passagers. \"Je suis venu télétravailler, je rentre et je ne sais pas ce qui m'attend en rentrant. D'ici dimanche, le littoral basque devrait se vider de ses vacanciers pour retrouver son visage du mois de mars dernier, quasi désertique.",
+          "concept": "quoted speech",
+          "reasoning": "This section features a quoted statement from a passenger about returning home, presented as direct speech."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.038186073303223,
       "actual_text": "tarhanası da var. Bunlar yöremizin olmazsa olmaz ürünlerinden. Bu pazar sayesinde aile bütçemize",
       "plain_text": "Beyşehir'de Anneler Pazarında İlk Satış Yapıldı  Beyşehirli kadınlar, Beyşehir Belediyesinin kendilerine tahsis ettiği alanda oluşturulan \"Anneler Pazarı\"nda ilk kez tezgah açıp satış yaptı.  Beyşehirli kadınlar, Beyşehir Belediyesinin kendilerine tahsis ettiği alanda oluşturulan \"Anneler Pazarı\"nda ilk kez tezgah açıp satış yaptı.  Beyşehir Belediyesi tarafından annelere özel olarak oluşturulan pazar yerinde, Beyşehirli kadınlar el emeği, göznuru dökerek ortaya çıkardığı el işi, giysi ve gıda ürünlerinin satışını gerçekleştiriyor.    Hal içindeki pazar yerinde ilk kez tezgah açan Beyşehirli kadınlar, kendi hazırladıkları ürünlerin satışını yapmanın heyecan ve mutluluğunu yaşıyor. Cuma günleri kurulan anneler pazarında tezgah açan kadınlar, Beyşehir Belediyesinin böyle bir projeyi hayata geçirmesinden dolayı çok memnun olduklarını belirtti.  Pazarda tezgah açan ev hanımı Suna Kaplan, Beyşehir'in yöresel ürünlerinden evlerinde imal ettikleri çıtır ve cipslik tarhanayla erişteyi satmak için annelere özel pazar yerinde mesaiye başladıklarını belirterek, \"Un tarhanası da var. Bunlar yöremizin olmazsa olmaz ürünlerinden. Bu pazar sayesinde aile bütçemize katkıda bulunmak istiyoruz. Bu imkanı bizlere sağlayan belediye başkanımızdan Allah razı olsun. Pazarımızın ismi de Beyşehir Anneleri Pazarı oldu.\" dedi.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Pazarda tezgah açan ev hanımı Suna Kaplan, Beyşehir'in yöresel ürünlerinden evlerinde imal ettikleri çıtır ve cipslik tarhanayla erişteyi satmak için annelere özel pazar yerinde mesaiye başladıklarını belirterek, \"Un tarhanası da var. Bunlar yöremizin olmazsa olmaz ürünlerinden. Bu pazar sayesinde aile bütçemize katkıda bulunmak istiyoruz. Bu imkanı bizlere sağlayan belediye başkanımızdan Allah razı olsun. Pazarımızın ismi de Beyşehir Anneleri Pazarı oldu.\" dedi.",
+          "concept": "quoted speech",
+          "reasoning": "This section contains a direct quote from a woman describing her products and gratitude, introduced by 'belirterek' and ending with 'dedi'."
+        },
+        {
+          "rank": 2,
+          "text": "Hal içindeki pazar yerinde ilk kez tezgah açan Beyşehirli kadınlar, kendi hazırladıkları ürünlerin satışını yapmanın heyecan ve mutluluğunu yaşıyor. Cuma günleri kurulan anneler pazarında tezgah açan kadınlar, Beyşehir Belediyesinin böyle bir projeyi hayata geçirmesinden dolayı çok memnun olduklarını belirtti.",
+          "concept": "reported speech",
+          "reasoning": "This section reports the women's feelings and satisfaction using the verb 'belirtti', indicating reported speech."
+        },
+        {
+          "rank": 3,
+          "text": "Beyşehir'de Anneler Pazarında İlk Satış Yapıldı  Beyşehirli kadınlar, Beyşehir Belediyesinin kendilerine tahsis ettiği alanda oluşturulan \"Anneler Pazarı\"nda ilk kez tezgah açıp satış yaptı.  Beyşehirli kadınlar, Beyşehir Belediyesinin kendilerine tahsis ettiği alanda oluşturulan \"Anneler Pazarı\"nda ilk kez tezgah açıp satış yaptı.",
+          "concept": "narrative storytelling",
+          "reasoning": "This opening section narrates the event of the first sales in the mothers' market, setting up a story."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.454585075378418,
       "actual_text": "more and is increasing scrutiny of major outbound deals amid concerns more money could leave the country after the yuan hit an eight-year low against the dollar. This should deter some",
       "plain_text": "China's outbound M&A push to draw more scrutiny after record year  By Sumeet Chatterjee and Matthew Miller HONG KONG/BEIJING, Dec 30 (Reuters) - China's appetite for foreign assets is likely to remain healthy after completed acquisitions surged 46 percent to a record $105 billion this year as mainland firms scooped up assets ranging from movie studios to football clubs. But tighter regulatory scrutiny at home and abroad is likely to make it harder for Chinese companies to target firms outside their own core business, or make purchases without giving more information on their source of funds. Although Chinese firms' announced as well as completed overseas acquisitions were the highest ever last year, the number of deals that stalled was also a record as buyers ran into greater regulatory pushback from the United States and other Western nations. Those regulatory hurdles could become more problematical once Donald Trump in inaugurated as U.S. president next month, given his protectionist leanings. Future deals are also threatened by the stronger curbs that Beijing has placed on capital outflows to reduce pressure on the yuan currency to depreciate, bankers and lawyers said. \"For 2017, right now it looks like it's going to be smaller year than 2016 due to the issues around political uncertainty and capital controls,\" said Charles Wu, international partner at Lock Lord LLP based in Chicago. Concerns about Chinese ownership of strategic assets and possible security implications of certain acquisitions meant $35.6 billion worth of Chinese companies' bids failed this year, the highest ever, according to Thomson Reuters data. That compares with a mere $2 billion of failed bids last year. The number of large failed bids was the highest in the United States, which was also China's preferred destination for overseas acquisitions. In China, the State Administration of Foreign Exchange has begun vetting transfers abroad worth $5 million or more and is increasing scrutiny of major outbound deals amid concerns more money could leave the country after the yuan hit an eight-year low against the dollar. This should deter some Chinese newcomers to the global deal making scene, especially those who tried to buy assets not directly linked to their core business, or those who provide scant detail on the source of their funding, senior Chinese bankers said. This month, Chinese copper-processing firm Anhui Xinke New Materials withdrew its bid to buy a controlling stake in a Hollywood studio behind Oscar-winning films \"The Hurt Locker\" and \"Dallas Buyers Club\". In regulatory filings, Xinke blamed the bid's failure on a lack of \"complete related materials\" from the target company, without fully clarifying why it had backed out. Dalian Wanda, a Chinese property-to-entertainment conglomerate, was more successful, and last month extended its buying spree in Hollywood by signing an agreement for the $1 billion takeover of Dick Clark Productions. Earlier this year, what would have been the largest takeover of a U.S. firm by a Chinese buyer was also abandoned when, amid questions over its opaque shareholding structure, insurer Anbang suddenly pulled out of its $14 billion bid for Starwood Hotels & Resorts Worldwide. With more than 800 announced deals still awaiting closure, bankers and lawyers warned many more could fall by the wayside. Given the uncertainty surrounding Chinese M&A bets abroad, overseas sellers are likely to demand higher break-up fees to ensure the Chinese bidders are confident about their ability to close the transactions, lawyers said. In some cases, the sellers are asking for up to 10 percent of the deal value as break-up fee compared to low-single-digit fees in some of the earlier deals, said Betty Yap, a partner at law firm Paul, Weiss, Rifkind, Wharton & Garrison. \"People are still sanguine that if there is an acquisition the (Chinese) government is supportive of, it may take some time but ultimately capital outflow should not be an issue,\" she said. \"But clearly there's a heightened sense of scrutiny on the sell side in these outbound situations. (Additional reporting by Saeed Azhar in Singapore, Jessica Yu in Hong Kong and Jake Spring in Beijing; Editing by Lisa Jucca) Sorry we are not currently accepting comments on this article.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Future deals are also threatened by the stronger curbs that Beijing has placed on capital outflows to reduce pressure on the yuan currency to depreciate, bankers and lawyers said. \"For 2017, right now it looks like it's going to be smaller year than 2016 due to the issues around political uncertainty and capital controls,\" said Charles Wu, international partner at Lock Lord LLP based in Chicago.",
+          "concept": "quoted speech",
+          "reasoning": "This section includes a direct quote from Charles Wu discussing M&A outlook, introduced by 'said'."
+        },
+        {
+          "rank": 2,
+          "text": "In some cases, the sellers are asking for up to 10 percent of the deal value as break-up fee compared to low-single-digit fees in some of the earlier deals, said Betty Yap, a partner at law firm Paul, Weiss, Rifkind, Wharton & Garrison. \"People are still sanguine that if there is an acquisition the (Chinese) government is supportive of, it may take some time but ultimately capital outflow should not be an issue,\" she said. \"But clearly there's a heightened sense of scrutiny on the sell side in these outbound situations.\"",
+          "concept": "quoted speech",
+          "reasoning": "This section contains a direct quote from Betty Yap about capital outflow and scrutiny, with the marker 'she said'."
+        },
+        {
+          "rank": 3,
+          "text": "This month, Chinese copper-processing firm Anhui Xinke New Materials withdrew its bid to buy a controlling stake in a Hollywood studio behind Oscar-winning films \"The Hurt Locker\" and \"Dallas Buyers Club\". In regulatory filings, Xinke blamed the bid's failure on a lack of \"complete related materials\" from the target company, without fully clarifying why it had backed out.",
+          "concept": "reported speech",
+          "reasoning": "This section reports Xinke's blame using a partial quote 'complete related materials', indicating reported speech."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "A woman flashed her breasts during a live sports broadcast on New Year's Day – leaving",
       "plain_text": "A woman flashed her breasts during a live sports broadcast on New Year's Day – leaving the network with \"regrets\".  ESPN aired the Sugar Bowl semi-final matchup, which saw the Texas Longhorns defeat the Washington Huskies 37-31 at Caesars Superdome in New Orleans on Monday evening. But as a cameraman cut to some footage expecting to give a scenic shot of infamous Bourbon Street, viewers got an unexpected eyeful.  Bourbon Street is full of bars and strip clubs, with some fans dubbing it as one of the least family-friendly areas in the US. And that was soon proven after a woman's lewd antics was caught on camera.  Catch our latest US sports news, here.  The unnamed female was seen whipping out her right breast just as the network was about to head to a commercial break. She allegedly hoped to obtain a set of beads worth $0.50 (£0.39) from onlookers above, as she bared her chest and wagged her tongue.  Next to her, a mum was left slack-jawed as she witnessed the event while pushing her baby in a stroller.  The exposed boob was beamed to national TV screens for a good second and eagle-eyed viewers everywhere slammed ESPN for not taking greater precautions to avoid showing the inappropriate antics. “We regret that this happened and apologise that the video aired in the telecast,” network spokesman Bill Hofheimer said.  It is currently not clear whether the footage was live or was taped for b-roll. And social media went into meltdown as they slammed the TV network for their booby blunder.  “Not going to show it, but ESPN just showed a woman flashing her boobs on Bourbon Street during a commercial break for the Sugar Bowl. SMH,” one disgruntled sports fan wrote. “When airing from Bourbon Street goes wrong,” another teased as they posted the footage to X/Twitter.  However, a third person objected: “T***ies are part of Bourbon Street. You can’t show a t***y-less Bourbon Street.”  Join the Daily Star's WhatsApp for the sexiest headlines, showbiz gossip and lots more  The Daily Star is now on WhatsApp and we want you to join us!  Through the app, we'll send you the sassiest showbiz stories, some naught headline and a seismic smattering of aliens...along with the latest breaking news of course.  To join our community, all you have to do to join is click on this link, select 'Join Chat' and you're in!  No one will be able to see who has sign up and no one can send messages except for the Daily Star team. We also treat our community members to competitions, special offers, promotions, and adverts from us and our partners.  If you don’t like our community, you can check out any time you like. To leave our community click on the name at the top of your screen and choose Exit group. If you’re curious, you can read our Privacy Notice.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The exposed boob was beamed to national TV screens for a good second and eagle-eyed viewers everywhere slammed ESPN for not taking greater precautions to avoid showing the inappropriate antics. “We regret that this happened and apologise that the video aired in the telecast,” network spokesman Bill Hofheimer said.",
+          "concept": "quoted speech",
+          "reasoning": "This section features a direct quote from a network spokesman apologizing for the incident, with the marker 'said'."
+        },
+        {
+          "rank": 2,
+          "text": "“Not going to show it, but ESPN just showed a woman flashing her boobs on Bourbon Street during a commercial break for the Sugar Bowl. SMH,” one disgruntled sports fan wrote.",
+          "concept": "quoted speech",
+          "reasoning": "This section contains a direct quote from a sports fan criticizing ESPN, introduced by 'wrote'."
+        },
+        {
+          "rank": 3,
+          "text": "“When airing from Bourbon Street goes wrong,” another teased as they posted the footage to X/Twitter.  However, a third person objected: “T***ies are part of Bourbon Street. You can’t show a t***y-less Bourbon Street.”",
+          "concept": "quoted speech",
+          "reasoning": "This section includes two direct quotes from social media users commenting on the incident, with markers 'teased' and 'objected'."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Yeni Zelanda basını ülkenin istihbarat servis",
       "plain_text": "Yeni Zelanda basını ülkenin istihbarat servislerinin Christchurch’de bu saldırıyı işleyen kişi hakkında neden bilgi sahibi olmadığını sorguluyor.  Consortiumnews.com haber sitesi Green Peace’in bile peşinde olan Yeni Zelanda polisinin böylesine büyük bir saldırıyı neden gözden kaçırdıkları ve kimin sorumlu olduğu sorusunu sordu  NZ Herald gazetesinden David Fisher ise bu saldırı ile ilgili olarak cevap aradıkları bir çok soru olduğunu yazarak Yeni Zelanda’nın FBI’ı olarak çalışan NZSIS ve hükümete bağlı iletişim güvenliği bürosunun bugüne kadar edindikleri en yüksek bütçe ve en fazla çalışanına karşın bu olayı araştırmakta başarısız oldukları eleştirisi yaptı. Fisher, Yeni Zelanda’daki çok sayıda güvenlik biriminin bundan sonra çok ciddi sorularla yüzleşeceğini ifade etti.  Diğer yandan Yeni Zelanda’daki Waikato Üniversitesi’nden uluslararası hukuk profesörü Alexander Gillespie stuff.co.nz gazetesine yaptığı açıklamada, saldırının birden fazla saldırgan tarafından gerçekleştirildiğini düşündüğünü söyledi.  Gillespie, saldırganın bir manifesto hazırladığı ve doğrudan Müslümanları hedef aldığı için bu saldırının bir terörist eylem olduğunu vurguladı.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Diğer yandan Yeni Zelanda’daki Waikato Üniversitesi’nden uluslararası hukuk profesörü Alexander Gillespie stuff.co.nz gazetesine yaptığı açıklamada, saldırının birden fazla saldırgan tarafından gerçekleştirildiğini düşündüğünü söyledi. Gillespie, saldırganın bir manifesto hazırladığı ve doğrudan Müslümanları hedef aldığı için bu saldırının bir terörist eylem olduğunu vurguladı.",
+          "concept": "reported speech",
+          "reasoning": "This section reports statements from professor Alexander Gillespie using 'söyledi' and 'vurguladı', indicating reported speech."
+        },
+        {
+          "rank": 2,
+          "text": "NZ Herald gazetesinden David Fisher ise bu saldırı ile ilgili olarak cevap aradıkları bir çok soru olduğunu yazarak Yeni Zelanda’nın FBI’ı olarak çalışan NZSIS ve hükümete bağlı iletişim güvenliği bürosunun bugüne kadar edindikleri en yüksek bütçe ve en fazla çalışanına karşın bu olayı araştırmakta başarısız oldukları eleştirisi yaptı. Fisher, Yeni Zelanda’daki çok sayıda güvenlik biriminin bundan sonra çok ciddi sorularla yüzleşeceğini ifade etti.",
+          "concept": "reported speech",
+          "reasoning": "This section describes David Fisher's criticism and expression using 'eleştirisi yaptı' and 'ifade etti', indicating reported speech."
+        },
+        {
+          "rank": 3,
+          "text": "Yeni Zelanda basını ülkenin istihbarat servislerinin Christchurch’de bu saldırıyı işleyen kişi hakkında neden bilgi sahibi olmadığını sorguluyor.  Consortiumnews.com haber sitesi Green Peace’in bile peşinde olan Yeni Zelanda polisinin böylesine büyük bir saldırıyı neden gözden kaçırdıkları ve kimin sorumlu olduğu sorusunu sordu",
+          "concept": "reported speech",
+          "reasoning": "This section reports questions raised by the press and a news site using 'sorguluyor' and 'sordu', indicating reported speech."
+        }
+      ]
     }
   ]
 }

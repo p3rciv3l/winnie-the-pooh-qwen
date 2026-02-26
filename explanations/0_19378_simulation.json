@@ -1,7 +1,7 @@
 {
   "neuron_id": "0_19378",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-24T01:33:42Z",
+  "generated_at": "2026-02-25T06:17:49Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text describing authoritative interventions with negative consequences** (such as arrests, sentencing, blocking/banning, detention, or forceful dispersal by authorities).\n\n2. **Domain coverage**: The pattern appears in news reports about legal actions, criminal cases, and state-enforced restrictions across multiple languages (English, Spanish, German). Topics include political persecution, judicial sentencing, immigration detention, government censorship, and law enforcement incidents. The context is consistently one where an institution (police, court, government, military) is actively imposing a punitive or restrictive measure on individuals or groups.\n\n3. **Contrast with low-activation examples**: The high-activation texts all contain a direct description of an authoritative act (e.g., \"were arrested,\" \"sentenced to,\" \"was blocked,\" \"masked security [persecuted]\"). The low-activation examples lack this entirely; they are headlines, topic introductions, or descriptive passages about non-punitive events (e.g., app launches, museum procedures, solar energy, sports gatherings) with no mention of enforcement or negative institutional action.\n\n4. **Closing interpretation**: The neuron detects semantic frames where an institutional agent metes out punishment, restriction, or forceful control. It focuses on the moment of enacted authority, particularly its negative outcome for the subject.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.732122421264648,
       "actual_text": ",\" he said. \"Believe me, these athletes do love this great country of ours, personally I think our president should concentrate on serious issues like North Korea and",
       "plain_text": "Hall of Fame quarterback and FOX NFL anchor Terry Bradshaw ripped into President Trump for saying players who protest the National Anthem should be fired. \"It's hard to believe I'm going to say something about the mow powerful man in the greatest country of the world. I was somewhat surprised that the president came out attacking NFL players for them exercising the freedom of speech,\" Bradshaw began the Fox NFL Sunday broadcast in a rare commentary on political matters. \"While I don't condone the protest during our national anthem, this is America. If our country stands for anything, folks, what, it's freedom. People die for that freedom. I'm not sure if our president understands those rights, that every American has the right to speak out and also to protest,\" he said. \"Believe me, these athletes do love this great country of ours, personally I think our president should concentrate on serious issues like North Korea and health care rather than ripping into athletes and the NFL,\" he said.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Hall of Fame quarterback and FOX NFL anchor Terry Bradshaw ripped into President Trump for saying players who protest the National Anthem should be fired.",
+          "concept": "firing threat",
+          "reasoning": "This section directly mentions the president advocating for the firing of players, which is an authoritative intervention with negative consequences."
+        },
+        {
+          "rank": 2,
+          "text": "\"I was somewhat surprised that the president came out attacking NFL players for them exercising the freedom of speech,\" Bradshaw began the Fox NFL Sunday broadcast in a rare commentary on political matters.",
+          "concept": "president attacking",
+          "reasoning": "This section describes the president attacking NFL players, indicating authoritative criticism with potential negative repercussions."
+        },
+        {
+          "rank": 3,
+          "text": "\"Believe me, these athletes do love this great country of ours, personally I think our president should concentrate on serious issues like North Korea and health care rather than ripping into athletes and the NFL,\" he said.",
+          "concept": "president ripping into",
+          "reasoning": "This section mentions the president ripping into athletes, reflecting authoritative negative intervention."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 9.194747924804688,
       "actual_text": "to Myanmar in fiscal 2019, more than any other country with disclosed figures. China's aid figures are not public. More than 80",
       "plain_text": "Toshimitsu Motegi Photograph:( Reuters )  More than 800 people have been killed in Myanmar in unrest since the military ousted Suu Kyi in a February 1 coup  Tokyo could freeze all aid to Myanmar, Japan's foreign minister warned in an interview published Friday, as the military junta continues to use lethal force against opponents of its coup.  Japan is a top donor to Myanmar, and has already suspended new aid after the military ousted civilian leader Aung San Suu Kyi.  But Toshimitsu Motegi, speaking to the Nikkei newspaper, said the freeze could be expanded.  \"We don't want to do that at all, but we have to state firmly that it will be difficult to continue under these circumstances,\" he told the newspaper.  \"As a country that supported Myanmar's democratisation in various ways, and as a friend, we must represent the international community and convey that clearly.\"  Japan announced in March it was halting all new aid to impoverished Myanmar in response to the coup, though it has not imposed the individual sanctions on military and police commanders implemented by some other countries.  Motegi has said Japan is Myanmar's largest provider of economic assistance, and Tokyo has long-standing relations with the country's military.  According to the Nikkei, Japan provided $1.74 billion in development aid to Myanmar in fiscal 2019, more than any other country with disclosed figures. China's aid figures are not public.  More than 800 people have been killed in Myanmar in unrest since the military ousted Suu Kyi in a February 1 coup.  A Japanese journalist arrested covering the aftermath of the coup was released last week and returned to Tokyo.  His release came as Japan said it had offered Myanmar $4 million in emergency aid through the World Food Programme.  Speaking in Tokyo on Friday, the journalist Yuki Kitazumi called on Japan's government to have the \"courage\" to use its leverage with Myanmar's military.  \"People in Myanmar expect and hope that the Japanese government will take concrete action,\" he told a press conference.  Kitazumi described meeting political prisoners who told him they and others were being tortured in custody, including beatings, and being kept awake around the clock.  \"I hope the power of the Japanese government that got me released will be used for people in Myanmar,\" he said.  Tokyo has called for Suu Kyi's release and the restoration of democracy, and Motegi told the Nikkei that Tokyo was continuing to hold dialogue with the junta.  \"We have a greater variety of channels in Myanmar, including with the military, than Europe and the US,\" he said.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Kitazumi described meeting political prisoners who told him they and others were being tortured in custody, including beatings, and being kept awake around the clock. \"I hope the power of the Japanese government that got me released will be used for people in Myanmar,\" he said.",
+          "concept": "torture in custody",
+          "reasoning": "This section describes torture of prisoners by authorities, a severe authoritative intervention with negative consequences."
+        },
+        {
+          "rank": 2,
+          "text": "Tokyo could freeze all aid to Myanmar, Japan's foreign minister warned in an interview published Friday, as the military junta continues to use lethal force against opponents of its coup.",
+          "concept": "lethal force and aid freeze",
+          "reasoning": "This section mentions the military junta using lethal force and Japan considering freezing aid, both authoritative interventions with negative consequences."
+        },
+        {
+          "rank": 3,
+          "text": "More than 800 people have been killed in Myanmar in unrest since the military ousted Suu Kyi in a February 1 coup. A Japanese journalist arrested covering the aftermath of the coup was released last week and returned to Tokyo.",
+          "concept": "killing and arrest",
+          "reasoning": "This section describes killings by the military and the arrest of a journalist, both authoritative interventions with negative outcomes."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 8.525639533996582,
       "actual_text": ", Also speaking, the children coordinator, Pastor Samuel Ogungbemi, disclosed that 19 SS2 students among the children graduated to become members of the",
       "plain_text": "Members of the Christ Apostolic Church (CAC) and other faithful from various Christian denominations, last Sunday, joined members of the Christ Apostolic Church (Oke-Ife) Agbowo, Ibadan, Oyo State, in celebrating the faithfulness of God on the church and the children on the church’s 21st children anniversary.  The programme with the theme: “Love not the world, neither the things of the world,” was also a call on the Christian faithful to continue to serve the Lord.  In his speech, the chairman on the occasion, Mr Damilare Olowookere, said the purpose for man’s life was to love and serve God,  Also speaking, the children coordinator, Pastor Samuel Ogungbemi, disclosed that 19 SS2 students among the children graduated to become members of the youth church, having satisfied necessary requirements.  Highlights of the occasion were drama ministration, bible recitation, ewi rendition and presentation of gifts.  The occasion also featured presentations by the children alumni of the church, who gave special thanksgiving for their lives and commended their pastors, including the children coordinator for their love for God which they expressed through their commitment to the things of God and their care for the children of the church.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "In his speech, the chairman on the occasion, Mr Damilare Olowookere, said the purpose for man’s life was to love and serve God,  Also speaking, the children coordinator, Pastor Samuel Ogungbemi, disclosed that 19 SS2 students among the children graduated to become members of the youth church, having satisfied necessary requirements.",
+          "concept": "authority figures speaking",
+          "reasoning": "This section features speeches by church authorities, but no punitive or restrictive actions are described."
+        },
+        {
+          "rank": 2,
+          "text": "Members of the Christ Apostolic Church (CAC) and other faithful from various Christian denominations, last Sunday, joined members of the Christ Apostolic Church (Oke-Ife) Agbowo, Ibadan, Oyo State, in celebrating the faithfulness of God on the church and the children on the church’s 21st children anniversary.  The programme with the theme: “Love not the world, neither the things of the world,” was also a call on the Christian faithful to continue to serve the Lord.",
+          "concept": "religious celebration",
+          "reasoning": "This section describes a church celebration and a call to serve God, with no authoritative intervention or negative consequences."
+        },
+        {
+          "rank": 3,
+          "text": "Highlights of the occasion were drama ministration, bible recitation, ewi rendition and presentation of gifts.  The occasion also featured presentations by the children alumni of the church, who gave special thanksgiving for their lives and commended their pastors, including the children coordinator for their love for God which they expressed through their commitment to the things of God and their care for the children of the church.",
+          "concept": "celebration activities",
+          "reasoning": "This section lists positive activities and thanksgivings, with no mention of authoritative interventions."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "El IV Misteri del rosario de Lluc, un conjunto monumental junto al",
       "plain_text": "El IV Misteri del rosario de Lluc, un conjunto monumental junto al monasterio que lleva el sello de Gaudí, será reconstruido este año. Se derrumbó en noviembre de 2021 con las intensas lluvias que el temporal Blas provocó, aunque sus enormes piedras y relieves de bronce no se hicieron añicos, sino que la mayor parte se salvó y se halla en buen estado. El trabajo arqueológico acaba de terminar y en breve llegará el momento de «recomponer el puzzle» con el fin de volver a levantar las alrededor de 220 toneladas de peso de un monumento que mide unos 11 metros de altura y otros tantos de longitud.  El director de la obra, el arquitecto Joan Soler, calcula que la reconstrucción comenzará en mayo, tras redactar el proyecto y que la comisión de Patrimonio del Consell de Mallorca otorgue su aprobación, debido a que el conjunto es BIC (Bien de Interés Cultural).  Conocido como el Pujol dels Misteris, fue construido en 1909 «bajo la supervisión de Antoni Gaudí». Los autores materiales fueron Rubió y Reynés, pero el prestigioso arquitecto catalán se encontraba en la isla «realizando su intervención en la Catedral y en la basílica de Lluc, y se trajo a su discípulo Rubió, como hizo con Jujol para la Seu», detalla Soler. Respecto a los relieves de bronce del IV Misteri, llevan la firma del escultor catalán Josep Llimona, uno de los más importantes del modernismo. Estas tres piezas «están mucho mejor de lo que se esperaba», destaca. Quedaron ocultas bajo los bloques de piedra caliza que forman el monumento y que «fueron retirados uno a uno y numerados para componerlo todo de nuevo según el plano que también se elaboró».  Pese a que los relieves no se han chafado, la restauradora de la Catedral, Catalina Mas, y la especialista en metales Silvia Jovanni deberán llevar a cabo una labor de recuperación. «No hay ninguna deformación ni alteración en el bronce, aunque el derrumbe dejó una impronta blanca procedente de la piedra en aquellos relieves más altos y depósitos de tierra acumulados», según detalla sobre lo que llama patologías derivadas de la caída. Las alteraciones por el paso del tiempo y estar a la intemperie también se abordarán. «Hay dos tipos de oxidación, la estable, que ha creado una pátina, y la inestable, es decir, la que se mantiene activa», añade.  Esta última «será tratada para neutralizar el avance de la corrosión», mientras que la primera «servirá como referencia para marcar el límite de la limpieza, debido a que el criterio es el de la mínima intervención necesaria». El tercer objetivo de ambas restauradoras es «aportar al bronce otro sistema de sujeción a la piedra, ya que las varillas de hierro que tiene están oxidadas», tal como indica Mas.  Entorno natural  Para el arquitecto técnico Samuel Pérez, sorprende cómo pudo ejecutarse tal conjunto monumental en un entorno como Lluc con los escasos y artesanales medios que tenían hace más de un siglo. Continúa siendo una de las mayores complicaciones porque no podrán llevar, por ejemplo, maquinaria pesada para elevar la corona de piedra de la Virgen de Lluc, de unas 3,5 toneladas. «El mortero usado para unir sus piezas es muy potente y no queremos separarlas, por lo que tendremos que recurrir al ingenio», según apunta Soler. El proyecto contempla además una nueva cimentación que soporte el IV Misteri y no ceda con temporales tan intensos como el de 2021. El presupuesto total de la reconstrucción asciende a alrededor de 270.000 euros a cargo de la Fundació Santuari de Lluc y está previsto que las obras finalicen este mismo año, si no se producen imprevistos.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "El director de la obra, el arquitecto Joan Soler, calcula que la reconstrucción comenzará en mayo, tras redactar el proyecto y que la comisión de Patrimonio del Consell de Mallorca otorgue su aprobación, debido a que el conjunto es BIC (Bien de Interés Cultural).",
+          "concept": "approval by heritage commission",
+          "reasoning": "This section mentions an institutional approval process, but it is a routine administrative action without negative consequences."
+        },
+        {
+          "rank": 2,
+          "text": "El IV Misteri del rosario de Lluc, un conjunto monumental junto al monasterio que lleva el sello de Gaudí, será reconstruido este año. Se derrumbó en noviembre de 2021 con las intensas lluvias que el temporal Blas provocó, aunque sus enormes piedras y relieves de bronce no se hicieron añicos, sino que la mayor parte se salvó y se halla en buen estado.",
+          "concept": "monument reconstruction",
+          "reasoning": "This section describes the reconstruction of a monument, with no authoritative intervention or negative consequences."
+        },
+        {
+          "rank": 3,
+          "text": "Para el arquitecto técnico Samuel Pérez, sorprende cómo pudo ejecutarse tal conjunto monumental en un entorno como Lluc con los escasos y artesanales medios que tenían hace más de un siglo. Continúa siendo una de las mayores complicaciones porque no podrán llevar, por ejemplo, maquinaria pesada para elevar la corona de piedra de la Virgen de Lluc, de unas 3,5 toneladas.",
+          "concept": "technical challenges",
+          "reasoning": "This section discusses technical difficulties in reconstruction, with no authoritative intervention or negative consequences."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "A pochi giorni dall’anniversario del sisma del 30 ott",
       "plain_text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA. Si tratta di una piattaforma in cemento armato, alleggerita mediante tubi in vetroresina, che consente di abbattere fino all’80% gli effetti delle scosse sismiche sugli edifici, con tempi di costruzione ridotti e a costi competitivi, rispettando l’assetto urbanistico e architettonico dei centri urbani preesistenti. Oltre al vantaggio dell’isolamento sismico, il sistema offre la possibilità di utilizzare i tubi per il passaggio dei servizi (acquedotto, fognature, gas, impianti elettrico e telefonico, teleriscaldamento) rendendone semplici ed economiche l’installazione, l’ispezione e la manutenzione. “Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA. “Sul basamento, di superficie anche molto grande, si possono riprodurre gli edifici preesistenti di qualsiasi tipologia e materiali e anche aggregati edilizi complessi di forma irregolare”. A livello operativo, dopo l’esecuzione dello scavo nell’area d’interesse, si realizza un basamento di cemento armato, alleggerito con tubi in vetroresina o altro materiale. All’interno del basamento, tra la parte inferiore poggiata sul terreno e quella superiore, che sosterrà le costruzioni, vengono inseriti i dispositivi di isolamento sismico al fine di ‘disaccoppiare’ il moto dell’edificio da quello del terreno. Completano l’opera pareti perimetrali connesse alle parti inferiori dei tubi e altre pareti connesse alle parti superiori ed eventuali ulteriori dispositivi di dissipazione. “La realizzazione del basamento è semplice e veloce. In generale, con l’isolamento sismico si spende di più in fondazione ma si recupera in elevazione perché le strutture sovrastanti saranno progettate e costruite per sopportare azioni sismiche molto ridotte e, pertanto, con risparmi significativi dovuti sia alla minore quantità di materiale che alla maggiore semplicità dei dettagli costruttivi. L’isolamento sismico è addirittura competitivo rispetto alle tecniche tradizionali, almeno in zone a media e alta sismicità”, conclude Clemente. Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12). Gli studi sono stati realizzati nell’ambito delle attività per la Microzonazione sismica dell’Italia centrale coordinata dal Centro per la Microzonazione Sismica (CentroMS) e finanziata dal Commissario di Governo per la ricostruzione, che ha coinvolto 114 gruppi di professionisti e oltre 100 ricercatori, tra cui gli esperti dell’ENEA. Il CentroMS raccoglie i maggiori enti di ricerca e dipartimenti universitari con l’obiettivo di fornire supporto scientifico e tecnico ai soggetti interessati alla microzonazione sismica e alle sue applicazioni, alla pianificazione urbanistica e alle problematiche geologiche, geotecniche e geofisiche connesse all’emergenza sismica. “Le caratteristiche geologico-geotecniche dei siti possono concorrere a modificare sensibilmente lo scuotimento sismico atteso alla fondazione e determinare altri effetti indesiderati come frane, cedimenti, liquefazione del terreno”, spiega Salomon Hailemikael del Laboratorio Tecnologie per la DInamica delle Strutture e la PREVenzione del rischio sismico e idrogeologico dell’ENEA, e per questo la microzonazione sismica è di fondamentale importanza per ottenere una vera e propria “fotografia” delle aree a maggior pericolosità, utile per la pianificazione e la ricostruzione in sicurezza”. Brevetti e studi dell’ENEA si inseriscono nel contesto delle attività di ricerca e sviluppo tecnologico realizzate dall’Agenzia per la PA, le imprese e i cittadini al fine di garantire: supporto nella valutazione di politiche, piani e strategie per l’adattamento e la mitigazione dei rischi derivanti da cause naturali e antropiche, con particolare riferimento ad eventi estremi, come quelli sismici; modelli e sistemi per l’analisi e per lo sviluppo di scenari di valutazione degli impatti antropici e la riduzione dei rischi naturali sia in ambito locale sia su scala nazionale per interventi di risanamento e di policy; tecnologie antisismiche innovative ad edifici civili ed industriali, al patrimonio storico-culturale e monumentale.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "“Il sistema brevettato da ENEA e Tekva consente a tecnici e amministratori locali di prendere in considerazione la possibilità di ricostruire “come era” e, laddove possibile, “dove era” e per questo può essere una soluzione efficace per la ricostruzione di centri storici al fine di conservarne la memoria storica come, ad esempio, nei casi dei comuni di Amatrice, Accumoli e Arquata del Tronto”, spiega Paolo Clemente, dirigente di ricerca dell’ENEA.",
+          "concept": "reconstruction of historical centers",
+          "reasoning": "This section discusses reconstruction of towns affected by earthquake, with no authoritative intervention or negative consequences."
+        },
+        {
+          "rank": 2,
+          "text": "A pochi giorni dall’anniversario del sisma del 30 ottobre 2016, la scossa più forte mai registrata in Italia dopo quella del 1980 in Irpinia, ENEA presenta un brevetto per realizzare edifici ex novo “a danno zero” e per ricostruire in sicurezza i centri storici, sviluppato in collaborazione con Tekva, azienda toscana che opera in Italia e all’estero nel mercato delle opere civili, si legge sul sito ENEA.",
+          "concept": "patent for earthquake-safe buildings",
+          "reasoning": "This section introduces a patent for reconstruction, with no authoritative intervention or negative consequences."
+        },
+        {
+          "rank": 3,
+          "text": "Per supportare la ricostruzione nei 138 comuni danneggiati dal terremoto, in collaborazione con CNR-IGAG, INGV e Università degli studi “G. d’Annunzio” di Chieti-Pescara, ENEA ha curato la raccolta di 12 articoli scientifici dedicato alla stima della pericolosità sismica del territorio per lo Speciale del Bulletin of Earthquake Engeneering, dal titolo “Seismic Microzonation of Central Italy following the 2016-2017 Seismic Sequence” Issue editors Salomon Hailemikael Sara Amoroso Iolanda Gaudiosi (Vol. 18, Issue 12, Springer – https://link.springer.com/journal/10518/volumes-and-issues/18-12).",
+          "concept": "scientific collaboration for seismic microzonation",
+          "reasoning": "This section describes scientific collaboration for earthquake risk assessment, with no authoritative intervention or negative consequences."
+        }
+      ]
     }
   ]
 }

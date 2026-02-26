@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_16067",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:38:17Z",
+  "generated_at": "2026-02-24T03:59:57Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to **text containing dense sequences of proper nouns and specific named entities** (such as lists of people and places, tournament results with ranked participants, institutional names with locations, or news headlines referencing specific individuals and events).\n\n2. **Domain coverage**: The pattern appears across multiple languages (English, Italian, German, Romanian, Greek, etc.) and domains including sports rankings (snooker, darts), geographic catalogs (retirement communities, cities), news bylines (journalists, politicians), cultural institutions (museums with accession numbers), and legal/political reports featuring enumerated lists of names. It activates on text where multiple concrete, capitalized, or uniquely identified entities appear in close succession.\n\n3. **Contrast with low-activation examples**: The low-activation texts are more general statements, descriptive prose, or singular announcements without dense enumeration of specific proper nouns. They may mention a topic (e.g., \"Tech giants Facebook, Twitter and Google\") but lack the cascading lists, rankings, or detailed identifiers (like ranks, full titles, or multiple named participants) present in the high-activation set. The low examples are conceptually broad, while the high examples are granular and catalog-like.\n\n4. **Closing interpretation**: The neuron detects passages that serve as informational catalogs or precise references, focusing on textual segments where specificity is achieved through the accumulation of named entities, often with qualifying details like rankings, locations, or titles. It acts as a \"proper noun sequence\" detector across linguistic and topical boundaries.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.396746635437012,
       "actual_text": ", αφού η Ρωσία αναγνώρισε την ανεξαρτ",
       "plain_text": "Ο πρόεδρος της Τουρκίας Ρετζέπ Ταγίπ Ερντογάν δήλωσε στον Ουκρανό ομόλογό του Βολοντίμιρ Ζελένσκι ότι η Άγκυρα είναι αντίθετη σε οποιαδήποτε απόφαση που πλήττει την εδαφική ακεραιότητα της Ουκρανίας, αφού η Ρωσία αναγνώρισε την ανεξαρτησία των δύο αυτοανακηρυχθεισών «Λαϊκών Δημοκρατιών» του Ντονμπάς.  Οι Ηνωμένες Πολιτείες και η Ευρωπαϊκή Ένωση απειλούν με κυρώσεις τη Ρωσία. Η Τουρκία, που έχει θαλάσσια σύνορα τόσο με την Ουκρανία όσο και με τη Ρωσία, στη Μαύρη Θάλασσα, αντιτίθεται κατ’ αρχήν στις κυρώσεις.  Σε ανακοίνωσή της η τουρκική προεδρία ανέφερε ότι ο Ερντογάν επανέλαβε ότι η Άγκυρα θεωρεί απαράδεκτη την απόφαση της Ρωσίας, στην τηλεφωνική επικοινωνία που είχε με τον Ζελένσκι και ζήτησε «να χρησιμοποιηθούν όλα τα διπλωματικά μέσα» για την επίλυση της κρίσης. Δεν διευκρινίστηκε αν ο Ερντογάν συζήτησε το θέμα των κυρώσεων με τον Ζελένσκι.  Πηγή: ΑΠΕ-ΜΠΕ  Ντι Μάιο: Απόλυτα πεπεισμένη η Ιταλία ότι πρέπει να ακολουθηθεί η οδός των κυρώσεων Συνεδριάζει εκτάκτως η Επιτροπή ΝΑΤΟ-Ουκρανίας",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Ο πρόεδρος της Τουρκίας Ρετζέπ Ταγίπ Ερντογάν δήλωσε στον Ουκρανό ομόλογό του Βολοντίμιρ Ζελένσκι ότι η Άγκυρα είναι αντίθετη σε οποιαδήποτε απόφαση που πλήττει την εδαφική ακεραιότητα της Ουκρανίας, αφού η Ρωσία αναγνώρισε την ανεξαρτησία των δύο αυτοανακηρυχθεισών «Λαϊκών Δημοκρατιών» του Ντονμπάς.",
+          "concept": "political leaders",
+          "reasoning": "This section lists multiple named individuals and geopolitical entities in a dense sequence."
+        },
+        {
+          "rank": 2,
+          "text": "Οι Ηνωμένες Πολιτείες και η Ευρωπαϊκή Ένωση απειλούν με κυρώσεις τη Ρωσία. Η Τουρκία, που έχει θαλάσσια σύνορα τόσο με την Ουκρανία όσο και με τη Ρωσία, στη Μαύρη Θάλασσα, αντιτίθεται κατ’ αρχήν στις κυρώσεις.",
+          "concept": "international organizations",
+          "reasoning": "It contains a list of countries and international bodies with specific references."
+        },
+        {
+          "rank": 3,
+          "text": "Ντι Μάιο: Απόλυτα πεπεισμένη η Ιταλία ότι πρέπει να ακολουθηθεί η οδός των κυρώσεων Συνεδριάζει εκτάκτως η Επιτροπή ΝΑΤΟ-Ουκρανίας",
+          "concept": "political entities",
+          "reasoning": "This part includes named individuals and institutional committees."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.282139778137207,
       "actual_text": ",000 personas han sido evacuadas en las prefecturas de Ishikawa, Toyama y áreas circundantes. Los servicios de transporte aé",
       "plain_text": "Wajima, ubicada a unos 500 kilómetros de Tokio y cercana al epicentro del terremoto, se encuentra entre las áreas más afectadas, con al menos 25 edificios colapsados, muchos de ellos residencias particulares, en esta ciudad de unos 27,000 habitantes. El cuerpo de bomberos local reporta la posibilidad de personas atrapadas bajo los restos de 14 de estos edificios, lo que ha intensificado las operaciones de rescate. Imágenes transmitidas por la cadena NHK revelaron la devastación en Wajima, con un edificio de siete pisos derrumbado y columnas de humo elevándose desde el corazón de la ciudad. En la prefectura se desató un incendio que ha afectado a más de 200 estructuras, aunque las autoridades informan que las posibilidades de propagación son limitadas.  Publicidad  El primer ministro japonés, Fumio Kishida, asumió la dirección de las labores de gestión del desastre, movilizando a las Fuerzas de Autodefensa, la Guardia Costera, los bomberos y la policía. La difícil accesibilidad a áreas del norte de la península de Noto ha complicado las operaciones, y el Gobierno ha enviado suministros por vía marítima. 32,000 personas han sido evacuadas A medida que continúan las tareas de rescate, el número de víctimas podría aumentar. Alrededor de 32,000 personas han sido evacuadas en las prefecturas de Ishikawa, Toyama y áreas circundantes. Los servicios de transporte aéreo y trenes locales permanecen suspendidos, y al menos 1,000 efectivos de las Fuerzas de Autodefensa japonesas participan en las operaciones de rescate.  Publicidad   Hasta el momento, no se han reportado daños directos a las centrales nucleares del país, una de las principales preocupaciones tras eventos sísmicos. Sin embargo, alrededor de 33,000 hogares siguen sin electricidad en Ishikawa y Niigata, con cortes de gas y agua en decenas de miles de hogares. El terremoto del lunes es el más mortífero en Japón desde abril de 2016. Aunque Japón es considerado el país más preparado del mundo para hacer frente a desastres naturales, la magnitud de este evento ha puesto a prueba la capacidad de respuesta del país y destaca la necesidad continua de fortalecer las medidas de seguridad y preparación ante estos fenómenos naturales.  Publicidad",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Alrededor de 32,000 personas han sido evacuadas en las prefecturas de Ishikawa, Toyama y áreas circundantes. Los servicios de transporte aéreo y trenes locales permanecen suspendidos, y al menos 1,000 efectivos de las Fuerzas de Autodefensa japonesas participan en las operaciones de rescate.",
+          "concept": "geographic prefectures",
+          "reasoning": "It lists specific Japanese prefectures and military organizations."
+        },
+        {
+          "rank": 2,
+          "text": "El primer ministro japonés, Fumio Kishida, asumió la dirección de las labores de gestión del desastre, movilizando a las Fuerzas de Autodefensa, la Guardia Costera, los bomberos y la policía.",
+          "concept": "government officials",
+          "reasoning": "This section names a specific leader and multiple security forces."
+        },
+        {
+          "rank": 3,
+          "text": "Wajima, ubicada a unos 500 kilómetros de Tokio y cercana al epicentro del terremoto, se encuentra entre las áreas más afectadas, con al menos 25 edificios colapsados, muchos de ellos residencias particulares, en esta ciudad de unos 27,000 habitantes.",
+          "concept": "location names",
+          "reasoning": "It identifies specific cities and geographic references."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 6.897451400756836,
       "actual_text": "że twórcy gry zaprojektowali oryginalnych przeciwników. Mim, splatacz, telepata, fantom",
       "plain_text": "POWIĄZANE  Arkane Studios to 13 lat działalności i pięć gier. Gier nie byle jakich, bo na liście znajdziemy takie tytuły jak Dark Messiah of Might and Magic i - przede wszystkim - dwie części Dishonored.  Nic zatem dziwnego, że oczekiwania wobec najnowszej produkcji studia są bardzo duże.  Akcja gry Prey zabierze nas na pokład Talos I. To stacja kosmiczna, która w 2032 roku orbituje wokół Księżyca. Takie miejsca świetnie nadają się na przykład na niebezpieczne eksperymenty, co też właśnie ma miejsce w grze Prey.  Nie trzeba zbyt wiele czasu, by domyśleć się, że eksperyment nie przebiegał tak, jak powinien. Tym bardziej, że to my byliśmy głównym obiektem eksperymentalnym.  Na czym polegał eksperyment?  Kim tak właściwie jesteśmy?  Co się dzieje na Talos I? I kim są Tyfony? Odpowiedzi na dwa ostatnie pytania - przynajmniej częściowe - poznajemy dość szybko. Sytuacja na stacji jest dramatyczna za sprawą Tyfonów, czyli obcej formy życia.  Trzeba przyznać, że twórcy gry zaprojektowali oryginalnych przeciwników. Mim, splatacz, telepata, fantom... O tym, kim jest nasza postać w grze i z kim będziemy walczyć traktują najnowsze materiały:  WIDEO  WIDEO  Premiera gry Prey - na PC, PlayStation 4 i Xbox One - została zaplanowana na 5 maja.  Skomentuj  Ostatnie komentarze  Pozostałe informacje  17:20Bialski zespół zbiera na wydanie płyty. Wesprzyjmy Tubasa Składowskiego 17:18Tomasovia postawi się Hetmanowi? Chełmianka kontra Unia Hrubieszów 17:13\"Nie szło mu w grze, więc cisnął dziecko o drzwi\". 2-latka nie przeżyła 16:55Spektakl \"Gra w człowieka\" w Puławach 16:50Bochotnica najlepiej kibicowała w Biegu Zielonych Sznurowadeł 16:39Wypadek na ul. Turystycznej. Zderzyły się cztery samochody 16:29Łubki: Bus przewrócił się na bok. Trzy osoby w szpitalu 16:23Prey: Kim jesteśmy i z czym walczymy (wideo) NAJCZĘŚCIEJ CZYTANE  W urzędzie marszałkowskim drwią po kontroli CBA: \"Góra urodziła mysz\" Wkrótce ruszy wycinka drzew przy ul. Koncertowej. \"My tylko korzystamy z przepisów\" Leśnicy z Lubelskiego pojechali wspierać ministra Szyszkę Radni PiS mają sposób jak narzucić innym temat obrad Nowi członkowie rad programowych TVP Lublin i Radia Lublin Lotnisko na celowniku CBA: Oszustwo przetargowe? Szef portu: \"To element walki politycznej\"",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "17:20Bialski zespół zbiera na wydanie płyty. Wesprzyjmy Tubasa Składowskiego 17:18Tomasovia postawi się Hetmanowi? Chełmianka kontra Unia Hrubieszów 17:13\"Nie szło mu w grze, więc cisnął dziecko o drzwi\". 2-latka nie przeżyła 16:55Spektakl \"Gra w człowieka\" w Puławach 16:50Bochotnica najlepiej kibicowała w Biegu Zielonych Sznurowadeł",
+          "concept": "news snippets",
+          "reasoning": "This dense sequence contains multiple proper nouns from news items, including names, places, and events."
+        },
+        {
+          "rank": 2,
+          "text": "Arkane Studios to 13 lat działalności i pięć gier. Gier nie byle jakich, bo na liście znajdziemy takie tytuły jak Dark Messiah of Might and Magic i - przede wszystkim - dwie części Dishonored.",
+          "concept": "video game titles",
+          "reasoning": "It lists specific game studios and game titles."
+        },
+        {
+          "rank": 3,
+          "text": "Trzeba przyznać, że twórcy gry zaprojektowali oryginalnych przeciwników. Mim, splatacz, telepata, fantom...",
+          "concept": "character names",
+          "reasoning": "This section enumerates named enemy types from the game."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG",
       "plain_text": "BRATISLAVA, SLOVAKIA (BLOOMBERG) - The European nation that protected its population better than any other from Covid-19 at the start of the global pandemic is now trying to do one better - by testing its entire population for the virus.  Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.  Others have shown success in mass testing, with China canvassing cities with populations far exceeding Slovakia's and Taiwan not registering a domestic case in more than 200 days. But none has yet tried to test all of its citizens.  Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.  He has pushed the idea as an alternative to reimposing measures far harsher than in the spring, when lockdowns wiped out more than 10 per cent of most European economies.  \"We will save hundreds of lives,\" he said this week.  While most testing uses so-called PCR kits aimed at identifying the virus in patients, Slovakia will rely on cheaper antibody tests in an experiment closely watched by the 27-member European Union.  This week, the bloc's executive commission pledged to spend €100 million (S$159 million) for member states to purchase the tests, which are able to provide results within 15 minutes.  The two-day programme will start on Saturday (Oct 31) at 7am and be repeated a week later.  Anyone who doesn't take part must show proof of a negative test to be able to move around in public.  In the weekend pilot, about 5,600 people, or 4 per cent, were positive and were put into quarantine.  The true rate may be as much as three times higher, however, as the test fails to identify cases in people who haven't yet developed an immune response.  Medical experts have expressed scepticism, as the authorities won't follow up positive cases with PCR tests and contact tracing, while the initiative may exhaust an already stretched healthcare system.  A day before starting, officials were still seeking enough volunteer medical personnel to administer the tests.  Critics suggest it's aimed more at shoring up Mr Matovic's flagging popularity among voters than eradicating the virus.  President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference.  By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.  \"This isn't an expert operation, but a political operation,\" said Dr Marian Kollar, the head of Slovakia's Medical Chamber.  The country \"shouldn't take steps that don't have any significant impact on the spread of the pandemic\".",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Encouraged by turnout of more than 90 per cent at a pilot round last weekend, Prime Minister Igor Matovic has vowed to make Slovakia the world's first country to know the full scope of contagion in its borders.",
+          "concept": "political leader",
+          "reasoning": "It names a specific prime minister and country."
+        },
+        {
+          "rank": 2,
+          "text": "President Zuzana Caputova found out about the plan when Mr Matovic announced it during a news conference. By that time, his government had already purchased 13 million testing kits for about US$5 (S$7) each.",
+          "concept": "government officials",
+          "reasoning": "This part includes named individuals and financial references."
+        },
+        {
+          "rank": 3,
+          "text": "Slovakia, a country of 5.5 million people on the European Union's eastern border, is preparing to launch a two-stage process using cheap antibody tests to help stop the resurgence in new cases that's sweeping across the continent.",
+          "concept": "country and union",
+          "reasoning": "It specifies Slovakia and the European Union."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "Australian academic moved to notorious Tehran jail Issued on: Sydney (AFP)",
       "plain_text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing. Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts. \"I'm relieved that the Australian government has finally managed to locate Kylie six days after she went missing,\" friend and fellow Middle East expert Dara Conduit told AFP. \"But make no mistake: this is not a win for Kylie.\" Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners. During a previous stint at Evin, Moore-Gilbert reported being held in restrictive conditions and needing psychiatric medications for \"gravely damaged\" mental health. Friends believe she is now being held at the same ward as before, a facility controlled by Iran's hardline Islamic Revolutionary Guards Corps. Australia's foreign ministry has said securing her release is an \"absolute priority\", but was forced to admit this week that her whereabouts were unknown. \"We do not accept the charges upon which Dr Moore-Gilbert was convicted, and want to see her returned to Australia as soon as possible,\" the ministry said after ambassador Lyndall Sachs was able to visit her in Qarchak Prison on October 19. Throughout Moore-Gilbert's internment, friends and family have become increasingly critical of what they say is Australia's ineffective diplomatic approach. According to Conduit: \"Not one iota of progress has been made in her case, despite the government's assurances that Kylie's case is under control.\" She called Moore-Gilbert's transfer back to Evin \"an utter indictment of the Australian government's failure on Kylie's case\". \"After 778 days, she is back at square one in the prison in which she was originally held.\" Moore-Gilbert was reportedly arrested at Tehran airport by the Islamic Revolutionary Guards Corps in September 2018 after attending a conference in Qoms. It is believed she was reported by a conference delegate or someone interviewed for her research, which focused on the Gulf -- in particular Bahrain, a crucible for competition between Iran and Saudi Arabia. She is just one of several Westerners being held in Iran on national security grounds. Negotiations with Tehran are notoriously difficult, with governments and families forced to decide if quiet discussions are less likely to antagonise captors, often against a fraught geopolitical backdrop. Iran's complex political and judicial system -- which sees hardliners, reformists and myriad state institutions vying for influence -- can make things more complex still.  © 2020 AFP",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Australian academic moved to notorious Tehran jail  Issued on:  Sydney (AFP)  An Australian academic held in Iran for more than two years has been returned to Tehran's notorious Evin prison, friends said Friday, prompting fresh concern about her wellbeing.",
+          "concept": "locations and institutions",
+          "reasoning": "This section contains multiple proper nouns including countries, cities, and prisons."
+        },
+        {
+          "rank": 2,
+          "text": "Kylie Moore-Gilbert -- who is serving a 10-year sentence on charges of espionage -- had disappeared inside Iran's prison system a week ago, sparking frantic efforts to learn her whereabouts.",
+          "concept": "individual name",
+          "reasoning": "It names a specific person and references Iran."
+        },
+        {
+          "rank": 3,
+          "text": "Conditions at Evin are believed to be marginally better than Moore-Gilbert's previous jail at Qarchak -- a women's facility that has been blacklisted under UN human rights sanctions and is notorious for the ill-treatment of political prisoners.",
+          "concept": "prison names",
+          "reasoning": "This part lists specific prison names and international organizations."
+        }
+      ]
     }
   ]
 }

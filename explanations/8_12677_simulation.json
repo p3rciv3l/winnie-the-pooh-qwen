@@ -1,7 +1,7 @@
 {
   "neuron_id": "8_12677",
   "model": "deepseek/deepseek-v3.2",
-  "generated_at": "2026-02-23T05:29:45Z",
+  "generated_at": "2026-02-25T06:33:06Z",
   "explanation_used": "1. **Opening statement**: This neuron strongly responds to text segments containing multiple proper nouns in close proximity (such as person names paired with organizations, film titles with actors, or geographic locations with institutions).\n\n2. **Domain coverage**: The pattern appears across diverse domains including entertainment (film credits, music performances), international news (corporate deals, political events), sports reporting (athletes and teams), and multilingual contexts (Spanish, German, Greek, Hindi, etc.). It activates on text that densely packs specific named entities—often in journalistic, descriptive, or explanatory passages—regardless of language or topic.\n\n3. **Contrast with low-activation examples**: The high-activation texts consistently feature clusters of capitalized or otherwise marked proper nouns (e.g., “Jackman and… Rachel Weisz,” “Beijing to save ZTE,” “QB Trevor Lawrence… Clemson”), while low-activation examples either lack proper nouns entirely, use them sparingly, or embed them in more generic or hypothetical statements (e.g., “Email app Superhuman is rolling out support…” or “It seems odd to think…”).\n\n4. **Closing interpretation**: The neuron detects segments where named entities are centrally positioned and structurally highlighted, suggesting it functions as a “proper noun cluster” detector. It likely helps the model parse and attend to specific real-world references within a dense informational context.",
   "results": [
     {
@@ -11,7 +11,26 @@
       "normalized": 9.48780632019043,
       "actual_text": "ης Καλαμάτας, το οποίο σε ό,τι αφορά",
       "plain_text": "Αισθητά βελτιωμένη καταγράφεται τις τελευταίες ημέρες η εικόνα στο Νοσοκομείο της Καλαμάτας, το οποίο σε ό,τι αφορά στην εξέλιξη της πανδημίας, μοιάζει να ακολουθεί το δρόμο της αποκλιμάκωσης.  Η κατάσταση ωστόσο δεν είναι ακόμη σταθερή με τους ειδικούς να εφιστούν σε όλους την προσοχή και ειδικά στις ευπαθείς ομάδες του πληθυσμού και τους άνω των 60 ετών.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Αισθητά βελτιωμένη καταγράφεται τις τελευταίες ημέρες η εικόνα στο Νοσοκομείο της Καλαμάτας, το οποίο σε ό,τι αφορά στην εξέλιξη της πανδημίας, μοιάζει να ακολουθεί το δρόμο της αποκλιμάκωσης.",
+          "concept": "hospital reference",
+          "reasoning": "This section contains the proper noun 'Νοσοκομείο της Καλαμάτας', which is a named entity cluster."
+        },
+        {
+          "rank": 2,
+          "text": "Η κατάσταση ωστόσο δεν είναι ακόμη σταθερή με τους ειδικούς να εφιστούν σε όλους την προσοχή",
+          "concept": "general update",
+          "reasoning": "It lacks proper nouns and discusses general conditions without named entities."
+        },
+        {
+          "rank": 3,
+          "text": "και ειδικά στις ευπαθείς ομάδες του πληθυσμού και τους άνω των 60 ετών.",
+          "concept": "health advisory",
+          "reasoning": "This section has no proper nouns and focuses on population groups without specific references."
+        }
+      ]
     },
     {
       "example_idx": 2,
@@ -20,7 +39,26 @@
       "normalized": 8.701040267944336,
       "actual_text": "reports. Paula Allen, Global Leader and Senior Vice-President of Research at TELUS Health, told Glamour UK: “Monk mode has similar traits to the",
       "plain_text": "Heard of ‘monk mode’? It’s the latest TikTok trend. Image: Stanley Ng.  Heard of ‘monk mode’? It’s the latest TikTok trend. Image: Stanley Ng.  Ever heard of “monk mode”? It’s a great hack to boost productivity. ‘Monk mode’ is a hack that promises to boost productivity. But, some feel it might be detrimental to our mental health. According to Glamour UK, Monk mode is a period of enhanced focus, discipline, and productivity. TikTok swears by it, with many claiming it can enhance your career and even boost your bank balance. Inspired by the lifestyle of monks, “monk mode” is a period of enhanced focus, discipline, and productivity where you commit yourself to complete a goal by effectively cutting yourself off from colleagues and technology, Glamour UK reports. Paula Allen, Global Leader and Senior Vice-President of Research at TELUS Health, told Glamour UK: “Monk mode has similar traits to the digital detox trend where people have chosen to disconnect, slow down and counteract feelings of burnout.” “The term is popular among CEOs and entrepreneurs, but essentially it is the practice of solely working and focusing on one task and not giving in to distractions, especially turning to your phone. More practically speaking, it can mean turning off all your devices until you have completed your objective,” she says. Apparently it’s a practice being used by CEOs and entrepreneurs, but now TikTok is sharing their secret with the world. The trend is likely to be a part of a seismic shift in how people work. Glamour UK reports that it could help employees work harder, get promoted faster, and even secure a pay rise. “Benefits to come out of this trend include improved productivity and performance in the workplace as employees focus more on the task at hand to help get projects done.”  “Advice to people trying out monk mode is to start with shorter intervals of time, before building to hours or even days in some cases,” says Allen.  “Monk mode also allows employees to implement their own type of boundaries in their lives to ensure they are achieving their goals, whatever those may be.” “When an employee achieves their goals, they get a sense of satisfaction and reward, in turn making them more confident and happier at work,” she told Glamour UK.  According to the TELUS Health Mental Health Index, 48% of working Britons have too much to do during their workday, with 43% feeling more sensitive to stress than before the pandemic.  “Monk mode is all about helping to combat these challenges by allowing employees to prioritise the work they want to complete without getting overwhelmed by distractions or feeling overworked by incoming emails or calls from colleagues,” Allen explains during her interview with the publication.  But, as with all good things, if practiced in excess, “monk mode” can be detrimental to your health.  “A healthy working environment thrives on collaboration and open communication, yet monk mode promotes the complete opposite,” says Allen.  “In completely isolating yourself, you can get lonely, fall into a cycle of working too hard and get caught up in your own thoughts.”  “You may miss out on essential communication, support and interactions with others, all of which are fundamental to the functioning of a team and emotional and mental wellbeing.”",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "Paula Allen, Global Leader and Senior Vice-President of Research at TELUS Health, told Glamour UK: “Monk mode has similar traits to the digital detox trend where people have chosen to disconnect, slow down and counteract feelings of burnout.”",
+          "concept": "expert citation",
+          "reasoning": "It clusters multiple proper nouns including a person, organization, and publication in close proximity."
+        },
+        {
+          "rank": 2,
+          "text": "According to Glamour UK, Monk mode is a period of enhanced focus, discipline, and productivity. TikTok swears by it, with many claiming it can enhance your career and even boost your bank balance.",
+          "concept": "media mention",
+          "reasoning": "This section includes proper nouns Glamour UK and TikTok in close proximity."
+        },
+        {
+          "rank": 3,
+          "text": "According to the TELUS Health Mental Health Index, 48% of working Britons have too much to do during their workday, with 43% feeling more sensitive to stress than before the pandemic.",
+          "concept": "health index",
+          "reasoning": "It features the proper noun phrase TELUS Health Mental Health Index as a named entity."
+        }
+      ]
     },
     {
       "example_idx": 3,
@@ -29,7 +67,26 @@
       "normalized": 7.874019145965576,
       "actual_text": "by residents and officials in attendance. Member of Parliament for the region, Rajkumarie Bancroft said she pleased that the region is transitioning into a",
       "plain_text": "DPI, GUYANA, Thursday, November 09, 2017  Residents of Region Eight, Potaro Siparuni have benefitted from a workshop that will enhance their waste management.  The exercise which was hosted today, by the Guyana Geology and Mines Commission (GGMC) through the Ministry of Natural Resources in collaboration with the Environmental Protection Agency, is aimed at educating and sensitising residents from the region on the pros and cons of effective waste management.  Senior Environmental Officer, GGMC, Quincy Thom told the gathering, that the goal of the project is to boost the community’s waste management. He disclosed that works have commenced with the upgrade of the Mahdia dumpsite, which is some 70 percent cleared. Also, communities within the region will benefit from the distribution of 120 garbage bins for waste disposal.  Thom encouraged the residents to be informed especially on the Litter Act and responsible when disposing of their garbage.  Acting Environmental Officer in waste management, Jasmine Adams in her presentation noted that the objective of litter enforcement is the reduction of refuse and illegal dumping across Guyana.  Adams underscored that littering severely impacts society – with the spreading of vector-borne diseases to humans, prolonged periods of flooding due to blocked drains, an unsightly environment which negatively affecting tourism, and damage to wildlife.  According to the Acting Environmental Officer, laws governing littering and illegal dumping were passed in National Assembly in 2014. She reminded that the penalty for depositing litter in a public place is $15,000 per individual and $100, 000 for businesses.  However, for those business owners who cannot afford to pay their $100,000, Adams said there is a fixed penalty “where the offender accepts liability for any offense committed under the litter regulations and thus the fine is reduced to a fixed amount of $15, 000.” In cases of litter from vehicles or in public places, persons are charged $50,000 and businesses are charged $100,000.  Adams left some key reminders with the residents, including the prohibition on the burning of waste; to employ the option to bury or recycle their waste through composting and transport refuse to designated disposal sites.  The workshop was well received by residents and officials in attendance. Member of Parliament for the region, Rajkumarie Bancroft said she pleased that the region is transitioning into a township but the right approach must be taken.  “This is one of those approaches, where to have a clean environment is to have a healthy one. Soon we will be having township and lots of infrastructure will be put in place so I’m imploring to have your environment clean because when you do, you will have a healthy one.”  Regional Executive Officer, Gavin Gung also echoed the same sentiments emphasising that “we have to be mindful of keeping the environment clean so we can have a healthy environment as we continue with our daily activities.”  At the conclusion of the workshop, the garbage bins were presented to the region.    By: Ranetta La Fleur    Nov 09, 2017 DPI, Guyana, Thursday, November 09, 2017 Prime Minister Moses Nagamootoo, performing the functions of president, spent Thursday in Berbice where he addressed graduating students of the Corentyne Comprehensive High and the New Amsterdam Multilateral schools. A former student of the Corentyne... Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017  Nov 09, 2017",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The exercise which was hosted today, by the Guyana Geology and Mines Commission (GGMC) through the Ministry of Natural Resources in collaboration with the Environmental Protection Agency,",
+          "concept": "agency collaboration",
+          "reasoning": "This section clusters several government and environmental agencies as proper nouns."
+        },
+        {
+          "rank": 2,
+          "text": "DPI, GUYANA, Thursday, November 09, 2017 Residents of Region Eight, Potaro Siparuni have benefitted from a workshop that will enhance their waste management.",
+          "concept": "location and event",
+          "reasoning": "It contains multiple geographic and institutional proper nouns in close proximity."
+        },
+        {
+          "rank": 3,
+          "text": "Senior Environmental Officer, GGMC, Quincy Thom told the gathering, that the goal of the project is to boost the community’s waste management.",
+          "concept": "official statement",
+          "reasoning": "This section includes a person's name and organization as proper nouns."
+        }
+      ]
     },
     {
       "example_idx": 4,
@@ -38,7 +95,26 @@
       "normalized": 0.0,
       "actual_text": "It says much about the yearning of people to be free to express their opinions that",
       "plain_text": "It says much about the yearning of people to be free to express their opinions that so many took to the streets of Hong Kong yesterday knowing that a crackdown would follow. Just a day after a new security law took effect, more than 300 protesters were arrested, mostly for public order offences and unlawful assembly. Several were detained under the provisions of the controversial statute signed by Xi Jinping this week to suppress dissent in the former British colony. It was used against marchers waving independence flags which the Chinese call subversion because it questions their right to sovereignty over the territory.  Anyone attempting to change the legal status of Hong Kong faces life imprisonment if convicted as a ringleader or between three and 10 years in jail as a participant. One of those arrested under this provision was a 15-year-old girl.  The pro-democracy rally marked the anniversary of the July 1 handover of Hong Kong to China in 1997. The Joint Declaration was supposed to start a 50-year period where the former colony would maintain a different system from the rest of China, including greater freedom of speech and an independent judiciary. Beijing has now reneged on that agreement. The issues facing the UK Government as a consequence are profound.  The Foreign Secretary Dominic Raab has begun the process of offering a fast-track immigration route to eligible Hong Kong residents seeking to leave. More immediately, the Government is due to announce shortly whether to overturn its previous decision to allow the Chinese telecommunicationscompany Huawei to provide part of the UK’s 5G network. American sanctions targeted at 5G will affect Huawei’s viability, making it easier for the Government to back down for commercial reasons. But they should do so on political and diplomatic grounds so that Beijing understands there are consequences for its actions.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "More immediately, the Government is due to announce shortly whether to overturn its previous decision to allow the Chinese telecommunicationscompany Huawei to provide part of the UK’s 5G network. American sanctions targeted at 5G will affect Huawei’s viability,",
+          "concept": "tech and politics",
+          "reasoning": "It clusters proper nouns like Huawei, UK, 5G, and American sanctions in close proximity."
+        },
+        {
+          "rank": 2,
+          "text": "Several were detained under the provisions of the controversial statute signed by Xi Jinping this week to suppress dissent in the former British colony.",
+          "concept": "political figure",
+          "reasoning": "This section includes Xi Jinping and reference to British colony as proper nouns."
+        },
+        {
+          "rank": 3,
+          "text": "The Foreign Secretary Dominic Raab has begun the process of offering a fast-track immigration route to eligible Hong Kong residents seeking to leave.",
+          "concept": "government official",
+          "reasoning": "It features Dominic Raab and Hong Kong as proper nouns in close proximity."
+        }
+      ]
     },
     {
       "example_idx": 5,
@@ -47,7 +123,26 @@
       "normalized": 0.0,
       "actual_text": "The Deep Foundations Institute (DFI) and DFI Educational Trust 201",
       "plain_text": "The Deep Foundations Institute (DFI) and DFI Educational Trust 2017 Young Professor Paper Competition winner is Arash Khosravifar, Ph.D., P.E., from the geotechnical engineering group in civil and environmental engineering department at Portland State University (PSU). In the winning paper, “Development of a Design Guideline for Bridge Pile Foundations subjected to Liquefaction-induced Lateral Spreading,” Dr. Khosravifar, along with his co-author Jonathan Nasr, graduate student researcher at PSU, describe the development of new equivalent static analysis (ESA) methods that combine inertial and lateral spreading loads for estimating elastic and inelastic pile demands.  Effective-stress nonlinear dynamic analyses (NDA) were performed for piles in liquefiable sloped ground to assess inertia and liquefaction-induced lateral spreading in long-duration vs. short-duration seismic excitation. The authors performed a parametric study using a wide range of input motions and motion durations from subduction and crustal earthquakes. The NDA results indicated that the pile demands increased due to liquefaction-induced lateral spreading compared to nonliquefied conditions. In addition, the results of the NDA were used to evaluate the accuracy of the ESA methods recommended by Caltrans and Oregon DOT for estimating pile demands.  The first runner-up of the Young Professor Paper Competition is Hoyoung Seo, Ph.D., P.E., from Texas Tech University. Dr. Seo, along with co-author Mintae Kim, of Texas Tech University, wrote a paper titled “Soil Plug Behavior of Open-Ended Pipe Piles during Installation.”  The awards were presented at the DFI 42nd Annual Conference on Deep Foundations in October 2017 in New Orleans, where Khosravifar presented the winning paper to conference attendees. Each of the winners and runners-up will have their papers published in a future issue of the DFI Journal. They also received a library of up to 20 DFI publications along with a gratis two-year DFI Individual Membership.",
-      "predictions": []
+      "predictions": [
+        {
+          "rank": 1,
+          "text": "The Deep Foundations Institute (DFI) and DFI Educational Trust 2017 Young Professor Paper Competition winner is Arash Khosravifar, Ph.D., P.E., from the geotechnical engineering group in civil and environmental engineering department at Portland State University (PSU).",
+          "concept": "award announcement",
+          "reasoning": "This section contains multiple proper nouns including organizations, person, and university in close proximity."
+        },
+        {
+          "rank": 2,
+          "text": "In the winning paper, “Development of a Design Guideline for Bridge Pile Foundations subjected to Liquefaction-induced Lateral Spreading,” Dr. Khosravifar, along with his co-author Jonathan Nasr, graduate student researcher at PSU, describe the development of new equivalent static analysis (ESA) methods that combine inertial and lateral spreading loads for estimating elastic and inelastic pile demands.",
+          "concept": "research description",
+          "reasoning": "It includes proper nouns such as Dr. Khosravifar, Jonathan Nasr, and PSU in a dense cluster."
+        },
+        {
+          "rank": 3,
+          "text": "The first runner-up of the Young Professor Paper Competition is Hoyoung Seo, Ph.D., P.E., from Texas Tech University. Dr. Seo, along with co-author Mintae Kim, of Texas Tech University, wrote a paper titled “Soil Plug Behavior of Open-Ended Pipe Piles during Installation.”",
+          "concept": "runner-up mention",
+          "reasoning": "This section clusters proper nouns like Hoyoung Seo, Texas Tech University, and Mintae Kim."
+        }
+      ]
     }
   ]
 }
