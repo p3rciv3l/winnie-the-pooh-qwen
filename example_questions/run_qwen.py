@@ -3,13 +3,14 @@
 import json
 import torch
 from tqdm import tqdm
-from core import setup_source_model
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 MODEL_PATH = "./base-model"
 BATCH_SIZE = 32
 
-model, tokenizer = setup_source_model(MODEL_PATH)
-tokenizer.padding_side = "left"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, padding_side="left")
+tokenizer.pad_token = tokenizer.eos_token
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda")
 
 with open("example_questions/prompts.txt", "r") as f:
     prompts = [line.strip() for line in f if line.strip()]
