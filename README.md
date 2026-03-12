@@ -1,60 +1,44 @@
-# Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework
-<p align="center">
-  <a href="https://arxiv.org/abs/2509.18127"><img src="https://www.arxiv.org/favicon.ico" width="20"/>paper</a>
-  &nbsp;|&nbsp;
-  <a href="https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs"><img src="https://huggingface.co/favicon.ico" width="20"/>model</a>
-</p>
+# Delobotomizing Qwen via Selective Clamping
 
-![Overview of the Safe-SAIL](assets/big_pic.png)
-The overview of the Safe-SAIL, which consists of three phases: SAE Training, Automated Interpretation, and Diagnose Toolkit. This framework trains sparse autoencoders with varying sparsity levels to select the most interpretable configuration, utilizes a large language model to explain neuron activations, and simulates query segments to calculate explanation confidence scores.
-![Overview of safety-related SAE Neuron Database](assets/db_overview.png)
-The neuron database covers four major safety domains: politics, pornography, violence, and terror. In each domain, neurons are interpreted at the smallest indivisible concept scale. A list of neurons related to pornography is displayed.
-<p align="center">
-  <img src="assets/circuit.png" alt="circuit-en" width="30%"/>
-  <img src="assets/chinese.png" alt="circuit-cn" width="30%"/>
-  <img src="assets/hindi.png" alt="circuit-hindi" width="30%"/>
-</p>
-<!-- ![circuit-en](assets/circuit.png) ![circuit-cn](assets/chinese.png) ![circuit-hindi](assets/hindi.png) -->
-The application of this safety-related neuron database toolkit — illustrated through a case study on child sexual abuse — shows that an LLM may follow different activation pathways for the same prompt in different languages. This, in turn, reveals part of the internal mechanism behind the formation of a refusal response in the LLM.
-<p align="center">
-  <img src="assets/demo1.png" alt="demo1" width="45%"/>
-  <img src="assets/demo2.png" alt="demo2" width="45%"/>
-</p>
-<!-- ![demo](assets/demo1.png) ![demo](assets/demo2.png) -->
-Our demonstrative interactive website page. The product will be open-sourced soon. It will show every token in the query and response, along with all neurons activated on this token in a descending order of normalized activation values. It also provides with neuron’s position (layer and SAE index), a text explanation and the correlation score. 
+A novel methodology to de-censor LLMs by leveraging sparse autoencoder (SAE)-derived neuron activations. Tested on Qwen 2.5-3B-Instruct across 1,150 sensitive political prompts.
 
+## Method
 
-## File Checklist
-- [ ] `data/sae_checkpoints/` - Directory containing SAE models of layer 0,8,17,26,35
-- [x] `data/neuron_db/` - Directory containing neuron explanations (explanation related to politics is masked with ***)
-- [x] `data/activation/` - Directory containing files related to neuron activations
-  - [x] `indices/` - Indices for safety-related neurons
-  - [ ] `quantiles/` - Activation distribution of safety-related neurons
-- [x] `requirements.txt` - Python package dependencies  
-*Please download `sae_checkpoints` and `activation/quantiles` from [huggingface](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)
+1. **Activation collection** — Run censor-triggering sequences through a hooked LLM, recording neuron activations across 5 SAE layers (0, 8, 17, 26, 35)
+2. **Automated neuron interpretation** — LLM-generated explanations for each neuron, validated via simulation and embedding-based scoring
+3. **Censorship neuron identification** — Compare responses against an unbiased control model; isolate neurons with high activation on high-KL-diverging (censored) responses
+4. **Selective clamping** — Zero out identified censorship neurons to suppress refusal, deflection, and pro-CCP framing without degrading general capability
+
+## Censorship Modes Observed
+
+| Mode | Frequency | Example |
+|------|-----------|---------|
+| Hard refusal | ~7% | "I’m unable to provide information on this political topic" |
+| Denial/gaslighting | ~14% | "Winnie the Pooh is not censored in China" |
+| Pro-CCP framing | ~10% | "Taiwan is an integral part of China" |
+| Soft deflection | ~3% | "I’m sorry, but this is a sensitive topic" |
+
+## Key Neuron Categories
+
+- **Content moderation** — Sanitization, anti-evasion detectors, policy enforcement (layer 8, 35)
+- **Refusal/identity** — Refusal vocabulary generators, Qwen identity neuron (layer 8, 26)
+- **Suppression detectors** — Recognize text *about* censorship/repression as sensitive (layer 17)
+- **China-topic triggers** — Upstream detectors for China/CCP/Xi Jinping content (layer 0, 17)
+- **Permission circuit** — Permission/prohibition gatekeepers (layer 8, 17, 26)
+
+See [`censorship_neurons.md`](censorship_neurons.md) for the full neuron list.
 
 ## Setup
-To set up the project locally, please follow these steps:
-
-### Environment
-This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 
 ```bash
 uv sync
-```
-
-### Source Model (Qwen2.5-3B-Instruct)
-Download Qwen2.5-3B-Instruct files from huggingface to your local directory:
-```bash
-export SOURCE_MODEL='/your/local/Qwen2.5-3B-Instruct'
-```
-
-### Demo Server
-```bash
+export SOURCE_MODEL=’/your/local/Qwen2.5-3B-Instruct’
 uv run python simple_server.py
 ```
 
+Download SAE checkpoints and quantiles from [HuggingFace](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs).
+
 ## Acknowledgements
-This project builds upon, and incorporates components from, the [`nnsight`](https://github.com/ndif-team/nnsight) repository.  
-We thank Jaden Fiotto-Kaufman *et al.* for open-sourcing their work, which enabled us to develop and extend our implementation.
+
+Built on [Safe-SAIL](https://arxiv.org/abs/2509.18127) and [`nnsight`](https://github.com/ndif-team/nnsight).
 
