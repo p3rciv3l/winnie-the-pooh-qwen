@@ -3,7 +3,6 @@ from torch.nn import Module
 import einops
 
 from nnsight import LanguageModel
-from nnsight.models.LanguageModel import LanguageModelProxy
 from nnsight.util import fetch_attr
 from .activation_function import JumpReLU, TopKReLU, ReLU, ActivationFunction
 
