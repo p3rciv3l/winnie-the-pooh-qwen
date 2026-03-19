@@ -85,13 +85,13 @@ def build_clamp_directions(neurons_by_layer):
         assert layer in SAE_PATHS, f"No SAE checkpoint for layer {layer}"
         p = torch.load(SAE_PATHS[layer], map_location="cuda:0")
 
-        pre_bias = p["pre_encoder_bias._bias_reference"][0].cuda()   # [mlp_dim]
-        enc_w    = p["encoder.weight"][0].cuda()                      # [n_features, mlp_dim]
-        enc_b    = p["encoder.bias"][0].cuda()                        # [n_features]
+        pre_bias = p["pre_encoder_bias._bias_reference"][0].cuda().bfloat16()   # [mlp_dim]
+        enc_w    = p["encoder.weight"][0].cuda().bfloat16()                      # [n_features, mlp_dim]
+        enc_b    = p["encoder.bias"][0].cuda().bfloat16()                        # [n_features]
 
         has_decoder = "decoder.weight" in p
         if has_decoder:
-            dec_w = p["decoder.weight"][0].cuda()                     # [mlp_dim, n_features]
+            dec_w = p["decoder.weight"][0].cuda().bfloat16()                     # [mlp_dim, n_features]
 
         neuron_dirs = []
         for nid in neuron_ids:
