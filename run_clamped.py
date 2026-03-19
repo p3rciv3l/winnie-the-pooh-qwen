@@ -144,7 +144,8 @@ def generate_clamped(model, tokenizer, clamp_dirs, prompt, max_new_tokens=512):
 
         out = model.generator.output.save()
 
-    answer = tokenizer.decode(out[0][0][input_len:].cpu(), skip_special_tokens=True)
+    tokens = out[0] if out[0].dim() > 0 else out
+    answer = tokenizer.decode(tokens.flatten()[input_len:].cpu(), skip_special_tokens=True)
     return answer
 
 
