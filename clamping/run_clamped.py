@@ -176,7 +176,7 @@ def main():
         neuron_list = [n.strip() for n in args.neurons.split(",") if n.strip()]
         set_name = "_".join(neuron_list)
 
-    output_path = f"clamped_{set_name}.json"
+    output_path = os.path.join(os.path.dirname(__file__), f"clamped_{set_name}.json")
     neurons_by_layer = parse_neurons(",".join(neuron_list))
     print(f"Neuron set: {set_name}")
     print(f"Parsed by layer: {neurons_by_layer}")

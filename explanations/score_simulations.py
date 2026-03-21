@@ -11,9 +11,9 @@ parser.add_argument("--neurons", nargs="+", metavar="NEURON_ID", help="Specific 
 args = parser.parse_args()
 
 if args.neurons:
-    simulation_files = sorted(f"explanations/{nid}_simulation.json" for nid in args.neurons)
+    simulation_files = sorted(f"explanations/data/{nid}_simulation.json" for nid in args.neurons)
 else:
-    simulation_files = sorted(glob.glob("explanations/*_simulation.json"))
+    simulation_files = sorted(glob.glob("explanations/data/*_simulation.json"))
 print(f"Found {len(simulation_files)} simulation files")
 
 for filepath in tqdm(simulation_files, unit="neuron"):

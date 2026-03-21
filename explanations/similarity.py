@@ -41,7 +41,7 @@ def slices_overlap(slice_a, slice_b):
     return slice_a[0] < slice_b[1] and slice_b[0] < slice_a[1]
 
 if __name__ == "__main__":
-    simulation_files = sorted(glob.glob("explanations/*_simulation.json"))
+    simulation_files = sorted(glob.glob("explanations/data/*_simulation.json"))
     print(f"Found {len(simulation_files)} simulation files")
 
     for filepath in simulation_files:

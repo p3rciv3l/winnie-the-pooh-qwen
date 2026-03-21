@@ -29,7 +29,7 @@ from activation_collector.config import NEURONS
 
 DEFAULT_MODEL = "deepseek-v3.2"
 DEFAULT_INPUT_DIR = Path("activation_outputs")
-DEFAULT_OUTPUT_DIR = Path("explanations")
+DEFAULT_OUTPUT_DIR = Path("explanations/data")
 DEFAULT_SHARDS_DIR = Path("shards")
 
 
