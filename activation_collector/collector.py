@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 from core import get_acts, get_learned_activations, setup_source_model, setup_sae_encoder
 
-from .config import NEURONS, LAYERS, NEURONS_BY_LAYER 
+from .config import NEURONS, LAYERS, NEURONS_BY_LAYER, NEURON_SETS, build_neurons_by_layer
 from .heap_tracker import NeuronHeapTracker
 from .export import export_to_parquet
 
@@ -36,6 +36,7 @@ def collect_activations(
     shards_dir: Path = DEFAULT_SHARDS_DIR,
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     batch_size: int = 4,
+    neuron_set: str = "default",
 ):
     """
     Main collection loop using pre-tokenized shards.
@@ -46,14 +47,17 @@ def collect_activations(
     4. Update heaps for neurons we care about
     5. Export to parquet when done
     """
+    neurons = NEURON_SETS[neuron_set]
+    neurons_by_layer = build_neurons_by_layer(neurons)
+
     print(f"Loading model from {model_path}...")
     model, tokenizer = setup_source_model(model_path)
 
     print("Loading SAEs...")
     sae_encoders = setup_sae_encoder(sae_paths)
 
-    print(f"Tracking {len(NEURONS)} neurons across {len(LAYERS)} layers")
-    tracker = NeuronHeapTracker(NEURONS)
+    print(f"Tracking {len(neurons)} neurons ({neuron_set}) across {len(LAYERS)} layers")
+    tracker = NeuronHeapTracker(neurons)
 
     # Get all shard files
     shard_files = sorted(shards_dir.glob("*.parquet"))
@@ -105,7 +109,7 @@ def collect_activations(
                 learned = learned_flat.view(batch_size, seq_len, -1)
 
                 # Get neurons we care about for this layer
-                target_neurons = NEURONS_BY_LAYER[layer]
+                target_neurons = neurons_by_layer[layer]
                 if not target_neurons:
                     continue
 
@@ -153,6 +157,7 @@ if __name__ == "__main__":
     parser.add_argument("--shards-dir", type=Path, default=DEFAULT_SHARDS_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--neuron-set", default="default", choices=list(NEURON_SETS.keys()))
 
     args = parser.parse_args()
 
@@ -161,4 +166,5 @@ if __name__ == "__main__":
         shards_dir=args.shards_dir,
         output_dir=args.output_dir,
         batch_size=args.batch_size,
+        neuron_set=args.neuron_set,
     )

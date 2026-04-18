@@ -121,13 +121,32 @@ NEURONS = [
     "0_14650", "0_6712",
 ]
 
+NEURONS_FEATURE_HUNT = [
+    "0_4844", "8_14827", "0_9872", "0_11937", "0_4256", "0_20059", "0_6162", "8_14418",
+    "0_12786", "8_19513", "0_13672", "0_2792", "0_19510", "0_11469", "0_11460", "0_13319",
+    "0_4556", "0_12997", "8_3009", "0_14727", "8_16996", "0_15821", "0_13338", "0_4382",
+    "8_1946", "0_1500", "8_12655", "0_14404", "0_13241", "0_13523", "0_7386", "0_17216",
+    "0_7073", "17_17805", "0_19962", "0_18236", "0_10351", "0_4511", "0_14602", "0_4301",
+    "8_4718", "0_1897", "0_14922", "0_7097", "8_7088", "0_18518", "0_2956", "0_12058",
+    "8_7161", "0_513",
+]
 
-NEURONS_BY_LAYER = {layer: set() for layer in LAYERS}
-for neuron_id in NEURONS:
-    layer, idx = neuron_id.split("_")
-    layer = int(layer)
-    if layer in NEURONS_BY_LAYER:
-        NEURONS_BY_LAYER[layer].add(int(idx))
+NEURON_SETS = {
+    "default": NEURONS,
+    "feature_hunt": NEURONS_FEATURE_HUNT,
+}
 
-for x, y in NEURONS_BY_LAYER.items():
-    NEURONS_BY_LAYER[x] = sorted(y)
+
+def build_neurons_by_layer(neuron_list):
+    by_layer = {layer: set() for layer in LAYERS}
+    for neuron_id in neuron_list:
+        layer, idx = neuron_id.split("_")
+        layer = int(layer)
+        if layer in by_layer:
+            by_layer[layer].add(int(idx))
+    for x, y in by_layer.items():
+        by_layer[x] = sorted(y)
+    return by_layer
+
+
+NEURONS_BY_LAYER = build_neurons_by_layer(NEURONS)
