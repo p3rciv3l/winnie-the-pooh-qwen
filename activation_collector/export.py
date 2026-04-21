@@ -7,8 +7,6 @@ from pathlib import Path
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-from activation_collector.config import NEURONS
-
 from .heap_tracker import NeuronHeapTracker
 
 
@@ -33,7 +31,7 @@ def export_to_parquet(
 
     output_files = {}
 
-    for neuron_id in NEURONS:
+    for neuron_id in tracker.maximums.keys():
         bottom_k_records, top_k_records = tracker.get_top_and_bottom_k(neuron_id)
 
         if not top_k_records or not bottom_k_records:
